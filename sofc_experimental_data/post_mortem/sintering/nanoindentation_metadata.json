@@ -1,0 +1,14 @@
+{
+  "instrument": "Hysitron TI 950 TriboIndenter",
+  "tip_type": "Berkovich diamond",
+  "tip_radius_nm": 150,
+  "approach_velocity_nm_s": 10,
+  "loading_rate_mN_s": 0.5,
+  "hold_time_s": 30,
+  "unloading_rate_mN_s": 0.5,
+  "thermal_drift_correction": true,
+  "frame_stiffness_N_m": 1000000.0,
+  "poisson_ratio_sample": 0.3,
+  "poisson_ratio_indenter": 0.07,
+  "youngs_modulus_indenter_GPa": 1140
+}

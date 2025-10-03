@@ -1,0 +1,20 @@
+{
+  "instrument": "Oxford Instruments X-Max 80",
+  "voltage_kV": 20,
+  "beam_current_nA": 1.5,
+  "acquisition_time_s": 60,
+  "dead_time_percent": 25,
+  "elements_analyzed": [
+    "Ni",
+    "Zr",
+    "Y",
+    "Ce",
+    "Gd",
+    "La",
+    "Sr",
+    "Mn",
+    "O"
+  ],
+  "quantification_method": "Standardless ZAF",
+  "software": "AZtec 3.3"
+}
