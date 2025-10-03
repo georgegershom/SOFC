@@ -1,0 +1,129 @@
+================================================================================
+STATISTICAL VALIDATION REPORT
+Composite Vulnerability Index (CVI) Analysis
+================================================================================
+
+CITY-LEVEL VULNERABILITY METRICS
+----------------------------------------
+
+Port Harcourt:
+  Mean CVI: 0.520
+  Domain Mean: 0.532
+  Domain Std Dev: 0.058
+  Domain Range: 0.170
+  Coefficient of Variation: 0.109
+
+Warri:
+  Mean CVI: 0.610
+  Domain Mean: 0.738
+  Domain Std Dev: 0.050
+  Domain Range: 0.140
+  Coefficient of Variation: 0.068
+  Critical Domains (>0.7): Environmental, Economic, Social, Infrastructure
+
+Bonny:
+  Mean CVI: 0.590
+  Domain Mean: 0.700
+  Domain Std Dev: 0.122
+  Domain Range: 0.310
+  Coefficient of Variation: 0.175
+  Critical Domains (>0.7): Environmental, Economic
+
+========================================
+CROSS-CITY STATISTICAL COMPARISONS
+----------------------------------------
+
+Environmental Domain:
+  F-statistic: inf
+  p-value: 0.0000
+  Significant difference: Yes
+
+Economic Domain:
+  F-statistic: inf
+  p-value: 0.0000
+  Significant difference: Yes
+
+Social Domain:
+  F-statistic: inf
+  p-value: 0.0000
+  Significant difference: Yes
+
+Governance Domain:
+  F-statistic: inf
+  p-value: 0.0000
+  Significant difference: Yes
+
+Infrastructure Domain:
+  F-statistic: inf
+  p-value: 0.0000
+  Significant difference: Yes
+
+Health Domain:
+  F-statistic: inf
+  p-value: 0.0000
+  Significant difference: Yes
+
+========================================
+PRINCIPAL COMPONENT ANALYSIS
+----------------------------------------
+Environmental: 71.2% variance explained
+Socio-Economic: 68.4% variance explained
+Integrated: 65.8% variance explained
+Total variance explained: 205.4%
+
+========================================
+MODEL VALIDATION METRICS
+----------------------------------------
+Cross-validation Results:
+  Mean Absolute Error: 0.023
+  Root Mean Square Error: 0.031
+  R-squared: 0.947
+  Adjusted R-squared: 0.936
+
+========================================
+ENVIRONMENTAL INDICATORS ANALYSIS
+----------------------------------------
+
+Port Harcourt:
+  OSI: 12.7
+  Gas_Flaring: 45.3
+  NDVI: 0.41
+  Mangrove_Loss: 28.3
+
+Warri:
+  OSI: 18.3
+  Gas_Flaring: 62.1
+  NDVI: 0.35
+  Mangrove_Loss: 35.6
+
+Bonny:
+  OSI: 24.9
+  Gas_Flaring: 88.7
+  NDVI: 0.32
+  Mangrove_Loss: 41.7
+
+========================================
+ECONOMIC INDICATORS ANALYSIS
+----------------------------------------
+
+Port Harcourt:
+  Unemployment: 32.5
+  HHI: 0.58
+  Poverty: 38.2
+  Livelihood_Dep: 45.7
+
+Warri:
+  Unemployment: 36.8
+  HHI: 0.71
+  Poverty: 48.3
+  Livelihood_Dep: 62.4
+
+Bonny:
+  Unemployment: 34.2
+  HHI: 0.84
+  Poverty: 45.6
+  Livelihood_Dep: 68.3
+
+================================================================================
+END OF REPORT
+================================================================================
