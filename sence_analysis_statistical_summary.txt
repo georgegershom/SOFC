@@ -1,0 +1,39 @@
+SENCE Framework Statistical Summary
+==================================================
+
+Model Performance Metrics:
+  r_squared: -0.4776
+  rmse: 0.0469
+  mean_absolute_error: 0.0333
+  correlation: -0.9522
+
+Domain Statistics:
+  Environmental:
+    mean: 0.4769
+    std: 0.0642
+    min: 0.4227
+    max: 0.5477
+    cv: 0.1345
+  Economic:
+    mean: 0.3885
+    std: 0.0646
+    min: 0.3234
+    max: 0.4526
+    cv: 0.1663
+  Social:
+    mean: 0.1346
+    std: 0.0136
+    min: 0.1248
+    max: 0.1501
+    cv: 0.1011
+
+City Vulnerability Profiles:
+  Port Harcourt (The City That Spins):
+    Dominant Domain: Economic
+    Domain Balance (σ): 0.1812
+  Warri (Compound Vortex Linked to Industry):
+    Dominant Domain: Environmental
+    Domain Balance (σ): 0.1626
+  Bonny (The Center of Environmental Issues):
+    Dominant Domain: Environmental
+    Domain Balance (σ): 0.2096

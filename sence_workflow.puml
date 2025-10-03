@@ -1,0 +1,469 @@
+@startuml SENCE_Vulnerability_Assessment_Workflow
+!theme aws-orange
+!define RECTANGLE class
+
+title SENCE Framework: Vulnerability Assessment Workflow
+subtitle Socio-Economic Natural Compound Ecosystem Analysis for Niger Delta Cities
+
+skinparam backgroundColor #FAFAFA
+skinparam defaultFontName Arial
+skinparam defaultFontSize 10
+skinparam titleFontSize 16
+skinparam titleFontColor #2E86AB
+skinparam subtitleFontSize 12
+skinparam subtitleFontColor #666666
+
+' Define custom colors
+skinparam class {
+    BackgroundColor<<DataSource>> #E3F2FD
+    BorderColor<<DataSource>> #1976D2
+    BackgroundColor<<Processing>> #F3E5F5
+    BorderColor<<Processing>> #7B1FA2
+    BackgroundColor<<Environmental>> #E8F5E8
+    BorderColor<<Environmental>> #388E3C
+    BackgroundColor<<Economic>> #FFF3E0
+    BorderColor<<Economic>> #F57C00
+    BackgroundColor<<Social>> #FCE4EC
+    BorderColor<<Social>> #C2185B
+    BackgroundColor<<Analysis>> #F1F8E9
+    BorderColor<<Analysis>> #689F38
+    BackgroundColor<<CVI>> #FFF8E1
+    BorderColor<<CVI>> #FBC02D
+    BackgroundColor<<Output>> #E0F2F1
+    BorderColor<<Output>> #00796B
+}
+
+package "Data Collection Phase" {
+    RECTANGLE HouseholdSurveys <<DataSource>> {
+        + Sample Size: 1,200+ households
+        + Socio-economic indicators
+        + Livelihood patterns
+        + Infrastructure access
+        + Community perceptions
+        --
+        + collectSurveyData()
+        + validateResponses()
+        + geocodeLocations()
+    }
+    
+    RECTANGLE GeospatialData <<DataSource>> {
+        + Landsat 8 imagery
+        + Sentinel-2 data
+        + Digital elevation models
+        + Land use/land cover
+        + Oil spill locations
+        --
+        + downloadSatelliteData()
+        + preprocessImages()
+        + calculateIndices()
+    }
+    
+    RECTANGLE EnvironmentalIndices <<DataSource>> {
+        + NDVI (vegetation health)
+        + NDWI (water quality)
+        + LST (temperature anomalies)
+        + Gas flaring radiance
+        + Mangrove coverage
+        --
+        + computeNDVI()
+        + computeNDWI()
+        + computeLST()
+        + extractGasFlaring()
+    }
+    
+    RECTANGLE AdministrativeData <<DataSource>> {
+        + Census data
+        + Government statistics
+        + Infrastructure records
+        + Economic indicators
+        + Health/education data
+        --
+        + accessGovernmentDB()
+        + standardizeFormats()
+        + validateCompleteness()
+    }
+}
+
+package "Data Processing & Integration" {
+    RECTANGLE DataCleaning <<Processing>> {
+        + Quality control checks
+        + Outlier detection
+        + Missing value imputation
+        + Consistency validation
+        --
+        + detectOutliers()
+        + imputeMissingValues()
+        + validateConsistency()
+        + generateQualityReport()
+    }
+    
+    RECTANGLE SpatialAnalysis <<Processing>> {
+        + Zonal statistics
+        + Buffer analysis
+        + Spatial interpolation
+        + Coordinate transformation
+        --
+        + performZonalStats()
+        + createBuffers()
+        + interpolateSpatially()
+        + transformCoordinates()
+    }
+    
+    RECTANGLE Normalization <<Processing>> {
+        + Min-Max scaling (0-1)
+        + Z-score standardization
+        + Robust scaling
+        + Domain-specific weights
+        --
+        + minMaxScale()
+        + zScoreNormalize()
+        + robustScale()
+        + applyDomainWeights()
+    }
+}
+
+package "SENCE Framework Core" {
+    package "Environmental Domain" {
+        RECTANGLE OilSpillImpact <<Environmental>> {
+            + OSI Index calculation
+            + Severity mapping
+            + Temporal analysis
+            + Impact assessment
+            --
+            Range: 12.7 - 24.9
+            Weight: 0.167
+            --
+            + calculateOSI()
+            + mapSeverity()
+            + assessImpact()
+        }
+        
+        RECTANGLE GasFlaring <<Environmental>> {
+            + Radiance measurement
+            + Proximity analysis
+            + Health impact modeling
+            --
+            Range: 45.3 - 88.7 nW/cm²/sr
+            Weight: 0.167
+            --
+            + measureRadiance()
+            + analyzeProximity()
+            + modelHealthImpact()
+        }
+        
+        RECTANGLE VegetationHealth <<Environmental>> {
+            + NDVI computation
+            + Trend analysis
+            + Degradation mapping
+            --
+            Range: 0.32 - 0.41
+            Weight: 0.166
+            --
+            + computeNDVI()
+            + analyzeTrends()
+            + mapDegradation()
+        }
+    }
+    
+    package "Economic Domain" {
+        RECTANGLE UnemploymentRate <<Economic>> {
+            + Labor force analysis
+            + Sectoral breakdown
+            + Youth unemployment
+            --
+            Range: 29.4% - 36.8%
+            Weight: 0.165
+            --
+            + analyzeLaborForce()
+            + breakdownSectors()
+            + assessYouthUnemployment()
+        }
+        
+        RECTANGLE EconomicDiversity <<Economic>> {
+            + HHI calculation
+            + Sector concentration
+            + Diversification index
+            --
+            Range: 0.58 - 0.84
+            Weight: 0.165
+            --
+            + calculateHHI()
+            + measureConcentration()
+            + computeDiversification()
+        }
+    }
+    
+    package "Social Domain" {
+        RECTANGLE HealthcareAccess <<Social>> {
+            + Facility mapping
+            + Service availability
+            + Quality assessment
+            --
+            Range: 0.38 - 0.54
+            Weight: 0.16
+            --
+            + mapFacilities()
+            + assessAvailability()
+            + evaluateQuality()
+        }
+        
+        RECTANGLE CommunityResilience <<Social>> {
+            + Social capital index
+            + Cohesion measurement
+            + Adaptive capacity
+            --
+            Range: 0.33 - 0.52
+            Weight: 0.16
+            --
+            + measureSocialCapital()
+            + assessCohesion()
+            + evaluateAdaptiveCapacity()
+        }
+    }
+}
+
+package "Statistical Analysis & Modeling" {
+    RECTANGLE PrincipalComponentAnalysis <<Analysis>> {
+        + Dimensionality reduction
+        + Variance explanation
+        + Component interpretation
+        + Loading analysis
+        --
+        Environmental: 71.2% variance
+        Economic: 68.4% variance
+        Social: 69.8% variance
+        --
+        + performPCA()
+        + explainVariance()
+        + interpretComponents()
+        + analyzeLoadings()
+    }
+    
+    RECTANGLE CorrelationAnalysis <<Analysis>> {
+        + Pearson correlations
+        + Spearman rank correlations
+        + Partial correlations
+        + Network analysis
+        --
+        + computePearsonCorr()
+        + computeSpearmanCorr()
+        + computePartialCorr()
+        + performNetworkAnalysis()
+    }
+    
+    RECTANGLE ClusterAnalysis <<Analysis>> {
+        + K-means clustering
+        + Hierarchical clustering
+        + Silhouette analysis
+        + Typology development
+        --
+        + performKMeans()
+        + performHierarchical()
+        + computeSilhouette()
+        + developTypology()
+    }
+}
+
+package "CVI Calculation & Validation" {
+    RECTANGLE DomainWeighting <<CVI>> {
+        + Environmental: 35%
+        + Economic: 33%
+        + Social: 32%
+        + Expert validation
+        --
+        + applyDomainWeights()
+        + validateWithExperts()
+        + sensitivityAnalysis()
+    }
+    
+    RECTANGLE MultiplicativeModel <<CVI>> {
+        + Non-linear interactions
+        + Compound effects
+        + Feedback loops
+        + System dynamics
+        --
+        CVI = Π(Domain_i^weight_i)
+        --
+        + calculateCompoundEffects()
+        + modelFeedbackLoops()
+        + simulateSystemDynamics()
+    }
+    
+    RECTANGLE ModelValidation <<CVI>> {
+        + Cross-validation
+        + Bootstrap sampling
+        + Sensitivity analysis
+        + Robustness testing
+        --
+        R² = 0.847
+        RMSE = 0.023
+        MAE = 0.018
+        --
+        + performCrossValidation()
+        + bootstrapSample()
+        + sensitivityAnalysis()
+        + testRobustness()
+    }
+}
+
+package "Visualization & Results" {
+    RECTANGLE RadarChart <<Output>> {
+        + Domain contributions
+        + City comparisons
+        + Vulnerability signatures
+        + Interactive features
+        --
+        + generateRadarChart()
+        + compareCities()
+        + identifySignatures()
+        + addInteractivity()
+    }
+    
+    RECTANGLE ThematicMaps <<Output>> {
+        + Spatial visualization
+        + Hotspot identification
+        + Multi-scale analysis
+        + Cartographic design
+        --
+        + createThematicMaps()
+        + identifyHotspots()
+        + performMultiScale()
+        + applyCartographicDesign()
+    }
+    
+    RECTANGLE StatisticalReports <<Output>> {
+        + Performance metrics
+        + Confidence intervals
+        + Uncertainty analysis
+        + Policy recommendations
+        --
+        + generateMetrics()
+        + computeConfidenceIntervals()
+        + analyzeUncertainty()
+        + developRecommendations()
+    }
+}
+
+package "City Vulnerability Profiles" {
+    RECTANGLE PortHarcourt <<Output>> {
+        + "The City That Spins"
+        + CVI: 0.52
+        + Balanced vulnerability
+        + Urban complexity
+        --
+        Population: 1,865,000
+        Dominant: Social-Economic
+        Balance Score: 0.089
+        --
+        + analyzeUrbanComplexity()
+        + assessBalancedVulnerability()
+    }
+    
+    RECTANGLE Warri <<Output>> {
+        + "Compound Vortex"
+        + CVI: 0.61
+        + Industrial amplification
+        + Multi-domain stress
+        --
+        Population: 311,970
+        Dominant: Environmental-Economic
+        Balance Score: 0.142
+        --
+        + analyzeIndustrialImpact()
+        + assessCompoundEffects()
+    }
+    
+    RECTANGLE Bonny <<Output>> {
+        + "Environmental Center"
+        + CVI: 0.59
+        + Ecological dominance
+        + Point-source pollution
+        --
+        Population: 215,358
+        Dominant: Environmental
+        Balance Score: 0.156
+        --
+        + analyzeEcologicalDominance()
+        + assessPointSourcePollution()
+    }
+}
+
+' Relationships and Data Flow
+HouseholdSurveys --> DataCleaning
+GeospatialData --> SpatialAnalysis
+EnvironmentalIndices --> SpatialAnalysis
+AdministrativeData --> DataCleaning
+
+DataCleaning --> Normalization
+SpatialAnalysis --> Normalization
+
+Normalization --> OilSpillImpact
+Normalization --> GasFlaring
+Normalization --> VegetationHealth
+Normalization --> UnemploymentRate
+Normalization --> EconomicDiversity
+Normalization --> HealthcareAccess
+Normalization --> CommunityResilience
+
+OilSpillImpact --> PrincipalComponentAnalysis
+GasFlaring --> PrincipalComponentAnalysis
+VegetationHealth --> PrincipalComponentAnalysis
+
+UnemploymentRate --> CorrelationAnalysis
+EconomicDiversity --> CorrelationAnalysis
+
+HealthcareAccess --> ClusterAnalysis
+CommunityResilience --> ClusterAnalysis
+
+PrincipalComponentAnalysis --> DomainWeighting
+CorrelationAnalysis --> MultiplicativeModel
+ClusterAnalysis --> ModelValidation
+
+DomainWeighting --> RadarChart
+MultiplicativeModel --> ThematicMaps
+ModelValidation --> StatisticalReports
+
+RadarChart --> PortHarcourt
+RadarChart --> Warri
+RadarChart --> Bonny
+
+' Feedback loops (compound effects)
+MultiplicativeModel ..> OilSpillImpact : feedback
+MultiplicativeModel ..> UnemploymentRate : feedback
+MultiplicativeModel ..> HealthcareAccess : feedback
+
+note top of HouseholdSurveys
+    **Primary Data Collection**
+    - Structured questionnaires
+    - GPS coordinates
+    - Quality control protocols
+    - Ethical approval obtained
+end note
+
+note top of PrincipalComponentAnalysis
+    **Dimensionality Reduction**
+    - Kaiser criterion (eigenvalue > 1)
+    - Varimax rotation
+    - Component interpretation
+    - Variance threshold: 60%
+end note
+
+note top of MultiplicativeModel
+    **Compound Vulnerability Model**
+    CVI = (ENV^0.35) × (ECO^0.33) × (SOC^0.32)
+    
+    Where multiplicative effects capture
+    non-linear interactions and
+    system-wide amplification
+end note
+
+note bottom of RadarChart
+    **Radar Chart Features**
+    - Normalized contributions (0-1)
+    - City-specific polygons
+    - Interactive tooltips
+    - Statistical validation overlay
+    - Publication-ready quality
+end note
+
+@enduml
