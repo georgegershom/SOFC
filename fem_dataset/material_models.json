@@ -1,0 +1,114 @@
+{
+  "aluminum": {
+    "id": 1,
+    "name": "Aluminum",
+    "elastic": {
+      "youngs_modulus": 70000000000.0,
+      "poissons_ratio": 0.33,
+      "density": 2700
+    },
+    "plastic": {
+      "yield_strength": 276000000.0,
+      "hardening_modulus": 2000000000.0,
+      "hardening_exponent": 0.15
+    },
+    "thermal": {
+      "conductivity": 237,
+      "specific_heat": 900,
+      "expansion_coefficient": 2.31e-05,
+      "melting_point": 933.15
+    },
+    "electrochemical": {
+      "electrical_conductivity": 37700000.0,
+      "diffusion_coefficient": 1e-14,
+      "exchange_current_density": 0.1
+    }
+  },
+  "copper": {
+    "id": 2,
+    "name": "Copper",
+    "elastic": {
+      "youngs_modulus": 110000000000.0,
+      "poissons_ratio": 0.34,
+      "density": 8960
+    },
+    "plastic": {
+      "yield_strength": 210000000.0,
+      "hardening_modulus": 1500000000.0,
+      "hardening_exponent": 0.12
+    },
+    "thermal": {
+      "conductivity": 401,
+      "specific_heat": 385,
+      "expansion_coefficient": 1.65e-05,
+      "melting_point": 1357.77
+    },
+    "electrochemical": {
+      "electrical_conductivity": 59600000.0,
+      "diffusion_coefficient": 5e-15,
+      "exchange_current_density": 0.05
+    }
+  },
+  "polymer": {
+    "id": 3,
+    "name": "Polymer_Separator",
+    "elastic": {
+      "youngs_modulus": 2000000000.0,
+      "poissons_ratio": 0.4,
+      "density": 1200
+    },
+    "creep": {
+      "creep_coefficient": 1e-20,
+      "stress_exponent": 4.5,
+      "activation_energy": 180000.0,
+      "temperature_dependence": true
+    },
+    "thermal": {
+      "conductivity": 0.2,
+      "specific_heat": 1500,
+      "expansion_coefficient": 8e-05,
+      "glass_transition": 373.15
+    },
+    "electrochemical": {
+      "electrical_conductivity": 1e-08,
+      "ionic_conductivity": 0.001,
+      "diffusion_coefficient": 1e-12
+    }
+  },
+  "ceramic": {
+    "id": 4,
+    "name": "Ceramic_Coating",
+    "elastic": {
+      "youngs_modulus": 380000000000.0,
+      "poissons_ratio": 0.22,
+      "density": 3950
+    },
+    "thermal": {
+      "conductivity": 25,
+      "specific_heat": 750,
+      "expansion_coefficient": 8.5e-06,
+      "melting_point": 2323.15
+    },
+    "damage": {
+      "critical_stress": 150000000.0,
+      "fracture_energy": 25,
+      "damage_evolution_law": "exponential"
+    }
+  },
+  "interface": {
+    "id": 5,
+    "name": "Interface_Layer",
+    "cohesive": {
+      "normal_strength": 50000000.0,
+      "shear_strength": 35000000.0,
+      "normal_stiffness": 1000000000000.0,
+      "shear_stiffness": 500000000000.0,
+      "fracture_energy_I": 100,
+      "fracture_energy_II": 250
+    },
+    "thermal": {
+      "conductivity": 1.5,
+      "resistance": 1e-06
+    }
+  }
+}
