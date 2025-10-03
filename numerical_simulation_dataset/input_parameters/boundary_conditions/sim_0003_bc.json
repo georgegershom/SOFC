@@ -1,0 +1,22 @@
+{
+  "mechanical": {
+    "type": "force",
+    "displacement_x": 0,
+    "displacement_y": 0.07992294519045554,
+    "displacement_z": -0.009558836222076206,
+    "force_x": 0,
+    "force_y": 0,
+    "force_z": -344.85629046267684
+  },
+  "thermal": {
+    "type": "convection",
+    "h_convection": 16.235865349420266,
+    "T_ambient": 25,
+    "heat_flux": 914.6955171385064
+  },
+  "electrical": {
+    "voltage_applied": 3.070712846089562,
+    "current_density": 2.8408352683628495,
+    "charge_rate": 1.2467038157592298
+  }
+}
