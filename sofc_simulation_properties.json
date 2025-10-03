@@ -1,0 +1,62 @@
+{
+  "ni_ysz_anode": {
+    "density": 6800,
+    "youngs_modulus": 45000000000.0,
+    "poissons_ratio": 0.31,
+    "thermal_expansion": 1.25e-05,
+    "thermal_conductivity": 6.2,
+    "specific_heat": 450,
+    "ionic_conductivity": 0.02,
+    "electronic_conductivity": 15000
+  },
+  "8ysz_electrolyte": {
+    "density": 6100,
+    "youngs_modulus": 200000000000.0,
+    "poissons_ratio": 0.31,
+    "thermal_expansion": 1.08e-05,
+    "thermal_conductivity": 2.16,
+    "specific_heat": 470,
+    "ionic_conductivity": 0.13,
+    "electronic_conductivity": 1e-08
+  },
+  "lsm_cathode": {
+    "density": 6500,
+    "youngs_modulus": 120000000000.0,
+    "poissons_ratio": 0.28,
+    "thermal_expansion": 1.12e-05,
+    "thermal_conductivity": 3.4,
+    "specific_heat": 420,
+    "ionic_conductivity": 0.008,
+    "electronic_conductivity": 280
+  },
+  "crofer22_interconnect": {
+    "density": 7800,
+    "youngs_modulus": 220000000000.0,
+    "poissons_ratio": 0.3,
+    "thermal_expansion": 1.18e-05,
+    "thermal_conductivity": 25.0,
+    "specific_heat": 460,
+    "ionic_conductivity": 1e-10,
+    "electronic_conductivity": 850000
+  },
+  "lscf_cathode": {
+    "density": 6800,
+    "youngs_modulus": 95000000000.0,
+    "poissons_ratio": 0.26,
+    "thermal_expansion": 1.58e-05,
+    "thermal_conductivity": 2.8,
+    "specific_heat": 440,
+    "ionic_conductivity": 0.15,
+    "electronic_conductivity": 450
+  },
+  "cgd_electrolyte": {
+    "density": 7200,
+    "youngs_modulus": 180000000000.0,
+    "poissons_ratio": 0.32,
+    "thermal_expansion": 1.28e-05,
+    "thermal_conductivity": 2.8,
+    "specific_heat": 380,
+    "ionic_conductivity": 0.08,
+    "electronic_conductivity": 5e-06
+  }
+}
