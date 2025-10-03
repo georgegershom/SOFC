@@ -1,0 +1,137 @@
+{
+  "temperature_profiles": {
+    "optimal_profile_1": {
+      "cooling_rate": 1.0,
+      "profile_data": [
+        {"time_min": 0, "temperature_c": 1450, "phase": "holding"},
+        {"time_min": 30, "temperature_c": 1450, "phase": "holding"},
+        {"time_min": 60, "temperature_c": 1450, "phase": "holding"},
+        {"time_min": 90, "temperature_c": 1450, "phase": "holding"},
+        {"time_min": 120, "temperature_c": 1450, "phase": "holding"},
+        {"time_min": 150, "temperature_c": 1420, "phase": "cooling"},
+        {"time_min": 180, "temperature_c": 1390, "phase": "cooling"},
+        {"time_min": 210, "temperature_c": 1360, "phase": "cooling"},
+        {"time_min": 240, "temperature_c": 1330, "phase": "cooling"},
+        {"time_min": 270, "temperature_c": 1300, "phase": "cooling"},
+        {"time_min": 300, "temperature_c": 1270, "phase": "cooling"},
+        {"time_min": 330, "temperature_c": 1240, "phase": "cooling"},
+        {"time_min": 360, "temperature_c": 1210, "phase": "cooling"},
+        {"time_min": 420, "temperature_c": 1150, "phase": "cooling"},
+        {"time_min": 480, "temperature_c": 1090, "phase": "cooling"},
+        {"time_min": 540, "temperature_c": 1030, "phase": "cooling"},
+        {"time_min": 600, "temperature_c": 970, "phase": "cooling"},
+        {"time_min": 720, "temperature_c": 850, "phase": "cooling"},
+        {"time_min": 840, "temperature_c": 730, "phase": "cooling"},
+        {"time_min": 960, "temperature_c": 610, "phase": "cooling"},
+        {"time_min": 1080, "temperature_c": 490, "phase": "cooling"},
+        {"time_min": 1200, "temperature_c": 370, "phase": "cooling"},
+        {"time_min": 1320, "temperature_c": 250, "phase": "cooling"},
+        {"time_min": 1440, "temperature_c": 130, "phase": "cooling"},
+        {"time_min": 1500, "temperature_c": 70, "phase": "cooling"},
+        {"time_min": 1530, "temperature_c": 40, "phase": "cooling"},
+        {"time_min": 1550, "temperature_c": 25, "phase": "cooling"}
+      ],
+      "quality_metrics": {
+        "thermal_gradient_uniformity": 0.95,
+        "crack_formation_risk": 0.08,
+        "residual_stress_level": "low"
+      }
+    },
+    "optimal_profile_2": {
+      "cooling_rate": 1.5,
+      "profile_data": [
+        {"time_min": 0, "temperature_c": 1450, "phase": "holding"},
+        {"time_min": 30, "temperature_c": 1450, "phase": "holding"},
+        {"time_min": 60, "temperature_c": 1450, "phase": "holding"},
+        {"time_min": 90, "temperature_c": 1450, "phase": "holding"},
+        {"time_min": 120, "temperature_c": 1450, "phase": "holding"},
+        {"time_min": 140, "temperature_c": 1420, "phase": "cooling"},
+        {"time_min": 160, "temperature_c": 1390, "phase": "cooling"},
+        {"time_min": 180, "temperature_c": 1360, "phase": "cooling"},
+        {"time_min": 200, "temperature_c": 1330, "phase": "cooling"},
+        {"time_min": 220, "temperature_c": 1300, "phase": "cooling"},
+        {"time_min": 240, "temperature_c": 1270, "phase": "cooling"},
+        {"time_min": 260, "temperature_c": 1240, "phase": "cooling"},
+        {"time_min": 280, "temperature_c": 1210, "phase": "cooling"},
+        {"time_min": 320, "temperature_c": 1150, "phase": "cooling"},
+        {"time_min": 360, "temperature_c": 1090, "phase": "cooling"},
+        {"time_min": 400, "temperature_c": 1030, "phase": "cooling"},
+        {"time_min": 440, "temperature_c": 970, "phase": "cooling"},
+        {"time_min": 520, "temperature_c": 850, "phase": "cooling"},
+        {"time_min": 600, "temperature_c": 730, "phase": "cooling"},
+        {"time_min": 680, "temperature_c": 610, "phase": "cooling"},
+        {"time_min": 760, "temperature_c": 490, "phase": "cooling"},
+        {"time_min": 840, "temperature_c": 370, "phase": "cooling"},
+        {"time_min": 920, "temperature_c": 250, "phase": "cooling"},
+        {"time_min": 1000, "temperature_c": 130, "phase": "cooling"},
+        {"time_min": 1040, "temperature_c": 70, "phase": "cooling"},
+        {"time_min": 1060, "temperature_c": 40, "phase": "cooling"},
+        {"time_min": 1070, "temperature_c": 25, "phase": "cooling"}
+      ],
+      "quality_metrics": {
+        "thermal_gradient_uniformity": 0.92,
+        "crack_formation_risk": 0.12,
+        "residual_stress_level": "medium"
+      }
+    },
+    "optimal_profile_3": {
+      "cooling_rate": 2.0,
+      "profile_data": [
+        {"time_min": 0, "temperature_c": 1450, "phase": "holding"},
+        {"time_min": 30, "temperature_c": 1450, "phase": "holding"},
+        {"time_min": 60, "temperature_c": 1450, "phase": "holding"},
+        {"time_min": 90, "temperature_c": 1450, "phase": "holding"},
+        {"time_min": 120, "temperature_c": 1450, "phase": "holding"},
+        {"time_min": 135, "temperature_c": 1420, "phase": "cooling"},
+        {"time_min": 150, "temperature_c": 1390, "phase": "cooling"},
+        {"time_min": 165, "temperature_c": 1360, "phase": "cooling"},
+        {"time_min": 180, "temperature_c": 1330, "phase": "cooling"},
+        {"time_min": 195, "temperature_c": 1300, "phase": "cooling"},
+        {"time_min": 210, "temperature_c": 1270, "phase": "cooling"},
+        {"time_min": 225, "temperature_c": 1240, "phase": "cooling"},
+        {"time_min": 240, "temperature_c": 1210, "phase": "cooling"},
+        {"time_min": 270, "temperature_c": 1150, "phase": "cooling"},
+        {"time_min": 300, "temperature_c": 1090, "phase": "cooling"},
+        {"time_min": 330, "temperature_c": 1030, "phase": "cooling"},
+        {"time_min": 360, "temperature_c": 970, "phase": "cooling"},
+        {"time_min": 420, "temperature_c": 850, "phase": "cooling"},
+        {"time_min": 480, "temperature_c": 730, "phase": "cooling"},
+        {"time_min": 540, "temperature_c": 610, "phase": "cooling"},
+        {"time_min": 600, "temperature_c": 490, "phase": "cooling"},
+        {"time_min": 660, "temperature_c": 370, "phase": "cooling"},
+        {"time_min": 720, "temperature_c": 250, "phase": "cooling"},
+        {"time_min": 780, "temperature_c": 130, "phase": "cooling"},
+        {"time_min": 810, "temperature_c": 70, "phase": "cooling"},
+        {"time_min": 825, "temperature_c": 40, "phase": "cooling"},
+        {"time_min": 832, "temperature_c": 25, "phase": "cooling"}
+      ],
+      "quality_metrics": {
+        "thermal_gradient_uniformity": 0.88,
+        "crack_formation_risk": 0.18,
+        "residual_stress_level": "high"
+      }
+    }
+  },
+  "pso_optimization_results": {
+    "objective_function": "minimize_defects_maximize_density",
+    "optimal_parameters": {
+      "cooling_rate_c_per_min": 1.05,
+      "max_temperature_c": 1455,
+      "holding_time_min": 125,
+      "heating_rate_c_per_min": 4.8,
+      "atmosphere_pressure_mpa": 0.095
+    },
+    "convergence_history": {
+      "iteration_10": 0.245,
+      "iteration_20": 0.189,
+      "iteration_30": 0.156,
+      "iteration_40": 0.134,
+      "iteration_50": 0.118,
+      "iteration_60": 0.105,
+      "iteration_70": 0.095,
+      "iteration_80": 0.088,
+      "iteration_90": 0.082,
+      "iteration_100": 0.078
+    }
+  }
+}
