@@ -1,0 +1,69 @@
+{
+  "n_samples": 10000,
+  "parameter_ranges": {
+    "temperature_range": [
+      1200,
+      1500
+    ],
+    "cooling_rate_range": [
+      1,
+      10
+    ],
+    "porosity_range": [
+      0.01,
+      0.15
+    ],
+    "tec_mismatch": 2.3e-06
+  },
+  "materials": {
+    "alumina": {
+      "E": 370000000000.0,
+      "nu": 0.22,
+      "alpha": 8.1e-06,
+      "density": 3950
+    },
+    "zirconia": {
+      "E": 200000000000.0,
+      "nu": 0.31,
+      "alpha": 1.05e-05,
+      "density": 6100
+    },
+    "silica": {
+      "E": 70000000000.0,
+      "nu": 0.17,
+      "alpha": 5e-07,
+      "density": 2200
+    },
+    "titanium": {
+      "E": 110000000000.0,
+      "nu": 0.34,
+      "alpha": 8.6e-06,
+      "density": 4500
+    }
+  },
+  "features": [
+    "sample_id",
+    "temperature",
+    "cooling_rate",
+    "porosity",
+    "material",
+    "tec_mismatch",
+    "stress",
+    "strain",
+    "stress_hotspot_density",
+    "crack_risk",
+    "delamination_probability",
+    "material_E",
+    "material_nu",
+    "material_alpha",
+    "material_density",
+    "stress_strain_ratio",
+    "thermal_gradient",
+    "porosity_stress_factor"
+  ],
+  "outputs": [
+    "stress_hotspot_density",
+    "crack_risk",
+    "delamination_probability"
+  ]
+}
