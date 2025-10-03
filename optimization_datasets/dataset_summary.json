@@ -1,0 +1,36 @@
+{
+  "generation_timestamp": "20251003_074214",
+  "stress_strain_profiles": {
+    "n_samples": 100,
+    "n_datapoints": 5000,
+    "avg_stress_residual_MPa": 6.570448860826065,
+    "avg_strain_residual_microstrain": 32846.1383814103
+  },
+  "crack_depth_estimates": {
+    "n_samples": 200,
+    "avg_xrd_error_mm": 0.13336000780929974,
+    "avg_pso_error_mm": 0.0697434418355484,
+    "avg_xrd_pso_difference_mm": 0.14889682261844747
+  },
+  "sintering_parameters": {
+    "n_experiments": 150,
+    "optimal_cooling_rate_range": "1-2 \u00b0C/min",
+    "n_optimal_experiments": 37,
+    "avg_quality_score": 31.80242639163596
+  },
+  "geometric_designs": {
+    "n_designs": 100,
+    "design_types": {
+      "trapezoidal": 30,
+      "rectangular": 26,
+      "circular": 24,
+      "bow_shaped": 20
+    },
+    "best_design_type": "circular"
+  },
+  "pso_optimization": {
+    "n_runs": 50,
+    "n_datapoints": 1260,
+    "avg_convergence_iterations": 242
+  }
+}
