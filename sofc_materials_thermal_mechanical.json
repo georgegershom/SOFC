@@ -1,0 +1,447 @@
+{
+  "metadata": {
+    "description": "SOFC Materials Thermo-Mechanical Properties Database",
+    "version": "1.0",
+    "date_created": "2025-10-03",
+    "temperature_units": "K",
+    "stress_units": "MPa",
+    "thermal_expansion_units": "1/K"
+  },
+  "materials": {
+    "Ni-YSZ_Anode": {
+      "composition": "Ni-8YSZ (50:50 vol%)",
+      "layer_type": "anode",
+      "porosity": {
+        "nominal": 0.35,
+        "range": [0.30, 0.40],
+        "distribution": "uniform"
+      },
+      "thermal_properties": {
+        "thermal_expansion_coefficient": {
+          "value": 12.5e-6,
+          "temperature_dependent": {
+            "300": 11.8e-6,
+            "500": 12.2e-6,
+            "700": 12.5e-6,
+            "900": 12.8e-6,
+            "1100": 13.1e-6,
+            "1273": 13.3e-6
+          }
+        },
+        "thermal_conductivity": {
+          "value": 2.5,
+          "units": "W/m-K",
+          "temperature_dependent": {
+            "300": 3.2,
+            "500": 2.8,
+            "700": 2.5,
+            "900": 2.3,
+            "1100": 2.2,
+            "1273": 2.1
+          }
+        },
+        "specific_heat_capacity": {
+          "value": 450,
+          "units": "J/kg-K",
+          "temperature_dependent": {
+            "300": 420,
+            "500": 440,
+            "700": 450,
+            "900": 460,
+            "1100": 465,
+            "1273": 470
+          }
+        }
+      },
+      "mechanical_properties": {
+        "youngs_modulus": {
+          "value": 80e3,
+          "units": "MPa",
+          "temperature_dependent": {
+            "300": 95e3,
+            "500": 88e3,
+            "700": 82e3,
+            "900": 75e3,
+            "1100": 68e3,
+            "1273": 62e3
+          },
+          "porosity_correction": "E = E0 * (1 - 1.9*p + 0.9*p^2)"
+        },
+        "poissons_ratio": {
+          "value": 0.32,
+          "temperature_dependent": {
+            "300": 0.31,
+            "700": 0.32,
+            "1100": 0.33,
+            "1273": 0.33
+          }
+        },
+        "density": {
+          "value": 5900,
+          "units": "kg/m3",
+          "theoretical": 8900,
+          "note": "Reduced due to porosity"
+        },
+        "fracture_strength": {
+          "value": 120,
+          "units": "MPa",
+          "weibull_modulus": 8.5
+        }
+      }
+    },
+    "8YSZ_Electrolyte": {
+      "composition": "8mol% Y2O3-stabilized ZrO2",
+      "layer_type": "electrolyte",
+      "porosity": {
+        "nominal": 0.05,
+        "range": [0.02, 0.08],
+        "distribution": "normal"
+      },
+      "thermal_properties": {
+        "thermal_expansion_coefficient": {
+          "value": 10.5e-6,
+          "temperature_dependent": {
+            "300": 9.8e-6,
+            "500": 10.1e-6,
+            "700": 10.4e-6,
+            "900": 10.6e-6,
+            "1100": 10.8e-6,
+            "1273": 10.9e-6
+          }
+        },
+        "thermal_conductivity": {
+          "value": 2.2,
+          "units": "W/m-K",
+          "temperature_dependent": {
+            "300": 2.7,
+            "500": 2.4,
+            "700": 2.2,
+            "900": 2.0,
+            "1100": 1.9,
+            "1273": 1.8
+          }
+        },
+        "specific_heat_capacity": {
+          "value": 470,
+          "units": "J/kg-K",
+          "temperature_dependent": {
+            "300": 450,
+            "500": 460,
+            "700": 470,
+            "900": 475,
+            "1100": 480,
+            "1273": 485
+          }
+        }
+      },
+      "mechanical_properties": {
+        "youngs_modulus": {
+          "value": 200e3,
+          "units": "MPa",
+          "temperature_dependent": {
+            "300": 215e3,
+            "500": 208e3,
+            "700": 202e3,
+            "900": 195e3,
+            "1100": 188e3,
+            "1273": 180e3
+          }
+        },
+        "poissons_ratio": {
+          "value": 0.31,
+          "temperature_dependent": {
+            "300": 0.30,
+            "700": 0.31,
+            "1100": 0.31,
+            "1273": 0.32
+          }
+        },
+        "density": {
+          "value": 5900,
+          "units": "kg/m3",
+          "theoretical": 6050
+        },
+        "fracture_strength": {
+          "value": 250,
+          "units": "MPa",
+          "weibull_modulus": 12
+        }
+      }
+    },
+    "LSM_Cathode": {
+      "composition": "(La0.8Sr0.2)MnO3",
+      "layer_type": "cathode",
+      "porosity": {
+        "nominal": 0.35,
+        "range": [0.30, 0.40],
+        "distribution": "uniform"
+      },
+      "thermal_properties": {
+        "thermal_expansion_coefficient": {
+          "value": 11.8e-6,
+          "temperature_dependent": {
+            "300": 11.2e-6,
+            "500": 11.5e-6,
+            "700": 11.8e-6,
+            "900": 12.0e-6,
+            "1100": 12.2e-6,
+            "1273": 12.3e-6
+          }
+        },
+        "thermal_conductivity": {
+          "value": 1.8,
+          "units": "W/m-K",
+          "temperature_dependent": {
+            "300": 2.2,
+            "500": 2.0,
+            "700": 1.8,
+            "900": 1.7,
+            "1100": 1.6,
+            "1273": 1.5
+          }
+        },
+        "specific_heat_capacity": {
+          "value": 560,
+          "units": "J/kg-K",
+          "temperature_dependent": {
+            "300": 540,
+            "500": 550,
+            "700": 560,
+            "900": 565,
+            "1100": 570,
+            "1273": 575
+          }
+        }
+      },
+      "mechanical_properties": {
+        "youngs_modulus": {
+          "value": 70e3,
+          "units": "MPa",
+          "temperature_dependent": {
+            "300": 85e3,
+            "500": 78e3,
+            "700": 72e3,
+            "900": 66e3,
+            "1100": 60e3,
+            "1273": 55e3
+          }
+        },
+        "poissons_ratio": {
+          "value": 0.25,
+          "temperature_dependent": {
+            "300": 0.24,
+            "700": 0.25,
+            "1100": 0.26,
+            "1273": 0.26
+          }
+        },
+        "density": {
+          "value": 4200,
+          "units": "kg/m3",
+          "theoretical": 6500
+        },
+        "fracture_strength": {
+          "value": 90,
+          "units": "MPa",
+          "weibull_modulus": 7.5
+        }
+      }
+    },
+    "LSCF_Cathode": {
+      "composition": "(La0.6Sr0.4)(Co0.2Fe0.8)O3",
+      "layer_type": "cathode",
+      "porosity": {
+        "nominal": 0.35,
+        "range": [0.30, 0.40],
+        "distribution": "uniform"
+      },
+      "thermal_properties": {
+        "thermal_expansion_coefficient": {
+          "value": 15.4e-6,
+          "temperature_dependent": {
+            "300": 14.8e-6,
+            "500": 15.1e-6,
+            "700": 15.4e-6,
+            "900": 15.7e-6,
+            "1100": 16.0e-6,
+            "1273": 16.2e-6
+          }
+        },
+        "thermal_conductivity": {
+          "value": 2.0,
+          "units": "W/m-K",
+          "temperature_dependent": {
+            "300": 2.4,
+            "500": 2.2,
+            "700": 2.0,
+            "900": 1.9,
+            "1100": 1.8,
+            "1273": 1.7
+          }
+        },
+        "specific_heat_capacity": {
+          "value": 580,
+          "units": "J/kg-K"
+        }
+      },
+      "mechanical_properties": {
+        "youngs_modulus": {
+          "value": 65e3,
+          "units": "MPa",
+          "temperature_dependent": {
+            "300": 78e3,
+            "700": 68e3,
+            "1100": 55e3,
+            "1273": 50e3
+          }
+        },
+        "poissons_ratio": {
+          "value": 0.28
+        },
+        "density": {
+          "value": 4100,
+          "units": "kg/m3"
+        },
+        "fracture_strength": {
+          "value": 85,
+          "units": "MPa",
+          "weibull_modulus": 6.8
+        }
+      }
+    },
+    "Crofer22APU_Interconnect": {
+      "composition": "Fe-22Cr-0.5Mn-0.8Si",
+      "layer_type": "interconnect",
+      "porosity": {
+        "nominal": 0.0,
+        "range": [0.0, 0.01]
+      },
+      "thermal_properties": {
+        "thermal_expansion_coefficient": {
+          "value": 11.9e-6,
+          "temperature_dependent": {
+            "300": 10.4e-6,
+            "500": 11.2e-6,
+            "700": 11.9e-6,
+            "900": 12.5e-6,
+            "1100": 13.0e-6,
+            "1273": 13.4e-6
+          }
+        },
+        "thermal_conductivity": {
+          "value": 26,
+          "units": "W/m-K",
+          "temperature_dependent": {
+            "300": 24,
+            "500": 25,
+            "700": 26,
+            "900": 27,
+            "1100": 28,
+            "1273": 29
+          }
+        },
+        "specific_heat_capacity": {
+          "value": 480,
+          "units": "J/kg-K",
+          "temperature_dependent": {
+            "300": 460,
+            "500": 470,
+            "700": 480,
+            "900": 490,
+            "1100": 500,
+            "1273": 510
+          }
+        }
+      },
+      "mechanical_properties": {
+        "youngs_modulus": {
+          "value": 220e3,
+          "units": "MPa",
+          "temperature_dependent": {
+            "300": 220e3,
+            "500": 205e3,
+            "700": 185e3,
+            "900": 160e3,
+            "1100": 130e3,
+            "1273": 110e3
+          }
+        },
+        "poissons_ratio": {
+          "value": 0.30,
+          "temperature_dependent": {
+            "300": 0.29,
+            "700": 0.30,
+            "1100": 0.31,
+            "1273": 0.32
+          }
+        },
+        "density": {
+          "value": 7700,
+          "units": "kg/m3"
+        },
+        "yield_strength": {
+          "value": 280,
+          "units": "MPa",
+          "temperature_dependent": {
+            "300": 340,
+            "500": 290,
+            "700": 240,
+            "900": 180,
+            "1100": 120,
+            "1273": 80
+          }
+        },
+        "ultimate_tensile_strength": {
+          "value": 450,
+          "units": "MPa",
+          "temperature_dependent": {
+            "300": 520,
+            "700": 380,
+            "1100": 180,
+            "1273": 120
+          }
+        }
+      }
+    },
+    "GDC_Barrier_Layer": {
+      "composition": "Ce0.9Gd0.1O1.95",
+      "layer_type": "barrier",
+      "porosity": {
+        "nominal": 0.05,
+        "range": [0.02, 0.08]
+      },
+      "thermal_properties": {
+        "thermal_expansion_coefficient": {
+          "value": 12.5e-6,
+          "temperature_dependent": {
+            "300": 11.8e-6,
+            "700": 12.5e-6,
+            "1100": 13.0e-6,
+            "1273": 13.2e-6
+          }
+        },
+        "thermal_conductivity": {
+          "value": 2.0,
+          "units": "W/m-K"
+        },
+        "specific_heat_capacity": {
+          "value": 460,
+          "units": "J/kg-K"
+        }
+      },
+      "mechanical_properties": {
+        "youngs_modulus": {
+          "value": 180e3,
+          "units": "MPa"
+        },
+        "poissons_ratio": {
+          "value": 0.30
+        },
+        "density": {
+          "value": 7150,
+          "units": "kg/m3"
+        }
+      }
+    }
+  }
+}
