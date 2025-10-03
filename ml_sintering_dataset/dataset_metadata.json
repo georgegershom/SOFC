@@ -1,0 +1,42 @@
+{
+  "generation_date": "2025-10-03T07:26:45.551179",
+  "n_samples": 10000,
+  "n_features": 14,
+  "n_labels": 7,
+  "parameter_ranges": {
+    "sintering_temp": [
+      1200,
+      1500
+    ],
+    "cooling_rate": [
+      1,
+      10
+    ],
+    "porosity": [
+      0.01,
+      0.25
+    ],
+    "grain_size": [
+      1e-06,
+      5e-05
+    ],
+    "thickness": [
+      0.0005,
+      0.005
+    ]
+  },
+  "constants": {
+    "young_modulus": 200000000000.0,
+    "poisson_ratio": 0.25,
+    "thermal_expansion_coeff": 8e-06,
+    "tec_mismatch": 2.3e-06,
+    "density": 3800,
+    "specific_heat": 800,
+    "thermal_conductivity": 15,
+    "fracture_toughness": 3500000.0,
+    "critical_stress_factor": 0.7,
+    "reference_temp": 25
+  },
+  "grid_size": 50,
+  "description": "ML training dataset for sintering process analysis"
+}
