@@ -1,0 +1,510 @@
+{
+  "sofc_material_properties": {
+    "anode": {
+      "Ni-YSZ": {
+        "thermo_physical": {
+          "thermal_expansion_coefficient": {
+            "value": 12.5e-6,
+            "unit": "1/K",
+            "temperature_range": [298, 1273],
+            "notes": "Composite material, temperature dependent"
+          },
+          "thermal_conductivity": {
+            "value": 6.2,
+            "unit": "W/(m·K)",
+            "temperature": 1073,
+            "notes": "Effective conductivity of porous composite"
+          },
+          "specific_heat_capacity": {
+            "value": 450,
+            "unit": "J/(kg·K)",
+            "temperature": 1073
+          },
+          "density": {
+            "value": 5800,
+            "unit": "kg/m3",
+            "notes": "Effective density accounting for 35% porosity"
+          },
+          "porosity": {
+            "value": 0.35,
+            "range": [0.30, 0.40],
+            "notes": "Required for gas diffusion and TPB"
+          }
+        },
+        "mechanical": {
+          "youngs_modulus": {
+            "value": 45e9,
+            "unit": "Pa",
+            "temperature": 1073,
+            "notes": "Reduced due to porosity"
+          },
+          "poissons_ratio": {
+            "value": 0.28,
+            "temperature_range": [298, 1273]
+          },
+          "creep_norton_bailey": {
+            "B": {
+              "value": 2.8e-13,
+              "unit": "1/(Pa^n·s)",
+              "temperature_range": [1073, 1273]
+            },
+            "n": {
+              "value": 2.1,
+              "notes": "Stress exponent"
+            },
+            "Q": {
+              "value": 320000,
+              "unit": "J/mol",
+              "notes": "Activation energy for creep"
+            }
+          },
+          "plasticity_johnson_cook": {
+            "A": {
+              "value": 180e6,
+              "unit": "Pa",
+              "notes": "Initial yield stress"
+            },
+            "B": {
+              "value": 420e6,
+              "unit": "Pa",
+              "notes": "Hardening modulus"
+            },
+            "n": {
+              "value": 0.42,
+              "notes": "Hardening exponent"
+            },
+            "C": {
+              "value": 0.015,
+              "notes": "Strain rate sensitivity coefficient"
+            },
+            "m": {
+              "value": 1.1,
+              "notes": "Thermal softening exponent"
+            }
+          }
+        },
+        "electrochemical": {
+          "electronic_conductivity": {
+            "value": 15000,
+            "unit": "S/m",
+            "temperature": 1073,
+            "notes": "Dominated by Ni phase percolation"
+          },
+          "ionic_conductivity": {
+            "value": 0.8,
+            "unit": "S/m",
+            "temperature": 1073,
+            "notes": "From YSZ phase"
+          },
+          "exchange_current_density": {
+            "value": 4500,
+            "unit": "A/m2",
+            "temperature": 1073,
+            "reaction": "H2 oxidation at TPB"
+          },
+          "activation_overpotential_coefficient": {
+            "value": 0.5,
+            "notes": "Charge transfer coefficient (alpha)"
+          }
+        }
+      }
+    },
+    "electrolyte": {
+      "8YSZ": {
+        "composition": "8 mol% Y2O3-stabilized ZrO2",
+        "thermo_physical": {
+          "thermal_expansion_coefficient": {
+            "value": 10.5e-6,
+            "unit": "1/K",
+            "temperature_range": [298, 1273],
+            "notes": "Well-matched to other SOFC components"
+          },
+          "thermal_conductivity": {
+            "value": 2.7,
+            "unit": "W/(m·K)",
+            "temperature": 1073,
+            "temperature_dependence": "decreases with temperature"
+          },
+          "specific_heat_capacity": {
+            "value": 470,
+            "unit": "J/(kg·K)",
+            "temperature": 1073
+          },
+          "density": {
+            "value": 5900,
+            "unit": "kg/m3",
+            "notes": "Fully dense, gas-tight"
+          },
+          "porosity": {
+            "value": 0.02,
+            "notes": "Near zero, <5% for gas impermeability"
+          }
+        },
+        "mechanical": {
+          "youngs_modulus": {
+            "value": 200e9,
+            "unit": "Pa",
+            "temperature": 1073,
+            "notes": "Dense ceramic, brittle"
+          },
+          "poissons_ratio": {
+            "value": 0.31,
+            "temperature_range": [298, 1273]
+          },
+          "creep_norton_bailey": {
+            "B": {
+              "value": 1.5e-15,
+              "unit": "1/(Pa^n·s)",
+              "temperature_range": [1073, 1273],
+              "notes": "Very low creep rate"
+            },
+            "n": {
+              "value": 1.0,
+              "notes": "Newtonian-like behavior"
+            },
+            "Q": {
+              "value": 520000,
+              "unit": "J/mol",
+              "notes": "High activation energy"
+            }
+          }
+        },
+        "electrochemical": {
+          "ionic_conductivity": {
+            "value": 3.2,
+            "unit": "S/m",
+            "temperature": 1073,
+            "notes": "O2- ion conduction, Arrhenius temperature dependence"
+          },
+          "electronic_conductivity": {
+            "value": 0.001,
+            "unit": "S/m",
+            "temperature": 1073,
+            "notes": "Negligible, pure ionic conductor"
+          },
+          "activation_energy_conductivity": {
+            "value": 80000,
+            "unit": "J/mol",
+            "temperature_range": [800, 1273],
+            "notes": "For Arrhenius equation: sigma = sigma0 * exp(-Ea/RT)"
+          }
+        }
+      },
+      "CGO": {
+        "composition": "Ce0.9Gd0.1O2 (Gadolinium-doped Ceria)",
+        "thermo_physical": {
+          "thermal_expansion_coefficient": {
+            "value": 12.5e-6,
+            "unit": "1/K",
+            "temperature_range": [298, 1073],
+            "notes": "Higher than YSZ, for intermediate temperature"
+          },
+          "thermal_conductivity": {
+            "value": 3.5,
+            "unit": "W/(m·K)",
+            "temperature": 873
+          },
+          "specific_heat_capacity": {
+            "value": 450,
+            "unit": "J/(kg·K)",
+            "temperature": 873
+          },
+          "density": {
+            "value": 7200,
+            "unit": "kg/m3",
+            "notes": "Fully dense ceria-based"
+          },
+          "porosity": {
+            "value": 0.03,
+            "notes": "Near fully dense"
+          }
+        },
+        "mechanical": {
+          "youngs_modulus": {
+            "value": 180e9,
+            "unit": "Pa",
+            "temperature": 873
+          },
+          "poissons_ratio": {
+            "value": 0.30
+          }
+        },
+        "electrochemical": {
+          "ionic_conductivity": {
+            "value": 8.5,
+            "unit": "S/m",
+            "temperature": 873,
+            "notes": "Much higher than YSZ at intermediate temperatures"
+          },
+          "electronic_conductivity": {
+            "value": 0.05,
+            "unit": "S/m",
+            "temperature": 873,
+            "notes": "Some electronic leakage in reducing atmosphere"
+          },
+          "activation_energy_conductivity": {
+            "value": 65000,
+            "unit": "J/mol",
+            "notes": "Lower than YSZ"
+          }
+        }
+      }
+    },
+    "cathode": {
+      "LSM": {
+        "composition": "La0.8Sr0.2MnO3 (Lanthanum Strontium Manganite)",
+        "thermo_physical": {
+          "thermal_expansion_coefficient": {
+            "value": 11.8e-6,
+            "unit": "1/K",
+            "temperature_range": [298, 1273],
+            "notes": "Well-matched to YSZ electrolyte"
+          },
+          "thermal_conductivity": {
+            "value": 3.5,
+            "unit": "W/(m·K)",
+            "temperature": 1073
+          },
+          "specific_heat_capacity": {
+            "value": 520,
+            "unit": "J/(kg·K)",
+            "temperature": 1073
+          },
+          "density": {
+            "value": 5200,
+            "unit": "kg/m3",
+            "notes": "Effective density with 30% porosity"
+          },
+          "porosity": {
+            "value": 0.30,
+            "notes": "Required for gas diffusion"
+          }
+        },
+        "mechanical": {
+          "youngs_modulus": {
+            "value": 55e9,
+            "unit": "Pa",
+            "temperature": 1073,
+            "notes": "Porous perovskite structure"
+          },
+          "poissons_ratio": {
+            "value": 0.25
+          }
+        },
+        "electrochemical": {
+          "electronic_conductivity": {
+            "value": 25000,
+            "unit": "S/m",
+            "temperature": 1073,
+            "notes": "High electronic conductivity"
+          },
+          "ionic_conductivity": {
+            "value": 0.05,
+            "unit": "S/m",
+            "temperature": 1073,
+            "notes": "Limited ionic conductivity, requires YSZ for TPB"
+          },
+          "exchange_current_density": {
+            "value": 2800,
+            "unit": "A/m2",
+            "temperature": 1073,
+            "reaction": "O2 reduction at TPB"
+          },
+          "activation_overpotential_coefficient": {
+            "value": 0.5
+          }
+        }
+      },
+      "LSM-YSZ": {
+        "composition": "LSM-YSZ composite cathode",
+        "thermo_physical": {
+          "thermal_expansion_coefficient": {
+            "value": 11.2e-6,
+            "unit": "1/K",
+            "temperature_range": [298, 1273],
+            "notes": "Weighted average of LSM and YSZ"
+          },
+          "thermal_conductivity": {
+            "value": 4.0,
+            "unit": "W/(m·K)",
+            "temperature": 1073
+          },
+          "specific_heat_capacity": {
+            "value": 485,
+            "unit": "J/(kg·K)",
+            "temperature": 1073
+          },
+          "density": {
+            "value": 5400,
+            "unit": "kg/m3",
+            "notes": "Effective density with 35% porosity"
+          },
+          "porosity": {
+            "value": 0.35,
+            "notes": "Higher porosity for enhanced TPB"
+          }
+        },
+        "mechanical": {
+          "youngs_modulus": {
+            "value": 50e9,
+            "unit": "Pa",
+            "temperature": 1073
+          },
+          "poissons_ratio": {
+            "value": 0.27
+          }
+        },
+        "electrochemical": {
+          "electronic_conductivity": {
+            "value": 18000,
+            "unit": "S/m",
+            "temperature": 1073,
+            "notes": "From LSM phase"
+          },
+          "ionic_conductivity": {
+            "value": 1.2,
+            "unit": "S/m",
+            "temperature": 1073,
+            "notes": "From YSZ phase, enhanced TPB"
+          },
+          "exchange_current_density": {
+            "value": 3500,
+            "unit": "A/m2",
+            "temperature": 1073,
+            "notes": "Enhanced due to extended TPB length"
+          },
+          "activation_overpotential_coefficient": {
+            "value": 0.5
+          }
+        }
+      },
+      "LSCF": {
+        "composition": "La0.6Sr0.4Co0.2Fe0.8O3 (for intermediate temperature SOFCs)",
+        "thermo_physical": {
+          "thermal_expansion_coefficient": {
+            "value": 14.5e-6,
+            "unit": "1/K",
+            "temperature_range": [298, 1073],
+            "notes": "Higher TEC, TEC mismatch concern with YSZ"
+          },
+          "thermal_conductivity": {
+            "value": 2.8,
+            "unit": "W/(m·K)",
+            "temperature": 873
+          },
+          "specific_heat_capacity": {
+            "value": 510,
+            "unit": "J/(kg·K)",
+            "temperature": 873
+          },
+          "density": {
+            "value": 5500,
+            "unit": "kg/m3",
+            "notes": "Effective with 35% porosity"
+          },
+          "porosity": {
+            "value": 0.35
+          }
+        },
+        "mechanical": {
+          "youngs_modulus": {
+            "value": 60e9,
+            "unit": "Pa",
+            "temperature": 873
+          },
+          "poissons_ratio": {
+            "value": 0.26
+          }
+        },
+        "electrochemical": {
+          "electronic_conductivity": {
+            "value": 35000,
+            "unit": "S/m",
+            "temperature": 873,
+            "notes": "Excellent electronic conductor"
+          },
+          "ionic_conductivity": {
+            "value": 2.5,
+            "unit": "S/m",
+            "temperature": 873,
+            "notes": "Mixed ionic-electronic conductor (MIEC)"
+          },
+          "exchange_current_density": {
+            "value": 5200,
+            "unit": "A/m2",
+            "temperature": 873,
+            "notes": "High catalytic activity for ORR"
+          },
+          "activation_overpotential_coefficient": {
+            "value": 0.5
+          }
+        }
+      }
+    },
+    "interconnect": {
+      "Crofer_22_APU": {
+        "composition": "Ferritic stainless steel (Fe-Cr based)",
+        "thermo_physical": {
+          "thermal_expansion_coefficient": {
+            "value": 12.0e-6,
+            "unit": "1/K",
+            "temperature_range": [298, 1273],
+            "notes": "Matched to ceramic components"
+          },
+          "thermal_conductivity": {
+            "value": 22,
+            "unit": "W/(m·K)",
+            "temperature": 1073
+          },
+          "specific_heat_capacity": {
+            "value": 600,
+            "unit": "J/(kg·K)",
+            "temperature": 1073
+          },
+          "density": {
+            "value": 7600,
+            "unit": "kg/m3",
+            "notes": "Fully dense metallic"
+          },
+          "porosity": {
+            "value": 0.0
+          }
+        },
+        "mechanical": {
+          "youngs_modulus": {
+            "value": 170e9,
+            "unit": "Pa",
+            "temperature": 1073
+          },
+          "poissons_ratio": {
+            "value": 0.30
+          },
+          "creep_norton_bailey": {
+            "B": {
+              "value": 8.5e-12,
+              "unit": "1/(Pa^n·s)",
+              "temperature_range": [1073, 1273],
+              "notes": "Higher creep than ceramics"
+            },
+            "n": {
+              "value": 4.2,
+              "notes": "Power-law creep exponent"
+            },
+            "Q": {
+              "value": 280000,
+              "unit": "J/mol"
+            }
+          }
+        },
+        "electrochemical": {
+          "electronic_conductivity": {
+            "value": 1.2e6,
+            "unit": "S/m",
+            "temperature": 1073,
+            "notes": "Metallic conductor, current collector"
+          }
+        }
+      }
+    }
+  }
+}

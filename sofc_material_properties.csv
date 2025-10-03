@@ -1,0 +1,87 @@
+Component,Layer,Property,Value,Unit,Temperature_Range_K,Notes
+Anode,Ni-YSZ,Thermal_Expansion_Coefficient,12.5,1e-6/K,298-1273,Composite material
+Anode,Ni-YSZ,Youngs_Modulus,45,GPa,1073,Porous structure
+Anode,Ni-YSZ,Poissons_Ratio,0.28,-,298-1273,Temperature dependent
+Anode,Ni-YSZ,Density,5800,kg/m3,298,Effective density with 35% porosity
+Anode,Ni-YSZ,Porosity,0.35,-,298-1273,Typical range 0.30-0.40
+Anode,Ni-YSZ,Thermal_Conductivity,6.2,W/(m·K),1073,Composite conductivity
+Anode,Ni-YSZ,Specific_Heat_Capacity,450,J/(kg·K),1073,Average value
+Anode,Ni-YSZ,Creep_Parameter_B,2.8e-13,1/Pa^n/s,1073-1273,Norton-Bailey law
+Anode,Ni-YSZ,Creep_Exponent_n,2.1,-,1073-1273,Norton-Bailey law
+Anode,Ni-YSZ,Creep_Activation_Energy_Q,320,kJ/mol,1073-1273,Norton-Bailey law
+Anode,Ni-YSZ,Plasticity_JC_A,180,MPa,298-1273,Johnson-Cook yield stress
+Anode,Ni-YSZ,Plasticity_JC_B,420,MPa,298-1273,Johnson-Cook hardening modulus
+Anode,Ni-YSZ,Plasticity_JC_n,0.42,-,298-1273,Johnson-Cook hardening exponent
+Anode,Ni-YSZ,Plasticity_JC_C,0.015,-,298-1273,Johnson-Cook strain rate sensitivity
+Anode,Ni-YSZ,Plasticity_JC_m,1.1,-,298-1273,Johnson-Cook thermal softening
+Anode,Ni-YSZ,Electronic_Conductivity,15000,S/m,1073,Ni phase dominated
+Anode,Ni-YSZ,Ionic_Conductivity,0.8,S/m,1073,YSZ phase contribution
+Anode,Ni-YSZ,Exchange_Current_Density,4500,A/m2,1073,H2 oxidation
+Anode,Ni-YSZ,Activation_Overpotential_Coefficient,0.5,-,1073,Charge transfer coefficient
+Electrolyte,8YSZ,Thermal_Expansion_Coefficient,10.5,1e-6/K,298-1273,8 mol% Y2O3-ZrO2
+Electrolyte,8YSZ,Youngs_Modulus,200,GPa,1073,Dense ceramic
+Electrolyte,8YSZ,Poissons_Ratio,0.31,-,298-1273,Isotropic material
+Electrolyte,8YSZ,Density,5900,kg/m3,298,Fully dense
+Electrolyte,8YSZ,Porosity,0.02,-,298-1273,Near fully dense <5%
+Electrolyte,8YSZ,Thermal_Conductivity,2.7,W/(m·K),1073,Temperature dependent
+Electrolyte,8YSZ,Specific_Heat_Capacity,470,J/(kg·K),1073,Ceramic material
+Electrolyte,8YSZ,Creep_Parameter_B,1.5e-15,1/Pa^n/s,1073-1273,Norton-Bailey law
+Electrolyte,8YSZ,Creep_Exponent_n,1.0,-,1073-1273,Norton-Bailey law
+Electrolyte,8YSZ,Creep_Activation_Energy_Q,520,kJ/mol,1073-1273,Norton-Bailey law
+Electrolyte,8YSZ,Ionic_Conductivity,3.2,S/m,1073,O2- ion conduction
+Electrolyte,8YSZ,Electronic_Conductivity,0.001,S/m,1073,Negligible
+Electrolyte,8YSZ,Activation_Energy_Conductivity,80,kJ/mol,800-1273,Arrhenius behavior
+Cathode,LSM,Thermal_Expansion_Coefficient,11.8,1e-6/K,298-1273,La0.8Sr0.2MnO3
+Cathode,LSM,Youngs_Modulus,55,GPa,1073,Porous structure
+Cathode,LSM,Poissons_Ratio,0.25,-,298-1273,Perovskite material
+Cathode,LSM,Density,5200,kg/m3,298,Effective density with 30% porosity
+Cathode,LSM,Porosity,0.30,-,298-1273,Gas diffusion requirement
+Cathode,LSM,Thermal_Conductivity,3.5,W/(m·K),1073,Porous composite
+Cathode,LSM,Specific_Heat_Capacity,520,J/(kg·K),1073,Perovskite oxide
+Cathode,LSM,Electronic_Conductivity,25000,S/m,1073,High electronic conductivity
+Cathode,LSM,Ionic_Conductivity,0.05,S/m,1073,Limited ionic conductivity
+Cathode,LSM,Exchange_Current_Density,2800,A/m2,1073,O2 reduction
+Cathode,LSM,Activation_Overpotential_Coefficient,0.5,-,1073,Charge transfer coefficient
+Cathode,LSM-YSZ,Thermal_Expansion_Coefficient,11.2,1e-6/K,298-1273,Composite cathode
+Cathode,LSM-YSZ,Youngs_Modulus,50,GPa,1073,Porous composite
+Cathode,LSM-YSZ,Poissons_Ratio,0.27,-,298-1273,Composite material
+Cathode,LSM-YSZ,Density,5400,kg/m3,298,Effective density with 35% porosity
+Cathode,LSM-YSZ,Porosity,0.35,-,298-1273,Enhanced TPB
+Cathode,LSM-YSZ,Thermal_Conductivity,4.0,W/(m·K),1073,Mixed composite
+Cathode,LSM-YSZ,Specific_Heat_Capacity,485,J/(kg·K),1073,Weighted average
+Cathode,LSM-YSZ,Electronic_Conductivity,18000,S/m,1073,LSM phase
+Cathode,LSM-YSZ,Ionic_Conductivity,1.2,S/m,1073,YSZ phase
+Cathode,LSM-YSZ,Exchange_Current_Density,3500,A/m2,1073,Enhanced TPB length
+Cathode,LSM-YSZ,Activation_Overpotential_Coefficient,0.5,-,1073,Charge transfer coefficient
+Interconnect,Crofer_22_APU,Thermal_Expansion_Coefficient,12.0,1e-6/K,298-1273,Ferritic steel
+Interconnect,Crofer_22_APU,Youngs_Modulus,170,GPa,1073,Metallic interconnect
+Interconnect,Crofer_22_APU,Poissons_Ratio,0.30,-,298-1273,Steel alloy
+Interconnect,Crofer_22_APU,Density,7600,kg/m3,298,Dense metal
+Interconnect,Crofer_22_APU,Porosity,0.0,-,298-1273,Fully dense
+Interconnect,Crofer_22_APU,Thermal_Conductivity,22,W/(m·K),1073,Metallic
+Interconnect,Crofer_22_APU,Specific_Heat_Capacity,600,J/(kg·K),1073,Steel
+Interconnect,Crofer_22_APU,Electronic_Conductivity,1.2e6,S/m,1073,Metallic conductor
+Interconnect,Crofer_22_APU,Creep_Parameter_B,8.5e-12,1/Pa^n/s,1073-1273,Norton-Bailey law
+Interconnect,Crofer_22_APU,Creep_Exponent_n,4.2,-,1073-1273,Norton-Bailey law
+Interconnect,Crofer_22_APU,Creep_Activation_Energy_Q,280,kJ/mol,1073-1273,Norton-Bailey law
+Cathode,LSCF,Thermal_Expansion_Coefficient,14.5,1e-6/K,298-1073,La0.6Sr0.4Co0.2Fe0.8O3
+Cathode,LSCF,Youngs_Modulus,60,GPa,873,Intermediate temperature cathode
+Cathode,LSCF,Poissons_Ratio,0.26,-,298-1073,Perovskite
+Cathode,LSCF,Density,5500,kg/m3,298,Effective with 35% porosity
+Cathode,LSCF,Porosity,0.35,-,298-1073,High porosity for gas transport
+Cathode,LSCF,Thermal_Conductivity,2.8,W/(m·K),873,Lower than LSM
+Cathode,LSCF,Specific_Heat_Capacity,510,J/(kg·K),873,Similar to LSM
+Cathode,LSCF,Electronic_Conductivity,35000,S/m,873,Excellent electronic conductor
+Cathode,LSCF,Ionic_Conductivity,2.5,S/m,873,Mixed ionic-electronic conductor
+Cathode,LSCF,Exchange_Current_Density,5200,A/m2,873,High catalytic activity
+Cathode,LSCF,Activation_Overpotential_Coefficient,0.5,-,873,Charge transfer coefficient
+Electrolyte,CGO,Thermal_Expansion_Coefficient,12.5,1e-6/K,298-1073,Ce0.9Gd0.1O2
+Electrolyte,CGO,Youngs_Modulus,180,GPa,873,Dense ceramic
+Electrolyte,CGO,Poissons_Ratio,0.30,-,298-1073,Fluorite structure
+Electrolyte,CGO,Density,7200,kg/m3,298,Fully dense
+Electrolyte,CGO,Porosity,0.03,-,298-1073,Near fully dense
+Electrolyte,CGO,Thermal_Conductivity,3.5,W/(m·K),873,Better than YSZ
+Electrolyte,CGO,Specific_Heat_Capacity,450,J/(kg·K),873,Ceria-based
+Electrolyte,CGO,Ionic_Conductivity,8.5,S/m,873,Higher than YSZ at lower T
+Electrolyte,CGO,Electronic_Conductivity,0.05,S/m,873,Some electronic in reducing
+Electrolyte,CGO,Activation_Energy_Conductivity,65,kJ/mol,700-1073,Lower than YSZ
