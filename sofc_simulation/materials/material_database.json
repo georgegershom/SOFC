@@ -1,0 +1,198 @@
+{
+  "materials": {
+    "Ni_YSZ": {
+      "description": "Nickel-YSZ cermet anode",
+      "density": 7000.0,
+      "elastic": {
+        "temperature": [298.0, 573.0, 873.0, 1173.0, 1273.0],
+        "modulus": [140e9, 125e9, 110e9, 95e9, 91e9],
+        "poisson": [0.30, 0.30, 0.30, 0.30, 0.30]
+      },
+      "thermal_expansion": {
+        "temperature": [298.0, 573.0, 873.0, 1173.0, 1273.0],
+        "alpha": [12.5e-6, 12.8e-6, 13.1e-6, 13.4e-6, 13.5e-6]
+      },
+      "thermal_conductivity": {
+        "temperature": [298.0, 573.0, 873.0, 1173.0, 1273.0],
+        "k": [6.0, 5.5, 5.0, 4.5, 4.0]
+      },
+      "specific_heat": {
+        "temperature": [298.0, 573.0, 873.0, 1173.0, 1273.0],
+        "cp": [450.0, 490.0, 530.0, 560.0, 570.0]
+      },
+      "plasticity": {
+        "type": "Johnson-Cook",
+        "A": 150e6,
+        "B": 200e6,
+        "n": 0.35,
+        "C": 0.02,
+        "m": 1.0,
+        "T_room": 298.0,
+        "T_melt": 1720.0,
+        "strain_rate_ref": 1.0
+      },
+      "creep": {
+        "type": "Norton-Bailey",
+        "B": 1.0e-18,
+        "n": 3.5,
+        "Q": 220000.0,
+        "R": 8.314
+      }
+    },
+    "YSZ_8": {
+      "description": "8mol% Yttria-Stabilized Zirconia electrolyte",
+      "density": 5900.0,
+      "elastic": {
+        "temperature": [298.0, 573.0, 873.0, 1173.0, 1273.0],
+        "modulus": [210e9, 200e9, 190e9, 175e9, 170e9],
+        "poisson": [0.28, 0.28, 0.28, 0.28, 0.28]
+      },
+      "thermal_expansion": {
+        "temperature": [298.0, 573.0, 873.0, 1173.0, 1273.0],
+        "alpha": [10.5e-6, 10.7e-6, 10.9e-6, 11.1e-6, 11.2e-6]
+      },
+      "thermal_conductivity": {
+        "temperature": [298.0, 573.0, 873.0, 1173.0, 1273.0],
+        "k": [2.6, 2.4, 2.2, 2.1, 2.0]
+      },
+      "specific_heat": {
+        "temperature": [298.0, 573.0, 873.0, 1173.0, 1273.0],
+        "cp": [400.0, 450.0, 520.0, 580.0, 600.0]
+      },
+      "creep": {
+        "type": "Norton-Bailey",
+        "B": 5.0e-22,
+        "n": 2.0,
+        "Q": 380000.0,
+        "R": 8.314
+      },
+      "fracture": {
+        "tensile_strength": 100e6,
+        "fracture_toughness": 2.5,
+        "weibull_modulus": 15.0
+      }
+    },
+    "LSM": {
+      "description": "Lanthanum Strontium Manganite cathode",
+      "density": 6500.0,
+      "elastic": {
+        "temperature": [298.0, 573.0, 873.0, 1173.0, 1273.0],
+        "modulus": [120e9, 110e9, 100e9, 88e9, 84e9],
+        "poisson": [0.30, 0.30, 0.30, 0.30, 0.30]
+      },
+      "thermal_expansion": {
+        "temperature": [298.0, 573.0, 873.0, 1173.0, 1273.0],
+        "alpha": [11.5e-6, 11.8e-6, 12.0e-6, 12.3e-6, 12.4e-6]
+      },
+      "thermal_conductivity": {
+        "temperature": [298.0, 573.0, 873.0, 1173.0, 1273.0],
+        "k": [2.0, 1.95, 1.9, 1.85, 1.8]
+      },
+      "specific_heat": {
+        "temperature": [298.0, 573.0, 873.0, 1173.0, 1273.0],
+        "cp": [480.0, 520.0, 560.0, 590.0, 610.0]
+      },
+      "electrical_conductivity": {
+        "temperature": [298.0, 573.0, 873.0, 1173.0, 1273.0],
+        "sigma": [100.0, 150.0, 200.0, 250.0, 280.0]
+      }
+    },
+    "Ferritic_Steel": {
+      "description": "Ferritic stainless steel interconnect",
+      "density": 7800.0,
+      "elastic": {
+        "temperature": [298.0, 573.0, 873.0, 1173.0, 1273.0],
+        "modulus": [205e9, 190e9, 175e9, 155e9, 150e9],
+        "poisson": [0.30, 0.30, 0.30, 0.30, 0.30]
+      },
+      "thermal_expansion": {
+        "temperature": [298.0, 573.0, 873.0, 1173.0, 1273.0],
+        "alpha": [12.5e-6, 12.7e-6, 12.9e-6, 13.1e-6, 13.2e-6]
+      },
+      "thermal_conductivity": {
+        "temperature": [298.0, 573.0, 873.0, 1173.0, 1273.0],
+        "k": [20.0, 18.5, 17.0, 16.0, 15.0]
+      },
+      "specific_heat": {
+        "temperature": [298.0, 573.0, 873.0, 1173.0, 1273.0],
+        "cp": [500.0, 550.0, 620.0, 680.0, 700.0]
+      },
+      "oxidation": {
+        "parabolic_rate_constant": 1e-12,
+        "activation_energy": 150000.0
+      }
+    }
+  },
+  "interfaces": {
+    "anode_electrolyte": {
+      "shear_strength": 25e6,
+      "normal_strength": 50e6,
+      "fracture_energy": 10.0,
+      "contact_conductance": 5000.0
+    },
+    "electrolyte_cathode": {
+      "shear_strength": 20e6,
+      "normal_strength": 40e6,
+      "fracture_energy": 8.0,
+      "contact_conductance": 3000.0
+    },
+    "cathode_interconnect": {
+      "shear_strength": 30e6,
+      "normal_strength": 60e6,
+      "fracture_energy": 15.0,
+      "contact_conductance": 10000.0
+    }
+  },
+  "thermal_cycles": {
+    "HR1": {
+      "description": "1°C/min heating rate",
+      "ramp_rate": 1.0,
+      "peak_temp": 900.0,
+      "hold_time": 10.0,
+      "cool_rate": 1.0,
+      "ambient_temp": 25.0
+    },
+    "HR4": {
+      "description": "4°C/min heating rate",
+      "ramp_rate": 4.0,
+      "peak_temp": 900.0,
+      "hold_time": 10.0,
+      "cool_rate": 4.0,
+      "ambient_temp": 25.0
+    },
+    "HR10": {
+      "description": "10°C/min heating rate",
+      "ramp_rate": 10.0,
+      "peak_temp": 900.0,
+      "hold_time": 10.0,
+      "cool_rate": 10.0,
+      "ambient_temp": 25.0
+    }
+  },
+  "damage_parameters": {
+    "threshold_stress": 120e6,
+    "damage_rate_constant": 1.5e-5,
+    "damage_exponent": 2.0,
+    "interface_enhancement_factor": 3.0,
+    "plastic_strain_factor": 10.0,
+    "creep_strain_factor": 5.0
+  },
+  "mesh_parameters": {
+    "elements_x": 80,
+    "elements_anode": 20,
+    "elements_electrolyte": 12,
+    "elements_cathode": 20,
+    "elements_interconnect": 10,
+    "interface_refinement": 0.00002,
+    "bias_ratio": 3.0
+  },
+  "solver_settings": {
+    "nlgeom": true,
+    "max_increments": 25000,
+    "initial_increment": 1.0,
+    "min_increment": 0.001,
+    "max_increment": 100.0,
+    "temperature_tolerance": 50.0,
+    "convergence_tolerance": 0.01
+  }
+}
