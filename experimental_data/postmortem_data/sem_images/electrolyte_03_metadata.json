@@ -1,0 +1,38 @@
+{
+  "filename": "electrolyte_03.tif",
+  "region": "electrolyte",
+  "magnification": 2000,
+  "pixel_size_nm": 500.0,
+  "image_width_pixels": 1024,
+  "image_height_pixels": 768,
+  "bit_depth": 8,
+  "acquisition_time": "2025-10-03T05:47:47.607207",
+  "crack_annotations": [
+    {
+      "crack_id": 1,
+      "start_coords": [
+        822,
+        61
+      ],
+      "end_coords": [
+        835,
+        144
+      ],
+      "length_pixels": 84.01190391843289,
+      "confidence": 0.9071808030252955
+    },
+    {
+      "crack_id": 2,
+      "start_coords": [
+        734,
+        114
+      ],
+      "end_coords": [
+        729,
+        116
+      ],
+      "length_pixels": 5.385164807134504,
+      "confidence": 0.9180902599626443
+    }
+  ]
+}
