@@ -1,0 +1,99 @@
+================================================================================
+ML TRAINING DATASET SUMMARY REPORT
+ANN and PINN Models - Sintering Analysis
+================================================================================
+
+DATASET OVERVIEW
+--------------------------------------------------------------------------------
+Training samples:   10,000
+Validation samples: 1,000
+Total samples:      11,000
+Features per sample: 18
+
+INPUT PARAMETER RANGES
+--------------------------------------------------------------------------------
+Sintering Temperature: 1200.0 - 1499.9 °C
+Cooling Rate:          1.00 - 10.00 °C/min
+Porosity:              0.02 - 25.80 %
+TEC Mismatch:          1.56e-06 - 3.05e-06 K⁻¹
+
+OUTPUT LABEL STATISTICS (Training)
+--------------------------------------------------------------------------------
+
+thermal_stress_Pa:
+  Mean:   9.7866e+08
+  Std:    2.9725e+08
+  Min:    3.3081e+08
+  Max:    2.0128e+09
+  25%:    7.4112e+08
+  Median: 9.5843e+08
+  75%:    1.1858e+09
+
+thermal_strain:
+  Mean:   6.9131e-03
+  Std:    2.1548e-03
+  Min:    2.2366e-03
+  Max:    1.4475e-02
+  25%:    5.1595e-03
+  Median: 6.8120e-03
+  75%:    8.5220e-03
+
+stress_hotspot_intensity:
+  Mean:   3.7284e-01
+  Std:    1.1790e-01
+  Min:    1.4093e-02
+  Max:    7.7368e-01
+  25%:    2.8213e-01
+  Median: 3.6879e-01
+  75%:    4.5812e-01
+
+crack_initiation_risk:
+  Mean:   9.7997e-01
+  Std:    2.9054e-02
+  Min:    8.2182e-01
+  Max:    1.0000e+00
+  25%:    9.6633e-01
+  Median: 9.9935e-01
+  75%:    1.0000e+00
+
+delamination_probability:
+  Mean:   6.3841e-01
+  Std:    2.2569e-01
+  Min:    4.7613e-04
+  Max:    1.0000e+00
+  25%:    4.5659e-01
+  Median: 6.7094e-01
+  75%:    8.3276e-01
+
+
+VALIDATION DATA CHARACTERISTICS
+--------------------------------------------------------------------------------
+DIC (Strain) Measurement Error:
+  Mean:   3.91%
+  Std:    2.99%
+  Max:    19.98%
+
+XRD (Stress) Measurement Error:
+  Mean:   6.09%
+  Std:    4.65%
+  Max:    23.17%
+
+Measurement Confidence:
+  DIC Mean Confidence: 0.77
+  XRD Mean Confidence: 0.68
+
+
+RECOMMENDED USAGE
+--------------------------------------------------------------------------------
+1. Use training_dataset.csv/parquet for model training
+2. Use validation_dataset.csv/parquet for model validation
+3. Consider measurement uncertainty in validation metrics
+4. Input features are physics-based and realistic
+5. Output labels include probability/risk scores (0-1 scale)
+6. Both CSV and Parquet formats available
+   - CSV: Easy to inspect, universal compatibility
+   - Parquet: Faster loading, smaller file size
+
+================================================================================
+Report generated successfully
+================================================================================
