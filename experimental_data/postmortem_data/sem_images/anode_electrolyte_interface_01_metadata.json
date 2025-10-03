@@ -1,0 +1,64 @@
+{
+  "filename": "anode_electrolyte_interface_01.tif",
+  "region": "anode_electrolyte_interface",
+  "magnification": 5000,
+  "pixel_size_nm": 200.0,
+  "image_width_pixels": 1024,
+  "image_height_pixels": 768,
+  "bit_depth": 8,
+  "acquisition_time": "2025-10-03T05:47:47.608707",
+  "crack_annotations": [
+    {
+      "crack_id": 1,
+      "start_coords": [
+        696,
+        568
+      ],
+      "end_coords": [
+        690,
+        560
+      ],
+      "length_pixels": 10.0,
+      "confidence": 0.9635204353359688
+    },
+    {
+      "crack_id": 2,
+      "start_coords": [
+        209,
+        165
+      ],
+      "end_coords": [
+        196,
+        161
+      ],
+      "length_pixels": 13.601470508735444,
+      "confidence": 0.9536061925510477
+    },
+    {
+      "crack_id": 3,
+      "start_coords": [
+        349,
+        356
+      ],
+      "end_coords": [
+        333,
+        366
+      ],
+      "length_pixels": 18.867962264113206,
+      "confidence": 0.9173331033561977
+    },
+    {
+      "crack_id": 4,
+      "start_coords": [
+        743,
+        237
+      ],
+      "end_coords": [
+        744,
+        232
+      ],
+      "length_pixels": 5.0990195135927845,
+      "confidence": 0.8094820159080878
+    }
+  ]
+}

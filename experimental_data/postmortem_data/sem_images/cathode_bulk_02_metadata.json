@@ -1,0 +1,38 @@
+{
+  "filename": "cathode_bulk_02.tif",
+  "region": "cathode_bulk",
+  "magnification": 2000,
+  "pixel_size_nm": 500.0,
+  "image_width_pixels": 1024,
+  "image_height_pixels": 768,
+  "bit_depth": 8,
+  "acquisition_time": "2025-10-03T05:47:47.607917",
+  "crack_annotations": [
+    {
+      "crack_id": 1,
+      "start_coords": [
+        407,
+        684
+      ],
+      "end_coords": [
+        398,
+        664
+      ],
+      "length_pixels": 21.93171219946131,
+      "confidence": 0.9229550431894711
+    },
+    {
+      "crack_id": 2,
+      "start_coords": [
+        232,
+        305
+      ],
+      "end_coords": [
+        220,
+        304
+      ],
+      "length_pixels": 12.041594578792296,
+      "confidence": 0.8819025655633008
+    }
+  ]
+}

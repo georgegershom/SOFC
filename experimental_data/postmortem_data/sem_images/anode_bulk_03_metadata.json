@@ -1,0 +1,25 @@
+{
+  "filename": "anode_bulk_03.tif",
+  "region": "anode_bulk",
+  "magnification": 5000,
+  "pixel_size_nm": 200.0,
+  "image_width_pixels": 1024,
+  "image_height_pixels": 768,
+  "bit_depth": 8,
+  "acquisition_time": "2025-10-03T05:47:47.596184",
+  "crack_annotations": [
+    {
+      "crack_id": 1,
+      "start_coords": [
+        251,
+        352
+      ],
+      "end_coords": [
+        256,
+        362
+      ],
+      "length_pixels": 11.180339887498949,
+      "confidence": 0.8401163613705676
+    }
+  ]
+}

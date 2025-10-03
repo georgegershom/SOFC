@@ -1,0 +1,25 @@
+{
+  "filename": "electrolyte_cathode_interface_01.tif",
+  "region": "electrolyte_cathode_interface",
+  "magnification": 1000,
+  "pixel_size_nm": 1000.0,
+  "image_width_pixels": 1024,
+  "image_height_pixels": 768,
+  "bit_depth": 8,
+  "acquisition_time": "2025-10-03T05:47:47.618370",
+  "crack_annotations": [
+    {
+      "crack_id": 1,
+      "start_coords": [
+        843,
+        380
+      ],
+      "end_coords": [
+        844,
+        395
+      ],
+      "length_pixels": 15.033296378372908,
+      "confidence": 0.907168505451411
+    }
+  ]
+}

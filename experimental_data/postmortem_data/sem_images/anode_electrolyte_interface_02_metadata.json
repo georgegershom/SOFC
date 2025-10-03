@@ -1,0 +1,25 @@
+{
+  "filename": "anode_electrolyte_interface_02.tif",
+  "region": "anode_electrolyte_interface",
+  "magnification": 2000,
+  "pixel_size_nm": 500.0,
+  "image_width_pixels": 1024,
+  "image_height_pixels": 768,
+  "bit_depth": 8,
+  "acquisition_time": "2025-10-03T05:47:47.609094",
+  "crack_annotations": [
+    {
+      "crack_id": 1,
+      "start_coords": [
+        943,
+        192
+      ],
+      "end_coords": [
+        936,
+        172
+      ],
+      "length_pixels": 21.18962010041709,
+      "confidence": 0.8082500696423488
+    }
+  ]
+}
