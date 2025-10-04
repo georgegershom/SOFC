@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-label="Planar SOFC multilayer schematic">
+  <title>Planar SOFC Multilayer Schematic</title>
+  <desc>Layers: Interconnect, Cathode, Electrolyte (8YSZ), Anode; annotations for TEC and E mismatch, hotspots, and constraints.</desc>
+  <defs>
+    <linearGradient id="grad-hot" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#fee08b"/>
+      <stop offset="50%" stop-color="#f46d43"/>
+      <stop offset="100%" stop-color="#a50026"/>
+    </linearGradient>
+    <style><![CDATA[
+      .label{font-family:Arial, Helvetica, sans-serif; font-size:16px; fill:#1a1a1a}
+      .small{font-size:13px; fill:#333}
+      .title{font-size:20px; font-weight:bold}
+      .box{stroke:#222; stroke-width:2}
+      .note{fill:#555}
+      .arrow{stroke:#444; stroke-width:2; marker-end:url(#mEnd)}
+    ]]></style>
+    <marker id="mEnd" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 z" fill="#444"/>
+    </marker>
+  </defs>
+
+  <text x="450" y="30" text-anchor="middle" class="title">Planar SOFC Multilayer Stack</text>
+
+  <!-- Stack base -->
+  <rect x="100" y="80" width="700" height="360" rx="10" ry="10" fill="#fafafa" stroke="#ddd"/>
+
+  <!-- Interconnect (top) -->
+  <rect x="130" y="110" width="640" height="60" class="box" fill="#9ecae1"/>
+  <text x="140" y="145" class="label">Interconnect (Crofer 22 APU)</text>
+  <text x="650" y="145" class="small">TEC ≈ 11.9×10⁻⁶ K⁻¹ | E ≈ 140 GPa</text>
+
+  <!-- Cathode -->
+  <rect x="130" y="190" width="640" height="60" class="box" fill="#c7e9c0"/>
+  <text x="140" y="225" class="label">Cathode (LSM)</text>
+  <text x="650" y="225" class="small">TEC: see Sheet2 | E ≈ 40 GPa</text>
+
+  <!-- Electrolyte (8YSZ) -->
+  <rect x="130" y="270" width="640" height="40" class="box" fill="#fff7bc"/>
+  <text x="140" y="295" class="label">Electrolyte (8YSZ)</text>
+  <text x="610" y="295" class="small">E ≈ 170 GPa | ν ≈ 0.23 | TEC ≈ 10.5×10⁻⁶ K⁻¹</text>
+
+  <!-- Anode (bottom) -->
+  <rect x="130" y="330" width="640" height="80" class="box" fill="#fdd0a2"/>
+  <text x="140" y="375" class="label">Anode (Ni–YSZ)</text>
+  <text x="650" y="365" class="small">TEC ≈ 13.1–13.3×10⁻⁶ K⁻¹ | E ≈ 29–55 GPa</text>
+
+  <!-- Hotspot gradient band across electrolyte -->
+  <rect x="130" y="270" width="640" height="40" fill="url(#grad-hot)" fill-opacity="0.35"/>
+
+  <!-- Interface annotations -->
+  <path d="M770,270 C810,260 830,250 845,230" fill="none" class="arrow"/>
+  <text x="855" y="230" class="small" text-anchor="start">Interface TEC mismatch</text>
+
+  <path d="M770,310 C815,320 835,335 850,355" fill="none" class="arrow"/>
+  <text x="860" y="360" class="small" text-anchor="start">Constraint-induced stress</text>
+
+  <!-- Boundary conditions -->
+  <line x1="120" y1="420" x2="780" y2="420" stroke="#666" stroke-width="3"/>
+  <path d="M110,420 l10,10 l10,-10 l10,10 l10,-10 l10,10" fill="none" stroke="#999"/>
+  <text x="100" y="455" class="small">Simply supported base (Sheet9)</text>
+
+  <path d="M450,90 v-35" class="arrow"/>
+  <text x="450" y="40" class="small" text-anchor="middle">Cooling air, h ≈ 2 W/m²·K (Sheet9)</text>
+
+  <!-- Legend -->
+  <rect x="140" y="440" width="300" height="60" rx="6" ry="6" fill="#fff" stroke="#ccc"/>
+  <circle cx="160" cy="460" r="7" fill="#a50026"/>
+  <text x="175" y="465" class="small">Stress hotspot region (Sheet13)</text>
+  <rect x="150" y="475" width="30" height="10" fill="url(#grad-hot)"/>
+  <text x="190" y="484" class="small">Relative thermal stress gradient</text>
+</svg>
