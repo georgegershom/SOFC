@@ -1,0 +1,1173 @@
+{
+  "simulation_type": "dislocation_interactions",
+  "method": "MD-EAM",
+  "timestamp": "2025-10-04T11:54:36.622067",
+  "units": {
+    "distance": "Angstrom",
+    "force": "eV/Angstrom",
+    "energy": "eV",
+    "stress": "MPa"
+  },
+  "simulations": [
+    {
+      "simulation_id": "disl_interact_0000",
+      "interaction_type": "junction",
+      "dislocation_1": {
+        "type": "screw",
+        "burgers_vector": [
+          1.43,
+          1.43,
+          0
+        ],
+        "line_direction": [
+          -0.5626534056182901,
+          1.1863738759691767,
+          0.943900403594499
+        ]
+      },
+      "dislocation_2": {
+        "type": "mixed",
+        "burgers_vector": [
+          1.43,
+          -1.43,
+          0
+        ],
+        "line_direction": [
+          -0.5911028271589744,
+          -1.474046885566973,
+          -3.2048308546467594
+        ]
+      },
+      "separation_distance": 63.03033130091195,
+      "interaction_force": {
+        "magnitude": 0.031730754998761414,
+        "direction": [
+          1.165455780772364,
+          -0.22202837138840562,
+          1.620347301133989
+        ]
+      },
+      "interaction_energy": -5.068356294637533,
+      "stress_field": {
+        "max_stress": 697.1954993421322,
+        "stress_range": 110.27322478531858
+      },
+      "reaction_products": {
+        "forms_junction": true,
+        "junction_strength": 1.9534146785967457,
+        "annihilates": false
+      },
+      "computational_details": {
+        "n_atoms": 229240,
+        "box_size": [
+          300,
+          300,
+          100
+        ],
+        "relaxation_steps": 38064
+      }
+    },
+    {
+      "simulation_id": "disl_interact_0001",
+      "interaction_type": "annihilation",
+      "dislocation_1": {
+        "type": "mixed",
+        "burgers_vector": [
+          1.43,
+          1.43,
+          0
+        ],
+        "line_direction": [
+          1.0859247539537054,
+          -0.35678138189340924,
+          -2.0527304838423186
+        ]
+      },
+      "dislocation_2": {
+        "type": "screw",
+        "burgers_vector": [
+          1.43,
+          -1.43,
+          0
+        ],
+        "line_direction": [
+          -0.666116052193789,
+          1.0347719550057795,
+          0.41872211476353627
+        ]
+      },
+      "separation_distance": 60.219447028902636,
+      "interaction_force": {
+        "magnitude": 0.0,
+        "direction": [
+          0.05005767348790188,
+          1.5117693442496594,
+          -0.5081331696107463
+        ]
+      },
+      "interaction_energy": -0.02424949200910464,
+      "stress_field": {
+        "max_stress": 1294.4734314152834,
+        "stress_range": 152.53907341843808
+      },
+      "reaction_products": {
+        "forms_junction": false,
+        "junction_strength": 0,
+        "annihilates": false
+      },
+      "computational_details": {
+        "n_atoms": 124606,
+        "box_size": [
+          300,
+          300,
+          100
+        ],
+        "relaxation_steps": 15806
+      }
+    },
+    {
+      "simulation_id": "disl_interact_0002",
+      "interaction_type": "junction",
+      "dislocation_1": {
+        "type": "edge",
+        "burgers_vector": [
+          1.43,
+          1.43,
+          0
+        ],
+        "line_direction": [
+          -0.44474035275721246,
+          -2.629223958342307,
+          -0.7107994348900972
+        ]
+      },
+      "dislocation_2": {
+        "type": "edge",
+        "burgers_vector": [
+          1.43,
+          -1.43,
+          0
+        ],
+        "line_direction": [
+          0.028951756388795564,
+          1.282071436366159,
+          1.0940451052283895
+        ]
+      },
+      "separation_distance": 79.35069841279157,
+      "interaction_force": {
+        "magnitude": 0.02520456706752305,
+        "direction": [
+          2.478368216501149,
+          0.9068561219692933,
+          -0.14679607482459026
+        ]
+      },
+      "interaction_energy": -5.52887867234615,
+      "stress_field": {
+        "max_stress": 1763.8984753877378,
+        "stress_range": 172.3724798828087
+      },
+      "reaction_products": {
+        "forms_junction": true,
+        "junction_strength": 1.2960519716977719,
+        "annihilates": false
+      },
+      "computational_details": {
+        "n_atoms": 269588,
+        "box_size": [
+          300,
+          300,
+          100
+        ],
+        "relaxation_steps": 34255
+      }
+    },
+    {
+      "simulation_id": "disl_interact_0003",
+      "interaction_type": "perpendicular",
+      "dislocation_1": {
+        "type": "screw",
+        "burgers_vector": [
+          1.43,
+          1.43,
+          0
+        ],
+        "line_direction": [
+          0.2642762768820503,
+          -1.1437003054210833,
+          0.3898881859659715
+        ]
+      },
+      "dislocation_2": {
+        "type": "edge",
+        "burgers_vector": [
+          1.43,
+          -1.43,
+          0
+        ],
+        "line_direction": [
+          0.046086742214476215,
+          -1.2052556773805063,
+          -1.5229422488495052
+        ]
+      },
+      "separation_distance": 46.84674449270101,
+      "interaction_force": {
+        "magnitude": 0.0106731002423851,
+        "direction": [
+          1.4187459731728143,
+          -0.9300920619158723,
+          -0.4740031102496746
+        ]
+      },
+      "interaction_energy": -1.1187218029766768,
+      "stress_field": {
+        "max_stress": 1962.6359948847125,
+        "stress_range": 189.67617337595192
+      },
+      "reaction_products": {
+        "forms_junction": false,
+        "junction_strength": 0,
+        "annihilates": false
+      },
+      "computational_details": {
+        "n_atoms": 109556,
+        "box_size": [
+          300,
+          300,
+          100
+        ],
+        "relaxation_steps": 24805
+      }
+    },
+    {
+      "simulation_id": "disl_interact_0004",
+      "interaction_type": "parallel",
+      "dislocation_1": {
+        "type": "edge",
+        "burgers_vector": [
+          1.43,
+          1.43,
+          0
+        ],
+        "line_direction": [
+          0.4763847408784236,
+          0.35041963340049687,
+          0.8218939697411145
+        ]
+      },
+      "dislocation_2": {
+        "type": "mixed",
+        "burgers_vector": [
+          1.43,
+          -1.43,
+          0
+        ],
+        "line_direction": [
+          0.7226778887506865,
+          1.629399185062503,
+          1.2934121094415778
+        ]
+      },
+      "separation_distance": 89.46800966782864,
+      "interaction_force": {
+        "magnitude": 0.011177179460152729,
+        "direction": [
+          1.1917879911611866,
+          -1.5458194537684635,
+          -0.8971270081030036
+        ]
+      },
+      "interaction_energy": -2.884443215072985,
+      "stress_field": {
+        "max_stress": 1329.6875536846724,
+        "stress_range": 110.52642364366869
+      },
+      "reaction_products": {
+        "forms_junction": false,
+        "junction_strength": 0,
+        "annihilates": false
+      },
+      "computational_details": {
+        "n_atoms": 143086,
+        "box_size": [
+          300,
+          300,
+          100
+        ],
+        "relaxation_steps": 22357
+      }
+    },
+    {
+      "simulation_id": "disl_interact_0005",
+      "interaction_type": "annihilation",
+      "dislocation_1": {
+        "type": "screw",
+        "burgers_vector": [
+          1.43,
+          1.43,
+          0
+        ],
+        "line_direction": [
+          0.19336164076170237,
+          0.847713124445239,
+          -0.5223022940068301
+        ]
+      },
+      "dislocation_2": {
+        "type": "mixed",
+        "burgers_vector": [
+          1.43,
+          -1.43,
+          0
+        ],
+        "line_direction": [
+          0.8562303044608338,
+          0.8113381959751041,
+          0.31584825363318547
+        ]
+      },
+      "separation_distance": 32.01356715592006,
+      "interaction_force": {
+        "magnitude": 0.0,
+        "direction": [
+          0.9956991826045819,
+          0.9772084847374365,
+          -0.03712225605744219
+        ]
+      },
+      "interaction_energy": -0.40706938758733946,
+      "stress_field": {
+        "max_stress": 1711.0710075980214,
+        "stress_range": 62.90549362412315
+      },
+      "reaction_products": {
+        "forms_junction": false,
+        "junction_strength": 0,
+        "annihilates": false
+      },
+      "computational_details": {
+        "n_atoms": 221748,
+        "box_size": [
+          300,
+          300,
+          100
+        ],
+        "relaxation_steps": 26480
+      }
+    },
+    {
+      "simulation_id": "disl_interact_0006",
+      "interaction_type": "junction",
+      "dislocation_1": {
+        "type": "edge",
+        "burgers_vector": [
+          1.43,
+          1.43,
+          0
+        ],
+        "line_direction": [
+          1.1798577810258633,
+          -0.24363822076978542,
+          0.4477776030703393
+        ]
+      },
+      "dislocation_2": {
+        "type": "screw",
+        "burgers_vector": [
+          1.43,
+          -1.43,
+          0
+        ],
+        "line_direction": [
+          1.5534026357751543,
+          0.7398978867350563,
+          1.4851459272761516
+        ]
+      },
+      "separation_distance": 48.16917444472769,
+      "interaction_force": {
+        "magnitude": 0.04152032961027648,
+        "direction": [
+          -1.9443818134504893,
+          0.17519008031559372,
+          -1.6578076530843493
+        ]
+      },
+      "interaction_energy": -4.530562739382771,
+      "stress_field": {
+        "max_stress": 1088.6977300466938,
+        "stress_range": 66.84631496711917
+      },
+      "reaction_products": {
+        "forms_junction": true,
+        "junction_strength": 1.1410400279808048,
+        "annihilates": false
+      },
+      "computational_details": {
+        "n_atoms": 289361,
+        "box_size": [
+          300,
+          300,
+          100
+        ],
+        "relaxation_steps": 17794
+      }
+    },
+    {
+      "simulation_id": "disl_interact_0007",
+      "interaction_type": "perpendicular",
+      "dislocation_1": {
+        "type": "mixed",
+        "burgers_vector": [
+          1.43,
+          1.43,
+          0
+        ],
+        "line_direction": [
+          0.3839736440315843,
+          -0.6194305650397908,
+          -0.40710379439887995
+        ]
+      },
+      "dislocation_2": {
+        "type": "mixed",
+        "burgers_vector": [
+          1.43,
+          -1.43,
+          0
+        ],
+        "line_direction": [
+          1.6711623572967529,
+          -0.9830912640983255,
+          -0.6717037076750613
+        ]
+      },
+      "separation_distance": 81.5724689111913,
+      "interaction_force": {
+        "magnitude": 0.006129519023683771,
+        "direction": [
+          -0.23901057152075555,
+          0.3606634367955174,
+          -0.6051116228792915
+        ]
+      },
+      "interaction_energy": -1.3960269509063288,
+      "stress_field": {
+        "max_stress": 631.3512141847165,
+        "stress_range": 185.49853121774393
+      },
+      "reaction_products": {
+        "forms_junction": false,
+        "junction_strength": 0,
+        "annihilates": false
+      },
+      "computational_details": {
+        "n_atoms": 201768,
+        "box_size": [
+          300,
+          300,
+          100
+        ],
+        "relaxation_steps": 24215
+      }
+    },
+    {
+      "simulation_id": "disl_interact_0008",
+      "interaction_type": "annihilation",
+      "dislocation_1": {
+        "type": "edge",
+        "burgers_vector": [
+          1.43,
+          1.43,
+          0
+        ],
+        "line_direction": [
+          -1.295447638462814,
+          0.47717288649735373,
+          1.957386258118779
+        ]
+      },
+      "dislocation_2": {
+        "type": "mixed",
+        "burgers_vector": [
+          1.43,
+          -1.43,
+          0
+        ],
+        "line_direction": [
+          -0.05882632091034658,
+          0.9621892119522216,
+          0.35025977303736533
+        ]
+      },
+      "separation_distance": 81.92870330503868,
+      "interaction_force": {
+        "magnitude": 0.0,
+        "direction": [
+          0.5437288848055599,
+          0.09740399739031358,
+          -1.116902796857694
+        ]
+      },
+      "interaction_energy": -0.002766187563922598,
+      "stress_field": {
+        "max_stress": 970.2557676330235,
+        "stress_range": 73.191613786541
+      },
+      "reaction_products": {
+        "forms_junction": false,
+        "junction_strength": 0,
+        "annihilates": false
+      },
+      "computational_details": {
+        "n_atoms": 249991,
+        "box_size": [
+          300,
+          300,
+          100
+        ],
+        "relaxation_steps": 24313
+      }
+    },
+    {
+      "simulation_id": "disl_interact_0009",
+      "interaction_type": "junction",
+      "dislocation_1": {
+        "type": "edge",
+        "burgers_vector": [
+          1.43,
+          1.43,
+          0
+        ],
+        "line_direction": [
+          -0.2729585899467542,
+          0.6511071355391674,
+          -0.8981823805072635
+        ]
+      },
+      "dislocation_2": {
+        "type": "edge",
+        "burgers_vector": [
+          1.43,
+          -1.43,
+          0
+        ],
+        "line_direction": [
+          1.3995231329215039,
+          2.1802488316809656,
+          -0.1797605208257561
+        ]
+      },
+      "separation_distance": 53.55918774889632,
+      "interaction_force": {
+        "magnitude": 0.03734186577617046,
+        "direction": [
+          0.5349008703581632,
+          -0.02904171189681051,
+          -0.48013259168403477
+        ]
+      },
+      "interaction_energy": -4.742698886036043,
+      "stress_field": {
+        "max_stress": 989.8365251793819,
+        "stress_range": 120.02650728717668
+      },
+      "reaction_products": {
+        "forms_junction": true,
+        "junction_strength": 1.0980673618952084,
+        "annihilates": false
+      },
+      "computational_details": {
+        "n_atoms": 208121,
+        "box_size": [
+          300,
+          300,
+          100
+        ],
+        "relaxation_steps": 38055
+      }
+    },
+    {
+      "simulation_id": "disl_interact_0010",
+      "interaction_type": "perpendicular",
+      "dislocation_1": {
+        "type": "edge",
+        "burgers_vector": [
+          1.43,
+          1.43,
+          0
+        ],
+        "line_direction": [
+          -0.17181000196426713,
+          -1.214541868590502,
+          0.8006062177833303
+        ]
+      },
+      "dislocation_2": {
+        "type": "mixed",
+        "burgers_vector": [
+          1.43,
+          -1.43,
+          0
+        ],
+        "line_direction": [
+          -0.48945319629011114,
+          1.0247339334840753,
+          0.7893984023813948
+        ]
+      },
+      "separation_distance": 53.34360109974048,
+      "interaction_force": {
+        "magnitude": 0.009373195466596134,
+        "direction": [
+          -1.3504527104745765,
+          -0.4684223926999455,
+          -0.5955700477329492
+        ]
+      },
+      "interaction_energy": -1.1836580581110172,
+      "stress_field": {
+        "max_stress": 1716.7501786363562,
+        "stress_range": 113.3198878425967
+      },
+      "reaction_products": {
+        "forms_junction": false,
+        "junction_strength": 0,
+        "annihilates": false
+      },
+      "computational_details": {
+        "n_atoms": 122146,
+        "box_size": [
+          300,
+          300,
+          100
+        ],
+        "relaxation_steps": 29012
+      }
+    },
+    {
+      "simulation_id": "disl_interact_0011",
+      "interaction_type": "perpendicular",
+      "dislocation_1": {
+        "type": "mixed",
+        "burgers_vector": [
+          1.43,
+          1.43,
+          0
+        ],
+        "line_direction": [
+          -0.4419936726938315,
+          0.3129946900928567,
+          -0.3181437478817858
+        ]
+      },
+      "dislocation_2": {
+        "type": "screw",
+        "burgers_vector": [
+          1.43,
+          -1.43,
+          0
+        ],
+        "line_direction": [
+          -0.13250177566040955,
+          -0.7837643515954957,
+          -0.08404441470535422
+        ]
+      },
+      "separation_distance": 86.70182936886447,
+      "interaction_force": {
+        "magnitude": 0.005766891006103214,
+        "direction": [
+          0.5864245963158183,
+          1.000783728137956,
+          0.3001351352985769
+        ]
+      },
+      "interaction_energy": -1.4265185355583485,
+      "stress_field": {
+        "max_stress": 1389.8076256031877,
+        "stress_range": 174.22059005807222
+      },
+      "reaction_products": {
+        "forms_junction": false,
+        "junction_strength": 0,
+        "annihilates": false
+      },
+      "computational_details": {
+        "n_atoms": 187474,
+        "box_size": [
+          300,
+          300,
+          100
+        ],
+        "relaxation_steps": 19435
+      }
+    },
+    {
+      "simulation_id": "disl_interact_0012",
+      "interaction_type": "annihilation",
+      "dislocation_1": {
+        "type": "edge",
+        "burgers_vector": [
+          1.43,
+          1.43,
+          0
+        ],
+        "line_direction": [
+          -1.1914037912456765,
+          1.9525686770753423,
+          0.10479910321353644
+        ]
+      },
+      "dislocation_2": {
+        "type": "mixed",
+        "burgers_vector": [
+          1.43,
+          -1.43,
+          0
+        ],
+        "line_direction": [
+          -0.3056918279964095,
+          1.212095737745905,
+          -0.454551017449348
+        ]
+      },
+      "separation_distance": 48.62147321026398,
+      "interaction_force": {
+        "magnitude": 0.0,
+        "direction": [
+          0.9597502225342214,
+          -2.088444659608966,
+          -0.7331014319687985
+        ]
+      },
+      "interaction_energy": -0.07733858970021945,
+      "stress_field": {
+        "max_stress": 1692.4606690833332,
+        "stress_range": 57.4983074120429
+      },
+      "reaction_products": {
+        "forms_junction": false,
+        "junction_strength": 0,
+        "annihilates": false
+      },
+      "computational_details": {
+        "n_atoms": 122359,
+        "box_size": [
+          300,
+          300,
+          100
+        ],
+        "relaxation_steps": 31905
+      }
+    },
+    {
+      "simulation_id": "disl_interact_0013",
+      "interaction_type": "annihilation",
+      "dislocation_1": {
+        "type": "edge",
+        "burgers_vector": [
+          1.43,
+          1.43,
+          0
+        ],
+        "line_direction": [
+          -1.577292341741187,
+          -1.3180074458299489,
+          0.4263872158102298
+        ]
+      },
+      "dislocation_2": {
+        "type": "edge",
+        "burgers_vector": [
+          1.43,
+          -1.43,
+          0
+        ],
+        "line_direction": [
+          -0.7252580781029515,
+          1.0038051593637216,
+          -0.20721786980617912
+        ]
+      },
+      "separation_distance": 43.97712901254113,
+      "interaction_force": {
+        "magnitude": 0.0,
+        "direction": [
+          -0.34218994856000146,
+          0.2903379988966136,
+          -0.386225499145492
+        ]
+      },
+      "interaction_energy": -0.12305451526539071,
+      "stress_field": {
+        "max_stress": 1359.396471527049,
+        "stress_range": 144.07207598142998
+      },
+      "reaction_products": {
+        "forms_junction": false,
+        "junction_strength": 0,
+        "annihilates": false
+      },
+      "computational_details": {
+        "n_atoms": 272217,
+        "box_size": [
+          300,
+          300,
+          100
+        ],
+        "relaxation_steps": 39592
+      }
+    },
+    {
+      "simulation_id": "disl_interact_0014",
+      "interaction_type": "annihilation",
+      "dislocation_1": {
+        "type": "edge",
+        "burgers_vector": [
+          1.43,
+          1.43,
+          0
+        ],
+        "line_direction": [
+          0.9158888544384175,
+          -0.4770602472471712,
+          -1.583355126254322
+        ]
+      },
+      "dislocation_2": {
+        "type": "edge",
+        "burgers_vector": [
+          1.43,
+          -1.43,
+          0
+        ],
+        "line_direction": [
+          -2.049160341324929,
+          0.12671311202037397,
+          -0.06855226333829606
+        ]
+      },
+      "separation_distance": 74.74237334458195,
+      "interaction_force": {
+        "magnitude": 0.0,
+        "direction": [
+          0.22818582916658728,
+          1.5362449480334628,
+          1.5796616534373087
+        ]
+      },
+      "interaction_energy": -0.005675184293796585,
+      "stress_field": {
+        "max_stress": 1425.7683666473183,
+        "stress_range": 110.40621666247809
+      },
+      "reaction_products": {
+        "forms_junction": false,
+        "junction_strength": 0,
+        "annihilates": false
+      },
+      "computational_details": {
+        "n_atoms": 220361,
+        "box_size": [
+          300,
+          300,
+          100
+        ],
+        "relaxation_steps": 11709
+      }
+    },
+    {
+      "simulation_id": "disl_interact_0015",
+      "interaction_type": "perpendicular",
+      "dislocation_1": {
+        "type": "edge",
+        "burgers_vector": [
+          1.43,
+          1.43,
+          0
+        ],
+        "line_direction": [
+          -0.19607239593367315,
+          0.3480516990957996,
+          -0.024956122526280048
+        ]
+      },
+      "dislocation_2": {
+        "type": "mixed",
+        "burgers_vector": [
+          1.43,
+          -1.43,
+          0
+        ],
+        "line_direction": [
+          -1.4696632891353678,
+          -0.6625120597543717,
+          -1.5144933541536962
+        ]
+      },
+      "separation_distance": 36.219998738278804,
+      "interaction_force": {
+        "magnitude": 0.013804528366026119,
+        "direction": [
+          0.07675656778737189,
+          -0.7388452382874112,
+          0.37814232962971106
+        ]
+      },
+      "interaction_energy": -0.9900867525931177,
+      "stress_field": {
+        "max_stress": 1098.3684837815051,
+        "stress_range": 80.8100100362505
+      },
+      "reaction_products": {
+        "forms_junction": false,
+        "junction_strength": 0,
+        "annihilates": false
+      },
+      "computational_details": {
+        "n_atoms": 165637,
+        "box_size": [
+          300,
+          300,
+          100
+        ],
+        "relaxation_steps": 31282
+      }
+    },
+    {
+      "simulation_id": "disl_interact_0016",
+      "interaction_type": "perpendicular",
+      "dislocation_1": {
+        "type": "edge",
+        "burgers_vector": [
+          1.43,
+          1.43,
+          0
+        ],
+        "line_direction": [
+          0.04340185415239412,
+          -0.3954102147604567,
+          -0.08866855989001318
+        ]
+      },
+      "dislocation_2": {
+        "type": "mixed",
+        "burgers_vector": [
+          1.43,
+          -1.43,
+          0
+        ],
+        "line_direction": [
+          -0.35735545233453747,
+          -1.6212974265439606,
+          -0.4838070781795611
+        ]
+      },
+      "separation_distance": 28.555126217612166,
+      "interaction_force": {
+        "magnitude": 0.017509990892339712,
+        "direction": [
+          0.5515199301218939,
+          0.5475172980108713,
+          1.0183730441069097
+        ]
+      },
+      "interaction_energy": -0.8711992799154868,
+      "stress_field": {
+        "max_stress": 1118.5824420127037,
+        "stress_range": 160.58592434193912
+      },
+      "reaction_products": {
+        "forms_junction": false,
+        "junction_strength": 0,
+        "annihilates": false
+      },
+      "computational_details": {
+        "n_atoms": 227750,
+        "box_size": [
+          300,
+          300,
+          100
+        ],
+        "relaxation_steps": 34584
+      }
+    },
+    {
+      "simulation_id": "disl_interact_0017",
+      "interaction_type": "parallel",
+      "dislocation_1": {
+        "type": "screw",
+        "burgers_vector": [
+          1.43,
+          1.43,
+          0
+        ],
+        "line_direction": [
+          -0.3844273651012507,
+          0.6211202735153565,
+          1.5351563357211226
+        ]
+      },
+      "dislocation_2": {
+        "type": "edge",
+        "burgers_vector": [
+          1.43,
+          -1.43,
+          0
+        ],
+        "line_direction": [
+          0.4369753766499886,
+          0.6547940942160712,
+          0.36601772885933276
+        ]
+      },
+      "separation_distance": 65.6693119037431,
+      "interaction_force": {
+        "magnitude": 0.015227812977023152,
+        "direction": [
+          -0.8510916420293263,
+          0.5645353166003192,
+          -0.718866966665817
+        ]
+      },
+      "interaction_energy": -2.5751938096225664,
+      "stress_field": {
+        "max_stress": 1077.1015070683452,
+        "stress_range": 162.31574306701293
+      },
+      "reaction_products": {
+        "forms_junction": false,
+        "junction_strength": 0,
+        "annihilates": false
+      },
+      "computational_details": {
+        "n_atoms": 164478,
+        "box_size": [
+          300,
+          300,
+          100
+        ],
+        "relaxation_steps": 22871
+      }
+    },
+    {
+      "simulation_id": "disl_interact_0018",
+      "interaction_type": "parallel",
+      "dislocation_1": {
+        "type": "edge",
+        "burgers_vector": [
+          1.43,
+          1.43,
+          0
+        ],
+        "line_direction": [
+          -0.03148804162309806,
+          -0.01648733213427791,
+          0.45488270766761524
+        ]
+      },
+      "dislocation_2": {
+        "type": "edge",
+        "burgers_vector": [
+          1.43,
+          -1.43,
+          0
+        ],
+        "line_direction": [
+          0.012690700308103212,
+          -0.4948773733565988,
+          -0.6307043297015343
+        ]
+      },
+      "separation_distance": 82.83868155885781,
+      "interaction_force": {
+        "magnitude": 0.012071655187914703,
+        "direction": [
+          -0.01360031396906143,
+          -0.3919209303686415,
+          -0.13415281193896278
+        ]
+      },
+      "interaction_energy": -2.8074572084530836,
+      "stress_field": {
+        "max_stress": 869.8027230298251,
+        "stress_range": 110.24885813974286
+      },
+      "reaction_products": {
+        "forms_junction": false,
+        "junction_strength": 0,
+        "annihilates": false
+      },
+      "computational_details": {
+        "n_atoms": 100730,
+        "box_size": [
+          300,
+          300,
+          100
+        ],
+        "relaxation_steps": 15991
+      }
+    },
+    {
+      "simulation_id": "disl_interact_0019",
+      "interaction_type": "perpendicular",
+      "dislocation_1": {
+        "type": "edge",
+        "burgers_vector": [
+          1.43,
+          1.43,
+          0
+        ],
+        "line_direction": [
+          -1.4704745644651547,
+          1.48253894232909,
+          0.34590210000150307
+        ]
+      },
+      "dislocation_2": {
+        "type": "mixed",
+        "burgers_vector": [
+          1.43,
+          -1.43,
+          0
+        ],
+        "line_direction": [
+          0.10253827504876298,
+          -1.0851474421010603,
+          -0.3918679013201383
+        ]
+      },
+      "separation_distance": 42.47637066118542,
+      "interaction_force": {
+        "magnitude": 0.011771250514510086,
+        "direction": [
+          0.5260216660352331,
+          1.0981895147147698,
+          -0.1980432174606713
+        ]
+      },
+      "interaction_energy": -1.069755012218456,
+      "stress_field": {
+        "max_stress": 1721.079547533331,
+        "stress_range": 168.68240776518212
+      },
+      "reaction_products": {
+        "forms_junction": false,
+        "junction_strength": 0,
+        "annihilates": false
+      },
+      "computational_details": {
+        "n_atoms": 171145,
+        "box_size": [
+          300,
+          300,
+          100
+        ],
+        "relaxation_steps": 44739
+      }
+    }
+  ]
+}

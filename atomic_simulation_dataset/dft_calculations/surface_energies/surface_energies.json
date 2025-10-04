@@ -1,0 +1,561 @@
+{
+  "calculation_type": "surface_energy",
+  "method": "DFT-PBE",
+  "timestamp": "2025-10-04T11:54:32.108407",
+  "units": {
+    "energy": "J/m^2",
+    "distance": "Angstrom"
+  },
+  "surfaces": [
+    {
+      "surface_id": "surf_0000",
+      "miller_indices": [
+        1,
+        0,
+        0
+      ],
+      "surface_energy": 2.350345899754603,
+      "work_function": 5.039732618759943,
+      "surface_stress": [
+        0.12795005277263582,
+        0.1743038064090484
+      ],
+      "reconstruction": "2x1",
+      "oxidation_state": false,
+      "adsorption_sites": {
+        "top": -0.6979149648388245,
+        "bridge": -1.2911118998235682,
+        "hollow": -1.814954345539408
+      },
+      "interlayer_spacing": 3.524
+    },
+    {
+      "surface_id": "surf_0001",
+      "miller_indices": [
+        1,
+        1,
+        0
+      ],
+      "surface_energy": 2.0914037417294122,
+      "work_function": 4.902980178765161,
+      "surface_stress": [
+        -0.32647548501349133,
+        0.1949510889024617
+      ],
+      "reconstruction": "2x1",
+      "oxidation_state": false,
+      "adsorption_sites": {
+        "top": -0.5640156681581192,
+        "bridge": -1.640437856603726,
+        "hollow": -1.6009038892856178
+      },
+      "interlayer_spacing": 2.491844296901393
+    },
+    {
+      "surface_id": "surf_0002",
+      "miller_indices": [
+        1,
+        1,
+        1
+      ],
+      "surface_energy": 1.915032670099325,
+      "work_function": 4.813727691194096,
+      "surface_stress": [
+        0.10637094443337558,
+        -0.36080197538247016
+      ],
+      "reconstruction": "c(2x2)",
+      "oxidation_state": false,
+      "adsorption_sites": {
+        "top": -0.8527852986455069,
+        "bridge": -2.2377420591093813,
+        "hollow": -2.2461508853048366
+      },
+      "interlayer_spacing": 2.0345823486242414
+    },
+    {
+      "surface_id": "surf_0003",
+      "miller_indices": [
+        2,
+        1,
+        0
+      ],
+      "surface_energy": 2.1195989083316937,
+      "work_function": 4.8675344222915315,
+      "surface_stress": [
+        -0.43182769061450643,
+        -0.474188093050513
+      ],
+      "reconstruction": "1x1",
+      "oxidation_state": false,
+      "adsorption_sites": {
+        "top": -1.6511729624519298,
+        "bridge": -2.380051908461047,
+        "hollow": -1.834914554292461
+      },
+      "interlayer_spacing": 1.5759807105418517
+    },
+    {
+      "surface_id": "surf_0004",
+      "miller_indices": [
+        2,
+        1,
+        1
+      ],
+      "surface_energy": 2.0366105156373187,
+      "work_function": 5.436449173883661,
+      "surface_stress": [
+        0.37610519259804254,
+        -0.22224737625073887
+      ],
+      "reconstruction": "2x2",
+      "oxidation_state": false,
+      "adsorption_sites": {
+        "top": -1.0387605279646905,
+        "bridge": -2.1759427262356006,
+        "hollow": -2.0706180676532555
+      },
+      "interlayer_spacing": 1.4386669755946535
+    },
+    {
+      "surface_id": "surf_0005",
+      "miller_indices": [
+        3,
+        1,
+        0
+      ],
+      "surface_energy": 2.195060327719446,
+      "work_function": 4.561349627110668,
+      "surface_stress": [
+        0.2807615860684398,
+        -0.04019957623067982
+      ],
+      "reconstruction": "2x1",
+      "oxidation_state": false,
+      "adsorption_sites": {
+        "top": -1.273097619471703,
+        "bridge": -1.3686196834842055,
+        "hollow": -2.0707533728886185
+      },
+      "interlayer_spacing": 1.1143866474433368
+    },
+    {
+      "surface_id": "surf_0006",
+      "miller_indices": [
+        1,
+        0,
+        0
+      ],
+      "surface_energy": 2.2892065144710516,
+      "work_function": 4.670664758549998,
+      "surface_stress": [
+        -0.4253701856629183,
+        0.2826960407441492
+      ],
+      "reconstruction": "2x1",
+      "oxidation_state": false,
+      "adsorption_sites": {
+        "top": -1.84843128348403,
+        "bridge": -1.4617579874588023,
+        "hollow": -2.906562302804906
+      },
+      "interlayer_spacing": 3.524
+    },
+    {
+      "surface_id": "surf_0007",
+      "miller_indices": [
+        1,
+        1,
+        0
+      ],
+      "surface_energy": 1.6421633588859148,
+      "work_function": 5.115219438231011,
+      "surface_stress": [
+        -0.19374637921338833,
+        0.12389583629163847
+      ],
+      "reconstruction": "c(2x2)",
+      "oxidation_state": true,
+      "adsorption_sites": {
+        "top": -0.7279761721258979,
+        "bridge": -1.4135237954850082,
+        "hollow": -1.8118595493591851
+      },
+      "interlayer_spacing": 2.491844296901393
+    },
+    {
+      "surface_id": "surf_0008",
+      "miller_indices": [
+        1,
+        1,
+        1
+      ],
+      "surface_energy": 1.8809596858170399,
+      "work_function": 4.8542362404447745,
+      "surface_stress": [
+        0.025504621968640007,
+        -0.018365153465137674
+      ],
+      "reconstruction": "2x2",
+      "oxidation_state": false,
+      "adsorption_sites": {
+        "top": -0.899578429157897,
+        "bridge": -1.3460426595379902,
+        "hollow": -2.983453103357029
+      },
+      "interlayer_spacing": 2.0345823486242414
+    },
+    {
+      "surface_id": "surf_0009",
+      "miller_indices": [
+        2,
+        1,
+        0
+      ],
+      "surface_energy": 2.1248461994539283,
+      "work_function": 4.519192276823056,
+      "surface_stress": [
+        -0.24018679125496578,
+        0.260289823122135
+      ],
+      "reconstruction": "2x1",
+      "oxidation_state": false,
+      "adsorption_sites": {
+        "top": -1.7154577277379843,
+        "bridge": -1.5715777104884177,
+        "hollow": -2.5147494076327894
+      },
+      "interlayer_spacing": 1.5759807105418517
+    },
+    {
+      "surface_id": "surf_0010",
+      "miller_indices": [
+        2,
+        1,
+        1
+      ],
+      "surface_energy": 2.25029100978643,
+      "work_function": 4.698856277775296,
+      "surface_stress": [
+        -0.43538332015591386,
+        -0.45736679071296726
+      ],
+      "reconstruction": "1x1",
+      "oxidation_state": false,
+      "adsorption_sites": {
+        "top": -1.8353957019837448,
+        "bridge": -1.6780607665394607,
+        "hollow": -2.318433998160059
+      },
+      "interlayer_spacing": 1.4386669755946535
+    },
+    {
+      "surface_id": "surf_0011",
+      "miller_indices": [
+        3,
+        1,
+        0
+      ],
+      "surface_energy": 2.2533071248218848,
+      "work_function": 4.988241137021778,
+      "surface_stress": [
+        -0.34995133530601574,
+        -0.17532407310994003
+      ],
+      "reconstruction": "c(2x2)",
+      "oxidation_state": false,
+      "adsorption_sites": {
+        "top": -1.0224340281335476,
+        "bridge": -1.2839711080206007,
+        "hollow": -2.078878033222896
+      },
+      "interlayer_spacing": 1.1143866474433368
+    },
+    {
+      "surface_id": "surf_0012",
+      "miller_indices": [
+        1,
+        0,
+        0
+      ],
+      "surface_energy": 2.4578695694940835,
+      "work_function": 5.4562221906489485,
+      "surface_stress": [
+        -0.36685499582190306,
+        -0.3978504703424619
+      ],
+      "reconstruction": "c(2x2)",
+      "oxidation_state": false,
+      "adsorption_sites": {
+        "top": -1.526889656377981,
+        "bridge": -1.4677979408701867,
+        "hollow": -2.343595313916912
+      },
+      "interlayer_spacing": 3.524
+    },
+    {
+      "surface_id": "surf_0013",
+      "miller_indices": [
+        1,
+        1,
+        0
+      ],
+      "surface_energy": 1.2617984152848107,
+      "work_function": 5.401761992135423,
+      "surface_stress": [
+        -0.03852253537526584,
+        0.13720147680828043
+      ],
+      "reconstruction": "2x1",
+      "oxidation_state": true,
+      "adsorption_sites": {
+        "top": -1.4204766352275269,
+        "bridge": -1.8248133513703606,
+        "hollow": -2.659552958451954
+      },
+      "interlayer_spacing": 2.491844296901393
+    },
+    {
+      "surface_id": "surf_0014",
+      "miller_indices": [
+        1,
+        1,
+        1
+      ],
+      "surface_energy": 1.9778781832257688,
+      "work_function": 5.3824594404561,
+      "surface_stress": [
+        -0.3943065200937259,
+        0.48827527100013135
+      ],
+      "reconstruction": "2x2",
+      "oxidation_state": false,
+      "adsorption_sites": {
+        "top": -0.97965833118747,
+        "bridge": -2.4374906490964237,
+        "hollow": -2.8728119759312953
+      },
+      "interlayer_spacing": 2.0345823486242414
+    },
+    {
+      "surface_id": "surf_0015",
+      "miller_indices": [
+        2,
+        1,
+        0
+      ],
+      "surface_energy": 2.2148970164188047,
+      "work_function": 4.571256727765259,
+      "surface_stress": [
+        -0.48789152476511255,
+        0.4565013982994801
+      ],
+      "reconstruction": "1x1",
+      "oxidation_state": false,
+      "adsorption_sites": {
+        "top": -1.4186071527758457,
+        "bridge": -1.8070795949935663,
+        "hollow": -1.512617386694589
+      },
+      "interlayer_spacing": 1.5759807105418517
+    },
+    {
+      "surface_id": "surf_0016",
+      "miller_indices": [
+        2,
+        1,
+        1
+      ],
+      "surface_energy": 1.7339269778053512,
+      "work_function": 4.8548413602568905,
+      "surface_stress": [
+        -0.08786906973722841,
+        0.049616043718924474
+      ],
+      "reconstruction": "2x1",
+      "oxidation_state": true,
+      "adsorption_sites": {
+        "top": -0.8534410066673961,
+        "bridge": -2.102430357512494,
+        "hollow": -2.968582558453631
+      },
+      "interlayer_spacing": 1.4386669755946535
+    },
+    {
+      "surface_id": "surf_0017",
+      "miller_indices": [
+        3,
+        1,
+        0
+      ],
+      "surface_energy": 1.3344254425374764,
+      "work_function": 5.269223147838134,
+      "surface_stress": [
+        0.12466356885426377,
+        -0.1180603603471041
+      ],
+      "reconstruction": "2x1",
+      "oxidation_state": true,
+      "adsorption_sites": {
+        "top": -1.9843584509038954,
+        "bridge": -2.1168797729721707,
+        "hollow": -2.6089300501201254
+      },
+      "interlayer_spacing": 1.1143866474433368
+    },
+    {
+      "surface_id": "surf_0018",
+      "miller_indices": [
+        1,
+        0,
+        0
+      ],
+      "surface_energy": 1.544885379064065,
+      "work_function": 5.395814597371882,
+      "surface_stress": [
+        -0.17778449655537165,
+        -0.3747664295671729
+      ],
+      "reconstruction": "2x2",
+      "oxidation_state": true,
+      "adsorption_sites": {
+        "top": -0.530044505961724,
+        "bridge": -1.5971776155455168,
+        "hollow": -2.12636601268913
+      },
+      "interlayer_spacing": 3.524
+    },
+    {
+      "surface_id": "surf_0019",
+      "miller_indices": [
+        1,
+        1,
+        0
+      ],
+      "surface_energy": 1.6267102575707535,
+      "work_function": 4.6280957463662,
+      "surface_stress": [
+        -0.1617324940055016,
+        0.42808364032604973
+      ],
+      "reconstruction": "2x2",
+      "oxidation_state": true,
+      "adsorption_sites": {
+        "top": -1.857482451511543,
+        "bridge": -1.9360106650880329,
+        "hollow": -2.174862089312766
+      },
+      "interlayer_spacing": 2.491844296901393
+    },
+    {
+      "surface_id": "surf_0020",
+      "miller_indices": [
+        1,
+        1,
+        1
+      ],
+      "surface_energy": 1.8777305597259695,
+      "work_function": 4.773791307514107,
+      "surface_stress": [
+        0.428317532848577,
+        0.17598227558635537
+      ],
+      "reconstruction": "2x2",
+      "oxidation_state": false,
+      "adsorption_sites": {
+        "top": -0.6696126496860957,
+        "bridge": -1.531283781017191,
+        "hollow": -2.57113981614126
+      },
+      "interlayer_spacing": 2.0345823486242414
+    },
+    {
+      "surface_id": "surf_0021",
+      "miller_indices": [
+        2,
+        1,
+        0
+      ],
+      "surface_energy": 1.726918831497305,
+      "work_function": 5.418926533639555,
+      "surface_stress": [
+        -0.24775897982663841,
+        0.2550419287462783
+      ],
+      "reconstruction": "1x1",
+      "oxidation_state": true,
+      "adsorption_sites": {
+        "top": -0.5324040817991063,
+        "bridge": -1.3777121410315036,
+        "hollow": -2.163280161733395
+      },
+      "interlayer_spacing": 1.5759807105418517
+    },
+    {
+      "surface_id": "surf_0022",
+      "miller_indices": [
+        2,
+        1,
+        1
+      ],
+      "surface_energy": 2.05417837945259,
+      "work_function": 4.820059832520983,
+      "surface_stress": [
+        0.2531873359134028,
+        -0.23066870169797493
+      ],
+      "reconstruction": "c(2x2)",
+      "oxidation_state": false,
+      "adsorption_sites": {
+        "top": -1.9352393963044825,
+        "bridge": -2.2527777764058445,
+        "hollow": -2.802406839818157
+      },
+      "interlayer_spacing": 1.4386669755946535
+    },
+    {
+      "surface_id": "surf_0023",
+      "miller_indices": [
+        3,
+        1,
+        0
+      ],
+      "surface_energy": 1.4253812280713254,
+      "work_function": 5.005852692951829,
+      "surface_stress": [
+        0.3407030280112,
+        0.2328015447662506
+      ],
+      "reconstruction": "2x2",
+      "oxidation_state": true,
+      "adsorption_sites": {
+        "top": -0.8627224833851939,
+        "bridge": -1.384864320885086,
+        "hollow": -2.0820892419940034
+      },
+      "interlayer_spacing": 1.1143866474433368
+    },
+    {
+      "surface_id": "surf_0024",
+      "miller_indices": [
+        1,
+        0,
+        0
+      ],
+      "surface_energy": 2.231779213767548,
+      "work_function": 4.593756920645557,
+      "surface_stress": [
+        0.07717278328755006,
+        0.37713844151140397
+      ],
+      "reconstruction": "1x1",
+      "oxidation_state": false,
+      "adsorption_sites": {
+        "top": -1.7598925475681404,
+        "bridge": -1.807663788370315,
+        "hollow": -2.9860025702593602
+      },
+      "interlayer_spacing": 3.524
+    }
+  ]
+}

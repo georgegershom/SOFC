@@ -1,0 +1,20 @@
+{
+  "generated_at": "2025-10-04T11:54:36.622067",
+  "simulation_counts": {
+    "grain_boundary_sliding": 20,
+    "dislocation_mobility": 25,
+    "cross_slip_events": 15,
+    "dislocation_interactions": 20,
+    "thermal_activation_points": 10
+  },
+  "total_simulations": 80,
+  "temperature_range": [
+    600,
+    1200
+  ],
+  "computational_cost_estimate": {
+    "gpu_hours": 2000,
+    "cpu_hours": 10000,
+    "storage_gb": 50
+  }
+}
