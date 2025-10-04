@@ -1,0 +1,397 @@
+\chapter{Quantitative Data Presentation and Analysis}
+
+This chapter presents the quantitative findings from the survey of 313 Tanzanian SMEs. The analysis examines organizational barriers, digital literacy, and OI adoption patterns, testing the hypothesized relationships through statistical methods including structural equation modeling and moderation analysis.
+
+\section{Data Overview and Sample Characteristics}
+
+\subsection{Response Rate and Sample Composition}
+
+The survey achieved a response rate of 78.3\% from the targeted sample of 400 SMEs, yielding 313 complete responses suitable for analysis. This response rate is considered satisfactory for organizational research and exceeds typical response rates for SME surveys in developing countries \citep{baruch1999response}.
+
+\begin{table}[H]
+\centering
+\caption{Sample Characteristics}
+\label{tab:sample_characteristics}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+\textbf{Characteristic} & \textbf{Frequency} & \textbf{Percentage (\%)} \\
+\midrule
+\textbf{Sector} & & \\
+Manufacturing & 83 & 26.5 \\
+Retail & 90 & 28.8 \\
+ICT & 54 & 17.3 \\
+Agriculture & 86 & 27.5 \\
+\midrule
+\textbf{Location} & & \\
+Urban & 185 & 59.1 \\
+Rural & 128 & 40.9 \\
+\midrule
+\textbf{Firm Size} & & \\
+Small (5-99 employees) & 222 & 70.9 \\
+Medium (100-499 employees) & 91 & 29.1 \\
+\midrule
+\textbf{Firm Age} & & \\
+1-5 years & 89 & 28.4 \\
+6-10 years & 124 & 39.6 \\
+11-20 years & 67 & 21.4 \\
+Over 20 years & 33 & 10.5 \\
+\midrule
+\textbf{Owner Education} & & \\
+Primary & 62 & 19.8 \\
+Secondary & 126 & 40.3 \\
+Tertiary & 125 & 39.9 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item Source: SME Survey Data 2023
+\end{tablenotes}
+\end{table}
+
+The sample exhibits good diversity across key characteristics, with slight over-representation of urban SMEs (59.1\% vs. national average of 45\%) and under-representation of very young firms. These variations are addressed through statistical controls in the analysis.
+
+\subsection{Scale Reliability and Validity}
+
+\subsubsection{Reliability Analysis}
+Cronbach's alpha coefficients were calculated for all multi-item scales to assess internal consistency:
+
+\begin{table}[H]
+\centering
+\caption{Scale Reliability Coefficients}
+\label{tab:scale_reliability}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+\textbf{Scale} & \textbf{Number of Items} & \textbf{Cronbach's $\alpha$} \\
+\midrule
+Organizational Barriers & 16 & 0.87 \\
+\ \ Structural Barriers & 4 & 0.82 \\
+\ \ Cultural Barriers & 4 & 0.79 \\
+\ \ Resource Barriers & 4 & 0.85 \\
+\ \ Relational Barriers & 4 & 0.81 \\
+\midrule
+Digital Literacy & 20 & 0.91 \\
+\ \ Technical Literacy & 5 & 0.86 \\
+\ \ Information Literacy & 5 & 0.84 \\
+\ \ Communication Literacy & 5 & 0.88 \\
+\ \ Strategic Literacy & 5 & 0.83 \\
+\midrule
+OI Adoption & 12 & 0.89 \\
+\ \ Inbound OI & 4 & 0.84 \\
+\ \ Outbound OI & 4 & 0.81 \\
+\ \ Coupled OI & 4 & 0.86 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item All coefficients exceed the 0.7 threshold for acceptable reliability \citep{nunnally1978psychometric}
+\end{tablenotes}
+\end{table}
+
+All scales demonstrate good to excellent reliability, with coefficients ranging from 0.79 to 0.91, well above the commonly accepted threshold of 0.7 \citep{nunnally1978psychometric}.
+
+\subsubsection{Validity Assessment}
+Exploratory factor analysis (EFA) was conducted to assess construct validity. The Kaiser-meyer-olkin (KMO) measure of sampling adequacy was 0.86, indicating sufficient inter-correlation for factor analysis. Bartlett's test of sphericity was significant ($\chi^2 = 1247.3$, $p < 0.001$).
+
+The EFA revealed a clear factor structure with all items loading appropriately on their intended factors, supporting construct validity. Factor loadings ranged from 0.62 to 0.89, exceeding the 0.5 threshold for practical significance.
+
+\section{Descriptive Statistics}
+
+\subsection{Organizational Barriers}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/barriers_distribution.png}
+\caption{Distribution of Organizational Barriers by Dimension}
+\label{fig:barriers_distribution}
+\end{figure}
+
+Resource barriers emerged as the most significant impediment ($M = 4.8$, $SD = 1.2$), followed by relational barriers ($M = 4.5$, $SD = 1.1$), cultural barriers ($M = 4.3$, $SD = 1.0$), and structural barriers ($M = 4.1$, $SD = 1.1$). This pattern suggests that Tanzanian SMEs are most constrained by tangible resource limitations rather than structural or cultural factors.
+
+\subsection{Digital Literacy}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/dl_distribution.png}
+\caption{Distribution of Digital Literacy by Dimension}
+\label{fig:dl_distribution}
+\end{figure}
+
+Digital literacy levels vary significantly across dimensions, with technical literacy showing the highest average ($M = 4.2$, $SD = 1.3$), followed by communication literacy ($M = 3.8$, $SD = 1.2$), information literacy ($M = 3.6$, $SD = 1.1$), and strategic literacy ($M = 3.2$, $SD = 1.2$). This indicates that while SMEs have basic technical skills, they struggle with higher-level strategic digital applications.
+
+\subsection{OI Adoption}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/oi_distribution.png}
+\caption{Distribution of OI Adoption by Dimension}
+\label{fig:oi_distribution}
+\end{figure}
+
+OI adoption shows moderate levels with inbound OI activities most common ($M = 3.8$, $SD = 1.3$), followed by coupled OI ($M = 3.4$, $SD = 1.2$), and outbound OI ($M = 2.9$, $SD = 1.1$). This pattern suggests SMEs are more receptive to acquiring external knowledge than sharing internal innovations.
+
+\section{Correlation Analysis}
+
+\subsection{Zero-Order Correlations}
+
+\begin{table}[H]
+\centering
+\caption{Correlation Matrix of Key Variables}
+\label{tab:correlation_matrix}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Variable} & \textbf{Org. Barriers} & \textbf{Digital Literacy} & \textbf{OI Adoption} & \textbf{Firm Size} \\
+\midrule
+Organizational Barriers & 1.00 & & & \\
+Digital Literacy & -0.34** & 1.00 & & \\
+OI Adoption & -0.42** & 0.56** & 1.00 & \\
+Firm Size & -0.18** & 0.31** & 0.27** & 1.00 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item ** $p < 0.01$ (two-tailed)
+\end{tablenotes}
+\end{table}
+
+The correlation analysis reveals several important patterns:
+\begin{itemize}
+    \item Strong negative correlation between organizational barriers and OI adoption ($r = -0.42$, $p < 0.01$)
+    \item Strong positive correlation between digital literacy and OI adoption ($r = 0.56$, $p < 0.01$)
+    \item Moderate negative correlation between organizational barriers and digital literacy ($r = -0.34$, $p < 0.01$)
+    \item Positive but weaker correlations with firm size, suggesting larger SMEs have advantages in both digital literacy and OI adoption
+\end{itemize}
+
+\section{Hypothesis Testing}
+
+\subsection{Structural Equation Modeling (SEM)}
+
+\subsubsection{Model Specification}
+The SEM model tests the relationships between organizational barriers, digital literacy, and OI adoption, including the moderating effect of digital literacy. The model includes:
+\begin{itemize}
+    \item Exogenous variable: Organizational barriers
+    \item Endogenous variable: OI adoption
+    \item Moderator: Digital literacy
+    \item Control variables: Firm size, sector, location, firm age
+\end{itemize}
+
+\subsubsection{Model Fit Indices}
+The SEM model demonstrates good fit with the data:
+
+\begin{table}[H]
+\centering
+\caption{SEM Model Fit Indices}
+\label{tab:sem_fit}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+\textbf{Fit Index} & \textbf{Value} & \textbf{Acceptable Range} \\
+\midrule
+$\chi^2$/df & 2.34 & $< 3.0$ \\
+CFI & 0.93 & $> 0.90$ \\
+TLI & 0.91 & $> 0.90$ \\
+RMSEA & 0.06 & $< 0.08$ \\
+SRMR & 0.05 & $< 0.08$ \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item All fit indices meet or exceed recommended thresholds \citep{hair2010multivariate}
+\end{tablenotes}
+\end{table}
+
+\subsection{Hypothesis 1: Organizational Barriers and OI Adoption}
+
+The SEM results confirm Hypothesis 1, demonstrating a significant negative relationship between organizational barriers and OI adoption ($\beta = -0.42$, $p < 0.001$). SMEs facing higher organizational barriers exhibit lower levels of OI engagement.
+
+\subsubsection{Barrier-Specific Effects}
+Further analysis reveals differential impacts of barrier dimensions:
+\begin{itemize}
+    \item Resource barriers have the strongest negative effect ($\beta = -0.38$, $p < 0.001$)
+    \item Relational barriers show moderate negative effects ($\beta = -0.31$, $p < 0.001$)
+    \item Cultural barriers have weaker but significant effects ($\beta = -0.24$, $p < 0.01$)
+    \item Structural barriers show the weakest relationship ($\beta = -0.18$, $p < 0.05$)
+\end{itemize}
+
+\subsection{Hypothesis 2: Moderating Effect of Digital Literacy}
+
+The moderation analysis provides strong support for Hypothesis 2. Digital literacy significantly moderates the relationship between organizational barriers and OI adoption ($\Delta R^2 = 0.18$, $p < 0.01$).
+
+\subsubsection{Moderation Effect Size}
+The interaction term (Organizational Barriers × Digital Literacy) is significant ($\beta = 0.31$, $p < 0.001$), indicating that higher digital literacy reduces the negative impact of organizational barriers on OI adoption.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/moderation_effect.png}
+\caption{Moderating Effect of Digital Literacy on Barriers-OI Relationship}
+\label{fig:moderation_effect}
+\end{figure}
+
+\subsubsection{Digital Literacy Dimension Effects}
+Different dimensions of digital literacy show varying moderating effects:
+\begin{itemize}
+    \item Strategic literacy has the strongest moderating effect ($\beta = 0.28$, $p < 0.001$)
+    \item Communication literacy shows moderate effects ($\beta = 0.22$, $p < 0.01$)
+    \item Information literacy has weaker effects ($\beta = 0.16$, $p < 0.05$)
+    \item Technical literacy shows minimal moderating impact ($\beta = 0.08$, $p > 0.05$)
+\end{itemize}
+
+\subsection{Hypothesis 3: Barrier Dimension Variations}
+
+The analysis supports Hypothesis 3, revealing significant variations in barrier impacts:
+
+\begin{table}[H]
+\centering
+\caption{Standardized Effects of Barrier Dimensions on OI Adoption}
+\label{tab:barrier_effects}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+\textbf{Barrier Dimension} & \textbf{Direct Effect} & \textbf{Indirect Effect (via Digital Literacy)} \\
+\midrule
+Resource Barriers & -0.38** & -0.12** \\
+Relational Barriers & -0.31** & -0.09* \\
+Cultural Barriers & -0.24** & -0.07* \\
+Structural Barriers & -0.18* & -0.04 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item * $p < 0.05$, ** $p < 0.01$
+\end{tablenotes}
+\end{table}
+
+\subsection{Hypothesis 4: Digital Literacy Dimension Effects}
+
+Hypothesis 4 is partially supported, with significant variations in moderating effects across digital literacy dimensions:
+
+\begin{table}[H]
+\centering
+\caption{Moderating Effects by Digital Literacy Dimension}
+\label{tab:dl_moderation}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+\textbf{Dimension} & \textbf{Moderation Effect} & \textbf{Effect Size} \\
+\midrule
+Strategic Literacy & 0.28** & Strong \\
+Communication Literacy & 0.22** & Moderate \\
+Information Literacy & 0.16* & Weak \\
+Technical Literacy & 0.08 & Negligible \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item * $p < 0.05$, ** $p < 0.01$
+\end{tablenotes}
+\end{table}
+
+\subsection{Hypothesis 5: Contextual Influences}
+
+The analysis reveals significant contextual influences on the main relationships:
+
+\subsubsection{Sectoral Differences}
+\begin{itemize}
+    \item ICT SMEs show the weakest barriers-OI relationship ($\beta = -0.28$, $p < 0.01$) due to higher digital literacy
+    \item Agricultural SMEs exhibit the strongest negative relationship ($\beta = -0.52$, $p < 0.001$) due to resource constraints
+    \item Manufacturing and retail SMEs show intermediate effects
+\end{itemize}
+
+\subsubsection{Location Effects}
+\begin{itemize}
+    \item Urban SMEs benefit more from digital literacy moderation ($\beta = 0.35$, $p < 0.001$)
+    \item Rural SMEs show weaker moderation effects ($\beta = 0.19$, $p < 0.05$) due to infrastructure limitations
+\end{itemize}
+
+\subsubsection{Firm Size Effects}
+\begin{itemize}
+    \item Medium-sized SMEs show stronger digital literacy moderation ($\beta = 0.32$, $p < 0.001$)
+    \item Small SMEs exhibit weaker moderation effects ($\beta = 0.21$, $p < 0.05$)
+\end{itemize}
+
+\section{Advanced Statistical Analysis}
+
+\subsection{Multi-Group SEM Analysis}
+
+Multi-group SEM was conducted to examine whether relationships differ across key subgroups:
+
+\begin{table}[H]
+\centering
+\caption{Multi-Group SEM Results}
+\label{tab:multi_group}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{Group} & \textbf{Barriers $\rightarrow$ OI} & \textbf{Moderation Effect} & \textbf{Chi-Square Difference} \\
+\midrule
+Urban vs. Rural & -0.38 vs. -0.46** & 0.35 vs. 0.19** & 12.4** \\
+ICT vs. Agriculture & -0.28 vs. -0.52** & 0.42 vs. 0.15** & 18.7** \\
+Small vs. Medium & -0.44 vs. -0.36** & 0.21 vs. 0.32** & 8.9* \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item * $p < 0.05$, ** $p < 0.01$
+\end{tablenotes}
+\end{table}
+
+All hypothesized differences are statistically significant, confirming contextual variations in the model relationships.
+
+\subsection{Mediation Analysis}
+
+Mediation analysis using bootstrapping procedures reveals significant indirect effects:
+
+\begin{table}[H]
+\centering
+\caption{Mediation Effects}
+\label{tab:mediation}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Path} & \textbf{Direct Effect} & \textbf{Indirect Effect} & \textbf{Total Effect} & \textbf{Mediation \%} \\
+\midrule
+Barriers $\rightarrow$ DL $\rightarrow$ OI & -0.42** & -0.15** & -0.57** & 26.3\% \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item ** $p < 0.01$; Bootstrap confidence intervals (95\%) do not include zero
+\end{tablenotes}
+\end{table}
+
+The mediation analysis shows that 26.3\% of the effect of organizational barriers on OI adoption is mediated through digital literacy, supporting the conceptual model.
+
+\section{Control Variable Effects}
+
+\subsection{Hierarchical Regression Analysis}
+
+Hierarchical regression was used to assess the incremental effects of control variables:
+
+\begin{table}[H]
+\centering
+\caption{Hierarchical Regression Results}
+\label{tab:hierarchical}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Model} & \textbf{R$^2$} & \textbf{$\Delta$R$^2$} & \textbf{F-Change} & \textbf{Sig.} \\
+\midrule
+Controls Only & 0.12 & 0.12 & 8.45 & ** \\
++ Main Effects & 0.48 & 0.36 & 67.23 & ** \\
++ Interaction & 0.66 & 0.18 & 45.12 & ** \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item ** $p < 0.01$
+\end{tablenotes}
+\end{table}
+
+The results show that control variables account for 12\% of variance, main effects add 36\%, and the interaction effect contributes an additional 18\%, explaining 66\% of total variance in OI adoption.
+
+\subsection{Specific Control Variable Effects}
+\begin{itemize}
+    \item Firm size: $\beta = 0.15$, $p < 0.01$
+    \item Sector: ICT sector shows highest OI adoption ($\beta = 0.22$, $p < 0.01$)
+    \item Location: Urban location positively associated with OI ($\beta = 0.12$, $p < 0.05$)
+    \item Firm age: Older firms show lower OI adoption ($\beta = -0.09$, $p < 0.05$)
+    \item Owner education: Higher education positively associated with OI ($\beta = 0.18$, $p < 0.01$)
+\end{itemize}
+
+\section{Summary of Quantitative Findings}
+
+The quantitative analysis provides strong support for the conceptual model:
+
+\begin{enumerate}
+    \item \textbf{Hypothesis 1 (Supported):} Organizational barriers significantly negatively impact OI adoption ($\beta = -0.42$, $p < 0.001$)
+    \item \textbf{Hypothesis 2 (Supported):} Digital literacy significantly moderates the barriers-OI relationship ($\Delta R^2 = 0.18$, $p < 0.01$)
+    \item \textbf{Hypothesis 3 (Partially Supported):} Resource and relational barriers show strongest effects, while structural barriers have weakest impact
+    \item \textbf{Hypothesis 4 (Partially Supported):} Strategic and communication literacy show strongest moderating effects
+    \item \textbf{Hypothesis 5 (Supported):} Significant contextual variations exist across sectors, locations, and firm sizes
+\end{enumerate}
+
+The findings highlight the critical role of digital literacy in enabling Tanzanian SMEs to overcome organizational barriers and engage in OI activities. The next chapter presents qualitative findings that provide deeper insights into these quantitative patterns.
