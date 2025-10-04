@@ -1,0 +1,100 @@
+{
+  "analysis_type": "thermal_activation",
+  "timestamp": "2025-10-04T11:54:36.622067",
+  "temperature_range": [
+    600,
+    1200
+  ],
+  "measurements": [
+    {
+      "temperature": 600.0,
+      "vacancy_diffusion_coefficient": 2.1333377725863797e-16,
+      "dislocation_velocity": 8.401716438858898e-08,
+      "gb_sliding_rate": 1.021174687989052e-27,
+      "creep_rate": 1.021174687989052e-24,
+      "phonon_drag_coefficient": 0.060000000000000005,
+      "stacking_fault_width": 11.0
+    },
+    {
+      "temperature": 666.6666666666666,
+      "vacancy_diffusion_coefficient": 3.134394529619087e-15,
+      "dislocation_velocity": 8.549313009381017e-07,
+      "gb_sliding_rate": 1.282891823608785e-25,
+      "creep_rate": 1.2828918236087849e-22,
+      "phonon_drag_coefficient": 0.06666666666666667,
+      "stacking_fault_width": 11.666666666666666
+    },
+    {
+      "temperature": 733.3333333333334,
+      "vacancy_diffusion_coefficient": 2.8251972994352773e-14,
+      "dislocation_velocity": 5.705597183953582e-06,
+      "gb_sliding_rate": 6.69309988921761e-24,
+      "creep_rate": 6.6930998892176106e-21,
+      "phonon_drag_coefficient": 0.07333333333333333,
+      "stacking_fault_width": 12.333333333333334
+    },
+    {
+      "temperature": 800.0,
+      "vacancy_diffusion_coefficient": 1.7652032453817147e-13,
+      "dislocation_velocity": 2.775083242240756e-05,
+      "gb_sliding_rate": 1.8064461965456932e-22,
+      "creep_rate": 1.806446196545693e-19,
+      "phonon_drag_coefficient": 0.08,
+      "stacking_fault_width": 13.0
+    },
+    {
+      "temperature": 866.6666666666667,
+      "vacancy_diffusion_coefficient": 8.319901803762108e-13,
+      "dislocation_velocity": 0.00010581871301778664,
+      "gb_sliding_rate": 2.936557372111435e-21,
+      "creep_rate": 2.936557372111435e-18,
+      "phonon_drag_coefficient": 0.08666666666666668,
+      "stacking_fault_width": 13.666666666666668
+    },
+    {
+      "temperature": 933.3333333333334,
+      "vacancy_diffusion_coefficient": 3.142335955587017e-12,
+      "dislocation_velocity": 0.00033327904853629577,
+      "gb_sliding_rate": 3.2051623056795294e-20,
+      "creep_rate": 3.20516230567953e-17,
+      "phonon_drag_coefficient": 0.09333333333333334,
+      "stacking_fault_width": 14.333333333333334
+    },
+    {
+      "temperature": 1000.0,
+      "vacancy_diffusion_coefficient": 9.941130473721181e-12,
+      "dislocation_velocity": 0.0009007843078052183,
+      "gb_sliding_rate": 2.543665647376923e-19,
+      "creep_rate": 2.5436656473769227e-16,
+      "phonon_drag_coefficient": 0.1,
+      "stacking_fault_width": 15.0
+    },
+    {
+      "temperature": 1066.6666666666667,
+      "vacancy_diffusion_coefficient": 2.7233034605853188e-11,
+      "dislocation_velocity": 0.0021500918409846307,
+      "gb_sliding_rate": 1.5581841173700531e-18,
+      "creep_rate": 1.5581841173700532e-15,
+      "phonon_drag_coefficient": 0.10666666666666667,
+      "stacking_fault_width": 15.666666666666668
+    },
+    {
+      "temperature": 1133.3333333333335,
+      "vacancy_diffusion_coefficient": 6.626235383231104e-11,
+      "dislocation_velocity": 0.004632782302081621,
+      "gb_sliding_rate": 7.712063736107877e-18,
+      "creep_rate": 7.712063736107877e-15,
+      "phonon_drag_coefficient": 0.11333333333333336,
+      "stacking_fault_width": 16.333333333333336
+    },
+    {
+      "temperature": 1200.0,
+      "vacancy_diffusion_coefficient": 1.4605950063540474e-10,
+      "dislocation_velocity": 0.009166087736247617,
+      "gb_sliding_rate": 3.195582400735509e-17,
+      "creep_rate": 3.195582400735509e-14,
+      "phonon_drag_coefficient": 0.12000000000000001,
+      "stacking_fault_width": 17.0
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "gb_sliding": {
+    "activation_energy": 1.826905703930638e-06,
+    "arrhenius_r_squared": 0.13804823621255968,
+    "stress_exponent": 6.70114384966253e-05
+  },
+  "dislocation_mobility": {
+    "by_type": {
+      "velocity": {
+        "edge": {
+          "mean": 0.07333054710515009,
+          "std": 0.14774291025207958
+        },
+        "mixed": {
+          "mean": 0.0024838716784966706,
+          "std": 0.003648004698810776
+        },
+        "screw": {
+          "mean": 0.0010171112014776787,
+          "std": 0.0015656686569715697
+        }
+      },
+      "mobility": {
+        "edge": {
+          "mean": 9.655296015431957e-05,
+          "std": 0.00015671611554837411
+        },
+        "mixed": {
+          "mean": 7.732236731998237e-06,
+          "std": 1.2738531634028127e-05
+        },
+        "screw": {
+          "mean": 1.6919795454163835e-06,
+          "std": 2.5310919464565398e-06
+        }
+      }
+    },
+    "temperature_sensitivity": 0.3959949045940595,
+    "stress_sensitivity": 0.4338787665370316
+  },
+  "thermal_activation": {
+    "activation_energies": {
+      "vacancy_diffusion_coefficient": 0.13405463869671042,
+      "dislocation_velocity": 0.11573087999999924,
+      "gb_sliding_rate": 0.07734647190490776
+    },
+    "temperature_range": [
+      600,
+      1200
+    ]
+  }
+}

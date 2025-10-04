@@ -1,0 +1,671 @@
+{
+  "calculation_type": "dislocation_energy",
+  "method": "DFT-PBE",
+  "timestamp": "2025-10-04T11:54:32.108407",
+  "units": {
+    "energy": "mJ/m^2",
+    "distance": "Angstrom"
+  },
+  "configurations": [
+    {
+      "config_id": "disl_0000",
+      "dislocation_type": "screw",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 141.37866934497077,
+      "core_energy": 64.38800017536501,
+      "core_radius": 4.554293831854873,
+      "peierls_stress": 133.76063746037076,
+      "elastic_interaction": {
+        "shear_modulus": 79.24222009246976,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0001",
+      "dislocation_type": "screw",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 147.43863417945784,
+      "core_energy": 53.969986616414886,
+      "core_radius": 3.660505058038197,
+      "peierls_stress": 115.1677766732407,
+      "elastic_interaction": {
+        "shear_modulus": 77.53682173873139,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0002",
+      "dislocation_type": "screw",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 141.81188878655814,
+      "core_energy": 45.91352526149913,
+      "core_radius": 3.237635832536144,
+      "peierls_stress": 67.62893701656573,
+      "elastic_interaction": {
+        "shear_modulus": 81.49210302116063,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0003",
+      "dislocation_type": "edge",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 124.51804514464187,
+      "core_energy": 87.69953201088113,
+      "core_radius": 7.043118281290727,
+      "peierls_stress": 85.6259706938705,
+      "elastic_interaction": {
+        "shear_modulus": 79.00222892872024,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0004",
+      "dislocation_type": "edge",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 125.5741294775637,
+      "core_energy": 79.22481240294049,
+      "core_radius": 6.309007494819668,
+      "peierls_stress": 170.31638735401012,
+      "elastic_interaction": {
+        "shear_modulus": 84.7790066875427,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0005",
+      "dislocation_type": "edge",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 116.55892267591253,
+      "core_energy": 59.788663189880175,
+      "core_radius": 5.129479735851728,
+      "peierls_stress": 183.67146705471066,
+      "elastic_interaction": {
+        "shear_modulus": 80.277011090863,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0006",
+      "dislocation_type": "mixed",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 135.15122131873918,
+      "core_energy": 72.85762104879556,
+      "core_radius": 5.390822246213295,
+      "peierls_stress": 61.315182063465386,
+      "elastic_interaction": {
+        "shear_modulus": 76.66215431909252,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0007",
+      "dislocation_type": "edge",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 127.85175324649654,
+      "core_energy": 90.6116835349387,
+      "core_radius": 7.087246066953852,
+      "peierls_stress": 118.18115971516599,
+      "elastic_interaction": {
+        "shear_modulus": 81.27558080084063,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0008",
+      "dislocation_type": "screw",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 167.24105607059465,
+      "core_energy": 80.78593735596604,
+      "core_radius": 4.830508683338213,
+      "peierls_stress": 193.80536111117692,
+      "elastic_interaction": {
+        "shear_modulus": 75.57863897757707,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0009",
+      "dislocation_type": "screw",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 141.57960027590605,
+      "core_energy": 55.37622026725553,
+      "core_radius": 3.911313505571426,
+      "peierls_stress": 143.0198896702305,
+      "elastic_interaction": {
+        "shear_modulus": 77.77381182981132,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0010",
+      "dislocation_type": "screw",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 133.77059334108003,
+      "core_energy": 47.24611280519639,
+      "core_radius": 3.531875849928478,
+      "peierls_stress": 104.05176428079024,
+      "elastic_interaction": {
+        "shear_modulus": 77.59949862854263,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0011",
+      "dislocation_type": "mixed",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 130.85737593623963,
+      "core_energy": 70.6148723496501,
+      "core_radius": 5.396323428039491,
+      "peierls_stress": 130.41445495161804,
+      "elastic_interaction": {
+        "shear_modulus": 78.09527616286327,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0012",
+      "dislocation_type": "edge",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 116.01585328651642,
+      "core_energy": 89.71252502053935,
+      "core_radius": 7.732781553481527,
+      "peierls_stress": 173.38058643847535,
+      "elastic_interaction": {
+        "shear_modulus": 84.49799913291923,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0013",
+      "dislocation_type": "edge",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 129.91919171506507,
+      "core_energy": 88.86791779004736,
+      "core_radius": 6.840245587807369,
+      "peierls_stress": 112.73645544359283,
+      "elastic_interaction": {
+        "shear_modulus": 84.32728483354013,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0014",
+      "dislocation_type": "screw",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 135.2192307898821,
+      "core_energy": 51.68768934158001,
+      "core_radius": 3.822510233170738,
+      "peierls_stress": 166.64034256028384,
+      "elastic_interaction": {
+        "shear_modulus": 79.80370081866354,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0015",
+      "dislocation_type": "mixed",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 139.08543412176647,
+      "core_energy": 59.81833336838273,
+      "core_radius": 4.300833782207056,
+      "peierls_stress": 139.11960730282027,
+      "elastic_interaction": {
+        "shear_modulus": 78.80890856631021,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0016",
+      "dislocation_type": "screw",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 153.1040029441226,
+      "core_energy": 47.87598395214362,
+      "core_radius": 3.1270236591800025,
+      "peierls_stress": 55.52328014539871,
+      "elastic_interaction": {
+        "shear_modulus": 76.33852118800633,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0017",
+      "dislocation_type": "edge",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 137.3251421173625,
+      "core_energy": 70.98510298553889,
+      "core_radius": 5.169126489952781,
+      "peierls_stress": 179.708356438258,
+      "elastic_interaction": {
+        "shear_modulus": 83.12901009130077,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0018",
+      "dislocation_type": "mixed",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 140.51491336755586,
+      "core_energy": 72.65041251537825,
+      "core_radius": 5.170299064650944,
+      "peierls_stress": 158.91812661077722,
+      "elastic_interaction": {
+        "shear_modulus": 82.57081202042455,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0019",
+      "dislocation_type": "mixed",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 139.12605868034325,
+      "core_energy": 62.532936775656424,
+      "core_radius": 4.494696203486395,
+      "peierls_stress": 117.58162029651403,
+      "elastic_interaction": {
+        "shear_modulus": 76.29159415151494,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0020",
+      "dislocation_type": "mixed",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 127.40685858056085,
+      "core_energy": 73.34101070903378,
+      "core_radius": 5.756441334958384,
+      "peierls_stress": 163.54986982583432,
+      "elastic_interaction": {
+        "shear_modulus": 75.4689646779122,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0021",
+      "dislocation_type": "mixed",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 129.61873697734234,
+      "core_energy": 54.79133312595774,
+      "core_radius": 4.227115184399258,
+      "peierls_stress": 150.73597933891995,
+      "elastic_interaction": {
+        "shear_modulus": 80.20307700903794,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0022",
+      "dislocation_type": "screw",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 143.7850529303324,
+      "core_energy": 66.61232910893543,
+      "core_radius": 4.632771470426125,
+      "peierls_stress": 195.19606481597347,
+      "elastic_interaction": {
+        "shear_modulus": 75.88408223365647,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0023",
+      "dislocation_type": "mixed",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 146.8210790072874,
+      "core_energy": 70.57638955856639,
+      "core_radius": 4.8069657324247945,
+      "peierls_stress": 70.1022842675961,
+      "elastic_interaction": {
+        "shear_modulus": 75.2878267631334,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0024",
+      "dislocation_type": "mixed",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 143.53116393425333,
+      "core_energy": 80.52226520332493,
+      "core_radius": 5.610089335038724,
+      "peierls_stress": 185.47265880149394,
+      "elastic_interaction": {
+        "shear_modulus": 81.17263712097292,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0025",
+      "dislocation_type": "screw",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 164.55378088419224,
+      "core_energy": 60.9042359317746,
+      "core_radius": 3.701175117613194,
+      "peierls_stress": 138.48765302819496,
+      "elastic_interaction": {
+        "shear_modulus": 78.92244045099733,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0026",
+      "dislocation_type": "mixed",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 139.7631446944164,
+      "core_energy": 71.20782135847945,
+      "core_radius": 5.094892613798223,
+      "peierls_stress": 117.63656711241566,
+      "elastic_interaction": {
+        "shear_modulus": 84.10471278403273,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0027",
+      "dislocation_type": "screw",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 144.55444002033414,
+      "core_energy": 61.35141092520778,
+      "core_radius": 4.244173400455747,
+      "peierls_stress": 179.35455631201177,
+      "elastic_interaction": {
+        "shear_modulus": 84.49520623657642,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0028",
+      "dislocation_type": "screw",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 149.82338089638077,
+      "core_energy": 52.68522373940777,
+      "core_radius": 3.5164887765979165,
+      "peierls_stress": 118.8703634357392,
+      "elastic_interaction": {
+        "shear_modulus": 84.80032575285477,
+        "poisson_ratio": 0.31
+      }
+    },
+    {
+      "config_id": "disl_0029",
+      "dislocation_type": "edge",
+      "burgers_vector": [
+        1.762,
+        1.762,
+        0
+      ],
+      "slip_plane": [
+        1,
+        1,
+        1
+      ],
+      "stacking_fault_energy": 132.96405429696327,
+      "core_energy": 80.34007573091475,
+      "core_radius": 6.0422402246762426,
+      "peierls_stress": 81.36961866177712,
+      "elastic_interaction": {
+        "shear_modulus": 80.79649934471739,
+        "poisson_ratio": 0.31
+      }
+    }
+  ]
+}
