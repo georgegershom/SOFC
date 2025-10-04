@@ -1,0 +1,290 @@
+{
+  "experiment_info": {
+    "experiment_id": "SOFC_CREEP_2024_SYN_001",
+    "experiment_title": "Synthetic Creep Deformation Study of SOFC Metallic Interconnect",
+    "principal_investigator": "Dr. Materials Scientist",
+    "institution": "Advanced Materials Research Laboratory",
+    "experiment_date": "2024-10-04",
+    "beamline": "SYNCHROTRON_XRAY_SIM",
+    "facility": "Synthetic Synchrotron Facility",
+    "proposal_number": "SYN-2024-EXP-001",
+    "doi": "10.1234/syn.sofc.creep.001"
+  },
+  "sample_specifications": {
+    "sample_id": "IC-001",
+    "material_type": "metallic_interconnect",
+    "material_composition": {
+      "primary_alloy": "Crofer 22 APU",
+      "composition_wt_percent": {
+        "Fe": 75.5,
+        "Cr": 22.0,
+        "Mn": 0.5,
+        "Ti": 0.3,
+        "La": 0.1,
+        "C": 0.02,
+        "S": 0.02,
+        "P": 0.02,
+        "Si": 0.3,
+        "Al": 0.1,
+        "N": 0.1,
+        "O": 0.3
+      },
+      "oxide_scale": {
+        "primary_phase": "Cr2O3",
+        "secondary_phases": ["(Mn,Cr)3O4 spinel", "TiO2"],
+        "thickness_microns": 5.2
+      }
+    },
+    "sample_geometry": {
+      "shape": "rectangular_prism",
+      "dimensions_mm": {
+        "length": 10.0,
+        "width": 5.0,
+        "height": 3.0
+      },
+      "gauge_length_mm": 8.0,
+      "cross_sectional_area_mm2": 15.0,
+      "surface_finish": "polished_600_grit",
+      "orientation": "rolling_direction_parallel_to_length"
+    },
+    "heat_treatment_history": {
+      "manufacturing_process": "hot_rolling",
+      "final_annealing": {
+        "temperature_celsius": 1050,
+        "duration_hours": 2,
+        "atmosphere": "H2/N2 (5% H2)",
+        "cooling_rate": "furnace_cool"
+      },
+      "pre_test_aging": {
+        "temperature_celsius": 800,
+        "duration_hours": 100,
+        "atmosphere": "air",
+        "purpose": "simulate_operating_conditions"
+      }
+    },
+    "initial_microstructure": {
+      "grain_size": {
+        "average_microns": 45.2,
+        "distribution": "log_normal",
+        "standard_deviation": 0.35,
+        "measurement_method": "linear_intercept"
+      },
+      "texture": {
+        "primary_component": "(001)<110>",
+        "intensity_odf_max": 8.5,
+        "measurement_method": "XRD_pole_figures"
+      },
+      "initial_porosity": {
+        "volume_fraction": 0.018,
+        "pore_size_distribution": "bimodal_1_10_microns",
+        "measurement_method": "image_analysis"
+      },
+      "initial_defects": {
+        "crack_density": 0.12,
+        "crack_length_range_microns": [5, 50],
+        "inclusions": {
+          "types": ["Al2O3", "TiN"],
+          "size_range_microns": [1, 8],
+          "volume_fraction": 0.002
+        }
+      }
+    }
+  },
+  "operational_parameters": {
+    "test_conditions": {
+      "temperature_control": {
+        "target_temperature_celsius": 750,
+        "temperature_range_celsius": [745, 755],
+        "control_method": "PID_feedback",
+        "heating_rate": 5,
+        "soak_time_minutes": 30,
+        "measurement_uncertainty": 2
+      },
+      "mechanical_loading": {
+        "loading_type": "uniaxial_tension",
+        "applied_stress_mpa": {
+          "initial": 60,
+          "range": [55, 65],
+          "control_mode": "constant_load"
+        },
+        "load_cell": {
+          "capacity_kn": 10,
+          "accuracy_percent": 0.5,
+          "calibration_date": "2024-01-15"
+        },
+        "test_rig": {
+          "type": "electromechanical_creep_frame",
+          "manufacturer": "Synthetic Testing Systems",
+          "model": "STS-100kN",
+          "alignment_method": "laser_alignment"
+        }
+      },
+      "atmosphere": {
+        "composition": "synthetic_air",
+        "flow_rate_sccm": 100,
+        "humidity_ppm": 50,
+        "oxygen_partial_pressure_atm": 0.21,
+        "contamination_levels": {
+          "CO2_ppm": 10,
+          "SO2_ppb": 5,
+          "Cl_ppb": 2
+        }
+      }
+    },
+    "data_acquisition": {
+      "tomography": {
+        "instrument": "Synthetic_Tomography_Station",
+        "xray_energy_kev": 25.0,
+        "detector_type": "Photon_counting",
+        "pixel_size_microns": 0.65,
+        "exposure_time_ms": 100,
+        "number_of_projections": 1800,
+        "reconstruction_algorithm": "Filtered_Back_Projection",
+        "reconstruction_software": "Synthetic_TomoPy_v2.1",
+        "spatial_resolution_microns": 1.2,
+        "field_of_view_mm": 1.5,
+        "scan_time_minutes": 45,
+        "time_between_scans_minutes": 60
+      },
+      "diffraction": {
+        "instrument": "Synthetic_Diffractometer",
+        "xray_energy_kev": 10.0,
+        "wavelength_angstroms": 1.24,
+        "beam_size_microns": 50,
+        "detector_type": "2D_area_detector",
+        "detector_size_pixels": "1024x1024",
+        "pixel_size_microns": 75,
+        "measurement_time_seconds": 30,
+        "scanning_pattern": "rectangular_grid",
+        "step_size_microns": 100,
+        "number_of_points": 900,
+        "calibration_standard": "LaB6_NIST_SRM660c"
+      }
+    },
+    "time_series": {
+      "total_test_duration_hours": 50,
+      "number_of_time_steps": 16,
+      "time_step_interval_hours": 3.125,
+      "interrupted_tests": [
+        {
+          "time_hours": 25,
+          "duration_minutes": 15,
+          "reason": "intermediate_characterization"
+        }
+      ],
+      "termination_criteria": {
+        "maximum_strain_percent": 5.0,
+        "maximum_crack_length_mm": 1.0,
+        "test_duration_hours": 100
+      }
+    }
+  },
+  "data_processing": {
+    "tomography_processing": {
+      "ring_artifact_correction": true,
+      "beam_hardening_correction": true,
+      "phase_retrieval": {
+        "method": "Paganin_filter",
+        "delta_over_beta": 100,
+        "filter_size": 0.1
+      },
+      "segmentation": {
+        "method": "thresholding_plus_watershed",
+        "threshold_algorithm": "Otsu",
+        "grain_boundary_detection": "Canny_edge_detection"
+      },
+      "quantification": {
+        "porosity_analysis": "3D_connectivity_analysis",
+        "crack_analysis": "skeletonization_and_branching",
+        "grain_size_analysis": "equivalent_sphere_diameter",
+        "texture_analysis": "orientation_distribution_function"
+      }
+    },
+    "diffraction_processing": {
+      "peak_fitting": {
+        "method": "Pseudo_Voigt",
+        "background_subtraction": "SNIP_algorithm",
+        "profile_fitting": "Rietveld_refinement"
+      },
+      "stress_analysis": {
+        "method": "sin2_psi",
+        "psi_range_degrees": [-45, 45],
+        "number_of_psi_angles": 11,
+        "elastic_constants": {
+          "youngs_modulus_gpa": 200,
+          "poissons_ratio": 0.3,
+          "anisotropy_factor": 1.2
+        }
+      },
+      "strain_mapping": {
+        "spatial_resolution_microns": 100,
+        "strain_uncertainty_percent": 5,
+        "stress_uncertainty_mpa": 10
+      }
+    }
+  },
+  "validation_and_uncertainty": {
+    "systematic_uncertainties": {
+      "temperature_uncertainty_celsius": 3,
+      "stress_uncertainty_percent": 2,
+      "displacement_uncertainty_microns": 0.5,
+      "chemical_composition_uncertainty_percent": 5,
+      "time_synchronization_uncertainty_seconds": 1
+    },
+    "statistical_uncertainties": {
+      "counting_statistics": "Poisson_distribution",
+      "fitting_uncertainties": "Monte_Carlo_error_propagation",
+      "repeatability_tests": {
+        "number_of_repeats": 3,
+        "standard_deviation_percent": 8
+      }
+    },
+    "validation_methods": {
+      "reference_materials": ["NIST_SRM_1976", "pure_iron_foil"],
+      "round_robin_tests": true,
+      "comparison_with_fem": {
+        "software": "ABAQUS_2023",
+        "model_type": "crystal_plasticity",
+        "boundary_conditions": "periodic",
+        "mesh_size_microns": 2.0
+      }
+    }
+  },
+  "data_storage_and_access": {
+    "file_formats": {
+      "raw_tomography": "HDF5",
+      "processed_tomography": "TIFF_stack",
+      "diffraction_data": "JSON",
+      "metadata": "JSON",
+      "analysis_results": "HDF5"
+    },
+    "data_volume": {
+      "estimated_raw_data_gb": 250,
+      "estimated_processed_data_gb": 75,
+      "compression_ratio": 0.7,
+      "backup_locations": ["local_storage", "cloud_archive"]
+    },
+    "access_restrictions": {
+      "data_classification": "internal_use",
+      "embargo_period_months": 12,
+      "sharing_policy": "collaborative_access_only"
+    }
+  },
+  "references": {
+    "literature": [
+      "Quadakkers et al., Materials Science and Engineering A, 2001",
+      "Froitzheim et al., Journal of Power Sources, 2012",
+      "Yang et al., Acta Materialia, 2004"
+    ],
+    "standards": [
+      "ASTM E8 - Standard Test Methods for Tension Testing",
+      "ASTM E139 - Standard Test Methods for Conducting Creep Tests",
+      "ISO 6892-2 - Metallic materials -- Tensile testing"
+    ],
+    "software": [
+      "ImageJ/Fiji for image analysis",
+      "GSAS-II for Rietveld refinement",
+      "MATLAB for custom analysis scripts"
+    ]
+  }
+}
