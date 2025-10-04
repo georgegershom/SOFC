@@ -1,0 +1,38 @@
+{
+  "dataset_info": {
+    "total_dft_simulations": 1000,
+    "total_md_simulations": 500,
+    "total_defect_simulations": 300,
+    "materials": [
+      "Ni",
+      "Cu",
+      "Al",
+      "Fe"
+    ],
+    "generation_date": "2025-10-04T11:47:46.364860"
+  },
+  "dft_statistics": {
+    "formation_energy_range": [
+      -0.47195302991516974,
+      0.2696634559297688
+    ],
+    "activation_barrier_range": [
+      0.6102761566352594,
+      2.7976477759676444
+    ],
+    "surface_energy_range": [
+      1.022549634589689,
+      2.867449520472655
+    ]
+  },
+  "md_statistics": {
+    "temperature_range": [
+      306.1379505022975,
+      1194.132171239844
+    ],
+    "diffusion_coefficient_range": [
+      2.1542015183965447e-44,
+      3.188451461208173e-11
+    ]
+  }
+}
