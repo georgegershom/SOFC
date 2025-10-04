@@ -1,0 +1,80 @@
+{
+  "dataset_info": {
+    "name": "Material Properties & Calibration Dataset",
+    "version": "1.0",
+    "description": "Comprehensive material properties for multi-physics model calibration",
+    "created_date": "2024",
+    "files": [
+      "material_properties_dataset.csv",
+      "creep_data.csv",
+      "Material_Properties_Dataset_Documentation.md"
+    ]
+  },
+  "materials": {
+    "MAT001": {
+      "type": "High-Performance Alloy",
+      "description": "Higher strength and thermal conductivity, better creep resistance",
+      "applications": "High-temperature applications"
+    },
+    "MAT002": {
+      "type": "Standard Alloy", 
+      "description": "Moderate properties, good balance of cost and performance",
+      "applications": "General-purpose applications"
+    }
+  },
+  "property_types": {
+    "mechanical": {
+      "properties": ["Tensile_Strength", "Youngs_Modulus", "Poisson_Ratio"],
+      "temperature_range": "25-500°C",
+      "units": ["MPa", "MPa", "dimensionless"]
+    },
+    "thermophysical": {
+      "properties": ["Coefficient_Thermal_Expansion", "Thermal_Conductivity", "Specific_Heat_Capacity"],
+      "temperature_range": "25-500°C", 
+      "units": ["1/K", "W/mK", "J/kgK"]
+    },
+    "electrochemical": {
+      "properties": ["Ionic_Conductivity", "Electronic_Conductivity"],
+      "temperature_range": "25-500°C",
+      "units": ["S/m", "S/m"]
+    },
+    "creep": {
+      "properties": ["Creep_Strain", "Strain_Rate"],
+      "temperature_range": "300-500°C",
+      "stress_levels": "100-150 MPa",
+      "time_range": "0-1000 hours",
+      "units": ["%", "%/hour"]
+    }
+  },
+  "data_statistics": {
+    "total_records": 144,
+    "material_properties_records": 84,
+    "creep_data_records": 60,
+    "temperature_points": 6,
+    "stress_levels": 2,
+    "time_points": 11
+  },
+  "test_standards": [
+    "ASTM_E8",
+    "ASTM_E831", 
+    "ASTM_E1461",
+    "ASTM_E1269",
+    "ASTM_E139",
+    "Electrochemical_Impedance",
+    "Four_Point_Probe"
+  ],
+  "usage_recommendations": {
+    "traditional_models": [
+      "Use temperature-dependent elastic properties for mechanical models",
+      "Apply thermal properties for heat transfer models", 
+      "Combine properties for coupled multi-physics models",
+      "Calibrate creep models using strain vs time data"
+    ],
+    "ai_enhanced_models": [
+      "Use temperature, stress, time as input features",
+      "Train models to predict properties at intermediate temperatures",
+      "Apply log transformation to creep strain rates",
+      "Use cross-validation with temperature-based splits"
+    ]
+  }
+}
