@@ -1,0 +1,96 @@
+{
+  "dataset_info": {
+    "title": "Material Properties & Calibration Dataset for Multi-Physics Models",
+    "version": "1.0.0",
+    "created_date": "2025-10-04",
+    "description": "Comprehensive material properties dataset for calibrating traditional and AI-enhanced multi-physics models",
+    "data_source": "Fabricated ex-situ laboratory experiments and literature compilation",
+    "total_samples": 231,
+    "temperature_range": "25-800°C",
+    "materials_included": [
+      "SS316L (Stainless Steel 316L)",
+      "Inconel 718 (Nickel-based superalloy)",
+      "Ti-6Al-4V (Titanium alloy)",
+      "YSZ (8 mol% Yttria-Stabilized Zirconia)",
+      "LSCF (La0.6Sr0.4Co0.2Fe0.8O3)",
+      "Ni-YSZ Cermet (Nickel-YSZ composite)",
+      "CGO (10 mol% Ceria-Gadolinia)"
+    ]
+  },
+  "files": {
+    "mechanical_properties.csv": {
+      "description": "Temperature-dependent mechanical properties",
+      "parameters": [
+        "Tensile Strength (MPa)",
+        "Young's Modulus (GPa)", 
+        "Poisson's Ratio"
+      ],
+      "temperature_range": "25-700°C",
+      "samples": 45,
+      "test_standard": "ASTM E8"
+    },
+    "creep_properties.csv": {
+      "description": "Creep strain vs time curves for model calibration",
+      "parameters": [
+        "Creep Strain (%)",
+        "Strain Rate (per hour)",
+        "Applied Stress (MPa)",
+        "Time (hours)"
+      ],
+      "temperature_range": "500-700°C",
+      "samples": 70,
+      "test_standard": "ASTM E139"
+    },
+    "thermophysical_properties.csv": {
+      "description": "Thermal and physical properties vs temperature",
+      "parameters": [
+        "Coefficient of Thermal Expansion (per K)",
+        "Thermal Conductivity (W/m·K)",
+        "Specific Heat Capacity (J/kg·K)",
+        "Density (kg/m³)"
+      ],
+      "temperature_range": "25-700°C",
+      "samples": 45,
+      "test_standard": "ASTM E228"
+    },
+    "electrochemical_properties.csv": {
+      "description": "Ionic and electronic conductivity for electrochemical models",
+      "parameters": [
+        "Ionic Conductivity (S/m)",
+        "Electronic Conductivity (S/m)",
+        "Activation Energy (eV)"
+      ],
+      "temperature_range": "25-800°C",
+      "samples": 71,
+      "test_method": "Electrochemical Impedance Spectroscopy (EIS)"
+    }
+  },
+  "data_quality": {
+    "uncertainty_range": "1.3-4.5%",
+    "measurement_repeatability": "±2-5%",
+    "calibration_standards": "NIST traceable",
+    "atmosphere_control": "Controlled (Air, H2/H2O mixtures)"
+  },
+  "applications": {
+    "primary_use": "Multi-physics model calibration and validation",
+    "model_types": [
+      "Finite Element Analysis (FEA)",
+      "Computational Fluid Dynamics (CFD)",
+      "Electrochemical models",
+      "AI/ML-enhanced physics models"
+    ],
+    "industries": [
+      "Aerospace",
+      "Energy storage",
+      "Fuel cells",
+      "High-temperature applications"
+    ]
+  },
+  "data_format": {
+    "file_format": "CSV",
+    "encoding": "UTF-8",
+    "delimiter": ",",
+    "missing_values": "None",
+    "units": "SI base units with specified prefixes"
+  }
+}
