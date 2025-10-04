@@ -1,0 +1,44 @@
+{
+  "experiment_id": "SOFC_CREEP_20251004",
+  "facility": "European Synchrotron Radiation Facility (ESRF)",
+  "beamline": "ID19 - Imaging Beamline",
+  "date": "2025-10-04T10:57:32.069025",
+  "operator": "Synthetic Data Generator",
+  "test_conditions": {
+    "temperature_C": 700.0,
+    "temperature_stability_C": 2.0,
+    "applied_stress_MPa": 50.0,
+    "stress_type": "uniaxial tension",
+    "atmosphere": "Air",
+    "test_duration_hours": 100.0,
+    "scan_interval_hours": 10.0
+  },
+  "imaging_parameters": {
+    "technique": "X-ray computed tomography",
+    "beam_energy_keV": 25.0,
+    "voxel_size_um": 0.65,
+    "field_of_view_mm": [
+      0.0832,
+      0.0832,
+      0.0832
+    ],
+    "image_dimensions_pixels": [
+      128,
+      128,
+      128
+    ],
+    "num_projections": 2000,
+    "exposure_time_ms": 50,
+    "detector": "PCO edge 5.5 (2560 x 2160 pixels)"
+  },
+  "diffraction_parameters": {
+    "technique": "Energy-dispersive X-ray diffraction",
+    "beam_energy_keV": 25.0,
+    "two_theta_range_deg": [
+      20,
+      80
+    ],
+    "step_size_deg": 0.02,
+    "detector": "Pilatus 2M"
+  }
+}

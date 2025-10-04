@@ -1,0 +1,48 @@
+{
+  "material_name": "Ferritic Stainless Steel (Crofer 22 APU)",
+  "material_class": "Ferritic Stainless Steel",
+  "application": "SOFC Metallic Interconnect",
+  "composition_wt_percent": {
+    "Fe": 75.0,
+    "Cr": 22.0,
+    "Mn": 0.5,
+    "Ti": 0.08,
+    "La": 0.04,
+    "Si": 0.02,
+    "C": 0.01
+  },
+  "heat_treatment": {
+    "annealing_temperature_C": 1050,
+    "annealing_time_hours": 2,
+    "cooling_rate_C_per_min": 50,
+    "atmosphere": "Argon"
+  },
+  "microstructure": {
+    "grain_size_um": 25.0,
+    "grain_size_distribution": "log-normal",
+    "grain_morphology": "equiaxed",
+    "texture": "random"
+  },
+  "phases": {
+    "ferrite_alpha": {
+      "fraction": 0.98,
+      "lattice_parameter": 2.866
+    },
+    "chromia_Cr2O3": {
+      "fraction": 0.02,
+      "lattice_parameter": 4.959
+    }
+  },
+  "mechanical_properties": {
+    "elastic_modulus_GPa": 220.0,
+    "poissons_ratio": 0.29,
+    "yield_strength_MPa": 280,
+    "tensile_strength_MPa": 450,
+    "elongation_percent": 25
+  },
+  "thermal_properties": {
+    "thermal_expansion_coefficient_per_K": 1.2e-05,
+    "thermal_conductivity_W_m_K": 25.0,
+    "specific_heat_J_kg_K": 460
+  }
+}
