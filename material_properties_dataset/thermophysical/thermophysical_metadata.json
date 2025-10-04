@@ -1,0 +1,32 @@
+{
+  "material_specification": {
+    "class": "Nickel-based Superalloy",
+    "density_room_temp_kg_per_m3": 8190,
+    "melting_range_C": "1260-1336",
+    "max_service_temperature_C": 1050
+  },
+  "measurement_standards": {
+    "CTE": "ASTM E831",
+    "thermal_conductivity": "ASTM E1461",
+    "specific_heat": "ASTM E1269",
+    "density": "ASTM B311"
+  },
+  "equipment": {
+    "dilatometer": "Model DIL 402C",
+    "laser_flash": "Model LFA 467",
+    "DSC": "Model DSC 404 F3",
+    "balance": "Precision 0.0001g"
+  },
+  "uncertainties": {
+    "CTE": "\u00b10.5 ppm/K",
+    "thermal_conductivity": "\u00b13%",
+    "specific_heat": "\u00b12%",
+    "temperature": "\u00b11\u00b0C"
+  },
+  "data_processing": {
+    "baseline_correction": "Applied",
+    "thermal_lag_correction": "Applied",
+    "radiation_loss_correction": "Applied above 500\u00b0C"
+  },
+  "generation_date": "2025-10-04T11:32:04.117780"
+}

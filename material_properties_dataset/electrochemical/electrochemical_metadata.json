@@ -1,0 +1,32 @@
+{
+  "conductivity_measurements": {
+    "method": "Four-point probe with guard electrodes",
+    "sample_preparation": "Sintered pellets, 10mm diameter, 2mm thickness",
+    "contact_material": "Platinum paste",
+    "frequency_range_Hz": "0.1 - 1e6",
+    "voltage_amplitude_mV": 10
+  },
+  "oxidation_conditions": {
+    "pre_oxidation": "1000\u00b0C for 24 hours in respective atmosphere",
+    "oxide_phases": [
+      "Cr2O3",
+      "Al2O3",
+      "NiO",
+      "Spinel phases"
+    ],
+    "characterization": "XRD, SEM-EDS, XPS"
+  },
+  "electrochemical_corrosion": {
+    "working_electrode_area_cm2": 1.0,
+    "deaeration": "N2 purge for 30 minutes",
+    "stabilization_time_min": 60,
+    "ir_compensation": "Applied"
+  },
+  "relevant_applications": [
+    "Solid Oxide Fuel Cells (SOFC)",
+    "High-temperature corrosion",
+    "Thermal barrier coatings",
+    "Electrochemical sensors"
+  ],
+  "generation_date": "2025-10-04T11:32:07.654226"
+}
