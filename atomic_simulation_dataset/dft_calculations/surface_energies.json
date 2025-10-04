@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "description": "Surface energies and related properties for cavitation and crack formation",
+    "units": "J/m² for energies, Å for lengths",
+    "temperature": "0K",
+    "method": "DFT-PBE with dipole corrections",
+    "convergence_threshold": "1e-8 eV"
+  },
+  "surface_energies": {
+    "free_surfaces": [
+      {
+        "material": "Al",
+        "orientation": "(111)",
+        "surface_energy": 0.83,
+        "relaxation_depth": 3,
+        "units": "atomic layers",
+        "surface_reconstruction": "none",
+        "multilayer_relaxation": {
+          "layer_1": -0.08,
+          "layer_2": +0.03,
+          "layer_3": -0.01
+        }
+      },
+      {
+        "material": "Al",
+        "orientation": "(100)",
+        "surface_energy": 1.17,
+        "relaxation_depth": 2,
+        "units": "atomic layers",
+        "surface_reconstruction": "none",
+        "multilayer_relaxation": {
+          "layer_1": -0.12,
+          "layer_2": +0.05
+        }
+      },
+      {
+        "material": "Al",
+        "orientation": "(110)",
+        "surface_energy": 0.98,
+        "relaxation_depth": 3,
+        "units": "atomic layers",
+        "surface_reconstruction": "none",
+        "multilayer_relaxation": {
+          "layer_1": -0.15,
+          "layer_2": +0.08,
+          "layer_3": -0.03
+        }
+      }
+    ],
+    "cavitation_surfaces": [
+      {
+        "material": "Al",
+        "void_shape": "spherical",
+        "void_radius_range": "5-50 Å",
+        "surface_energy_vs_radius": [
+          {"radius": 5, "energy": 0.95},
+          {"radius": 10, "energy": 0.89},
+          {"radius": 20, "energy": 0.85},
+          {"radius": 50, "energy": 0.83}
+        ],
+        "units": "J/m²",
+        "stable_void_radius": 12,
+        "units": "Å"
+      },
+      {
+        "material": "Al",
+        "void_shape": "cylindrical",
+        "void_radius_range": "3-30 Å",
+        "surface_energy_vs_radius": [
+          {"radius": 3, "energy": 1.02},
+          {"radius": 6, "energy": 0.94},
+          {"radius": 12, "energy": 0.88},
+          {"radius": 30, "energy": 0.85}
+        ],
+        "units": "J/m²",
+        "stable_void_radius": 8,
+        "units": "Å"
+      }
+    ],
+    "crack_surfaces": [
+      {
+        "material": "Al",
+        "crack_plane": "(111)",
+        "crack_front_orientation": "[1-10]",
+        "surface_energy": 0.83,
+        "unstable_stacking_energy": 1.23,
+        "units": "J/m²",
+        "theoretical_strength": 12.8,
+        "units": "GPa",
+        "plastic_zone_size": "K²/(2πσ_y²)",
+        "relation": "Griffith criterion"
+      },
+      {
+        "material": "Al",
+        "crack_plane": "(100)",
+        "crack_front_orientation": "[001]",
+        "surface_energy": 1.17,
+        "unstable_stacking_energy": 1.67,
+        "units": "J/m²",
+        "theoretical_strength": 16.2,
+        "units": "GPa",
+        "plastic_zone_size": "K²/(2πσ_y²)",
+        "relation": "Griffith criterion"
+      }
+    ],
+    "stacking_fault_energies": [
+      {
+        "material": "Al",
+        "fault_plane": "(111)",
+        "fault_type": "intrinsic",
+        "stacking_fault_energy": 0.12,
+        "units": "J/m²",
+        "fault_width": 2.1,
+        "units": "atomic layers"
+      },
+      {
+        "material": "Al",
+        "fault_plane": "(111)",
+        "fault_type": "extrinsic",
+        "stacking_fault_energy": 0.18,
+        "units": "J/m²",
+        "fault_width": 3.2,
+        "units": "atomic layers"
+      }
+    ]
+  },
+  "computational_details": {
+    "software": "VASP 5.4.4",
+    "pseudopotentials": "PAW-PBE",
+    "energy_cutoff": 520,
+    "units": "eV",
+    "dipole_correction": true,
+    "slab_thickness": "8-12 layers",
+    "vacuum_thickness": 15,
+    "units": "Å",
+    "kpoints": "8x8x1 for surfaces, 4x4x4 for 3D"
+  }
+}

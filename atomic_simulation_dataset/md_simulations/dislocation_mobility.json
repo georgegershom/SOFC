@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "description": "Molecular dynamics simulation of dislocation mobility in Al",
+    "temperature_range": "300-700K",
+    "strain_rate": "1e6 - 1e8 s⁻¹",
+    "system_size": "50x50x50 unit cells (125,000 atoms)",
+    "potential": "EAM (Al-Mishin 2003)",
+    "integration": "Velocity Verlet, 2 fs timestep",
+    "total_time": "200 ps per simulation"
+  },
+  "dislocation_types": {
+    "edge_dislocation": {
+      "burgers_vector": "1/2[110]",
+      "line_direction": "[1-12]",
+      "glide_plane": "(111)",
+      "mobility_data": [
+        {
+          "temperature": 300,
+          "applied_stress": 100,
+          "units": "MPa",
+          "velocity": 0.8,
+          "units": "m/s",
+          "mechanism": "Peierls mechanism, lattice friction dominated"
+        },
+        {
+          "temperature": 400,
+          "applied_stress": 100,
+          "velocity": 2.3,
+          "mechanism": "Thermally activated glide, phonon scattering"
+        },
+        {
+          "temperature": 500,
+          "applied_stress": 100,
+          "velocity": 8.7,
+          "mechanism": "Mixed phonon and electron scattering"
+        },
+        {
+          "temperature": 600,
+          "applied_stress": 100,
+          "velocity": 25.4,
+          "mechanism": "Electron scattering dominated, approaching free flight"
+        }
+      ],
+      "stress_velocity_relation": {
+        "power_law_exponent": 1.2,
+        "pre_factor": "1.8e-4",
+        "relation": "v ∝ τ^1.2",
+        "temperature_dependence": "v ∝ exp(-E_a/kT)"
+      }
+    },
+    "screw_dislocation": {
+      "burgers_vector": "1/2[110]",
+      "line_direction": "[110]",
+      "glide_plane": "(111)",
+      "mobility_data": [
+        {
+          "temperature": 300,
+          "applied_stress": 100,
+          "velocity": 0.3,
+          "units": "m/s",
+          "mechanism": "High Peierls barrier, non-planar core"
+        },
+        {
+          "temperature": 400,
+          "applied_stress": 100,
+          "velocity": 0.9,
+          "mechanism": "Thermal activation over Peierls barrier"
+        },
+        {
+          "temperature": 500,
+          "applied_stress": 100,
+          "velocity": 3.2,
+          "mechanism": "Cross-slip assisted glide"
+        },
+        {
+          "temperature": 600,
+          "applied_stress": 100,
+          "velocity": 12.1,
+          "mechanism": "Cross-slip dominated, reduced lattice friction"
+        }
+      ],
+      "stress_velocity_relation": {
+        "power_law_exponent": 1.8,
+        "pre_factor": "5.2e-5",
+        "relation": "v ∝ τ^1.8",
+        "temperature_dependence": "v ∝ exp(-E_a/kT)"
+      }
+    }
+  },
+  "dislocation_interactions": {
+    "junction_formation": {
+      "interaction_type": "Lomer-Cottrell lock",
+      "formation_energy": 1.23,
+      "units": "eV",
+      "unlocking_stress": 450,
+      "units": "MPa",
+      "temperature_effect": "Thermal activation reduces locking strength"
+    },
+    "cross_slip": {
+      "activation_energy": 0.89,
+      "units": "eV",
+      "cross_slip_probability": 0.15,
+      "temperature_dependence": "Increases with temperature",
+      "stress_effect": "Higher stress promotes cross-slip"
+    },
+    "pinned_dislocations": {
+      "pinning_agents": ["solute_atoms", "vacancies", "grain_boundaries"],
+      "solute_pinning": {
+        "solute_type": "Mg",
+        "concentration": 0.02,
+        "interaction_radius": 3.5,
+        "units": "Å",
+        "unpinning_energy": 0.67,
+        "units": "eV"
+      }
+    }
+  },
+  "creep_mechanisms": {
+    "dislocation_climb": {
+      "activation_energy": 1.45,
+      "units": "eV",
+      "climb_velocity": "v_climb = (D_v * Ω * σ) / (kT * b)",
+      "diffusion_limited": true,
+      "temperature_range": "0.6-0.8 T_melt"
+    },
+    "dislocation_glide": {
+      "activation_energy": 0.85,
+      "units": "eV",
+      "stress_dependent": true,
+      "temperature_range": "0.3-0.6 T_melt"
+    }
+  },
+  "trajectory_data": {
+    "description": "Sample trajectory points for edge dislocation at 500K, 100 MPa",
+    "time_steps": [0, 10, 20, 30, 40, 50],
+    "units": "ps",
+    "dislocation_positions": [
+      {"x": 0.0, "y": 0.0, "z": 0.0},
+      {"x": 2.3, "y": 0.2, "z": 0.1},
+      {"x": 5.1, "y": 0.5, "z": 0.3},
+      {"x": 8.4, "y": 0.8, "z": 0.6},
+      {"x": 12.1, "y": 1.2, "z": 0.9},
+      {"x": 16.3, "y": 1.7, "z": 1.3}
+    ],
+    "units": "nm",
+    "velocity_profile": [0.0, 0.23, 0.28, 0.33, 0.37, 0.42],
+    "units": "km/s"
+  }
+}
