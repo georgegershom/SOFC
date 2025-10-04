@@ -1,0 +1,48 @@
+{
+  "generation_timestamp": "2025-10-04T10:56:32.877466",
+  "material_properties": {
+    "alloy_composition": {
+      "Fe": 76.8,
+      "Cr": 22.0,
+      "Mn": 0.5,
+      "Ti": 0.08,
+      "C": 0.03
+    },
+    "grain_size_mean": 15.0,
+    "grain_size_std": 5.0,
+    "initial_porosity": 0.002,
+    "elastic_modulus": 200.0,
+    "poisson_ratio": 0.3,
+    "thermal_expansion_coeff": 1.2e-05,
+    "creep_exponent": 5.0,
+    "activation_energy": 300.0
+  },
+  "operational_parameters": {
+    "temperature": 700.0,
+    "mechanical_stress": 50.0,
+    "time_points": [
+      0.0,
+      25.0,
+      100.0,
+      250.0
+    ],
+    "atmosphere": "Air",
+    "heating_rate": 5.0,
+    "cooling_rate": 2.0
+  },
+  "sample_geometry": {
+    "length": 3.0,
+    "width": 2.0,
+    "thickness": 0.5,
+    "shape": "rectangular",
+    "volume": 3.0
+  },
+  "voxel_size_um": 1.0,
+  "image_dimensions": [
+    48,
+    48,
+    24
+  ],
+  "data_type": "4D_synchrotron_xray",
+  "experiment_type": "SOFC_creep_deformation"
+}
