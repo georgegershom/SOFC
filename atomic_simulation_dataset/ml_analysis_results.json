@@ -1,0 +1,128 @@
+{
+  "feature_importance_dft": [
+    {
+      "feature": "defect_type_interstitial",
+      "importance": 0.6347116923367759
+    },
+    {
+      "feature": "material_Ti",
+      "importance": 0.09285025158734896
+    },
+    {
+      "feature": "material_Fe",
+      "importance": 0.07257578007275935
+    },
+    {
+      "feature": "material_Ni",
+      "importance": 0.05768250709103122
+    },
+    {
+      "feature": "defect_type_substitutional",
+      "importance": 0.023899050466362627
+    },
+    {
+      "feature": "material_Cu",
+      "importance": 0.021950954235930742
+    },
+    {
+      "feature": "defect_type_dislocation",
+      "importance": 0.014103882663276418
+    },
+    {
+      "feature": "material_Zn",
+      "importance": 0.013978377994068075
+    },
+    {
+      "feature": "material_Al",
+      "importance": 0.012369838215259759
+    },
+    {
+      "feature": "material_Mg",
+      "importance": 0.011620728948866841
+    },
+    {
+      "feature": "defect_type_grain_boundary",
+      "importance": 0.0104869274760189
+    },
+    {
+      "feature": "temperature_K",
+      "importance": 0.008194469179978266
+    },
+    {
+      "feature": "defect_concentration",
+      "importance": 0.007449109301236193
+    },
+    {
+      "feature": "cutoff_energy_eV",
+      "importance": 0.006181056123094922
+    },
+    {
+      "feature": "defect_type_vacancy",
+      "importance": 0.004099583799810262
+    },
+    {
+      "feature": "supercell_size",
+      "importance": 0.002560688076066036
+    },
+    {
+      "feature": "crystal_structure_hcp",
+      "importance": 0.0009233767391515311
+    },
+    {
+      "feature": "exchange_correlation_HSE06",
+      "importance": 0.0008094289454297051
+    },
+    {
+      "feature": "crystal_structure_bcc",
+      "importance": 0.000776956212714286
+    },
+    {
+      "feature": "exchange_correlation_PBE",
+      "importance": 0.0007769292869338713
+    },
+    {
+      "feature": "exchange_correlation_PBEsol",
+      "importance": 0.0007238851150508865
+    },
+    {
+      "feature": "crystal_structure_fcc",
+      "importance": 0.0006519230348185604
+    },
+    {
+      "feature": "exchange_correlation_LDA",
+      "importance": 0.0006226030980165069
+    }
+  ],
+  "pca_explained_variance": [
+    0.19830767427417775,
+    0.18323431922140396,
+    0.16994631783438774
+  ],
+  "pca_components": [
+    [
+      0.2528617515928519,
+      -0.24037159429512658,
+      -0.334373793016154,
+      0.5519982812111963,
+      -0.43376314515664144,
+      -0.5230908422302077
+    ],
+    [
+      0.6014373759866665,
+      0.6515590127116198,
+      0.046071188616164965,
+      -0.3420478545002372,
+      -0.1837597853271832,
+      -0.24669209113451246
+    ],
+    [
+      -0.1565067157117245,
+      0.31027391678466065,
+      0.23990492622686202,
+      0.3722010727709118,
+      0.6465226266814363,
+      -0.5149332243014012
+    ]
+  ],
+  "rf_score_dft": 0.9951991172110677
+}

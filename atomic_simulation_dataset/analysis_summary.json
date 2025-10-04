@@ -1,0 +1,87 @@
+{
+  "dft_formation_energies": {
+    "count": 1000,
+    "materials": [
+      "Zn",
+      "Ni",
+      "Fe",
+      "Ti",
+      "Mg",
+      "Al",
+      "Cu"
+    ],
+    "defect_types": [
+      "dislocation",
+      "interstitial",
+      "grain_boundary",
+      "vacancy",
+      "substitutional"
+    ],
+    "energy_range_eV": [
+      0.4335612372771502,
+      5.57795708032434
+    ],
+    "mean_energy_eV": 1.8978979444530562,
+    "std_energy_eV": 1.1247770441091207
+  },
+  "activation_barriers": {
+    "count": 500,
+    "mechanisms": [
+      "grain_boundary_diffusion",
+      "vacancy_migration",
+      "interstitial_migration",
+      "surface_diffusion",
+      "pipe_diffusion"
+    ],
+    "barrier_range_eV": [
+      0.1,
+      1.761289577197352
+    ],
+    "mean_barrier_eV": 0.41811949583312186,
+    "std_barrier_eV": 0.35439560033174056
+  },
+  "surface_energies": {
+    "count": 300,
+    "miller_indices": [
+      "(211)",
+      "(110)",
+      "(100)",
+      "(111)",
+      "(210)",
+      "(310)"
+    ],
+    "energy_range_J_m2": [
+      0.2176224027720354,
+      11.257292883153887
+    ],
+    "mean_energy_J_m2": 2.852521210585785,
+    "std_energy_J_m2": 2.3712620235440074
+  },
+  "grain_boundary_sliding": {
+    "count": 200,
+    "gb_types": [
+      "twin",
+      "mixed",
+      "tilt",
+      "twist"
+    ],
+    "sliding_rate_range": [
+      2.8540164869085628e-11,
+      0.00494414200601
+    ],
+    "mean_sliding_rate": 8.821677429992562e-05
+  },
+  "dislocation_mobility": {
+    "count": 150,
+    "dislocation_types": [
+      "screw",
+      "mixed",
+      "edge"
+    ],
+    "velocity_range": [
+      3.511552964611676e-07,
+      0.001307219761762
+    ],
+    "mean_velocity": 0.00020847536079050035
+  }
+}
