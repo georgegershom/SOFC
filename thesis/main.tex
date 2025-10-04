@@ -1,0 +1,97 @@
+% Main thesis file
+\documentclass[12pt,oneside]{book}
+
+% Page layout and typography
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{siunitx}
+\usepackage{csquotes}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=blue, urlcolor=blue}
+\usepackage{tocloft}
+\usepackage{titlesec}
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage{ amssymb }
+\usepackage{etoolbox}
+\usepackage{enumitem}
+\usepackage{cite}
+
+% Graphics path
+\graphicspath{{figures/}}
+
+% Title metadata
+\newcommand{\ThesisTitle}{Navigating the Open Innovation Paradigm: An Analysis of Organizational Barriers and the Critical Moderating Influence of Digital Literacy in Tanzanian SMEs}
+\newcommand{\ThesisAuthor}{[Your Name]}
+\newcommand{\ThesisDepartment}{[Your Department]}
+\newcommand{\ThesisUniversity}{[Your University]}
+\newcommand{\ThesisDegree}{Doctor of Philosophy}
+\newcommand{\ThesisDate}{\today}
+
+% Better table spacing
+\setlength{\tabcolsep}{10pt}
+\renewcommand{\arraystretch}{1.2}
+
+% Chapter formatting (optional, readable)
+\titleformat{\chapter}[display]{\bfseries\Large}{\chaptername\ \thechapter}{1ex}{\huge}
+\titlespacing*{\chapter}{0pt}{-1.5ex}{2.5ex}
+
+\begin{document}
+
+% Title page
+\begin{titlepage}
+  \centering
+  {\Large \ThesisUniversity\\[1.5em]}
+  {\large \ThesisDepartment\\[6em]}
+  {\Huge \bfseries \ThesisTitle \\[1.2em]}
+  {\large by \\[0.25em]}
+  {\Large \ThesisAuthor \\[4em]}
+  {\large A thesis submitted in partial fulfillment of the requirements for the degree of\\[0.25em]}
+  {\large \ThesisDegree \\[6em]}
+  {\large \ThesisDate}
+\end{titlepage}
+
+\frontmatter
+\pagenumbering{roman}
+
+% Abstract
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Abstract}
+\input{chapters/abstract}
+
+% Table of contents, figures, tables
+\cleardoublepage
+\tableofcontents
+\cleardoublepage
+\listoffigures
+\cleardoublepage
+\listoftables
+
+\mainmatter
+
+% Chapters
+\include{chapters/chapter01_introduction}
+\include{chapters/chapter02_context}
+\include{chapters/chapter03_literature}
+\include{chapters/chapter04_framework}
+\include{chapters/chapter05_methodology}
+\include{chapters/chapter06_quantitative}
+\include{chapters/chapter07_qualitative}
+\include{chapters/chapter08_discussion}
+\include{chapters/chapter09_conclusion}
+
+% Bibliography (IEEE style via BibTeX)
+\cleardoublepage
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{IEEEtran}
+\bibliography{bib/references}
+
+\end{document}
