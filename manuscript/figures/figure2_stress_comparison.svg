@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-label="Stress comparison between elastic and viscoelastic models">
+  <title>Electrolyte Stress Comparison at 800°C</title>
+  <desc>Bar chart comparing Von Mises and Max Principal stresses for elastic vs viscoelastic models.</desc>
+  <style><![CDATA[
+    .axis{stroke:#333; stroke-width:2}
+    .grid{stroke:#eee; stroke-width:1}
+    .label{font-family:Arial, Helvetica, sans-serif; font-size:14px; fill:#222}
+    .title{font-size:20px; font-weight:bold}
+    .legend{font-size:13px; fill:#333}
+  ]]></style>
+
+  <text x="450" y="30" text-anchor="middle" class="title">Electrolyte Stress at 800°C (Sheet11)</text>
+
+  <!-- Axes -->
+  <line x1="80" y1="460" x2="820" y2="460" class="axis"/>
+  <line x1="80" y1="460" x2="80" y2="80" class="axis"/>
+
+  <!-- Grid lines and y-labels -->
+  <g>
+    <text x="50" y="460" class="label" text-anchor="end">0</text>
+    <text x="50" y="400" class="label" text-anchor="end">50</text>
+    <text x="50" y="340" class="label" text-anchor="end">100</text>
+    <text x="50" y="280" class="label" text-anchor="end">150</text>
+    <text x="50" y="220" class="label" text-anchor="end">200</text>
+    <text x="50" y="160" class="label" text-anchor="end">250</text>
+    <text x="50" y="100" class="label" text-anchor="end">300</text>
+    <line x1="80" y1="400" x2="820" y2="400" class="grid"/>
+    <line x1="80" y1="340" x2="820" y2="340" class="grid"/>
+    <line x1="80" y1="280" x2="820" y2="280" class="grid"/>
+    <line x1="80" y1="220" x2="820" y2="220" class="grid"/>
+    <line x1="80" y1="160" x2="820" y2="160" class="grid"/>
+    <line x1="80" y1="100" x2="820" y2="100" class="grid"/>
+  </g>
+
+  <text x="20" y="80" class="label" transform="rotate(-90 20,80)">Stress (MPa)</text>
+
+  <!-- Categories -->
+  <text x="250" y="490" class="label" text-anchor="middle">Von Mises</text>
+  <text x="650" y="490" class="label" text-anchor="middle">Max Principal</text>
+
+  <!-- Bars: Elastic vs Viscoelastic -->
+  <!-- Von Mises -->
+  <rect x="200" y="280" width="80" height="180" fill="#3182bd"/>
+  <text x="240" y="270" class="label" text-anchor="middle">130</text>
+  <rect x="290" y="316" width="80" height="144" fill="#9ecae1"/>
+  <text x="330" y="306" class="label" text-anchor="middle">105</text>
+
+  <!-- Max Principal -->
+  <rect x="600" y="264" width="80" height="196" fill="#e6550d"/>
+  <text x="640" y="254" class="label" text-anchor="middle">138</text>
+  <rect x="690" y="304" width="80" height="156" fill="#fdae6b"/>
+  <text x="730" y="294" class="label" text-anchor="middle">112</text>
+
+  <!-- Legend -->
+  <rect x="100" y="90" width="240" height="60" fill="#fff" stroke="#ccc"/>
+  <rect x="110" y="105" width="16" height="12" fill="#3182bd"/>
+  <text x="132" y="115" class="legend">Elastic</text>
+  <rect x="200" y="105" width="16" height="12" fill="#9ecae1"/>
+  <text x="222" y="115" class="legend">Viscoelastic</text>
+</svg>
