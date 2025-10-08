@@ -1,0 +1,16 @@
+
+<?xml version="1.0" ?>
+<Xdmf Version="3.0">
+  <Domain>
+    <Grid Name="voxels" GridType="Uniform">
+      <Topology TopologyType="3DCoRectMesh" Dimensions="256 256 256"/>
+      <Geometry GeometryType="ORIGIN_DXDYDZ">
+        <DataItem Dimensions="3" NumberType="Float" Precision="8" Format="XML">0 0 0</DataItem>
+        <DataItem Dimensions="3" NumberType="Float" Precision="8" Format="XML">0.05 0.05 0.05</DataItem>
+      </Geometry>
+      <Attribute Name="labels" AttributeType="Scalar" Center="Cell">
+        <DataItem Dimensions="256 256 256" NumberType="UInt" Precision="1" Format="Binary">labels.raw</DataItem>
+      </Attribute>
+    </Grid>
+  </Domain>
+</Xdmf>

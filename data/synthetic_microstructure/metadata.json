@@ -1,0 +1,37 @@
+{
+  "config": {
+    "size": [
+      256,
+      256,
+      256
+    ],
+    "voxel_size_um": 0.05,
+    "porosity": 0.35,
+    "anode_fraction": 0.55,
+    "interlayer_thickness_um": 2.0,
+    "electrolyte_thickness_um": 5.0,
+    "interface_roughness_um": 3.0,
+    "seed": 42
+  },
+  "metrics": {
+    "voxel_size_um": 0.05,
+    "size": [
+      256,
+      256,
+      256
+    ],
+    "volume_um3": 2097.1520000000005,
+    "volume_fractions": {
+      "pore": 0.21158736944198608,
+      "anode": 0.3028743267059326,
+      "electrolyte": 0.3952980041503906,
+      "interlayer": 0.09024029970169067
+    }
+  },
+  "phase_labels": {
+    "0": "pore",
+    "1": "anode",
+    "2": "electrolyte",
+    "3": "interlayer"
+  }
+}
