@@ -1,0 +1,9 @@
+Parameter,Value,Units,Description
+A_creep,2.5e-15,Pa^-n_s^-1,Pre-exponential creep factor
+n_stress_exponent,2.5,dimensionless,Stress exponent for power-law creep (average 600-1200C)
+Q_activation,380,kJ/mol,Activation energy for creep deformation
+R_gas_constant,8.314,J/mol-K,Universal gas constant
+m_grain_size_exponent,2.0,dimensionless,Grain size exponent (d^-m dependence)
+reference_grain_size,1.0,micrometers,Reference grain size for normalization
+T_reference,1273,K,Reference temperature (1000C)
+sigma_threshold,5.0,MPa,Threshold stress below which creep is negligible
