@@ -1,0 +1,239 @@
+YSZ MATERIAL PROPERTIES DATASET - PROJECT STRUCTURE
+===================================================
+
+/workspace/
+│
+├── 📊 CORE DATA FILES (CSV)
+│   ├── ysz_material_properties.csv         [Main dataset: 16 temp points, 25-1500°C]
+│   │   └── Properties: E, ν, α, ρ, k, K_IC, n, Q
+│   │
+│   ├── weibull_parameters.csv              [Statistical strength: 8 temp points]
+│   │   └── Properties: m, σ₀, σ_mean, σ_std
+│   │
+│   └── creep_model_parameters.csv          [Creep model constants]
+│       └── Parameters: A, n, Q, R, m, d_ref
+│
+├── 🔧 PYTHON TOOLS & SCRIPTS
+│   ├── material_properties_loader.py       [Main module - 450 lines]
+│   │   ├── Class: YSZMaterialProperties
+│   │   ├── Methods: get_property(), get_all_properties(), 
+│   │   │            get_creep_rate(), plot_properties(),
+│   │   │            export_for_fem(), print_summary()
+│   │   └── Usage: python3 material_properties_loader.py
+│   │
+│   ├── validate_dataset.py                 [Integrity checker - 200 lines]
+│   │   ├── Checks: 14 validation tests
+│   │   │   ├─ Temperature range adequacy
+│   │   │   ├─ Physical monotonicity (E↓, α↑, ρ↓)
+│   │   │   ├─ Realistic value ranges
+│   │   │   ├─ Poisson's ratio bounds
+│   │   │   ├─ Weibull parameter validity
+│   │   │   ├─ Data completeness
+│   │   │   └─ Temperature spacing
+│   │   └── Usage: python3 validate_dataset.py
+│   │
+│   └── generate_custom_dataset.py          [Custom temp point generator]
+│       ├── Arguments: --tmin, --tmax, --npoints, -o
+│       └── Example: python3 generate_custom_dataset.py 
+│                    --tmin 600 --tmax 900 --npoints 25 
+│                    -o sofc_operating.csv
+│
+├── 📄 DOCUMENTATION
+│   ├── README.md                           [Main documentation - 350 lines]
+│   │   ├─ Dataset overview & disclaimer
+│   │   ├─ File descriptions & contents
+│   │   ├─ Property definitions & units
+│   │   ├─ Temperature dependencies
+│   │   ├─ Data sources & references
+│   │   └─ License information
+│   │
+│   ├── USAGE_GUIDE.md                      [Detailed usage - 450 lines]
+│   │   ├─ Quick start & installation
+│   │   ├─ Script documentation
+│   │   ├─ Python API examples
+│   │   ├─ FEM software integration
+│   │   │   ├─ ANSYS APDL examples
+│   │   │   ├─ COMSOL setup
+│   │   │   ├─ Abaqus input files
+│   │   │   └─ FEniCS Python code
+│   │   ├─ Best practices & pitfalls
+│   │   ├─ Advanced usage patterns
+│   │   └─ Troubleshooting guide
+│   │
+│   ├── DATASET_SUMMARY.md                  [Quick reference - 350 lines]
+│   │   ├─ Property tables at key temps
+│   │   ├─ File inventory
+│   │   ├─ Quick start commands
+│   │   ├─ Essential formulas with examples
+│   │   ├─ Typical use cases (4 scenarios)
+│   │   ├─ Limitations & validity ranges
+│   │   ├─ Validation test recommendations
+│   │   └─ Integration checklist
+│   │
+│   └── PROJECT_STRUCTURE.txt               [This file]
+│
+├── 📦 DEPENDENCIES
+│   └── requirements.txt                    [Python packages]
+│       ├─ pandas>=2.0.0
+│       ├─ numpy>=1.24.0
+│       ├─ scipy>=1.10.0
+│       └─ matplotlib>=3.7.0
+│
+└── 📈 GENERATED OUTPUT FILES
+    ├── ysz_fem_input.csv                   [FEM-ready export at 16 points]
+    ├── sofc_operating_range.csv            [Custom: 600-900°C, 25 points]
+    └── ysz_properties_plot.png             [9-panel visualization]
+
+
+KEY FEATURES
+============
+
+1. Temperature-Dependent Properties (25-1500°C)
+   ✓ Young's Modulus: 205 → 40 GPa
+   ✓ CTE: 10.2 → 13.2 ×10⁻⁶ K⁻¹
+   ✓ Thermal Conductivity: 2.7 → 1.9 W/m·K
+   ✓ Fracture Toughness: 1.2 → 0.56 MPa√m
+
+2. Statistical Strength (Weibull)
+   ✓ Modulus: 10.5 → 5.5 (25-1400°C)
+   ✓ Characteristic strength: 420 → 110 MPa
+
+3. Creep Model (Power-Law)
+   ✓ Temperature-dependent exponent: n(T) = 1.0 → 13.5
+   ✓ Activation energy: Q = 380 kJ/mol
+   ✓ Grain size sensitivity: d^-2
+
+4. Python API
+   ✓ Easy loading: YSZMaterialProperties()
+   ✓ Interpolation: get_property(name, temp)
+   ✓ Creep calculator: get_creep_rate(σ, T, d)
+   ✓ Plotting: plot_properties()
+   ✓ Export: export_for_fem()
+
+5. FEM Integration
+   ✓ ANSYS APDL commands
+   ✓ COMSOL import instructions
+   ✓ Abaqus input file format
+   ✓ FEniCS Python example
+   ✓ Generic CSV export
+
+
+VALIDATION STATUS
+=================
+
+✓ All 14 integrity checks passed
+✓ Physical monotonicity verified
+✓ Realistic value ranges confirmed
+✓ No missing data
+✓ Temperature spacing uniform
+
+⚠️ DISCLAIMER: Fabricated dataset
+   → Validate experimentally before production use
+   → Based on typical 8YSZ literature values
+   → ±10-20% uncertainty expected
+
+
+USAGE SUMMARY
+=============
+
+BASIC USAGE:
+$ pip install -r requirements.txt
+$ python3 material_properties_loader.py
+
+VALIDATION:
+$ python3 validate_dataset.py
+
+CUSTOM DATASET:
+$ python3 generate_custom_dataset.py --tmin 25 --tmax 1200 --npoints 50 -o output.csv
+
+PYTHON API:
+>>> from material_properties_loader import YSZMaterialProperties
+>>> ysz = YSZMaterialProperties()
+>>> E_800 = ysz.get_property('Youngs_Modulus_GPa', 800)
+>>> print(f"E at 800°C: {E_800:.2f} GPa")
+
+
+FILE SIZES (Approximate)
+========================
+
+ysz_material_properties.csv    : 1.5 KB   (16 rows × 9 columns)
+weibull_parameters.csv          : 0.5 KB   (8 rows × 5 columns)
+creep_model_parameters.csv      : 0.4 KB   (8 rows × 4 columns)
+material_properties_loader.py   : 15 KB    (450 lines)
+validate_dataset.py             : 7 KB     (200 lines)
+generate_custom_dataset.py      : 4 KB     (100 lines)
+README.md                       : 20 KB    (350 lines)
+USAGE_GUIDE.md                  : 25 KB    (450 lines)
+DATASET_SUMMARY.md              : 20 KB    (350 lines)
+requirements.txt                : 0.1 KB   (4 lines)
+ysz_properties_plot.png         : ~150 KB  (9 subplots, 300 DPI)
+
+TOTAL DATASET SIZE: ~250 KB
+
+
+COMPATIBLE SOFTWARE
+===================
+
+✓ Python 3.8+
+✓ ANSYS Mechanical APDL 2020+
+✓ COMSOL Multiphysics 5.6+
+✓ Abaqus/Standard 2021+
+✓ FEniCS 2019.1+
+✓ Any FEM software supporting CSV import
+
+
+CITATION
+========
+
+YSZ Material Properties Dataset for FEM Thermomechanical Analysis
+Version 1.0 (October 2025)
+Material: 8 mol% Yttria-Stabilized Zirconia (8YSZ)
+Temperature Range: 25-1500°C
+Application: SOFC Electrolyte Modeling
+License: MIT (Educational Use)
+
+
+CONTACT & SUPPORT
+=================
+
+- Documentation: See README.md, USAGE_GUIDE.md, DATASET_SUMMARY.md
+- Validation: Run validate_dataset.py
+- Examples: See inline examples in USAGE_GUIDE.md
+- Issues: Verify data against supplier specs and literature
+
+
+VERSION HISTORY
+===============
+
+v1.0 (October 2025) - Initial release
+  ✓ 16 temperature points (25-1500°C)
+  ✓ 10 material properties
+  ✓ Weibull statistical parameters
+  ✓ Power-law creep model
+  ✓ Python loader & interpolator
+  ✓ Validation script
+  ✓ Custom dataset generator
+  ✓ Comprehensive documentation
+  ✓ FEM integration examples
+
+
+ROADMAP (Future Enhancements)
+==============================
+
+Potential additions (not yet implemented):
+□ Jupyter notebook with interactive examples
+□ Additional compositions (3YSZ, 10YSZ, ScSZ)
+□ Atmosphere-dependent properties (pO₂ effects)
+□ Porosity correction factors
+□ Aging/degradation models
+□ Experimental validation data
+□ More FEM software examples (LS-DYNA, Marc)
+□ GUI for dataset exploration
+□ Unit conversion utilities
+□ Uncertainty quantification tools
+
+
+END OF PROJECT STRUCTURE
+=========================
+Last Updated: October 2025
+Dataset Version: 1.0
