@@ -1,0 +1,25 @@
+{
+  "dataset": "Validation & Analysis (fabricated)",
+  "version": "1.0.0",
+  "provenance": {
+    "generator": "scripts/generate_validation_dataset.py",
+    "random_seed": 42,
+    "date": "2025-10-08T18:53:28.132905Z"
+  },
+  "assumptions": [
+    "Electrolyte ceramic, isotropic at macro-scale",
+    "Linear thermoelasticity for FEM outputs",
+    "Residual stresses arise from CTE mismatch during sintering cool-down",
+    "Meso-scale RVE captures porosity & grain size distributions",
+    "Micro-scale GB properties are simplified surrogates"
+  ],
+  "units": {
+    "length": "mm",
+    "stress": "MPa",
+    "strain": "-",
+    "temperature": "C",
+    "time": "s",
+    "displacement": "mm",
+    "angle": "deg"
+  }
+}

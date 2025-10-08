@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "units": {
+    "length": "mm",
+    "stress": "MPa",
+    "strain": "-",
+    "temperature": "C",
+    "time": "s",
+    "displacement": "mm",
+    "angle": "deg"
+  },
+  "files": {
+    "macro/material_properties.csv": "E, nu, CTE, density, k, cp",
+    "macro/cell_geometry.csv": "cell_id, width, height, thickness",
+    "macro/sinter_profile.csv": "t, T",
+    "meso/microstructure_stats.csv": "sample_id, mean_grain_size, porosity, std_grain_size",
+    "meso/rve_voxels.csv": "x, y, z, phase, porosity",
+    "micro/grain_boundary_props.csv": "gb_id, misorientation, cohesion_energy, diffusivity",
+    "micro/ebsd_orientations.csv": "grain_id, phi1, Phi, phi2",
+    "crack/crack_events.csv": "event_id, x, y, z, Tcrit, loadcrit, stage",
+    "crack/sem_microcracks.csv": "crack_id, x, y, z, length, orientation",
+    "simulation/full_field_nodes.csv": "node_id, x, y, z, T, ux, uy, uz, sxx, syy, szz, sxy, syz, sxz, exx, eyy, ezz, exy, eyz, exz",
+    "simulation/full_field_elems.csv": "elem_id, centroid_x, centroid_y, centroid_z, s_vm, e_vm",
+    "collocation/points.csv": "point_id, x, y, z, tag",
+    "collocation/values.csv": "point_id, T, ux, uy, uz, sxx, syy, szz, sxy, syz, sxz, exx, eyy, ezz, exy, eyz, exz",
+    "docs/README.md": "Documentation",
+    "docs/metadata.json": "Provenance and generation parameters"
+  }
+}
