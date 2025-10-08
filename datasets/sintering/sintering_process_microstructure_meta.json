@@ -1,0 +1,47 @@
+{
+  "generated_at_utc": "20251008T184850Z",
+  "seed": 42,
+  "rows": 300,
+  "parameter_ranges": {
+    "peak_temp_c": [
+      1100,
+      1600
+    ],
+    "ramp_rate_c_per_min": [
+      2.0,
+      20.0
+    ],
+    "cool_rate_c_per_min": [
+      2.0,
+      20.0
+    ],
+    "hold_time_min": [
+      0,
+      180
+    ],
+    "pressure_mpa": [
+      0.0,
+      50.0
+    ],
+    "green_rel_density": [
+      0.5,
+      0.65
+    ],
+    "powder_particle_size_um": [
+      0.4,
+      6.0
+    ],
+    "green_pore_size_um": [
+      0.3,
+      10.0
+    ]
+  },
+  "atmospheres": [
+    "air",
+    "argon",
+    "nitrogen",
+    "vacuum",
+    "hydrogen"
+  ],
+  "notes": "Synthetic dataset linking sintering process inputs to microstructure outputs with plausible correlations."
+}
