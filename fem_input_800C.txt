@@ -1,0 +1,22 @@
+! YSZ Material Properties at 800°C
+! Generated for FEM Thermomechanical Analysis
+!-------------------------------------------------
+
+! Elastic Properties
+MP,EX,1,1.830e+11  ! Young's Modulus (Pa)
+MP,NUXY,1,0.310      ! Poisson's Ratio
+
+! Thermal Properties
+MP,ALPX,1,1.065e-05  ! CTE (1/K)
+MP,KXX,1,2.250  ! Thermal Conductivity (W/m·K)
+MP,DENS,1,5990.0  ! Density (kg/m³)
+
+! Failure Properties
+! Fracture Toughness: 1.23 MPa√m
+! Weibull Modulus: 7.7
+! Characteristic Strength: 200.0 MPa
+
+! Creep Properties (Norton Power Law)
+! A = 2.500e-11
+! n = 1.35
+! Q = 400.0 kJ/mol
