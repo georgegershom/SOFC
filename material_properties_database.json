@@ -1,0 +1,161 @@
+{
+  "materials": {
+    "YSZ_8mol": {
+      "name": "8mol% Yttria-Stabilized Zirconia",
+      "composition": "ZrO2-8mol%Y2O3",
+      "application": "SOFC Electrolyte",
+      "temperature_dependent_properties": {
+        "temperature_C": [25, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500],
+        "youngs_modulus_GPa": [210.0, 208.5, 206.2, 203.8, 201.0, 198.0, 194.5, 190.5, 186.0, 181.0, 175.5, 169.5, 163.0, 156.0, 148.5, 140.5],
+        "poissons_ratio": [0.313, 0.313, 0.314, 0.314, 0.315, 0.315, 0.316, 0.316, 0.317, 0.318, 0.319, 0.320, 0.321, 0.322, 0.323, 0.324],
+        "thermal_expansion_coefficient_1e-6_per_K": [10.0, 10.1, 10.2, 10.3, 10.4, 10.5, 10.6, 10.7, 10.8, 10.9, 11.0, 11.1, 11.2, 11.3, 11.4, 11.5],
+        "density_kg_per_m3": [5900, 5898, 5895, 5892, 5889, 5886, 5883, 5880, 5877, 5874, 5871, 5868, 5865, 5862, 5859, 5856],
+        "thermal_conductivity_W_per_mK": [2.7, 2.6, 2.5, 2.4, 2.3, 2.2, 2.15, 2.1, 2.05, 2.0, 1.95, 1.9, 1.85, 1.8, 1.75, 1.7],
+        "fracture_toughness_MPa_sqrt_m": [2.5, 2.4, 2.3, 2.2, 2.1, 2.0, 1.95, 1.9, 1.85, 1.8, 1.75, 1.7, 1.65, 1.6, 1.55, 1.5],
+        "characteristic_strength_MPa": [250, 245, 240, 235, 230, 225, 220, 215, 210, 205, 200, 195, 190, 185, 180, 175]
+      },
+      "weibull_parameters": {
+        "modulus": 12.5,
+        "reference_volume_mm3": 1.0,
+        "temperature_dependence": "Generally decreases with temperature, values provided are for room temperature baseline"
+      },
+      "creep_parameters": {
+        "model": "Norton Power Law",
+        "equation": "strain_rate = A * stress^n * exp(-Q/RT)",
+        "A_prefactor_MPa-n_per_s": 1.2e-6,
+        "n_stress_exponent": 1.8,
+        "Q_activation_energy_kJ_per_mol": 460,
+        "applicable_temperature_range_C": [1000, 1500],
+        "diffusion_creep_regime": {
+          "n": 1.0,
+          "Q_kJ_per_mol": 480,
+          "dominant_above_C": 1200
+        },
+        "dislocation_creep_regime": {
+          "n": 3.5,
+          "Q_kJ_per_mol": 420,
+          "dominant_range_C": [900, 1200]
+        }
+      },
+      "sintering_parameters": {
+        "initial_relative_density": 0.6,
+        "final_relative_density": 0.98,
+        "sintering_temperature_C": 1450,
+        "heating_rate_C_per_min": 5,
+        "dwell_time_hours": 4,
+        "grain_growth_exponent": 3.2,
+        "activation_energy_grain_growth_kJ_per_mol": 380
+      }
+    },
+    "GDC_20": {
+      "name": "20mol% Gadolinium-Doped Ceria",
+      "composition": "Ce0.8Gd0.2O1.9",
+      "application": "SOFC Electrolyte/Barrier Layer",
+      "temperature_dependent_properties": {
+        "temperature_C": [25, 200, 400, 600, 800, 1000, 1200, 1400],
+        "youngs_modulus_GPa": [220.0, 217.0, 213.0, 208.0, 202.0, 195.0, 187.0, 178.0],
+        "poissons_ratio": [0.326, 0.327, 0.328, 0.329, 0.330, 0.331, 0.332, 0.333],
+        "thermal_expansion_coefficient_1e-6_per_K": [12.0, 12.2, 12.4, 12.6, 12.8, 13.0, 13.2, 13.4],
+        "density_kg_per_m3": [7150, 7145, 7140, 7135, 7130, 7125, 7120, 7115],
+        "thermal_conductivity_W_per_mK": [2.0, 1.85, 1.7, 1.55, 1.4, 1.25, 1.1, 0.95],
+        "fracture_toughness_MPa_sqrt_m": [1.8, 1.7, 1.6, 1.5, 1.4, 1.3, 1.2, 1.1],
+        "characteristic_strength_MPa": [180, 175, 170, 165, 160, 155, 150, 145]
+      },
+      "weibull_parameters": {
+        "modulus": 10.8,
+        "reference_volume_mm3": 1.0
+      },
+      "creep_parameters": {
+        "A_prefactor_MPa-n_per_s": 8.5e-7,
+        "n_stress_exponent": 1.5,
+        "Q_activation_energy_kJ_per_mol": 420
+      }
+    },
+    "LSCF_6428": {
+      "name": "La0.6Sr0.4Co0.2Fe0.8O3-δ",
+      "composition": "LSCF-6428",
+      "application": "SOFC Cathode",
+      "temperature_dependent_properties": {
+        "temperature_C": [25, 200, 400, 600, 800, 1000],
+        "youngs_modulus_GPa": [95.0, 92.0, 88.0, 83.0, 77.0, 70.0],
+        "poissons_ratio": [0.28, 0.282, 0.284, 0.286, 0.288, 0.290],
+        "thermal_expansion_coefficient_1e-6_per_K": [15.5, 16.0, 16.5, 17.0, 17.5, 18.0],
+        "density_kg_per_m3": [6200, 6195, 6190, 6185, 6180, 6175],
+        "thermal_conductivity_W_per_mK": [1.8, 1.7, 1.6, 1.5, 1.4, 1.3],
+        "fracture_toughness_MPa_sqrt_m": [1.2, 1.15, 1.1, 1.05, 1.0, 0.95],
+        "characteristic_strength_MPa": [120, 115, 110, 105, 100, 95]
+      },
+      "weibull_parameters": {
+        "modulus": 8.5,
+        "reference_volume_mm3": 1.0
+      },
+      "oxygen_stoichiometry": {
+        "delta_vs_temperature": {
+          "temperature_C": [600, 700, 800, 900, 1000],
+          "delta": [0.05, 0.08, 0.12, 0.17, 0.23]
+        }
+      }
+    },
+    "NiO_YSZ": {
+      "name": "NiO-YSZ Cermet (60:40 vol%)",
+      "composition": "60vol%NiO-40vol%YSZ",
+      "application": "SOFC Anode (before reduction)",
+      "temperature_dependent_properties": {
+        "temperature_C": [25, 200, 400, 600, 800, 1000, 1200, 1400],
+        "youngs_modulus_GPa": [165.0, 162.0, 158.0, 153.0, 147.0, 140.0, 132.0, 123.0],
+        "poissons_ratio": [0.29, 0.291, 0.292, 0.293, 0.294, 0.295, 0.296, 0.297],
+        "thermal_expansion_coefficient_1e-6_per_K": [12.8, 13.0, 13.2, 13.4, 13.6, 13.8, 14.0, 14.2],
+        "density_kg_per_m3": [6450, 6445, 6440, 6435, 6430, 6425, 6420, 6415],
+        "thermal_conductivity_W_per_mK": [4.5, 4.2, 3.9, 3.6, 3.3, 3.0, 2.7, 2.4],
+        "fracture_toughness_MPa_sqrt_m": [2.8, 2.7, 2.6, 2.5, 2.4, 2.3, 2.2, 2.1],
+        "characteristic_strength_MPa": [180, 175, 170, 165, 160, 155, 150, 145]
+      },
+      "reduction_parameters": {
+        "volume_change_percent": -25.0,
+        "porosity_after_reduction": 0.35,
+        "reduction_temperature_C": 800,
+        "reduction_atmosphere": "H2/H2O"
+      }
+    },
+    "Crofer_22_APU": {
+      "name": "Crofer 22 APU Stainless Steel",
+      "composition": "Fe-22Cr-0.5Mn-0.08La",
+      "application": "SOFC Interconnect",
+      "temperature_dependent_properties": {
+        "temperature_C": [25, 200, 400, 600, 800],
+        "youngs_modulus_GPa": [220.0, 210.0, 195.0, 175.0, 150.0],
+        "poissons_ratio": [0.28, 0.285, 0.29, 0.295, 0.30],
+        "thermal_expansion_coefficient_1e-6_per_K": [11.9, 12.3, 12.7, 13.1, 13.5],
+        "density_kg_per_m3": [7700, 7690, 7680, 7670, 7660],
+        "thermal_conductivity_W_per_mK": [20.0, 22.0, 24.0, 26.0, 28.0],
+        "yield_strength_MPa": [385, 340, 280, 200, 120],
+        "ultimate_tensile_strength_MPa": [520, 480, 420, 340, 250]
+      },
+      "oxidation_parameters": {
+        "parabolic_rate_constant_kg2_per_m4_s": {
+          "700C": 1e-14,
+          "800C": 5e-14
+        },
+        "oxide_scale": "Cr2O3 + (Mn,Cr)3O4 spinel"
+      }
+    }
+  },
+  "metadata": {
+    "version": "1.0",
+    "created_date": "2025-10-08",
+    "data_sources": [
+      "Compiled from literature values",
+      "Journal of the European Ceramic Society",
+      "Journal of Power Sources",
+      "Solid State Ionics",
+      "Materials Science and Engineering A",
+      "International Journal of Hydrogen Energy"
+    ],
+    "notes": {
+      "temperature_interpolation": "Linear interpolation recommended between data points",
+      "uncertainty": "Typical uncertainty ±5-10% for most properties",
+      "validation": "Values represent typical ranges from multiple sources",
+      "fem_usage": "Properties suitable for ANSYS, COMSOL, Abaqus input"
+    }
+  }
+}
