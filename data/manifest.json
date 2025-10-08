@@ -1,0 +1,28 @@
+{
+  "generated_at": "2025-10-08T18:50:08.213833Z",
+  "seed": 123,
+  "datasets": {
+    "macro": [
+      "material_properties.json",
+      "cell_dimensions.json",
+      "sintering_profile.csv",
+      "residual_stress_surface_XRD.csv",
+      "residual_stress_bulk_synchrotron.csv"
+    ],
+    "meso": [
+      "microcrack_locations_SEM.csv",
+      "fracture_tests.csv",
+      "critical_thresholds.json",
+      "grain_size_distribution.csv",
+      "porosity_map.csv"
+    ],
+    "micro": [
+      "ebsd_map.csv",
+      "grain_boundary_properties.csv"
+    ],
+    "simulation": [
+      "full_field.csv",
+      "collocation_subset.csv"
+    ]
+  }
+}
