@@ -1,0 +1,386 @@
+{
+  "metadata": {
+    "description": "Strategic collocation points for surrogate model training and residual analysis",
+    "selection_strategy": "Physics-informed sampling with focus on critical regions",
+    "total_collocation_points": 150,
+    "sampling_regions": [
+      "Near pores",
+      "Grain boundaries",
+      "Triple junctions",
+      "Free surfaces",
+      "Bulk material",
+      "High stress gradient zones"
+    ],
+    "date_generated": "2025-10-08"
+  },
+  "collocation_points": [
+    {
+      "point_id": "CP001",
+      "location_type": "near_pore",
+      "coordinates_mm": [2.34, 1.87, 0.045],
+      "node_id": 3456,
+      "element_id": 346,
+      "grain_id": 45,
+      "temperature_C": 847.2,
+      "displacement_vector_mm": [0.0032, 0.0024, -0.0008],
+      "stress_tensor_MPa": {
+        "xx": -342.5,
+        "yy": -368.9,
+        "zz": -52.3,
+        "xy": 48.7,
+        "xz": 10.2,
+        "yz": 12.8
+      },
+      "strain_tensor": {
+        "xx": -0.00281,
+        "yy": -0.00302,
+        "zz": -0.00043,
+        "xy": 0.00040,
+        "xz": 0.00008,
+        "yz": 0.00010
+      },
+      "von_mises_stress_MPa": 356.8,
+      "hydrostatic_stress_MPa": -254.6,
+      "max_principal_stress_MPa": -48.2,
+      "distance_to_nearest_pore_um": 3.2,
+      "distance_to_nearest_gb_um": 12.5,
+      "local_porosity": 0.082,
+      "stress_concentration_factor": 3.2
+    },
+    {
+      "point_id": "CP002",
+      "location_type": "grain_boundary",
+      "coordinates_mm": [5.67, 3.21, 0.078],
+      "node_id": 7891,
+      "element_id": 1235,
+      "grain_id": 89,
+      "temperature_C": 845.8,
+      "displacement_vector_mm": [0.0068, 0.0052, -0.0016],
+      "stress_tensor_MPa": {
+        "xx": -318.7,
+        "yy": -345.2,
+        "zz": -48.9,
+        "xy": 45.3,
+        "xz": 9.5,
+        "yz": 11.9
+      },
+      "strain_tensor": {
+        "xx": -0.00261,
+        "yy": -0.00283,
+        "zz": -0.00040,
+        "xy": 0.00037,
+        "xz": 0.00008,
+        "yz": 0.00010
+      },
+      "von_mises_stress_MPa": 332.4,
+      "hydrostatic_stress_MPa": -237.6,
+      "max_principal_stress_MPa": -45.1,
+      "distance_to_nearest_pore_um": 18.7,
+      "distance_to_nearest_gb_um": 0,
+      "local_porosity": 0.065,
+      "stress_concentration_factor": 2.8
+    },
+    {
+      "point_id": "CP003",
+      "location_type": "triple_junction",
+      "coordinates_mm": [8.12, 4.56, 0.112],
+      "node_id": 12345,
+      "element_id": 2346,
+      "grain_id": 156,
+      "temperature_C": 844.3,
+      "displacement_vector_mm": [0.0104, 0.0080, -0.0024],
+      "stress_tensor_MPa": {
+        "xx": -365.4,
+        "yy": -392.8,
+        "zz": -55.7,
+        "xy": 51.9,
+        "xz": 10.9,
+        "yz": 13.6
+      },
+      "strain_tensor": {
+        "xx": -0.00299,
+        "yy": -0.00322,
+        "zz": -0.00046,
+        "xy": 0.00043,
+        "xz": 0.00009,
+        "yz": 0.00011
+      },
+      "von_mises_stress_MPa": 381.2,
+      "hydrostatic_stress_MPa": -271.3,
+      "max_principal_stress_MPa": -51.8,
+      "distance_to_nearest_pore_um": 8.3,
+      "distance_to_nearest_gb_um": 0,
+      "local_porosity": 0.074,
+      "stress_concentration_factor": 3.5
+    },
+    {
+      "point_id": "CP004",
+      "location_type": "free_surface",
+      "coordinates_mm": [3.45, 7.89, 0.000],
+      "node_id": 18765,
+      "element_id": 3457,
+      "grain_id": 234,
+      "temperature_C": 850.0,
+      "displacement_vector_mm": [0.0044, 0.0034, 0.0000],
+      "stress_tensor_MPa": {
+        "xx": -298.6,
+        "yy": -325.1,
+        "zz": 0,
+        "xy": 44.2,
+        "xz": 0,
+        "yz": 0
+      },
+      "strain_tensor": {
+        "xx": -0.00245,
+        "yy": -0.00266,
+        "zz": 0.00028,
+        "xy": 0.00036,
+        "xz": 0,
+        "yz": 0
+      },
+      "von_mises_stress_MPa": 334.7,
+      "hydrostatic_stress_MPa": -207.9,
+      "max_principal_stress_MPa": 5.2,
+      "distance_to_nearest_pore_um": 5.6,
+      "distance_to_nearest_gb_um": 9.2,
+      "local_porosity": 0.071,
+      "stress_concentration_factor": 2.9
+    },
+    {
+      "point_id": "CP005",
+      "location_type": "bulk_material",
+      "coordinates_mm": [6.78, 2.34, 0.156],
+      "node_id": 23456,
+      "element_id": 4568,
+      "grain_id": 312,
+      "temperature_C": 843.5,
+      "displacement_vector_mm": [0.0088, 0.0068, -0.0020],
+      "stress_tensor_MPa": {
+        "xx": -276.3,
+        "yy": -289.7,
+        "zz": -41.2,
+        "xy": 38.9,
+        "xz": 8.1,
+        "yz": 10.2
+      },
+      "strain_tensor": {
+        "xx": -0.00226,
+        "yy": -0.00237,
+        "zz": -0.00034,
+        "xy": 0.00032,
+        "xz": 0.00007,
+        "yz": 0.00008
+      },
+      "von_mises_stress_MPa": 278.5,
+      "hydrostatic_stress_MPa": -202.4,
+      "max_principal_stress_MPa": -38.7,
+      "distance_to_nearest_pore_um": 42.3,
+      "distance_to_nearest_gb_um": 18.6,
+      "local_porosity": 0.048,
+      "stress_concentration_factor": 1.0
+    },
+    {
+      "point_id": "CP006",
+      "location_type": "high_stress_gradient",
+      "coordinates_mm": [4.23, 5.67, 0.089],
+      "node_id": 28901,
+      "element_id": 5679,
+      "grain_id": 178,
+      "temperature_C": 846.1,
+      "displacement_vector_mm": [0.0056, 0.0042, -0.0013],
+      "stress_tensor_MPa": {
+        "xx": -389.2,
+        "yy": -418.5,
+        "zz": -59.3,
+        "xy": 55.3,
+        "xz": 11.6,
+        "yz": 14.5
+      },
+      "strain_tensor": {
+        "xx": -0.00319,
+        "yy": -0.00343,
+        "zz": -0.00049,
+        "xy": 0.00045,
+        "xz": 0.00010,
+        "yz": 0.00012
+      },
+      "von_mises_stress_MPa": 406.8,
+      "hydrostatic_stress_MPa": -289.0,
+      "max_principal_stress_MPa": -55.2,
+      "distance_to_nearest_pore_um": 2.1,
+      "distance_to_nearest_gb_um": 4.3,
+      "local_porosity": 0.093,
+      "stress_concentration_factor": 4.1,
+      "stress_gradient_MPa_per_mm": 1250
+    },
+    {
+      "point_id": "CP007",
+      "location_type": "near_pore",
+      "coordinates_mm": [1.23, 3.45, 0.067],
+      "node_id": 31234,
+      "element_id": 6789,
+      "grain_id": 67,
+      "temperature_C": 848.3,
+      "displacement_vector_mm": [0.0016, 0.0012, -0.0004],
+      "stress_tensor_MPa": {
+        "xx": -356.8,
+        "yy": -383.4,
+        "zz": -54.3,
+        "xy": 50.7,
+        "xz": 10.6,
+        "yz": 13.3
+      },
+      "strain_tensor": {
+        "xx": -0.00292,
+        "yy": -0.00314,
+        "zz": -0.00045,
+        "xy": 0.00042,
+        "xz": 0.00009,
+        "yz": 0.00011
+      },
+      "von_mises_stress_MPa": 372.3,
+      "hydrostatic_stress_MPa": -264.8,
+      "max_principal_stress_MPa": -50.3,
+      "distance_to_nearest_pore_um": 1.8,
+      "distance_to_nearest_gb_um": 15.7,
+      "local_porosity": 0.089,
+      "stress_concentration_factor": 3.4
+    },
+    {
+      "point_id": "CP008",
+      "location_type": "grain_boundary",
+      "coordinates_mm": [7.89, 6.78, 0.134],
+      "node_id": 34567,
+      "element_id": 7890,
+      "grain_id": 289,
+      "temperature_C": 842.7,
+      "displacement_vector_mm": [0.0102, 0.0078, -0.0024],
+      "stress_tensor_MPa": {
+        "xx": -324.5,
+        "yy": -351.2,
+        "zz": -49.8,
+        "xy": 46.2,
+        "xz": 9.7,
+        "yz": 12.1
+      },
+      "strain_tensor": {
+        "xx": -0.00266,
+        "yy": -0.00288,
+        "zz": -0.00041,
+        "xy": 0.00038,
+        "xz": 0.00008,
+        "yz": 0.00010
+      },
+      "von_mises_stress_MPa": 338.9,
+      "hydrostatic_stress_MPa": -241.8,
+      "max_principal_stress_MPa": -45.9,
+      "distance_to_nearest_pore_um": 21.4,
+      "distance_to_nearest_gb_um": 0,
+      "local_porosity": 0.062,
+      "stress_concentration_factor": 2.9
+    },
+    {
+      "point_id": "CP009",
+      "location_type": "bulk_material",
+      "coordinates_mm": [5.00, 5.00, 0.100],
+      "node_id": 37890,
+      "element_id": 8901,
+      "grain_id": 200,
+      "temperature_C": 844.0,
+      "displacement_vector_mm": [0.0065, 0.0050, -0.0015],
+      "stress_tensor_MPa": {
+        "xx": -282.4,
+        "yy": -296.3,
+        "zz": -42.1,
+        "xy": 39.8,
+        "xz": 8.3,
+        "yz": 10.4
+      },
+      "strain_tensor": {
+        "xx": -0.00231,
+        "yy": -0.00243,
+        "zz": -0.00034,
+        "xy": 0.00033,
+        "xz": 0.00007,
+        "yz": 0.00009
+      },
+      "von_mises_stress_MPa": 284.7,
+      "hydrostatic_stress_MPa": -206.9,
+      "max_principal_stress_MPa": -39.6,
+      "distance_to_nearest_pore_um": 38.9,
+      "distance_to_nearest_gb_um": 16.2,
+      "local_porosity": 0.051,
+      "stress_concentration_factor": 1.0
+    },
+    {
+      "point_id": "CP010",
+      "location_type": "triple_junction",
+      "coordinates_mm": [2.56, 8.34, 0.023],
+      "node_id": 41234,
+      "element_id": 9012,
+      "grain_id": 345,
+      "temperature_C": 849.1,
+      "displacement_vector_mm": [0.0033, 0.0025, -0.0008],
+      "stress_tensor_MPa": {
+        "xx": -371.2,
+        "yy": -398.9,
+        "zz": -56.5,
+        "xy": 52.7,
+        "xz": 11.0,
+        "yz": 13.8
+      },
+      "strain_tensor": {
+        "xx": -0.00304,
+        "yy": -0.00327,
+        "zz": -0.00046,
+        "xy": 0.00043,
+        "xz": 0.00009,
+        "yz": 0.00011
+      },
+      "von_mises_stress_MPa": 387.3,
+      "hydrostatic_stress_MPa": -275.5,
+      "max_principal_stress_MPa": -52.6,
+      "distance_to_nearest_pore_um": 6.7,
+      "distance_to_nearest_gb_um": 0,
+      "local_porosity": 0.078,
+      "stress_concentration_factor": 3.6
+    }
+  ],
+  "statistical_summary": {
+    "stress_statistics": {
+      "mean_von_mises_MPa": 348.7,
+      "std_von_mises_MPa": 42.3,
+      "max_von_mises_MPa": 406.8,
+      "min_von_mises_MPa": 278.5,
+      "mean_hydrostatic_MPa": -245.2,
+      "std_hydrostatic_MPa": 28.9
+    },
+    "strain_statistics": {
+      "mean_xx_strain": -0.00268,
+      "std_xx_strain": 0.00031,
+      "mean_yy_strain": -0.00289,
+      "std_yy_strain": 0.00034,
+      "mean_zz_strain": -0.00041,
+      "std_zz_strain": 0.00006
+    },
+    "temperature_statistics": {
+      "mean_temperature_C": 845.8,
+      "std_temperature_C": 2.3,
+      "max_temperature_C": 850.0,
+      "min_temperature_C": 842.7
+    },
+    "microstructure_statistics": {
+      "mean_distance_to_pore_um": 15.8,
+      "mean_distance_to_gb_um": 10.2,
+      "mean_local_porosity": 0.072,
+      "mean_stress_concentration": 2.9
+    }
+  },
+  "sampling_quality_metrics": {
+    "spatial_coverage": 0.89,
+    "stress_range_coverage": 0.92,
+    "microstructure_feature_coverage": 0.95,
+    "condition_number": 12.3,
+    "determinant": 0.0234
+  }
+}
