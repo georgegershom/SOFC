@@ -1,0 +1,27 @@
+{
+  "material": "8YSZ (synthetic dataset)",
+  "reference_temperature_K": 293.15,
+  "source": "Fabricated engineering dataset for FEM scoping (replace with measured data).",
+  "temperature_range_K": [293.15, 1773.15],
+  "properties": {
+    "E_Pa": "max(0, 210e9 - 81e6*(T_K - 293.15))",
+    "nu": "min(0.33, 0.30 + 2.0e-5*(T_K - 293.15))",
+    "alpha_1_per_K": "10.5e-6 + 2.0e-9*(T_K - 293.15)",
+    "rho_kg_per_m3": "6050.0 / (1.0 + 3.0*((10.5e-6 + (10.5e-6 + 2.0e-9*(T_K - 293.15)))/2.0)*(T_K - 293.15))",
+    "k_W_per_mK": "(T_K <= 1273.15) ? (2.30 - 4.5e-4*(T_K - 293.15)) : (1.86 + 3.5e-4*(T_K - 1273.15))",
+    "K_IC_MPa_sqrt_m": "2.5 - 6.08e-4*(T_K - 293.15)",
+    "weibull_m_RT": 12,
+    "weibull_sigma0_MPa_RT": 550,
+    "weibull_sigma0_MPa": "550.0 * max(0.3, 1.0 - 2.0e-4*(T_K - 293.15))",
+    "creep": {
+      "law": "Norton",
+      "equation": "eps_dot = A * sigma^n * exp(-Q/(R*T_K))",
+      "A_1_over_Pa_pow_n_s": 7.0e-4,
+      "n": 1.5,
+      "Q_J_per_mol": 450000,
+      "R_J_per_molK": 8.314,
+      "valid_T_K": [1473.15, 1773.15],
+      "sigma_range_MPa": [5, 50]
+    }
+  }
+}
