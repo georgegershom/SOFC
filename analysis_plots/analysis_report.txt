@@ -1,0 +1,54 @@
+SINTERING MICROSTRUCTURE DATASET ANALYSIS REPORT
+============================================================
+
+DATASET OVERVIEW:
+--------------------
+Total samples: 500
+Input features: 7
+Output features: 4
+
+KEY CORRELATIONS:
+--------------------
+
+final_relative_density_percent:
+  - peak_temperature_C: 0.520
+  - hold_time_hours: 0.465
+  - particle_size_um: 0.352
+
+porosity_percent:
+  - peak_temperature_C: 0.520
+  - hold_time_hours: 0.465
+  - particle_size_um: 0.352
+
+grain_size_mean_um:
+  - particle_size_um: 0.814
+  - peak_temperature_C: 0.332
+  - hold_time_hours: 0.264
+
+pore_size_mean_um:
+  - peak_temperature_C: 0.371
+  - particle_size_um: 0.300
+  - hold_time_hours: 0.299
+
+FEATURE IMPORTANCE (Random Forest):
+----------------------------------------
+
+final_relative_density_percent:
+  - peak_temperature_C: 0.326
+  - hold_time_hours: 0.325
+  - particle_size_um: 0.160
+
+porosity_percent:
+  - peak_temperature_C: 0.326
+  - hold_time_hours: 0.325
+  - particle_size_um: 0.160
+
+grain_size_mean_um:
+  - particle_size_um: 0.753
+  - peak_temperature_C: 0.152
+  - hold_time_hours: 0.056
+
+pore_size_mean_um:
+  - peak_temperature_C: 0.297
+  - hold_time_hours: 0.225
+  - particle_size_um: 0.206

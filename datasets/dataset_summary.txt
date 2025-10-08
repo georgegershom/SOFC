@@ -1,0 +1,54 @@
+SINTERING MICROSTRUCTURE DATASET SUMMARY
+==================================================
+
+Generated on: 2025-10-08 18:31:09
+Total samples: 500
+Total features: 32
+
+DATASET STRUCTURE:
+--------------------
+sample_id: object
+experiment_date: datetime64[ns]
+operator: object
+furnace_id: object
+sem_magnification: int64
+sem_resolution_nm: float64
+ct_voxel_size_um: float64
+ct_scan_time_hours: float64
+density_measurement_error_percent: float64
+ramp_up_rate_C_per_min: float64
+peak_temperature_C: float64
+hold_time_hours: float64
+cool_down_rate_C_per_min: float64
+applied_pressure_MPa: float64
+pressure_type: object
+initial_relative_density_percent: float64
+initial_pore_size_mean_um: float64
+initial_pore_size_std_um: float64
+particle_size_um: float64
+atmosphere: object
+oxygen_partial_pressure_atm: float64
+final_relative_density_percent: float64
+porosity_percent: float64
+grain_size_mean_um: float64
+grain_size_std_um: float64
+pore_size_mean_um: float64
+pore_size_std_um: float64
+grain_boundary_area_per_volume_um2_per_um3: float64
+grain_boundary_thickness_nm: float64
+grain_boundary_energy_J_per_m2: float64
+coordination_number: float64
+pore_connectivity_fraction: float64
+
+
+SUMMARY STATISTICS:
+--------------------
+                  experiment_date  sem_magnification  sem_resolution_nm  ct_voxel_size_um  ct_scan_time_hours  density_measurement_error_percent  ramp_up_rate_C_per_min  peak_temperature_C  hold_time_hours  cool_down_rate_C_per_min  applied_pressure_MPa  initial_relative_density_percent  initial_pore_size_mean_um  initial_pore_size_std_um  particle_size_um  oxygen_partial_pressure_atm  final_relative_density_percent  porosity_percent  grain_size_mean_um  grain_size_std_um  pore_size_mean_um  pore_size_std_um  grain_boundary_area_per_volume_um2_per_um3  grain_boundary_thickness_nm  grain_boundary_energy_J_per_m2  coordination_number  pore_connectivity_fraction
+count                         500         500.000000         500.000000        500.000000          500.000000                         500.000000              500.000000          500.000000       500.000000                500.000000            500.000000                        500.000000                 500.000000                500.000000        500.000000                 5.000000e+02                      500.000000        500.000000          500.000000         500.000000         500.000000        500.000000                                  500.000000                   500.000000                      500.000000           500.000000                  500.000000
+mean   2023-12-25 15:33:07.200000        7420.000000          18.680000          1.021736            6.942979                           0.300654                5.487055         1392.780558         4.381686                  8.454194             20.929874                         59.956802                   0.553068                  0.306708          1.161061                 8.708926e-02                       96.071375          3.928625            5.528340           2.234047           0.177016          0.142035                                    0.906616                     1.256778                        0.961246            11.489803                    0.404679
+min           2023-01-01 00:00:00        1000.000000           2.500000          0.102534            2.014182                           0.100690                1.045554         1201.852809         0.537050                  2.041837              0.000000                         50.039843                   0.112061                  0.060424          0.182055                 1.380883e-09                       77.894860          0.500000            0.511893           0.155676           0.014467          0.008912                                    0.087223                     0.501415                        0.427880             9.203809                    0.000000
+25%           2023-06-18 00:00:00        2000.000000           5.000000          0.545214            4.257232                           0.196100                3.171517         1291.639699         2.309210                  5.133966              0.000000                         54.994398                   0.350204                  0.169693          0.652720                 8.088610e-06                       93.474873          0.500000            2.717929           1.018500           0.066013          0.049450                                    0.443374                     0.885760                        0.720476            11.008310                    0.242897
+50%           2023-12-20 12:00:00        5000.000000          10.000000          0.983050            6.862745                           0.295507                5.618474         1388.728627         4.548038                  8.615587              0.000000                         60.379256                   0.477686                  0.248882          0.965992                 7.133594e-04                       97.761489          2.238511            4.461229           1.727964           0.132786          0.096382                                    0.672461                     1.254401                        0.974495            11.560698                    0.381443
+75%           2024-07-01 12:00:00       10000.000000          25.000000          1.485596            9.656919                           0.408733                7.805124         1490.534728         6.330078                 11.585891             39.172930                         64.513723                   0.676449                  0.372998          1.421314                 2.100000e-01                       99.500000          6.525127            6.766366           2.801926           0.230325          0.174394                                    1.103788                     1.635780                        1.198089            12.006019                    0.560163
+max           2024-12-30 00:00:00       20000.000000          50.000000          1.995536           11.983032                           0.498343                9.936683         1599.887069         7.995603                 14.978518             99.803877                         69.977852                   3.560752                  2.742676          6.999619                 2.100000e-01                       99.500000         22.105140           34.394524          14.756814           1.710915          1.703529                                    5.860600                     1.996873                        1.486317            13.512219                    0.967980
+std                           NaN        6784.663833          17.661582          0.549631            2.981510                           0.119209                2.688196          114.197383         2.228947                  3.731128             30.672737                          5.659752                   0.313008                  0.218154          0.776545                 1.034135e-01                        4.037387          4.037387            4.270052           1.849309           0.162994          0.151913                                    0.771495                     0.426327                        0.277305             0.707344                    0.202287
