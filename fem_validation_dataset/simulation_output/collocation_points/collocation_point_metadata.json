@@ -1,0 +1,91 @@
+{
+  "dataset_name": "Collocation Points for FEM Validation and Surrogate Modeling",
+  "description": "Strategically selected subset of full-field FEM data for residual analysis and surrogate model training",
+  "total_points": 30,
+  "selection_strategy": {
+    "free_surface_points": 10,
+    "near_pore_points": 7,
+    "grain_boundary_points": 6,
+    "interior_high_stress_points": 7
+  },
+  "selection_criteria": [
+    {
+      "criterion": "free_surface",
+      "description": "Points on the free surface where thermal gradients are highest",
+      "count": 7
+    },
+    {
+      "criterion": "free_surface_high_stress",
+      "description": "Free surface points with von Mises stress > 100 MPa",
+      "count": 3
+    },
+    {
+      "criterion": "near_pore",
+      "description": "Points within 10 μm of pore boundaries (stress concentrators)",
+      "count": 3
+    },
+    {
+      "criterion": "near_pore_high_stress",
+      "description": "Near-pore points with von Mises stress > 110 MPa",
+      "count": 1
+    },
+    {
+      "criterion": "near_pore_critical",
+      "description": "Near-pore points with von Mises stress > 150 MPa (crack initiation sites)",
+      "count": 3
+    },
+    {
+      "criterion": "near_pore_critical_high_stress",
+      "description": "Critical near-pore points with von Mises stress > 180 MPa",
+      "count": 1
+    },
+    {
+      "criterion": "grain_boundary",
+      "description": "Points within 1 μm of grain boundaries",
+      "count": 3
+    },
+    {
+      "criterion": "grain_boundary_critical",
+      "description": "Grain boundary points with von Mises stress > 150 MPa",
+      "count": 2
+    },
+    {
+      "criterion": "grain_boundary_critical_high_stress",
+      "description": "Grain boundary points with von Mises stress > 170 MPa",
+      "count": 1
+    },
+    {
+      "criterion": "interior",
+      "description": "Interior points away from defects for baseline measurements",
+      "count": 1
+    },
+    {
+      "criterion": "interior_high_stress",
+      "description": "Interior points with elevated stress levels > 135 MPa",
+      "count": 5
+    }
+  ],
+  "use_cases": [
+    "Training surrogate models (Neural Networks, Gaussian Processes, POD-RBF)",
+    "Residual analysis to identify model inaccuracies",
+    "Sparse sensor placement optimization",
+    "Physics-informed neural network (PINN) training",
+    "Data assimilation for model updating"
+  ],
+  "spatial_domain": {
+    "x_range_mm": [0.0, 7.52],
+    "y_range_mm": [0.0, 7.52],
+    "z_range_mm": [0.0, 0.5]
+  },
+  "field_ranges": {
+    "temperature_K": [1473.15, 1635.75],
+    "von_mises_stress_MPa": [39.9, 186.3],
+    "hydrostatic_stress_MPa": [-166.8, -34.2],
+    "displacement_magnitude_um": [0.0, 11.2]
+  },
+  "recommended_train_test_split": {
+    "training_points": 24,
+    "validation_points": 6,
+    "notes": "Ensure validation points cover all location types proportionally"
+  }
+}

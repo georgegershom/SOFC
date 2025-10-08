@@ -1,0 +1,9 @@
+rve_id,x_center_mm,y_center_mm,z_center_mm,rve_size_um,num_grains,num_pores,total_grain_boundary_length_mm,total_grain_boundary_area_mm2,representative_quality_score,mesh_elements,mesh_nodes,mesh_type,voxel_resolution_nm
+RVE_001,2.5,2.5,0.1,50,142,28,11.76,1.24,0.92,185420,42385,tetrahedral,50
+RVE_002,7.5,2.5,0.1,50,89,38,8.13,0.89,0.88,152380,36724,tetrahedral,50
+RVE_003,5.0,5.0,0.2,50,128,32,10.20,1.08,0.90,172845,39562,tetrahedral,50
+RVE_004,2.5,2.5,0.1,100,1136,224,47.04,4.98,0.95,1483360,338780,tetrahedral,50
+RVE_005,7.5,2.5,0.1,100,712,304,32.52,3.56,0.91,1219040,293792,tetrahedral,50
+RVE_006,1.0,1.0,0.05,30,49,9,5.64,0.60,0.86,66852,15258,tetrahedral,40
+RVE_007,3.0,3.0,0.1,75,481,72,25.08,2.65,0.93,627465,143541,tetrahedral,45
+RVE_008,8.0,3.0,0.15,75,337,110,17.33,1.90,0.89,512970,123696,tetrahedral,45

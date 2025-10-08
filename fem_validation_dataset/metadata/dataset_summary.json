@@ -1,0 +1,112 @@
+{
+  "dataset_name": "Multi-Scale FEM Validation Dataset for SOFC Electrolyte",
+  "version": "1.0.0",
+  "creation_date": "2025-10-08",
+  "description": "Comprehensive validation and analysis dataset for Finite Element Method modeling of Solid Oxide Fuel Cell electrolytes, including experimental measurements, simulation outputs, and multi-scale characterization data",
+  "application_domain": "Solid Oxide Fuel Cells (SOFC)",
+  "material_system": "8% Yttria-Stabilized Zirconia (8YSZ) electrolyte",
+  "data_categories": {
+    "experimental_data": {
+      "residual_stress": {
+        "xrd_surface_measurements": 42,
+        "raman_spectroscopy_measurements": 28,
+        "synchrotron_subsurface_measurements": 28,
+        "total_stress_measurements": 98
+      },
+      "crack_analysis": {
+        "crack_initiation_events": 19,
+        "crack_propagation_sequences": 7,
+        "sem_fractography_observations": 19,
+        "total_crack_data_points": 45
+      }
+    },
+    "simulation_output": {
+      "full_field_data": {
+        "nodal_solution_points": 41,
+        "element_data_points": 38,
+        "fields": ["temperature", "displacement", "stress", "strain"]
+      },
+      "collocation_points": {
+        "total_points": 30,
+        "strategically_selected": true,
+        "categories": ["free_surface", "near_pore", "grain_boundary", "interior"]
+      }
+    },
+    "multi_scale_data": {
+      "macro_scale": {
+        "material_properties": 15,
+        "cell_geometries": 6,
+        "sintering_profile_points": 20
+      },
+      "meso_scale": {
+        "microstructure_characterizations": 15,
+        "rve_geometries": 8
+      },
+      "micro_scale": {
+        "grain_boundary_properties": 12,
+        "crystallographic_orientations": 25
+      }
+    }
+  },
+  "key_features": [
+    "Multi-scale experimental validation data (macro/meso/micro)",
+    "Full-field FEM simulation results with temperature, displacement, stress, and strain",
+    "Strategically selected collocation points for surrogate modeling",
+    "Residual stress measurements from multiple techniques (XRD, Raman, Synchrotron)",
+    "Crack initiation and propagation data with in-situ observations",
+    "Microstructure characterization from SEM, EBSD, and XCT",
+    "Grain boundary properties and crystallographic orientation data",
+    "Complete sintering thermal history"
+  ],
+  "intended_uses": [
+    "FEM model validation and verification",
+    "Surrogate model training (Neural Networks, Gaussian Processes, POD-RBF)",
+    "Residual analysis for model refinement",
+    "Physics-informed neural network (PINN) development",
+    "Multi-scale modeling framework development",
+    "Data assimilation and uncertainty quantification",
+    "Crack prediction model training and validation",
+    "Thermal-mechanical coupling validation"
+  ],
+  "spatial_extent": {
+    "x_range_mm": [0.0, 10.0],
+    "y_range_mm": [0.0, 7.52],
+    "z_range_mm": [0.0, 1.0]
+  },
+  "temperature_range": {
+    "min_K": 298.15,
+    "max_K": 1673.15,
+    "operational_range_K": [1473.15, 1673.15]
+  },
+  "stress_ranges": {
+    "von_mises_MPa": [39.9, 186.3],
+    "hydrostatic_MPa": [-166.8, -34.2],
+    "principal_stress_MPa": [-179.3, -24.3]
+  },
+  "measurement_uncertainty": {
+    "xrd_stress_MPa": "±5-9",
+    "raman_stress_MPa": "±8-19",
+    "synchrotron_stress_not_reported": true,
+    "crack_length_um": "±0.5",
+    "temperature_K": "±2"
+  },
+  "file_formats": {
+    "tabular_data": "CSV",
+    "metadata": "JSON",
+    "documentation": "Markdown"
+  },
+  "recommended_tools": [
+    "Python (pandas, numpy, scipy, scikit-learn)",
+    "MATLAB",
+    "Abaqus/ANSYS for FEM visualization",
+    "ParaView for 3D visualization",
+    "TensorFlow/PyTorch for ML models"
+  ],
+  "license": "CC-BY-4.0",
+  "citation": "Please cite this dataset when using it in publications",
+  "contact": {
+    "institution": "Research Institution",
+    "department": "Materials Science & Engineering",
+    "email": "contact@institution.edu"
+  }
+}

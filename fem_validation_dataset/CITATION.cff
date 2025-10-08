@@ -1,0 +1,35 @@
+# Citation File Format (CFF) for the dataset
+# https://citation-file-format.github.io/
+
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Multi-Scale FEM Validation Dataset for SOFC Electrolytes"
+version: 1.0.0
+date-released: 2025-10-08
+abstract: >
+  This comprehensive dataset provides experimental measurements, 
+  high-fidelity FEM simulation outputs, and multi-scale material 
+  characterization data for validating Finite Element Method models 
+  of Solid Oxide Fuel Cell (SOFC) electrolytes. The dataset includes 
+  residual stress measurements (XRD, Raman, Synchrotron), crack 
+  initiation and propagation data, full-field FEM solutions, 
+  strategically selected collocation points for surrogate modeling, 
+  and microstructure characterization from macro to micro scales.
+keywords:
+  - Finite Element Method
+  - Solid Oxide Fuel Cells
+  - Residual Stress
+  - Surrogate Modeling
+  - Multi-scale Modeling
+  - Crack Propagation
+  - Model Validation
+  - Collocation Points
+  - 8YSZ Electrolyte
+authors:
+  - family-names: "Research"
+    given-names: "Team"
+    affiliation: "Materials Science & Engineering Department"
+license: CC-BY-4.0
+repository-code: "https://github.com/institution/fem-validation-dataset"
+url: "https://institution.edu/fem-validation-dataset"
