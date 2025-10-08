@@ -1,0 +1,36 @@
+{
+  "dimensions": [
+    128,
+    128,
+    64
+  ],
+  "voxel_size": 0.5,
+  "physical_dimensions_um": [
+    64.0,
+    64.0,
+    32.0
+  ],
+  "generation_date": "2025-10-08T20:37:51.354012",
+  "seed": 42,
+  "phases": {
+    "0": "Pore",
+    "1": "Nickel",
+    "2": "YSZ_Anode",
+    "3": "YSZ_Electrolyte",
+    "4": "GDC_Interlayer",
+    "5": "SDC_Interlayer"
+  },
+  "volume_fractions": {
+    "0": 0.22484397888183594,
+    "1": 0.07926654815673828,
+    "2": 0.5210065841674805,
+    "3": 0.1254129409790039,
+    "4": 0.049469947814941406,
+    "5": 0.0
+  },
+  "interface_areas_um2": {
+    "Ni-YSZ": 244.75,
+    "Anode-Electrolyte": 400.5
+  },
+  "tpb_density_m_per_m3": 518798828.12499994
+}
