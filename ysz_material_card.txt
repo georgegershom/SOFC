@@ -1,0 +1,43 @@
+YSZ MATERIAL PROPERTY CARD
+==================================================
+Material: 8 mol% Yttria-Stabilized Zirconia
+Application: SOFC Electrolyte
+Temperature Range: 25°C to 1500°C
+
+ROOM TEMPERATURE PROPERTIES (25°C):
+----------------------------------------
+Young's Modulus:           210.0 GPa
+Poisson's Ratio:           0.300
+Density:                   6.05 g/cm³
+Thermal Expansion Coeff:   10.5 × 10⁻⁶/K
+Thermal Conductivity:      2.8 W/m·K
+Fracture Toughness:        9.2 MPa√m
+Weibull Modulus:           12.5
+Characteristic Strength:   850 MPa
+
+HIGH TEMPERATURE PROPERTIES (1500°C):
+----------------------------------------
+Young's Modulus:           107.5 GPa
+Poisson's Ratio:           0.359
+Density:                   5.93 g/cm³
+Thermal Expansion Coeff:   16.4 × 10⁻⁶/K
+Thermal Conductivity:      0.06 W/m·K
+Fracture Toughness:        0.0 MPa√m
+Creep Parameter A:         6.70e-07 Pa⁻¹s⁻¹
+
+CRITICAL MODELING NOTES:
+----------------------------------------
+1. Young's Modulus decreases ~50% from RT to 1500°C
+2. CTE increases ~56% over temperature range
+3. Thermal conductivity drops dramatically at high T
+4. Creep becomes significant above 800°C
+5. Fracture toughness degrades with temperature
+6. Use temperature-dependent properties for accuracy
+
+FEM IMPLEMENTATION RECOMMENDATIONS:
+----------------------------------------
+• Use coupled thermo-mechanical analysis
+• Include temperature-dependent material properties
+• Consider creep effects above 800°C
+• Use Weibull statistics for failure analysis
+• Validate with experimental data when possible
