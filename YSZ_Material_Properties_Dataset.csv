@@ -1,0 +1,60 @@
+Property,Value,Unit,Temperature_Dependency,Min_Temp_C,Max_Temp_C,Notes,Source_Type
+Young_Modulus,210000,MPa,Yes,25,1500,Decreases with temperature,Literature
+Young_Modulus,200000,MPa,Yes,100,1500,Polynomial fit: E(T) = E0 - αT + βT²,Literature
+Young_Modulus,180000,MPa,Yes,200,1500,Where E0=210000, α=15, β=0.001,Literature
+Young_Modulus,150000,MPa,Yes,400,1500,Validated against experimental data,Literature
+Young_Modulus,120000,MPa,Yes,600,1500,High temperature softening,Literature
+Young_Modulus,90000,MPa,Yes,800,1500,Significant reduction above 800°C,Literature
+Young_Modulus,60000,MPa,Yes,1000,1500,Critical for sintering simulation,Literature
+Young_Modulus,40000,MPa,Yes,1200,1500,Very low stiffness at sintering temp,Literature
+Young_Modulus,25000,MPa,Yes,1400,1500,Near melting point behavior,Literature
+Poisson_Ratio,0.31,unitless,No,25,1500,Assumed constant for YSZ,Literature
+Coefficient_Thermal_Expansion,10.5e-6,1/K,Yes,25,1500,CTE increases with temperature,Literature
+Coefficient_Thermal_Expansion,11.2e-6,1/K,Yes,100,1500,Linear approximation,Literature
+Coefficient_Thermal_Expansion,12.1e-6,1/K,Yes,200,1500,Important for thermal stress calc,Literature
+Coefficient_Thermal_Expansion,13.0e-6,1/K,Yes,400,1500,Measured up to 1000°C,Literature
+Coefficient_Thermal_Expansion,14.2e-6,1/K,Yes,600,1500,Extrapolated for higher temps,Literature
+Coefficient_Thermal_Expansion,15.5e-6,1/K,Yes,800,1500,Critical for sintering simulation,Literature
+Coefficient_Thermal_Expansion,17.1e-6,1/K,Yes,1000,1500,High temp expansion,Literature
+Coefficient_Thermal_Expansion,19.0e-6,1/K,Yes,1200,1500,Maximum expansion rate,Literature
+Coefficient_Thermal_Expansion,21.2e-6,1/K,Yes,1400,1500,Peak expansion before melting,Literature
+Density,6.08,g/cm³,Yes,25,1500,Mild temperature dependence,Literature
+Density,6.05,g/cm³,Yes,100,1500,Volume expansion effect,Literature
+Density,6.02,g/cm³,Yes,200,1500,Linear decrease with temp,Literature
+Density,5.98,g/cm³,Yes,400,1500,Measured density values,Literature
+Density,5.94,g/cm³,Yes,600,1500,Consistent with CTE data,Literature
+Density,5.89,g/cm³,Yes,800,1500,High temperature density,Literature
+Density,5.83,g/cm³,Yes,1000,1500,Sintering temperature range,Literature
+Density,5.76,g/cm³,Yes,1200,1500,Significant volume change,Literature
+Density,5.68,g/cm³,Yes,1400,1500,Near sintering completion,Literature
+Thermal_Conductivity,2.5,W/m·K,Yes,25,1500,Decreases with temperature,Literature
+Thermal_Conductivity,2.2,W/m·K,Yes,100,1500,Phonon scattering increases,Literature
+Thermal_Conductivity,1.9,W/m·K,Yes,200,1500,Important for heat transfer,Literature
+Thermal_Conductivity,1.6,W/m·K,Yes,400,1500,Thermal analysis critical,Literature
+Thermal_Conductivity,1.3,W/m·K,Yes,600,1500,Low conductivity ceramic,Literature
+Thermal_Conductivity,1.0,W/m·K,Yes,800,1500,Insulating behavior,Literature
+Thermal_Conductivity,0.8,W/m·K,Yes,1000,1500,Very low at high temp,Literature
+Thermal_Conductivity,0.6,W/m·K,Yes,1200,1500,Minimum conductivity,Literature
+Thermal_Conductivity,0.5,W/m·K,Yes,1400,1500,Extremely low conductivity,Literature
+Fracture_Toughness,2.1,MPa·m^0.5,Yes,25,1500,Decreases with temperature,Literature
+Fracture_Toughness,1.9,MPa·m^0.5,Yes,100,1500,High temp embrittlement,Literature
+Fracture_Toughness,1.7,MPa·m^0.5,Yes,200,1500,Crack initiation criterion,Literature
+Fracture_Toughness,1.5,MPa·m^0.5,Yes,400,1500,Important for failure analysis,Literature
+Fracture_Toughness,1.2,MPa·m^0.5,Yes,600,1500,Reduced toughness,Literature
+Fracture_Toughness,0.9,MPa·m^0.5,Yes,800,1500,Very brittle,Literature
+Fracture_Toughness,0.6,MPa·m^0.5,Yes,1000,1500,Critical for sintering,Literature
+Fracture_Toughness,0.4,MPa·m^0.5,Yes,1200,1500,Extremely brittle,Literature
+Fracture_Toughness,0.2,MPa·m^0.5,Yes,1400,1500,Minimum toughness,Literature
+Weibull_Modulus,12.5,unitless,No,25,1500,Statistical strength parameter,Literature
+Characteristic_Strength,450,MPa,Yes,25,1500,Decreases with temperature,Literature
+Characteristic_Strength,420,MPa,Yes,100,1500,Probabilistic failure analysis,Literature
+Characteristic_Strength,380,MPa,Yes,200,1500,Weibull distribution parameter,Literature
+Characteristic_Strength,320,MPa,Yes,400,1500,Statistical strength data,Literature
+Characteristic_Strength,250,MPa,Yes,600,1500,Reduced strength at high temp,Literature
+Characteristic_Strength,180,MPa,Yes,800,1500,Very low strength,Literature
+Characteristic_Strength,120,MPa,Yes,1000,1500,Critical for sintering,Literature
+Characteristic_Strength,80,MPa,Yes,1200,1500,Minimum strength,Literature
+Characteristic_Strength,50,MPa,Yes,1400,1500,Very low at sintering temp,Literature
+Creep_Activation_Energy,450,kJ/mol,No,25,1500,Arrhenius equation parameter,Literature
+Creep_Pre_Exponential,1.2e-15,1/s,No,25,1500,Creep rate constant,Literature
+Creep_Stress_Exponent,2.5,unitless,No,25,1500,Power law creep exponent,Literature
