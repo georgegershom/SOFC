@@ -1,0 +1,415 @@
+{
+  "crack_locations": [
+    [
+      1.2210991401002681e-05,
+      0.0001,
+      0.0
+    ],
+    [
+      1.7379790185479639e-06,
+      0.0,
+      0.0
+    ],
+    [
+      6.726021182251263e-05,
+      0.0001,
+      0.0
+    ],
+    [
+      8.308771913417055e-05,
+      0.0,
+      0.0
+    ],
+    [
+      6.57845304603036e-05,
+      0.0001,
+      0.0
+    ],
+    [
+      4.233122573208264e-05,
+      3.6162652925059095e-05,
+      1.2681494169017355e-05
+    ],
+    [
+      4.169381532874043e-05,
+      6.563737653518898e-05,
+      8.216929620325531e-06
+    ],
+    [
+      4.707952350404579e-05,
+      4.038286241433839e-05,
+      1.5813338393149205e-05
+    ],
+    [
+      7.503885909728749e-05,
+      6.744984609811956e-05,
+      1.7288379135278956e-05
+    ],
+    [
+      4.833465835548799e-05,
+      2.556466585482408e-05,
+      4.661305723890274e-06
+    ],
+    [
+      1.5969748400325283e-05,
+      2.1303441458121228e-05,
+      1.3260121371369691e-05
+    ],
+    [
+      7.753932947976424e-05,
+      5.452038879406356e-05,
+      1.7814255913867448e-06
+    ],
+    [
+      8.600208110582101e-05,
+      3.680792413724463e-05,
+      5.263670061540677e-06
+    ],
+    [
+      5.7794761685792675e-05,
+      2.012127869703771e-05,
+      1.4263727408995279e-05
+    ],
+    [
+      4.970901729732525e-05,
+      9.390069681933987e-05,
+      3.4559155460211967e-06
+    ]
+  ],
+  "crack_orientations": [
+    0.5655194679337929,
+    2.0078545014039415,
+    0.7368960359572182,
+    1.7926233881072804,
+    1.9005187992849306,
+    2.5379228764349846,
+    1.4096125885435333,
+    1.6307435227962181,
+    0.057279347792026224,
+    1.9394677457693479,
+    0.5700053802000522,
+    1.9891037101764524,
+    2.4520932246295044,
+    2.71055696034855,
+    2.1838610241788734
+  ],
+  "crack_lengths": [
+    5.595475555401498e-05,
+    0.0001593209453917062,
+    0.00017197754837715558,
+    4.823991537839879e-05,
+    8.640056159188724e-05,
+    0.0009219604436557086,
+    0.00039090148093880455,
+    0.0008532786219171923,
+    0.00038161245943727883,
+    0.00039976919809316266,
+    0.00037779894206164076,
+    0.0004917515362810067,
+    0.0001864128465671166,
+    0.0002961463526688178,
+    0.00014863134614859154
+  ],
+  "critical_conditions": [
+    {
+      "stress": 87231626.9986811,
+      "temperature": 1316.9341400885178,
+      "crack_type": "surface"
+    },
+    {
+      "stress": 111831789.89437014,
+      "temperature": 1303.11920571585,
+      "crack_type": "surface"
+    },
+    {
+      "stress": 97871456.73099023,
+      "temperature": 1332.3264700742293,
+      "crack_type": "surface"
+    },
+    {
+      "stress": 145166408.68548846,
+      "temperature": 1337.9053502063123,
+      "crack_type": "surface"
+    },
+    {
+      "stress": 140650706.72693518,
+      "temperature": 1398.6673874717258,
+      "crack_type": "surface"
+    },
+    {
+      "stress": 135846955.4201044,
+      "temperature": 1287.1166629625866,
+      "crack_type": "pore_initiated"
+    },
+    {
+      "stress": 106127625.4140538,
+      "temperature": 1245.4539254526303,
+      "crack_type": "pore_initiated"
+    },
+    {
+      "stress": 81794944.6064505,
+      "temperature": 1268.2495655252312,
+      "crack_type": "pore_initiated"
+    },
+    {
+      "stress": 80529401.24846995,
+      "temperature": 1329.4949428309205,
+      "crack_type": "pore_initiated"
+    },
+    {
+      "stress": 126906722.42276591,
+      "temperature": 1385.9211754843977,
+      "crack_type": "pore_initiated"
+    },
+    {
+      "stress": 129633238.32057029,
+      "temperature": 1221.3753846189488,
+      "crack_type": "grain_boundary"
+    },
+    {
+      "stress": 122112827.41024318,
+      "temperature": 1363.837771885358,
+      "crack_type": "grain_boundary"
+    },
+    {
+      "stress": 137583002.2959575,
+      "temperature": 1284.7476507297526,
+      "crack_type": "grain_boundary"
+    },
+    {
+      "stress": 86700018.88641132,
+      "temperature": 1204.7277172092672,
+      "crack_type": "grain_boundary"
+    },
+    {
+      "stress": 109973973.04479304,
+      "temperature": 1343.5195531316353,
+      "crack_type": "grain_boundary"
+    }
+  ],
+  "propagation_data": {
+    "paris_law_C": 1.2e-12,
+    "paris_law_m": 3.2,
+    "threshold_stress_intensity": 800000.0,
+    "fracture_toughness": 2500000.0,
+    "propagation_rates": [
+      {
+        "stress_intensity": 863157.8947368421,
+        "crack_growth_rate": 7.493246797481391e-13,
+        "uncertainty": 1.498649359496278e-13
+      },
+      {
+        "stress_intensity": 926315.7894736843,
+        "crack_growth_rate": 9.393128421825028e-13,
+        "uncertainty": 1.8786256843650058e-13
+      },
+      {
+        "stress_intensity": 989473.6842105263,
+        "crack_growth_rate": 1.1600450109820854e-12,
+        "uncertainty": 2.320090021964171e-13
+      },
+      {
+        "stress_intensity": 1052631.5789473685,
+        "crack_growth_rate": 1.4140530703385612e-12,
+        "uncertainty": 2.8281061406771227e-13
+      },
+      {
+        "stress_intensity": 1115789.4736842106,
+        "crack_growth_rate": 1.703901471474673e-12,
+        "uncertainty": 3.407802942949346e-13
+      },
+      {
+        "stress_intensity": 1178947.3684210526,
+        "crack_growth_rate": 2.0321856562686348e-12,
+        "uncertainty": 4.0643713125372695e-13
+      },
+      {
+        "stress_intensity": 1242105.2631578948,
+        "crack_growth_rate": 2.4015306429503215e-12,
+        "uncertainty": 4.803061285900643e-13
+      },
+      {
+        "stress_intensity": 1305263.1578947369,
+        "crack_growth_rate": 2.814589749324308e-12,
+        "uncertainty": 5.629179498648616e-13
+      },
+      {
+        "stress_intensity": 1368421.0526315789,
+        "crack_growth_rate": 3.2740434337651652e-12,
+        "uncertainty": 6.54808686753033e-13
+      },
+      {
+        "stress_intensity": 1431578.9473684211,
+        "crack_growth_rate": 3.7825982378965255e-12,
+        "uncertainty": 7.565196475793051e-13
+      },
+      {
+        "stress_intensity": 1494736.8421052631,
+        "crack_growth_rate": 4.3429858177115956e-12,
+        "uncertainty": 8.685971635423192e-13
+      },
+      {
+        "stress_intensity": 1557894.7368421052,
+        "crack_growth_rate": 4.957962052130804e-12,
+        "uncertainty": 9.915924104261609e-13
+      },
+      {
+        "stress_intensity": 1621052.6315789474,
+        "crack_growth_rate": 5.6303062197725165e-12,
+        "uncertainty": 1.1260612439545033e-12
+      },
+      {
+        "stress_intensity": 1684210.5263157894,
+        "crack_growth_rate": 6.362820236143872e-12,
+        "uncertainty": 1.2725640472287746e-12
+      },
+      {
+        "stress_intensity": 1747368.4210526315,
+        "crack_growth_rate": 7.158327944620432e-12,
+        "uncertainty": 1.4316655889240865e-12
+      },
+      {
+        "stress_intensity": 1810526.3157894737,
+        "crack_growth_rate": 8.0196744555341e-12,
+        "uncertainty": 1.60393489110682e-12
+      },
+      {
+        "stress_intensity": 1873684.2105263157,
+        "crack_growth_rate": 8.949725528473908e-12,
+        "uncertainty": 1.7899451056947815e-12
+      },
+      {
+        "stress_intensity": 1936842.105263158,
+        "crack_growth_rate": 9.951366993556728e-12,
+        "uncertainty": 1.9902733987113456e-12
+      },
+      {
+        "stress_intensity": 2000000.0,
+        "crack_growth_rate": 1.1027504207971536e-11,
+        "uncertainty": 2.2055008415943073e-12
+      }
+    ]
+  },
+  "sem_observations": [
+    {
+      "magnification": 10000,
+      "crack_width": 3.8185208182796886e-07,
+      "surface_roughness": 2.966575307397117e-07,
+      "grain_size_local": 2.470222210792127e-06,
+      "porosity_local": 0.07790712178616273,
+      "image_quality": "fair"
+    },
+    {
+      "magnification": 2000,
+      "crack_width": 7.510416274297391e-07,
+      "surface_roughness": 1.8306124720657476e-07,
+      "grain_size_local": 1.913852646993905e-06,
+      "porosity_local": 0.03130094502593608,
+      "image_quality": "fair"
+    },
+    {
+      "magnification": 5000,
+      "crack_width": 1.8947670170006443e-06,
+      "surface_roughness": 2.2081200707241145e-07,
+      "grain_size_local": 2.9043417172998542e-06,
+      "porosity_local": 0.04983048584050564,
+      "image_quality": "excellent"
+    },
+    {
+      "magnification": 1000,
+      "crack_width": 1.2411581308378486e-06,
+      "surface_roughness": 2.852188390845162e-07,
+      "grain_size_local": 2.9047518692269793e-06,
+      "porosity_local": 0.05463111420270489,
+      "image_quality": "good"
+    },
+    {
+      "magnification": 1000,
+      "crack_width": 1.5865324197107195e-06,
+      "surface_roughness": 1.9175406524666693e-07,
+      "grain_size_local": 3.2922827288300057e-06,
+      "porosity_local": 0.0643069525550796,
+      "image_quality": "good"
+    },
+    {
+      "magnification": 5000,
+      "crack_width": 8.137772785752803e-07,
+      "surface_roughness": 1.2421731864007018e-07,
+      "grain_size_local": 1.4275771172939867e-06,
+      "porosity_local": 0.057812524899748655,
+      "image_quality": "good"
+    },
+    {
+      "magnification": 2000,
+      "crack_width": 1.215417244632187e-06,
+      "surface_roughness": 9.211109628567991e-08,
+      "grain_size_local": 3.431547716794326e-06,
+      "porosity_local": 0.05855455813683137,
+      "image_quality": "good"
+    },
+    {
+      "magnification": 10000,
+      "crack_width": 3.8308452634336997e-07,
+      "surface_roughness": 1.8165594931723988e-07,
+      "grain_size_local": 2.38000968688022e-06,
+      "porosity_local": 0.04366191942910101,
+      "image_quality": "fair"
+    },
+    {
+      "magnification": 10000,
+      "crack_width": 1.913854057063284e-06,
+      "surface_roughness": 2.1367327035783705e-07,
+      "grain_size_local": 1.1925637314961865e-06,
+      "porosity_local": 0.04280447053623232,
+      "image_quality": "excellent"
+    },
+    {
+      "magnification": 10000,
+      "crack_width": 1.1244064256829835e-06,
+      "surface_roughness": 1.278269247890009e-07,
+      "grain_size_local": 3.711614050071665e-06,
+      "porosity_local": 0.03635744004401202,
+      "image_quality": "good"
+    },
+    {
+      "magnification": 2000,
+      "crack_width": 4.5193404844007837e-07,
+      "surface_roughness": 2.794381222928443e-07,
+      "grain_size_local": 3.1184665513420215e-06,
+      "porosity_local": 0.04547164551178171,
+      "image_quality": "good"
+    },
+    {
+      "magnification": 2000,
+      "crack_width": 1.2277232813339798e-06,
+      "surface_roughness": 2.484359625951291e-07,
+      "grain_size_local": 1.6524862956240452e-06,
+      "porosity_local": 0.04164635114663599,
+      "image_quality": "good"
+    },
+    {
+      "magnification": 2000,
+      "crack_width": 1.6381069539600392e-06,
+      "surface_roughness": 2.416640338001015e-07,
+      "grain_size_local": 2.882042972900517e-06,
+      "porosity_local": 0.028982238077417462,
+      "image_quality": "fair"
+    },
+    {
+      "magnification": 5000,
+      "crack_width": 5.374677200129529e-07,
+      "surface_roughness": 1.0154654112960661e-07,
+      "grain_size_local": 1.4388634505128057e-06,
+      "porosity_local": 0.05792092916122511,
+      "image_quality": "excellent"
+    },
+    {
+      "magnification": 1000,
+      "crack_width": 1.3006007435460663e-07,
+      "surface_roughness": 1.3527250611855513e-07,
+      "grain_size_local": 3.102161718858102e-06,
+      "porosity_local": 0.06912242342715397,
+      "image_quality": "good"
+    }
+  ]
+}
