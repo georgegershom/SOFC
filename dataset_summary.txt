@@ -1,0 +1,73 @@
+============================================================
+SINTERING DATASET SUMMARY STATISTICS
+============================================================
+
+PROCESS PARAMETERS:
+----------------------------------------
+Max_Temperature_C:
+  Mean: 1318.75
+  Std:  67.40
+  Min:  1200.00
+  Max:  1500.00
+
+Hold_Time_min:
+  Mean: 129.75
+  Std:  50.22
+  Min:  60.00
+  Max:  300.00
+
+Temperature_Ramp_Rate_C_min:
+  Mean: 5.22
+  Std:  1.51
+  Min:  2.00
+  Max:  10.00
+
+Applied_Pressure_MPa:
+  Mean: 4.75
+  Std:  11.82
+  Min:  0.00
+  Max:  50.00
+
+Initial_Green_Density_percent:
+  Mean: 56.23
+  Std:  2.70
+  Min:  50.30
+  Max:  65.10
+
+MICROSTRUCTURE RESULTS:
+----------------------------------------
+Final_Relative_Density_percent:
+  Mean: 87.27
+  Std:  6.27
+  Min:  72.30
+  Max:  97.80
+
+Final_Porosity_percent:
+  Mean: 12.73
+  Std:  6.27
+  Min:  2.20
+  Max:  27.70
+
+Avg_Grain_Size_um:
+  Mean: 5.58
+  Std:  1.95
+  Min:  2.60
+  Max:  12.10
+
+Avg_Pore_Size_um:
+  Mean: 3.96
+  Std:  2.01
+  Min:  0.70
+  Max:  9.20
+
+Grain_Boundary_Density_mm_per_mm2:
+  Mean: 234.05
+  Std:  29.00
+  Min:  155.00
+  Max:  295.00
+
+KEY CORRELATIONS:
+----------------------------------------
+Temperature vs Density: 0.832
+Hold Time vs Grain Size: -0.209
+Density vs Porosity: -1.000
