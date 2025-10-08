@@ -1,0 +1,37 @@
+{
+  "dimensions": {
+    "nz": 160,
+    "ny": 200,
+    "nx": 200
+  },
+  "voxel_size_um": 0.1,
+  "labels": {
+    "pore": 0,
+    "anode": 1,
+    "electrolyte": 2,
+    "interlayer": 3
+  },
+  "volume_fractions": {
+    "pore": 0.16583671875,
+    "anode": 0.7551403125,
+    "electrolyte": 0.0782996875,
+    "interlayer": 0.00072328125,
+    "ni_in_anode_solid": 0.5
+  },
+  "generator_params": {
+    "nx": 200,
+    "ny": 200,
+    "nz": 160,
+    "voxel_size_um": 0.1,
+    "electrolyte_thickness_vox": 24,
+    "interlayer_thickness_vox": 3,
+    "interface_roughness_vox": 3.5,
+    "porosity_fraction": 0.35,
+    "anode_solid_fraction": 1.0,
+    "ni_fraction_of_anode_solid": 0.5,
+    "seed": 123,
+    "delamination_prob": 0.02,
+    "delamination_max_radius_vox": 8,
+    "delamination_min_radius_vox": 3
+  }
+}
