@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sofc_microstructure"
+version = "0.1.0"
+description = "Synthetic 3D SOFC microstructure dataset generator with segmentation and interface mesh"
+authors = [{ name="Cursor Agent" }]
+requires-python = ">=3.10"
+dependencies = []

@@ -1,0 +1,32 @@
+{
+  "description": "Synthetic SOFC microstructure dataset (labeled 3D volume, grayscale, interface mesh)",
+  "dimensions": {
+    "nx": 256,
+    "ny": 256,
+    "nz": 192
+  },
+  "labels": {
+    "pore": 0,
+    "anode": 1,
+    "electrolyte": 2,
+    "interlayer": 3
+  },
+  "target_porosity": 0.35,
+  "fractions": {
+    "pore": 0.13168954849243164,
+    "anode": 0.3709112803141276,
+    "electrolyte": 0.4869825045267741,
+    "interlayer": 0.010416666666666666
+  },
+  "interface_metrics": {
+    "mean_z": 96.0,
+    "rms_height": 3.9999999601076928,
+    "corr_length_px": 0.0
+  },
+  "files": {
+    "labels_tiff": "/workspace/sofc_microstructure/output/dataset/labels.tiff",
+    "grayscale_tiff": "/workspace/sofc_microstructure/output/dataset/grayscale.tiff",
+    "preview_dir": "/workspace/sofc_microstructure/output/dataset/preview_png",
+    "mesh_ply": "/workspace/sofc_microstructure/output/dataset/interface_mesh.ply"
+  }
+}
