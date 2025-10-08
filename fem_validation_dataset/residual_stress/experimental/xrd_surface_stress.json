@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "measurement_technique": "X-ray Diffraction (XRD)",
+    "equipment": "Bruker D8 Advance",
+    "date": "2025-10-08",
+    "sample_id": "SOFC_Electrolyte_001",
+    "material": "YSZ (8mol% Y2O3-ZrO2)",
+    "wavelength": "Cu-Kα (1.5406 Å)",
+    "scan_parameters": {
+      "2theta_range": [20, 120],
+      "step_size": 0.02,
+      "time_per_step": 2.0
+    }
+  },
+  "surface_residual_stress": {
+    "measurement_locations": [
+      {
+        "location_id": "P001",
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "sigma_xx_MPa": -285.3,
+        "sigma_yy_MPa": -312.7,
+        "sigma_xy_MPa": 45.2,
+        "uncertainty_MPa": 15.5,
+        "peak_broadening": 0.42,
+        "crystallite_size_nm": 85.3
+      },
+      {
+        "location_id": "P002",
+        "x_mm": 5.0,
+        "y_mm": 0.0,
+        "sigma_xx_MPa": -298.6,
+        "sigma_yy_MPa": -305.4,
+        "sigma_xy_MPa": 38.9,
+        "uncertainty_MPa": 14.2,
+        "peak_broadening": 0.39,
+        "crystallite_size_nm": 92.1
+      },
+      {
+        "location_id": "P003",
+        "x_mm": 10.0,
+        "y_mm": 0.0,
+        "sigma_xx_MPa": -276.4,
+        "sigma_yy_MPa": -289.8,
+        "sigma_xy_MPa": 52.1,
+        "uncertainty_MPa": 16.8,
+        "peak_broadening": 0.45,
+        "crystallite_size_nm": 78.6
+      },
+      {
+        "location_id": "P004",
+        "x_mm": 0.0,
+        "y_mm": 5.0,
+        "sigma_xx_MPa": -301.2,
+        "sigma_yy_MPa": -318.5,
+        "sigma_xy_MPa": 41.3,
+        "uncertainty_MPa": 13.9,
+        "peak_broadening": 0.38,
+        "crystallite_size_nm": 94.7
+      },
+      {
+        "location_id": "P005",
+        "x_mm": 5.0,
+        "y_mm": 5.0,
+        "sigma_xx_MPa": -325.8,
+        "sigma_yy_MPa": -342.3,
+        "sigma_xy_MPa": 35.7,
+        "uncertainty_MPa": 12.1,
+        "peak_broadening": 0.36,
+        "crystallite_size_nm": 98.2
+      },
+      {
+        "location_id": "P006",
+        "x_mm": 10.0,
+        "y_mm": 5.0,
+        "sigma_xx_MPa": -268.9,
+        "sigma_yy_MPa": -281.4,
+        "sigma_xy_MPa": 48.6,
+        "uncertainty_MPa": 17.3,
+        "peak_broadening": 0.47,
+        "crystallite_size_nm": 75.4
+      },
+      {
+        "location_id": "P007",
+        "x_mm": 0.0,
+        "y_mm": 10.0,
+        "sigma_xx_MPa": -292.5,
+        "sigma_yy_MPa": -309.8,
+        "sigma_xy_MPa": 43.8,
+        "uncertainty_MPa": 14.7,
+        "peak_broadening": 0.41,
+        "crystallite_size_nm": 87.9
+      },
+      {
+        "location_id": "P008",
+        "x_mm": 5.0,
+        "y_mm": 10.0,
+        "sigma_xx_MPa": -287.3,
+        "sigma_yy_MPa": -296.7,
+        "sigma_xy_MPa": 46.2,
+        "uncertainty_MPa": 15.1,
+        "peak_broadening": 0.43,
+        "crystallite_size_nm": 83.6
+      },
+      {
+        "location_id": "P009",
+        "x_mm": 10.0,
+        "y_mm": 10.0,
+        "sigma_xx_MPa": -273.6,
+        "sigma_yy_MPa": -285.2,
+        "sigma_xy_MPa": 50.4,
+        "uncertainty_MPa": 16.5,
+        "peak_broadening": 0.46,
+        "crystallite_size_nm": 76.8
+      }
+    ],
+    "average_stress": {
+      "sigma_xx_MPa": -289.1,
+      "sigma_yy_MPa": -302.8,
+      "sigma_xy_MPa": 44.3,
+      "standard_deviation_MPa": 17.8
+    }
+  },
+  "temperature_dependence": [
+    {
+      "temperature_C": 25,
+      "avg_sigma_xx_MPa": -289.1,
+      "avg_sigma_yy_MPa": -302.8
+    },
+    {
+      "temperature_C": 200,
+      "avg_sigma_xx_MPa": -245.7,
+      "avg_sigma_yy_MPa": -257.4
+    },
+    {
+      "temperature_C": 400,
+      "avg_sigma_xx_MPa": -198.3,
+      "avg_sigma_yy_MPa": -207.8
+    },
+    {
+      "temperature_C": 600,
+      "avg_sigma_xx_MPa": -142.5,
+      "avg_sigma_yy_MPa": -149.3
+    },
+    {
+      "temperature_C": 800,
+      "avg_sigma_xx_MPa": -78.9,
+      "avg_sigma_yy_MPa": -82.7
+    }
+  ]
+}

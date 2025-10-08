@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "scale": "Macro-scale (Cell Level)",
+    "description": "Bulk material properties and cell-level measurements for SOFC electrolyte",
+    "material": "8YSZ (8 mol% Yttria-Stabilized Zirconia)",
+    "date": "2025-10-08"
+  },
+  "bulk_material_properties": {
+    "mechanical": {
+      "youngs_modulus_GPa": 210,
+      "poissons_ratio": 0.31,
+      "shear_modulus_GPa": 80.2,
+      "bulk_modulus_GPa": 168.3,
+      "fracture_toughness_MPa_sqrt_m": 2.8,
+      "flexural_strength_MPa": 380,
+      "compressive_strength_MPa": 2100,
+      "hardness_GPa": 13.5,
+      "weibull_modulus": 12.5
+    },
+    "thermal": {
+      "coefficient_thermal_expansion": {
+        "value_per_K": 10.5e-6,
+        "temperature_range_C": [25, 1000],
+        "temperature_dependence": [
+          {"temp_C": 25, "CTE_per_K": 9.8e-6},
+          {"temp_C": 200, "CTE_per_K": 10.1e-6},
+          {"temp_C": 400, "CTE_per_K": 10.4e-6},
+          {"temp_C": 600, "CTE_per_K": 10.7e-6},
+          {"temp_C": 800, "CTE_per_K": 11.0e-6},
+          {"temp_C": 1000, "CTE_per_K": 11.3e-6}
+        ]
+      },
+      "thermal_conductivity_W_per_mK": 2.7,
+      "specific_heat_J_per_kgK": 450,
+      "thermal_diffusivity_mm2_per_s": 1.1,
+      "melting_point_C": 2700
+    },
+    "electrical": {
+      "ionic_conductivity_S_per_cm": {
+        "at_800C": 0.034,
+        "at_1000C": 0.089,
+        "activation_energy_eV": 0.91
+      },
+      "electronic_conductivity_S_per_cm": 1e-8,
+      "dielectric_constant": 27
+    },
+    "density_g_per_cm3": 5.9,
+    "theoretical_density_g_per_cm3": 6.1,
+    "relative_density_percent": 96.7
+  },
+  "cell_dimensions": {
+    "electrolyte_thickness_um": 150,
+    "electrolyte_area_cm2": 100,
+    "cathode_thickness_um": 50,
+    "anode_thickness_um": 500,
+    "support_type": "anode_supported",
+    "cell_configuration": "planar"
+  },
+  "sintering_profile": {
+    "peak_temperature_C": 1450,
+    "heating_rate_C_per_min": 5,
+    "cooling_rate_C_per_min": 3,
+    "dwell_time_hours": 4,
+    "atmosphere": "air",
+    "shrinkage_percent": {
+      "linear": 18.5,
+      "volumetric": 46.2
+    },
+    "grain_growth_exponent": 3.2,
+    "initial_particle_size_nm": 50,
+    "final_grain_size_um": 2.5
+  },
+  "operating_conditions": {
+    "temperature_C": 800,
+    "fuel_composition": {
+      "H2_percent": 97,
+      "H2O_percent": 3
+    },
+    "oxidant_composition": {
+      "O2_percent": 21,
+      "N2_percent": 79
+    },
+    "current_density_A_per_cm2": 0.5,
+    "voltage_V": 0.85,
+    "power_density_W_per_cm2": 0.425,
+    "fuel_utilization_percent": 85,
+    "thermal_cycles_experienced": 125
+  },
+  "global_fem_results": {
+    "maximum_stress_locations": [
+      {
+        "location": "electrolyte_cathode_interface",
+        "stress_MPa": 385,
+        "type": "tensile",
+        "coordinates_mm": [50, 50, 0.15]
+      },
+      {
+        "location": "electrolyte_anode_interface",
+        "stress_MPa": -420,
+        "type": "compressive",
+        "coordinates_mm": [50, 50, 0]
+      },
+      {
+        "location": "edge_seal_region",
+        "stress_MPa": 290,
+        "type": "tensile",
+        "coordinates_mm": [100, 50, 0.075]
+      }
+    ],
+    "average_stress_MPa": -285,
+    "stress_gradient_MPa_per_mm": 850,
+    "critical_regions_for_mesoscale": [
+      {
+        "region_id": "R1",
+        "location": "Triple phase boundary",
+        "reason": "High stress concentration",
+        "recommended_RVE_size_um": 50
+      },
+      {
+        "region_id": "R2",
+        "location": "Interface region",
+        "reason": "Thermal mismatch stress",
+        "recommended_RVE_size_um": 75
+      },
+      {
+        "region_id": "R3",
+        "location": "Edge region",
+        "reason": "Geometric stress concentration",
+        "recommended_RVE_size_um": 100
+      }
+    ]
+  },
+  "degradation_data": {
+    "initial_performance": {
+      "resistance_ohm_cm2": 0.15,
+      "power_density_W_per_cm2": 0.45
+    },
+    "after_1000h": {
+      "resistance_ohm_cm2": 0.18,
+      "power_density_W_per_cm2": 0.41,
+      "degradation_rate_percent_per_1000h": 8.9
+    },
+    "microstructural_changes": {
+      "grain_growth_percent": 12,
+      "porosity_change_percent": -2.3,
+      "crack_density_increase_percent": 45
+    }
+  }
+}

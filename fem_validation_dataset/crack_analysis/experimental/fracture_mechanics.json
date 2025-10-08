@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "test_standard": "ASTM E399",
+    "specimen_type": "Single Edge Notch Bend (SENB)",
+    "temperature_C": 800,
+    "loading_rate_MPa_sqrt_m_per_s": 0.5,
+    "environment": "Air",
+    "date": "2025-10-08"
+  },
+  "fracture_toughness": {
+    "K_IC_MPa_sqrt_m": 2.8,
+    "K_IC_std_dev": 0.3,
+    "number_of_tests": 5,
+    "validity_criteria_met": true,
+    "specimen_dimensions": {
+      "width_mm": 10,
+      "thickness_mm": 5,
+      "span_mm": 40,
+      "initial_crack_length_mm": 5
+    }
+  },
+  "critical_loads": [
+    {
+      "test_id": "FT001",
+      "temperature_C": 25,
+      "critical_load_N": 1250,
+      "crack_length_mm": 5.02,
+      "K_IC_MPa_sqrt_m": 3.2,
+      "failure_mode": "brittle"
+    },
+    {
+      "test_id": "FT002",
+      "temperature_C": 200,
+      "critical_load_N": 1180,
+      "crack_length_mm": 5.05,
+      "K_IC_MPa_sqrt_m": 3.0,
+      "failure_mode": "brittle"
+    },
+    {
+      "test_id": "FT003",
+      "temperature_C": 400,
+      "critical_load_N": 1120,
+      "crack_length_mm": 4.98,
+      "K_IC_MPa_sqrt_m": 2.9,
+      "failure_mode": "brittle"
+    },
+    {
+      "test_id": "FT004",
+      "temperature_C": 600,
+      "critical_load_N": 1050,
+      "crack_length_mm": 5.03,
+      "K_IC_MPa_sqrt_m": 2.7,
+      "failure_mode": "quasi-brittle"
+    },
+    {
+      "test_id": "FT005",
+      "temperature_C": 800,
+      "critical_load_N": 980,
+      "crack_length_mm": 5.01,
+      "K_IC_MPa_sqrt_m": 2.5,
+      "failure_mode": "quasi-brittle"
+    }
+  ],
+  "crack_growth_rate": {
+    "paris_law_parameters": {
+      "C": 1.2e-10,
+      "m": 3.8,
+      "units": "da/dN (m/cycle) vs ΔK (MPa√m)"
+    },
+    "threshold_K_MPa_sqrt_m": 0.8,
+    "data_points": [
+      {
+        "delta_K_MPa_sqrt_m": 1.0,
+        "da_dN_m_per_cycle": 2.3e-10
+      },
+      {
+        "delta_K_MPa_sqrt_m": 1.5,
+        "da_dN_m_per_cycle": 8.7e-10
+      },
+      {
+        "delta_K_MPa_sqrt_m": 2.0,
+        "da_dN_m_per_cycle": 2.1e-9
+      },
+      {
+        "delta_K_MPa_sqrt_m": 2.5,
+        "da_dN_m_per_cycle": 4.3e-9
+      },
+      {
+        "delta_K_MPa_sqrt_m": 3.0,
+        "da_dN_m_per_cycle": 7.8e-9
+      }
+    ]
+  },
+  "subcritical_crack_growth": {
+    "mechanism": "stress_corrosion",
+    "n_parameter": 25,
+    "K_I0_MPa_sqrt_m": 0.6,
+    "v0_m_per_s": 1e-3,
+    "environmental_factor": 1.8
+  },
+  "weibull_statistics": {
+    "weibull_modulus": 12.5,
+    "characteristic_strength_MPa": 385,
+    "scale_parameter": 392,
+    "shape_parameter": 12.5,
+    "failure_probability_50_MPa": 385
+  }
+}

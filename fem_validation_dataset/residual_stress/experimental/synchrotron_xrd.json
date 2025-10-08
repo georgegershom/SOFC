@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "measurement_technique": "Synchrotron X-ray Diffraction",
+    "facility": "Advanced Photon Source (APS)",
+    "beamline": "11-ID-C",
+    "energy_keV": 105.7,
+    "wavelength_A": 0.117418,
+    "beam_size_um": [50, 50],
+    "detector": "Perkin Elmer area detector",
+    "date": "2025-10-08",
+    "sample_id": "SOFC_Electrolyte_001"
+  },
+  "subsurface_stress_profile": {
+    "measurement_depths_um": [0, 10, 25, 50, 100, 200, 500, 1000],
+    "stress_measurements": [
+      {
+        "depth_um": 0,
+        "sigma_xx_MPa": -315.2,
+        "sigma_yy_MPa": -328.7,
+        "sigma_zz_MPa": -42.3,
+        "sigma_xy_MPa": 48.6,
+        "sigma_xz_MPa": 12.3,
+        "sigma_yz_MPa": 15.7,
+        "hydrostatic_stress_MPa": -228.7,
+        "von_mises_stress_MPa": 298.4,
+        "lattice_parameter_A": 5.1387,
+        "microstrain": 0.00234
+      },
+      {
+        "depth_um": 10,
+        "sigma_xx_MPa": -298.6,
+        "sigma_yy_MPa": -312.4,
+        "sigma_zz_MPa": -38.7,
+        "sigma_xy_MPa": 45.2,
+        "sigma_xz_MPa": 11.8,
+        "sigma_yz_MPa": 14.9,
+        "hydrostatic_stress_MPa": -216.6,
+        "von_mises_stress_MPa": 283.2,
+        "lattice_parameter_A": 5.1392,
+        "microstrain": 0.00221
+      },
+      {
+        "depth_um": 25,
+        "sigma_xx_MPa": -276.3,
+        "sigma_yy_MPa": -289.8,
+        "sigma_zz_MPa": -35.2,
+        "sigma_xy_MPa": 41.7,
+        "sigma_xz_MPa": 10.9,
+        "sigma_yz_MPa": 13.8,
+        "hydrostatic_stress_MPa": -200.4,
+        "von_mises_stress_MPa": 262.5,
+        "lattice_parameter_A": 5.1398,
+        "microstrain": 0.00205
+      },
+      {
+        "depth_um": 50,
+        "sigma_xx_MPa": -245.7,
+        "sigma_yy_MPa": -257.9,
+        "sigma_zz_MPa": -31.3,
+        "sigma_xy_MPa": 37.1,
+        "sigma_xz_MPa": 9.7,
+        "sigma_yz_MPa": 12.3,
+        "hydrostatic_stress_MPa": -178.3,
+        "von_mises_stress_MPa": 233.6,
+        "lattice_parameter_A": 5.1405,
+        "microstrain": 0.00182
+      },
+      {
+        "depth_um": 100,
+        "sigma_xx_MPa": -198.4,
+        "sigma_yy_MPa": -208.3,
+        "sigma_zz_MPa": -25.3,
+        "sigma_xy_MPa": 30.0,
+        "sigma_xz_MPa": 7.8,
+        "sigma_yz_MPa": 9.9,
+        "hydrostatic_stress_MPa": -144.0,
+        "von_mises_stress_MPa": 188.7,
+        "lattice_parameter_A": 5.1415,
+        "microstrain": 0.00147
+      },
+      {
+        "depth_um": 200,
+        "sigma_xx_MPa": -142.6,
+        "sigma_yy_MPa": -149.7,
+        "sigma_zz_MPa": -18.2,
+        "sigma_xy_MPa": 21.5,
+        "sigma_xz_MPa": 5.6,
+        "sigma_yz_MPa": 7.1,
+        "hydrostatic_stress_MPa": -103.5,
+        "von_mises_stress_MPa": 135.6,
+        "lattice_parameter_A": 5.1428,
+        "microstrain": 0.00106
+      },
+      {
+        "depth_um": 500,
+        "sigma_xx_MPa": -68.9,
+        "sigma_yy_MPa": -72.3,
+        "sigma_zz_MPa": -8.8,
+        "sigma_xy_MPa": 10.4,
+        "sigma_xz_MPa": 2.7,
+        "sigma_yz_MPa": 3.4,
+        "hydrostatic_stress_MPa": -50.0,
+        "von_mises_stress_MPa": 65.5,
+        "lattice_parameter_A": 5.1445,
+        "microstrain": 0.00051
+      },
+      {
+        "depth_um": 1000,
+        "sigma_xx_MPa": -23.4,
+        "sigma_yy_MPa": -24.6,
+        "sigma_zz_MPa": -3.0,
+        "sigma_xy_MPa": 3.5,
+        "sigma_xz_MPa": 0.9,
+        "sigma_yz_MPa": 1.2,
+        "hydrostatic_stress_MPa": -17.0,
+        "von_mises_stress_MPa": 22.3,
+        "lattice_parameter_A": 5.1458,
+        "microstrain": 0.00017
+      }
+    ]
+  },
+  "grain_orientation_stress": {
+    "grain_families": [
+      {
+        "orientation": "(100)",
+        "avg_stress_MPa": -287.3,
+        "std_dev_MPa": 32.4
+      },
+      {
+        "orientation": "(110)",
+        "avg_stress_MPa": -312.6,
+        "std_dev_MPa": 28.7
+      },
+      {
+        "orientation": "(111)",
+        "avg_stress_MPa": -298.4,
+        "std_dev_MPa": 35.1
+      }
+    ]
+  }
+}

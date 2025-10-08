@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "scale": "Meso-scale (Grain & Pore Level)",
+    "description": "Representative Volume Element (RVE) microstructural data",
+    "characterization_techniques": ["SEM", "FIB-SEM", "Micro-CT", "EBSD"],
+    "rve_size_um": [50, 50, 50],
+    "voxel_size_nm": 100,
+    "date": "2025-10-08"
+  },
+  "grain_structure": {
+    "total_grains": 847,
+    "grain_size_distribution": {
+      "mean_um": 2.5,
+      "std_dev_um": 0.8,
+      "min_um": 0.5,
+      "max_um": 6.2,
+      "d10_um": 1.4,
+      "d50_um": 2.3,
+      "d90_um": 3.8,
+      "distribution_type": "log-normal"
+    },
+    "grain_morphology": {
+      "average_aspect_ratio": 1.3,
+      "average_sphericity": 0.82,
+      "average_roundness": 0.75,
+      "grain_boundary_area_per_volume_um2_per_um3": 1.2
+    },
+    "crystallographic_data": {
+      "crystal_system": "cubic",
+      "space_group": "Fm-3m",
+      "lattice_parameter_A": 5.14,
+      "preferred_orientation": "random",
+      "texture_index": 1.05
+    },
+    "grain_boundary_properties": {
+      "average_gb_width_nm": 2,
+      "gb_energy_J_per_m2": 0.9,
+      "gb_diffusivity_m2_per_s": 1e-15,
+      "special_boundaries": {
+        "sigma3_fraction": 0.12,
+        "sigma5_fraction": 0.08,
+        "sigma7_fraction": 0.05
+      }
+    },
+    "sample_grains": [
+      {
+        "grain_id": 1,
+        "centroid_um": [12.3, 15.6, 18.9],
+        "volume_um3": 8.7,
+        "surface_area_um2": 18.5,
+        "equivalent_diameter_um": 2.6,
+        "orientation_euler": [32.5, 48.2, 125.7],
+        "neighbors": [2, 5, 8, 12, 15],
+        "boundary_type": ["general", "sigma3", "general", "general", "sigma5"]
+      },
+      {
+        "grain_id": 2,
+        "centroid_um": [14.8, 16.2, 17.3],
+        "volume_um3": 12.4,
+        "surface_area_um2": 23.7,
+        "equivalent_diameter_um": 2.9,
+        "orientation_euler": [156.3, 72.8, 89.4],
+        "neighbors": [1, 3, 7, 9, 13, 18],
+        "boundary_type": ["general", "general", "sigma3", "general", "general", "general"]
+      }
+    ]
+  },
+  "porosity_data": {
+    "total_porosity_percent": 7.2,
+    "open_porosity_percent": 5.8,
+    "closed_porosity_percent": 1.4,
+    "pore_size_distribution": {
+      "mean_um": 0.8,
+      "std_dev_um": 0.4,
+      "min_um": 0.05,
+      "max_um": 3.5,
+      "d10_um": 0.3,
+      "d50_um": 0.7,
+      "d90_um": 1.4
+    },
+    "pore_morphology": {
+      "average_sphericity": 0.68,
+      "average_aspect_ratio": 1.8,
+      "tortuosity": 1.45,
+      "connectivity": 0.82,
+      "coordination_number": 3.2
+    },
+    "pore_locations": {
+      "intergranular_percent": 75,
+      "intragranular_percent": 15,
+      "triple_junction_percent": 10
+    },
+    "sample_pores": [
+      {
+        "pore_id": 1,
+        "centroid_um": [8.5, 12.3, 15.7],
+        "volume_um3": 0.52,
+        "surface_area_um2": 2.8,
+        "equivalent_diameter_um": 1.0,
+        "type": "intergranular",
+        "connected_pores": [2, 5],
+        "nearest_grain_boundary_distance_um": 0.1
+      },
+      {
+        "pore_id": 2,
+        "centroid_um": [9.2, 13.1, 16.4],
+        "volume_um3": 0.38,
+        "surface_area_um2": 2.1,
+        "equivalent_diameter_um": 0.9,
+        "type": "triple_junction",
+        "connected_pores": [1, 3, 6],
+        "nearest_grain_boundary_distance_um": 0
+      }
+    ]
+  },
+  "microstructural_features": {
+    "triple_junctions": {
+      "total_count": 1523,
+      "density_per_um3": 0.0122,
+      "average_angle_degrees": 109.5,
+      "stress_concentration_factor": 2.8
+    },
+    "quadruple_points": {
+      "total_count": 287,
+      "density_per_um3": 0.0023,
+      "stress_concentration_factor": 3.5
+    },
+    "secondary_phases": {
+      "present": false,
+      "volume_fraction": 0,
+      "composition": "N/A"
+    },
+    "defects": {
+      "dislocation_density_per_cm2": 1e8,
+      "stacking_fault_energy_mJ_per_m2": 50,
+      "twin_boundary_fraction": 0.02
+    }
+  },
+  "fem_mesh_data": {
+    "element_type": "tetrahedral",
+    "total_elements": 2847523,
+    "total_nodes": 498234,
+    "average_element_size_um": 0.2,
+    "mesh_quality": {
+      "min_jacobian": 0.78,
+      "avg_jacobian": 0.91,
+      "max_aspect_ratio": 3.2,
+      "avg_aspect_ratio": 1.6
+    },
+    "material_assignment": {
+      "YSZ_elements": 2642893,
+      "pore_elements": 204630,
+      "interface_elements": 45782
+    }
+  },
+  "stress_analysis_results": {
+    "pore_stress_concentration": [
+      {
+        "pore_id": 1,
+        "max_stress_MPa": 456,
+        "stress_concentration_factor": 3.8,
+        "critical_location": "pore_tip"
+      },
+      {
+        "pore_id": 2,
+        "max_stress_MPa": 423,
+        "stress_concentration_factor": 3.5,
+        "critical_location": "triple_junction"
+      }
+    ],
+    "grain_boundary_stresses": {
+      "average_normal_stress_MPa": -145,
+      "average_shear_stress_MPa": 67,
+      "max_normal_stress_MPa": -289,
+      "max_shear_stress_MPa": 134
+    },
+    "grain_average_stresses": [
+      {
+        "grain_id": 1,
+        "avg_von_mises_MPa": 278,
+        "avg_hydrostatic_MPa": -198,
+        "max_principal_MPa": -38
+      },
+      {
+        "grain_id": 2,
+        "avg_von_mises_MPa": 265,
+        "avg_hydrostatic_MPa": -189,
+        "max_principal_MPa": -35
+      }
+    ]
+  },
+  "validation_metrics": {
+    "experimental_porosity_percent": 7.5,
+    "simulated_porosity_percent": 7.2,
+    "experimental_grain_size_um": 2.6,
+    "simulated_grain_size_um": 2.5,
+    "porosity_error_percent": 4.0,
+    "grain_size_error_percent": 3.8
+  }
+}

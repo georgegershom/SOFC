@@ -1,0 +1,223 @@
+{
+  "metadata": {
+    "scale": "Micro-scale (Grain Boundary Level)",
+    "description": "Detailed grain boundary and crystallographic data for crack initiation analysis",
+    "characterization_techniques": ["EBSD", "TEM", "APT", "HR-TEM"],
+    "analysis_volume_nm3": [500, 500, 100],
+    "date": "2025-10-08"
+  },
+  "grain_boundary_structure": {
+    "gb_types": [
+      {
+        "type": "low_angle",
+        "misorientation_range_degrees": [2, 15],
+        "fraction": 0.15,
+        "average_energy_J_per_m2": 0.3,
+        "mobility_m4_per_Js": 1e-13,
+        "segregation_factor": 1.2
+      },
+      {
+        "type": "high_angle_general",
+        "misorientation_range_degrees": [15, 180],
+        "fraction": 0.70,
+        "average_energy_J_per_m2": 0.9,
+        "mobility_m4_per_Js": 5e-14,
+        "segregation_factor": 2.5
+      },
+      {
+        "type": "special_CSL",
+        "csl_types": ["Σ3", "Σ5", "Σ7", "Σ9", "Σ11"],
+        "fraction": 0.15,
+        "average_energy_J_per_m2": 0.4,
+        "mobility_m4_per_Js": 2e-13,
+        "segregation_factor": 1.0
+      }
+    ],
+    "gb_thickness_nm": 2,
+    "gb_excess_volume_A3_per_atom": 0.5,
+    "gb_diffusion_coefficient_m2_per_s": {
+      "oxygen": 1e-15,
+      "yttrium": 5e-17,
+      "zirconium": 2e-17
+    }
+  },
+  "crystallographic_orientation": {
+    "ebsd_data": [
+      {
+        "point_id": 1,
+        "x_um": 0.0,
+        "y_um": 0.0,
+        "grain_id": 45,
+        "euler_angles_degrees": [125.3, 45.7, 238.9],
+        "rotation_matrix": [
+          [0.234, -0.567, 0.789],
+          [0.456, 0.789, 0.234],
+          [-0.789, 0.123, 0.567]
+        ],
+        "confidence_index": 0.92,
+        "image_quality": 1250,
+        "phase": "cubic_YSZ"
+      },
+      {
+        "point_id": 2,
+        "x_um": 0.1,
+        "y_um": 0.0,
+        "grain_id": 45,
+        "euler_angles_degrees": [125.8, 45.9, 239.2],
+        "rotation_matrix": [
+          [0.235, -0.568, 0.790],
+          [0.457, 0.790, 0.235],
+          [-0.790, 0.124, 0.568]
+        ],
+        "confidence_index": 0.93,
+        "image_quality": 1268,
+        "phase": "cubic_YSZ"
+      }
+    ],
+    "texture_components": [
+      {
+        "name": "Random",
+        "fraction": 0.85,
+        "orientation": "None",
+        "strength": 1.0
+      },
+      {
+        "name": "Cube",
+        "fraction": 0.10,
+        "orientation": "{001}<100>",
+        "strength": 2.3
+      },
+      {
+        "name": "Goss",
+        "fraction": 0.05,
+        "orientation": "{110}<001>",
+        "strength": 1.8
+      }
+    ],
+    "schmid_factors": {
+      "slip_systems": [
+        {
+          "plane": "{111}",
+          "direction": "<110>",
+          "schmid_factor": 0.45,
+          "critical_resolved_shear_stress_MPa": 850
+        },
+        {
+          "plane": "{110}",
+          "direction": "<110>",
+          "schmid_factor": 0.38,
+          "critical_resolved_shear_stress_MPa": 950
+        }
+      ],
+      "maximum_schmid_factor": 0.45,
+      "active_slip_system": "{111}<110>"
+    }
+  },
+  "local_chemistry": {
+    "grain_boundary_segregation": {
+      "Y_enrichment_factor": 2.3,
+      "Zr_depletion_factor": 0.8,
+      "O_vacancy_concentration": 0.125,
+      "impurity_concentration_ppm": {
+        "Si": 50,
+        "Al": 30,
+        "Fe": 10,
+        "Ca": 20
+      }
+    },
+    "composition_profiles": [
+      {
+        "distance_from_gb_nm": -10,
+        "Y2O3_mol_percent": 8.0,
+        "ZrO2_mol_percent": 92.0
+      },
+      {
+        "distance_from_gb_nm": -5,
+        "Y2O3_mol_percent": 8.2,
+        "ZrO2_mol_percent": 91.8
+      },
+      {
+        "distance_from_gb_nm": 0,
+        "Y2O3_mol_percent": 18.4,
+        "ZrO2_mol_percent": 81.6
+      },
+      {
+        "distance_from_gb_nm": 5,
+        "Y2O3_mol_percent": 8.2,
+        "ZrO2_mol_percent": 91.8
+      },
+      {
+        "distance_from_gb_nm": 10,
+        "Y2O3_mol_percent": 8.0,
+        "ZrO2_mol_percent": 92.0
+      }
+    ]
+  },
+  "local_stress_state": {
+    "gb_normal_stress_MPa": -325,
+    "gb_shear_stress_MPa": 145,
+    "stress_tensor_local_MPa": [
+      [-325, 145, 32],
+      [145, -298, 28],
+      [32, 28, -45]
+    ],
+    "principal_stresses_MPa": {
+      "sigma1": -42,
+      "sigma2": -287,
+      "sigma3": -339
+    },
+    "stress_triaxiality": -2.1,
+    "lode_parameter": 0.3
+  },
+  "crack_initiation_criteria": {
+    "critical_normal_stress_MPa": 450,
+    "critical_shear_stress_MPa": 260,
+    "critical_energy_release_rate_J_per_m2": 25,
+    "paris_law_parameters": {
+      "C": 1.2e-10,
+      "m": 3.8
+    },
+    "weibull_parameters": {
+      "scale_MPa": 385,
+      "shape": 12.5
+    },
+    "fracture_toughness_local_MPa_sqrt_m": 2.5
+  },
+  "atomistic_properties": {
+    "vacancy_formation_energy_eV": 3.8,
+    "vacancy_migration_energy_eV": 0.9,
+    "interstitial_formation_energy_eV": 5.2,
+    "gb_cohesive_energy_J_per_m2": 2.1,
+    "surface_energy_J_per_m2": 1.2,
+    "stacking_fault_energy_mJ_per_m2": 50
+  },
+  "deformation_mechanisms": {
+    "active_at_temperature": {
+      "25C": ["elastic"],
+      "400C": ["elastic", "microcracking"],
+      "600C": ["elastic", "microcracking", "grain_boundary_sliding"],
+      "800C": ["elastic", "microcracking", "grain_boundary_sliding", "diffusion_creep"],
+      "1000C": ["elastic", "grain_boundary_sliding", "diffusion_creep", "dislocation_creep"]
+    },
+    "creep_parameters": {
+      "power_law_exponent": 1.3,
+      "activation_energy_kJ_per_mol": 460,
+      "pre_exponential_factor": 2.3e-10
+    }
+  },
+  "damage_evolution": {
+    "microcrack_density_per_mm3": 125,
+    "average_microcrack_length_um": 2.3,
+    "damage_parameter": 0.08,
+    "critical_damage": 0.3,
+    "damage_evolution_rate": 0.0002
+  },
+  "validation_comparison": {
+    "experimental_techniques": ["HR-TEM", "APT", "Nanoindentation"],
+    "measured_gb_width_nm": 2.1,
+    "simulated_gb_width_nm": 2.0,
+    "measured_segregation_factor": 2.4,
+    "simulated_segregation_factor": 2.3,
+    "agreement_percent": 95.8
+  }
+}

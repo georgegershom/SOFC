@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "measurement_technique": "Raman Spectroscopy",
+    "equipment": "Renishaw inVia Confocal Raman Microscope",
+    "laser_wavelength_nm": 532,
+    "laser_power_mW": 5.0,
+    "objective": "50x",
+    "date": "2025-10-08",
+    "sample_id": "SOFC_Electrolyte_001"
+  },
+  "raman_shift_analysis": {
+    "reference_peak_position_cm-1": 615.2,
+    "stressed_measurements": [
+      {
+        "location_id": "R001",
+        "x_um": 0,
+        "y_um": 0,
+        "peak_position_cm-1": 617.8,
+        "peak_shift_cm-1": 2.6,
+        "fwhm_cm-1": 8.3,
+        "calculated_stress_MPa": -312.5,
+        "intensity": 4523,
+        "signal_to_noise": 85.3
+      },
+      {
+        "location_id": "R002",
+        "x_um": 100,
+        "y_um": 0,
+        "peak_position_cm-1": 617.5,
+        "peak_shift_cm-1": 2.3,
+        "fwhm_cm-1": 8.1,
+        "calculated_stress_MPa": -276.3,
+        "intensity": 4687,
+        "signal_to_noise": 88.9
+      },
+      {
+        "location_id": "R003",
+        "x_um": 200,
+        "y_um": 0,
+        "peak_position_cm-1": 618.1,
+        "peak_shift_cm-1": 2.9,
+        "fwhm_cm-1": 8.6,
+        "calculated_stress_MPa": -348.7,
+        "intensity": 4392,
+        "signal_to_noise": 82.1
+      },
+      {
+        "location_id": "R004",
+        "x_um": 0,
+        "y_um": 100,
+        "peak_position_cm-1": 617.6,
+        "peak_shift_cm-1": 2.4,
+        "fwhm_cm-1": 8.2,
+        "calculated_stress_MPa": -288.5,
+        "intensity": 4598,
+        "signal_to_noise": 86.7
+      },
+      {
+        "location_id": "R005",
+        "x_um": 100,
+        "y_um": 100,
+        "peak_position_cm-1": 617.9,
+        "peak_shift_cm-1": 2.7,
+        "fwhm_cm-1": 8.4,
+        "calculated_stress_MPa": -324.6,
+        "intensity": 4456,
+        "signal_to_noise": 83.8
+      },
+      {
+        "location_id": "R006",
+        "x_um": 200,
+        "y_um": 100,
+        "peak_position_cm-1": 617.4,
+        "peak_shift_cm-1": 2.2,
+        "fwhm_cm-1": 8.0,
+        "calculated_stress_MPa": -264.2,
+        "intensity": 4712,
+        "signal_to_noise": 89.5
+      }
+    ],
+    "stress_gradient": {
+      "surface_stress_MPa": -302.4,
+      "depth_10um_stress_MPa": -278.3,
+      "depth_20um_stress_MPa": -254.7,
+      "depth_50um_stress_MPa": -198.5,
+      "depth_100um_stress_MPa": -142.3
+    }
+  },
+  "calibration": {
+    "stress_coefficient_MPa_per_cm-1": -120.3,
+    "temperature_coefficient_cm-1_per_C": 0.018,
+    "reference_temperature_C": 25
+  }
+}

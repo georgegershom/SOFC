@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "technique": "Scanning Electron Microscopy (SEM)",
+    "equipment": "FEI Quanta 650 FEG-SEM",
+    "voltage_kV": 20,
+    "working_distance_mm": 10,
+    "detector": "BSE + SE",
+    "date": "2025-10-08",
+    "sample_preparation": "Cross-sectional, polished, carbon coated"
+  },
+  "micro_crack_observations": [
+    {
+      "crack_id": "MC001",
+      "location": {
+        "x_mm": 2.34,
+        "y_mm": 1.87,
+        "depth_um": 45
+      },
+      "characteristics": {
+        "length_um": 125.3,
+        "width_um": 0.8,
+        "orientation_degrees": 32,
+        "type": "intergranular",
+        "propagation_mode": "Mode I",
+        "branching": false
+      },
+      "initiation_site": {
+        "feature": "triple_junction",
+        "pore_proximity": true,
+        "pore_distance_um": 3.2,
+        "grain_size_um": 18.5
+      },
+      "stress_concentration_factor": 3.2,
+      "images": ["MC001_5000x.tif", "MC001_10000x.tif", "MC001_20000x.tif"]
+    },
+    {
+      "crack_id": "MC002",
+      "location": {
+        "x_mm": 5.67,
+        "y_mm": 3.21,
+        "depth_um": 78
+      },
+      "characteristics": {
+        "length_um": 89.7,
+        "width_um": 0.6,
+        "orientation_degrees": 47,
+        "type": "transgranular",
+        "propagation_mode": "Mixed Mode I-II",
+        "branching": true
+      },
+      "initiation_site": {
+        "feature": "pore",
+        "pore_proximity": true,
+        "pore_distance_um": 0,
+        "grain_size_um": 22.3
+      },
+      "stress_concentration_factor": 4.1,
+      "images": ["MC002_5000x.tif", "MC002_10000x.tif", "MC002_20000x.tif"]
+    },
+    {
+      "crack_id": "MC003",
+      "location": {
+        "x_mm": 8.12,
+        "y_mm": 4.56,
+        "depth_um": 112
+      },
+      "characteristics": {
+        "length_um": 156.8,
+        "width_um": 1.1,
+        "orientation_degrees": 15,
+        "type": "intergranular",
+        "propagation_mode": "Mode I",
+        "branching": true
+      },
+      "initiation_site": {
+        "feature": "grain_boundary",
+        "pore_proximity": false,
+        "pore_distance_um": 18.7,
+        "grain_size_um": 15.8
+      },
+      "stress_concentration_factor": 2.8,
+      "images": ["MC003_5000x.tif", "MC003_10000x.tif", "MC003_20000x.tif"]
+    },
+    {
+      "crack_id": "MC004",
+      "location": {
+        "x_mm": 3.45,
+        "y_mm": 7.89,
+        "depth_um": 23
+      },
+      "characteristics": {
+        "length_um": 67.4,
+        "width_um": 0.5,
+        "orientation_degrees": 62,
+        "type": "transgranular",
+        "propagation_mode": "Mode II",
+        "branching": false
+      },
+      "initiation_site": {
+        "feature": "surface_defect",
+        "pore_proximity": true,
+        "pore_distance_um": 5.6,
+        "grain_size_um": 19.2
+      },
+      "stress_concentration_factor": 3.5,
+      "images": ["MC004_5000x.tif", "MC004_10000x.tif", "MC004_20000x.tif"]
+    },
+    {
+      "crack_id": "MC005",
+      "location": {
+        "x_mm": 6.78,
+        "y_mm": 2.34,
+        "depth_um": 156
+      },
+      "characteristics": {
+        "length_um": 203.5,
+        "width_um": 1.3,
+        "orientation_degrees": 28,
+        "type": "mixed",
+        "propagation_mode": "Mode I",
+        "branching": true
+      },
+      "initiation_site": {
+        "feature": "agglomerated_pores",
+        "pore_proximity": true,
+        "pore_distance_um": 0,
+        "grain_size_um": 25.7
+      },
+      "stress_concentration_factor": 5.2,
+      "images": ["MC005_5000x.tif", "MC005_10000x.tif", "MC005_20000x.tif"]
+    }
+  ],
+  "statistical_analysis": {
+    "total_cracks_observed": 47,
+    "crack_density_per_mm2": 3.8,
+    "average_crack_length_um": 118.5,
+    "std_dev_length_um": 45.2,
+    "intergranular_percentage": 62,
+    "transgranular_percentage": 28,
+    "mixed_percentage": 10,
+    "pore_related_initiation_percentage": 73
+  },
+  "critical_conditions": {
+    "temperature_C": 850,
+    "thermal_cycles": 125,
+    "mechanical_load_MPa": 45,
+    "atmosphere": "Air/H2 gradient",
+    "time_to_first_crack_hours": 234
+  }
+}
