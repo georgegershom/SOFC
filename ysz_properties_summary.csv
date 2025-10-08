@@ -1,0 +1,12 @@
+Property,Units,RT (25°C),600°C,1000°C,1500°C,Temperature Dependency
+Youngs Modulus,GPa,205.000,164.463,125.722,65.000,Strong - decreases with temperature
+Poisson Ratio,dimensionless,0.300,0.309,0.309,0.300,Weak - often assumed constant
+Thermal Expansion Coefficient,×10⁻⁶ /K,10.200,11.009,11.590,12.400,Critical - increases with temperature
+Density,kg/m³,5850.000,5739.937,5668.834,5578.468,Mild - decreases with thermal expansion
+Thermal Conductivity,W/m·K,2.200,1.596,1.404,1.200,Moderate - decreases with temperature
+Fracture Toughness,MPa√m,9.200,7.784,6.523,4.500,Important - decreases with temperature
+Weibull Modulus,dimensionless,5.500,5.500,5.500,5.500,Assumed constant
+Characteristic Strength,MPa,195.000,139.417,95.849,30.000,Strong - decreases with temperature
+Creep Prefactor,1/(Pa^n·s),0.000,0.000,0.000,0.000,Exponential - dominant above 600°C
+Creep Stress Exponent,dimensionless,1.800,1.800,1.800,1.800,Assumed constant
+Creep Activation Energy,kJ/mol,520.000,520.000,520.000,520.000,Constant
