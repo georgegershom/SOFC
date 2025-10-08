@@ -1,0 +1,7 @@
+cell_id,cell_type,length_mm,width_mm,electrolyte_thickness_um,anode_thickness_um,cathode_thickness_um,interconnect_thickness_um,active_area_cm2,cell_weight_g,manufacturing_method,sintering_temp_K,sintering_time_hours,cooldown_rate_K_min
+CELL_001,planar,100.0,100.0,150,500,50,2000,100.0,245.3,tape_casting,1673.15,4.0,2.5
+CELL_002,planar,100.0,100.0,180,600,60,2000,100.0,268.7,tape_casting,1648.15,3.5,3.0
+CELL_003,planar,100.0,100.0,120,400,40,2000,100.0,221.5,tape_casting,1698.15,4.5,2.0
+CELL_004,planar,50.0,50.0,150,500,50,1500,25.0,52.8,tape_casting,1673.15,4.0,2.5
+CELL_005,planar,50.0,50.0,200,550,55,1500,25.0,61.2,tape_casting,1623.15,3.0,3.5
+CELL_006,tubular,150.0,25.0,250,800,70,NA,117.8,312.5,extrusion,1648.15,5.0,2.2

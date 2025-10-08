@@ -1,0 +1,171 @@
+MULTI-SCALE FEM VALIDATION DATASET - FILE STRUCTURE
+===================================================
+
+fem_validation_dataset/
+│
+├── README.md                          [Main documentation - START HERE!]
+├── QUICK_START.md                     [5-minute quick start guide]
+├── CITATION.cff                       [Citation information]
+├── requirements.txt                   [Python dependencies]
+├── example_analysis.py                [Complete analysis examples]
+│
+├── experimental_data/                 [GROUND TRUTH DATA]
+│   ├── residual_stress/
+│   │   ├── xrd_surface_residual_stress.csv           (42 measurements)
+│   │   ├── raman_spectroscopy_stress.csv             (28 measurements)
+│   │   └── synchrotron_xrd_subsurface.csv            (28 measurements)
+│   │
+│   └── crack_analysis/
+│       ├── crack_initiation_data.csv                 (19 cracks)
+│       ├── crack_propagation_data.csv                (7 sequences, 34 steps)
+│       └── sem_fractography_observations.csv         (19 observations)
+│
+├── simulation_output/                 [FEM MODEL PREDICTIONS]
+│   ├── full_field/
+│   │   ├── fem_full_field_solution.csv               (41 nodes with T/U/σ/ε)
+│   │   └── fem_element_data.csv                      (38 elements)
+│   │
+│   └── collocation_points/
+│       ├── collocation_point_data.csv                (30 strategic points)
+│       └── collocation_point_metadata.json           (selection criteria)
+│
+├── multi_scale_data/                  [CHARACTERIZATION DATA]
+│   ├── macro_scale/
+│   │   ├── bulk_material_properties.csv              (15 temp-dependent)
+│   │   ├── cell_geometry.csv                         (6 configurations)
+│   │   └── sintering_profile.csv                     (20 time steps)
+│   │
+│   ├── meso_scale/
+│   │   ├── microstructure_characterization.csv       (15 ROIs)
+│   │   └── rve_geometry_data.csv                     (8 RVEs)
+│   │
+│   └── micro_scale/
+│       ├── grain_boundary_properties.csv             (12 GBs)
+│       └── local_crystallographic_orientation.csv    (25 points)
+│
+└── metadata/
+    └── dataset_summary.json                          (Complete statistics)
+
+
+QUICK STATISTICS
+================
+
+EXPERIMENTAL DATA:
+  • Stress measurements: 98 total (XRD: 42, Raman: 28, Synchrotron: 28)
+  • Crack events: 19 initiation + 34 propagation steps
+  • Fractography observations: 19 SEM images
+
+SIMULATION DATA:
+  • Full-field nodes: 41 (with T, U, σ, ε fields)
+  • Full-field elements: 38 (with pore/GB info)
+  • Collocation points: 30 (strategically selected)
+
+MULTI-SCALE DATA:
+  • Material properties: 15 temperature points
+  • Microstructure ROIs: 15 (SEM/EBSD/XCT)
+  • RVEs: 8 geometries
+  • Grain boundaries: 12 characterized
+  • Crystal orientations: 25 EBSD points
+
+
+KEY FIELDS IN DATA FILES
+=========================
+
+STRESS MEASUREMENTS (experimental_data/residual_stress/*.csv):
+  - Position: x_position_mm, y_position_mm, z_position_mm
+  - Stress: sigma_xx_MPa, sigma_yy_MPa, sigma_zz_MPa
+  - Shear: sigma_xy_MPa, sigma_xz_MPa, sigma_yz_MPa
+  - Derived: von_mises_MPa, hydrostatic_MPa
+  - Uncertainty: measurement_error_MPa or stress_uncertainty_MPa
+
+CRACK DATA (experimental_data/crack_analysis/*.csv):
+  - Geometry: crack_length_um, crack_width_nm, crack_orientation_deg
+  - Critical: critical_load_N, critical_temperature_K
+  - Fracture: stress_intensity_factor_MPa_sqrt_m, J_integral_J_m2
+  - Type: grain_boundary_crack, pore_associated
+
+FEM OUTPUT (simulation_output/full_field/*.csv):
+  - Coordinates: x_coord_mm, y_coord_mm, z_coord_mm
+  - Thermal: temperature_K
+  - Displacement: displacement_x/y/z_um
+  - Stress: stress_xx/yy/zz/xy/xz/yz_MPa
+  - Strain: strain_xx/yy/zz/xy/xz/yz
+  - Derived: von_mises_MPa, hydrostatic_MPa
+
+COLLOCATION POINTS (simulation_output/collocation_points/*.csv):
+  - All FEM fields PLUS:
+  - location_type: free_surface / interior / grain_boundary
+  - distance_to_pore_um
+  - distance_to_grain_boundary_um
+  - selection_criterion
+
+
+INTENDED USE CASES
+==================
+
+1. FEM MODEL VALIDATION
+   Compare simulation_output/*.csv with experimental_data/residual_stress/*.csv
+   → Calculate residuals, identify regions needing refinement
+
+2. SURROGATE MODELING
+   Train on: simulation_output/collocation_points/*.csv (30 points)
+   Validate on: simulation_output/full_field/*.csv (full solution)
+   → Neural Networks, Gaussian Processes, POD-RBF
+
+3. CRACK PREDICTION
+   Features: Stress/strain from simulation_output
+   Target: Crack locations from experimental_data/crack_analysis
+   → Train ML model to predict failure
+
+4. MULTI-SCALE MODELING
+   Macro → Meso → Micro hierarchy
+   Use RVEs to homogenize meso-scale properties for macro model
+
+5. RESIDUAL ANALYSIS
+   Identify where |FEM - Experiment| is large
+   → Guide adaptive mesh refinement, physics improvements
+
+
+DATA QUALITY NOTES
+==================
+
+✓ Realistic values for 8YSZ ceramic at sintering temperatures
+✓ Stress units: MPa (compressive = negative)
+✓ Temperature range: 298-1673 K
+✓ Spatial coverage: 0-10 mm × 0-5 mm × 0-1 mm
+✓ Measurement uncertainties included
+✓ Multiple validation techniques (XRD, Raman, Synchrotron)
+✓ Time-resolved crack propagation data
+
+
+NEXT STEPS
+==========
+
+1. Run: python example_analysis.py
+2. Read: README.md (complete documentation)
+3. Check: metadata/dataset_summary.json (statistics)
+4. Explore: Load CSV files in Python/MATLAB/Excel
+
+
+CITATION
+========
+
+If you use this dataset in research:
+
+@dataset{fem_validation_sofc_2025,
+  title={Multi-Scale FEM Validation Dataset for SOFC Electrolytes},
+  year={2025},
+  version={1.0.0}
+}
+
+
+CONTACT
+=======
+
+Questions? Issues? Suggestions?
+Email: contact@institution.edu
+
+Generated: 2025-10-08
+Version: 1.0.0
+Format: CSV + JSON
+License: CC-BY-4.0
