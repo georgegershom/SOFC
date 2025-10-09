@@ -1,0 +1,132 @@
+{
+  "dataset_version": "1.0.0",
+  "source": "Fabricated from experimental setup norms: fixture type and applied stack pressure in SOFC assemblies; aligned with research_article.md §2.3.",
+  "units": {
+    "stack_pressure": "MPa",
+    "clamping_force": "kN",
+    "friction_coefficient": "dimensionless",
+    "temperature": "C"
+  },
+  "records": [
+    {
+      "id": "MBC-001",
+      "fixture_type": "frame_bolted",
+      "applied_stack_pressure_MPa": 0.10,
+      "clamping_force_kN": 4.5,
+      "friction_coefficient": 0.35,
+      "symmetry": "xy",
+      "bottom_support": "simply_supported",
+      "lateral_constraints": "symmetry",
+      "thermal_state": "room_temp",
+      "notes": "Baseline assembly pressure during room-temp alignment"
+    },
+    {
+      "id": "MBC-002",
+      "fixture_type": "frame_bolted",
+      "applied_stack_pressure_MPa": 0.20,
+      "clamping_force_kN": 9.0,
+      "friction_coefficient": 0.35,
+      "symmetry": "xy",
+      "bottom_support": "simply_supported",
+      "lateral_constraints": "symmetry",
+      "thermal_state": "operating_800C",
+      "notes": "Matches 0.2 MPa in §2.3 for operation"
+    },
+    {
+      "id": "MBC-003",
+      "fixture_type": "spring_loaded",
+      "applied_stack_pressure_MPa": 0.25,
+      "clamping_force_kN": 8.0,
+      "friction_coefficient": 0.30,
+      "symmetry": "xy",
+      "bottom_support": "simply_supported",
+      "lateral_constraints": "symmetry",
+      "thermal_state": "thermal_cycle",
+      "notes": "Springs compensate thermal expansion during cycling"
+    },
+    {
+      "id": "MBC-004",
+      "fixture_type": "hydraulic_press",
+      "applied_stack_pressure_MPa": 0.30,
+      "clamping_force_kN": 12.0,
+      "friction_coefficient": 0.25,
+      "symmetry": "xy",
+      "bottom_support": "simply_supported",
+      "lateral_constraints": "symmetry",
+      "thermal_state": "operating_800C",
+      "notes": "Higher pressure scenario for contact resistance testing"
+    },
+    {
+      "id": "MBC-005",
+      "fixture_type": "rigid_plate",
+      "applied_stack_pressure_MPa": 0.05,
+      "clamping_force_kN": 2.0,
+      "friction_coefficient": 0.40,
+      "symmetry": "xy",
+      "bottom_support": "simply_supported",
+      "lateral_constraints": "symmetry",
+      "thermal_state": "room_temp",
+      "notes": "Minimal pressure for post-process metrology"
+    },
+    {
+      "id": "MBC-006",
+      "fixture_type": "frame_bolted",
+      "applied_stack_pressure_MPa": 0.22,
+      "clamping_force_kN": 10.0,
+      "friction_coefficient": 0.35,
+      "symmetry": "xy",
+      "bottom_support": "simply_supported",
+      "lateral_constraints": "symmetry",
+      "thermal_state": "operating_800C",
+      "notes": "Slightly above nominal to study creep sensitivity"
+    },
+    {
+      "id": "MBC-007",
+      "fixture_type": "spring_loaded",
+      "applied_stack_pressure_MPa": 0.18,
+      "clamping_force_kN": 6.5,
+      "friction_coefficient": 0.30,
+      "symmetry": "xy",
+      "bottom_support": "simply_supported",
+      "lateral_constraints": "symmetry",
+      "thermal_state": "thermal_cycle",
+      "notes": "Lower pressure with cycling to evaluate edge lift-off risk"
+    },
+    {
+      "id": "MBC-008",
+      "fixture_type": "hydraulic_press",
+      "applied_stack_pressure_MPa": 0.40,
+      "clamping_force_kN": 16.0,
+      "friction_coefficient": 0.25,
+      "symmetry": "xy",
+      "bottom_support": "simply_supported",
+      "lateral_constraints": "symmetry",
+      "thermal_state": "operating_800C",
+      "notes": "Upper-bound pressure scenario within safe range"
+    },
+    {
+      "id": "MBC-009",
+      "fixture_type": "rigid_plate",
+      "applied_stack_pressure_MPa": 0.12,
+      "clamping_force_kN": 5.0,
+      "friction_coefficient": 0.40,
+      "symmetry": "xy",
+      "bottom_support": "simply_supported",
+      "lateral_constraints": "symmetry",
+      "thermal_state": "room_temp",
+      "notes": "Rigid plates with higher friction surfaces"
+    },
+    {
+      "id": "MBC-010",
+      "fixture_type": "frame_bolted",
+      "applied_stack_pressure_MPa": 0.20,
+      "clamping_force_kN": 9.0,
+      "friction_coefficient": 0.35,
+      "symmetry": "xy",
+      "bottom_support": "simply_supported",
+      "lateral_constraints": "symmetry",
+      "thermal_state": "operating_800C",
+      "notes": "Reference case for model validation"
+    }
+  ]
+}
