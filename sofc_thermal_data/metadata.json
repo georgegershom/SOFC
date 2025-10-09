@@ -1,0 +1,18 @@
+{
+  "generation_date": "2025-10-09T01:29:38.459709",
+  "cell_dimensions": {
+    "length_mm": 100,
+    "width_mm": 100,
+    "thickness_mm": 0.5
+  },
+  "spatial_resolution": {
+    "points_x": 50,
+    "points_y": 50
+  },
+  "data_description": {
+    "sintering_data": "Temperature profiles during sintering and co-firing process",
+    "cycling_data": "Thermal cycling data for start-up and shut-down operations",
+    "steady_state_data": "Long-term steady-state operation temperature data",
+    "spatial_data": "Spatial temperature distributions across cell surface"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Sintering Process": {
+    "Max Temperature": "1455\u00b0C",
+    "Max Gradient": "21.6\u00b0C",
+    "Max Thermal Stress": "45.9 MPa",
+    "Final Residual Stress": "2871.8"
+  },
+  "Thermal Cycling": {
+    "Number of Cycles": 10,
+    "Avg Delamination Risk": "96.7",
+    "Max Heating Rate": "inf\u00b0C/h",
+    "Max Cooling Rate": "208904\u00b0C/h"
+  },
+  "Steady-State Operation": {
+    "Operating Duration": "48 hours",
+    "Avg Temperature": "800\u00b0C",
+    "Avg Gradient": "40.8\u00b0C",
+    "High Stress Events": 99
+  }
+}
