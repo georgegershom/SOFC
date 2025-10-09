@@ -1,0 +1,11 @@
+id,fixture_type,applied_stack_pressure_MPa,clamping_force_kN,friction_coefficient,symmetry,bottom_support,lateral_constraints,thermal_state,notes
+MBC-001,frame_bolted,0.10,4.5,0.35,xy,simply_supported,symmetry,room_temp,Baseline assembly pressure during room-temp alignment
+MBC-002,frame_bolted,0.20,9.0,0.35,xy,simply_supported,symmetry,operating_800C,Matches 0.2 MPa in §2.3 for operation
+MBC-003,spring_loaded,0.25,8.0,0.30,xy,simply_supported,symmetry,thermal_cycle,Springs compensate thermal expansion during cycling
+MBC-004,hydraulic_press,0.30,12.0,0.25,xy,simply_supported,symmetry,operating_800C,Higher pressure scenario for contact resistance testing
+MBC-005,rigid_plate,0.05,2.0,0.40,xy,simply_supported,symmetry,room_temp,Minimal pressure for post-process metrology
+MBC-006,frame_bolted,0.22,10.0,0.35,xy,simply_supported,symmetry,operating_800C,Slightly above nominal to study creep sensitivity
+MBC-007,spring_loaded,0.18,6.5,0.30,xy,simply_supported,symmetry,thermal_cycle,Lower pressure with cycling to evaluate edge lift-off risk
+MBC-008,hydraulic_press,0.40,16.0,0.25,xy,simply_supported,symmetry,operating_800C,Upper-bound pressure scenario within safe range
+MBC-009,rigid_plate,0.12,5.0,0.40,xy,simply_supported,symmetry,room_temp,Rigid plates with higher friction surfaces
+MBC-010,frame_bolted,0.20,9.0,0.35,xy,simply_supported,symmetry,operating_800C,Reference case for model validation

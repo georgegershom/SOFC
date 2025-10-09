@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SOFC Mechanical Boundary Conditions Dataset",
+  "type": "object",
+  "properties": {
+    "dataset_version": {"type": "string"},
+    "source": {"type": "string", "description": "Provenance, e.g., experimental setup details"},
+    "units": {
+      "type": "object",
+      "properties": {
+        "stack_pressure": {"type": "string", "enum": ["MPa"]},
+        "clamping_force": {"type": "string", "enum": ["kN"]},
+        "friction_coefficient": {"type": "string", "enum": ["dimensionless"]},
+        "temperature": {"type": "string", "enum": ["C"]}
+      },
+      "required": ["stack_pressure", "clamping_force", "friction_coefficient", "temperature"]
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "string"},
+          "fixture_type": {"type": "string", "enum": [
+            "frame_bolted",
+            "spring_loaded",
+            "hydraulic_press",
+            "rigid_plate"
+          ]},
+          "applied_stack_pressure_MPa": {"type": "number", "minimum": 0},
+          "clamping_force_kN": {"type": "number", "minimum": 0},
+          "friction_coefficient": {"type": "number", "minimum": 0, "maximum": 1},
+          "symmetry": {"type": "string", "enum": ["none", "x", "y", "xy"]},
+          "bottom_support": {"type": "string", "enum": ["fixed", "simply_supported", "free"]},
+          "lateral_constraints": {"type": "string", "enum": ["free", "roller", "symmetry"]},
+          "thermal_state": {"type": "string", "enum": ["room_temp", "operating_800C", "thermal_cycle"]},
+          "notes": {"type": "string"}
+        },
+        "required": [
+          "id",
+          "fixture_type",
+          "applied_stack_pressure_MPa",
+          "friction_coefficient",
+          "symmetry",
+          "bottom_support",
+          "lateral_constraints",
+          "thermal_state"
+        ]
+      }
+    }
+  },
+  "required": ["dataset_version", "source", "units", "records"]
+}
