@@ -1,0 +1,44 @@
+{
+  "sintering_data": {
+    "total_records": 20000,
+    "temperature_range": [
+      17.919664197364217,
+      1397.2492229870668
+    ],
+    "time_range": [
+      0.0,
+      28365.82914572864
+    ]
+  },
+  "cycling_data": {
+    "total_records": 240000,
+    "num_cycles": 20,
+    "temperature_range": [
+      17.6264062163095,
+      807.9551894229805
+    ]
+  },
+  "steady_state_data": {
+    "total_records": 5200,
+    "temperature_range": [
+      793.7534626038781,
+      820.0
+    ],
+    "layers": [
+      "anode",
+      "electrolyte",
+      "cathode"
+    ]
+  },
+  "stress_data": {
+    "total_records": 6000,
+    "stress_range": [
+      -22767453.215624075,
+      4900890082.096668
+    ],
+    "strain_range": [
+      -7.968608625468426e-05,
+      0.017153115287338337
+    ]
+  }
+}
