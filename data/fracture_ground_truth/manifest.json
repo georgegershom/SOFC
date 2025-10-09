@@ -1,0 +1,268 @@
+{
+  "modality": {
+    "in_situ": {
+      "volumes": [
+        {
+          "t_index": 0,
+          "phase_field_path": "in_situ/phase_field/phase_field_t000.npy",
+          "intensity_path": "in_situ/intensity/intensity_t000.npy"
+        },
+        {
+          "t_index": 1,
+          "phase_field_path": "in_situ/phase_field/phase_field_t001.npy",
+          "intensity_path": "in_situ/intensity/intensity_t001.npy"
+        },
+        {
+          "t_index": 2,
+          "phase_field_path": "in_situ/phase_field/phase_field_t002.npy",
+          "intensity_path": "in_situ/intensity/intensity_t002.npy"
+        },
+        {
+          "t_index": 3,
+          "phase_field_path": "in_situ/phase_field/phase_field_t003.npy",
+          "intensity_path": "in_situ/intensity/intensity_t003.npy"
+        },
+        {
+          "t_index": 4,
+          "phase_field_path": "in_situ/phase_field/phase_field_t004.npy",
+          "intensity_path": "in_situ/intensity/intensity_t004.npy"
+        },
+        {
+          "t_index": 5,
+          "phase_field_path": "in_situ/phase_field/phase_field_t005.npy",
+          "intensity_path": "in_situ/intensity/intensity_t005.npy"
+        },
+        {
+          "t_index": 6,
+          "phase_field_path": "in_situ/phase_field/phase_field_t006.npy",
+          "intensity_path": "in_situ/intensity/intensity_t006.npy"
+        },
+        {
+          "t_index": 7,
+          "phase_field_path": "in_situ/phase_field/phase_field_t007.npy",
+          "intensity_path": "in_situ/intensity/intensity_t007.npy"
+        },
+        {
+          "t_index": 8,
+          "phase_field_path": "in_situ/phase_field/phase_field_t008.npy",
+          "intensity_path": "in_situ/intensity/intensity_t008.npy"
+        },
+        {
+          "t_index": 9,
+          "phase_field_path": "in_situ/phase_field/phase_field_t009.npy",
+          "intensity_path": "in_situ/intensity/intensity_t009.npy"
+        },
+        {
+          "t_index": 10,
+          "phase_field_path": "in_situ/phase_field/phase_field_t010.npy",
+          "intensity_path": "in_situ/intensity/intensity_t010.npy"
+        },
+        {
+          "t_index": 11,
+          "phase_field_path": "in_situ/phase_field/phase_field_t011.npy",
+          "intensity_path": "in_situ/intensity/intensity_t011.npy"
+        }
+      ],
+      "z_interface_index": 26,
+      "voxel_size_um": {
+        "z": 5.0,
+        "y": 5.0,
+        "x": 5.0
+      },
+      "areas_mm2": [
+        0.001625,
+        0.00445,
+        0.008749999999999999,
+        0.014499999999999999,
+        0.021599999999999998,
+        0.030449999999999998,
+        0.039924999999999995,
+        0.050175,
+        0.060524999999999995,
+        0.07135,
+        0.0832,
+        0.09562499999999999
+      ],
+      "timesteps": 12,
+      "shape": {
+        "z": 48,
+        "y": 96,
+        "x": 96
+      }
+    },
+    "ex_situ": {
+      "samples": [
+        {
+          "image_path": "ex_situ/images/sem_0000.png",
+          "mask_path": "ex_situ/masks/sem_0000_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0001.png",
+          "mask_path": "ex_situ/masks/sem_0001_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0002.png",
+          "mask_path": "ex_situ/masks/sem_0002_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0003.png",
+          "mask_path": "ex_situ/masks/sem_0003_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0004.png",
+          "mask_path": "ex_situ/masks/sem_0004_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0005.png",
+          "mask_path": "ex_situ/masks/sem_0005_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0006.png",
+          "mask_path": "ex_situ/masks/sem_0006_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0007.png",
+          "mask_path": "ex_situ/masks/sem_0007_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0008.png",
+          "mask_path": "ex_situ/masks/sem_0008_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0009.png",
+          "mask_path": "ex_situ/masks/sem_0009_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0010.png",
+          "mask_path": "ex_situ/masks/sem_0010_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0011.png",
+          "mask_path": "ex_situ/masks/sem_0011_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0012.png",
+          "mask_path": "ex_situ/masks/sem_0012_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0013.png",
+          "mask_path": "ex_situ/masks/sem_0013_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0014.png",
+          "mask_path": "ex_situ/masks/sem_0014_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0015.png",
+          "mask_path": "ex_situ/masks/sem_0015_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0016.png",
+          "mask_path": "ex_situ/masks/sem_0016_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0017.png",
+          "mask_path": "ex_situ/masks/sem_0017_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0018.png",
+          "mask_path": "ex_situ/masks/sem_0018_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0019.png",
+          "mask_path": "ex_situ/masks/sem_0019_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0020.png",
+          "mask_path": "ex_situ/masks/sem_0020_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0021.png",
+          "mask_path": "ex_situ/masks/sem_0021_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0022.png",
+          "mask_path": "ex_situ/masks/sem_0022_mask.png",
+          "pixel_size_um": 0.5
+        },
+        {
+          "image_path": "ex_situ/images/sem_0023.png",
+          "mask_path": "ex_situ/masks/sem_0023_mask.png",
+          "pixel_size_um": 0.5
+        }
+      ],
+      "pixel_size_um": 0.5
+    },
+    "performance": {
+      "csv_path": "performance/performance.csv",
+      "initial_voltage_v": 0.8,
+      "current_a": 2.0,
+      "base_resistance_ohm": 0.08,
+      "resistance_per_mm2": 0.015,
+      "voltage_drift_per_hour": 0.0001,
+      "num_rows": 73
+    }
+  },
+  "config": {
+    "in_situ": {
+      "nx": 96,
+      "ny": 96,
+      "nz": 48,
+      "timesteps": 12,
+      "voxel_size_um": [
+        5.0,
+        5.0,
+        5.0
+      ],
+      "crack_plane_z_fraction": 0.55,
+      "crack_half_thickness_vox": 2
+    },
+    "ex_situ": {
+      "num_images": 24,
+      "width": 768,
+      "height": 768,
+      "pixel_size_um": 0.5
+    },
+    "performance": {
+      "hours_between_in_situ": 50.0,
+      "samples_per_in_situ_interval": 6,
+      "initial_voltage_v": 0.8,
+      "current_a": 2.0,
+      "base_resistance_ohm": 0.08,
+      "resistance_per_mm2": 0.015,
+      "voltage_drift_per_hour": 0.0001,
+      "voltage_noise_std": 0.002
+    },
+    "seed": 42
+  },
+  "description": "Synthetic dataset approximating SOFC delamination crack evolution (phase-field proxy), SEM-like ex-situ images, and correlated macroscopic performance decay.",
+  "notes": [
+    "Phase-field here is a proxy [0..1] indicating delamination, centered on a single interface plane.",
+    "Intensity volumes are normalized [0..1] and saved as uint16 .npy for realism.",
+    "Ex-situ images include crack masks; intensities are 8-bit PNGs.",
+    "Performance CSV models voltage decay via increasing internal resistance proportional to delamination area."
+  ],
+  "paths_relative_to": "/workspace/data/fracture_ground_truth"
+}
