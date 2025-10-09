@@ -1,0 +1,80 @@
+{
+  "scenario": "steady_state_operation",
+  "grid": {
+    "width_mm": 100.0,
+    "height_mm": 100.0,
+    "num_x": 41,
+    "num_y": 41
+  },
+  "time": {
+    "total_duration_s": 3600.0,
+    "num_steps": 120
+  },
+  "temperature_units": "C",
+  "spatial_model": {
+    "type": "persistent longitudinal gradient + edge cooling",
+    "longitudinal_grad_c": 100.0,
+    "edge_drop_c": 25.0,
+    "fluctuation_amp_c": 10.0,
+    "fluctuation_period_s": 900.0
+  },
+  "base_profile_knots": [
+    [
+      0.0,
+      800.0
+    ],
+    [
+      3600.0,
+      800.0
+    ]
+  ],
+  "noise": {
+    "imaging_sigma_c": 2.0,
+    "thermocouple_sigma_c": 0.5,
+    "rng_seed": 426
+  },
+  "thermocouples": [
+    {
+      "sensor_id": "TC_CENTER",
+      "x_mm": 50.0,
+      "y_mm": 50.0
+    },
+    {
+      "sensor_id": "TC_NW",
+      "x_mm": 0.0,
+      "y_mm": 100.0
+    },
+    {
+      "sensor_id": "TC_NE",
+      "x_mm": 100.0,
+      "y_mm": 100.0
+    },
+    {
+      "sensor_id": "TC_SW",
+      "x_mm": 0.0,
+      "y_mm": 0.0
+    },
+    {
+      "sensor_id": "TC_SE",
+      "x_mm": 100.0,
+      "y_mm": 0.0
+    },
+    {
+      "sensor_id": "TC_MID_W",
+      "x_mm": 0.0,
+      "y_mm": 50.0
+    },
+    {
+      "sensor_id": "TC_MID_E",
+      "x_mm": 100.0,
+      "y_mm": 50.0
+    },
+    {
+      "sensor_id": "TC_MID_N",
+      "x_mm": 50.0,
+      "y_mm": 100.0
+    }
+  ],
+  "notes": "Steady operation near 800C with mild load-induced oscillation.",
+  "generator_version": "1.0.0"
+}
