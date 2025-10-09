@@ -1,0 +1,352 @@
+{
+  "sample_id": 2,
+  "material_properties": {
+    "youngs_modulus": 170000000000.0,
+    "poisson_ratio": 0.23,
+    "thermal_expansion": 1.05e-05,
+    "fracture_toughness": 3000000.0,
+    "characteristic_length": 0.00015,
+    "operating_temp": 1073.15,
+    "stress_threshold": 165000000.0
+  },
+  "grid_parameters": {
+    "dimensions": [
+      64,
+      64,
+      32
+    ],
+    "voxel_size": 2.34e-06,
+    "time_step": 3600
+  },
+  "sem_parameters": {
+    "accelerating_voltage": "15 kV",
+    "working_distance": "8.5 mm",
+    "magnification_range": "500x - 50000x",
+    "resolution": "2048x2048 pixels",
+    "pixel_size_nm": 50
+  },
+  "crack_measurements": [
+    {
+      "num_cracks": 0,
+      "total_crack_area_um2": 0,
+      "crack_density_per_mm2": 0.0,
+      "individual_cracks": []
+    },
+    {
+      "num_cracks": 0,
+      "total_crack_area_um2": 0,
+      "crack_density_per_mm2": 0.0,
+      "individual_cracks": []
+    },
+    {
+      "num_cracks": 0,
+      "total_crack_area_um2": 0,
+      "crack_density_per_mm2": 0.0,
+      "individual_cracks": []
+    },
+    {
+      "num_cracks": 0,
+      "total_crack_area_um2": 0,
+      "crack_density_per_mm2": 0.0,
+      "individual_cracks": []
+    },
+    {
+      "num_cracks": 0,
+      "total_crack_area_um2": 0,
+      "crack_density_per_mm2": 0.0,
+      "individual_cracks": []
+    },
+    {
+      "num_cracks": 0,
+      "total_crack_area_um2": 0,
+      "crack_density_per_mm2": 0.0,
+      "individual_cracks": []
+    },
+    {
+      "num_cracks": 0,
+      "total_crack_area_um2": 0,
+      "crack_density_per_mm2": 0.0,
+      "individual_cracks": []
+    },
+    {
+      "num_cracks": 0,
+      "total_crack_area_um2": 0,
+      "crack_density_per_mm2": 0.0,
+      "individual_cracks": []
+    },
+    {
+      "num_cracks": 0,
+      "total_crack_area_um2": 0,
+      "crack_density_per_mm2": 0.0,
+      "individual_cracks": []
+    },
+    {
+      "num_cracks": 0,
+      "total_crack_area_um2": 0,
+      "crack_density_per_mm2": 0.0,
+      "individual_cracks": []
+    },
+    {
+      "num_cracks": 0,
+      "total_crack_area_um2": 0,
+      "crack_density_per_mm2": 0.0,
+      "individual_cracks": []
+    },
+    {
+      "num_cracks": 0,
+      "total_crack_area_um2": 0,
+      "crack_density_per_mm2": 0.0,
+      "individual_cracks": []
+    },
+    {
+      "num_cracks": 0,
+      "total_crack_area_um2": 0,
+      "crack_density_per_mm2": 0.0,
+      "individual_cracks": []
+    },
+    {
+      "num_cracks": 0,
+      "total_crack_area_um2": 0,
+      "crack_density_per_mm2": 0.0,
+      "individual_cracks": []
+    },
+    {
+      "num_cracks": 0,
+      "total_crack_area_um2": 0,
+      "crack_density_per_mm2": 0.0,
+      "individual_cracks": []
+    },
+    {
+      "num_cracks": 0,
+      "total_crack_area_um2": 0,
+      "crack_density_per_mm2": 0.0,
+      "individual_cracks": []
+    },
+    {
+      "num_cracks": 0,
+      "total_crack_area_um2": 0,
+      "crack_density_per_mm2": 0.0,
+      "individual_cracks": []
+    },
+    {
+      "num_cracks": 0,
+      "total_crack_area_um2": 0,
+      "crack_density_per_mm2": 0.0,
+      "individual_cracks": []
+    },
+    {
+      "num_cracks": 0,
+      "total_crack_area_um2": 0,
+      "crack_density_per_mm2": 0.0,
+      "individual_cracks": []
+    },
+    {
+      "num_cracks": 0,
+      "total_crack_area_um2": 0,
+      "crack_density_per_mm2": 0.0,
+      "individual_cracks": []
+    }
+  ],
+  "microstructure_data": [
+    {
+      "porosity_percent": 0.0,
+      "average_grain_size_um": 2.8812700719599373,
+      "grain_size_std_um": 0.8643810215879811,
+      "interface_roughness_um_rms": 0.38852926521939657,
+      "phase_composition": {
+        "YSZ_volume_fraction": 1.0,
+        "void_volume_fraction": 0.0
+      }
+    },
+    {
+      "porosity_percent": 0.0,
+      "average_grain_size_um": 7.024694318489103,
+      "grain_size_std_um": 2.1074082955467306,
+      "interface_roughness_um_rms": 0.22734110012089903,
+      "phase_composition": {
+        "YSZ_volume_fraction": 1.0,
+        "void_volume_fraction": 0.0
+      }
+    },
+    {
+      "porosity_percent": 0.0,
+      "average_grain_size_um": 5.005675099019379,
+      "grain_size_std_um": 1.5017025297058135,
+      "interface_roughness_um_rms": 0.10196056819192707,
+      "phase_composition": {
+        "YSZ_volume_fraction": 1.0,
+        "void_volume_fraction": 0.0
+      }
+    },
+    {
+      "porosity_percent": 0.0,
+      "average_grain_size_um": 7.374787784364115,
+      "grain_size_std_um": 2.2124363353092344,
+      "interface_roughness_um_rms": 0.2836645082166337,
+      "phase_composition": {
+        "YSZ_volume_fraction": 1.0,
+        "void_volume_fraction": 0.0
+      }
+    },
+    {
+      "porosity_percent": 0.0,
+      "average_grain_size_um": 2.5277057142447132,
+      "grain_size_std_um": 0.7583117142734139,
+      "interface_roughness_um_rms": 0.47703564352419503,
+      "phase_composition": {
+        "YSZ_volume_fraction": 1.0,
+        "void_volume_fraction": 0.0
+      }
+    },
+    {
+      "porosity_percent": 0.0,
+      "average_grain_size_um": 3.070581429261564,
+      "grain_size_std_um": 0.9211744287784691,
+      "interface_roughness_um_rms": 0.16248899253372207,
+      "phase_composition": {
+        "YSZ_volume_fraction": 1.0,
+        "void_volume_fraction": 0.0
+      }
+    },
+    {
+      "porosity_percent": 0.0,
+      "average_grain_size_um": 3.760623556083785,
+      "grain_size_std_um": 1.1281870668251355,
+      "interface_roughness_um_rms": 0.28672474621874555,
+      "phase_composition": {
+        "YSZ_volume_fraction": 1.0,
+        "void_volume_fraction": 0.0
+      }
+    },
+    {
+      "porosity_percent": 0.0,
+      "average_grain_size_um": 6.860179858609666,
+      "grain_size_std_um": 2.0580539575828998,
+      "interface_roughness_um_rms": 0.16144777702156055,
+      "phase_composition": {
+        "YSZ_volume_fraction": 1.0,
+        "void_volume_fraction": 0.0
+      }
+    },
+    {
+      "porosity_percent": 0.0,
+      "average_grain_size_um": 3.4899202921752805,
+      "grain_size_std_um": 1.0469760876525842,
+      "interface_roughness_um_rms": 0.32406563993626103,
+      "phase_composition": {
+        "YSZ_volume_fraction": 1.0,
+        "void_volume_fraction": 0.0
+      }
+    },
+    {
+      "porosity_percent": 0.0,
+      "average_grain_size_um": 6.032530346835713,
+      "grain_size_std_um": 1.809759104050714,
+      "interface_roughness_um_rms": 0.40383557793645464,
+      "phase_composition": {
+        "YSZ_volume_fraction": 1.0,
+        "void_volume_fraction": 0.0
+      }
+    },
+    {
+      "porosity_percent": 0.0,
+      "average_grain_size_um": 2.8374863354408006,
+      "grain_size_std_um": 0.8512459006322401,
+      "interface_roughness_um_rms": 0.1530880132458764,
+      "phase_composition": {
+        "YSZ_volume_fraction": 1.0,
+        "void_volume_fraction": 0.0
+      }
+    },
+    {
+      "porosity_percent": 0.0,
+      "average_grain_size_um": 7.651590433534891,
+      "grain_size_std_um": 2.2954771300604673,
+      "interface_roughness_um_rms": 0.3042883839870737,
+      "phase_composition": {
+        "YSZ_volume_fraction": 1.0,
+        "void_volume_fraction": 0.0
+      }
+    },
+    {
+      "porosity_percent": 0.0,
+      "average_grain_size_um": 2.6142155448421347,
+      "grain_size_std_um": 0.7842646634526403,
+      "interface_roughness_um_rms": 0.4246004361748015,
+      "phase_composition": {
+        "YSZ_volume_fraction": 1.0,
+        "void_volume_fraction": 0.0
+      }
+    },
+    {
+      "porosity_percent": 0.0,
+      "average_grain_size_um": 4.726145669404797,
+      "grain_size_std_um": 1.417843700821439,
+      "interface_roughness_um_rms": 0.3218089268681059,
+      "phase_composition": {
+        "YSZ_volume_fraction": 1.0,
+        "void_volume_fraction": 0.0
+      }
+    },
+    {
+      "porosity_percent": 0.0,
+      "average_grain_size_um": 6.65932709382118,
+      "grain_size_std_um": 1.997798128146354,
+      "interface_roughness_um_rms": 0.2970415982491699,
+      "phase_composition": {
+        "YSZ_volume_fraction": 1.0,
+        "void_volume_fraction": 0.0
+      }
+    },
+    {
+      "porosity_percent": 0.0,
+      "average_grain_size_um": 5.012448671091048,
+      "grain_size_std_um": 1.5037346013273143,
+      "interface_roughness_um_rms": 0.49837105452830377,
+      "phase_composition": {
+        "YSZ_volume_fraction": 1.0,
+        "void_volume_fraction": 0.0
+      }
+    },
+    {
+      "porosity_percent": 0.0,
+      "average_grain_size_um": 5.7669457456690045,
+      "grain_size_std_um": 1.7300837237007014,
+      "interface_roughness_um_rms": 0.17334190348801914,
+      "phase_composition": {
+        "YSZ_volume_fraction": 1.0,
+        "void_volume_fraction": 0.0
+      }
+    },
+    {
+      "porosity_percent": 0.0,
+      "average_grain_size_um": 7.847731739385053,
+      "grain_size_std_um": 2.354319521815516,
+      "interface_roughness_um_rms": 0.3695100550134033,
+      "phase_composition": {
+        "YSZ_volume_fraction": 1.0,
+        "void_volume_fraction": 0.0
+      }
+    },
+    {
+      "porosity_percent": 0.0,
+      "average_grain_size_um": 2.3185788551978677,
+      "grain_size_std_um": 0.6955736565593603,
+      "interface_roughness_um_rms": 0.4378213999111068,
+      "phase_composition": {
+        "YSZ_volume_fraction": 1.0,
+        "void_volume_fraction": 0.0
+      }
+    },
+    {
+      "porosity_percent": 0.0,
+      "average_grain_size_um": 7.967516124763264,
+      "grain_size_std_um": 2.390254837428979,
+      "interface_roughness_um_rms": 0.4497591425379617,
+      "phase_composition": {
+        "YSZ_volume_fraction": 1.0,
+        "void_volume_fraction": 0.0
+      }
+    }
+  ]
+}
