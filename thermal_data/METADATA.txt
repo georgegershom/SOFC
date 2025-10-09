@@ -1,0 +1,77 @@
+SOFC THERMAL HISTORY DATA - METADATA
+Generated: 2025-10-09 01:29:18
+================================================================================
+
+DATA COLLECTION SPECIFICATIONS:
+- Cell Geometry: 10 cm × 10 cm planar SOFC
+- Electrolyte: 8YSZ, 150 μm thickness
+- Anode: Ni-YSZ, 300 μm thickness  
+- Cathode: LSM-YSZ, 50 μm thickness
+- Operating Temperature: 800°C
+- Sintering Temperature: 1350°C
+
+MEASUREMENT EQUIPMENT:
+- Thermal Imaging: FLIR SC8000 (640×512 resolution, ±1°C accuracy)
+- Thermocouples: Type-K, Class 1 (±0.5°C or 0.1% above 400°C)
+- Data Acquisition: 10 Hz sampling rate for thermocouples
+- Thermal Camera: 1 Hz frame rate (high-speed events: 10 Hz)
+
+EXPERIMENTAL CONDITIONS:
+
+1. SINTERING & CO-FIRING:
+   - Heating rate: 3°C/min
+   - Sintering temp: 1350°C
+   - Dwell time: 180 minutes
+   - Cooling rate: 2°C/min
+   - Atmosphere: Air
+   - Purpose: Establish initial residual stress state
+
+2. THERMAL CYCLING (Start-up/Shut-down):
+   - Number of cycles: 10
+   - Heating rate: 5°C/min
+   - Cooling rate: 5°C/min
+   - Operating temperature: 800°C
+   - Dwell time: 120 minutes per cycle
+   - Purpose: Evaluate cyclic thermal stress and delamination risk
+
+3. STEADY-STATE OPERATION:
+   - Operating temperature: 800°C (nominal)
+   - Current density: 0.5 A/cm²
+   - Fuel: H2 (85% utilization)
+   - Oxidant: Air (25% utilization)
+   - Flow configuration: Co-flow
+   - Purpose: Map temperature gradients during normal operation
+
+DATA FILES:
+- sintering_cofiring_thermal_history.csv: Full sintering cycle, spatial & temporal
+- sintering_through_thickness_profile.csv: Z-direction profiles during sintering
+- startup_shutdown_thermal_cycles.csv: 10 complete thermal cycles
+- single_cycle_high_resolution.csv: Detailed single cycle (1000 time points)
+- steady_state_thermal_gradients.csv: Spatial temperature maps at steady-state
+- steady_state_through_thickness.csv: Z-direction profiles during operation
+- thermal_imaging_load_transition.csv: High-speed imaging during load change
+- embedded_thermocouple_high_frequency.csv: 10 Hz thermocouple data
+- residual_stress_temperature_history.csv: Temperature data for stress calculations
+
+KEY OBSERVATIONS:
+- Maximum temperature gradient: ~40°C across cell during steady-state
+- Edge cooling effect: 10-15°C cooler at edges vs center
+- Through-thickness gradient: 5-8°C (cathode side hotter)
+- Thermal lag during transients: 0.5-0.8 minutes (edge vs center)
+- Residual stresses correlate with CTE mismatch (8-10% variation)
+
+DATA QUALITY:
+- Thermocouple measurement uncertainty: ±0.5°C
+- Thermal imaging uncertainty: ±1°C
+- Spatial resolution: 2-10 mm (depending on measurement method)
+- Temporal resolution: 0.1-60 seconds (depending on phase)
+
+RECOMMENDED USAGE:
+- FEA model validation
+- Residual stress calculations
+- Thermal fatigue analysis
+- Constitutive model parameter fitting
+- Delamination risk assessment
+
+Contact: SOFC Research Group
+License: CC BY 4.0

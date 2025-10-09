@@ -1,0 +1,10 @@
+Dataset,Data_Points,Measurement_Type,Temporal_Range_min,Spatial_Resolution
+Sintering/Co-firing,121000,Thermal imaging + Thermocouples,0-1284.2,11x11 grid (10mm spacing)
+Through-thickness Sintering,1500,Embedded thermocouples,0-1284.2 (subsampled),Through-thickness (5 points/layer)
+Thermal Cycling,18000,Thermal imaging,0-4300.0,9 locations
+Single Cycle High-Res,9000,Thermal imaging,0-430.0,9 locations
+Steady-State Gradients,23409,Thermal imaging,0-2400,51x51 grid (2mm spacing)
+Through-thickness Steady,200,Embedded thermocouples,N/A (spatial only),4 locations x 50 z-points
+Thermal Imaging,44982,IR thermal camera,0-17.0,21x21 grid (5mm spacing)
+Thermocouple High-Freq,12400,Type-K thermocouples,0-155.0,8 thermocouples
+Residual Stress History,125,Derived from thermal data,Key phases only,5x5 grid (20mm spacing)
