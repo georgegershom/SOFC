@@ -1,0 +1,185 @@
+{
+  "scenarios": [
+    {
+      "phase": "sintering_cofiring",
+      "schedule": {
+        "ramp_up_s": 2700,
+        "hold_s": 5400,
+        "ramp_down_s": 2700,
+        "peak_C": 1350
+      },
+      "spatial_grid": {
+        "nx": 64,
+        "ny": 64
+      },
+      "thermocouples": [
+        {
+          "id": "TC_corner",
+          "type": "thermocouple",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "TC_edge_mid",
+          "type": "thermocouple",
+          "location": [
+            50.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "TC_center",
+          "type": "thermocouple",
+          "location": [
+            50.0,
+            50.0,
+            0.0
+          ]
+        },
+        {
+          "id": "TC_edge_side",
+          "type": "thermocouple",
+          "location": [
+            0.0,
+            50.0,
+            0.0
+          ]
+        },
+        {
+          "id": "TC_far_corner",
+          "type": "thermocouple",
+          "location": [
+            100.0,
+            100.0,
+            0.0
+          ]
+        }
+      ],
+      "sample_rate_hz": 0.2,
+      "notes": "Synthetic data intended for residual stress initialization."
+    },
+    {
+      "phase": "startup_shutdown",
+      "schedule": {
+        "startup_s": 2520,
+        "steady_s": 2160,
+        "shutdown_s": 2520,
+        "max_operating_C": 800
+      },
+      "spatial_grid": {
+        "nx": 64,
+        "ny": 64
+      },
+      "thermocouples": [
+        {
+          "id": "TC_corner",
+          "type": "thermocouple",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "TC_edge_mid",
+          "type": "thermocouple",
+          "location": [
+            50.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "TC_center",
+          "type": "thermocouple",
+          "location": [
+            50.0,
+            50.0,
+            0.0
+          ]
+        },
+        {
+          "id": "TC_edge_side",
+          "type": "thermocouple",
+          "location": [
+            0.0,
+            50.0,
+            0.0
+          ]
+        },
+        {
+          "id": "TC_far_corner",
+          "type": "thermocouple",
+          "location": [
+            100.0,
+            100.0,
+            0.0
+          ]
+        }
+      ],
+      "sample_rate_hz": 0.5,
+      "notes": "Synthetic data for thermal cycling and delamination analysis."
+    },
+    {
+      "phase": "steady_state_operation",
+      "spatial_grid": {
+        "nx": 64,
+        "ny": 64
+      },
+      "thermocouples": [
+        {
+          "id": "TC_corner",
+          "type": "thermocouple",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "TC_edge_mid",
+          "type": "thermocouple",
+          "location": [
+            50.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "TC_center",
+          "type": "thermocouple",
+          "location": [
+            50.0,
+            50.0,
+            0.0
+          ]
+        },
+        {
+          "id": "TC_edge_side",
+          "type": "thermocouple",
+          "location": [
+            0.0,
+            50.0,
+            0.0
+          ]
+        },
+        {
+          "id": "TC_far_corner",
+          "type": "thermocouple",
+          "location": [
+            100.0,
+            100.0,
+            0.0
+          ]
+        }
+      ],
+      "sample_rate_hz": 1.0,
+      "base_center_C": 750.0,
+      "notes": "Synthetic data emphasizing spatial gradients during steady load."
+    }
+  ]
+}
