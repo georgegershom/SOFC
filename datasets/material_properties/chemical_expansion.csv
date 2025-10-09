@@ -1,0 +1,5 @@
+material,family,parameter,value,unit,reference_temperature_C,std_dev,notes
+Ni -> NiO,phase-change,beta_linear_per_oxidation_fraction,0.19,strain per unit oxidation fraction,800,0.02,Derived from PB ratio ~1.69 (fabricated mapping)
+Ni -> NiO,phase-change,Pilling_Bedworth_ratio,1.69,-,800,0.05,Volumetric ratio upon oxidation (fabricated range)
+LSCF,perovskite,beta_chem_per_delta_O,0.018,strain per oxygen nonstoichiometry delta,800,0.004,Fabricated within literature-like range
+LSM,perovskite,beta_chem_per_delta_O,0.006,strain per oxygen nonstoichiometry delta,800,0.002,Fabricated within literature-like range

@@ -1,0 +1,16 @@
+type,material_or_interface,description,temperature_C,environment,E_ref_GPa,poisson_ref,K_IC_MPa_sqrt_m,G_c_J_per_m2,uncertainty_note
+bulk,YSZ,"fully dense, fabricated from literature ranges",25,ambient,205.0,0.3,3.542,55.702,+/- 0.40 MPa√m on K_IC
+bulk,Ni,"fully dense, fabricated from literature ranges",25,ambient,200.0,0.31,98.271,43645.636,+/- 10.00 MPa√m on K_IC
+bulk,NiO,"fully dense, fabricated from literature ranges",25,ambient,180.0,0.22,2.155,24.562,+/- 0.40 MPa√m on K_IC
+bulk,Ni-YSZ,"porous anode, 30% Ni vol., fabricated",25,ambient,203.48697270471465,0.303,1.94,16.804,+/- 0.25 MPa√m on K_IC
+bulk,Ni-YSZ,"porous anode, 40% Ni vol., fabricated",25,ambient,202.9851485148515,0.304,2.524,28.495,+/- 0.25 MPa√m on K_IC
+bulk,Ni-YSZ,"porous anode, 50% Ni vol., fabricated",25,ambient,202.48456790123458,0.305,3.001,40.327,+/- 0.25 MPa√m on K_IC
+interface,anode( Ni-YSZ ) / electrolyte( YSZ ),"interface fracture, 30% Ni vol.",25,as-sintered,224.664,,1.257,7.032,+/- 1.0 J/m^2 on G_c (fabricated)
+interface,anode( Ni-YSZ ) / electrolyte( YSZ ),"interface fracture, 30% Ni vol.",800,reduced,202.83,,1.308,8.433,+/- 1.0 J/m^2 on G_c (fabricated)
+interface,anode( Ni-YSZ ) / electrolyte( YSZ ),"interface fracture, 30% Ni vol.",800,oxidized,202.83,,0.954,4.483,+/- 1.0 J/m^2 on G_c (fabricated)
+interface,anode( Ni-YSZ ) / electrolyte( YSZ ),"interface fracture, 40% Ni vol.",25,as-sintered,224.462,,1.264,7.116,+/- 1.0 J/m^2 on G_c (fabricated)
+interface,anode( Ni-YSZ ) / electrolyte( YSZ ),"interface fracture, 40% Ni vol.",800,reduced,202.151,,1.366,9.232,+/- 1.0 J/m^2 on G_c (fabricated)
+interface,anode( Ni-YSZ ) / electrolyte( YSZ ),"interface fracture, 40% Ni vol.",800,oxidized,202.151,,1.116,6.164,+/- 1.0 J/m^2 on G_c (fabricated)
+interface,anode( Ni-YSZ ) / electrolyte( YSZ ),"interface fracture, 50% Ni vol.",25,as-sintered,224.259,,1.336,7.957,+/- 1.0 J/m^2 on G_c (fabricated)
+interface,anode( Ni-YSZ ) / electrolyte( YSZ ),"interface fracture, 50% Ni vol.",800,reduced,201.473,,1.377,9.411,+/- 1.0 J/m^2 on G_c (fabricated)
+interface,anode( Ni-YSZ ) / electrolyte( YSZ ),"interface fracture, 50% Ni vol.",800,oxidized,201.473,,0.959,4.562,+/- 1.0 J/m^2 on G_c (fabricated)
