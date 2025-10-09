@@ -1,0 +1,132 @@
+{
+  "scenario": "startup_shutdown_cycles",
+  "grid": {
+    "width_mm": 100.0,
+    "height_mm": 100.0,
+    "num_x": 41,
+    "num_y": 41
+  },
+  "time": {
+    "total_duration_s": 28800.0,
+    "num_steps": 240
+  },
+  "temperature_units": "C",
+  "spatial_model": {
+    "type": "longitudinal flow-induced gradient with y-edge cooling",
+    "max_longitudinal_grad_c": 80.0,
+    "edge_drop_c": 30.0
+  },
+  "base_profile_knots": [
+    [
+      0.0,
+      25.0
+    ],
+    [
+      3600.0,
+      800.0
+    ],
+    [
+      5400.0,
+      800.0
+    ],
+    [
+      9000.0,
+      100.0
+    ],
+    [
+      9600.0,
+      25.0
+    ],
+    [
+      13200.0,
+      800.0
+    ],
+    [
+      15000.0,
+      800.0
+    ],
+    [
+      18600.0,
+      100.0
+    ],
+    [
+      19200.0,
+      25.0
+    ],
+    [
+      22800.0,
+      800.0
+    ],
+    [
+      24600.0,
+      800.0
+    ],
+    [
+      28200.0,
+      100.0
+    ],
+    [
+      28800.0,
+      100.0
+    ]
+  ],
+  "noise": {
+    "imaging_sigma_c": 2.0,
+    "thermocouple_sigma_c": 0.5,
+    "rng_seed": 325
+  },
+  "thermocouples": [
+    {
+      "sensor_id": "TC_CENTER",
+      "x_mm": 50.0,
+      "y_mm": 50.0
+    },
+    {
+      "sensor_id": "TC_NW",
+      "x_mm": 0.0,
+      "y_mm": 100.0
+    },
+    {
+      "sensor_id": "TC_NE",
+      "x_mm": 100.0,
+      "y_mm": 100.0
+    },
+    {
+      "sensor_id": "TC_SW",
+      "x_mm": 0.0,
+      "y_mm": 0.0
+    },
+    {
+      "sensor_id": "TC_SE",
+      "x_mm": 100.0,
+      "y_mm": 0.0
+    },
+    {
+      "sensor_id": "TC_MID_W",
+      "x_mm": 0.0,
+      "y_mm": 50.0
+    },
+    {
+      "sensor_id": "TC_MID_E",
+      "x_mm": 100.0,
+      "y_mm": 50.0
+    },
+    {
+      "sensor_id": "TC_MID_N",
+      "x_mm": 50.0,
+      "y_mm": 100.0
+    },
+    {
+      "sensor_id": "TC_MID_S",
+      "x_mm": 50.0,
+      "y_mm": 0.0
+    },
+    {
+      "sensor_id": "TC_10",
+      "x_mm": 60.597757125632356,
+      "y_mm": 52.993901624450075
+    }
+  ],
+  "notes": "Startup/shutdown cycles with strong x-gradient at hot hold; edge cooling.",
+  "generator_version": "1.0.0"
+}
