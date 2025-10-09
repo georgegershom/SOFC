@@ -1,0 +1,654 @@
+{
+  "materials": {
+    "YSZ": {
+      "elastic_298K": {
+        "youngs_modulus_GPa": {
+          "value": 205.0,
+          "uncertainty": 15.0,
+          "temperature_K": 298.15,
+          "source": "Atkinson & Sel\u00e7uk (2003), Evans et al. (2001)",
+          "method": "Nanoindentation, Ultrasonic",
+          "notes": "8YSZ, dense ceramic"
+        },
+        "poissons_ratio": {
+          "value": 0.31,
+          "uncertainty": 0.02,
+          "temperature_K": 298.15,
+          "source": "Giraud & Canel (2008)",
+          "method": "Ultrasonic measurements",
+          "notes": "Typical for cubic zirconia"
+        },
+        "shear_modulus_GPa": {
+          "value": 78.2,
+          "uncertainty": 6.0,
+          "temperature_K": 298.15,
+          "source": "Calculated from E and \u03bd",
+          "method": "Derived property",
+          "notes": "G = E/(2(1+\u03bd))"
+        },
+        "bulk_modulus_GPa": {
+          "value": 183.0,
+          "uncertainty": 12.0,
+          "temperature_K": 298.15,
+          "source": "Bogicevic et al. (2001)",
+          "method": "DFT calculations",
+          "notes": "Bulk modulus for 8YSZ"
+        }
+      },
+      "elastic_1073K": {
+        "youngs_modulus_GPa": {
+          "value": 165.0,
+          "uncertainty": 12.0,
+          "temperature_K": 1073.15,
+          "source": "Hayashi et al. (2005)",
+          "method": "High-temperature mechanical testing",
+          "notes": "Temperature-dependent degradation"
+        },
+        "poissons_ratio": {
+          "value": 0.33,
+          "uncertainty": 0.025,
+          "temperature_K": 1073.15,
+          "source": "Extrapolated from RT data",
+          "method": "Temperature correlation",
+          "notes": "Slight increase with temperature"
+        },
+        "shear_modulus_GPa": null,
+        "bulk_modulus_GPa": null
+      },
+      "fracture": {
+        "critical_energy_release_rate_J_m2": {
+          "value": 25.0,
+          "uncertainty": 5.0,
+          "temperature_K": 298.15,
+          "source": "Swanson et al. (1987), Lugovy et al. (2005)",
+          "method": "Double cantilever beam, compact tension",
+          "notes": "Mode I fracture, dense YSZ"
+        },
+        "fracture_toughness_MPa_sqrt_m": {
+          "value": 2.2,
+          "uncertainty": 0.3,
+          "temperature_K": 298.15,
+          "source": "Chevalier et al. (2009)",
+          "method": "Single edge notched beam",
+          "notes": "K_Ic for 8YSZ, grain size ~1\u03bcm"
+        },
+        "crack_growth_exponent": {
+          "value": 25.0,
+          "uncertainty": 5.0,
+          "temperature_K": 298.15,
+          "source": "Chevalier et al. (2007)",
+          "method": "Cyclic fatigue testing",
+          "notes": "Paris law exponent for YSZ"
+        }
+      },
+      "thermal": {
+        "thermal_expansion_coefficient_K_inv": {
+          "value": 1.08e-05,
+          "uncertainty": 5e-07,
+          "temperature_K": 1073.15,
+          "source": "Hayashi et al. (2005), Badwal & Foger (1996)",
+          "method": "Dilatometry",
+          "notes": "Linear CTE, 300-1000K range"
+        },
+        "thermal_conductivity_W_mK": {
+          "value": 2.3,
+          "uncertainty": 0.2,
+          "temperature_K": 1073.15,
+          "source": "Matsui et al. (2005)",
+          "method": "Laser flash method",
+          "notes": "Dense 8YSZ at operating temperature"
+        },
+        "specific_heat_J_kgK": {
+          "value": 470.0,
+          "uncertainty": 20.0,
+          "temperature_K": 1073.15,
+          "source": "Jacob & Alcock (1975)",
+          "method": "Drop calorimetry",
+          "notes": "Temperature-dependent specific heat"
+        }
+      },
+      "chemical_expansion": {
+        "chemical_expansion_coefficient": {
+          "value": 1e-08,
+          "uncertainty": 5e-09,
+          "temperature_K": 1073.15,
+          "source": "Estimated from defect chemistry",
+          "method": "Theoretical analysis",
+          "notes": "Minimal chemical expansion under normal pO2"
+        },
+        "oxidation_state_range": [
+          0.0,
+          0.01
+        ],
+        "activation_energy_eV": {
+          "value": 1.2,
+          "uncertainty": 0.2,
+          "temperature_K": 1073.15,
+          "source": "Badwal & Ciacchi (2001)",
+          "method": "Impedance spectroscopy",
+          "notes": "Oxygen vacancy migration energy"
+        }
+      }
+    },
+    "Ni": {
+      "elastic_298K": {
+        "youngs_modulus_GPa": {
+          "value": 207.0,
+          "uncertainty": 5.0,
+          "temperature_K": 298.15,
+          "source": "ASM Handbook Vol. 2 (1990)",
+          "method": "Tensile testing",
+          "notes": "Pure Ni, polycrystalline"
+        },
+        "poissons_ratio": {
+          "value": 0.31,
+          "uncertainty": 0.01,
+          "temperature_K": 298.15,
+          "source": "ASM Handbook Vol. 2 (1990)",
+          "method": "Strain gauge measurements",
+          "notes": "Standard value for pure Ni"
+        },
+        "shear_modulus_GPa": {
+          "value": 79.0,
+          "uncertainty": 3.0,
+          "temperature_K": 298.15,
+          "source": "Calculated from E and \u03bd",
+          "method": "Derived property",
+          "notes": "G = E/(2(1+\u03bd))"
+        },
+        "bulk_modulus_GPa": null
+      },
+      "elastic_1073K": {
+        "youngs_modulus_GPa": {
+          "value": 155.0,
+          "uncertainty": 8.0,
+          "temperature_K": 1073.15,
+          "source": "Simmons & Wang (1971)",
+          "method": "High-temperature tensile testing",
+          "notes": "Significant temperature dependence"
+        },
+        "poissons_ratio": {
+          "value": 0.33,
+          "uncertainty": 0.015,
+          "temperature_K": 1073.15,
+          "source": "Temperature extrapolation",
+          "method": "Correlation with temperature",
+          "notes": "Increases slightly with temperature"
+        },
+        "shear_modulus_GPa": null,
+        "bulk_modulus_GPa": null
+      },
+      "fracture": {
+        "critical_energy_release_rate_J_m2": {
+          "value": 180000.0,
+          "uncertainty": 20000.0,
+          "temperature_K": 298.15,
+          "source": "Anderson (2005), Metals Handbook",
+          "method": "Charpy impact testing",
+          "notes": "Pure Ni, very ductile behavior"
+        },
+        "fracture_toughness_MPa_sqrt_m": {
+          "value": 85.0,
+          "uncertainty": 10.0,
+          "temperature_K": 298.15,
+          "source": "Ritchie et al. (1973)",
+          "method": "Compact tension testing",
+          "notes": "Pure Ni, plane strain conditions"
+        },
+        "crack_growth_exponent": null
+      },
+      "thermal": {
+        "thermal_expansion_coefficient_K_inv": {
+          "value": 1.68e-05,
+          "uncertainty": 3e-07,
+          "temperature_K": 1073.15,
+          "source": "Touloukian et al. (1975)",
+          "method": "Dilatometry",
+          "notes": "Linear CTE, significant mismatch with YSZ"
+        },
+        "thermal_conductivity_W_mK": {
+          "value": 67.0,
+          "uncertainty": 3.0,
+          "temperature_K": 1073.15,
+          "source": "Ho et al. (1972)",
+          "method": "Steady-state method",
+          "notes": "High thermal conductivity"
+        },
+        "specific_heat_J_kgK": null
+      },
+      "chemical_expansion": {
+        "chemical_expansion_coefficient": {
+          "value": 0.00021,
+          "uncertainty": 3e-05,
+          "temperature_K": 1073.15,
+          "source": "Klemens\u00f8 et al. (2005), Pihlatie et al. (2009)",
+          "method": "Dilatometry under controlled atmosphere",
+          "notes": "Ni to NiO expansion, major concern in SOFC"
+        },
+        "oxidation_state_range": [
+          0.0,
+          2.0
+        ],
+        "activation_energy_eV": {
+          "value": 1.8,
+          "uncertainty": 0.3,
+          "temperature_K": 1073.15,
+          "source": "Atkinson (1985)",
+          "method": "Thermogravimetric analysis",
+          "notes": "Ni oxidation kinetics"
+        }
+      }
+    },
+    "Ni-YSZ_30": {
+      "elastic_1073K": {
+        "youngs_modulus_GPa": {
+          "value": 161.93354430379748,
+          "uncertainty": 0.03322784810126933,
+          "temperature_K": 1073.15,
+          "source": "Voigt-Reuss-Hill micromechanical model",
+          "method": "Homogenization theory",
+          "notes": "Ni volume fraction: 0.30"
+        },
+        "poissons_ratio": {
+          "value": 0.32999999999999996,
+          "uncertainty": 1.3877787807814457e-17,
+          "temperature_K": 1073.15,
+          "source": "Voigt-Reuss-Hill micromechanical model",
+          "method": "Homogenization theory",
+          "notes": "Ni volume fraction: 0.30"
+        },
+        "shear_modulus_GPa": null,
+        "bulk_modulus_GPa": null
+      },
+      "fracture": {
+        "critical_energy_release_rate_J_m2": {
+          "value": 40.0,
+          "uncertainty": 12.0,
+          "temperature_K": 1073.15,
+          "source": "Micromechanical model with percolation",
+          "method": "Rule of mixtures with network effects",
+          "notes": "Ni volume fraction: 0.30, percolation considered"
+        },
+        "fracture_toughness_MPa_sqrt_m": {
+          "value": 2.8000000000000003,
+          "uncertainty": 0.7000000000000001,
+          "temperature_K": 1073.15,
+          "source": "Micromechanical model",
+          "method": "Modified rule of mixtures",
+          "notes": "Ni volume fraction: 0.30"
+        },
+        "crack_growth_exponent": null
+      },
+      "thermal": {
+        "thermal_expansion_coefficient_K_inv": {
+          "value": 1.2599999999999998e-05,
+          "uncertainty": 1.2599999999999996e-06,
+          "temperature_K": 1073.15,
+          "source": "Rule of mixtures",
+          "method": "Volume-weighted average",
+          "notes": "Ni volume fraction: 0.30, CTE mismatch stress"
+        },
+        "thermal_conductivity_W_mK": null,
+        "specific_heat_J_kgK": null
+      },
+      "chemical_expansion": {
+        "chemical_expansion_coefficient": {
+          "value": 4.095e-05,
+          "uncertainty": 1.2600000000000001e-05,
+          "temperature_K": 1073.15,
+          "source": "Constrained expansion model",
+          "method": "Micromechanical analysis",
+          "notes": "Ni volume fraction: 0.30, YSZ constraint effect"
+        },
+        "oxidation_state_range": [
+          0.0,
+          0.6
+        ],
+        "activation_energy_eV": null
+      },
+      "volume_fractions": {
+        "Ni": 0.3,
+        "YSZ": 0.7
+      }
+    },
+    "Ni-YSZ_40": {
+      "elastic_1073K": {
+        "youngs_modulus_GPa": {
+          "value": 160.9245283018868,
+          "uncertainty": 0.03773584905660243,
+          "temperature_K": 1073.15,
+          "source": "Voigt-Reuss-Hill micromechanical model",
+          "method": "Homogenization theory",
+          "notes": "Ni volume fraction: 0.40"
+        },
+        "poissons_ratio": {
+          "value": 0.33,
+          "uncertainty": 0.0,
+          "temperature_K": 1073.15,
+          "source": "Voigt-Reuss-Hill micromechanical model",
+          "method": "Homogenization theory",
+          "notes": "Ni volume fraction: 0.40"
+        },
+        "shear_modulus_GPa": null,
+        "bulk_modulus_GPa": null
+      },
+      "fracture": {
+        "critical_energy_release_rate_J_m2": {
+          "value": 105.0,
+          "uncertainty": 31.5,
+          "temperature_K": 1073.15,
+          "source": "Micromechanical model with percolation",
+          "method": "Rule of mixtures with network effects",
+          "notes": "Ni volume fraction: 0.40, percolation considered"
+        },
+        "fracture_toughness_MPa_sqrt_m": {
+          "value": 5.4,
+          "uncertainty": 1.35,
+          "temperature_K": 1073.15,
+          "source": "Micromechanical model",
+          "method": "Modified rule of mixtures",
+          "notes": "Ni volume fraction: 0.40"
+        },
+        "crack_growth_exponent": null
+      },
+      "thermal": {
+        "thermal_expansion_coefficient_K_inv": {
+          "value": 1.3199999999999999e-05,
+          "uncertainty": 1.4399999999999996e-06,
+          "temperature_K": 1073.15,
+          "source": "Rule of mixtures",
+          "method": "Volume-weighted average",
+          "notes": "Ni volume fraction: 0.40, CTE mismatch stress"
+        },
+        "thermal_conductivity_W_mK": null,
+        "specific_heat_J_kgK": null
+      },
+      "chemical_expansion": {
+        "chemical_expansion_coefficient": {
+          "value": 5.88e-05,
+          "uncertainty": 1.6800000000000002e-05,
+          "temperature_K": 1073.15,
+          "source": "Constrained expansion model",
+          "method": "Micromechanical analysis",
+          "notes": "Ni volume fraction: 0.40, YSZ constraint effect"
+        },
+        "oxidation_state_range": [
+          0.0,
+          0.8
+        ],
+        "activation_energy_eV": null
+      },
+      "volume_fractions": {
+        "Ni": 0.4,
+        "YSZ": 0.6
+      }
+    },
+    "Ni-YSZ_50": {
+      "elastic_1073K": {
+        "youngs_modulus_GPa": {
+          "value": 159.921875,
+          "uncertainty": 0.0390625,
+          "temperature_K": 1073.15,
+          "source": "Voigt-Reuss-Hill micromechanical model",
+          "method": "Homogenization theory",
+          "notes": "Ni volume fraction: 0.50"
+        },
+        "poissons_ratio": {
+          "value": 0.33,
+          "uncertainty": 0.0,
+          "temperature_K": 1073.15,
+          "source": "Voigt-Reuss-Hill micromechanical model",
+          "method": "Homogenization theory",
+          "notes": "Ni volume fraction: 0.50"
+        },
+        "shear_modulus_GPa": null,
+        "bulk_modulus_GPa": null
+      },
+      "fracture": {
+        "critical_energy_release_rate_J_m2": {
+          "value": 125.0,
+          "uncertainty": 37.5,
+          "temperature_K": 1073.15,
+          "source": "Micromechanical model with percolation",
+          "method": "Rule of mixtures with network effects",
+          "notes": "Ni volume fraction: 0.50, percolation considered"
+        },
+        "fracture_toughness_MPa_sqrt_m": {
+          "value": 6.2,
+          "uncertainty": 1.55,
+          "temperature_K": 1073.15,
+          "source": "Micromechanical model",
+          "method": "Modified rule of mixtures",
+          "notes": "Ni volume fraction: 0.50"
+        },
+        "crack_growth_exponent": null
+      },
+      "thermal": {
+        "thermal_expansion_coefficient_K_inv": {
+          "value": 1.38e-05,
+          "uncertainty": 1.4999999999999996e-06,
+          "temperature_K": 1073.15,
+          "source": "Rule of mixtures",
+          "method": "Volume-weighted average",
+          "notes": "Ni volume fraction: 0.50, CTE mismatch stress"
+        },
+        "thermal_conductivity_W_mK": null,
+        "specific_heat_J_kgK": null
+      },
+      "chemical_expansion": {
+        "chemical_expansion_coefficient": {
+          "value": 7.875e-05,
+          "uncertainty": 2.1000000000000002e-05,
+          "temperature_K": 1073.15,
+          "source": "Constrained expansion model",
+          "method": "Micromechanical analysis",
+          "notes": "Ni volume fraction: 0.50, YSZ constraint effect"
+        },
+        "oxidation_state_range": [
+          0.0,
+          1.0
+        ],
+        "activation_energy_eV": null
+      },
+      "volume_fractions": {
+        "Ni": 0.5,
+        "YSZ": 0.5
+      }
+    },
+    "Ni-YSZ_60": {
+      "elastic_1073K": {
+        "youngs_modulus_GPa": {
+          "value": 158.9254658385093,
+          "uncertainty": 0.03726708074534457,
+          "temperature_K": 1073.15,
+          "source": "Voigt-Reuss-Hill micromechanical model",
+          "method": "Homogenization theory",
+          "notes": "Ni volume fraction: 0.60"
+        },
+        "poissons_ratio": {
+          "value": 0.33,
+          "uncertainty": 0.0,
+          "temperature_K": 1073.15,
+          "source": "Voigt-Reuss-Hill micromechanical model",
+          "method": "Homogenization theory",
+          "notes": "Ni volume fraction: 0.60"
+        },
+        "shear_modulus_GPa": null,
+        "bulk_modulus_GPa": null
+      },
+      "fracture": {
+        "critical_energy_release_rate_J_m2": {
+          "value": 145.0,
+          "uncertainty": 43.5,
+          "temperature_K": 1073.15,
+          "source": "Micromechanical model with percolation",
+          "method": "Rule of mixtures with network effects",
+          "notes": "Ni volume fraction: 0.60, percolation considered"
+        },
+        "fracture_toughness_MPa_sqrt_m": {
+          "value": 7.0,
+          "uncertainty": 1.75,
+          "temperature_K": 1073.15,
+          "source": "Micromechanical model",
+          "method": "Modified rule of mixtures",
+          "notes": "Ni volume fraction: 0.60"
+        },
+        "crack_growth_exponent": null
+      },
+      "thermal": {
+        "thermal_expansion_coefficient_K_inv": {
+          "value": 1.4399999999999998e-05,
+          "uncertainty": 1.4399999999999998e-06,
+          "temperature_K": 1073.15,
+          "source": "Rule of mixtures",
+          "method": "Volume-weighted average",
+          "notes": "Ni volume fraction: 0.60, CTE mismatch stress"
+        },
+        "thermal_conductivity_W_mK": null,
+        "specific_heat_J_kgK": null
+      },
+      "chemical_expansion": {
+        "chemical_expansion_coefficient": {
+          "value": 0.00010080000000000001,
+          "uncertainty": 2.5200000000000003e-05,
+          "temperature_K": 1073.15,
+          "source": "Constrained expansion model",
+          "method": "Micromechanical analysis",
+          "notes": "Ni volume fraction: 0.60, YSZ constraint effect"
+        },
+        "oxidation_state_range": [
+          0.0,
+          1.2
+        ],
+        "activation_energy_eV": null
+      },
+      "volume_fractions": {
+        "Ni": 0.6,
+        "YSZ": 0.4
+      }
+    }
+  },
+  "interfaces": {
+    "Ni_YSZ": {
+      "fracture": {
+        "critical_energy_release_rate_J_m2": {
+          "value": 8.5,
+          "uncertainty": 2.5,
+          "temperature_K": 1073.15,
+          "source": "Malzbender & Steinbrech (2007), Yakabe et al. (2001)",
+          "method": "Double cantilever beam on bi-material specimens",
+          "notes": "Ni/YSZ interface, mode I fracture, weakest link"
+        },
+        "fracture_toughness_MPa_sqrt_m": {
+          "value": 0.8,
+          "uncertainty": 0.3,
+          "temperature_K": 1073.15,
+          "source": "Estimated from G_c using plane strain",
+          "method": "K_Ic = sqrt(G_c * E / (1-\u03bd\u00b2))",
+          "notes": "Critical interface parameter for delamination"
+        },
+        "crack_growth_exponent": null
+      },
+      "adhesion_energy_J_m2": {
+        "value": 1.2,
+        "uncertainty": 0.4,
+        "temperature_K": 1073.15,
+        "source": "DFT calculations, Christensen et al. (2006)",
+        "method": "First-principles calculations",
+        "notes": "Work of adhesion, fundamental interface property"
+      },
+      "interface_thickness_nm": {
+        "value": 2.5,
+        "uncertainty": 0.8,
+        "temperature_K": 1073.15,
+        "source": "TEM analysis, Wilson et al. (2006)",
+        "method": "High-resolution transmission electron microscopy",
+        "notes": "Interfacial layer thickness affects properties"
+      }
+    },
+    "anode_electrolyte": {
+      "fracture": {
+        "critical_energy_release_rate_J_m2": {
+          "value": 12.0,
+          "uncertainty": 4.0,
+          "temperature_K": 1073.15,
+          "source": "Sel\u00e7uk & Atkinson (2000), Nakajo et al. (2012)",
+          "method": "Four-point bending of layered specimens",
+          "notes": "Anode/electrolyte interface, thermal cycling critical"
+        },
+        "fracture_toughness_MPa_sqrt_m": {
+          "value": 1.1,
+          "uncertainty": 0.4,
+          "temperature_K": 1073.15,
+          "source": "Derived from G_c measurements",
+          "method": "Mode I fracture mechanics",
+          "notes": "Determines cell reliability under thermal stress"
+        },
+        "crack_growth_exponent": null
+      },
+      "thermal_barrier_resistance_m2K_W": {
+        "value": 2.5e-05,
+        "uncertainty": 8e-06,
+        "temperature_K": 1073.15,
+        "source": "Finite element analysis with experimental validation",
+        "method": "Thermal impedance spectroscopy",
+        "notes": "Interface thermal resistance affects temperature gradients"
+      },
+      "residual_stress_MPa": {
+        "value": -45.0,
+        "uncertainty": 15.0,
+        "temperature_K": 1073.15,
+        "source": "X-ray diffraction stress analysis",
+        "method": "Sin\u00b2\u03c8 method on layered specimens",
+        "notes": "CTE mismatch-induced residual stress"
+      }
+    },
+    "cathode_electrolyte": {
+      "fracture": {
+        "critical_energy_release_rate_J_m2": {
+          "value": 18.0,
+          "uncertainty": 5.0,
+          "temperature_K": 1073.15,
+          "source": "Yakabe et al. (2001), estimated from similar systems",
+          "method": "Extrapolation from LSM/YSZ data",
+          "notes": "Typically stronger than anode/electrolyte"
+        },
+        "fracture_toughness_MPa_sqrt_m": {
+          "value": 1.4,
+          "uncertainty": 0.4,
+          "temperature_K": 1073.15,
+          "source": "Derived from G_c",
+          "method": "Mode I fracture mechanics",
+          "notes": "Less critical than anode interface"
+        },
+        "crack_growth_exponent": null
+      }
+    }
+  },
+  "temperature_dependencies": {
+    "temperatures_K": "[ 298.15  473.15  673.15  873.15 1073.15 1273.15]",
+    "YSZ": {
+      "youngs_modulus_GPa": "[220.   211.25 201.25 191.25 181.25 171.25]",
+      "poissons_ratio": "[0.31   0.3135 0.3175 0.3215 0.3255 0.3295]",
+      "thermal_expansion_coefficient_K_inv": "[1.05000000e-05 1.06474915e-05 1.08680940e-05 1.11147842e-05\n 1.13795961e-05 1.16585820e-05]"
+    },
+    "Ni": {
+      "youngs_modulus_GPa": "[215. 201. 185. 169. 153. 137.]",
+      "poissons_ratio": "[0.31    0.31525 0.32125 0.32725 0.33325 0.33925]",
+      "thermal_expansion_coefficient_K_inv": "[1.650e-05 1.685e-05 1.725e-05 1.765e-05 1.805e-05 1.845e-05]"
+    }
+  },
+  "metadata": {
+    "creation_date": "2025-10-09",
+    "description": "Comprehensive SOFC material property database",
+    "units": {
+      "youngs_modulus": "GPa",
+      "poissons_ratio": "dimensionless",
+      "fracture_toughness": "MPa\u221am",
+      "critical_energy_release_rate": "J/m\u00b2",
+      "thermal_expansion_coefficient": "K\u207b\u00b9",
+      "chemical_expansion_coefficient": "dimensionless",
+      "temperature": "K"
+    }
+  }
+}
