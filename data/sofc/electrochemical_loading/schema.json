@@ -1,0 +1,154 @@
+{
+  "name": "SOFC Electrochemical Loading Dataset (Fabricated)",
+  "description": "Fabricated dataset of IV curves, overpotentials, and EIS-derived parameters for SOFC across operating conditions.",
+  "rows": "~600",
+  "columns": [
+    {
+      "name": "condition_id",
+      "type": "string",
+      "unit": "-",
+      "description": "Identifier encoding T, gas fractions"
+    },
+    {
+      "name": "temperature_C",
+      "type": "number",
+      "unit": "C",
+      "description": "Operating temperature"
+    },
+    {
+      "name": "pH2_anode",
+      "type": "number",
+      "unit": "bar fraction",
+      "description": "Anode H2 partial pressure fraction"
+    },
+    {
+      "name": "pH2O_anode",
+      "type": "number",
+      "unit": "bar fraction",
+      "description": "Anode H2O partial pressure fraction"
+    },
+    {
+      "name": "pO2_cathode",
+      "type": "number",
+      "unit": "bar fraction",
+      "description": "Cathode O2 partial pressure fraction"
+    },
+    {
+      "name": "pressure_atm",
+      "type": "number",
+      "unit": "atm",
+      "description": "Total pressure"
+    },
+    {
+      "name": "current_density_A_per_cm2",
+      "type": "number",
+      "unit": "A/cm^2",
+      "description": "Applied current density"
+    },
+    {
+      "name": "voltage_V",
+      "type": "number",
+      "unit": "V",
+      "description": "Operating cell voltage under load"
+    },
+    {
+      "name": "ocv_V",
+      "type": "number",
+      "unit": "V",
+      "description": "Open-circuit voltage (approximate)"
+    },
+    {
+      "name": "overpotential_ohmic_V",
+      "type": "number",
+      "unit": "V",
+      "description": "Ohmic loss (j * ASR)"
+    },
+    {
+      "name": "overpotential_activation_anode_V",
+      "type": "number",
+      "unit": "V",
+      "description": "Anode activation overpotential (Butler\u2013Volmer)"
+    },
+    {
+      "name": "overpotential_activation_cathode_V",
+      "type": "number",
+      "unit": "V",
+      "description": "Cathode activation overpotential (Butler\u2013Volmer)"
+    },
+    {
+      "name": "overpotential_concentration_V",
+      "type": "number",
+      "unit": "V",
+      "description": "Concentration/mass-transport overpotential"
+    },
+    {
+      "name": "total_overpotential_V",
+      "type": "number",
+      "unit": "V",
+      "description": "Sum of overpotentials"
+    },
+    {
+      "name": "R_ohmic_ohm_cm2",
+      "type": "number",
+      "unit": "\u03a9\u00b7cm^2",
+      "description": "Ohmic resistance (EIS)"
+    },
+    {
+      "name": "R_ct_anode_ohm_cm2",
+      "type": "number",
+      "unit": "\u03a9\u00b7cm^2",
+      "description": "Anode charge-transfer resistance (EIS)"
+    },
+    {
+      "name": "R_ct_cathode_ohm_cm2",
+      "type": "number",
+      "unit": "\u03a9\u00b7cm^2",
+      "description": "Cathode charge-transfer resistance (EIS)"
+    },
+    {
+      "name": "R_total_ohm_cm2",
+      "type": "number",
+      "unit": "\u03a9\u00b7cm^2",
+      "description": "Total small-signal resistance (sum)"
+    },
+    {
+      "name": "f_peak_anode_Hz",
+      "type": "number",
+      "unit": "Hz",
+      "description": "Anode semicircle peak frequency (estimate)"
+    },
+    {
+      "name": "f_peak_cathode_Hz",
+      "type": "number",
+      "unit": "Hz",
+      "description": "Cathode semicircle peak frequency (estimate)"
+    },
+    {
+      "name": "delta_mu_O2_J_per_mol",
+      "type": "number",
+      "unit": "J/mol O2",
+      "description": "Oxygen chemical potential difference (\u2248 4 F V)"
+    },
+    {
+      "name": "anode_oxidation_risk_score",
+      "type": "number",
+      "unit": "0..1",
+      "description": "Heuristic Ni\u2192NiO oxidation risk score"
+    },
+    {
+      "name": "anode_ni_oxidation_flag",
+      "type": "integer",
+      "unit": "{0,1}",
+      "description": "1 if risk \u2265 0.6"
+    }
+  ],
+  "notes": [
+    "Fabricated for modeling/demo; not experimental data.",
+    "OCV formula and kinetics are simplified; constants tuned for plausibility.",
+    "EIS parameters derived from simple relations; not fitted to spectra."
+  ],
+  "provenance": {
+    "generator": "scripts/generate_sofc_electrochemical_loading.py",
+    "seed": 42
+  }
+}
