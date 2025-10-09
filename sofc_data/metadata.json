@@ -1,0 +1,15 @@
+{
+  "generator_version": "1.0",
+  "creation_date": "2025-10-09T03:59:16.257328",
+  "description": "SOFC Electrochemical Loading Dataset - Synthetic but realistic data",
+  "cell_configuration": "Planar SOFC with 8YSZ electrolyte",
+  "operating_conditions": {
+    "temperature_range": [
+      600,
+      1000
+    ],
+    "pressure": 1.0,
+    "fuel_composition": "H2/H2O/N2",
+    "oxidant_composition": "Air"
+  }
+}
