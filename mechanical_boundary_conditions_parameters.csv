@@ -1,0 +1,77 @@
+Parameter_ID,Parameter_Name,Parameter_Type,Value,Unit,Uncertainty,Source,Notes
+FIX_001_STIFF,Planar Fixture Stiffness,Mechanical,2.1e6,N/mm,±5%,Experimental,Uniaxial compression fixture
+FIX_001_LOAD,Planar Fixture Load Capacity,Mechanical,5000,N,±2%,Manufacturer,Maximum safe load
+FIX_001_DEFL,Planar Fixture Deflection,Mechanical,0.05,mm,±10%,Experimental,At 2000 N load
+FIX_001_TEMP,Planar Fixture Max Temperature,Thermal,1000,°C,±5%,Specification,Operating limit
+FIX_002_RODS,Multi-Point Rod Count,Geometric,16,count,0,Design,4x4 grid configuration
+FIX_002_STIFF,Multi-Point Rod Stiffness,Mechanical,1.2e5,N/mm,±3%,Experimental,Individual rod stiffness
+FIX_002_UNIF,Multi-Point Load Uniformity,Mechanical,±3,%,±0.5%,Experimental,Load distribution accuracy
+FIX_003_TEMP,Cycling Fixture Temperature Range,Thermal,"25 to 1000",°C,±2%,Specification,Operating range
+FIX_003_RATE,Cycling Fixture Rate,Thermal,5,°C/min,±0.5%,Control,Heating rate
+FIX_003_CYCLES,Cycling Fixture Max Cycles,Mechanical,10000,cycles,0,Specification,Design life
+FIX_004_STIFF,Biaxial X-Axis Stiffness,Mechanical,8e5,N/mm,±2%,Experimental,X-direction stiffness
+FIX_004_STIFF_Y,Biaxial Y-Axis Stiffness,Mechanical,8e5,N/mm,±2%,Experimental,Y-direction stiffness
+FIX_004_COUPLE,Biaxial Cross Coupling,Mechanical,2,%,±0.5%,Experimental,Cross-axis interaction
+PRES_001_MIN,Assembly Pressure Minimum,Pressure,0.05,MPa,±10%,Design,Minimum assembly pressure
+PRES_001_NOM,Assembly Pressure Nominal,Pressure,0.2,MPa,±5%,Design,Recommended pressure
+PRES_001_MAX,Assembly Pressure Maximum,Pressure,0.5,MPa,±10%,Design,Maximum safe pressure
+PRES_001_RATE,Assembly Pressure Rate,Pressure,0.01,MPa/s,±20%,Control,Application rate
+PRES_002_IDLE,Operational Pressure Idle,Pressure,0.1,MPa,±5%,Control,Idle condition
+PRES_002_OP,Operational Pressure Operation,Pressure,0.2,MPa,±5%,Control,Normal operation
+PRES_002_SHUT,Operational Pressure Shutdown,Pressure,0.05,MPa,±10%,Control,Shutdown condition
+PRES_003_PEAK,Thermal Expansion Peak Pressure,Pressure,0.35,MPa,±15%,Calculated,At 800°C
+PRES_003_CTE,Thermal Expansion Coefficient,Thermal,11.9e-6,K^-1,±2%,Material,Interconnect CTE
+PRES_004_DIFF,Gas Pressure Differential,Pressure,0.1,bar,±10%,Control,Fuel-air pressure difference
+PRES_004_MAX_DIFF,Gas Pressure Max Differential,Pressure,0.2,bar,±10%,Safety,Maximum safe differential
+CONS_001_STIFF,Housing Stiffness,Mechanical,5e6,N/mm,±10%,Design,Stack housing stiffness
+CONS_001_END,End Plate Stiffness,Mechanical,2e6,N/mm,±10%,Design,End plate stiffness
+CONS_001_SYS,Overall System Stiffness,Mechanical,8e5,N/mm,±15%,Calculated,Combined stiffness
+CONS_002_LEAK,Gas Seal Leak Rate,Leakage,1e-6,mbar·L/s,±50%,Test,Maximum acceptable leak
+CONS_002_FORCE,Seal Force,Mechanical,0.1-0.3,MPa,±20%,Design,Required sealing force
+CONS_002_TEMP,Seal Temperature Range,Thermal,"-40 to 900",°C,±5%,Specification,Operating range
+CONS_003_RES,Contact Resistance,Electrical,1-5,mΩ·cm²,±20%,Test,Electrical contact resistance
+CONS_003_FORCE,Contact Force,Mechanical,0.1-0.5,MPa,±15%,Design,Required contact force
+CONS_003_CURR,Current Density,Electrical,0.1-1.0,A/cm²,±10%,Design,Operating current density
+CONS_004_HTC,Heat Transfer Coefficient,Thermal,50-200,W/m²·K,±20%,Experimental,Convective HTC
+CONS_004_GRAD,Temperature Gradient,Thermal,50,°C,±10%,Design,Maximum across cell
+CONS_004_MASS,Thermal Mass,Thermal,500-2000,J/K,±15%,Calculated,Heat capacity
+LOAD_001_MAG,Compressive Load Magnitude,Mechanical,2000-5000,N,±5%,Design,Assembly load range
+LOAD_001_RATE,Compressive Load Rate,Mechanical,100,N/s,±20%,Control,Application rate
+LOAD_001_DWELL,Compressive Load Dwell,Mechanical,30,minutes,±10%,Process,Dwell time
+LOAD_001_UNIF,Compressive Load Uniformity,Mechanical,±5,%,±1%,Test,Load distribution
+LOAD_002_TEMP,Thermal Cycle Temperature,Thermal,"25 to 800",°C,±2%,Control,Cycle range
+LOAD_002_FREQ,Thermal Cycle Frequency,Mechanical,1-3,cycles/day,±20%,Operation,Cycling frequency
+LOAD_002_AMP,Thermal Load Amplitude,Mechanical,500-1500,N,±10%,Calculated,Load amplitude
+LOAD_002_MEAN,Thermal Load Mean,Mechanical,1000,N,±10%,Calculated,Mean load
+LOAD_003_FREQ,Vibration Frequency,Mechanical,1-1000,Hz,±5%,Test,Frequency range
+LOAD_003_ACC,Vibration Acceleration,Mechanical,1-50,m/s²,±10%,Test,Acceleration range
+LOAD_003_DISP,Vibration Displacement,Mechanical,0.1-1.0,mm,±20%,Test,Displacement amplitude
+LOAD_003_AMP,Vibration Load Amplitude,Mechanical,100-1000,N,±15%,Calculated,Load amplitude
+LOAD_004_DIFF,Pressure Differential Load,Mechanical,0.1-0.2,bar,±10%,Control,Pressure difference
+LOAD_004_FLUCT,Pressure Fluctuations,Mechanical,±0.01,bar,±20%,Control,Pressure variations
+LOAD_004_MAG,Pressure Load Magnitude,Mechanical,100-200,N,±15%,Calculated,Resultant load
+LOAD_004_DIR,Pressure Load Direction,Mechanical,Normal,degrees,0,Geometry,Load direction
+VAL_001_PRES,Validation Pressure,Pressure,0.18-0.22,MPa,±5%,Experimental,Measured range
+VAL_001_UNIF,Validation Uniformity,Mechanical,±8,%,±2%,Experimental,Pressure uniformity
+VAL_001_EDGE,Validation Edge Reduction,Mechanical,15-25,%,±5%,Experimental,Edge pressure reduction
+VAL_001_CORNER,Validation Corner Reduction,Mechanical,35-45,%,±5%,Experimental,Corner pressure reduction
+VAL_002_CTE,Validation CTE,Thermal,11.8e-6,K^-1,±2%,Experimental,Measured CTE
+VAL_002_STRAIN,Validation Expansion Strain,Mechanical,0.91,%,±1%,Experimental,At 800°C
+VAL_002_NONLIN,Validation Non-linearity,Mechanical,2,%,±0.5%,Experimental,Non-linear behavior
+VAL_002_HYST,Validation Hysteresis,Mechanical,1,%,±0.2%,Experimental,Cyclic hysteresis
+VAL_003_RATE,Validation Creep Rate,Mechanical,1e-8 to 1e-6,s^-1,±20%,Experimental,Strain rate range
+VAL_003_EXP,Validation Stress Exponent,Mechanical,1.7-1.9,unitless,±5%,Experimental,Power law exponent
+VAL_003_ACT,Validation Activation Energy,Mechanical,380-390,kJ/mol,±3%,Experimental,Activation energy
+VAL_003_PRIM,Validation Primary Creep,Mechanical,20-30,%,±5%,Experimental,Primary creep fraction
+VAL_004_LIFE,Validation Fatigue Life,Mechanical,500-2000,cycles,±25%,Experimental,Cycles to failure
+VAL_004_RANGE,Validation Stress Range,Mechanical,80-120,MPa,±10%,Experimental,Stress range
+VAL_004_MEAN,Validation Mean Stress,Mechanical,100-150,MPa,±10%,Experimental,Mean stress
+VAL_004_MODE,Validation Failure Mode,Mechanical,Thermal Fatigue,text,0,Observation,Failure mechanism
+MAT_YSZ_E,YSZ Young's Modulus (25°C),Material,200,GPa,±5%,Literature,Room temperature
+MAT_YSZ_E_HOT,YSZ Young's Modulus (800°C),Material,170,GPa,±5%,Literature,High temperature
+MAT_YSZ_NU,YSZ Poisson's Ratio,Material,0.23,unitless,±2%,Literature,Temperature independent
+MAT_YSZ_CTE,YSZ Thermal Expansion,Material,10.5e-6,K^-1,±2%,Literature,Temperature dependent
+MAT_YSZ_STR,YSZ Characteristic Strength,Material,165,MPa,±10%,Experimental,Flexural strength
+MAT_YSZ_CREEP_B,YSZ Creep Pre-exponential,Material,8.5e-12,s^-1·MPa^-n,±20%,Experimental,Creep parameter
+MAT_YSZ_CREEP_N,YSZ Creep Exponent,Material,1.8,unitless,±5%,Experimental,Stress exponent
+MAT_YSZ_CREEP_Q,YSZ Creep Activation Energy,Material,385,kJ/mol,±3%,Experimental,Activation energy
