@@ -1,0 +1,18 @@
+{
+  "iv_curve_statistics": {
+    "max_current_density_A_cm2": 1.5,
+    "voltage_at_peak_power_V": 0.39022559230137766,
+    "peak_power_density_W_cm2": 0.27197541281611165,
+    "max_anode_overpotential_V": 0.2563870593830778,
+    "max_cathode_overpotential_V": 0.5127741187661556
+  },
+  "stress_coupling_statistics": {
+    "max_stress_induced_MPa": 0.0,
+    "max_oxidation_risk_factor": 0.6553599999999997,
+    "max_O2_chemical_potential_gradient_J_mol": 868365000.0
+  },
+  "degradation_statistics": {
+    "voltage_degradation_mV_per_kh": -0.09603824345966204,
+    "total_voltage_loss_mV": 110.2247859224389
+  }
+}
