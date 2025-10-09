@@ -1,0 +1,56 @@
+Material,Category,Property,Value,Uncertainty,Temperature_K,Source,Method,Notes
+YSZ,elastic_298K,youngs_modulus_GPa,205.0,15.0,298.15,"Atkinson & Selçuk (2003), Evans et al. (2001)","Nanoindentation, Ultrasonic","8YSZ, dense ceramic"
+YSZ,elastic_298K,poissons_ratio,0.31,0.02,298.15,Giraud & Canel (2008),Ultrasonic measurements,Typical for cubic zirconia
+YSZ,elastic_298K,shear_modulus_GPa,78.2,6.0,298.15,Calculated from E and ν,Derived property,G = E/(2(1+ν))
+YSZ,elastic_298K,bulk_modulus_GPa,183.0,12.0,298.15,Bogicevic et al. (2001),DFT calculations,Bulk modulus for 8YSZ
+YSZ,elastic_1073K,youngs_modulus_GPa,165.0,12.0,1073.15,Hayashi et al. (2005),High-temperature mechanical testing,Temperature-dependent degradation
+YSZ,elastic_1073K,poissons_ratio,0.33,0.025,1073.15,Extrapolated from RT data,Temperature correlation,Slight increase with temperature
+YSZ,fracture,critical_energy_release_rate_J_m2,25.0,5.0,298.15,"Swanson et al. (1987), Lugovy et al. (2005)","Double cantilever beam, compact tension","Mode I fracture, dense YSZ"
+YSZ,fracture,fracture_toughness_MPa_sqrt_m,2.2,0.3,298.15,Chevalier et al. (2009),Single edge notched beam,"K_Ic for 8YSZ, grain size ~1μm"
+YSZ,fracture,crack_growth_exponent,25.0,5.0,298.15,Chevalier et al. (2007),Cyclic fatigue testing,Paris law exponent for YSZ
+YSZ,thermal,thermal_expansion_coefficient_K_inv,1.08e-05,5e-07,1073.15,"Hayashi et al. (2005), Badwal & Foger (1996)",Dilatometry,"Linear CTE, 300-1000K range"
+YSZ,thermal,thermal_conductivity_W_mK,2.3,0.2,1073.15,Matsui et al. (2005),Laser flash method,Dense 8YSZ at operating temperature
+YSZ,thermal,specific_heat_J_kgK,470.0,20.0,1073.15,Jacob & Alcock (1975),Drop calorimetry,Temperature-dependent specific heat
+YSZ,chemical_expansion,chemical_expansion_coefficient,1e-08,5e-09,1073.15,Estimated from defect chemistry,Theoretical analysis,Minimal chemical expansion under normal pO2
+YSZ,chemical_expansion,activation_energy_eV,1.2,0.2,1073.15,Badwal & Ciacchi (2001),Impedance spectroscopy,Oxygen vacancy migration energy
+Ni,elastic_298K,youngs_modulus_GPa,207.0,5.0,298.15,ASM Handbook Vol. 2 (1990),Tensile testing,"Pure Ni, polycrystalline"
+Ni,elastic_298K,poissons_ratio,0.31,0.01,298.15,ASM Handbook Vol. 2 (1990),Strain gauge measurements,Standard value for pure Ni
+Ni,elastic_298K,shear_modulus_GPa,79.0,3.0,298.15,Calculated from E and ν,Derived property,G = E/(2(1+ν))
+Ni,elastic_1073K,youngs_modulus_GPa,155.0,8.0,1073.15,Simmons & Wang (1971),High-temperature tensile testing,Significant temperature dependence
+Ni,elastic_1073K,poissons_ratio,0.33,0.015,1073.15,Temperature extrapolation,Correlation with temperature,Increases slightly with temperature
+Ni,fracture,critical_energy_release_rate_J_m2,180000.0,20000.0,298.15,"Anderson (2005), Metals Handbook",Charpy impact testing,"Pure Ni, very ductile behavior"
+Ni,fracture,fracture_toughness_MPa_sqrt_m,85.0,10.0,298.15,Ritchie et al. (1973),Compact tension testing,"Pure Ni, plane strain conditions"
+Ni,thermal,thermal_expansion_coefficient_K_inv,1.68e-05,3e-07,1073.15,Touloukian et al. (1975),Dilatometry,"Linear CTE, significant mismatch with YSZ"
+Ni,thermal,thermal_conductivity_W_mK,67.0,3.0,1073.15,Ho et al. (1972),Steady-state method,High thermal conductivity
+Ni,chemical_expansion,chemical_expansion_coefficient,0.00021,3e-05,1073.15,"Klemensø et al. (2005), Pihlatie et al. (2009)",Dilatometry under controlled atmosphere,"Ni to NiO expansion, major concern in SOFC"
+Ni,chemical_expansion,activation_energy_eV,1.8,0.3,1073.15,Atkinson (1985),Thermogravimetric analysis,Ni oxidation kinetics
+Ni-YSZ_30,elastic_1073K,youngs_modulus_GPa,161.93354430379748,0.03322784810126933,1073.15,Voigt-Reuss-Hill micromechanical model,Homogenization theory,Ni volume fraction: 0.30
+Ni-YSZ_30,elastic_1073K,poissons_ratio,0.32999999999999996,1.3877787807814457e-17,1073.15,Voigt-Reuss-Hill micromechanical model,Homogenization theory,Ni volume fraction: 0.30
+Ni-YSZ_30,fracture,critical_energy_release_rate_J_m2,40.0,12.0,1073.15,Micromechanical model with percolation,Rule of mixtures with network effects,"Ni volume fraction: 0.30, percolation considered"
+Ni-YSZ_30,fracture,fracture_toughness_MPa_sqrt_m,2.8000000000000003,0.7000000000000001,1073.15,Micromechanical model,Modified rule of mixtures,Ni volume fraction: 0.30
+Ni-YSZ_30,thermal,thermal_expansion_coefficient_K_inv,1.2599999999999998e-05,1.2599999999999996e-06,1073.15,Rule of mixtures,Volume-weighted average,"Ni volume fraction: 0.30, CTE mismatch stress"
+Ni-YSZ_30,chemical_expansion,chemical_expansion_coefficient,4.095e-05,1.2600000000000001e-05,1073.15,Constrained expansion model,Micromechanical analysis,"Ni volume fraction: 0.30, YSZ constraint effect"
+Ni-YSZ_40,elastic_1073K,youngs_modulus_GPa,160.9245283018868,0.03773584905660243,1073.15,Voigt-Reuss-Hill micromechanical model,Homogenization theory,Ni volume fraction: 0.40
+Ni-YSZ_40,elastic_1073K,poissons_ratio,0.33,0.0,1073.15,Voigt-Reuss-Hill micromechanical model,Homogenization theory,Ni volume fraction: 0.40
+Ni-YSZ_40,fracture,critical_energy_release_rate_J_m2,105.0,31.5,1073.15,Micromechanical model with percolation,Rule of mixtures with network effects,"Ni volume fraction: 0.40, percolation considered"
+Ni-YSZ_40,fracture,fracture_toughness_MPa_sqrt_m,5.4,1.35,1073.15,Micromechanical model,Modified rule of mixtures,Ni volume fraction: 0.40
+Ni-YSZ_40,thermal,thermal_expansion_coefficient_K_inv,1.3199999999999999e-05,1.4399999999999996e-06,1073.15,Rule of mixtures,Volume-weighted average,"Ni volume fraction: 0.40, CTE mismatch stress"
+Ni-YSZ_40,chemical_expansion,chemical_expansion_coefficient,5.88e-05,1.6800000000000002e-05,1073.15,Constrained expansion model,Micromechanical analysis,"Ni volume fraction: 0.40, YSZ constraint effect"
+Ni-YSZ_50,elastic_1073K,youngs_modulus_GPa,159.921875,0.0390625,1073.15,Voigt-Reuss-Hill micromechanical model,Homogenization theory,Ni volume fraction: 0.50
+Ni-YSZ_50,elastic_1073K,poissons_ratio,0.33,0.0,1073.15,Voigt-Reuss-Hill micromechanical model,Homogenization theory,Ni volume fraction: 0.50
+Ni-YSZ_50,fracture,critical_energy_release_rate_J_m2,125.0,37.5,1073.15,Micromechanical model with percolation,Rule of mixtures with network effects,"Ni volume fraction: 0.50, percolation considered"
+Ni-YSZ_50,fracture,fracture_toughness_MPa_sqrt_m,6.2,1.55,1073.15,Micromechanical model,Modified rule of mixtures,Ni volume fraction: 0.50
+Ni-YSZ_50,thermal,thermal_expansion_coefficient_K_inv,1.38e-05,1.4999999999999996e-06,1073.15,Rule of mixtures,Volume-weighted average,"Ni volume fraction: 0.50, CTE mismatch stress"
+Ni-YSZ_50,chemical_expansion,chemical_expansion_coefficient,7.875e-05,2.1000000000000002e-05,1073.15,Constrained expansion model,Micromechanical analysis,"Ni volume fraction: 0.50, YSZ constraint effect"
+Ni-YSZ_60,elastic_1073K,youngs_modulus_GPa,158.9254658385093,0.03726708074534457,1073.15,Voigt-Reuss-Hill micromechanical model,Homogenization theory,Ni volume fraction: 0.60
+Ni-YSZ_60,elastic_1073K,poissons_ratio,0.33,0.0,1073.15,Voigt-Reuss-Hill micromechanical model,Homogenization theory,Ni volume fraction: 0.60
+Ni-YSZ_60,fracture,critical_energy_release_rate_J_m2,145.0,43.5,1073.15,Micromechanical model with percolation,Rule of mixtures with network effects,"Ni volume fraction: 0.60, percolation considered"
+Ni-YSZ_60,fracture,fracture_toughness_MPa_sqrt_m,7.0,1.75,1073.15,Micromechanical model,Modified rule of mixtures,Ni volume fraction: 0.60
+Ni-YSZ_60,thermal,thermal_expansion_coefficient_K_inv,1.4399999999999998e-05,1.4399999999999998e-06,1073.15,Rule of mixtures,Volume-weighted average,"Ni volume fraction: 0.60, CTE mismatch stress"
+Ni-YSZ_60,chemical_expansion,chemical_expansion_coefficient,0.00010080000000000001,2.5200000000000003e-05,1073.15,Constrained expansion model,Micromechanical analysis,"Ni volume fraction: 0.60, YSZ constraint effect"
+Interface_Ni_YSZ,fracture,critical_energy_release_rate_J_m2,8.5,2.5,1073.15,"Malzbender & Steinbrech (2007), Yakabe et al. (2001)",Double cantilever beam on bi-material specimens,"Ni/YSZ interface, mode I fracture, weakest link"
+Interface_Ni_YSZ,fracture,fracture_toughness_MPa_sqrt_m,0.8,0.3,1073.15,Estimated from G_c using plane strain,K_Ic = sqrt(G_c * E / (1-ν²)),Critical interface parameter for delamination
+Interface_anode_electrolyte,fracture,critical_energy_release_rate_J_m2,12.0,4.0,1073.15,"Selçuk & Atkinson (2000), Nakajo et al. (2012)",Four-point bending of layered specimens,"Anode/electrolyte interface, thermal cycling critical"
+Interface_anode_electrolyte,fracture,fracture_toughness_MPa_sqrt_m,1.1,0.4,1073.15,Derived from G_c measurements,Mode I fracture mechanics,Determines cell reliability under thermal stress
+Interface_cathode_electrolyte,fracture,critical_energy_release_rate_J_m2,18.0,5.0,1073.15,"Yakabe et al. (2001), estimated from similar systems",Extrapolation from LSM/YSZ data,Typically stronger than anode/electrolyte
+Interface_cathode_electrolyte,fracture,fracture_toughness_MPa_sqrt_m,1.4,0.4,1073.15,Derived from G_c,Mode I fracture mechanics,Less critical than anode interface
