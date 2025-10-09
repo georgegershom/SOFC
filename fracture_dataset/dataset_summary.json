@@ -1,0 +1,58 @@
+{
+  "dataset_info": {
+    "name": "SOFC Ground Truth Fracture Dataset",
+    "version": "1.0",
+    "creation_date": "2025-10-09",
+    "num_samples": 10,
+    "description": "Synthetic ground truth fracture data for PINN training and validation"
+  },
+  "data_types": {
+    "in_situ_crack_evolution": {
+      "format": "HDF5",
+      "dimensions": "4D (x, y, z, t)",
+      "resolution": [
+        64,
+        64,
+        32
+      ],
+      "temporal_resolution": "3600 seconds",
+      "physical_size": "2.34 \u03bcm/voxel"
+    },
+    "ex_situ_sem_images": {
+      "format": "HDF5",
+      "resolution": "512x512 pixels",
+      "pixel_size": "50 nm/pixel",
+      "num_images_per_sample": 20
+    },
+    "performance_degradation": {
+      "format": "JSON",
+      "metrics": [
+        "voltage",
+        "ASR",
+        "power_density",
+        "mechanical_properties"
+      ],
+      "correlations": "Included with delamination area"
+    }
+  },
+  "physical_parameters": {
+    "youngs_modulus": 170000000000.0,
+    "poisson_ratio": 0.23,
+    "thermal_expansion": 1.05e-05,
+    "fracture_toughness": 3000000.0,
+    "characteristic_length": 0.00015,
+    "operating_temp": 1073.15,
+    "stress_threshold": 165000000.0
+  },
+  "simulation_parameters": {
+    "grid_size": [
+      64,
+      64,
+      32
+    ],
+    "time_steps": 25,
+    "voxel_size": 2.34e-06,
+    "time_step": 3600,
+    "num_samples": 10
+  }
+}
