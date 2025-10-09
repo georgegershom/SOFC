@@ -1,0 +1,265 @@
+{
+  "fixtures": [
+    {
+      "fixture_id": "FIX001",
+      "name": "Fixed-Fixed Clamp",
+      "category": "Rigid Boundary",
+      "specifications": {
+        "material": "Stainless Steel 316",
+        "max_clamping_force_N": 5000,
+        "jaw_opening_mm": 50,
+        "jaw_width_mm": 100,
+        "surface_finish_Ra_um": 0.8,
+        "flatness_tolerance_mm": 0.01,
+        "parallel_tolerance_mm": 0.02
+      },
+      "applicable_tests": ["Tensile", "Compression", "Fatigue", "Vibration"],
+      "temperature_range_C": [-50, 200],
+      "compatible_sample_geometry": ["Rectangular", "Cylindrical", "Dog-bone"]
+    },
+    {
+      "fixture_id": "FIX002",
+      "name": "Hydraulic Grips",
+      "category": "Variable Pressure",
+      "specifications": {
+        "material": "Titanium Alloy Ti-6Al-4V",
+        "max_hydraulic_pressure_MPa": 70,
+        "grip_face_pattern": "Diamond knurl",
+        "jaw_face_hardness_HRC": 58,
+        "max_specimen_width_mm": 75,
+        "min_specimen_thickness_mm": 0.5,
+        "max_specimen_thickness_mm": 30
+      },
+      "applicable_tests": ["Tensile", "Cyclic", "Creep"],
+      "temperature_range_C": [-100, 350],
+      "compatible_sample_geometry": ["Flat", "Round", "Wire"]
+    },
+    {
+      "fixture_id": "FIX003",
+      "name": "Four-Point Bend Fixture",
+      "category": "Flexural",
+      "specifications": {
+        "material": "Tool Steel D2",
+        "support_span_mm": 100,
+        "load_span_mm": 50,
+        "roller_diameter_mm": 10,
+        "roller_length_mm": 120,
+        "max_load_capacity_N": 10000,
+        "alignment_accuracy_mm": 0.05
+      },
+      "applicable_tests": ["Flexural", "Bend", "Fracture"],
+      "temperature_range_C": [20, 100],
+      "compatible_sample_geometry": ["Beam", "Plate"]
+    },
+    {
+      "fixture_id": "FIX004",
+      "name": "Compression Platen",
+      "category": "Compression",
+      "specifications": {
+        "material": "Hardened Steel HRC 60",
+        "platen_diameter_mm": 150,
+        "flatness_um": 5,
+        "parallelism_um": 10,
+        "surface_finish_Ra_um": 0.4,
+        "max_compression_load_N": 50000,
+        "spherical_seat_available": true
+      },
+      "applicable_tests": ["Compression", "Crush", "Indentation"],
+      "temperature_range_C": [-30, 150],
+      "compatible_sample_geometry": ["Cubic", "Cylindrical", "Irregular"]
+    },
+    {
+      "fixture_id": "FIX005",
+      "name": "Vacuum Chuck",
+      "category": "Non-contact Holding",
+      "specifications": {
+        "material": "Porous Ceramic",
+        "chuck_diameter_mm": 200,
+        "max_vacuum_pressure_kPa": -95,
+        "porosity_percent": 35,
+        "holding_force_per_cm2_N": 8,
+        "flatness_um": 10,
+        "vacuum_port_size_mm": 12
+      },
+      "applicable_tests": ["Thin film", "Wafer", "Fragile materials"],
+      "temperature_range_C": [10, 80],
+      "compatible_sample_geometry": ["Flat", "Thin sheet"]
+    },
+    {
+      "fixture_id": "FIX006",
+      "name": "Pin Joint Support",
+      "category": "Pivoting",
+      "specifications": {
+        "material": "Titanium Alloy",
+        "pin_diameter_mm": 20,
+        "bearing_type": "Needle bearing",
+        "max_load_capacity_N": 5000,
+        "rotation_range_degrees": 360,
+        "friction_coefficient": 0.002,
+        "radial_play_mm": 0.01
+      },
+      "applicable_tests": ["Buckling", "Rotating beam", "Pivoting load"],
+      "temperature_range_C": [-50, 250],
+      "compatible_sample_geometry": ["Rod", "Beam with holes"]
+    },
+    {
+      "fixture_id": "FIX007",
+      "name": "Electromagnetic Fixture",
+      "category": "Magnetic Holding",
+      "specifications": {
+        "material": "Electromagnetic Core Steel",
+        "max_magnetic_field_Tesla": 1.5,
+        "pole_face_area_cm2": 100,
+        "holding_force_N": 2000,
+        "power_consumption_W": 150,
+        "field_uniformity_percent": 95,
+        "demagnetization_capable": true
+      },
+      "applicable_tests": ["Ferromagnetic materials", "Magnetic property testing"],
+      "temperature_range_C": [15, 60],
+      "compatible_sample_geometry": ["Any ferromagnetic shape"]
+    },
+    {
+      "fixture_id": "FIX008",
+      "name": "Collet Chuck",
+      "category": "Radial Clamping",
+      "specifications": {
+        "material": "Spring Steel",
+        "collet_range_mm": [5, 25],
+        "runout_accuracy_mm": 0.005,
+        "max_clamping_force_N": 3000,
+        "number_of_segments": 6,
+        "taper_angle_degrees": 8,
+        "quick_change_capable": true
+      },
+      "applicable_tests": ["Torsion", "Rotating fatigue", "Shaft testing"],
+      "temperature_range_C": [0, 120],
+      "compatible_sample_geometry": ["Cylindrical", "Hexagonal"]
+    },
+    {
+      "fixture_id": "FIX009",
+      "name": "Environmental Chamber Fixture",
+      "category": "Environmental Testing",
+      "specifications": {
+        "material": "Invar (Low CTE)",
+        "temperature_stability_C": 0.1,
+        "CTE_ppm_per_C": 1.2,
+        "integrated_load_cell": true,
+        "feedthrough_ports": 4,
+        "viewport_available": true,
+        "atmosphere_control": "Yes"
+      },
+      "applicable_tests": ["Temperature cycling", "Humidity", "Corrosion"],
+      "temperature_range_C": [-196, 600],
+      "compatible_sample_geometry": ["Universal"]
+    },
+    {
+      "fixture_id": "FIX010",
+      "name": "Wedge Grips",
+      "category": "Self-Tightening",
+      "specifications": {
+        "material": "Stainless Steel 17-4PH",
+        "wedge_angle_degrees": 10,
+        "grip_face_length_mm": 50,
+        "grip_face_width_mm": 50,
+        "self_tightening_ratio": 3.5,
+        "max_specimen_thickness_mm": 20,
+        "serration_pitch_mm": 1.0
+      },
+      "applicable_tests": ["High-load tensile", "Composite testing"],
+      "temperature_range_C": [-70, 300],
+      "compatible_sample_geometry": ["Flat", "Composite laminates"]
+    }
+  ],
+  "boundary_condition_types": {
+    "mechanical": {
+      "fixed": {
+        "description": "All degrees of freedom constrained",
+        "DOF_constrained": ["Ux", "Uy", "Uz", "Rx", "Ry", "Rz"],
+        "typical_fixtures": ["FIX001", "FIX009"]
+      },
+      "pinned": {
+        "description": "Translations constrained, rotations free",
+        "DOF_constrained": ["Ux", "Uy", "Uz"],
+        "typical_fixtures": ["FIX006"]
+      },
+      "roller": {
+        "description": "One translation free, others constrained",
+        "DOF_constrained": ["Uy", "Uz", "Rx", "Ry", "Rz"],
+        "typical_fixtures": ["FIX003"]
+      },
+      "free": {
+        "description": "No constraints applied",
+        "DOF_constrained": [],
+        "typical_fixtures": []
+      },
+      "elastic": {
+        "description": "Spring-like boundary with stiffness",
+        "DOF_constrained": "Variable",
+        "typical_fixtures": ["Custom spring fixtures"]
+      }
+    },
+    "thermal": {
+      "isothermal": {
+        "description": "Constant temperature boundary",
+        "control_type": "Temperature"
+      },
+      "adiabatic": {
+        "description": "No heat transfer across boundary",
+        "control_type": "Heat flux = 0"
+      },
+      "convective": {
+        "description": "Heat transfer to surrounding medium",
+        "control_type": "Heat transfer coefficient"
+      }
+    }
+  },
+  "applied_load_types": {
+    "static": {
+      "description": "Constant load over time",
+      "parameters": ["magnitude", "direction"]
+    },
+    "cyclic": {
+      "description": "Sinusoidal varying load",
+      "parameters": ["amplitude", "frequency", "mean_load", "R_ratio"]
+    },
+    "ramp": {
+      "description": "Linearly increasing load",
+      "parameters": ["initial_load", "final_load", "ramp_rate"]
+    },
+    "stepped": {
+      "description": "Discrete load steps",
+      "parameters": ["step_magnitudes", "step_durations"]
+    },
+    "random": {
+      "description": "Stochastic load pattern",
+      "parameters": ["PSD", "RMS_level", "frequency_range"]
+    },
+    "impulse": {
+      "description": "Short duration high magnitude load",
+      "parameters": ["peak_load", "duration", "shape"]
+    }
+  },
+  "stack_pressure_configurations": {
+    "uniform": {
+      "description": "Constant pressure across entire surface",
+      "pressure_distribution": "Constant",
+      "typical_range_MPa": [0.1, 10]
+    },
+    "gradient": {
+      "description": "Linearly varying pressure",
+      "pressure_distribution": "Linear",
+      "typical_range_MPa": [0, 5]
+    },
+    "localized": {
+      "description": "Concentrated pressure at specific points",
+      "pressure_distribution": "Point/Area loads",
+      "typical_range_MPa": [1, 20]
+    },
+    "hydrostatic": {
+      "description": "Equal pressure from all directions",
+      "pressure_distribution": "Isotropic",
+      "typical_range_MPa": [1, 100]
+    }
+  }
+}

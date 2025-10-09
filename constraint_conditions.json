@@ -1,0 +1,413 @@
+{
+  "constraint_definitions": [
+    {
+      "constraint_id": "CON001",
+      "experiment_id": "EXP001",
+      "constraint_type": "Fixed Support",
+      "location": "Both Ends",
+      "degrees_of_freedom": {
+        "translation_x": "Fixed",
+        "translation_y": "Fixed",
+        "translation_z": "Fixed",
+        "rotation_x": "Fixed",
+        "rotation_y": "Fixed",
+        "rotation_z": "Fixed"
+      },
+      "stiffness_matrix": {
+        "K_xx": 1e8,
+        "K_yy": 1e8,
+        "K_zz": 1e8,
+        "K_rx": 1e6,
+        "K_ry": 1e6,
+        "K_rz": 1e6
+      },
+      "damping_coefficient": 0.05,
+      "contact_properties": {
+        "friction_coefficient": 0.3,
+        "contact_stiffness": 1e7,
+        "separation_allowed": false
+      }
+    },
+    {
+      "constraint_id": "CON002",
+      "experiment_id": "EXP002",
+      "constraint_type": "Cantilever",
+      "location": "Left End",
+      "degrees_of_freedom": {
+        "translation_x": "Fixed",
+        "translation_y": "Fixed",
+        "translation_z": "Fixed",
+        "rotation_x": "Fixed",
+        "rotation_y": "Fixed",
+        "rotation_z": "Free"
+      },
+      "stiffness_matrix": {
+        "K_xx": 1e8,
+        "K_yy": 1e8,
+        "K_zz": 1e8,
+        "K_rx": 1e6,
+        "K_ry": 1e6,
+        "K_rz": 0
+      },
+      "damping_coefficient": 0.03,
+      "contact_properties": {
+        "friction_coefficient": 0.25,
+        "contact_stiffness": 8e6,
+        "separation_allowed": false
+      }
+    },
+    {
+      "constraint_id": "CON003",
+      "experiment_id": "EXP003",
+      "constraint_type": "Simply Supported",
+      "location": "Both Ends",
+      "degrees_of_freedom": {
+        "translation_x": "Fixed",
+        "translation_y": "Free",
+        "translation_z": "Fixed",
+        "rotation_x": "Fixed",
+        "rotation_y": "Free",
+        "rotation_z": "Fixed"
+      },
+      "stiffness_matrix": {
+        "K_xx": 1e8,
+        "K_yy": 0,
+        "K_zz": 1e8,
+        "K_rx": 1e6,
+        "K_ry": 0,
+        "K_rz": 1e6
+      },
+      "damping_coefficient": 0.02,
+      "contact_properties": {
+        "friction_coefficient": 0.15,
+        "contact_stiffness": 5e6,
+        "separation_allowed": true
+      }
+    },
+    {
+      "constraint_id": "CON004",
+      "experiment_id": "EXP004",
+      "constraint_type": "Four-Point Contact",
+      "location": "Distributed",
+      "degrees_of_freedom": {
+        "translation_x": "Fixed",
+        "translation_y": "Fixed",
+        "translation_z": "Fixed",
+        "rotation_x": "Free",
+        "rotation_y": "Fixed",
+        "rotation_z": "Fixed"
+      },
+      "stiffness_matrix": {
+        "K_xx": 1e8,
+        "K_yy": 1e8,
+        "K_zz": 1e8,
+        "K_rx": 0,
+        "K_ry": 1e6,
+        "K_rz": 1e6
+      },
+      "damping_coefficient": 0.04,
+      "contact_properties": {
+        "friction_coefficient": 0.35,
+        "contact_stiffness": 1.2e7,
+        "separation_allowed": false
+      }
+    },
+    {
+      "constraint_id": "CON005",
+      "experiment_id": "EXP005",
+      "constraint_type": "Compression Platens",
+      "location": "Top and Bottom",
+      "degrees_of_freedom": {
+        "translation_x": "Free",
+        "translation_y": "Free",
+        "translation_z": "Fixed",
+        "rotation_x": "Fixed",
+        "rotation_y": "Fixed",
+        "rotation_z": "Free"
+      },
+      "stiffness_matrix": {
+        "K_xx": 0,
+        "K_yy": 0,
+        "K_zz": 2e8,
+        "K_rx": 1e6,
+        "K_ry": 1e6,
+        "K_rz": 0
+      },
+      "damping_coefficient": 0.06,
+      "contact_properties": {
+        "friction_coefficient": 0.1,
+        "contact_stiffness": 2e7,
+        "separation_allowed": false
+      }
+    },
+    {
+      "constraint_id": "CON006",
+      "experiment_id": "EXP006",
+      "constraint_type": "Tensile Grips",
+      "location": "Both Ends",
+      "degrees_of_freedom": {
+        "translation_x": "Fixed",
+        "translation_y": "Fixed",
+        "translation_z": "Free",
+        "rotation_x": "Fixed",
+        "rotation_y": "Fixed",
+        "rotation_z": "Fixed"
+      },
+      "stiffness_matrix": {
+        "K_xx": 1e8,
+        "K_yy": 1e8,
+        "K_zz": 0,
+        "K_rx": 1e6,
+        "K_ry": 1e6,
+        "K_rz": 1e6
+      },
+      "damping_coefficient": 0.04,
+      "contact_properties": {
+        "friction_coefficient": 0.45,
+        "contact_stiffness": 1.5e7,
+        "separation_allowed": false
+      }
+    },
+    {
+      "constraint_id": "CON007",
+      "experiment_id": "EXP007",
+      "constraint_type": "V-Block Support",
+      "location": "Bottom",
+      "degrees_of_freedom": {
+        "translation_x": "Fixed",
+        "translation_y": "Free",
+        "translation_z": "Fixed",
+        "rotation_x": "Free",
+        "rotation_y": "Fixed",
+        "rotation_z": "Fixed"
+      },
+      "stiffness_matrix": {
+        "K_xx": 1e8,
+        "K_yy": 0,
+        "K_zz": 1e8,
+        "K_rx": 0,
+        "K_ry": 1e6,
+        "K_rz": 1e6
+      },
+      "damping_coefficient": 0.03,
+      "contact_properties": {
+        "friction_coefficient": 0.2,
+        "contact_stiffness": 8e6,
+        "separation_allowed": true
+      }
+    },
+    {
+      "constraint_id": "CON008",
+      "experiment_id": "EXP008",
+      "constraint_type": "Magnetic Holding",
+      "location": "Bottom Surface",
+      "degrees_of_freedom": {
+        "translation_x": "Fixed",
+        "translation_y": "Fixed",
+        "translation_z": "Fixed",
+        "rotation_x": "Fixed",
+        "rotation_y": "Fixed",
+        "rotation_z": "Free"
+      },
+      "stiffness_matrix": {
+        "K_xx": 5e7,
+        "K_yy": 5e7,
+        "K_zz": 1e8,
+        "K_rx": 5e5,
+        "K_ry": 5e5,
+        "K_rz": 0
+      },
+      "damping_coefficient": 0.01,
+      "contact_properties": {
+        "friction_coefficient": 0.4,
+        "contact_stiffness": 1e7,
+        "separation_allowed": false,
+        "magnetic_force_N": 500
+      }
+    },
+    {
+      "constraint_id": "CON009",
+      "experiment_id": "EXP011",
+      "constraint_type": "Ball Joint",
+      "location": "Center",
+      "degrees_of_freedom": {
+        "translation_x": "Free",
+        "translation_y": "Free",
+        "translation_z": "Fixed",
+        "rotation_x": "Free",
+        "rotation_y": "Free",
+        "rotation_z": "Free"
+      },
+      "stiffness_matrix": {
+        "K_xx": 0,
+        "K_yy": 0,
+        "K_zz": 1e8,
+        "K_rx": 0,
+        "K_ry": 0,
+        "K_rz": 0
+      },
+      "damping_coefficient": 0.02,
+      "contact_properties": {
+        "friction_coefficient": 0.05,
+        "contact_stiffness": 3e6,
+        "separation_allowed": false,
+        "bearing_type": "Spherical"
+      }
+    },
+    {
+      "constraint_id": "CON010",
+      "experiment_id": "EXP015",
+      "constraint_type": "Roller Support",
+      "location": "Both Ends",
+      "degrees_of_freedom": {
+        "translation_x": "Free",
+        "translation_y": "Fixed",
+        "translation_z": "Fixed",
+        "rotation_x": "Free",
+        "rotation_y": "Fixed",
+        "rotation_z": "Fixed"
+      },
+      "stiffness_matrix": {
+        "K_xx": 0,
+        "K_yy": 1e8,
+        "K_zz": 1e8,
+        "K_rx": 0,
+        "K_ry": 1e6,
+        "K_rz": 1e6
+      },
+      "damping_coefficient": 0.01,
+      "contact_properties": {
+        "friction_coefficient": 0.02,
+        "contact_stiffness": 4e6,
+        "separation_allowed": true,
+        "rolling_resistance": 0.001
+      }
+    }
+  ],
+  "boundary_condition_sets": [
+    {
+      "set_id": "BCS001",
+      "name": "Standard Tensile Test",
+      "applicable_standards": ["ASTM E8", "ISO 6892"],
+      "constraints": ["CON006"],
+      "typical_loads": {
+        "type": "Uniaxial Tensile",
+        "direction": "Z",
+        "rate": "Quasi-static"
+      }
+    },
+    {
+      "set_id": "BCS002",
+      "name": "Three-Point Bend Test",
+      "applicable_standards": ["ASTM D790", "ISO 178"],
+      "constraints": ["CON003", "CON007"],
+      "typical_loads": {
+        "type": "Central Point Load",
+        "direction": "-Z",
+        "rate": "Constant Displacement"
+      }
+    },
+    {
+      "set_id": "BCS003",
+      "name": "Compression Test",
+      "applicable_standards": ["ASTM E9", "ISO 604"],
+      "constraints": ["CON005"],
+      "typical_loads": {
+        "type": "Uniaxial Compression",
+        "direction": "-Z",
+        "rate": "Constant Force"
+      }
+    },
+    {
+      "set_id": "BCS004",
+      "name": "Fatigue Test",
+      "applicable_standards": ["ASTM E466", "ISO 1099"],
+      "constraints": ["CON001", "CON006"],
+      "typical_loads": {
+        "type": "Cyclic",
+        "direction": "Z",
+        "frequency_Hz": [0.1, 100],
+        "R_ratio": [-1, 0.1, 0.5]
+      }
+    },
+    {
+      "set_id": "BCS005",
+      "name": "Vibration Test",
+      "applicable_standards": ["MIL-STD-810", "IEC 60068"],
+      "constraints": ["CON001", "CON008"],
+      "typical_loads": {
+        "type": "Random Vibration",
+        "direction": "Multi-axis",
+        "frequency_range_Hz": [5, 2000],
+        "PSD": "0.04 g²/Hz"
+      }
+    }
+  ],
+  "contact_conditions": [
+    {
+      "contact_id": "CONT001",
+      "type": "Surface-to-Surface",
+      "master_surface": "Fixture",
+      "slave_surface": "Specimen",
+      "contact_algorithm": "Penalty Method",
+      "normal_stiffness": 1e7,
+      "tangential_stiffness": 1e6,
+      "friction_model": "Coulomb",
+      "friction_coefficient": 0.3,
+      "separation_after_contact": false,
+      "thermal_conductance": 500,
+      "electrical_conductance": 1e6
+    },
+    {
+      "contact_id": "CONT002",
+      "type": "Node-to-Surface",
+      "master_surface": "Platen",
+      "slave_nodes": "Specimen_Top_Nodes",
+      "contact_algorithm": "Augmented Lagrange",
+      "normal_stiffness": 5e7,
+      "tangential_stiffness": 5e6,
+      "friction_model": "Stick-Slip",
+      "static_friction": 0.35,
+      "kinetic_friction": 0.25,
+      "separation_after_contact": true
+    },
+    {
+      "contact_id": "CONT003",
+      "type": "Self-Contact",
+      "surface": "Specimen",
+      "contact_algorithm": "Mortar Method",
+      "normal_stiffness": 1e6,
+      "tangential_stiffness": 1e5,
+      "friction_model": "None",
+      "friction_coefficient": 0,
+      "separation_after_contact": true
+    }
+  ],
+  "preload_conditions": [
+    {
+      "preload_id": "PRE001",
+      "type": "Bolt Preload",
+      "magnitude_N": 1000,
+      "application_method": "Torque Control",
+      "torque_Nm": 50,
+      "relaxation_allowed": true,
+      "relaxation_factor": 0.95
+    },
+    {
+      "preload_id": "PRE002",
+      "type": "Spring Preload",
+      "magnitude_N": 300,
+      "spring_stiffness_N_per_mm": 100,
+      "initial_compression_mm": 3,
+      "nonlinear_stiffness": false
+    },
+    {
+      "preload_id": "PRE003",
+      "type": "Hydraulic Preload",
+      "magnitude_N": 2000,
+      "pressure_MPa": 10,
+      "piston_area_mm2": 200,
+      "pressure_variation_percent": 2
+    }
+  ]
+}
