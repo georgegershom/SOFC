@@ -1,0 +1,6 @@
+interface,interface_full_name,criticality,temperature_C,fracture_toughness_MPa_sqrtm,uncertainty,test_method,reference
+YSZ_NiYSZ_interface,Electrolyte/Anode Interface,HIGH - primary failure location,25,1.85,0.35,Double Cantilever Beam,Frandsen2012_DCB
+YSZ_NiYSZ_interface,Electrolyte/Anode Interface,HIGH - primary failure location,400,1.62,0.32,Double Cantilever Beam,Frandsen2012_DCB
+YSZ_NiYSZ_interface,Electrolyte/Anode Interface,HIGH - primary failure location,800,1.38,0.28,Double Cantilever Beam,Frandsen2012_DCB
+YSZ_LSM_interface,Electrolyte/Cathode Interface,MEDIUM,25,2.15,0.42,,Weil2006
+YSZ_LSM_interface,Electrolyte/Cathode Interface,MEDIUM,800,1.72,0.38,,Weil2006
