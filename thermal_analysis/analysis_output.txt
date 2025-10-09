@@ -1,0 +1,207 @@
+================================================================================
+SOFC THERMAL DATA ANALYSIS
+================================================================================
+
+1. Analyzing Sintering & Co-firing Data...
+
+Temperature Statistics by Phase:
+                mean         std          min          max  count
+phase                                                            
+cooling   654.923499  365.779022    25.000000  1347.008202  62436
+dwell    1285.953598   24.044560  1231.421699  1359.542729  16940
+heating   656.822784  365.046026    25.000000  1352.666555  41624
+
+Spatial Temperature Variation:
+  Center point average: 780.9°C
+  Edge points average: 722.4°C
+  Center-to-edge difference: 58.6°C
+  Maximum spatial gradient: 122.8°C
+  Average spatial gradient: 64.6°C
+
+Cooling Phase Analysis:
+  Duration: 662.0 minutes
+  Temperature range: 1347.0°C to 25.0°C
+
+Through-thickness Temperature by Layer:
+                   mean         std   min          max
+layer                                                 
+anode        776.657962  421.575332  25.0  1354.653909
+cathode      766.509139  415.985775  25.0  1336.764216
+electrolyte  769.560345  417.661405  25.0  1342.284016
+
+2. Analyzing Thermal Cycling Data...
+
+Temperature Statistics by Cycle:
+                           mean    min    max
+cycle_number cycle_phase                     
+1            operation    801.3  790.4  811.7
+             shutdown     410.9   25.0  804.4
+             startup      408.2   25.0  796.0
+2            operation    801.3  791.3  813.8
+             shutdown     411.0   25.0  804.0
+             startup      408.3   25.0  795.6
+3            operation    801.3  789.1  812.8
+             shutdown     411.0   25.0  805.0
+             startup      408.3   25.0  795.8
+4            operation    801.2  790.1  810.7
+             shutdown     411.0   25.0  804.4
+             startup      408.3   25.0  795.2
+5            operation    801.2  791.0  811.0
+             shutdown     411.0   25.0  803.9
+             startup      408.3   25.0  795.6
+
+Cycle 1:
+  Temperature range: 786.7°C
+  Max radial gradient: 27.400°C/mm
+
+Cycle 2:
+  Temperature range: 788.8°C
+  Max radial gradient: 27.400°C/mm
+
+Cycle 3:
+  Temperature range: 787.8°C
+  Max radial gradient: 27.400°C/mm
+
+Average startup temperature progression:
+  Cycle 1: 408.2°C
+  Cycle 2: 408.3°C
+  Cycle 3: 408.3°C
+  Cycle 4: 408.3°C
+  Cycle 5: 408.3°C
+  Cycle 6: 408.2°C
+  Cycle 7: 408.2°C
+  Cycle 8: 408.2°C
+  Cycle 9: 408.3°C
+  Cycle 10: 408.3°C
+
+Single Cycle High-Resolution Data:
+  Total time points: 1000
+  Temporal resolution: 2.9 seconds
+  Phase durations:
+    operation: 119.2 minutes
+    shutdown: 155.0 minutes
+    startup: 155.0 minutes
+
+3. Analyzing Steady-State Operation Data...
+
+Steady-State Temperature Distribution (t = 2400 min):
+  Mean: 801.3°C
+  Std Dev: 13.9°C
+  Min: 764.4°C
+  Max: 824.9°C
+  Range: 60.5°C
+
+Temperature Gradients:
+  X-direction (mean): 0.400°C/mm
+  Y-direction (mean): -0.050°C/mm
+  Magnitude (max): 1.043°C/mm
+
+Hotspot Analysis (T > 817.0°C):
+  Number of hotspot locations: 260
+  Average hotspot temperature: 819.2°C
+  Hotspot locations center distance: 31.0 mm
+
+Thermal Stabilization:
+  Initial temp range: 51.5°C
+  Final temp range: 60.5°C
+
+Through-thickness Steady-State Temperatures:
+                   mean       std         min         max
+layer                                                    
+anode        796.872522  9.462363  780.200785  810.854977
+cathode      802.148400  9.583013  787.182461  814.036804
+electrolyte  803.809956  9.494542  785.550052  817.027031
+
+4. Analyzing Thermal Imaging Data...
+
+Load Transition Temperature Response:
+                       mean       std         min         max
+event_phase                                                  
+post-transition  822.553792  8.344388  800.927887  843.476028
+pre-transition   801.966317  6.646244  784.707506  811.992104
+transition       808.964590  9.173654  784.752176  838.662871
+
+Thermal Response to Load Change:
+  Pre-transition average: 802.0°C
+  Post-transition average: 822.6°C
+  Temperature increase: 20.6°C
+  Spatial uniformity (std dev):
+    Before transition: 6.7°C
+    During transition: 7.0°C
+    After transition: 8.3°C
+
+5. Analyzing Embedded Thermocouple Data...
+
+Thermocouple Statistics:
+                  mean    std   min    max
+thermocouple_id                           
+TC01             407.3  221.9  25.0  792.0
+TC02             407.4  221.9  25.0  791.9
+TC03             407.7  222.7  25.0  793.7
+TC04             405.0  221.0  25.0  788.7
+TC05             406.4  221.9  25.0  791.1
+TC06             405.4  221.0  25.0  789.2
+TC07             407.4  222.7  25.0  793.2
+TC08             406.5  222.1  25.0  792.0
+
+Heating Rate Analysis:
+                 mean   std    max
+thermocouple_id                   
+TC01             4.95  1.68   9.93
+TC02             4.95  1.70  10.83
+TC03             4.96  1.60  10.83
+TC04             4.93  1.97   9.41
+TC05             4.94  1.70   9.63
+TC06             4.93  1.88   9.33
+TC07             4.96  1.54   9.15
+TC08             4.95  1.83  10.34
+
+Thermal Lag by Location:
+  TC01 (center_mid): 0.50 minutes
+  TC02 (center_anode): 0.50 minutes
+  TC03 (center_cathode): 0.50 minutes
+  TC04 (corner_mid): 0.74 minutes
+  TC05 (edge_mid): 0.67 minutes
+  TC06 (inlet_mid): 0.67 minutes
+  TC07 (outlet_mid): 0.67 minutes
+  TC08 (interface_1): 0.65 minutes
+
+Temperature by Layer (during startup):
+                              mean    std   min    max
+layer                                                 
+anode                        407.4  221.9  25.0  791.9
+anode/electrolyte interface  406.5  222.1  25.0  792.0
+cathode                      407.7  222.7  25.0  793.7
+electrolyte                  406.3  221.6  25.0  793.2
+
+6. Analyzing Residual Stress Data...
+
+Residual Stress Development:
+               temperature_C estimated_residual_stress_MPa  ...                
+                        mean                          mean  ...     min     max
+phase                                                       ...                
+cool_200C              191.6                       -1209.1  ... -1221.5 -1026.1
+cool_500C              478.8                        -777.6  ...  -787.8  -758.7
+cool_ambient            24.0                       -1392.3  ... -1393.4 -1390.1
+sintering_end         1292.7                         -51.1  ...   -77.6    -0.1
+sintering_peak        1292.5                         -51.3  ...   -78.0    -0.1
+
+[5 rows x 5 columns]
+
+Spatial Distribution of Residual Stress (room temp):
+  Center region: -1390.1 MPa
+  Edge region: -1392.8 MPa
+
+Maximum Residual Stress Location:
+  Position: (30, 90) mm
+  Stress: -1393.4 MPa
+  Phase: cool_ambient
+
+================================================================================
+COMPREHENSIVE SUMMARY
+================================================================================
+Traceback (most recent call last):
+  File "/workspace/analyze_thermal_data.py", line 286, in <module>
+    4. Edge cooling effects: Up to {edge_cooling:.1f}°C temperature drop
+                                    ^^^^^^^^^^^^
+NameError: name 'edge_cooling' is not defined
