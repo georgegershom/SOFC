@@ -1,0 +1,38 @@
+{
+  "dataset_name": "SOFC Electrochemical Loading Data",
+  "generation_date": "2025-10-09T03:59:46.728419",
+  "temperature_range_C": [
+    650,
+    850
+  ],
+  "current_density_range_A_cm2": [
+    0,
+    1.5
+  ],
+  "description": {
+    "iv_curve": "Current-voltage characteristics showing operating voltage and current density",
+    "eis": "Electrochemical Impedance Spectroscopy data at multiple operating conditions",
+    "overpotential_stress": "Overpotentials (anode, cathode, ohmic) with induced stress from Ni oxidation",
+    "multi_temperature": "IV curves at various operating temperatures",
+    "degradation": "Time-series data showing performance degradation over operational lifetime"
+  },
+  "key_phenomena": {
+    "oxygen_chemical_potential": "Gradient across electrolyte drives ionic current",
+    "anode_oxidation": "High overpotentials can lead to local Ni to NiO oxidation",
+    "volume_change_stress": "NiO formation causes 68% volume expansion, inducing stress",
+    "stress_coupling": "Electrochemical loading couples to mechanical stress through oxidation"
+  },
+  "material_parameters": {
+    "E_OCV_at_800C": "1.05 V",
+    "R_ohmic": "0.15 \u03a9\u00b7cm\u00b2",
+    "anode_exchange_current_density": "5000 A/m\u00b2",
+    "cathode_exchange_current_density": "1000 A/m\u00b2"
+  },
+  "files_generated": [
+    "sofc_iv_curve_800C.csv",
+    "sofc_eis_data.csv",
+    "sofc_overpotential_stress_data.csv",
+    "sofc_multi_temperature_iv_curves.csv",
+    "sofc_degradation_time_series.csv"
+  ]
+}
