@@ -1,0 +1,72 @@
+{
+  "dimensions": [
+    200,
+    200,
+    100
+  ],
+  "voxel_size_um": 0.1,
+  "physical_size_um": [
+    20.0,
+    20.0,
+    10.0
+  ],
+  "volume_fractions": {
+    "pore": 0.56267075,
+    "ni_ysz": 0.2245385,
+    "ysz_electrolyte": 0.1765515,
+    "interface": 0.03623925
+  },
+  "porosity": 0.56267075,
+  "interface_area_um2": "13178.6045",
+  "connectivity_metrics": {
+    "pore": {
+      "connected_components": 4202,
+      "largest_component_fraction": 0.9876935134801302,
+      "percolation_x": "True",
+      "percolation_y": "True",
+      "percolation_z": "True"
+    },
+    "ni_ysz": {
+      "connected_components": 7863,
+      "largest_component_fraction": 0.8539804977765506,
+      "percolation_x": "True",
+      "percolation_y": "True",
+      "percolation_z": "False"
+    },
+    "ysz_electrolyte": {
+      "connected_components": 1,
+      "largest_component_fraction": 1.0,
+      "percolation_x": "True",
+      "percolation_y": "True",
+      "percolation_z": "False"
+    }
+  },
+  "generation_parameters": {
+    "random_seed": 42,
+    "material_properties": {
+      "ni_ysz": {
+        "porosity_target": 0.35,
+        "particle_size_range": [
+          0.5,
+          2.0
+        ],
+        "connectivity": 0.8
+      },
+      "ysz_electrolyte": {
+        "porosity_target": 0.05,
+        "particle_size_range": [
+          0.2,
+          1.0
+        ],
+        "connectivity": 0.95
+      },
+      "interface": {
+        "thickness_range": [
+          0.1,
+          0.3
+        ],
+        "roughness": 0.2
+      }
+    }
+  }
+}
