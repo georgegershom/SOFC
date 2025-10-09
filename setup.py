@@ -1,0 +1,30 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="sofc-microstructure-generator",
+    version="1.0.0",
+    description="3D Microstructural Dataset Generator for SOFC Electrode Modeling",
+    author="AI Assistant",
+    packages=find_packages(),
+    install_requires=[
+        "numpy>=1.21.0",
+        "scipy>=1.7.0",
+        "scikit-image>=0.18.0",
+        "matplotlib>=3.5.0",
+        "h5py>=3.1.0",
+        "vtk>=9.0.0",
+        "tifffile>=2021.7.2",
+        "pyvista>=0.32.0",
+        "open3d>=0.13.0",
+        "trimesh>=3.9.0",
+        "pandas>=1.3.0",
+        "seaborn>=0.11.0",
+        "plotly>=5.0.0",
+        "dash>=2.0.0",
+        "dash-bootstrap-components>=1.0.0",
+        "jupyter>=1.0.0",
+        "ipywidgets>=7.6.0",
+        "tqdm>=4.62.0",
+    ],
+    python_requires=">=3.8",
+)
