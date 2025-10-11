@@ -1,0 +1,20 @@
+variable,unit,description,source
+country_iso3,ISO3,Country code (ISO3),WB Country API
+country_name,text,Country name,WB Country API
+year,year,Calendar year,n/a
+gdp_growth_annual,%,GDP growth (annual %),World Bank [NY.GDP.MKTP.KD.ZG]
+gdp_growth_volatility_3y,pp std dev,3-year rolling std dev of GDP growth,Derived
+gdp_growth_volatility_5y,pp std dev,5-year rolling std dev of GDP growth,Derived
+inflation_cpi,%,"Inflation, consumer prices (annual %)",World Bank [FP.CPI.TOTL.ZG]
+unemployment_rate,% of labor force,"Unemployment, total (% of total labor force)",World Bank [SL.UEM.TOTL.ZS]
+fx_rate_official,LCU per USD,Official exchange rate (period average),World Bank [PA.NUS.FCRF]
+fx_log_return,log return,Annual log return of official exchange rate,Derived
+fx_volatility_3y,std dev,3-year rolling std dev of FX annual log returns,Derived
+policy_rate,%,Policy rate proxy (lending rate if available; else fabricated heuristic),World Bank [FR.INR.LEND] + Fabrication
+policy_rate_is_fabricated,0/1,1 if policy_rate fabricated; 0 if sourced,Derived
+m2_growth,%,Broad money growth (annual %),World Bank [FM.LBL.BMNY.ZG]
+public_debt_gdp,% of GDP,"Central government debt, total (% of GDP)",World Bank [GC.DOD.TOTL.GD.ZS]
+mobile_subs_per_100,per 100 people,Mobile cellular subscriptions (per 100 people),World Bank [IT.CEL.SETS.P2]
+internet_users_pct,% of population,Individuals using the Internet (% of population),World Bank [IT.NET.USER.ZS]
+secure_servers_per_million,per 1 million people,Secure Internet servers,World Bank [IT.NET.SECR.P6] or discovered
+lending_interest_rate,%,Lending interest rate (for transparency),World Bank [FR.INR.LEND]
