@@ -1,0 +1,87 @@
+{
+  "category": "Category 3: Financial System & Regulatory Data (Systemic Context)",
+  "generated_at": "2025-10-11T10:13:35.825539Z",
+  "countries": [
+    "AGO",
+    "BDI",
+    "BEN",
+    "BFA",
+    "BWA",
+    "CAF",
+    "CIV",
+    "CMR",
+    "COD",
+    "COG",
+    "COM",
+    "CPV",
+    "ERI",
+    "ETH",
+    "GAB",
+    "GHA",
+    "GIN",
+    "GMB",
+    "GNB",
+    "GNQ",
+    "KEN",
+    "LBR",
+    "LSO",
+    "MDG",
+    "MLI",
+    "MOZ",
+    "MRT",
+    "MUS",
+    "MWI",
+    "NAM",
+    "NER",
+    "NGA",
+    "RWA",
+    "SDN",
+    "SEN",
+    "SLE",
+    "SOM",
+    "SSD",
+    "STP",
+    "SWZ",
+    "SYC",
+    "TCD",
+    "TGO",
+    "TZA",
+    "UGA",
+    "ZAF",
+    "ZMB",
+    "ZWE"
+  ],
+  "years": [
+    2005,
+    2024
+  ],
+  "indicators": {
+    "npl_ratio": "FB.AST.NPER.ZS",
+    "bank_zscore": "GFDD.SI.01",
+    "roa": "GFDD.EI.05",
+    "credit_private_gdp": "FS.AST.PRVT.GD.ZS",
+    "wgi_rq": "RQ.EST"
+  },
+  "notes": {
+    "fabricated": {
+      "financial_regulation_index": "Min-max normalized average of Z-score, credit to private sector, and WGI Regulatory Quality per year.",
+      "digital_lending_guideline_dummy": "Set to 1 from first year when both WGI RQ and credit to private sector exceed their country medians; purely heuristic proxy for regulatory shift toward digital finance."
+    },
+    "caveats": [
+      "Missingness varies by country and year; no imputation performed.",
+      "Use ROA after-tax by default; switchable via flag."
+    ]
+  },
+  "source": [
+    {
+      "name": "World Bank API",
+      "url": "https://api.worldbank.org/",
+      "notes": "Indicators: NPL ratio, Z-score, ROA, Domestic credit to private sector, WGI Regulatory Quality"
+    },
+    {
+      "name": "IMF Financial Access Survey / BIS / Central Banks",
+      "url": "https://data.imf.org/",
+      "notes": "Additional context for regulatory landscape (for fabricated index and policy dummies)"
+    }
+  ]
+}
