@@ -1,0 +1,282 @@
+{
+  "category": "Category 3: Financial System & Regulatory Data (The Systemic Context)",
+  "years": {
+    "start": 2000,
+    "end": 2024
+  },
+  "geographies": [
+    {
+      "iso3": "AGO",
+      "country": "Angola"
+    },
+    {
+      "iso3": "BDI",
+      "country": "Burundi"
+    },
+    {
+      "iso3": "BEN",
+      "country": "Benin"
+    },
+    {
+      "iso3": "BFA",
+      "country": "Burkina Faso"
+    },
+    {
+      "iso3": "BWA",
+      "country": "Botswana"
+    },
+    {
+      "iso3": "CAF",
+      "country": "Central African Republic"
+    },
+    {
+      "iso3": "CIV",
+      "country": "Cote d'Ivoire"
+    },
+    {
+      "iso3": "CMR",
+      "country": "Cameroon"
+    },
+    {
+      "iso3": "COD",
+      "country": "Congo, Dem. Rep."
+    },
+    {
+      "iso3": "COG",
+      "country": "Congo, Rep."
+    },
+    {
+      "iso3": "COM",
+      "country": "Comoros"
+    },
+    {
+      "iso3": "CPV",
+      "country": "Cabo Verde"
+    },
+    {
+      "iso3": "ERI",
+      "country": "Eritrea"
+    },
+    {
+      "iso3": "ETH",
+      "country": "Ethiopia"
+    },
+    {
+      "iso3": "GAB",
+      "country": "Gabon"
+    },
+    {
+      "iso3": "GHA",
+      "country": "Ghana"
+    },
+    {
+      "iso3": "GIN",
+      "country": "Guinea"
+    },
+    {
+      "iso3": "GMB",
+      "country": "Gambia, The"
+    },
+    {
+      "iso3": "GNB",
+      "country": "Guinea-Bissau"
+    },
+    {
+      "iso3": "GNQ",
+      "country": "Equatorial Guinea"
+    },
+    {
+      "iso3": "KEN",
+      "country": "Kenya"
+    },
+    {
+      "iso3": "LBR",
+      "country": "Liberia"
+    },
+    {
+      "iso3": "LSO",
+      "country": "Lesotho"
+    },
+    {
+      "iso3": "MDG",
+      "country": "Madagascar"
+    },
+    {
+      "iso3": "MLI",
+      "country": "Mali"
+    },
+    {
+      "iso3": "MOZ",
+      "country": "Mozambique"
+    },
+    {
+      "iso3": "MRT",
+      "country": "Mauritania"
+    },
+    {
+      "iso3": "MUS",
+      "country": "Mauritius"
+    },
+    {
+      "iso3": "MWI",
+      "country": "Malawi"
+    },
+    {
+      "iso3": "NAM",
+      "country": "Namibia"
+    },
+    {
+      "iso3": "NER",
+      "country": "Niger"
+    },
+    {
+      "iso3": "NGA",
+      "country": "Nigeria"
+    },
+    {
+      "iso3": "RWA",
+      "country": "Rwanda"
+    },
+    {
+      "iso3": "SDN",
+      "country": "Sudan"
+    },
+    {
+      "iso3": "SEN",
+      "country": "Senegal"
+    },
+    {
+      "iso3": "SLE",
+      "country": "Sierra Leone"
+    },
+    {
+      "iso3": "SOM",
+      "country": "Federal Republic of Somalia"
+    },
+    {
+      "iso3": "SSD",
+      "country": "South Sudan"
+    },
+    {
+      "iso3": "STP",
+      "country": "Sao Tome and Principe"
+    },
+    {
+      "iso3": "SWZ",
+      "country": "Eswatini"
+    },
+    {
+      "iso3": "SYC",
+      "country": "Seychelles"
+    },
+    {
+      "iso3": "TCD",
+      "country": "Chad"
+    },
+    {
+      "iso3": "TGO",
+      "country": "Togo"
+    },
+    {
+      "iso3": "TZA",
+      "country": "Tanzania"
+    },
+    {
+      "iso3": "UGA",
+      "country": "Uganda"
+    },
+    {
+      "iso3": "ZAF",
+      "country": "South Africa"
+    },
+    {
+      "iso3": "ZMB",
+      "country": "Zambia"
+    },
+    {
+      "iso3": "ZWE",
+      "country": "Zimbabwe"
+    }
+  ],
+  "variables": {
+    "npl_to_total_loans_pct": {
+      "name": "Bank Non-Performing Loans to Total Loans (%)",
+      "source": "World Bank GFDD FB.AST.NPER.ZS",
+      "wb_code": "FB.AST.NPER.ZS",
+      "imputation": "linear interpolation within country; SSA year mean fallback"
+    },
+    "bank_z_score": {
+      "name": "Bank Z-score (stability measure)",
+      "source": "World Bank GFDD SI.01",
+      "wb_code": "GFDD.SI.01",
+      "imputation": "linear interpolation within country; SSA year mean fallback"
+    },
+    "bank_roa_pct": {
+      "name": "Return on Assets (ROA) of the banking sector (%)",
+      "source": "World Bank GFDD EI.04",
+      "wb_code": "GFDD.EI.04",
+      "imputation": "linear interpolation within country; SSA year mean fallback"
+    },
+    "domestic_credit_private_gdp_pct": {
+      "name": "Domestic Credit to Private Sector (% of GDP)",
+      "source": "World Bank FS.AST.PRVT.GD.ZS",
+      "wb_code": "FS.AST.PRVT.GD.ZS",
+      "imputation": "linear interpolation within country; SSA year mean fallback"
+    },
+    "regulatory_quality_wgi": {
+      "name": "Regulatory Quality (WGI Estimate)",
+      "source": "World Bank WGI IQ.REG.XQ",
+      "wb_code": "IQ.REG.XQ",
+      "imputation": "linear interpolation within country; SSA year mean fallback"
+    },
+    "fabricated_finreg_index_0_1": {
+      "name": "Fabricated Financial Regulation Index (0-1)",
+      "source": "Composite of available variables (fabricated)",
+      "components": [
+        "regulatory_quality_wgi",
+        "domestic_credit_private_gdp_pct"
+      ],
+      "method": "min-max scale components within panel; take mean"
+    },
+    "regulatory_dummies": {
+      "note": "Fabricated dummy indicators for specific regulation introductions; replace with actual country events from central bank/official notices",
+      "examples": {
+        "KEN": [
+          {
+            "name": "Digital Lending Guideline",
+            "year": 2018,
+            "dummy_col": "reg_dummy_digital_lending"
+          }
+        ],
+        "NGA": [
+          {
+            "name": "Regulatory Sandbox",
+            "year": 2020,
+            "dummy_col": "reg_dummy_sandbox"
+          }
+        ],
+        "ZAF": [
+          {
+            "name": "Open Banking Policy Note",
+            "year": 2019,
+            "dummy_col": "reg_dummy_open_banking"
+          }
+        ]
+      }
+    }
+  },
+  "notes": [
+    "This dataset programmatically downloads World Bank indicators and fabricates values only when missing, with provenance flags in *_source columns.",
+    "Financial Regulation Index is a fabricated proxy; replace or augment with official indexes when available (e.g., GPFI).",
+    "Regulation dummies are illustrative; please replace with validated dates from central bank websites."
+  ],
+  "data_sources": [
+    "World Bank Global Financial Development Database (GFDD)",
+    "World Bank World Development Indicators (WDI)",
+    "Worldwide Governance Indicators (WGI)",
+    "IMF Financial Access Survey (optional future extension)",
+    "BIS Statistics (optional future extension)",
+    "Central Bank websites (for regulatory events)"
+  ],
+  "provenance_columns": "Each indicator has a *_source column: world_bank, synthetic_interp, synthetic_year_mean, missing_all, missing"
+}
