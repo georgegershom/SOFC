@@ -1,0 +1,13 @@
+column,wb_indicator,description
+gdp_growth,NY.GDP.MKTP.KD.ZG,gdp_growth
+inflation_cpi,FP.CPI.TOTL.ZG,inflation_cpi
+unemployment,SL.UEM.TOTL.ZS,unemployment
+policy_rate,FR.INR.LEND,policy_rate
+broad_money_m2_growth,FM.LBL.BMNY.ZG,broad_money_m2_growth
+public_debt_gdp,GC.DOD.TOTL.GD.ZS,public_debt_gdp
+mobile_subs_100,IT.CEL.SETS.P2,mobile_subs_100
+internet_users_pct,IT.NET.USER.ZS,internet_users_pct
+secure_servers,IT.NET.SECR.P6,secure_servers
+fx_official,PA.NUS.FCRF,fx_official
+gdp_growth_vol_3y,derived,3-year rolling std of GDP growth
+fx_volatility_3y,derived,3-year rolling std of annual log returns of official FX
