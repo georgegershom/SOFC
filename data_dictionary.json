@@ -1,0 +1,167 @@
+{
+  "dataset_info": {
+    "name": "Financial System & Regulatory Data - Sub-Saharan Africa",
+    "version": "1.0",
+    "description": "Category 3 data for FinTech Early Warning Model research",
+    "period": "2020 Q1 - 2024 Q2",
+    "countries": 8,
+    "observations": 144,
+    "variables": 25
+  },
+  "variables": {
+    "country": {
+      "type": "categorical",
+      "description": "Country name",
+      "values": ["Nigeria", "Kenya", "South Africa", "Ghana", "Uganda", "Tanzania", "Rwanda", "Ethiopia"]
+    },
+    "year": {
+      "type": "integer",
+      "description": "Year",
+      "range": [2020, 2024]
+    },
+    "quarter": {
+      "type": "categorical",
+      "description": "Quarter",
+      "values": ["Q1", "Q2", "Q3", "Q4"]
+    },
+    "bank_npl_ratio": {
+      "type": "float",
+      "description": "Bank Non-Performing Loans to Total Loans (%)",
+      "range": [2.8, 15.0],
+      "unit": "percentage"
+    },
+    "bank_z_score": {
+      "type": "float",
+      "description": "Bank Z-score (measure of bank stability)",
+      "range": [0.4, 15.6],
+      "unit": "ratio"
+    },
+    "bank_roa": {
+      "type": "float",
+      "description": "Return on Assets of banking sector (%)",
+      "range": [-1.6, 3.5],
+      "unit": "percentage"
+    },
+    "domestic_credit_private_sector_gdp": {
+      "type": "float",
+      "description": "Domestic Credit to Private Sector (% of GDP)",
+      "range": [7.3, 145.8],
+      "unit": "percentage of GDP"
+    },
+    "regulatory_quality_wgi": {
+      "type": "float",
+      "description": "World Bank WGI Regulatory Quality Index",
+      "range": [-0.45, 1.23],
+      "unit": "index (-2.5 to +2.5)"
+    },
+    "financial_regulation_index": {
+      "type": "float",
+      "description": "Composite Financial Regulation Index",
+      "range": [0.48, 1.22],
+      "unit": "index (0-1 scale)"
+    },
+    "digital_lending_guidelines": {
+      "type": "binary",
+      "description": "Digital lending regulations introduced (1=yes, 0=no)",
+      "values": [0, 1]
+    },
+    "open_banking_regulation": {
+      "type": "binary",
+      "description": "Open banking regulations introduced (1=yes, 0=no)",
+      "values": [0, 1]
+    },
+    "fintech_sandbox": {
+      "type": "binary",
+      "description": "FinTech regulatory sandbox active (1=yes, 0=no)",
+      "values": [0, 1]
+    },
+    "cybersecurity_regulation": {
+      "type": "binary",
+      "description": "Cybersecurity regulations introduced (1=yes, 0=no)",
+      "values": [0, 1]
+    },
+    "data_protection_law": {
+      "type": "binary",
+      "description": "Data protection laws introduced (1=yes, 0=no)",
+      "values": [0, 1]
+    },
+    "digital_identity_framework": {
+      "type": "binary",
+      "description": "Digital identity framework introduced (1=yes, 0=no)",
+      "values": [0, 1]
+    },
+    "central_bank_digital_currency": {
+      "type": "binary",
+      "description": "CBDC development/launch (1=active, 0=no)",
+      "values": [0, 1]
+    },
+    "regulatory_sandbox_participants": {
+      "type": "integer",
+      "description": "Number of participants in regulatory sandbox",
+      "range": [0, 100],
+      "unit": "count"
+    },
+    "financial_inclusion_index": {
+      "type": "float",
+      "description": "Composite Financial Inclusion Index",
+      "range": [0.52, 1.06],
+      "unit": "index (0-1 scale)"
+    },
+    "credit_bureau_coverage": {
+      "type": "float",
+      "description": "Credit Bureau Coverage (% of adult population)",
+      "range": [38.2, 100.0],
+      "unit": "percentage"
+    },
+    "deposit_insurance_coverage": {
+      "type": "float",
+      "description": "Deposit Insurance Coverage (% of deposits)",
+      "range": [60.0, 100.0],
+      "unit": "percentage"
+    },
+    "capital_adequacy_ratio": {
+      "type": "float",
+      "description": "Capital Adequacy Ratio (%)",
+      "range": [10.8, 20.5],
+      "unit": "percentage"
+    },
+    "loan_loss_provision_ratio": {
+      "type": "float",
+      "description": "Loan Loss Provision Ratio (%)",
+      "range": [1.2, 5.9],
+      "unit": "percentage"
+    },
+    "interest_rate_spread": {
+      "type": "float",
+      "description": "Interest Rate Spread (lending - deposit rates, %)",
+      "range": [4.5, 32.1],
+      "unit": "percentage"
+    },
+    "liquidity_ratio": {
+      "type": "float",
+      "description": "Liquidity Ratio (%)",
+      "range": [13.5, 28.4],
+      "unit": "percentage"
+    },
+    "financial_stability_index": {
+      "type": "float",
+      "description": "Composite Financial Stability Index",
+      "range": [0.48, 0.92],
+      "unit": "index (0-1 scale)"
+    }
+  },
+  "data_sources": [
+    "Global Financial Development Database (World Bank)",
+    "Financial Access Survey (IMF)",
+    "Bank for International Settlements (BIS) Statistics",
+    "Central Bank Websites and Financial Statements",
+    "Worldwide Governance Indicators (World Bank)",
+    "Global Partnership for Financial Inclusion (GPFI) Reports"
+  ],
+  "methodology": {
+    "data_type": "Simulated realistic data",
+    "basis": "Real-world ranges and trends from Sub-Saharan African financial systems",
+    "validation": "Values follow logical patterns and relationships observed in actual data",
+    "temporal_consistency": "Quarterly progression reflects typical financial system dynamics"
+  }
+}
