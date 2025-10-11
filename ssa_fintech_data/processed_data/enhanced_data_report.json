@@ -1,0 +1,553 @@
+{
+  "dataset_overview": {
+    "total_observations": 280,
+    "countries": 20,
+    "country_list": [
+      "Benin",
+      "Botswana",
+      "Burkina Faso",
+      "Cameroon",
+      "Cote d'Ivoire",
+      "Ethiopia",
+      "Ghana",
+      "Kenya",
+      "Malawi",
+      "Mali",
+      "Mozambique",
+      "Nigeria",
+      "Rwanda",
+      "Senegal",
+      "South Africa",
+      "Tanzania",
+      "Togo",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "years_covered": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "indicators_count": 76
+  },
+  "data_quality": {
+    "completeness": {
+      "year": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "debt_gdp": {
+        "non_null_count": 69,
+        "total_possible": 280,
+        "completeness_rate": 0.24642857142857144
+      },
+      "exchange_rate": {
+        "non_null_count": 256,
+        "total_possible": 280,
+        "completeness_rate": 0.9142857142857143
+      },
+      "fdi_inflows": {
+        "non_null_count": 265,
+        "total_possible": 280,
+        "completeness_rate": 0.9464285714285714
+      },
+      "financial_depth": {
+        "non_null_count": 262,
+        "total_possible": 280,
+        "completeness_rate": 0.9357142857142857
+      },
+      "gdp_growth": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "inflation": {
+        "non_null_count": 268,
+        "total_possible": 280,
+        "completeness_rate": 0.9571428571428572
+      },
+      "interest_rate": {
+        "non_null_count": 193,
+        "total_possible": 280,
+        "completeness_rate": 0.6892857142857143
+      },
+      "internet_users": {
+        "non_null_count": 272,
+        "total_possible": 280,
+        "completeness_rate": 0.9714285714285714
+      },
+      "mobile_subs": {
+        "non_null_count": 275,
+        "total_possible": 280,
+        "completeness_rate": 0.9821428571428571
+      },
+      "money_supply": {
+        "non_null_count": 260,
+        "total_possible": 280,
+        "completeness_rate": 0.9285714285714286
+      },
+      "secure_servers": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "trade_openness": {
+        "non_null_count": 251,
+        "total_possible": 280,
+        "completeness_rate": 0.8964285714285715
+      },
+      "unemployment": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "gdp_growth_volatility": {
+        "non_null_count": 260,
+        "total_possible": 280,
+        "completeness_rate": 0.9285714285714286
+      },
+      "inflation_volatility": {
+        "non_null_count": 250,
+        "total_possible": 280,
+        "completeness_rate": 0.8928571428571429
+      },
+      "exchange_rate_volatility": {
+        "non_null_count": 237,
+        "total_possible": 280,
+        "completeness_rate": 0.8464285714285714
+      },
+      "mobile_subs_growth": {
+        "non_null_count": 260,
+        "total_possible": 280,
+        "completeness_rate": 0.9285714285714286
+      },
+      "internet_users_growth": {
+        "non_null_count": 260,
+        "total_possible": 280,
+        "completeness_rate": 0.9285714285714286
+      },
+      "financial_depth_growth": {
+        "non_null_count": 247,
+        "total_possible": 280,
+        "completeness_rate": 0.8821428571428571
+      },
+      "digital_divide": {
+        "non_null_count": 268,
+        "total_possible": 280,
+        "completeness_rate": 0.9571428571428572
+      },
+      "financial_inclusion_proxy": {
+        "non_null_count": 259,
+        "total_possible": 280,
+        "completeness_rate": 0.925
+      },
+      "economic_instability": {
+        "non_null_count": 250,
+        "total_possible": 280,
+        "completeness_rate": 0.8928571428571429
+      },
+      "digital_infrastructure": {
+        "non_null_count": 272,
+        "total_possible": 280,
+        "completeness_rate": 0.9714285714285714
+      },
+      "external_vulnerability": {
+        "non_null_count": 211,
+        "total_possible": 280,
+        "completeness_rate": 0.7535714285714286
+      },
+      "debt_gdp_regional_avg": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "debt_gdp_regional_percentile": {
+        "non_null_count": 69,
+        "total_possible": 280,
+        "completeness_rate": 0.24642857142857144
+      },
+      "exchange_rate_regional_avg": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "exchange_rate_regional_percentile": {
+        "non_null_count": 256,
+        "total_possible": 280,
+        "completeness_rate": 0.9142857142857143
+      },
+      "fdi_inflows_regional_avg": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "fdi_inflows_regional_percentile": {
+        "non_null_count": 265,
+        "total_possible": 280,
+        "completeness_rate": 0.9464285714285714
+      },
+      "financial_depth_regional_avg": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "financial_depth_regional_percentile": {
+        "non_null_count": 262,
+        "total_possible": 280,
+        "completeness_rate": 0.9357142857142857
+      },
+      "gdp_growth_regional_avg": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "gdp_growth_regional_percentile": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "inflation_regional_avg": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "inflation_regional_percentile": {
+        "non_null_count": 268,
+        "total_possible": 280,
+        "completeness_rate": 0.9571428571428572
+      },
+      "interest_rate_regional_avg": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "interest_rate_regional_percentile": {
+        "non_null_count": 193,
+        "total_possible": 280,
+        "completeness_rate": 0.6892857142857143
+      },
+      "internet_users_regional_avg": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "internet_users_regional_percentile": {
+        "non_null_count": 272,
+        "total_possible": 280,
+        "completeness_rate": 0.9714285714285714
+      },
+      "mobile_subs_regional_avg": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "mobile_subs_regional_percentile": {
+        "non_null_count": 275,
+        "total_possible": 280,
+        "completeness_rate": 0.9821428571428571
+      },
+      "money_supply_regional_avg": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "money_supply_regional_percentile": {
+        "non_null_count": 260,
+        "total_possible": 280,
+        "completeness_rate": 0.9285714285714286
+      },
+      "secure_servers_regional_avg": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "secure_servers_regional_percentile": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "trade_openness_regional_avg": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "trade_openness_regional_percentile": {
+        "non_null_count": 251,
+        "total_possible": 280,
+        "completeness_rate": 0.8964285714285715
+      },
+      "unemployment_regional_avg": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "unemployment_regional_percentile": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "gdp_growth_volatility_regional_avg": {
+        "non_null_count": 260,
+        "total_possible": 280,
+        "completeness_rate": 0.9285714285714286
+      },
+      "gdp_growth_volatility_regional_percentile": {
+        "non_null_count": 260,
+        "total_possible": 280,
+        "completeness_rate": 0.9285714285714286
+      },
+      "inflation_volatility_regional_avg": {
+        "non_null_count": 260,
+        "total_possible": 280,
+        "completeness_rate": 0.9285714285714286
+      },
+      "inflation_volatility_regional_percentile": {
+        "non_null_count": 250,
+        "total_possible": 280,
+        "completeness_rate": 0.8928571428571429
+      },
+      "exchange_rate_volatility_regional_avg": {
+        "non_null_count": 260,
+        "total_possible": 280,
+        "completeness_rate": 0.9285714285714286
+      },
+      "exchange_rate_volatility_regional_percentile": {
+        "non_null_count": 237,
+        "total_possible": 280,
+        "completeness_rate": 0.8464285714285714
+      },
+      "mobile_subs_growth_regional_avg": {
+        "non_null_count": 260,
+        "total_possible": 280,
+        "completeness_rate": 0.9285714285714286
+      },
+      "mobile_subs_growth_regional_percentile": {
+        "non_null_count": 260,
+        "total_possible": 280,
+        "completeness_rate": 0.9285714285714286
+      },
+      "internet_users_growth_regional_avg": {
+        "non_null_count": 260,
+        "total_possible": 280,
+        "completeness_rate": 0.9285714285714286
+      },
+      "internet_users_growth_regional_percentile": {
+        "non_null_count": 260,
+        "total_possible": 280,
+        "completeness_rate": 0.9285714285714286
+      },
+      "financial_depth_growth_regional_avg": {
+        "non_null_count": 260,
+        "total_possible": 280,
+        "completeness_rate": 0.9285714285714286
+      },
+      "financial_depth_growth_regional_percentile": {
+        "non_null_count": 247,
+        "total_possible": 280,
+        "completeness_rate": 0.8821428571428571
+      },
+      "digital_divide_regional_avg": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "digital_divide_regional_percentile": {
+        "non_null_count": 268,
+        "total_possible": 280,
+        "completeness_rate": 0.9571428571428572
+      },
+      "financial_inclusion_proxy_regional_avg": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "financial_inclusion_proxy_regional_percentile": {
+        "non_null_count": 259,
+        "total_possible": 280,
+        "completeness_rate": 0.925
+      },
+      "economic_instability_regional_avg": {
+        "non_null_count": 260,
+        "total_possible": 280,
+        "completeness_rate": 0.9285714285714286
+      },
+      "economic_instability_regional_percentile": {
+        "non_null_count": 250,
+        "total_possible": 280,
+        "completeness_rate": 0.8928571428571429
+      },
+      "digital_infrastructure_regional_avg": {
+        "non_null_count": 280,
+        "total_possible": 280,
+        "completeness_rate": 1.0
+      },
+      "digital_infrastructure_regional_percentile": {
+        "non_null_count": 272,
+        "total_possible": 280,
+        "completeness_rate": 0.9714285714285714
+      },
+      "external_vulnerability_regional_avg": {
+        "non_null_count": 260,
+        "total_possible": 280,
+        "completeness_rate": 0.9285714285714286
+      },
+      "external_vulnerability_regional_percentile": {
+        "non_null_count": 211,
+        "total_possible": 280,
+        "completeness_rate": 0.7535714285714286
+      }
+    }
+  },
+  "key_insights": {
+    "gdp_growth": {
+      "mean": 4.88892372081789,
+      "std": 3.3887287934875516,
+      "min": -8.72888241149465,
+      "max": 19.6754076562536,
+      "latest_year_avg": 4.657084199659363
+    },
+    "inflation": {
+      "mean": 10.516146287006041,
+      "std": 38.31567576438649,
+      "min": -3.23338933983324,
+      "max": 557.201817362051,
+      "latest_year_avg": 11.9742652230589
+    },
+    "unemployment": {
+      "mean": 6.229742857142857,
+      "std": 6.520766352120371,
+      "min": 1.04,
+      "max": 34.007,
+      "latest_year_avg": 6.605700000000001
+    },
+    "internet_users": {
+      "mean": 21.403357463235295,
+      "std": 18.070589441109735,
+      "min": 0.75,
+      "max": 81.36,
+      "latest_year_avg": 39.65637894736842
+    },
+    "mobile_subs": {
+      "mean": 85.14027876363636,
+      "std": 34.922114670688146,
+      "min": 7.57026,
+      "max": 179.027,
+      "latest_year_avg": 111.2864125
+    },
+    "top_gdp_performers": [
+      {
+        "country_name": "Rwanda",
+        "gdp_growth": 8.24990302014558
+      },
+      {
+        "country_name": "Ethiopia",
+        "gdp_growth": 6.59424599357075
+      },
+      {
+        "country_name": "Cote d'Ivoire",
+        "gdp_growth": 6.45045796902575
+      },
+      {
+        "country_name": "Togo",
+        "gdp_growth": 6.40792215636242
+      },
+      {
+        "country_name": "Benin",
+        "gdp_growth": 6.3527773854442
+      }
+    ],
+    "bottom_gdp_performers": [
+      {
+        "country_name": "South Africa",
+        "gdp_growth": 0.698485193724835
+      },
+      {
+        "country_name": "Malawi",
+        "gdp_growth": 1.89245798756383
+      },
+      {
+        "country_name": "Nigeria",
+        "gdp_growth": 2.86021499108364
+      },
+      {
+        "country_name": "Burkina Faso",
+        "gdp_growth": 2.96018147384929
+      },
+      {
+        "country_name": "Ghana",
+        "gdp_growth": 3.14009099763754
+      }
+    ],
+    "top_digital_adoption": [
+      {
+        "country_name": "Botswana",
+        "internet_users": 81.36
+      },
+      {
+        "country_name": "South Africa",
+        "internet_users": 75.6592
+      },
+      {
+        "country_name": "Ghana",
+        "internet_users": 69.9445
+      },
+      {
+        "country_name": "Senegal",
+        "internet_users": 60.6122
+      },
+      {
+        "country_name": "Cameroon",
+        "internet_users": 41.9088
+      }
+    ],
+    "bottom_digital_adoption": [
+      {
+        "country_name": "Uganda",
+        "internet_users": 15.2524
+      },
+      {
+        "country_name": "Burkina Faso",
+        "internet_users": 17.0226
+      },
+      {
+        "country_name": "Malawi",
+        "internet_users": 17.9881
+      },
+      {
+        "country_name": "Mozambique",
+        "internet_users": 19.8434
+      },
+      {
+        "country_name": "Tanzania",
+        "internet_users": 29.0638
+      }
+    ]
+  },
+  "risk_indicators": {
+    "gdp_growth_risk_distribution": {
+      "Low Risk": 41.785714285714285,
+      "Very Low Risk": 35.35714285714286,
+      "Medium Risk": 17.5,
+      "High Risk": 5.357142857142857
+    },
+    "inflation_risk_distribution": {
+      "Low Risk": 42.91044776119403,
+      "Medium Risk": 27.611940298507463,
+      "High Risk": 23.507462686567166,
+      "Deflation Risk": 5.970149253731343
+    }
+  }
+}

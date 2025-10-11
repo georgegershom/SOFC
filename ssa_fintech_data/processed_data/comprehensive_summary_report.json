@@ -1,0 +1,851 @@
+{
+  "dataset_info": {
+    "total_observations": 280,
+    "countries": 20,
+    "years_covered": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "total_indicators": 93,
+    "generation_date": "2025-10-11T09:48:03.589036"
+  },
+  "country_coverage": [
+    "Benin",
+    "Botswana",
+    "Burkina Faso",
+    "Cameroon",
+    "Cote d'Ivoire",
+    "Ethiopia",
+    "Ghana",
+    "Kenya",
+    "Malawi",
+    "Mali",
+    "Mozambique",
+    "Nigeria",
+    "Rwanda",
+    "Senegal",
+    "South Africa",
+    "Tanzania",
+    "Togo",
+    "Uganda",
+    "Zambia",
+    "Zimbabwe"
+  ],
+  "data_completeness": {
+    "gdp_growth": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "secure_servers": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "unemployment": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "debt_gdp_regional_avg": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "exchange_rate_regional_avg": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "fdi_inflows_regional_avg": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "financial_depth_regional_avg": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "gdp_growth_regional_avg": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "gdp_growth_regional_percentile": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "inflation_regional_avg": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "interest_rate_regional_avg": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "internet_users_regional_avg": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "mobile_subs_regional_avg": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "money_supply_regional_avg": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "secure_servers_regional_avg": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "secure_servers_regional_percentile": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "trade_openness_regional_avg": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "unemployment_regional_avg": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "unemployment_regional_percentile": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "digital_divide_regional_avg": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "financial_inclusion_proxy_regional_avg": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "digital_infrastructure_regional_avg": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "fintech_adoption_rate": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "mobile_money_penetration": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "digital_payment_volume_gdp": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "fintech_regulatory_score": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "cybersecurity_incidents_per_100k": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "financial_exclusion_rate": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "fintech_investment_usd_millions": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "digital_literacy_rate": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "cross_border_payment_costs_pct": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "banking_sector_concentration_hhi": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "current_account_balance_gdp": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "fx_reserves_months_imports": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "credit_rating_score": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "political_stability_index": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "ease_doing_business_rank": {
+      "complete_observations": 280,
+      "total_observations": 280,
+      "completeness_rate": 1.0,
+      "missing_observations": 0
+    },
+    "mobile_subs": {
+      "complete_observations": 275,
+      "total_observations": 280,
+      "completeness_rate": 0.9821428571428571,
+      "missing_observations": 5
+    },
+    "mobile_subs_regional_percentile": {
+      "complete_observations": 275,
+      "total_observations": 280,
+      "completeness_rate": 0.9821428571428571,
+      "missing_observations": 5
+    },
+    "internet_users": {
+      "complete_observations": 272,
+      "total_observations": 280,
+      "completeness_rate": 0.9714285714285714,
+      "missing_observations": 8
+    },
+    "digital_infrastructure": {
+      "complete_observations": 272,
+      "total_observations": 280,
+      "completeness_rate": 0.9714285714285714,
+      "missing_observations": 8
+    },
+    "internet_users_regional_percentile": {
+      "complete_observations": 272,
+      "total_observations": 280,
+      "completeness_rate": 0.9714285714285714,
+      "missing_observations": 8
+    },
+    "digital_infrastructure_regional_percentile": {
+      "complete_observations": 272,
+      "total_observations": 280,
+      "completeness_rate": 0.9714285714285714,
+      "missing_observations": 8
+    },
+    "inflation": {
+      "complete_observations": 268,
+      "total_observations": 280,
+      "completeness_rate": 0.9571428571428572,
+      "missing_observations": 12
+    },
+    "digital_divide": {
+      "complete_observations": 268,
+      "total_observations": 280,
+      "completeness_rate": 0.9571428571428572,
+      "missing_observations": 12
+    },
+    "inflation_regional_percentile": {
+      "complete_observations": 268,
+      "total_observations": 280,
+      "completeness_rate": 0.9571428571428572,
+      "missing_observations": 12
+    },
+    "digital_divide_regional_percentile": {
+      "complete_observations": 268,
+      "total_observations": 280,
+      "completeness_rate": 0.9571428571428572,
+      "missing_observations": 12
+    },
+    "fdi_inflows": {
+      "complete_observations": 265,
+      "total_observations": 280,
+      "completeness_rate": 0.9464285714285714,
+      "missing_observations": 15
+    },
+    "fdi_inflows_regional_percentile": {
+      "complete_observations": 265,
+      "total_observations": 280,
+      "completeness_rate": 0.9464285714285714,
+      "missing_observations": 15
+    },
+    "financial_depth": {
+      "complete_observations": 262,
+      "total_observations": 280,
+      "completeness_rate": 0.9357142857142857,
+      "missing_observations": 18
+    },
+    "financial_depth_regional_percentile": {
+      "complete_observations": 262,
+      "total_observations": 280,
+      "completeness_rate": 0.9357142857142857,
+      "missing_observations": 18
+    },
+    "money_supply": {
+      "complete_observations": 260,
+      "total_observations": 280,
+      "completeness_rate": 0.9285714285714286,
+      "missing_observations": 20
+    },
+    "gdp_growth_volatility": {
+      "complete_observations": 260,
+      "total_observations": 280,
+      "completeness_rate": 0.9285714285714286,
+      "missing_observations": 20
+    },
+    "mobile_subs_growth": {
+      "complete_observations": 260,
+      "total_observations": 280,
+      "completeness_rate": 0.9285714285714286,
+      "missing_observations": 20
+    },
+    "internet_users_growth": {
+      "complete_observations": 260,
+      "total_observations": 280,
+      "completeness_rate": 0.9285714285714286,
+      "missing_observations": 20
+    },
+    "money_supply_regional_percentile": {
+      "complete_observations": 260,
+      "total_observations": 280,
+      "completeness_rate": 0.9285714285714286,
+      "missing_observations": 20
+    },
+    "gdp_growth_volatility_regional_avg": {
+      "complete_observations": 260,
+      "total_observations": 280,
+      "completeness_rate": 0.9285714285714286,
+      "missing_observations": 20
+    },
+    "gdp_growth_volatility_regional_percentile": {
+      "complete_observations": 260,
+      "total_observations": 280,
+      "completeness_rate": 0.9285714285714286,
+      "missing_observations": 20
+    },
+    "inflation_volatility_regional_avg": {
+      "complete_observations": 260,
+      "total_observations": 280,
+      "completeness_rate": 0.9285714285714286,
+      "missing_observations": 20
+    },
+    "exchange_rate_volatility_regional_avg": {
+      "complete_observations": 260,
+      "total_observations": 280,
+      "completeness_rate": 0.9285714285714286,
+      "missing_observations": 20
+    },
+    "mobile_subs_growth_regional_avg": {
+      "complete_observations": 260,
+      "total_observations": 280,
+      "completeness_rate": 0.9285714285714286,
+      "missing_observations": 20
+    },
+    "mobile_subs_growth_regional_percentile": {
+      "complete_observations": 260,
+      "total_observations": 280,
+      "completeness_rate": 0.9285714285714286,
+      "missing_observations": 20
+    },
+    "internet_users_growth_regional_avg": {
+      "complete_observations": 260,
+      "total_observations": 280,
+      "completeness_rate": 0.9285714285714286,
+      "missing_observations": 20
+    },
+    "internet_users_growth_regional_percentile": {
+      "complete_observations": 260,
+      "total_observations": 280,
+      "completeness_rate": 0.9285714285714286,
+      "missing_observations": 20
+    },
+    "financial_depth_growth_regional_avg": {
+      "complete_observations": 260,
+      "total_observations": 280,
+      "completeness_rate": 0.9285714285714286,
+      "missing_observations": 20
+    },
+    "economic_instability_regional_avg": {
+      "complete_observations": 260,
+      "total_observations": 280,
+      "completeness_rate": 0.9285714285714286,
+      "missing_observations": 20
+    },
+    "external_vulnerability_regional_avg": {
+      "complete_observations": 260,
+      "total_observations": 280,
+      "completeness_rate": 0.9285714285714286,
+      "missing_observations": 20
+    },
+    "financial_inclusion_proxy": {
+      "complete_observations": 259,
+      "total_observations": 280,
+      "completeness_rate": 0.925,
+      "missing_observations": 21
+    },
+    "financial_inclusion_proxy_regional_percentile": {
+      "complete_observations": 259,
+      "total_observations": 280,
+      "completeness_rate": 0.925,
+      "missing_observations": 21
+    },
+    "exchange_rate": {
+      "complete_observations": 256,
+      "total_observations": 280,
+      "completeness_rate": 0.9142857142857143,
+      "missing_observations": 24
+    },
+    "exchange_rate_regional_percentile": {
+      "complete_observations": 256,
+      "total_observations": 280,
+      "completeness_rate": 0.9142857142857143,
+      "missing_observations": 24
+    },
+    "trade_openness": {
+      "complete_observations": 251,
+      "total_observations": 280,
+      "completeness_rate": 0.8964285714285715,
+      "missing_observations": 29
+    },
+    "trade_openness_regional_percentile": {
+      "complete_observations": 251,
+      "total_observations": 280,
+      "completeness_rate": 0.8964285714285715,
+      "missing_observations": 29
+    },
+    "inflation_volatility": {
+      "complete_observations": 250,
+      "total_observations": 280,
+      "completeness_rate": 0.8928571428571429,
+      "missing_observations": 30
+    },
+    "economic_instability": {
+      "complete_observations": 250,
+      "total_observations": 280,
+      "completeness_rate": 0.8928571428571429,
+      "missing_observations": 30
+    },
+    "inflation_volatility_regional_percentile": {
+      "complete_observations": 250,
+      "total_observations": 280,
+      "completeness_rate": 0.8928571428571429,
+      "missing_observations": 30
+    },
+    "economic_instability_regional_percentile": {
+      "complete_observations": 250,
+      "total_observations": 280,
+      "completeness_rate": 0.8928571428571429,
+      "missing_observations": 30
+    },
+    "financial_depth_growth": {
+      "complete_observations": 247,
+      "total_observations": 280,
+      "completeness_rate": 0.8821428571428571,
+      "missing_observations": 33
+    },
+    "financial_depth_growth_regional_percentile": {
+      "complete_observations": 247,
+      "total_observations": 280,
+      "completeness_rate": 0.8821428571428571,
+      "missing_observations": 33
+    },
+    "exchange_rate_volatility": {
+      "complete_observations": 237,
+      "total_observations": 280,
+      "completeness_rate": 0.8464285714285714,
+      "missing_observations": 43
+    },
+    "exchange_rate_volatility_regional_percentile": {
+      "complete_observations": 237,
+      "total_observations": 280,
+      "completeness_rate": 0.8464285714285714,
+      "missing_observations": 43
+    },
+    "external_vulnerability": {
+      "complete_observations": 211,
+      "total_observations": 280,
+      "completeness_rate": 0.7535714285714286,
+      "missing_observations": 69
+    },
+    "external_vulnerability_regional_percentile": {
+      "complete_observations": 211,
+      "total_observations": 280,
+      "completeness_rate": 0.7535714285714286,
+      "missing_observations": 69
+    },
+    "government_debt_gdp": {
+      "complete_observations": 211,
+      "total_observations": 280,
+      "completeness_rate": 0.7535714285714286,
+      "missing_observations": 69
+    },
+    "interest_rate": {
+      "complete_observations": 193,
+      "total_observations": 280,
+      "completeness_rate": 0.6892857142857143,
+      "missing_observations": 87
+    },
+    "interest_rate_regional_percentile": {
+      "complete_observations": 193,
+      "total_observations": 280,
+      "completeness_rate": 0.6892857142857143,
+      "missing_observations": 87
+    },
+    "central_bank_policy_rate": {
+      "complete_observations": 87,
+      "total_observations": 280,
+      "completeness_rate": 0.3107142857142857,
+      "missing_observations": 193
+    },
+    "debt_gdp": {
+      "complete_observations": 69,
+      "total_observations": 280,
+      "completeness_rate": 0.24642857142857144,
+      "missing_observations": 211
+    },
+    "debt_gdp_regional_percentile": {
+      "complete_observations": 69,
+      "total_observations": 280,
+      "completeness_rate": 0.24642857142857144,
+      "missing_observations": 211
+    }
+  },
+  "key_statistics": {
+    "gdp_growth": {
+      "mean": 4.88892372081789,
+      "median": 5.06353024125323,
+      "std": 3.3887287934875516,
+      "min": -8.72888241149465,
+      "max": 19.6754076562536,
+      "q25": 3.19819016133033,
+      "q75": 6.609067454359289
+    },
+    "inflation": {
+      "mean": 10.516146287006041,
+      "median": 5.1804764241282,
+      "std": 38.31567576438649,
+      "min": -3.23338933983324,
+      "max": 557.201817362051,
+      "q25": 2.2070195059174527,
+      "q75": 9.640311811370696
+    },
+    "unemployment": {
+      "mean": 6.229742857142857,
+      "median": 3.753,
+      "std": 6.520766352120371,
+      "min": 1.04,
+      "max": 34.007,
+      "q25": 2.7937499999999997,
+      "q75": 5.62975
+    },
+    "internet_users": {
+      "mean": 21.40335746323529,
+      "median": 16.0848,
+      "std": 18.070589441109735,
+      "min": 0.75,
+      "max": 81.36,
+      "q25": 7.1850000000000005,
+      "q75": 30.09465
+    },
+    "mobile_subs": {
+      "mean": 85.14027876363636,
+      "median": 79.8046,
+      "std": 34.92211467068814,
+      "min": 7.57026,
+      "max": 179.027,
+      "q25": 60.367900000000006,
+      "q75": 104.702
+    },
+    "fintech_adoption_rate": {
+      "mean": 5.872785714285714,
+      "median": 4.029999999999999,
+      "std": 6.365370871665324,
+      "min": 0.5,
+      "max": 48.55,
+      "q25": 1.5775000000000001,
+      "q75": 7.8475
+    },
+    "digital_payment_volume_gdp": {
+      "mean": 11.791642857142856,
+      "median": 7.75,
+      "std": 12.284626760264915,
+      "min": 1.0,
+      "max": 80.0,
+      "q25": 3.7874999999999996,
+      "q75": 15.305
+    },
+    "cybersecurity_incidents_per_100k": {
+      "mean": 3.8274999999999992,
+      "median": 2.675,
+      "std": 3.748320842695426,
+      "min": 0.1,
+      "max": 22.43,
+      "q25": 1.08,
+      "q75": 5.6425
+    },
+    "financial_exclusion_rate": {
+      "mean": 56.08821428571429,
+      "median": 57.55,
+      "std": 18.807192926121875,
+      "min": 5.7,
+      "max": 85.0,
+      "q25": 43.875,
+      "q75": 71.825
+    }
+  },
+  "regional_insights": {
+    "gdp_growth": {
+      "top_performers": [
+        {
+          "country_name": "Rwanda",
+          "gdp_growth": 8.24990302014558
+        },
+        {
+          "country_name": "Ethiopia",
+          "gdp_growth": 6.59424599357075
+        },
+        {
+          "country_name": "Cote d'Ivoire",
+          "gdp_growth": 6.45045796902575
+        },
+        {
+          "country_name": "Togo",
+          "gdp_growth": 6.40792215636242
+        },
+        {
+          "country_name": "Benin",
+          "gdp_growth": 6.3527773854442
+        }
+      ],
+      "bottom_performers": [
+        {
+          "country_name": "South Africa",
+          "gdp_growth": 0.698485193724835
+        },
+        {
+          "country_name": "Malawi",
+          "gdp_growth": 1.89245798756383
+        },
+        {
+          "country_name": "Nigeria",
+          "gdp_growth": 2.86021499108364
+        },
+        {
+          "country_name": "Burkina Faso",
+          "gdp_growth": 2.96018147384929
+        },
+        {
+          "country_name": "Ghana",
+          "gdp_growth": 3.14009099763754
+        }
+      ]
+    },
+    "fintech_adoption": {
+      "top_adopters": [
+        {
+          "country_name": "Botswana",
+          "fintech_adoption_rate": 38.32
+        },
+        {
+          "country_name": "Cameroon",
+          "fintech_adoption_rate": 19.96
+        },
+        {
+          "country_name": "Rwanda",
+          "fintech_adoption_rate": 17.33
+        },
+        {
+          "country_name": "Benin",
+          "fintech_adoption_rate": 15.98
+        },
+        {
+          "country_name": "Senegal",
+          "fintech_adoption_rate": 13.91
+        }
+      ],
+      "bottom_adopters": [
+        {
+          "country_name": "Uganda",
+          "fintech_adoption_rate": 1.61
+        },
+        {
+          "country_name": "Tanzania",
+          "fintech_adoption_rate": 2.43
+        },
+        {
+          "country_name": "Nigeria",
+          "fintech_adoption_rate": 2.73
+        },
+        {
+          "country_name": "Ethiopia",
+          "fintech_adoption_rate": 3.15
+        },
+        {
+          "country_name": "South Africa",
+          "fintech_adoption_rate": 4.68
+        }
+      ]
+    },
+    "digital_infrastructure": {
+      "most_developed": [
+        {
+          "country_name": "South Africa",
+          "digital_infrastructure": 777.1791869417
+        },
+        {
+          "country_name": "Botswana",
+          "digital_infrastructure": 62.7342817561498
+        },
+        {
+          "country_name": "Ghana",
+          "digital_infrastructure": 37.37991565228028
+        },
+        {
+          "country_name": "Senegal",
+          "digital_infrastructure": 32.61559143449732
+        },
+        {
+          "country_name": "Kenya",
+          "digital_infrastructure": 32.3566102645543
+        }
+      ],
+      "least_developed": [
+        {
+          "country_name": "Burkina Faso",
+          "digital_infrastructure": 9.64046932745285
+        },
+        {
+          "country_name": "Uganda",
+          "digital_infrastructure": 10.20755581644924
+        },
+        {
+          "country_name": "Malawi",
+          "digital_infrastructure": 10.377642357301164
+        },
+        {
+          "country_name": "Mozambique",
+          "digital_infrastructure": 11.776901521265245
+        },
+        {
+          "country_name": "Benin",
+          "digital_infrastructure": 16.724232128637777
+        }
+      ]
+    },
+    "economic_risk": {
+      "highest_risk": [
+        {
+          "country_name": "Ghana",
+          "economic_instability": 15.65592173113652
+        },
+        {
+          "country_name": "Rwanda",
+          "economic_instability": 12.627222849056151
+        },
+        {
+          "country_name": "Malawi",
+          "economic_instability": 11.67428157923344
+        },
+        {
+          "country_name": "Botswana",
+          "economic_instability": 7.878460281174452
+        },
+        {
+          "country_name": "Zambia",
+          "economic_instability": 6.949756561794608
+        }
+      ],
+      "lowest_risk": [
+        {
+          "country_name": "Tanzania",
+          "economic_instability": 0.7350446043044554
+        },
+        {
+          "country_name": "Cote d'Ivoire",
+          "economic_instability": 0.9857353176050788
+        },
+        {
+          "country_name": "Benin",
+          "economic_instability": 1.2116099914976235
+        },
+        {
+          "country_name": "Togo",
+          "economic_instability": 2.2494681764294056
+        },
+        {
+          "country_name": "Kenya",
+          "economic_instability": 2.3182498770267816
+        }
+      ]
+    }
+  }
+}
