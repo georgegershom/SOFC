@@ -1,0 +1,79 @@
+{
+  "dataset_name": "FinTech Risk Nexus Dataset - Sub-Saharan Africa",
+  "category": "Category 4: Nexus-Specific & Alternative Data",
+  "description": "Comprehensive dataset capturing interconnected FinTech risks in Sub-Saharan African economies",
+  "time_period": "2018-01-01 to 2024-09-30",
+  "frequency": "Quarterly",
+  "countries": [
+    "Kenya",
+    "Nigeria",
+    "South Africa",
+    "Ghana",
+    "Uganda",
+    "Tanzania",
+    "Rwanda",
+    "Senegal",
+    "Ivory Coast",
+    "Ethiopia",
+    "Zambia",
+    "Zimbabwe",
+    "Mozambique",
+    "Cameroon",
+    "Angola"
+  ],
+  "total_records": 405,
+  "generation_date": "2025-10-11T10:27:13.393803",
+  "variables": {
+    "Cyber Risk Exposure": [
+      "cyber_incidents_reported",
+      "google_trend_mobile_fraud",
+      "data_breach_severity_index",
+      "phishing_attempts_per_1000_users"
+    ],
+    "Consumer Sentiment & Trust": [
+      "social_media_sentiment_score",
+      "consumer_trust_index",
+      "net_promoter_score",
+      "customer_complaint_rate"
+    ],
+    "Competitive Dynamics": [
+      "herfindahl_hirschman_index",
+      "new_fintech_licenses_issued",
+      "market_entry_rate",
+      "innovation_index"
+    ],
+    "Risk Indicators": [
+      "system_interconnectedness_score",
+      "regulatory_compliance_score",
+      "operational_risk_index",
+      "liquidity_risk_indicator"
+    ],
+    "Composite Metrics": [
+      "composite_cyber_risk",
+      "market_health_score",
+      "risk_adjusted_growth_potential"
+    ]
+  },
+  "data_sources_note": "This is synthetic data generated for research purposes",
+  "variable_descriptions": {
+    "cyber_incidents_reported": "Number of cybersecurity incidents reported in the financial sector per quarter",
+    "google_trend_mobile_fraud": "Google search trend index (0-100) for \"mobile money fraud\" and related terms",
+    "data_breach_severity_index": "Severity index of data breaches (1-10 scale)",
+    "phishing_attempts_per_1000_users": "Frequency of phishing attempts per 1000 FinTech users",
+    "social_media_sentiment_score": "Aggregate sentiment from social media analysis (-100 to +100)",
+    "consumer_trust_index": "Consumer trust in FinTech services (0-100)",
+    "net_promoter_score": "NPS for major FinTech brands (-100 to +100)",
+    "customer_complaint_rate": "Customer complaints per 1000 transactions",
+    "herfindahl_hirschman_index": "Market concentration measure (0-10000, higher = more concentrated)",
+    "new_fintech_licenses_issued": "Number of new FinTech licenses issued per quarter",
+    "market_entry_rate": "New entrants as percentage of existing players",
+    "innovation_index": "FinTech innovation index (0-100)",
+    "system_interconnectedness_score": "Degree of system interconnection (0-100)",
+    "regulatory_compliance_score": "Regulatory compliance level (0-100)",
+    "operational_risk_index": "Operational risk level (1-10)",
+    "liquidity_risk_indicator": "Liquidity risk measure (0-1)",
+    "composite_cyber_risk": "Weighted composite of cyber risk factors",
+    "market_health_score": "Overall market health indicator",
+    "risk_adjusted_growth_potential": "Growth potential adjusted for risk factors"
+  }
+}
