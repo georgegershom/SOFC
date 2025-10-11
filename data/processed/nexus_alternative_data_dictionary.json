@@ -1,0 +1,50 @@
+[
+  {
+    "variable": "country",
+    "type": "string",
+    "description": "Country in Sub-Saharan Africa",
+    "source": "synthetic + mappings"
+  },
+  {
+    "variable": "month",
+    "type": "string YYYY-MM",
+    "description": "Monthly period",
+    "source": "constructed"
+  },
+  {
+    "variable": "year",
+    "type": "integer",
+    "description": "Calendar year",
+    "source": "derived from month/yearly tables"
+  },
+  {
+    "variable": "cyber_incidents",
+    "type": "integer",
+    "description": "Number of cybersecurity incidents reported in financial sector",
+    "source": "fabricated (use national CERTs if available)"
+  },
+  {
+    "variable": "google_trend_mobile_money_fraud",
+    "type": "0-100 index",
+    "description": "Google search interest for 'mobile money fraud'",
+    "source": "pytrends; fabricated fallback"
+  },
+  {
+    "variable": "sentiment_score",
+    "type": "-1 to 1",
+    "description": "Social media sentiment about FinTech brands",
+    "source": "synthetic sentiment (replace with scrapes if available)"
+  },
+  {
+    "variable": "hhi",
+    "type": "numeric",
+    "description": "Herfindahl-Hirschman Index based on synthetic market shares (percentage-squared)",
+    "source": "computed from synthetic shares"
+  },
+  {
+    "variable": "new_fintech_licenses",
+    "type": "integer",
+    "description": "Number of new FinTech licenses issued per year",
+    "source": "fabricated (replace with regulator data if available)"
+  }
+]

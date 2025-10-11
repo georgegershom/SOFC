@@ -1,0 +1,50 @@
+Collecting pandas
+  Downloading pandas-2.3.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (91 kB)
+Collecting numpy
+  Downloading numpy-2.3.3-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+Collecting pytrends
+  Downloading pytrends-4.9.2-py3-none-any.whl.metadata (13 kB)
+Collecting vaderSentiment
+  Downloading vaderSentiment-3.3.2-py2.py3-none-any.whl.metadata (572 bytes)
+Collecting requests
+  Downloading requests-2.32.5-py3-none-any.whl.metadata (4.9 kB)
+Collecting python-dateutil
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pytz>=2020.1 (from pandas)
+  Downloading pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas)
+  Downloading tzdata-2025.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting lxml (from pytrends)
+  Downloading lxml-6.0.2-cp313-cp313-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl.metadata (3.6 kB)
+Collecting charset_normalizer<4,>=2 (from requests)
+  Downloading charset_normalizer-3.4.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (36 kB)
+Collecting idna<4,>=2.5 (from requests)
+  Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
+Collecting urllib3<3,>=1.21.1 (from requests)
+  Downloading urllib3-2.5.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting certifi>=2017.4.17 (from requests)
+  Downloading certifi-2025.10.5-py3-none-any.whl.metadata (2.5 kB)
+Collecting six>=1.5 (from python-dateutil)
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Downloading pandas-2.3.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 224.5 MB/s eta 0:00:00
+
+Downloading numpy-2.3.3-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.6/16.6 MB 229.0 MB/s eta 0:00:00
+
+Downloading pytrends-4.9.2-py3-none-any.whl (15 kB)
+Downloading vaderSentiment-3.3.2-py2.py3-none-any.whl (125 kB)
+Downloading requests-2.32.5-py3-none-any.whl (64 kB)
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading certifi-2025.10.5-py3-none-any.whl (163 kB)
+Downloading charset_normalizer-3.4.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (151 kB)
+Downloading idna-3.10-py3-none-any.whl (70 kB)
+Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+Downloading urllib3-2.5.0-py3-none-any.whl (129 kB)
+Downloading lxml-6.0.2-cp313-cp313-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl (5.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.2/5.2 MB 292.1 MB/s eta 0:00:00
+
+Installing collected packages: pytz, urllib3, tzdata, six, numpy, lxml, idna, charset_normalizer, certifi, requests, python-dateutil, vaderSentiment, pandas, pytrends
+Successfully installed certifi-2025.10.5 charset_normalizer-3.4.3 idna-3.10 lxml-6.0.2 numpy-2.3.3 pandas-2.3.3 python-dateutil-2.9.0.post0 pytrends-4.9.2 pytz-2025.2 requests-2.32.5 six-1.17.0 tzdata-2025.2 urllib3-2.5.0 vaderSentiment-3.3.2
