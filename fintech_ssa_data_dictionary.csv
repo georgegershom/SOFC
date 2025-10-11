@@ -1,0 +1,39 @@
+Variable Name,Description,Data Type,Unit
+company_id,Unique identifier for each FinTech company,String,ID
+company_name,Company name (synthetic),String,Name
+country,Country of operation in SSA,String,Country
+category,FinTech category/vertical,String,Category
+quarter_date,Quarter date for the observation,Date,Date
+quarter,Quarter number (1-20),Integer,Count
+initial_stage,Initial funding stage when company started,String,Stage
+founding_date,Company founding date,Date,Date
+company_age_months,Age of company in months,Integer,Months
+market_size,Market size classification (small/medium/large),String,Category
+regulatory_env,Regulatory environment strength (low/medium/high),String,Category
+revenue,Quarterly revenue in USD,Float,USD
+revenue_growth_qoq,Quarter-over-quarter revenue growth rate,Float,Ratio
+revenue_ma3,3-quarter moving average of revenue,Float,USD
+revenue_volatility,Revenue growth volatility (4-quarter rolling std),Float,Ratio
+operating_costs,Quarterly operating costs in USD,Float,USD
+net_income,Quarterly net income in USD,Float,USD
+profitability_ratio,Net income to revenue ratio,Float,Ratio
+burn_rate,Monthly burn rate in USD,Float,USD/month
+funding_amount,Funding received this quarter in USD,Float,USD
+funding_round,Type of funding round (if any),String,Category
+cumulative_funding,Total cumulative funding received in USD,Float,USD
+active_users,Number of active users,Integer,Count
+user_growth_qoq,Quarter-over-quarter user growth rate,Float,Ratio
+active_users_ma3,3-quarter moving average of active users,Float,Count
+transaction_volume,Total transaction volume in USD,Float,USD
+transaction_count,Number of transactions,Integer,Count
+avg_transaction_value,Average transaction value in USD,Float,USD
+num_agents,Number of agents (for applicable categories),Integer,Count
+customer_acquisition_cost,Cost to acquire one customer in USD,Float,USD
+churn_rate,Customer churn rate (proportion),Float,Proportion
+churn_rate_ma3,3-quarter moving average of churn rate,Float,Proportion
+regulatory_fine,Regulatory fine amount in USD (if any),Float,USD
+regulatory_sanction,Binary: 1 if regulatory sanction imposed,Binary,0/1
+risk_score,Composite risk score (0-1),Float,0-1
+early_warning_signal,Binary: 1 if early warning triggered,Binary,0/1
+distress_flag,Binary: 1 if company in distress,Binary,0/1
+failure_imminent,Binary: 1 if failure within 2 quarters,Binary,0/1
