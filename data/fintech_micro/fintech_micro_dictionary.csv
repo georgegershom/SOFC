@@ -1,0 +1,25 @@
+column,type,description,role
+firm_id,string,Entity ID (anonymized),key
+date,date,Month (period end),key
+country,string,ISO-2 country code,feature
+segment,string,FinTech segment,feature
+is_active,int,"1 if firm operating, 0 after closure",feature
+revenue_usd,float,Monthly revenue in USD,feature
+net_income_usd,float,Monthly net income in USD,feature
+burn_rate_usd,float,Monthly cash burn if loss (USD),feature
+active_users,int,Estimated active users/customers,feature
+transaction_volume_usd,float,Monthly processed volume (USD),feature
+transaction_count,int,Monthly processed transactions count,feature
+agents_count,int,Active agents (mobile money only),feature
+cac_usd,float,Customer acquisition cost (USD),feature
+churn_rate,float,Monthly churn rate (0-1),feature
+funding_round_amount_usd,float,Funding amount if round this month (USD),feature
+funding_stage,string,Current funding stage label,feature
+cumulative_funding_usd,float,Cumulative funding to date (USD),feature
+regulatory_sanction_flag,int,1 if sanctioned this month,feature
+sanction_severity,float,Sanction severity (0-1),feature
+downturn_flag,int,Sustained revenue/users downturn started,feature
+distress_event,int,Any distress event this month (0/1),label
+distress_type,string,none | default_closure | regulatory_sanction | sustained_downturn | acquisition_duress,label
+distress_event_t_plus_3m,int,Lead label: distress within 3 months,label
+distress_event_t_plus_6m,int,Lead label: distress within 6 months,label
