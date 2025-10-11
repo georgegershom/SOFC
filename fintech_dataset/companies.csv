@@ -1,0 +1,201 @@
+company_id,company_name,country,fintech_type,age_years,company_size,employees,regulatory_status,funding_stage,gdp_per_capita,mobile_penetration,fintech_maturity
+FT0001,MTN Mobile Money Digital,Rwanda,Lending Platform,3.7,Small,94,Licensed,Seed,822,0.85,medium
+FT0002,Wari Inc,Senegal,Remittance,4.8,Medium,149,Licensed,Bootstrap,1444,0.88,medium
+FT0003,MTN Mobile Money,Zambia,Insurance Tech,2.0,Medium,189,Licensed,IPO,1209,0.79,low
+FT0004,SpotMoney,South Africa,Lending Platform,2.9,Medium,154,Licensed,Bootstrap,6994,0.95,high
+FT0005,Zeepay,Ghana,Mobile Money,2.5,Small,149,Pending,Seed,2202,0.87,medium
+FT0006,MTN Mobile Money,Rwanda,Lending Platform,1.6,Startup,44,Pending,Seed,822,0.85,medium
+FT0007,HaloPesa Inc,Tanzania,Digital Banking,5.5,Large,369,Pending,Seed,1098,0.82,medium
+FT0008,MTN Mobile Money,Rwanda,Lending Platform,6.6,Large,978,Unlicensed,Seed,822,0.85,medium
+FT0009,Chapa Ltd,Ethiopia,Investment Platform,14.0,Large,747,Licensed,Series B,925,0.45,low
+FT0010,Kuda,Nigeria,Remittance,3.8,Medium,60,Unlicensed,Series B,2028,0.89,high
+FT0011,Kopo Kopo,Kenya,Mobile Money,2.2,Medium,123,Licensed,Series A,1808,0.91,high
+FT0012,SpotMoney,South Africa,Investment Platform,5.3,Medium,866,Licensed,Bootstrap,6994,0.95,high
+FT0013,Mukuru Ltd,Zambia,Digital Banking,2.1,Small,170,Pending,Series A,1209,0.79,low
+FT0014,ExpressPay,Ghana,Investment Platform,7.4,Medium,673,Pending,Series B,2202,0.87,medium
+FT0015,Slydepay,Ghana,Insurance Tech,5.9,Large,330,Unlicensed,Seed,2202,0.87,medium
+FT0016,M-Birr,Ethiopia,Lending Platform,1.0,Startup,13,Licensed,Series A,925,0.45,low
+FT0017,Mukuru,Zambia,Lending Platform,2.2,Small,199,Licensed,IPO,1209,0.79,low
+FT0018,Slydepay,Ghana,Lending Platform,4.7,Small,100,Licensed,IPO,2202,0.87,medium
+FT0019,NMB Mobile,Tanzania,Crypto Exchange,4.0,Medium,72,Licensed,Acquired,1098,0.82,medium
+FT0020,BK Mobile,Rwanda,Lending Platform,1.8,Small,28,Licensed,Acquired,822,0.85,medium
+FT0021,M-Pesa Technologies,Tanzania,Payment Gateway,1.6,Startup,24,Licensed,Seed,1098,0.82,medium
+FT0022,Zoona Solutions,Zambia,Payment Gateway,9.5,Medium,650,Unlicensed,Bootstrap,1209,0.79,low
+FT0023,Kifiya,Ethiopia,Mobile Money,7.3,Medium,863,Licensed,Acquired,925,0.45,low
+FT0024,MTN Mobile Money Group,Ghana,Lending Platform,7.8,Large,108,Licensed,Series A,2202,0.87,medium
+FT0025,Mukuru,South Africa,Lending Platform,4.1,Small,183,Unlicensed,Series A,6994,0.95,high
+FT0026,Mukuru,South Africa,Remittance,11.9,Medium,977,Licensed,Series A,6994,0.95,high
+FT0027,M-Birr Group,Ethiopia,Lending Platform,2.2,Medium,147,Pending,Series A,925,0.45,low
+FT0028,Carbon,Nigeria,Remittance,4.0,Small,177,Suspended,Seed,2028,0.89,high
+FT0029,Airtel Money,Tanzania,Remittance,2.3,Medium,130,Licensed,Bootstrap,1098,0.82,medium
+FT0030,JUMO,South Africa,Lending Platform,1.1,Small,34,Suspended,Series C,6994,0.95,high
+FT0031,Yoco,South Africa,Lending Platform,2.2,Small,114,Suspended,Series B,6994,0.95,high
+FT0032,MTN Mobile Money,Uganda,Remittance,1.6,Startup,35,Unlicensed,Series C,884,0.78,medium
+FT0033,Joni Joni,Senegal,Digital Banking,2.3,Small,149,Licensed,Series B,1444,0.88,medium
+FT0034,Kifiya,Ethiopia,Payment Gateway,2.0,Medium,118,Licensed,Series A,925,0.45,low
+FT0035,MTN Mobile Money,Zambia,Crypto Exchange,1.6,Startup,20,Licensed,Series B,1209,0.79,low
+FT0036,Kopo Kopo,Kenya,Digital Banking,2.2,Small,144,Unlicensed,Series B,1808,0.91,high
+FT0037,Paystack,Nigeria,Lending Platform,2.3,Small,27,Pending,Seed,2028,0.89,high
+FT0038,Centenary Bank,Uganda,Crypto Exchange,1.6,Startup,39,Pending,Series A,884,0.78,medium
+FT0039,Tala,Kenya,Lending Platform,5.8,Medium,703,Pending,Seed,1808,0.91,high
+FT0040,Airtel Money,Zambia,Investment Platform,4.6,Small,77,Unlicensed,Seed,1209,0.79,low
+FT0041,M-Pesa,Tanzania,Remittance,2.0,Small,43,Pending,Seed,1098,0.82,medium
+FT0042,Equity Bank,Rwanda,Payment Gateway,1.5,Startup,33,Licensed,Bootstrap,822,0.85,medium
+FT0043,Cowrywise,Nigeria,Insurance Tech,1.6,Startup,30,Licensed,Seed,2028,0.89,high
+FT0044,Cowrywise,Nigeria,Insurance Tech,1.1,Small,40,Licensed,Seed,2028,0.89,high
+FT0045,Airtel Money,Zambia,Payment Gateway,3.3,Medium,35,Licensed,Series A,1209,0.79,low
+FT0046,Kuda,Nigeria,Lending Platform,4.4,Small,52,Licensed,Series A,2028,0.89,high
+FT0047,Equity Bank,Uganda,Lending Platform,4.2,Small,48,Licensed,Bootstrap,884,0.78,medium
+FT0048,Branch,Kenya,Investment Platform,2.2,Medium,112,Unlicensed,Bootstrap,1808,0.91,high
+FT0049,M-Pesa,Kenya,Payment Gateway,4.5,Small,94,Unlicensed,Series A,1808,0.91,high
+FT0050,MTN Mobile Money,Uganda,Investment Platform,2.7,Small,196,Pending,Bootstrap,884,0.78,medium
+FT0051,Bamboo,Nigeria,Crypto Exchange,6.9,Medium,624,Pending,Seed,2028,0.89,high
+FT0052,Cowrywise,Nigeria,Mobile Money,2.5,Small,38,Licensed,Bootstrap,2028,0.89,high
+FT0053,Amole,Ethiopia,Payment Gateway,10.4,Medium,663,Licensed,Series A,925,0.45,low
+FT0054,Equity Bank,Uganda,Investment Platform,3.4,Small,72,Pending,Series B,884,0.78,medium
+FT0055,Airtel Money Inc,Uganda,Digital Banking,2.7,Medium,94,Licensed,Bootstrap,884,0.78,medium
+FT0056,Mukuru,Zambia,Digital Banking,6.5,Medium,267,Licensed,Series B,1209,0.79,low
+FT0057,MTN Mobile Money,Zambia,Digital Banking,1.8,Startup,49,Licensed,Series B,1209,0.79,low
+FT0058,MTN Mobile Money,Rwanda,Mobile Money,2.4,Small,127,Licensed,Seed,822,0.85,medium
+FT0059,Zoona,Zambia,Payment Gateway,1.9,Startup,24,Licensed,Bootstrap,1209,0.79,low
+FT0060,M-Birr,Ethiopia,Crypto Exchange,1.8,Startup,29,Unlicensed,Seed,925,0.45,low
+FT0061,HaloPesa,Tanzania,Digital Banking,3.4,Small,99,Licensed,Acquired,1098,0.82,medium
+FT0062,Equity Bank,Uganda,Lending Platform,1.2,Startup,18,Licensed,Acquired,884,0.78,medium
+FT0063,Airtel Money,Tanzania,Insurance Tech,1.1,Startup,36,Licensed,Seed,1098,0.82,medium
+FT0064,Orange Money Solutions,Senegal,Lending Platform,4.1,Small,79,Licensed,Bootstrap,1444,0.88,medium
+FT0065,Amole,Ethiopia,Lending Platform,1.1,Startup,24,Pending,Seed,925,0.45,low
+FT0066,Mukuru,South Africa,Investment Platform,4.9,Medium,29,Unlicensed,Series B,6994,0.95,high
+FT0067,MTN Mobile Money,Uganda,Crypto Exchange,3.0,Medium,30,Licensed,Seed,884,0.78,medium
+FT0068,Airtel Money,Tanzania,Payment Gateway,1.2,Startup,5,Licensed,Bootstrap,1098,0.82,medium
+FT0069,Bamboo,Nigeria,Investment Platform,8.3,Medium,664,Unlicensed,Series B,2028,0.89,high
+FT0070,Cowrywise Ltd,Nigeria,Investment Platform,10.2,Medium,545,Unlicensed,Series B,2028,0.89,high
+FT0071,Kopo Kopo Inc,Kenya,Lending Platform,3.1,Small,22,Licensed,Series B,1808,0.91,high
+FT0072,NMB Mobile Technologies,Tanzania,Lending Platform,2.5,Small,66,Licensed,Series B,1098,0.82,medium
+FT0073,Branch,Kenya,Payment Gateway,3.9,Medium,69,Licensed,Seed,1808,0.91,high
+FT0074,Ozow,South Africa,Crypto Exchange,3.2,Medium,49,Pending,Series B,6994,0.95,high
+FT0075,Centenary Bank,Uganda,Investment Platform,6.5,Large,951,Licensed,Acquired,884,0.78,medium
+FT0076,Stanbic Bank Technologies,Uganda,Digital Banking,1.8,Startup,27,Licensed,Bootstrap,884,0.78,medium
+FT0077,HaloPesa Ltd,Tanzania,Remittance,7.8,Medium,192,Suspended,Series A,1098,0.82,medium
+FT0078,EasyEquities Solutions,South Africa,Payment Gateway,2.3,Small,89,Licensed,Seed,6994,0.95,high
+FT0079,Airtel Money Inc,Zambia,Insurance Tech,4.5,Small,66,Pending,Bootstrap,1209,0.79,low
+FT0080,Carbon,Nigeria,Digital Banking,5.1,Medium,818,Licensed,Series C,2028,0.89,high
+FT0081,Zoona,Zambia,Lending Platform,4.8,Small,75,Licensed,Series A,1209,0.79,low
+FT0082,BK Mobile,Rwanda,Insurance Tech,1.3,Startup,39,Licensed,Bootstrap,822,0.85,medium
+FT0083,Equity Bank Ltd,Rwanda,Investment Platform,6.5,Medium,225,Licensed,Series B,822,0.85,medium
+FT0084,Zeepay,Ghana,Mobile Money,4.1,Small,130,Pending,Series A,2202,0.87,medium
+FT0085,Joni Joni Ltd,Senegal,Mobile Money,2.2,Medium,83,Licensed,Seed,1444,0.88,medium
+FT0086,M-Pesa Group,Tanzania,Investment Platform,1.8,Startup,8,Unlicensed,Bootstrap,1098,0.82,medium
+FT0087,Orange Money Technologies,Senegal,Crypto Exchange,1.1,Startup,28,Licensed,Seed,1444,0.88,medium
+FT0088,Slydepay,Ghana,Crypto Exchange,3.0,Medium,81,Unlicensed,Series A,2202,0.87,medium
+FT0089,Wari,Senegal,Digital Banking,1.7,Small,8,Licensed,Series A,1444,0.88,medium
+FT0090,Bamboo,Nigeria,Lending Platform,5.4,Medium,993,Licensed,Seed,2028,0.89,high
+FT0091,Mukuru,South Africa,Mobile Money,1.4,Startup,48,Licensed,Series A,6994,0.95,high
+FT0092,Hubtel Ltd,Ghana,Mobile Money,3.7,Small,182,Licensed,Series C,2202,0.87,medium
+FT0093,Equitel,Kenya,Insurance Tech,9.4,Medium,646,Unlicensed,Series A,1808,0.91,high
+FT0094,Orange Money,Senegal,Payment Gateway,5.8,Large,264,Unlicensed,Series A,1444,0.88,medium
+FT0095,Mukuru,Zambia,Insurance Tech,3.7,Medium,91,Licensed,Seed,1209,0.79,low
+FT0096,Mukuru,South Africa,Investment Platform,2.7,Small,164,Unlicensed,Seed,6994,0.95,high
+FT0097,Equity Bank,Uganda,Remittance,2.7,Small,198,Licensed,Bootstrap,884,0.78,medium
+FT0098,Cowrywise,Nigeria,Lending Platform,5.7,Medium,196,Pending,Series B,2028,0.89,high
+FT0099,Carbon,Nigeria,Insurance Tech,5.3,Large,964,Licensed,Series A,2028,0.89,high
+FT0100,Zeepay,Ghana,Investment Platform,5.8,Medium,146,Licensed,Series B,2202,0.87,medium
+FT0101,Luno,South Africa,Payment Gateway,1.9,Startup,15,Suspended,Seed,6994,0.95,high
+FT0102,Tigo Pesa,Tanzania,Remittance,1.5,Startup,22,Pending,Bootstrap,1098,0.82,medium
+FT0103,Zeepay,Ghana,Remittance,1.1,Startup,32,Licensed,Bootstrap,2202,0.87,medium
+FT0104,Mukuru,South Africa,Investment Platform,8.8,Medium,913,Licensed,Bootstrap,6994,0.95,high
+FT0105,MTN Mobile Money,Ghana,Insurance Tech,2.1,Small,162,Licensed,Bootstrap,2202,0.87,medium
+FT0106,Amole,Ethiopia,Digital Banking,3.8,Small,44,Unlicensed,Series C,925,0.45,low
+FT0107,BK Mobile,Rwanda,Digital Banking,2.8,Small,127,Unlicensed,Seed,822,0.85,medium
+FT0108,Amole,Ethiopia,Crypto Exchange,8.4,Medium,162,Licensed,Seed,925,0.45,low
+FT0109,M-Pesa Solutions,Kenya,Investment Platform,2.8,Small,105,Licensed,Acquired,1808,0.91,high
+FT0110,Flutterwave,Nigeria,Crypto Exchange,2.5,Small,81,Licensed,Bootstrap,2028,0.89,high
+FT0111,Free Money Technologies,Senegal,Payment Gateway,2.8,Small,132,Licensed,Series A,1444,0.88,medium
+FT0112,Hubtel Technologies,Ghana,Mobile Money,2.4,Small,129,Licensed,Series B,2202,0.87,medium
+FT0113,Equity Bank,Rwanda,Lending Platform,4.2,Small,86,Licensed,Series A,822,0.85,medium
+FT0114,Orange Money,Senegal,Insurance Tech,1.6,Startup,12,Licensed,Seed,1444,0.88,medium
+FT0115,Wari,Senegal,Insurance Tech,9.7,Medium,834,Licensed,Bootstrap,1444,0.88,medium
+FT0116,MTN Mobile Money Technologies,Zambia,Crypto Exchange,1.4,Small,33,Licensed,Series B,1209,0.79,low
+FT0117,Equity Bank Inc,Uganda,Lending Platform,2.4,Small,39,Pending,Seed,884,0.78,medium
+FT0118,M-Birr Solutions,Ethiopia,Digital Banking,12.0,Large,692,Unlicensed,Seed,925,0.45,low
+FT0119,Equity Bank,Rwanda,Remittance,1.1,Startup,44,Pending,Seed,822,0.85,medium
+FT0120,Kifiya,Ethiopia,Insurance Tech,13.5,Medium,208,Pending,Series A,925,0.45,low
+FT0121,NMB Mobile,Tanzania,Digital Banking,3.1,Small,184,Pending,Series B,1098,0.82,medium
+FT0122,Airtel Money Technologies,Rwanda,Investment Platform,7.9,Large,267,Licensed,Series A,822,0.85,medium
+FT0123,Airtel Money,Uganda,Crypto Exchange,2.6,Small,141,Licensed,Seed,884,0.78,medium
+FT0124,M-Pesa Solutions,Tanzania,Payment Gateway,5.4,Medium,878,Licensed,Seed,1098,0.82,medium
+FT0125,Bamboo,Nigeria,Payment Gateway,9.9,Medium,763,Unlicensed,Series A,2028,0.89,high
+FT0126,Carbon,Nigeria,Digital Banking,1.5,Small,21,Licensed,Series A,2028,0.89,high
+FT0127,Tala,Kenya,Mobile Money,2.3,Small,148,Licensed,Series A,1808,0.91,high
+FT0128,Zoona Inc,Zambia,Mobile Money,5.8,Medium,577,Licensed,Bootstrap,1209,0.79,low
+FT0129,Equity Bank,Uganda,Lending Platform,1.4,Small,16,Licensed,Series B,884,0.78,medium
+FT0130,Orange Money,Senegal,Crypto Exchange,4.9,Medium,44,Unlicensed,Series A,1444,0.88,medium
+FT0131,MTN Mobile Money,Zambia,Mobile Money,1.1,Startup,21,Licensed,Series A,1209,0.79,low
+FT0132,Airtel Money Ltd,Zambia,Crypto Exchange,1.6,Startup,27,Pending,Series A,1209,0.79,low
+FT0133,ExpressPay,Ghana,Crypto Exchange,6.3,Medium,258,Licensed,Series A,2202,0.87,medium
+FT0134,Equitel,Kenya,Payment Gateway,2.7,Small,58,Licensed,Series A,1808,0.91,high
+FT0135,NMB Mobile,Tanzania,Mobile Money,7.5,Medium,993,Licensed,Seed,1098,0.82,medium
+FT0136,Branch,Kenya,Insurance Tech,3.3,Medium,142,Suspended,Seed,1808,0.91,high
+FT0137,Cowrywise,Nigeria,Investment Platform,4.0,Medium,140,Pending,Seed,2028,0.89,high
+FT0138,MTN Mobile Money,Rwanda,Lending Platform,1.0,Startup,34,Unlicensed,Series A,822,0.85,medium
+FT0139,MTN Mobile Money,Uganda,Mobile Money,1.1,Startup,28,Licensed,IPO,884,0.78,medium
+FT0140,Stanbic Bank Group,Uganda,Investment Platform,13.1,Large,443,Licensed,Series A,884,0.78,medium
+FT0141,Amole Solutions,Ethiopia,Crypto Exchange,6.5,Medium,342,Licensed,Seed,925,0.45,low
+FT0142,Tala Inc,Kenya,Mobile Money,5.5,Medium,872,Pending,Seed,1808,0.91,high
+FT0143,Amole,Ethiopia,Payment Gateway,1.6,Startup,22,Pending,Bootstrap,925,0.45,low
+FT0144,EasyEquities Ltd,South Africa,Insurance Tech,3.7,Small,117,Licensed,Seed,6994,0.95,high
+FT0145,M-Birr,Ethiopia,Payment Gateway,1.1,Startup,29,Licensed,Bootstrap,925,0.45,low
+FT0146,Wari Technologies,Senegal,Lending Platform,4.9,Small,56,Licensed,Series A,1444,0.88,medium
+FT0147,MTN Mobile Money Digital,Uganda,Investment Platform,3.0,Small,86,Licensed,Series A,884,0.78,medium
+FT0148,Kuda,Nigeria,Insurance Tech,1.8,Startup,45,Licensed,Seed,2028,0.89,high
+FT0149,Centenary Bank,Uganda,Digital Banking,5.2,Medium,846,Suspended,Seed,884,0.78,medium
+FT0150,Airtel Money,Rwanda,Digital Banking,1.8,Small,22,Unlicensed,Series B,822,0.85,medium
+FT0151,Equity Bank Technologies,Rwanda,Digital Banking,12.9,Medium,322,Licensed,Bootstrap,822,0.85,medium
+FT0152,Mukuru Inc,South Africa,Remittance,2.7,Medium,175,Pending,Series C,6994,0.95,high
+FT0153,HaloPesa,Tanzania,Lending Platform,1.2,Startup,21,Pending,Series A,1098,0.82,medium
+FT0154,Tigo Pesa Inc,Tanzania,Mobile Money,7.2,Large,384,Licensed,Series A,1098,0.82,medium
+FT0155,Zeepay Technologies,Ghana,Investment Platform,6.2,Medium,558,Pending,Seed,2202,0.87,medium
+FT0156,KCB M-Pesa,Kenya,Investment Platform,2.8,Small,138,Unlicensed,Seed,1808,0.91,high
+FT0157,M-Shwari Technologies,Kenya,Crypto Exchange,2.0,Small,48,Licensed,Series A,1808,0.91,high
+FT0158,Centenary Bank,Uganda,Payment Gateway,2.0,Small,5,Licensed,Series A,884,0.78,medium
+FT0159,Branch Ltd,Kenya,Investment Platform,4.8,Small,46,Suspended,Bootstrap,1808,0.91,high
+FT0160,PiggyVest Technologies,Nigeria,Investment Platform,6.6,Large,486,Pending,Seed,2028,0.89,high
+FT0161,Free Money,Senegal,Lending Platform,5.8,Medium,305,Licensed,Series A,1444,0.88,medium
+FT0162,MTN Mobile Money Ltd,Ghana,Lending Platform,1.5,Startup,6,Pending,Seed,2202,0.87,medium
+FT0163,PiggyVest Inc,Nigeria,Remittance,3.0,Medium,51,Pending,Series B,2028,0.89,high
+FT0164,Airtel Money,Tanzania,Mobile Money,1.3,Startup,36,Licensed,Seed,1098,0.82,medium
+FT0165,AirtelTigo Money,Ghana,Mobile Money,9.5,Medium,324,Licensed,Seed,2202,0.87,medium
+FT0166,Carbon,Nigeria,Investment Platform,2.2,Medium,109,Pending,Series B,2028,0.89,high
+FT0167,Kopo Kopo,Kenya,Digital Banking,10.1,Medium,734,Licensed,Series C,1808,0.91,high
+FT0168,Equity Bank Solutions,Rwanda,Crypto Exchange,7.1,Large,417,Pending,Series A,822,0.85,medium
+FT0169,Equity Bank,Rwanda,Payment Gateway,3.7,Medium,146,Pending,Series A,822,0.85,medium
+FT0170,Zoona,Zambia,Insurance Tech,3.7,Medium,44,Unlicensed,Seed,1209,0.79,low
+FT0171,Equity Bank,Rwanda,Insurance Tech,7.2,Medium,387,Licensed,Series A,822,0.85,medium
+FT0172,M-Shwari,Kenya,Payment Gateway,3.3,Small,175,Licensed,Series A,1808,0.91,high
+FT0173,M-Pesa,Tanzania,Crypto Exchange,1.6,Small,28,Licensed,Seed,1098,0.82,medium
+FT0174,AirtelTigo Money,Ghana,Lending Platform,3.6,Small,136,Licensed,Series A,2202,0.87,medium
+FT0175,M-Shwari,Kenya,Lending Platform,15.0,Medium,736,Licensed,Series A,1808,0.91,high
+FT0176,Wari Inc,Senegal,Investment Platform,4.8,Medium,106,Pending,Seed,1444,0.88,medium
+FT0177,Equitel,Kenya,Crypto Exchange,3.0,Small,79,Licensed,Series A,1808,0.91,high
+FT0178,Equity Bank,Rwanda,Mobile Money,1.5,Startup,32,Licensed,Series A,822,0.85,medium
+FT0179,Carbon Digital,Nigeria,Remittance,1.8,Startup,14,Licensed,Bootstrap,2028,0.89,high
+FT0180,Airtel Money,Zambia,Investment Platform,1.5,Startup,12,Pending,Series A,1209,0.79,low
+FT0181,HaloPesa Digital,Tanzania,Lending Platform,2.3,Small,68,Unlicensed,Series B,1098,0.82,medium
+FT0182,Airtel Money Inc,Tanzania,Lending Platform,14.0,Medium,392,Unlicensed,Bootstrap,1098,0.82,medium
+FT0183,Airtel Money Technologies,Rwanda,Payment Gateway,2.1,Small,31,Licensed,Acquired,822,0.85,medium
+FT0184,Wari Ltd,Senegal,Payment Gateway,4.1,Medium,190,Licensed,Series A,1444,0.88,medium
+FT0185,Slydepay,Ghana,Crypto Exchange,4.7,Small,138,Licensed,Bootstrap,2202,0.87,medium
+FT0186,MTN Mobile Money,Rwanda,Remittance,7.1,Medium,901,Pending,IPO,822,0.85,medium
+FT0187,Airtel Money Inc,Zambia,Insurance Tech,7.1,Medium,687,Licensed,Series B,1209,0.79,low
+FT0188,MTN Mobile Money Group,Ghana,Mobile Money,2.5,Medium,109,Licensed,Bootstrap,2202,0.87,medium
+FT0189,M-Pesa,Tanzania,Crypto Exchange,15.0,Large,856,Licensed,Series A,1098,0.82,medium
+FT0190,Hubtel,Ghana,Digital Banking,8.8,Medium,581,Pending,Series B,2202,0.87,medium
+FT0191,JUMO,South Africa,Investment Platform,2.1,Medium,162,Pending,Series A,6994,0.95,high
+FT0192,Centenary Bank,Uganda,Payment Gateway,3.7,Small,54,Licensed,Bootstrap,884,0.78,medium
+FT0193,Mukuru,South Africa,Remittance,5.3,Medium,184,Unlicensed,Series A,6994,0.95,high
+FT0194,NMB Mobile,Tanzania,Lending Platform,1.3,Startup,41,Licensed,Seed,1098,0.82,medium
+FT0195,Airtel Money,Rwanda,Insurance Tech,10.3,Medium,506,Licensed,Series B,822,0.85,medium
+FT0196,MTN Mobile Money,Uganda,Lending Platform,2.4,Small,160,Licensed,Bootstrap,884,0.78,medium
+FT0197,Hubtel Technologies,Ghana,Remittance,9.0,Medium,747,Licensed,Series A,2202,0.87,medium
+FT0198,M-Pesa,Kenya,Digital Banking,6.2,Medium,362,Pending,Bootstrap,1808,0.91,high
+FT0199,Equity Bank,Rwanda,Crypto Exchange,1.6,Small,24,Licensed,Series B,822,0.85,medium
+FT0200,PiggyVest,Nigeria,Lending Platform,10.1,Medium,217,Licensed,Series A,2028,0.89,high
