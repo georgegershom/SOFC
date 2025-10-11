@@ -1,0 +1,44 @@
+{
+  "global_financial_crisis": {
+    "description": "Global financial crisis scenario",
+    "gdp_growth_shock": -5,
+    "inflation_shock": 2,
+    "exchange_rate_shock": 15,
+    "fintech_adoption_impact": -10,
+    "years": [
+      2020,
+      2021
+    ]
+  },
+  "commodity_price_shock": {
+    "description": "Commodity price collapse",
+    "gdp_growth_shock": -3,
+    "inflation_shock": -2,
+    "exchange_rate_shock": 20,
+    "fintech_adoption_impact": 5,
+    "years": [
+      2022
+    ]
+  },
+  "cyber_attack_scenario": {
+    "description": "Major cybersecurity incident",
+    "gdp_growth_shock": -0.5,
+    "inflation_shock": 0.5,
+    "exchange_rate_shock": 5,
+    "fintech_adoption_impact": -20,
+    "cybersecurity_incidents_multiplier": 10,
+    "years": [
+      2023
+    ]
+  },
+  "regulatory_crackdown": {
+    "description": "Strict FinTech regulation implementation",
+    "gdp_growth_shock": -1,
+    "fintech_adoption_impact": -15,
+    "fintech_regulatory_score_impact": -30,
+    "years": [
+      2021,
+      2022
+    ]
+  }
+}
