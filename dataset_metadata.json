@@ -1,0 +1,93 @@
+{
+  "dataset_info": {
+    "title": "FinTech Early Warning Dataset for Sub-Saharan Africa",
+    "description": "Comprehensive dataset for FinTech distress prediction research",
+    "countries": [
+      "Nigeria",
+      "Kenya",
+      "South Africa",
+      "Ghana",
+      "Uganda",
+      "Tanzania",
+      "Rwanda",
+      "Zambia",
+      "Botswana",
+      "Senegal",
+      "Ivory Coast",
+      "Ethiopia",
+      "Mali",
+      "Burkina Faso",
+      "Cameroon",
+      "Zimbabwe",
+      "Malawi",
+      "Mozambique"
+    ],
+    "fintech_types": [
+      "Mobile Money",
+      "Digital Banking",
+      "Payment Gateway",
+      "Lending Platform",
+      "Investment Platform",
+      "Insurance Tech",
+      "Remittance Service",
+      "Crypto Exchange",
+      "POS Solutions",
+      "Digital Wallet",
+      "Microfinance Tech",
+      "Crowdfunding Platform"
+    ],
+    "date_range": "2019-01-01 to 2024-12-31",
+    "total_companies": 150,
+    "total_observations": 3332,
+    "distressed_companies": 29
+  },
+  "variable_descriptions": {
+    "company_identifiers": {
+      "company_id": "Unique identifier for each FinTech company",
+      "company_name": "Name of the FinTech company",
+      "country": "Sub-Saharan African country where company operates",
+      "fintech_type": "Type/category of FinTech service"
+    },
+    "temporal_variables": {
+      "quarter": "Date of the quarter (YYYY-MM-DD format)",
+      "year": "Year of observation",
+      "quarter_num": "Quarter number (1-4)",
+      "quarters_since_founding": "Number of quarters since company founding",
+      "company_age_years": "Company age in years"
+    },
+    "financial_metrics": {
+      "quarterly_revenue": "Total revenue for the quarter (USD)",
+      "quarterly_costs": "Total operational costs for the quarter (USD)",
+      "net_income": "Net income/loss for the quarter (USD)",
+      "burn_rate": "Cash burn rate per quarter (USD)",
+      "revenue_growth_rate": "Quarter-over-quarter revenue growth rate (%)",
+      "profit_margin": "Net profit margin (%)",
+      "revenue_per_user": "Revenue per active user (USD)"
+    },
+    "operational_metrics": {
+      "active_users": "Number of active users in the quarter",
+      "transaction_count": "Total number of transactions processed",
+      "transaction_volume": "Total value of transactions processed (USD)",
+      "avg_transaction_value": "Average transaction value (USD)",
+      "customer_acquisition_cost": "Cost to acquire a new customer (USD)",
+      "churn_rate": "Customer churn rate (%)",
+      "number_of_agents": "Number of agents/partners (for relevant FinTech types)",
+      "user_growth_rate": "User growth rate (%)",
+      "transaction_value_per_user": "Transaction volume per active user (USD)",
+      "cost_per_user": "Operational cost per active user (USD)"
+    },
+    "funding_metrics": {
+      "funding_round": "Whether company raised funding this quarter (Boolean)",
+      "funding_stage": "Stage of funding round (Pre-Seed, Seed, Series A, etc.)",
+      "funding_amount": "Amount raised in funding round (USD)",
+      "total_funding_to_date": "Cumulative funding raised (USD)"
+    },
+    "distress_indicators": {
+      "is_distressed": "Whether company is currently in distress (Boolean) - DEPENDENT VARIABLE",
+      "distress_type": "Type of distress (closure, acquisition, regulatory_action, severe_downturn)",
+      "regulatory_action": "Whether company faced regulatory sanctions (Boolean)",
+      "closure_risk": "Risk score for company closure (0-1)",
+      "acquisition_risk": "Risk score for distressed acquisition (0-1)"
+    }
+  }
+}
