@@ -1,0 +1,66 @@
+{
+  "dataset_info": {
+    "total_records": 2400,
+    "num_companies": 150,
+    "num_quarters": 16,
+    "date_range": "2020-01-01 to 2023-09-12",
+    "countries": [
+      "Kenya",
+      "Ghana",
+      "Zambia",
+      "Nigeria",
+      "Tanzania",
+      "Ethiopia",
+      "South Africa",
+      "Rwanda",
+      "Uganda",
+      "Senegal"
+    ],
+    "fintech_types": [
+      "Mobile Money",
+      "Payment Gateway",
+      "Remittance",
+      "Digital Banking",
+      "Digital Lending",
+      "Investment Platform",
+      "Insurance Tech",
+      "Crypto Exchange"
+    ]
+  },
+  "dependent_variables": {
+    "total_failures": 62,
+    "failure_rate_pct": 8.0,
+    "companies_in_distress": 62,
+    "regulatory_sanctions": 21
+  },
+  "company_distribution": {
+    "by_country": {
+      "Ethiopia": 20,
+      "Ghana": 19,
+      "Kenya": 15,
+      "Nigeria": 9,
+      "Rwanda": 20,
+      "Senegal": 17,
+      "South Africa": 14,
+      "Tanzania": 9,
+      "Uganda": 14,
+      "Zambia": 13
+    },
+    "by_type": {
+      "Crypto Exchange": 23,
+      "Digital Banking": 17,
+      "Digital Lending": 16,
+      "Insurance Tech": 22,
+      "Investment Platform": 14,
+      "Mobile Money": 16,
+      "Payment Gateway": 16,
+      "Remittance": 26
+    }
+  },
+  "financial_metrics_summary": {
+    "avg_revenue_usd": 513461.04,
+    "median_revenue_usd": 233274.55,
+    "avg_active_users": 90276,
+    "total_transaction_volume_usd": 62671814131.38
+  }
+}
