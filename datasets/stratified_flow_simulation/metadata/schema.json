@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Stratified Flow Simulation Dataset Schema",
+  "type": "object",
+  "properties": {
+    "cases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "case_id": {"type": "string"},
+          "description": {"type": "string"},
+          "geometry": {
+            "type": "object",
+            "properties": {
+              "domain": {"type": "string", "enum": ["2D", "3D"]},
+              "length_m": {"type": "number"},
+              "height_m": {"type": "number"},
+              "width_m": {"type": "number"}
+            },
+            "required": ["domain", "length_m", "height_m"]
+          },
+          "flow": {
+            "type": "object",
+            "properties": {
+              "liquid_density": {"type": "number"},
+              "gas_density": {"type": "number"},
+              "liquid_viscosity": {"type": "number"},
+              "gas_viscosity": {"type": "number"},
+              "superficial_velocity_liquid": {"type": "number"},
+              "superficial_velocity_gas": {"type": "number"},
+              "gravity_m_s2": {"type": "number"}
+            },
+            "required": ["liquid_density", "gas_density"]
+          },
+          "acoustics": {
+            "type": "object",
+            "properties": {
+              "frequency_hz": {"type": "number"},
+              "amplitude_pa": {"type": "number"},
+              "source_location": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 3},
+              "duration_s": {"type": "number"},
+              "sampling_rate_hz": {"type": "number"}
+            },
+            "required": ["frequency_hz", "amplitude_pa", "duration_s", "sampling_rate_hz"]
+          },
+          "turbulence_model": {"type": "string", "enum": ["k-epsilon", "k-omega-SST", "LES"]},
+          "multiphase_model": {"type": "string", "enum": ["VOF", "Euler-Euler"]}
+        },
+        "required": ["case_id", "geometry", "flow", "acoustics", "turbulence_model", "multiphase_model"]
+      }
+    }
+  },
+  "required": ["cases"]
+}
