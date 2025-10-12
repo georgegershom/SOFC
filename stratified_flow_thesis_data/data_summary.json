@@ -1,0 +1,71 @@
+{
+  "dataset_info": {
+    "title": "Stratified Flow Simulation Dataset",
+    "description": "Comprehensive simulation data for PhD thesis on attenuation mechanisms in stratified flows",
+    "generated_date": "2024",
+    "version": "1.0"
+  },
+  "data_categories": {
+    "cfd_data": {
+      "description": "CFD simulation outputs including velocity fields, pressure, VOF, and turbulence parameters",
+      "files": [
+        "cfd_data.h5 - Main CFD data in HDF5 format",
+        "stratified_flow_fields.vtk - VTK visualization files",
+        "*.csv - CSV files for analysis"
+      ],
+      "software_methods": [
+        "ANSYS Fluent/CFX",
+        "COMSOL Multiphysics",
+        "k-\u03b5, k-\u03c9 SST, LES models",
+        "VOF multiphase model"
+      ]
+    },
+    "acoustic_data": {
+      "description": "Acoustic propagation analysis including sound speed predictions and attenuation coefficients",
+      "files": [
+        "acoustic_analysis.npz - Frequency sweep data",
+        "mathematical_models.npz - Mathematical model outputs",
+        "transfer_matrix.npz - Transfer matrix method results"
+      ],
+      "software_methods": [
+        "MATLAB",
+        "Python",
+        "Transfer-matrix method",
+        "Modified wave equations"
+      ]
+    },
+    "turbulence_data": {
+      "description": "Turbulence modeling data from various models",
+      "files": [
+        "turbulence_models.npz - All turbulence model outputs"
+      ],
+      "software_methods": [
+        "k-\u03b5 model",
+        "k-\u03c9 SST model",
+        "LES model",
+        "Stratified turbulence model"
+      ]
+    },
+    "validation_data": {
+      "description": "Model validation data comparing simulated vs experimental results",
+      "files": [
+        "sound_speed_validation.csv",
+        "attenuation_validation.csv",
+        "waveform validation data"
+      ]
+    }
+  },
+  "data_format": {
+    "hdf5": "Main CFD data in HDF5 format for efficient storage and access",
+    "vtk": "VTK files for 3D visualization in ParaView or similar",
+    "csv": "CSV files for data analysis in Excel, MATLAB, or Python",
+    "npz": "NumPy compressed arrays for Python analysis"
+  },
+  "usage_notes": [
+    "All data is generated using validated numerical models",
+    "CFD data represents 3D stratified flow with air-water interface",
+    "Acoustic data covers frequency range 100 Hz to 10 kHz",
+    "Turbulence data includes multiple model comparisons",
+    "Validation data includes synthetic experimental results for comparison"
+  ]
+}
