@@ -1,0 +1,97 @@
+{
+  "generated_at_unix": 1760267015,
+  "seed": 123,
+  "physical_properties": {
+    "density_layer1": 1025.0,
+    "density_layer2": 850.0,
+    "viscosity_layer1": 0.0012,
+    "viscosity_layer2": 0.006,
+    "sound_speed_layer1": 1500.0,
+    "sound_speed_layer2": 1200.0
+  },
+  "domains": {
+    "2d": {
+      "length_x": 0.5,
+      "length_y": 0.2,
+      "num_x": 160,
+      "num_y": 96
+    },
+    "3d": {
+      "length_x": 0.3,
+      "length_y": 0.2,
+      "length_z": 0.15,
+      "num_x": 96,
+      "num_y": 64,
+      "num_z": 48
+    }
+  },
+  "acoustic_setup": {
+    "length_x": 1.0,
+    "num_x": 2000,
+    "dt": 1e-06,
+    "num_steps": 4000,
+    "sensor_positions": [
+      0.2,
+      0.5,
+      0.8
+    ],
+    "attenuation_base": 40.0
+  },
+  "interface_fractions": {
+    "y": 0.55,
+    "x": 0.45
+  },
+  "smoothing_length": 0.002,
+  "perturbation_amplitude": 0.01,
+  "turbulence_models": [
+    {
+      "name": "k-epsilon",
+      "c_mu": 0.09,
+      "kappa": 0.41,
+      "mixing_length_scale": 0.07,
+      "intensity_base": 0.05
+    },
+    {
+      "name": "k-omega-sst",
+      "c_mu": 0.07,
+      "kappa": 0.41,
+      "mixing_length_scale": 0.05,
+      "intensity_base": 0.04
+    },
+    {
+      "name": "les",
+      "c_mu": 0.1,
+      "kappa": 0.41,
+      "mixing_length_scale": 0.1,
+      "intensity_base": 0.03
+    }
+  ],
+  "files": {
+    "cfd_2d_base": "cfd/2d/fields_base.npz",
+    "cfd_3d_base": "cfd/3d/fields_base.npz",
+    "acoustics_timeseries_csv": "acoustics/pressure_timeseries.csv",
+    "acoustics_timeseries_npz": "acoustics/pressure_timeseries.npz",
+    "models_effective_sound_speed": "models/effective_sound_speed.csv",
+    "models_attenuation_vs_frequency": "models/attenuation_vs_frequency.csv",
+    "models_transfer_matrix": "models/transfer_matrix_response.csv",
+    "models_time_delay": "models/time_delay.json",
+    "validation_waveforms_sim": "validation/acoustic_waveforms_simulated.csv",
+    "validation_waveforms_exp": "validation/acoustic_waveforms_experimental.csv",
+    "validation_attenuation": "validation/attenuation_comparison.csv",
+    "validation_sound_speed": "validation/sound_speed_comparison.csv",
+    "turbulence_files": [
+      {
+        "model": "k-epsilon",
+        "file": "cfd/2d/turbulence_k-epsilon.npz"
+      },
+      {
+        "model": "k-omega-sst",
+        "file": "cfd/2d/turbulence_k-omega-sst.npz"
+      },
+      {
+        "model": "les",
+        "file": "cfd/2d/turbulence_les.npz"
+      }
+    ]
+  }
+}
