@@ -1,0 +1,131 @@
+{
+  "dataset_name": "Stratified Flow Acoustic Attenuation Dataset",
+  "version": "1.0",
+  "creation_date": "2025-10-12",
+  "description": "Synthetic dataset for studying attenuation mechanisms in gas-liquid stratified flows",
+  "research_topic": "Study on the Attenuation Mechanisms in Stratified Flows: Beyond Single Phase Leakage Acoustics",
+  "experimental_setup": {
+    "pipe_diameter_m": 0.05,
+    "pipe_length_m": 5.0,
+    "flow_system": "Air-Water",
+    "flow_configuration": "Horizontal stratified two-phase flow"
+  },
+  "data_files": {
+    "flow_regime_characterization.csv": {
+      "description": "Flow regime parameters including void fraction, velocities, and flow patterns",
+      "rows": 100,
+      "columns": [
+        "experiment_id",
+        "timestamp",
+        "U_SG",
+        "U_SL",
+        "void_fraction",
+        "flow_pattern",
+        "interface_height",
+        "wave_amplitude",
+        "wave_frequency",
+        "temperature",
+        "pressure",
+        "rho_gas",
+        "rho_liquid",
+        "mu_gas",
+        "mu_liquid",
+        "pipe_diameter",
+        "pipe_length"
+      ]
+    },
+    "acoustic_attenuation_data.csv": {
+      "description": "Acoustic attenuation coefficients, transmission loss, and SNR data",
+      "rows": 600,
+      "columns": [
+        "experiment_id",
+        "frequency",
+        "attenuation_coefficient",
+        "transmission_loss_dB",
+        "source_amplitude",
+        "received_amplitude",
+        "SNR_dB",
+        "sound_speed_gas",
+        "sound_speed_liquid",
+        "sound_speed_mixture",
+        "viscous_atten_contribution",
+        "scattering_atten_contribution",
+        "turbulence_atten_contribution"
+      ]
+    },
+    "acoustic_timeseries_data.json": {
+      "description": "Time-series acoustic pressure data for selected experiments",
+      "format": "JSON with arrays of time, source, and received signals"
+    },
+    "turbulence_shear_data.csv": {
+      "description": "Turbulence statistics and shear stress measurements"
+    },
+    "velocity_profiles.csv": {
+      "description": "Velocity profiles across pipe diameter for both phases"
+    }
+  },
+  "physical_models": {
+    "void_fraction": "Drift flux model with slip correction",
+    "flow_pattern_classification": "Taitel-Dukler flow map",
+    "attenuation_mechanisms": [
+      "Classical viscous absorption",
+      "Scattering from interface waves",
+      "Turbulence-induced attenuation",
+      "Two-phase mixture effects"
+    ],
+    "turbulence_model": "k-epsilon model with wall functions",
+    "velocity_profiles": "Power law distribution"
+  },
+  "measurement_ranges": {
+    "void_fraction": [
+      0.05,
+      0.95
+    ],
+    "gas_velocity_m_s": [
+      0.5,
+      15.0
+    ],
+    "liquid_velocity_m_s": [
+      0.01,
+      0.5
+    ],
+    "temperature_celsius": [
+      15,
+      30
+    ],
+    "pressure_bar": [
+      1.0,
+      3.0
+    ],
+    "acoustic_frequency_Hz": [
+      100,
+      10000
+    ]
+  },
+  "data_quality": {
+    "synthetic_data": true,
+    "physical_basis": "Based on established correlations and models from literature",
+    "uncertainty": "Random variations added to simulate measurement uncertainty (~10%)",
+    "validation": "Recommended to validate against experimental data when available"
+  },
+  "usage_recommendations": {
+    "suitable_for": [
+      "Algorithm development and testing",
+      "Preliminary analysis and hypothesis testing",
+      "Model training for machine learning applications",
+      "Educational purposes",
+      "Experimental planning and design"
+    ],
+    "limitations": [
+      "Synthetic data may not capture all physical complexities",
+      "Should be validated against real experimental data",
+      "Simplified models used for some phenomena"
+    ]
+  },
+  "references": [
+    "Taitel, Y., & Dukler, A. E. (1976). A model for predicting flow regime transitions",
+    "Wood, A. B. (1930). A Textbook of Sound",
+    "Brennen, C. E. (2005). Fundamentals of Multiphase Flow",
+    "Prosperetti, A. (2015). Linear pressure waves in bubbly liquids"
+  ]
+}

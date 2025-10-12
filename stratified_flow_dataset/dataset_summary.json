@@ -1,0 +1,89 @@
+{
+  "dataset_info": {
+    "total_experiments": 100,
+    "generation_date": "2025-10-12 09:31:05",
+    "pipe_diameter_m": 0.05,
+    "pipe_length_m": 5.0
+  },
+  "flow_regime_statistics": {
+    "flow_patterns": {
+      "wavy_stratified": 85,
+      "smooth_stratified": 15
+    },
+    "void_fraction": {
+      "mean": 0.9430757710798262,
+      "std": 0.022823936761281458,
+      "min": 0.781264550022751,
+      "max": 0.95
+    },
+    "superficial_gas_velocity": {
+      "mean": 8.08487883494689,
+      "std": 4.393621647659804,
+      "min": 0.7642164719474711,
+      "max": 14.951234137571628,
+      "unit": "m/s"
+    },
+    "superficial_liquid_velocity": {
+      "mean": 0.24806952437934296,
+      "std": 0.14095145658049413,
+      "min": 0.015310449225346197,
+      "max": 0.48745345575642157,
+      "unit": "m/s"
+    }
+  },
+  "acoustic_statistics": {
+    "frequencies_tested_Hz": [
+      100,
+      500,
+      1000,
+      2000,
+      5000,
+      10000
+    ],
+    "attenuation_coefficient": {
+      "mean": 0.48727646112305706,
+      "std": 0.996711168353032,
+      "min": 0.0001307401439826702,
+      "max": 4.719746761416038,
+      "unit": "Np/m"
+    },
+    "transmission_loss": {
+      "mean": 21.16214782270881,
+      "std": 43.28661604670648,
+      "min": 0.00567797230949103,
+      "max": 204.9759974463729,
+      "unit": "dB"
+    },
+    "SNR": {
+      "mean": 30.448960232521053,
+      "std": 13.973061337389565,
+      "min": 5.0,
+      "max": 46.371876288948954,
+      "unit": "dB"
+    }
+  },
+  "turbulence_statistics": {
+    "Reynolds_number_gas": {
+      "mean": 51255.04576037897,
+      "std": 31907.189795124526,
+      "min": 2464.8529812572424,
+      "max": 137152.4100697987
+    },
+    "Reynolds_number_liquid": {
+      "mean": 12902.329083116003,
+      "std": 7383.116952697532,
+      "min": 715.2688785145126,
+      "max": 26656.482842901347
+    },
+    "TKE_gas": {
+      "mean": 2.770612208713163,
+      "std": 2.150102416421153,
+      "unit": "m^2/s^2"
+    },
+    "interfacial_shear_stress": {
+      "mean": 0.946870672723958,
+      "std": 0.8819982379635051,
+      "unit": "Pa"
+    }
+  }
+}
