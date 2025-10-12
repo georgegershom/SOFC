@@ -1,0 +1,45 @@
+{
+  "title": "Synthetic dataset: Attenuation mechanisms in stratified flows (beyond single-phase leakage acoustics)",
+  "description": "Physics-informed synthetic dataset combining thermo-viscous, interface scattering, shear mode-conversion, and leak radiation losses for stratified two-phase flows in pipes.",
+  "generator_version": "1.0.0",
+  "created_unix": 1760264768,
+  "license": "CC BY 4.0",
+  "provenance": {
+    "external_fetch_attempted": false,
+    "external_files": []
+  },
+  "schema": {
+    "primary_keys": [
+      "sample_id"
+    ],
+    "units": {
+      "frequency_hz": "Hz",
+      "pipe_diameter_m": "m",
+      "temperature_k": "K",
+      "pressure_pa": "Pa",
+      "gas_volume_fraction": "-",
+      "superficial_velocity_gas_ms": "m/s",
+      "superficial_velocity_liquid_ms": "m/s",
+      "interface_rms_m": "m",
+      "leak_diameter_m": "m",
+      "path_length_m": "m",
+      "attenuation_total_dbpm": "dB/m",
+      "attenuation_measured_dbpm": "dB/m",
+      "attenuation_over_path_db": "dB"
+    }
+  },
+  "notes": [
+    "Thermo-viscous losses approximate Kirchhoff-type dependence sqrt(nu*omega)/(a*c^2).",
+    "Interface scattering scales with impedance mismatch R^2, roughness^2, and wavenumber.",
+    "Shear conversion scales with (DeltaU/c)^2 and wavenumber.",
+    "Leak radiation approximated by (k*r_leak)^4 scaling for subwavelength perforations.",
+    "Mixture speed of sound via Wood's equation."
+  ],
+  "random_seed": 123,
+  "rows": 5000,
+  "references": [
+    "Kirchhoff, G. (1868). On the influence of heat conduction in a gas on sound propagation.",
+    "Sutherland, W. (1893). The viscosity of gases and molecular force.",
+    "Wood, A. B. (1930). A Textbook of Sound (mixture compressibility)."
+  ]
+}
