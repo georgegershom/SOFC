@@ -1,0 +1,32 @@
+Stratified Flow Attenuation Dataset Summary
+==================================================
+
+PhD Research Topic:
+'Study on the Attenuation Mechanisms in Stratified Flows: Beyond Single Phase Leakage Acoustics'
+
+Generated Datasets:
+
+FREQUENCY_DOMAIN:
+  - Samples: 2000
+  - Features: 12
+  - Description: Frequency-dependent attenuation measurements across different flow configurations
+
+EXPERIMENTAL_CONDITIONS:
+  - Samples: 500
+  - Features: 14
+  - Description: Experimental setup parameters and flow conditions
+
+ATTENUATION_MODELS:
+  - Samples: 1500
+  - Features: 8
+  - Description: Theoretical attenuation predictions from various physical models
+
+MULTIPHASE_FLOW:
+  - Samples: 1000
+  - Features: 13
+  - Description: Multiphase flow characterization with acoustic properties
+
+TIME_SERIES_FEATURES:
+  - Samples: 800
+  - Features: 12
+  - Description: Time-domain acoustic signal features for flow pattern recognition

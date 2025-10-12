@@ -1,0 +1,164 @@
+{
+  "dataset_info": {
+    "title": "Stratified Flow Attenuation Dataset",
+    "research_topic": "Study on the Attenuation Mechanisms in Stratified Flows: Beyond Single Phase Leakage Acoustics",
+    "version": "1.0",
+    "creation_date": "2025-10-12",
+    "total_samples": 5800,
+    "file_format": "CSV",
+    "license": "Research and Educational Use"
+  },
+  "datasets": {
+    "frequency_domain": {
+      "filename": "frequency_domain.csv",
+      "samples": 2000,
+      "description": "Frequency-dependent attenuation measurements across different flow configurations",
+      "key_features": [
+        "frequency_hz",
+        "flow_configuration",
+        "attenuation_db_per_m",
+        "gas_fraction",
+        "interface_roughness_mm",
+        "reynolds_number_gas",
+        "weber_number",
+        "froude_number",
+        "temperature_c",
+        "pressure_bar"
+      ],
+      "applications": [
+        "Frequency-dependent modeling",
+        "Flow pattern classification",
+        "Interface scattering analysis",
+        "Dimensionless correlations"
+      ]
+    },
+    "experimental_conditions": {
+      "filename": "experimental_conditions.csv",
+      "samples": 500,
+      "description": "Realistic experimental setup parameters and operating conditions",
+      "key_features": [
+        "pipe_diameter_m",
+        "pipe_length_m",
+        "inclination_angle_deg",
+        "gas_superficial_velocity_ms",
+        "liquid_superficial_velocity_ms",
+        "predicted_flow_pattern",
+        "transducer_frequency_hz"
+      ],
+      "applications": [
+        "Experimental design",
+        "Flow pattern mapping",
+        "Scaling analysis",
+        "Sensor placement optimization"
+      ]
+    },
+    "attenuation_models": {
+      "filename": "attenuation_models.csv",
+      "samples": 1500,
+      "description": "Theoretical predictions from various physical attenuation models",
+      "key_features": [
+        "model_type",
+        "frequency_hz",
+        "predicted_attenuation_db_per_m",
+        "particle_radius_m",
+        "viscosity_pas",
+        "roughness_m"
+      ],
+      "applications": [
+        "Model validation",
+        "Physical mechanism identification",
+        "Parameter sensitivity",
+        "Hybrid model development"
+      ]
+    },
+    "multiphase_flow": {
+      "filename": "multiphase_flow.csv",
+      "samples": 1000,
+      "description": "Comprehensive multiphase flow characterization with acoustic properties",
+      "key_features": [
+        "flow_regime",
+        "gas_fraction",
+        "bubble_diameter_m",
+        "mixture_sound_speed_ms",
+        "total_attenuation_db_per_m_at_1khz",
+        "interface_area_density_m2m3",
+        "turbulent_kinetic_energy_m2s2"
+      ],
+      "applications": [
+        "Mixture property modeling",
+        "Multi-mechanism analysis",
+        "Flow regime characterization",
+        "Turbulence-acoustics coupling"
+      ]
+    },
+    "time_series_features": {
+      "filename": "time_series_features.csv",
+      "samples": 800,
+      "description": "Time-domain acoustic signal features for flow pattern recognition",
+      "key_features": [
+        "flow_pattern",
+        "rms_amplitude",
+        "dominant_frequency_hz",
+        "spectral_centroid_hz",
+        "zero_crossings_per_sec",
+        "spectral_bandwidth_hz"
+      ],
+      "applications": [
+        "Real-time monitoring",
+        "Pattern recognition",
+        "Signal processing",
+        "Machine learning training"
+      ]
+    }
+  },
+  "physical_parameters": {
+    "frequency_range_hz": [
+      10,
+      100000
+    ],
+    "temperature_range_c": [
+      10,
+      80
+    ],
+    "pressure_range_bar": [
+      1,
+      50
+    ],
+    "gas_fraction_range": [
+      0.01,
+      0.99
+    ],
+    "pipe_diameter_range_m": [
+      0.025,
+      0.3
+    ],
+    "flow_velocities_ms": [
+      0.01,
+      20.0
+    ]
+  },
+  "flow_configurations": [
+    "horizontal_stratified",
+    "inclined_stratified",
+    "wavy_interface",
+    "slug_flow",
+    "annular_flow",
+    "dispersed_flow"
+  ],
+  "attenuation_models": [
+    "rayleigh_scattering",
+    "mie_scattering",
+    "viscous_losses",
+    "thermal_losses",
+    "interface_scattering",
+    "mode_conversion"
+  ],
+  "research_applications": [
+    "PhD thesis research",
+    "Acoustic flow measurement development",
+    "Physical model validation",
+    "Machine learning applications",
+    "Industrial flow monitoring",
+    "Sensor optimization studies"
+  ]
+}
