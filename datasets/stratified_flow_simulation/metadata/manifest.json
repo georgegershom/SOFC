@@ -1,0 +1,160 @@
+{
+  "cases": [
+    {
+      "case_id": "case_01",
+      "description": "Stratified flow surrogate 2D with k-epsilon and VOF",
+      "geometry": {
+        "domain": "2D",
+        "length_m": 0.5,
+        "height_m": 0.1,
+        "width_m": null
+      },
+      "flow": {
+        "liquid_density": 998.0,
+        "gas_density": 1.2,
+        "liquid_viscosity": 0.001,
+        "gas_viscosity": 1.8e-05,
+        "superficial_velocity_liquid": 0.5,
+        "superficial_velocity_gas": 2.0,
+        "gravity_m_s2": 9.81
+      },
+      "acoustics": {
+        "frequency_hz": 4000.0,
+        "amplitude_pa": 100.0,
+        "source_location": [
+          0.0,
+          0.05,
+          0.0
+        ],
+        "duration_s": 0.05,
+        "sampling_rate_hz": 200000.0
+      },
+      "turbulence_model": "k-epsilon",
+      "multiphase_model": "VOF",
+      "summary": {
+        "c_eff": 24.054923706740418,
+        "alpha": 0.008044896869653886,
+        "num_grid_points": 18432,
+        "duration_s": 0.05,
+        "sampling_rate_hz": 200000.0
+      }
+    },
+    {
+      "case_id": "case_02",
+      "description": "Stratified flow surrogate 2D with k-omega-SST and VOF",
+      "geometry": {
+        "domain": "2D",
+        "length_m": 0.5,
+        "height_m": 0.1,
+        "width_m": null
+      },
+      "flow": {
+        "liquid_density": 998.0,
+        "gas_density": 1.2,
+        "liquid_viscosity": 0.001,
+        "gas_viscosity": 1.8e-05,
+        "superficial_velocity_liquid": 0.5,
+        "superficial_velocity_gas": 2.0,
+        "gravity_m_s2": 9.81
+      },
+      "acoustics": {
+        "frequency_hz": 4000.0,
+        "amplitude_pa": 100.0,
+        "source_location": [
+          0.0,
+          0.05,
+          0.0
+        ],
+        "duration_s": 0.05,
+        "sampling_rate_hz": 200000.0
+      },
+      "turbulence_model": "k-omega-SST",
+      "multiphase_model": "VOF",
+      "summary": {
+        "c_eff": 24.054923706740418,
+        "alpha": 0.008044896869653886,
+        "num_grid_points": 18432,
+        "duration_s": 0.05,
+        "sampling_rate_hz": 200000.0
+      }
+    },
+    {
+      "case_id": "case_03",
+      "description": "Stratified flow surrogate 2D with LES and Euler-Euler",
+      "geometry": {
+        "domain": "2D",
+        "length_m": 0.5,
+        "height_m": 0.1,
+        "width_m": null
+      },
+      "flow": {
+        "liquid_density": 998.0,
+        "gas_density": 1.2,
+        "liquid_viscosity": 0.001,
+        "gas_viscosity": 1.8e-05,
+        "superficial_velocity_liquid": 0.5,
+        "superficial_velocity_gas": 2.0,
+        "gravity_m_s2": 9.81
+      },
+      "acoustics": {
+        "frequency_hz": 12000.0,
+        "amplitude_pa": 100.0,
+        "source_location": [
+          0.0,
+          0.05,
+          0.0
+        ],
+        "duration_s": 0.05,
+        "sampling_rate_hz": 200000.0
+      },
+      "turbulence_model": "LES",
+      "multiphase_model": "Euler-Euler",
+      "summary": {
+        "c_eff": 24.054923706740418,
+        "alpha": 0.024025921219780786,
+        "num_grid_points": 18432,
+        "duration_s": 0.05,
+        "sampling_rate_hz": 200000.0
+      }
+    },
+    {
+      "case_id": "case_04",
+      "description": "Stratified flow surrogate 3D with LES and VOF",
+      "geometry": {
+        "domain": "3D",
+        "length_m": 0.3,
+        "height_m": 0.1,
+        "width_m": 0.1
+      },
+      "flow": {
+        "liquid_density": 998.0,
+        "gas_density": 1.2,
+        "liquid_viscosity": 0.001,
+        "gas_viscosity": 1.8e-05,
+        "superficial_velocity_liquid": 0.5,
+        "superficial_velocity_gas": 2.0,
+        "gravity_m_s2": 9.81
+      },
+      "acoustics": {
+        "frequency_hz": 12000.0,
+        "amplitude_pa": 100.0,
+        "source_location": [
+          0.0,
+          0.05,
+          0.0
+        ],
+        "duration_s": 0.05,
+        "sampling_rate_hz": 200000.0
+      },
+      "turbulence_model": "LES",
+      "multiphase_model": "VOF",
+      "summary": {
+        "c_eff": 24.054923706740418,
+        "alpha": 0.024025921219780786,
+        "num_grid_points": 294912,
+        "duration_s": 0.05,
+        "sampling_rate_hz": 200000.0
+      }
+    }
+  ]
+}
