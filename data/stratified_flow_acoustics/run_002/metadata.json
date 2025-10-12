@@ -1,0 +1,48 @@
+{
+  "run_id": "run_002",
+  "seed": 1531,
+  "geometry": {
+    "pipe_inner_diameter_m": 0.05,
+    "pipe_length_m": 10.0,
+    "hydrophone_positions_m": [
+      1.0,
+      3.0,
+      5.0,
+      7.0,
+      9.0
+    ]
+  },
+  "daq": {
+    "sampling_rate_hz": 16000,
+    "duration_s": 2.5
+  },
+  "fluids": {
+    "rho_g_kg_per_m3": 1.4518749645499744,
+    "rho_l_kg_per_m3": 997.201509573096,
+    "mu_g_pa_s": 1.8114245617334183e-05,
+    "mu_l_pa_s": 0.0009177447801359073,
+    "temperature_c": 22.661634756346523,
+    "pressure_bar": 1.2208809674380026
+  },
+  "flow": {
+    "U_SG_m_per_s": 11.221225122510845,
+    "U_SL_m_per_s": 0.09638324338535684,
+    "void_fraction_alpha": 0.95,
+    "flow_pattern": "wavy",
+    "interface_height_m": 0.0025000000000000022,
+    "wave_amplitude_m": 0.01
+  },
+  "instrumentation": {
+    "acoustic_source": "Programmable piezoelectric transducer",
+    "hydrophones": 5,
+    "hydrophone_sensitivity_v_per_pa": 0.001,
+    "pressure_transmitters": 2,
+    "conductance_probes": 2,
+    "impedance_sensors": 1,
+    "thermocouples": 2,
+    "viscometer": "Rotational viscometer",
+    "hydrometer": "Precision hydrometer",
+    "daq_model": "NI-USB-6343"
+  },
+  "version": 1
+}
