@@ -1,0 +1,88 @@
+{
+  "dataset_info": {
+    "title": "Stratified Flow Acoustic Attenuation Dataset",
+    "description": "Comprehensive experimental dataset for studying attenuation mechanisms in stratified gas-liquid flows, focusing on acoustic signal propagation beyond single-phase leakage acoustics",
+    "version": "1.0",
+    "creation_date": "2024-01-15",
+    "last_updated": "2024-01-18",
+    "license": "CC BY 4.0",
+    "doi": "10.5281/zenodo.example",
+    "keywords": ["stratified flow", "acoustic attenuation", "two-phase flow", "multiphase acoustics", "flow regime", "turbulence"]
+  },
+  "experimental_setup": {
+    "facility": "Multiphase Flow Laboratory",
+    "pipe_geometry": {
+      "diameter_mm": 101.6,
+      "length_m": 5.0,
+      "material": "Stainless Steel 316L",
+      "roughness_microns": 1.6
+    },
+    "working_fluids": {
+      "gas_phase": "Air at atmospheric conditions",
+      "liquid_phase": "Deionized water"
+    },
+    "measurement_techniques": {
+      "flow_visualization": "High-speed camera (1000 fps)",
+      "void_fraction": "Quick-closing valves + impedance sensors",
+      "acoustic_measurements": "Dynamic pressure transducers (B&K 4193)",
+      "velocity_profiles": "Laser Doppler Velocimetry (LDV)",
+      "turbulence": "Hot-wire anemometry + PIV"
+    }
+  },
+  "data_categories": {
+    "experimental_data": {
+      "description": "Core flow regime characterization data",
+      "files": ["flow_regime_characterization.csv"],
+      "parameters": ["void_fraction", "superficial_velocities", "flow_patterns", "interface_characteristics"]
+    },
+    "acoustic_signals": {
+      "description": "Acoustic transmission and attenuation measurements",
+      "files": ["acoustic_measurements.csv", "timeseries_data/*.csv"],
+      "parameters": ["pressure_amplitudes", "frequency_spectra", "SNR", "phase_shifts"]
+    },
+    "attenuation_metrics": {
+      "description": "Derived attenuation coefficients and frequency-dependent profiles",
+      "files": ["attenuation_coefficients.csv", "frequency_dependent_attenuation.csv"],
+      "parameters": ["attenuation_coefficients", "transmission_loss", "phase_velocity", "quality_factor"]
+    },
+    "fluid_properties": {
+      "description": "Thermophysical properties and environmental conditions",
+      "files": ["fluid_conditions.csv"],
+      "parameters": ["density", "viscosity", "temperature", "pressure", "surface_tension"]
+    },
+    "turbulence_data": {
+      "description": "Turbulence characteristics and velocity profiles",
+      "files": ["turbulence_measurements.csv", "velocity_profiles.csv"],
+      "parameters": ["turbulent_kinetic_energy", "dissipation_rate", "reynolds_stress", "shear_stress"]
+    }
+  },
+  "experimental_conditions": {
+    "temperature_range_c": [19.5, 22.9],
+    "pressure_range_kpa": [101.125, 101.389],
+    "void_fraction_range": [0.08, 0.52],
+    "gas_velocity_range_ms": [0.15, 4.5],
+    "liquid_velocity_range_ms": [0.42, 1.8],
+    "frequency_range_hz": [50, 2000],
+    "measurement_duration_s": 30,
+    "sampling_rate_hz": 10000
+  },
+  "data_quality": {
+    "measurement_uncertainty": {
+      "void_fraction": "±2%",
+      "velocities": "±3%",
+      "pressure_amplitudes": "±1.5%",
+      "temperature": "±0.1°C",
+      "attenuation_coefficients": "±5%"
+    },
+    "calibration_standards": {
+      "pressure_transducers": "NIST traceable",
+      "flow_meters": "ISO 5167 compliant",
+      "temperature_sensors": "ITS-90 standard"
+    }
+  },
+  "applications": {
+    "primary": "PhD thesis research on stratified flow acoustic attenuation mechanisms",
+    "secondary": ["CFD model validation", "Acoustic leak detection algorithm development", "Multiphase flow instrumentation design"],
+    "research_areas": ["Multiphase flow acoustics", "Non-destructive testing", "Pipeline monitoring", "Flow regime identification"]
+  }
+}

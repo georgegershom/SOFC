@@ -1,0 +1,51 @@
+variable_name,unit,description,measurement_method,typical_range,uncertainty
+experiment_id,-,Unique identifier for each experimental run,Manual assignment,EXP001-EXP040,-
+timestamp,-,Date and time of measurement,System clock,2024-01-15 to 2024-01-18,-
+void_fraction_alpha,-,Volume fraction of gas phase,Quick-closing valves,0.08-0.52,±2%
+superficial_gas_velocity_usg_ms,m/s,Gas superficial velocity,Coriolis flow meter,0.15-4.5,±3%
+superficial_liquid_velocity_usl_ms,m/s,Liquid superficial velocity,Coriolis flow meter,0.42-1.8,±3%
+flow_pattern,-,Visual classification of flow regime,High-speed camera,smooth/wavy stratified,-
+interface_height_mm,mm,Height of gas-liquid interface,Conductance probes,15.2-72.8,±1 mm
+wave_amplitude_mm,mm,Amplitude of interfacial waves,Image analysis,0.2-12.8,±0.5 mm
+pipe_diameter_mm,mm,Internal pipe diameter,Caliper measurement,101.6,±0.1 mm
+measurement_location_m,m,Axial position along pipe,Ruler measurement,1.0-5.0,±0.01 m
+hydrophone_id,-,Identifier for pressure transducer,Manual assignment,H1-H4,-
+position_m,m,Axial position of hydrophone,Ruler measurement,0.5-3.5,±0.01 m
+source_frequency_hz,Hz,Frequency of acoustic source,Function generator,50-2000,±0.1 Hz
+source_amplitude_pa,Pa,Amplitude of source signal,Calibrated transducer,1000,±1.5%
+received_amplitude_pa,Pa,Amplitude of received signal,Calibrated transducer,327.4-901.4,±1.5%
+signal_to_noise_ratio_db,dB,Signal-to-noise ratio,Spectral analysis,9.8-29.1,±0.5 dB
+phase_shift_deg,degrees,Phase shift between source and received,Cross-correlation,11.7-138.7,±2°
+sampling_rate_hz,Hz,Data acquisition sampling rate,DAQ system,10000,±0.01%
+measurement_duration_s,s,Duration of each measurement,Timer,30,±0.1 s
+attenuation_coefficient_np_per_m,Np/m,Natural attenuation coefficient,Spectral analysis,0.0423-0.7634,±5%
+transmission_loss_db,dB,Transmission loss,Power spectral density,0.647-10.064,±0.3 dB
+insertion_loss_db,dB,Insertion loss,Reference measurement,0.92-14.32,±0.5 dB
+phase_velocity_ms,m/s,Phase velocity of acoustic wave,Cross-correlation,1385.9-1488.9,±10 m/s
+group_velocity_ms,m/s,Group velocity of acoustic wave,Envelope analysis,1368.1-1486.1,±10 m/s
+quality_factor_q,-,Quality factor,Frequency analysis,26.8-139.4,±5%
+temperature_c,°C,Fluid temperature,Thermocouple,19.5-22.9,±0.1°C
+system_pressure_kpa,kPa,System pressure,Pressure transmitter,101.125-101.389,±0.1 kPa
+gas_density_kg_m3,kg/m³,Gas phase density,Ideal gas law,1.191-1.208,±1%
+liquid_density_kg_m3,kg/m³,Liquid phase density,Hydrometer,996.1-998.8,±0.5 kg/m³
+gas_viscosity_pa_s,Pa·s,Gas dynamic viscosity,Sutherland's law,1.79e-05 to 1.87e-05,±2%
+liquid_viscosity_pa_s,Pa·s,Liquid dynamic viscosity,Viscometer,9.89e-04 to 1.006e-03,±1%
+surface_tension_n_m,N/m,Surface tension,Pendant drop method,0.0715-0.0732,±0.0005 N/m
+gas_compressibility_factor,-,Gas compressibility factor,Equation of state,0.9996,±0.0001
+liquid_bulk_modulus_pa,Pa,Liquid bulk modulus,Literature correlation,2.15e+09 to 2.16e+09,±1%
+radial_position_mm,mm,Radial position in pipe,Traversing mechanism,0-101.6,±0.1 mm
+phase,-,Phase identifier,Visual/probe,gas/liquid/interface,-
+turbulent_kinetic_energy_m2_s2,m²/s²,Turbulent kinetic energy,Hot-wire anemometry,0.0014-0.1123,±10%
+turbulent_dissipation_rate_m2_s3,m²/s³,Turbulent dissipation rate,Taylor microscale,0.0004-0.0823,±15%
+mean_velocity_ms,m/s,Time-averaged velocity,LDV,0.29-3.52,±2%
+reynolds_stress_pa,Pa,Reynolds stress tensor component,Velocity correlations,0.014-1.123,±10%
+wall_shear_stress_pa,Pa,Wall shear stress,Preston tube,0.0-1.023,±5%
+interface_shear_stress_pa,Pa,Interfacial shear stress,Momentum balance,0.0-8.23,±10%
+turbulence_intensity_percent,%,Turbulence intensity,RMS fluctuations,0.8-57.9,±5%
+integral_length_scale_mm,mm,Integral length scale,Autocorrelation,5.1-21.7,±10%
+axial_velocity_ms,m/s,Axial velocity component,LDV,0.29-3.52,±2%
+radial_velocity_ms,m/s,Radial velocity component,LDV,0.0-0.035,±5%
+tangential_velocity_ms,m/s,Tangential velocity component,LDV,0.0,±5%
+velocity_fluctuation_rms_ms,m/s,RMS velocity fluctuation,Statistical analysis,0.012-0.440,±5%
+reynolds_number_local,-,Local Reynolds number,Velocity and properties,1589-151000,±5%
+friction_velocity_ms,m/s,Friction velocity,Shear stress,0.0023-0.1123,±10%
