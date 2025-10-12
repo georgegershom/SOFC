@@ -1,0 +1,49 @@
+{
+  "validation_date": "2025-10-12T10:25:13.984647",
+  "overall_score": 75,
+  "validation_results": {
+    "completeness": true,
+    "consistency": false,
+    "physical_constraints": true,
+    "statistical_quality": true,
+    "overall_score": 75
+  },
+  "outlier_counts": {
+    "fluid_properties": 248,
+    "flow_geometry": 0,
+    "acoustic_properties": 27347,
+    "experimental_conditions": 0,
+    "theoretical_models": 75,
+    "correlation_data": 29
+  },
+  "sample_id_ranges": {
+    "fluid_properties": [
+      0,
+      999
+    ],
+    "flow_geometry": [
+      0,
+      999
+    ],
+    "acoustic_properties": [
+      0,
+      999
+    ],
+    "experimental_conditions": [
+      0,
+      999
+    ],
+    "correlation_data": [
+      0,
+      999
+    ]
+  },
+  "dataset_sizes": {
+    "fluid_properties": 3000,
+    "flow_geometry": 1000,
+    "acoustic_properties": 20000,
+    "experimental_conditions": 1000,
+    "theoretical_models": 50,
+    "correlation_data": 1000
+  }
+}
