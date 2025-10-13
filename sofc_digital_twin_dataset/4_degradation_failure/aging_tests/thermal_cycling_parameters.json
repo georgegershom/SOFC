@@ -1,0 +1,8 @@
+{
+  "description": "Thermal cycling between 25\u00b0C and 800\u00b0C",
+  "cycles": 1000,
+  "heating_rate": 5,
+  "cooling_rate": 5,
+  "dwell_time_hot": 2,
+  "dwell_time_cold": 0.5
+}

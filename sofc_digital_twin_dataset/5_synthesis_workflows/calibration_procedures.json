@@ -1,0 +1,65 @@
+{
+  "sensor_calibration": {
+    "thermocouple": {
+      "reference_points_C": [
+        25,
+        100,
+        200,
+        400,
+        600,
+        800
+      ],
+      "calibration_frequency_hours": 168,
+      "drift_tolerance_C": 2.0,
+      "calibration_method": "two_point_linear"
+    },
+    "strain_gauge": {
+      "reference_loads_N": [
+        0,
+        100,
+        500,
+        1000,
+        2000
+      ],
+      "calibration_frequency_hours": 720,
+      "drift_tolerance_microstrain": 10,
+      "calibration_method": "polynomial_fit"
+    },
+    "voltage_sensor": {
+      "reference_voltages_V": [
+        0.0,
+        0.5,
+        0.75,
+        1.0,
+        1.2
+      ],
+      "calibration_frequency_hours": 24,
+      "drift_tolerance_mV": 1.0,
+      "calibration_method": "linear_regression"
+    }
+  },
+  "model_calibration": {
+    "parameter_bounds": {
+      "thermal_conductivity_multiplier": [
+        0.8,
+        1.2
+      ],
+      "electrical_conductivity_multiplier": [
+        0.9,
+        1.1
+      ],
+      "mechanical_stiffness_multiplier": [
+        0.85,
+        1.15
+      ],
+      "heat_transfer_coefficient_multiplier": [
+        0.7,
+        1.3
+      ]
+    },
+    "optimization_method": "bayesian_optimization",
+    "objective_function": "weighted_rmse",
+    "calibration_window_hours": 72,
+    "update_frequency_hours": 6
+  }
+}

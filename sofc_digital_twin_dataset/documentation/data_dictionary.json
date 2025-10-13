@@ -1,0 +1,78 @@
+{
+  "materials_geometry": {
+    "microstructural_data": {
+      "microstructure_3D": {
+        "description": "3D voxel-based microstructure",
+        "dimensions": "[z, y, x] voxels",
+        "voxel_size": "50 nm",
+        "phase_labels": {
+          "0": "Pore space",
+          "1": "Ni particles (anode)",
+          "2": "YSZ phase",
+          "3": "LSM particles (cathode)"
+        }
+      },
+      "effective_properties": {
+        "porosity": "Volume fraction of pore space",
+        "tortuosity": "Geometric tortuosity factor",
+        "effective_conductivity": "Homogenized conductivity (S/m)",
+        "permeability": "Darcy permeability (m\u00b2)",
+        "tpb_density": "Triple phase boundary density (m/m\u00b3)"
+      }
+    },
+    "macroscale_geometry": {
+      "cell_geometry": "Overall cell dimensions and layer thicknesses",
+      "fem_mesh": "Structured hexahedral mesh for FEM analysis",
+      "flow_field": "Channel and rib geometry parameters"
+    }
+  },
+  "operational_electrochemical": {
+    "controlled_inputs": {
+      "time_hours": "Simulation time (hours)",
+      "fuel_composition": "Mole fractions of fuel species",
+      "current_density_A_cm2": "Applied current density (A/cm\u00b2)",
+      "flow_rates": "Mass flow rates (kg/s)",
+      "inlet_temperatures": "Fuel and air inlet temperatures (K)",
+      "utilization_factors": "Fuel and air utilization fractions"
+    },
+    "performance_data": {
+      "cell_voltage_V": "Cell terminal voltage (V)",
+      "overpotentials": "Breakdown of voltage losses (V)",
+      "power_density_W_cm2": "Power density (W/cm\u00b2)",
+      "eis_spectra": "Electrochemical impedance spectroscopy data"
+    }
+  },
+  "thermo_structural": {
+    "temperature_fields": {
+      "temperature_fields_C": "2D temperature distribution (\u00b0C)",
+      "thermocouple_data": "Point temperature measurements (\u00b0C)",
+      "spatial_coordinates": "Grid coordinates (m)",
+      "temporal_resolution": "Time between snapshots (hours)"
+    },
+    "stress_strain": {
+      "von_mises_stress_Pa": "Equivalent stress field (Pa)",
+      "strain_field": "Total strain field",
+      "strain_gauge_data": "Point strain measurements (microstrain)",
+      "dic_data": "Full-field strain components from DIC"
+    }
+  },
+  "degradation_failure": {
+    "aging_tests": {
+      "thermal_cycling": "Cyclic temperature exposure data",
+      "redox_cycling": "Anode oxidation/reduction cycling",
+      "steady_state_aging": "Long-term constant operation",
+      "high_current_stress": "High current density testing"
+    },
+    "postmortem": {
+      "microscopy_data": "SEM/EDS images and elemental maps",
+      "failure_reports": "Root cause analysis and recommendations",
+      "degradation_fingerprints": "Characteristic degradation patterns"
+    }
+  },
+  "synthesis_workflows": {
+    "hifi_training_data": "High-fidelity model parameter-output pairs",
+    "rom_training_data": "Reduced-order model training dataset",
+    "data_assimilation": "Kalman filter and state estimation workflows",
+    "calibration_procedures": "Sensor and model calibration protocols"
+  }
+}

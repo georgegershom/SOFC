@@ -1,0 +1,37 @@
+{
+  "failure_scenario": "electrolyte_crack",
+  "failure_time_hours": 5000,
+  "failure_location": "edge",
+  "failure_stress_MPa": 180,
+  "microscopy_analysis": {
+    "imaging_technique": "SEM/EDS",
+    "resolution_nm": 50,
+    "image_size_pixels": [
+      512,
+      512
+    ]
+  },
+  "root_cause_analysis": {
+    "primary_cause": "Thermal stress concentration",
+    "contributing_factors": [
+      "CTE mismatch",
+      "Geometric discontinuity",
+      "Cyclic loading"
+    ],
+    "crack_morphology": "Transgranular brittle fracture",
+    "crack_initiation_site": "Edge stress concentration",
+    "fracture_toughness_MPa_sqrt_m": 2.5
+  },
+  "failure_progression": {
+    "initiation_phase": "Microcrack formation at edges",
+    "propagation_phase": "Stable crack growth under cyclic loading",
+    "final_failure": "Unstable crack propagation across electrolyte",
+    "failure_mode": "Catastrophic brittle fracture"
+  },
+  "prevention_recommendations": [
+    "Reduce thermal cycling frequency",
+    "Improve edge design (chamfering)",
+    "Use tougher electrolyte materials",
+    "Optimize CTE matching between layers"
+  ]
+}

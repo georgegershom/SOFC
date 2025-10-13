@@ -1,0 +1,20 @@
+{
+  "cell_dimensions": {
+    "length": 0.1,
+    "width": 0.1,
+    "total_thickness": 0.0025
+  },
+  "layer_thicknesses": {
+    "anode": 0.0003,
+    "electrolyte": 0.00015,
+    "cathode": 5e-05,
+    "interconnect": 0.002
+  },
+  "flow_field": {
+    "channel_width": 0.002,
+    "rib_width": 0.002,
+    "channel_depth": 0.001,
+    "pattern": "parallel_straight"
+  },
+  "active_area": 0.0085
+}
