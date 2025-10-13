@@ -1,0 +1,58 @@
+Variable_Name,Description,Type,Scale,Source,Reference
+FirmID,Unique firm identifier,Categorical,Nominal,Generated,N/A
+Firm_Name,Firm name (anonymized),Text,Nominal,Generated,N/A
+Subsector,Food processing subsector,Categorical,Nominal,Primary Survey,NACE Code 10
+Location_Zone,Location within Lagos,Categorical,Nominal,Primary Survey,Lagos State
+Year_Established,Year firm was established,Continuous,Ratio,Primary Survey,N/A
+Firm_Age,Years in operation,Continuous,Ratio,Primary Survey,N/A
+Firm_Size,Size classification (SME/Large),Categorical,Nominal,Primary Survey,EU Definition
+Employees,Number of employees,Continuous,Ratio,Primary Survey,N/A
+Total_Assets_USD,Total assets in USD,Continuous,Ratio,Secondary (CBN/NBS),N/A
+Ownership_Type,Type of ownership structure,Categorical,Nominal,Primary Survey,N/A
+FDI_Presence,Presence of foreign direct investment,Binary,Nominal,Primary Survey + NIPC,"0=No, 1=Yes"
+FDI_Type,Type of FDI,Categorical,Nominal,Primary Survey + UNCTAD,Greenfield/M&A/JV
+FDI_Origin_Country,Country of origin of FDI,Categorical,Nominal,Primary Survey + NIPC,N/A
+FDI_Ownership_Percentage,Percentage of foreign ownership,Continuous,Ratio,Primary Survey,0-100%
+Years_With_FDI,Years since FDI entry,Continuous,Ratio,Primary Survey,N/A
+Knowledge_Absorption,Absorptive capacity score,Continuous,Interval,Primary Survey,"Zahra & George (2002), 1-5 Likert"
+Task_Performance,Task performance score,Continuous,Interval,Primary Survey,"Koopmans et al. (2013), 1-5 Likert"
+Innovation_Score,Innovation capability score,Continuous,Interval,Primary Survey,"OECD Oslo Manual, 1-5 Likert"
+Firm_Resources_Score,Overall firm resources score,Continuous,Interval,Primary Survey,"Composite, 1-5 Likert"
+Skilled_Labor_Ratio,Ratio of skilled to total labor,Continuous,Ratio,Primary Survey,0-1
+Employee_Training_Hours,Annual training hours per employee,Continuous,Ratio,Primary Survey,Hours
+IoT_Adoption,Adoption of IoT technologies,Binary,Nominal,Primary Survey,"0=No, 1=Yes"
+RD_Spend_Ratio,R&D spending as % of revenue,Continuous,Ratio,Primary Survey,0-1
+Automation_Level,Level of production automation,Ordinal,Ordinal,Primary Survey,1-5 scale
+Liquidity_Ratio,Current assets/current liabilities,Continuous,Ratio,Secondary (CBN/NBS),Financial ratio
+Debt_Equity_Ratio,Total debt/total equity,Continuous,Ratio,Secondary (CBN/NBS),Financial ratio
+ROI_Percentage,Return on investment,Continuous,Ratio,Primary Survey + CBN,Percentage
+ROA_Percentage,Return on assets,Continuous,Ratio,Primary Survey + CBN,Percentage
+Revenue_USD,Annual revenue in USD,Continuous,Ratio,Primary Survey + NBS,N/A
+Revenue_Growth_Rate,Year-on-year revenue growth,Continuous,Ratio,Primary Survey,Percentage
+Export_Intensity,Exports as % of total sales,Continuous,Ratio,Primary Survey + NBS,0-1
+Market_Share_Percentage,Market share in subsector,Continuous,Ratio,Primary Survey + NBS,Percentage
+Operational_Efficiency,Operational efficiency score,Continuous,Interval,Primary Survey,1-10 scale
+Employee_Productivity_USD,Revenue per employee,Continuous,Ratio,Calculated,USD
+Tax_Incentives_Score,Perception of tax incentives,Continuous,Interval,Primary Survey,1-7 Likert
+Regulatory_Stability,Perception of regulatory stability,Continuous,Interval,Primary Survey,1-7 Likert
+Infrastructure_Support,Perception of infrastructure support,Continuous,Interval,Primary Survey,1-7 Likert
+Corruption_Experience,Experience with corruption,Continuous,Interval,Primary Survey,"1-7 Likert, higher=more"
+Bureaucratic_Efficiency,Perception of bureaucratic efficiency,Continuous,Interval,Primary Survey,1-7 Likert
+Trade_Policy_Support,Perception of trade policy support,Continuous,Interval,Primary Survey,1-7 Likert
+Govt_Policy_Score,Overall government policy score,Continuous,Interval,Primary Survey,"Composite, 1-7"
+Policy_Effectiveness_Index,Policy effectiveness index,Continuous,Interval,Calculated,0-100 scale
+EEG_Beneficiary,Received Employment & Empowerment Grant,Binary,Nominal,Secondary (NIPC),"0=No, 1=Yes"
+Pioneer_Tax_Status,Has pioneer tax holiday status,Binary,Nominal,Secondary (FIRS),"0=No, 1=Yes"
+Power_Access_Hours_Daily,Hours of power access per day,Continuous,Ratio,Primary Survey,Hours
+Generator_Reliance,Reliance on generators,Continuous,Ratio,Calculated,0-1
+Port_Distance_KM,Distance to nearest port,Continuous,Ratio,Calculated (GIS),Kilometers
+ISO_Certified,ISO certification status,Binary,Nominal,Primary Survey + SON,"0=No, 1=Yes"
+NAFDAC_Compliant,NAFDAC compliance status,Binary,Nominal,Primary Survey + NAFDAC,"0=No, 1=Yes"
+Halal_Certified,Halal certification status,Binary,Nominal,Primary Survey,"0=No, 1=Yes"
+FDI_Inflow_Lagos_BillionUSD,Total FDI inflow to Lagos,Continuous,Ratio,Secondary (CBN/UNCTAD),Billion USD
+Corruption_Perception_Index,Nigeria CPI score,Continuous,Interval,Secondary (Transparency Int.),0-100 scale
+Ease_Doing_Business_Rank,World Bank EODB rank,Continuous,Ordinal,Secondary (World Bank),Rank
+Avg_Power_Reliability_Hours,Average power reliability,Continuous,Ratio,Secondary (AfDB),Hours
+Logistics_Quality_Index,Logistics quality index,Continuous,Interval,Secondary (World Bank LPI),1-5 scale
+FDI_Policy_Interaction,FDI × Policy interaction term,Continuous,Interval,Calculated,For moderation analysis
+Innovation_Policy_Interaction,Innovation × Policy interaction,Continuous,Interval,Calculated,For moderation analysis
