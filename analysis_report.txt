@@ -1,0 +1,44 @@
+
+================================================================================
+FOOD PROCESSING FIRMS FDI DATASET - ANALYSIS REPORT
+================================================================================
+
+Generated: 2025-10-13 11:34:43
+
+DATASET SUMMARY
+---------------
+• Total Firms: 500
+• Variables: 55
+• Missing Data: 185 values (0.67%)
+• Date Range: 2024-01-01 to 2024-10-01
+
+KEY FINDINGS
+------------
+• Average ROI: 40.09% (SD: 5.96%)
+• Firms with FDI: 305 (61.0%)
+• Average FDI Ownership: 60.2%
+• Policy Effectiveness: 5.32/7.00
+• Innovation Score: 3.80/5.00
+• FDI-Performance Correlation: r = 0.287
+
+
+RECOMMENDATIONS FOR ANALYSIS
+-----------------------------
+1. Test for multicollinearity using VIF before regression
+2. Check assumptions of linear regression (normality, homoscedasticity)
+3. Consider multilevel modeling for subsector effects
+4. Use bootstrapping for robust confidence intervals
+5. Perform sensitivity analysis on moderation effects
+
+DATA FILES GENERATED
+--------------------
+✓ lagos_food_processing_fdi_dataset.csv - Main dataset
+✓ lagos_food_processing_fdi_dataset.xlsx - Excel format with multiple sheets
+✓ data_dictionary.json - Variable definitions
+✓ CODEBOOK.txt - Detailed codebook
+✓ variable_list.csv - Variable summary
+✓ fdi_dataset_analysis.png - Comprehensive visualizations
+✓ correlation_matrix.png - Key variables correlation
+✓ analysis_report.txt - This report
+
+================================================================================
