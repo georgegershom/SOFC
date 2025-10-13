@@ -1,0 +1,73 @@
+{
+  "Firm Identifiers": {
+    "FirmID": "Unique identifier for each firm (FIRM_001 to FIRM_300)",
+    "Size": "Firm size category (SME: <250 employees, Large: \u2265250 employees)",
+    "Subsector": "Food processing subsector (e.g., Dairy, Beverages, Bakery)",
+    "OwnershipType": "Ownership structure (Private Nigerian, Foreign, Joint Venture, etc.)"
+  },
+  "FDI Variables": {
+    "FDI_Presence": "Binary indicator of FDI presence (1=Yes, 0=No)",
+    "FDI_Percentage": "Percentage of foreign ownership (0-100%)",
+    "FDI_Origin": "Country of origin for FDI",
+    "FDI_Type": "Type of FDI (Greenfield, M&A, Joint Venture)",
+    "FDI_Years": "Number of years since FDI entry"
+  },
+  "FDI Constructs (Likert 1-5)": {
+    "Knowledge_Absorption": "Firm's ability to acquire and assimilate external knowledge",
+    "Task_Performance": "Efficiency and quality of task execution",
+    "Innovation_Score": "Level of product and process innovation",
+    "Firm_Resources_Score": "Overall resource capability assessment"
+  },
+  "Performance Metrics": {
+    "ROI": "Return on Investment (%)",
+    "ROA": "Return on Assets (%)",
+    "Market_Share": "Firm's market share in Lagos food processing sector (%)",
+    "Export_Intensity": "Exports as percentage of total sales (%)",
+    "Operational_Efficiency": "Overall operational efficiency score (0-100)"
+  },
+  "Financial Indicators": {
+    "Revenue_Million_NGN": "Annual revenue in millions of Naira",
+    "Assets_Million_NGN": "Total assets in millions of Naira",
+    "Export_Value_Million_NGN": "Export value in millions of Naira",
+    "Liquidity_Ratio": "Current assets / Current liabilities"
+  },
+  "Government Policy Perception (Likert 1-7)": {
+    "Tax_Incentives_Perception": "Perceived effectiveness of tax incentives",
+    "Regulatory_Stability": "Perception of regulatory environment stability",
+    "Infrastructure_Support": "Quality of government infrastructure support",
+    "Corruption_Experience": "Experience with corruption (higher = less corruption)",
+    "Policy_Effectiveness_Index": "Composite index of policy effectiveness"
+  },
+  "Human Resources": {
+    "Employees": "Total number of employees",
+    "Skilled_Labor_Ratio": "Proportion of skilled workers (0-1)",
+    "Training_Hours_Per_Employee": "Annual training hours per employee",
+    "Female_Employment_Ratio": "Proportion of female employees (0-1)",
+    "Youth_Employment_Ratio": "Proportion of employees under 35 (0-1)"
+  },
+  "Technology & Innovation": {
+    "IoT_Adoption": "Internet of Things adoption (1=Yes, 0=No)",
+    "RD_Spend_Percentage": "R&D spending as percentage of revenue (%)",
+    "ERP_System": "Enterprise Resource Planning system adoption (1=Yes, 0=No)",
+    "Ecommerce_Adoption": "E-commerce platform usage (1=Yes, 0=No)",
+    "Automation_Level": "Level of production automation (0-100%)"
+  },
+  "Quality & Compliance": {
+    "ISO_Certification": "ISO certification status (1=Yes, 0=No)",
+    "NAFDAC_Compliance_Score": "NAFDAC regulatory compliance score (0-100)",
+    "Quality_Certification": "Type of quality certification held"
+  },
+  "Supply Chain": {
+    "Local_Content_Percentage": "Percentage of locally sourced inputs (%)",
+    "Local_Suppliers_Percentage": "Percentage of local suppliers (%)",
+    "Supplier_Reliability_Score": "Supplier reliability rating (1-5)",
+    "Inventory_Turnover_Ratio": "Annual inventory turnover rate"
+  },
+  "Macro-Economic Context": {
+    "FDI_Inflow_Lagos_Million_USD": "Total FDI inflow to Lagos (Million USD)",
+    "National_Corruption_Index": "Transparency International Corruption Index",
+    "GDP_Growth_Rate": "Annual GDP growth rate (%)",
+    "Inflation_Rate": "Annual inflation rate (%)",
+    "Exchange_Rate": "NGN/USD exchange rate"
+  }
+}

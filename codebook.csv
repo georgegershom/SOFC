@@ -1,0 +1,61 @@
+Variable,Type,Scale,Range/Values,Description
+FirmID,String,Nominal,FIRM_001 to FIRM_300,Unique firm identifier
+Size,Categorical,Nominal,"SME, Large",Firm size category (SME <250 employees)
+Employees,Integer,Ratio,10-2000,Total number of employees
+FirmAge,Integer,Ratio,1-45,Years since establishment
+Subsector,Categorical,Nominal,10 categories,Food processing subsector
+OwnershipType,Categorical,Nominal,5 categories,Ownership structure
+FDI_Presence,Binary,Nominal,"0, 1","FDI presence (1=Yes, 0=No)"
+FDI_Percentage,Continuous,Ratio,0-100,Foreign ownership percentage
+FDI_Origin,Categorical,Nominal,7 countries + None,Country of FDI origin
+FDI_Type,Categorical,Nominal,"Greenfield, M&A, JV, None",Type of FDI investment
+FDI_Years,Integer,Ratio,0-20,Years since FDI entry
+Knowledge_Absorption,Continuous,Ordinal,1-5,Knowledge absorption capability (Likert)
+Task_Performance,Continuous,Ordinal,1-5,Task performance efficiency (Likert)
+Innovation_Score,Continuous,Ordinal,1-5,Innovation capability (Likert)
+Firm_Resources_Score,Continuous,Ordinal,1-5,Overall resource capability (Likert)
+Skilled_Labor_Ratio,Continuous,Ratio,0-1,Proportion of skilled workers
+IoT_Adoption,Binary,Nominal,"0, 1",IoT technology adoption (1=Yes)
+RD_Spend_Percentage,Continuous,Ratio,0-5,R&D spending as % of revenue
+Liquidity_Ratio,Continuous,Ratio,0.8-2.5,Current assets/current liabilities
+ROI,Continuous,Ratio,5-35,Return on Investment (%)
+ROA,Continuous,Ratio,3-25,Return on Assets (%)
+Market_Share,Continuous,Ratio,0.5-20,Market share in Lagos (%)
+Export_Intensity,Continuous,Ratio,0-60,Exports as % of sales
+Operational_Efficiency,Continuous,Interval,40-95,Operational efficiency score
+Revenue_Million_NGN,Continuous,Ratio,50-10000,Annual revenue (Million NGN)
+Assets_Million_NGN,Continuous,Ratio,60-25000,Total assets (Million NGN)
+Export_Value_Million_NGN,Continuous,Ratio,0-3000,Export value (Million NGN)
+Tax_Incentives_Perception,Continuous,Ordinal,1-7,Tax incentives effectiveness (Likert)
+Regulatory_Stability,Continuous,Ordinal,1-7,Regulatory stability perception (Likert)
+Infrastructure_Support,Continuous,Ordinal,1-7,Infrastructure support quality (Likert)
+Corruption_Experience,Continuous,Ordinal,1-7,Corruption level (7=least corrupt)
+Policy_Effectiveness_Index,Continuous,Interval,1-7,Composite policy effectiveness
+ISO_Certification,Binary,Nominal,"0, 1",ISO certification status
+NAFDAC_Compliance_Score,Continuous,Interval,60-100,NAFDAC compliance score
+Quality_Certification,Categorical,Nominal,"ISO 9001, HACCP, ISO 22000, None",Quality certification type
+Training_Hours_Per_Employee,Continuous,Ratio,5-80,Annual training hours per employee
+Female_Employment_Ratio,Continuous,Ratio,0.15-0.55,Proportion of female employees
+Youth_Employment_Ratio,Continuous,Ratio,0.2-0.6,Proportion of employees under 35
+ERP_System,Binary,Nominal,"0, 1",ERP system adoption
+Ecommerce_Adoption,Binary,Nominal,"0, 1",E-commerce platform usage
+Automation_Level,Continuous,Ratio,0-100,Production automation level (%)
+Local_Content_Percentage,Continuous,Ratio,40-95,Local input sourcing (%)
+Local_Suppliers_Percentage,Continuous,Ratio,30-85,Local suppliers (%)
+Supplier_Reliability_Score,Continuous,Ordinal,1-5,Supplier reliability (Likert)
+Inventory_Turnover_Ratio,Continuous,Ratio,4-12,Annual inventory turnover
+FDI_Inflow_Lagos_Million_USD,Continuous,Ratio,300-800,Lagos FDI inflow (Million USD)
+National_Corruption_Index,Continuous,Interval,24-28,Transparency International CPI
+Regulatory_Quality_Index,Continuous,Interval,-2.5 to 2.5,World Bank regulatory quality
+GDP_Growth_Rate,Continuous,Ratio,-1 to 4,Annual GDP growth (%)
+Inflation_Rate,Continuous,Ratio,11-18,Annual inflation rate (%)
+Exchange_Rate,Continuous,Ratio,380-650,NGN/USD exchange rate
+Power_Supply_Hours,Continuous,Ratio,12-20,Daily power supply hours
+Logistics_Quality_Index,Continuous,Interval,1-5,Logistics performance index
+Export_Destination_Count,Integer,Ratio,0-15,Number of export destinations
+Capacity_Utilization,Continuous,Ratio,45-90,Production capacity utilization (%)
+Policy_Support_Received,Binary,Nominal,"0, 1",Government policy support received
+Tax_Incentive_Beneficiary,Binary,Nominal,"0, 1",Tax incentive beneficiary status
+Export_Grant_Recipient,Binary,Nominal,"0, 1",Export grant recipient status
+Infrastructure_Index,Continuous,Interval,1-5,Composite infrastructure quality
+Institutional_Quality_Index,Continuous,Interval,1-5,Composite institutional quality
