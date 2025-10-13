@@ -1,0 +1,11 @@
+setup_id,test_section_length_m,pipe_inclination_deg,sensor_spacing_m,number_of_sensors,data_acquisition_rate_hz,temperature_c,pressure_bar,humidity_percent,ambient_noise_level_db,flow_loop_type,pump_type,flow_meter_type,gas_injection_method,liquid_type,gas_type
+SETUP_001,5.0,0.0,1.0,4,50000,22.5,1.2,45,35,closed_loop,centrifugal,coriolis,sparger,water,air
+SETUP_002,10.0,2.0,2.0,6,100000,20.0,1.5,50,40,closed_loop,gear,turbine,venturi,water,nitrogen
+SETUP_003,8.0,−2.0,1.5,5,25000,25.0,1.0,55,38,open_loop,peristaltic,ultrasonic,porous_plate,oil,air
+SETUP_004,15.0,5.0,3.0,6,75000,18.0,2.0,40,42,closed_loop,centrifugal,electromagnetic,multiple_orifice,water,helium
+SETUP_005,12.0,0.0,2.5,5,200000,24.0,1.8,48,36,closed_loop,screw,vortex,bubble_column,glycol,argon
+SETUP_006,6.0,−5.0,1.2,4,30000,21.0,1.3,52,39,open_loop,diaphragm,thermal,sintered_metal,kerosene,air
+SETUP_007,20.0,10.0,4.0,8,150000,19.5,2.5,35,44,closed_loop,centrifugal,coriolis,gas_lift,water,methane
+SETUP_008,7.5,0.0,1.8,5,80000,23.0,1.1,60,37,closed_loop,progressive_cavity,paddle_wheel,perforated_pipe,brine,carbon_dioxide
+SETUP_009,18.0,−10.0,3.5,6,120000,17.0,3.0,42,41,open_loop,rotary_lobe,positive_displacement,static_mixer,ethanol,propane
+SETUP_010,9.0,1.0,2.2,4,60000,26.0,0.8,58,33,closed_loop,magnetic_drive,differential_pressure,tee_junction,mineral_oil,oxygen

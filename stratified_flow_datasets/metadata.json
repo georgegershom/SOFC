@@ -1,0 +1,96 @@
+{
+  "dataset_info": {
+    "title": "Stratified Flow Attenuation Mechanisms Dataset Collection",
+    "version": "1.0",
+    "creation_date": "2024-01-15",
+    "last_modified": "2024-01-15",
+    "creator": "PhD Research Project",
+    "description": "Comprehensive dataset for studying attenuation mechanisms in stratified flows",
+    "keywords": ["stratified flow", "acoustic attenuation", "two-phase flow", "sound speed", "signal processing"],
+    "license": "Academic Research Use",
+    "total_files": 12,
+    "total_size_mb": 2.5
+  },
+  "datasets": {
+    "single_phase_baseline": {
+      "path": "01_single_phase_baseline/",
+      "files": ["water_baseline_data.csv", "air_baseline_data.csv"],
+      "description": "Control measurements in single-phase fluids",
+      "measurement_count": 60,
+      "frequency_range_hz": [100, 100000],
+      "temperature_range_c": [5, 35],
+      "fluid_types": ["water", "air"]
+    },
+    "published_datasets": {
+      "path": "02_published_datasets/",
+      "files": ["li_et_al_2022_data.csv", "xue_et_al_2022_data.csv", "dijk_2005_data.csv"],
+      "description": "Reference data from key publications",
+      "measurement_count": 74,
+      "flow_regimes": ["stratified_smooth", "stratified_wavy", "annular", "slug", "intermittent"],
+      "pipe_diameters_mm": [50.8, 76.2, 100.0]
+    },
+    "material_properties": {
+      "path": "03_material_geometric_properties/",
+      "files": ["pipe_specifications.csv", "sensor_specifications.csv", "experimental_setup.csv"],
+      "description": "Physical properties and experimental configurations",
+      "pipe_materials": ["carbon_steel", "stainless_steel", "aluminum", "copper", "pvc", "hdpe", "cast_iron"],
+      "sensor_types": ["piezoelectric", "condenser", "hydrophone", "accelerometer", "pressure"],
+      "setup_configurations": 10
+    },
+    "signal_processing": {
+      "path": "04_signal_processing/",
+      "files": ["filtered_signals_fourier.csv", "wavelet_filtered_signals.csv", "cross_correlation_functions.csv", "extracted_signal_characteristics.csv"],
+      "description": "Processed signals and extracted features",
+      "filter_types": ["butterworth", "chebyshev", "elliptic", "adaptive", "wiener", "kalman"],
+      "wavelet_types": ["daubechies", "symlet", "coiflet", "biorthogonal"],
+      "feature_count": 15
+    }
+  },
+  "measurement_standards": {
+    "acoustic_measurements": "IEC 61672",
+    "temperature_accuracy": "±0.1°C",
+    "pressure_accuracy": "±0.1% full scale",
+    "flow_rate_accuracy": "±1%",
+    "sampling_rates_hz": [25000, 30000, 50000, 75000, 80000, 100000, 120000, 150000, 200000],
+    "calibration_interval": "6 months"
+  },
+  "data_quality": {
+    "missing_values": "indicated as NaN",
+    "timestamp_format": "ISO 8601",
+    "units": "SI units throughout",
+    "uncertainty_level": "k=2 (95% confidence)",
+    "validation": "cross-validated"
+  },
+  "applications": {
+    "literature_review": "Comparison with existing research",
+    "model_calibration": "CFD boundary conditions and validation",
+    "equipment_setup": "Sensor selection and configuration",
+    "signal_analysis": "Feature extraction and leak detection",
+    "benchmarking": "Performance comparison studies"
+  },
+  "references": [
+    {
+      "authors": "Li, X., et al.",
+      "year": 2022,
+      "title": "Acoustic wave propagation in gas-liquid stratified flows",
+      "journal": "Journal of Fluid Mechanics",
+      "volume": "945",
+      "pages": "A12"
+    },
+    {
+      "authors": "Xue, Y., et al.",
+      "year": 2022,
+      "title": "Sound speed and attenuation measurements in horizontal stratified flows",
+      "journal": "Flow Measurement and Instrumentation",
+      "volume": "85",
+      "pages": "102156"
+    },
+    {
+      "authors": "Dijk, H.",
+      "year": 2005,
+      "title": "Acoustic properties of two-phase flows",
+      "type": "PhD Thesis",
+      "institution": "University of Twente"
+    }
+  ]
+}
