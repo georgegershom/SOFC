@@ -1,0 +1,42 @@
+{
+  "thermal_cycling": {
+    "voltage_degradation_rate_mV_per_cycle": 0.02,
+    "resistance_increase_rate_percent_per_cycle": 0.1,
+    "stress_amplitude_increase_percent_per_cycle": 0.05,
+    "crack_density_growth_rate_m_m3_per_cycle": 1000000.0,
+    "characteristic_frequency_Hz": 0.020833333333333332,
+    "failure_mode": "delamination_cracking"
+  },
+  "redox_cycling": {
+    "voltage_drop_during_oxidation_V": 0.6,
+    "volume_change_amplitude_percent": 5.0,
+    "ni_particle_growth_rate_nm_per_cycle": 10,
+    "percolation_loss_rate_per_cycle": 0.0002,
+    "characteristic_frequency_Hz": 0.008333333333333333,
+    "failure_mode": "anode_degradation"
+  },
+  "chromium_poisoning": {
+    "voltage_degradation_rate_mV_per_1000h": 30,
+    "resistance_increase_rate_percent_per_1000h": 20,
+    "coverage_saturation_fraction": 0.15,
+    "time_constant_hours": 2000,
+    "temperature_dependence_eV": 1.2,
+    "failure_mode": "cathode_poisoning"
+  },
+  "sulfur_poisoning": {
+    "voltage_degradation_rate_mV_per_ppm": 0.5,
+    "reversibility_fraction": 0.7,
+    "adsorption_energy_eV": 1.5,
+    "coverage_threshold_ppm": 10,
+    "recovery_time_hours": 100,
+    "failure_mode": "anode_poisoning"
+  },
+  "ni_coarsening": {
+    "particle_growth_rate_nm3_per_hour": 1e-06,
+    "conductivity_loss_rate_percent_per_1000h": 5,
+    "activation_energy_eV": 2.8,
+    "temperature_threshold_C": 750,
+    "percolation_threshold": 0.3,
+    "failure_mode": "anode_conductivity_loss"
+  }
+}

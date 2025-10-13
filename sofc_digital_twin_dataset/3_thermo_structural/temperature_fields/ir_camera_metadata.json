@@ -1,0 +1,19 @@
+{
+  "camera_model": "FLIR A655sc",
+  "spectral_range_um": [
+    7.5,
+    14.0
+  ],
+  "spatial_resolution": [
+    640,
+    480
+  ],
+  "temperature_range_C": [
+    0,
+    1200
+  ],
+  "accuracy_C": 2.0,
+  "emissivity_setting": 0.85,
+  "frame_rate_Hz": 1.0,
+  "integration_time_ms": 1.0
+}

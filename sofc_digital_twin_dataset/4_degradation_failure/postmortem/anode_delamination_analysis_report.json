@@ -1,0 +1,36 @@
+{
+  "failure_scenario": "anode_delamination",
+  "failure_time_hours": 8000,
+  "failure_location": "interface",
+  "failure_stress_MPa": 120,
+  "microscopy_analysis": {
+    "imaging_technique": "SEM/EDS",
+    "resolution_nm": 50,
+    "image_size_pixels": [
+      512,
+      512
+    ]
+  },
+  "root_cause_analysis": {
+    "primary_cause": "Interface adhesion failure",
+    "contributing_factors": [
+      "Thermal expansion mismatch",
+      "Redox cycling",
+      "Chemical incompatibility"
+    ],
+    "delamination_mechanism": "Mixed-mode interface fracture",
+    "adhesion_strength_MPa": 5
+  },
+  "failure_progression": {
+    "initiation_phase": "Localized debonding at weak interfaces",
+    "propagation_phase": "Progressive delamination growth",
+    "final_failure": "Complete anode separation",
+    "failure_mode": "Interface adhesive failure"
+  },
+  "prevention_recommendations": [
+    "Improve interface bonding during fabrication",
+    "Reduce redox cycling exposure",
+    "Use graded interface materials",
+    "Optimize sintering conditions"
+  ]
+}

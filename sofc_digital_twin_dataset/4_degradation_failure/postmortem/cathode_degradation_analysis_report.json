@@ -1,0 +1,36 @@
+{
+  "failure_scenario": "cathode_degradation",
+  "failure_time_hours": 12000,
+  "failure_location": "bulk",
+  "failure_stress_MPa": 90,
+  "microscopy_analysis": {
+    "imaging_technique": "SEM/EDS",
+    "resolution_nm": 50,
+    "image_size_pixels": [
+      512,
+      512
+    ]
+  },
+  "root_cause_analysis": {
+    "primary_cause": "Microstructural coarsening",
+    "contributing_factors": [
+      "High temperature operation",
+      "Long-term aging",
+      "Chromium poisoning"
+    ],
+    "degradation_mechanism": "Ostwald ripening and phase decomposition",
+    "performance_loss_percent": 40
+  },
+  "failure_progression": {
+    "initiation_phase": "Gradual particle coarsening",
+    "propagation_phase": "TPB density reduction",
+    "final_failure": "Severe performance degradation",
+    "failure_mode": "Gradual performance loss"
+  },
+  "prevention_recommendations": [
+    "Reduce operating temperature",
+    "Use coarsening-resistant cathode materials",
+    "Implement chromium barriers",
+    "Optimize cathode microstructure"
+  ]
+}

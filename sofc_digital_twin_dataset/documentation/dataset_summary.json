@@ -1,0 +1,74 @@
+{
+  "dataset_info": {
+    "name": "SOFC Digital Twin Dataset",
+    "version": "1.0",
+    "generation_date": "2025-10-13T13:30:25.144657",
+    "total_files": 59,
+    "total_size_MB": 87.37669563293457,
+    "description": "Comprehensive dataset for adaptive-scale physics-informed digital twin development"
+  },
+  "data_categories": {
+    "materials_geometry": {
+      "microstructural_samples": 3,
+      "mesh_elements": 185000,
+      "spatial_resolution_nm": 50
+    },
+    "operational_electrochemical": {
+      "time_series_length_hours": 1000,
+      "temporal_resolution_minutes": 1,
+      "eis_spectra_count": 6,
+      "frequency_range_Hz": [
+        0.01,
+        100000
+      ]
+    },
+    "thermo_structural": {
+      "temperature_field_snapshots": 100,
+      "spatial_grid_size": [
+        50,
+        50
+      ],
+      "thermocouple_locations": 5,
+      "strain_gauge_locations": 4
+    },
+    "degradation_failure": {
+      "aging_test_types": 4,
+      "failure_scenarios": 3,
+      "degradation_modes": 5,
+      "microscopy_images": 3
+    },
+    "synthesis_workflows": {
+      "hifi_training_samples": 1000,
+      "rom_training_samples": 5000,
+      "assimilation_time_points": 1440,
+      "calibration_procedures": 3
+    }
+  },
+  "technical_specifications": {
+    "file_formats": [
+      "HDF5",
+      "CSV",
+      "JSON",
+      "PNG"
+    ],
+    "coordinate_system": "Cartesian (x, y, z)",
+    "units": {
+      "length": "meters",
+      "temperature": "Celsius/Kelvin",
+      "stress": "Pascal",
+      "voltage": "Volts",
+      "current_density": "A/cm\u00b2"
+    },
+    "precision": {
+      "spatial": "micrometer",
+      "temporal": "minute",
+      "measurement": "engineering accuracy"
+    }
+  },
+  "validation_metrics": {
+    "material_properties": "Literature validated",
+    "physics_consistency": "Conservation laws enforced",
+    "statistical_realism": "Experimental noise included",
+    "multi_scale_coupling": "Verified across scales"
+  }
+}
