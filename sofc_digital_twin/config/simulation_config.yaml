@@ -1,0 +1,128 @@
+# SOFC Digital Twin Simulation Configuration
+
+# Dataset 1: High-Fidelity Physics-Based Simulation Parameters
+dataset1:
+  # Operating Conditions
+  operating_conditions:
+    current_density:
+      min: 0.1  # A/cm²
+      max: 1.5  # A/cm²
+      samples: 20
+    
+    fuel_utilization:
+      min: 0.3  # 30%
+      max: 0.9  # 90%
+      samples: 15
+    
+    air_utilization:
+      min: 0.1  # 10%
+      max: 0.3  # 30%
+      samples: 10
+    
+    inlet_fuel_temperature:
+      min: 700  # °C
+      max: 900  # °C
+      samples: 15
+    
+    inlet_air_temperature:
+      min: 600  # °C
+      max: 800  # °C
+      samples: 12
+    
+    fuel_composition:
+      h2_percentage:
+        min: 0.4  # 40%
+        max: 0.8  # 80%
+        samples: 8
+      h2o_percentage:
+        min: 0.1  # 10%
+        max: 0.4  # 40%
+        samples: 6
+      co_percentage:
+        min: 0.05 # 5%
+        max: 0.2  # 20%
+        samples: 5
+      ch4_percentage:
+        min: 0.0  # 0%
+        max: 0.1  # 10%
+        samples: 3
+
+  # Material & Geometric Parameters
+  material_parameters:
+    electrode_porosity:
+      min: 0.3
+      max: 0.6
+      samples: 10
+    
+    electrode_tortuosity:
+      min: 2.0
+      max: 5.0
+      samples: 8
+    
+    anode_conductivity:
+      min: 1000  # S/m
+      max: 5000  # S/m
+      samples: 10
+    
+    cathode_conductivity:
+      min: 100   # S/m
+      max: 1000  # S/m
+      samples: 10
+    
+    electrolyte_thickness:
+      min: 10e-6   # 10 μm
+      max: 50e-6   # 50 μm
+      samples: 8
+    
+    electrode_thickness:
+      min: 50e-6   # 50 μm
+      max: 200e-6  # 200 μm
+      samples: 10
+
+  # Degradation Parameters
+  degradation_parameters:
+    initial_crack_length:
+      min: 0.0     # μm
+      max: 100e-6  # 100 μm
+      samples: 15
+    
+    porosity_degradation:
+      min: 0.0   # no degradation
+      max: 0.3   # 30% porosity loss
+      samples: 10
+
+# Mesh and Simulation Settings
+simulation:
+  mesh:
+    nx: 50  # x-direction elements
+    ny: 30  # y-direction elements
+    nz: 20  # z-direction elements
+    
+  geometry:
+    length: 10e-3   # 10 mm
+    width: 10e-3    # 10 mm
+    height: 2e-3    # 2 mm
+    
+  time:
+    total_time: 3600  # 1 hour simulation
+    time_steps: 100
+    
+  solver:
+    tolerance: 1e-6
+    max_iterations: 1000
+
+# Output Configuration
+output:
+  save_frequency: 10  # save every 10 time steps
+  fields_to_save:
+    - temperature
+    - current_density
+    - species_concentration
+    - displacement
+    - stress_tensor
+    - strain_tensor
+    - von_mises_stress
+    - strain_energy_density
+  
+  file_format: "hdf5"  # or "npz"
+  compression: true
