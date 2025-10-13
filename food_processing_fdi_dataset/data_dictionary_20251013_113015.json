@@ -1,0 +1,72 @@
+{
+  "dataset_info": {
+    "title": "Food Processing FDI Dataset - Lagos, Nigeria",
+    "description": "Firm-level survey data on Foreign Direct Investment influence on food processing firms",
+    "sample_size": 500,
+    "location": "Lagos, Nigeria",
+    "generated_date": "2025-10-13",
+    "variables_count": 45
+  },
+  "variable_categories": {
+    "fdi_constructs": {
+      "description": "Foreign Direct Investment related constructs using Likert scales",
+      "variables": {
+        "knowledge_absorption_1-4": "Firm's ability to absorb and utilize foreign knowledge (1-5 scale)",
+        "task_performance_1-3": "Performance in core business tasks (1-5 scale)",
+        "innovation_1-4": "Innovation capabilities and activities (1-5 scale)",
+        "firm_resources_1-3": "Available firm resources (1-5 scale)"
+      }
+    },
+    "firm_performance": {
+      "description": "Quantitative measures of firm performance",
+      "variables": {
+        "roi": "Return on Investment (percentage)",
+        "roa": "Return on Assets (percentage)",
+        "export_intensity": "Percentage of revenue from exports",
+        "market_share": "Market share percentage",
+        "operational_efficiency": "Operational efficiency rating (1-5 scale)"
+      }
+    },
+    "firm_resources": {
+      "description": "Human, technological, and financial resources",
+      "variables": {
+        "skilled_labor_ratio": "Percentage of skilled workers",
+        "iot_use": "Use of Internet of Things technology (0/1)",
+        "rd_spend_ratio": "R&D spending as percentage of revenue",
+        "liquidity_ratio": "Current assets to current liabilities ratio"
+      }
+    },
+    "government_policy_perception": {
+      "description": "Firm perceptions of government policies (1-7 scale)",
+      "variables": {
+        "tax_incentives_1-3": "Perception of tax incentive effectiveness",
+        "regulatory_stability_1-3": "Perception of regulatory stability",
+        "infrastructure_support_1-3": "Perception of infrastructure support",
+        "corruption_experience": "Experience with corruption (reverse coded)",
+        "policy_effectiveness_index": "Composite policy effectiveness score"
+      }
+    },
+    "control_variables": {
+      "description": "Firm characteristics and control variables",
+      "variables": {
+        "firm_id": "Unique firm identifier",
+        "employees": "Number of employees",
+        "total_assets": "Total assets in millions NGN",
+        "firm_age": "Years since establishment",
+        "subsector": "Food processing subsector",
+        "ownership_type": "Type of firm ownership",
+        "location": "Location within Lagos",
+        "export_status": "Export activity status (0/1)"
+      }
+    }
+  },
+  "composite_scores": {
+    "knowledge_absorption_score": "Average of knowledge absorption items",
+    "task_performance_score": "Average of task performance items",
+    "innovation_score": "Average of innovation items",
+    "firm_resources_score": "Average of firm resources items",
+    "tax_incentives_score": "Average of tax incentives items",
+    "regulatory_stability_score": "Average of regulatory stability items",
+    "infrastructure_support_score": "Average of infrastructure support items"
+  }
+}
