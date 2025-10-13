@@ -1,0 +1,219 @@
+{
+  "version": "0.1.0",
+  "created_at": "2025-10-13T13:23:09.528138Z",
+  "description": "Synthetic dataset for Adaptive-Scale PI Digital Twin for SOFC.",
+  "components": {
+    "materials_geometry": {
+      "microstructure": [
+        {
+          "id": "micro_anode",
+          "phase": "anode",
+          "format": "npy",
+          "path": "materials_geometry/microstructure/micro_anode.npy",
+          "voxel_size_um": 0.2,
+          "derived_effective_properties_path": "materials_geometry/microstructure/micro_anode_effective_properties.json"
+        },
+        {
+          "id": "micro_electrolyte",
+          "phase": "electrolyte",
+          "format": "npy",
+          "path": "materials_geometry/microstructure/micro_electrolyte.npy",
+          "voxel_size_um": 0.2,
+          "derived_effective_properties_path": "materials_geometry/microstructure/micro_electrolyte_effective_properties.json"
+        },
+        {
+          "id": "micro_cathode",
+          "phase": "cathode",
+          "format": "npy",
+          "path": "materials_geometry/microstructure/micro_cathode.npy",
+          "voxel_size_um": 0.2,
+          "derived_effective_properties_path": "materials_geometry/microstructure/micro_cathode_effective_properties.json"
+        }
+      ],
+      "macro_geometry": [
+        {
+          "id": "geom_cell",
+          "component": "cell",
+          "format": "stl",
+          "path": "materials_geometry/macro/cell.stl"
+        },
+        {
+          "id": "geom_interconnect",
+          "component": "interconnect",
+          "format": "stl",
+          "path": "materials_geometry/macro/interconnect.stl"
+        },
+        {
+          "id": "geom_seal",
+          "component": "seal",
+          "format": "stl",
+          "path": "materials_geometry/macro/seal.stl"
+        },
+        {
+          "id": "geom_manifold",
+          "component": "manifold",
+          "format": "stl",
+          "path": "materials_geometry/macro/manifold.stl"
+        },
+        {
+          "id": "geom_stack",
+          "component": "stack",
+          "format": "stl",
+          "path": "materials_geometry/macro/stack.stl"
+        }
+      ]
+    },
+    "operational_performance": {
+      "inputs": [
+        {
+          "id": "inputs_stream_1",
+          "path": "operational_performance/inputs/operational_inputs.jsonl",
+          "description": "Primary boundary conditions"
+        }
+      ],
+      "electrochem": [
+        {
+          "id": "polarization_1",
+          "type": "polarization",
+          "path": "operational_performance/electrochem/polarization.json"
+        },
+        {
+          "id": "eis_0",
+          "type": "eis",
+          "path": "operational_performance/electrochem/eis_0.json"
+        },
+        {
+          "id": "eis_1",
+          "type": "eis",
+          "path": "operational_performance/electrochem/eis_1.json"
+        },
+        {
+          "id": "eis_2",
+          "type": "eis",
+          "path": "operational_performance/electrochem/eis_2.json"
+        }
+      ]
+    },
+    "thermo_structural": {
+      "temperature": {
+        "thermocouples": [
+          {
+            "id": "tc_main_inlet",
+            "path": "thermo_structural/temperature/tc_inlet.jsonl",
+            "location": "inlet"
+          },
+          {
+            "id": "tc_main_center",
+            "path": "thermo_structural/temperature/tc_center.jsonl",
+            "location": "center"
+          },
+          {
+            "id": "tc_main_outlet",
+            "path": "thermo_structural/temperature/tc_outlet.jsonl",
+            "location": "outlet"
+          }
+        ],
+        "ir_images": [
+          {
+            "id": "ir_run_1",
+            "path": "thermo_structural/temperature/ir_frames",
+            "fps": 10,
+            "pixel_size_mm": 0.2
+          }
+        ]
+      },
+      "strain": {
+        "strain_gauges": [
+          {
+            "id": "sg_main_ic_left",
+            "path": "thermo_structural/strain/sg_ic_left.jsonl",
+            "location": "ic_left"
+          },
+          {
+            "id": "sg_main_ic_right",
+            "path": "thermo_structural/strain/sg_ic_right.jsonl",
+            "location": "ic_right"
+          }
+        ],
+        "dic": [
+          {
+            "id": "dic_test_1",
+            "path": "thermo_structural/strain/dic_frames",
+            "fps": 2,
+            "scale_mm_per_px": 0.1
+          }
+        ]
+      }
+    },
+    "degradation": {
+      "aging_tests": [
+        {
+          "id": "thermal_cycling_1",
+          "protocol": "thermal_cycling",
+          "paths": {
+            "inputs": "aging_tests/thermal_cycling_1/inputs",
+            "electrochem": "aging_tests/thermal_cycling_1/electrochem",
+            "temperature": "aging_tests/thermal_cycling_1/temperature",
+            "strain": "aging_tests/thermal_cycling_1/strain"
+          }
+        },
+        {
+          "id": "thermal_cycling_2",
+          "protocol": "thermal_cycling",
+          "paths": {
+            "inputs": "aging_tests/thermal_cycling_2/inputs",
+            "electrochem": "aging_tests/thermal_cycling_2/electrochem",
+            "temperature": "aging_tests/thermal_cycling_2/temperature",
+            "strain": "aging_tests/thermal_cycling_2/strain"
+          }
+        },
+        {
+          "id": "redox_cycling_1",
+          "protocol": "redox_cycling",
+          "paths": {
+            "inputs": "aging_tests/redox_cycling_1/inputs",
+            "electrochem": "aging_tests/redox_cycling_1/electrochem",
+            "temperature": "aging_tests/redox_cycling_1/temperature",
+            "strain": "aging_tests/redox_cycling_1/strain"
+          }
+        },
+        {
+          "id": "steady_state_1",
+          "protocol": "steady_state",
+          "paths": {
+            "inputs": "aging_tests/steady_state_1/inputs",
+            "electrochem": "aging_tests/steady_state_1/electrochem",
+            "temperature": "aging_tests/steady_state_1/temperature",
+            "strain": "aging_tests/steady_state_1/strain"
+          }
+        }
+      ],
+      "post_mortem": [
+        {
+          "id": "pm_sem_0",
+          "type": "sem",
+          "path": "degradation/post_mortem/sem_0.png"
+        },
+        {
+          "id": "pm_eds_1",
+          "type": "eds",
+          "path": "degradation/post_mortem/eds_1.png"
+        }
+      ]
+    },
+    "models": {
+      "high_fidelity": {
+        "mesh_path": "models/high_fidelity/mesh.msh",
+        "boundary_conditions_path": "models/high_fidelity/boundary_conditions.json"
+      },
+      "reduced_order": {
+        "rom_type": "nn",
+        "artifact_path": "models/reduced_order/rom_artifact.json"
+      },
+      "rom_training_data": {
+        "inputs_csv": "models/rom_training_data/rom_inputs.csv",
+        "outputs_csv": "models/rom_training_data/rom_outputs.csv"
+      }
+    }
+  }
+}

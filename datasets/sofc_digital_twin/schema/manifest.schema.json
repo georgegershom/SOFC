@@ -1,0 +1,221 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/sofc_digital_twin/manifest.schema.json",
+  "title": "SOFC Digital Twin Dataset Manifest",
+  "type": "object",
+  "required": ["version", "created_at", "components"],
+  "properties": {
+    "version": {"type": "string"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "description": {"type": "string"},
+    "components": {
+      "type": "object",
+      "required": [
+        "materials_geometry",
+        "operational_performance",
+        "thermo_structural",
+        "degradation",
+        "models"
+      ],
+      "properties": {
+        "materials_geometry": {
+          "type": "object",
+          "required": ["microstructure", "macro_geometry"],
+          "properties": {
+            "microstructure": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["id", "phase", "format", "path", "voxel_size_um"],
+                "properties": {
+                  "id": {"type": "string"},
+                  "phase": {"type": "string", "enum": ["anode", "electrolyte", "cathode"]},
+                  "format": {"type": "string", "enum": ["nii", "npy", "mha", "tiff_stack"]},
+                  "path": {"type": "string"},
+                  "voxel_size_um": {"type": "number"},
+                  "derived_effective_properties_path": {"type": "string"}
+                }
+              }
+            },
+            "macro_geometry": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["id", "component", "format", "path"],
+                "properties": {
+                  "id": {"type": "string"},
+                  "component": {"type": "string", "enum": ["cell", "interconnect", "seal", "manifold", "stack"]},
+                  "format": {"type": "string", "enum": ["step", "stl", "iges", "obj"]},
+                  "path": {"type": "string"}
+                }
+              }
+            }
+          }
+        },
+        "operational_performance": {
+          "type": "object",
+          "required": ["inputs", "electrochem"],
+          "properties": {
+            "inputs": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["id", "path"],
+                "properties": {
+                  "id": {"type": "string"},
+                  "path": {"type": "string"},
+                  "description": {"type": "string"}
+                }
+              }
+            },
+            "electrochem": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["id", "path", "type"],
+                "properties": {
+                  "id": {"type": "string"},
+                  "type": {"type": "string", "enum": ["polarization", "eis"]},
+                  "path": {"type": "string"}
+                }
+              }
+            }
+          }
+        },
+        "thermo_structural": {
+          "type": "object",
+          "required": ["temperature", "strain"],
+          "properties": {
+            "temperature": {
+              "type": "object",
+              "required": ["thermocouples", "ir_images"],
+              "properties": {
+                "thermocouples": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["id", "path", "location"],
+                    "properties": {
+                      "id": {"type": "string"},
+                      "path": {"type": "string"},
+                      "location": {"type": "string"}
+                    }
+                  }
+                },
+                "ir_images": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["id", "path", "fps", "pixel_size_mm"],
+                    "properties": {
+                      "id": {"type": "string"},
+                      "path": {"type": "string"},
+                      "fps": {"type": "number"},
+                      "pixel_size_mm": {"type": "number"}
+                    }
+                  }
+                }
+              }
+            },
+            "strain": {
+              "type": "object",
+              "required": ["strain_gauges", "dic"],
+              "properties": {
+                "strain_gauges": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["id", "path", "location"],
+                    "properties": {
+                      "id": {"type": "string"},
+                      "path": {"type": "string"},
+                      "location": {"type": "string"}
+                    }
+                  }
+                },
+                "dic": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["id", "path", "fps", "scale_mm_per_px"],
+                    "properties": {
+                      "id": {"type": "string"},
+                      "path": {"type": "string"},
+                      "fps": {"type": "number"},
+                      "scale_mm_per_px": {"type": "number"}
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "degradation": {
+          "type": "object",
+          "required": ["aging_tests", "post_mortem"],
+          "properties": {
+            "aging_tests": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["id", "protocol", "paths"],
+                "properties": {
+                  "id": {"type": "string"},
+                  "protocol": {"type": "string", "enum": ["thermal_cycling", "redox_cycling", "steady_state"]},
+                  "paths": {
+                    "type": "object",
+                    "properties": {
+                      "inputs": {"type": "string"},
+                      "electrochem": {"type": "string"},
+                      "temperature": {"type": "string"},
+                      "strain": {"type": "string"}
+                    }
+                  }
+                }
+              }
+            },
+            "post_mortem": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["id", "type", "path"],
+                "properties": {
+                  "id": {"type": "string"},
+                  "type": {"type": "string", "enum": ["sem", "eds", "ebsd"]},
+                  "path": {"type": "string"}
+                }
+              }
+            }
+          }
+        },
+        "models": {
+          "type": "object",
+          "required": ["high_fidelity", "reduced_order", "rom_training_data"],
+          "properties": {
+            "high_fidelity": {
+              "type": "object",
+              "properties": {
+                "mesh_path": {"type": "string"},
+                "boundary_conditions_path": {"type": "string"}
+              }
+            },
+            "reduced_order": {
+              "type": "object",
+              "properties": {
+                "rom_type": {"type": "string", "enum": ["nn", "gp", "pce"]},
+                "artifact_path": {"type": "string"}
+              }
+            },
+            "rom_training_data": {
+              "type": "object",
+              "properties": {
+                "inputs_csv": {"type": "string"},
+                "outputs_csv": {"type": "string"}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
