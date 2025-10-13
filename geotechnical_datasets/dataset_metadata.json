@@ -1,0 +1,73 @@
+{
+  "dataset_info": {
+    "title": "Geotechnical Datasets for Underground Structure Failure Analysis",
+    "description": "Comprehensive collection of geotechnical data including soil properties, failure case studies, and structural data",
+    "created_date": "2025-10-13T23:35:55.893411",
+    "version": "1.0",
+    "creator": "PhD Research Dataset Generator"
+  },
+  "datasets": {
+    "synthetic_sandy_soils": {
+      "file": "sandy_soils/sandy_soil_properties.csv",
+      "description": "Synthetic sandy soil properties including grain size distribution, strength parameters, and liquefaction potential",
+      "samples": 1000,
+      "variables": 25
+    },
+    "synthetic_clay_soils": {
+      "file": "clay_soils/clay_soil_properties.csv",
+      "description": "Synthetic clay soil properties including Atterberg limits, mineralogy, and strength parameters",
+      "samples": 1000,
+      "variables": 20
+    },
+    "synthetic_failure_cases": {
+      "file": "case_studies/failure_case_studies.csv",
+      "description": "Synthetic failure case studies including various failure mechanisms",
+      "samples": 100,
+      "variables": 15
+    },
+    "synthetic_underground_structures": {
+      "file": "case_studies/underground_structures.csv",
+      "description": "Synthetic underground structure data for performance analysis",
+      "samples": 200,
+      "variables": 12
+    },
+    "real_earthquake_data": {
+      "file": "real_data/usgs_earthquakes.csv",
+      "description": "Real earthquake data from USGS for liquefaction analysis",
+      "samples": "Variable",
+      "variables": 12
+    },
+    "real_soil_data": {
+      "file": "real_data/regional_soil_data.csv",
+      "description": "Regional soil data synthesized from published studies",
+      "samples": "Variable",
+      "variables": 12
+    },
+    "real_liquefaction_cases": {
+      "file": "real_data/liquefaction_cases.csv",
+      "description": "Real liquefaction case studies from major earthquakes",
+      "samples": "Variable",
+      "variables": 18
+    },
+    "real_landslide_cases": {
+      "file": "real_data/landslide_cases.csv",
+      "description": "Real landslide case studies from major events",
+      "samples": "Variable",
+      "variables": 20
+    }
+  },
+  "data_sources": [
+    "USGS Earthquake Database",
+    "Published Geotechnical Case Studies",
+    "Regional Soil Survey Data",
+    "International Landslide Database",
+    "Liquefaction Case Study Collections"
+  ],
+  "usage_notes": [
+    "Synthetic datasets are generated using realistic statistical distributions based on published literature",
+    "Real data is sourced from public repositories and published case studies",
+    "All datasets include metadata and quality indicators",
+    "Data is suitable for machine learning, statistical analysis, and numerical modeling",
+    "Users should validate data against local conditions before application"
+  ]
+}
