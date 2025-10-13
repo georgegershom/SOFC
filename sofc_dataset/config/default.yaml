@@ -1,0 +1,40 @@
+grid:
+  nx: 32
+  ny: 32
+  nz: 8
+
+sampling:
+  dataset1_samples: 24
+  dataset2_runs: 3
+  dataset3_steps: 8640  # e.g., 1 day at 1 Hz would be 86400; we use fewer
+
+ranges:
+  current_density: [0.1, 1.5]        # A/cm^2
+  fuel_utilization: [0.4, 0.9]       # fraction
+  air_utilization: [0.2, 0.6]        # fraction
+  inlet_fuel_temp_c: [550, 750]      # Celsius
+  inlet_air_temp_c: [500, 750]       # Celsius
+  fuel_composition_h2: [0.5, 0.95]   # mol fraction
+  fuel_composition_h2o: [0.05, 0.5]
+  fuel_composition_co: [0.0, 0.2]
+  fuel_composition_ch4: [0.0, 0.2]
+  electrode_porosity: [0.2, 0.5]
+  electrode_tortuosity: [1.5, 4.0]
+  ionic_conductivity: [0.5, 5.0]     # S/m (effective)
+  electronic_conductivity: [1.0, 10.0] # S/m (effective)
+  electrode_thickness_um: [10, 100]
+  electrolyte_thickness_um: [5, 50]
+  interconnect_cte: [10e-6, 18e-6]   # 1/K
+  interconnect_youngs_gpa: [150, 230]
+  crack_length_mm: [0.0, 3.0]
+  porosity_variation: [0.0, 0.3]
+
+noise_levels:
+  measurement_sigma:
+    voltage_v: 0.005
+    temperature_c: 1.0
+    flow_sccm: 0.5
+    strain_micro: 20.0
+    thermal_image_c: 1.5
+
+random_seed: 17
