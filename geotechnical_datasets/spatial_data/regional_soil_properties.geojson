@@ -1,0 +1,207 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100.3915, 38.8554]
+      },
+      "properties": {
+        "region": "Heihe River Basin",
+        "country": "China",
+        "predominant_soil": "Sandy",
+        "sand_content_avg": 86.5,
+        "clay_content_avg": 2.3,
+        "liquefaction_risk": "Moderate",
+        "groundwater_depth_m": 2.5,
+        "seismic_zone": 3,
+        "annual_rainfall_mm": 125
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.6917, 35.6895]
+      },
+      "properties": {
+        "region": "Tokyo Bay Area",
+        "country": "Japan",
+        "predominant_soil": "Sandy",
+        "sand_content_avg": 80.0,
+        "clay_content_avg": 3.95,
+        "liquefaction_risk": "High",
+        "groundwater_depth_m": 3.0,
+        "seismic_zone": 5,
+        "annual_rainfall_mm": 1520
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4194, 37.7749]
+      },
+      "properties": {
+        "region": "San Francisco Bay",
+        "country": "USA",
+        "predominant_soil": "Sandy",
+        "sand_content_avg": 83.2,
+        "clay_content_avg": 3.15,
+        "liquefaction_risk": "Very High",
+        "groundwater_depth_m": 2.8,
+        "seismic_zone": 4,
+        "annual_rainfall_mm": 580
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.9369, 39.8628]
+      },
+      "properties": {
+        "region": "Diezma Landslide",
+        "country": "Spain",
+        "predominant_soil": "Clay",
+        "sand_content_avg": 5.65,
+        "clay_content_avg": 70.65,
+        "landslide_risk": "Very High",
+        "groundwater_depth_m": 3.5,
+        "seismic_zone": 2,
+        "annual_rainfall_mm": 425
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.4737, 31.2304]
+      },
+      "properties": {
+        "region": "Shanghai",
+        "country": "China",
+        "predominant_soil": "Soft Clay",
+        "sand_content_avg": 5.5,
+        "clay_content_avg": 60.35,
+        "settlement_risk": "High",
+        "groundwater_depth_m": 1.5,
+        "seismic_zone": 2,
+        "annual_rainfall_mm": 1166
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.1278, 51.5074]
+      },
+      "properties": {
+        "region": "London",
+        "country": "UK",
+        "predominant_soil": "Stiff Clay",
+        "sand_content_avg": 6.1,
+        "clay_content_avg": 58.05,
+        "swelling_potential": "Moderate",
+        "groundwater_depth_m": 5.0,
+        "seismic_zone": 1,
+        "annual_rainfall_mm": 584
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.0589, 42.3601]
+      },
+      "properties": {
+        "region": "Boston",
+        "country": "USA",
+        "predominant_soil": "Blue Clay",
+        "sand_content_avg": 8.45,
+        "clay_content_avg": 50.65,
+        "bearing_capacity_kPa": 180,
+        "groundwater_depth_m": 3.5,
+        "seismic_zone": 2,
+        "annual_rainfall_mm": 1122
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.1332, 19.4326]
+      },
+      "properties": {
+        "region": "Mexico City",
+        "country": "Mexico",
+        "predominant_soil": "Highly Compressible Clay",
+        "sand_content_avg": 3.9,
+        "clay_content_avg": 76.85,
+        "settlement_rate_mm/yr": 280,
+        "groundwater_depth_m": 2.0,
+        "seismic_zone": 4,
+        "annual_rainfall_mm": 846
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100.5018, 13.7563]
+      },
+      "properties": {
+        "region": "Bangkok",
+        "country": "Thailand",
+        "predominant_soil": "Soft Clay",
+        "sand_content_avg": 5.1,
+        "clay_content_avg": 68.0,
+        "subsidence_risk": "Very High",
+        "groundwater_depth_m": 1.8,
+        "seismic_zone": 1,
+        "annual_rainfall_mm": 1568
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.9916, 60.4720]
+      },
+      "properties": {
+        "region": "Oslo Fjord",
+        "country": "Norway",
+        "predominant_soil": "Marine Clay",
+        "sand_content_avg": 7.35,
+        "clay_content_avg": 47.5,
+        "quick_clay_presence": true,
+        "groundwater_depth_m": 2.5,
+        "seismic_zone": 1,
+        "annual_rainfall_mm": 763
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [99.5, 38.0],
+            [101.5, 38.0],
+            [101.5, 39.5],
+            [99.5, 39.5],
+            [99.5, 38.0]
+          ]
+        ]
+      },
+      "properties": {
+        "region": "Heihe River Basin Study Area",
+        "area_km2": 38500,
+        "soil_variability": "High",
+        "dominant_geology": "Quaternary alluvium",
+        "irrigation_influence": "Significant"
+      }
+    }
+  ]
+}
