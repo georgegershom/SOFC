@@ -1,0 +1,539 @@
+#!/usr/bin/env python3
+"""
+Survey Questionnaire Generator for Food Processing FDI Research
+Creates structured questionnaires for data collection
+"""
+
+import json
+from datetime import datetime
+
+class SurveyQuestionnaireGenerator:
+    def __init__(self):
+        self.questionnaire = {}
+        
+    def generate_questionnaire(self):
+        """Generate the complete survey questionnaire"""
+        questionnaire = {
+            "Survey_Information": {
+                "Title": "Food Processing Firm Performance and Foreign Direct Investment Survey",
+                "Purpose": "To examine the influence of FDI on food processing firm performance in Lagos, Nigeria",
+                "Target_Respondents": "Senior managers, CEOs, and operations heads of food processing firms",
+                "Estimated_Completion_Time": "25-30 minutes",
+                "Confidentiality": "All responses are confidential and will be used for academic research only",
+                "Contact": "Research Team - [University Name]",
+                "Date": datetime.now().strftime("%Y-%m-%d")
+            },
+            "Sections": {
+                "Section_A": {
+                    "Title": "Company Background Information",
+                    "Instructions": "Please provide basic information about your company",
+                    "Questions": [
+                        {
+                            "Q1": {
+                                "Question": "What is your company's name?",
+                                "Type": "Text",
+                                "Required": True,
+                                "Note": "This will be kept confidential and used only for identification"
+                            }
+                        },
+                        {
+                            "Q2": {
+                                "Question": "How many employees does your company currently have?",
+                                "Type": "Multiple Choice",
+                                "Options": [
+                                    "1-10 employees",
+                                    "11-25 employees", 
+                                    "26-50 employees",
+                                    "51-100 employees",
+                                    "101-200 employees",
+                                    "201-500 employees",
+                                    "More than 500 employees"
+                                ],
+                                "Required": True
+                            }
+                        },
+                        {
+                            "Q3": {
+                                "Question": "What is your company's approximate annual revenue?",
+                                "Type": "Multiple Choice",
+                                "Options": [
+                                    "Less than ₦50 million",
+                                    "₦50-100 million",
+                                    "₦100-500 million",
+                                    "₦500 million - ₦1 billion",
+                                    "₦1-5 billion",
+                                    "More than ₦5 billion"
+                                ],
+                                "Required": True
+                            }
+                        },
+                        {
+                            "Q4": {
+                                "Question": "How many years has your company been in operation?",
+                                "Type": "Number",
+                                "Required": True,
+                                "Range": "1-100"
+                            }
+                        },
+                        {
+                            "Q5": {
+                                "Question": "Which food processing subsector best describes your company?",
+                                "Type": "Multiple Choice",
+                                "Options": [
+                                    "Fruit & Vegetable Processing",
+                                    "Dairy Products",
+                                    "Bakery & Confectionery", 
+                                    "Meat & Poultry Processing",
+                                    "Beverage Production",
+                                    "Grain & Cereal Processing",
+                                    "Other (please specify)"
+                                ],
+                                "Required": True
+                            }
+                        },
+                        {
+                            "Q6": {
+                                "Question": "What is your company's ownership structure?",
+                                "Type": "Multiple Choice",
+                                "Options": [
+                                    "Domestic Private (100% Nigerian ownership)",
+                                    "Foreign-Owned (100% foreign ownership)",
+                                    "Joint Venture (Nigerian and foreign partnership)",
+                                    "State-Owned (Government ownership)",
+                                    "Other (please specify)"
+                                ],
+                                "Required": True
+                            }
+                        }
+                    ]
+                },
+                "Section_B": {
+                    "Title": "Foreign Direct Investment (FDI) Information",
+                    "Instructions": "Please answer questions about foreign direct investment in your company",
+                    "Questions": [
+                        {
+                            "Q7": {
+                                "Question": "Does your company have any foreign direct investment?",
+                                "Type": "Yes/No",
+                                "Required": True,
+                                "Note": "FDI includes foreign ownership, joint ventures, or strategic partnerships with foreign companies"
+                            }
+                        },
+                        {
+                            "Q8": {
+                                "Question": "If yes, what percentage of your company is foreign-owned?",
+                                "Type": "Percentage",
+                                "Required": False,
+                                "Conditional": "Q7 = Yes",
+                                "Range": "1-100%"
+                            }
+                        },
+                        {
+                            "Q9": {
+                                "Question": "How many years has your company had foreign investment?",
+                                "Type": "Number",
+                                "Required": False,
+                                "Conditional": "Q7 = Yes",
+                                "Range": "1-50"
+                            }
+                        },
+                        {
+                            "Q10": {
+                                "Question": "What type of foreign investment does your company have?",
+                                "Type": "Multiple Choice",
+                                "Options": [
+                                    "Greenfield Investment (New facility built by foreign company)",
+                                    "Merger & Acquisition (Foreign company acquired your company)",
+                                    "Joint Venture (Partnership with foreign company)",
+                                    "Strategic Alliance (Cooperation agreement with foreign company)",
+                                    "Other (please specify)"
+                                ],
+                                "Required": False,
+                                "Conditional": "Q7 = Yes"
+                            }
+                        },
+                        {
+                            "Q11": {
+                                "Question": "Which region/country is your foreign investor from?",
+                                "Type": "Multiple Choice",
+                                "Options": [
+                                    "Europe",
+                                    "North America",
+                                    "Asia",
+                                    "Other African countries",
+                                    "Middle East",
+                                    "Other (please specify)"
+                                ],
+                                "Required": False,
+                                "Conditional": "Q7 = Yes"
+                            }
+                        }
+                    ]
+                },
+                "Section_C": {
+                    "Title": "FDI Impact Assessment (Likert Scale 1-5)",
+                    "Instructions": "Please rate the following statements about the impact of foreign investment on your company. 1 = Strongly Disagree, 2 = Disagree, 3 = Neutral, 4 = Agree, 5 = Strongly Agree",
+                    "Questions": [
+                        {
+                            "Q12": {
+                                "Question": "Foreign investment has improved our ability to absorb new knowledge and technology",
+                                "Type": "Likert Scale",
+                                "Scale": "1-5",
+                                "Required": True,
+                                "Variable": "Knowledge_Absorption"
+                            }
+                        },
+                        {
+                            "Q13": {
+                                "Question": "Foreign investment has enhanced our task performance and operational efficiency",
+                                "Type": "Likert Scale", 
+                                "Scale": "1-5",
+                                "Required": True,
+                                "Variable": "Task_Performance"
+                            }
+                        },
+                        {
+                            "Q14": {
+                                "Question": "Foreign investment has increased our innovation capabilities and new product development",
+                                "Type": "Likert Scale",
+                                "Scale": "1-5", 
+                                "Required": True,
+                                "Variable": "Innovation_Score"
+                            }
+                        },
+                        {
+                            "Q15": {
+                                "Question": "Foreign investment has provided access to better financial resources and capital",
+                                "Type": "Likert Scale",
+                                "Scale": "1-5",
+                                "Required": True,
+                                "Variable": "Financial_Resources"
+                            }
+                        }
+                    ]
+                },
+                "Section_D": {
+                    "Title": "Firm Performance Indicators",
+                    "Instructions": "Please provide information about your company's performance (approximate figures are acceptable)",
+                    "Questions": [
+                        {
+                            "Q16": {
+                                "Question": "What is your company's approximate Return on Investment (ROI) for the last financial year?",
+                                "Type": "Percentage",
+                                "Required": True,
+                                "Range": "-50% to 100%",
+                                "Variable": "ROI_Percent"
+                            }
+                        },
+                        {
+                            "Q17": {
+                                "Question": "What is your company's approximate Return on Assets (ROA) for the last financial year?",
+                                "Type": "Percentage", 
+                                "Required": True,
+                                "Range": "-30% to 50%",
+                                "Variable": "ROA_Percent"
+                            }
+                        },
+                        {
+                            "Q18": {
+                                "Question": "What percentage of your revenue comes from exports?",
+                                "Type": "Percentage",
+                                "Required": True,
+                                "Range": "0-100%",
+                                "Variable": "Export_Intensity"
+                            }
+                        },
+                        {
+                            "Q19": {
+                                "Question": "What is your company's approximate market share in your main product category?",
+                                "Type": "Percentage",
+                                "Required": True,
+                                "Range": "0-50%",
+                                "Variable": "Market_Share_Percent"
+                            }
+                        },
+                        {
+                            "Q20": {
+                                "Question": "How would you rate your company's operational efficiency?",
+                                "Type": "Likert Scale",
+                                "Scale": "1-5",
+                                "Required": True,
+                                "Variable": "Operational_Efficiency",
+                                "Note": "1 = Very Poor, 5 = Excellent"
+                            }
+                        },
+                        {
+                            "Q21": {
+                                "Question": "What was your company's revenue growth rate last year?",
+                                "Type": "Percentage",
+                                "Required": True,
+                                "Range": "-50% to 100%",
+                                "Variable": "Revenue_Growth_Percent"
+                            }
+                        }
+                    ]
+                },
+                "Section_E": {
+                    "Title": "Firm Resources and Capabilities",
+                    "Instructions": "Please provide information about your company's resources and capabilities",
+                    "Questions": [
+                        {
+                            "Q22": {
+                                "Question": "What percentage of your workforce consists of skilled workers (university graduates, technicians, etc.)?",
+                                "Type": "Percentage",
+                                "Required": True,
+                                "Range": "0-100%",
+                                "Variable": "Skilled_Labor_Ratio"
+                            }
+                        },
+                        {
+                            "Q23": {
+                                "Question": "Does your company use Internet of Things (IoT) technologies in production?",
+                                "Type": "Yes/No",
+                                "Required": True,
+                                "Variable": "IoT_Usage"
+                            }
+                        },
+                        {
+                            "Q24": {
+                                "Question": "What percentage of your revenue do you invest in Research and Development?",
+                                "Type": "Percentage",
+                                "Required": True,
+                                "Range": "0-20%",
+                                "Variable": "R_D_Spend_Percent"
+                            }
+                        },
+                        {
+                            "Q25": {
+                                "Question": "How would you rate your company's technology adoption level?",
+                                "Type": "Likert Scale",
+                                "Scale": "1-5",
+                                "Required": True,
+                                "Variable": "Technology_Adoption_Score",
+                                "Note": "1 = Very Low, 5 = Very High"
+                            }
+                        },
+                        {
+                            "Q26": {
+                                "Question": "What is your company's current ratio (current assets/current liabilities)?",
+                                "Type": "Number",
+                                "Required": True,
+                                "Range": "0.1-10",
+                                "Variable": "Liquidity_Ratio"
+                            }
+                        },
+                        {
+                            "Q27": {
+                                "Question": "What percentage of your revenue do you invest in employee training?",
+                                "Type": "Percentage",
+                                "Required": True,
+                                "Range": "0-10%",
+                                "Variable": "Training_Investment_Percent"
+                            }
+                        }
+                    ]
+                },
+                "Section_F": {
+                    "Title": "Government Policy Assessment (Likert Scale 1-7)",
+                    "Instructions": "Please rate the following aspects of government policy affecting your business. 1 = Very Poor, 7 = Excellent",
+                    "Questions": [
+                        {
+                            "Q28": {
+                                "Question": "How effective are government tax incentives for your industry?",
+                                "Type": "Likert Scale",
+                                "Scale": "1-7",
+                                "Required": True,
+                                "Variable": "Tax_Incentive_Effectiveness"
+                            }
+                        },
+                        {
+                            "Q29": {
+                                "Question": "How stable are government regulations affecting your business?",
+                                "Type": "Likert Scale",
+                                "Scale": "1-7",
+                                "Required": True,
+                                "Variable": "Regulatory_Stability"
+                            }
+                        },
+                        {
+                            "Q30": {
+                                "Question": "How adequate is government infrastructure support (roads, power, water)?",
+                                "Type": "Likert Scale",
+                                "Scale": "1-7",
+                                "Required": True,
+                                "Variable": "Infrastructure_Support"
+                            }
+                        },
+                        {
+                            "Q31": {
+                                "Question": "How would you rate your experience with corruption in government dealings?",
+                                "Type": "Likert Scale",
+                                "Scale": "1-7",
+                                "Required": True,
+                                "Variable": "Corruption_Experience",
+                                "Note": "1 = No corruption, 7 = Very high corruption"
+                            }
+                        },
+                        {
+                            "Q32": {
+                                "Question": "Overall, how effective are government policies for your business?",
+                                "Type": "Likert Scale",
+                                "Scale": "1-7",
+                                "Required": True,
+                                "Variable": "Policy_Effectiveness_Index"
+                            }
+                        },
+                        {
+                            "Q33": {
+                                "Question": "How would you rate the ease of doing business in Nigeria?",
+                                "Type": "Likert Scale",
+                                "Scale": "1-7",
+                                "Required": True,
+                                "Variable": "Ease_of_Doing_Business"
+                            }
+                        },
+                        {
+                            "Q34": {
+                                "Question": "How accessible are government support programs for your company?",
+                                "Type": "Likert Scale",
+                                "Scale": "1-7",
+                                "Required": True,
+                                "Variable": "Government_Support_Access"
+                            }
+                        },
+                        {
+                            "Q35": {
+                                "Question": "How burdensome are government regulatory requirements?",
+                                "Type": "Likert Scale",
+                                "Scale": "1-7",
+                                "Required": True,
+                                "Variable": "Regulatory_Burden",
+                                "Note": "1 = Not burdensome, 7 = Very burdensome"
+                            }
+                        }
+                    ]
+                },
+                "Section_G": {
+                    "Title": "Additional Information",
+                    "Instructions": "Please provide any additional relevant information",
+                    "Questions": [
+                        {
+                            "Q36": {
+                                "Question": "Is your company primarily export-oriented?",
+                                "Type": "Yes/No",
+                                "Required": True,
+                                "Variable": "Export_Orientation"
+                            }
+                        },
+                        {
+                            "Q37": {
+                                "Question": "Does your company have ISO certification?",
+                                "Type": "Yes/No",
+                                "Required": True,
+                                "Variable": "Certification_ISO"
+                            }
+                        },
+                        {
+                            "Q38": {
+                                "Question": "Does your company have HACCP certification?",
+                                "Type": "Yes/No",
+                                "Required": True,
+                                "Variable": "Certification_HACCP"
+                            }
+                        },
+                        {
+                            "Q39": {
+                                "Question": "In which area of Lagos is your company located?",
+                                "Type": "Multiple Choice",
+                                "Options": [
+                                    "Ikeja",
+                                    "Victoria Island",
+                                    "Apapa",
+                                    "Surulere",
+                                    "Lagos Island",
+                                    "Other (please specify)"
+                                ],
+                                "Required": True,
+                                "Variable": "Location_Zone"
+                            }
+                        },
+                        {
+                            "Q40": {
+                                "Question": "How many years has your company been involved in exports?",
+                                "Type": "Number",
+                                "Required": True,
+                                "Range": "0-50",
+                                "Variable": "Years_in_Export"
+                            }
+                        },
+                        {
+                            "Q41": {
+                                "Question": "How would you rate your company's supply chain integration?",
+                                "Type": "Likert Scale",
+                                "Scale": "1-5",
+                                "Required": True,
+                                "Variable": "Supply_Chain_Integration",
+                                "Note": "1 = Very Poor, 5 = Excellent"
+                            }
+                        },
+                        {
+                            "Q42": {
+                                "Question": "How would you rate the intensity of competition in your market?",
+                                "Type": "Likert Scale",
+                                "Scale": "1-5",
+                                "Required": True,
+                                "Variable": "Competition_Intensity",
+                                "Note": "1 = Very Low, 5 = Very High"
+                            }
+                        }
+                    ]
+                }
+            },
+            "Consent_Form": {
+                "Title": "Informed Consent Form",
+                "Content": """
+                I understand that:
+                1. This survey is part of academic research on foreign direct investment in food processing firms
+                2. My participation is voluntary and I can withdraw at any time
+                3. All information provided will be kept confidential and used only for research purposes
+                4. No individual company will be identified in any published results
+                5. The data will be stored securely and destroyed after the research is completed
+                6. I can request a summary of the research findings when available
+                
+                By completing this survey, I consent to participate in this research study.
+                """,
+                "Required": True
+            },
+            "Contact_Information": {
+                "Principal_Investigator": "[Researcher Name]",
+                "Institution": "[University Name]",
+                "Email": "[researcher@university.edu]",
+                "Phone": "[Phone Number]",
+                "Ethics_Committee": "[University Ethics Committee]",
+                "Ethics_Approval_Number": "[Approval Number]"
+            }
+        }
+        
+        return questionnaire
+    
+    def save_questionnaire(self, filename='survey_questionnaire.json'):
+        """Save questionnaire to JSON file"""
+        questionnaire = self.generate_questionnaire()
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(questionnaire, f, indent=2, ensure_ascii=False)
+        print(f"Questionnaire saved to {filename}")
+        return questionnaire
+
+def main():
+    """Generate and save the survey questionnaire"""
+    generator = SurveyQuestionnaireGenerator()
+    questionnaire = generator.save_questionnaire()
+    
+    print("Survey Questionnaire Generated Successfully!")
+    print(f"Total Questions: {sum(len(section['Questions']) for section in questionnaire['Sections'].values())}")
+    print(f"Sections: {len(questionnaire['Sections'])}")
+    
+    return questionnaire
+
+if __name__ == "__main__":
+    main()
