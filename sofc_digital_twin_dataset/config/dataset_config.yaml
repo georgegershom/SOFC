@@ -1,0 +1,93 @@
+# SOFC Digital Twin Dataset Configuration
+
+# Dataset dimensions and scales
+dimensions:
+  micro_scale:
+    resolution: [512, 512, 256]  # voxels for 3D microstructure
+    physical_size: [50e-6, 50e-6, 25e-6]  # meters (50x50x25 microns)
+    voxel_size: 1e-7  # meters per voxel
+  
+  macro_scale:
+    cell_dimensions: [100e-3, 100e-3, 1e-3]  # meters (100x100x1 mm)
+    stack_height: 10e-3  # meters (10 mm)
+    interconnect_thickness: 0.5e-3  # meters
+
+# SOFC materials properties
+materials:
+  anode:
+    material: "Ni-YSZ"
+    porosity: 0.3
+    tortuosity: 2.5
+    thermal_conductivity: 6.0  # W/m/K
+    electrical_conductivity: 1e6  # S/m
+    youngs_modulus: 200e9  # Pa
+    poisson_ratio: 0.3
+    thermal_expansion: 12e-6  # 1/K
+  
+  electrolyte:
+    material: "YSZ"
+    porosity: 0.05
+    thermal_conductivity: 2.0  # W/m/K
+    electrical_conductivity: 1e-3  # S/m
+    youngs_modulus: 200e9  # Pa
+    poisson_ratio: 0.3
+    thermal_expansion: 10e-6  # 1/K
+  
+  cathode:
+    material: "LSCF"
+    porosity: 0.25
+    tortuosity: 2.0
+    thermal_conductivity: 4.0  # W/m/K
+    electrical_conductivity: 1e3  # S/m
+    youngs_modulus: 150e9  # Pa
+    poisson_ratio: 0.3
+    thermal_expansion: 11e-6  # 1/K
+
+# Operating conditions
+operating_conditions:
+  temperature_range: [600, 800]  # Celsius
+  pressure: 1e5  # Pa (1 atm)
+  fuel_composition:
+    H2: 0.97
+    CO: 0.02
+    H2O: 0.01
+  air_composition:
+    O2: 0.21
+    N2: 0.79
+  current_density_range: [0.1, 1.0]  # A/cm²
+  fuel_utilization: 0.8
+
+# Sensor configuration
+sensors:
+  thermocouples:
+    count: 16
+    locations: "strategic"  # inlet, outlet, center, edges
+    accuracy: 1.0  # Celsius
+    sampling_rate: 1.0  # Hz
+  
+  ir_camera:
+    resolution: [640, 480]
+    temperature_range: [400, 900]  # Celsius
+    accuracy: 2.0  # Celsius
+    sampling_rate: 0.1  # Hz
+  
+  strain_gauges:
+    count: 8
+    locations: "interconnects"
+    accuracy: 1e-6  # strain units
+    sampling_rate: 10.0  # Hz
+
+# Data generation parameters
+generation:
+  time_duration: 3600  # seconds (1 hour)
+  time_step: 1.0  # seconds
+  spatial_resolution: 0.001  # meters
+  noise_level: 0.05  # 5% noise
+  degradation_rate: 0.001  # per hour
+
+# File formats
+output:
+  format: "hdf5"
+  compression: "gzip"
+  chunk_size: 1000
+  metadata: true
