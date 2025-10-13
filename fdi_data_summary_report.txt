@@ -1,0 +1,84 @@
+
+================================================================================
+FDI INFLUENCE ON FOOD PROCESSING FIRMS - SYNTHETIC DATASET SUMMARY
+================================================================================
+Generated: 2025-10-13 12:27
+Total Sample Size: 300 firms
+- SMEs: 200 firms (66.7%)
+- Large firms: 100 firms (33.3%)
+
+SECTION 1: SAMPLE CHARACTERISTICS
+================================================================================
+
+FDI Engagement:
+- Firms with FDI: 159 (53.0%)
+- Firms without FDI: 141 (47.0%)
+
+Average years of FDI partnership: 2.6 years
+
+Geographic Distribution (Industrial Zones):
+- Mushin: 52 firms (17.3%)
+- Lagos Island: 42 firms (14.0%)
+- Agege: 41 firms (13.7%)
+- Apapa: 40 firms (13.3%)
+- Victoria Island: 35 firms (11.7%)
+- Ikeja: 33 firms (11.0%)
+- Ikorodu: 30 firms (10.0%)
+- Oshodi: 27 firms (9.0%)
+
+SECTION 2: KEY PERFORMANCE INDICATORS
+================================================================================
+
+Return on Investment (%):
+  Overall: Mean=19.21, SD=5.80
+  With FDI: 21.96
+  Without FDI: 16.16
+  Difference: 5.80
+
+Return on Assets (%):
+  Overall: Mean=13.44, SD=4.37
+  With FDI: 15.45
+  Without FDI: 11.19
+  Difference: 4.27
+
+Export intensity (%):
+  Overall: Mean=15.37, SD=18.56
+  With FDI: 28.61
+  Without FDI: 0.00
+  Difference: 28.61
+
+Production capacity utilization (%):
+  Overall: Mean=92.58, SD=5.88
+  With FDI: 95.00
+  Without FDI: 89.93
+  Difference: 5.07
+
+Market share in Lagos (%):
+  Overall: Mean=22.95, SD=13.29
+  With FDI: 28.03
+  Without FDI: 17.26
+  Difference: 10.77
+
+SECTION 3: KEY CORRELATIONS
+================================================================================
+FDI → Performance: r = 0.771
+Knowledge Absorption → Performance: r = 0.647
+Innovation → Performance: r = 0.568
+Gov Policy → Performance: r = 0.381
+
+SECTION 4: DATA QUALITY METRICS
+================================================================================
+Total missing values: 237 (1.58% of all data points)
+Variables with most missing values:
+  - fdi_tech_transfer: 9 missing (3.0%)
+  - fdi_mgmt_contract: 9 missing (3.0%)
+  - years_fdi_partnership: 9 missing (3.0%)
+  - hr_training_hours: 9 missing (3.0%)
+  - ka_tech_adaptation: 8 missing (2.7%)
+
+SECTION 5: PRELIMINARY STATISTICAL TESTS
+================================================================================
+T-test: Performance (FDI vs Non-FDI)
+  t-statistic: nan
+  p-value: nan
+  Result: Not significant at α=0.05
