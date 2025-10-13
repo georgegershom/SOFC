@@ -1,0 +1,19 @@
+{
+  "dataset_name": "Dataset1_SyntheticPhysics",
+  "version": "0.1.0",
+  "description": "Synthetic multi-physics fields for SOFC",
+  "num_items": 6,
+  "schema": {
+    "file": "npz",
+    "fields": [
+      "temperature",
+      "current_density",
+      "stress",
+      "strain",
+      "displacement",
+      "species",
+      "creep_damage",
+      "fracture_metrics"
+    ]
+  }
+}
