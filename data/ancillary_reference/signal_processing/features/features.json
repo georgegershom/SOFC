@@ -1,0 +1,26 @@
+{
+  "x1_bandpass": {
+    "spectral_centroid_Hz": 2000.3544442598834,
+    "rms": 0.7070343668940766,
+    "peak": 1.0111090717133302
+  },
+  "x2_bandpass": {
+    "spectral_centroid_Hz": 2000.4027041871143,
+    "rms": 0.7073861413012247,
+    "peak": 1.0299680266855789
+  },
+  "x1_wavelet": {
+    "spectral_centroid_Hz": 2000.0048976522926,
+    "rms": 0.7063970327538901,
+    "peak": 0.9531501613342941
+  },
+  "x2_wavelet": {
+    "spectral_centroid_Hz": 2000.0006797721514,
+    "rms": 0.7065552828316117,
+    "peak": 0.9545406468995667
+  },
+  "estimated_delay_s": -0.00035,
+  "true_delay_s": 0.00033783783783783786,
+  "sensor_separation_m": 0.5,
+  "sound_speed_mps_assumed": 1480.0
+}

@@ -1,0 +1,23 @@
+{
+  "generated_at": "2025-10-13T07:47:26.002660Z",
+  "root": "data/ancillary_reference",
+  "categories": {
+    "single_phase_baseline": {
+      "index_csv": "data/ancillary_reference/single_phase_baseline/baseline_index.csv",
+      "description": "Acoustic attenuation and sound speed baselines in single-phase media."
+    },
+    "materials_geometry": {
+      "pipes_csv": "data/ancillary_reference/materials_geometry/pipes.csv",
+      "sensors_csv": "data/ancillary_reference/materials_geometry/sensors.csv"
+    },
+    "signal_processing": {
+      "raw_signals": "data/ancillary_reference/signal_processing/raw_signals",
+      "filtered_signals": "data/ancillary_reference/signal_processing/filtered_signals",
+      "cross_correlation": "data/ancillary_reference/signal_processing/cross_correlation",
+      "features": "data/ancillary_reference/signal_processing/features/features.json"
+    },
+    "published_datasets": {
+      "manifest": "data/ancillary_reference/published_datasets/manifest.json"
+    }
+  }
+}
