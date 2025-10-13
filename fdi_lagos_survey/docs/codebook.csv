@@ -1,0 +1,53 @@
+variable,label,type,allowed_values,section
+firm_code,Firm Code,string,FIRM001..FIRM300,A
+survey_date,Survey date,string,DD/MM/YYYY,A
+years_operation,Years of operation,integer,>=1,A
+employees_cat,Employee count category,categorical,1-50|51-250|251-500|500+,A
+employees_est,Employees midpoint estimate,integer,35/150/350/700,A
+annual_revenue_cat,Annual revenue category (₦),categorical,<50M|50M-500M|500M-5B|>5B,A
+ownership_type,Ownership type,categorical,Local|Foreign-owned|Joint venture,A
+fdi_partnership,Has FDI partnership,categorical,Yes|No,A
+FDI,FDI presence (binary),integer,0|1,A
+fdi_equity,FDI type: Equity,integer,0|1,A
+fdi_joint_venture,FDI type: Joint venture,integer,0|1,A
+fdi_tech_transfer,FDI type: Technology transfer,integer,0|1,A
+fdi_mgmt_contract,FDI type: Management contract,integer,0|1,A
+years_with_fdi,Years with FDI partnership,integer,>=0,A
+ka1,Acquire technical manuals from FDI partners,integer,1..5,B
+ka2,Staff receive training from foreign partners,integer,1..5,B
+ka3,Adapt foreign technology to local needs,integer,1..5,B
+ka4,Commercialize knowledge from FDI partnerships,integer,1..5,B
+KA_score,Knowledge absorption composite (mean of ka1..ka4),float,1..5,B
+tp1,Production efficiency,integer,1..5,C
+tp2,Quality control,integer,1..5,C
+tp3,Order fulfillment time,integer,1..5,C
+tp4,Employee productivity,integer,1..5,C
+TP_score,Task performance composite (mean of tp1..tp4),float,1..5,C
+r_and_d_pct,R&D spending as % of revenue,float,0..12,D
+new_products_3yr,New products launched (past 3 years),integer,0..20,D
+proc_innov_iot,Process innovation: IoT systems,integer,0|1,D
+proc_innov_automation,Process innovation: Automation,integer,0|1,D
+proc_innov_quality,Process innovation: Quality management,integer,0|1,D
+proc_innov_other,Process innovation: Other (unspecified),integer,0|1,D
+inn1,INN1 indicator (R&D intensity),float,0..12,D
+inn2,INN2 indicator (New product count),integer,0..20,D
+inn3,INN3 indicator (Process innovation adoption count),integer,0..3,D
+INN_score,Innovation composite (scaled),float,~1..5,D
+skilled_workforce_pct,% of skilled workforce,float,0..100,E
+training_hours_per_employee,Annual training hours per employee,float,0..120,E
+modern_equipment,Use of modern equipment,integer,0|1,E
+machinery_age_years,Age of primary machinery (years),integer,1..28,E
+access_credit,Access to credit,categorical,Easy|Moderate|Difficult,E
+reinvestment_rate_pct,Reinvestment rate (%),float,0..50,E
+FR_score,Firm resources composite (0..1),float,0..1,E
+gp1_tax_incentives,Tax incentives effectiveness (1-7),integer,1..7,F
+gp2_regulatory_stability,Regulatory stability (1-7),integer,1..7,F
+gp3_infrastructure_support,Infrastructure support (1-7),integer,1..7,F
+gp4_ease_of_permits,Ease of obtaining permits (1-7),integer,1..7,F
+GP_score,Government policy composite (gp1..gp3 mean),float,1..7,F
+avg_roi_pct,Average ROI (%) - past 3 years,float,-5..40,G
+avg_roa_pct,Average ROA (%) - past 3 years,float,-3..25,G
+export_intensity_pct,Export intensity (%),float,0..65,G
+capacity_utilization_pct,Production capacity utilization (%),float,35..98,G
+market_share_lagos_pct,Market share in Lagos (%),float,0..35,G
+PERFORM_index,Composite performance index (0-100),float,0..100,G
