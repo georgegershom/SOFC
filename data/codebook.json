@@ -1,0 +1,24 @@
+{
+  "description": "Synthetic dataset on FDI and performance of food processing firms in Lagos, Nigeria. Fabricated for research design and testing.",
+  "primary_files": [
+    "population_frame.csv",
+    "sample_frame.csv",
+    "primary_firm_survey.csv"
+  ],
+  "secondary_files": [
+    "fdi_inflows.csv",
+    "policy_indices.csv",
+    "infrastructure.csv",
+    "sectoral_performance.csv",
+    "regional_lagos.csv"
+  ],
+  "integrated_files": [
+    "integrated_firm_year.csv"
+  ],
+  "notes": [
+    "Values are synthetic and do not represent actual firms.",
+    "Likert constructs approximate distributions from literature.",
+    "Indices are on their usual scales where applicable, but fabricated.",
+    "Firm identifiers anonymized as FirmID."
+  ]
+}
