@@ -1,0 +1,48 @@
+Variable,Description,Scale
+firm_id,Unique firm identifier,Nominal
+firm_size,Firm size category (SME or Large),Nominal
+date_survey,Date of survey completion,Date
+years_operation,Years of firm operation,Ratio
+employees,Number of employees,Ratio
+revenue_category,Annual revenue category in Naira,Ordinal
+ownership_type,Ownership type,Nominal
+fdi_partnership,"Has FDI partnership (1=Yes, 0=No)",Binary
+fdi_type,Type of FDI partnership,Nominal
+years_fdi,Years with FDI partnership,Ratio
+ka1_technical_manuals,Technical manuals acquisition (1-5 scale),Interval
+ka2_staff_training,Staff training from partners (1-5 scale),Interval
+ka3_technology_adaptation,Technology adaptation (1-5 scale),Interval
+ka4_knowledge_commercialization,Knowledge commercialization (1-5 scale),Interval
+tp1_production_efficiency,Production efficiency (1-5 scale),Interval
+tp2_quality_control,Quality control (1-5 scale),Interval
+tp3_order_fulfillment,Order fulfillment time (1-5 scale),Interval
+tp4_employee_productivity,Employee productivity (1-5 scale),Interval
+rd_spending_pct,R&D spending as % of revenue,Ratio
+new_products_3years,New products launched in past 3 years,Count
+iot_adoption,"IoT systems adoption (1=Yes, 0=No)",Binary
+automation_adoption,"Automation adoption (1=Yes, 0=No)",Binary
+quality_management,"Quality management adoption (1=Yes, 0=No)",Binary
+skilled_workforce_pct,Percentage of skilled workforce,Ratio
+training_hours_annual,Annual training hours per employee,Ratio
+modern_equipment,"Uses modern equipment (1=Yes, 0=No)",Binary
+machinery_age,Age of primary machinery in years,Ratio
+credit_access,Access to credit rating,Ordinal
+reinvestment_rate_pct,Reinvestment rate as % of profit,Ratio
+gp1_tax_incentives,Tax incentives effectiveness (1-7 scale),Interval
+gp2_regulatory_stability,Regulatory stability (1-7 scale),Interval
+gp3_infrastructure_support,Infrastructure support (1-7 scale),Interval
+gp4_permits_ease,Ease of obtaining permits (1-7 scale),Interval
+roi_pct,Return on Investment (%),Ratio
+roa_pct,Return on Assets (%),Ratio
+export_intensity_pct,Export intensity (%),Ratio
+capacity_utilization_pct,Production capacity utilization (%),Ratio
+market_share_pct,Market share in Lagos (%),Ratio
+knowledge_absorption,Knowledge Absorption composite score,Interval
+task_performance,Task Performance composite score,Interval
+innovation,Innovation composite score,Interval
+government_policy,Government Policy composite score,Interval
+firm_performance,Firm Performance composite score,Interval
+fdi_gov_interaction,FDI × Government Policy interaction,Interval
+ka_gov_interaction,Knowledge Absorption × Government Policy interaction,Interval
+tp_gov_interaction,Task Performance × Government Policy interaction,Interval
+innovation_gov_interaction,Innovation × Government Policy interaction,Interval
