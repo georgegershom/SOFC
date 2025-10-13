@@ -1,0 +1,51 @@
+Test_ID,Sample_Type,Location,Depth_m,Test_Type,Shear_Strength_kPa,Friction_Angle_degrees,Cohesion_kPa,Youngs_Modulus_MPa,Poissons_Ratio,Bulk_Modulus_MPa,Shear_Modulus_MPa,Compression_Index,Swell_Index,Permeability_Coefficient_m_s,Consolidation_Coefficient_m2_yr,Cyclic_Resistance_Ratio,Damping_Ratio_percent,Small_Strain_Shear_Modulus_MPa,Degradation_Index,Remarks
+MP001,Sandy_Soil,Heihe_Basin,3.5,Triaxial_CD,NA,34.5,0.8,45.2,0.28,35.5,17.7,NA,NA,4.2e-4,NA,0.165,5.8,95.5,0.78,Dense medium sand
+MP002,Sandy_Soil,Shanghai_Coast,5.0,Triaxial_CU,NA,31.2,1.5,32.5,0.32,28.8,12.3,NA,NA,2.8e-4,NA,0.128,7.2,68.5,0.65,Loose silty sand
+MP003,Clay_Soil,Yangtze_Delta,4.0,Triaxial_UU,42.5,NA,NA,8.5,0.45,18.2,2.9,0.35,0.06,2.3e-9,1.85,NA,12.5,24.5,NA,Soft clay high sensitivity
+MP004,Clay_Soil,Beijing_Plain,3.0,Direct_Shear,NA,18.5,32.5,12.8,0.42,15.5,4.5,0.26,0.04,4.1e-9,2.45,NA,9.8,32.8,NA,Stiff clay moderate plasticity
+MP005,Sandy_Soil,Tianjin_Harbor,4.2,Cyclic_Triaxial,NA,32.8,1.2,38.8,0.30,32.5,14.9,NA,NA,3.5e-4,NA,0.142,6.5,82.5,0.72,Medium dense sand
+MP006,Clay_Soil,Shanghai_Coastal,8.5,Oedometer,28.5,NA,NA,5.2,0.48,12.5,1.8,0.48,0.08,1.2e-9,1.25,NA,15.2,18.5,NA,Very soft clay smectite
+MP007,Sandy_Soil,Ningxia_Desert,2.0,Triaxial_CD,NA,37.8,0.2,58.5,0.26,42.8,23.2,NA,NA,5.8e-4,NA,0.195,4.5,125.8,0.85,Very dense coarse sand
+MP008,Clay_Soil,Pearl_River_Delta,5.5,Triaxial_CU,38.2,12.5,18.5,9.8,0.44,17.5,3.4,0.32,0.05,2.8e-9,1.95,NA,11.5,28.5,NA,Medium sensitivity clay
+MP009,Sandy_Soil,Beijing_Suburban,3.8,Resonant_Column,NA,35.2,0.5,48.5,0.27,38.5,19.1,NA,NA,4.5e-4,NA,0.178,5.2,102.5,0.80,Dense fine to medium sand
+MP010,Clay_Soil,Tianjin_Harbor,6.0,Vane_Shear,32.8,NA,NA,7.2,0.46,14.8,2.5,0.38,0.07,1.8e-9,1.55,NA,13.8,22.5,NA,Sensitive soft clay
+MP011,Sandy_Soil,Yangtze_Delta,4.5,Simple_Shear,NA,33.5,1.0,42.5,0.29,35.2,16.5,NA,NA,3.8e-4,NA,0.152,6.2,88.5,0.75,Medium dense silty sand
+MP012,Clay_Soil,Hebei_Plain,2.8,Unconfined_Compression,72.5,NA,NA,18.5,0.38,22.8,6.7,0.22,0.04,4.8e-9,3.25,NA,7.5,45.8,NA,Stiff clay low plasticity
+MP013,Sandy_Soil,Guangzhou_Delta,5.2,Cyclic_DSS,NA,32.2,1.3,35.8,0.31,30.5,13.7,NA,NA,3.1e-4,NA,0.138,7.8,75.5,0.68,Medium dense sand with silt
+MP014,Clay_Soil,Shandong_Coast,5.0,Triaxial_CIUC,46.5,15.8,22.5,11.2,0.43,18.5,3.9,0.33,0.06,2.5e-9,2.15,NA,10.5,32.5,NA,Moderately sensitive clay
+MP015,Sandy_Soil,Inner_Mongolia,2.5,Plate_Load_Test,NA,34.8,0.6,52.5,0.27,40.5,20.7,NA,NA,4.8e-4,NA,0.185,5.0,110.5,0.82,Dense sand well graded
+MP016,Clay_Soil,Jiangsu_Inland,7.0,Consolidation_Test,35.8,NA,NA,6.8,0.47,13.8,2.3,0.40,0.07,1.9e-9,1.65,NA,14.2,20.8,NA,Soft clay montmorillonite
+MP017,Sandy_Soil,Zhejiang_Coast,3.5,Bender_Element,NA,30.5,1.6,28.5,0.33,25.8,10.7,NA,NA,2.5e-4,NA,0.118,8.5,62.5,0.62,Loose fine sand
+MP018,Clay_Soil,Anhui_Basin,6.5,Pressuremeter,40.2,13.2,20.8,10.5,0.43,17.8,3.7,0.35,0.06,2.2e-9,2.05,NA,11.2,30.5,NA,Medium clay illite dominant
+MP019,Sandy_Soil,Fujian_Coast,4.0,CPT_Correlation,NA,33.8,0.9,44.8,0.28,36.5,17.5,NA,NA,4.0e-4,NA,0.162,6.0,95.8,0.77,Medium to dense sand
+MP020,Clay_Soil,Guangdong_Inland,4.8,Triaxial_Extension,44.2,16.5,24.2,12.5,0.42,19.2,4.4,0.30,0.05,2.4e-9,2.25,NA,10.0,35.8,NA,Moderately sensitive clay
+MP021,Sandy_Soil,Guangxi_Basin,5.8,Torsional_Shear,NA,31.8,1.2,36.5,0.31,31.2,13.9,NA,NA,3.2e-4,NA,0.145,7.0,78.5,0.70,Medium dense silty sand
+MP022,Clay_Soil,Hainan_Lowland,3.2,Fall_Cone_Test,65.2,NA,NA,15.5,0.40,20.5,5.5,0.26,0.04,3.4e-9,2.85,NA,8.5,40.5,NA,Stiff clay low sensitivity
+MP023,Sandy_Soil,Hunan_Basin,4.5,Seismic_Cone,NA,32.5,1.0,40.5,0.29,33.5,15.8,NA,NA,3.6e-4,NA,0.155,6.5,85.5,0.73,Medium dense sand
+MP024,Clay_Soil,Hubei_Valley,3.8,Dilatometer_Test,58.5,17.2,28.5,14.2,0.41,21.5,5.0,0.28,0.05,3.0e-9,2.55,NA,9.2,38.5,NA,Moderately stiff clay
+MP025,Sandy_Soil,Jiangxi_Plain,6.0,Hollow_Cylinder,NA,33.2,1.1,41.8,0.29,34.5,16.2,NA,NA,3.7e-4,NA,0.158,6.3,88.5,0.74,Medium dense sand
+MP026,Clay_Soil,Sichuan_Basin,5.5,Triaxial_Compression,47.8,14.8,23.5,11.8,0.42,18.8,4.1,0.32,0.05,2.7e-9,2.05,NA,10.8,33.5,NA,Medium sensitivity clay
+MP027,Sandy_Soil,Chongqing_Valley,3.0,Standard_Penetration,NA,35.5,0.4,50.5,0.27,39.5,19.9,NA,NA,4.6e-4,NA,0.182,5.3,105.5,0.81,Dense medium sand
+MP028,Clay_Soil,Guizhou_Basin,4.2,Unconsolidated_Undrained,70.5,NA,NA,17.2,0.39,22.5,6.2,0.23,0.04,4.2e-9,3.05,NA,7.8,43.5,NA,Stiff clay illite-kaolinite
+MP029,Sandy_Soil,Yunnan_Valley,4.8,Dynamic_Triaxial,NA,36.8,0.3,55.5,0.26,43.5,22.0,NA,NA,5.0e-4,NA,0.188,4.8,118.5,0.84,Dense coarse sand
+MP030,Clay_Soil,Shaanxi_Loess,2.5,Ring_Shear,95.8,22.5,42.5,22.8,0.35,28.5,8.5,0.18,0.03,6.5e-9,3.85,NA,6.2,58.5,NA,Very stiff clay low plasticity
+MP031,Sandy_Soil,Shanxi_Plateau,5.5,Interface_Shear,NA,34.2,0.8,46.5,0.28,37.5,18.2,NA,NA,4.2e-4,NA,0.168,5.8,98.5,0.78,Medium to dense sand
+MP032,Clay_Soil,Gansu_Basin,6.0,Consolidated_Drained,54.5,16.8,26.8,13.5,0.41,20.8,4.8,0.29,0.05,3.1e-9,2.35,NA,9.5,36.5,NA,Medium sensitivity clay
+MP033,Sandy_Soil,Ningxia_Valley,3.5,Field_Vane,NA,33.8,0.9,43.5,0.29,35.8,16.9,NA,NA,3.9e-4,NA,0.162,6.2,92.5,0.76,Medium dense sand
+MP034,Clay_Soil,Qinghai_Basin,4.5,Consolidation_Isotropic,75.8,NA,NA,18.8,0.38,23.5,6.8,0.21,0.04,5.2e-9,3.45,NA,7.2,48.5,NA,Stiff clay low sensitivity
+MP035,Sandy_Soil,Inner_Mongolia_Plateau,2.8,Cyclic_Simple_Shear,NA,34.5,0.7,49.5,0.27,38.8,19.5,NA,NA,4.4e-4,NA,0.175,5.5,105.5,0.80,Dense sand
+MP036,Clay_Soil,Liaoning_Coast,5.2,Anisotropic_Consolidation,45.5,15.2,22.8,11.5,0.43,18.2,4.0,0.34,0.06,2.5e-9,2.15,NA,10.5,32.8,NA,Moderately sensitive clay
+MP037,Sandy_Soil,Jilin_Plain,4.2,True_Triaxial,NA,32.8,1.0,40.8,0.29,33.8,15.9,NA,NA,3.6e-4,NA,0.155,6.5,86.5,0.73,Medium dense sand
+MP038,Clay_Soil,Heilongjiang_Valley,6.5,K0_Consolidation,49.2,16.2,25.2,12.2,0.42,19.5,4.3,0.31,0.05,2.8e-9,2.25,NA,10.2,34.5,NA,Medium sensitivity clay
+MP039,Sandy_Soil,Xinjiang_Basin,1.8,Multi_Stage_Triaxial,NA,38.5,0.2,62.5,0.25,45.5,24.8,NA,NA,6.2e-4,NA,0.205,4.2,135.5,0.87,Very dense coarse sand
+MP040,Clay_Soil,Tibet_Valley,8.0,Stress_Path_Triaxial,25.2,10.5,12.5,4.8,0.49,10.5,1.6,0.54,0.09,9.5e-10,1.05,NA,16.8,15.5,NA,Extra sensitive soft clay
+MP041,Sandy_Soil,Henan_Plain,3.8,Pressuremeter_Menard,NA,32.5,1.1,39.5,0.30,32.8,15.2,NA,NA,3.5e-4,NA,0.148,6.8,83.5,0.72,Medium dense silty sand
+MP042,Clay_Soil,Yellow_River_Delta,9.5,Piezocone_Dissipation,21.5,8.5,10.2,3.8,0.50,8.8,1.3,0.58,0.10,7.2e-10,0.85,NA,18.5,12.8,NA,Extra sensitive very soft clay
+MP043,Sandy_Soil,Coastal_Reclamation,7.0,Liquefaction_Test,NA,29.8,1.8,26.5,0.34,24.5,9.9,NA,NA,2.3e-4,NA,0.108,9.2,58.5,0.60,Loose fine sand
+MP044,Clay_Soil,Wuhan_Basin,5.0,Swelling_Pressure,32.8,12.8,18.5,8.2,0.45,16.5,2.8,0.44,0.07,1.6e-9,1.75,NA,13.5,24.5,NA,Sensitive soft clay montmorillonite
+MP045,Sandy_Soil,Nanjing_Valley,4.5,Permeability_Test,NA,33.5,0.9,42.8,0.29,35.5,16.6,NA,NA,3.8e-4,NA,0.160,6.0,90.5,0.75,Medium dense sand
+MP046,Clay_Soil,Hangzhou_Basin,7.5,Shrinkage_Test,30.5,11.2,15.8,6.5,0.47,13.2,2.2,0.45,0.07,1.5e-9,1.45,NA,14.8,19.8,NA,Highly sensitive soft clay
+MP047,Sandy_Soil,Suzhou_Industrial,3.2,Compaction_Test,NA,34.8,0.6,48.5,0.27,38.5,19.1,NA,NA,4.3e-4,NA,0.172,5.5,102.5,0.79,Dense sand controlled fill
+MP048,Clay_Soil,Ningbo_Coastal,6.8,Interface_Direct_Shear,34.8,13.5,19.8,9.2,0.44,16.8,3.2,0.39,0.06,2.0e-9,1.85,NA,12.8,27.5,NA,Sensitive clay illite-montmorillonite
+MP049,Sandy_Soil,Wenzhou_Coast,5.5,Cyclic_Torsional_Shear,NA,30.8,1.5,32.8,0.32,29.5,12.4,NA,NA,2.8e-4,NA,0.132,7.5,70.5,0.66,Loose to medium dense sand
+MP050,Clay_Soil,Dalian_Harbor,8.5,Anisotropic_Triaxial,28.3,10.8,14.2,5.8,0.48,12.2,2.0,0.51,0.08,1.1e-9,1.35,NA,15.5,17.5,NA,Highly sensitive soft clay smectite

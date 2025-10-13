@@ -1,0 +1,41 @@
+Sample_ID,Location,Depth_m,Clay_Content_percent,Silt_Content_percent,Sand_Content_percent,Liquid_Limit_percent,Plastic_Limit_percent,Plasticity_Index,Shrinkage_Limit_percent,Activity,Clay_Mineral_Type,Specific_Gravity,Natural_Water_Content_percent,Bulk_Unit_Weight_kN_m3,Undrained_Shear_Strength_kPa,Sensitivity,Preconsolidation_Stress_kPa,Overconsolidation_Ratio,Compression_Index,Recompression_Index,Permeability_m_s,Pore_Pressure_Ratio,SPT_N_Value,Remarks
+CL001,Yangtze_River_Delta,3.5,45.2,38.5,16.3,52.3,24.5,27.8,12.3,0.615,Illite-Montmorillonite,2.72,38.5,18.2,42.5,3.2,185.0,2.8,0.35,0.06,2.3e-9,0.42,8,Moderately sensitive clay
+CL002,Yangtze_River_Delta,8.0,52.8,35.2,12.0,68.5,28.2,40.3,10.8,0.763,Montmorillonite,2.74,45.2,17.5,28.3,4.8,210.0,3.5,0.48,0.08,1.2e-9,0.51,5,Highly sensitive soft clay
+CL003,Pearl_River_Delta,4.2,38.7,42.1,19.2,45.8,22.1,23.7,13.5,0.612,Illite-Kaolinite,2.71,32.8,18.8,55.8,2.5,165.0,2.3,0.28,0.05,3.5e-9,0.38,11,Low to moderate sensitivity
+CL004,Pearl_River_Delta,10.5,48.5,38.8,12.7,61.2,26.8,34.4,11.5,0.709,Montmorillonite-Illite,2.73,42.1,17.8,32.7,4.1,195.0,3.2,0.42,0.07,1.8e-9,0.48,6,Sensitive soft clay
+CL005,Beijing_Alluvial_Plain,2.8,35.2,45.6,19.2,38.5,20.3,18.2,14.8,0.517,Illite,2.70,28.3,19.2,72.5,2.1,145.0,2.1,0.22,0.04,4.8e-9,0.32,14,Low sensitivity stiff clay
+CL006,Beijing_Alluvial_Plain,6.5,42.8,40.5,16.7,48.9,23.5,25.4,12.8,0.593,Illite-Montmorillonite,2.72,35.8,18.5,48.2,2.8,175.0,2.6,0.32,0.05,2.8e-9,0.40,9,Moderately sensitive clay
+CL007,Shanghai_Coastal_Plain,5.0,55.3,33.8,10.9,75.2,30.5,44.7,9.8,0.808,Montmorillonite,2.75,51.8,17.1,22.5,5.8,235.0,4.2,0.55,0.09,8.5e-10,0.58,4,Highly sensitive very soft clay
+CL008,Shanghai_Coastal_Plain,12.0,58.7,32.1,9.2,82.3,32.8,49.5,8.5,0.843,Montmorillonite-Smectite,2.76,58.2,16.5,18.8,6.5,265.0,4.8,0.62,0.10,6.2e-10,0.63,3,Extra sensitive soft clay
+CL009,Tianjin_Harbor,3.8,40.5,43.2,16.3,46.7,22.8,23.9,13.2,0.590,Illite,2.71,33.5,18.7,52.3,2.6,158.0,2.4,0.29,0.05,3.2e-9,0.39,10,Moderately sensitive clay
+CL010,Tianjin_Harbor,9.2,49.8,37.5,12.7,63.8,27.5,36.3,11.0,0.729,Montmorillonite-Illite,2.73,44.8,17.6,30.5,4.5,215.0,3.6,0.45,0.07,1.5e-9,0.52,5,Sensitive soft clay
+CL011,Hebei_Plain,2.5,32.8,48.5,18.7,35.2,19.5,15.7,15.5,0.478,Illite-Kaolinite,2.69,25.8,19.5,85.2,1.8,130.0,1.9,0.18,0.03,6.2e-9,0.28,16,Low sensitivity stiff clay
+CL012,Hebei_Plain,7.0,38.5,44.8,16.7,42.3,21.8,20.5,14.2,0.532,Illite,2.71,31.2,19.0,62.8,2.3,155.0,2.2,0.26,0.04,4.1e-9,0.36,12,Low to moderate sensitivity
+CL013,Shandong_Coast,4.5,43.7,41.2,15.1,50.5,24.0,26.5,12.5,0.606,Illite-Montmorillonite,2.72,36.8,18.4,46.5,3.0,172.0,2.7,0.33,0.06,2.5e-9,0.41,9,Moderately sensitive clay
+CL014,Jiangsu_Inland,6.8,47.2,39.5,13.3,57.8,25.8,32.0,11.8,0.678,Montmorillonite-Illite,2.73,41.5,17.9,35.8,3.8,192.0,3.1,0.40,0.07,1.9e-9,0.47,7,Sensitive clay
+CL015,Zhejiang_Valley,3.2,36.5,45.8,17.7,40.8,21.2,19.6,14.5,0.537,Illite-Kaolinite,2.70,29.8,19.1,68.5,2.2,148.0,2.2,0.24,0.04,4.5e-9,0.34,13,Low sensitivity clay
+CL016,Anhui_Basin,8.5,50.5,36.8,12.7,65.3,27.2,38.1,10.9,0.754,Montmorillonite,2.74,43.8,17.7,31.2,4.3,205.0,3.4,0.46,0.08,1.6e-9,0.50,6,Sensitive soft clay
+CL017,Fujian_Coastal,5.5,41.8,42.5,15.7,47.9,23.2,24.7,13.0,0.591,Illite,2.71,34.2,18.6,50.8,2.7,168.0,2.5,0.30,0.05,3.0e-9,0.40,10,Moderately sensitive clay
+CL018,Guangdong_Inland,4.0,44.8,40.2,15.0,52.8,24.8,28.0,12.4,0.625,Illite-Montmorillonite,2.72,37.5,18.3,44.2,3.1,178.0,2.8,0.35,0.06,2.4e-9,0.42,8,Moderately sensitive clay
+CL019,Guangxi_Valley,7.2,48.9,38.5,12.6,60.5,26.5,34.0,11.3,0.695,Montmorillonite-Illite,2.73,42.8,17.7,33.5,4.0,198.0,3.2,0.43,0.07,1.7e-9,0.49,6,Sensitive clay
+CL020,Hainan_Lowland,2.8,37.8,44.5,17.7,42.5,21.8,20.7,14.0,0.548,Illite-Kaolinite,2.70,30.5,19.0,65.2,2.3,152.0,2.3,0.26,0.04,4.2e-9,0.36,12,Low to moderate sensitivity
+CL021,Hunan_Basin,6.0,46.5,40.0,13.5,56.2,25.2,31.0,11.9,0.667,Montmorillonite-Illite,2.73,40.2,18.0,37.8,3.6,188.0,3.0,0.39,0.06,2.0e-9,0.46,7,Sensitive clay
+CL022,Hubei_Valley,3.5,39.2,43.8,17.0,44.8,22.5,22.3,13.6,0.569,Illite,2.71,32.5,18.8,58.5,2.5,162.0,2.4,0.28,0.05,3.4e-9,0.38,11,Moderately sensitive clay
+CL023,Jiangxi_Plain,9.0,51.8,36.2,12.0,67.8,28.0,39.8,10.7,0.768,Montmorillonite,2.74,45.8,17.5,29.5,4.6,218.0,3.7,0.49,0.08,1.3e-9,0.53,5,Highly sensitive soft clay
+CL024,Sichuan_Basin,4.8,42.5,41.8,15.7,49.5,23.8,25.7,12.7,0.605,Illite-Montmorillonite,2.72,35.5,18.5,47.8,2.9,170.0,2.6,0.32,0.05,2.7e-9,0.41,9,Moderately sensitive clay
+CL025,Chongqing_Valley,7.5,49.2,37.8,13.0,62.5,27.0,35.5,11.2,0.722,Montmorillonite-Illite,2.73,43.5,17.7,32.0,4.2,208.0,3.4,0.44,0.07,1.6e-9,0.50,6,Sensitive soft clay
+CL026,Guizhou_Basin,3.0,35.8,46.2,18.0,39.5,20.8,18.7,14.6,0.522,Illite-Kaolinite,2.70,28.8,19.2,70.5,2.1,148.0,2.1,0.23,0.04,4.6e-9,0.33,14,Low sensitivity clay
+CL027,Yunnan_Valley,5.8,45.8,40.5,13.7,54.2,24.5,29.7,12.2,0.648,Illite-Montmorillonite,2.72,38.8,18.2,40.8,3.3,182.0,2.9,0.37,0.06,2.2e-9,0.44,8,Moderately to highly sensitive
+CL028,Shaanxi_Loess_Plain,2.2,28.5,52.8,18.7,32.8,18.5,14.3,16.2,0.502,Illite,2.69,23.5,19.8,95.8,1.6,118.0,1.7,0.16,0.03,7.5e-9,0.25,18,Low sensitivity stiff clay
+CL029,Shanxi_Valley,8.8,52.5,35.8,11.7,70.2,29.0,41.2,10.5,0.785,Montmorillonite,2.74,47.2,17.4,27.5,5.0,228.0,4.0,0.51,0.08,1.1e-9,0.55,4,Highly sensitive soft clay
+CL030,Gansu_Basin,4.2,40.8,43.0,16.2,46.2,22.8,23.4,13.3,0.573,Illite,2.71,33.0,18.7,54.5,2.6,165.0,2.4,0.29,0.05,3.1e-9,0.39,10,Moderately sensitive clay
+CL031,Ningxia_Valley,6.5,47.8,38.8,13.4,59.2,26.2,33.0,11.5,0.690,Montmorillonite-Illite,2.73,41.8,17.8,34.8,3.9,195.0,3.1,0.41,0.07,1.8e-9,0.48,7,Sensitive clay
+CL032,Qinghai_Basin,3.8,34.5,47.5,18.0,37.8,20.0,17.8,15.0,0.516,Illite-Kaolinite,2.69,27.5,19.3,75.8,2.0,142.0,2.0,0.21,0.04,5.2e-9,0.31,15,Low sensitivity stiff clay
+CL033,Inner_Mongolia_Valley,9.5,50.2,37.2,12.6,64.8,27.8,37.0,10.9,0.737,Montmorillonite,2.74,44.5,17.6,30.8,4.4,212.0,3.5,0.46,0.08,1.4e-9,0.51,5,Sensitive soft clay
+CL034,Liaoning_Coast,5.2,43.2,41.5,15.3,51.2,24.2,27.0,12.6,0.625,Illite-Montmorillonite,2.72,36.8,18.4,45.5,3.0,175.0,2.7,0.34,0.06,2.5e-9,0.41,9,Moderately sensitive clay
+CL035,Jilin_Plain,7.8,49.5,37.8,12.7,62.8,27.2,35.6,11.1,0.719,Montmorillonite-Illite,2.73,43.2,17.7,31.8,4.2,205.0,3.3,0.44,0.07,1.6e-9,0.49,6,Sensitive clay
+CL036,Heilongjiang_Valley,4.5,41.5,42.2,16.3,48.5,23.5,25.0,12.9,0.602,Illite-Montmorillonite,2.71,34.8,18.5,49.2,2.8,170.0,2.6,0.31,0.05,2.8e-9,0.40,9,Moderately sensitive clay
+CL037,Xinjiang_Basin,2.5,30.2,50.5,19.3,34.5,19.2,15.3,15.8,0.507,Illite,2.69,24.8,19.6,88.5,1.7,125.0,1.8,0.18,0.03,6.8e-9,0.27,17,Low sensitivity stiff clay
+CL038,Tibet_Valley,10.2,53.8,34.5,11.7,73.5,30.2,43.3,9.9,0.805,Montmorillonite-Smectite,2.75,49.8,17.2,25.2,5.5,245.0,4.5,0.54,0.09,9.5e-10,0.57,4,Highly sensitive soft clay
+CL039,Henan_Plain,3.6,38.8,44.2,17.0,43.8,22.2,21.6,13.8,0.557,Illite,2.71,31.8,18.9,60.5,2.4,160.0,2.3,0.27,0.05,3.6e-9,0.37,11,Low to moderate sensitivity
+CL040,Yellow_River_Delta,11.5,56.2,32.8,11.0,78.5,31.5,47.0,8.8,0.836,Montmorillonite-Smectite,2.75,54.5,16.8,21.5,6.2,255.0,4.6,0.58,0.10,7.2e-10,0.61,3,Extra sensitive soft clay
