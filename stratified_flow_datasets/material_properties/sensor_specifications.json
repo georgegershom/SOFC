@@ -1,0 +1,141 @@
+{
+  "Ultrasonic_Transit_Time": {
+    "model": "UFM-530",
+    "manufacturer": "Generic Industrial",
+    "frequency_kHz": 1000,
+    "frequency_range_kHz": [
+      500,
+      2000
+    ],
+    "beam_angle_deg": 3,
+    "sensitivity_dB": -65,
+    "max_temperature_C": 150,
+    "max_pressure_bar": 40,
+    "accuracy_percent": 0.5,
+    "response_time_ms": 250,
+    "pipe_diameter_range_mm": [
+      15,
+      3000
+    ],
+    "transducer_type": "Piezoelectric",
+    "mounting": "Clamp-on",
+    "output_signal": "4-20mA",
+    "min_straight_pipe_diameters": 10
+  },
+  "Ultrasonic_Doppler": {
+    "model": "DFM-4000",
+    "manufacturer": "FlowTech Systems",
+    "frequency_kHz": 640,
+    "frequency_range_kHz": [
+      200,
+      1000
+    ],
+    "beam_angle_deg": 5,
+    "sensitivity_dB": -70,
+    "max_temperature_C": 100,
+    "max_pressure_bar": 20,
+    "accuracy_percent": 2.0,
+    "response_time_ms": 500,
+    "pipe_diameter_range_mm": [
+      25,
+      1200
+    ],
+    "transducer_type": "Piezoelectric",
+    "mounting": "Clamp-on",
+    "output_signal": "Modbus RTU",
+    "min_particle_size_micron": 100
+  },
+  "Acoustic_Emission": {
+    "model": "AE-1000",
+    "manufacturer": "AcousticMonitor Inc",
+    "frequency_kHz": 150,
+    "frequency_range_kHz": [
+      20,
+      1000
+    ],
+    "beam_angle_deg": "Omnidirectional",
+    "sensitivity_dB": -80,
+    "max_temperature_C": 200,
+    "max_pressure_bar": 50,
+    "accuracy_percent": 5.0,
+    "response_time_ms": 10,
+    "pipe_diameter_range_mm": [
+      10,
+      5000
+    ],
+    "transducer_type": "Piezoelectric",
+    "mounting": "Magnetic/Adhesive",
+    "output_signal": "Analog Voltage",
+    "dynamic_range_dB": 100
+  },
+  "Sonar_Array": {
+    "model": "SONARtrac VF-100",
+    "manufacturer": "CiDRA Precision",
+    "frequency_kHz": 100,
+    "frequency_range_kHz": [
+      10,
+      200
+    ],
+    "beam_angle_deg": "Array",
+    "sensitivity_dB": -60,
+    "max_temperature_C": 80,
+    "max_pressure_bar": 100,
+    "accuracy_percent": 1.0,
+    "response_time_ms": 100,
+    "pipe_diameter_range_mm": [
+      50,
+      1500
+    ],
+    "transducer_type": "PVDF Array",
+    "mounting": "Wrap-around",
+    "output_signal": "Ethernet/IP",
+    "array_elements": 32,
+    "spatial_resolution_mm": 10
+  },
+  "Hydrophone": {
+    "model": "HYD-8000",
+    "manufacturer": "Underwater Acoustics",
+    "frequency_kHz": 50,
+    "frequency_range_kHz": [
+      0.01,
+      100
+    ],
+    "beam_angle_deg": "Omnidirectional",
+    "sensitivity_dB": -165,
+    "max_temperature_C": 50,
+    "max_pressure_bar": 200,
+    "accuracy_percent": 3.0,
+    "response_time_ms": 1,
+    "pipe_diameter_range_mm": [
+      25,
+      500
+    ],
+    "transducer_type": "Hydrophone",
+    "mounting": "Insertion",
+    "output_signal": "BNC Analog",
+    "equivalent_noise_dB": 40
+  },
+  "Accelerometer": {
+    "model": "ACC-352C",
+    "manufacturer": "PCB Piezotronics",
+    "frequency_kHz": 10,
+    "frequency_range_kHz": [
+      0.001,
+      30
+    ],
+    "beam_angle_deg": "N/A",
+    "sensitivity_mV_g": 100,
+    "max_temperature_C": 120,
+    "max_pressure_bar": "Atmospheric",
+    "accuracy_percent": 1.0,
+    "response_time_ms": 0.1,
+    "pipe_diameter_range_mm": [
+      1,
+      10000
+    ],
+    "transducer_type": "ICP Accelerometer",
+    "mounting": "Stud/Adhesive",
+    "output_signal": "IEPE",
+    "measurement_range_g": 50
+  }
+}

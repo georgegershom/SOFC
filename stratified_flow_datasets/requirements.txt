@@ -1,0 +1,26 @@
+# Requirements for Stratified Flow Attenuation Datasets
+# Python 3.8+
+
+# Core scientific computing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Signal processing
+PyWavelets>=1.4.0
+
+# Machine learning (optional, for advanced analysis)
+scikit-learn>=1.2.0
+
+# Data handling
+openpyxl>=3.1.0  # For Excel file support
+h5py>=3.8.0      # For HDF5 file support (optional)
+
+# Additional utilities
+tqdm>=4.65.0     # Progress bars
+tabulate>=0.9.0  # Pretty table printing

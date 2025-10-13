@@ -1,0 +1,47 @@
+{
+  "generation_timestamp": "20251013_074950",
+  "datasets": {
+    "pipe_configurations": {
+      "file": "pipe_configurations.csv",
+      "records": 336,
+      "parameters": [
+        "pipe_size",
+        "material",
+        "outer_diameter_mm",
+        "wall_thickness_mm",
+        "inner_diameter_mm",
+        "length_m",
+        "cross_section_area_m2",
+        "wall_area_m2",
+        "moment_of_inertia_m4",
+        "material_density_kg_m3"
+      ]
+    },
+    "sensor_compatibility": {
+      "file": "sensor_compatibility.csv",
+      "records": 672,
+      "sensor_types": 6,
+      "pipe_sizes": 14,
+      "materials": 8
+    },
+    "boundary_conditions": {
+      "file": "cfd_boundary_conditions.csv",
+      "records": 45,
+      "flow_conditions": 5,
+      "pipe_sizes_tested": 3
+    },
+    "calibration_standards": {
+      "file": "calibration_standards.csv",
+      "records": 192,
+      "standards": 3,
+      "test_temperatures": 4
+    }
+  },
+  "reference_files": {
+    "materials": "material_properties.json",
+    "sensors": "sensor_specifications.json",
+    "pipes": "pipe_standards.json"
+  },
+  "total_configurations": 336,
+  "total_data_points": 1245
+}
