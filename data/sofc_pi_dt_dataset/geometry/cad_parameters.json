@@ -1,0 +1,19 @@
+{
+  "cell": {
+    "length_mm": 100.0,
+    "width_mm": 100.0,
+    "thickness_mm": 0.2
+  },
+  "interconnect": {
+    "channel_width_mm": 1.0,
+    "rib_width_mm": 1.0,
+    "height_mm": 2.0
+  },
+  "seal": {
+    "thickness_mm": 0.3
+  },
+  "stack": {
+    "cells": 5,
+    "manifold_diameter_mm": 10.0
+  }
+}

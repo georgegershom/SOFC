@@ -1,0 +1,30 @@
+{
+  "thermocouples": {
+    "columns": [
+      "t",
+      "TC0",
+      "TC1",
+      "TC2",
+      "TC3",
+      "TC4",
+      "TC5"
+    ]
+  },
+  "ir": {
+    "frames": 50,
+    "size": 128
+  },
+  "strain_gauges": {
+    "columns": [
+      "t",
+      "SG0",
+      "SG1",
+      "SG2",
+      "SG3"
+    ]
+  },
+  "dic": {
+    "frames": 40,
+    "size": 128
+  }
+}
