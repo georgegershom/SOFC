@@ -1,0 +1,112 @@
+{
+  "sandy_properties": {
+    "columns": {
+      "sample_id": "Unique sand sample identifier",
+      "sand_content_percent": "% sand by mass",
+      "fines_content_percent": "% passing #200 (silt+clay)",
+      "D10_mm": "Effective size",
+      "D50_mm": "Median grain size",
+      "D60_mm": "Grain size at 60% passing",
+      "Cu": "Uniformity coefficient D60/D10",
+      "Cc": "Coefficient of curvature",
+      "relative_density_Dr": "Relative density (0-1)",
+      "void_ratio_e": "Void ratio",
+      "friction_angle_phi_deg": "Peak friction angle (deg)",
+      "N1_60": "SPT N corrected for overburden & energy",
+      "Vs30_m_per_s": "Shear-wave velocity (m/s) over 30 m"
+    }
+  },
+  "sandy_liquefaction_tests": {
+    "columns": {
+      "test_id": "Test identifier",
+      "sample_id": "Link to sand sample",
+      "depth_m": "Depth of layer (m)",
+      "water_table_depth_m": "Water table depth (m)",
+      "gamma_sat_kN_per_m3": "Saturated unit weight",
+      "sigma_v0_kPa": "Vertical total stress",
+      "sigma_v0_eff_kPa": "Vertical effective stress",
+      "Mw": "Earthquake magnitude",
+      "PGA_g": "Peak ground acceleration (g)",
+      "rd": "Depth reduction factor",
+      "CSR": "Cyclic stress ratio",
+      "CRR7p5": "Cyclic resistance ratio normalized to M=7.5",
+      "MSF": "Magnitude scaling factor",
+      "CRR": "Cyclic resistance ratio",
+      "FS_liq": "Factor of safety against liquefaction",
+      "ru_peak": "Peak pore pressure ratio",
+      "fines_content_percent": "% fines in the layer"
+    }
+  },
+  "liquefaction_timeseries": {
+    "fields": {
+      "event_id": "Event identifier",
+      "test_id": "Related liquefaction test",
+      "sample_id": "Related sample",
+      "time_s": "Time vector (s)",
+      "ru": "Excess pore pressure ratio time series",
+      "estimated_uplift_mm": "Estimated uplift displacement (mm)",
+      "depth_m": "Depth of instrument (m)",
+      "PGA_g": "Excitation PGA (g)",
+      "Mw": "Magnitude"
+    }
+  },
+  "clay_properties": {
+    "columns": {
+      "sample_id": "Unique clay sample identifier",
+      "liquid_limit_LL": "Liquid limit (%)",
+      "plastic_limit_PL": "Plastic limit (%)",
+      "plasticity_index_PI": "PI = LL - PL",
+      "water_content_percent": "Natural water content (%)",
+      "preconsolidation_stress_kPa": "Sigma'_p (kPa)",
+      "OCR": "Overconsolidation ratio",
+      "undrained_shear_strength_su_intact_kPa": "Intact su (kPa)",
+      "undrained_shear_strength_su_remolded_kPa": "Remolded su (kPa)",
+      "sensitivity_St": "Intact/remolded strength ratio",
+      "pore_pressure_ratio_Ru": "Pore pressure ratio under undrained shearing",
+      "smectite_percent": "% smectite by mass",
+      "kaolinite_percent": "% kaolinite by mass",
+      "illite_percent": "% illite by mass",
+      "mixed_layer_other_percent": "% other clays/mixed-layer"
+    }
+  },
+  "clay_undrained_profiles": {
+    "columns": {
+      "borehole_id": "Borehole identifier",
+      "sample_id": "Linked clay sample",
+      "depth_m": "Depth (m)",
+      "su_kPa": "Undrained shear strength (kPa)"
+    }
+  },
+  "case_liquefaction_uplift": {
+    "fields": {
+      "case_id": "Case identifier",
+      "date": "Event date (ISO)",
+      "structure_type": "Type of underground structure",
+      "depth_to_structure_top_m": "Cover depth to structure top (m)",
+      "water_table_depth_m": "Water table depth (m)",
+      "ru_peak": "Peak pore pressure ratio",
+      "uplift_displacement_mm": "Observed uplift (mm)",
+      "FS_liq": "Factor of safety (from test)",
+      "Mw": "Magnitude",
+      "PGA_g": "PGA (g)",
+      "notes": "Free text notes"
+    }
+  },
+  "case_slip_surface": {
+    "fields": {
+      "case_id": "Case identifier",
+      "date": "Event date (ISO)",
+      "site_borehole_id": "Borehole used to characterize site",
+      "clay_sample_id": "Linked sample",
+      "slope_angle_deg": "Slope angle (deg)",
+      "groundwater_table_depth_m": "GWT depth (m)",
+      "rainfall_intensity_mm_per_hr": "Rainfall intensity",
+      "rainfall_duration_hr": "Rainfall duration (hr)",
+      "slip_surface_depth_m": "Depth of slip surface (m)",
+      "factor_of_safety": "FoS for slope stability",
+      "failure_occurred": "Boolean",
+      "dominant_clay_mineral": "Mineral phase with highest percentage",
+      "notes": "Free text notes"
+    }
+  }
+}

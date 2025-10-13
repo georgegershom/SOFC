@@ -1,0 +1,13 @@
+{
+  "generated_by": "generate_geotech_datasets.py",
+  "description": "Synthetic geotechnical datasets for sandy/clay soils and failure case studies",
+  "outputs": {
+    "sandy_properties": "data/synthetic/sandy/properties.csv",
+    "sandy_liquefaction_tests": "data/synthetic/sandy/liquefaction_tests.csv",
+    "liquefaction_timeseries": "data/synthetic/sandy/liquefaction_timeseries.json",
+    "clay_properties": "data/synthetic/clay/properties.csv",
+    "clay_undrained_profiles": "data/synthetic/clay/undrained_shear_profile.csv",
+    "case_liquefaction_uplift": "data/synthetic/case_studies/liquefaction_uplift_events.json",
+    "case_slip_surface": "data/synthetic/case_studies/slip_surface_events.json"
+  }
+}
