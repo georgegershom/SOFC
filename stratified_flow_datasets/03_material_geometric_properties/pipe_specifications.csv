@@ -1,0 +1,11 @@
+pipe_id,material,inner_diameter_mm,outer_diameter_mm,wall_thickness_mm,length_m,roughness_um,density_kg_m3,youngs_modulus_pa,poissons_ratio,thermal_conductivity_w_mk,specific_heat_j_kgk,installation_date,manufacturer
+P001,carbon_steel,50.8,60.3,4.75,10.0,45.0,7850,200e9,0.30,50.2,434,2023-01-15,ASTM_A106
+P002,stainless_steel_316,76.2,88.9,6.35,15.0,1.5,8000,200e9,0.29,16.2,500,2023-02-20,Schedule_40
+P003,carbon_steel,101.6,114.3,6.35,20.0,45.0,7850,200e9,0.30,50.2,434,2023-03-10,ASTM_A53
+P004,aluminum_6061,50.8,57.2,3.2,8.0,1.6,2700,69e9,0.33,167,896,2023-04-05,Seamless
+P005,pvc,50.0,60.0,5.0,12.0,0.15,1400,3.1e9,0.40,0.19,900,2023-05-12,Schedule_80
+P006,copper,54.0,60.3,3.15,6.0,1.5,8960,110e9,0.34,401,385,2023-06-18,Type_L
+P007,carbon_steel,152.4,168.3,7.95,25.0,45.0,7850,200e9,0.30,50.2,434,2023-07-22,ASTM_A106
+P008,stainless_steel_304,25.4,33.7,4.15,5.0,1.5,8000,200e9,0.29,16.2,500,2023-08-14,Schedule_40
+P009,hdpe,63.0,75.0,6.0,18.0,0.007,950,0.8e9,0.46,0.42,2300,2023-09-25,SDR_11
+P010,cast_iron,100.0,118.0,9.0,30.0,250.0,7200,100e9,0.28,52,460,2023-10-30,Ductile

@@ -1,0 +1,75 @@
+dataset,file,column_name,data_type,unit,description,range_min,range_max,precision,example_value
+single_phase_baseline,water_baseline_data.csv,frequency_hz,float,Hz,Acoustic frequency,100,100000,1,1000
+single_phase_baseline,water_baseline_data.csv,sound_speed_ms,float,m/s,Sound speed in water,1478,1583,0.1,1482.3
+single_phase_baseline,water_baseline_data.csv,attenuation_db_m,float,dB/m,Acoustic attenuation per meter,0.0019,2.3,0.0001,0.0021
+single_phase_baseline,water_baseline_data.csv,temperature_c,float,°C,Water temperature,5,35,0.1,20.0
+single_phase_baseline,water_baseline_data.csv,pressure_pa,float,Pa,Absolute pressure,101325,101325,1,101325
+single_phase_baseline,water_baseline_data.csv,density_kg_m3,float,kg/m³,Water density,997,999.1,0.1,998.2
+single_phase_baseline,water_baseline_data.csv,viscosity_pa_s,float,Pa·s,Dynamic viscosity,0.00089,0.001139,0.000001,0.001002
+single_phase_baseline,water_baseline_data.csv,measurement_id,string,none,Unique measurement identifier,none,none,none,W001
+single_phase_baseline,water_baseline_data.csv,timestamp,datetime,ISO8601,Measurement timestamp,none,none,none,2024-01-15T09:00:00
+single_phase_baseline,air_baseline_data.csv,frequency_hz,float,Hz,Acoustic frequency,100,100000,1,100
+single_phase_baseline,air_baseline_data.csv,sound_speed_ms,float,m/s,Sound speed in air,331.3,383.3,0.1,343.2
+single_phase_baseline,air_baseline_data.csv,attenuation_db_m,float,dB/m,Acoustic attenuation per meter,0.0001,0.2,0.0001,0.0001
+published_datasets,li_et_al_2022_data.csv,study_id,string,none,Study reference identifier,none,none,none,Li2022_001
+published_datasets,li_et_al_2022_data.csv,flow_regime,string,none,Flow pattern classification,none,none,none,stratified_smooth
+published_datasets,li_et_al_2022_data.csv,gas_superficial_velocity_ms,float,m/s,Gas superficial velocity,0.5,4.0,0.1,0.5
+published_datasets,li_et_al_2022_data.csv,liquid_superficial_velocity_ms,float,m/s,Liquid superficial velocity,0.1,0.3,0.1,0.1
+published_datasets,li_et_al_2022_data.csv,void_fraction,float,none,Gas volume fraction,0.65,0.92,0.01,0.65
+published_datasets,li_et_al_2022_data.csv,pipe_diameter_mm,float,mm,Internal pipe diameter,50.8,50.8,0.1,50.8
+published_datasets,xue_et_al_2022_data.csv,gas_flow_rate_m3h,float,m³/h,Volumetric gas flow rate,15.2,76.0,0.1,15.2
+published_datasets,xue_et_al_2022_data.csv,liquid_flow_rate_m3h,float,m³/h,Volumetric liquid flow rate,2.8,5.6,0.1,2.8
+published_datasets,xue_et_al_2022_data.csv,phase_velocity_ms,float,m/s,Acoustic phase velocity,327.5,417.1,0.1,408.3
+published_datasets,xue_et_al_2022_data.csv,group_velocity_ms,float,m/s,Acoustic group velocity,337.2,426.0,0.1,415.7
+published_datasets,dijk_2005_data.csv,wavelength_m,float,m,Acoustic wavelength,0.169,0.792,0.001,0.792
+published_datasets,dijk_2005_data.csv,impedance_pa_s_m3,float,Pa·s/m³,Acoustic impedance,1.15e6,1.65e6,1e4,1.58e6
+published_datasets,dijk_2005_data.csv,wall_thickness_mm,float,mm,Pipe wall thickness,5.0,5.0,0.1,5.0
+material_properties,pipe_specifications.csv,pipe_id,string,none,Pipe identifier,none,none,none,P001
+material_properties,pipe_specifications.csv,material,string,none,Pipe material type,none,none,none,carbon_steel
+material_properties,pipe_specifications.csv,inner_diameter_mm,float,mm,Internal diameter,25.4,152.4,0.1,50.8
+material_properties,pipe_specifications.csv,outer_diameter_mm,float,mm,External diameter,33.7,168.3,0.1,60.3
+material_properties,pipe_specifications.csv,length_m,float,m,Pipe length,5.0,30.0,0.1,10.0
+material_properties,pipe_specifications.csv,roughness_um,float,μm,Surface roughness,0.007,250.0,0.001,45.0
+material_properties,pipe_specifications.csv,density_kg_m3,float,kg/m³,Material density,950,8960,1,7850
+material_properties,pipe_specifications.csv,youngs_modulus_pa,float,Pa,Young's modulus,0.8e9,200e9,1e6,200e9
+material_properties,pipe_specifications.csv,poissons_ratio,float,none,Poisson's ratio,0.28,0.46,0.01,0.30
+material_properties,pipe_specifications.csv,thermal_conductivity_w_mk,float,W/(m·K),Thermal conductivity,0.19,401,0.1,50.2
+material_properties,sensor_specifications.csv,sensor_id,string,none,Sensor identifier,none,none,none,S001
+material_properties,sensor_specifications.csv,model,string,none,Sensor model number,none,none,none,PCB_378C01
+material_properties,sensor_specifications.csv,type,string,none,Sensor type,none,none,none,piezoelectric
+material_properties,sensor_specifications.csv,frequency_range_hz_min,float,Hz,Minimum frequency response,0.1,6.3,0.1,0.5
+material_properties,sensor_specifications.csv,frequency_range_hz_max,float,Hz,Maximum frequency response,6000,180000,1,100000
+material_properties,sensor_specifications.csv,sensitivity_mv_pa,float,mV/Pa,Sensor sensitivity,-211.0,100.0,0.1,50.0
+material_properties,sensor_specifications.csv,dynamic_range_db,float,dB,Dynamic range,80,160,1,140
+signal_processing,filtered_signals_fourier.csv,signal_id,string,none,Signal identifier,none,none,none,FS001
+signal_processing,filtered_signals_fourier.csv,filter_type,string,none,Digital filter type,none,none,none,butterworth_bandpass
+signal_processing,filtered_signals_fourier.csv,cutoff_low_hz,float,Hz,Low cutoff frequency,0,4900,1,800
+signal_processing,filtered_signals_fourier.csv,cutoff_high_hz,float,Hz,High cutoff frequency,0,8000,1,1200
+signal_processing,filtered_signals_fourier.csv,filter_order,integer,none,Filter order,0,6,1,4
+signal_processing,filtered_signals_fourier.csv,amplitude_original,float,none,Original signal amplitude,0.45,0.92,0.01,0.85
+signal_processing,filtered_signals_fourier.csv,amplitude_filtered,float,none,Filtered signal amplitude,0.12,0.92,0.01,0.92
+signal_processing,filtered_signals_fourier.csv,snr_original_db,float,dB,Original signal-to-noise ratio,17.5,28.5,0.1,25.4
+signal_processing,filtered_signals_fourier.csv,snr_filtered_db,float,dB,Filtered signal-to-noise ratio,23.9,35.6,0.1,32.1
+signal_processing,wavelet_filtered_signals.csv,wavelet_type,string,none,Wavelet function type,none,none,none,daubechies_4
+signal_processing,wavelet_filtered_signals.csv,decomposition_level,integer,none,Wavelet decomposition level,4,6,1,5
+signal_processing,wavelet_filtered_signals.csv,coefficient_type,string,none,Wavelet coefficient type,none,none,none,approximation
+signal_processing,wavelet_filtered_signals.csv,original_energy,float,J,Original signal energy,5.67e4,1.42e6,1e2,1.25e6
+signal_processing,wavelet_filtered_signals.csv,filtered_energy,float,J,Filtered signal energy,5.34e4,1.35e6,1e2,1.18e6
+signal_processing,wavelet_filtered_signals.csv,energy_ratio,float,none,Energy preservation ratio,0.808,0.951,0.001,0.944
+signal_processing,cross_correlation_functions.csv,sensor_pair,string,none,Sensor pair identifier,none,none,none,S001_S002
+signal_processing,cross_correlation_functions.csv,lag_samples,integer,samples,Time lag in samples,-1000,750,1,-500
+signal_processing,cross_correlation_functions.csv,lag_time_s,float,s,Time lag in seconds,-0.02,0.015,0.00001,-0.01
+signal_processing,cross_correlation_functions.csv,correlation_coefficient,float,none,Cross-correlation coefficient,0.05,0.92,0.01,0.25
+signal_processing,cross_correlation_functions.csv,max_correlation,float,none,Maximum correlation value,0.85,0.92,0.01,0.87
+signal_processing,cross_correlation_functions.csv,time_delay_estimate_s,float,s,Time delay estimate,0.0025,0.005,0.00001,0.0025
+signal_processing,cross_correlation_functions.csv,confidence_interval_s,float,s,95% confidence interval,0.0003,0.0005,0.00001,0.0003
+signal_processing,cross_correlation_functions.csv,flow_velocity_estimate_ms,float,m/s,Estimated flow velocity,0.4,0.6,0.001,0.4
+signal_processing,extracted_signal_characteristics.csv,rms_amplitude,float,none,Root mean square amplitude,0.189,0.425,0.001,0.245
+signal_processing,extracted_signal_characteristics.csv,peak_amplitude,float,none,Peak amplitude,0.745,1.485,0.001,0.892
+signal_processing,extracted_signal_characteristics.csv,crest_factor,float,none,Crest factor (peak/RMS),3.49,4.17,0.01,3.64
+signal_processing,extracted_signal_characteristics.csv,kurtosis,float,none,Signal kurtosis,2.15,3.58,0.01,2.85
+signal_processing,extracted_signal_characteristics.csv,skewness,float,none,Signal skewness,-0.22,0.32,0.01,0.12
+signal_processing,extracted_signal_characteristics.csv,zero_crossing_rate,float,none,Zero crossing rate,0.035,0.062,0.001,0.045
+signal_processing,extracted_signal_characteristics.csv,spectral_centroid_hz,float,Hz,Spectral centroid frequency,1250.5,2850.5,0.1,1250.5
+signal_processing,extracted_signal_characteristics.csv,leak_probability,float,none,Leak detection probability,0.03,0.28,0.01,0.15
+signal_processing,extracted_signal_characteristics.csv,leak_location_estimate_m,float,m,Estimated leak location,1.2,8.1,0.1,2.3
