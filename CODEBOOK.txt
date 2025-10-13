@@ -1,0 +1,99 @@
+
+================================================================================
+CODEBOOK: Food Processing Firms FDI Study - Lagos, Nigeria
+================================================================================
+
+STUDY INFORMATION
+-----------------
+Title: The Influence of Foreign Direct Investment on the Performance of Food 
+       Processing Firms in Lagos, Nigeria: The Moderating Role of Nigerian 
+       Government Policy
+
+Data Collection: January 2024 - October 2024
+Sample Size: 500 firms
+Location: Lagos, Nigeria
+Industry: Food Processing
+
+DATA STRUCTURE
+--------------
+- Unit of Analysis: Firm
+- Data Type: Cross-sectional survey
+- Missing Data: MCAR (Missing Completely at Random) ~2%
+
+VARIABLE NAMING CONVENTIONS
+---------------------------
+- _pct: Percentage values (0-100)
+- _mn: Values in millions of Naira
+- _avg: Average/composite scores
+- _x_: Interaction terms
+
+SCALE INTERPRETATIONS
+----------------------
+
+Likert Scale 1-5:
+1 = Strongly Disagree / Very Low / Very Poor
+2 = Disagree / Low / Poor  
+3 = Neutral / Moderate / Fair
+4 = Agree / High / Good
+5 = Strongly Agree / Very High / Excellent
+
+Likert Scale 1-7:
+1 = Completely Ineffective / Strongly Disagree
+2 = Very Ineffective / Disagree
+3 = Ineffective / Somewhat Disagree
+4 = Neutral
+5 = Effective / Somewhat Agree
+6 = Very Effective / Agree
+7 = Highly Effective / Strongly Agree
+
+Binary Variables:
+0 = No / Not Present / Not Adopted
+1 = Yes / Present / Adopted
+
+KEY CONSTRUCTS
+--------------
+
+1. FOREIGN DIRECT INVESTMENT (FDI)
+   - Measured through ownership percentage and knowledge transfer metrics
+   - Based on Zahra & George (2002) absorptive capacity framework
+   
+2. FIRM PERFORMANCE
+   - Financial: ROI, ROA, Revenue Growth
+   - Operational: Efficiency, Productivity
+   - Market: Market Share, Export Intensity
+   
+3. FIRM RESOURCES (RBV Theory)
+   - Human Capital: Skills, Training, Management
+   - Technological: IoT, R&D, ERP Systems
+   - Financial: Liquidity, Credit Access, Investment Capacity
+   
+4. GOVERNMENT POLICY (Moderator)
+   - Regulatory Environment: Stability, Consistency
+   - Support Measures: Tax Incentives, Infrastructure
+   - Business Climate: Bureaucracy, Corruption
+   
+5. INTERACTION EFFECTS
+   - Primary: FDI × Policy → Performance
+   - Secondary: Three-way with Firm Size
+
+DATA QUALITY NOTES
+------------------
+- Self-reported data validated where possible with secondary sources
+- Likert scales tested for reliability (Cronbach's α > 0.7)
+- Common method bias addressed through survey design
+- Outliers winsorized at 1st and 99th percentiles
+
+ANALYSIS RECOMMENDATIONS
+------------------------
+1. Check multicollinearity (VIF < 10)
+2. Test for heteroscedasticity
+3. Consider hierarchical regression for moderation
+4. Use robust standard errors
+5. Control for industry subsector effects
+
+CITATION
+--------
+When using this dataset, please cite:
+"Synthetic Dataset for FDI Study of Food Processing Firms in Lagos, Nigeria (2024)"
+
+================================================================================

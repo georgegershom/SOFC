@@ -1,0 +1,56 @@
+Category,Variable,Type,Description,Scale/Unit,Range
+CONTROL_VARIABLES,firm_id,String,Unique firm identifier,,
+CONTROL_VARIABLES,survey_date,Date,Date of survey completion,,2024-01-01 to 2024-10-01
+CONTROL_VARIABLES,subsector,Categorical,Food processing subsector classification,,
+CONTROL_VARIABLES,ownership_type,Categorical,Firm ownership structure,,
+CONTROL_VARIABLES,firm_age,Continuous,Years since firm establishment,Years,1-60
+CONTROL_VARIABLES,num_employees,Continuous,Total number of employees,Count,5-5000
+CONTROL_VARIABLES,firm_size,Categorical,Firm size category based on employees,,
+CONTROL_VARIABLES,total_assets_mn,Continuous,Total firm assets,Million Naira,10-50000
+CONTROL_VARIABLES,export_intensity,Continuous,Percentage of revenue from exports,Percentage,0-100
+FDI_CONSTRUCTS,knowledge_acquisition,Likert Scale,Ability to identify and acquire external knowledge,1-5,
+FDI_CONSTRUCTS,knowledge_assimilation,Likert Scale,Ability to analyze and understand external knowledge,1-5,
+FDI_CONSTRUCTS,knowledge_transformation,Likert Scale,Ability to combine existing and new knowledge,1-5,
+FDI_CONSTRUCTS,knowledge_exploitation,Likert Scale,Ability to apply knowledge for commercial ends,1-5,
+FDI_CONSTRUCTS,knowledge_absorption_avg,Composite Score,Average knowledge absorption capacity,1-5,
+FDI_CONSTRUCTS,task_quality,Likert Scale,Quality of task execution,1-5,
+FDI_CONSTRUCTS,task_efficiency,Likert Scale,Efficiency in task completion,1-5,
+FDI_CONSTRUCTS,task_innovation,Likert Scale,Innovation in task approaches,1-5,
+FDI_CONSTRUCTS,task_performance_avg,Composite Score,Average task performance,1-5,
+FDI_CONSTRUCTS,product_innovation,Likert Scale,Introduction of new or improved products,1-5,
+FDI_CONSTRUCTS,process_innovation,Likert Scale,Implementation of new production processes,1-5,
+FDI_CONSTRUCTS,marketing_innovation,Likert Scale,New marketing methods implementation,1-5,
+FDI_CONSTRUCTS,organizational_innovation,Likert Scale,New organizational methods in business practices,1-5,
+FDI_CONSTRUCTS,innovation_avg,Composite Score,Average innovation capacity,1-5,
+FDI_CONSTRUCTS,fdi_ownership_pct,Continuous,Percentage of foreign ownership,Percentage,0-100
+FIRM_PERFORMANCE,roi_pct,Continuous,Return on Investment,Percentage,-10 to 50
+FIRM_PERFORMANCE,roa_pct,Continuous,Return on Assets,Percentage,-15 to 40
+FIRM_PERFORMANCE,revenue_growth_pct,Continuous,Year-over-year revenue growth,Percentage,-20 to 60
+FIRM_PERFORMANCE,market_share_pct,Continuous,Market share in subsector,Percentage,0.1-25
+FIRM_PERFORMANCE,operational_efficiency,Likert Scale,Overall operational efficiency rating,1-5,
+FIRM_PERFORMANCE,productivity_index,Continuous,Labor productivity index,Index,40-150
+FIRM_RESOURCES,skilled_labor_ratio,Continuous,Percentage of skilled workers,Percentage,5-90
+FIRM_RESOURCES,training_hours_per_emp,Continuous,Annual training hours per employee,Hours,0-100
+FIRM_RESOURCES,management_quality,Likert Scale,Quality of management practices,1-5,
+FIRM_RESOURCES,iot_adoption,Binary,Internet of Things technology adoption,,
+FIRM_RESOURCES,rd_spend_pct,Continuous,R&D spending as percentage of revenue,Percentage,0-15
+FIRM_RESOURCES,tech_sophistication,Likert Scale,Overall technology sophistication level,1-5,
+FIRM_RESOURCES,erp_adoption,Binary,Enterprise Resource Planning system adoption,,
+FIRM_RESOURCES,liquidity_ratio,Continuous,Current assets to current liabilities ratio,Ratio,0.5-5
+FIRM_RESOURCES,access_to_credit,Likert Scale,Ease of accessing credit facilities,1-5,
+FIRM_RESOURCES,investment_capacity_mn,Continuous,Available capital for investment,Million Naira,0-5000
+GOVERNMENT_POLICY,tax_incentives_eff,Likert Scale,Effectiveness of tax incentive policies,1-7,
+GOVERNMENT_POLICY,regulatory_stability,Likert Scale,Stability and predictability of regulations,1-7,
+GOVERNMENT_POLICY,infrastructure_support,Likert Scale,Quality of government infrastructure support,1-7,
+GOVERNMENT_POLICY,trade_facilitation,Likert Scale,Effectiveness of trade facilitation measures,1-7,
+GOVERNMENT_POLICY,investment_protection,Likert Scale,Level of investment protection provided,1-7,
+GOVERNMENT_POLICY,bureaucratic_burden,Likert Scale,Level of bureaucratic complexity (reverse coded),1-7,
+GOVERNMENT_POLICY,corruption_experience,Likert Scale,Experience with corruption (reverse coded),1-7,
+GOVERNMENT_POLICY,policy_consistency,Likert Scale,Consistency of government policies over time,1-7,
+GOVERNMENT_POLICY,govt_support_utilized,Binary,Utilization of government support programs,,
+GOVERNMENT_POLICY,policy_effectiveness_index,Composite Score,Overall government policy effectiveness,1-7,
+INTERACTION_VARIABLES,fdi_composite,Composite Score,Composite FDI exposure score,0-1,
+INTERACTION_VARIABLES,performance_composite,Composite Score,Composite firm performance score,0-1,
+INTERACTION_VARIABLES,fdi_x_policy,Interaction,Interaction term: FDI × Government Policy,,
+INTERACTION_VARIABLES,performance_adjusted,Composite Score,Performance adjusted for moderation effects,,
+INTERACTION_VARIABLES,fdi_x_policy_x_size,Interaction,Three-way interaction: FDI × Policy × Size,,
