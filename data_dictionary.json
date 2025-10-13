@@ -1,0 +1,124 @@
+{
+  "Dataset Information": {
+    "Title": "Food Processing FDI Performance Dataset - Lagos, Nigeria",
+    "Description": "Firm-level survey data on FDI influence on food processing firm performance",
+    "Sample Size": "300 firms (200 SMEs, 100 large firms)",
+    "Geographic Coverage": "Lagos State, Nigeria",
+    "Time Period": "Cross-sectional (2024)",
+    "Data Sources": "Primary survey + Secondary macro data"
+  },
+  "Variable Categories": {
+    "FDI Constructs": [
+      "FDI_Presence",
+      "Knowledge_Absorption",
+      "Task_Performance",
+      "Innovation_Score",
+      "FDI_Intensity",
+      "FDI_Duration_Years",
+      "FDI_Origin_Region",
+      "FDI_Type"
+    ],
+    "Firm Performance": [
+      "ROI_Percent",
+      "ROA_Percent",
+      "Export_Intensity",
+      "Market_Share_Percent",
+      "Operational_Efficiency",
+      "Revenue_Growth_Percent",
+      "Profit_Margin_Percent"
+    ],
+    "Firm Resources": [
+      "Skilled_Labor_Ratio",
+      "IoT_Usage",
+      "R_D_Spend_Percent",
+      "Technology_Adoption_Score",
+      "Liquidity_Ratio",
+      "Debt_to_Equity_Ratio",
+      "Training_Investment_Percent"
+    ],
+    "Government Policy": [
+      "Tax_Incentive_Effectiveness",
+      "Regulatory_Stability",
+      "Infrastructure_Support",
+      "Corruption_Experience",
+      "Policy_Effectiveness_Index",
+      "Ease_of_Doing_Business",
+      "Government_Support_Access",
+      "Regulatory_Burden"
+    ],
+    "Secondary Data": [
+      "FDI_Inflow_Lagos_Million_USD",
+      "Lagos_GDP_Growth_Percent",
+      "Food_Processing_GDP_Contribution_Percent",
+      "Power_Supply_Hours_Daily",
+      "Logistics_Quality_Index",
+      "Corruption_Index",
+      "Regulatory_Quality_Index",
+      "Ease_of_Doing_Business_Rank",
+      "EEG_Disbursement_Million_NGN",
+      "Food_Export_Value_Million_USD"
+    ],
+    "Control Variables": [
+      "Firm_Size",
+      "Firm_Age",
+      "Employees",
+      "Assets_Million_NGN",
+      "Subsector",
+      "Ownership_Type",
+      "Export_Orientation",
+      "Certification_ISO",
+      "Certification_HACCP",
+      "Location_Zone",
+      "Years_in_Export",
+      "Supply_Chain_Integration",
+      "Competition_Intensity"
+    ]
+  },
+  "Measurement Scales": {
+    "Likert 1-5": [
+      "Knowledge_Absorption",
+      "Task_Performance",
+      "Innovation_Score",
+      "Operational_Efficiency",
+      "Technology_Adoption_Score",
+      "Supply_Chain_Integration",
+      "Competition_Intensity"
+    ],
+    "Likert 1-7": [
+      "Tax_Incentive_Effectiveness",
+      "Regulatory_Stability",
+      "Infrastructure_Support",
+      "Corruption_Experience",
+      "Policy_Effectiveness_Index",
+      "Ease_of_Doing_Business",
+      "Government_Support_Access",
+      "Regulatory_Burden"
+    ],
+    "Binary (0/1)": [
+      "FDI_Presence",
+      "IoT_Usage",
+      "Export_Orientation",
+      "Certification_ISO",
+      "Certification_HACCP"
+    ],
+    "Percentage": [
+      "ROI_Percent",
+      "ROA_Percent",
+      "Export_Intensity",
+      "Market_Share_Percent",
+      "Revenue_Growth_Percent",
+      "Profit_Margin_Percent",
+      "Skilled_Labor_Ratio",
+      "R_D_Spend_Percent",
+      "Training_Investment_Percent"
+    ],
+    "Continuous": [
+      "FDI_Intensity",
+      "Liquidity_Ratio",
+      "Debt_to_Equity_Ratio",
+      "Assets_Million_NGN",
+      "Employees",
+      "Firm_Age"
+    ]
+  }
+}
