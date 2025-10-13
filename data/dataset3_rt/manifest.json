@@ -1,0 +1,13 @@
+{
+  "dataset_name": "Dataset3_RealTime",
+  "version": "0.1.0",
+  "description": "Synthetic real-time operational dataset",
+  "num_items": 1,
+  "schema": {
+    "file": "npz",
+    "contents": [
+      "time_series",
+      "capture_marks"
+    ]
+  }
+}

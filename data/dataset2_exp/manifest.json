@@ -1,0 +1,17 @@
+{
+  "dataset_name": "Dataset2_ExperimentalLike",
+  "version": "0.1.0",
+  "description": "Synthetic experimental validation dataset",
+  "num_items": 1,
+  "schema": {
+    "file": "npz",
+    "contents": [
+      "time_series",
+      "EIS",
+      "thermal_image",
+      "thermocouples",
+      "strain_gauges",
+      "AE_events"
+    ]
+  }
+}
