@@ -1,0 +1,60 @@
+{
+  "generation_timestamp": "20251013_075509",
+  "datasets": {
+    "tde_flow_velocity": {
+      "file": "tde_flow_velocity.csv",
+      "records": 90,
+      "sensor_spacings": 5,
+      "flow_velocities": 6,
+      "flow_conditions": 3,
+      "sampling_rate_Hz": 100000
+    },
+    "leak_detection": {
+      "file": "leak_detection_features.csv",
+      "signals_file": "leak_detection_signals.json",
+      "records": 8,
+      "scenarios": 8,
+      "features_extracted": 15
+    },
+    "filter_comparison": {
+      "file": "filter_comparison.csv",
+      "records": 9,
+      "filter_types": [
+        "Fourier",
+        "Bandpass",
+        "Wavelet",
+        "Hilbert",
+        "EMD"
+      ],
+      "wavelets_tested": [
+        "sym5",
+        "sym8",
+        "db4",
+        "coif3"
+      ]
+    }
+  },
+  "signal_processing_methods": {
+    "time_domain": [
+      "RMS",
+      "Kurtosis",
+      "Skewness",
+      "Crest Factor"
+    ],
+    "frequency_domain": [
+      "FFT",
+      "PSD",
+      "Spectral Centroid",
+      "Spectral Entropy"
+    ],
+    "time_frequency": [
+      "Wavelet Transform",
+      "Hilbert Transform"
+    ],
+    "correlation": [
+      "Cross-correlation",
+      "Autocorrelation"
+    ]
+  },
+  "total_records": 107
+}

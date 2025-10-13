@@ -1,0 +1,34 @@
+{
+  "generated_plots": {
+    "static_images": [
+      "single_phase_baseline.png",
+      "material_properties_radar.png",
+      "sensor_compatibility_heatmap.png",
+      "signal_processing_analysis.png"
+    ],
+    "interactive_html": [
+      "water_3d_attenuation.html",
+      "published_datasets_analysis.html",
+      "leak_detection_features.html",
+      "summary_dashboard.html"
+    ]
+  },
+  "visualization_types": [
+    "Line plots",
+    "Scatter plots",
+    "Bar charts",
+    "Heatmaps",
+    "Radar charts",
+    "3D plots",
+    "Box plots",
+    "Pie charts",
+    "Gauge charts",
+    "Indicators"
+  ],
+  "tools_used": [
+    "Matplotlib",
+    "Seaborn",
+    "Plotly"
+  ],
+  "total_figures": 8
+}

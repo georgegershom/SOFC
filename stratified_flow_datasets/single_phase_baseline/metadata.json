@@ -1,0 +1,44 @@
+{
+  "generation_timestamp": "20251013_074201",
+  "water_properties": {
+    "density": 998.2,
+    "sound_speed": 1482.3,
+    "viscosity": 0.001002,
+    "bulk_modulus": 2190000000.0,
+    "thermal_conductivity": 0.598,
+    "specific_heat": 4182,
+    "thermal_expansion": 0.000207
+  },
+  "air_properties": {
+    "density": 1.204,
+    "sound_speed": 343.2,
+    "viscosity": 1.825e-05,
+    "bulk_modulus": 142000.0,
+    "thermal_conductivity": 0.0257,
+    "specific_heat": 1005,
+    "thermal_expansion": 0.00343,
+    "adiabatic_index": 1.4
+  },
+  "pipe_configuration": {
+    "diameter": 0.05,
+    "length": 10.0,
+    "wall_thickness": 0.003,
+    "material": "PVC",
+    "roughness": 1.5e-06
+  },
+  "data_files": {
+    "water": [
+      "water_frequency_sweep.csv",
+      "water_temperature_dependence.csv",
+      "water_pressure_dependence.csv",
+      "water_pipe_modes.csv"
+    ],
+    "air": [
+      "air_frequency_sweep.csv",
+      "air_temperature_dependence.csv",
+      "air_pressure_dependence.csv",
+      "air_pipe_modes.csv"
+    ]
+  },
+  "notes": "Single-phase baseline data for acoustic attenuation studies in stratified flows"
+}

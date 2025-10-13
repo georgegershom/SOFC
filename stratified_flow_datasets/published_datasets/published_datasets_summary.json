@@ -1,0 +1,69 @@
+{
+  "generation_timestamp": "20251013_074457",
+  "papers": {
+    "Li_2022": {
+      "title": "Sound speed measurements in stratified gas-liquid pipe flows",
+      "journal": "Flow Measurement and Instrumentation",
+      "doi": "10.1016/j.flowmeasinst.2022.xxxxx"
+    },
+    "Xue_2022": {
+      "title": "Acoustic wave attenuation in horizontal two-phase flows",
+      "journal": "International Journal of Multiphase Flow",
+      "doi": "10.1016/j.ijmultiphaseflow.2022.xxxxx"
+    },
+    "Dijk_2005": {
+      "title": "Acoustic monitoring techniques for two-phase flows",
+      "journal": "Measurement Science and Technology",
+      "doi": "10.1088/0957-0233/16/5/xxx"
+    }
+  },
+  "datasets": {
+    "li_2022": {
+      "file": "li_2022_sound_speed.csv",
+      "records": 85,
+      "parameters": [
+        "liquid_height_ratio",
+        "sound_speed",
+        "attenuation"
+      ],
+      "frequency_range_Hz": [
+        500,
+        10000
+      ]
+    },
+    "xue_2022": {
+      "file": "xue_2022_attenuation.csv",
+      "records": 1250,
+      "parameters": [
+        "flow_velocities",
+        "attenuation_mechanisms"
+      ],
+      "frequency_range_Hz": [
+        100,
+        100000
+      ]
+    },
+    "dijk_2005": {
+      "file": "dijk_2005_monitoring.csv",
+      "signal_file": "dijk_2005_signals.json",
+      "records": 4,
+      "parameters": [
+        "flow_pattern",
+        "signal_statistics",
+        "correlation"
+      ],
+      "sampling_rate_Hz": 100000
+    },
+    "benchmark": {
+      "file": "benchmark_dataset.csv",
+      "records": 40,
+      "parameters": [
+        "void_fraction",
+        "sound_speed",
+        "attenuation"
+      ],
+      "conditions": 5,
+      "frequencies": 8
+    }
+  }
+}

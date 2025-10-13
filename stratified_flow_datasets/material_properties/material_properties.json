@@ -1,0 +1,114 @@
+{
+  "PVC": {
+    "density_kg_m3": 1380,
+    "youngs_modulus_GPa": 3.4,
+    "poisson_ratio": 0.4,
+    "sound_speed_m_s": 2370,
+    "thermal_conductivity_W_mK": 0.19,
+    "roughness_mm": 0.0015,
+    "damping_coefficient": 0.02,
+    "max_pressure_bar": 10,
+    "temperature_range_C": [
+      -10,
+      60
+    ]
+  },
+  "Steel_Carbon": {
+    "density_kg_m3": 7850,
+    "youngs_modulus_GPa": 210,
+    "poisson_ratio": 0.3,
+    "sound_speed_m_s": 5960,
+    "thermal_conductivity_W_mK": 45,
+    "roughness_mm": 0.045,
+    "damping_coefficient": 0.001,
+    "max_pressure_bar": 100,
+    "temperature_range_C": [
+      -50,
+      500
+    ]
+  },
+  "Steel_Stainless": {
+    "density_kg_m3": 8000,
+    "youngs_modulus_GPa": 195,
+    "poisson_ratio": 0.3,
+    "sound_speed_m_s": 5790,
+    "thermal_conductivity_W_mK": 16,
+    "roughness_mm": 0.015,
+    "damping_coefficient": 0.001,
+    "max_pressure_bar": 150,
+    "temperature_range_C": [
+      -200,
+      800
+    ]
+  },
+  "Copper": {
+    "density_kg_m3": 8960,
+    "youngs_modulus_GPa": 120,
+    "poisson_ratio": 0.34,
+    "sound_speed_m_s": 4760,
+    "thermal_conductivity_W_mK": 401,
+    "roughness_mm": 0.0015,
+    "damping_coefficient": 0.003,
+    "max_pressure_bar": 50,
+    "temperature_range_C": [
+      -200,
+      200
+    ]
+  },
+  "Aluminum": {
+    "density_kg_m3": 2700,
+    "youngs_modulus_GPa": 70,
+    "poisson_ratio": 0.33,
+    "sound_speed_m_s": 6420,
+    "thermal_conductivity_W_mK": 237,
+    "roughness_mm": 0.002,
+    "damping_coefficient": 0.002,
+    "max_pressure_bar": 30,
+    "temperature_range_C": [
+      -200,
+      300
+    ]
+  },
+  "HDPE": {
+    "density_kg_m3": 950,
+    "youngs_modulus_GPa": 0.8,
+    "poisson_ratio": 0.46,
+    "sound_speed_m_s": 1950,
+    "thermal_conductivity_W_mK": 0.48,
+    "roughness_mm": 0.007,
+    "damping_coefficient": 0.05,
+    "max_pressure_bar": 8,
+    "temperature_range_C": [
+      -50,
+      80
+    ]
+  },
+  "Glass": {
+    "density_kg_m3": 2500,
+    "youngs_modulus_GPa": 70,
+    "poisson_ratio": 0.22,
+    "sound_speed_m_s": 5640,
+    "thermal_conductivity_W_mK": 1.05,
+    "roughness_mm": 0.001,
+    "damping_coefficient": 0.005,
+    "max_pressure_bar": 5,
+    "temperature_range_C": [
+      -50,
+      300
+    ]
+  },
+  "Concrete": {
+    "density_kg_m3": 2300,
+    "youngs_modulus_GPa": 30,
+    "poisson_ratio": 0.2,
+    "sound_speed_m_s": 3800,
+    "thermal_conductivity_W_mK": 1.7,
+    "roughness_mm": 1.5,
+    "damping_coefficient": 0.03,
+    "max_pressure_bar": 20,
+    "temperature_range_C": [
+      -30,
+      100
+    ]
+  }
+}
