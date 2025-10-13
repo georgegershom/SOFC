@@ -1,0 +1,19 @@
+{
+  "events": [
+    {
+      "hour": 100,
+      "mode": "thermal_cycling",
+      "note": "minor delamination onset"
+    },
+    {
+      "hour": 250,
+      "mode": "redox_cycle",
+      "note": "anode reduction/oxidation event"
+    },
+    {
+      "hour": 400,
+      "mode": "contamination",
+      "note": "cathode poisoning indicator"
+    }
+  ]
+}

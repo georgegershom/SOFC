@@ -1,0 +1,36 @@
+{
+  "count": 5,
+  "schema": [
+    "t",
+    "H2",
+    "CO",
+    "CH4",
+    "fuel_sccm",
+    "air_sccm",
+    "Tin_fuel_C",
+    "Tin_air_C",
+    "J_Acm2"
+  ],
+  "items": [
+    {
+      "file": "profile_000.npy",
+      "duration_s": 3600.0
+    },
+    {
+      "file": "profile_001.npy",
+      "duration_s": 3600.0
+    },
+    {
+      "file": "profile_002.npy",
+      "duration_s": 3600.0
+    },
+    {
+      "file": "profile_003.npy",
+      "duration_s": 3600.0
+    },
+    {
+      "file": "profile_004.npy",
+      "duration_s": 3600.0
+    }
+  ]
+}
