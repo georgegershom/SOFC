@@ -1,0 +1,70 @@
+{
+  "dataset1_path": "/workspace/sofc_dataset/output/dataset1_simulated.h5",
+  "dataset2_path": "/workspace/sofc_dataset/output/dataset2_experimental.h5",
+  "dataset3_path": "/workspace/sofc_dataset/output/dataset3_stream.h5",
+  "grid": {
+    "nx": 32,
+    "ny": 32,
+    "nz": 8
+  },
+  "counts": {
+    "dataset1_samples": 12,
+    "dataset2_runs": 2,
+    "dataset3_steps": 2880
+  },
+  "variables": {
+    "dataset1": [
+      "T",
+      "i",
+      "H2",
+      "H2O",
+      "O2",
+      "Ux",
+      "Uy",
+      "Uz",
+      "sxx",
+      "syy",
+      "szz",
+      "sxy",
+      "syz",
+      "sxz",
+      "exx",
+      "eyy",
+      "ezz",
+      "exy",
+      "eyz",
+      "exz",
+      "von_mises",
+      "voltage",
+      "K_I",
+      "K_II",
+      "K_III",
+      "G",
+      "creep_strain"
+    ],
+    "dataset2": [
+      "t",
+      "voltage",
+      "current",
+      "power",
+      "fuel_flow_sccm",
+      "air_flow_sccm",
+      "inlet_temp_c",
+      "eis_freq_hz",
+      "eis_Z_real",
+      "eis_Z_imag",
+      "thermal_image_c",
+      "strain_positions_xy",
+      "strain_micro",
+      "ae_event_times_s",
+      "ae_event_amplitude"
+    ],
+    "dataset3": [
+      "t",
+      "voltage",
+      "current",
+      "inlet_temp_c",
+      "inlet_flow_sccm"
+    ]
+  }
+}
