@@ -1,0 +1,39 @@
+{
+  "sandy_soil_cases": {
+    "total_cases": 50,
+    "failure_types": {
+      "Foundation bearing capacity failure": 9,
+      "Liquefaction-induced lateral spreading": 9,
+      "Cyclic mobility": 9,
+      "Slope instability in loose sand": 8,
+      "Liquefaction-induced settlement": 7,
+      "Flow liquefaction": 7,
+      "Liquefaction-induced uplift": 1
+    },
+    "average_damage_cost": 1079184.58571378,
+    "total_damage_cost": 53959229.285689004
+  },
+  "clay_soil_cases": {
+    "total_cases": 40,
+    "failure_types": {
+      "Retrogressive landslide": 7,
+      "Excavation collapse": 6,
+      "Quick clay landslide": 6,
+      "Foundation heave": 5,
+      "Circular slip failure": 5,
+      "Tunnel face instability": 4,
+      "Embankment failure": 4,
+      "Progressive slope failure": 3
+    },
+    "average_damage_cost": 1152009.8047680282,
+    "total_damage_cost": 46080392.190721124,
+    "total_casualties": 83,
+    "total_evacuated": 2007
+  },
+  "monitoring_data": {
+    "total_records": 3686,
+    "monitored_cases": 20,
+    "sandy_records": 1357,
+    "clay_records": 2329
+  }
+}

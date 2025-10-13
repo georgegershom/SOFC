@@ -1,0 +1,70 @@
+{
+  "dataset_info": {
+    "title": "Regional Geotechnical Properties and Hazard Assessment",
+    "description": "Synthetic geospatial datasets for geotechnical analysis",
+    "regions_covered": [
+      "San_Francisco_Bay",
+      "Los_Angeles_Basin",
+      "Puget_Sound"
+    ],
+    "coordinate_system": "WGS84 (EPSG:4326)",
+    "grid_resolution": "0.005 degrees (~500m)",
+    "generation_date": "2025-10-13T23:44:19.191810"
+  },
+  "regional_grid": {
+    "total_points": 93080,
+    "parameters": [
+      "longitude",
+      "latitude",
+      "region",
+      "sand_content_pct",
+      "clay_content_pct",
+      "silt_content_pct",
+      "plasticity_index",
+      "liquid_limit",
+      "n_spt_blows",
+      "relative_density_pct",
+      "undrained_shear_strength_kPa",
+      "depth_to_bedrock_m",
+      "groundwater_depth_m",
+      "elevation_m",
+      "slope_angle_deg",
+      "peak_ground_acceleration_g",
+      "liquefaction_susceptibility",
+      "landslide_susceptibility"
+    ],
+    "spatial_extent": {
+      "longitude_range": [
+        -122.8,
+        -117.60000000000109
+      ],
+      "latitude_range": [
+        33.7,
+        47.79500000000041
+      ]
+    }
+  },
+  "borehole_data": {
+    "total_boreholes": 298,
+    "total_layers": 1494,
+    "depth_range": [
+      0.021786404522714964,
+      30.0
+    ]
+  },
+  "hazard_maps": {
+    "liquefaction_hazard_levels": {
+      "Moderate": 29652,
+      "Low": 29386,
+      "Very Low": 26156,
+      "High": 7746,
+      "Very High": 140
+    },
+    "landslide_hazard_levels": {
+      "Low": 79832,
+      "Very High": 7960,
+      "Moderate": 2814,
+      "High": 2474
+    }
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "package_info": {
+    "creation_date": "2025-10-13T23:44:25.322767",
+    "title": "Comprehensive Geotechnical Datasets for PhD Research",
+    "version": "1.0",
+    "total_files": 29,
+    "total_size_mb": 40.35
+  },
+  "datasets": {
+    "other": {
+      "file_count": 1,
+      "total_size_mb": 0.01,
+      "files": [
+        "README.md"
+      ]
+    },
+    "scripts": {
+      "file_count": 4,
+      "total_size_mb": 0.05,
+      "files": [
+        "data_analysis_tools.py",
+        "generate_sandy_soil_data.py",
+        "generate_clay_soil_data.py",
+        "download_datasets.py"
+      ]
+    },
+    "geospatial_data": {
+      "file_count": 6,
+      "total_size_mb": 34.77,
+      "files": [
+        "generate_geospatial_data.py",
+        "landslide_hazard_map.csv",
+        "borehole_data_detailed.csv",
+        "regional_soil_properties_grid.csv",
+        "liquefaction_hazard_map.csv",
+        "geospatial_metadata.json"
+      ]
+    },
+    "case_studies": {
+      "file_count": 5,
+      "total_size_mb": 0.34,
+      "files": [
+        "generate_case_studies.py",
+        "case_study_summary.json",
+        "monitoring_data_time_series.csv",
+        "clay_soil_failure_cases.csv",
+        "sandy_soil_failure_cases.csv"
+      ]
+    },
+    "sandy_soils": {
+      "file_count": 4,
+      "total_size_mb": 0.75,
+      "files": [
+        "sandy_soil_complete_dataset.csv",
+        "sandy_soil_mechanical_properties.csv",
+        "sandy_soil_basic_properties.csv",
+        "sandy_soil_liquefaction_data.csv"
+      ]
+    },
+    "documentation": {
+      "file_count": 4,
+      "total_size_mb": 3.72,
+      "files": [
+        "clay_soil_analysis.png",
+        "sandy_soil_analysis.png",
+        "failure_analysis.png",
+        "dataset_metadata.json"
+      ]
+    },
+    "clay_soils": {
+      "file_count": 5,
+      "total_size_mb": 0.71,
+      "files": [
+        "clay_soil_failure_susceptibility.csv",
+        "clay_soil_basic_properties.csv",
+        "clay_soil_mineralogy.csv",
+        "clay_soil_mechanical_properties.csv",
+        "clay_soil_complete_dataset.csv"
+      ]
+    }
+  },
+  "file_details": [
+    {
+      "filename": "README.md",
+      "relative_path": "README.md",
+      "size_bytes": 8740,
+      "size_mb": 0.008,
+      "category": "other",
+      "description": "Comprehensive documentation and usage guide"
+    },
+    {
+      "filename": "data_analysis_tools.py",
+      "relative_path": "scripts/data_analysis_tools.py",
+      "size_bytes": 18221,
+      "size_mb": 0.017,
+      "category": "scripts",
+      "description": "Comprehensive analysis and visualization tools"
+    },
+    {
+      "filename": "generate_sandy_soil_data.py",
+      "relative_path": "scripts/generate_sandy_soil_data.py",
+      "size_bytes": 10031,
+      "size_mb": 0.01,
+      "category": "scripts",
+      "description": "Geotechnical dataset file: generate_sandy_soil_data.py"
+    },
+    {
+      "filename": "generate_geospatial_data.py",
+      "relative_path": "scripts/generate_geospatial_data.py",
+      "size_bytes": 17944,
+      "size_mb": 0.017,
+      "category": "geospatial_data",
+      "description": "Geotechnical dataset file: generate_geospatial_data.py"
+    },
+    {
+      "filename": "generate_clay_soil_data.py",
+      "relative_path": "scripts/generate_clay_soil_data.py",
+      "size_bytes": 14809,
+      "size_mb": 0.014,
+      "category": "scripts",
+      "description": "Geotechnical dataset file: generate_clay_soil_data.py"
+    },
+    {
+      "filename": "generate_case_studies.py",
+      "relative_path": "scripts/generate_case_studies.py",
+      "size_bytes": 16938,
+      "size_mb": 0.016,
+      "category": "case_studies",
+      "description": "Geotechnical dataset file: generate_case_studies.py"
+    },
+    {
+      "filename": "download_datasets.py",
+      "relative_path": "scripts/download_datasets.py",
+      "size_bytes": 11502,
+      "size_mb": 0.011,
+      "category": "scripts",
+      "description": "Geotechnical dataset file: download_datasets.py"
+    },
+    {
+      "filename": "sandy_soil_complete_dataset.csv",
+      "relative_path": "sandy_soils/sandy_soil_complete_dataset.csv",
+      "size_bytes": 386964,
+      "size_mb": 0.369,
+      "category": "sandy_soils",
+      "description": "Complete sandy soil properties dataset with 500 samples"
+    },
+    {
+      "filename": "sandy_soil_mechanical_properties.csv",
+      "relative_path": "sandy_soils/sandy_soil_mechanical_properties.csv",
+      "size_bytes": 87635,
+      "size_mb": 0.084,
+      "category": "sandy_soils",
+      "description": "Geotechnical dataset file: sandy_soil_mechanical_properties.csv"
+    },
+    {
+      "filename": "sandy_soil_basic_properties.csv",
+      "relative_path": "sandy_soils/sandy_soil_basic_properties.csv",
+      "size_bytes": 189665,
+      "size_mb": 0.181,
+      "category": "sandy_soils",
+      "description": "Geotechnical dataset file: sandy_soil_basic_properties.csv"
+    },
+    {
+      "filename": "sandy_soil_liquefaction_data.csv",
+      "relative_path": "sandy_soils/sandy_soil_liquefaction_data.csv",
+      "size_bytes": 119680,
+      "size_mb": 0.114,
+      "category": "sandy_soils",
+      "description": "Geotechnical dataset file: sandy_soil_liquefaction_data.csv"
+    },
+    {
+      "filename": "landslide_hazard_map.csv",
+      "relative_path": "geospatial_data/landslide_hazard_map.csv",
+      "size_bytes": 4601854,
+      "size_mb": 4.389,
+      "category": "geospatial_data",
+      "description": "Landslide hazard assessment map"
+    },
+    {
+      "filename": "borehole_data_detailed.csv",
+      "relative_path": "geospatial_data/borehole_data_detailed.csv",
+      "size_bytes": 424907,
+      "size_mb": 0.405,
+      "category": "geospatial_data",
+      "description": "Detailed borehole logs from 298 locations"
+    },
+    {
+      "filename": "regional_soil_properties_grid.csv",
+      "relative_path": "geospatial_data/regional_soil_properties_grid.csv",
+      "size_bytes": 25891831,
+      "size_mb": 24.692,
+      "category": "geospatial_data",
+      "description": "Regional soil property grid with 93,080 points"
+    },
+    {
+      "filename": "liquefaction_hazard_map.csv",
+      "relative_path": "geospatial_data/liquefaction_hazard_map.csv",
+      "size_bytes": 5524493,
+      "size_mb": 5.269,
+      "category": "geospatial_data",
+      "description": "Liquefaction hazard assessment map"
+    },
+    {
+      "filename": "geospatial_metadata.json",
+      "relative_path": "geospatial_data/geospatial_metadata.json",
+      "size_bytes": 1622,
+      "size_mb": 0.002,
+      "category": "geospatial_data",
+      "description": "Geotechnical dataset file: geospatial_metadata.json"
+    },
+    {
+      "filename": "clay_soil_analysis.png",
+      "relative_path": "documentation/clay_soil_analysis.png",
+      "size_bytes": 1508612,
+      "size_mb": 1.439,
+      "category": "documentation",
+      "description": "Geotechnical dataset file: clay_soil_analysis.png"
+    },
+    {
+      "filename": "sandy_soil_analysis.png",
+      "relative_path": "documentation/sandy_soil_analysis.png",
+      "size_bytes": 1554500,
+      "size_mb": 1.482,
+      "category": "documentation",
+      "description": "Geotechnical dataset file: sandy_soil_analysis.png"
+    },
+    {
+      "filename": "failure_analysis.png",
+      "relative_path": "documentation/failure_analysis.png",
+      "size_bytes": 825778,
+      "size_mb": 0.788,
+      "category": "documentation",
+      "description": "Geotechnical dataset file: failure_analysis.png"
+    },
+    {
+      "filename": "dataset_metadata.json",
+      "relative_path": "documentation/dataset_metadata.json",
+      "size_bytes": 13112,
+      "size_mb": 0.013,
+      "category": "documentation",
+      "description": "Complete metadata for all datasets"
+    },
+    {
+      "filename": "case_study_summary.json",
+      "relative_path": "case_studies/case_study_summary.json",
+      "size_bytes": 1088,
+      "size_mb": 0.001,
+      "category": "case_studies",
+      "description": "Geotechnical dataset file: case_study_summary.json"
+    },
+    {
+      "filename": "monitoring_data_time_series.csv",
+      "relative_path": "case_studies/monitoring_data_time_series.csv",
+      "size_bytes": 307639,
+      "size_mb": 0.293,
+      "category": "case_studies",
+      "description": "Time-series monitoring data from failure cases"
+    },
+    {
+      "filename": "clay_soil_failure_cases.csv",
+      "relative_path": "case_studies/clay_soil_failure_cases.csv",
+      "size_bytes": 17215,
+      "size_mb": 0.016,
+      "category": "case_studies",
+      "description": "40 clay soil failure case studies"
+    },
+    {
+      "filename": "sandy_soil_failure_cases.csv",
+      "relative_path": "case_studies/sandy_soil_failure_cases.csv",
+      "size_bytes": 17048,
+      "size_mb": 0.016,
+      "category": "case_studies",
+      "description": "50 sandy soil failure case studies"
+    },
+    {
+      "filename": "clay_soil_failure_susceptibility.csv",
+      "relative_path": "clay_soils/clay_soil_failure_susceptibility.csv",
+      "size_bytes": 49938,
+      "size_mb": 0.048,
+      "category": "clay_soils",
+      "description": "Geotechnical dataset file: clay_soil_failure_susceptibility.csv"
+    },
+    {
+      "filename": "clay_soil_basic_properties.csv",
+      "relative_path": "clay_soils/clay_soil_basic_properties.csv",
+      "size_bytes": 156764,
+      "size_mb": 0.15,
+      "category": "clay_soils",
+      "description": "Geotechnical dataset file: clay_soil_basic_properties.csv"
+    },
+    {
+      "filename": "clay_soil_mineralogy.csv",
+      "relative_path": "clay_soils/clay_soil_mineralogy.csv",
+      "size_bytes": 61048,
+      "size_mb": 0.058,
+      "category": "clay_soils",
+      "description": "Geotechnical dataset file: clay_soil_mineralogy.csv"
+    },
+    {
+      "filename": "clay_soil_mechanical_properties.csv",
+      "relative_path": "clay_soils/clay_soil_mechanical_properties.csv",
+      "size_bytes": 109309,
+      "size_mb": 0.104,
+      "category": "clay_soils",
+      "description": "Geotechnical dataset file: clay_soil_mechanical_properties.csv"
+    },
+    {
+      "filename": "clay_soil_complete_dataset.csv",
+      "relative_path": "clay_soils/clay_soil_complete_dataset.csv",
+      "size_bytes": 365029,
+      "size_mb": 0.348,
+      "category": "clay_soils",
+      "description": "Complete clay soil properties dataset with 400 samples"
+    }
+  ]
+}

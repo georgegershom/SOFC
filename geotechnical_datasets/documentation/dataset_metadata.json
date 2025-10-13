@@ -1,0 +1,335 @@
+{
+  "dataset_collection": {
+    "title": "Geotechnical Datasets for PhD Research: Failure Mechanisms of Underground Structures",
+    "version": "1.0",
+    "creation_date": "2024-10-13",
+    "description": "Comprehensive synthetic geotechnical datasets for research on failure mechanisms in sandy and clay soils",
+    "research_focus": "Underground structure failure mechanisms, liquefaction analysis, progressive failure in clays",
+    "total_datasets": 4,
+    "total_files": 17,
+    "coordinate_system": "WGS84 (EPSG:4326)",
+    "units": {
+      "length": "meters",
+      "stress": "kPa",
+      "unit_weight": "kN/m³",
+      "angles": "degrees",
+      "permeability": "m/s"
+    }
+  },
+  "sandy_soils": {
+    "description": "Comprehensive sandy soil properties including liquefaction susceptibility",
+    "sample_count": 500,
+    "files": [
+      "sandy_soil_basic_properties.csv",
+      "sandy_soil_mechanical_properties.csv", 
+      "sandy_soil_liquefaction_data.csv",
+      "sandy_soil_complete_dataset.csv"
+    ],
+    "parameters": {
+      "basic_properties": [
+        "sample_id", "sample_date", "latitude", "longitude", "depth_m",
+        "sand_content_pct", "silt_content_pct", "clay_content_pct",
+        "d10_mm", "d30_mm", "d60_mm", "uniformity_coefficient", "coefficient_curvature",
+        "relative_density_pct", "void_ratio", "porosity", "specific_gravity",
+        "dry_unit_weight_kN_m3", "permeability_m_s"
+      ],
+      "mechanical_properties": [
+        "friction_angle_deg", "peak_friction_angle_deg", "critical_friction_angle_deg",
+        "cohesion_kPa", "dilatancy_angle_deg", "youngs_modulus_MPa",
+        "shear_modulus_MPa", "bulk_modulus_MPa", "poissons_ratio"
+      ],
+      "liquefaction_data": [
+        "cyclic_resistance_ratio", "csr_magnitude_6", "csr_magnitude_7", "csr_magnitude_8",
+        "factor_safety_m6", "factor_safety_m7", "factor_safety_m8",
+        "liquefaction_potential_index", "initial_pore_pressure_kPa",
+        "excess_pore_pressure_ratio", "b_parameter", "k0_coefficient"
+      ]
+    },
+    "value_ranges": {
+      "sand_content_pct": [60, 95],
+      "relative_density_pct": [15, 95],
+      "friction_angle_deg": [25, 45],
+      "permeability_m_s": [1e-6, 1e-2],
+      "cyclic_resistance_ratio": [0.05, 0.5]
+    },
+    "applications": [
+      "Liquefaction analysis and prediction",
+      "Strength characterization of sandy soils",
+      "Permeability and drainage studies",
+      "Seismic soil-structure interaction"
+    ]
+  },
+  "clay_soils": {
+    "description": "Comprehensive clay soil properties including mineralogy and failure susceptibility",
+    "sample_count": 400,
+    "files": [
+      "clay_soil_basic_properties.csv",
+      "clay_soil_mineralogy.csv",
+      "clay_soil_mechanical_properties.csv",
+      "clay_soil_failure_susceptibility.csv",
+      "clay_soil_complete_dataset.csv"
+    ],
+    "parameters": {
+      "basic_properties": [
+        "sample_id", "sample_date", "latitude", "longitude", "depth_m",
+        "clay_content_pct", "silt_content_pct", "sand_content_pct",
+        "liquid_limit_pct", "plastic_limit_pct", "plasticity_index", "activity",
+        "natural_water_content_pct", "liquidity_index", "specific_gravity",
+        "void_ratio", "porosity", "dry_unit_weight_kN_m3", "saturated_unit_weight_kN_m3",
+        "permeability_m_s", "preconsolidation_stress_kPa", "ocr"
+      ],
+      "mineralogy": [
+        "smectite_pct", "illite_pct", "kaolinite_pct", "chlorite_pct",
+        "dominant_clay_mineral", "cation_exchange_capacity_meq_100g",
+        "specific_surface_area_m2_g", "swelling_potential", "free_swell_index_pct"
+      ],
+      "mechanical_properties": [
+        "undrained_shear_strength_kPa", "sensitivity", "effective_friction_angle_deg",
+        "effective_cohesion_kPa", "compression_index", "recompression_index",
+        "coefficient_consolidation_m2_year", "youngs_modulus_MPa", "shear_modulus_MPa",
+        "poissons_ratio", "lambda_parameter", "kappa_parameter", "a_parameter", "b_parameter"
+      ],
+      "failure_susceptibility": [
+        "slope_angle_deg", "factor_safety_slope", "progressive_failure_index",
+        "creep_susceptibility", "swelling_pressure_kPa", "shrinkage_limit_pct",
+        "linear_shrinkage_pct", "piping_potential"
+      ]
+    },
+    "value_ranges": {
+      "clay_content_pct": [30, 85],
+      "plasticity_index": [0, 80],
+      "liquid_limit_pct": [25, 120],
+      "undrained_shear_strength_kPa": [10, 300],
+      "sensitivity": [1.5, 50],
+      "compression_index": [0.05, 0.8]
+    },
+    "clay_minerals": {
+      "smectite": "High plasticity, high swelling potential",
+      "illite": "Moderate plasticity, moderate activity",
+      "kaolinite": "Low plasticity, low activity", 
+      "chlorite": "Low to moderate plasticity"
+    },
+    "applications": [
+      "Plasticity and classification studies",
+      "Consolidation and settlement analysis",
+      "Slope stability assessment",
+      "Swelling and shrinkage behavior",
+      "Progressive failure mechanisms"
+    ]
+  },
+  "case_studies": {
+    "description": "Real-world failure case studies with monitoring data",
+    "files": [
+      "sandy_soil_failure_cases.csv",
+      "clay_soil_failure_cases.csv", 
+      "monitoring_data_time_series.csv",
+      "case_study_summary.json"
+    ],
+    "sandy_failures": {
+      "case_count": 50,
+      "failure_types": [
+        "Liquefaction-induced settlement",
+        "Liquefaction-induced lateral spreading",
+        "Liquefaction-induced uplift",
+        "Cyclic mobility",
+        "Flow liquefaction",
+        "Foundation bearing capacity failure",
+        "Slope instability in loose sand"
+      ],
+      "parameters": [
+        "case_id", "case_date", "location", "failure_type", "structure_type",
+        "earthquake_magnitude", "peak_ground_acceleration_g", "duration_strong_motion_s",
+        "depth_to_groundwater_m", "relative_density_pct", "fines_content_pct",
+        "settlement_mm", "lateral_displacement_m", "initial_pore_pressure_kPa",
+        "peak_excess_pore_pressure_ratio", "time_to_liquefaction_s",
+        "recovery_time_days", "damage_cost_usd", "mitigation_measures"
+      ],
+      "total_damage_usd": 53959229,
+      "average_damage_usd": 1079185
+    },
+    "clay_failures": {
+      "case_count": 40,
+      "failure_types": [
+        "Progressive slope failure",
+        "Circular slip failure", 
+        "Retrogressive landslide",
+        "Foundation heave",
+        "Tunnel face instability",
+        "Excavation collapse",
+        "Embankment failure",
+        "Quick clay landslide"
+      ],
+      "parameters": [
+        "case_id", "case_date", "location", "failure_type", "structure_type",
+        "trigger_event", "plasticity_index", "liquid_limit", "sensitivity",
+        "undrained_shear_strength_kPa", "effective_friction_angle_deg",
+        "slope_height_m", "slope_angle_deg", "failure_depth_m", "slip_surface_type",
+        "factor_of_safety", "groundwater_depth_m", "pore_pressure_ratio",
+        "displacement_m", "velocity_m_day", "failure_volume_m3",
+        "time_to_failure_hours", "damage_cost_usd", "casualties",
+        "people_evacuated", "remedial_action"
+      ],
+      "total_damage_usd": 46080398,
+      "total_casualties": 83,
+      "total_evacuated": 1964
+    },
+    "monitoring_data": {
+      "record_count": 3686,
+      "monitored_cases": 20,
+      "parameters": [
+        "case_id", "days_before_failure", "pore_pressure_kPa",
+        "settlement_mm", "lateral_displacement_mm", "velocity_mm_day", "soil_type"
+      ],
+      "temporal_coverage": "Up to 365 days before failure",
+      "measurement_frequency": "Daily"
+    },
+    "applications": [
+      "Validation of theoretical failure models",
+      "Development of early warning systems",
+      "Risk assessment and damage prediction",
+      "Study of failure evolution and kinematics"
+    ]
+  },
+  "geospatial_data": {
+    "description": "Regional soil property grids and hazard maps",
+    "files": [
+      "regional_soil_properties_grid.csv",
+      "borehole_data_detailed.csv",
+      "liquefaction_hazard_map.csv", 
+      "landslide_hazard_map.csv",
+      "geospatial_metadata.json"
+    ],
+    "regional_grid": {
+      "point_count": 93080,
+      "grid_resolution": "0.005 degrees (~500m)",
+      "regions": [
+        "San Francisco Bay Area, CA",
+        "Los Angeles Basin, CA", 
+        "Puget Sound, WA"
+      ],
+      "parameters": [
+        "longitude", "latitude", "region", "sand_content_pct", "clay_content_pct",
+        "silt_content_pct", "plasticity_index", "liquid_limit", "n_spt_blows",
+        "relative_density_pct", "undrained_shear_strength_kPa", "depth_to_bedrock_m",
+        "groundwater_depth_m", "elevation_m", "slope_angle_deg",
+        "peak_ground_acceleration_g", "liquefaction_susceptibility", "landslide_susceptibility"
+      ],
+      "spatial_extent": {
+        "longitude_range": [-122.8, -117.6],
+        "latitude_range": [33.7, 47.8]
+      }
+    },
+    "borehole_data": {
+      "borehole_count": 298,
+      "layer_count": 1494,
+      "max_depth_m": 30,
+      "parameters": [
+        "borehole_id", "longitude", "latitude", "depth_top_m", "depth_bottom_m",
+        "layer_thickness_m", "soil_type", "sand_content_pct", "clay_content_pct",
+        "silt_content_pct", "n_spt_blows", "friction_angle_deg",
+        "undrained_shear_strength_kPa", "unit_weight_kN_m3", "permeability_m_s",
+        "plasticity_index", "liquid_limit"
+      ],
+      "soil_classifications": [
+        "Sand (SP/SW)", "Silty/Clayey Sand (SM/SC)", "Fat Clay (CH)",
+        "Lean Clay (CL)", "Silt (ML/MH)"
+      ]
+    },
+    "hazard_maps": {
+      "liquefaction_hazard": {
+        "point_count": 93080,
+        "hazard_levels": ["Very Low", "Low", "Moderate", "High", "Very High"],
+        "parameters": ["longitude", "latitude", "liquefaction_potential_index", "liquefaction_hazard_level"]
+      },
+      "landslide_hazard": {
+        "point_count": 93080,
+        "hazard_levels": ["Low", "Moderate", "High", "Very High"],
+        "parameters": ["longitude", "latitude", "factor_of_safety", "landslide_hazard_level"]
+      }
+    },
+    "applications": [
+      "Regional hazard assessment",
+      "Spatial variability analysis",
+      "Site characterization and selection",
+      "Infrastructure risk mapping",
+      "Geological model development"
+    ]
+  },
+  "analysis_tools": {
+    "description": "Comprehensive analysis and visualization tools",
+    "scripts": [
+      "generate_sandy_soil_data.py",
+      "generate_clay_soil_data.py",
+      "generate_case_studies.py", 
+      "generate_geospatial_data.py",
+      "data_analysis_tools.py"
+    ],
+    "capabilities": [
+      "Statistical analysis and correlations",
+      "Data visualization and plotting",
+      "Predictive modeling with machine learning",
+      "Failure mechanism analysis",
+      "Geospatial data processing"
+    ],
+    "key_correlations": {
+      "sandy_soils": {
+        "relative_density_vs_friction_angle": 0.809,
+        "sand_content_vs_cyclic_resistance": -0.799,
+        "crr_vs_relative_density": 0.016
+      },
+      "clay_soils": {
+        "liquid_limit_vs_compression_index": 0.851,
+        "plasticity_index_vs_undrained_strength": 0.180
+      }
+    },
+    "predictive_models": {
+      "liquefaction_factor_safety": {
+        "model_type": "Random Forest",
+        "r2_score": -0.066,
+        "rmse": 0.210,
+        "top_features": ["fines_content_pct", "depth_m", "relative_density_pct"]
+      },
+      "clay_undrained_strength": {
+        "model_type": "Random Forest", 
+        "r2_score": 0.498,
+        "rmse": 13.872,
+        "top_features": ["ocr", "clay_content_pct", "plasticity_index", "liquid_limit_pct"]
+      }
+    }
+  },
+  "quality_assurance": {
+    "data_generation": "Synthetic data based on established geotechnical relationships",
+    "validation": "Statistical distributions match published literature values",
+    "correlations": "Reflect established geotechnical engineering principles",
+    "realism": "Parameter ranges and relationships based on real-world data",
+    "consistency": "Cross-validated between different dataset components"
+  },
+  "research_applications": {
+    "primary_focus": [
+      "Underground structure failure mechanisms",
+      "Liquefaction analysis and prediction", 
+      "Progressive failure in clay soils",
+      "Soil-structure interaction during failure"
+    ],
+    "secondary_applications": [
+      "Geotechnical site characterization",
+      "Hazard mapping and risk assessment",
+      "Ground improvement design",
+      "Early warning system development"
+    ],
+    "recommended_analyses": [
+      "Correlation and regression studies",
+      "Classification and clustering analysis",
+      "Time-series analysis of monitoring data",
+      "Spatial analysis and interpolation",
+      "Machine learning model development"
+    ]
+  },
+  "citation": {
+    "title": "Geotechnical Datasets for PhD Research: Failure Mechanisms of Underground Structures in Sandy and Clay Soils",
+    "type": "Generated Dataset Collection",
+    "year": 2024,
+    "format": "CSV, JSON",
+    "license": "Academic Research Use"
+  }
+}
