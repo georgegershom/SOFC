@@ -1,0 +1,78 @@
+{
+  "dataset_name": "SOFC Digital Twin Multi-Fidelity Dataset",
+  "version": "1.0-simplified",
+  "creation_date": "2025-10-13T14:36:11.352724",
+  "description": "Simplified multi-physics dataset for SOFC digital twin",
+  "data_sources": {
+    "simulation": {
+      "type": "Simplified physics simulation",
+      "n_samples": 100,
+      "grid_size": [
+        20,
+        20,
+        5
+      ],
+      "physics": [
+        "electrochemical",
+        "thermal",
+        "structural"
+      ]
+    },
+    "experimental": {
+      "type": "Synthetic experimental data",
+      "duration_hours": 1000,
+      "measurements": [
+        "voltage",
+        "current",
+        "temperature",
+        "EIS",
+        "thermal_imaging",
+        "strain_gauge",
+        "acoustic_emission"
+      ]
+    },
+    "monitoring": {
+      "type": "Real-time monitoring streams",
+      "frequency_hz": 1.0,
+      "duration_seconds": 3600
+    }
+  },
+  "parameter_ranges": {
+    "current_density": [
+      1000,
+      10000
+    ],
+    "fuel_utilization": [
+      0.3,
+      0.85
+    ],
+    "air_utilization": [
+      0.2,
+      0.5
+    ],
+    "fuel_temperature": [
+      600,
+      800
+    ],
+    "air_temperature": [
+      500,
+      700
+    ],
+    "crack_length": [
+      0,
+      5
+    ],
+    "porosity_change": [
+      0.9,
+      1.2
+    ]
+  },
+  "units": {
+    "current_density": "A/m\u00b2",
+    "temperature": "\u00b0C",
+    "stress": "Pa",
+    "strain": "dimensionless",
+    "voltage": "V",
+    "current": "A"
+  }
+}
