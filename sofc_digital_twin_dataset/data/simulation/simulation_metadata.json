@@ -1,0 +1,2502 @@
+[
+  {
+    "sim_id": 0,
+    "parameters": {
+      "current_density": 4370.861069626262,
+      "fuel_utilization": 0.822892868525454,
+      "air_utilization": 0.4195981825434215,
+      "fuel_temperature": 719.7316968394073,
+      "air_temperature": 531.2037280884873,
+      "crack_length": 0.7799726016810132,
+      "porosity_change": 0.9174250836504598
+    },
+    "outputs": {
+      "voltage": 0.6302934917549293,
+      "max_stress": 55674409.5459893,
+      "creep_damage": 0.058908259322367026
+    },
+    "field_stats": {
+      "temperature_mean": 802.1126753950224,
+      "temperature_std": 49.438879861951804,
+      "stress_mean": 55616157.718379766,
+      "stress_std": 11187232.034535464,
+      "current_density_mean": 4349.565149919985,
+      "current_density_std": 436.85662499345847
+    }
+  },
+  {
+    "sim_id": 1,
+    "parameters": {
+      "current_density": 3207.513744769306,
+      "fuel_utilization": 0.5466243125587631,
+      "air_utilization": 0.2961608500419487,
+      "fuel_temperature": 748.8838507626651,
+      "air_temperature": 694.2439823770989,
+      "crack_length": 2.190168283488234,
+      "porosity_change": 1.158310019991672
+    },
+    "outputs": {
+      "voltage": 0.6811872938487376,
+      "max_stress": 57113458.12977028,
+      "creep_damage": 0.07209651934774566
+    },
+    "field_stats": {
+      "temperature_mean": 799.9435044800218,
+      "temperature_std": 51.62003251660586,
+      "stress_mean": 57120877.7100179,
+      "stress_std": 11297836.828594392,
+      "current_density_mean": 3199.344067091781,
+      "current_density_std": 318.1920568131665
+    }
+  },
+  {
+    "sim_id": 2,
+    "parameters": {
+      "current_density": 1298.6886720250134,
+      "fuel_utilization": 0.5843580981376938,
+      "air_utilization": 0.2590059302380584,
+      "fuel_temperature": 751.5692585864942,
+      "air_temperature": 628.2399266464297,
+      "crack_length": 4.618013339889589,
+      "porosity_change": 1.1348965071797208
+    },
+    "outputs": {
+      "voltage": 0.7155904167457304,
+      "max_stress": 62157817.170467645,
+      "creep_damage": 0.10139906453982812
+    },
+    "field_stats": {
+      "temperature_mean": 801.8945902590248,
+      "temperature_std": 50.190235563464825,
+      "stress_mean": 62327404.48895453,
+      "stress_std": 12601528.34358299,
+      "current_density_mean": 1302.298069961907,
+      "current_density_std": 129.74066591243036
+    }
+  },
+  {
+    "sim_id": 3,
+    "parameters": {
+      "current_density": 6992.137856778541,
+      "fuel_utilization": 0.3365428974998452,
+      "air_utilization": 0.46279619951222306,
+      "fuel_temperature": 787.8138384202136,
+      "air_temperature": 623.5814848237297,
+      "crack_length": 4.406954993184485,
+      "porosity_change": 0.9394338049944637
+    },
+    "outputs": {
+      "voltage": 0.6265029531144447,
+      "max_stress": 60496624.47386819,
+      "creep_damage": 0.1280115458675052
+    },
+    "field_stats": {
+      "temperature_mean": 800.7217750746593,
+      "temperature_std": 50.06352828203803,
+      "stress_mean": 60468361.17471707,
+      "stress_std": 12045491.016143128,
+      "current_density_mean": 6971.417544716777,
+      "current_density_std": 688.2220411936179
+    }
+  },
+  {
+    "sim_id": 4,
+    "parameters": {
+      "current_density": 6775.313238424578,
+      "fuel_utilization": 0.7490232601267244,
+      "air_utilization": 0.28657305587580906,
+      "fuel_temperature": 796.2856160960193,
+      "air_temperature": 587.8931478627899,
+      "crack_length": 1.4797187732974681,
+      "porosity_change": 1.0045348002004373
+    },
+    "outputs": {
+      "voltage": 0.589591409218836,
+      "max_stress": 56704553.84722856,
+      "creep_damage": 0.05557367811430555
+    },
+    "field_stats": {
+      "temperature_mean": 800.1215437594466,
+      "temperature_std": 48.181059019632926,
+      "stress_mean": 56775634.580418654,
+      "stress_std": 11439497.635043576,
+      "current_density_mean": 6746.188225693779,
+      "current_density_std": 678.7427048512603
+    }
+  },
+  {
+    "sim_id": 5,
+    "parameters": {
+      "current_density": 4750.845198409307,
+      "fuel_utilization": 0.32306952780047177,
+      "air_utilization": 0.4159764356511365,
+      "fuel_temperature": 656.1967882565648,
+      "air_temperature": 509.8170624534381,
+      "crack_length": 0.10310538263452074,
+      "porosity_change": 1.1794083805731954
+    },
+    "outputs": {
+      "voltage": 0.6726761432517667,
+      "max_stress": 51821558.4042714,
+      "creep_damage": 0.01466590808489886
+    },
+    "field_stats": {
+      "temperature_mean": 800.0912586681526,
+      "temperature_std": 50.25098117027113,
+      "stress_mean": 51831584.941796705,
+      "stress_std": 10817393.449072674,
+      "current_density_mean": 4729.3497594094515,
+      "current_density_std": 479.86566569715046
+    }
+  },
+  {
+    "sim_id": 6,
+    "parameters": {
+      "current_density": 3309.616249776775,
+      "fuel_utilization": 0.7897293074356242,
+      "air_utilization": 0.23391435444591552,
+      "fuel_temperature": 603.6175413770973,
+      "air_temperature": 528.7822065296078,
+      "crack_length": 0.818216267486721,
+      "porosity_change": 1.0614126600142697
+    },
+    "outputs": {
+      "voltage": 0.6548347442609022,
+      "max_stress": 55585079.072151564,
+      "creep_damage": 0.0476076003815863
+    },
+    "field_stats": {
+      "temperature_mean": 798.2655177979349,
+      "temperature_std": 48.007085254784954,
+      "stress_mean": 56054207.59998381,
+      "stress_std": 11117539.200482037,
+      "current_density_mean": 3317.0553469460997,
+      "current_density_std": 329.94589026996596
+    }
+  },
+  {
+    "sim_id": 7,
+    "parameters": {
+      "current_density": 9537.964111773832,
+      "fuel_utilization": 0.7284293782308581,
+      "air_utilization": 0.3490200965096587,
+      "fuel_temperature": 783.7138374573265,
+      "air_temperature": 671.1686527913864,
+      "crack_length": 3.461091128786298,
+      "porosity_change": 0.9458895943085137
+    },
+    "outputs": {
+      "voltage": 0.5363977799414376,
+      "max_stress": 60564329.14872689,
+      "creep_damage": 0.09407551885173583
+    },
+    "field_stats": {
+      "temperature_mean": 800.9805243503027,
+      "temperature_std": 51.15949659619243,
+      "stress_mean": 60762863.267166466,
+      "stress_std": 11562841.455871608,
+      "current_density_mean": 9495.098149268017,
+      "current_density_std": 960.8026927392635
+    }
+  },
+  {
+    "sim_id": 8,
+    "parameters": {
+      "current_density": 1549.3375556847086,
+      "fuel_utilization": 0.3930132299964272,
+      "air_utilization": 0.28587492573523293,
+      "fuel_temperature": 656.9415639953183,
+      "air_temperature": 667.8395410226093,
+      "crack_length": 2.991196805875194,
+      "porosity_change": 0.9250126007932382
+    },
+    "outputs": {
+      "voltage": 0.7297119258866631,
+      "max_stress": 57947459.761732526,
+      "creep_damage": 0.07918386480242144
+    },
+    "field_stats": {
+      "temperature_mean": 800.9111522574954,
+      "temperature_std": 50.76349387271474,
+      "stress_mean": 57913967.661031954,
+      "stress_std": 11422807.342623107,
+      "current_density_mean": 1550.859830019806,
+      "current_density_std": 157.5359966895864
+    }
+  },
+  {
+    "sim_id": 9,
+    "parameters": {
+      "current_density": 6106.41097937084,
+      "fuel_utilization": 0.5292295483088731,
+      "air_utilization": 0.28794586336664324,
+      "fuel_temperature": 690.3374865793753,
+      "air_temperature": 558.1655534361198,
+      "crack_length": 1.5093679168739182,
+      "porosity_change": 1.0831901031879765
+    },
+    "outputs": {
+      "voltage": 0.624948825581696,
+      "max_stress": 55664883.5752922,
+      "creep_damage": 0.05404062192106327
+    },
+    "field_stats": {
+      "temperature_mean": 799.5127766508928,
+      "temperature_std": 50.757453369919936,
+      "stress_mean": 55583417.297557,
+      "stress_std": 11367001.37215829,
+      "current_density_mean": 6122.753521122519,
+      "current_density_std": 614.9200325853998
+    }
+  },
+  {
+    "sim_id": 10,
+    "parameters": {
+      "current_density": 1848.2155290123062,
+      "fuel_utilization": 0.46253112375746347,
+      "air_utilization": 0.24741118460971923,
+      "fuel_temperature": 747.2788737312426,
+      "air_temperature": 634.5448835263159,
+      "crack_length": 0.6765274029683072,
+      "porosity_change": 0.917799103841153
+    },
+    "outputs": {
+      "voltage": 0.7167825770440075,
+      "max_stress": 53665710.42472393,
+      "creep_damage": 0.03684731060797576
+    },
+    "field_stats": {
+      "temperature_mean": 800.9929673295673,
+      "temperature_std": 50.40763612059612,
+      "stress_mean": 53931680.760091946,
+      "stress_std": 10809894.118500896,
+      "current_density_mean": 1850.9699806324343,
+      "current_density_std": 183.0914844900881
+    }
+  },
+  {
+    "sim_id": 11,
+    "parameters": {
+      "current_density": 6318.251050670627,
+      "fuel_utilization": 0.7027772905832557,
+      "air_utilization": 0.27140350226300564,
+      "fuel_temperature": 633.9304563497838,
+      "air_temperature": 627.9061365867036,
+      "crack_length": 1.965638771491629,
+      "porosity_change": 1.0279692877328297
+    },
+    "outputs": {
+      "voltage": 0.603357249928262,
+      "max_stress": 57445163.995899536,
+      "creep_damage": 0.06286878338804618
+    },
+    "field_stats": {
+      "temperature_mean": 800.0466494398802,
+      "temperature_std": 48.554758216353875,
+      "stress_mean": 57353983.214812964,
+      "stress_std": 11290318.830333939,
+      "current_density_mean": 6302.43939926095,
+      "current_density_std": 629.5329415437433
+    }
+  },
+  {
+    "sim_id": 12,
+    "parameters": {
+      "current_density": 6982.441459026162,
+      "fuel_utilization": 0.4980294811867405,
+      "air_utilization": 0.248651875735512,
+      "fuel_temperature": 743.2358657118751,
+      "air_temperature": 554.078938219323,
+      "crack_length": 4.310052602098754,
+      "porosity_change": 1.1178688703854198
+    },
+    "outputs": {
+      "voltage": 0.6105482227008028,
+      "max_stress": 61110252.610131204,
+      "creep_damage": 0.13082071470692805
+    },
+    "field_stats": {
+      "temperature_mean": 801.1277430322826,
+      "temperature_std": 49.90339907550124,
+      "stress_mean": 60976408.60098469,
+      "stress_std": 12292706.542513266,
+      "current_density_mean": 6980.225462297855,
+      "current_density_std": 719.204912484652
+    }
+  },
+  {
+    "sim_id": 13,
+    "parameters": {
+      "current_density": 8239.368566197394,
+      "fuel_utilization": 0.7567667688617623,
+      "air_utilization": 0.45537606628009997,
+      "fuel_temperature": 788.3139987103439,
+      "air_temperature": 691.3173070698635,
+      "crack_length": 0.5396256769367613,
+      "porosity_change": 1.1633133077781457
+    },
+    "outputs": {
+      "voltage": 0.5595359517898759,
+      "max_stress": 54863085.19818233,
+      "creep_damage": 0.05306583742192748
+    },
+    "field_stats": {
+      "temperature_mean": 800.3661563797675,
+      "temperature_std": 50.26269767287383,
+      "stress_mean": 55020476.27799261,
+      "stress_std": 11096616.031050138,
+      "current_density_mean": 8243.37963358665,
+      "current_density_std": 828.6721609890078
+    }
+  },
+  {
+    "sim_id": 14,
+    "parameters": {
+      "current_density": 1060.0826045814135,
+      "fuel_utilization": 0.6264543586582945,
+      "air_utilization": 0.35762617653118683,
+      "fuel_temperature": 702.9037792453921,
+      "air_temperature": 620.7071119968155,
+      "crack_length": 4.012204008732637,
+      "porosity_change": 0.9138213025687242
+    },
+    "outputs": {
+      "voltage": 0.7161529120425423,
+      "max_stress": 61156679.81075674,
+      "creep_damage": 0.0876857380226603
+    },
+    "field_stats": {
+      "temperature_mean": 800.4185772232415,
+      "temperature_std": 49.71237087426514,
+      "stress_mean": 61303254.39464949,
+      "stress_std": 12204515.50619663,
+      "current_density_mean": 1059.296740825322,
+      "current_density_std": 105.70747943018672
+    }
+  },
+  {
+    "sim_id": 15,
+    "parameters": {
+      "current_density": 3809.5145293649966,
+      "fuel_utilization": 0.5255403321860667,
+      "air_utilization": 0.23237226462975843,
+      "fuel_temperature": 795.9952153515577,
+      "air_temperature": 522.9974996163993,
+      "crack_length": 0.3568118675841503,
+      "porosity_change": 1.0753464951317564
+    },
+    "outputs": {
+      "voltage": 0.6712556761940934,
+      "max_stress": 53341325.396098636,
+      "creep_damage": 0.03821375822886179
+    },
+    "field_stats": {
+      "temperature_mean": 800.4578915549467,
+      "temperature_std": 49.328184835451296,
+      "stress_mean": 53423536.65239504,
+      "stress_std": 10670391.846507033,
+      "current_density_mean": 3809.579434896957,
+      "current_density_std": 382.77315471212154
+    }
+  },
+  {
+    "sim_id": 16,
+    "parameters": {
+      "current_density": 1347.637737524903,
+      "fuel_utilization": 0.6588735363667527,
+      "air_utilization": 0.4053951073040619,
+      "fuel_temperature": 667.2924682363367,
+      "air_temperature": 500.24434089446186,
+      "crack_length": 2.8583682716615497,
+      "porosity_change": 1.1324920377918517
+    },
+    "outputs": {
+      "voltage": 0.7071598916128267,
+      "max_stress": 59011104.225156866,
+      "creep_damage": 0.06813077258126474
+    },
+    "field_stats": {
+      "temperature_mean": 798.2187610141316,
+      "temperature_std": 49.95645245435168,
+      "stress_mean": 58844058.083886534,
+      "stress_std": 11728011.89146835,
+      "current_density_mean": 1347.9587008424353,
+      "current_density_std": 133.97036326058992
+    }
+  },
+  {
+    "sim_id": 17,
+    "parameters": {
+      "current_density": 9802.222242701282,
+      "fuel_utilization": 0.35053826818836076,
+      "air_utilization": 0.27532255832123675,
+      "fuel_temperature": 628.1194204012955,
+      "air_temperature": 652.7343228716032,
+      "crack_length": 4.289842014255492,
+      "porosity_change": 1.092357854186423
+    },
+    "outputs": {
+      "voltage": 0.5689017283271383,
+      "max_stress": 60332375.36945279,
+      "creep_damage": 0.0986999523703616
+    },
+    "field_stats": {
+      "temperature_mean": 799.5297339783883,
+      "temperature_std": 50.68262966358984,
+      "stress_mean": 60331227.98968071,
+      "stress_std": 11861102.409635736,
+      "current_density_mean": 9849.90935838186,
+      "current_density_std": 988.8829422978313
+    }
+  },
+  {
+    "sim_id": 18,
+    "parameters": {
+      "current_density": 8942.158599190716,
+      "fuel_utilization": 0.3089417286642013,
+      "air_utilization": 0.4491718822398753,
+      "fuel_temperature": 642.3364412542142,
+      "air_temperature": 690.0305126245539,
+      "crack_length": 1.5950051092736568,
+      "porosity_change": 1.115500976504177
+    },
+    "outputs": {
+      "voltage": 0.5902626551497655,
+      "max_stress": 54734718.86186832,
+      "creep_damage": 0.07245434162749805
+    },
+    "field_stats": {
+      "temperature_mean": 800.9245086182113,
+      "temperature_std": 48.32896627107654,
+      "stress_mean": 54717713.2715755,
+      "stress_std": 11112358.809595566,
+      "current_density_mean": 8963.006129243568,
+      "current_density_std": 867.5415183795868
+    }
+  },
+  {
+    "sim_id": 19,
+    "parameters": {
+      "current_density": 9090.10250123073,
+      "fuel_utilization": 0.4901284978594538,
+      "air_utilization": 0.27618367364310903,
+      "fuel_temperature": 618.7644262323353,
+      "air_temperature": 621.3334535875134,
+      "crack_length": 3.7158793279339193,
+      "porosity_change": 0.9596260703108175
+    },
+    "outputs": {
+      "voltage": 0.5691851001894401,
+      "max_stress": 59882401.14516511,
+      "creep_damage": 0.10517229706671083
+    },
+    "field_stats": {
+      "temperature_mean": 799.21146557458,
+      "temperature_std": 51.25210340217034,
+      "stress_mean": 60191525.73965131,
+      "stress_std": 12148518.231526727,
+      "current_density_mean": 9075.231509634817,
+      "current_density_std": 922.1183398346827
+    }
+  },
+  {
+    "sim_id": 20,
+    "parameters": {
+      "current_density": 6892.739039992606,
+      "fuel_utilization": 0.7887392397166293,
+      "air_utilization": 0.45152834734692193,
+      "fuel_temperature": 771.1734831013964,
+      "air_temperature": 515.5922295994376,
+      "crack_length": 0.1467353327484744,
+      "porosity_change": 1.0401096502116522
+    },
+    "outputs": {
+      "voltage": 0.583271295228485,
+      "max_stress": 54237166.864080094,
+      "creep_damage": 0.016114632357349706
+    },
+    "field_stats": {
+      "temperature_mean": 798.460425742985,
+      "temperature_std": 49.98313098033658,
+      "stress_mean": 54118070.14413946,
+      "stress_std": 10626930.079516843,
+      "current_density_mean": 6907.609193950273,
+      "current_density_std": 674.6270343794623
+    }
+  },
+  {
+    "sim_id": 21,
+    "parameters": {
+      "current_density": 1208.8576210313113,
+      "fuel_utilization": 0.4576840100805243,
+      "air_utilization": 0.3004448196994016,
+      "fuel_temperature": 698.4907547758731,
+      "air_temperature": 530.9563391285384,
+      "crack_length": 3.3843291571985334,
+      "porosity_change": 0.9226268178360326
+    },
+    "outputs": {
+      "voltage": 0.7300544465713213,
+      "max_stress": 59057078.364799686,
+      "creep_damage": 0.07930011347473497
+    },
+    "field_stats": {
+      "temperature_mean": 798.6905374798165,
+      "temperature_std": 50.56535543932102,
+      "stress_mean": 59348576.27928915,
+      "stress_std": 11708647.312939323,
+      "current_density_mean": 1208.9281543770321,
+      "current_density_std": 122.34043655765093
+    }
+  },
+  {
+    "sim_id": 22,
+    "parameters": {
+      "current_density": 7370.159871672858,
+      "fuel_utilization": 0.8157303868852421,
+      "air_utilization": 0.4778255348801643,
+      "fuel_temperature": 665.736198028129,
+      "air_temperature": 571.2120830338723,
+      "crack_length": 4.68604389467878,
+      "porosity_change": 0.922276911933964
+    },
+    "outputs": {
+      "voltage": 0.5710237638780187,
+      "max_stress": 63450739.72378377,
+      "creep_damage": 0.11238374616604722
+    },
+    "field_stats": {
+      "temperature_mean": 799.9602663022324,
+      "temperature_std": 50.05612278790362,
+      "stress_mean": 63655811.05590567,
+      "stress_std": 13129575.74066843,
+      "current_density_mean": 7386.425820308725,
+      "current_density_std": 734.4869204418882
+    }
+  },
+  {
+    "sim_id": 23,
+    "parameters": {
+      "current_density": 1466.6026210073285,
+      "fuel_utilization": 0.8469681021263189,
+      "air_utilization": 0.47436066671130095,
+      "fuel_temperature": 724.5446572777091,
+      "air_temperature": 633.7581976598706,
+      "crack_length": 1.4429978725378634,
+      "porosity_change": 0.920774561476051
+    },
+    "outputs": {
+      "voltage": 0.6859711373672216,
+      "max_stress": 57120836.255707316,
+      "creep_damage": 0.06905537212631191
+    },
+    "field_stats": {
+      "temperature_mean": 799.3728419197716,
+      "temperature_std": 49.88410752803714,
+      "stress_mean": 57089150.431418136,
+      "stress_std": 11415934.999259839,
+      "current_density_mean": 1462.7594192405415,
+      "current_density_std": 143.32953703786401
+    }
+  },
+  {
+    "sim_id": 24,
+    "parameters": {
+      "current_density": 9736.160067276474,
+      "fuel_utilization": 0.70004578121366,
+      "air_utilization": 0.39513718438961876,
+      "fuel_temperature": 709.2791514689476,
+      "air_temperature": 536.018816018222,
+      "crack_length": 4.098555529460765,
+      "porosity_change": 1.0666650926697183
+    },
+    "outputs": {
+      "voltage": 0.5352722205331045,
+      "max_stress": 61697339.96498983,
+      "creep_damage": 0.10053672225440859
+    },
+    "field_stats": {
+      "temperature_mean": 798.9056496431746,
+      "temperature_std": 49.39544693914063,
+      "stress_mean": 61769330.15712529,
+      "stress_std": 12370651.33975931,
+      "current_density_mean": 9788.727509701366,
+      "current_density_std": 981.8398874752272
+    }
+  },
+  {
+    "sim_id": 25,
+    "parameters": {
+      "current_density": 5244.369313699125,
+      "fuel_utilization": 0.49311782817106264,
+      "air_utilization": 0.48309585803622734,
+      "fuel_temperature": 792.7406509220709,
+      "air_temperature": 672.1682329813939,
+      "crack_length": 4.831763776444501,
+      "porosity_change": 1.0455145042778764
+    },
+    "outputs": {
+      "voltage": 0.6458008309089113,
+      "max_stress": 62129116.69374432,
+      "creep_damage": 0.11557320868433071
+    },
+    "field_stats": {
+      "temperature_mean": 800.4023669162316,
+      "temperature_std": 49.272278571153116,
+      "stress_mean": 61971523.20819734,
+      "stress_std": 12235899.926656727,
+      "current_density_mean": 5247.149969902806,
+      "current_density_std": 511.9530371938914
+    }
+  },
+  {
+    "sim_id": 26,
+    "parameters": {
+      "current_density": 2687.95635047452,
+      "fuel_utilization": 0.7857539052563782,
+      "air_utilization": 0.3035388650059104,
+      "fuel_temperature": 788.2334957084652,
+      "air_temperature": 536.1444128295519,
+      "crack_length": 0.09105799827363203,
+      "porosity_change": 1.033052378336724
+    },
+    "outputs": {
+      "voltage": 0.6676654824648718,
+      "max_stress": 54110885.52282916,
+      "creep_damage": 0.018681463900422083
+    },
+    "field_stats": {
+      "temperature_mean": 799.714760866213,
+      "temperature_std": 50.598700633615714,
+      "stress_mean": 54133247.55370468,
+      "stress_std": 10488669.698299019,
+      "current_density_mean": 2674.6268912485793,
+      "current_density_std": 268.84182304766296
+    }
+  },
+  {
+    "sim_id": 27,
+    "parameters": {
+      "current_density": 3769.1051982353874,
+      "fuel_utilization": 0.7795497184423359,
+      "air_utilization": 0.37033471896613235,
+      "fuel_temperature": 689.067244245972,
+      "air_temperature": 548.628445449722,
+      "crack_length": 1.743700261089225,
+      "porosity_change": 0.9185520606763957
+    },
+    "outputs": {
+      "voltage": 0.6466629241910586,
+      "max_stress": 57385149.11439013,
+      "creep_damage": 0.05384218807504149
+    },
+    "field_stats": {
+      "temperature_mean": 800.9881980604721,
+      "temperature_std": 50.150321961728906,
+      "stress_mean": 57270416.264897235,
+      "stress_std": 11531645.66081149,
+      "current_density_mean": 3775.2414774633685,
+      "current_density_std": 374.68107963525455
+    }
+  },
+  {
+    "sim_id": 28,
+    "parameters": {
+      "current_density": 8854.679816512702,
+      "fuel_utilization": 0.4644734558479494,
+      "air_utilization": 0.3584852295228411,
+      "fuel_temperature": 684.2356941372227,
+      "air_temperature": 579.5352597948242,
+      "crack_length": 3.41306605418331,
+      "porosity_change": 0.987993149087374
+    },
+    "outputs": {
+      "voltage": 0.5764590580849511,
+      "max_stress": 59148499.38760637,
+      "creep_damage": 0.08803143681507178
+    },
+    "field_stats": {
+      "temperature_mean": 799.8381758107669,
+      "temperature_std": 50.039667664116465,
+      "stress_mean": 59330890.57678364,
+      "stress_std": 11674301.912605705,
+      "current_density_mean": 8857.017336343893,
+      "current_density_std": 895.7942583733062
+    }
+  },
+  {
+    "sim_id": 29,
+    "parameters": {
+      "current_density": 9311.89530501598,
+      "fuel_utilization": 0.8138383940586618,
+      "air_utilization": 0.23715427507529174,
+      "fuel_temperature": 664.5289077777107,
+      "air_temperature": 547.0725621289562,
+      "crack_length": 1.8932999312462495,
+      "porosity_change": 0.9838824511553889
+    },
+    "outputs": {
+      "voltage": 0.5323782544938143,
+      "max_stress": 57855791.83278581,
+      "creep_damage": 0.07304373411116172
+    },
+    "field_stats": {
+      "temperature_mean": 800.5845326290706,
+      "temperature_std": 49.914926346577104,
+      "stress_mean": 57951379.59315854,
+      "stress_std": 11510764.389577942,
+      "current_density_mean": 9337.783180042417,
+      "current_density_std": 937.4950788795448
+    }
+  },
+  {
+    "sim_id": 30,
+    "parameters": {
+      "current_density": 7438.466368516363,
+      "fuel_utilization": 0.5047757672166071,
+      "air_utilization": 0.4425754207809375,
+      "fuel_temperature": 755.4800895017182,
+      "air_temperature": 539.8377026930807,
+      "crack_length": 0.9585516084134976,
+      "porosity_change": 1.0826961275264992
+    },
+    "outputs": {
+      "voltage": 0.6007530959080121,
+      "max_stress": 54440982.05291003,
+      "creep_damage": 0.027551771335975722
+    },
+    "field_stats": {
+      "temperature_mean": 800.2537521681592,
+      "temperature_std": 48.90012000152566,
+      "stress_mean": 54108720.33926838,
+      "stress_std": 10967107.079631237,
+      "current_density_mean": 7431.650510762574,
+      "current_density_std": 736.354721005228
+    }
+  },
+  {
+    "sim_id": 31,
+    "parameters": {
+      "current_density": 9354.11871585167,
+      "fuel_utilization": 0.6081864262541624,
+      "air_utilization": 0.49672415794419317,
+      "fuel_temperature": 707.5586562493077,
+      "air_temperature": 606.3474253718013,
+      "crack_length": 2.6047929342605824,
+      "porosity_change": 1.1128396201269195
+    },
+    "outputs": {
+      "voltage": 0.5520989830575505,
+      "max_stress": 58250517.99979198,
+      "creep_damage": 0.05616233992482449
+    },
+    "field_stats": {
+      "temperature_mean": 798.0980648486036,
+      "temperature_std": 51.03109524675046,
+      "stress_mean": 58026415.093404286,
+      "stress_std": 11743830.75657437,
+      "current_density_mean": 9361.362112866243,
+      "current_density_std": 928.9907811571434
+    }
+  },
+  {
+    "sim_id": 32,
+    "parameters": {
+      "current_density": 3146.165236433499,
+      "fuel_utilization": 0.6820452323712092,
+      "air_utilization": 0.42873974177057483,
+      "fuel_temperature": 683.5671615008874,
+      "air_temperature": 608.0443638280603,
+      "crack_length": 4.056820839714085,
+      "porosity_change": 1.092129003872685
+    },
+    "outputs": {
+      "voltage": 0.6688721720342091,
+      "max_stress": 61523867.841284215,
+      "creep_damage": 0.11521015228330103
+    },
+    "field_stats": {
+      "temperature_mean": 801.1953335520789,
+      "temperature_std": 49.82427439088456,
+      "stress_mean": 61345232.16129364,
+      "stress_std": 12471460.63437389,
+      "current_density_mean": 3142.5130906621375,
+      "current_density_std": 314.3660838555227
+    }
+  },
+  {
+    "sim_id": 33,
+    "parameters": {
+      "current_density": 5990.534596610352,
+      "fuel_utilization": 0.5787561404772426,
+      "air_utilization": 0.46438962683265234,
+      "fuel_temperature": 797.6880809188747,
+      "air_temperature": 684.4065583586325,
+      "crack_length": 1.9028775936749693,
+      "porosity_change": 0.917163449167294
+    },
+    "outputs": {
+      "voltage": 0.6223136940200688,
+      "max_stress": 56699535.88973615,
+      "creep_damage": 0.07290641639557509
+    },
+    "field_stats": {
+      "temperature_mean": 800.4799531882335,
+      "temperature_std": 50.45108321104664,
+      "stress_mean": 56547839.23478662,
+      "stress_std": 11325625.351588504,
+      "current_density_mean": 5987.6307843904,
+      "current_density_std": 613.0553713890654
+    }
+  },
+  {
+    "sim_id": 34,
+    "parameters": {
+      "current_density": 8603.490428243822,
+      "fuel_utilization": 0.7004781140032521,
+      "air_utilization": 0.2901555766775392,
+      "fuel_temperature": 755.8270044656863,
+      "air_temperature": 592.9944119512616,
+      "crack_length": 1.9306152064682802,
+      "porosity_change": 1.1054195504229531
+    },
+    "outputs": {
+      "voltage": 0.5578823800347984,
+      "max_stress": 57363620.98295282,
+      "creep_damage": 0.0871591165957672
+    },
+    "field_stats": {
+      "temperature_mean": 798.1215931410494,
+      "temperature_std": 49.98618246769107,
+      "stress_mean": 57350085.92112033,
+      "stress_std": 11417599.240087448,
+      "current_density_mean": 8602.290164318942,
+      "current_density_std": 869.4445977806336
+    }
+  },
+  {
+    "sim_id": 35,
+    "parameters": {
+      "current_density": 4940.131724666002,
+      "fuel_utilization": 0.5117063270935631,
+      "air_utilization": 0.4927386358230448,
+      "fuel_temperature": 713.2140404357186,
+      "air_temperature": 688.7913071390359,
+      "crack_length": 1.1251389465812445,
+      "porosity_change": 1.1215416767922683
+    },
+    "outputs": {
+      "voltage": 0.6500267327973237,
+      "max_stress": 54808809.5286303,
+      "creep_damage": 0.05230296696011848
+    },
+    "field_stats": {
+      "temperature_mean": 799.6500583760934,
+      "temperature_std": 49.61707516136924,
+      "stress_mean": 54771549.08887482,
+      "stress_std": 10873315.324754542,
+      "current_density_mean": 4953.481502037268,
+      "current_density_std": 491.79391942110016
+    }
+  },
+  {
+    "sim_id": 36,
+    "parameters": {
+      "current_density": 1075.828067956571,
+      "fuel_utilization": 0.571858980897944,
+      "air_utilization": 0.41584940305224316,
+      "fuel_temperature": 671.462652138562,
+      "air_temperature": 597.6176699653798,
+      "crack_length": 2.1793990508337946,
+      "porosity_change": 0.9975289018069686
+    },
+    "outputs": {
+      "voltage": 0.7212975405510743,
+      "max_stress": 57218093.00615731,
+      "creep_damage": 0.07971205447271229
+    },
+    "field_stats": {
+      "temperature_mean": 798.5543114107993,
+      "temperature_std": 48.75050530798229,
+      "stress_mean": 57327723.4734137,
+      "stress_std": 11368057.836874316,
+      "current_density_mean": 1078.2124193395748,
+      "current_density_std": 106.98341346768741
+    }
+  },
+  {
+    "sim_id": 37,
+    "parameters": {
+      "current_density": 8723.958775112442,
+      "fuel_utilization": 0.6886829116580222,
+      "air_utilization": 0.2879265105692478,
+      "fuel_temperature": 624.3269783646724,
+      "air_temperature": 549.770675806166,
+      "crack_length": 4.20475988178013,
+      "porosity_change": 1.0729490841483953
+    },
+    "outputs": {
+      "voltage": 0.5566525333319491,
+      "max_stress": 61852934.32185037,
+      "creep_damage": 0.10498197422157558
+    },
+    "field_stats": {
+      "temperature_mean": 800.3071482846442,
+      "temperature_std": 50.22399823912832,
+      "stress_mean": 62159999.378091455,
+      "stress_std": 12438077.907811496,
+      "current_density_mean": 8706.69038615008,
+      "current_density_std": 869.9602426094422
+    }
+  },
+  {
+    "sim_id": 38,
+    "parameters": {
+      "current_density": 7834.178331888757,
+      "fuel_utilization": 0.47638287918987154,
+      "air_utilization": 0.24675807163325242,
+      "fuel_temperature": 761.3166038178265,
+      "air_temperature": 522.2626344747285,
+      "crack_length": 2.6903451410202988,
+      "porosity_change": 1.045052638922845
+    },
+    "outputs": {
+      "voltage": 0.5956781454432377,
+      "max_stress": 57762604.67798995,
+      "creep_damage": 0.09716081597555498
+    },
+    "field_stats": {
+      "temperature_mean": 801.1134258709933,
+      "temperature_std": 50.30986149302762,
+      "stress_mean": 57889578.5549936,
+      "stress_std": 11326754.274837421,
+      "current_density_mean": 7851.698815534985,
+      "current_density_std": 776.6844459544628
+    }
+  },
+  {
+    "sim_id": 39,
+    "parameters": {
+      "current_density": 3176.459521895295,
+      "fuel_utilization": 0.5435974722399876,
+      "air_utilization": 0.3640872507081915,
+      "fuel_temperature": 657.935844590221,
+      "air_temperature": 505.07480451136007,
+      "crack_length": 1.8076863535346521,
+      "porosity_change": 1.114874455236793
+    },
+    "outputs": {
+      "voltage": 0.6821110623380954,
+      "max_stress": 56333360.068269245,
+      "creep_damage": 0.04111753557904787
+    },
+    "field_stats": {
+      "temperature_mean": 801.0203005904654,
+      "temperature_std": 50.45465188001517,
+      "stress_mean": 56284786.89292479,
+      "stress_std": 11259915.809046753,
+      "current_density_mean": 3169.6417361135236,
+      "current_density_std": 316.8496502054241
+    }
+  },
+  {
+    "sim_id": 40,
+    "parameters": {
+      "current_density": 9818.985034926638,
+      "fuel_utilization": 0.5974168859992193,
+      "air_utilization": 0.44800116299886483,
+      "fuel_temperature": 749.8412244101022,
+      "air_temperature": 699.6402990819232,
+      "crack_length": 1.390881453606636,
+      "porosity_change": 0.9963632655184609
+    },
+    "outputs": {
+      "voltage": 0.5438786107015453,
+      "max_stress": 55768847.337209366,
+      "creep_damage": 0.05149559228040894
+    },
+    "field_stats": {
+      "temperature_mean": 797.7948121349364,
+      "temperature_std": 48.979938080155904,
+      "stress_mean": 55871833.80862926,
+      "stress_std": 11301945.924608244,
+      "current_density_mean": 9804.916473306708,
+      "current_density_std": 975.1625808235045
+    }
+  },
+  {
+    "sim_id": 41,
+    "parameters": {
+      "current_density": 5976.033041546977,
+      "fuel_utilization": 0.4356821155082156,
+      "air_utilization": 0.23311886329338546,
+      "fuel_temperature": 738.1051021021971,
+      "air_temperature": 694.4485041740559,
+      "crack_length": 4.285781908035299,
+      "porosity_change": 1.045650867446525
+    },
+    "outputs": {
+      "voltage": 0.6369111276182389,
+      "max_stress": 60749974.39361167,
+      "creep_damage": 0.10570429254179854
+    },
+    "field_stats": {
+      "temperature_mean": 797.8959392507364,
+      "temperature_std": 51.36051370364914,
+      "stress_mean": 60774441.04152544,
+      "stress_std": 12580090.756084144,
+      "current_density_mean": 5958.956403079178,
+      "current_density_std": 602.1297382226425
+    }
+  },
+  {
+    "sim_id": 42,
+    "parameters": {
+      "current_density": 8976.073400113863,
+      "fuel_utilization": 0.4133392671945037,
+      "air_utilization": 0.28672442067204984,
+      "fuel_temperature": 630.2401539752827,
+      "air_temperature": 655.6618222431339,
+      "crack_length": 2.911331959428605,
+      "porosity_change": 1.1428359944504272
+    },
+    "outputs": {
+      "voltage": 0.5791446052782724,
+      "max_stress": 57889360.25482973,
+      "creep_damage": 0.08044739196684864
+    },
+    "field_stats": {
+      "temperature_mean": 799.916462034734,
+      "temperature_std": 50.31762786238466,
+      "stress_mean": 58080048.15125178,
+      "stress_std": 11456276.84174542,
+      "current_density_mean": 8957.4685925989,
+      "current_density_std": 890.9261198726592
+    }
+  },
+  {
+    "sim_id": 43,
+    "parameters": {
+      "current_density": 5927.437688465244,
+      "fuel_utilization": 0.49366496714302643,
+      "air_utilization": 0.20463855667648786,
+      "fuel_temperature": 669.2554439039119,
+      "air_temperature": 668.1982515466616,
+      "crack_length": 4.625313457303618,
+      "porosity_change": 1.1666848348456957
+    },
+    "outputs": {
+      "voltage": 0.6320847495163926,
+      "max_stress": 61718951.75032237,
+      "creep_damage": 0.13254309446389465
+    },
+    "field_stats": {
+      "temperature_mean": 801.540062646535,
+      "temperature_std": 48.38057853037889,
+      "stress_mean": 61911786.01941077,
+      "stress_std": 12502831.916701153,
+      "current_density_mean": 5906.052367775893,
+      "current_density_std": 588.6381991456506
+    }
+  },
+  {
+    "sim_id": 44,
+    "parameters": {
+      "current_density": 5302.875128532525,
+      "fuel_utilization": 0.7137352093095433,
+      "air_utilization": 0.2901762768445774,
+      "fuel_temperature": 624.2259443495057,
+      "air_temperature": 581.7104311660269,
+      "crack_length": 0.8219228618460339,
+      "porosity_change": 1.148085641630032
+    },
+    "outputs": {
+      "voltage": 0.6225689764983953,
+      "max_stress": 55212521.770239785,
+      "creep_damage": 0.04001087036471465
+    },
+    "field_stats": {
+      "temperature_mean": 799.8105890395879,
+      "temperature_std": 48.65445499410257,
+      "stress_mean": 55422147.60899573,
+      "stress_std": 11039039.966593796,
+      "current_density_mean": 5279.944789956585,
+      "current_density_std": 523.2898913038329
+    }
+  },
+  {
+    "sim_id": 45,
+    "parameters": {
+      "current_density": 6233.75620476578,
+      "fuel_utilization": 0.7486452666200796,
+      "air_utilization": 0.47734916367815533,
+      "fuel_temperature": 626.1719645309909,
+      "air_temperature": 603.5628288369339,
+      "crack_length": 3.8558730178072524,
+      "porosity_change": 1.0167621150940822
+    },
+    "outputs": {
+      "voltage": 0.6004603492426764,
+      "max_stress": 61454972.36871491,
+      "creep_damage": 0.09938572466135277
+    },
+    "field_stats": {
+      "temperature_mean": 799.5777470696347,
+      "temperature_std": 50.86316157595076,
+      "stress_mean": 61605305.24209754,
+      "stress_std": 11984083.633825302,
+      "current_density_mean": 6249.698516264802,
+      "current_density_std": 633.9851907277566
+    }
+  },
+  {
+    "sim_id": 46,
+    "parameters": {
+      "current_density": 2511.4495956538804,
+      "fuel_utilization": 0.4762173376969819,
+      "air_utilization": 0.35908825297890296,
+      "fuel_temperature": 764.59532435342,
+      "air_temperature": 683.7972375652282,
+      "crack_length": 1.7972476822073409,
+      "porosity_change": 1.1641833678120594
+    },
+    "outputs": {
+      "voltage": 0.7021492743172242,
+      "max_stress": 55975582.05289959,
+      "creep_damage": 0.08237245276911734
+    },
+    "field_stats": {
+      "temperature_mean": 800.9002087601721,
+      "temperature_std": 50.81017489376382,
+      "stress_mean": 56049883.3609874,
+      "stress_std": 11345144.676055247,
+      "current_density_mean": 2516.74099603258,
+      "current_density_std": 249.55376305118438
+    }
+  },
+  {
+    "sim_id": 47,
+    "parameters": {
+      "current_density": 3078.115431141768,
+      "fuel_utilization": 0.3594928305427837,
+      "air_utilization": 0.31176898762720756,
+      "fuel_temperature": 607.8541892232387,
+      "air_temperature": 694.6912108881368,
+      "crack_length": 0.8994708307979093,
+      "porosity_change": 1.0986555193335334
+    },
+    "outputs": {
+      "voltage": 0.7024884083228863,
+      "max_stress": 53596405.81430974,
+      "creep_damage": 0.05747111793830305
+    },
+    "field_stats": {
+      "temperature_mean": 799.8725679818564,
+      "temperature_std": 49.17678928461424,
+      "stress_mean": 53889755.11142265,
+      "stress_std": 10774802.670220407,
+      "current_density_mean": 3077.885099015154,
+      "current_density_std": 311.9962837491618
+    }
+  },
+  {
+    "sim_id": 48,
+    "parameters": {
+      "current_density": 7372.191689454592,
+      "fuel_utilization": 0.7568424784366317,
+      "air_utilization": 0.22331581343639947,
+      "fuel_temperature": 651.2161579520787,
+      "air_temperature": 510.3876763026657,
+      "crack_length": 2.2068619044449065,
+      "porosity_change": 1.1575645650286117
+    },
+    "outputs": {
+      "voltage": 0.576871918367245,
+      "max_stress": 58197936.20107297,
+      "creep_damage": 0.07095172066519187
+    },
+    "field_stats": {
+      "temperature_mean": 797.3742295582674,
+      "temperature_std": 49.45227524696927,
+      "stress_mean": 57971517.50442977,
+      "stress_std": 11667988.787560659,
+      "current_density_mean": 7397.211377922535,
+      "current_density_std": 732.0515721466393
+    }
+  },
+  {
+    "sim_id": 49,
+    "parameters": {
+      "current_density": 2898.280712373773,
+      "fuel_utilization": 0.7187170683240593,
+      "air_utilization": 0.4542035369321275,
+      "fuel_temperature": 751.9197978725131,
+      "air_temperature": 617.9689076956146,
+      "crack_length": 3.7771260675671128,
+      "porosity_change": 1.0454694405227432
+    },
+    "outputs": {
+      "voltage": 0.6701626789201186,
+      "max_stress": 61147837.476754524,
+      "creep_damage": 0.12534004173797592
+    },
+    "field_stats": {
+      "temperature_mean": 799.6858841001578,
+      "temperature_std": 50.8517352058532,
+      "stress_mean": 61077592.93729926,
+      "stress_std": 12333102.865827404,
+      "current_density_mean": 2895.7616869219046,
+      "current_density_std": 286.33105493762577
+    }
+  },
+  {
+    "sim_id": 50,
+    "parameters": {
+      "current_density": 4862.772425026311,
+      "fuel_utilization": 0.6306001690385246,
+      "air_utilization": 0.4094431363501646,
+      "fuel_temperature": 723.2061035599402,
+      "air_temperature": 502.15306494418815,
+      "crack_length": 2.3119182721460865,
+      "porosity_change": 1.1708131621451394
+    },
+    "outputs": {
+      "voltage": 0.6396845345956214,
+      "max_stress": 57776837.3894848,
+      "creep_damage": 0.048089840936596066
+    },
+    "field_stats": {
+      "temperature_mean": 799.4000925795373,
+      "temperature_std": 49.86901732211663,
+      "stress_mean": 57419495.26010793,
+      "stress_std": 11596888.082490712,
+      "current_density_mean": 4852.765957370685,
+      "current_density_std": 494.27933305815617
+    }
+  },
+  {
+    "sim_id": 51,
+    "parameters": {
+      "current_density": 6350.225797289577,
+      "fuel_utilization": 0.5175816752438234,
+      "air_utilization": 0.2848205493418922,
+      "fuel_temperature": 641.0739111572987,
+      "air_temperature": 577.6903207219062,
+      "crack_length": 2.4951602061768763,
+      "porosity_change": 1.1411088919140258
+    },
+    "outputs": {
+      "voltage": 0.6212373165298262,
+      "max_stress": 57578228.78857287,
+      "creep_damage": 0.06949274703247119
+    },
+    "field_stats": {
+      "temperature_mean": 800.2951001476581,
+      "temperature_std": 50.23633172316849,
+      "stress_mean": 57658088.03009046,
+      "stress_std": 11543378.961708413,
+      "current_density_mean": 6326.987007256977,
+      "current_density_std": 639.0664592919791
+    }
+  },
+  {
+    "sim_id": 52,
+    "parameters": {
+      "current_density": 8684.383020601292,
+      "fuel_utilization": 0.7625062786685202,
+      "air_utilization": 0.2741985968213525,
+      "fuel_temperature": 653.4798495890184,
+      "air_temperature": 593.0959849416045,
+      "crack_length": 3.1283448550785375,
+      "porosity_change": 1.1370714700381752
+    },
+    "outputs": {
+      "voltage": 0.5500617117211222,
+      "max_stress": 60069221.10349967,
+      "creep_damage": 0.10620352102623976
+    },
+    "field_stats": {
+      "temperature_mean": 797.9205302663256,
+      "temperature_std": 50.047317384729126,
+      "stress_mean": 59667025.96561142,
+      "stress_std": 11774645.779971145,
+      "current_density_mean": 8675.714203051988,
+      "current_density_std": 844.7569004765269
+    }
+  },
+  {
+    "sim_id": 53,
+    "parameters": {
+      "current_density": 1358.1960947578589,
+      "fuel_utilization": 0.6966546889609221,
+      "air_utilization": 0.4992728237581473,
+      "fuel_temperature": 671.1587604468292,
+      "air_temperature": 694.2633336389063,
+      "crack_length": 4.498552784436267,
+      "porosity_change": 1.0210056363452713
+    },
+    "outputs": {
+      "voltage": 0.7031706092087506,
+      "max_stress": 62480379.01367714,
+      "creep_damage": 0.12447095085475156
+    },
+    "field_stats": {
+      "temperature_mean": 801.4891405325553,
+      "temperature_std": 50.64635183918502,
+      "stress_mean": 62968525.86321918,
+      "stress_std": 12576775.661433846,
+      "current_density_mean": 1360.264083074066,
+      "current_density_std": 140.10843714242498
+    }
+  },
+  {
+    "sim_id": 54,
+    "parameters": {
+      "current_density": 5090.200985629663,
+      "fuel_utilization": 0.533020475563371,
+      "air_utilization": 0.28869252385738753,
+      "fuel_temperature": 774.7337553741411,
+      "air_temperature": 511.4844385333888,
+      "crack_length": 3.153147487613231,
+      "porosity_change": 1.1270817843179808
+    },
+    "outputs": {
+      "voltage": 0.6448939327310698,
+      "max_stress": 58971397.35304332,
+      "creep_damage": 0.11030717734754088
+    },
+    "field_stats": {
+      "temperature_mean": 800.7851339348723,
+      "temperature_std": 50.12042893904851,
+      "stress_mean": 58698643.97162335,
+      "stress_std": 11779676.391331559,
+      "current_density_mean": 5094.256957379575,
+      "current_density_std": 512.5266313173894
+    }
+  },
+  {
+    "sim_id": 55,
+    "parameters": {
+      "current_density": 7287.626808310557,
+      "fuel_utilization": 0.5319633007999294,
+      "air_utilization": 0.36377224118385315,
+      "fuel_temperature": 775.2769137581868,
+      "air_temperature": 575.0221600539176,
+      "crack_length": 1.6821302439872658,
+      "porosity_change": 1.1904397836536114
+    },
+    "outputs": {
+      "voltage": 0.601051133753796,
+      "max_stress": 56024076.99197418,
+      "creep_damage": 0.0812462624398834
+    },
+    "field_stats": {
+      "temperature_mean": 800.0188024884304,
+      "temperature_std": 50.43421445501492,
+      "stress_mean": 55937551.99936666,
+      "stress_std": 10938861.952865578,
+      "current_density_mean": 7299.406117356275,
+      "current_density_std": 728.4971155192154
+    }
+  },
+  {
+    "sim_id": 56,
+    "parameters": {
+      "current_density": 7465.419081335118,
+      "fuel_utilization": 0.34592162703595,
+      "air_utilization": 0.3134604279220247,
+      "fuel_temperature": 700.1776323870479,
+      "air_temperature": 504.4285644627288,
+      "crack_length": 2.970607095093566,
+      "porosity_change": 1.1682509729194752
+    },
+    "outputs": {
+      "voltage": 0.6160994556697027,
+      "max_stress": 57670822.325366884,
+      "creep_damage": 0.07740879015792332
+    },
+    "field_stats": {
+      "temperature_mean": 798.5503880697538,
+      "temperature_std": 50.32724705085854,
+      "stress_mean": 57311975.61015535,
+      "stress_std": 11710204.816289851,
+      "current_density_mean": 7447.347790896678,
+      "current_density_std": 766.0273344572857
+    }
+  },
+  {
+    "sim_id": 57,
+    "parameters": {
+      "current_density": 6330.215837606284,
+      "fuel_utilization": 0.3180037422789287,
+      "air_utilization": 0.26072836633496643,
+      "fuel_temperature": 752.9979900623758,
+      "air_temperature": 541.4285385582449,
+      "crack_length": 3.7285158938593694,
+      "porosity_change": 0.9055856311180185
+    },
+    "outputs": {
+      "voltage": 0.6415953090199815,
+      "max_stress": 59047050.49911338,
+      "creep_damage": 0.09954050811601048
+    },
+    "field_stats": {
+      "temperature_mean": 799.9345680236707,
+      "temperature_std": 47.66037588506151,
+      "stress_mean": 58812520.907071985,
+      "stress_std": 11994598.095723849,
+      "current_density_mean": 6323.446294154402,
+      "current_density_std": 638.3601558867151
+    }
+  },
+  {
+    "sim_id": 58,
+    "parameters": {
+      "current_density": 9996.13887026211,
+      "fuel_utilization": 0.4539217898131359,
+      "air_utilization": 0.399345127469886,
+      "fuel_temperature": 673.1678664737201,
+      "air_temperature": 666.7366594484927,
+      "crack_length": 1.6197042243887305,
+      "porosity_change": 1.1357274881609516
+    },
+    "outputs": {
+      "voltage": 0.5546850436134443,
+      "max_stress": 55509017.39784314,
+      "creep_damage": 0.05280205098369682
+    },
+    "field_stats": {
+      "temperature_mean": 801.7490925773706,
+      "temperature_std": 49.245177963601215,
+      "stress_mean": 55438446.95788158,
+      "stress_std": 11274526.347122367,
+      "current_density_mean": 10027.558949292528,
+      "current_density_std": 1006.4628285556183
+    }
+  },
+  {
+    "sim_id": 59,
+    "parameters": {
+      "current_density": 2206.931259588012,
+      "fuel_utilization": 0.5511351772073457,
+      "air_utilization": 0.41490368078729395,
+      "fuel_temperature": 649.690019090742,
+      "air_temperature": 663.7545554917582,
+      "crack_length": 1.8708325805852914,
+      "porosity_change": 0.9475631374169692
+    },
+    "outputs": {
+      "voltage": 0.7007478570875052,
+      "max_stress": 56497341.04720731,
+      "creep_damage": 0.07003818291041866
+    },
+    "field_stats": {
+      "temperature_mean": 799.8942792635868,
+      "temperature_std": 50.61650547525888,
+      "stress_mean": 56704855.7668094,
+      "stress_std": 11521257.835436935,
+      "current_density_mean": 2205.2726735338642,
+      "current_density_std": 215.4621126355418
+    }
+  },
+  {
+    "sim_id": 60,
+    "parameters": {
+      "current_density": 9804.245535240007,
+      "fuel_utilization": 0.38917129749153306,
+      "air_utilization": 0.29435572618878003,
+      "fuel_temperature": 635.8956816402523,
+      "air_temperature": 563.49007900913,
+      "crack_length": 2.1729733485138256,
+      "porosity_change": 1.0040480186035068
+    },
+    "outputs": {
+      "voltage": 0.5649979595460466,
+      "max_stress": 56291803.18448532,
+      "creep_damage": 0.04579334283073325
+    },
+    "field_stats": {
+      "temperature_mean": 802.0664115151594,
+      "temperature_std": 49.90960150868592,
+      "stress_mean": 56463027.36933874,
+      "stress_std": 10847523.776450949,
+      "current_density_mean": 9819.77029574788,
+      "current_density_std": 985.7231116306126
+    }
+  },
+  {
+    "sim_id": 61,
+    "parameters": {
+      "current_density": 8989.195143258537,
+      "fuel_utilization": 0.666549732144639,
+      "air_utilization": 0.30838788637094267,
+      "fuel_temperature": 713.7459340658239,
+      "air_temperature": 677.0548916183055,
+      "crack_length": 2.918260909568668,
+      "porosity_change": 1.129103358270798
+    },
+    "outputs": {
+      "voltage": 0.5535611239203654,
+      "max_stress": 59169270.47986053,
+      "creep_damage": 0.06419722674471048
+    },
+    "field_stats": {
+      "temperature_mean": 799.7731877844726,
+      "temperature_std": 48.631880941630726,
+      "stress_mean": 59446681.08956024,
+      "stress_std": 12002323.06200349,
+      "current_density_mean": 8983.716010018457,
+      "current_density_std": 920.5619788939111
+    }
+  },
+  {
+    "sim_id": 62,
+    "parameters": {
+      "current_density": 1974.0357232100869,
+      "fuel_utilization": 0.5095483144774619,
+      "air_utilization": 0.27544261246008706,
+      "fuel_temperature": 680.6532570324503,
+      "air_temperature": 566.5008057347131,
+      "crack_length": 1.4192481597026636,
+      "porosity_change": 1.0367173826282574
+    },
+    "outputs": {
+      "voltage": 0.7095644540880521,
+      "max_stress": 55386237.89179263,
+      "creep_damage": 0.05653385594081274
+    },
+    "field_stats": {
+      "temperature_mean": 800.3018588235649,
+      "temperature_std": 49.94685884871538,
+      "stress_mean": 55461346.9205232,
+      "stress_std": 11042793.203349711,
+      "current_density_mean": 1980.118862530634,
+      "current_density_std": 194.89285300577419
+    }
+  },
+  {
+    "sim_id": 63,
+    "parameters": {
+      "current_density": 9606.97022101513,
+      "fuel_utilization": 0.577934504986144,
+      "air_utilization": 0.3137189543137966,
+      "fuel_temperature": 754.2309119299891,
+      "air_temperature": 502.6861546181892,
+      "crack_length": 2.352933902264721,
+      "porosity_change": 1.0855667028936398
+    },
+    "outputs": {
+      "voltage": 0.550067145081083,
+      "max_stress": 57595540.32946017,
+      "creep_damage": 0.052431527659122
+    },
+    "field_stats": {
+      "temperature_mean": 801.3378433642085,
+      "temperature_std": 49.45077504899918,
+      "stress_mean": 57678719.56116612,
+      "stress_std": 11613908.82329905,
+      "current_density_mean": 9615.946603424494,
+      "current_density_std": 976.2127319458972
+    }
+  },
+  {
+    "sim_id": 64,
+    "parameters": {
+      "current_density": 7852.856520026681,
+      "fuel_utilization": 0.5144043713530334,
+      "air_utilization": 0.24096581707960535,
+      "fuel_temperature": 704.8285529733855,
+      "air_temperature": 636.7389667897671,
+      "crack_length": 2.794959635999878,
+      "porosity_change": 1.0743584854734756
+    },
+    "outputs": {
+      "voltage": 0.5915024324641631,
+      "max_stress": 58161941.12876492,
+      "creep_damage": 0.06015312810492994
+    },
+    "field_stats": {
+      "temperature_mean": 799.3372716566581,
+      "temperature_std": 49.90415136777639,
+      "stress_mean": 58037316.318746485,
+      "stress_std": 11661806.69052736,
+      "current_density_mean": 7884.143171221322,
+      "current_density_std": 784.5146790553756
+    }
+  },
+  {
+    "sim_id": 65,
+    "parameters": {
+      "current_density": 7815.343892274357,
+      "fuel_utilization": 0.44714427704181536,
+      "air_utilization": 0.4146086182457951,
+      "fuel_temperature": 703.6515224135775,
+      "air_temperature": 646.2765712586029,
+      "crack_length": 0.48618956975886973,
+      "porosity_change": 1.0629176590329152
+    },
+    "outputs": {
+      "voltage": 0.5989786944503314,
+      "max_stress": 53208100.524726816,
+      "creep_damage": 0.022280919758625707
+    },
+    "field_stats": {
+      "temperature_mean": 800.3927471147537,
+      "temperature_std": 49.89967140410332,
+      "stress_mean": 53088428.09547566,
+      "stress_std": 10717278.480301883,
+      "current_density_mean": 7794.116534487775,
+      "current_density_std": 777.6171918133037
+    }
+  },
+  {
+    "sim_id": 66,
+    "parameters": {
+      "current_density": 1994.7576253685447,
+      "fuel_utilization": 0.4541873884500151,
+      "air_utilization": 0.3064865909766479,
+      "fuel_temperature": 688.1990642945084,
+      "air_temperature": 547.5172735013117,
+      "crack_length": 1.9960172161716399,
+      "porosity_change": 0.9503295543644094
+    },
+    "outputs": {
+      "voltage": 0.7146861086476277,
+      "max_stress": 56262971.374593355,
+      "creep_damage": 0.07508265276243206
+    },
+    "field_stats": {
+      "temperature_mean": 799.9322889964604,
+      "temperature_std": 50.64638236384441,
+      "stress_mean": 55984590.58832149,
+      "stress_std": 11322827.856298435,
+      "current_density_mean": 1989.4734887984537,
+      "current_density_std": 197.24634030954488
+    }
+  },
+  {
+    "sim_id": 67,
+    "parameters": {
+      "current_density": 8454.39509340858,
+      "fuel_utilization": 0.8262510187405605,
+      "air_utilization": 0.475005122230159,
+      "fuel_temperature": 666.7331542982289,
+      "air_temperature": 693.8105726075725,
+      "crack_length": 1.5011416563700142,
+      "porosity_change": 1.0187165289429991
+    },
+    "outputs": {
+      "voltage": 0.5482869962577723,
+      "max_stress": 57133538.40644283,
+      "creep_damage": 0.053851041618063235
+    },
+    "field_stats": {
+      "temperature_mean": 799.0195008774809,
+      "temperature_std": 49.403593460305665,
+      "stress_mean": 56900217.67382246,
+      "stress_std": 11487420.75963164,
+      "current_density_mean": 8476.256054516494,
+      "current_density_std": 866.6602347841348
+    }
+  },
+  {
+    "sim_id": 68,
+    "parameters": {
+      "current_density": 4353.380915156235,
+      "fuel_utilization": 0.8401212365990318,
+      "air_utilization": 0.4956308330114439,
+      "fuel_temperature": 638.5839131397627,
+      "air_temperature": 502.28545024841094,
+      "crack_length": 3.4700319338182757,
+      "porosity_change": 1.1547620345685115
+    },
+    "outputs": {
+      "voltage": 0.6289202580369722,
+      "max_stress": 61140670.05063171,
+      "creep_damage": 0.11911758207135548
+    },
+    "field_stats": {
+      "temperature_mean": 799.4023968544655,
+      "temperature_std": 51.4112332351646,
+      "stress_mean": 60904054.47365274,
+      "stress_std": 12229045.603271592,
+      "current_density_mean": 4347.009480925835,
+      "current_density_std": 434.6046488991742
+    }
+  },
+  {
+    "sim_id": 69,
+    "parameters": {
+      "current_density": 6910.069335798082,
+      "fuel_utilization": 0.6104369622849954,
+      "air_utilization": 0.21999795270534545,
+      "fuel_temperature": 739.034777936693,
+      "air_temperature": 603.6350582852717,
+      "crack_length": 2.8805390242355813,
+      "porosity_change": 0.9696078653432825
+    },
+    "outputs": {
+      "voltage": 0.6007549170555389,
+      "max_stress": 58813262.85989614,
+      "creep_damage": 0.09547817743065627
+    },
+    "field_stats": {
+      "temperature_mean": 798.9705299045582,
+      "temperature_std": 49.72719559126507,
+      "stress_mean": 58960348.41401656,
+      "stress_std": 11639436.539083809,
+      "current_density_mean": 6906.391692708089,
+      "current_density_std": 699.6539298456236
+    }
+  },
+  {
+    "sim_id": 70,
+    "parameters": {
+      "current_density": 2806.138724127629,
+      "fuel_utilization": 0.5629768727469524,
+      "air_utilization": 0.47756922650951317,
+      "fuel_temperature": 708.6139283271742,
+      "air_temperature": 677.7031991160228,
+      "crack_length": 3.5938613677488727,
+      "porosity_change": 1.0598229325311848
+    },
+    "outputs": {
+      "voltage": 0.6875795382427523,
+      "max_stress": 60002607.0992325,
+      "creep_damage": 0.1046772858155392
+    },
+    "field_stats": {
+      "temperature_mean": 801.0269186837523,
+      "temperature_std": 49.69852082634875,
+      "stress_mean": 60202014.80285705,
+      "stress_std": 12203247.403182223,
+      "current_density_mean": 2820.284155743499,
+      "current_density_std": 289.05529301999553
+    }
+  },
+  {
+    "sim_id": 71,
+    "parameters": {
+      "current_density": 5831.756108469661,
+      "fuel_utilization": 0.797896678543266,
+      "air_utilization": 0.4784547627489161,
+      "fuel_temperature": 611.9746215395388,
+      "air_temperature": 610.1406114170328,
+      "crack_length": 4.925944185435323,
+      "porosity_change": 1.0383323856734827
+    },
+    "outputs": {
+      "voltage": 0.6035752099762802,
+      "max_stress": 63841371.76358698,
+      "creep_damage": 0.11848032785305096
+    },
+    "field_stats": {
+      "temperature_mean": 797.3235219305471,
+      "temperature_std": 50.93834918717531,
+      "stress_mean": 63870768.090050906,
+      "stress_std": 12678431.354373034,
+      "current_density_mean": 5843.7962289803145,
+      "current_density_std": 585.7909616932369
+    }
+  },
+  {
+    "sim_id": 72,
+    "parameters": {
+      "current_density": 9478.530089773576,
+      "fuel_utilization": 0.45633394527713217,
+      "air_utilization": 0.2666205702021799,
+      "fuel_temperature": 761.0493172294028,
+      "air_temperature": 612.540275330025,
+      "crack_length": 2.3831199996895585,
+      "porosity_change": 1.077463727648911
+    },
+    "outputs": {
+      "voltage": 0.5647960036768154,
+      "max_stress": 57047909.72576478,
+      "creep_damage": 0.04800573420930027
+    },
+    "field_stats": {
+      "temperature_mean": 798.5952267896877,
+      "temperature_std": 49.433546838121515,
+      "stress_mean": 56955923.60930454,
+      "stress_std": 11266457.148656916,
+      "current_density_mean": 9477.890521339992,
+      "current_density_std": 946.0800825241655
+    }
+  },
+  {
+    "sim_id": 73,
+    "parameters": {
+      "current_density": 7466.682581639906,
+      "fuel_utilization": 0.7850863039348064,
+      "air_utilization": 0.23784661310398786,
+      "fuel_temperature": 617.4290660340616,
+      "air_temperature": 638.1038791672909,
+      "crack_length": 4.862301913952013,
+      "porosity_change": 1.106067621350843
+    },
+    "outputs": {
+      "voltage": 0.5721577179737213,
+      "max_stress": 63650035.34757806,
+      "creep_damage": 0.12732333113533353
+    },
+    "field_stats": {
+      "temperature_mean": 799.9848062178035,
+      "temperature_std": 50.144274744766676,
+      "stress_mean": 63866481.72149223,
+      "stress_std": 12787330.151495513,
+      "current_density_mean": 7467.396509768853,
+      "current_density_std": 748.6869880403091
+    }
+  },
+  {
+    "sim_id": 74,
+    "parameters": {
+      "current_density": 4778.577042027802,
+      "fuel_utilization": 0.3636778959447655,
+      "air_utilization": 0.2662420420627912,
+      "fuel_temperature": 638.334423822354,
+      "air_temperature": 664.1060855474964,
+      "crack_length": 2.257309560381773,
+      "porosity_change": 1.1664944067498049
+    },
+    "outputs": {
+      "voltage": 0.6680606695649675,
+      "max_stress": 56333008.600487374,
+      "creep_damage": 0.07678517658697503
+    },
+    "field_stats": {
+      "temperature_mean": 799.3962862350996,
+      "temperature_std": 49.89339749150239,
+      "stress_mean": 56090390.3925649,
+      "stress_std": 11420732.151204867,
+      "current_density_mean": 4763.425456533644,
+      "current_density_std": 474.6173384901178
+    }
+  },
+  {
+    "sim_id": 75,
+    "parameters": {
+      "current_density": 8853.600620456604,
+      "fuel_utilization": 0.5533316358304492,
+      "air_utilization": 0.2708849417545577,
+      "fuel_temperature": 675.4000488268136,
+      "air_temperature": 551.2082256689013,
+      "crack_length": 3.5370531123427957,
+      "porosity_change": 1.04560465125222
+    },
+    "outputs": {
+      "voltage": 0.567594824007823,
+      "max_stress": 59840764.40383784,
+      "creep_damage": 0.07573312729669517
+    },
+    "field_stats": {
+      "temperature_mean": 801.2023609788502,
+      "temperature_std": 50.04108599589956,
+      "stress_mean": 59729445.08269994,
+      "stress_std": 11602405.187348377,
+      "current_density_mean": 8842.502708590966,
+      "current_density_std": 886.6417256479356
+    }
+  },
+  {
+    "sim_id": 76,
+    "parameters": {
+      "current_density": 1353.8371595476096,
+      "fuel_utilization": 0.40493617313179986,
+      "air_utilization": 0.3876570736884908,
+      "fuel_temperature": 655.4556961194747,
+      "air_temperature": 608.9553121915991,
+      "crack_length": 4.297758538266772,
+      "porosity_change": 0.9210458769889542
+    },
+    "outputs": {
+      "voltage": 0.7324296394958678,
+      "max_stress": 60620197.94219254,
+      "creep_damage": 0.10908179952395447
+    },
+    "field_stats": {
+      "temperature_mean": 797.9982463313947,
+      "temperature_std": 49.239190760646494,
+      "stress_mean": 60183679.818316944,
+      "stress_std": 11970213.46045046,
+      "current_density_mean": 1349.9492469847096,
+      "current_density_std": 136.04455812016312
+    }
+  },
+  {
+    "sim_id": 77,
+    "parameters": {
+      "current_density": 2482.081568684012,
+      "fuel_utilization": 0.835625852995665,
+      "air_utilization": 0.23434415532340153,
+      "fuel_temperature": 642.1546412691384,
+      "air_temperature": 525.808557836251,
+      "crack_length": 0.5511135728991962,
+      "porosity_change": 1.1886362416359504
+    },
+    "outputs": {
+      "voltage": 0.6667957833267533,
+      "max_stress": 55280356.41077672,
+      "creep_damage": 0.04379061089685023
+    },
+    "field_stats": {
+      "temperature_mean": 800.2367337426753,
+      "temperature_std": 48.963094416163585,
+      "stress_mean": 55419697.766686454,
+      "stress_std": 11030144.971312704,
+      "current_density_mean": 2478.529326820749,
+      "current_density_std": 245.8010372778574
+    }
+  },
+  {
+    "sim_id": 78,
+    "parameters": {
+      "current_density": 8072.2568674438535,
+      "fuel_utilization": 0.5106173764706738,
+      "air_utilization": 0.2985864985917154,
+      "fuel_temperature": 674.8822501638027,
+      "air_temperature": 669.824743355933,
+      "crack_length": 2.9198118773634403,
+      "porosity_change": 1.095441952521298
+    },
+    "outputs": {
+      "voltage": 0.5874931250040556,
+      "max_stress": 58392710.637080245,
+      "creep_damage": 0.07246633072705118
+    },
+    "field_stats": {
+      "temperature_mean": 800.2922751300074,
+      "temperature_std": 50.68662614026848,
+      "stress_mean": 58143277.57123328,
+      "stress_std": 11605038.36583287,
+      "current_density_mean": 8058.309114806576,
+      "current_density_std": 811.364939170196
+    }
+  },
+  {
+    "sim_id": 79,
+    "parameters": {
+      "current_density": 1423.4459352724039,
+      "fuel_utilization": 0.3828353967928495,
+      "air_utilization": 0.21405265216767727,
+      "fuel_temperature": 629.0886431656446,
+      "air_temperature": 577.110913487674,
+      "crack_length": 4.203487871600283,
+      "porosity_change": 1.1246843677067422
+    },
+    "outputs": {
+      "voltage": 0.733247541615267,
+      "max_stress": 60321152.72716482,
+      "creep_damage": 0.10452916939467352
+    },
+    "field_stats": {
+      "temperature_mean": 797.9474557804288,
+      "temperature_std": 50.20432970379752,
+      "stress_mean": 60203258.395086624,
+      "stress_std": 12241392.949540472,
+      "current_density_mean": 1427.1809894338437,
+      "current_density_std": 143.11311852154446
+    }
+  },
+  {
+    "sim_id": 80,
+    "parameters": {
+      "current_density": 9826.708225068707,
+      "fuel_utilization": 0.7836044759314489,
+      "air_utilization": 0.41362527888140116,
+      "fuel_temperature": 736.9491428395592,
+      "air_temperature": 594.8081020015393,
+      "crack_length": 0.02419219088263702,
+      "porosity_change": 0.9758117513535062
+    },
+    "outputs": {
+      "voltage": 0.525105387905481,
+      "max_stress": 53966406.76142252,
+      "creep_damage": 0.01088944796982001
+    },
+    "field_stats": {
+      "temperature_mean": 801.0247513657233,
+      "temperature_std": 50.223688387288064,
+      "stress_mean": 54178094.251430936,
+      "stress_std": 10603241.004593568,
+      "current_density_mean": 9777.27300057847,
+      "current_density_std": 992.4361633222627
+    }
+  },
+  {
+    "sim_id": 81,
+    "parameters": {
+      "current_density": 9623.79334129591,
+      "fuel_utilization": 0.6764370532890769,
+      "air_utilization": 0.2257589673782079,
+      "fuel_temperature": 682.1440007758753,
+      "air_temperature": 588.120867041732,
+      "crack_length": 3.108479564180293,
+      "porosity_change": 0.9327113661101276
+    },
+    "outputs": {
+      "voltage": 0.5398804278451741,
+      "max_stress": 59599144.39480597,
+      "creep_damage": 0.09241779321344931
+    },
+    "field_stats": {
+      "temperature_mean": 800.9180234433045,
+      "temperature_std": 51.03084751480789,
+      "stress_mean": 59480580.23400029,
+      "stress_std": 11847946.424458016,
+      "current_density_mean": 9640.225756375534,
+      "current_density_std": 980.5006789852425
+    }
+  },
+  {
+    "sim_id": 82,
+    "parameters": {
+      "current_density": 7637.559437981293,
+      "fuel_utilization": 0.4105072121281749,
+      "air_utilization": 0.22758835608400618,
+      "fuel_temperature": 659.4684538446728,
+      "air_temperature": 553.5312948790564,
+      "crack_length": 0.4585341807974225,
+      "porosity_change": 1.1530997359973445
+    },
+    "outputs": {
+      "voltage": 0.6061980900275566,
+      "max_stress": 52969604.42223572,
+      "creep_damage": 0.018520638243258614
+    },
+    "field_stats": {
+      "temperature_mean": 798.1760042051794,
+      "temperature_std": 49.6430799895572,
+      "stress_mean": 53320872.14965593,
+      "stress_std": 10682051.190241482,
+      "current_density_mean": 7634.4795260170595,
+      "current_density_std": 748.2368917076501
+    }
+  },
+  {
+    "sim_id": 83,
+    "parameters": {
+      "current_density": 8245.8996904665,
+      "fuel_utilization": 0.3009120982568334,
+      "air_utilization": 0.42525815829866886,
+      "fuel_temperature": 677.3945847875721,
+      "air_temperature": 515.0958049063973,
+      "crack_length": 2.8503186029496947,
+      "porosity_change": 0.9628762119608079
+    },
+    "outputs": {
+      "voltage": 0.6049907963649866,
+      "max_stress": 57205197.69718356,
+      "creep_damage": 0.0700750896905933
+    },
+    "field_stats": {
+      "temperature_mean": 797.7154408722191,
+      "temperature_std": 50.2450026650222,
+      "stress_mean": 56944310.47432049,
+      "stress_std": 11482272.379414612,
+      "current_density_mean": 8264.11567252411,
+      "current_density_std": 834.7638362455234
+    }
+  },
+  {
+    "sim_id": 84,
+    "parameters": {
+      "current_density": 2458.9962807214006,
+      "fuel_utilization": 0.6076482187198109,
+      "air_utilization": 0.35639891543836055,
+      "fuel_temperature": 793.2038679128723,
+      "air_temperature": 687.4245662344931,
+      "crack_length": 0.5725262772852291,
+      "porosity_change": 0.9106611471881164
+    },
+    "outputs": {
+      "voltage": 0.690055252513591,
+      "max_stress": 54183293.64816951,
+      "creep_damage": 0.024433836363431716
+    },
+    "field_stats": {
+      "temperature_mean": 800.3708257273428,
+      "temperature_std": 51.280755966512004,
+      "stress_mean": 53786581.55599593,
+      "stress_std": 10697387.295229318,
+      "current_density_mean": 2455.279974865679,
+      "current_density_std": 243.4599529809555
+    }
+  },
+  {
+    "sim_id": 85,
+    "parameters": {
+      "current_density": 4743.364729897444,
+      "fuel_utilization": 0.5424578794668747,
+      "air_utilization": 0.42175990968274896,
+      "fuel_temperature": 745.1328688912226,
+      "air_temperature": 574.4086787087222,
+      "crack_length": 4.891872205922491,
+      "porosity_change": 1.0049957247261938
+    },
+    "outputs": {
+      "voltage": 0.6508869174553638,
+      "max_stress": 62496033.80917936,
+      "creep_damage": 0.10091339458477845
+    },
+    "field_stats": {
+      "temperature_mean": 800.4664441622781,
+      "temperature_std": 51.635084925367956,
+      "stress_mean": 62707190.1472721,
+      "stress_std": 12897322.112979844,
+      "current_density_mean": 4737.57505183867,
+      "current_density_std": 479.85967328773665
+    }
+  },
+  {
+    "sim_id": 86,
+    "parameters": {
+      "current_density": 2504.857647935444,
+      "fuel_utilization": 0.4390687522054281,
+      "air_utilization": 0.42625603370329396,
+      "fuel_temperature": 678.5425135584685,
+      "air_temperature": 646.1180975778532,
+      "crack_length": 2.3300328313605427,
+      "porosity_change": 1.0884019362680666
+    },
+    "outputs": {
+      "voltage": 0.7059959718207484,
+      "max_stress": 56855409.423748225,
+      "creep_damage": 0.06525112638264212
+    },
+    "field_stats": {
+      "temperature_mean": 800.9347680072727,
+      "temperature_std": 50.35289663415842,
+      "stress_mean": 56594447.184056,
+      "stress_std": 11064960.716770748,
+      "current_density_mean": 2500.478327818828,
+      "current_density_std": 248.10742138910302
+    }
+  },
+  {
+    "sim_id": 87,
+    "parameters": {
+      "current_density": 5262.158267499159,
+      "fuel_utilization": 0.5423768502347509,
+      "air_utilization": 0.3452079499775027,
+      "fuel_temperature": 641.1661990013704,
+      "air_temperature": 529.6905441537065,
+      "crack_length": 3.766325716249716,
+      "porosity_change": 1.1326301070220213
+    },
+    "outputs": {
+      "voltage": 0.6405191496265417,
+      "max_stress": 60244535.68367319,
+      "creep_damage": 0.07859920868083126
+    },
+    "field_stats": {
+      "temperature_mean": 800.3678402806305,
+      "temperature_std": 48.30895551335728,
+      "stress_mean": 60082773.347689524,
+      "stress_std": 12012030.59594155,
+      "current_density_mean": 5272.973789413061,
+      "current_density_std": 508.88469020426925
+    }
+  },
+  {
+    "sim_id": 88,
+    "parameters": {
+      "current_density": 1057.86138982937,
+      "fuel_utilization": 0.7439671779675145,
+      "air_utilization": 0.4201388545309802,
+      "fuel_temperature": 635.8762254210836,
+      "air_temperature": 614.9135748096812,
+      "crack_length": 2.4491972331080314,
+      "porosity_change": 0.9091137381548383
+    },
+    "outputs": {
+      "voltage": 0.7044460544066612,
+      "max_stress": 58618230.356053635,
+      "creep_damage": 0.0959794324574324
+    },
+    "field_stats": {
+      "temperature_mean": 800.8919369499479,
+      "temperature_std": 50.92401617766796,
+      "stress_mean": 58586377.92238179,
+      "stress_std": 11539056.15867617,
+      "current_density_mean": 1056.3561692072126,
+      "current_density_std": 102.0922913991259
+    }
+  },
+  {
+    "sim_id": 89,
+    "parameters": {
+      "current_density": 2853.3381314680532,
+      "fuel_utilization": 0.3870393467354931,
+      "air_utilization": 0.49237032054152535,
+      "fuel_temperature": 746.9373294495474,
+      "air_temperature": 623.9640632674391,
+      "crack_length": 0.8953796004153519,
+      "porosity_change": 0.9526479040434438
+    },
+    "outputs": {
+      "voltage": 0.7042293026970897,
+      "max_stress": 53725955.934508175,
+      "creep_damage": 0.02390180161816857
+    },
+    "field_stats": {
+      "temperature_mean": 798.7916804152227,
+      "temperature_std": 51.335351995041584,
+      "stress_mean": 53584350.78714778,
+      "stress_std": 11051747.032299696,
+      "current_density_mean": 2857.5914133669958,
+      "current_density_std": 285.51425789784537
+    }
+  },
+  {
+    "sim_id": 90,
+    "parameters": {
+      "current_density": 7173.077103315617,
+      "fuel_utilization": 0.7413748915779649,
+      "air_utilization": 0.33490886319770274,
+      "fuel_temperature": 601.5450633044576,
+      "air_temperature": 646.0208595009203,
+      "crack_length": 1.0028873958183544,
+      "porosity_change": 1.0981665255006174
+    },
+    "outputs": {
+      "voltage": 0.5824009687758912,
+      "max_stress": 55712649.24952653,
+      "creep_damage": 0.022482308833765303
+    },
+    "field_stats": {
+      "temperature_mean": 800.691180453144,
+      "temperature_std": 50.84089503249391,
+      "stress_mean": 55908323.55578455,
+      "stress_std": 11140749.397271864,
+      "current_density_mean": 7185.95931952978,
+      "current_density_std": 723.1781448293698
+    }
+  },
+  {
+    "sim_id": 91,
+    "parameters": {
+      "current_density": 6771.2163818796525,
+      "fuel_utilization": 0.8003470568714159,
+      "air_utilization": 0.39089199179915474,
+      "fuel_temperature": 677.6702062392413,
+      "air_temperature": 651.5296012422907,
+      "crack_length": 2.913933379554626,
+      "porosity_change": 1.0408530387592332
+    },
+    "outputs": {
+      "voltage": 0.5845409666752654,
+      "max_stress": 59829602.04346633,
+      "creep_damage": 0.06652114906747554
+    },
+    "field_stats": {
+      "temperature_mean": 798.9085731649612,
+      "temperature_std": 49.219313524161926,
+      "stress_mean": 59625565.044657946,
+      "stress_std": 12214643.60225219,
+      "current_density_mean": 6792.140065679062,
+      "current_density_std": 685.399691973939
+    }
+  },
+  {
+    "sim_id": 92,
+    "parameters": {
+      "current_density": 9410.677036788184,
+      "fuel_utilization": 0.8281376639885285,
+      "air_utilization": 0.3461836320877808,
+      "fuel_temperature": 697.6470747294013,
+      "air_temperature": 664.9471889694369,
+      "crack_length": 4.8294734188194886,
+      "porosity_change": 0.9363306298176156
+    },
+    "outputs": {
+      "voltage": 0.5289726928653835,
+      "max_stress": 63799635.15758163,
+      "creep_damage": 0.10505611966378607
+    },
+    "field_stats": {
+      "temperature_mean": 798.5455423451846,
+      "temperature_std": 51.66887083796339,
+      "stress_mean": 63848915.00618202,
+      "stress_std": 12357671.47452164,
+      "current_density_mean": 9386.267030485486,
+      "current_density_std": 965.5458582266064
+    }
+  },
+  {
+    "sim_id": 93,
+    "parameters": {
+      "current_density": 6110.750025403911,
+      "fuel_utilization": 0.8176917318854116,
+      "air_utilization": 0.2137746998621169,
+      "fuel_temperature": 702.4954190294798,
+      "air_temperature": 650.3821186946315,
+      "crack_length": 1.2228244058164255,
+      "porosity_change": 1.07669005538117
+    },
+    "outputs": {
+      "voltage": 0.5960158263033807,
+      "max_stress": 56534107.47105991,
+      "creep_damage": 0.035566578188003586
+    },
+    "field_stats": {
+      "temperature_mean": 799.9264519107646,
+      "temperature_std": 49.030063698579085,
+      "stress_mean": 56551957.656085186,
+      "stress_std": 11182482.135417754,
+      "current_density_mean": 6132.448024290191,
+      "current_density_std": 635.3099503723006
+    }
+  },
+  {
+    "sim_id": 94,
+    "parameters": {
+      "current_density": 5198.417569084049,
+      "fuel_utilization": 0.31010455085119354,
+      "air_utilization": 0.348591036211786,
+      "fuel_temperature": 680.0491887972124,
+      "air_temperature": 647.7375790518929,
+      "crack_length": 3.2969707049822095,
+      "porosity_change": 1.175621973773847
+    },
+    "outputs": {
+      "voltage": 0.6650211935331997,
+      "max_stress": 58144464.164220385,
+      "creep_damage": 0.07082078428943223
+    },
+    "field_stats": {
+      "temperature_mean": 800.8591926577925,
+      "temperature_std": 50.47390172835969,
+      "stress_mean": 58256774.28242325,
+      "stress_std": 11750034.07697881,
+      "current_density_mean": 5203.260422619945,
+      "current_density_std": 507.72977644442
+    }
+  },
+  {
+    "sim_id": 95,
+    "parameters": {
+      "current_density": 2110.931685419161,
+      "fuel_utilization": 0.354287980026759,
+      "air_utilization": 0.25114299619824826,
+      "fuel_temperature": 683.3886319155811,
+      "air_temperature": 654.3256823988435,
+      "crack_length": 1.2992760496935885,
+      "porosity_change": 1.015998334989471
+    },
+    "outputs": {
+      "voltage": 0.7223525682889409,
+      "max_stress": 54369991.99952097,
+      "creep_damage": 0.028066806559207905
+    },
+    "field_stats": {
+      "temperature_mean": 799.3371940083304,
+      "temperature_std": 50.691998398075,
+      "stress_mean": 54458778.75866277,
+      "stress_std": 10979195.702634033,
+      "current_density_mean": 2107.5169541678283,
+      "current_density_std": 206.7715403700198
+    }
+  },
+  {
+    "sim_id": 96,
+    "parameters": {
+      "current_density": 7525.968303400351,
+      "fuel_utilization": 0.3438095466840135,
+      "air_utilization": 0.4359977319053848,
+      "fuel_temperature": 695.0242625463964,
+      "air_temperature": 594.2971627063549,
+      "crack_length": 0.038717189131672325,
+      "porosity_change": 1.041719572002882
+    },
+    "outputs": {
+      "voltage": 0.6150996792635917,
+      "max_stress": 51796482.11168341,
+      "creep_damage": 0.040950985755696626
+    },
+    "field_stats": {
+      "temperature_mean": 798.7870306168197,
+      "temperature_std": 50.1474136388731,
+      "stress_mean": 51609265.06056636,
+      "stress_std": 10487702.647041043,
+      "current_density_mean": 7503.93550689806,
+      "current_density_std": 750.3800848188957
+    }
+  },
+  {
+    "sim_id": 97,
+    "parameters": {
+      "current_density": 2080.933898273114,
+      "fuel_utilization": 0.4653761478771699,
+      "air_utilization": 0.3256229550120261,
+      "fuel_temperature": 757.3591345523786,
+      "air_temperature": 562.6174164383544,
+      "crack_length": 4.131338360741357,
+      "porosity_change": 0.9788538396611082
+    },
+    "outputs": {
+      "voltage": 0.7118437072468208,
+      "max_stress": 60589557.46086857,
+      "creep_damage": 0.09670466136191362
+    },
+    "field_stats": {
+      "temperature_mean": 799.9390974305519,
+      "temperature_std": 50.92354024428461,
+      "stress_mean": 60521854.772370115,
+      "stress_std": 11953901.89674623,
+      "current_density_mean": 2080.5366974475587,
+      "current_density_std": 206.76839374982745
+    }
+  },
+  {
+    "sim_id": 98,
+    "parameters": {
+      "current_density": 8996.03538121222,
+      "fuel_utilization": 0.5301539938690629,
+      "air_utilization": 0.4163637310405228,
+      "fuel_temperature": 652.6436579479188,
+      "air_temperature": 529.8959691608251,
+      "crack_length": 2.7899166268412796,
+      "porosity_change": 1.0007812141215229
+    },
+    "outputs": {
+      "voltage": 0.5670638929888494,
+      "max_stress": 58230603.22302788,
+      "creep_damage": 0.095791220363977
+    },
+    "field_stats": {
+      "temperature_mean": 799.7032311657125,
+      "temperature_std": 49.74978472648068,
+      "stress_mean": 58029727.80234871,
+      "stress_std": 11711369.905527243,
+      "current_density_mean": 8984.854312720736,
+      "current_density_std": 902.9942090647776
+    }
+  },
+  {
+    "sim_id": 99,
+    "parameters": {
+      "current_density": 5592.609016441444,
+      "fuel_utilization": 0.4880554731299033,
+      "air_utilization": 0.4628711654064362,
+      "fuel_temperature": 650.1879274436695,
+      "air_temperature": 678.6111092824302,
+      "crack_length": 1.136966456258276,
+      "porosity_change": 1.118736497454698
+    },
+    "outputs": {
+      "voltage": 0.6393422723581809,
+      "max_stress": 54714210.27816606,
+      "creep_damage": 0.061968729134240036
+    },
+    "field_stats": {
+      "temperature_mean": 801.9057766587243,
+      "temperature_std": 49.266070501813765,
+      "stress_mean": 54581089.3769738,
+      "stress_std": 10986262.317573162,
+      "current_density_mean": 5595.671026378526,
+      "current_density_std": 550.264283206809
+    }
+  }
+]
