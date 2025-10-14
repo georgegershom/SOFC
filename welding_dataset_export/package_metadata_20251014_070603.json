@@ -1,0 +1,26 @@
+{
+  "archive_name": "welding_inverse_design_dataset_20251014_070603.zip",
+  "format": "zip",
+  "size_mb": 9.85,
+  "created": "20251014_070603",
+  "contents": [
+    "welding_dataset",
+    "ml_ready_data",
+    "analysis_report",
+    "README.md",
+    "requirements.txt",
+    "welding_dataset_generator.py",
+    "dataset_analysis.py",
+    "inverse_design_model.py",
+    "main.py"
+  ],
+  "dataset_stats": {
+    "total_samples": 11500,
+    "tier1_experimental": 500,
+    "tier2_simulation": 10000,
+    "tier3_literature": 1000,
+    "input_features": 13,
+    "output_features": 19,
+    "total_features": 67
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "total_samples": 11500,
+  "tier1_samples": 500,
+  "tier2_samples": 10000,
+  "tier3_samples": 1000,
+  "features": {
+    "input": [
+      "laser_power",
+      "welding_speed",
+      "pulse_frequency",
+      "pulse_duration",
+      "beam_focus_position",
+      "beam_spot_size",
+      "clamping_pressure",
+      "gas_flow_rate",
+      "sheet_thickness",
+      "overlap_distance",
+      "material_combination",
+      "shield_gas_type",
+      "joint_type"
+    ],
+    "output": [
+      "nugget_width",
+      "penetration_depth",
+      "haz_width",
+      "has_porosity",
+      "porosity_size",
+      "has_cracks",
+      "spatter_count",
+      "tensile_strength",
+      "peel_strength",
+      "contact_resistance",
+      "imc_thickness_initial",
+      "imc_thickness_post_aging",
+      "cycles_to_failure",
+      "strength_degradation_percent",
+      "resistance_increase_percent",
+      "creep_time_to_failure",
+      "grain_size_initial",
+      "grain_size_post_aging"
+    ]
+  },
+  "generation_date": "2025-10-14T07:04:47.550146",
+  "version": "1.0.0"
+}

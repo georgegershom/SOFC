@@ -1,0 +1,40 @@
+{
+  "input_features": [
+    "laser_power",
+    "welding_speed",
+    "pulse_frequency",
+    "pulse_duration",
+    "beam_focus_position",
+    "beam_spot_size",
+    "clamping_pressure",
+    "gas_flow_rate",
+    "sheet_thickness",
+    "overlap_distance",
+    "heat_input",
+    "power_density",
+    "material_combination_Al-Al",
+    "material_combination_Al-Steel",
+    "material_combination_Cu-Al",
+    "material_combination_Cu-Cu",
+    "shield_gas_type_Argon",
+    "shield_gas_type_CO2",
+    "shield_gas_type_Helium",
+    "shield_gas_type_Nitrogen",
+    "joint_type_Butt",
+    "joint_type_Edge",
+    "joint_type_Lap",
+    "joint_type_T-joint"
+  ],
+  "output_features": [
+    "nugget_width",
+    "penetration_depth",
+    "haz_width",
+    "tensile_strength",
+    "peel_strength",
+    "contact_resistance",
+    "cycles_to_failure",
+    "strength_degradation_percent",
+    "resistance_increase_percent",
+    "quality_score"
+  ]
+}
