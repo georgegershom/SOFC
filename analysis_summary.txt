@@ -1,0 +1,22 @@
+FEM STRESS ANALYSIS SUMMARY
+======================================================================
+
+BASELINE DESIGN
+----------------------------------------------------------------------
+  Peak stress (σ_max):            284.46 MPa
+  Critical area (A_crit):         203.85 mm²
+  Average stress (σ_avg):         104.08 MPa
+  Std deviation (σ_std):           47.20 MPa
+
+OPTIMIZED DESIGN
+----------------------------------------------------------------------
+  Peak stress (σ_max):            243.35 MPa
+  Critical area (A_crit):          87.15 mm²
+  Average stress (σ_avg):          89.12 MPa
+  Std deviation (σ_std):           35.41 MPa
+
+IMPROVEMENTS
+----------------------------------------------------------------------
+  Peak stress reduction:           41.11 MPa (14.5%)
+  Critical area reduction:        116.70 mm² (57.2%)
+  Max local Δσ:                    57.35 MPa
