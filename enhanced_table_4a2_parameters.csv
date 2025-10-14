@@ -1,0 +1,13 @@
+Parameter,Symbol,Value (enhanced),Source/Note
+Creep prefactor,A,2.5×10⁻¹² s⁻¹ MPa⁻ⁿ,Enhanced fit at 900–1200°C (Ni–YSZ layer)
+Creep exponent,n,4.8 (4.5–5.1),Nonlinear regression with 95% CI
+Activation energy,Q,320 kJ mol⁻¹ (±25),Arrhenius analysis with temperature compensation
+Damage coefficient,B,1.2×10⁻⁶ s⁻¹ MPa⁻ᵐ,Calibrated from long-hold runs + damage coupling
+Damage exponent,m,2.8 (2.5–3.1),Sensitivity analysis in §4.3
+Damage nonlinearity,k,1.8 (1.5–2.0),Stabilizes late-stage growth + stress concentration
+Critical damage,Dc,0.25 (0.20–0.30),Marked in Panel B (enhanced detection)
+Creep-rate threshold,ε̇c*,3×10⁻⁷ s⁻¹,Drawn as slope in Panel A (enhanced model)
+Fracture energy (interface),Gc(T),+15–45% from 800→1200°C,Temperature-dependent measurement + modeling
+Safe dwell target,ttarget,60 min (startup/hold),Defines safe envelope in Panel C
+Primary creep coefficient,αp,0.3 (primary stage),Primary creep time constant (10 min)
+Tertiary creep coefficient,αt,0.1 (tertiary stage),Tertiary creep damage coupling
