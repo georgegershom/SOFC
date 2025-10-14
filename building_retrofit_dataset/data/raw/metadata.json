@@ -1,0 +1,36 @@
+{
+  "generation_date": "2025-10-14T01:56:50.846451",
+  "n_buildings": 100,
+  "data_categories": {
+    "building_attributes": 68,
+    "iot_sensors": {
+      "energy": 7,
+      "ieq": 7,
+      "weather": 7,
+      "occupancy": 5
+    },
+    "energy_performance": {
+      "historical": 10,
+      "ratings": 10,
+      "retrofits": 10,
+      "benchmarks": 11
+    },
+    "lca": {
+      "building_materials": 43,
+      "retrofit_materials": 43,
+      "lifecycle_impacts": 24,
+      "carbon_offsets": 7
+    }
+  },
+  "total_records": {
+    "buildings": 100,
+    "iot_records": 350440,
+    "energy_records": 6996,
+    "lca_records": 404
+  },
+  "file_formats": [
+    "CSV",
+    "Parquet"
+  ],
+  "random_seed": 42
+}
