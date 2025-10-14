@@ -1,0 +1,140 @@
+{
+  "wall_materials": {
+    "brick_uninsulated": {
+      "u_value": 2.1,
+      "r_value": 0.48,
+      "cost_per_m2": 85,
+      "carbon_kgco2_m2": 45
+    },
+    "brick_insulated": {
+      "u_value": 0.35,
+      "r_value": 2.86,
+      "cost_per_m2": 145,
+      "carbon_kgco2_m2": 55
+    },
+    "concrete_block": {
+      "u_value": 1.8,
+      "r_value": 0.56,
+      "cost_per_m2": 95,
+      "carbon_kgco2_m2": 65
+    },
+    "cavity_wall_insulated": {
+      "u_value": 0.28,
+      "r_value": 3.57,
+      "cost_per_m2": 165,
+      "carbon_kgco2_m2": 48
+    },
+    "timber_frame": {
+      "u_value": 0.25,
+      "r_value": 4.0,
+      "cost_per_m2": 125,
+      "carbon_kgco2_m2": 28
+    },
+    "steel_frame": {
+      "u_value": 0.3,
+      "r_value": 3.33,
+      "cost_per_m2": 185,
+      "carbon_kgco2_m2": 95
+    }
+  },
+  "roof_materials": {
+    "pitched_uninsulated": {
+      "u_value": 2.3,
+      "r_value": 0.43,
+      "cost_per_m2": 75,
+      "carbon_kgco2_m2": 35
+    },
+    "pitched_insulated": {
+      "u_value": 0.16,
+      "r_value": 6.25,
+      "cost_per_m2": 135,
+      "carbon_kgco2_m2": 42
+    },
+    "flat_uninsulated": {
+      "u_value": 1.8,
+      "r_value": 0.56,
+      "cost_per_m2": 85,
+      "carbon_kgco2_m2": 38
+    },
+    "flat_insulated": {
+      "u_value": 0.18,
+      "r_value": 5.56,
+      "cost_per_m2": 155,
+      "carbon_kgco2_m2": 45
+    },
+    "green_roof": {
+      "u_value": 0.15,
+      "r_value": 6.67,
+      "cost_per_m2": 245,
+      "carbon_kgco2_m2": 32
+    }
+  },
+  "window_types": {
+    "single_glazed": {
+      "u_value": 5.8,
+      "r_value": 0.17,
+      "cost_per_m2": 185,
+      "carbon_kgco2_m2": 55,
+      "shgc": 0.86
+    },
+    "double_glazed": {
+      "u_value": 2.8,
+      "r_value": 0.36,
+      "cost_per_m2": 285,
+      "carbon_kgco2_m2": 75,
+      "shgc": 0.76
+    },
+    "double_glazed_low_e": {
+      "u_value": 1.8,
+      "r_value": 0.56,
+      "cost_per_m2": 385,
+      "carbon_kgco2_m2": 82,
+      "shgc": 0.7
+    },
+    "triple_glazed": {
+      "u_value": 0.8,
+      "r_value": 1.25,
+      "cost_per_m2": 485,
+      "carbon_kgco2_m2": 95,
+      "shgc": 0.5
+    }
+  },
+  "hvac_systems": {
+    "gas_boiler_old": {
+      "efficiency": 0.65,
+      "cop": null,
+      "cost": 3500,
+      "carbon_kgco2_year": 2500
+    },
+    "gas_boiler_condensing": {
+      "efficiency": 0.9,
+      "cop": null,
+      "cost": 5500,
+      "carbon_kgco2_year": 1800
+    },
+    "air_source_heat_pump": {
+      "efficiency": null,
+      "cop": 3.2,
+      "cost": 12000,
+      "carbon_kgco2_year": 800
+    },
+    "ground_source_heat_pump": {
+      "efficiency": null,
+      "cop": 4.5,
+      "cost": 22000,
+      "carbon_kgco2_year": 600
+    },
+    "district_heating": {
+      "efficiency": 0.85,
+      "cop": null,
+      "cost": 8000,
+      "carbon_kgco2_year": 1200
+    },
+    "electric_resistance": {
+      "efficiency": 1.0,
+      "cop": null,
+      "cost": 2500,
+      "carbon_kgco2_year": 3500
+    }
+  }
+}
