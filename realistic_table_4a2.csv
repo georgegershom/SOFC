@@ -1,0 +1,13 @@
+Parameter,Symbol,Value,Source/Note
+Creep prefactor,A,8.5e-11 s⁻¹ MPa⁻ⁿ,Fit to TBC creep data (900-1100°C)
+Creep exponent,n,4.2 (±0.2),Power law stress exponent (95% CI)
+Activation energy,Q,280 kJ mol⁻¹ (±15),Arrhenius activation energy
+Damage coefficient,B,3.2e-06 s⁻¹ MPa⁻ᵐ,Calibrated from damage evolution
+Damage exponent,m,2.6 (±0.3),Stress sensitivity of damage
+Damage nonlinearity,k,1.3 (±0.2),Prevents damage runaway
+Critical damage,Dc,0.28 (±0.03),Nucleation threshold (Panel B)
+Creep-rate threshold,ε̇c*,3.0e-07 s⁻¹,Threshold slope (Panel A)
+Fracture energy,Gc,25.0 J/m² (+12%/100°C),Interface toughness measurement
+Damage-creep coupling,αDC,0.2,Creep acceleration factor
+Stress concentration,Kσ,1.8,Local stress amplification
+Safe dwell target,ttarget,60 min (design target),Safe operating envelope

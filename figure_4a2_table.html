@@ -1,0 +1,97 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Table 4a.2: Threshold Parameters</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 40px; }
+                .table { border-collapse: collapse; width: 100%; }
+                .table th, .table td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+                .table th { background-color: #f2f2f2; font-weight: bold; }
+                .table-striped tbody tr:nth-child(odd) { background-color: #f9f9f9; }
+                .table-hover tbody tr:hover { background-color: #f5f5f5; }
+                h1 { color: #333; text-align: center; }
+            </style>
+        </head>
+        <body>
+            <h1>Table 4a.2: Threshold Parameters and Notes</h1>
+            <p><em>Values are illustrative; replace with your fitted numbers and uncertainties. Include units explicitly.</em></p>
+            <table border="1" class="dataframe table table-striped table-hover" id="table_4a2">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Parameter</th>
+      <th>Symbol</th>
+      <th>Value (example)</th>
+      <th>Source/Note</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Creep prefactor</td>
+      <td>A</td>
+      <td>1.0e-10 s⁻¹ MPa⁻ⁿ</td>
+      <td>Fit at 900–1100 °C (Ni–YSZ layer)</td>
+    </tr>
+    <tr>
+      <td>Creep exponent</td>
+      <td>n</td>
+      <td>4.2 (3.8–4.6)</td>
+      <td>Nonlinear regression (95% CI)</td>
+    </tr>
+    <tr>
+      <td>Activation energy</td>
+      <td>Q</td>
+      <td>290 kJ mol⁻¹ (±20)</td>
+      <td>Arrhenius slope vs 1/T</td>
+    </tr>
+    <tr>
+      <td>Damage coefficient</td>
+      <td>B</td>
+      <td>6.0e-07 s⁻¹ MPa⁻ᵐ</td>
+      <td>Calibrated from long-hold runs</td>
+    </tr>
+    <tr>
+      <td>Damage exponent</td>
+      <td>m</td>
+      <td>2.5–3.0</td>
+      <td>Sensitivity checked in §4.3</td>
+    </tr>
+    <tr>
+      <td>Damage nonlinearity</td>
+      <td>k</td>
+      <td>1.5–2.0</td>
+      <td>Stabilizes late-stage growth</td>
+    </tr>
+    <tr>
+      <td>Critical damage</td>
+      <td>Dc</td>
+      <td>0.30 (0.25–0.35)</td>
+      <td>Marked in Panel B</td>
+    </tr>
+    <tr>
+      <td>Creep-rate threshold</td>
+      <td>ε̇c*</td>
+      <td>5.0e-07 s⁻¹</td>
+      <td>Drawn as slope in Panel A</td>
+    </tr>
+    <tr>
+      <td>Fracture energy (interface)</td>
+      <td>Gc(T)</td>
+      <td>+10–40% from 800→1100 °C</td>
+      <td>Measured; used in energy check</td>
+    </tr>
+    <tr>
+      <td>Safe dwell target</td>
+      <td>ttarget</td>
+      <td>60 min (startup/hold)</td>
+      <td>Defines safe envelope in Panel C</td>
+    </tr>
+  </tbody>
+</table>
+            <p><strong>How to read:</strong> Each row defines a lever or threshold used in the panels. 
+            A, n, Q govern creep rate (Panel A); B, m, k, Dc govern damage growth (Panel B); 
+            Gc(T) enters the energy check at nucleation; ttarget sets the safe region in Panel C. 
+            Use CIs to convey fit confidence and propagate uncertainty into the hazard map.</p>
+        </body>
+        </html>
+        
