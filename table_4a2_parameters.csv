@@ -1,0 +1,11 @@
+Parameter,Symbol,Value,Source/Note
+Creep prefactor,A,1.0×10⁻¹⁰ s⁻¹ MPa⁻ⁿ,Fit at 900-1100°C (Ni-YSZ)
+Creep exponent,n,4.2 (3.8-4.6),Nonlinear regression (95% CI)
+Activation energy,Q,290 kJ/mol (±20),Arrhenius slope vs 1/T
+Damage coefficient,B,6.0×10⁻⁷ s⁻¹ MPa⁻ᵐ,Calibrated from long-hold
+Damage exponent,m,2.0-3.0,Sensitivity checked in §4.3
+Damage nonlinearity,k,1.0-2.0,Stabilizes late-stage
+Critical damage,Dc,0.30 (0.25-0.35),Marked in Panel B
+Creep-rate threshold,ε̇c*,5×10⁻⁷ s⁻¹,Drawn as slope in Panel A
+Fracture energy,Gc(T),+10-40% from 800→1100°C,Measured; energy check
+Safe dwell target,ttarget,60 min,Defines safe envelope
