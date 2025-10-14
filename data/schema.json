@@ -1,0 +1,193 @@
+{
+  "Weld_ID": {
+    "type": "string",
+    "description": "Unique ID (W- for exp, S- for sim)"
+  },
+  "Data_Source": {
+    "type": "string",
+    "enum": [
+      "Experimental",
+      "Simulation"
+    ]
+  },
+  "Material_Combination": {
+    "type": "string",
+    "enum": [
+      "Cu-Al",
+      "Al-Al",
+      "Cu-Cu",
+      "Al-Steel"
+    ]
+  },
+  "Joint_Type": {
+    "type": "string",
+    "enum": [
+      "Lap",
+      "Butt"
+    ]
+  },
+  "Shield_Gas": {
+    "type": "string",
+    "enum": [
+      "Argon",
+      "Nitrogen",
+      "Helium",
+      "None"
+    ]
+  },
+  "Laser_Power_W": {
+    "type": "number",
+    "unit": "W"
+  },
+  "Welding_Speed_mm_s": {
+    "type": "number",
+    "unit": "mm/s"
+  },
+  "Pulse_Frequency_Hz": {
+    "type": "number",
+    "unit": "Hz"
+  },
+  "Pulse_Duration_ms": {
+    "type": "number",
+    "unit": "ms"
+  },
+  "Beam_Focus_Position_mm": {
+    "type": "number",
+    "unit": "mm"
+  },
+  "Beam_Spot_Size_um": {
+    "type": "number",
+    "unit": "um"
+  },
+  "Clamping_Pressure_MPa": {
+    "type": "number",
+    "unit": "MPa"
+  },
+  "Shield_Gas_Flow_L_min": {
+    "type": "number",
+    "unit": "L/min"
+  },
+  "Sheet_Thickness_mm": {
+    "type": "number",
+    "unit": "mm"
+  },
+  "Overlap_Distance_mm": {
+    "type": "number",
+    "unit": "mm"
+  },
+  "Nugget_Width_mm": {
+    "type": "number",
+    "unit": "mm"
+  },
+  "Penetration_Depth_mm": {
+    "type": "number",
+    "unit": "mm"
+  },
+  "HAZ_Width_mm": {
+    "type": "number",
+    "unit": "mm"
+  },
+  "Has_Porosity": {
+    "type": "integer",
+    "enum": [
+      0,
+      1
+    ]
+  },
+  "Has_Expulsion": {
+    "type": "integer",
+    "enum": [
+      0,
+      1
+    ]
+  },
+  "Has_Undercut": {
+    "type": "integer",
+    "enum": [
+      0,
+      1
+    ]
+  },
+  "Has_Cracks": {
+    "type": "integer",
+    "enum": [
+      0,
+      1
+    ]
+  },
+  "Spatter_Level_0_3": {
+    "type": "integer",
+    "unit": "level"
+  },
+  "Discoloration_Level_0_3": {
+    "type": "integer",
+    "unit": "level"
+  },
+  "Tensile_Shear_Strength_N": {
+    "type": "number",
+    "unit": "N"
+  },
+  "Peel_Strength_N": {
+    "type": "number",
+    "unit": "N"
+  },
+  "Contact_Resistance_uOhm": {
+    "type": "number",
+    "unit": "uOhm"
+  },
+  "Peak_Temperature_C": {
+    "type": "number",
+    "unit": "C"
+  },
+  "IMC_Thickness_um": {
+    "type": "number",
+    "unit": "um"
+  },
+  "Replicates": {
+    "type": "integer",
+    "unit": "count"
+  },
+  "Tensile_Shear_Strength_Std_N": {
+    "type": "number",
+    "unit": "N"
+  },
+  "Contact_Resistance_Std_uOhm": {
+    "type": "number",
+    "unit": "uOhm"
+  },
+  "Thermal_Cycles": {
+    "type": "number",
+    "unit": "cycles"
+  },
+  "Strength_Degradation_Percent": {
+    "type": "number",
+    "unit": "%"
+  },
+  "Resistance_Increase_Percent": {
+    "type": "number",
+    "unit": "%"
+  },
+  "Cycles_to_Failure_Estimate": {
+    "type": "number",
+    "unit": "cycles"
+  },
+  "Post_ThermalCycle_Tensile_Shear_Strength_N": {
+    "type": "number",
+    "unit": "N"
+  },
+  "Post_ThermalCycle_Contact_Resistance_uOhm": {
+    "type": "number",
+    "unit": "uOhm"
+  },
+  "Creep_Time_to_Failure_h_100C_50pctUTS": {
+    "type": "number",
+    "unit": "h"
+  },
+  "IMC_Thickness_PostAging_500h_120C_um": {
+    "type": "number",
+    "unit": "um"
+  },
+  "Fidelity_Weight": {
+    "type": "number"
+  }
+}
