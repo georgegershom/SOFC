@@ -1,0 +1,13 @@
+Parameter,Symbol,Value (enhanced),Physical Significance
+Creep prefactor,A,2.5e-12 s⁻¹ MPa⁻ⁿ,Controls baseline creep rate at reference conditions
+Creep exponent,n,4.2 (±0.2),Stress sensitivity of creep (power law exponent)
+Activation energy,Q,290 kJ mol⁻¹ (±15),Temperature dependence (Arrhenius activation)
+Damage coefficient,B,1.2e-08 s⁻¹ MPa⁻ᵐ,Damage accumulation rate coefficient
+Damage exponent,m,2.8 (±0.3),Stress sensitivity of damage evolution
+Damage nonlinearity,k,1.2 (±0.2),Nonlinear damage growth (prevents runaway)
+Critical damage,Dc,0.25 (±0.03),Threshold for microcrack nucleation
+Creep-rate threshold,ε̇c*,2.0e-07 s⁻¹,Minimum creep rate for sustained damage
+Fracture energy (interface),Gc(T),28.0 J/m² (+12%/100°C),Interface toughness with temperature scaling
+Damage-creep coupling,αDC,0.15,Damage acceleration of creep (coupling strength)
+Stress concentration factor,Kσ,2.5,Local stress amplification due to damage
+Safe dwell target,ttarget,60 min (design target),Safe operating window for industrial use
