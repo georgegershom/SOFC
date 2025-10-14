@@ -1,0 +1,173 @@
+# Building Retrofit Dataset Configuration
+# Configuration for generating comprehensive AI/IoT-driven building retrofit dataset
+
+dataset_info:
+  name: "Integrated Building Retrofit Dataset"
+  version: "1.0.0"
+  description: "Multi-faceted dataset integrating IoT sensor data, building attributes, energy performance, and LCA data for AI-driven building retrofit optimization"
+  geographic_focus: "Multi-city European dataset"
+  building_types: ["residential", "commercial", "mixed_use", "institutional"]
+  
+# Dataset size parameters
+scale:
+  num_buildings: 10000
+  num_cities: 25
+  time_series_duration_months: 36
+  sensor_frequency_minutes: 15
+  
+# IoT Sensor Data Configuration
+iot_sensors:
+  energy_consumption:
+    - whole_building_electricity
+    - heating_consumption
+    - cooling_consumption
+    - hot_water_consumption
+    - lighting_consumption
+    - appliance_consumption
+  
+  environmental_parameters:
+    - co2_concentration_ppm
+    - tvoc_ppb
+    - pm25_ugm3
+    - temperature_celsius
+    - humidity_percent
+    - noise_level_db
+    
+  outdoor_weather:
+    - outdoor_temperature_celsius
+    - outdoor_humidity_percent
+    - wind_speed_ms
+    - wind_direction_degrees
+    - solar_irradiance_wm2
+    - precipitation_mm
+    - atmospheric_pressure_hpa
+    
+  occupancy:
+    - occupant_count
+    - occupancy_pattern
+    - activity_level
+
+# Building Attributes Configuration
+building_attributes:
+  geometric:
+    - rooftop_area_m2
+    - building_height_m
+    - gross_floor_area_m2
+    - net_floor_area_m2
+    - volume_m3
+    - window_to_wall_ratio
+    - orientation_degrees
+    
+  structural:
+    - construction_year
+    - building_function
+    - architectural_style
+    - structural_system
+    - foundation_type
+    - number_of_floors
+    
+  materials:
+    - wall_material
+    - roof_material
+    - window_type
+    - insulation_type
+    - hvac_system_type
+    
+  thermal_properties:
+    - wall_u_value_wm2k
+    - roof_u_value_wm2k
+    - window_u_value_wm2k
+    - wall_r_value_m2kw
+    - roof_r_value_m2kw
+    - air_tightness_ach50
+
+# Energy Performance Configuration
+energy_performance:
+  historical_data:
+    - annual_electricity_kwh
+    - annual_gas_kwh
+    - annual_heating_kwh
+    - annual_cooling_kwh
+    - peak_demand_kw
+    
+  efficiency_ratings:
+    - eu_energy_label
+    - epc_rating
+    - energy_use_intensity_kwhm2
+    - carbon_intensity_kgco2m2
+    
+  retrofit_scenarios:
+    - baseline_consumption
+    - post_retrofit_consumption
+    - energy_savings_percent
+    - payback_period_years
+
+# LCA Data Configuration
+lca_data:
+  materials:
+    - embodied_carbon_kgco2
+    - embodied_energy_mj
+    - recyclability_percent
+    - durability_years
+    - maintenance_frequency
+    
+  construction_processes:
+    - construction_carbon_kgco2
+    - transportation_carbon_kgco2
+    - installation_energy_mj
+    - waste_generation_kg
+    
+  end_of_life:
+    - demolition_carbon_kgco2
+    - recycling_potential_percent
+    - disposal_method
+
+# Geographic and Climate Data
+geographic:
+  cities:
+    - name: "Berlin"
+      country: "Germany"
+      latitude: 52.5200
+      longitude: 13.4050
+      climate_zone: "Cfb"
+      heating_degree_days: 3200
+      cooling_degree_days: 150
+      
+    - name: "Paris"
+      country: "France"
+      latitude: 48.8566
+      longitude: 2.3522
+      climate_zone: "Cfb"
+      heating_degree_days: 2800
+      cooling_degree_days: 200
+      
+    - name: "Stockholm"
+      country: "Sweden"
+      latitude: 59.3293
+      longitude: 18.0686
+      climate_zone: "Dfb"
+      heating_degree_days: 4200
+      cooling_degree_days: 50
+      
+    - name: "Madrid"
+      country: "Spain"
+      latitude: 40.4168
+      longitude: -3.7038
+      climate_zone: "Csa"
+      heating_degree_days: 2100
+      cooling_degree_days: 800
+      
+    - name: "Amsterdam"
+      country: "Netherlands"
+      latitude: 52.3676
+      longitude: 4.9041
+      climate_zone: "Cfb"
+      heating_degree_days: 2900
+      cooling_degree_days: 120
+
+# Data quality and validation parameters
+data_quality:
+  missing_data_percentage: 2.5
+  sensor_drift_percentage: 1.0
+  outlier_percentage: 0.5
+  measurement_uncertainty: 0.05
