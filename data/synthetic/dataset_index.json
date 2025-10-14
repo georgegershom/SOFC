@@ -1,0 +1,27 @@
+{
+  "version": "0.1.0",
+  "generated_at": "2025-10-14T01:54:12.235232Z",
+  "time_range": {
+    "start": "2024-01-01T00:00:00",
+    "end": "2024-01-31T23:00:00"
+  },
+  "counts": {
+    "buildings": 25,
+    "iot_rows": 18600,
+    "occupancy_rows": 18600,
+    "energy_ts_rows": 18600
+  },
+  "files": {
+    "buildings": "/workspace/data/synthetic/buildings/buildings.csv",
+    "weather": "/workspace/data/synthetic/iot/weather_timeseries.csv",
+    "iot_timeseries": "/workspace/data/synthetic/iot/iot_timeseries.csv",
+    "occupancy_timeseries": "/workspace/data/synthetic/iot/occupancy_timeseries.csv",
+    "energy_timeseries": "/workspace/data/synthetic/energy/energy_timeseries.csv",
+    "energy_monthly": "/workspace/data/synthetic/energy/energy_monthly.csv",
+    "energy_annual": "/workspace/data/synthetic/energy/energy_annual.csv",
+    "lca_materials": "/workspace/data/synthetic/lca/lca_materials.csv",
+    "lca_building_totals": "/workspace/data/synthetic/lca/lca_building_totals.csv",
+    "retrofit_scenarios": "/workspace/data/synthetic/lca/retrofit_scenarios.csv"
+  },
+  "notes": "Synthetic dataset for research prototyping; values are plausible ranges, not real measurements."
+}

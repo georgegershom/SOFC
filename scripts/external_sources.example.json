@@ -1,0 +1,31 @@
+{
+  "sources": [
+    {
+      "name": "CMAB - China Multi-Attribute Buildings Dataset",
+      "url": "https://example.org/path/to/cmab_dataset_placeholder.zip",
+      "dest_dir": "CMAB",
+      "extract": true,
+      "kind": "zip",
+      "license": "See original dataset license",
+      "notes": "Replace URL with actual CMAB dataset link from the publisher."
+    },
+    {
+      "name": "University Apartments Pre-Retrofit Monitoring Dataset",
+      "url": "https://example.org/path/to/university_apartments_placeholder.zip",
+      "dest_dir": "UniversityApartments",
+      "extract": true,
+      "kind": "zip",
+      "license": "FAIR dataset license per repository",
+      "notes": "Replace with the study's repository link; includes energy, IEQ, fabric."
+    },
+    {
+      "name": "Recycled Sand Concrete Durability & LCA Dataset",
+      "url": "https://example.org/path/to/recycled_sand_concrete_placeholder.tar.gz",
+      "dest_dir": "RecycledSandConcrete",
+      "extract": true,
+      "kind": "tar.gz",
+      "license": "See repository",
+      "notes": "Example from National Basic Science Data Center; replace with actual URL."
+    }
+  ]
+}
