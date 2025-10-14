@@ -1,0 +1,28 @@
+{
+  "total_buildings": 15,
+  "historical_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "eu_ratings_distribution": {
+    "F": 6,
+    "E": 6,
+    "G": 2,
+    "D": 1
+  },
+  "retrofit_coverage": {
+    "false": 8,
+    "true": 7
+  },
+  "retrofit_types": {
+    "comprehensive": 2,
+    "window_replacement": 2,
+    "air_sealing": 1,
+    "renewable_energy": 1,
+    "smart_controls": 1
+  }
+}

@@ -1,0 +1,14 @@
+process_id,process_name,process_category,unit,gwp_kg_co2e_m2,energy_consumption_mj_m2,water_consumption_l_m2,waste_generation_kg_m2,noise_level_db,dust_emission_kg_m2
+PROC_EXCAVATION_632,excavation,foundation,per m²,5.732,47.96,11.2,4.39,88.1,1.975
+PROC_FOUNDATION_POURING_867,foundation_pouring,foundation,per m²,16.84,226.26,46.07,1.31,69.9,0.453
+PROC_WALL_CONSTRUCTION_764,wall_construction,structure,per m²,15.067,157.74,27.87,3.55,68.6,1.648
+PROC_ROOF_INSTALLATION_828,roof_installation,structure,per m²,9.325,119.4,23.45,0.52,86.6,1.043
+PROC_WINDOW_INSTALLATION_177,window_installation,envelope,per m²,9.004,89.6,15.31,3.0,87.8,1.812
+PROC_INSULATION_INSTALLATION_879,insulation_installation,envelope,per m²,2.817,31.34,4.77,4.5,73.9,0.372
+PROC_FLOORING_INSTALLATION_183,flooring_installation,finishing,per m²,12.0,129.65,20.04,1.0,71.5,0.684
+PROC_PAINTING_639,painting,finishing,per m²,2.084,22.18,10.47,3.95,65.6,1.145
+PROC_ELECTRICAL_INSTALLATION_794,electrical_installation,mep,per m²,4.569,45.95,7.33,4.11,86.6,0.75
+PROC_PLUMBING_INSTALLATION_196,plumbing_installation,mep,per m²,6.377,62.91,10.7,2.46,73.9,0.896
+PROC_HVAC_INSTALLATION_416,hvac_installation,mep,per m²,25.068,223.17,42.07,2.5,84.4,1.86
+PROC_DEMOLITION_991,demolition,other,per m²,6.516,83.87,16.78,1.05,71.8,0.178
+PROC_WASTE_DISPOSAL_418,waste_disposal,other,per m²,3.375,28.14,5.94,0.86,72.1,0.312

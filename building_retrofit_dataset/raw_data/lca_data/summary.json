@@ -1,0 +1,32 @@
+{
+  "total_materials": 11,
+  "total_processes": 13,
+  "total_buildings": 10,
+  "total_retrofit_scenarios": 40,
+  "material_categories": {
+    "concrete": 1,
+    "steel": 1,
+    "brick": 1,
+    "wood": 1,
+    "glass": 1,
+    "insulation": 1,
+    "roofing": 1,
+    "flooring": 1,
+    "paint": 1,
+    "adhesive": 1,
+    "sealant": 1
+  },
+  "epd_programs": {
+    "EN 15804": 4,
+    "ISO 14025": 2,
+    "EcoPlatform": 2,
+    "UL Environment": 2,
+    "ASTM E2129": 1
+  },
+  "retrofit_scenarios": {
+    "no_retrofit": 10,
+    "light_retrofit": 10,
+    "deep_retrofit": 10,
+    "comprehensive_retrofit": 10
+  }
+}
