@@ -1,0 +1,30 @@
+{
+  "dataset_name": "Building Retrofit Optimization Dataset",
+  "description": "Multi-faceted dataset for AI- and IoT-driven optimization of building retrofits",
+  "version": "1.0.0",
+  "created_date": "2025-10-14T01:51:42.143650",
+  "num_buildings": 100,
+  "date_range": "2020-01-01 to 2023-12-31",
+  "data_categories": [
+    "IoT Sensor Data",
+    "Building Attributes & Fabric",
+    "Energy Performance",
+    "Lifecycle Assessment (LCA)"
+  ],
+  "total_records": 591352,
+  "file_sizes": {
+    "iot_energy_consumption.csv": 8545655,
+    "iot_environmental_parameters.csv": 7229418,
+    "iot_weather_conditions.csv": 7940368,
+    "iot_occupancy_patterns.csv": 5913269,
+    "building_basic_info.csv": 10063,
+    "building_geometric_data.csv": 5963,
+    "building_thermal_properties.csv": 6997,
+    "building_construction_materials.csv": 6934,
+    "energy_historical_consumption.csv": 317199,
+    "energy_efficiency_ratings.csv": 3656,
+    "energy_retrofit_impact.csv": 2455,
+    "lca_material_epds.csv": 850,
+    "lca_building_lca.csv": 23390
+  }
+}

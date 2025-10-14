@@ -1,0 +1,86 @@
+{
+  "timestamp": "2025-10-14T01:53:06.583560",
+  "overall_score": 100.0,
+  "categories": {
+    "iot_data": {
+      "name": "IoT Sensor Data",
+      "score": 100.0,
+      "checks": [
+        {
+          "check": "Data Completeness",
+          "status": "PASS",
+          "value": "100.0%",
+          "expected": ">95%"
+        },
+        {
+          "check": "Missing Values",
+          "status": "PASS",
+          "value": "0.00%",
+          "expected": "<5%"
+        }
+      ],
+      "issues": []
+    },
+    "building_attributes": {
+      "name": "Building Attributes",
+      "score": 100.0,
+      "checks": [
+        {
+          "check": "Building Count",
+          "status": "PASS",
+          "value": "100/100",
+          "expected": "100"
+        },
+        {
+          "check": "Missing Values",
+          "status": "PASS",
+          "value": "0 files with missing data",
+          "expected": "0 (excluding expected missing renovation years)"
+        }
+      ],
+      "issues": []
+    },
+    "energy_performance": {
+      "name": "Energy Performance",
+      "score": 100.0,
+      "checks": [
+        {
+          "check": "Historical Data Completeness",
+          "status": "PASS",
+          "value": "100.0%",
+          "expected": ">90%"
+        },
+        {
+          "check": "Rating Data Completeness",
+          "status": "PASS",
+          "value": "100.0%",
+          "expected": ">95%"
+        }
+      ],
+      "issues": []
+    },
+    "lca_data": {
+      "name": "Lifecycle Assessment",
+      "score": 100.0,
+      "checks": [
+        {
+          "check": "EPD Data Completeness",
+          "status": "PASS",
+          "value": "8/8",
+          "expected": "8"
+        },
+        {
+          "check": "Building LCA Completeness",
+          "status": "PASS",
+          "value": "100.0%",
+          "expected": ">95%"
+        }
+      ],
+      "issues": []
+    }
+  },
+  "issues": [],
+  "recommendations": [
+    "Dataset quality is excellent - ready for research use"
+  ]
+}
