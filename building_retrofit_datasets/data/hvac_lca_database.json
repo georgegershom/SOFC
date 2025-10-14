@@ -1,0 +1,47 @@
+{
+  "gas_boiler": {
+    "manufacturing_gwp_kgco2eq": 450,
+    "manufacturing_energy_mj": 8500,
+    "operational_gwp_kgco2eq_year": 2500,
+    "operational_energy_kwh_year": 12000,
+    "end_of_life_gwp_kgco2eq": -50,
+    "recyclability_pct": 75,
+    "lifespan_years": 15
+  },
+  "condensing_boiler": {
+    "manufacturing_gwp_kgco2eq": 520,
+    "manufacturing_energy_mj": 9200,
+    "operational_gwp_kgco2eq_year": 1800,
+    "operational_energy_kwh_year": 9000,
+    "end_of_life_gwp_kgco2eq": -60,
+    "recyclability_pct": 80,
+    "lifespan_years": 18
+  },
+  "air_source_heat_pump": {
+    "manufacturing_gwp_kgco2eq": 1200,
+    "manufacturing_energy_mj": 15500,
+    "operational_gwp_kgco2eq_year": 800,
+    "operational_energy_kwh_year": 4500,
+    "end_of_life_gwp_kgco2eq": -150,
+    "recyclability_pct": 85,
+    "lifespan_years": 20
+  },
+  "ground_source_heat_pump": {
+    "manufacturing_gwp_kgco2eq": 2800,
+    "manufacturing_energy_mj": 28000,
+    "operational_gwp_kgco2eq_year": 600,
+    "operational_energy_kwh_year": 3500,
+    "end_of_life_gwp_kgco2eq": -200,
+    "recyclability_pct": 80,
+    "lifespan_years": 25
+  },
+  "solar_pv": {
+    "manufacturing_gwp_kgco2eq_kwp": 1800,
+    "manufacturing_energy_mj_kwp": 25000,
+    "operational_gwp_kgco2eq_year": -500,
+    "operational_energy_kwh_year_kwp": 1200,
+    "end_of_life_gwp_kgco2eq_kwp": -180,
+    "recyclability_pct": 90,
+    "lifespan_years": 25
+  }
+}

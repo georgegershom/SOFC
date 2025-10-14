@@ -1,0 +1,27 @@
+{
+  "integration_timestamp": "2025-10-14T01:58:30.006104",
+  "source_datasets": {
+    "building_attributes": 50,
+    "iot_sensor": 438000,
+    "energy_historical": 250,
+    "retrofit_scenarios": 150,
+    "lca_building": 50,
+    "lca_retrofit": 404,
+    "carbon_payback": 404
+  },
+  "integrated_datasets": {
+    "building_master": 50,
+    "retrofit_analysis": 150,
+    "daily": 18250,
+    "monthly": 600,
+    "hourly_patterns": 1200,
+    "ml_dataset": 18250
+  },
+  "total_buildings": 50,
+  "total_iot_records": 438000,
+  "data_coverage": {
+    "temporal": "2023-01-01 to 2023-12-31",
+    "spatial": "50 buildings",
+    "resolution": "Hourly for IoT, Annual for energy"
+  }
+}

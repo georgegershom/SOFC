@@ -1,0 +1,119 @@
+{
+  "brick_clay": {
+    "gwp_kgco2eq_kg": 0.24,
+    "embodied_energy_mj_kg": 3.0,
+    "water_usage_l_kg": 1.5,
+    "recyclability_pct": 75,
+    "density_kg_m3": 1920,
+    "thermal_conductivity": 0.77,
+    "lifespan_years": 100
+  },
+  "concrete_block": {
+    "gwp_kgco2eq_kg": 0.16,
+    "embodied_energy_mj_kg": 1.5,
+    "water_usage_l_kg": 2.0,
+    "recyclability_pct": 80,
+    "density_kg_m3": 2000,
+    "thermal_conductivity": 1.4,
+    "lifespan_years": 100
+  },
+  "mineral_wool_insulation": {
+    "gwp_kgco2eq_kg": 1.28,
+    "embodied_energy_mj_kg": 16.8,
+    "water_usage_l_kg": 0.5,
+    "recyclability_pct": 60,
+    "density_kg_m3": 40,
+    "thermal_conductivity": 0.035,
+    "lifespan_years": 50
+  },
+  "eps_insulation": {
+    "gwp_kgco2eq_kg": 3.48,
+    "embodied_energy_mj_kg": 88.6,
+    "water_usage_l_kg": 0.2,
+    "recyclability_pct": 95,
+    "density_kg_m3": 25,
+    "thermal_conductivity": 0.033,
+    "lifespan_years": 50
+  },
+  "wood_timber": {
+    "gwp_kgco2eq_kg": -0.71,
+    "embodied_energy_mj_kg": 7.4,
+    "water_usage_l_kg": 0.8,
+    "recyclability_pct": 90,
+    "density_kg_m3": 500,
+    "thermal_conductivity": 0.13,
+    "lifespan_years": 60
+  },
+  "steel_structural": {
+    "gwp_kgco2eq_kg": 1.77,
+    "embodied_energy_mj_kg": 24.4,
+    "water_usage_l_kg": 0.3,
+    "recyclability_pct": 98,
+    "density_kg_m3": 7850,
+    "thermal_conductivity": 50,
+    "lifespan_years": 80
+  },
+  "aluminum": {
+    "gwp_kgco2eq_kg": 8.24,
+    "embodied_energy_mj_kg": 170,
+    "water_usage_l_kg": 0.4,
+    "recyclability_pct": 95,
+    "density_kg_m3": 2700,
+    "thermal_conductivity": 237,
+    "lifespan_years": 50
+  },
+  "glass_double_glazed": {
+    "gwp_kgco2eq_kg": 0.85,
+    "embodied_energy_mj_kg": 15.9,
+    "water_usage_l_kg": 0.3,
+    "recyclability_pct": 100,
+    "density_kg_m3": 2500,
+    "thermal_conductivity": 1.0,
+    "lifespan_years": 35
+  },
+  "glass_triple_glazed": {
+    "gwp_kgco2eq_kg": 1.15,
+    "embodied_energy_mj_kg": 23.8,
+    "water_usage_l_kg": 0.4,
+    "recyclability_pct": 100,
+    "density_kg_m3": 2500,
+    "thermal_conductivity": 1.0,
+    "lifespan_years": 35
+  },
+  "concrete_reinforced": {
+    "gwp_kgco2eq_kg": 0.32,
+    "embodied_energy_mj_kg": 2.0,
+    "water_usage_l_kg": 3.5,
+    "recyclability_pct": 70,
+    "density_kg_m3": 2400,
+    "thermal_conductivity": 2.5,
+    "lifespan_years": 100
+  },
+  "gypsum_board": {
+    "gwp_kgco2eq_kg": 0.38,
+    "embodied_energy_mj_kg": 6.1,
+    "water_usage_l_kg": 0.6,
+    "recyclability_pct": 100,
+    "density_kg_m3": 900,
+    "thermal_conductivity": 0.25,
+    "lifespan_years": 30
+  },
+  "ceramic_tiles": {
+    "gwp_kgco2eq_kg": 0.62,
+    "embodied_energy_mj_kg": 12.5,
+    "water_usage_l_kg": 1.2,
+    "recyclability_pct": 50,
+    "density_kg_m3": 2000,
+    "thermal_conductivity": 1.3,
+    "lifespan_years": 50
+  },
+  "paint_coating": {
+    "gwp_kgco2eq_kg": 2.91,
+    "embodied_energy_mj_kg": 61.5,
+    "water_usage_l_kg": 0.8,
+    "recyclability_pct": 10,
+    "density_kg_m3": 1400,
+    "thermal_conductivity": 0.3,
+    "lifespan_years": 10
+  }
+}

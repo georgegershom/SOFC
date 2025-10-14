@@ -1,0 +1,58 @@
+{
+  "wall_insulation": {
+    "u_value_improvement": 0.7,
+    "cost_per_m2": 85,
+    "lifetime_years": 40,
+    "carbon_saving_percent": 25,
+    "energy_saving_percent": 22
+  },
+  "roof_insulation": {
+    "u_value_improvement": 0.65,
+    "cost_per_m2": 75,
+    "lifetime_years": 40,
+    "carbon_saving_percent": 15,
+    "energy_saving_percent": 18
+  },
+  "window_replacement": {
+    "u_value_improvement": 0.5,
+    "cost_per_m2": 450,
+    "lifetime_years": 30,
+    "carbon_saving_percent": 18,
+    "energy_saving_percent": 15
+  },
+  "hvac_upgrade_heat_pump": {
+    "u_value_improvement": 1.0,
+    "cost_fixed": 12000,
+    "lifetime_years": 15,
+    "carbon_saving_percent": 45,
+    "energy_saving_percent": 35
+  },
+  "led_lighting": {
+    "u_value_improvement": 1.0,
+    "cost_per_m2": 25,
+    "lifetime_years": 15,
+    "carbon_saving_percent": 8,
+    "energy_saving_percent": 12
+  },
+  "solar_pv": {
+    "u_value_improvement": 1.0,
+    "cost_per_kwp": 1200,
+    "lifetime_years": 25,
+    "carbon_saving_percent": 30,
+    "energy_saving_percent": 25
+  },
+  "smart_controls": {
+    "u_value_improvement": 1.0,
+    "cost_fixed": 3500,
+    "lifetime_years": 10,
+    "carbon_saving_percent": 12,
+    "energy_saving_percent": 15
+  },
+  "ventilation_heat_recovery": {
+    "u_value_improvement": 1.0,
+    "cost_fixed": 8500,
+    "lifetime_years": 20,
+    "carbon_saving_percent": 10,
+    "energy_saving_percent": 12
+  }
+}

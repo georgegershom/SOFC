@@ -1,0 +1,405 @@
+measure,embodied_carbon_kgco2eq,annual_carbon_savings_kgco2eq,carbon_payback_years,lifespan_years,lifetime_carbon_benefit_kgco2eq,benefit_to_impact_ratio,building_id,scenario_name
+window_replacement,9831.86,18882.13,0.52,35,651042.6,66.22,BLD_001,Minimal
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_001,Minimal
+window_replacement,9831.86,25485.55,0.39,35,882162.39,89.72,BLD_001,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_001,Standard
+solar_pv,69803.06,18369.22,3.8,25,389427.44,5.58,BLD_001,Standard
+window_replacement,9831.86,28224.84,0.35,35,978037.45,99.48,BLD_001,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_001,Deep Retrofit
+solar_pv,69803.06,18369.22,3.8,25,389427.44,5.58,BLD_001,Deep Retrofit
+wall_insulation,5364.27,8340.76,0.64,50,411673.73,76.74,BLD_002,Minimal
+roof_insulation,4430.85,8340.76,0.53,50,412607.15,93.12,BLD_002,Minimal
+wall_insulation,5364.27,17310.47,0.31,50,860159.48,160.35,BLD_002,Standard
+roof_insulation,4430.85,17310.47,0.26,50,861092.9,194.34,BLD_002,Standard
+window_replacement,23406.66,17310.47,1.35,35,582459.96,24.88,BLD_002,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_002,Standard
+wall_insulation,5364.27,21748.61,0.25,50,1082066.23,201.72,BLD_002,Deep Retrofit
+roof_insulation,4430.85,21748.61,0.2,50,1082999.65,244.42,BLD_002,Deep Retrofit
+window_replacement,23406.66,21748.61,1.08,35,737794.69,31.52,BLD_002,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_002,Deep Retrofit
+solar_pv,16353.87,4303.65,3.8,25,91237.38,5.58,BLD_002,Deep Retrofit
+window_replacement,12130.0,5079.05,2.39,35,165636.75,13.66,BLD_003,Minimal
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_003,Minimal
+window_replacement,12130.0,6855.28,1.77,35,227804.98,18.78,BLD_003,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_003,Standard
+solar_pv,12856.35,3383.25,3.8,25,71724.9,5.58,BLD_003,Standard
+window_replacement,12130.0,7275.53,1.67,35,242513.64,19.99,BLD_003,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_003,Deep Retrofit
+solar_pv,12856.35,3383.25,3.8,25,71724.9,5.58,BLD_003,Deep Retrofit
+window_replacement,19591.49,20103.54,0.97,35,684032.58,34.91,BLD_004,Minimal
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_004,Minimal
+window_replacement,19591.49,27134.12,0.72,35,930102.71,47.47,BLD_004,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_004,Standard
+solar_pv,26602.19,7000.58,3.8,25,148412.31,5.58,BLD_004,Standard
+window_replacement,19591.49,30050.6,0.65,35,1032179.6,52.69,BLD_004,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_004,Deep Retrofit
+solar_pv,26602.19,7000.58,3.8,25,148412.31,5.58,BLD_004,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_005,Minimal
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_005,Standard
+solar_pv,14174.19,3730.05,3.8,25,79077.06,5.58,BLD_005,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_005,Deep Retrofit
+solar_pv,14174.19,3730.05,3.8,25,79077.06,5.58,BLD_005,Deep Retrofit
+wall_insulation,4202.89,16532.39,0.25,50,822416.74,195.68,BLD_006,Minimal
+roof_insulation,12034.22,16532.39,0.73,50,814585.41,67.69,BLD_006,Minimal
+wall_insulation,4202.89,34311.46,0.12,50,1711369.86,407.19,BLD_006,Standard
+roof_insulation,12034.22,34311.46,0.35,50,1703538.53,141.56,BLD_006,Standard
+window_replacement,6628.02,34311.46,0.19,35,1194272.91,180.19,BLD_006,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_006,Standard
+wall_insulation,4202.89,43108.38,0.1,50,2151215.98,511.84,BLD_006,Deep Retrofit
+roof_insulation,12034.22,43108.38,0.28,50,2143384.65,178.11,BLD_006,Deep Retrofit
+window_replacement,6628.02,43108.38,0.15,35,1502165.19,226.64,BLD_006,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_006,Deep Retrofit
+solar_pv,44417.25,11688.75,3.8,25,247801.5,5.58,BLD_006,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_007,Minimal
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_007,Standard
+solar_pv,21773.72,5729.92,3.8,25,121474.28,5.58,BLD_007,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_007,Deep Retrofit
+solar_pv,21773.72,5729.92,3.8,25,121474.28,5.58,BLD_007,Deep Retrofit
+wall_insulation,5755.92,7609.32,0.76,50,374710.08,65.1,BLD_008,Minimal
+roof_insulation,2597.5,7609.32,0.34,50,377868.5,145.47,BLD_008,Minimal
+wall_insulation,5755.92,15792.44,0.36,50,783866.08,136.18,BLD_008,Standard
+roof_insulation,2597.5,15792.44,0.16,50,787024.5,302.99,BLD_008,Standard
+window_replacement,27314.85,15792.44,1.73,35,525420.55,19.24,BLD_008,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_008,Standard
+wall_insulation,5755.92,19841.38,0.29,50,986312.95,171.36,BLD_008,Deep Retrofit
+roof_insulation,2597.5,19841.38,0.13,50,989471.37,380.93,BLD_008,Deep Retrofit
+window_replacement,27314.85,19841.38,1.38,35,667133.36,24.42,BLD_008,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_008,Deep Retrofit
+solar_pv,9587.12,2522.93,3.8,25,53486.13,5.58,BLD_008,Deep Retrofit
+solar_pv,19734.83,5193.38,3.8,25,110099.67,5.58,BLD_009,Minimal
+solar_pv,19734.83,5193.38,3.8,25,110099.67,5.58,BLD_009,Standard
+solar_pv,19734.83,5193.38,3.8,25,110099.67,5.58,BLD_009,Deep Retrofit
+wall_insulation,11564.17,25381.42,0.46,50,1257506.58,108.74,BLD_010,Minimal
+roof_insulation,8618.54,25381.42,0.34,50,1260452.21,146.25,BLD_010,Minimal
+wall_insulation,11564.17,52676.78,0.22,50,2622274.83,226.76,BLD_010,Standard
+roof_insulation,8618.54,52676.78,0.16,50,2625220.46,304.6,BLD_010,Standard
+window_replacement,41785.42,52676.78,0.79,35,1801901.88,43.12,BLD_010,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_010,Standard
+wall_insulation,11564.17,66182.29,0.17,50,3297550.08,285.15,BLD_010,Deep Retrofit
+roof_insulation,8618.54,66182.29,0.13,50,3300495.71,382.95,BLD_010,Deep Retrofit
+window_replacement,41785.42,66182.29,0.63,35,2274594.56,54.44,BLD_010,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_010,Deep Retrofit
+solar_pv,31810.28,8371.13,3.8,25,177467.97,5.58,BLD_010,Deep Retrofit
+window_replacement,106062.77,52590.97,2.02,35,1734621.09,16.35,BLD_011,Minimal
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_011,Minimal
+window_replacement,106062.77,70982.98,1.49,35,2378341.62,22.42,BLD_011,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_011,Standard
+solar_pv,16840.08,4431.6,3.8,25,93949.92,5.58,BLD_011,Standard
+window_replacement,106062.77,78612.51,1.35,35,2645375.25,24.94,BLD_011,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_011,Deep Retrofit
+solar_pv,16840.08,4431.6,3.8,25,93949.92,5.58,BLD_011,Deep Retrofit
+solar_pv,84318.96,22189.2,3.8,25,470411.04,5.58,BLD_013,Minimal
+solar_pv,84318.96,22189.2,3.8,25,470411.04,5.58,BLD_013,Standard
+solar_pv,84318.96,22189.2,3.8,25,470411.04,5.58,BLD_013,Deep Retrofit
+wall_insulation,6892.11,19845.8,0.35,50,985397.89,142.97,BLD_014,Minimal
+roof_insulation,7226.87,19845.8,0.36,50,985063.13,136.31,BLD_014,Minimal
+wall_insulation,6892.11,41188.12,0.17,50,2052514.14,297.81,BLD_014,Standard
+roof_insulation,7226.87,41188.12,0.18,50,2052179.38,283.97,BLD_014,Standard
+window_replacement,23994.52,41188.12,0.58,35,1417589.85,59.08,BLD_014,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_014,Standard
+wall_insulation,6892.11,51748.12,0.13,50,2580513.89,374.42,BLD_014,Deep Retrofit
+roof_insulation,7226.87,51748.12,0.14,50,2580179.13,357.03,BLD_014,Deep Retrofit
+window_replacement,23994.52,51748.12,0.46,35,1787189.68,74.48,BLD_014,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_014,Deep Retrofit
+solar_pv,26673.72,7019.4,3.8,25,148811.28,5.58,BLD_014,Deep Retrofit
+wall_insulation,15589.97,22933.22,0.68,50,1131071.03,72.55,BLD_015,Minimal
+roof_insulation,7476.89,22933.22,0.33,50,1139184.11,152.36,BLD_015,Minimal
+wall_insulation,15589.97,47595.78,0.33,50,2364198.78,151.65,BLD_015,Standard
+roof_insulation,7476.89,47595.78,0.16,50,2372311.86,317.29,BLD_015,Standard
+window_replacement,71287.34,47595.78,1.5,35,1594564.78,22.37,BLD_015,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_015,Standard
+wall_insulation,15589.97,59798.59,0.26,50,2974339.65,190.79,BLD_015,Deep Retrofit
+roof_insulation,7476.89,59798.59,0.13,50,2982452.73,398.89,BLD_015,Deep Retrofit
+window_replacement,71287.34,59798.59,1.19,35,2021663.4,28.36,BLD_015,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_015,Deep Retrofit
+solar_pv,27596.55,7262.25,3.8,25,153959.7,5.58,BLD_015,Deep Retrofit
+solar_pv,31527.56,8296.73,3.8,25,175890.69,5.58,BLD_016,Minimal
+solar_pv,31527.56,8296.73,3.8,25,175890.69,5.58,BLD_016,Standard
+solar_pv,31527.56,8296.73,3.8,25,175890.69,5.58,BLD_016,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_017,Minimal
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_017,Standard
+solar_pv,14302.44,3763.8,3.8,25,79792.56,5.58,BLD_017,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_017,Deep Retrofit
+solar_pv,14302.44,3763.8,3.8,25,79792.56,5.58,BLD_017,Deep Retrofit
+solar_pv,70880.35,18652.72,3.8,25,395437.65,5.58,BLD_018,Minimal
+solar_pv,70880.35,18652.72,3.8,25,395437.65,5.58,BLD_018,Standard
+solar_pv,70880.35,18652.72,3.8,25,395437.65,5.58,BLD_018,Deep Retrofit
+wall_insulation,9660.7,16363.84,0.59,50,808531.3,83.69,BLD_019,Minimal
+roof_insulation,10592.89,16363.84,0.65,50,807599.11,76.24,BLD_019,Minimal
+wall_insulation,9660.7,33961.64,0.28,50,1688421.17,174.77,BLD_019,Standard
+roof_insulation,10592.89,33961.64,0.31,50,1687488.98,159.3,BLD_019,Standard
+window_replacement,31520.12,33961.64,0.93,35,1157137.19,36.71,BLD_019,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_019,Standard
+wall_insulation,9660.7,42668.87,0.23,50,2123782.92,219.84,BLD_019,Deep Retrofit
+roof_insulation,10592.89,42668.87,0.25,50,2122850.73,200.4,BLD_019,Deep Retrofit
+window_replacement,31520.12,42668.87,0.74,35,1461890.42,46.38,BLD_019,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_019,Deep Retrofit
+solar_pv,39097.44,10288.8,3.8,25,218122.56,5.58,BLD_019,Deep Retrofit
+wall_insulation,6299.39,30290.62,0.21,50,1508231.36,239.42,BLD_020,Minimal
+roof_insulation,21932.55,30290.62,0.72,50,1492598.2,68.05,BLD_020,Minimal
+wall_insulation,6299.39,62865.37,0.1,50,3136969.11,497.98,BLD_020,Standard
+roof_insulation,21932.55,62865.37,0.35,50,3121335.95,142.32,BLD_020,Standard
+window_replacement,11014.79,62865.37,0.18,35,2189273.16,198.76,BLD_020,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_020,Standard
+wall_insulation,6299.39,78983.07,0.08,50,3942854.23,625.91,BLD_020,Deep Retrofit
+roof_insulation,21932.55,78983.07,0.28,50,3927221.07,179.06,BLD_020,Deep Retrofit
+window_replacement,11014.79,78983.07,0.14,35,2753392.75,249.97,BLD_020,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_020,Deep Retrofit
+solar_pv,80951.12,21302.92,3.8,25,451621.88,5.58,BLD_020,Deep Retrofit
+wall_insulation,4316.64,2525.95,1.71,50,121980.61,28.26,BLD_021,Minimal
+roof_insulation,1343.42,2525.95,0.53,50,124953.83,93.01,BLD_021,Minimal
+wall_insulation,4316.64,5242.36,0.82,50,257801.61,59.72,BLD_021,Standard
+roof_insulation,1343.42,5242.36,0.26,50,260774.83,194.11,BLD_021,Standard
+window_replacement,8964.98,5242.36,1.71,35,174517.79,19.47,BLD_021,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_021,Standard
+wall_insulation,4316.64,6417.1,0.67,50,316538.61,73.33,BLD_021,Deep Retrofit
+roof_insulation,1343.42,6417.1,0.21,50,319511.83,237.83,BLD_021,Deep Retrofit
+window_replacement,8964.98,6417.1,1.4,35,215633.69,24.05,BLD_021,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_021,Deep Retrofit
+solar_pv,4958.43,1304.85,3.8,25,27662.82,5.58,BLD_021,Deep Retrofit
+window_replacement,75636.18,34055.53,2.22,35,1116307.28,14.76,BLD_022,Minimal
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_022,Minimal
+window_replacement,75636.18,45965.36,1.65,35,1533151.42,20.27,BLD_022,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_022,Standard
+solar_pv,17219.7,4531.5,3.8,25,96067.8,5.58,BLD_022,Standard
+window_replacement,75636.18,50905.9,1.49,35,1706070.32,22.56,BLD_022,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_022,Deep Retrofit
+solar_pv,17219.7,4531.5,3.8,25,96067.8,5.58,BLD_022,Deep Retrofit
+wall_insulation,9381.32,11494.16,0.82,50,565326.56,60.26,BLD_023,Minimal
+roof_insulation,5395.13,11494.16,0.47,50,569312.74,105.52,BLD_023,Minimal
+wall_insulation,9381.32,23855.06,0.39,50,1183371.8,126.14,BLD_023,Standard
+roof_insulation,5395.13,23855.06,0.23,50,1187358.0,220.08,BLD_023,Standard
+window_replacement,40507.68,23855.06,1.7,35,794419.51,19.61,BLD_023,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_023,Standard
+wall_insulation,9381.32,29971.13,0.31,50,1489175.18,158.74,BLD_023,Deep Retrofit
+roof_insulation,5395.13,29971.13,0.18,50,1493161.37,276.76,BLD_023,Deep Retrofit
+window_replacement,40507.68,29971.13,1.35,35,1008481.87,24.9,BLD_023,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_023,Deep Retrofit
+solar_pv,19912.95,5240.25,3.8,25,111093.3,5.58,BLD_023,Deep Retrofit
+window_replacement,13568.48,12025.78,1.13,35,407333.91,30.02,BLD_024,Minimal
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_024,Minimal
+window_replacement,13568.48,16231.42,0.84,35,554531.13,40.87,BLD_024,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_024,Standard
+solar_pv,45526.76,11980.73,3.8,25,253991.49,5.58,BLD_024,Standard
+window_replacement,13568.48,17976.03,0.75,35,615592.74,45.37,BLD_024,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_024,Deep Retrofit
+solar_pv,45526.76,11980.73,3.8,25,253991.49,5.58,BLD_024,Deep Retrofit
+wall_insulation,15734.42,25628.49,0.61,50,1265689.96,80.44,BLD_025,Minimal
+roof_insulation,8510.05,25628.49,0.33,50,1272914.32,149.58,BLD_025,Minimal
+wall_insulation,15734.42,53189.56,0.3,50,2643743.33,168.02,BLD_025,Standard
+roof_insulation,8510.05,53189.56,0.16,50,2650967.7,311.51,BLD_025,Standard
+window_replacement,54743.47,53189.56,1.03,35,1806890.96,33.01,BLD_025,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_025,Standard
+wall_insulation,15734.42,66826.53,0.24,50,3325591.96,211.36,BLD_025,Deep Retrofit
+roof_insulation,8510.05,66826.53,0.13,50,3332816.33,391.63,BLD_025,Deep Retrofit
+window_replacement,54743.47,66826.53,0.82,35,2284184.99,41.73,BLD_025,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_025,Deep Retrofit
+solar_pv,31409.85,8265.75,3.8,25,175233.9,5.58,BLD_025,Deep Retrofit
+wall_insulation,4226.77,7635.87,0.55,50,377566.6,89.33,BLD_026,Minimal
+roof_insulation,10354.84,7635.87,1.36,50,371438.53,35.87,BLD_026,Minimal
+wall_insulation,4226.77,15847.54,0.27,50,788150.1,186.47,BLD_026,Standard
+roof_insulation,10354.84,15847.54,0.65,50,782022.04,75.52,BLD_026,Standard
+window_replacement,11758.87,15847.54,0.74,35,542904.94,46.17,BLD_026,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_026,Standard
+wall_insulation,4226.77,19910.6,0.21,50,991303.23,234.53,BLD_026,Deep Retrofit
+roof_insulation,10354.84,19910.6,0.52,50,985175.16,95.14,BLD_026,Deep Retrofit
+window_replacement,11758.87,19910.6,0.59,35,685112.13,58.26,BLD_026,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_026,Deep Retrofit
+solar_pv,38218.78,10057.58,3.8,25,213220.72,5.58,BLD_026,Deep Retrofit
+window_replacement,22939.81,7042.83,3.26,35,223559.33,9.75,BLD_028,Minimal
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_028,Minimal
+window_replacement,22939.81,9505.84,2.41,35,309764.59,13.5,BLD_028,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_028,Standard
+solar_pv,15428.48,4060.12,3.8,25,86074.52,5.58,BLD_028,Standard
+window_replacement,22939.81,10527.57,2.18,35,345524.97,15.06,BLD_028,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_028,Deep Retrofit
+solar_pv,15428.48,4060.12,3.8,25,86074.52,5.58,BLD_028,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_029,Minimal
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_029,Standard
+solar_pv,16731.78,4403.1,3.8,25,93345.72,5.58,BLD_029,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_029,Deep Retrofit
+solar_pv,16731.78,4403.1,3.8,25,93345.72,5.58,BLD_029,Deep Retrofit
+wall_insulation,3228.23,1775.16,1.82,50,85529.9,26.49,BLD_030,Minimal
+roof_insulation,1364.03,1775.16,0.77,50,87394.1,64.07,BLD_030,Minimal
+wall_insulation,3228.23,3684.19,0.88,50,180981.14,56.06,BLD_030,Standard
+roof_insulation,1364.03,3684.19,0.37,50,182845.35,134.05,BLD_030,Standard
+window_replacement,5847.83,3684.19,1.59,35,123098.73,21.05,BLD_030,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_030,Standard
+wall_insulation,3228.23,4509.77,0.72,50,222260.02,68.85,BLD_030,Deep Retrofit
+roof_insulation,1364.03,4509.77,0.3,50,224124.22,164.31,BLD_030,Deep Retrofit
+window_replacement,5847.83,4509.77,1.3,35,151993.95,25.99,BLD_030,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_030,Deep Retrofit
+solar_pv,5034.53,1324.88,3.8,25,28087.47,5.58,BLD_030,Deep Retrofit
+wall_insulation,14148.49,52065.42,0.27,50,2589122.38,183.0,BLD_031,Minimal
+roof_insulation,13614.3,52065.42,0.26,50,2589656.58,190.22,BLD_031,Minimal
+wall_insulation,14148.49,108056.96,0.13,50,5388699.51,380.87,BLD_031,Standard
+roof_insulation,13614.3,108056.96,0.13,50,5389233.7,395.85,BLD_031,Standard
+window_replacement,48053.14,108056.96,0.44,35,3733940.46,77.7,BLD_031,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_031,Standard
+wall_insulation,14148.49,135761.08,0.1,50,6773905.51,478.77,BLD_031,Deep Retrofit
+roof_insulation,13614.3,135761.08,0.1,50,6774439.7,497.6,BLD_031,Deep Retrofit
+window_replacement,48053.14,135761.08,0.35,35,4703584.66,97.88,BLD_031,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_031,Deep Retrofit
+solar_pv,50249.21,13223.48,3.8,25,280337.79,5.58,BLD_031,Deep Retrofit
+wall_insulation,4986.01,6056.04,0.82,50,297815.99,59.73,BLD_032,Minimal
+window_replacement,18562.07,6056.04,3.07,35,193399.33,10.42,BLD_032,Minimal
+wall_insulation,4986.01,11331.58,0.44,50,561593.24,112.63,BLD_032,Standard
+window_replacement,18562.07,11331.58,1.64,35,378043.4,20.37,BLD_032,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_032,Standard
+wall_insulation,4986.01,13798.25,0.36,50,684926.74,137.37,BLD_032,Deep Retrofit
+window_replacement,18562.07,13798.25,1.35,35,464376.85,25.02,BLD_032,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_032,Deep Retrofit
+solar_pv,14010.89,3687.08,3.8,25,78166.11,5.58,BLD_032,Deep Retrofit
+wall_insulation,14833.88,26796.82,0.55,50,1325007.25,89.32,BLD_033,Minimal
+roof_insulation,4755.16,26796.82,0.18,50,1335085.97,280.77,BLD_033,Minimal
+wall_insulation,14833.88,55614.32,0.27,50,2765882.37,186.46,BLD_033,Standard
+roof_insulation,4755.16,55614.32,0.09,50,2775961.09,583.78,BLD_033,Standard
+window_replacement,82723.83,55614.32,1.49,35,1863777.54,22.53,BLD_033,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_033,Standard
+wall_insulation,14833.88,69872.97,0.21,50,3478814.75,234.52,BLD_033,Deep Retrofit
+roof_insulation,4755.16,69872.97,0.07,50,3488893.46,733.71,BLD_033,Deep Retrofit
+window_replacement,82723.83,69872.97,1.18,35,2362830.21,28.56,BLD_033,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_033,Deep Retrofit
+solar_pv,17550.87,4618.65,3.8,25,97915.38,5.58,BLD_033,Deep Retrofit
+roof_insulation,1380.79,707.98,1.95,50,34018.33,24.64,BLD_034,Minimal
+window_replacement,3537.05,707.98,5.0,35,21242.34,6.01,BLD_034,Minimal
+roof_insulation,1380.79,1574.69,0.88,50,77353.96,56.02,BLD_034,Standard
+window_replacement,3537.05,1574.69,2.25,35,51577.27,14.58,BLD_034,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_034,Standard
+roof_insulation,1380.79,1979.94,0.7,50,97616.34,70.7,BLD_034,Deep Retrofit
+window_replacement,3537.05,1979.94,1.79,35,65760.94,18.59,BLD_034,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_034,Deep Retrofit
+solar_pv,5096.37,1341.15,3.8,25,28432.38,5.58,BLD_034,Deep Retrofit
+solar_pv,21185.76,5575.2,3.8,25,118194.24,5.58,BLD_035,Minimal
+solar_pv,21185.76,5575.2,3.8,25,118194.24,5.58,BLD_035,Standard
+solar_pv,21185.76,5575.2,3.8,25,118194.24,5.58,BLD_035,Deep Retrofit
+wall_insulation,5194.52,19366.74,0.27,50,963142.48,185.42,BLD_036,Minimal
+roof_insulation,14060.61,19366.74,0.73,50,954276.39,67.87,BLD_036,Minimal
+wall_insulation,5194.52,40193.88,0.13,50,2004499.35,385.89,BLD_036,Standard
+roof_insulation,14060.61,40193.88,0.35,50,1995633.26,141.93,BLD_036,Standard
+window_replacement,18525.95,40193.88,0.46,35,1388259.76,74.94,BLD_036,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_036,Standard
+wall_insulation,5194.52,50498.96,0.1,50,2519753.6,485.08,BLD_036,Deep Retrofit
+roof_insulation,14060.61,50498.96,0.28,50,2510887.52,178.58,BLD_036,Deep Retrofit
+window_replacement,18525.95,50498.96,0.37,35,1748937.74,94.4,BLD_036,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_036,Deep Retrofit
+solar_pv,51896.5,13656.98,3.8,25,289528.0,5.58,BLD_036,Deep Retrofit
+roof_insulation,1531.05,1615.82,0.95,50,79259.82,51.77,BLD_037,Minimal
+window_replacement,9063.41,1615.82,5.61,35,47490.2,5.24,BLD_037,Minimal
+roof_insulation,1531.05,3593.91,0.43,50,178164.2,116.37,BLD_037,Standard
+window_replacement,9063.41,3593.91,2.52,35,116723.26,12.88,BLD_037,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_037,Standard
+roof_insulation,1531.05,4518.79,0.34,50,224408.57,146.57,BLD_037,Deep Retrofit
+window_replacement,9063.41,4518.79,2.01,35,149094.33,16.45,BLD_037,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_037,Deep Retrofit
+solar_pv,5650.98,1487.1,3.8,25,31526.52,5.58,BLD_037,Deep Retrofit
+wall_insulation,10161.82,18544.44,0.55,50,917060.31,90.25,BLD_038,Minimal
+roof_insulation,4772.14,18544.44,0.26,50,922449.98,193.3,BLD_038,Minimal
+wall_insulation,10161.82,38487.28,0.26,50,1914202.05,188.37,BLD_038,Standard
+roof_insulation,4772.14,38487.28,0.12,50,1919591.73,402.25,BLD_038,Standard
+window_replacement,62250.11,38487.28,1.62,35,1284804.6,20.64,BLD_038,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_038,Standard
+wall_insulation,10161.82,48354.82,0.21,50,2407578.93,236.92,BLD_038,Deep Retrofit
+roof_insulation,4772.14,48354.82,0.1,50,2412968.61,505.64,BLD_038,Deep Retrofit
+window_replacement,62250.11,48354.82,1.29,35,1630168.42,26.19,BLD_038,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_038,Deep Retrofit
+solar_pv,17613.57,4635.15,3.8,25,98265.18,5.58,BLD_038,Deep Retrofit
+wall_insulation,26408.55,38942.74,0.68,50,1920728.45,72.73,BLD_039,Minimal
+roof_insulation,5211.97,38942.74,0.13,50,1941925.03,372.59,BLD_039,Minimal
+wall_insulation,26408.55,80822.05,0.33,50,4014694.2,152.02,BLD_039,Standard
+roof_insulation,5211.97,80822.05,0.06,50,4035890.78,774.35,BLD_039,Standard
+window_replacement,101025.83,80822.05,1.25,35,2727746.09,27.0,BLD_039,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_039,Standard
+wall_insulation,26408.55,101543.57,0.26,50,5050769.95,191.26,BLD_039,Deep Retrofit
+roof_insulation,5211.97,101543.57,0.05,50,5071966.53,973.14,BLD_039,Deep Retrofit
+window_replacement,101025.83,101543.57,0.99,35,3452999.12,34.18,BLD_039,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_039,Deep Retrofit
+solar_pv,19236.93,5062.35,3.8,25,107321.82,5.58,BLD_039,Deep Retrofit
+window_replacement,17452.28,8438.28,2.07,35,277887.43,15.92,BLD_040,Minimal
+window_replacement,17452.28,19082.42,0.91,35,650432.51,37.27,BLD_040,Standard
+solar_pv,83356.51,21935.92,3.8,25,465041.49,5.58,BLD_040,Standard
+window_replacement,17452.28,20951.79,0.83,35,715860.28,41.02,BLD_040,Deep Retrofit
+solar_pv,83356.51,21935.92,3.8,25,465041.49,5.58,BLD_040,Deep Retrofit
+window_replacement,8950.54,1048.42,8.54,35,27744.07,3.1,BLD_041,Minimal
+window_replacement,8950.54,2370.91,3.78,35,74031.14,8.27,BLD_041,Standard
+solar_pv,5947.95,1565.25,3.8,25,33183.3,5.58,BLD_041,Standard
+window_replacement,8950.54,2370.91,3.78,35,74031.14,8.27,BLD_041,Deep Retrofit
+solar_pv,5947.95,1565.25,3.8,25,33183.3,5.58,BLD_041,Deep Retrofit
+window_replacement,16463.5,19907.17,0.83,35,680287.28,41.32,BLD_042,Minimal
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_042,Minimal
+window_replacement,16463.5,26869.06,0.61,35,923953.6,56.12,BLD_042,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_042,Standard
+solar_pv,69277.8,18231.0,3.8,25,386497.2,5.58,BLD_042,Standard
+window_replacement,16463.5,29757.06,0.55,35,1025033.43,62.26,BLD_042,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_042,Deep Retrofit
+solar_pv,69277.8,18231.0,3.8,25,386497.2,5.58,BLD_042,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_043,Minimal
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_043,Standard
+solar_pv,24382.89,6416.55,3.8,25,136030.86,5.58,BLD_043,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_043,Deep Retrofit
+solar_pv,24382.89,6416.55,3.8,25,136030.86,5.58,BLD_043,Deep Retrofit
+window_replacement,17261.75,31779.84,0.54,35,1095032.56,63.44,BLD_044,Minimal
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_044,Minimal
+window_replacement,17261.75,42893.82,0.4,35,1484021.95,85.97,BLD_044,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_044,Standard
+solar_pv,46978.54,12362.77,3.8,25,262090.71,5.58,BLD_044,Standard
+window_replacement,17261.75,47504.22,0.36,35,1645385.95,95.32,BLD_044,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_044,Deep Retrofit
+solar_pv,46978.54,12362.77,3.8,25,262090.71,5.58,BLD_044,Deep Retrofit
+wall_insulation,3082.98,8540.41,0.36,50,423937.27,137.51,BLD_045,Minimal
+roof_insulation,6540.79,8540.41,0.77,50,420479.46,64.29,BLD_045,Minimal
+wall_insulation,3082.98,17724.82,0.17,50,883158.14,286.46,BLD_045,Standard
+roof_insulation,6540.79,17724.82,0.37,50,879700.33,134.49,BLD_045,Standard
+window_replacement,6972.06,17724.82,0.39,35,613396.73,87.98,BLD_045,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_045,Standard
+wall_insulation,3082.98,21696.71,0.14,50,1081752.52,350.88,BLD_045,Deep Retrofit
+roof_insulation,6540.79,21696.71,0.3,50,1078294.71,164.86,BLD_045,Deep Retrofit
+window_replacement,6972.06,21696.71,0.32,35,752412.79,107.92,BLD_045,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_045,Deep Retrofit
+solar_pv,24141.5,6353.03,3.8,25,134684.25,5.58,BLD_045,Deep Retrofit
+roof_insulation,659.51,689.11,0.96,50,33795.74,51.24,BLD_046,Minimal
+window_replacement,4863.56,689.11,7.06,35,19255.11,3.96,BLD_046,Minimal
+roof_insulation,659.51,1532.71,0.43,50,75975.87,115.2,BLD_046,Standard
+window_replacement,4863.56,1532.71,3.17,35,48781.2,10.03,BLD_046,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_046,Standard
+roof_insulation,659.51,1653.7,0.4,50,82025.49,124.37,BLD_046,Deep Retrofit
+window_replacement,4863.56,1653.7,2.94,35,53015.94,10.9,BLD_046,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_046,Deep Retrofit
+window_replacement,42783.24,5280.0,8.1,35,142016.67,3.32,BLD_047,Minimal
+window_replacement,42783.24,11940.25,3.58,35,375125.42,8.77,BLD_047,Standard
+solar_pv,13314.92,3503.93,3.8,25,74283.33,5.58,BLD_047,Standard
+window_replacement,42783.24,13109.95,3.26,35,416064.92,9.72,BLD_047,Deep Retrofit
+solar_pv,13314.92,3503.93,3.8,25,74283.33,5.58,BLD_047,Deep Retrofit
+wall_insulation,10961.74,20987.88,0.52,50,1038432.14,94.73,BLD_048,Minimal
+roof_insulation,7273.89,20987.88,0.35,50,1042119.98,143.27,BLD_048,Minimal
+wall_insulation,10961.74,43558.4,0.25,50,2166958.13,197.68,BLD_048,Standard
+roof_insulation,7273.89,43558.4,0.17,50,2170645.98,298.42,BLD_048,Standard
+window_replacement,54642.34,43558.4,1.25,35,1469901.57,26.9,BLD_048,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_048,Standard
+wall_insulation,10961.74,54726.09,0.2,50,2725342.88,248.62,BLD_048,Deep Retrofit
+roof_insulation,7273.89,54726.09,0.13,50,2729030.73,375.18,BLD_048,Deep Retrofit
+window_replacement,54642.34,54726.09,1.0,35,1860770.9,34.05,BLD_048,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_048,Deep Retrofit
+solar_pv,26847.28,7065.07,3.8,25,149779.47,5.58,BLD_048,Deep Retrofit
+wall_insulation,12430.95,17074.09,0.73,50,841273.68,67.68,BLD_049,Minimal
+roof_insulation,2936.39,17074.09,0.17,50,850768.23,289.73,BLD_049,Minimal
+wall_insulation,12430.95,35435.7,0.35,50,1759354.05,141.53,BLD_049,Standard
+roof_insulation,2936.39,35435.7,0.08,50,1768848.61,602.39,BLD_049,Standard
+window_replacement,55898.41,35435.7,1.58,35,1184351.09,21.19,BLD_049,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_049,Standard
+wall_insulation,12430.95,44520.86,0.28,50,2213612.05,178.07,BLD_049,Deep Retrofit
+roof_insulation,2936.39,44520.86,0.07,50,2223106.61,757.09,BLD_049,Deep Retrofit
+window_replacement,55898.41,44520.86,1.26,35,1502331.69,26.88,BLD_049,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_049,Deep Retrofit
+solar_pv,10837.98,2852.1,3.8,25,60464.52,5.58,BLD_049,Deep Retrofit
+wall_insulation,6648.42,9602.17,0.69,50,473460.08,71.21,BLD_050,Minimal
+roof_insulation,6172.63,9602.17,0.64,50,473935.87,76.78,BLD_050,Minimal
+wall_insulation,6648.42,19928.42,0.33,50,989772.33,148.87,BLD_050,Standard
+roof_insulation,6172.63,19928.42,0.31,50,990248.12,160.43,BLD_050,Standard
+window_replacement,22039.52,19928.42,1.11,35,675455.01,30.65,BLD_050,Standard
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_050,Standard
+wall_insulation,6648.42,25037.75,0.27,50,1245239.08,187.3,BLD_050,Deep Retrofit
+roof_insulation,6172.63,25037.75,0.25,50,1245714.87,201.81,BLD_050,Deep Retrofit
+window_replacement,22039.52,25037.75,0.88,35,854281.73,38.76,BLD_050,Deep Retrofit
+hvac_upgrade_heat_pump,1350.0,1700.0,0.79,20,32650.0,24.19,BLD_050,Deep Retrofit
+solar_pv,22782.61,5995.43,3.8,25,127103.14,5.58,BLD_050,Deep Retrofit
