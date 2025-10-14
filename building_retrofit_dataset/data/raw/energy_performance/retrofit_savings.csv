@@ -1,0 +1,697 @@
+building_id,date,post_retrofit_consumption_kwh,energy_savings_kwh,savings_percentage,cost_savings_eur,carbon_savings_kg_co2,retrofit_measures,measurement_verified,normalized_for_weather
+BLD_00001,2023-01-01,941583.29,1210977.42,60.0,222547.13,267850.51,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",True,True
+BLD_00001,2023-02-01,926541.14,1226019.58,60.0,207927.82,417993.62,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",False,True
+BLD_00001,2023-03-01,1057265.22,1095295.49,60.0,181405.07,398127.2,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",True,True
+BLD_00001,2023-04-01,1105856.78,1046703.93,60.0,196557.54,306829.82,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",True,True
+BLD_00001,2023-05-01,870014.72,1282545.99,60.0,243834.47,435706.37,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",True,True
+BLD_00001,2023-06-01,853375.66,1299185.05,60.0,239340.94,444377.39,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",False,True
+BLD_00001,2023-07-01,770356.93,1382203.79,60.0,272808.9,316171.29,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",False,True
+BLD_00001,2023-08-01,770672.96,1381887.76,60.0,234373.48,469735.33,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",False,True
+BLD_00001,2023-09-01,728602.71,1423958.01,60.0,276419.01,413882.81,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",True,True
+BLD_00001,2023-10-01,650008.03,1502552.69,60.0,233863.84,444350.53,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",True,True
+BLD_00001,2023-11-01,741175.15,1411385.56,60.0,236309.37,444495.63,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",True,True
+BLD_00001,2023-12-01,844782.95,1307777.76,60.0,242872.19,289537.1,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",True,True
+BLD_00001,2024-01-01,1002520.55,1150040.17,60.0,203139.97,322199.04,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",False,True
+BLD_00001,2024-02-01,957342.01,1195218.7,60.0,193846.01,277056.55,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",False,True
+BLD_00001,2024-03-01,1009220.3,1143340.42,60.0,190978.68,414784.63,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",False,True
+BLD_00001,2024-04-01,1067598.48,1084962.24,60.0,186361.45,387836.41,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",True,True
+BLD_00001,2024-05-01,885200.82,1267359.9,60.0,232535.52,440880.81,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",False,True
+BLD_00001,2024-06-01,794608.81,1357951.91,60.0,244164.88,359959.94,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",True,True
+BLD_00001,2024-07-01,824830.4,1327730.32,60.0,210855.13,519377.15,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",True,True
+BLD_00001,2024-08-01,725880.46,1426680.25,60.0,262902.12,455512.02,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",False,True
+BLD_00001,2024-09-01,665042.52,1487518.2,60.0,271099.38,315794.82,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",True,True
+BLD_00001,2024-10-01,757029.15,1395531.57,60.0,271239.81,531210.77,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",True,True
+BLD_00001,2024-11-01,814764.89,1337795.83,60.0,244875.59,388756.62,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",False,True
+BLD_00001,2024-12-01,842078.77,1310481.95,60.0,234440.73,313379.9,"hvac_upgrade, roof_insulation, wall_insulation, window_upgrade",False,True
+BLD_00004,2023-01-01,2754025.77,1954758.29,47.7,368002.21,635356.26,"window_upgrade, heat_pump",False,True
+BLD_00004,2023-02-01,2656159.2,2052624.86,47.7,343316.19,557232.67,"window_upgrade, heat_pump",False,True
+BLD_00004,2023-03-01,2692652.92,2016131.14,47.7,327039.54,497832.01,"window_upgrade, heat_pump",False,True
+BLD_00004,2023-04-01,2942254.71,1766529.35,47.7,345390.85,376447.49,"window_upgrade, heat_pump",False,True
+BLD_00004,2023-05-01,2499696.19,2209087.87,47.7,350116.04,679699.59,"window_upgrade, heat_pump",True,True
+BLD_00004,2023-06-01,2443058.62,2265725.44,47.7,437666.62,710553.89,"window_upgrade, heat_pump",False,True
+BLD_00004,2023-07-01,2112640.17,2596143.9,47.7,479762.0,824529.71,"window_upgrade, heat_pump",False,True
+BLD_00004,2023-08-01,1986043.82,2722740.24,47.7,461545.42,856322.85,"window_upgrade, heat_pump",False,True
+BLD_00004,2023-09-01,1812281.95,2896502.12,47.7,532248.38,773926.52,"window_upgrade, heat_pump",False,True
+BLD_00004,2023-10-01,1900087.07,2808696.99,47.7,463367.72,1106305.16,"window_upgrade, heat_pump",True,True
+BLD_00004,2023-11-01,2214727.28,2494056.78,47.7,479773.48,891450.52,"window_upgrade, heat_pump",True,True
+BLD_00004,2023-12-01,2357589.98,2351194.08,47.7,358266.88,938703.75,"window_upgrade, heat_pump",False,True
+BLD_00004,2024-01-01,2873546.09,1835237.97,47.7,332597.64,718657.56,"window_upgrade, heat_pump",True,True
+BLD_00004,2024-02-01,2941869.34,1766914.72,47.7,289187.83,553549.04,"window_upgrade, heat_pump",False,True
+BLD_00004,2024-03-01,2911694.03,1797090.03,47.7,300771.45,386971.56,"window_upgrade, heat_pump",False,True
+BLD_00004,2024-04-01,2891474.27,1817309.8,47.7,299847.85,604603.23,"window_upgrade, heat_pump",False,True
+BLD_00004,2024-05-01,2546069.48,2162714.58,47.7,367910.29,702866.61,"window_upgrade, heat_pump",False,True
+BLD_00004,2024-06-01,2546796.14,2161987.93,47.7,383489.36,813295.13,"window_upgrade, heat_pump",True,True
+BLD_00004,2024-07-01,2250136.49,2458647.58,47.7,394975.93,964830.88,"window_upgrade, heat_pump",False,True
+BLD_00004,2024-08-01,1941336.44,2767447.62,47.7,503388.53,1001225.73,"window_upgrade, heat_pump",False,True
+BLD_00004,2024-09-01,2141080.7,2567703.36,47.7,478442.1,544292.34,"window_upgrade, heat_pump",True,True
+BLD_00004,2024-10-01,1980562.19,2728221.88,47.7,429387.16,627748.93,"window_upgrade, heat_pump",False,True
+BLD_00004,2024-11-01,2368598.59,2340185.47,47.7,399032.08,870636.03,"window_upgrade, heat_pump",True,True
+BLD_00004,2024-12-01,2528263.44,2180520.62,47.7,419310.52,552515.47,"window_upgrade, heat_pump",False,True
+BLD_00005,2023-01-01,1011759.69,1298580.62,60.0,231345.84,369594.38,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",False,True
+BLD_00005,2023-02-01,1151637.29,1158703.03,60.0,209369.98,332340.57,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",False,True
+BLD_00005,2023-03-01,1018682.08,1291658.23,60.0,226901.82,509758.55,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",True,True
+BLD_00005,2023-04-01,1116209.12,1194131.2,60.0,221728.4,461094.09,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",True,True
+BLD_00005,2023-05-01,973997.58,1336342.73,60.0,229674.25,509736.63,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",False,True
+BLD_00005,2023-06-01,887243.37,1423096.95,60.0,283494.16,479388.41,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",False,True
+BLD_00005,2023-07-01,888535.48,1421804.84,60.0,250457.47,368384.41,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",True,True
+BLD_00005,2023-08-01,771863.71,1538476.6,60.0,301333.87,465670.57,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",False,True
+BLD_00005,2023-09-01,726447.8,1583892.52,60.0,274382.18,544957.23,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",False,True
+BLD_00005,2023-10-01,741982.93,1568357.39,60.0,281172.59,554774.05,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",True,True
+BLD_00005,2023-11-01,767502.81,1542837.51,60.0,282461.02,363971.47,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",True,True
+BLD_00005,2023-12-01,987515.2,1322825.12,60.0,201417.24,374690.63,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",False,True
+BLD_00005,2024-01-01,978723.18,1331617.13,60.0,247953.41,468024.61,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",False,True
+BLD_00005,2024-02-01,1111048.27,1199292.04,60.0,195788.89,471734.24,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",True,True
+BLD_00005,2024-03-01,1044880.43,1265459.88,60.0,194768.23,501675.42,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",False,True
+BLD_00005,2024-04-01,1164782.46,1145557.86,60.0,177924.08,351543.3,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",True,True
+BLD_00005,2024-05-01,995188.74,1315151.57,60.0,198147.61,435525.85,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",False,True
+BLD_00005,2024-06-01,959587.14,1350753.18,60.0,261288.38,531063.15,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",False,True
+BLD_00005,2024-07-01,798919.38,1511420.94,60.0,288162.41,488716.4,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",False,True
+BLD_00005,2024-08-01,810624.49,1499715.83,60.0,231528.76,340469.67,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",True,True
+BLD_00005,2024-09-01,681925.59,1628414.72,60.0,245555.6,641764.87,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",True,True
+BLD_00005,2024-10-01,719637.19,1590703.13,60.0,290193.82,524849.26,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",False,True
+BLD_00005,2024-11-01,888627.26,1421713.06,60.0,274261.91,437484.58,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",True,True
+BLD_00005,2024-12-01,887340.33,1422999.99,60.0,246422.73,419497.29,"lighting_led, solar_panels, building_controls, roof_insulation, window_upgrade",True,True
+BLD_00010,2023-01-01,597528.82,249524.22,35.8,48337.24,97921.6,"roof_insulation, building_controls, lighting_led",False,True
+BLD_00010,2023-02-01,660803.72,186249.32,35.8,36620.73,42331.8,"roof_insulation, building_controls, lighting_led",False,True
+BLD_00010,2023-03-01,654742.88,192310.16,35.8,38442.36,72619.41,"roof_insulation, building_controls, lighting_led",True,True
+BLD_00010,2023-04-01,626141.21,220911.82,35.8,39944.02,84427.48,"roof_insulation, building_controls, lighting_led",True,True
+BLD_00010,2023-05-01,624014.45,223038.58,35.8,41291.04,78048.69,"roof_insulation, building_controls, lighting_led",True,True
+BLD_00010,2023-06-01,597755.81,249297.23,35.8,45636.03,95753.02,"roof_insulation, building_controls, lighting_led",True,True
+BLD_00010,2023-07-01,500101.01,346952.02,35.8,68777.12,116195.77,"roof_insulation, building_controls, lighting_led",True,True
+BLD_00010,2023-08-01,420513.32,426539.71,35.8,71809.05,96681.1,"roof_insulation, building_controls, lighting_led",False,True
+BLD_00010,2023-09-01,474571.83,372481.2,35.8,63744.99,102737.37,"roof_insulation, building_controls, lighting_led",False,True
+BLD_00010,2023-10-01,492018.2,355034.84,35.8,59254.58,119225.18,"roof_insulation, building_controls, lighting_led",True,True
+BLD_00010,2023-11-01,469030.94,378022.09,35.8,65834.9,95620.75,"roof_insulation, building_controls, lighting_led",True,True
+BLD_00010,2023-12-01,569882.38,277170.65,35.8,49458.91,67489.01,"roof_insulation, building_controls, lighting_led",False,True
+BLD_00010,2024-01-01,649738.87,197314.16,35.8,39059.67,59807.07,"roof_insulation, building_controls, lighting_led",True,True
+BLD_00010,2024-02-01,693783.87,153269.17,35.8,29829.96,56659.07,"roof_insulation, building_controls, lighting_led",True,True
+BLD_00010,2024-03-01,633949.46,213103.57,35.8,38524.12,56623.83,"roof_insulation, building_controls, lighting_led",False,True
+BLD_00010,2024-04-01,588064.84,258988.19,35.8,43376.92,89217.99,"roof_insulation, building_controls, lighting_led",False,True
+BLD_00010,2024-05-01,580975.32,266077.71,35.8,41259.84,79400.04,"roof_insulation, building_controls, lighting_led",True,True
+BLD_00010,2024-06-01,547151.48,299901.55,35.8,58458.46,84615.37,"roof_insulation, building_controls, lighting_led",False,True
+BLD_00010,2024-07-01,441305.2,405747.84,35.8,76472.26,101447.89,"roof_insulation, building_controls, lighting_led",False,True
+BLD_00010,2024-08-01,440351.96,406701.07,35.8,67091.14,116181.6,"roof_insulation, building_controls, lighting_led",True,True
+BLD_00010,2024-09-01,438359.24,408693.79,35.8,66810.84,162608.57,"roof_insulation, building_controls, lighting_led",False,True
+BLD_00010,2024-10-01,419345.74,427707.29,35.8,71720.91,122663.04,"roof_insulation, building_controls, lighting_led",False,True
+BLD_00010,2024-11-01,527146.08,319906.95,35.8,59330.25,71061.93,"roof_insulation, building_controls, lighting_led",False,True
+BLD_00010,2024-12-01,493967.04,353085.99,35.8,59928.33,123151.03,"roof_insulation, building_controls, lighting_led",True,True
+BLD_00013,2023-01-01,569698.68,717951.72,60.0,138509.36,252789.07,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",False,True
+BLD_00013,2023-02-01,629470.8,658179.6,60.0,120291.84,243237.77,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",True,True
+BLD_00013,2023-03-01,669264.05,618386.35,60.0,99522.63,168651.74,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",False,True
+BLD_00013,2023-04-01,648728.49,638921.91,60.0,112241.46,227458.89,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",True,True
+BLD_00013,2023-05-01,517687.3,769963.1,60.0,131782.8,259672.52,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",True,True
+BLD_00013,2023-06-01,478726.76,808923.64,60.0,156777.34,282318.56,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",True,True
+BLD_00013,2023-07-01,418736.61,868913.79,60.0,150358.88,220140.47,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",False,True
+BLD_00013,2023-08-01,439636.88,848013.52,60.0,146394.31,214645.57,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",True,True
+BLD_00013,2023-09-01,400051.5,887598.9,60.0,142551.31,247982.35,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",False,True
+BLD_00013,2023-10-01,426524.25,861126.15,60.0,131457.67,219171.91,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",True,True
+BLD_00013,2023-11-01,421754.02,865896.38,60.0,146445.7,333893.1,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",True,True
+BLD_00013,2023-12-01,493840.29,793810.11,60.0,135054.57,253074.47,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",False,True
+BLD_00013,2024-01-01,568675.89,718974.51,60.0,111771.22,150966.16,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",True,True
+BLD_00013,2024-02-01,659739.87,627910.53,60.0,101080.4,132255.26,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",True,True
+BLD_00013,2024-03-01,627371.77,660278.63,60.0,106924.44,202326.77,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",False,True
+BLD_00013,2024-04-01,571213.33,716437.07,60.0,129683.02,245855.88,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",False,True
+BLD_00013,2024-05-01,554428.68,733221.72,60.0,118044.6,267489.35,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",False,True
+BLD_00013,2024-06-01,514562.78,773087.62,60.0,122574.17,186093.86,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",False,True
+BLD_00013,2024-07-01,482638.98,805011.42,60.0,132343.02,161502.5,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",True,True
+BLD_00013,2024-08-01,426125.09,861525.31,60.0,159402.48,254452.94,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",False,True
+BLD_00013,2024-09-01,441102.79,846547.61,60.0,156100.67,198131.52,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",True,True
+BLD_00013,2024-10-01,397457.38,890193.02,60.0,148313.07,259084.68,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",True,True
+BLD_00013,2024-11-01,478947.05,808703.35,60.0,138608.62,165109.22,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",False,True
+BLD_00013,2024-12-01,554334.27,733316.13,60.0,116257.19,258165.52,"wall_insulation, roof_insulation, building_controls, heat_pump, hvac_upgrade",True,True
+BLD_00020,2023-01-01,2180886.18,2438316.98,60.0,399908.8,840757.23,"hvac_upgrade, heat_pump, solar_panels, building_controls",False,True
+BLD_00020,2023-02-01,2343177.01,2276026.15,60.0,414266.96,604890.22,"hvac_upgrade, heat_pump, solar_panels, building_controls",False,True
+BLD_00020,2023-03-01,2431439.14,2187764.02,60.0,337254.04,481802.95,"hvac_upgrade, heat_pump, solar_panels, building_controls",False,True
+BLD_00020,2023-04-01,2056177.91,2563025.25,60.0,447885.6,815597.92,"hvac_upgrade, heat_pump, solar_panels, building_controls",False,True
+BLD_00020,2023-05-01,1871465.36,2747737.8,60.0,519449.11,938917.99,"hvac_upgrade, heat_pump, solar_panels, building_controls",False,True
+BLD_00020,2023-06-01,1887084.11,2732119.05,60.0,528718.78,911192.87,"hvac_upgrade, heat_pump, solar_panels, building_controls",True,True
+BLD_00020,2023-07-01,1696724.26,2922478.9,60.0,524635.09,1048351.61,"hvac_upgrade, heat_pump, solar_panels, building_controls",True,True
+BLD_00020,2023-08-01,1550759.4,3068443.76,60.0,478289.58,1082565.78,"hvac_upgrade, heat_pump, solar_panels, building_controls",False,True
+BLD_00020,2023-09-01,1501831.42,3117371.74,60.0,578164.18,999931.76,"hvac_upgrade, heat_pump, solar_panels, building_controls",False,True
+BLD_00020,2023-10-01,1594347.47,3024855.69,60.0,459757.64,996440.99,"hvac_upgrade, heat_pump, solar_panels, building_controls",False,True
+BLD_00020,2023-11-01,1780059.73,2839143.43,60.0,507261.94,864669.87,"hvac_upgrade, heat_pump, solar_panels, building_controls",False,True
+BLD_00020,2023-12-01,1963405.48,2655797.67,60.0,481777.41,944205.53,"hvac_upgrade, heat_pump, solar_panels, building_controls",True,True
+BLD_00020,2024-01-01,1917022.34,2702180.82,60.0,429746.42,881192.66,"hvac_upgrade, heat_pump, solar_panels, building_controls",False,True
+BLD_00020,2024-02-01,1993773.89,2625429.27,60.0,514672.05,946149.7,"hvac_upgrade, heat_pump, solar_panels, building_controls",False,True
+BLD_00020,2024-03-01,2372170.02,2247033.14,60.0,365537.71,817186.83,"hvac_upgrade, heat_pump, solar_panels, building_controls",False,True
+BLD_00020,2024-04-01,2103708.93,2515494.23,60.0,498770.76,642272.32,"hvac_upgrade, heat_pump, solar_panels, building_controls",True,True
+BLD_00020,2024-05-01,1961115.46,2658087.7,60.0,491627.2,869092.25,"hvac_upgrade, heat_pump, solar_panels, building_controls",True,True
+BLD_00020,2024-06-01,1740287.01,2878916.15,60.0,542792.13,890896.56,"hvac_upgrade, heat_pump, solar_panels, building_controls",False,True
+BLD_00020,2024-07-01,1742967.36,2876235.8,60.0,539771.55,1024496.91,"hvac_upgrade, heat_pump, solar_panels, building_controls",True,True
+BLD_00020,2024-08-01,1632975.98,2986227.18,60.0,575841.11,796584.02,"hvac_upgrade, heat_pump, solar_panels, building_controls",True,True
+BLD_00020,2024-09-01,1423907.18,3195295.98,60.0,528156.09,1223268.78,"hvac_upgrade, heat_pump, solar_panels, building_controls",True,True
+BLD_00020,2024-10-01,1570260.27,3048942.89,60.0,505045.86,912971.0,"hvac_upgrade, heat_pump, solar_panels, building_controls",True,True
+BLD_00020,2024-11-01,1748242.03,2870961.13,60.0,459662.28,1065686.99,"hvac_upgrade, heat_pump, solar_panels, building_controls",False,True
+BLD_00020,2024-12-01,1792470.3,2826732.86,60.0,537912.78,1071772.86,"hvac_upgrade, heat_pump, solar_panels, building_controls",True,True
+BLD_00026,2023-01-01,872947.28,798692.34,48.1,151882.68,245239.7,"wall_insulation, roof_insulation, hvac_upgrade",False,True
+BLD_00026,2023-02-01,918882.9,752756.72,48.1,145603.7,260867.85,"wall_insulation, roof_insulation, hvac_upgrade",False,True
+BLD_00026,2023-03-01,1096479.59,575160.03,48.1,105349.59,172160.99,"wall_insulation, roof_insulation, hvac_upgrade",True,True
+BLD_00026,2023-04-01,1024222.22,647417.4,48.1,114992.96,230438.49,"wall_insulation, roof_insulation, hvac_upgrade",True,True
+BLD_00026,2023-05-01,1035004.1,636635.52,48.1,107878.73,219731.09,"wall_insulation, roof_insulation, hvac_upgrade",True,True
+BLD_00026,2023-06-01,874915.07,796724.55,48.1,127486.17,268509.57,"wall_insulation, roof_insulation, hvac_upgrade",True,True
+BLD_00026,2023-07-01,753665.69,917973.93,48.1,148968.64,271695.41,"wall_insulation, roof_insulation, hvac_upgrade",True,True
+BLD_00026,2023-08-01,663844.83,1007794.79,48.1,188931.81,253600.11,"wall_insulation, roof_insulation, hvac_upgrade",False,True
+BLD_00026,2023-09-01,717516.51,954123.1,48.1,162943.98,363703.05,"wall_insulation, roof_insulation, hvac_upgrade",True,True
+BLD_00026,2023-10-01,749771.9,921867.72,48.1,154939.67,325436.4,"wall_insulation, roof_insulation, hvac_upgrade",False,True
+BLD_00026,2023-11-01,750656.13,920983.49,48.1,163120.89,285261.87,"wall_insulation, roof_insulation, hvac_upgrade",True,True
+BLD_00026,2023-12-01,793609.25,878030.37,48.1,138534.25,196931.83,"wall_insulation, roof_insulation, hvac_upgrade",True,True
+BLD_00026,2024-01-01,1040337.12,631302.5,48.1,96778.11,223523.94,"wall_insulation, roof_insulation, hvac_upgrade",False,True
+BLD_00026,2024-02-01,1111923.22,559716.4,48.1,87130.23,162462.34,"wall_insulation, roof_insulation, hvac_upgrade",True,True
+BLD_00026,2024-03-01,1040616.6,631023.02,48.1,121004.7,193672.56,"wall_insulation, roof_insulation, hvac_upgrade",True,True
+BLD_00026,2024-04-01,1013469.88,658169.74,48.1,118943.32,235032.02,"wall_insulation, roof_insulation, hvac_upgrade",False,True
+BLD_00026,2024-05-01,1008940.45,662699.17,48.1,111109.47,183949.47,"wall_insulation, roof_insulation, hvac_upgrade",True,True
+BLD_00026,2024-06-01,874956.9,796682.72,48.1,129471.93,162240.86,"wall_insulation, roof_insulation, hvac_upgrade",True,True
+BLD_00026,2024-07-01,857199.76,814439.86,48.1,128774.84,218612.14,"wall_insulation, roof_insulation, hvac_upgrade",True,True
+BLD_00026,2024-08-01,713858.6,957781.02,48.1,187950.82,312537.41,"wall_insulation, roof_insulation, hvac_upgrade",True,True
+BLD_00026,2024-09-01,671507.47,1000132.15,48.1,169486.3,351397.69,"wall_insulation, roof_insulation, hvac_upgrade",True,True
+BLD_00026,2024-10-01,760971.99,910667.63,48.1,171927.77,255434.87,"wall_insulation, roof_insulation, hvac_upgrade",True,True
+BLD_00026,2024-11-01,732028.41,939611.21,48.1,170891.28,333273.21,"wall_insulation, roof_insulation, hvac_upgrade",True,True
+BLD_00026,2024-12-01,949671.94,721967.68,48.1,135175.86,264891.55,"wall_insulation, roof_insulation, hvac_upgrade",False,True
+BLD_00030,2023-01-01,626137.2,750291.94,60.0,132852.3,201008.64,"window_upgrade, hvac_upgrade, solar_panels",False,True
+BLD_00030,2023-02-01,705945.25,670483.88,60.0,127278.04,176649.34,"window_upgrade, hvac_upgrade, solar_panels",False,True
+BLD_00030,2023-03-01,618108.09,758321.04,60.0,118635.42,296959.3,"window_upgrade, hvac_upgrade, solar_panels",True,True
+BLD_00030,2023-04-01,706345.6,670083.53,60.0,127731.92,191390.23,"window_upgrade, hvac_upgrade, solar_panels",False,True
+BLD_00030,2023-05-01,548142.02,828287.12,60.0,162865.04,166694.03,"window_upgrade, hvac_upgrade, solar_panels",True,True
+BLD_00030,2023-06-01,500235.63,876193.5,60.0,166547.8,240515.75,"window_upgrade, hvac_upgrade, solar_panels",True,True
+BLD_00030,2023-07-01,504070.17,872358.96,60.0,169168.19,187164.3,"window_upgrade, hvac_upgrade, solar_panels",True,True
+BLD_00030,2023-08-01,421627.0,954802.13,60.0,185106.14,359594.54,"window_upgrade, hvac_upgrade, solar_panels",True,True
+BLD_00030,2023-09-01,466824.17,909604.97,60.0,175939.66,194517.67,"window_upgrade, hvac_upgrade, solar_panels",True,True
+BLD_00030,2023-10-01,439184.33,937244.81,60.0,163105.4,285257.38,"window_upgrade, hvac_upgrade, solar_panels",False,True
+BLD_00030,2023-11-01,501019.26,875409.87,60.0,139284.23,192654.84,"window_upgrade, hvac_upgrade, solar_panels",False,True
+BLD_00030,2023-12-01,526826.93,849602.21,60.0,149521.88,274745.82,"window_upgrade, hvac_upgrade, solar_panels",False,True
+BLD_00030,2024-01-01,616098.14,760330.99,60.0,151879.93,226674.35,"window_upgrade, hvac_upgrade, solar_panels",False,True
+BLD_00030,2024-02-01,705759.21,670669.93,60.0,123750.7,259771.0,"window_upgrade, hvac_upgrade, solar_panels",False,True
+BLD_00030,2024-03-01,653947.56,722481.57,60.0,131394.9,208228.41,"window_upgrade, hvac_upgrade, solar_panels",False,True
+BLD_00030,2024-04-01,664425.97,712003.17,60.0,112129.99,143307.07,"window_upgrade, hvac_upgrade, solar_panels",False,True
+BLD_00030,2024-05-01,647533.88,728895.25,60.0,145224.72,248361.48,"window_upgrade, hvac_upgrade, solar_panels",False,True
+BLD_00030,2024-06-01,527217.87,849211.27,60.0,167706.62,181662.12,"window_upgrade, hvac_upgrade, solar_panels",True,True
+BLD_00030,2024-07-01,525779.0,850650.13,60.0,134950.28,262572.68,"window_upgrade, hvac_upgrade, solar_panels",True,True
+BLD_00030,2024-08-01,476791.0,899638.14,60.0,143511.34,191247.88,"window_upgrade, hvac_upgrade, solar_panels",True,True
+BLD_00030,2024-09-01,449846.04,926583.09,60.0,179695.23,304873.24,"window_upgrade, hvac_upgrade, solar_panels",False,True
+BLD_00030,2024-10-01,466505.23,909923.91,60.0,139172.16,316343.5,"window_upgrade, hvac_upgrade, solar_panels",True,True
+BLD_00030,2024-11-01,497455.97,878973.16,60.0,150100.84,261852.76,"window_upgrade, hvac_upgrade, solar_panels",True,True
+BLD_00030,2024-12-01,574526.43,801902.71,60.0,138856.91,164265.82,"window_upgrade, hvac_upgrade, solar_panels",True,True
+BLD_00033,2023-01-01,622805.74,871733.17,60.0,155517.77,192339.79,"hvac_upgrade, heat_pump, lighting_led",True,True
+BLD_00033,2023-02-01,769438.56,725100.35,60.0,132676.36,217525.63,"hvac_upgrade, heat_pump, lighting_led",False,True
+BLD_00033,2023-03-01,777631.4,716907.51,60.0,113168.02,269781.4,"hvac_upgrade, heat_pump, lighting_led",True,True
+BLD_00033,2023-04-01,769168.53,725370.38,60.0,127559.32,219741.37,"hvac_upgrade, heat_pump, lighting_led",True,True
+BLD_00033,2023-05-01,685438.56,809100.35,60.0,143900.35,196140.67,"hvac_upgrade, heat_pump, lighting_led",True,True
+BLD_00033,2023-06-01,552516.28,942022.63,60.0,179748.01,191212.29,"hvac_upgrade, heat_pump, lighting_led",True,True
+BLD_00033,2023-07-01,503140.26,991398.65,60.0,148814.52,210777.45,"hvac_upgrade, heat_pump, lighting_led",False,True
+BLD_00033,2023-08-01,490446.12,1004092.79,60.0,169661.68,209917.57,"hvac_upgrade, heat_pump, lighting_led",True,True
+BLD_00033,2023-09-01,479010.31,1015528.6,60.0,184388.47,339485.73,"hvac_upgrade, heat_pump, lighting_led",False,True
+BLD_00033,2023-10-01,515511.27,979027.64,60.0,152811.66,303056.25,"hvac_upgrade, heat_pump, lighting_led",False,True
+BLD_00033,2023-11-01,504606.04,989932.86,60.0,167482.58,216387.54,"hvac_upgrade, heat_pump, lighting_led",True,True
+BLD_00033,2023-12-01,647705.56,846833.34,60.0,136985.11,263031.94,"hvac_upgrade, heat_pump, lighting_led",False,True
+BLD_00033,2024-01-01,677308.68,817230.23,60.0,148783.03,177347.52,"hvac_upgrade, heat_pump, lighting_led",True,True
+BLD_00033,2024-02-01,741501.74,753037.17,60.0,123361.18,268538.83,"hvac_upgrade, heat_pump, lighting_led",True,True
+BLD_00033,2024-03-01,673616.77,820922.14,60.0,135835.11,306426.36,"hvac_upgrade, heat_pump, lighting_led",False,True
+BLD_00033,2024-04-01,747938.65,746600.26,60.0,141484.69,154526.72,"hvac_upgrade, heat_pump, lighting_led",True,True
+BLD_00033,2024-05-01,688285.24,806253.67,60.0,161032.45,234949.43,"hvac_upgrade, heat_pump, lighting_led",False,True
+BLD_00033,2024-06-01,647553.73,846985.17,60.0,127196.35,307857.04,"hvac_upgrade, heat_pump, lighting_led",False,True
+BLD_00033,2024-07-01,585753.15,908785.76,60.0,179598.64,288689.66,"hvac_upgrade, heat_pump, lighting_led",False,True
+BLD_00033,2024-08-01,527297.17,967241.73,60.0,161113.82,368120.48,"hvac_upgrade, heat_pump, lighting_led",True,True
+BLD_00033,2024-09-01,472122.37,1022416.54,60.0,203074.63,341168.53,"hvac_upgrade, heat_pump, lighting_led",False,True
+BLD_00033,2024-10-01,471403.19,1023135.72,60.0,157247.05,389812.07,"hvac_upgrade, heat_pump, lighting_led",False,True
+BLD_00033,2024-11-01,582813.49,911725.42,60.0,150393.25,198125.55,"hvac_upgrade, heat_pump, lighting_led",True,True
+BLD_00033,2024-12-01,622215.96,872322.95,60.0,169745.72,338914.24,"hvac_upgrade, heat_pump, lighting_led",False,True
+BLD_00037,2023-01-01,841796.09,951338.94,60.0,187758.59,221351.75,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",False,True
+BLD_00037,2023-02-01,828379.79,964755.24,60.0,161034.07,279481.04,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",False,True
+BLD_00037,2023-03-01,900268.44,892866.59,60.0,167586.22,314070.46,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",True,True
+BLD_00037,2023-04-01,791172.23,1001962.8,60.0,176361.18,231116.35,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",True,True
+BLD_00037,2023-05-01,711552.02,1081583.02,60.0,163115.79,287741.98,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",True,True
+BLD_00037,2023-06-01,676446.02,1116689.01,60.0,216515.65,274643.37,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",True,True
+BLD_00037,2023-07-01,606444.25,1186690.78,60.0,202229.4,341997.92,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",True,True
+BLD_00037,2023-08-01,613223.57,1179911.47,60.0,202223.63,343659.66,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",True,True
+BLD_00037,2023-09-01,566635.21,1226499.82,60.0,210152.66,435629.61,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",False,True
+BLD_00037,2023-10-01,622780.26,1170354.77,60.0,193997.35,444417.65,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",True,True
+BLD_00037,2023-11-01,603383.44,1189751.59,60.0,216639.19,288064.89,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",True,True
+BLD_00037,2023-12-01,780596.45,1012538.58,60.0,160641.35,249252.64,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",False,True
+BLD_00037,2024-01-01,838853.13,954281.9,60.0,151283.61,196399.5,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",False,True
+BLD_00037,2024-02-01,877962.6,915172.43,60.0,180781.39,207160.26,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",True,True
+BLD_00037,2024-03-01,867622.09,925512.94,60.0,160042.14,360311.08,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",True,True
+BLD_00037,2024-04-01,772630.11,1020504.93,60.0,189696.52,399550.5,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",True,True
+BLD_00037,2024-05-01,756264.24,1036870.79,60.0,201208.93,219503.41,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",False,True
+BLD_00037,2024-06-01,776971.41,1016163.62,60.0,165580.99,382707.1,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",False,True
+BLD_00037,2024-07-01,675177.39,1117957.64,60.0,221268.49,409551.94,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",False,True
+BLD_00037,2024-08-01,609886.7,1183248.33,60.0,218367.52,312641.41,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",False,True
+BLD_00037,2024-09-01,563924.61,1229210.42,60.0,222628.36,450482.18,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",True,True
+BLD_00037,2024-10-01,643507.04,1149627.99,60.0,175320.94,312643.81,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",True,True
+BLD_00037,2024-11-01,650282.66,1142852.37,60.0,224027.53,263790.02,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",False,True
+BLD_00037,2024-12-01,735748.02,1057387.01,60.0,176556.05,395930.07,"hvac_upgrade, wall_insulation, window_upgrade, roof_insulation",True,True
+BLD_00038,2023-01-01,6087041.74,1346353.57,25.1,231882.12,379604.81,"lighting_led, roof_insulation",False,True
+BLD_00038,2023-02-01,7081777.94,351617.38,25.1,64957.68,95101.48,"lighting_led, roof_insulation",False,True
+BLD_00038,2023-03-01,6790763.58,642631.74,25.1,113528.64,160265.91,"lighting_led, roof_insulation",False,True
+BLD_00038,2023-04-01,6339022.29,1094373.02,25.1,191377.31,379621.42,"lighting_led, roof_insulation",True,True
+BLD_00038,2023-05-01,6728684.2,704711.11,25.1,134667.07,162178.73,"lighting_led, roof_insulation",False,True
+BLD_00038,2023-06-01,5433164.78,2000230.53,25.1,369635.72,728874.13,"lighting_led, roof_insulation",False,True
+BLD_00038,2023-07-01,5277726.73,2155668.58,25.1,389274.47,583712.74,"lighting_led, roof_insulation",True,True
+BLD_00038,2023-08-01,4272425.12,3160970.2,25.1,544985.62,826940.08,"lighting_led, roof_insulation",True,True
+BLD_00038,2023-09-01,4316726.68,3116668.64,25.1,502331.51,793397.07,"lighting_led, roof_insulation",False,True
+BLD_00038,2023-10-01,4723682.87,2709712.45,25.1,407680.64,782747.94,"lighting_led, roof_insulation",False,True
+BLD_00038,2023-11-01,5400928.78,2032466.54,25.1,363743.58,653572.04,"lighting_led, roof_insulation",False,True
+BLD_00038,2023-12-01,5312006.21,2121389.11,25.1,368610.4,748779.15,"lighting_led, roof_insulation",False,True
+BLD_00038,2024-01-01,6033074.88,1400320.44,25.1,279256.3,365347.19,"lighting_led, roof_insulation",False,True
+BLD_00038,2024-02-01,6631994.13,801401.18,25.1,136092.24,163741.28,"lighting_led, roof_insulation",True,True
+BLD_00038,2024-03-01,6755590.76,677804.56,25.1,121845.16,177177.23,"lighting_led, roof_insulation",False,True
+BLD_00038,2024-04-01,6214810.76,1218584.56,25.1,204231.32,394286.91,"lighting_led, roof_insulation",False,True
+BLD_00038,2024-05-01,6011723.11,1421672.21,25.1,218601.15,429077.43,"lighting_led, roof_insulation",False,True
+BLD_00038,2024-06-01,5138687.86,2294707.45,25.1,397218.83,591564.23,"lighting_led, roof_insulation",False,True
+BLD_00038,2024-07-01,5032343.66,2401051.66,25.1,435780.52,579257.5,"lighting_led, roof_insulation",True,True
+BLD_00038,2024-08-01,5063540.4,2369854.92,25.1,390192.74,750902.7,"lighting_led, roof_insulation",True,True
+BLD_00038,2024-09-01,4247023.91,3186371.4,25.1,528306.29,1142209.15,"lighting_led, roof_insulation",True,True
+BLD_00038,2024-10-01,4755559.35,2677835.96,25.1,470598.83,746847.64,"lighting_led, roof_insulation",True,True
+BLD_00038,2024-11-01,4839511.34,2593883.98,25.1,411247.51,952315.59,"lighting_led, roof_insulation",True,True
+BLD_00038,2024-12-01,5196042.12,2237353.19,25.1,351213.1,652716.89,"lighting_led, roof_insulation",False,True
+BLD_00040,2023-01-01,2982564.91,1328752.38,40.0,230712.21,285833.37,"hvac_upgrade, lighting_led",False,True
+BLD_00040,2023-02-01,3030818.63,1280498.66,40.0,203960.25,262489.86,"hvac_upgrade, lighting_led",False,True
+BLD_00040,2023-03-01,2988712.09,1322605.2,40.0,259366.14,469121.18,"hvac_upgrade, lighting_led",False,True
+BLD_00040,2023-04-01,3210845.27,1100472.02,40.0,220028.02,244515.93,"hvac_upgrade, lighting_led",True,True
+BLD_00040,2023-05-01,2871023.0,1440294.29,40.0,287541.07,307762.85,"hvac_upgrade, lighting_led",True,True
+BLD_00040,2023-06-01,2562254.17,1749063.12,40.0,289154.53,492208.16,"hvac_upgrade, lighting_led",True,True
+BLD_00040,2023-07-01,2478355.06,1832962.23,40.0,344558.07,474053.8,"hvac_upgrade, lighting_led",True,True
+BLD_00040,2023-08-01,2002538.79,2308778.5,40.0,362965.92,760948.36,"hvac_upgrade, lighting_led",True,True
+BLD_00040,2023-09-01,1921259.06,2390058.23,40.0,380148.77,913656.88,"hvac_upgrade, lighting_led",False,True
+BLD_00040,2023-10-01,2246957.25,2064360.04,40.0,324302.3,715328.99,"hvac_upgrade, lighting_led",True,True
+BLD_00040,2023-11-01,2365859.08,1945458.21,40.0,321495.81,709428.0,"hvac_upgrade, lighting_led",False,True
+BLD_00040,2023-12-01,2783850.15,1527467.14,40.0,257823.29,312398.78,"hvac_upgrade, lighting_led",True,True
+BLD_00040,2024-01-01,2799069.69,1512247.6,40.0,274133.43,397964.97,"hvac_upgrade, lighting_led",True,True
+BLD_00040,2024-02-01,3290081.01,1021236.27,40.0,177201.08,220362.94,"hvac_upgrade, lighting_led",False,True
+BLD_00040,2024-03-01,3166478.31,1144838.98,40.0,188904.61,356546.68,"hvac_upgrade, lighting_led",True,True
+BLD_00040,2024-04-01,2894150.75,1417166.54,40.0,237017.31,479581.0,"hvac_upgrade, lighting_led",False,True
+BLD_00040,2024-05-01,2623457.82,1687859.47,40.0,256306.13,373276.43,"hvac_upgrade, lighting_led",True,True
+BLD_00040,2024-06-01,2492380.49,1818936.8,40.0,357433.89,575308.68,"hvac_upgrade, lighting_led",True,True
+BLD_00040,2024-07-01,2173823.83,2137493.46,40.0,366565.92,804057.59,"hvac_upgrade, lighting_led",False,True
+BLD_00040,2024-08-01,2237199.53,2074117.76,40.0,394324.4,781899.31,"hvac_upgrade, lighting_led",False,True
+BLD_00040,2024-09-01,2059807.19,2251510.1,40.0,385904.32,846031.12,"hvac_upgrade, lighting_led",False,True
+BLD_00040,2024-10-01,1978268.29,2333049.0,40.0,404038.47,932812.38,"hvac_upgrade, lighting_led",True,True
+BLD_00040,2024-11-01,2327164.01,1984153.28,40.0,324333.1,577859.45,"hvac_upgrade, lighting_led",True,True
+BLD_00040,2024-12-01,2591411.68,1719905.61,40.0,277826.78,626342.97,"hvac_upgrade, lighting_led",True,True
+BLD_00041,2023-01-01,3203385.43,2417369.68,43.0,373617.54,877591.03,"solar_panels, heat_pump",False,True
+BLD_00041,2023-02-01,3617531.24,2003223.88,43.0,366240.56,512411.0,"solar_panels, heat_pump",True,True
+BLD_00041,2023-03-01,3651031.65,1969723.47,43.0,298344.91,672949.35,"solar_panels, heat_pump",True,True
+BLD_00041,2023-04-01,3617496.1,2003259.02,43.0,375007.5,612152.92,"solar_panels, heat_pump",True,True
+BLD_00041,2023-05-01,3753331.04,1867424.07,43.0,302496.32,426623.34,"solar_panels, heat_pump",False,True
+BLD_00041,2023-06-01,2918019.51,2702735.61,43.0,413309.65,628740.44,"solar_panels, heat_pump",True,True
+BLD_00041,2023-07-01,2656306.68,2964448.44,43.0,510881.45,1083845.02,"solar_panels, heat_pump",True,True
+BLD_00041,2023-08-01,2427075.77,3193679.34,43.0,608010.71,659452.46,"solar_panels, heat_pump",True,True
+BLD_00041,2023-09-01,2414907.39,3205847.72,43.0,628183.23,945624.97,"solar_panels, heat_pump",True,True
+BLD_00041,2023-10-01,2512136.61,3108618.51,43.0,582898.99,930336.15,"solar_panels, heat_pump",True,True
+BLD_00041,2023-11-01,2935871.16,2684883.96,43.0,465375.6,887210.0,"solar_panels, heat_pump",False,True
+BLD_00041,2023-12-01,2913350.93,2707404.19,43.0,507532.02,1020488.92,"solar_panels, heat_pump",False,True
+BLD_00041,2024-01-01,3795850.54,1824904.58,43.0,287932.36,725470.68,"solar_panels, heat_pump",False,True
+BLD_00041,2024-02-01,3897805.81,1722949.3,43.0,311581.51,603465.01,"solar_panels, heat_pump",True,True
+BLD_00041,2024-03-01,4016066.0,1604689.12,43.0,261433.58,507670.49,"solar_panels, heat_pump",False,True
+BLD_00041,2024-04-01,4019361.2,1601393.92,43.0,291144.03,583379.99,"solar_panels, heat_pump",False,True
+BLD_00041,2024-05-01,3784027.24,1836727.88,43.0,360114.79,598290.71,"solar_panels, heat_pump",True,True
+BLD_00041,2024-06-01,3016183.64,2604571.47,43.0,447667.17,637316.18,"solar_panels, heat_pump",True,True
+BLD_00041,2024-07-01,3003056.92,2617698.19,43.0,395617.15,1006569.86,"solar_panels, heat_pump",False,True
+BLD_00041,2024-08-01,2661509.44,2959245.67,43.0,444399.26,673288.65,"solar_panels, heat_pump",False,True
+BLD_00041,2024-09-01,2614303.65,3006451.46,43.0,459421.58,737601.36,"solar_panels, heat_pump",True,True
+BLD_00041,2024-10-01,2885611.4,2735143.71,43.0,424738.23,562066.77,"solar_panels, heat_pump",True,True
+BLD_00041,2024-11-01,3045181.67,2575573.45,43.0,446859.63,945127.05,"solar_panels, heat_pump",True,True
+BLD_00041,2024-12-01,3456958.84,2163796.28,43.0,397797.3,813204.52,"solar_panels, heat_pump",False,True
+BLD_00045,2023-01-01,1290863.79,986168.72,45.1,160538.07,316563.82,"window_upgrade, heat_pump, lighting_led",True,True
+BLD_00045,2023-02-01,1484081.85,792950.67,45.1,132978.53,158820.98,"window_upgrade, heat_pump, lighting_led",False,True
+BLD_00045,2023-03-01,1513855.01,763177.5,45.1,117493.23,265067.74,"window_upgrade, heat_pump, lighting_led",True,True
+BLD_00045,2023-04-01,1414435.25,862597.26,45.1,165410.26,217473.2,"window_upgrade, heat_pump, lighting_led",False,True
+BLD_00045,2023-05-01,1421939.77,855092.75,45.1,138904.53,284986.24,"window_upgrade, heat_pump, lighting_led",False,True
+BLD_00045,2023-06-01,1137077.5,1139955.01,45.1,199030.27,335783.98,"window_upgrade, heat_pump, lighting_led",True,True
+BLD_00045,2023-07-01,1076973.7,1200058.81,45.1,215280.48,454164.83,"window_upgrade, heat_pump, lighting_led",True,True
+BLD_00045,2023-08-01,1078647.52,1198385.0,45.1,198867.99,314398.28,"window_upgrade, heat_pump, lighting_led",False,True
+BLD_00045,2023-09-01,1097284.74,1179747.77,45.1,235622.82,294617.13,"window_upgrade, heat_pump, lighting_led",True,True
+BLD_00045,2023-10-01,967282.06,1309750.45,45.1,249132.34,268271.9,"window_upgrade, heat_pump, lighting_led",True,True
+BLD_00045,2023-11-01,1145284.74,1131747.77,45.1,192038.14,262637.61,"window_upgrade, heat_pump, lighting_led",True,True
+BLD_00045,2023-12-01,1185006.56,1092025.96,45.1,184101.75,397665.12,"window_upgrade, heat_pump, lighting_led",False,True
+BLD_00045,2024-01-01,1426180.44,850852.07,45.1,139484.49,335593.39,"window_upgrade, heat_pump, lighting_led",True,True
+BLD_00045,2024-02-01,1513927.84,763104.67,45.1,134847.4,154520.7,"window_upgrade, heat_pump, lighting_led",False,True
+BLD_00045,2024-03-01,1446960.21,830072.3,45.1,149748.38,222118.41,"window_upgrade, heat_pump, lighting_led",False,True
+BLD_00045,2024-04-01,1403146.56,873885.96,45.1,150191.69,279698.24,"window_upgrade, heat_pump, lighting_led",True,True
+BLD_00045,2024-05-01,1436601.3,840431.22,45.1,140458.99,238266.23,"window_upgrade, heat_pump, lighting_led",True,True
+BLD_00045,2024-06-01,1139228.87,1137803.65,45.1,181472.48,451811.28,"window_upgrade, heat_pump, lighting_led",False,True
+BLD_00045,2024-07-01,1072155.1,1204877.42,45.1,181976.55,459753.04,"window_upgrade, heat_pump, lighting_led",True,True
+BLD_00045,2024-08-01,1088006.16,1189026.35,45.1,228318.72,353707.28,"window_upgrade, heat_pump, lighting_led",False,True
+BLD_00045,2024-09-01,1098822.86,1178209.66,45.1,179238.69,275273.98,"window_upgrade, heat_pump, lighting_led",True,True
+BLD_00045,2024-10-01,1054386.07,1222646.45,45.1,221001.52,376783.3,"window_upgrade, heat_pump, lighting_led",False,True
+BLD_00045,2024-11-01,1207648.63,1069383.88,45.1,164624.2,256586.29,"window_upgrade, heat_pump, lighting_led",True,True
+BLD_00045,2024-12-01,1328103.57,948928.95,45.1,160301.25,208052.39,"window_upgrade, heat_pump, lighting_led",False,True
+BLD_00050,2023-01-01,674567.07,855315.34,60.0,167059.77,330123.48,"solar_panels, heat_pump",False,True
+BLD_00050,2023-02-01,687492.65,842389.76,60.0,149763.01,303237.98,"solar_panels, heat_pump",False,True
+BLD_00050,2023-03-01,768529.29,761353.12,60.0,138140.22,236111.24,"solar_panels, heat_pump",True,True
+BLD_00050,2023-04-01,658357.13,871525.28,60.0,152950.05,271125.51,"solar_panels, heat_pump",True,True
+BLD_00050,2023-05-01,608872.4,921010.0,60.0,148375.31,247632.49,"solar_panels, heat_pump",True,True
+BLD_00050,2023-06-01,633210.81,896671.6,60.0,144693.41,279458.67,"solar_panels, heat_pump",True,True
+BLD_00050,2023-07-01,569222.85,960659.56,60.0,148774.79,350430.81,"solar_panels, heat_pump",False,True
+BLD_00050,2023-08-01,480720.41,1049161.99,60.0,205515.74,260097.92,"solar_panels, heat_pump",False,True
+BLD_00050,2023-09-01,498987.55,1030894.86,60.0,155342.49,374074.88,"solar_panels, heat_pump",False,True
+BLD_00050,2023-10-01,552287.45,977594.96,60.0,191362.58,348854.34,"solar_panels, heat_pump",False,True
+BLD_00050,2023-11-01,572553.65,957328.76,60.0,144597.61,336895.57,"solar_panels, heat_pump",True,True
+BLD_00050,2023-12-01,621243.95,908638.46,60.0,169759.6,333309.59,"solar_panels, heat_pump",False,True
+BLD_00050,2024-01-01,682092.88,847789.53,60.0,129238.69,220092.49,"solar_panels, heat_pump",True,True
+BLD_00050,2024-02-01,720792.54,809089.87,60.0,153767.64,231262.29,"solar_panels, heat_pump",False,True
+BLD_00050,2024-03-01,670702.05,859180.36,60.0,130959.32,228809.95,"solar_panels, heat_pump",False,True
+BLD_00050,2024-04-01,680698.23,849184.18,60.0,146583.93,216264.86,"solar_panels, heat_pump",False,True
+BLD_00050,2024-05-01,726149.25,803733.16,60.0,123895.24,211919.9,"solar_panels, heat_pump",False,True
+BLD_00050,2024-06-01,601473.21,928409.2,60.0,182267.31,263344.14,"solar_panels, heat_pump",True,True
+BLD_00050,2024-07-01,528599.69,1001282.72,60.0,195195.98,211988.82,"solar_panels, heat_pump",False,True
+BLD_00050,2024-08-01,477621.01,1052261.4,60.0,158917.55,269453.18,"solar_panels, heat_pump",False,True
+BLD_00050,2024-09-01,511385.69,1018496.72,60.0,184142.44,236439.74,"solar_panels, heat_pump",False,True
+BLD_00050,2024-10-01,485292.26,1044590.15,60.0,172424.96,370593.84,"solar_panels, heat_pump",False,True
+BLD_00050,2024-11-01,590377.11,939505.3,60.0,149397.79,338730.62,"solar_panels, heat_pump",True,True
+BLD_00050,2024-12-01,615808.73,914073.68,60.0,167975.3,226761.26,"solar_panels, heat_pump",True,True
+BLD_00053,2023-01-01,84221.51,105838.85,60.0,17759.92,37322.14,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",False,True
+BLD_00053,2023-02-01,85965.44,104094.93,60.0,15924.3,41524.01,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",True,True
+BLD_00053,2023-03-01,92978.39,97081.97,60.0,17144.73,27200.29,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",True,True
+BLD_00053,2023-04-01,93344.98,96715.38,60.0,14546.91,28199.99,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",False,True
+BLD_00053,2023-05-01,78144.26,111916.1,60.0,22303.83,35891.68,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",True,True
+BLD_00053,2023-06-01,77045.07,113015.3,60.0,20890.56,32702.93,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",False,True
+BLD_00053,2023-07-01,73991.06,116069.3,60.0,22311.63,36916.78,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",False,True
+BLD_00053,2023-08-01,64552.7,125507.66,60.0,24612.59,41843.11,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",True,True
+BLD_00053,2023-09-01,57677.26,132383.1,60.0,25982.67,28156.18,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",True,True
+BLD_00053,2023-10-01,60783.15,129277.21,60.0,25808.95,28697.95,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",True,True
+BLD_00053,2023-11-01,70838.17,119222.19,60.0,21991.29,39010.12,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",False,True
+BLD_00053,2023-12-01,83511.87,106548.49,60.0,16105.65,25251.81,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",True,True
+BLD_00053,2024-01-01,80476.38,109583.98,60.0,18319.25,41306.99,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",True,True
+BLD_00053,2024-02-01,96485.24,93575.12,60.0,16827.73,33158.88,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",True,True
+BLD_00053,2024-03-01,97147.26,92913.11,60.0,17423.98,30112.03,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",False,True
+BLD_00053,2024-04-01,83627.96,106432.41,60.0,20208.79,36716.7,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",True,True
+BLD_00053,2024-05-01,77131.71,112928.65,60.0,18288.8,30549.3,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",True,True
+BLD_00053,2024-06-01,72599.58,117460.78,60.0,22722.42,32914.98,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",True,True
+BLD_00053,2024-07-01,73689.1,116371.26,60.0,22210.12,26741.82,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",False,True
+BLD_00053,2024-08-01,67136.8,122923.56,60.0,20775.95,29088.11,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",False,True
+BLD_00053,2024-09-01,56087.69,133972.67,60.0,20438.29,36533.74,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",True,True
+BLD_00053,2024-10-01,63215.03,126845.33,60.0,22540.46,42541.31,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",False,True
+BLD_00053,2024-11-01,65582.99,124477.37,60.0,24612.66,31356.95,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",False,True
+BLD_00053,2024-12-01,83273.79,106786.57,60.0,20279.76,38951.41,"hvac_upgrade, solar_panels, heat_pump, window_upgrade, lighting_led",True,True
+BLD_00058,2023-01-01,527620.38,562042.59,55.0,93546.34,185328.07,"solar_panels, window_upgrade, building_controls",False,True
+BLD_00058,2023-02-01,542090.49,547572.47,55.0,100347.89,126122.22,"solar_panels, window_upgrade, building_controls",True,True
+BLD_00058,2023-03-01,592393.95,497269.01,55.0,98626.8,134214.71,"solar_panels, window_upgrade, building_controls",True,True
+BLD_00058,2023-04-01,613387.19,476275.78,55.0,87495.46,150700.61,"solar_panels, window_upgrade, building_controls",False,True
+BLD_00058,2023-05-01,537591.24,552071.72,55.0,99312.31,202374.52,"solar_panels, window_upgrade, building_controls",False,True
+BLD_00058,2023-06-01,532041.74,557621.23,55.0,86367.75,157113.59,"solar_panels, window_upgrade, building_controls",True,True
+BLD_00058,2023-07-01,410682.88,678980.09,55.0,132330.71,207890.54,"solar_panels, window_upgrade, building_controls",False,True
+BLD_00058,2023-08-01,415585.43,674077.54,55.0,105073.78,160891.08,"solar_panels, window_upgrade, building_controls",True,True
+BLD_00058,2023-09-01,371556.13,718106.83,55.0,134345.71,237722.24,"solar_panels, window_upgrade, building_controls",False,True
+BLD_00058,2023-10-01,400671.38,688991.59,55.0,113703.7,201876.47,"solar_panels, window_upgrade, building_controls",False,True
+BLD_00058,2023-11-01,432301.56,657361.4,55.0,118091.79,259763.38,"solar_panels, window_upgrade, building_controls",True,True
+BLD_00058,2023-12-01,466028.1,623634.87,55.0,124074.42,208224.32,"solar_panels, window_upgrade, building_controls",False,True
+BLD_00058,2024-01-01,562862.19,526800.78,55.0,100266.97,178431.05,"solar_panels, window_upgrade, building_controls",False,True
+BLD_00058,2024-02-01,531797.07,557865.89,55.0,93423.0,147203.15,"solar_panels, window_upgrade, building_controls",False,True
+BLD_00058,2024-03-01,646298.78,443364.18,55.0,77992.23,107892.86,"solar_panels, window_upgrade, building_controls",False,True
+BLD_00058,2024-04-01,560359.51,529303.46,55.0,99683.28,109785.96,"solar_panels, window_upgrade, building_controls",False,True
+BLD_00058,2024-05-01,487930.62,601732.34,55.0,108567.05,167077.48,"solar_panels, window_upgrade, building_controls",True,True
+BLD_00058,2024-06-01,448712.88,640950.09,55.0,107292.95,215077.79,"solar_panels, window_upgrade, building_controls",True,True
+BLD_00058,2024-07-01,463841.81,625821.15,55.0,107588.96,129578.26,"solar_panels, window_upgrade, building_controls",False,True
+BLD_00058,2024-08-01,401965.8,687697.17,55.0,130338.47,174635.24,"solar_panels, window_upgrade, building_controls",True,True
+BLD_00058,2024-09-01,391202.6,698460.37,55.0,119872.43,223141.66,"solar_panels, window_upgrade, building_controls",False,True
+BLD_00058,2024-10-01,390117.89,699545.07,55.0,108354.87,266367.93,"solar_panels, window_upgrade, building_controls",True,True
+BLD_00058,2024-11-01,406665.31,682997.65,55.0,129705.58,215595.16,"solar_panels, window_upgrade, building_controls",True,True
+BLD_00058,2024-12-01,506225.24,583437.72,55.0,109996.98,224430.58,"solar_panels, window_upgrade, building_controls",False,True
+BLD_00060,2023-01-01,1392762.72,705737.31,40.6,140326.39,252897.59,"hvac_upgrade, solar_panels",False,True
+BLD_00060,2023-02-01,1530090.62,568409.41,40.6,91958.25,218724.43,"hvac_upgrade, solar_panels",False,True
+BLD_00060,2023-03-01,1559247.33,539252.69,40.6,93320.05,126384.77,"hvac_upgrade, solar_panels",False,True
+BLD_00060,2023-04-01,1404071.27,694428.76,40.6,126224.8,166323.04,"hvac_upgrade, solar_panels",False,True
+BLD_00060,2023-05-01,1470926.84,627573.19,40.6,113673.46,183557.61,"hvac_upgrade, solar_panels",False,True
+BLD_00060,2023-06-01,1163781.95,934718.07,40.6,185751.21,257307.65,"hvac_upgrade, solar_panels",False,True
+BLD_00060,2023-07-01,1035172.66,1063327.37,40.6,207561.69,372735.23,"hvac_upgrade, solar_panels",False,True
+BLD_00060,2023-08-01,974174.67,1124325.36,40.6,197798.48,376952.33,"hvac_upgrade, solar_panels",True,True
+BLD_00060,2023-09-01,1064773.31,1033726.72,40.6,186762.54,324870.2,"hvac_upgrade, solar_panels",True,True
+BLD_00060,2023-10-01,983953.99,1114546.04,40.6,196936.99,227091.61,"hvac_upgrade, solar_panels",False,True
+BLD_00060,2023-11-01,1038550.42,1059949.61,40.6,183948.97,395179.74,"hvac_upgrade, solar_panels",True,True
+BLD_00060,2023-12-01,1278966.18,819533.85,40.6,152474.07,256944.21,"hvac_upgrade, solar_panels",True,True
+BLD_00060,2024-01-01,1399980.98,698519.05,40.6,119410.09,189205.99,"hvac_upgrade, solar_panels",True,True
+BLD_00060,2024-02-01,1456994.76,641505.27,40.6,100313.62,241075.26,"hvac_upgrade, solar_panels",False,True
+BLD_00060,2024-03-01,1461549.02,636951.01,40.6,120358.45,215782.65,"hvac_upgrade, solar_panels",True,True
+BLD_00060,2024-04-01,1353969.06,744530.96,40.6,121421.8,171806.43,"hvac_upgrade, solar_panels",True,True
+BLD_00060,2024-05-01,1295537.26,802962.77,40.6,151835.85,197678.01,"hvac_upgrade, solar_panels",True,True
+BLD_00060,2024-06-01,1301755.92,796744.11,40.6,130205.12,291637.7,"hvac_upgrade, solar_panels",True,True
+BLD_00060,2024-07-01,1215260.79,883239.23,40.6,162461.7,202846.22,"hvac_upgrade, solar_panels",True,True
+BLD_00060,2024-08-01,950645.94,1147854.08,40.6,212969.66,402240.7,"hvac_upgrade, solar_panels",True,True
+BLD_00060,2024-09-01,1061714.55,1036785.48,40.6,176046.28,396351.2,"hvac_upgrade, solar_panels",False,True
+BLD_00060,2024-10-01,1029566.94,1068933.09,40.6,206639.92,303813.05,"hvac_upgrade, solar_panels",True,True
+BLD_00060,2024-11-01,1207723.46,890776.57,40.6,161860.09,271099.54,"hvac_upgrade, solar_panels",True,True
+BLD_00060,2024-12-01,1351795.53,746704.5,40.6,141768.76,181811.74,"hvac_upgrade, solar_panels",False,True
+BLD_00061,2023-01-01,2342733.21,510713.2,32.1,94990.64,170150.02,"solar_panels, window_upgrade",True,True
+BLD_00061,2023-02-01,2305110.77,548335.63,32.1,95848.4,178877.77,"solar_panels, window_upgrade",True,True
+BLD_00061,2023-03-01,2335612.76,517833.64,32.1,90059.31,135657.54,"solar_panels, window_upgrade",True,True
+BLD_00061,2023-04-01,2224923.25,628523.16,32.1,94692.97,226058.91,"solar_panels, window_upgrade",False,True
+BLD_00061,2023-05-01,2025111.96,828334.45,32.1,133351.86,276870.87,"solar_panels, window_upgrade",True,True
+BLD_00061,2023-06-01,1756176.91,1097269.5,32.1,168950.31,268480.26,"solar_panels, window_upgrade",True,True
+BLD_00061,2023-07-01,1784737.86,1068708.54,32.1,193354.03,262052.77,"solar_panels, window_upgrade",True,True
+BLD_00061,2023-08-01,1600024.79,1253421.62,32.1,249033.46,320369.48,"solar_panels, window_upgrade",False,True
+BLD_00061,2023-09-01,1703204.85,1150241.55,32.1,205110.7,378157.55,"solar_panels, window_upgrade",False,True
+BLD_00061,2023-10-01,1759860.32,1093586.08,32.1,186637.54,303467.06,"solar_panels, window_upgrade",False,True
+BLD_00061,2023-11-01,1811987.89,1041458.52,32.1,174924.74,316992.68,"solar_panels, window_upgrade",False,True
+BLD_00061,2023-12-01,1805356.12,1048090.28,32.1,174864.63,304437.03,"solar_panels, window_upgrade",False,True
+BLD_00061,2024-01-01,2188488.67,664957.73,32.1,101595.13,155059.31,"solar_panels, window_upgrade",True,True
+BLD_00061,2024-02-01,2063742.51,789703.9,32.1,127318.22,308604.1,"solar_panels, window_upgrade",True,True
+BLD_00061,2024-03-01,2266691.05,586755.35,32.1,109827.64,170347.74,"solar_panels, window_upgrade",True,True
+BLD_00061,2024-04-01,2130647.3,722799.11,32.1,111268.15,197896.98,"solar_panels, window_upgrade",True,True
+BLD_00061,2024-05-01,2271318.44,582127.96,32.1,90296.46,176569.05,"solar_panels, window_upgrade",True,True
+BLD_00061,2024-06-01,2043953.09,809493.31,32.1,141938.22,308937.59,"solar_panels, window_upgrade",False,True
+BLD_00061,2024-07-01,1594355.74,1259090.66,32.1,214205.75,262758.25,"solar_panels, window_upgrade",True,True
+BLD_00061,2024-08-01,1714802.95,1138643.46,32.1,183179.83,256670.67,"solar_panels, window_upgrade",False,True
+BLD_00061,2024-09-01,1634889.95,1218556.46,32.1,212389.16,393401.53,"solar_panels, window_upgrade",False,True
+BLD_00061,2024-10-01,1698730.21,1154716.2,32.1,197241.94,306319.66,"solar_panels, window_upgrade",False,True
+BLD_00061,2024-11-01,1706517.81,1146928.59,32.1,190559.84,355927.57,"solar_panels, window_upgrade",False,True
+BLD_00061,2024-12-01,1861951.85,991494.55,32.1,156422.78,227002.21,"solar_panels, window_upgrade",False,True
+BLD_00066,2023-01-01,3875958.09,5849279.73,60.0,911706.25,2013720.62,"hvac_upgrade, heat_pump",False,True
+BLD_00066,2023-02-01,4190661.2,5534576.61,60.0,1040280.9,1266068.44,"hvac_upgrade, heat_pump",True,True
+BLD_00066,2023-03-01,4432608.83,5292628.99,60.0,906177.04,1719632.66,"hvac_upgrade, heat_pump",False,True
+BLD_00066,2023-04-01,4920859.19,4804378.63,60.0,852324.26,1920033.01,"hvac_upgrade, heat_pump",True,True
+BLD_00066,2023-05-01,4314054.76,5411183.06,60.0,816252.23,1208823.64,"hvac_upgrade, heat_pump",True,True
+BLD_00066,2023-06-01,3661906.85,6063330.96,60.0,994447.98,2192641.67,"hvac_upgrade, heat_pump",False,True
+BLD_00066,2023-07-01,3433654.83,6291582.98,60.0,950398.93,2058464.96,"hvac_upgrade, heat_pump",False,True
+BLD_00066,2023-08-01,3210522.92,6514714.9,60.0,1143819.04,1903348.62,"hvac_upgrade, heat_pump",False,True
+BLD_00066,2023-09-01,3377226.33,6348011.49,60.0,1068311.4,1817427.31,"hvac_upgrade, heat_pump",False,True
+BLD_00066,2023-10-01,3192304.31,6532933.51,60.0,1279317.84,2179106.84,"hvac_upgrade, heat_pump",False,True
+BLD_00066,2023-11-01,3398471.05,6326766.76,60.0,1105487.79,1984511.83,"hvac_upgrade, heat_pump",False,True
+BLD_00066,2023-12-01,4260636.48,5464601.34,60.0,826635.18,1467358.36,"hvac_upgrade, heat_pump",True,True
+BLD_00066,2024-01-01,4440280.48,5284957.33,60.0,894934.25,1652230.94,"hvac_upgrade, heat_pump",True,True
+BLD_00066,2024-02-01,4511951.95,5213285.86,60.0,860286.66,1422757.71,"hvac_upgrade, heat_pump",False,True
+BLD_00066,2024-03-01,5039295.14,4685942.67,60.0,833898.82,1522243.12,"hvac_upgrade, heat_pump",True,True
+BLD_00066,2024-04-01,4737013.6,4988224.21,60.0,780901.88,1848875.69,"hvac_upgrade, heat_pump",False,True
+BLD_00066,2024-05-01,3973929.32,5751308.5,60.0,1131003.03,2234273.17,"hvac_upgrade, heat_pump",True,True
+BLD_00066,2024-06-01,4103927.46,5621310.36,60.0,864081.38,1855157.59,"hvac_upgrade, heat_pump",True,True
+BLD_00066,2024-07-01,3762733.09,5962504.72,60.0,1076309.14,2038897.23,"hvac_upgrade, heat_pump",True,True
+BLD_00066,2024-08-01,3087252.82,6637985.0,60.0,1296955.26,1980012.72,"hvac_upgrade, heat_pump",False,True
+BLD_00066,2024-09-01,2999835.62,6725402.2,60.0,1029000.74,1620162.14,"hvac_upgrade, heat_pump",True,True
+BLD_00066,2024-10-01,3199318.66,6525919.16,60.0,1104745.87,2118262.67,"hvac_upgrade, heat_pump",False,True
+BLD_00066,2024-11-01,3475338.21,6249899.6,60.0,945522.51,2163279.14,"hvac_upgrade, heat_pump",True,True
+BLD_00066,2024-12-01,3734635.66,5990602.16,60.0,915568.74,2183615.58,"hvac_upgrade, heat_pump",False,True
+BLD_00074,2023-01-01,1150651.62,1322838.72,60.0,199135.11,520313.98,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",False,True
+BLD_00074,2023-02-01,1147029.51,1326460.83,60.0,206352.15,314088.99,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",True,True
+BLD_00074,2023-03-01,1199575.38,1273914.96,60.0,234397.9,459881.56,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",True,True
+BLD_00074,2023-04-01,1258367.63,1215122.71,60.0,220398.12,380430.01,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",False,True
+BLD_00074,2023-05-01,999643.91,1473846.43,60.0,268383.29,544394.61,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",False,True
+BLD_00074,2023-06-01,965785.63,1507704.71,60.0,234330.54,415701.68,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",False,True
+BLD_00074,2023-07-01,868190.79,1605299.55,60.0,269257.37,351365.96,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",True,True
+BLD_00074,2023-08-01,894574.21,1578916.13,60.0,297959.69,391249.03,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",True,True
+BLD_00074,2023-09-01,867665.86,1605824.49,60.0,295923.85,552759.75,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",True,True
+BLD_00074,2023-10-01,862929.56,1610560.79,60.0,290430.46,498692.83,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",True,True
+BLD_00074,2023-11-01,929186.83,1544303.51,60.0,237331.35,490735.8,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",False,True
+BLD_00074,2023-12-01,947351.24,1526139.11,60.0,267041.35,463681.41,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",False,True
+BLD_00074,2024-01-01,1136806.46,1336683.88,60.0,203387.17,361007.71,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",False,True
+BLD_00074,2024-02-01,1260143.76,1213346.58,60.0,234789.44,443607.92,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",False,True
+BLD_00074,2024-03-01,1204118.97,1269371.37,60.0,249520.06,347454.45,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",True,True
+BLD_00074,2024-04-01,1198825.31,1274665.03,60.0,245531.84,507436.34,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",False,True
+BLD_00074,2024-05-01,980961.96,1492528.39,60.0,243353.75,352214.79,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",True,True
+BLD_00074,2024-06-01,983256.71,1490233.64,60.0,289160.18,393522.39,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",True,True
+BLD_00074,2024-07-01,917624.88,1555865.46,60.0,289487.3,451252.88,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",True,True
+BLD_00074,2024-08-01,803412.8,1670077.54,60.0,313981.84,660747.19,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",False,True
+BLD_00074,2024-09-01,837050.64,1636439.7,60.0,312484.9,348514.16,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",False,True
+BLD_00074,2024-10-01,820078.12,1653412.22,60.0,319531.21,575223.38,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",True,True
+BLD_00074,2024-11-01,977696.21,1495794.13,60.0,290644.11,534880.26,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",False,True
+BLD_00074,2024-12-01,1056365.85,1417124.5,60.0,254206.27,302698.7,"roof_insulation, hvac_upgrade, window_upgrade, building_controls",False,True
+BLD_00075,2023-01-01,132830.26,120057.44,52.9,23474.16,30502.63,"window_upgrade, roof_insulation, wall_insulation, lighting_led",True,True
+BLD_00075,2023-02-01,133840.21,119047.49,52.9,19549.05,41692.33,"window_upgrade, roof_insulation, wall_insulation, lighting_led",True,True
+BLD_00075,2023-03-01,151911.45,100976.25,52.9,20000.76,34197.98,"window_upgrade, roof_insulation, wall_insulation, lighting_led",False,True
+BLD_00075,2023-04-01,150914.27,101973.43,52.9,18258.76,32233.55,"window_upgrade, roof_insulation, wall_insulation, lighting_led",False,True
+BLD_00075,2023-05-01,140277.87,112609.84,52.9,19212.3,25986.66,"window_upgrade, roof_insulation, wall_insulation, lighting_led",True,True
+BLD_00075,2023-06-01,126909.18,125978.53,52.9,24066.88,25964.9,"window_upgrade, roof_insulation, wall_insulation, lighting_led",False,True
+BLD_00075,2023-07-01,102925.19,149962.52,52.9,22816.49,31541.35,"window_upgrade, roof_insulation, wall_insulation, lighting_led",False,True
+BLD_00075,2023-08-01,102427.01,150460.69,52.9,25847.94,59573.19,"window_upgrade, roof_insulation, wall_insulation, lighting_led",False,True
+BLD_00075,2023-09-01,93418.58,159469.12,52.9,28897.73,49236.38,"window_upgrade, roof_insulation, wall_insulation, lighting_led",True,True
+BLD_00075,2023-10-01,97731.02,155156.68,52.9,30561.95,49645.73,"window_upgrade, roof_insulation, wall_insulation, lighting_led",True,True
+BLD_00075,2023-11-01,110643.63,142244.08,52.9,24587.33,47453.33,"window_upgrade, roof_insulation, wall_insulation, lighting_led",True,True
+BLD_00075,2023-12-01,128916.64,123971.06,52.9,20530.67,31565.78,"window_upgrade, roof_insulation, wall_insulation, lighting_led",True,True
+BLD_00075,2024-01-01,143982.74,108904.96,52.9,21599.47,25949.63,"window_upgrade, roof_insulation, wall_insulation, lighting_led",True,True
+BLD_00075,2024-02-01,145830.3,107057.41,52.9,19054.86,21956.11,"window_upgrade, roof_insulation, wall_insulation, lighting_led",True,True
+BLD_00075,2024-03-01,131415.07,121472.63,52.9,18595.25,31938.69,"window_upgrade, roof_insulation, wall_insulation, lighting_led",True,True
+BLD_00075,2024-04-01,131815.51,121072.2,52.9,20335.92,44283.88,"window_upgrade, roof_insulation, wall_insulation, lighting_led",True,True
+BLD_00075,2024-05-01,141129.03,111758.68,52.9,18081.56,26442.79,"window_upgrade, roof_insulation, wall_insulation, lighting_led",False,True
+BLD_00075,2024-06-01,129415.46,123472.24,52.9,24526.81,42653.88,"window_upgrade, roof_insulation, wall_insulation, lighting_led",True,True
+BLD_00075,2024-07-01,115344.81,137542.89,52.9,26660.9,52847.72,"window_upgrade, roof_insulation, wall_insulation, lighting_led",False,True
+BLD_00075,2024-08-01,92036.6,160851.1,52.9,27288.92,58988.31,"window_upgrade, roof_insulation, wall_insulation, lighting_led",True,True
+BLD_00075,2024-09-01,104770.51,148117.2,52.9,23388.43,59098.5,"window_upgrade, roof_insulation, wall_insulation, lighting_led",False,True
+BLD_00075,2024-10-01,93468.93,159418.78,52.9,30568.81,56038.03,"window_upgrade, roof_insulation, wall_insulation, lighting_led",False,True
+BLD_00075,2024-11-01,99859.17,153028.53,52.9,27062.3,44103.17,"window_upgrade, roof_insulation, wall_insulation, lighting_led",True,True
+BLD_00075,2024-12-01,126544.65,126343.05,52.9,21946.34,26017.52,"window_upgrade, roof_insulation, wall_insulation, lighting_led",True,True
+BLD_00076,2023-01-01,1156528.67,1111247.78,54.7,217091.85,245817.58,"solar_panels, hvac_upgrade",False,True
+BLD_00076,2023-02-01,1141608.95,1126167.5,54.7,190958.46,256813.29,"solar_panels, hvac_upgrade",False,True
+BLD_00076,2023-03-01,1330842.81,936933.64,54.7,179293.44,299996.91,"solar_panels, hvac_upgrade",True,True
+BLD_00076,2023-04-01,1224753.21,1043023.24,54.7,179820.25,349260.94,"solar_panels, hvac_upgrade",False,True
+BLD_00076,2023-05-01,1073365.43,1194411.02,54.7,235487.41,293324.36,"solar_panels, hvac_upgrade",False,True
+BLD_00076,2023-06-01,1098133.77,1169642.68,54.7,227870.1,235901.29,"solar_panels, hvac_upgrade",True,True
+BLD_00076,2023-07-01,968256.49,1299519.96,54.7,257534.57,279319.71,"solar_panels, hvac_upgrade",False,True
+BLD_00076,2023-08-01,797531.81,1470244.64,54.7,261624.31,376119.45,"solar_panels, hvac_upgrade",True,True
+BLD_00076,2023-09-01,852113.41,1415663.04,54.7,236866.29,476354.06,"solar_panels, hvac_upgrade",False,True
+BLD_00076,2023-10-01,886121.89,1381654.56,54.7,259458.26,462514.31,"solar_panels, hvac_upgrade",False,True
+BLD_00076,2023-11-01,883891.89,1383884.56,54.7,260123.32,286743.98,"solar_panels, hvac_upgrade",False,True
+BLD_00076,2023-12-01,1017755.55,1250020.91,54.7,231162.84,375840.15,"solar_panels, hvac_upgrade",True,True
+BLD_00076,2024-01-01,1162069.38,1105707.08,54.7,215474.0,251089.32,"solar_panels, hvac_upgrade",True,True
+BLD_00076,2024-02-01,1267820.33,999956.12,54.7,151557.53,207730.72,"solar_panels, hvac_upgrade",True,True
+BLD_00076,2024-03-01,1276285.74,991490.71,54.7,149177.16,253272.69,"solar_panels, hvac_upgrade",False,True
+BLD_00076,2024-04-01,1203301.37,1064475.09,54.7,211293.11,423057.89,"solar_panels, hvac_upgrade",True,True
+BLD_00076,2024-05-01,1083165.25,1184611.21,54.7,183949.39,342019.31,"solar_panels, hvac_upgrade",False,True
+BLD_00076,2024-06-01,1034467.97,1233308.48,54.7,185959.74,479408.15,"solar_panels, hvac_upgrade",True,True
+BLD_00076,2024-07-01,1005909.98,1261866.47,54.7,190730.21,427534.56,"solar_panels, hvac_upgrade",False,True
+BLD_00076,2024-08-01,857761.06,1410015.4,54.7,240326.89,305076.21,"solar_panels, hvac_upgrade",False,True
+BLD_00076,2024-09-01,781524.7,1486251.75,54.7,243256.42,582589.58,"solar_panels, hvac_upgrade",True,True
+BLD_00076,2024-10-01,894713.58,1373062.87,54.7,226597.87,534730.25,"solar_panels, hvac_upgrade",False,True
+BLD_00076,2024-11-01,842654.31,1425122.14,54.7,232206.64,441392.82,"solar_panels, hvac_upgrade",False,True
+BLD_00076,2024-12-01,940979.11,1326797.34,54.7,252436.75,525322.08,"solar_panels, hvac_upgrade",False,True
+BLD_00077,2023-01-01,2058288.35,2924899.82,60.0,530581.51,732032.83,"roof_insulation, wall_insulation, heat_pump, building_controls",False,True
+BLD_00077,2023-02-01,2551987.05,2431201.12,60.0,433878.33,869055.88,"roof_insulation, wall_insulation, heat_pump, building_controls",False,True
+BLD_00077,2023-03-01,2256344.27,2726843.91,60.0,476750.26,742351.73,"roof_insulation, wall_insulation, heat_pump, building_controls",False,True
+BLD_00077,2023-04-01,2327484.1,2655704.07,60.0,413147.71,545134.03,"roof_insulation, wall_insulation, heat_pump, building_controls",True,True
+BLD_00077,2023-05-01,1975228.78,3007959.4,60.0,536589.09,718628.82,"roof_insulation, wall_insulation, heat_pump, building_controls",False,True
+BLD_00077,2023-06-01,1882441.72,3100746.45,60.0,568252.98,972607.74,"roof_insulation, wall_insulation, heat_pump, building_controls",False,True
+BLD_00077,2023-07-01,1633116.59,3350071.58,60.0,606814.68,1233695.09,"roof_insulation, wall_insulation, heat_pump, building_controls",False,True
+BLD_00077,2023-08-01,1631316.26,3351871.92,60.0,641816.7,823042.3,"roof_insulation, wall_insulation, heat_pump, building_controls",True,True
+BLD_00077,2023-09-01,1630435.63,3352752.54,60.0,668690.41,1266729.11,"roof_insulation, wall_insulation, heat_pump, building_controls",False,True
+BLD_00077,2023-10-01,1793498.66,3189689.52,60.0,596803.16,967875.73,"roof_insulation, wall_insulation, heat_pump, building_controls",True,True
+BLD_00077,2023-11-01,1935211.61,3047976.57,60.0,574115.82,1026780.31,"roof_insulation, wall_insulation, heat_pump, building_controls",False,True
+BLD_00077,2023-12-01,2060983.5,2922204.67,60.0,584102.48,938926.1,"roof_insulation, wall_insulation, heat_pump, building_controls",True,True
+BLD_00077,2024-01-01,2203778.67,2779409.51,60.0,474163.77,953994.4,"roof_insulation, wall_insulation, heat_pump, building_controls",True,True
+BLD_00077,2024-02-01,2388796.79,2594391.39,60.0,450395.27,608551.61,"roof_insulation, wall_insulation, heat_pump, building_controls",False,True
+BLD_00077,2024-03-01,2193587.4,2789600.78,60.0,440285.77,978131.32,"roof_insulation, wall_insulation, heat_pump, building_controls",False,True
+BLD_00077,2024-04-01,2267041.26,2716146.91,60.0,440737.05,1084267.43,"roof_insulation, wall_insulation, heat_pump, building_controls",False,True
+BLD_00077,2024-05-01,2223402.19,2759785.99,60.0,520554.38,624487.07,"roof_insulation, wall_insulation, heat_pump, building_controls",True,True
+BLD_00077,2024-06-01,1824000.85,3159187.32,60.0,525665.47,1024007.21,"roof_insulation, wall_insulation, heat_pump, building_controls",False,True
+BLD_00077,2024-07-01,1953995.23,3029192.94,60.0,471794.95,824412.08,"roof_insulation, wall_insulation, heat_pump, building_controls",True,True
+BLD_00077,2024-08-01,1548390.23,3434797.95,60.0,548985.85,1249614.77,"roof_insulation, wall_insulation, heat_pump, building_controls",True,True
+BLD_00077,2024-09-01,1688500.52,3294687.65,60.0,636488.21,1242749.21,"roof_insulation, wall_insulation, heat_pump, building_controls",False,True
+BLD_00077,2024-10-01,1792713.37,3190474.8,60.0,552726.94,645616.34,"roof_insulation, wall_insulation, heat_pump, building_controls",False,True
+BLD_00077,2024-11-01,1658240.63,3324947.54,60.0,535488.63,680961.71,"roof_insulation, wall_insulation, heat_pump, building_controls",False,True
+BLD_00077,2024-12-01,1998552.22,2984635.96,60.0,529214.69,891585.32,"roof_insulation, wall_insulation, heat_pump, building_controls",False,True
+BLD_00078,2023-01-01,1872711.82,1069243.0,42.2,196130.38,299491.47,"roof_insulation, wall_insulation",False,True
+BLD_00078,2023-02-01,1994731.64,947223.18,42.2,157399.28,288537.48,"roof_insulation, wall_insulation",False,True
+BLD_00078,2023-03-01,1987164.1,954790.73,42.2,176470.61,258839.78,"roof_insulation, wall_insulation",False,True
+BLD_00078,2023-04-01,1836236.23,1105718.59,42.2,169994.27,263792.91,"roof_insulation, wall_insulation",False,True
+BLD_00078,2023-05-01,2032784.52,909170.31,42.2,152124.29,310483.72,"roof_insulation, wall_insulation",True,True
+BLD_00078,2023-06-01,1637563.17,1304391.66,42.2,256799.46,510707.39,"roof_insulation, wall_insulation",True,True
+BLD_00078,2023-07-01,1575617.73,1366337.1,42.2,236121.95,526156.81,"roof_insulation, wall_insulation",True,True
+BLD_00078,2023-08-01,1356963.49,1584991.34,42.2,314531.97,619807.81,"roof_insulation, wall_insulation",False,True
+BLD_00078,2023-09-01,1488443.58,1453511.24,42.2,236009.73,577627.68,"roof_insulation, wall_insulation",False,True
+BLD_00078,2023-10-01,1464440.78,1477514.04,42.2,276631.24,424744.83,"roof_insulation, wall_insulation",False,True
+BLD_00078,2023-11-01,1397601.59,1544353.23,42.2,282101.32,594089.11,"roof_insulation, wall_insulation",False,True
+BLD_00078,2023-12-01,1850755.7,1091199.12,42.2,184798.64,228259.27,"roof_insulation, wall_insulation",True,True
+BLD_00078,2024-01-01,1906998.72,1034956.1,42.2,194052.83,412572.0,"roof_insulation, wall_insulation",False,True
+BLD_00078,2024-02-01,1846033.72,1095921.1,42.2,211551.76,423961.79,"roof_insulation, wall_insulation",False,True
+BLD_00078,2024-03-01,2094155.75,847799.07,42.2,145012.01,330468.33,"roof_insulation, wall_insulation",True,True
+BLD_00078,2024-04-01,1951487.94,990466.88,42.2,192414.3,383480.84,"roof_insulation, wall_insulation",False,True
+BLD_00078,2024-05-01,1734016.32,1207938.51,42.2,212911.89,329015.29,"roof_insulation, wall_insulation",True,True
+BLD_00078,2024-06-01,1694625.24,1247329.58,42.2,223886.6,297173.61,"roof_insulation, wall_insulation",False,True
+BLD_00078,2024-07-01,1549436.55,1392518.27,42.2,267256.09,525381.94,"roof_insulation, wall_insulation",True,True
+BLD_00078,2024-08-01,1290151.34,1651803.48,42.2,320262.04,373676.33,"roof_insulation, wall_insulation",False,True
+BLD_00078,2024-09-01,1444882.05,1497072.77,42.2,269975.93,316818.99,"roof_insulation, wall_insulation",False,True
+BLD_00078,2024-10-01,1505325.47,1436629.36,42.2,268736.31,535539.38,"roof_insulation, wall_insulation",True,True
+BLD_00078,2024-11-01,1434185.62,1507769.2,42.2,298169.46,438518.56,"roof_insulation, wall_insulation",True,True
+BLD_00078,2024-12-01,1840746.93,1101207.9,42.2,172019.69,409749.65,"roof_insulation, wall_insulation",False,True
+BLD_00088,2023-01-01,753104.5,1100031.67,60.0,219488.88,298923.27,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",True,True
+BLD_00088,2023-02-01,850309.73,1002826.44,60.0,153256.27,302937.35,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",True,True
+BLD_00088,2023-03-01,955523.57,897612.6,60.0,172309.12,269540.41,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",True,True
+BLD_00088,2023-04-01,818244.39,1034891.78,60.0,189076.59,365347.38,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",True,True
+BLD_00088,2023-05-01,876312.44,976823.73,60.0,180117.82,288440.27,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",True,True
+BLD_00088,2023-06-01,756724.75,1096411.42,60.0,184465.22,254387.53,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",True,True
+BLD_00088,2023-07-01,702543.12,1150593.05,60.0,206859.2,363758.83,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",False,True
+BLD_00088,2023-08-01,605592.77,1247543.4,60.0,216374.75,264775.91,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",False,True
+BLD_00088,2023-09-01,569069.87,1284066.3,60.0,230664.81,440236.29,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",True,True
+BLD_00088,2023-10-01,609703.45,1243432.72,60.0,247796.95,421124.57,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",False,True
+BLD_00088,2023-11-01,681670.31,1171465.86,60.0,210941.25,256808.53,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",False,True
+BLD_00088,2023-12-01,771468.46,1081667.71,60.0,172151.78,394179.7,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",False,True
+BLD_00088,2024-01-01,735385.53,1117750.64,60.0,204372.76,351841.19,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",True,True
+BLD_00088,2024-02-01,917635.71,935500.46,60.0,178932.0,226792.4,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",True,True
+BLD_00088,2024-03-01,870131.02,983005.15,60.0,175561.2,289193.25,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",False,True
+BLD_00088,2024-04-01,855849.65,997286.52,60.0,157401.93,249264.53,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",False,True
+BLD_00088,2024-05-01,746193.69,1106942.48,60.0,193699.56,239894.8,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",True,True
+BLD_00088,2024-06-01,777108.89,1076027.28,60.0,214711.87,328468.25,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",True,True
+BLD_00088,2024-07-01,693865.51,1159270.66,60.0,211343.59,246489.77,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",False,True
+BLD_00088,2024-08-01,649207.99,1203928.18,60.0,225910.4,354658.28,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",False,True
+BLD_00088,2024-09-01,573552.65,1279583.52,60.0,230327.23,295619.25,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",False,True
+BLD_00088,2024-10-01,595892.87,1257243.3,60.0,196736.33,388939.66,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",False,True
+BLD_00088,2024-11-01,689568.69,1163567.48,60.0,225128.57,441748.25,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",True,True
+BLD_00088,2024-12-01,667980.28,1185155.89,60.0,217292.32,419018.68,"heat_pump, hvac_upgrade, roof_insulation, wall_insulation",True,True
+BLD_00089,2023-01-01,878862.42,1324165.57,60.0,235652.96,445838.13,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",True,True
+BLD_00089,2023-02-01,1132630.7,1070397.29,60.0,183308.31,413903.06,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",True,True
+BLD_00089,2023-03-01,1041250.03,1161777.96,60.0,183670.31,356835.5,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",False,True
+BLD_00089,2023-04-01,999925.69,1203102.3,60.0,205355.33,465433.93,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",False,True
+BLD_00089,2023-05-01,965600.15,1237427.83,60.0,247218.42,334079.78,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",False,True
+BLD_00089,2023-06-01,872205.64,1330822.35,60.0,215827.03,509442.42,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",False,True
+BLD_00089,2023-07-01,759877.15,1443150.83,60.0,274984.01,380544.85,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",False,True
+BLD_00089,2023-08-01,725869.28,1477158.71,60.0,270241.74,399953.01,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",True,True
+BLD_00089,2023-09-01,675876.87,1527151.11,60.0,242728.11,515702.36,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",True,True
+BLD_00089,2023-10-01,659481.0,1543546.98,60.0,273252.54,407544.8,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",False,True
+BLD_00089,2023-11-01,797626.31,1405401.67,60.0,221438.51,377381.9,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",False,True
+BLD_00089,2023-12-01,926341.87,1276686.12,60.0,241560.93,416016.76,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",True,True
+BLD_00089,2024-01-01,974449.4,1228578.59,60.0,193680.25,476983.25,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",True,True
+BLD_00089,2024-02-01,1094418.55,1108609.44,60.0,171038.88,234862.72,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",False,True
+BLD_00089,2024-03-01,1107183.86,1095844.13,60.0,215679.63,285571.53,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",True,True
+BLD_00089,2024-04-01,954637.36,1248390.63,60.0,210914.04,380259.02,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",True,True
+BLD_00089,2024-05-01,955397.63,1247630.36,60.0,229597.15,278116.91,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",False,True
+BLD_00089,2024-06-01,905041.26,1297986.73,60.0,235564.24,511200.87,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",True,True
+BLD_00089,2024-07-01,750415.14,1452612.84,60.0,238557.72,495232.92,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",False,True
+BLD_00089,2024-08-01,752415.02,1450612.97,60.0,243434.17,302334.49,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",False,True
+BLD_00089,2024-09-01,681805.81,1521222.17,60.0,251067.76,592961.17,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",True,True
+BLD_00089,2024-10-01,674683.88,1528344.1,60.0,265745.24,429812.46,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",True,True
+BLD_00089,2024-11-01,860796.62,1342231.36,60.0,227134.2,431388.34,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",False,True
+BLD_00089,2024-12-01,903032.62,1299995.36,60.0,216581.41,428770.81,"roof_insulation, hvac_upgrade, building_controls, wall_insulation, heat_pump",True,True
+BLD_00091,2023-01-01,1147913.97,866472.96,43.1,152435.1,337798.72,"roof_insulation, hvac_upgrade",False,True
+BLD_00091,2023-02-01,1235861.12,778525.82,43.1,144093.19,251211.85,"roof_insulation, hvac_upgrade",True,True
+BLD_00091,2023-03-01,1313927.28,700459.65,43.1,129215.35,194855.33,"roof_insulation, hvac_upgrade",True,True
+BLD_00091,2023-04-01,1226946.07,787440.86,43.1,147785.53,202628.11,"roof_insulation, hvac_upgrade",False,True
+BLD_00091,2023-05-01,1215944.22,798442.71,43.1,150157.13,196995.08,"roof_insulation, hvac_upgrade",False,True
+BLD_00091,2023-06-01,1203305.56,811081.38,43.1,132625.45,290774.39,"roof_insulation, hvac_upgrade",True,True
+BLD_00091,2023-07-01,1016596.18,997790.75,43.1,188538.96,328387.75,"roof_insulation, hvac_upgrade",False,True
+BLD_00091,2023-08-01,872012.12,1142374.81,43.1,210827.0,277184.63,"roof_insulation, hvac_upgrade",True,True
+BLD_00091,2023-09-01,995505.44,1018881.49,43.1,185531.22,262993.84,"roof_insulation, hvac_upgrade",False,True
+BLD_00091,2023-10-01,993137.94,1021248.99,43.1,193514.19,333486.09,"roof_insulation, hvac_upgrade",True,True
+BLD_00091,2023-11-01,1123063.59,891323.35,43.1,157912.28,329402.75,"roof_insulation, hvac_upgrade",True,True
+BLD_00091,2023-12-01,1177395.72,836991.21,43.1,147960.32,263920.51,"roof_insulation, hvac_upgrade",False,True
+BLD_00091,2024-01-01,1248232.63,766154.3,43.1,129316.92,170312.41,"roof_insulation, hvac_upgrade",True,True
+BLD_00091,2024-02-01,1474047.69,540339.25,43.1,88461.36,183228.99,"roof_insulation, hvac_upgrade",False,True
+BLD_00091,2024-03-01,1411506.81,602880.12,43.1,119578.54,197591.04,"roof_insulation, hvac_upgrade",False,True
+BLD_00091,2024-04-01,1291943.79,722443.14,43.1,126366.48,178893.96,"roof_insulation, hvac_upgrade",True,True
+BLD_00091,2024-05-01,1227629.9,786757.03,43.1,143755.92,260106.6,"roof_insulation, hvac_upgrade",False,True
+BLD_00091,2024-06-01,1087958.78,926428.15,43.1,174124.79,273817.98,"roof_insulation, hvac_upgrade",True,True
+BLD_00091,2024-07-01,1064992.44,949394.49,43.1,166237.22,258282.94,"roof_insulation, hvac_upgrade",False,True
+BLD_00091,2024-08-01,1010916.32,1003470.62,43.1,154359.03,362985.55,"roof_insulation, hvac_upgrade",False,True
+BLD_00091,2024-09-01,970884.31,1043502.62,43.1,173209.43,261734.06,"roof_insulation, hvac_upgrade",True,True
+BLD_00091,2024-10-01,1003051.22,1011335.72,43.1,162535.14,206017.43,"roof_insulation, hvac_upgrade",True,True
+BLD_00091,2024-11-01,1034781.25,979605.68,43.1,177376.15,305050.94,"roof_insulation, hvac_upgrade",False,True
+BLD_00091,2024-12-01,1092553.89,921833.05,43.1,139097.67,298702.2,"roof_insulation, hvac_upgrade",True,True
+BLD_00093,2023-01-01,1147914.58,1582088.69,60.0,245711.89,630857.97,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",True,True
+BLD_00093,2023-02-01,1303284.47,1426718.8,60.0,241799.67,554949.12,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",False,True
+BLD_00093,2023-03-01,1331876.93,1398126.33,60.0,211236.4,513491.17,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",False,True
+BLD_00093,2023-04-01,1358731.81,1371271.46,60.0,229215.38,322504.38,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",True,True
+BLD_00093,2023-05-01,1104891.15,1625112.12,60.0,293043.3,438352.27,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",False,True
+BLD_00093,2023-06-01,1098588.78,1631414.48,60.0,283895.34,492564.74,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",True,True
+BLD_00093,2023-07-01,895031.29,1834971.97,60.0,336707.33,374750.74,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",True,True
+BLD_00093,2023-08-01,848089.35,1881913.92,60.0,353255.42,658493.18,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",True,True
+BLD_00093,2023-09-01,810949.72,1919053.55,60.0,378719.64,568164.65,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",True,True
+BLD_00093,2023-10-01,844689.78,1885313.48,60.0,375858.54,593578.98,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",True,True
+BLD_00093,2023-11-01,1033492.85,1696510.42,60.0,278118.13,434783.95,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",True,True
+BLD_00093,2023-12-01,1002519.87,1727483.4,60.0,291887.24,544923.7,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",False,True
+BLD_00093,2024-01-01,1299129.76,1430873.51,60.0,258499.65,319938.63,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",True,True
+BLD_00093,2024-02-01,1299682.94,1430320.32,60.0,236040.56,543839.76,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",True,True
+BLD_00093,2024-03-01,1244167.92,1485835.35,60.0,296492.41,458350.36,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",False,True
+BLD_00093,2024-04-01,1407589.26,1322414.01,60.0,258246.3,334086.12,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",False,True
+BLD_00093,2024-05-01,1222852.73,1507150.54,60.0,233298.48,326180.23,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",True,True
+BLD_00093,2024-06-01,988806.01,1741197.26,60.0,277596.1,428504.55,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",True,True
+BLD_00093,2024-07-01,1079661.85,1650341.42,60.0,297287.35,457069.25,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",False,True
+BLD_00093,2024-08-01,935359.83,1794643.44,60.0,327190.72,450027.66,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",True,True
+BLD_00093,2024-09-01,886523.04,1843480.22,60.0,361984.12,673641.58,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",True,True
+BLD_00093,2024-10-01,942769.54,1787233.73,60.0,300009.23,665486.56,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",False,True
+BLD_00093,2024-11-01,1058794.28,1671208.98,60.0,294960.13,434484.13,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",True,True
+BLD_00093,2024-12-01,1086332.68,1643670.59,60.0,285944.51,429488.21,"heat_pump, building_controls, wall_insulation, hvac_upgrade, window_upgrade",False,True
