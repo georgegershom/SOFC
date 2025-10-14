@@ -1,0 +1,66 @@
+{
+  "generation_date": "2025-10-14 06:59:33",
+  "total_samples": 10500,
+  "experimental_samples": 500,
+  "computational_samples": 10000,
+  "n_features": 42,
+  "input_parameters": [
+    "Laser_Power_W",
+    "Welding_Speed_mm_s",
+    "Pulse_Frequency_Hz",
+    "Pulse_Duration_ms",
+    "Beam_Focus_Position_mm",
+    "Beam_Spot_Size_um",
+    "Clamping_Pressure_kPa",
+    "Shield_Gas_Flow_L_min",
+    "Material_Combination",
+    "Shield_Gas_Type",
+    "Joint_Type",
+    "Sheet_Thickness_mm",
+    "Overlap_Distance_mm"
+  ],
+  "output_parameters": {
+    "weld_morphology": [
+      "Nugget_Width_mm",
+      "Penetration_Depth_mm",
+      "HAZ_Width_mm",
+      "Has_Cracks",
+      "Has_Porosity",
+      "Has_Undercut",
+      "Has_Expulsion"
+    ],
+    "mechanical_properties": [
+      "Tensile_Shear_Strength_N",
+      "Peel_Strength_N",
+      "Contact_Resistance_uOhm"
+    ],
+    "extreme_temperature_performance": [
+      "Thermal_Cycling_Strength_Degradation_pct",
+      "Thermal_Cycling_Resistance_Increase_pct",
+      "Cycles_to_Failure",
+      "Creep_Time_to_Failure_hours",
+      "Static_Aging_Strength_Retention_pct",
+      "Static_Aging_Resistance_Increase_pct",
+      "IMC_Thickness_Post_Aging_um",
+      "Grain_Size_Change_pct",
+      "Overall_Quality_Score"
+    ]
+  },
+  "material_combinations": {
+    "Al-Al": 2672,
+    "Al-Steel": 2639,
+    "Cu-Al": 2628,
+    "Cu-Cu": 2561
+  },
+  "data_source_distribution": {
+    "Computational": 10000,
+    "Experimental": 500
+  },
+  "summary_statistics": {
+    "avg_tensile_strength_N": 3857.630243015898,
+    "avg_contact_resistance_uOhm": 23.33016874494268,
+    "avg_cycles_to_failure": 1241.862380952381,
+    "avg_quality_score": 86.9138857360806,
+    "defect_rate_pct": 0.20952380952380953
+  }
+}

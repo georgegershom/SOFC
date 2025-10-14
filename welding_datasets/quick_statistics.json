@@ -1,0 +1,21 @@
+{
+  "total_samples": 10500,
+  "experimental_samples": 500,
+  "computational_samples": 10000,
+  "avg_quality_score": 86.9138857360806,
+  "avg_tensile_strength": 3857.630243015898,
+  "avg_cycles_to_failure": 1241.862380952381,
+  "defect_rate": 0.0020952380952380953,
+  "materials": [
+    "Al-Al",
+    "Cu-Al",
+    "Cu-Cu",
+    "Al-Steel"
+  ],
+  "best_material_quality": {
+    "Al-Al": 91.23597409851874,
+    "Al-Steel": 82.65947942224625,
+    "Cu-Al": 85.05129652738765,
+    "Cu-Cu": 88.69976726603731
+  }
+}
