@@ -1,0 +1,127 @@
+{
+  "dataset_info": {
+    "name": "Welding Inverse Design Dataset",
+    "version": "1.0",
+    "generation_date": "2025-10-14T06:59:29.585317",
+    "total_samples": 10450,
+    "experimental_samples": 300,
+    "simulation_samples": 10000,
+    "literature_samples": 150
+  },
+  "input_parameters": {
+    "laser_power_w": [
+      500,
+      3000
+    ],
+    "welding_speed_mm_s": [
+      10,
+      200
+    ],
+    "pulse_frequency_hz": [
+      1,
+      1000
+    ],
+    "pulse_duration_ms": [
+      0.1,
+      50
+    ],
+    "beam_focus_position_mm": [
+      -2,
+      2
+    ],
+    "beam_spot_size_um": [
+      50,
+      500
+    ],
+    "clamping_pressure_mpa": [
+      0.1,
+      5.0
+    ],
+    "shield_gas_flow_rate_l_min": [
+      5,
+      30
+    ],
+    "material_combination": [
+      "Cu-Al",
+      "Al-Al",
+      "Cu-Cu",
+      "Al-Steel",
+      "Cu-Steel"
+    ],
+    "sheet_thickness_mm": [
+      0.1,
+      2.0
+    ],
+    "joint_type": [
+      "Lap",
+      "Butt",
+      "T-Joint"
+    ],
+    "overlap_distance_mm": [
+      0.5,
+      10.0
+    ]
+  },
+  "output_parameters": {
+    "nugget_width_mm": [
+      0.2,
+      3.0
+    ],
+    "penetration_depth_mm": [
+      0.05,
+      2.0
+    ],
+    "haz_width_mm": [
+      0.1,
+      5.0
+    ],
+    "crack_presence": [
+      0,
+      1
+    ],
+    "porosity_area_percent": [
+      0,
+      15
+    ],
+    "spatter_rating": [
+      1,
+      5
+    ],
+    "tensile_shear_strength_n": [
+      500,
+      5000
+    ],
+    "peel_strength_n": [
+      100,
+      1500
+    ],
+    "contact_resistance_micro_ohm": [
+      5,
+      200
+    ],
+    "strength_degradation_percent": [
+      0,
+      80
+    ],
+    "resistance_increase_percent": [
+      0,
+      500
+    ],
+    "cycles_to_failure": [
+      10,
+      10000
+    ],
+    "creep_time_to_failure_hours": [
+      1,
+      1000
+    ],
+    "imc_thickness_post_aging_um": [
+      0.1,
+      20
+    ],
+    "grain_size_change_percent": [
+      -50,
+      200
+    ]
+  }
+}

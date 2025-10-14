@@ -1,0 +1,34 @@
+# Welding Inverse Design Dataset - Requirements
+# Core data science libraries
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Machine learning
+scikit-learn>=1.0.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Optional: Advanced ML libraries for inverse design
+# Uncomment as needed for specific applications
+
+# Deep learning (for neural network-based inverse design)
+# tensorflow>=2.8.0
+# torch>=1.11.0
+
+# Bayesian optimization
+# scikit-optimize>=0.9.0
+# gpytorch>=1.6.0
+
+# Multi-objective optimization
+# pymoo>=0.6.0
+# deap>=1.3.0
+
+# Advanced statistics
+# statsmodels>=0.13.0
+
+# Hyperparameter optimization
+# optuna>=3.0.0
+# hyperopt>=0.2.0
