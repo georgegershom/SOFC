@@ -1,0 +1,38 @@
+{
+  "input_features": [
+    "laser_power",
+    "welding_speed",
+    "pulse_frequency",
+    "pulse_duration",
+    "beam_focus_position",
+    "beam_spot_size",
+    "clamping_pressure",
+    "shield_gas_flow",
+    "material_thickness",
+    "overlap_distance",
+    "material_combination"
+  ],
+  "output_features": [
+    "nugget_width",
+    "penetration_depth",
+    "haz_width",
+    "crack_presence",
+    "porosity_percentage",
+    "undercut_depth",
+    "tensile_shear_strength",
+    "peel_strength",
+    "contact_resistance",
+    "thermal_cycles_to_failure",
+    "strength_degradation_pct",
+    "resistance_increase_pct",
+    "imc_thickness",
+    "creep_time_to_failure"
+  ],
+  "dataset_summary": {
+    "total_samples": 10900,
+    "experimental_samples": 400,
+    "simulation_samples": 10000,
+    "literature_samples": 500,
+    "extreme_temp_samples": 100
+  }
+}
