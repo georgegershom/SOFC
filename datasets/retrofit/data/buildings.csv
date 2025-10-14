@@ -1,0 +1,31 @@
+building_id,name,country,city,latitude,longitude,function,style,quality_score,construction_year,height_m,floors,footprint_area_m2,rooftop_area_m2,volume_m3,envelope_u_value_W_m2K,envelope_r_value_m2K_W,dominant_material,thermal_mass_category
+B0001,Chicago Residential Multi Family 1,US,Chicago,41.878214,-87.647939,residential_multi_family,traditional,3,1963,8.58,3,371.9,366.1,3192.0,2.007,0.498,concrete,low
+B0002,London Office 2,UK,London,51.525289,-0.134536,office,traditional,3,1985,26.91,8,928.7,965.5,24995.0,1.106,0.904,brick,medium
+B0003,Berlin Residential Single Family 3,DE,Berlin,52.524741,13.419468,residential_single_family,modern,2,1955,13.92,4,504.1,491.8,7019.0,1.266,0.79,concrete,medium
+B0004,New York Residential Multi Family 4,US,New York,40.707211,-73.999193,residential_multi_family,modern,2,1960,21.46,7,433.4,429.3,9301.0,1.89,0.529,steel,high
+B0005,Toronto Retail 5,CA,Toronto,43.664714,-79.37196,retail,postmodern,2,1981,31.43,9,917.2,942.8,28830.0,0.773,1.293,steel,low
+B0006,London Education 6,UK,London,51.497595,-0.138135,education,traditional,2,2022,29.33,9,628.1,615.0,18422.0,1.086,0.921,brick,low
+B0007,Shanghai Residential Single Family 7,CN,Shanghai,31.235098,121.484683,residential_single_family,traditional,3,1996,18.94,6,1430.4,1313.3,27091.0,1.338,0.747,brick,medium
+B0008,Warsaw Residential Single Family 8,PL,Warsaw,52.219673,21.017638,residential_single_family,modern,1,1982,22.46,8,678.2,708.2,15236.0,1.045,0.957,brick,medium
+B0009,Berlin Residential Multi Family 9,DE,Berlin,52.520307,13.392956,residential_multi_family,modern,1,1983,25.24,8,690.5,636.1,17429.0,0.793,1.26,concrete,medium
+B0010,Rome Education 10,IT,Rome,41.891578,12.485635,education,postmodern,2,1950,17.27,6,615.1,598.2,10623.0,2.342,0.427,timber,medium
+B0011,New York Retail 11,US,New York,40.709926,-74.017528,retail,modern,5,2018,25.06,8,645.7,652.1,16182.0,0.742,1.347,brick,low
+B0012,Shanghai Education 12,CN,Shanghai,31.219205,121.461809,education,traditional,4,1997,14.42,5,841.6,795.2,12138.0,0.99,1.01,steel,medium
+B0013,Berlin Office 13,DE,Berlin,52.522842,13.403907,office,modern,4,1992,29.41,9,1013.5,955.6,29812.0,1.673,0.598,concrete,low
+B0014,Melbourne Residential Single Family 14,AU,Melbourne,-37.816895,144.956572,residential_single_family,modern,2,1995,9.93,3,853.6,883.2,8478.0,1.336,0.749,concrete,medium
+B0015,Sydney Residential Multi Family 15,AU,Sydney,-33.885976,151.228971,residential_multi_family,modern,2,1973,13.79,4,899.2,889.0,12396.0,2.044,0.489,brick,low
+B0016,Sydney Residential Multi Family 16,AU,Sydney,-33.877392,151.220363,residential_multi_family,modern,5,2002,9.24,3,762.5,695.2,7047.0,0.2,5.0,timber,low
+B0017,Beijing Residential Multi Family 17,CN,Beijing,39.886287,116.411367,residential_multi_family,traditional,2,2012,17.39,5,888.7,902.7,15454.0,0.319,3.132,steel,high
+B0018,Shanghai Retail 18,CN,Shanghai,31.233157,121.45459,retail,postmodern,2,1973,27.23,8,781.3,766.3,21272.0,2.164,0.462,concrete,medium
+B0019,Berlin Residential Single Family 19,DE,Berlin,52.537161,13.422429,residential_single_family,postmodern,2,1976,11.94,4,597.9,553.8,7142.0,1.598,0.626,brick,high
+B0020,Stockholm Residential Single Family 20,SE,Stockholm,59.331527,18.064729,residential_single_family,vernacular,3,1977,9.13,3,746.1,681.7,6814.0,1.809,0.553,composite,low
+B0021,Madrid Office 21,ES,Madrid,40.418129,-3.712106,office,vernacular,3,2020,24.2,7,1231.0,1141.0,29792.0,0.907,1.103,steel,low
+B0022,New York Residential Multi Family 22,US,New York,40.693142,-73.995155,residential_multi_family,modern,3,2014,3.39,1,781.3,717.6,2650.0,0.586,1.707,steel,high
+B0023,Chicago Industrial 23,US,Chicago,41.8813,-87.643076,industrial,modern,2,2021,27.35,8,754.8,815.8,20640.0,0.254,3.936,brick,medium
+B0024,Paris Residential Multi Family 24,FR,Paris,48.852255,2.356826,residential_multi_family,modern,1,1955,17.85,6,668.5,615.4,11932.0,1.917,0.522,composite,high
+B0025,Paris Retail 25,FR,Paris,48.870563,2.36443,retail,modern,2,1972,26.52,8,719.6,695.5,19088.0,2.29,0.437,concrete,high
+B0026,Madrid Residential Multi Family 26,ES,Madrid,40.396947,-3.715275,residential_multi_family,traditional,2,2010,15.61,5,1112.8,1069.5,17373.0,0.861,1.162,concrete,low
+B0027,Rome Residential Multi Family 27,IT,Rome,41.889143,12.514501,residential_multi_family,modern,4,2015,3.18,1,1082.2,1177.3,3436.0,1.396,0.716,timber,medium
+B0028,Madrid Residential Multi Family 28,ES,Madrid,40.396068,-3.685977,residential_multi_family,postmodern,4,2005,9.21,3,601.9,611.1,5542.0,0.786,1.272,concrete,high
+B0029,Shanghai Office 29,CN,Shanghai,31.222013,121.465371,office,brutalist,1,2005,30.31,10,1075.8,1035.7,32608.0,1.076,0.929,steel,low
+B0030,Warsaw Residential Multi Family 30,PL,Warsaw,52.220477,21.009196,residential_multi_family,traditional,2,1998,9.69,3,362.4,348.0,3513.0,1.192,0.839,brick,low
