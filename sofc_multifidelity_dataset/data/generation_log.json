@@ -1,0 +1,45 @@
+{
+  "start_time": "2025-10-15 20:12:27.785996",
+  "datasets": {
+    "low_fidelity": {
+      "filepath": "data/lf_dataset.h5",
+      "n_samples": 10,
+      "n_features": 26,
+      "generation_time": 0.01813220977783203,
+      "samples_per_second": 551.5047599011203
+    },
+    "mid_fidelity": {
+      "filepath": "data/mf_dataset.h5",
+      "n_samples": 1,
+      "n_features": 17,
+      "n_2d_fields": 7,
+      "generation_time": 0.03542947769165039,
+      "samples_per_second": 28.225084453775857
+    },
+    "high_fidelity": {
+      "filepath": "data/hf_dataset.h5",
+      "n_samples": 0,
+      "n_features": 0,
+      "n_3d_fields": 0,
+      "generation_time": 0.00898122787475586,
+      "samples_per_second": 0.0
+    },
+    "experimental": {
+      "filepath": "data/experimental_dataset.h5",
+      "n_samples": 0,
+      "n_measurements": 5,
+      "measurement_types": [
+        "iv_curves",
+        "eis_spectra",
+        "thermography",
+        "sem_images",
+        "xrd_patterns"
+      ],
+      "generation_time": 0.007253408432006836,
+      "samples_per_second": 0.0
+    }
+  },
+  "errors": [],
+  "end_time": "2025-10-15 20:12:27.855922",
+  "total_time_seconds": 0.06984949111938477
+}
