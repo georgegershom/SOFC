@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/dataset3/dataset.schema.json",
+  "title": "Dataset3 Root Schema",
+  "type": "object",
+  "required": ["dataset_name", "version", "created_utc", "generator", "samples"],
+  "properties": {
+    "dataset_name": { "type": "string" },
+    "version": { "type": "string" },
+    "created_utc": { "type": "string", "format": "date-time" },
+    "generator": {
+      "type": "object",
+      "required": ["script", "commit"],
+      "properties": {
+        "script": { "type": "string" },
+        "commit": { "type": "string" }
+      }
+    },
+    "samples": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

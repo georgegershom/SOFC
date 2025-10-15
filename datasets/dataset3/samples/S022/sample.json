@@ -1,0 +1,78 @@
+{
+  "sample_id": "S022",
+  "parameters": {
+    "geometry": {
+      "length_mm": 27.898991252749347,
+      "width_mm": 50.86831072347714,
+      "electrolyte_thickness_um": 12.280538006477165,
+      "anode_thickness_um": 269.8688785688082,
+      "cathode_thickness_um": 55.27981879691028
+    },
+    "materials": {
+      "electrolyte": {
+        "E_GPa": 189.8868179903855,
+        "nu": 0.30857949495741294,
+        "alpha_per_K": 8.585627248355144e-06
+      },
+      "anode": {
+        "E_GPa": 23.12274505528618,
+        "nu": 0.2739935835291101,
+        "alpha_per_K": 1.1451427763877194e-05
+      },
+      "cathode": {
+        "E_GPa": 86.07810814378091,
+        "nu": 0.23766317271107656,
+        "alpha_per_K": 1.3854969140542997e-05
+      }
+    },
+    "sintering": {
+      "peak_temp_C": 1280.2529026398197,
+      "dwell_time_min": 52.338372955889746,
+      "ramp_up_C_per_min": 3.3383311283501356,
+      "ramp_down_C_per_min": 4.2164119984610995
+    },
+    "shrinkage": {
+      "electrolyte_pct_xy": {
+        "x_pct": 14.84733804552971,
+        "y_pct": 15.603628370811219
+      },
+      "anode_pct_xy": {
+        "x_pct": 19.42488686720386,
+        "y_pct": 17.261645543793723
+      },
+      "cathode_pct_xy": {
+        "x_pct": 16.428765002475863,
+        "y_pct": 16.20937810105691
+      }
+    }
+  },
+  "measurement_files": {
+    "warp_map_csv": "samples/S022/warp_map.csv",
+    "curvature_json": "samples/S022/curvature.json",
+    "layer_removal_dir": "samples/S022/layer_removal",
+    "xrd_csv": "samples/S022/xrd.csv",
+    "raman_csv": "samples/S022/raman.csv"
+  },
+  "derived": {
+    "curvature_1_per_m": {
+      "kx": -4.196386322818502e-05,
+      "ky": -7.237631517343455e-05
+    },
+    "stoney_sigma_electrolyte_MPa": {
+      "sigma_x": -0.0013210259821143328,
+      "sigma_y": -0.0022784125549619497
+    }
+  },
+  "technique_metadata": {
+    "warp_scanner": "synthetic-laser-confocal",
+    "xrd_device": "synthetic-xrd",
+    "raman_device": "synthetic-raman",
+    "notes": "Synthetic data approximating realistic distributions"
+  },
+  "units": {
+    "length": "mm",
+    "thickness": "um",
+    "curvature": "1/m",
+    "stress": "MPa"
+  }
+}

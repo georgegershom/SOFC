@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/dataset3/sample.schema.json",
+  "title": "Dataset3 Sample Schema",
+  "type": "object",
+  "required": [
+    "sample_id",
+    "parameters",
+    "measurement_files",
+    "derived",
+    "technique_metadata",
+    "units"
+  ],
+  "properties": {
+    "sample_id": { "type": "string" },
+    "parameters": {
+      "type": "object",
+      "required": [
+        "geometry",
+        "materials",
+        "sintering",
+        "shrinkage"
+      ],
+      "properties": {
+        "geometry": {
+          "type": "object",
+          "required": ["length_mm", "width_mm", "electrolyte_thickness_um", "anode_thickness_um", "cathode_thickness_um"],
+          "properties": {
+            "length_mm": { "type": "number" },
+            "width_mm": { "type": "number" },
+            "electrolyte_thickness_um": { "type": "number" },
+            "anode_thickness_um": { "type": "number" },
+            "cathode_thickness_um": { "type": "number" }
+          }
+        },
+        "materials": {
+          "type": "object",
+          "required": ["electrolyte", "anode", "cathode"],
+          "properties": {
+            "electrolyte": {
+              "type": "object",
+              "required": ["E_GPa", "nu", "alpha_per_K"],
+              "properties": {
+                "E_GPa": { "type": "number" },
+                "nu": { "type": "number" },
+                "alpha_per_K": { "type": "number" }
+              }
+            },
+            "anode": {
+              "type": "object",
+              "required": ["E_GPa", "nu", "alpha_per_K"],
+              "properties": {
+                "E_GPa": { "type": "number" },
+                "nu": { "type": "number" },
+                "alpha_per_K": { "type": "number" }
+              }
+            },
+            "cathode": {
+              "type": "object",
+              "required": ["E_GPa", "nu", "alpha_per_K"],
+              "properties": {
+                "E_GPa": { "type": "number" },
+                "nu": { "type": "number" },
+                "alpha_per_K": { "type": "number" }
+              }
+            }
+          }
+        },
+        "sintering": {
+          "type": "object",
+          "required": ["peak_temp_C", "dwell_time_min", "ramp_up_C_per_min", "ramp_down_C_per_min"],
+          "properties": {
+            "peak_temp_C": { "type": "number" },
+            "dwell_time_min": { "type": "number" },
+            "ramp_up_C_per_min": { "type": "number" },
+            "ramp_down_C_per_min": { "type": "number" }
+          }
+        },
+        "shrinkage": {
+          "type": "object",
+          "required": ["electrolyte_pct_xy", "anode_pct_xy", "cathode_pct_xy"],
+          "properties": {
+            "electrolyte_pct_xy": {
+              "type": "object",
+              "required": ["x_pct", "y_pct"],
+              "properties": {
+                "x_pct": { "type": "number" },
+                "y_pct": { "type": "number" }
+              }
+            },
+            "anode_pct_xy": {
+              "type": "object",
+              "required": ["x_pct", "y_pct"],
+              "properties": {
+                "x_pct": { "type": "number" },
+                "y_pct": { "type": "number" }
+              }
+            },
+            "cathode_pct_xy": {
+              "type": "object",
+              "required": ["x_pct", "y_pct"],
+              "properties": {
+                "x_pct": { "type": "number" },
+                "y_pct": { "type": "number" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "measurement_files": {
+      "type": "object",
+      "required": [
+        "warp_map_csv",
+        "curvature_json",
+        "layer_removal_dir",
+        "xrd_csv",
+        "raman_csv"
+      ],
+      "properties": {
+        "warp_map_csv": { "type": "string" },
+        "curvature_json": { "type": "string" },
+        "layer_removal_dir": { "type": "string" },
+        "xrd_csv": { "type": "string" },
+        "raman_csv": { "type": "string" }
+      }
+    },
+    "derived": {
+      "type": "object",
+      "required": ["curvature_1_per_m", "stoney_sigma_electrolyte_MPa"],
+      "properties": {
+        "curvature_1_per_m": {
+          "type": "object",
+          "required": ["kx", "ky"],
+          "properties": {
+            "kx": { "type": "number" },
+            "ky": { "type": "number" }
+          }
+        },
+        "stoney_sigma_electrolyte_MPa": {
+          "type": "object",
+          "required": ["sigma_x", "sigma_y"],
+          "properties": {
+            "sigma_x": { "type": "number" },
+            "sigma_y": { "type": "number" }
+          }
+        }
+      }
+    },
+    "technique_metadata": {
+      "type": "object",
+      "properties": {
+        "warp_scanner": { "type": "string" },
+        "xrd_device": { "type": "string" },
+        "raman_device": { "type": "string" },
+        "notes": { "type": "string" }
+      }
+    },
+    "units": {
+      "type": "object",
+      "required": ["length", "thickness", "curvature", "stress"],
+      "properties": {
+        "length": { "type": "string", "const": "mm" },
+        "thickness": { "type": "string", "const": "um" },
+        "curvature": { "type": "string", "const": "1/m" },
+        "stress": { "type": "string", "const": "MPa" }
+      }
+    }
+  }
+}
