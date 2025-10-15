@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: sofc-dataset
+Version: 0.1.0
+Summary: Synthetic SOFC warp-stress dataset generator
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Requires-Dist: h5py
+Requires-Dist: click
+Requires-Dist: tqdm
+Requires-Dist: pyyaml

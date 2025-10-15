@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sofc-dataset"
+version = "0.1.0"
+description = "Synthetic SOFC warp-stress dataset generator"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "h5py",
+  "click",
+  "tqdm",
+  "pyyaml",
+]
+
+[project.scripts]
+sofc-dataset = "sofc_dataset.cli:cli"
