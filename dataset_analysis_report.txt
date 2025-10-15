@@ -1,0 +1,49 @@
+================================================================================
+CONTEXT DATASET - ANALYSIS REPORT
+================================================================================
+
+Generation Date: 2025-10-15T22:47:08.530915
+Number of Samples: 1000
+Number of Features: 65
+Sampling Method: Latin Hypercube Sampling
+
+================================================================================
+KEY STATISTICS
+================================================================================
+
+CTE Mismatch:
+  Range: [0.067, 4.042] ppm/K
+  Mean: 1.782 ppm/K
+  Std: 0.815 ppm/K
+
+Sintering Temperature:
+  Range: [1300.2, 1499.8] °C
+  Mean: 1400.0 °C
+
+Total Thickness:
+  Range: [335.7, 1129.1] μm
+  Mean: 737.5 μm
+
+Atmosphere Distribution:
+  Air: 497 (49.7%)
+  Reducing (H2/N2): 204 (20.4%)
+  Argon: 165 (16.5%)
+  Nitrogen: 87 (8.7%)
+  Vacuum: 47 (4.7%)
+
+Quality Flags:
+  flag_extreme_CTE_mismatch: 10 samples (1.0%)
+  flag_thin_electrolyte: 111 samples (11.1%)
+  flag_fast_cooling: 285 samples (28.5%)
+  flag_asymmetric_structure: 711 samples (71.1%)
+
+================================================================================
+GENERATED VISUALIZATIONS
+================================================================================
+
+1. analysis_cte_mismatch.png
+2. analysis_material_properties.png
+3. analysis_process_parameters.png
+4. analysis_geometric_parameters.png
+5. analysis_temperature_profiles.png
+6. analysis_correlation_heatmap.png

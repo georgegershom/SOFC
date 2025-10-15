@@ -1,0 +1,241 @@
+================================================================================
+CONTEXT DATASET - DATA DICTIONARY
+Residual Stress Prediction in Multi-layer Ceramic Structures
+================================================================================
+
+Generation Date: 2025-10-15 22:47:22
+Number of Samples: 10000
+Number of Features: 65
+Sampling Method: Latin Hypercube Sampling (LHS)
+
+================================================================================
+PARAMETER CATEGORIES
+================================================================================
+
+
+Geometric Parameters:
+--------------------------------------------------------------------------------
+  plate_length_mm:
+    Range: [50.0066, 149.9905]
+    Mean: 100.0000, Std: 28.8690
+  plate_width_mm:
+    Range: [50.0016, 149.9923]
+    Mean: 100.0000, Std: 28.8689
+  anode_thickness_um:
+    Range: [300.0174, 999.9926]
+    Mean: 650.0000, Std: 202.0824
+  electrolyte_thickness_um:
+    Range: [5.0019, 49.9970]
+    Mean: 27.5000, Std: 12.9910
+  cathode_thickness_um:
+    Range: [20.0015, 99.9973]
+    Mean: 60.0000, Std: 23.0952
+  green_density_fraction:
+    Range: [0.4500, 0.6500]
+    Mean: 0.5500, Std: 0.0577
+  green_shrinkage_factor:
+    Range: [1.1500, 1.3500]
+    Mean: 1.2500, Std: 0.0577
+
+Anode Material Properties:
+--------------------------------------------------------------------------------
+  anode_thickness_um:
+    Range: [300.0174, 999.9926]
+    Mean: 650.0000, Std: 202.0824
+  anode_youngs_modulus_25C_GPa:
+    Range: [40.0018, 79.9960]
+    Mean: 60.0000, Std: 11.5476
+  anode_youngs_modulus_1000C_GPa:
+    Range: [20.0026, 49.9987]
+    Mean: 35.0000, Std: 8.6607
+  anode_CTE_25C_ppm_K:
+    Range: [10.5000, 13.4999]
+    Mean: 12.0000, Std: 0.8661
+  anode_CTE_1000C_ppm_K:
+    Range: [12.0002, 14.9997]
+    Mean: 13.5000, Std: 0.8661
+  anode_poisson_ratio:
+    Range: [0.2500, 0.3500]
+    Mean: 0.3000, Std: 0.0289
+  anode_sintering_onset_C:
+    Range: [1100.0051, 1249.9988]
+    Mean: 1175.0000, Std: 43.3035
+  anode_max_shrinkage_rate_per_min:
+    Range: [0.0010, 0.0100]
+    Mean: 0.0055, Std: 0.0026
+  anode_total_shrinkage_fraction:
+    Range: [0.1500, 0.2500]
+    Mean: 0.2000, Std: 0.0289
+  anode_creep_activation_energy_kJ_mol:
+    Range: [300.0143, 449.9956]
+    Mean: 375.0000, Std: 43.3034
+  anode_creep_stress_exponent:
+    Range: [1.0001, 2.9998]
+    Mean: 2.0000, Std: 0.5774
+
+Electrolyte Material Properties:
+--------------------------------------------------------------------------------
+  electrolyte_thickness_um:
+    Range: [5.0019, 49.9970]
+    Mean: 27.5000, Std: 12.9910
+  electrolyte_youngs_modulus_25C_GPa:
+    Range: [180.0012, 219.9992]
+    Mean: 200.0000, Std: 11.5476
+  electrolyte_youngs_modulus_1000C_GPa:
+    Range: [120.0021, 159.9981]
+    Mean: 140.0000, Std: 11.5476
+  electrolyte_CTE_25C_ppm_K:
+    Range: [9.5000, 11.5000]
+    Mean: 10.5000, Std: 0.5774
+  electrolyte_CTE_1000C_ppm_K:
+    Range: [10.5002, 12.5000]
+    Mean: 11.5000, Std: 0.5774
+  electrolyte_poisson_ratio:
+    Range: [0.2800, 0.3300]
+    Mean: 0.3050, Std: 0.0144
+  electrolyte_sintering_onset_C:
+    Range: [1200.0143, 1349.9931]
+    Mean: 1275.0000, Std: 43.3035
+  electrolyte_max_shrinkage_rate_per_min:
+    Range: [0.0005, 0.0050]
+    Mean: 0.0028, Std: 0.0013
+  electrolyte_total_shrinkage_fraction:
+    Range: [0.1200, 0.2000]
+    Mean: 0.1600, Std: 0.0231
+  electrolyte_creep_activation_energy_kJ_mol:
+    Range: [450.0044, 599.9967]
+    Mean: 525.0000, Std: 43.3035
+  electrolyte_creep_stress_exponent:
+    Range: [1.0000, 2.5000]
+    Mean: 1.7500, Std: 0.4330
+
+Cathode Material Properties:
+--------------------------------------------------------------------------------
+  cathode_thickness_um:
+    Range: [20.0015, 99.9973]
+    Mean: 60.0000, Std: 23.0952
+  cathode_youngs_modulus_25C_GPa:
+    Range: [50.0029, 99.9978]
+    Mean: 75.0000, Std: 14.4345
+  cathode_youngs_modulus_1000C_GPa:
+    Range: [30.0023, 69.9991]
+    Mean: 50.0000, Std: 11.5476
+  cathode_CTE_25C_ppm_K:
+    Range: [11.0002, 13.9999]
+    Mean: 12.5000, Std: 0.8661
+  cathode_CTE_1000C_ppm_K:
+    Range: [12.5003, 15.9999]
+    Mean: 14.2500, Std: 1.0104
+  cathode_poisson_ratio:
+    Range: [0.2800, 0.3500]
+    Mean: 0.3150, Std: 0.0202
+  cathode_sintering_onset_C:
+    Range: [1000.0016, 1199.9806]
+    Mean: 1100.0000, Std: 57.7380
+  cathode_max_shrinkage_rate_per_min:
+    Range: [0.0010, 0.0080]
+    Mean: 0.0045, Std: 0.0020
+  cathode_total_shrinkage_fraction:
+    Range: [0.1000, 0.2200]
+    Mean: 0.1600, Std: 0.0346
+  cathode_creep_activation_energy_kJ_mol:
+    Range: [280.0004, 399.9913]
+    Mean: 340.0000, Std: 34.6428
+  cathode_creep_stress_exponent:
+    Range: [1.5000, 3.4998]
+    Mean: 2.5000, Std: 0.5774
+
+Process Parameters:
+--------------------------------------------------------------------------------
+  heating_ramp_rate_C_per_min:
+    Range: [1.0008, 9.9999]
+    Mean: 5.5000, Std: 2.5982
+  sintering_peak_temp_C:
+    Range: [1300.0198, 1499.9836]
+    Mean: 1400.0001, Std: 57.7379
+  sintering_hold_time_min:
+    Range: [60.0198, 299.9777]
+    Mean: 180.0000, Std: 69.2856
+  cooling_ramp_rate_C_per_min:
+    Range: [1.0001, 7.9997]
+    Mean: 4.5000, Std: 2.0208
+  intermediate_hold_temp_C:
+    Range: [800.0220, 1099.9769]
+    Mean: 950.0001, Std: 86.6068
+  intermediate_hold_time_min:
+    Range: [0.0101, 119.9967]
+    Mean: 60.0000, Std: 34.6427
+  oxygen_partial_pressure_atm:
+    Range: [0.0010, 0.2100]
+    Mean: 0.1055, Std: 0.0603
+  humidity_percent:
+    Range: [0.0001, 4.9998]
+    Mean: 2.5000, Std: 1.4434
+  atmosphere_type: (categorical/text)
+    Values: Air, Nitrogen, Reducing (H2/N2), Vacuum, Argon
+  temperature_profile_json: (categorical/text)
+
+Derived Parameters:
+--------------------------------------------------------------------------------
+  total_green_thickness_um:
+    Range: [399.9216, 1518.3705]
+    Mean: 921.6136, Std: 257.9936
+  total_sintered_thickness_um:
+    Range: [332.9395, 1134.0618]
+    Mean: 737.4999, Std: 204.1927
+  CTE_mismatch_anode_electrolyte_25C:
+    Range: [-0.9816, 3.9609]
+    Mean: 1.5000, Std: 1.0419
+  CTE_mismatch_cathode_electrolyte_25C:
+    Range: [-0.4730, 4.4486]
+    Mean: 2.0000, Std: 1.0348
+  CTE_mismatch_anode_cathode_25C:
+    Range: [-3.4669, 2.4781]
+    Mean: -0.5000, Std: 1.2201
+  avg_CTE_mismatch_magnitude:
+    Range: [0.0199, 4.1454]
+    Mean: 1.7805, Std: 0.7970
+  stiffness_ratio_electrolyte_anode:
+    Range: [2.2560, 5.4803]
+    Mean: 3.4660, Std: 0.7301
+  stiffness_ratio_electrolyte_cathode:
+    Range: [1.8034, 4.3847]
+    Mean: 2.7726, Std: 0.5828
+  thickness_ratio_anode_electrolyte:
+    Range: [6.0739, 196.7660]
+    Mean: 33.2077, Std: 27.2580
+  thickness_ratio_cathode_electrolyte:
+    Range: [0.4049, 19.8967]
+    Mean: 3.0644, Std: 2.6714
+  total_process_time_min:
+    Range: [391.2809, 2826.5101]
+    Mean: 1013.9542, Std: 379.9293
+  cooling_heating_rate_ratio:
+    Range: [0.1021, 7.4291]
+    Mean: 1.1580, Std: 1.0732
+
+Quality Flags:
+--------------------------------------------------------------------------------
+  flag_extreme_CTE_mismatch:
+    Range: [0.0000, 1.0000]
+    Mean: 0.0167, Std: 0.1282
+  flag_thin_electrolyte:
+    Range: [0.0000, 1.0000]
+    Mean: 0.1111, Std: 0.3143
+  flag_fast_cooling:
+    Range: [0.0000, 1.0000]
+    Mean: 0.2857, Std: 0.4518
+  flag_asymmetric_structure:
+    Range: [0.0000, 1.0000]
+    Mean: 0.7270, Std: 0.4455
+
+================================================================================
+KEY RELATIONSHIPS FOR RESIDUAL STRESS
+================================================================================
+
+1. CTE Mismatch: Primary driver of residual stress during cooling
+2. Stiffness Ratios: Determines stress distribution between layers
+3. Thickness Ratios: Affects constraint and bending moments
+4. Sintering Profiles: Temperature history affects microstructure and stress
+5. Creep Parameters: High-temperature stress relaxation
+

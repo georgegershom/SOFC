@@ -1,0 +1,217 @@
+{
+  "generation_date": "2025-10-15T22:47:08.530915",
+  "n_samples": 1000,
+  "n_parameters": 65,
+  "parameter_ranges": {
+    "plate_length_mm": [
+      50.0,
+      150.0
+    ],
+    "plate_width_mm": [
+      50.0,
+      150.0
+    ],
+    "anode_thickness_um": [
+      300.0,
+      1000.0
+    ],
+    "electrolyte_thickness_um": [
+      5.0,
+      50.0
+    ],
+    "cathode_thickness_um": [
+      20.0,
+      100.0
+    ],
+    "green_density_fraction": [
+      0.45,
+      0.65
+    ],
+    "green_shrinkage_factor": [
+      1.15,
+      1.35
+    ],
+    "anode_youngs_modulus_25C_GPa": [
+      40.0,
+      80.0
+    ],
+    "anode_youngs_modulus_1000C_GPa": [
+      20.0,
+      50.0
+    ],
+    "anode_CTE_25C_ppm_K": [
+      10.5,
+      13.5
+    ],
+    "anode_CTE_1000C_ppm_K": [
+      12.0,
+      15.0
+    ],
+    "anode_poisson_ratio": [
+      0.25,
+      0.35
+    ],
+    "anode_sintering_onset_C": [
+      1100.0,
+      1250.0
+    ],
+    "anode_max_shrinkage_rate_per_min": [
+      0.001,
+      0.01
+    ],
+    "anode_total_shrinkage_fraction": [
+      0.15,
+      0.25
+    ],
+    "anode_creep_activation_energy_kJ_mol": [
+      300.0,
+      450.0
+    ],
+    "anode_creep_stress_exponent": [
+      1.0,
+      3.0
+    ],
+    "electrolyte_youngs_modulus_25C_GPa": [
+      180.0,
+      220.0
+    ],
+    "electrolyte_youngs_modulus_1000C_GPa": [
+      120.0,
+      160.0
+    ],
+    "electrolyte_CTE_25C_ppm_K": [
+      9.5,
+      11.5
+    ],
+    "electrolyte_CTE_1000C_ppm_K": [
+      10.5,
+      12.5
+    ],
+    "electrolyte_poisson_ratio": [
+      0.28,
+      0.33
+    ],
+    "electrolyte_sintering_onset_C": [
+      1200.0,
+      1350.0
+    ],
+    "electrolyte_max_shrinkage_rate_per_min": [
+      0.0005,
+      0.005
+    ],
+    "electrolyte_total_shrinkage_fraction": [
+      0.12,
+      0.2
+    ],
+    "electrolyte_creep_activation_energy_kJ_mol": [
+      450.0,
+      600.0
+    ],
+    "electrolyte_creep_stress_exponent": [
+      1.0,
+      2.5
+    ],
+    "cathode_youngs_modulus_25C_GPa": [
+      50.0,
+      100.0
+    ],
+    "cathode_youngs_modulus_1000C_GPa": [
+      30.0,
+      70.0
+    ],
+    "cathode_CTE_25C_ppm_K": [
+      11.0,
+      14.0
+    ],
+    "cathode_CTE_1000C_ppm_K": [
+      12.5,
+      16.0
+    ],
+    "cathode_poisson_ratio": [
+      0.28,
+      0.35
+    ],
+    "cathode_sintering_onset_C": [
+      1000.0,
+      1200.0
+    ],
+    "cathode_max_shrinkage_rate_per_min": [
+      0.001,
+      0.008
+    ],
+    "cathode_total_shrinkage_fraction": [
+      0.1,
+      0.22
+    ],
+    "cathode_creep_activation_energy_kJ_mol": [
+      280.0,
+      400.0
+    ],
+    "cathode_creep_stress_exponent": [
+      1.5,
+      3.5
+    ],
+    "heating_ramp_rate_C_per_min": [
+      1.0,
+      10.0
+    ],
+    "sintering_peak_temp_C": [
+      1300.0,
+      1500.0
+    ],
+    "sintering_hold_time_min": [
+      60.0,
+      300.0
+    ],
+    "cooling_ramp_rate_C_per_min": [
+      1.0,
+      8.0
+    ],
+    "intermediate_hold_temp_C": [
+      800.0,
+      1100.0
+    ],
+    "intermediate_hold_time_min": [
+      0.0,
+      120.0
+    ],
+    "oxygen_partial_pressure_atm": [
+      0.001,
+      0.21
+    ],
+    "humidity_percent": [
+      0.0,
+      5.0
+    ]
+  },
+  "atmosphere_types": [
+    "Air",
+    "Argon",
+    "Nitrogen",
+    "Reducing (H2/N2)",
+    "Vacuum"
+  ],
+  "sampling_method": "Latin Hypercube Sampling",
+  "description": "Context dataset for residual stress prediction in multi-layer ceramic structures",
+  "column_descriptions": {
+    "plate_length_mm": "Length of ceramic plate in millimeters",
+    "plate_width_mm": "Width of ceramic plate in millimeters",
+    "anode_thickness_um": "Final sintered anode thickness in micrometers",
+    "electrolyte_thickness_um": "Final sintered electrolyte thickness in micrometers",
+    "cathode_thickness_um": "Final sintered cathode thickness in micrometers",
+    "green_density_fraction": "Green body density as fraction of theoretical density",
+    "green_shrinkage_factor": "Multiplier for green dimensions relative to sintered",
+    "anode_youngs_modulus_25C_GPa": "Anode Young's modulus at 25\u00b0C in GPa",
+    "anode_youngs_modulus_1000C_GPa": "Anode Young's modulus at 1000\u00b0C in GPa",
+    "anode_CTE_25C_ppm_K": "Anode coefficient of thermal expansion at 25\u00b0C in ppm/K",
+    "anode_CTE_1000C_ppm_K": "Anode coefficient of thermal expansion at 1000\u00b0C in ppm/K",
+    "heating_ramp_rate_C_per_min": "Heating rate during sintering in \u00b0C/min",
+    "sintering_peak_temp_C": "Maximum sintering temperature in \u00b0C",
+    "sintering_hold_time_min": "Time held at peak temperature in minutes",
+    "cooling_ramp_rate_C_per_min": "Cooling rate after sintering in \u00b0C/min",
+    "CTE_mismatch_anode_electrolyte_25C": "CTE difference between anode and electrolyte at 25\u00b0C",
+    "avg_CTE_mismatch_magnitude": "Average absolute CTE mismatch magnitude",
+    "stiffness_ratio_electrolyte_anode": "Ratio of electrolyte to anode stiffness",
+    "thickness_ratio_anode_electrolyte": "Ratio of anode to electrolyte thickness"
+  }
+}
