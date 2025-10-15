@@ -1,0 +1,314 @@
+{
+  "dataset_info": {
+    "n_samples": 10000,
+    "n_features": 38,
+    "missing_values": "0"
+  },
+  "parameter_statistics": {
+    "plate_length": {
+      "mean": 0.1277385742347224,
+      "std": 0.025546758179794755,
+      "min": 0.0598830175197735,
+      "max": 0.2,
+      "median": 0.12495498482718345
+    },
+    "plate_width": {
+      "mean": 0.12736495309110002,
+      "std": 0.025374801362010282,
+      "min": 0.0586550182268244,
+      "max": 0.2,
+      "median": 0.12497744440578445
+    },
+    "anode_thickness": {
+      "mean": 0.0009188178312927713,
+      "std": 0.0002030011380026079,
+      "min": 0.0003749182514339,
+      "max": 0.0015,
+      "median": 0.00089588000507065
+    },
+    "electrolyte_thickness": {
+      "mean": 2.836863225324734e-05,
+      "std": 7.703636048212345e-06,
+      "min": 8.62550244547276e-06,
+      "max": 5e-05,
+      "median": 2.739128202602368e-05
+    },
+    "cathode_thickness": {
+      "mean": 6.154209239267556e-05,
+      "std": 1.3549766102571796e-05,
+      "min": 2.7039694205252124e-05,
+      "max": 0.0001,
+      "median": 5.9989649005211265e-05
+    },
+    "green_density_anode": {
+      "mean": 0.5500771611635019,
+      "std": 0.044896328319267126,
+      "min": 0.4512497198994166,
+      "max": 0.6477140487594939,
+      "median": 0.5502354297030919
+    },
+    "green_density_electrolyte": {
+      "mean": 0.6002446006415654,
+      "std": 0.044797487265290634,
+      "min": 0.5008451727625747,
+      "max": 0.6990715931609797,
+      "median": 0.5998518805076538
+    },
+    "green_density_cathode": {
+      "mean": 0.49988711602285874,
+      "std": 0.04513343052937914,
+      "min": 0.4010796094613065,
+      "max": 0.5979023337362611,
+      "median": 0.5001336913516472
+    },
+    "anode_youngs_modulus_rt": {
+      "mean": 101441462197.2669,
+      "std": 16931867569.53038,
+      "min": 55699848404.28377,
+      "max": 150000000000.0,
+      "median": 99989670238.32907
+    },
+    "anode_cte": {
+      "mean": 1.2496243162120576e-05,
+      "std": 4.949248843474446e-07,
+      "min": 1.1e-05,
+      "max": 1.4e-05,
+      "median": 1.2496129058445956e-05
+    },
+    "anode_poisson_ratio": {
+      "mean": 0.29978308663289854,
+      "std": 0.02895447430928744,
+      "min": 0.2500005247418654,
+      "max": 0.3499934038183794,
+      "median": 0.29962576351052916
+    },
+    "anode_sintering_shrinkage": {
+      "mean": 0.199801240160134,
+      "std": 0.028750015093957543,
+      "min": 0.1500144537290788,
+      "max": 0.2499763948075685,
+      "median": 0.20009981940100802
+    },
+    "anode_shrinkage_onset_temp": {
+      "mean": 1199.7092228630725,
+      "std": 57.710894968733676,
+      "min": 1100.004544085449,
+      "max": 1299.9881120300442,
+      "median": 1199.0247023666593
+    },
+    "anode_creep_activation_energy": {
+      "mean": 401359.0915829425,
+      "std": 33501.840533210765,
+      "min": 300000.0,
+      "max": 500000.0,
+      "median": 399803.5299775504
+    },
+    "electrolyte_youngs_modulus_rt": {
+      "mean": 200111609526.7385,
+      "std": 6619878505.50286,
+      "min": 180000000000.0,
+      "max": 220000000000.0,
+      "median": 200020251492.2558
+    },
+    "electrolyte_cte": {
+      "mean": 1.049733163176409e-05,
+      "std": 1.6638306993819296e-07,
+      "min": 1e-05,
+      "max": 1.1e-05,
+      "median": 1.0497071966677785e-05
+    },
+    "electrolyte_poisson_ratio": {
+      "mean": 0.2999038227179916,
+      "std": 0.01149960350922518,
+      "min": 0.2800203580630427,
+      "max": 0.3199992731327176,
+      "median": 0.29981540606105406
+    },
+    "electrolyte_sintering_shrinkage": {
+      "mean": 0.22975415149317233,
+      "std": 0.028920529821179985,
+      "min": 0.1800167997412642,
+      "max": 0.2799994929834169,
+      "median": 0.22983836823580714
+    },
+    "electrolyte_shrinkage_onset_temp": {
+      "mean": 1300.6463777304664,
+      "std": 57.99761198919018,
+      "min": 1200.021009964754,
+      "max": 1399.9726356888175,
+      "median": 1300.8646721905554
+    },
+    "electrolyte_creep_activation_energy": {
+      "mean": 501225.70959772274,
+      "std": 33709.52766097421,
+      "min": 400000.0,
+      "max": 600000.0,
+      "median": 499807.44217383687
+    },
+    "cathode_youngs_modulus_rt": {
+      "mean": 100228708752.91115,
+      "std": 6686016043.125298,
+      "min": 80000000000.0,
+      "max": 120000000000.0,
+      "median": 99910701572.7063
+    },
+    "cathode_cte": {
+      "mean": 1.2250197738666446e-05,
+      "std": 2.5068438038387737e-07,
+      "min": 1.15e-05,
+      "max": 1.3e-05,
+      "median": 1.2250159691670462e-05
+    },
+    "cathode_poisson_ratio": {
+      "mean": 0.30006357890997426,
+      "std": 0.022919007700111998,
+      "min": 0.2600087835445067,
+      "max": 0.339994546643692,
+      "median": 0.3003072393760382
+    },
+    "cathode_sintering_shrinkage": {
+      "mean": 0.1697609190404961,
+      "std": 0.02895390115300725,
+      "min": 0.12005438689205,
+      "max": 0.2199990033351401,
+      "median": 0.16993043658612195
+    },
+    "cathode_shrinkage_onset_temp": {
+      "mean": 1099.077399169424,
+      "std": 57.800266510938414,
+      "min": 1000.018893351935,
+      "max": 1199.9946083850907,
+      "median": 1098.2232253059829
+    },
+    "cathode_creep_activation_energy": {
+      "mean": 351415.528581531,
+      "std": 33411.58382281957,
+      "min": 250000.0,
+      "max": 450000.0,
+      "median": 349589.7528740084
+    },
+    "max_sintering_temp": {
+      "mean": 1672.8851525753546,
+      "std": 33.21014656838995,
+      "min": 1573.0,
+      "max": 1773.0,
+      "median": 1673.075083860456
+    },
+    "heating_rate": {
+      "mean": 5.674206423813181,
+      "std": 1.5122079613779122,
+      "min": 2.0849359061106614,
+      "max": 10.0,
+      "median": 5.49126288089813
+    },
+    "cooling_rate": {
+      "mean": 3.062988012312878,
+      "std": 0.6705454974147561,
+      "min": 1.282451923976206,
+      "max": 5.0,
+      "median": 2.995558426423284
+    },
+    "hold_time": {
+      "mean": 4.514526837018859,
+      "std": 2.012193396547575,
+      "min": 1.0000932871784487,
+      "max": 7.999151454697119,
+      "median": 4.516354301088689
+    },
+    "atmosphere_oxygen_partial_pressure": {
+      "mean": 0.004591044144720765,
+      "std": 0.02098959891657801,
+      "min": 1.0038600290206108e-20,
+      "max": 0.2099329003389501,
+      "median": 4.6444158529315245e-11
+    }
+  },
+  "stress_statistics": {
+    "anode_residual_stress_total": {
+      "mean": -2978776184.83725,
+      "std": 4753821950.552866,
+      "min": -24408726937.258537,
+      "max": 14256582418.00658,
+      "median": -2711070367.059226
+    },
+    "electrolyte_residual_stress_total": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "median": 0.0
+    },
+    "cathode_residual_stress_total": {
+      "mean": -5857804742.0575485,
+      "std": 4564974882.490663,
+      "min": -23832803499.582165,
+      "max": 5779392122.962589,
+      "median": -5503313168.78393
+    },
+    "anode_von_mises_stress": {
+      "mean": 5363274966.855458,
+      "std": 4290793983.9912643,
+      "min": 1624943.099993775,
+      "max": 30138780039.1432,
+      "median": 4292414612.0880294
+    },
+    "electrolyte_von_mises_stress": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "median": 0.0
+    },
+    "cathode_von_mises_stress": {
+      "mean": 7507399508.01061,
+      "std": 5144713217.292037,
+      "min": 4593836.386059859,
+      "max": 29272498983.589104,
+      "median": 6729899521.279911
+    }
+  },
+  "correlations": {
+    "anode_residual_stress_total": {
+      "electrolyte_sintering_shrinkage": 0.6645976237357485,
+      "anode_sintering_shrinkage": 0.6643550110852338,
+      "hold_time": 0.13769360676042655,
+      "anode_youngs_modulus_rt": 0.11271782856987578,
+      "max_sintering_temp": 0.08347068701722055
+    },
+    "electrolyte_residual_stress_total": {
+      "plate_length": NaN,
+      "plate_width": NaN,
+      "anode_thickness": NaN,
+      "electrolyte_thickness": NaN,
+      "cathode_thickness": NaN
+    },
+    "cathode_residual_stress_total": {
+      "electrolyte_sintering_shrinkage": 0.6492127602262567,
+      "cathode_sintering_shrinkage": 0.6482885714019172,
+      "hold_time": 0.24994457645504073,
+      "max_sintering_temp": 0.1682496840661939,
+      "cathode_youngs_modulus_rt": 0.0801108601625475
+    },
+    "anode_von_mises_stress": {
+      "anode_sintering_shrinkage": 0.4646549199593564,
+      "electrolyte_sintering_shrinkage": 0.4569658332712346,
+      "hold_time": 0.2553500350016409,
+      "anode_youngs_modulus_rt": 0.22057214291937705,
+      "max_sintering_temp": 0.16905434513263745
+    },
+    "electrolyte_von_mises_stress": {
+      "plate_length": NaN,
+      "plate_width": NaN,
+      "anode_thickness": NaN,
+      "electrolyte_thickness": NaN,
+      "cathode_thickness": NaN
+    },
+    "cathode_von_mises_stress": {
+      "electrolyte_sintering_shrinkage": 0.6171436432188463,
+      "cathode_sintering_shrinkage": 0.6163242701901253,
+      "hold_time": 0.28224534438207627,
+      "max_sintering_temp": 0.1927199515790441,
+      "cathode_youngs_modulus_rt": 0.09395872533622819
+    }
+  }
+}
