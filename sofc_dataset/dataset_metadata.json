@@ -1,0 +1,17 @@
+{
+  "dataset_name": "Multi-Fidelity SOFC Digital Twin Dataset",
+  "version": "1.0",
+  "created_date": "2025-10-15T19:12:26.055376",
+  "description": "Comprehensive multi-scale SOFC modeling parameters",
+  "fidelity_levels": [
+    "LF",
+    "MF",
+    "HF"
+  ],
+  "scales": [
+    "System",
+    "Cell/Stack",
+    "Material",
+    "Microstructural"
+  ]
+}
