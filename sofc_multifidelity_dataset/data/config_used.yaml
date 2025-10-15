@@ -1,0 +1,253 @@
+constants:
+  F: 96485
+  R: 8.314
+  stefan_boltzmann: 5.67e-08
+dataset:
+  experimental:
+    measurement_noise:
+      current: 0.01
+      impedance: 0.01
+      temperature: 2.0
+      voltage: 0.001
+    n_samples: 20
+    techniques:
+    - IV_curves
+    - EIS
+    - thermography
+    - SEM
+    - XRD
+  high_fidelity:
+    computation_time_per_sample: 3600
+    n_samples: 200
+    physics_models:
+    - 3D_coupled_CFD
+    - detailed_electrochemistry
+    - nonlinear_mechanics
+    - phase_field_fracture
+    spatial_resolution: 3D fine (100x100x50)
+    temporal_resolution: 1
+  low_fidelity:
+    computation_time_per_sample: 0.1
+    n_samples: 100000
+    physics_models:
+    - lumped_thermal
+    - equivalent_circuit
+    - analytical_stress
+    spatial_resolution: 0D/1D averaged
+    temporal_resolution: 3600
+  mid_fidelity:
+    computation_time_per_sample: 10
+    n_samples: 5000
+    physics_models:
+    - 2D_thermal_diffusion
+    - butler_volmer_kinetics
+    - linear_elasticity
+    spatial_resolution: 2D/3D coarse (20x20x10)
+    temporal_resolution: 60
+degradation:
+  cr_poisoning:
+    activation_energy: 150000.0
+    deposition_rate: 1.0e-09
+  creep:
+    A: 1.0e-25
+    Q: 300000.0
+    n: 3.5
+  interface:
+    critical_energy_release_rate: 50
+    interface_strength: 10000000.0
+    mode_mixity: 0.5
+  ni_coarsening:
+    activation_energy: 200000.0
+    pre_exponential: 1.0e-18
+    time_exponent: 0.33
+  redox:
+    cycles_to_failure:
+    - 10
+    - 1000
+    volume_change: 0.24
+geometry:
+  anode_thickness: 500
+  cathode_thickness: 50
+  channel_height: 1.0
+  channel_width: 1.0
+  electrolyte_thickness: 10
+  interconnect_thickness: 500
+  length: 0.1
+  rib_width: 1.0
+  width: 0.1
+materials:
+  anode:
+    CTE: 1.25e-05
+    composition: Ni-YSZ
+    elastic_modulus: 96000000000.0
+    electrical_conductivity: 3000000.0
+    poisson_ratio: 0.31
+    porosity: 0.3
+    thermal_conductivity: 2.0
+    tortuosity: 3.0
+  cathode:
+    CTE: 1.18e-05
+    composition: LSM-YSZ
+    elastic_modulus: 100000000000.0
+    electrical_conductivity: 80000.0
+    poisson_ratio: 0.25
+    porosity: 0.3
+    thermal_conductivity: 2.0
+    tortuosity: 3.0
+  electrolyte:
+    CTE: 1.05e-05
+    activation_energy: 80000
+    composition: 8YSZ
+    elastic_modulus: 200000000000.0
+    ionic_conductivity_0: 33400.0
+    poisson_ratio: 0.31
+    thermal_conductivity: 2.0
+  interconnect:
+    CTE: 1.19e-05
+    composition: Crofer22APU
+    elastic_modulus: 220000000000.0
+    electrical_conductivity: 1400000.0
+    poisson_ratio: 0.28
+    thermal_conductivity: 25.0
+multiscale:
+  macroscale:
+    element_size: 0.001
+  mesoscale:
+    element_size: 0.0001
+  microstructure:
+    Representative_Volume_Element_size: 1.0e-05
+    phases:
+    - Ni
+    - YSZ
+    - pore
+operating_conditions:
+  air_utilization:
+    max: 0.4
+    min: 0.1
+    nominal: 0.25
+  current_density:
+    max: 10000
+    min: 0
+    nominal: 5000
+  fuel_utilization:
+    max: 0.9
+    min: 0.3
+    nominal: 0.75
+  inlet_compositions:
+    air:
+      N2: 0.79
+      O2: 0.21
+    fuel:
+      CH4:
+      - 0.0
+      - 0.05
+      CO:
+      - 0.0
+      - 0.2
+      CO2:
+      - 0.0
+      - 0.1
+      H2:
+      - 0.7
+      - 0.97
+      H2O:
+      - 0.03
+      - 0.3
+      N2:
+      - 0.0
+      - 0.05
+  pressure:
+    max: 300000.0
+    min: 100000.0
+    nominal: 101325.0
+  temperature:
+    max: 1173
+    min: 923
+    nominal: 1073
+output_structure:
+  chunk_size: 100
+  compression: gzip
+  file_format: HDF5
+  variables:
+    current_density:
+      shape: variable
+      units: "A/m\xB2"
+    damage_indicators:
+      cr_deposition:
+        units: "kg/m\xB2"
+      crack_density:
+        units: "1/m\xB2"
+      delamination_area:
+        units: "m\xB2"
+      ni_particle_size:
+        units: "\u03BCm"
+    overpotentials:
+      shape: variable
+      types:
+      - activation
+      - ohmic
+      - concentration
+      units: V
+    performance_metrics:
+      degradation_rate:
+        units: '%/1000h'
+      efficiency:
+        units: '-'
+      power_density:
+        units: "W/m\xB2"
+      voltage:
+        units: V
+    species_concentration:
+      shape: variable
+      species:
+      - H2
+      - H2O
+      - O2
+      - N2
+      - CO
+      - CO2
+      units: "mol/m\xB3"
+    strain_tensor:
+      components:
+      - xx
+      - yy
+      - zz
+      - xy
+      - xz
+      - yz
+      shape: variable
+      types:
+      - elastic
+      - plastic
+      - creep
+      - thermal
+      units: '-'
+    stress_tensor:
+      components:
+      - xx
+      - yy
+      - zz
+      - xy
+      - xz
+      - yz
+      shape: variable
+      units: Pa
+    temperature_field:
+      shape: variable
+      units: K
+thermal_cycling:
+  cooling_rate:
+  - 1
+  - 10
+  dwell_time:
+  - 0
+  - 100
+  heating_rate:
+  - 1
+  - 10
+  startup_shutdown_cycles:
+  - 1
+  - 1000
+  thermal_shock_deltaT:
+  - 0
+  - 200

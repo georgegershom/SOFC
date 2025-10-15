@@ -1,0 +1,45 @@
+# Core scientific computing
+numpy==1.24.3
+scipy==1.11.1
+pandas==2.0.3
+
+# Machine learning and deep learning
+scikit-learn==1.3.0
+torch==2.0.1
+tensorflow==2.13.0
+
+# Data handling and storage
+h5py==3.9.0
+netCDF4==1.6.4
+zarr==2.16.0
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.15.0
+pyvista==0.41.1
+
+# Physical modeling and simulation
+sympy==1.12
+numba==0.57.1
+jax==0.4.13
+jaxlib==0.4.13
+
+# Mesh and geometry handling
+meshio==5.3.4
+vtk==9.2.6
+trimesh==3.23.3
+
+# Utilities
+tqdm==4.65.0
+pyyaml==6.0.1
+joblib==1.3.1
+dill==0.3.7
+
+# Testing and validation
+pytest==7.4.0
+pytest-cov==4.1.0
+
+# Documentation
+jupyterlab==4.0.3
+ipywidgets==8.1.0
