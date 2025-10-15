@@ -1,0 +1,19 @@
+{
+  "dataset_info": {
+    "title": "SOFC Multi-Fidelity Test Dataset",
+    "description": "Minimal test dataset for demonstration",
+    "creation_date": "2025-10-15T19:15:38.304276",
+    "time_points": 10,
+    "max_hours": 1000
+  },
+  "samples": {
+    "LF": 10,
+    "MF": 5,
+    "HF": 2
+  },
+  "parameters": {
+    "LF": 11,
+    "MF": 43,
+    "HF": 62
+  }
+}
