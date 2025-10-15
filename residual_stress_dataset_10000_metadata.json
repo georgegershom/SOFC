@@ -1,0 +1,177 @@
+{
+  "parameter_ranges": {
+    "geometric": {
+      "plate_length": {
+        "min": 0.05,
+        "max": 0.2,
+        "units": "m"
+      },
+      "plate_width": {
+        "min": 0.05,
+        "max": 0.2,
+        "units": "m"
+      },
+      "anode_thickness": {
+        "min": 0.0003,
+        "max": 0.0015,
+        "units": "m"
+      },
+      "electrolyte_thickness": {
+        "min": 5e-06,
+        "max": 5e-05,
+        "units": "m"
+      },
+      "cathode_thickness": {
+        "min": 2e-05,
+        "max": 0.0001,
+        "units": "m"
+      },
+      "green_density_anode": {
+        "min": 0.45,
+        "max": 0.65,
+        "units": "fraction"
+      },
+      "green_density_electrolyte": {
+        "min": 0.5,
+        "max": 0.7,
+        "units": "fraction"
+      },
+      "green_density_cathode": {
+        "min": 0.4,
+        "max": 0.6,
+        "units": "fraction"
+      }
+    },
+    "material": {
+      "anode": {
+        "youngs_modulus_rt": {
+          "min": 50000000000.0,
+          "max": 150000000000.0,
+          "units": "Pa"
+        },
+        "cte": {
+          "min": 1.1e-05,
+          "max": 1.4e-05,
+          "units": "1/K"
+        },
+        "poisson_ratio": {
+          "min": 0.25,
+          "max": 0.35,
+          "units": "dimensionless"
+        },
+        "sintering_shrinkage": {
+          "min": 0.15,
+          "max": 0.25,
+          "units": "fraction"
+        },
+        "shrinkage_onset_temp": {
+          "min": 1100,
+          "max": 1300,
+          "units": "K"
+        },
+        "creep_activation_energy": {
+          "min": 300000.0,
+          "max": 500000.0,
+          "units": "J/mol"
+        }
+      },
+      "electrolyte": {
+        "youngs_modulus_rt": {
+          "min": 180000000000.0,
+          "max": 220000000000.0,
+          "units": "Pa"
+        },
+        "cte": {
+          "min": 1e-05,
+          "max": 1.1e-05,
+          "units": "1/K"
+        },
+        "poisson_ratio": {
+          "min": 0.28,
+          "max": 0.32,
+          "units": "dimensionless"
+        },
+        "sintering_shrinkage": {
+          "min": 0.18,
+          "max": 0.28,
+          "units": "fraction"
+        },
+        "shrinkage_onset_temp": {
+          "min": 1200,
+          "max": 1400,
+          "units": "K"
+        },
+        "creep_activation_energy": {
+          "min": 400000.0,
+          "max": 600000.0,
+          "units": "J/mol"
+        }
+      },
+      "cathode": {
+        "youngs_modulus_rt": {
+          "min": 80000000000.0,
+          "max": 120000000000.0,
+          "units": "Pa"
+        },
+        "cte": {
+          "min": 1.15e-05,
+          "max": 1.3e-05,
+          "units": "1/K"
+        },
+        "poisson_ratio": {
+          "min": 0.26,
+          "max": 0.34,
+          "units": "dimensionless"
+        },
+        "sintering_shrinkage": {
+          "min": 0.12,
+          "max": 0.22,
+          "units": "fraction"
+        },
+        "shrinkage_onset_temp": {
+          "min": 1000,
+          "max": 1200,
+          "units": "K"
+        },
+        "creep_activation_energy": {
+          "min": 250000.0,
+          "max": 450000.0,
+          "units": "J/mol"
+        }
+      }
+    },
+    "process": {
+      "max_sintering_temp": {
+        "min": 1573,
+        "max": 1773,
+        "units": "K"
+      },
+      "heating_rate": {
+        "min": 1,
+        "max": 10,
+        "units": "K/min"
+      },
+      "cooling_rate": {
+        "min": 1,
+        "max": 5,
+        "units": "K/min"
+      },
+      "hold_time": {
+        "min": 1,
+        "max": 8,
+        "units": "hours"
+      },
+      "atmosphere_oxygen_partial_pressure": {
+        "min": 1e-20,
+        "max": 0.21,
+        "units": "atm"
+      }
+    }
+  },
+  "metadata": {
+    "n_samples": 10000,
+    "random_seed": 42,
+    "generation_date": "2025-10-15",
+    "description": "Comprehensive dataset for residual stress prediction in multi-layer ceramics"
+  }
+}
