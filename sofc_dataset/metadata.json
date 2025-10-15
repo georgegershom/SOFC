@@ -1,0 +1,98 @@
+{
+  "description": "Multi-Fidelity Digital Twin for SOFCs Dataset",
+  "fidelity_levels": [
+    "LF",
+    "MF",
+    "HF"
+  ],
+  "total_samples": 3000,
+  "parameter_categories": {
+    "system_parameters": [
+      "fuel_utilization",
+      "oxidant_utilization",
+      "current_density",
+      "voltage",
+      "temperature",
+      "pressure",
+      "fuel_flow_rate",
+      "air_flow_rate"
+    ],
+    "transient_parameters": [
+      "startup_ramp_rate",
+      "shutdown_ramp_rate",
+      "load_following_ramp_rate",
+      "thermal_cycling_frequency"
+    ],
+    "geometry_parameters": [
+      "cell_active_area",
+      "anode_thickness",
+      "cathode_thickness",
+      "electrolyte_thickness",
+      "interconnect_thickness",
+      "channel_width",
+      "channel_height"
+    ],
+    "anode_parameters": [
+      "anode_porosity",
+      "anode_tortuosity",
+      "anode_ni_particle_size",
+      "anode_ysz_particle_size",
+      "anode_tpb_density",
+      "anode_ionic_conductivity",
+      "anode_electronic_conductivity",
+      "anode_youngs_modulus",
+      "anode_poisson_ratio",
+      "anode_thermal_expansion_coefficient"
+    ],
+    "cathode_parameters": [
+      "cathode_porosity",
+      "cathode_tortuosity",
+      "cathode_lscf_particle_size",
+      "cathode_gdc_particle_size",
+      "cathode_tpb_density",
+      "cathode_ionic_conductivity",
+      "cathode_electronic_conductivity",
+      "cathode_youngs_modulus",
+      "cathode_poisson_ratio",
+      "cathode_thermal_expansion_coefficient",
+      "cathode_chemical_expansion_coefficient"
+    ],
+    "electrolyte_parameters": [
+      "electrolyte_ionic_conductivity",
+      "electrolyte_youngs_modulus",
+      "electrolyte_poisson_ratio",
+      "electrolyte_thermal_expansion_coefficient",
+      "electrolyte_fracture_toughness"
+    ],
+    "interconnect_parameters": [
+      "interconnect_thermal_expansion_coefficient",
+      "interconnect_youngs_modulus",
+      "interconnect_poisson_ratio",
+      "interconnect_oxide_scale_growth_rate",
+      "interconnect_electrical_resistivity"
+    ],
+    "microstructural_parameters": [
+      "phase_fraction_ni",
+      "phase_fraction_ysz",
+      "phase_fraction_pore",
+      "specific_surface_area",
+      "connectivity_ni",
+      "connectivity_ysz",
+      "pore_size_distribution_mean",
+      "particle_size_distribution_mean"
+    ],
+    "degradation_parameters": [
+      "ni_agglomeration_rate",
+      "ni_oxidation_rate",
+      "cathode_poisoning_rate",
+      "electrolyte_cracking_rate",
+      "thermal_stress_accumulation",
+      "redox_cycling_damage"
+    ]
+  },
+  "generation_info": {
+    "random_seed": 42,
+    "sampling_method": "Latin Hypercube Sampling",
+    "generation_date": "2025-10-15T19:18:06.638571"
+  }
+}
