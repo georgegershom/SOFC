@@ -1,0 +1,50 @@
+name,unit,low,high,distribution,scale,category,fidelities,description
+Uf,fraction,0.6,0.9,uniform,System,Operating Conditions,"LF,MF,HF",Fuel utilization fraction
+Ou,fraction,0.1,0.6,uniform,System,Operating Conditions,"LF,MF,HF",Oxidant utilization fraction
+current_density_Acm2,A/cm^2,0.1,1.5,uniform,System,Operating Conditions,"LF,MF,HF",Applied current density
+voltage_V,V,0.6,1.1,uniform,System,Operating Conditions,"LF,MF,HF",Cell voltage
+temperature_K,K,923.0,1173.0,uniform,System,Operating Conditions,"LF,MF,HF",Operating temperature
+pressure_bar,bar,1.0,3.0,uniform,System,Operating Conditions,"LF,MF,HF",Operating pressure
+fuel_flow_SLPM,SLPM,0.1,10.0,loguniform,System,Operating Conditions,"LF,MF,HF",Fuel flow rate at STP
+air_flow_SLPM,SLPM,0.5,50.0,loguniform,System,Operating Conditions,"LF,MF,HF",Air flow rate at STP
+startup_ramp_K_per_min,K/min,1.0,5.0,uniform,System,Transient Cycles,"LF,MF,HF",Thermal ramp during startup
+shutdown_ramp_K_per_min,K/min,1.0,5.0,uniform,System,Transient Cycles,"LF,MF,HF",Thermal ramp during shutdown
+load_ramp_Acm2_per_min,A/(cm^2·min),0.01,0.5,loguniform,System,Transient Cycles,"LF,MF,HF",Load-following ramp rate
+load_cycle_amplitude_Acm2,A/cm^2,0.05,0.5,uniform,System,Transient Cycles,"LF,MF,HF",Amplitude of load cycling
+load_cycle_period_min,min,5.0,60.0,loguniform,System,Transient Cycles,"LF,MF,HF",Period of load cycling
+startups_per_day,/day,0.0,1.0,uniform,System,Transient Cycles,"LF,MF,HF",Number of startups per day
+thermal_cycles_per_day,/day,0.0,2.0,uniform,System,Transient Cycles,"LF,MF,HF",Thermal cycles per day
+operating_hours,h,100.0,10000.0,loguniform,System,Transient Cycles,"LF,MF,HF",Total hours on stream
+air_humidity_frac,fraction,0.0,0.1,uniform,System,Operating Conditions,"LF,MF,HF",Air relative humidity fraction at inlet
+active_area_cm2,cm^2,1.0,400.0,loguniform,Cell/Stack,Geometry,"MF,HF",Cell active area
+anode_thickness_um,um,200.0,1500.0,uniform,Cell/Stack,Geometry,"MF,HF",Anode thickness
+cathode_thickness_um,um,20.0,200.0,uniform,Cell/Stack,Geometry,"MF,HF",Cathode thickness
+electrolyte_thickness_um,um,5.0,50.0,uniform,Cell/Stack,Geometry,"MF,HF",Electrolyte thickness
+interconnect_thickness_um,um,200.0,3000.0,uniform,Cell/Stack,Geometry,"MF,HF",Interconnect thickness
+channel_width_mm,mm,0.5,3.0,uniform,Cell/Stack,Geometry,"MF,HF",Gas channel width (full stack)
+channel_height_mm,mm,0.5,3.0,uniform,Cell/Stack,Geometry,"MF,HF",Gas channel height (full stack)
+rib_width_mm,mm,0.5,3.0,uniform,Cell/Stack,Geometry,"MF,HF",Interconnect rib width (full stack)
+anode_porosity,fraction,0.2,0.5,uniform,Material,Anode,"MF,HF",Anode porosity
+anode_tortuosity,-,1.5,5.0,uniform,Material,Anode,"MF,HF",Anode tortuosity (effective)
+anode_ni_particle_size_um,um,0.2,5.0,loguniform,Material,Anode,"MF,HF",Ni particle size
+anode_tpb_density_um_inv2,um^-2,0.1,10.0,loguniform,Material,Anode,"MF,HF",Triple-phase boundary length density
+anode_ionic_conductivity_S_per_m,S/m,10.0,1000.0,loguniform,Material,Anode,"MF,HF",Effective ionic conductivity (YSZ network)
+anode_electronic_conductivity_S_per_m,S/m,10000.0,10000000.0,loguniform,Material,Anode,"MF,HF",Effective electronic conductivity (Ni network)
+cathode_porosity,fraction,0.25,0.45,uniform,Material,Cathode,"MF,HF",Cathode porosity
+cathode_tortuosity,-,1.5,5.0,uniform,Material,Cathode,"MF,HF",Cathode tortuosity (effective)
+cathode_particle_size_um,um,0.2,5.0,loguniform,Material,Cathode,"MF,HF",Cathode particle size
+cathode_chem_expansion_coeff,-,0.0,0.02,uniform,Material,Cathode,"MF,HF",Chemical expansion coefficient proxy
+cathode_ionic_conductivity_S_per_m,S/m,10.0,500.0,loguniform,Material,Cathode,"MF,HF",Effective ionic conductivity
+cathode_electronic_conductivity_S_per_m,S/m,10000.0,1000000.0,loguniform,Material,Cathode,"MF,HF",Effective electronic conductivity
+electrolyte_ionic_conductivity_S_per_m,S/m,10.0,300.0,loguniform,Material,Electrolyte,"MF,HF",Ionic conductivity of YSZ
+electrolyte_youngs_modulus_GPa,GPa,150.0,220.0,uniform,Material,Electrolyte,"MF,HF",Young's modulus
+electrolyte_poissons_ratio,-,0.2,0.35,uniform,Material,Electrolyte,"MF,HF",Poisson's ratio
+electrolyte_cte_per_K,1/K,8e-06,1.1e-05,uniform,Material,Electrolyte,"MF,HF",Thermal expansion coefficient
+electrolyte_fracture_toughness_MPa_sqrt_m,MPa·m^0.5,1.0,4.0,uniform,Material,Electrolyte,"MF,HF",Fracture toughness
+interconnect_cte_per_K,1/K,1e-05,1.3e-05,uniform,Material,Interconnect,"MF,HF",CTE of interconnect steel
+interconnect_creep_A_1_over_MPa_pow_n_s,1/(MPa^n·s),1e-25,1e-18,loguniform,Material,Interconnect,"MF,HF",Norton creep A parameter
+interconnect_creep_n,-,3.0,8.0,uniform,Material,Interconnect,"MF,HF",Norton creep stress exponent n
+interconnect_oxide_kp_m2_per_s,m^2/s,1e-15,1e-12,loguniform,Material,Interconnect,"MF,HF",Parabolic oxide growth rate k_p
+"fuel_composition_{H2,CO,CH4,CO2,H2O,N2}",mole fraction,0.0,1.0,dirichlet,System,Operating Conditions,"LF,MF,HF",Fuel composition at inlet; components sum to 1.0
+"air_composition_{O2,N2}",mole fraction,0.0,1.0,dirichlet,System,Operating Conditions,"LF,MF,HF",Air composition at inlet; components sum to 1.0
+"microstructure_{anode,cathode}",voxels,0.0,1.0,synthetic level-set,Microstructural,Properties,HF,3D voxelized phases generated by thresholded smoothed noise; saved as .npz
