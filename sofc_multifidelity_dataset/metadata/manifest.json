@@ -1,0 +1,24 @@
+{
+  "dataset_name": "Multi-Fidelity SOFC Degradation Dataset",
+  "version": "1.0",
+  "generation_date": "20251015_200820",
+  "total_samples": {
+    "phase1_LF": 10000,
+    "phase2_MF": 5000,
+    "phase3_HF": 250,
+    "phase4_experimental": 15
+  },
+  "file_sizes_MB": {},
+  "variables": {
+    "inputs": 20,
+    "outputs_thermo": 10,
+    "outputs_mechanical": 15,
+    "outputs_degradation": 12
+  },
+  "spatial_data": {
+    "phase1": "None",
+    "phase2": "50x30 grid, 100 samples",
+    "phase3": "100x60 grid, 20 samples",
+    "phase4": "20x20 thermography, 5 cells"
+  }
+}
