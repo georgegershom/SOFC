@@ -1,0 +1,201 @@
+# SOFC Multi-Fidelity Dataset Configuration
+# PhD Research: Multi-Scale Modeling and Deep Learning for SOFC Degradation
+
+# Physical Constants and Material Properties
+material_properties:
+  # Electrolyte (YSZ - Yttria Stabilized Zirconia)
+  electrolyte:
+    thermal_conductivity: 2.0  # W/(m·K)
+    specific_heat: 470  # J/(kg·K)
+    density: 5900  # kg/m³
+    youngs_modulus: 210000000000  # Pa (210 GPa)
+    poissons_ratio: 0.31
+    thermal_expansion: 0.0000105  # 1/K
+    ionic_conductivity_0: 33400  # S/m (pre-exponential)
+    activation_energy: 80000  # J/mol
+    
+  # Anode (Ni-YSZ)
+  anode:
+    thermal_conductivity: 6.0  # W/(m·K)
+    specific_heat: 450  # J/(kg·K)
+    density: 7000  # kg/m³
+    youngs_modulus: 100000000000  # Pa (100 GPa)
+    poissons_ratio: 0.3
+    thermal_expansion: 0.0000125  # 1/K
+    porosity: 0.35
+    tortuosity: 3.0
+    permeability: 0.0000000000002  # m²
+    
+  # Cathode (LSM-YSZ)
+  cathode:
+    thermal_conductivity: 9.0  # W/(m·K)
+    specific_heat: 430  # J/(kg·K)
+    density: 6500  # kg/m³
+    youngs_modulus: 80000000000  # Pa (80 GPa)
+    poissons_ratio: 0.25
+    thermal_expansion: 0.0000118  # 1/K
+    porosity: 0.30
+    tortuosity: 2.5
+    permeability: 0.00000000000015  # m²
+    
+  # Interconnect (Stainless Steel)
+  interconnect:
+    thermal_conductivity: 16.0  # W/(m·K)
+    specific_heat: 500  # J/(kg·K)
+    density: 7800  # kg/m³
+    youngs_modulus: 193000000000  # Pa (193 GPa)
+    poissons_ratio: 0.27
+    thermal_expansion: 0.000017  # 1/K
+
+# Cell Geometry
+geometry:
+  cell_type: "planar"  # planar or tubular
+  active_area: 0.01  # m² (100 cm²)
+  
+  # Layer thicknesses (m)
+  thickness:
+    anode: 0.0005  # 500 μm
+    electrolyte: 0.00001  # 10 μm
+    cathode: 0.00005  # 50 μm
+    interconnect: 0.003  # 3 mm
+    
+  # Channel dimensions
+  channels:
+    width: 0.001  # 1 mm
+    height: 0.001  # 1 mm
+    rib_width: 0.001  # 1 mm
+
+# Operating Conditions Ranges (for sampling)
+operating_conditions:
+  temperature:
+    min: 873  # K (600°C)
+    max: 1273  # K (1000°C)
+    nominal: 1073  # K (800°C)
+    
+  fuel_utilization:
+    min: 0.4
+    max: 0.9
+    nominal: 0.75
+    
+  air_utilization:
+    min: 0.1
+    max: 0.3
+    nominal: 0.2
+    
+  current_density:
+    min: 0  # A/m²
+    max: 10000  # A/m² (1 A/cm²)
+    nominal: 5000  # A/m² (0.5 A/cm²)
+    
+  pressure:
+    min: 100000  # Pa (1 bar)
+    max: 500000  # Pa (5 bar)
+    nominal: 100000  # Pa
+    
+  inlet_composition:
+    fuel:
+      H2: [0.7, 0.97]  # mole fraction range
+      H2O: [0.03, 0.3]
+      CO: [0.0, 0.2]
+      CO2: [0.0, 0.1]
+    air:
+      O2: 0.21
+      N2: 0.79
+
+# Cycling Conditions
+cycling:
+  startup_rate: 5  # K/min
+  shutdown_rate: 3  # K/min
+  load_change_rate: 0.1  # A/cm²/min
+  thermal_cycles:
+    types: ["normal", "rapid", "emergency"]
+    temperature_range: [300, 1073]  # K
+  redox_cycles:
+    fuel_interruption_duration: [0, 3600]  # seconds
+
+# Degradation Parameters
+degradation:
+  # Nickel coarsening
+  ni_coarsening:
+    activation_energy: 200000  # J/mol
+    pre_exponential: 0.0000000001  # m²/s
+    
+  # Chromium poisoning
+  cr_poisoning:
+    deposition_rate: 0.00000001  # kg/(m²·s)
+    coverage_threshold: 0.3
+    
+  # Crack propagation
+  crack:
+    critical_stress_intensity: 1000000  # Pa·√m
+    paris_law_C: 0.000000000001
+    paris_law_m: 3.0
+    
+  # Delamination
+  delamination:
+    critical_energy_release_rate: 50  # J/m²
+    interface_toughness: 100  # J/m²
+
+# Dataset Generation Settings
+dataset:
+  # Low Fidelity
+  low_fidelity:
+    n_samples: 50000
+    model_type: "1D_lumped"
+    computation_time: 0.1  # seconds per sample
+    mesh_resolution: null
+    outputs:
+      - "voltage"
+      - "power"
+      - "average_temperature"
+      - "fuel_utilization"
+      - "average_current_density"
+    
+  # Mid Fidelity
+  mid_fidelity:
+    n_samples: 5000
+    model_type: "2D_FEM"
+    computation_time: 10  # seconds per sample
+    mesh_resolution: [50, 50]  # nodes
+    outputs:
+      - "temperature_field_2D"
+      - "current_density_2D"
+      - "stress_field_2D"
+      - "species_concentration_2D"
+      
+  # High Fidelity
+  high_fidelity:
+    n_samples: 200
+    model_type: "3D_FEM"
+    computation_time: 600  # seconds per sample
+    mesh_resolution: [100, 100, 20]  # nodes
+    outputs:
+      - "temperature_field_3D"
+      - "current_density_3D"
+      - "stress_tensor_3D"
+      - "strain_tensor_3D"
+      - "damage_field_3D"
+      - "species_concentration_3D"
+      
+  # Experimental (Simulated)
+  experimental:
+    n_samples: 20
+    measurement_noise: 0.02  # 2% noise
+    techniques:
+      - "IV_curve"
+      - "EIS"
+      - "thermography"
+      - "SEM_imaging"
+
+# Output Data Format
+output_format:
+  file_type: "HDF5"  # HDF5 for large arrays
+  compression: "gzip"
+  metadata_format: "JSON"
+  
+# Computational Resources
+computation:
+  n_cores: 8
+  max_memory: 32  # GB
+  use_gpu: true
+  batch_size: 100
