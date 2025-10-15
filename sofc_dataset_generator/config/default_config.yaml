@@ -1,0 +1,161 @@
+# SOFC Dataset Generation Configuration
+
+dataset:
+  name: "SOFC_Warp_Stress_Ground_Truth_Dataset"
+  description: |
+    Synthetic ground truth dataset of paired warp and residual stress fields 
+    for SOFC plates generated through high-fidelity FEA simulations.
+    
+    This dataset provides direct, paired examples of warp and stress for 
+    ML-augmented inverse modeling applications.
+  
+  output_directory: "./sofc_ground_truth_dataset"
+  n_samples: 1000  # Target number of samples (can start smaller for testing)
+
+# Design of Experiments Configuration
+doe:
+  sampling_method: "latin_hypercube"  # latin_hypercube, sobol, random, full_factorial
+  seed: 42
+  stratification: true
+  optimization: "maximin"  # For LHS: None, "center", "maximin", "centermaximin", "correlation"
+
+# Finite Element Analysis Configuration
+fea:
+  # Mesh parameters
+  mesh_resolution: 2.0e-3  # 2 mm element size (balance between accuracy and speed)
+  element_order: 1         # Linear elements
+  
+  # Time stepping for thermal history
+  n_time_steps: 50
+  time_step_adaptive: true
+  max_time_step: 10.0      # minutes
+  min_time_step: 0.1       # minutes
+  
+  # Solver settings
+  solver_type: "simplified"  # "simplified" or "fenics" (if available)
+  tolerance: 1.0e-6
+  max_iterations: 1000
+  
+  # Physics modules
+  enable_thermal: true
+  enable_mechanical: true
+  coupling_type: "sequential"  # sequential, monolithic
+  coupling_iterations: 5
+  
+  # Boundary conditions
+  thermal_bc_type: "prescribed_temperature"
+  mechanical_bc_type: "free_standing"
+  
+  # Output control
+  output_frequency: 10
+  save_intermediate: false
+
+# Warp Field Extraction Configuration
+warp_extraction:
+  grid_resolution: [64, 64]  # 2.5D height map resolution
+  interpolation_method: "cubic"
+  fill_method: "nearest_neighbor"
+  reference_plane_fitting: "least_squares"
+
+# Stress Field Extraction Configuration  
+stress_extraction:
+  voxel_resolution: [32, 32, 16]  # 3D voxelized stress field resolution
+  interpolation_method: "inverse_distance"
+  extrapolation_method: "volume_averaging"
+  stress_components: ["xx", "yy", "zz", "xy", "xz", "yz"]
+  calculate_invariants: true
+
+# Parallel Processing Configuration
+parallel:
+  enable: true
+  n_processes: null  # null = use all available cores, or specify number
+  chunk_size: 10     # Number of samples per process chunk
+  memory_limit_gb: 8 # Memory limit per process
+
+# Output and Storage Configuration
+output:
+  save_intermediate: false
+  export_formats: ["hdf5", "numpy"]
+  compression: true
+  compression_level: 6
+  
+  # ML export settings
+  ml_export:
+    train_split: 0.8
+    validation_split: 0.1
+    test_split: 0.1
+    shuffle: true
+    stratify_by: null  # Parameter name to stratify by, or null
+    
+    # Data preprocessing
+    normalize_warp: true
+    normalize_stress: true
+    log_transform_stress: false
+
+# Quality Control Configuration
+quality_control:
+  enable: true
+  
+  # Simulation quality checks
+  max_simulation_time: 3600  # seconds
+  min_convergence_rate: 0.01
+  max_warp_threshold: 0.01   # meters (10 mm)
+  max_stress_threshold: 1.0e9  # Pa (1 GPa)
+  
+  # Data quality checks
+  min_warp_variation: 1.0e-6  # Reject flat samples
+  max_nan_fraction: 0.01      # Maximum fraction of NaN values allowed
+  
+  # Outlier detection
+  outlier_detection: true
+  outlier_method: "isolation_forest"
+  outlier_threshold: 0.05
+
+# Logging and Monitoring
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  log_file: "sofc_dataset_generation.log"
+  log_rotation: true
+  max_log_size_mb: 100
+  
+  # Progress reporting
+  progress_update_interval: 10  # samples
+  save_progress_file: true
+  progress_file: "generation_progress.json"
+
+# Validation and Testing
+validation:
+  enable: true
+  
+  # Parameter space validation
+  check_parameter_coverage: true
+  min_samples_per_region: 5
+  
+  # Physics validation
+  check_energy_conservation: false  # Requires advanced FEA solver
+  check_equilibrium: false          # Requires advanced FEA solver
+  
+  # Data validation
+  check_warp_stress_correlation: true
+  expected_correlation_range: [0.3, 0.9]
+
+# Advanced Features (Optional)
+advanced:
+  # Adaptive sampling
+  adaptive_sampling: false
+  adaptive_criterion: "variance_reduction"
+  adaptive_batch_size: 50
+  
+  # Uncertainty quantification
+  uncertainty_quantification: false
+  uq_method: "polynomial_chaos"
+  uq_order: 2
+  
+  # Multi-fidelity modeling
+  multi_fidelity: false
+  fidelity_levels: [1, 2, 4]  # Mesh refinement factors
+  
+  # Defect modeling
+  include_defects: true
+  defect_probability: 0.1
+  defect_types: ["micro_cracks", "delamination"]

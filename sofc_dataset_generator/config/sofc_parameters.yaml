@@ -1,0 +1,143 @@
+# SOFC Manufacturing Parameter Space Configuration
+# This defines the parameter ranges for the Design of Experiments (DOE)
+
+geometry:
+  # Plate dimensions (mm)
+  length:
+    min: 80.0
+    max: 120.0
+    type: continuous
+  width:
+    min: 80.0
+    max: 120.0
+    type: continuous
+  
+  # Layer thicknesses (μm)
+  anode_thickness:
+    min: 300.0
+    max: 800.0
+    type: continuous
+  electrolyte_thickness:
+    min: 8.0
+    max: 25.0
+    type: continuous
+  cathode_thickness:
+    min: 20.0
+    max: 60.0
+    type: continuous
+
+material_properties:
+  # Anode (Ni-YSZ) properties
+  anode:
+    porosity:
+      min: 0.25
+      max: 0.45
+      type: continuous
+    ni_content:
+      min: 0.35
+      max: 0.65
+      type: continuous
+    
+  # Electrolyte (YSZ) properties  
+  electrolyte:
+    grain_size:
+      min: 0.5
+      max: 3.0
+      type: continuous
+      unit: μm
+    density_fraction:
+      min: 0.92
+      max: 0.99
+      type: continuous
+      
+  # Cathode (LSM-YSZ) properties
+  cathode:
+    porosity:
+      min: 0.30
+      max: 0.50
+      type: continuous
+    lsm_content:
+      min: 0.40
+      max: 0.70
+      type: continuous
+
+thermal_profile:
+  # Sintering temperature profile
+  peak_temperature:
+    min: 1350.0
+    max: 1450.0
+    type: continuous
+    unit: celsius
+  heating_rate:
+    min: 1.0
+    max: 5.0
+    type: continuous
+    unit: celsius_per_minute
+  cooling_rate:
+    min: 0.5
+    max: 3.0
+    type: continuous
+    unit: celsius_per_minute
+  dwell_time:
+    min: 60.0
+    max: 240.0
+    type: continuous
+    unit: minutes
+
+manufacturing_conditions:
+  # Environmental conditions
+  atmosphere:
+    oxygen_partial_pressure:
+      min: 1e-4
+      max: 0.21
+      type: log_uniform
+      unit: atm
+  
+  # Support conditions
+  support_type:
+    values: ["free_standing", "partial_support", "full_support"]
+    type: categorical
+  
+  # Green body properties
+  green_density:
+    min: 0.45
+    max: 0.65
+    type: continuous
+  
+  # Shrinkage parameters
+  differential_shrinkage:
+    anode_electrolyte:
+      min: 0.8
+      max: 1.2
+      type: continuous
+    electrolyte_cathode:
+      min: 0.9
+      max: 1.1
+      type: continuous
+
+defects:
+  # Introduce controlled defects for robustness
+  enable_defects: true
+  
+  # Crack-like defects
+  micro_cracks:
+    probability: 0.1
+    max_length:
+      min: 0.1
+      max: 2.0
+      unit: mm
+  
+  # Delamination
+  delamination:
+    probability: 0.05
+    max_area:
+      min: 1.0
+      max: 10.0
+      unit: mm2
+
+# DOE Configuration
+doe_settings:
+  n_samples: 1000
+  sampling_method: "latin_hypercube"  # Options: latin_hypercube, sobol, random
+  seed: 42
+  stratification: true
