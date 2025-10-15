@@ -1,0 +1,501 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SOFC Experimental Validation Dataset Schema",
+  "description": "Schema for SOFC experimental validation dataset including fabrication, measurement, and validation data",
+  "type": "object",
+  "properties": {
+    "dataset_info": {
+      "type": "object",
+      "properties": {
+        "name": {"type": "string"},
+        "version": {"type": "string"},
+        "description": {"type": "string"},
+        "creation_date": {"type": "string", "format": "date"},
+        "authors": {"type": "array", "items": {"type": "string"}},
+        "institution": {"type": "string"},
+        "license": {"type": "string"},
+        "doi": {"type": "string"}
+      },
+      "required": ["name", "version", "creation_date"]
+    },
+    "samples": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/sample"
+      }
+    },
+    "equipment": {
+      "type": "object",
+      "properties": {
+        "fabrication": {"$ref": "#/definitions/fabrication_equipment"},
+        "measurement": {"$ref": "#/definitions/measurement_equipment"}
+      }
+    },
+    "calibration": {
+      "type": "object",
+      "properties": {
+        "standards": {"type": "array", "items": {"$ref": "#/definitions/calibration_standard"}},
+        "procedures": {"type": "array", "items": {"$ref": "#/definitions/calibration_procedure"}}
+      }
+    }
+  },
+  "required": ["dataset_info", "samples"],
+  "definitions": {
+    "sample": {
+      "type": "object",
+      "properties": {
+        "sample_id": {"type": "string"},
+        "fabrication": {"$ref": "#/definitions/fabrication_data"},
+        "measurements": {"$ref": "#/definitions/measurement_data"},
+        "validation": {"$ref": "#/definitions/validation_data"},
+        "metadata": {"$ref": "#/definitions/sample_metadata"}
+      },
+      "required": ["sample_id", "fabrication", "measurements"]
+    },
+    "fabrication_data": {
+      "type": "object",
+      "properties": {
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "electrolyte_thickness": {"type": "number", "units": "micrometers"},
+            "anode_thickness": {"type": "number", "units": "micrometers"},
+            "cathode_thickness": {"type": "number", "units": "micrometers"},
+            "sintering_temperature": {"type": "number", "units": "celsius"},
+            "sintering_time": {"type": "number", "units": "hours"},
+            "cooling_rate": {"type": "number", "units": "celsius_per_minute"},
+            "atmosphere": {"type": "string", "enum": ["air", "nitrogen", "forming_gas"]},
+            "heating_rate": {"type": "number", "units": "celsius_per_minute"}
+          },
+          "required": ["electrolyte_thickness", "anode_thickness", "cathode_thickness", "sintering_temperature"]
+        },
+        "materials": {
+          "type": "object",
+          "properties": {
+            "electrolyte": {"$ref": "#/definitions/material_specification"},
+            "anode": {"$ref": "#/definitions/material_specification"},
+            "cathode": {"$ref": "#/definitions/material_specification"}
+          }
+        },
+        "process_conditions": {
+          "type": "object",
+          "properties": {
+            "ambient_temperature": {"type": "number", "units": "celsius"},
+            "humidity": {"type": "number", "units": "percent"},
+            "fabrication_date": {"type": "string", "format": "date"},
+            "operator": {"type": "string"},
+            "batch_id": {"type": "string"}
+          }
+        },
+        "quality_control": {
+          "type": "object",
+          "properties": {
+            "dimensional_measurements": {"$ref": "#/definitions/dimensional_data"},
+            "visual_inspection": {"$ref": "#/definitions/visual_inspection"},
+            "defects": {"type": "array", "items": {"$ref": "#/definitions/defect_record"}}
+          }
+        }
+      },
+      "required": ["parameters", "materials"]
+    },
+    "measurement_data": {
+      "type": "object",
+      "properties": {
+        "warp_measurements": {"$ref": "#/definitions/warp_data"},
+        "stress_measurements": {"$ref": "#/definitions/stress_data"},
+        "material_properties": {"$ref": "#/definitions/material_properties"}
+      }
+    },
+    "warp_data": {
+      "type": "object",
+      "properties": {
+        "techniques": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "technique": {"type": "string", "enum": ["LSCM", "WLI", "structured_light"]},
+              "measurement_date": {"type": "string", "format": "date-time"},
+              "operator": {"type": "string"},
+              "equipment_id": {"type": "string"},
+              "parameters": {"$ref": "#/definitions/measurement_parameters"},
+              "data_files": {"type": "array", "items": {"$ref": "#/definitions/data_file"}},
+              "metrics": {"$ref": "#/definitions/warp_metrics"},
+              "uncertainty": {"$ref": "#/definitions/uncertainty_data"}
+            },
+            "required": ["technique", "measurement_date", "data_files", "metrics"]
+          }
+        },
+        "cross_validation": {"$ref": "#/definitions/cross_validation_data"}
+      }
+    },
+    "stress_data": {
+      "type": "object",
+      "properties": {
+        "techniques": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "technique": {"type": "string", "enum": ["curvature", "layer_removal", "XRD", "raman"]},
+              "measurement_date": {"type": "string", "format": "date-time"},
+              "operator": {"type": "string"},
+              "equipment_id": {"type": "string"},
+              "parameters": {"$ref": "#/definitions/measurement_parameters"},
+              "data_files": {"type": "array", "items": {"$ref": "#/definitions/data_file"}},
+              "results": {"$ref": "#/definitions/stress_results"},
+              "uncertainty": {"$ref": "#/definitions/uncertainty_data"}
+            },
+            "required": ["technique", "measurement_date", "results"]
+          }
+        },
+        "stress_tensor": {"$ref": "#/definitions/stress_tensor_data"}
+      }
+    },
+    "validation_data": {
+      "type": "object",
+      "properties": {
+        "ml_predictions": {"$ref": "#/definitions/ml_prediction_data"},
+        "fea_comparisons": {"$ref": "#/definitions/fea_comparison_data"},
+        "validation_metrics": {"$ref": "#/definitions/validation_metrics"}
+      }
+    },
+    "material_specification": {
+      "type": "object",
+      "properties": {
+        "composition": {"type": "string"},
+        "supplier": {"type": "string"},
+        "grade": {"type": "string"},
+        "particle_size": {"type": "number", "units": "micrometers"},
+        "purity": {"type": "number", "units": "percent"},
+        "lot_number": {"type": "string"},
+        "properties": {"$ref": "#/definitions/material_properties"}
+      },
+      "required": ["composition", "supplier"]
+    },
+    "material_properties": {
+      "type": "object",
+      "properties": {
+        "elastic_modulus": {"type": "number", "units": "GPa"},
+        "poisson_ratio": {"type": "number"},
+        "thermal_expansion": {"type": "number", "units": "per_kelvin"},
+        "thermal_conductivity": {"type": "number", "units": "W_per_m_K"},
+        "density": {"type": "number", "units": "kg_per_m3"},
+        "temperature": {"type": "number", "units": "celsius"}
+      }
+    },
+    "dimensional_data": {
+      "type": "object",
+      "properties": {
+        "length": {"type": "number", "units": "mm"},
+        "width": {"type": "number", "units": "mm"},
+        "thickness_measurements": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "location": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2},
+              "electrolyte_thickness": {"type": "number", "units": "micrometers"},
+              "anode_thickness": {"type": "number", "units": "micrometers"},
+              "cathode_thickness": {"type": "number", "units": "micrometers"},
+              "total_thickness": {"type": "number", "units": "micrometers"}
+            }
+          }
+        },
+        "shrinkage": {
+          "type": "object",
+          "properties": {
+            "linear_shrinkage_x": {"type": "number", "units": "percent"},
+            "linear_shrinkage_y": {"type": "number", "units": "percent"},
+            "thickness_shrinkage": {"type": "number", "units": "percent"}
+          }
+        }
+      }
+    },
+    "visual_inspection": {
+      "type": "object",
+      "properties": {
+        "overall_quality": {"type": "string", "enum": ["excellent", "good", "acceptable", "poor", "rejected"]},
+        "surface_finish": {"type": "string", "enum": ["smooth", "rough", "pitted", "cracked"]},
+        "color_uniformity": {"type": "boolean"},
+        "edge_quality": {"type": "string", "enum": ["clean", "chipped", "cracked"]},
+        "delamination": {"type": "boolean"},
+        "photos": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "defect_record": {
+      "type": "object",
+      "properties": {
+        "defect_type": {"type": "string", "enum": ["crack", "void", "delamination", "contamination", "dimensional"]},
+        "location": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 3},
+        "size": {"type": "number", "units": "mm"},
+        "severity": {"type": "string", "enum": ["minor", "moderate", "major", "critical"]},
+        "description": {"type": "string"},
+        "image_file": {"type": "string"}
+      }
+    },
+    "measurement_parameters": {
+      "type": "object",
+      "properties": {
+        "resolution": {"type": "number"},
+        "field_of_view": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2},
+        "acquisition_time": {"type": "number", "units": "seconds"},
+        "environmental_conditions": {
+          "type": "object",
+          "properties": {
+            "temperature": {"type": "number", "units": "celsius"},
+            "humidity": {"type": "number", "units": "percent"},
+            "vibration_level": {"type": "string", "enum": ["low", "medium", "high"]}
+          }
+        }
+      }
+    },
+    "data_file": {
+      "type": "object",
+      "properties": {
+        "filename": {"type": "string"},
+        "file_type": {"type": "string", "enum": ["HDF5", "CSV", "TIFF", "raw"]},
+        "file_size": {"type": "number", "units": "bytes"},
+        "checksum": {"type": "string"},
+        "description": {"type": "string"},
+        "coordinate_system": {"$ref": "#/definitions/coordinate_system"}
+      },
+      "required": ["filename", "file_type"]
+    },
+    "coordinate_system": {
+      "type": "object",
+      "properties": {
+        "origin": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 3},
+        "axes": {"type": "array", "items": {"type": "string"}, "minItems": 2, "maxItems": 3},
+        "units": {"type": "array", "items": {"type": "string"}, "minItems": 2, "maxItems": 3}
+      }
+    },
+    "warp_metrics": {
+      "type": "object",
+      "properties": {
+        "peak_to_valley": {"type": "number", "units": "micrometers"},
+        "rms_warp": {"type": "number", "units": "micrometers"},
+        "standard_deviation": {"type": "number", "units": "micrometers"},
+        "skewness": {"type": "number"},
+        "kurtosis": {"type": "number"},
+        "flatness": {"type": "number", "units": "micrometers"},
+        "local_metrics": {
+          "type": "object",
+          "properties": {
+            "max_slope": {"type": "number", "units": "radians"},
+            "mean_curvature": {"type": "number", "units": "per_mm"},
+            "gaussian_curvature": {"type": "number", "units": "per_mm2"}
+          }
+        },
+        "spatial_frequency": {
+          "type": "object",
+          "properties": {
+            "dominant_wavelength": {"type": "number", "units": "mm"},
+            "power_spectrum": {"type": "string", "description": "Reference to power spectrum data file"}
+          }
+        }
+      }
+    },
+    "stress_results": {
+      "type": "object",
+      "properties": {
+        "stress_values": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "location": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 3},
+              "stress_tensor": {
+                "type": "array",
+                "items": {"type": "array", "items": {"type": "number"}},
+                "minItems": 2,
+                "maxItems": 3
+              },
+              "principal_stresses": {"type": "array", "items": {"type": "number"}},
+              "von_mises_stress": {"type": "number", "units": "MPa"},
+              "measurement_depth": {"type": "number", "units": "micrometers"}
+            }
+          }
+        },
+        "average_stress": {"type": "number", "units": "MPa"},
+        "stress_distribution": {"type": "string", "description": "Reference to stress map data file"}
+      }
+    },
+    "stress_tensor_data": {
+      "type": "object",
+      "properties": {
+        "reconstruction_method": {"type": "string"},
+        "data_fusion_weights": {"type": "object"},
+        "stress_field": {"type": "string", "description": "Reference to 3D stress field data"},
+        "validation_metrics": {"$ref": "#/definitions/validation_metrics"}
+      }
+    },
+    "uncertainty_data": {
+      "type": "object",
+      "properties": {
+        "type_a_uncertainty": {"type": "number", "description": "Statistical uncertainty"},
+        "type_b_uncertainty": {"type": "number", "description": "Systematic uncertainty"},
+        "combined_uncertainty": {"type": "number"},
+        "coverage_factor": {"type": "number"},
+        "confidence_level": {"type": "number", "units": "percent"},
+        "uncertainty_sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "source": {"type": "string"},
+              "magnitude": {"type": "number"},
+              "type": {"type": "string", "enum": ["A", "B"]}
+            }
+          }
+        }
+      }
+    },
+    "cross_validation_data": {
+      "type": "object",
+      "properties": {
+        "technique_correlations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "techniques": {"type": "array", "items": {"type": "string"}, "minItems": 2, "maxItems": 2},
+              "correlation_coefficient": {"type": "number"},
+              "bias": {"type": "number"},
+              "standard_deviation": {"type": "number"}
+            }
+          }
+        },
+        "measurement_repeatability": {
+          "type": "object",
+          "properties": {
+            "repeat_measurements": {"type": "integer"},
+            "repeatability_standard_deviation": {"type": "number"},
+            "reproducibility_standard_deviation": {"type": "number"}
+          }
+        }
+      }
+    },
+    "ml_prediction_data": {
+      "type": "object",
+      "properties": {
+        "model_id": {"type": "string"},
+        "model_version": {"type": "string"},
+        "prediction_date": {"type": "string", "format": "date-time"},
+        "input_data": {"type": "string", "description": "Reference to input warp data"},
+        "predicted_stress": {"type": "string", "description": "Reference to predicted stress field"},
+        "confidence_intervals": {"type": "string", "description": "Reference to uncertainty data"}
+      }
+    },
+    "fea_comparison_data": {
+      "type": "object",
+      "properties": {
+        "fea_model_id": {"type": "string"},
+        "fea_version": {"type": "string"},
+        "simulation_parameters": {"type": "object"},
+        "fea_results": {"type": "string", "description": "Reference to FEA stress field"},
+        "comparison_metrics": {"$ref": "#/definitions/validation_metrics"}
+      }
+    },
+    "validation_metrics": {
+      "type": "object",
+      "properties": {
+        "correlation_coefficient": {"type": "number"},
+        "mean_absolute_error": {"type": "number", "units": "MPa"},
+        "root_mean_square_error": {"type": "number", "units": "MPa"},
+        "normalized_rmse": {"type": "number", "units": "percent"},
+        "bias": {"type": "number", "units": "MPa"},
+        "r_squared": {"type": "number"},
+        "agreement_index": {"type": "number"},
+        "statistical_tests": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "test_name": {"type": "string"},
+              "test_statistic": {"type": "number"},
+              "p_value": {"type": "number"},
+              "significance_level": {"type": "number"}
+            }
+          }
+        }
+      }
+    },
+    "fabrication_equipment": {
+      "type": "object",
+      "properties": {
+        "tape_caster": {"$ref": "#/definitions/equipment_spec"},
+        "furnace": {"$ref": "#/definitions/equipment_spec"},
+        "ball_mill": {"$ref": "#/definitions/equipment_spec"}
+      }
+    },
+    "measurement_equipment": {
+      "type": "object",
+      "properties": {
+        "lscm": {"$ref": "#/definitions/equipment_spec"},
+        "wli": {"$ref": "#/definitions/equipment_spec"},
+        "structured_light": {"$ref": "#/definitions/equipment_spec"},
+        "xrd": {"$ref": "#/definitions/equipment_spec"},
+        "raman": {"$ref": "#/definitions/equipment_spec"}
+      }
+    },
+    "equipment_spec": {
+      "type": "object",
+      "properties": {
+        "manufacturer": {"type": "string"},
+        "model": {"type": "string"},
+        "serial_number": {"type": "string"},
+        "specifications": {"type": "object"},
+        "calibration_date": {"type": "string", "format": "date"},
+        "calibration_certificate": {"type": "string"}
+      }
+    },
+    "calibration_standard": {
+      "type": "object",
+      "properties": {
+        "standard_id": {"type": "string"},
+        "type": {"type": "string"},
+        "certified_values": {"type": "object"},
+        "uncertainty": {"type": "object"},
+        "traceability": {"type": "string"},
+        "certificate_number": {"type": "string"},
+        "expiration_date": {"type": "string", "format": "date"}
+      }
+    },
+    "calibration_procedure": {
+      "type": "object",
+      "properties": {
+        "procedure_id": {"type": "string"},
+        "equipment": {"type": "string"},
+        "frequency": {"type": "string"},
+        "procedure_document": {"type": "string"},
+        "last_calibration": {"type": "string", "format": "date"},
+        "next_calibration": {"type": "string", "format": "date"},
+        "calibration_results": {"type": "object"}
+      }
+    },
+    "sample_metadata": {
+      "type": "object",
+      "properties": {
+        "creation_date": {"type": "string", "format": "date"},
+        "last_modified": {"type": "string", "format": "date-time"},
+        "status": {"type": "string", "enum": ["fabricated", "measured", "analyzed", "archived"]},
+        "storage_location": {"type": "string"},
+        "handling_history": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "date": {"type": "string", "format": "date-time"},
+              "action": {"type": "string"},
+              "operator": {"type": "string"},
+              "notes": {"type": "string"}
+            }
+          }
+        },
+        "data_quality": {"type": "string", "enum": ["excellent", "good", "acceptable", "poor"]},
+        "notes": {"type": "string"}
+      }
+    }
+  }
+}
