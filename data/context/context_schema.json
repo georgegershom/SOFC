@@ -1,0 +1,230 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Context Dataset Schema",
+  "type": "object",
+  "properties": {
+    "plate_length_m": {
+      "type": "number",
+      "description": "Range: [0.02, 0.2]"
+    },
+    "plate_width_m": {
+      "type": "number",
+      "description": "Range: [0.02, 0.2]"
+    },
+    "anode_thickness_m": {
+      "type": "number",
+      "description": "Range: [5e-05, 0.0008]"
+    },
+    "electrolyte_thickness_m": {
+      "type": "number",
+      "description": "Range: [5e-06, 0.0001]"
+    },
+    "cathode_thickness_m": {
+      "type": "number",
+      "description": "Range: [1e-05, 0.0002]"
+    },
+    "green_density_rel": {
+      "type": "number",
+      "description": "Range: [0.4, 0.65]"
+    },
+    "green_length_m": {
+      "type": "number",
+      "description": "Range: [0.0205, 0.202]"
+    },
+    "green_width_m": {
+      "type": "number",
+      "description": "Range: [0.0205, 0.202]"
+    },
+    "anode_E0_Pa": {
+      "type": "number",
+      "description": "Range: [20000000000.0, 120000000000.0]"
+    },
+    "electrolyte_E0_Pa": {
+      "type": "number",
+      "description": "Range: [100000000000.0, 300000000000.0]"
+    },
+    "cathode_E0_Pa": {
+      "type": "number",
+      "description": "Range: [30000000000.0, 180000000000.0]"
+    },
+    "anode_E_temp_coeff": {
+      "type": "number",
+      "description": "Range: [-0.0004, -2e-05]"
+    },
+    "electrolyte_E_temp_coeff": {
+      "type": "number",
+      "description": "Range: [-0.0002, -1e-05]"
+    },
+    "cathode_E_temp_coeff": {
+      "type": "number",
+      "description": "Range: [-0.0003, -1e-05]"
+    },
+    "anode_nu": {
+      "type": "number",
+      "description": "Range: [0.18, 0.33]"
+    },
+    "electrolyte_nu": {
+      "type": "number",
+      "description": "Range: [0.18, 0.3]"
+    },
+    "cathode_nu": {
+      "type": "number",
+      "description": "Range: [0.18, 0.33]"
+    },
+    "anode_cte": {
+      "type": "number",
+      "description": "Range: [8e-06, 1.4e-05]"
+    },
+    "electrolyte_cte": {
+      "type": "number",
+      "description": "Range: [9e-06, 1.2e-05]"
+    },
+    "cathode_cte": {
+      "type": "number",
+      "description": "Range: [9e-06, 1.4e-05]"
+    },
+    "anode_shrink_A": {
+      "type": "number",
+      "description": "Range: [0.06, 0.18]"
+    },
+    "anode_shrink_Ton_C": {
+      "type": "number",
+      "description": "Range: [700.0, 1100.0]"
+    },
+    "electrolyte_shrink_A": {
+      "type": "number",
+      "description": "Range: [0.04, 0.12]"
+    },
+    "electrolyte_shrink_Ton_C": {
+      "type": "number",
+      "description": "Range: [900.0, 1250.0]"
+    },
+    "cathode_shrink_A": {
+      "type": "number",
+      "description": "Range: [0.03, 0.12]"
+    },
+    "cathode_shrink_Ton_C": {
+      "type": "number",
+      "description": "Range: [700.0, 1100.0]"
+    },
+    "anode_creep_A": {
+      "type": "number",
+      "description": "Range: [1e-25, 1e-18]"
+    },
+    "anode_creep_n": {
+      "type": "number",
+      "description": "Range: [1.0, 3.5]"
+    },
+    "anode_creep_Q_kJmol": {
+      "type": "number",
+      "description": "Range: [150.0, 500.0]"
+    },
+    "electrolyte_creep_A": {
+      "type": "number",
+      "description": "Range: [1e-30, 1e-20]"
+    },
+    "electrolyte_creep_n": {
+      "type": "number",
+      "description": "Range: [1.0, 3.0]"
+    },
+    "electrolyte_creep_Q_kJmol": {
+      "type": "number",
+      "description": "Range: [250.0, 600.0]"
+    },
+    "cathode_creep_A": {
+      "type": "number",
+      "description": "Range: [1e-28, 1e-19]"
+    },
+    "cathode_creep_n": {
+      "type": "number",
+      "description": "Range: [1.0, 3.5]"
+    },
+    "cathode_creep_Q_kJmol": {
+      "type": "number",
+      "description": "Range: [150.0, 500.0]"
+    },
+    "ramp1_rate_C_per_min": {
+      "type": "number",
+      "description": "Range: [1.0, 10.0]"
+    },
+    "ramp2_rate_C_per_min": {
+      "type": "number",
+      "description": "Range: [1.0, 10.0]"
+    },
+    "hold1_temp_C": {
+      "type": "number",
+      "description": "Range: [900.0, 1350.0]"
+    },
+    "hold1_minutes": {
+      "type": "number",
+      "description": "Range: [30.0, 240.0]"
+    },
+    "hold2_temp_C": {
+      "type": "number",
+      "description": "Range: [900.0, 1400.0]"
+    },
+    "hold2_minutes": {
+      "type": "number",
+      "description": "Range: [0.0, 180.0]"
+    },
+    "cool_rate_C_per_min": {
+      "type": "number",
+      "description": "Range: [1.0, 15.0]"
+    },
+    "pO2_atm": {
+      "type": "number",
+      "description": "Range: [1e-20, 0.21]"
+    },
+    "atmosphere": {
+      "type": "string",
+      "description": "One of: air, inert, reducing"
+    }
+  },
+  "required": [
+    "plate_length_m",
+    "plate_width_m",
+    "anode_thickness_m",
+    "electrolyte_thickness_m",
+    "cathode_thickness_m",
+    "green_density_rel",
+    "green_length_m",
+    "green_width_m",
+    "anode_E0_Pa",
+    "electrolyte_E0_Pa",
+    "cathode_E0_Pa",
+    "anode_E_temp_coeff",
+    "electrolyte_E_temp_coeff",
+    "cathode_E_temp_coeff",
+    "anode_nu",
+    "electrolyte_nu",
+    "cathode_nu",
+    "anode_cte",
+    "electrolyte_cte",
+    "cathode_cte",
+    "anode_shrink_A",
+    "anode_shrink_Ton_C",
+    "electrolyte_shrink_A",
+    "electrolyte_shrink_Ton_C",
+    "cathode_shrink_A",
+    "cathode_shrink_Ton_C",
+    "anode_creep_A",
+    "anode_creep_n",
+    "anode_creep_Q_kJmol",
+    "electrolyte_creep_A",
+    "electrolyte_creep_n",
+    "electrolyte_creep_Q_kJmol",
+    "cathode_creep_A",
+    "cathode_creep_n",
+    "cathode_creep_Q_kJmol",
+    "ramp1_rate_C_per_min",
+    "ramp2_rate_C_per_min",
+    "hold1_temp_C",
+    "hold1_minutes",
+    "hold2_temp_C",
+    "hold2_minutes",
+    "cool_rate_C_per_min",
+    "pO2_atm",
+    "atmosphere"
+  ],
+  "additionalProperties": false
+}
