@@ -1,0 +1,70 @@
+============================================================
+MULTI-FIDELITY SOFC DATASET SUMMARY REPORT
+============================================================
+
+LOW FIDELITY:
+----------------------------------------
+  Samples: 100
+  File size: 0.1 MB
+
+  Input Variables:
+    air_utilization          : mean=0.242, std=0.087, range=[0.101, 0.398]
+    anode_porosity           : mean=0.298, std=0.017, range=[0.270, 0.329]
+    anode_thickness          : mean=503.598, std=28.470, range=[450.765, 547.953]
+    cathode_porosity         : mean=0.302, std=0.019, range=[0.270, 0.329]
+    cathode_thickness        : mean=49.571, std=3.052, range=[45.009, 54.962]
+    current_density          : mean=5154.269, std=3130.191, range=[45.558, 9979.933]
+    electrolyte_thickness    : mean=10.043, std=0.581, range=[9.022, 10.965]
+    fuel_utilization         : mean=0.609, std=0.167, range=[0.313, 0.894]
+    operating_time           : mean=6578.317, std=8627.166, range=[16.847, 64097.957]
+    pressure                 : mean=202292.091, std=56866.574, range=[101606.078, 298834.185]
+    redox_cycles             : mean=1.860, std=1.414, range=[0.000, 8.000]
+    temperature              : mean=1044.047, std=73.935, range=[923.876, 1170.716]
+    thermal_cycles           : mean=9.340, std=3.201, range=[3.000, 19.000]
+
+  Output Variables:
+    avg_current_density      : shape=(100,)              , size=0.0 MB
+    avg_stress               : shape=(100,)              , size=0.0 MB
+    avg_temperature          : shape=(100,)              , size=0.0 MB
+    degradation_rate         : shape=(100,)              , size=0.0 MB
+    power_density            : shape=(100,)              , size=0.0 MB
+    voltage                  : shape=(100,)              , size=0.0 MB
+
+MID FIDELITY:
+----------------------------------------
+  Samples: 10
+  File size: 0.0 MB
+
+  Input Variables:
+    air_utilization          : mean=0.000, std=0.000, range=[0.000, 0.000]
+    anode_porosity           : mean=0.000, std=0.000, range=[0.000, 0.000]
+    anode_thickness          : mean=0.000, std=0.000, range=[0.000, 0.000]
+    cathode_porosity         : mean=0.000, std=0.000, range=[0.000, 0.000]
+    cathode_thickness        : mean=0.000, std=0.000, range=[0.000, 0.000]
+    current_density          : mean=0.000, std=0.000, range=[0.000, 0.000]
+    electrolyte_thickness    : mean=0.000, std=0.000, range=[0.000, 0.000]
+    fuel_utilization         : mean=0.000, std=0.000, range=[0.000, 0.000]
+    operating_time           : mean=0.000, std=0.000, range=[0.000, 0.000]
+    pressure                 : mean=0.000, std=0.000, range=[0.000, 0.000]
+    redox_cycles             : mean=0.000, std=0.000, range=[0.000, 0.000]
+    temperature              : mean=0.000, std=0.000, range=[0.000, 0.000]
+    thermal_cycles           : mean=0.000, std=0.000, range=[0.000, 0.000]
+
+  Output Variables:
+    current_density_field    : shape=(10, 20, 20, 10)    , size=0.3 MB
+    damage_field             : shape=(10, 20, 20, 10)    , size=0.3 MB
+    overpotentials           : shape=(10, 3, 20, 20, 10) , size=1.0 MB
+    power_density            : shape=(10,)               , size=0.0 MB
+    species_concentration    : shape=(10, 6, 20, 20, 10) , size=1.9 MB
+    strain_tensor            : shape=(10, 24, 20, 20, 10), size=7.7 MB
+    stress_tensor            : shape=(10, 6, 20, 20, 10) , size=1.9 MB
+    temperature_field        : shape=(10, 20, 20, 10)    , size=0.3 MB
+    voltage                  : shape=(10,)               , size=0.0 MB
+
+HIGH FIDELITY:
+----------------------------------------
+  Error reading dataset: [Errno 2] Unable to synchronously open file (unable to open file: name = 'data/high_fidelity/high_fidelity_data.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+
+EXPERIMENTAL:
+----------------------------------------
+  Error reading dataset: [Errno 2] Unable to synchronously open file (unable to open file: name = 'data/experimental/experimental_data.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)

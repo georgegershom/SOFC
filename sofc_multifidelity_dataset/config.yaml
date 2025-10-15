@@ -1,0 +1,257 @@
+# SOFC Multi-Fidelity Dataset Configuration
+# PhD Thesis: Multi-Fidelity Digital Twin for SOFCs
+
+# Physical Constants
+constants:
+  R: 8.314  # Universal gas constant [J/mol/K]
+  F: 96485  # Faraday constant [C/mol]
+  stefan_boltzmann: 5.67e-8  # Stefan-Boltzmann constant [W/m²/K⁴]
+
+# SOFC Geometry and Materials
+geometry:
+  # Cell dimensions [m]
+  length: 0.1  # 10 cm
+  width: 0.1   # 10 cm
+  
+  # Layer thicknesses [μm]
+  anode_thickness: 500
+  electrolyte_thickness: 10
+  cathode_thickness: 50
+  interconnect_thickness: 500
+  
+  # Channel dimensions [mm]
+  channel_width: 1.0
+  channel_height: 1.0
+  rib_width: 1.0
+
+materials:
+  anode:
+    composition: "Ni-YSZ"
+    porosity: 0.3
+    tortuosity: 3.0
+    elastic_modulus: 96000000000.0  # Pa (96 GPa)
+    poisson_ratio: 0.31
+    CTE: 0.0000125  # 1/K
+    thermal_conductivity: 2.0  # W/m/K
+    electrical_conductivity: 3000000.0  # S/m at 1073K
+    
+  electrolyte:
+    composition: "8YSZ"
+    elastic_modulus: 200000000000.0  # Pa (200 GPa)
+    poisson_ratio: 0.31
+    CTE: 0.0000105  # 1/K
+    thermal_conductivity: 2.0  # W/m/K
+    ionic_conductivity_0: 33400.0  # S/m
+    activation_energy: 80000  # J/mol
+    
+  cathode:
+    composition: "LSM-YSZ"
+    porosity: 0.3
+    tortuosity: 3.0
+    elastic_modulus: 100000000000.0  # Pa (100 GPa)
+    poisson_ratio: 0.25
+    CTE: 0.0000118  # 1/K
+    thermal_conductivity: 2.0  # W/m/K
+    electrical_conductivity: 80000.0  # S/m at 1073K
+    
+  interconnect:
+    composition: "Crofer22APU"
+    elastic_modulus: 220000000000.0  # Pa (220 GPa)
+    poisson_ratio: 0.28
+    CTE: 0.0000119  # 1/K at 1073K
+    thermal_conductivity: 25.0  # W/m/K
+    electrical_conductivity: 1400000.0  # S/m
+
+# Operating Conditions Ranges
+operating_conditions:
+  temperature:
+    min: 923  # K (650°C)
+    max: 1173  # K (900°C)
+    nominal: 1073  # K (800°C)
+    
+  current_density:
+    min: 0  # A/m²
+    max: 10000  # A/m² (1 A/cm²)
+    nominal: 5000  # A/m² (0.5 A/cm²)
+    
+  fuel_utilization:
+    min: 0.3
+    max: 0.9
+    nominal: 0.75
+    
+  air_utilization:
+    min: 0.1
+    max: 0.4
+    nominal: 0.25
+    
+  pressure:
+    min: 100000.0  # Pa (1 atm)
+    max: 300000.0  # Pa (3 atm)
+    nominal: 101325.0  # Pa
+    
+  inlet_compositions:
+    fuel:
+      H2: [0.7, 0.97]  # mole fraction range
+      H2O: [0.03, 0.3]
+      CO: [0.0, 0.2]
+      CO2: [0.0, 0.1]
+      CH4: [0.0, 0.05]
+      N2: [0.0, 0.05]
+    air:
+      O2: 0.21
+      N2: 0.79
+
+# Thermal Cycling Parameters
+thermal_cycling:
+  heating_rate: [1, 10]  # K/min
+  cooling_rate: [1, 10]  # K/min
+  dwell_time: [0, 100]  # hours
+  startup_shutdown_cycles: [1, 1000]
+  thermal_shock_deltaT: [0, 200]  # K
+
+# Degradation Parameters
+degradation:
+  # Ni coarsening parameters (power law)
+  ni_coarsening:
+    pre_exponential: 0.000000000000000001  # m² (1e-18)
+    activation_energy: 200000.0  # J/mol
+    time_exponent: 0.33
+    
+  # Chromium poisoning
+  cr_poisoning:
+    deposition_rate: 0.000000001  # kg/m²/s at 1073K (1e-9)
+    activation_energy: 150000.0  # J/mol
+    
+  # Redox cycling parameters
+  redox:
+    volume_change: 0.24  # fractional volume change Ni->NiO
+    cycles_to_failure: [10, 1000]
+    
+  # Creep parameters (Norton law)
+  creep:
+    A: 0.0000000000000000000000001  # 1/(Pa^n * s) (1e-25)
+    n: 3.5  # stress exponent
+    Q: 300000.0  # activation energy [J/mol]
+    
+  # Interface delamination
+  interface:
+    critical_energy_release_rate: 50  # J/m²
+    interface_strength: 10000000.0  # Pa (10 MPa)
+    mode_mixity: 0.5
+
+# Dataset Generation Parameters
+dataset:
+  low_fidelity:
+    n_samples: 100000
+    computation_time_per_sample: 0.1  # seconds
+    spatial_resolution: "0D/1D averaged"
+    temporal_resolution: 3600  # seconds
+    physics_models:
+      - "lumped_thermal"
+      - "equivalent_circuit"
+      - "analytical_stress"
+    
+  mid_fidelity:
+    n_samples: 5000
+    computation_time_per_sample: 10  # seconds
+    spatial_resolution: "2D/3D coarse (20x20x10)"
+    temporal_resolution: 60  # seconds
+    physics_models:
+      - "2D_thermal_diffusion"
+      - "butler_volmer_kinetics"
+      - "linear_elasticity"
+      
+  high_fidelity:
+    n_samples: 200
+    computation_time_per_sample: 3600  # seconds (1 hour)
+    spatial_resolution: "3D fine (100x100x50)"
+    temporal_resolution: 1  # seconds
+    physics_models:
+      - "3D_coupled_CFD"
+      - "detailed_electrochemistry"
+      - "nonlinear_mechanics"
+      - "phase_field_fracture"
+      
+  experimental:
+    n_samples: 20
+    measurement_noise:
+      temperature: 2.0  # K
+      voltage: 0.001  # V
+      current: 0.01  # A
+      impedance: 0.01  # Ohm
+    techniques:
+      - "IV_curves"
+      - "EIS"
+      - "thermography"
+      - "SEM"
+      - "XRD"
+
+# Multi-scale coupling
+multiscale:
+  microstructure:
+    Representative_Volume_Element_size: 0.00001  # m (10 μm)
+    phases: ["Ni", "YSZ", "pore"]
+    
+  mesoscale:
+    element_size: 0.0001  # m (100 μm)
+    
+  macroscale:
+    element_size: 0.001  # m (1 mm)
+
+# Output Data Structure
+output_structure:
+  file_format: "HDF5"
+  compression: "gzip"
+  chunk_size: 100
+  
+  variables:
+    # Thermo-chemo-electrical outputs
+    temperature_field:
+      units: "K"
+      shape: "variable"  # depends on fidelity
+      
+    current_density:
+      units: "A/m²"
+      shape: "variable"
+      
+    species_concentration:
+      units: "mol/m³"
+      species: ["H2", "H2O", "O2", "N2", "CO", "CO2"]
+      shape: "variable"
+      
+    overpotentials:
+      units: "V"
+      types: ["activation", "ohmic", "concentration"]
+      shape: "variable"
+      
+    # Mechanical outputs
+    stress_tensor:
+      units: "Pa"
+      components: ["xx", "yy", "zz", "xy", "xz", "yz"]
+      shape: "variable"
+      
+    strain_tensor:
+      units: "-"
+      components: ["xx", "yy", "zz", "xy", "xz", "yz"]
+      types: ["elastic", "plastic", "creep", "thermal"]
+      shape: "variable"
+      
+    damage_indicators:
+      crack_density:
+        units: "1/m²"
+      delamination_area:
+        units: "m²"
+      ni_particle_size:
+        units: "μm"
+      cr_deposition:
+        units: "kg/m²"
+        
+    performance_metrics:
+      voltage:
+        units: "V"
+      power_density:
+        units: "W/m²"
+      efficiency:
+        units: "-"
+      degradation_rate:
+        units: "%/1000h"
