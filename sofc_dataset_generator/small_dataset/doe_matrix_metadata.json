@@ -1,0 +1,121 @@
+{
+  "n_samples": 10,
+  "strategy": "lhs",
+  "random_state": 42,
+  "parameter_ranges": {
+    "cell_length": {
+      "min": 80.0,
+      "max": 120.0,
+      "unit": "mm",
+      "distribution": "normal"
+    },
+    "cell_width": {
+      "min": 80.0,
+      "max": 120.0,
+      "unit": "mm",
+      "distribution": "normal"
+    },
+    "electrolyte_thickness": {
+      "min": 100.0,
+      "max": 200.0,
+      "unit": "\u03bcm",
+      "distribution": "normal"
+    },
+    "anode_thickness": {
+      "min": 200.0,
+      "max": 400.0,
+      "unit": "\u03bcm",
+      "distribution": "normal"
+    },
+    "cathode_thickness": {
+      "min": 30.0,
+      "max": 70.0,
+      "unit": "\u03bcm",
+      "distribution": "normal"
+    },
+    "interconnect_thickness": {
+      "min": 1.5,
+      "max": 2.5,
+      "unit": "mm",
+      "distribution": "normal"
+    },
+    "electrolyte_youngs_modulus_variation": {
+      "min": -10.0,
+      "max": 10.0,
+      "unit": "%",
+      "distribution": "normal"
+    },
+    "electrolyte_cte_variation": {
+      "min": -5.0,
+      "max": 5.0,
+      "unit": "%",
+      "distribution": "normal"
+    },
+    "anode_youngs_modulus_variation": {
+      "min": -15.0,
+      "max": 15.0,
+      "unit": "%",
+      "distribution": "normal"
+    },
+    "anode_cte_variation": {
+      "min": -8.0,
+      "max": 8.0,
+      "unit": "%",
+      "distribution": "normal"
+    },
+    "cathode_youngs_modulus_variation": {
+      "min": -12.0,
+      "max": 12.0,
+      "unit": "%",
+      "distribution": "normal"
+    },
+    "cathode_cte_variation": {
+      "min": -6.0,
+      "max": 6.0,
+      "unit": "%",
+      "distribution": "normal"
+    },
+    "sintering_temperature": {
+      "min": 1300.0,
+      "max": 1400.0,
+      "unit": "\u00b0C",
+      "distribution": "normal"
+    },
+    "cooling_rate": {
+      "min": 1.0,
+      "max": 5.0,
+      "unit": "\u00b0C/min",
+      "distribution": "lognormal"
+    },
+    "assembly_pressure": {
+      "min": 0.1,
+      "max": 0.4,
+      "unit": "MPa",
+      "distribution": "normal"
+    },
+    "operating_temperature": {
+      "min": 750.0,
+      "max": 850.0,
+      "unit": "\u00b0C",
+      "distribution": "normal"
+    },
+    "thermal_gradient": {
+      "min": 10.0,
+      "max": 100.0,
+      "unit": "\u00b0C",
+      "distribution": "lognormal"
+    },
+    "creep_activation_energy_variation": {
+      "min": -10.0,
+      "max": 10.0,
+      "unit": "%",
+      "distribution": "normal"
+    },
+    "creep_stress_exponent_variation": {
+      "min": -15.0,
+      "max": 15.0,
+      "unit": "%",
+      "distribution": "normal"
+    }
+  }
+}
