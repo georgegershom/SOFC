@@ -1,0 +1,605 @@
+{
+  "dataset_name": "context_dataset",
+  "dataset_version": "v1",
+  "description": "Process, geometry, and material context parameters for residual stress prediction",
+  "units_convention": "SI (thickness in \u00b5m; CTE in 1e-6/\u00b0C)",
+  "fields": [
+    {
+      "name": "sample_id",
+      "type": "integer",
+      "units": "-",
+      "description": "Sequential sample identifier starting at 0"
+    },
+    {
+      "name": "random_seed",
+      "type": "integer",
+      "units": "-",
+      "description": "Deterministic RNG seed used for this sample"
+    },
+    {
+      "name": "doe_tag",
+      "type": "string",
+      "units": "-",
+      "description": "Dataset/DOE tag for traceability"
+    },
+    {
+      "name": "generated_timestamp_utc",
+      "type": "string",
+      "units": "ISO-8601",
+      "description": "Generation timestamp (UTC)"
+    },
+    {
+      "name": "plate_length_mm",
+      "type": "number",
+      "units": "mm",
+      "description": "Final (sintered) plate length",
+      "typical_range": [
+        20.0,
+        200.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "plate_width_mm",
+      "type": "number",
+      "units": "mm",
+      "description": "Final (sintered) plate width (\u2264 length)",
+      "typical_range": [
+        10.0,
+        200.0
+      ],
+      "allowed_values": "uniform_conditional"
+    },
+    {
+      "name": "anode_thickness_um",
+      "type": "number",
+      "units": "\u00b5m",
+      "description": "Anode layer thickness",
+      "typical_range": [
+        200.0,
+        1200.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "electrolyte_thickness_um",
+      "type": "number",
+      "units": "\u00b5m",
+      "description": "Electrolyte layer thickness",
+      "typical_range": [
+        5.0,
+        50.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "cathode_thickness_um",
+      "type": "number",
+      "units": "\u00b5m",
+      "description": "Cathode layer thickness",
+      "typical_range": [
+        20.0,
+        150.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "green_length_mm",
+      "type": "number",
+      "units": "mm",
+      "description": "Initial green tape length before sintering"
+    },
+    {
+      "name": "green_width_mm",
+      "type": "number",
+      "units": "mm",
+      "description": "Initial green tape width before sintering"
+    },
+    {
+      "name": "green_density_frac_anode",
+      "type": "number",
+      "units": "-",
+      "description": "Green relative density (anode)",
+      "typical_range": [
+        0.3,
+        0.6
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "green_density_frac_electrolyte",
+      "type": "number",
+      "units": "-",
+      "description": "Green relative density (electrolyte)",
+      "typical_range": [
+        0.35,
+        0.7
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "green_density_frac_cathode",
+      "type": "number",
+      "units": "-",
+      "description": "Green relative density (cathode)",
+      "typical_range": [
+        0.3,
+        0.6
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "anode_E0_GPa",
+      "type": "number",
+      "units": "GPa",
+      "description": "Young's modulus at 25 \u00b0C (anode)",
+      "typical_range": [
+        50.0,
+        200.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "anode_E_slope_frac_per_C",
+      "type": "number",
+      "units": "1/\u00b0C",
+      "description": "Fractional slope of E vs T (anode); typically negative",
+      "typical_range": [
+        -0.0006,
+        -0.0001
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "anode_E_1000C_GPa",
+      "type": "number",
+      "units": "GPa",
+      "description": "Young's modulus at 1000 \u00b0C (anode)"
+    },
+    {
+      "name": "anode_CTE_1e-6_per_C",
+      "type": "number",
+      "units": "1e-6/\u00b0C",
+      "description": "CTE (anode)",
+      "typical_range": [
+        11.0,
+        14.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "anode_nu",
+      "type": "number",
+      "units": "-",
+      "description": "Poisson's ratio (anode)",
+      "typical_range": [
+        0.2,
+        0.32
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "anode_shrinkage_onset_C",
+      "type": "number",
+      "units": "\u00b0C",
+      "description": "Sintering shrinkage onset temperature (anode)",
+      "typical_range": [
+        650.0,
+        900.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "anode_shrinkage_rate_per_C",
+      "type": "number",
+      "units": "1/\u00b0C",
+      "description": "Approx. linearized shrinkage rate parameter (anode)",
+      "typical_range": [
+        0.0001,
+        0.005
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "anode_final_linear_shrinkage_fraction",
+      "type": "number",
+      "units": "-",
+      "description": "Final linear shrinkage fraction (anode)",
+      "typical_range": [
+        0.06,
+        0.22
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "anode_creep_A_1_per_s_MPa_pow_n",
+      "type": "number",
+      "units": "1/s/MPa^n",
+      "description": "Norton creep prefactor A (anode)",
+      "typical_range": [
+        1e-25,
+        1e-15
+      ],
+      "allowed_values": "loguniform"
+    },
+    {
+      "name": "anode_creep_n",
+      "type": "number",
+      "units": "-",
+      "description": "Norton creep stress exponent n (anode)",
+      "typical_range": [
+        2.0,
+        5.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "anode_creep_Q_kJ_per_mol",
+      "type": "number",
+      "units": "kJ/mol",
+      "description": "Norton creep activation energy Q (anode)",
+      "typical_range": [
+        200.0,
+        500.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "electrolyte_E0_GPa",
+      "type": "number",
+      "units": "GPa",
+      "description": "Young's modulus at 25 \u00b0C (electrolyte)",
+      "typical_range": [
+        150.0,
+        300.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "electrolyte_E_slope_frac_per_C",
+      "type": "number",
+      "units": "1/\u00b0C",
+      "description": "Fractional slope of E vs T (electrolyte); typically negative",
+      "typical_range": [
+        -0.0006,
+        -0.0001
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "electrolyte_E_1000C_GPa",
+      "type": "number",
+      "units": "GPa",
+      "description": "Young's modulus at 1000 \u00b0C (electrolyte)"
+    },
+    {
+      "name": "electrolyte_CTE_1e-6_per_C",
+      "type": "number",
+      "units": "1e-6/\u00b0C",
+      "description": "CTE (electrolyte)",
+      "typical_range": [
+        9.0,
+        11.5
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "electrolyte_nu",
+      "type": "number",
+      "units": "-",
+      "description": "Poisson's ratio (electrolyte)",
+      "typical_range": [
+        0.2,
+        0.32
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "electrolyte_shrinkage_onset_C",
+      "type": "number",
+      "units": "\u00b0C",
+      "description": "Sintering shrinkage onset temperature (electrolyte)",
+      "typical_range": [
+        650.0,
+        900.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "electrolyte_shrinkage_rate_per_C",
+      "type": "number",
+      "units": "1/\u00b0C",
+      "description": "Approx. linearized shrinkage rate parameter (electrolyte)",
+      "typical_range": [
+        0.0001,
+        0.005
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "electrolyte_final_linear_shrinkage_fraction",
+      "type": "number",
+      "units": "-",
+      "description": "Final linear shrinkage fraction (electrolyte)",
+      "typical_range": [
+        0.03,
+        0.12
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "electrolyte_creep_A_1_per_s_MPa_pow_n",
+      "type": "number",
+      "units": "1/s/MPa^n",
+      "description": "Norton creep prefactor A (electrolyte)",
+      "typical_range": [
+        1e-25,
+        1e-15
+      ],
+      "allowed_values": "loguniform"
+    },
+    {
+      "name": "electrolyte_creep_n",
+      "type": "number",
+      "units": "-",
+      "description": "Norton creep stress exponent n (electrolyte)",
+      "typical_range": [
+        2.0,
+        5.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "electrolyte_creep_Q_kJ_per_mol",
+      "type": "number",
+      "units": "kJ/mol",
+      "description": "Norton creep activation energy Q (electrolyte)",
+      "typical_range": [
+        200.0,
+        500.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "cathode_E0_GPa",
+      "type": "number",
+      "units": "GPa",
+      "description": "Young's modulus at 25 \u00b0C (cathode)",
+      "typical_range": [
+        60.0,
+        180.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "cathode_E_slope_frac_per_C",
+      "type": "number",
+      "units": "1/\u00b0C",
+      "description": "Fractional slope of E vs T (cathode); typically negative",
+      "typical_range": [
+        -0.0006,
+        -0.0001
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "cathode_E_1000C_GPa",
+      "type": "number",
+      "units": "GPa",
+      "description": "Young's modulus at 1000 \u00b0C (cathode)"
+    },
+    {
+      "name": "cathode_CTE_1e-6_per_C",
+      "type": "number",
+      "units": "1e-6/\u00b0C",
+      "description": "CTE (cathode)",
+      "typical_range": [
+        12.0,
+        15.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "cathode_nu",
+      "type": "number",
+      "units": "-",
+      "description": "Poisson's ratio (cathode)",
+      "typical_range": [
+        0.2,
+        0.32
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "cathode_shrinkage_onset_C",
+      "type": "number",
+      "units": "\u00b0C",
+      "description": "Sintering shrinkage onset temperature (cathode)",
+      "typical_range": [
+        650.0,
+        900.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "cathode_shrinkage_rate_per_C",
+      "type": "number",
+      "units": "1/\u00b0C",
+      "description": "Approx. linearized shrinkage rate parameter (cathode)",
+      "typical_range": [
+        0.0001,
+        0.005
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "cathode_final_linear_shrinkage_fraction",
+      "type": "number",
+      "units": "-",
+      "description": "Final linear shrinkage fraction (cathode)",
+      "typical_range": [
+        0.05,
+        0.18
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "cathode_creep_A_1_per_s_MPa_pow_n",
+      "type": "number",
+      "units": "1/s/MPa^n",
+      "description": "Norton creep prefactor A (cathode)",
+      "typical_range": [
+        1e-25,
+        1e-15
+      ],
+      "allowed_values": "loguniform"
+    },
+    {
+      "name": "cathode_creep_n",
+      "type": "number",
+      "units": "-",
+      "description": "Norton creep stress exponent n (cathode)",
+      "typical_range": [
+        2.0,
+        5.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "cathode_creep_Q_kJ_per_mol",
+      "type": "number",
+      "units": "kJ/mol",
+      "description": "Norton creep activation energy Q (cathode)",
+      "typical_range": [
+        200.0,
+        500.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "cte_mismatch_anode_electrolyte_1e-6_per_C",
+      "type": "number",
+      "units": "1e-6/\u00b0C",
+      "description": "|CTE_anode - CTE_electrolyte|"
+    },
+    {
+      "name": "cte_mismatch_cathode_electrolyte_1e-6_per_C",
+      "type": "number",
+      "units": "1e-6/\u00b0C",
+      "description": "|CTE_cathode - CTE_electrolyte|"
+    },
+    {
+      "name": "cte_mismatch_anode_cathode_1e-6_per_C",
+      "type": "number",
+      "units": "1e-6/\u00b0C",
+      "description": "|CTE_anode - CTE_cathode|"
+    },
+    {
+      "name": "sinter_ramp_rate_C_per_min",
+      "type": "number",
+      "units": "\u00b0C/min",
+      "description": "Ramp-up rate to hold temperature",
+      "typical_range": [
+        1.0,
+        10.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "sinter_hold_temp_C",
+      "type": "number",
+      "units": "\u00b0C",
+      "description": "Peak hold temperature",
+      "typical_range": [
+        1000.0,
+        1500.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "sinter_hold_time_min",
+      "type": "number",
+      "units": "min",
+      "description": "Hold time at peak temperature",
+      "typical_range": [
+        30.0,
+        300.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "cool_rate_C_per_min",
+      "type": "number",
+      "units": "\u00b0C/min",
+      "description": "Cooling rate after hold",
+      "typical_range": [
+        1.0,
+        10.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "ramp_time_min",
+      "type": "number",
+      "units": "min",
+      "description": "Time to ramp from ambient to hold temp"
+    },
+    {
+      "name": "cool_time_min",
+      "type": "number",
+      "units": "min",
+      "description": "Time to cool from hold temp to ambient"
+    },
+    {
+      "name": "total_cycle_time_min",
+      "type": "number",
+      "units": "min",
+      "description": "Approximate total cycle time (ramp + hold + cool)"
+    },
+    {
+      "name": "atmosphere_type",
+      "type": "string",
+      "units": "-",
+      "description": "Sintering atmosphere type",
+      "allowed_values": [
+        "air",
+        "argon",
+        "nitrogen",
+        "forming_gas"
+      ]
+    },
+    {
+      "name": "atmosphere_pO2_Pa",
+      "type": "number",
+      "units": "Pa",
+      "description": "Oxygen partial pressure in furnace",
+      "typical_range": [
+        1e-07,
+        21278.25
+      ],
+      "allowed_values": "loguniform"
+    },
+    {
+      "name": "atmosphere_humidity_percent",
+      "type": "number",
+      "units": "%",
+      "description": "Relative humidity during sintering",
+      "typical_range": [
+        0.0,
+        50.0
+      ],
+      "allowed_values": "uniform"
+    },
+    {
+      "name": "environment_pressure_atm",
+      "type": "number",
+      "units": "atm",
+      "description": "Ambient pressure in furnace",
+      "typical_range": [
+        0.9,
+        1.1
+      ],
+      "allowed_values": "uniform"
+    }
+  ]
+}
