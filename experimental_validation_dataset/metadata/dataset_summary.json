@@ -1,0 +1,99 @@
+{
+  "dataset_info": {
+    "name": "SOFC Experimental Validation Dataset",
+    "version": "1.0",
+    "description": "Comprehensive experimental validation dataset for SOFC plate warping and residual stress analysis",
+    "creation_date": "2024-01-30",
+    "facility": "Advanced Materials Research Laboratory",
+    "contact": "research@advancedmaterials.com"
+  },
+  "dataset_statistics": {
+    "total_samples": 45,
+    "fabrication_parameters": {
+      "thickness_ratios": [0.1, 0.2, 0.5, 1.0, 1.5, 2.0],
+      "sintering_cycles": ["Standard", "Slow", "Fast"],
+      "plate_dimensions": "50 mm × 50 mm",
+      "total_thickness_range": "0.5-2.0 mm"
+    },
+    "measurement_coverage": {
+      "warp_measurements": {
+        "technique": "Laser Scanning Confocal Microscopy",
+        "total_points": 112500,
+        "points_per_sample": 2500,
+        "resolution": "1.0 μm lateral, 10 nm vertical"
+      },
+      "stress_measurements": {
+        "techniques": ["curvature", "xrd", "layer_removal", "raman"],
+        "xrd_points": 1125,
+        "raman_points": 720,
+        "curvature_measurements": 135,
+        "layer_removal_samples": 15
+      }
+    },
+    "data_quality": {
+      "uncertainty_levels": {
+        "warp_lateral": "±0.5 μm",
+        "warp_vertical": "±0.02 μm",
+        "stress_xrd": "±8%",
+        "stress_curvature": "±15%",
+        "stress_raman": "±12%",
+        "stress_layer_removal": "±20%"
+      },
+      "calibration_status": "NIST traceable",
+      "repeatability": "3 measurements per sample",
+      "cross_validation": "Multiple techniques per sample"
+    }
+  },
+  "file_structure": {
+    "fabricated_plates": {
+      "plate_specifications.json": "Basic plate specifications and materials",
+      "complete_sample_specifications.json": "Complete specifications for all 45 samples"
+    },
+    "measurements": {
+      "warp_data": {
+        "warp_measurements.json": "3D surface measurements for all samples"
+      },
+      "stress_data": {
+        "stress_measurements.json": "Residual stress measurements using multiple techniques"
+      }
+    },
+    "analysis": {
+      "validation_analysis.py": "Python script for validation analysis",
+      "validation_report.json": "Generated validation report",
+      "validation_comparison.csv": "Comparison data between experimental and ML predictions"
+    },
+    "metadata": {
+      "README.md": "Dataset overview and usage instructions",
+      "measurement_protocols.md": "Detailed measurement protocols",
+      "dataset_summary.json": "This summary file"
+    }
+  },
+  "usage_instructions": {
+    "step_1": "Load experimental warp data as input to trained ML model",
+    "step_2": "Generate predicted stress field using ML model",
+    "step_3": "Compare ML predictions with experimental stress measurements",
+    "step_4": "Analyze discrepancies and identify model limitations",
+    "step_5": "Refine FEA model parameters based on experimental findings",
+    "step_6": "Retrain ML model with validated data",
+    "step_7": "Iterate until acceptable accuracy achieved"
+  },
+  "validation_criteria": {
+    "warp_prediction": {
+      "r2_score_threshold": 0.8,
+      "rmse_threshold": 0.2,
+      "mae_threshold": 0.15
+    },
+    "stress_prediction": {
+      "r2_score_threshold": 0.7,
+      "rmse_threshold": 50,
+      "mae_threshold": 40
+    },
+    "overall_validation": "Both warp and stress predictions must pass thresholds"
+  },
+  "expected_outcomes": {
+    "model_validation": "Validate FEA-based ML model against physical reality",
+    "discrepancy_analysis": "Identify regions of high prediction error",
+    "model_refinement": "Guide improvements to FEA model and ML training",
+    "credibility_establishment": "Establish confidence in ML-Augmented Inverse Modeling pipeline"
+  }
+}
