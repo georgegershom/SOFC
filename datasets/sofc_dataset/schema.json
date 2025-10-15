@@ -1,0 +1,281 @@
+{
+  "description": "Multi-fidelity SOFC dataset schema. LF: system-level operating conditions; MF: adds geometry/material properties; HF: microstructural descriptors and file paths.",
+  "fidelity_levels": [
+    "LF",
+    "MF",
+    "HF"
+  ],
+  "tables": {
+    "lf": {
+      "primary_key": "lf_id",
+      "fields": {
+        "lf_id": {
+          "type": "string"
+        },
+        "temperature_K": {
+          "type": "float",
+          "units": "K"
+        },
+        "pressure_bar": {
+          "type": "float",
+          "units": "bar"
+        },
+        "current_density_A_per_cm2": {
+          "type": "float",
+          "units": "A/cm^2"
+        },
+        "voltage_V": {
+          "type": "float",
+          "units": "V"
+        },
+        "fuel_utilization": {
+          "type": "float"
+        },
+        "oxidant_utilization": {
+          "type": "float"
+        },
+        "num_startup_shutdown_cycles": {
+          "type": "integer"
+        },
+        "num_load_cycles": {
+          "type": "integer"
+        },
+        "thermal_ramp_rate_K_per_min": {
+          "type": "float"
+        },
+        "load_ramp_rate_fraction_per_s": {
+          "type": "float"
+        },
+        "avg_cycle_duration_min": {
+          "type": "float",
+          "units": "min"
+        },
+        "thermal_cycle_temp_swing_K": {
+          "type": "float",
+          "units": "K"
+        },
+        "fuel_inlet_mol_s": {
+          "type": "float",
+          "units": "mol/s"
+        },
+        "air_inlet_mol_s": {
+          "type": "float",
+          "units": "mol/s"
+        }
+      }
+    },
+    "mf": {
+      "primary_key": "mf_id",
+      "foreign_keys": {
+        "parent_lf_id": "lf.lf_id"
+      },
+      "fields": {
+        "mf_id": {
+          "type": "string"
+        },
+        "parent_lf_id": {
+          "type": "string"
+        },
+        "cell_active_area_cm2": {
+          "type": "float",
+          "units": "cm^2"
+        },
+        "thickness_anode_um": {
+          "type": "float",
+          "units": "um"
+        },
+        "thickness_cathode_um": {
+          "type": "float",
+          "units": "um"
+        },
+        "thickness_electrolyte_um": {
+          "type": "float",
+          "units": "um"
+        },
+        "thickness_interconnect_um": {
+          "type": "float",
+          "units": "um"
+        },
+        "channel_width_mm": {
+          "type": "float",
+          "units": "mm"
+        },
+        "channel_height_mm": {
+          "type": "float",
+          "units": "mm"
+        },
+        "channel_length_mm": {
+          "type": "float",
+          "units": "mm"
+        },
+        "anode_porosity": {
+          "type": "float"
+        },
+        "anode_tortuosity": {
+          "type": "float"
+        },
+        "anode_ni_particle_size_um": {
+          "type": "float",
+          "units": "um"
+        },
+        "anode_ni_volume_fraction_in_solid": {
+          "type": "float"
+        },
+        "anode_ionic_conductivity_S_per_m": {
+          "type": "float",
+          "units": "S/m"
+        },
+        "anode_electronic_conductivity_S_per_m": {
+          "type": "float",
+          "units": "S/m"
+        },
+        "anode_tpb_density_per_um2": {
+          "type": "float",
+          "units": "1/um^2"
+        },
+        "cathode_porosity": {
+          "type": "float"
+        },
+        "cathode_tortuosity": {
+          "type": "float"
+        },
+        "cathode_particle_size_um": {
+          "type": "float",
+          "units": "um"
+        },
+        "cathode_ionic_conductivity_S_per_m": {
+          "type": "float",
+          "units": "S/m"
+        },
+        "cathode_electronic_conductivity_S_per_m": {
+          "type": "float",
+          "units": "S/m"
+        },
+        "cathode_chemical_expansion_per_K": {
+          "type": "float",
+          "units": "1/K"
+        },
+        "ysz_ionic_conductivity_S_per_m": {
+          "type": "float",
+          "units": "S/m"
+        },
+        "ysz_youngs_modulus_GPa": {
+          "type": "float",
+          "units": "GPa"
+        },
+        "ysz_poisson_ratio": {
+          "type": "float"
+        },
+        "ysz_cte_per_K": {
+          "type": "float",
+          "units": "1/K"
+        },
+        "interconnect_cte_per_K": {
+          "type": "float",
+          "units": "1/K"
+        },
+        "interconnect_creep_A": {
+          "type": "float"
+        },
+        "interconnect_creep_n": {
+          "type": "float"
+        },
+        "interconnect_oxide_kp_m2_per_s": {
+          "type": "float",
+          "units": "m^2/s"
+        },
+        "fuel_inlet_mol_s_estimate": {
+          "type": "float",
+          "units": "mol/s"
+        },
+        "air_inlet_mol_s_estimate": {
+          "type": "float",
+          "units": "mol/s"
+        }
+      }
+    },
+    "hf": {
+      "primary_key": "hf_id",
+      "foreign_keys": {
+        "parent_mf_id": "mf.mf_id",
+        "parent_lf_id": "lf.lf_id"
+      },
+      "fields": {
+        "hf_id": {
+          "type": "string"
+        },
+        "parent_mf_id": {
+          "type": "string"
+        },
+        "parent_lf_id": {
+          "type": "string"
+        },
+        "anode_microstructure_path": {
+          "type": "string"
+        },
+        "cathode_microstructure_path": {
+          "type": "string"
+        },
+        "anode_void_fraction": {
+          "type": "float"
+        },
+        "anode_ni_fraction": {
+          "type": "float"
+        },
+        "anode_ysz_fraction": {
+          "type": "float"
+        },
+        "anode_void_ssa_1_per_um": {
+          "type": "float"
+        },
+        "anode_ni_ssa_1_per_um": {
+          "type": "float"
+        },
+        "anode_ysz_ssa_1_per_um": {
+          "type": "float"
+        },
+        "anode_ni_largest_cluster_fraction": {
+          "type": "float"
+        },
+        "anode_ysz_largest_cluster_fraction": {
+          "type": "float"
+        },
+        "anode_ni_eq_diam_mean_um": {
+          "type": "float"
+        },
+        "anode_ni_eq_diam_p90_um": {
+          "type": "float"
+        },
+        "anode_ysz_eq_diam_mean_um": {
+          "type": "float"
+        },
+        "anode_ysz_eq_diam_p90_um": {
+          "type": "float"
+        },
+        "cathode_porosity_from_micro": {
+          "type": "float"
+        },
+        "cathode_solid_ssa_1_per_um": {
+          "type": "float"
+        },
+        "cathode_solid_largest_cluster_fraction": {
+          "type": "float"
+        },
+        "cathode_solid_eq_diam_mean_um": {
+          "type": "float"
+        },
+        "cathode_solid_eq_diam_p90_um": {
+          "type": "float"
+        },
+        "anode_voxel_size_um": {
+          "type": "float",
+          "units": "um"
+        },
+        "cathode_voxel_size_um": {
+          "type": "float",
+          "units": "um"
+        }
+      }
+    }
+  }
+}
