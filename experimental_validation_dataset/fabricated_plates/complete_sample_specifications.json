@@ -1,0 +1,482 @@
+{
+  "dataset_info": {
+    "name": "SOFC Experimental Validation Plates - Complete",
+    "version": "1.0",
+    "description": "45 strategically chosen SOFC plates for experimental validation",
+    "fabrication_date": "2024-01-15",
+    "facility": "Advanced Materials Research Laboratory",
+    "total_samples": 45
+  },
+  "samples": [
+    {
+      "sample_id": "EV_001",
+      "thickness_ratio": 2.0,
+      "sintering_cycle": "Standard",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "high_convex",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_002",
+      "thickness_ratio": 0.1,
+      "sintering_cycle": "Fast",
+      "anode_thickness": 0.05,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.45,
+      "expected_warp": "high_concave",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_003",
+      "thickness_ratio": 0.5,
+      "sintering_cycle": "Standard",
+      "anode_thickness": 0.25,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.25,
+      "expected_warp": "moderate",
+      "priority": "center"
+    },
+    {
+      "sample_id": "EV_004",
+      "thickness_ratio": 0.2,
+      "sintering_cycle": "Standard",
+      "anode_thickness": 0.1,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.4,
+      "expected_warp": "high_concave",
+      "priority": "center"
+    },
+    {
+      "sample_id": "EV_005",
+      "thickness_ratio": 2.0,
+      "sintering_cycle": "Standard",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "high_convex",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_006",
+      "thickness_ratio": 2.0,
+      "sintering_cycle": "Fast",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "high_convex",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_007",
+      "thickness_ratio": 1.5,
+      "sintering_cycle": "Standard",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "moderate",
+      "priority": "center"
+    },
+    {
+      "sample_id": "EV_008",
+      "thickness_ratio": 1.5,
+      "sintering_cycle": "Slow",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "moderate",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_009",
+      "thickness_ratio": 0.1,
+      "sintering_cycle": "Standard",
+      "anode_thickness": 0.05,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.45,
+      "expected_warp": "high_concave",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_010",
+      "thickness_ratio": 0.1,
+      "sintering_cycle": "Standard",
+      "anode_thickness": 0.05,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.45,
+      "expected_warp": "high_concave",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_011",
+      "thickness_ratio": 0.2,
+      "sintering_cycle": "Fast",
+      "anode_thickness": 0.1,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.4,
+      "expected_warp": "high_concave",
+      "priority": "center"
+    },
+    {
+      "sample_id": "EV_012",
+      "thickness_ratio": 1.5,
+      "sintering_cycle": "Standard",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "moderate",
+      "priority": "center"
+    },
+    {
+      "sample_id": "EV_013",
+      "thickness_ratio": 1.5,
+      "sintering_cycle": "Standard",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "moderate",
+      "priority": "center"
+    },
+    {
+      "sample_id": "EV_014",
+      "thickness_ratio": 2.0,
+      "sintering_cycle": "Fast",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "high_convex",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_015",
+      "thickness_ratio": 2.0,
+      "sintering_cycle": "Fast",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "high_convex",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_016",
+      "thickness_ratio": 1.0,
+      "sintering_cycle": "Standard",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "moderate",
+      "priority": "center"
+    },
+    {
+      "sample_id": "EV_017",
+      "thickness_ratio": 1.0,
+      "sintering_cycle": "Fast",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "moderate",
+      "priority": "center"
+    },
+    {
+      "sample_id": "EV_018",
+      "thickness_ratio": 0.5,
+      "sintering_cycle": "Standard",
+      "anode_thickness": 0.25,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.25,
+      "expected_warp": "moderate",
+      "priority": "center"
+    },
+    {
+      "sample_id": "EV_019",
+      "thickness_ratio": 0.2,
+      "sintering_cycle": "Fast",
+      "anode_thickness": 0.1,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.4,
+      "expected_warp": "high_concave",
+      "priority": "center"
+    },
+    {
+      "sample_id": "EV_020",
+      "thickness_ratio": 1.0,
+      "sintering_cycle": "Slow",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "moderate",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_021",
+      "thickness_ratio": 0.5,
+      "sintering_cycle": "Standard",
+      "anode_thickness": 0.25,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.25,
+      "expected_warp": "moderate",
+      "priority": "center"
+    },
+    {
+      "sample_id": "EV_022",
+      "thickness_ratio": 0.2,
+      "sintering_cycle": "Slow",
+      "anode_thickness": 0.1,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.4,
+      "expected_warp": "high_concave",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_023",
+      "thickness_ratio": 0.1,
+      "sintering_cycle": "Standard",
+      "anode_thickness": 0.05,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.45,
+      "expected_warp": "high_concave",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_024",
+      "thickness_ratio": 1.0,
+      "sintering_cycle": "Standard",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "moderate",
+      "priority": "center"
+    },
+    {
+      "sample_id": "EV_025",
+      "thickness_ratio": 0.5,
+      "sintering_cycle": "Slow",
+      "anode_thickness": 0.25,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.25,
+      "expected_warp": "moderate",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_026",
+      "thickness_ratio": 1.5,
+      "sintering_cycle": "Slow",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "moderate",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_027",
+      "thickness_ratio": 0.1,
+      "sintering_cycle": "Fast",
+      "anode_thickness": 0.05,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.45,
+      "expected_warp": "high_concave",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_028",
+      "thickness_ratio": 1.0,
+      "sintering_cycle": "Fast",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "moderate",
+      "priority": "center"
+    },
+    {
+      "sample_id": "EV_029",
+      "thickness_ratio": 0.1,
+      "sintering_cycle": "Slow",
+      "anode_thickness": 0.05,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.45,
+      "expected_warp": "high_concave",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_030",
+      "thickness_ratio": 0.1,
+      "sintering_cycle": "Fast",
+      "anode_thickness": 0.05,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.45,
+      "expected_warp": "high_concave",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_031",
+      "thickness_ratio": 0.5,
+      "sintering_cycle": "Fast",
+      "anode_thickness": 0.25,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.25,
+      "expected_warp": "moderate",
+      "priority": "center"
+    },
+    {
+      "sample_id": "EV_032",
+      "thickness_ratio": 1.5,
+      "sintering_cycle": "Slow",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "moderate",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_033",
+      "thickness_ratio": 1.5,
+      "sintering_cycle": "Standard",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "moderate",
+      "priority": "center"
+    },
+    {
+      "sample_id": "EV_034",
+      "thickness_ratio": 2.0,
+      "sintering_cycle": "Standard",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "high_convex",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_035",
+      "thickness_ratio": 0.1,
+      "sintering_cycle": "Fast",
+      "anode_thickness": 0.05,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.45,
+      "expected_warp": "high_concave",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_036",
+      "thickness_ratio": 0.2,
+      "sintering_cycle": "Slow",
+      "anode_thickness": 0.1,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.4,
+      "expected_warp": "high_concave",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_037",
+      "thickness_ratio": 0.1,
+      "sintering_cycle": "Standard",
+      "anode_thickness": 0.05,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.45,
+      "expected_warp": "high_concave",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_038",
+      "thickness_ratio": 0.1,
+      "sintering_cycle": "Slow",
+      "anode_thickness": 0.05,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.45,
+      "expected_warp": "high_concave",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_039",
+      "thickness_ratio": 0.5,
+      "sintering_cycle": "Slow",
+      "anode_thickness": 0.25,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.25,
+      "expected_warp": "moderate",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_040",
+      "thickness_ratio": 2.0,
+      "sintering_cycle": "Slow",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "high_convex",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_041",
+      "thickness_ratio": 0.2,
+      "sintering_cycle": "Slow",
+      "anode_thickness": 0.1,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.4,
+      "expected_warp": "high_concave",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_042",
+      "thickness_ratio": 0.5,
+      "sintering_cycle": "Standard",
+      "anode_thickness": 0.25,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.25,
+      "expected_warp": "moderate",
+      "priority": "center"
+    },
+    {
+      "sample_id": "EV_043",
+      "thickness_ratio": 2.0,
+      "sintering_cycle": "Slow",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "high_convex",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_044",
+      "thickness_ratio": 2.0,
+      "sintering_cycle": "Fast",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "high_convex",
+      "priority": "extreme"
+    },
+    {
+      "sample_id": "EV_045",
+      "thickness_ratio": 2.0,
+      "sintering_cycle": "Standard",
+      "anode_thickness": 0.49,
+      "electrolyte_thickness": 0.5,
+      "cathode_thickness": 0.01,
+      "expected_warp": "high_convex",
+      "priority": "extreme"
+    }
+  ],
+  "statistics": {
+    "thickness_ratio_range": [
+      0.1,
+      2.0
+    ],
+    "sintering_cycle_distribution": {
+      "Standard": 19,
+      "Slow": 13,
+      "Fast": 13
+    },
+    "warp_distribution": {
+      "high_concave": 16,
+      "moderate": 19,
+      "high_convex": 10
+    },
+    "priority_distribution": {
+      "extreme": 29,
+      "center": 16
+    }
+  }
+}

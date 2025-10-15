@@ -1,0 +1,106 @@
+{
+  "dataset_info": {
+    "name": "SOFC Experimental Validation Plates",
+    "version": "1.0",
+    "description": "45 strategically chosen SOFC plates for experimental validation",
+    "fabrication_date": "2024-01-15",
+    "facility": "Advanced Materials Research Laboratory"
+  },
+  "materials": {
+    "anode": {
+      "composition": "Ni-YSZ (40% Ni, 60% YSZ)",
+      "density": "6.2 g/cm³",
+      "thermal_expansion": "12.5e-6 /K",
+      "youngs_modulus": "200 GPa",
+      "poisson_ratio": 0.31
+    },
+    "electrolyte": {
+      "composition": "8YSZ (8 mol% Y₂O₃ stabilized ZrO₂)",
+      "density": "6.0 g/cm³",
+      "thermal_expansion": "10.8e-6 /K",
+      "youngs_modulus": "210 GPa",
+      "poisson_ratio": 0.32
+    },
+    "cathode": {
+      "composition": "LSM (La₀.₈Sr₀.₂MnO₃)",
+      "density": "6.4 g/cm³",
+      "thermal_expansion": "11.2e-6 /K",
+      "youngs_modulus": "180 GPa",
+      "poisson_ratio": 0.30
+    }
+  },
+  "fabrication_parameters": {
+    "plate_dimensions": {
+      "length": "50 mm",
+      "width": "50 mm",
+      "total_thickness_range": "0.5-2.0 mm"
+    },
+    "layer_thickness_ratios": [0.1, 0.2, 0.5, 1.0, 1.5, 2.0],
+    "sintering_cycles": {
+      "cycle_1": {
+        "name": "Standard",
+        "max_temp": "1400°C",
+        "ramp_rate": "5°C/min",
+        "hold_time": "2 hours",
+        "cooling_rate": "3°C/min"
+      },
+      "cycle_2": {
+        "name": "Slow",
+        "max_temp": "1350°C",
+        "ramp_rate": "2°C/min",
+        "hold_time": "4 hours",
+        "cooling_rate": "1°C/min"
+      },
+      "cycle_3": {
+        "name": "Fast",
+        "max_temp": "1450°C",
+        "ramp_rate": "10°C/min",
+        "hold_time": "1 hour",
+        "cooling_rate": "5°C/min"
+      }
+    }
+  },
+  "sample_design": {
+    "total_samples": 45,
+    "design_strategy": "Latin Hypercube Sampling with extreme point augmentation",
+    "parameter_combinations": [
+      {
+        "sample_id": "EV_001",
+        "thickness_ratio": 0.1,
+        "sintering_cycle": "Standard",
+        "anode_thickness": "0.05 mm",
+        "electrolyte_thickness": "0.5 mm",
+        "cathode_thickness": "0.05 mm",
+        "expected_warp": "high_concave",
+        "priority": "extreme"
+      },
+      {
+        "sample_id": "EV_002",
+        "thickness_ratio": 2.0,
+        "sintering_cycle": "Standard",
+        "anode_thickness": "1.0 mm",
+        "electrolyte_thickness": "0.5 mm",
+        "cathode_thickness": "0.1 mm",
+        "expected_warp": "high_convex",
+        "priority": "extreme"
+      },
+      {
+        "sample_id": "EV_003",
+        "thickness_ratio": 1.0,
+        "sintering_cycle": "Slow",
+        "anode_thickness": "0.5 mm",
+        "electrolyte_thickness": "0.5 mm",
+        "cathode_thickness": "0.1 mm",
+        "expected_warp": "minimal",
+        "priority": "center"
+      }
+    ]
+  },
+  "quality_control": {
+    "dimensional_tolerance": "±0.01 mm",
+    "surface_roughness": "< 0.5 μm Ra",
+    "density_requirement": "> 95% theoretical",
+    "crack_inspection": "Visual and dye penetrant",
+    "thickness_measurement": "Cross-sectional SEM"
+  }
+}

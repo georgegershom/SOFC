@@ -1,0 +1,35 @@
+{
+  "validation_summary": {
+    "total_samples": 45,
+    "validation_date": "2024-01-30",
+    "overall_status": "FAIL"
+  },
+  "warp_validation": {
+    "max_warp": {
+      "r2_score": -0.282,
+      "rmse": 0.485,
+      "mae": 0.373,
+      "status": "FAIL"
+    },
+    "rms_warp": {
+      "r2_score": -0.35,
+      "rmse": 0.307,
+      "mae": 0.23,
+      "status": "FAIL"
+    }
+  },
+  "stress_validation": {
+    "von_mises_stress": {
+      "r2_score": -0.943,
+      "rmse": 88.299,
+      "mae": 70.985,
+      "status": "FAIL"
+    }
+  },
+  "recommendations": [
+    "Improve warp prediction model - consider additional features or model complexity",
+    "Enhance stress prediction accuracy - review FEA model parameters",
+    "High warp prediction error - investigate measurement uncertainty",
+    "High stress prediction error - consider stress measurement technique limitations"
+  ]
+}
