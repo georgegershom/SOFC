@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "seed": 123,
+  "sizes": {
+    "lf": 60,
+    "mf": 12,
+    "hf": 4
+  },
+  "grids": {
+    "lf": {
+      "nx": 64
+    },
+    "mf": {
+      "shape": [
+        24,
+        24,
+        6
+      ]
+    },
+    "hf": {
+      "shape": [
+        48,
+        48,
+        12
+      ]
+    }
+  },
+  "variables": {
+    "T": "Temperature [K]",
+    "i": "Current density [A/m^2]",
+    "p_H2": "H2 partial pressure [Pa]",
+    "p_H2O": "H2O partial pressure [Pa]",
+    "p_O2": "O2 partial pressure [Pa]",
+    "eta_act": "Activation overpotential [V]",
+    "eta_ohm": "Ohmic overpotential [V]",
+    "eta_conc": "Concentration overpotential [V]",
+    "sigma_vm": "Von Mises stress [Pa]",
+    "epsilon_eq": "Equivalent strain [-]",
+    "damage": "Damage indicator [0-1]",
+    "time_to_failure_hours": "Estimated hours to failure [h]"
+  }
+}
