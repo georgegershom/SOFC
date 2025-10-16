@@ -1,0 +1,15 @@
+entity_type,entity_id,activity,interval_years,annual_cost_usd,notes
+system,SYS_GAS_BOILER_COND,Annual tune-up,1.0,0.0,"Typically modeled as OPEX, not CAPEX"
+system,SYS_AIR_TO_WATER_HP,Refrigerant check,2.0,0.0,Leak test and charge verification
+system,SYS_WATER_COOLED_CHILLER,Oil & filter,1.0,0.0,Annual service
+system,SYS_ERV,Filter replacement,0.5,0.0,Every 6 months
+system,SYS_LED_FIXTURE,Cleaning & inspection,2.0,0.0,
+system,SYS_PV_INVERTER,Inverter replacement,12.0,0.0,Modeled as replacement at end of life
+system,SYS_LI_ION_BATTERY,Capacity augmentation,5.0,0.0,Offset capacity fade if needed
+measure,ME_HV_BOILER_COND,Recommissioning,5.0,0.0,Tune control sequences and setpoints
+measure,ME_HV_ATW_HP,Recommissioning,5.0,0.0,Tune control sequences and setpoints
+measure,ME_HV_CHILLER_HIGH_EFF,Recommissioning,5.0,0.0,Tune control sequences and setpoints
+measure,ME_HV_ADD_ERV,Recommissioning,5.0,0.0,Tune control sequences and setpoints
+measure,ME_HV_VFD,Recommissioning,5.0,0.0,Tune control sequences and setpoints
+measure,ME_CTRL_BMS,Recommissioning,5.0,0.0,Tune control sequences and setpoints
+measure,ME_CTRL_ADV_SEQ,Recommissioning,5.0,0.0,Tune control sequences and setpoints

@@ -1,0 +1,20 @@
+material_id,name,category,density_kg_per_m3,gwp_a1a3_kgco2e_per_kg,gwp_a1a5_kgco2e_per_kg,gwp_b_kgco2e_per_kg,gwp_c_kgco2e_per_kg,source
+MAT_POLYISO,Polyisocyanurate insulation,insulation,32,3.2,3.6,0.2,0.1,Fabricated typical range inspired by ICE/Ecoinvent/EPDs
+MAT_MINERAL_WOOL,Mineral wool insulation,insulation,40,1.6,2.0,0.15,0.05,Fabricated typical range inspired by ICE/Ecoinvent/EPDs
+MAT_XPS,Extruded polystyrene (XPS),insulation,35,6.5,7.2,0.25,0.1,Fabricated typical range inspired by ICE/Ecoinvent/EPDs
+MAT_EPS,Expanded polystyrene (EPS),insulation,20,2.5,2.9,0.15,0.08,Fabricated typical range inspired by ICE/Ecoinvent/EPDs
+MAT_SPF,Spray polyurethane foam (SPF),insulation,40,5.8,6.4,0.25,0.1,Fabricated typical range inspired by ICE/Ecoinvent/EPDs
+MAT_GYPSUM,Gypsum board,interior,800,0.35,0.45,0.02,0.02,Fabricated typical range inspired by ICE/Ecoinvent/EPDs
+MAT_CONCRETE_C30,Concrete C30/37,concrete,2400,0.12,0.17,0.01,0.02,Fabricated typical range inspired by ICE/Ecoinvent/EPDs
+MAT_STEEL_STRUCT,Structural steel,metals,7850,2.0,2.3,0.02,0.05,Fabricated typical range inspired by ICE/Ecoinvent/EPDs
+MAT_ALUMINUM,Aluminum extrusion,metals,2700,8.5,9.2,0.05,0.08,Fabricated typical range inspired by ICE/Ecoinvent/EPDs
+MAT_GLASS,Float glass,fenestration,2500,1.2,1.5,0.03,0.05,Fabricated typical range inspired by ICE/Ecoinvent/EPDs
+MAT_PVC,Polyvinyl chloride (PVC),plastics,1380,2.7,3.0,0.03,0.06,Fabricated typical range inspired by ICE/Ecoinvent/EPDs
+MAT_COPPER,Copper,metals,8900,4.0,4.5,0.02,0.05,Fabricated typical range inspired by ICE/Ecoinvent/EPDs
+MAT_PEX,PEX piping,plastics,940,2.2,2.5,0.02,0.05,Fabricated typical range inspired by ICE/Ecoinvent/EPDs
+MAT_R410A,R410A (refrigerant),refrigerant,,10,12,0,0,Fabricated LCI; leakage impact tracked separately
+MAT_R32,R32 (refrigerant),refrigerant,,8,9,0,0,Fabricated LCI; leakage impact tracked separately
+MAT_SOFTWOOD,Softwood lumber,wood,500,0.2,0.25,0.01,0.02,Fabricated typical range inspired by ICE/Ecoinvent/EPDs
+MAT_ASPHALT,Asphalt roofing,membrane,1100,0.7,0.9,0.03,0.05,Fabricated typical range inspired by ICE/Ecoinvent/EPDs
+MAT_EPDM,EPDM roofing membrane,membrane,1200,3.0,3.3,0.05,0.08,Fabricated typical range inspired by ICE/Ecoinvent/EPDs
+MAT_TPO,TPO roofing membrane,membrane,900,2.0,2.3,0.05,0.08,Fabricated typical range inspired by ICE/Ecoinvent/EPDs

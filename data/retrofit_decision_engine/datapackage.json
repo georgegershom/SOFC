@@ -1,0 +1,63 @@
+{
+  "name": "retrofit_decision_engine_dataset",
+  "title": "Retrofit Intervention & Lifecycle Data (Decision Engine)",
+  "description": "Fabricated dataset for multi-objective retrofit optimization with LCI, operational carbon, measures, and maintenance.",
+  "version": "1.0.0",
+  "created_at": "2025-10-16T23:47:01.563663Z",
+  "sources": [
+    {
+      "title": "Typical ranges inspired by ICE database, Ecoinvent, and EPDs",
+      "path": "https://www.ice.org.uk/knowledge-and-resources/briefing-sheet/ice-database"
+    }
+  ],
+  "resources": [
+    {
+      "path": "materials_lci.csv",
+      "name": "materials_lci"
+    },
+    {
+      "path": "systems_lci.csv",
+      "name": "systems_lci"
+    },
+    {
+      "path": "measures.csv",
+      "name": "measures"
+    },
+    {
+      "path": "measure_materials_crosswalk.csv",
+      "name": "measure_materials_crosswalk"
+    },
+    {
+      "path": "measure_systems_crosswalk.csv",
+      "name": "measure_systems_crosswalk"
+    },
+    {
+      "path": "measure_applicability.csv",
+      "name": "measure_applicability"
+    },
+    {
+      "path": "fuel_emission_factors.csv",
+      "name": "fuel_emission_factors"
+    },
+    {
+      "path": "grid_regions.csv",
+      "name": "grid_regions"
+    },
+    {
+      "path": "grid_ci_hourly.csv",
+      "name": "grid_ci_hourly"
+    },
+    {
+      "path": "energy_costs.csv",
+      "name": "energy_costs"
+    },
+    {
+      "path": "maintenance.csv",
+      "name": "maintenance"
+    },
+    {
+      "path": "degradation.csv",
+      "name": "degradation"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+entity_type,entity_id,metric,annual_change_fraction,model,notes
+system,SYS_PV_MODULE,output,-0.005,linear,PV module degradation
+system,SYS_PV_INVERTER,efficiency,-0.002,linear,Electronics ageing
+system,SYS_LI_ION_BATTERY,usable_capacity,-0.02,linear,Calendar ageing
+measure,ME_LT_LED,lumen_output,-0.01,linear,Lumen maintenance
+measure,ME_EN_ROOF_R106_POLYISO,r_value,-0.001,linear,Insulation settling
+measure,ME_EN_WINDOW_U12,u_value,0.0005,linear,Seal deterioration
+measure,ME_HV_ATW_HP,cop,-0.002,linear,Compressor wear

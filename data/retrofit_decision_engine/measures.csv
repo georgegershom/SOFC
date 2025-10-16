@@ -1,0 +1,26 @@
+measure_id,name,category,target,unit,unit_desc,currency,capex_per_unit_usd,fixed_cost_usd,lifespan_years,opex_annual_delta_usd,perf_u_value_old,perf_u_value_new,perf_r_value_old,perf_r_value_new,perf_hvac_eff_old,perf_hvac_eff_new,perf_lpd_old_w_per_m2,perf_lpd_new_w_per_m2,perf_infiltration_ach50_old,perf_infiltration_ach50_new,pv_nameplate_kw,battery_capacity_kwh,control_savings_pct_hvac,control_savings_pct_ltg,notes
+ME_EN_ROOF_R21_POLYISO,Add 2 inches Polyiso roof insulation,Envelope,Roof,m2,Per square meter of roof area,USD,36,0,40,0.0,0.5,0.243,2.0,4.11,,,,,,,,,,,Assumes overlay above deck; includes membrane touch-ups
+ME_EN_ROOF_R42_POLYISO,Add 4 inches Polyiso roof insulation,Envelope,Roof,m2,Per square meter of roof area,USD,72,0,40,0.0,0.5,0.161,2.0,6.23,,,,,,,,,,,Assumes overlay above deck; includes membrane touch-ups
+ME_EN_ROOF_R63_POLYISO,Add 6 inches Polyiso roof insulation,Envelope,Roof,m2,Per square meter of roof area,USD,108,0,40,0.0,0.5,0.12,2.0,8.34,,,,,,,,,,,Assumes overlay above deck; includes membrane touch-ups
+ME_EN_ROOF_R29_XPS,Add 4 inches Xps roof insulation,Envelope,Roof,m2,Per square meter of roof area,USD,72,0,40,0.0,0.5,0.202,2.0,4.96,,,,,,,,,,,Assumes overlay above deck; includes membrane touch-ups
+ME_EN_ROOF_R44_XPS,Add 6 inches Xps roof insulation,Envelope,Roof,m2,Per square meter of roof area,USD,108,0,40,0.0,0.5,0.155,2.0,6.44,,,,,,,,,,,Assumes overlay above deck; includes membrane touch-ups
+ME_EN_ROOF_R40_MINERAL_WOOL,Add 6 inches Mineral Wool roof insulation,Envelope,Roof,m2,Per square meter of roof area,USD,108,0,40,0.0,0.5,0.166,2.0,6.02,,,,,,,,,,,Assumes overlay above deck; includes membrane touch-ups
+ME_EN_AIR_SEALING,Comprehensive air sealing,Envelope,WholeEnvelope,m2,Per square meter of envelope area (proxy),USD,8.0,1500.0,20,0.0,,,,,,,,,8.0,4.0,,,,,Includes sealing of penetrations and weatherstripping
+ME_EN_WINDOW_U18,Replace windows with Double-pane low-E,Envelope,Windows,m2,Per square meter of window area,USD,350.0,2000.0,30,0.0,3.2,1.8,,,,,,,,,,,,,Includes frames and glazing; U-value in W/m²K
+ME_EN_WINDOW_U12,Replace windows with Triple-pane low-E,Envelope,Windows,m2,Per square meter of window area,USD,500.0,2000.0,30,0.0,3.2,1.2,,,,,,,,,,,,,Includes frames and glazing; U-value in W/m²K
+ME_EN_SHADING,Install exterior shading devices,Envelope,Shading,m2,Per square meter of glazing,USD,120.0,1000.0,25,0.0,,,,,,,,,,,,,,,Reduces solar gains; improves comfort
+ME_HV_BOILER_COND,Replace boiler with condensing boiler,HVAC,Boiler,kw,Per kW of boiler capacity,USD,180.0,5000.0,20,0.0,,,,,0.82,0.96,,,,,,,,,High-efficiency condensing with O2 trim
+ME_HV_ATW_HP,Replace boiler with air-to-water heat pump,HVAC,BoilerToHP,kw,Per kW of heating capacity,USD,650.0,12000.0,15,0.0,,,,,0.82,3.2,,,,,,,,,COP at 7°C/35°C; includes hydronics mods
+ME_HV_CHILLER_HIGH_EFF,Replace chiller with high-efficiency model,HVAC,Chiller,kw,Per kW of cooling capacity,USD,400.0,15000.0,25,0.0,,,,,3.5,5.6,,,,,,,,,EER to IPLV improvement
+ME_HV_ADD_ERV,Add energy recovery ventilation,HVAC,Ventilation,cfm,Per cfm of supply air,USD,3.2,8000.0,20,0.0,,,,,,,,,,,,,,,Plate or wheel ERV; 70% effectiveness typical
+ME_HV_VFD,Install VFDs on fans/pumps,HVAC,Motors,kw,Per kW of motor rated power,USD,120.0,3000.0,15,0.0,,,,,,,,,,,,,,,Affinity law savings with proper control
+ME_LT_LED,Retrofit lighting to LED,Lighting,Lighting,m2,Per square meter of floor area,USD,22.0,0.0,12,0.0,,,,,,,12.0,7.0,,,,,,,Includes new fixtures; typical office LPD
+ME_LT_CONTROLS,Add daylighting and occupancy controls,Lighting,Controls,m2,Per square meter of floor area,USD,8.0,0.0,12,0.0,,,,,,,,,,,,,,0.2,20% savings on top of LED
+ME_RE_PV_10KW,Install 10 kW solar PV,Renewables,PV,system,One 10 kW PV system,USD,12000.0,0.0,25,0.0,,,,,,,,,,,10,,,,"Includes modules, racking, wiring"
+ME_RE_PV_50KW,Install 50 kW solar PV,Renewables,PV,system,One 50 kW PV system,USD,60000.0,0.0,25,0.0,,,,,,,,,,,50,,,,"Includes modules, racking, wiring"
+ME_RE_PV_100KW,Install 100 kW solar PV,Renewables,PV,system,One 100 kW PV system,USD,120000.0,0.0,25,0.0,,,,,,,,,,,100,,,,"Includes modules, racking, wiring"
+ME_RE_BAT_50KWH,Install 50 kWh Li-ion battery,Renewables,Storage,system,One 50 kWh battery system,USD,27500.0,3000.0,10,0.0,,,,,,,,,,,,50,,,Includes BMS and enclosure
+ME_DHW_HPWH,Replace DHW with heat pump water heater,DHW,WaterHeater,kw,Per kW of DHW capacity,USD,400.0,4000.0,12,0.0,,,,,0.85,2.8,,,,,,,,,COP at standard conditions
+ME_DHW_HIGHEFF_GAS,Replace DHW with high-efficiency gas unit,DHW,WaterHeater,kw,Per kW of DHW capacity,USD,220.0,2500.0,15,0.0,,,,,0.8,0.95,,,,,,,,,Condensing gas tankless or storage
+ME_CTRL_BMS,Install building management system (BMS),Controls,BMS,m2,Per square meter of floor area,USD,10.0,15000.0,15,0.0,,,,,,,,,,,,,0.1,,Includes sensors; enables DR and optimization
+ME_CTRL_ADV_SEQ,Implement advanced control sequences,Controls,Sequences,m2,Per square meter of floor area,USD,3.0,6000.0,10,0.0,,,,,,,,,,,,,0.08,,"Optimal start/stop, reset strategies"
