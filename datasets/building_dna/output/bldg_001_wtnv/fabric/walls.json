@@ -1,0 +1,30 @@
+[
+  {
+    "assembly": "wall_plywood_polyiso",
+    "layers": [
+      {
+        "material": "plywood",
+        "thickness_m": 0.06755654461296638,
+        "thermal_conductivity_W_mK": 0.12,
+        "density_kg_m3": 550,
+        "specific_heat_J_kgK": 1500
+      },
+      {
+        "material": "polyiso",
+        "thickness_m": 0.03,
+        "thermal_conductivity_W_mK": 0.028,
+        "density_kg_m3": 32,
+        "specific_heat_J_kgK": 1400
+      },
+      {
+        "material": "gypsum",
+        "thickness_m": 0.013369739401085393,
+        "thermal_conductivity_W_mK": 0.17,
+        "density_kg_m3": 800,
+        "specific_heat_J_kgK": 1090
+      }
+    ],
+    "u_value_W_m2K": 0.531,
+    "r_value_m2K_W": 1.883
+  }
+]

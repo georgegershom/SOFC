@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Building Metadata",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "address": { "type": "string" },
+    "year_built": { "type": "integer", "minimum": 1800, "maximum": 2025 },
+    "climate_zone": { "type": "string" },
+    "num_floors": { "type": "integer", "minimum": 1, "maximum": 60 },
+    "gross_floor_area_m2": { "type": "number", "minimum": 10 },
+    "use_type": { "type": "string" }
+  },
+  "required": ["id", "name", "year_built", "climate_zone", "num_floors", "gross_floor_area_m2", "use_type"],
+  "additionalProperties": true
+}

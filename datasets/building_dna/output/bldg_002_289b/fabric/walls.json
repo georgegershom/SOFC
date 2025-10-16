@@ -1,0 +1,30 @@
+[
+  {
+    "assembly": "wall_brick_polyiso",
+    "layers": [
+      {
+        "material": "brick",
+        "thickness_m": 0.06002259829924361,
+        "thermal_conductivity_W_mK": 0.6,
+        "density_kg_m3": 1700,
+        "specific_heat_J_kgK": 840
+      },
+      {
+        "material": "polyiso",
+        "thickness_m": 0.03458291501124971,
+        "thermal_conductivity_W_mK": 0.028,
+        "density_kg_m3": 32,
+        "specific_heat_J_kgK": 1400
+      },
+      {
+        "material": "gypsum",
+        "thickness_m": 0.0158272035170199,
+        "thermal_conductivity_W_mK": 0.17,
+        "density_kg_m3": 800,
+        "specific_heat_J_kgK": 1090
+      }
+    ],
+    "u_value_W_m2K": 0.626,
+    "r_value_m2K_W": 1.598
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "assembly": "floor_concrete_mineral_wool",
+    "layers": [
+      {
+        "material": "concrete",
+        "thickness_m": 0.13216363161873101,
+        "thermal_conductivity_W_mK": 1.4,
+        "density_kg_m3": 2200,
+        "specific_heat_J_kgK": 880
+      },
+      {
+        "material": "mineral_wool",
+        "thickness_m": 0.19962172945549872,
+        "thermal_conductivity_W_mK": 0.04,
+        "density_kg_m3": 40,
+        "specific_heat_J_kgK": 840
+      }
+    ],
+    "u_value_W_m2K": 0.19,
+    "r_value_m2K_W": 5.255
+  }
+]
