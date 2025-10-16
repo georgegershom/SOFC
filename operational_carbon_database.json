@@ -1,0 +1,500 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2025-10-16",
+    "description": "Operational Carbon Database for Building Energy Systems and Retrofit Measures",
+    "data_sources": ["EIA", "EPA eGRID", "ASHRAE 90.1", "DOE Commercial Reference Buildings", "NREL ResStock"],
+    "methodology": "Hourly energy simulation with regional carbon intensity factors",
+    "temporal_resolution": "hourly",
+    "spatial_resolution": "climate_zone_and_utility_region",
+    "reference_year": 2023
+  },
+  "building_baselines": {
+    "office_buildings": {
+      "small_office": {
+        "building_type": "small_office",
+        "floor_area_m2": 511,
+        "stories": 1,
+        "vintage": "post_1980",
+        "baseline_energy_use": {
+          "total_annual_kwh": 15850,
+          "eui_kwh_per_m2": 31.0,
+          "heating_fraction": 0.35,
+          "cooling_fraction": 0.28,
+          "lighting_fraction": 0.22,
+          "equipment_fraction": 0.15
+        },
+        "by_climate_zone": {
+          "1A_miami": {
+            "total_annual_kwh": 18250,
+            "heating_kwh": 1825,
+            "cooling_kwh": 8395,
+            "lighting_kwh": 4015,
+            "equipment_kwh": 4015,
+            "peak_demand_kw": 8.5
+          },
+          "2A_houston": {
+            "total_annual_kwh": 16850,
+            "heating_kwh": 2360,
+            "cooling_kwh": 7315,
+            "equipment_kwh": 3705,
+            "lighting_kwh": 3470,
+            "peak_demand_kw": 7.8
+          },
+          "3A_atlanta": {
+            "total_annual_kwh": 15650,
+            "heating_kwh": 3285,
+            "cooling_kwh": 5485,
+            "lighting_kwh": 3440,
+            "equipment_kwh": 3440,
+            "peak_demand_kw": 7.2
+          },
+          "4A_baltimore": {
+            "total_annual_kwh": 14850,
+            "heating_kwh": 4455,
+            "cooling_kwh": 3705,
+            "lighting_kwh": 3345,
+            "equipment_kwh": 3345,
+            "peak_demand_kw": 6.8
+          },
+          "5A_chicago": {
+            "total_annual_kwh": 15250,
+            "heating_kwh": 5485,
+            "cooling_kwh": 2745,
+            "lighting_kwh": 3510,
+            "equipment_kwh": 3510,
+            "peak_demand_kw": 6.5
+          },
+          "6A_minneapolis": {
+            "total_annual_kwh": 16450,
+            "heating_kwh": 7385,
+            "cooling_kwh": 1645,
+            "lighting_kwh": 3710,
+            "equipment_kwh": 3710,
+            "peak_demand_kw": 6.2
+          }
+        }
+      },
+      "medium_office": {
+        "building_type": "medium_office",
+        "floor_area_m2": 4982,
+        "stories": 3,
+        "vintage": "post_1980",
+        "baseline_energy_use": {
+          "total_annual_kwh": 154280,
+          "eui_kwh_per_m2": 31.0,
+          "heating_fraction": 0.32,
+          "cooling_fraction": 0.31,
+          "lighting_fraction": 0.24,
+          "equipment_fraction": 0.13
+        },
+        "by_climate_zone": {
+          "1A_miami": {
+            "total_annual_kwh": 178500,
+            "heating_kwh": 17850,
+            "cooling_kwh": 82035,
+            "lighting_kwh": 42840,
+            "equipment_kwh": 35775,
+            "peak_demand_kw": 85.2
+          },
+          "4A_baltimore": {
+            "total_annual_kwh": 145800,
+            "heating_kwh": 46656,
+            "cooling_kwh": 45198,
+            "lighting_kwh": 34992,
+            "equipment_kwh": 18954,
+            "peak_demand_kw": 68.5
+          },
+          "5A_chicago": {
+            "total_annual_kwh": 149650,
+            "heating_kwh": 57345,
+            "cooling_kwh": 37415,
+            "lighting_kwh": 35916,
+            "equipment_kwh": 18974,
+            "peak_demand_kw": 65.8
+          }
+        }
+      },
+      "large_office": {
+        "building_type": "large_office",
+        "floor_area_m2": 46320,
+        "stories": 12,
+        "vintage": "post_1980",
+        "baseline_energy_use": {
+          "total_annual_kwh": 1435920,
+          "eui_kwh_per_m2": 31.0,
+          "heating_fraction": 0.28,
+          "cooling_fraction": 0.35,
+          "lighting_fraction": 0.22,
+          "equipment_fraction": 0.15
+        }
+      }
+    },
+    "retail_buildings": {
+      "standalone_retail": {
+        "building_type": "standalone_retail",
+        "floor_area_m2": 2294,
+        "stories": 1,
+        "vintage": "post_1980",
+        "baseline_energy_use": {
+          "total_annual_kwh": 55056,
+          "eui_kwh_per_m2": 24.0,
+          "heating_fraction": 0.25,
+          "cooling_fraction": 0.35,
+          "lighting_fraction": 0.30,
+          "equipment_fraction": 0.10
+        }
+      }
+    },
+    "multifamily_buildings": {
+      "mid_rise_apartment": {
+        "building_type": "mid_rise_apartment",
+        "floor_area_m2": 3135,
+        "stories": 4,
+        "units": 33,
+        "vintage": "post_1980",
+        "baseline_energy_use": {
+          "total_annual_kwh": 62700,
+          "eui_kwh_per_m2": 20.0,
+          "heating_fraction": 0.45,
+          "cooling_fraction": 0.25,
+          "lighting_fraction": 0.15,
+          "equipment_fraction": 0.15
+        }
+      }
+    }
+  },
+  "energy_savings_factors": {
+    "envelope_measures": {
+      "roof_insulation": {
+        "2_inch_polyiso": {
+          "heating_savings_factor": 0.15,
+          "cooling_savings_factor": 0.08,
+          "climate_zone_multipliers": {
+            "1A": 0.6,
+            "2A": 0.8,
+            "3A": 1.0,
+            "4A": 1.2,
+            "5A": 1.4,
+            "6A": 1.6,
+            "7": 1.8,
+            "8": 2.0
+          }
+        },
+        "4_inch_polyiso": {
+          "heating_savings_factor": 0.25,
+          "cooling_savings_factor": 0.12,
+          "climate_zone_multipliers": {
+            "1A": 0.6,
+            "2A": 0.8,
+            "3A": 1.0,
+            "4A": 1.2,
+            "5A": 1.4,
+            "6A": 1.6,
+            "7": 1.8,
+            "8": 2.0
+          }
+        }
+      },
+      "wall_insulation": {
+        "spray_foam": {
+          "heating_savings_factor": 0.22,
+          "cooling_savings_factor": 0.15,
+          "air_sealing_bonus": 0.08
+        },
+        "mineral_wool": {
+          "heating_savings_factor": 0.18,
+          "cooling_savings_factor": 0.12,
+          "air_sealing_bonus": 0.03
+        }
+      },
+      "window_replacement": {
+        "double_pane_low_e": {
+          "heating_savings_factor": 0.20,
+          "cooling_savings_factor": 0.18,
+          "lighting_interaction": -0.02
+        },
+        "triple_pane_high_performance": {
+          "heating_savings_factor": 0.35,
+          "cooling_savings_factor": 0.25,
+          "lighting_interaction": -0.03
+        },
+        "electrochromic_smart": {
+          "heating_savings_factor": 0.30,
+          "cooling_savings_factor": 0.45,
+          "lighting_interaction": 0.15,
+          "peak_demand_reduction": 0.25
+        }
+      }
+    },
+    "hvac_measures": {
+      "heat_pump_replacement": {
+        "air_source_heat_pump": {
+          "heating_efficiency_improvement": 2.8,
+          "cooling_efficiency_improvement": 1.6,
+          "baseline_heating_cop": 1.5,
+          "baseline_cooling_eer": 10.0,
+          "new_heating_cop": 4.2,
+          "new_cooling_eer": 16.0
+        },
+        "ground_source_heat_pump": {
+          "heating_efficiency_improvement": 3.4,
+          "cooling_efficiency_improvement": 2.2,
+          "baseline_heating_cop": 1.5,
+          "baseline_cooling_eer": 10.0,
+          "new_heating_cop": 5.1,
+          "new_cooling_eer": 22.0
+        },
+        "vrf_system": {
+          "heating_efficiency_improvement": 3.2,
+          "cooling_efficiency_improvement": 1.85,
+          "part_load_bonus": 0.15,
+          "simultaneous_heating_cooling_savings": 0.20
+        }
+      },
+      "ventilation_upgrade": {
+        "energy_recovery_ventilator": {
+          "heating_load_reduction": 0.35,
+          "cooling_load_reduction": 0.28,
+          "fan_energy_increase": 850,
+          "outdoor_air_requirement_compliance": true
+        }
+      }
+    },
+    "renewable_energy": {
+      "solar_pv": {
+        "10kw_system": {
+          "annual_generation_kwh_per_kw": {
+            "1A_miami": 1580,
+            "2A_houston": 1520,
+            "3A_atlanta": 1450,
+            "4A_baltimore": 1380,
+            "5A_chicago": 1320,
+            "6A_minneapolis": 1280,
+            "2B_phoenix": 1680,
+            "3B_las_vegas": 1620,
+            "4B_albuquerque": 1580,
+            "5B_denver": 1520,
+            "3C_san_francisco": 1420,
+            "4C_seattle": 1180
+          },
+          "capacity_factor": {
+            "average": 0.18,
+            "range": [0.13, 0.22]
+          },
+          "performance_degradation_annual": 0.005
+        },
+        "25kw_system": {
+          "annual_generation_kwh_per_kw": {
+            "1A_miami": 1600,
+            "2A_houston": 1540,
+            "3A_atlanta": 1470,
+            "4A_baltimore": 1400,
+            "5A_chicago": 1340,
+            "6A_minneapolis": 1300
+          },
+          "capacity_factor": {
+            "average": 0.19,
+            "range": [0.14, 0.23]
+          },
+          "performance_degradation_annual": 0.004
+        }
+      },
+      "battery_storage": {
+        "13_5kwh_system": {
+          "round_trip_efficiency": 0.90,
+          "daily_cycles": 1.2,
+          "peak_shaving_potential_kw": 3.5,
+          "backup_duration_hours": 8,
+          "grid_services_revenue_annual": 350
+        }
+      }
+    },
+    "lighting": {
+      "led_retrofit": {
+        "power_reduction_factor": 0.65,
+        "lighting_quality_improvement": 0.15,
+        "heat_gain_reduction": 0.70,
+        "cooling_interaction_savings": 0.08
+      }
+    },
+    "building_automation": {
+      "advanced_bms": {
+        "hvac_optimization_savings": 0.18,
+        "lighting_control_savings": 0.25,
+        "equipment_scheduling_savings": 0.12,
+        "demand_response_revenue_annual_per_kw": 45,
+        "predictive_maintenance_cost_reduction": 0.15
+      }
+    }
+  },
+  "carbon_intensity_factors": {
+    "electricity_grid": {
+      "hourly_profiles": {
+        "US_national_average": {
+          "annual_average_kg_co2e_per_kwh": 0.386,
+          "peak_hours_kg_co2e_per_kwh": 0.485,
+          "off_peak_hours_kg_co2e_per_kwh": 0.325,
+          "seasonal_variation": {
+            "summer_multiplier": 1.15,
+            "winter_multiplier": 1.08,
+            "spring_fall_multiplier": 0.92
+          }
+        },
+        "NERC_regions": {
+          "NPCC": {
+            "name": "Northeast Power Coordinating Council",
+            "annual_average_kg_co2e_per_kwh": 0.285,
+            "renewable_fraction": 0.35,
+            "marginal_emission_factor": 0.425
+          },
+          "RFC": {
+            "name": "ReliabilityFirst Corporation",
+            "annual_average_kg_co2e_per_kwh": 0.445,
+            "renewable_fraction": 0.18,
+            "marginal_emission_factor": 0.585
+          },
+          "SERC": {
+            "name": "SERC Reliability Corporation",
+            "annual_average_kg_co2e_per_kwh": 0.485,
+            "renewable_fraction": 0.15,
+            "marginal_emission_factor": 0.625
+          },
+          "MRO": {
+            "name": "Midwest Reliability Organization",
+            "annual_average_kg_co2e_per_kwh": 0.525,
+            "renewable_fraction": 0.22,
+            "marginal_emission_factor": 0.685
+          },
+          "SPP": {
+            "name": "Southwest Power Pool",
+            "annual_average_kg_co2e_per_kwh": 0.485,
+            "renewable_fraction": 0.28,
+            "marginal_emission_factor": 0.585
+          },
+          "ERCOT": {
+            "name": "Electric Reliability Council of Texas",
+            "annual_average_kg_co2e_per_kwh": 0.385,
+            "renewable_fraction": 0.28,
+            "marginal_emission_factor": 0.485
+          },
+          "WECC": {
+            "name": "Western Electricity Coordinating Council",
+            "annual_average_kg_co2e_per_kwh": 0.285,
+            "renewable_fraction": 0.42,
+            "marginal_emission_factor": 0.385
+          }
+        }
+      },
+      "future_projections": {
+        "2025": {
+          "national_average_reduction": 0.15,
+          "renewable_growth_rate": 0.08
+        },
+        "2030": {
+          "national_average_reduction": 0.35,
+          "renewable_growth_rate": 0.12
+        },
+        "2035": {
+          "national_average_reduction": 0.55,
+          "renewable_growth_rate": 0.15
+        },
+        "2040": {
+          "national_average_reduction": 0.70,
+          "renewable_growth_rate": 0.18
+        },
+        "2050": {
+          "national_average_reduction": 0.85,
+          "renewable_growth_rate": 0.20
+        }
+      }
+    },
+    "natural_gas": {
+      "combustion_factor_kg_co2e_per_kwh": 0.185,
+      "upstream_emissions_factor": 0.025,
+      "total_factor_kg_co2e_per_kwh": 0.210,
+      "regional_variation": 0.05
+    },
+    "fuel_oil": {
+      "combustion_factor_kg_co2e_per_kwh": 0.265,
+      "upstream_emissions_factor": 0.035,
+      "total_factor_kg_co2e_per_kwh": 0.300
+    },
+    "propane": {
+      "combustion_factor_kg_co2e_per_kwh": 0.215,
+      "upstream_emissions_factor": 0.028,
+      "total_factor_kg_co2e_per_kwh": 0.243
+    }
+  },
+  "operational_profiles": {
+    "building_schedules": {
+      "office": {
+        "occupancy_schedule": {
+          "weekday": [0, 0, 0, 0, 0, 0, 0.1, 0.5, 0.9, 0.95, 0.95, 0.95, 0.5, 0.95, 0.95, 0.95, 0.95, 0.7, 0.3, 0.1, 0.1, 0.05, 0.05, 0],
+          "saturday": [0, 0, 0, 0, 0, 0, 0, 0.1, 0.3, 0.5, 0.5, 0.5, 0.3, 0.5, 0.5, 0.3, 0.1, 0.1, 0, 0, 0, 0, 0, 0],
+          "sunday": [0, 0, 0, 0, 0, 0, 0, 0, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0, 0, 0, 0, 0, 0, 0]
+        },
+        "lighting_schedule": {
+          "weekday": [0.05, 0.05, 0.05, 0.05, 0.05, 0.1, 0.3, 0.65, 0.9, 0.9, 0.9, 0.9, 0.8, 0.9, 0.9, 0.9, 0.9, 0.7, 0.5, 0.3, 0.2, 0.1, 0.05, 0.05]
+        },
+        "equipment_schedule": {
+          "weekday": [0.4, 0.4, 0.4, 0.4, 0.4, 0.4, 0.5, 0.7, 0.9, 0.9, 0.9, 0.9, 0.8, 0.9, 0.9, 0.9, 0.9, 0.7, 0.5, 0.5, 0.5, 0.4, 0.4, 0.4]
+        }
+      },
+      "retail": {
+        "occupancy_schedule": {
+          "weekday": [0, 0, 0, 0, 0, 0, 0, 0.1, 0.2, 0.4, 0.6, 0.8, 0.9, 0.9, 0.9, 0.9, 0.9, 0.8, 0.7, 0.5, 0.3, 0.1, 0, 0],
+          "saturday": [0, 0, 0, 0, 0, 0, 0, 0.1, 0.3, 0.6, 0.8, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.8, 0.6, 0.4, 0.2, 0.1, 0, 0],
+          "sunday": [0, 0, 0, 0, 0, 0, 0, 0, 0.2, 0.4, 0.6, 0.7, 0.8, 0.8, 0.8, 0.8, 0.7, 0.6, 0.4, 0.2, 0.1, 0, 0, 0]
+        }
+      }
+    },
+    "weather_sensitivity": {
+      "heating_degree_days": {
+        "base_temperature_c": 18.3,
+        "climate_zone_hdd": {
+          "1A": 200,
+          "2A": 1400,
+          "3A": 2200,
+          "4A": 3200,
+          "5A": 4200,
+          "6A": 5600,
+          "7": 7000,
+          "8": 9000
+        }
+      },
+      "cooling_degree_days": {
+        "base_temperature_c": 18.3,
+        "climate_zone_cdd": {
+          "1A": 4500,
+          "2A": 3000,
+          "3A": 1800,
+          "4A": 1200,
+          "5A": 800,
+          "6A": 500,
+          "7": 200,
+          "8": 50
+        }
+      }
+    }
+  },
+  "demand_response": {
+    "programs": {
+      "peak_shaving": {
+        "event_frequency_annual": 15,
+        "event_duration_hours": 4,
+        "load_reduction_required": 0.20,
+        "compensation_usd_per_kw": 45
+      },
+      "time_of_use": {
+        "peak_hours": [14, 15, 16, 17, 18, 19],
+        "peak_rate_multiplier": 2.5,
+        "off_peak_rate_multiplier": 0.7
+      },
+      "real_time_pricing": {
+        "price_volatility_factor": 0.35,
+        "carbon_intensity_correlation": 0.85
+      }
+    }
+  }
+}
