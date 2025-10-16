@@ -1,0 +1,36 @@
+{
+  "dataset_name": "SOFC Experimental Validation Dataset",
+  "dataset_version": "1.0",
+  "generation_date": "2025-10-16 01:03:53",
+  "n_samples": 35,
+  "sample_dimensions_mm": [
+    50.0,
+    50.0
+  ],
+  "measurement_techniques": [
+    "White Light Interferometry (Warp)",
+    "Curvature-based Inverse (Stoney)",
+    "Layer Removal Milling",
+    "X-Ray Diffraction",
+    "Raman Spectroscopy"
+  ],
+  "parameter_ranges": {
+    "anode_thickness_um": [
+      300,
+      800
+    ],
+    "electrolyte_thickness_um": [
+      5,
+      20
+    ],
+    "cathode_thickness_um": [
+      20,
+      80
+    ],
+    "sintering_temp_C": [
+      1100,
+      1500
+    ]
+  },
+  "notes": "Synthetic dataset simulating realistic experimental measurements for ML validation"
+}

@@ -1,0 +1,17 @@
+{
+  "validation_date": "2025-10-16 01:04:04",
+  "dataset_directory": "experimental_validation_dataset",
+  "checks_performed": [
+    "file_structure",
+    "data_consistency",
+    "physical_constraints",
+    "statistical_properties"
+  ],
+  "results": {
+    "file_structure": true,
+    "data_consistency": true,
+    "physical_constraints": false,
+    "statistical_properties": true
+  },
+  "overall_status": false
+}
