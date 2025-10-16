@@ -1,0 +1,1027 @@
+{
+  "tmy_data": {
+    "total_records": 438000,
+    "columns": [
+      "location_id",
+      "latitude",
+      "longitude",
+      "city",
+      "country",
+      "year",
+      "month",
+      "day",
+      "hour",
+      "datetime",
+      "dry_bulb_temperature_c",
+      "relative_humidity_pct",
+      "wind_speed_mps",
+      "wind_direction_deg",
+      "atmospheric_pressure_pa",
+      "global_horizontal_irradiance_whm2",
+      "cloud_cover_pct",
+      "precipitation_mm"
+    ],
+    "missing_values": {
+      "location_id": 0,
+      "latitude": 0,
+      "longitude": 0,
+      "city": 0,
+      "country": 0,
+      "year": 0,
+      "month": 0,
+      "day": 0,
+      "hour": 0,
+      "datetime": 0,
+      "dry_bulb_temperature_c": 0,
+      "relative_humidity_pct": 0,
+      "wind_speed_mps": 0,
+      "wind_direction_deg": 0,
+      "atmospheric_pressure_pa": 0,
+      "global_horizontal_irradiance_whm2": 0,
+      "cloud_cover_pct": 0,
+      "precipitation_mm": 0
+    },
+    "data_types": {
+      "location_id": "object",
+      "latitude": "float64",
+      "longitude": "float64",
+      "city": "object",
+      "country": "object",
+      "year": "int64",
+      "month": "int64",
+      "day": "int64",
+      "hour": "int64",
+      "datetime": "object",
+      "dry_bulb_temperature_c": "float64",
+      "relative_humidity_pct": "float64",
+      "wind_speed_mps": "float64",
+      "wind_direction_deg": "float64",
+      "atmospheric_pressure_pa": "float64",
+      "global_horizontal_irradiance_whm2": "float64",
+      "cloud_cover_pct": "float64",
+      "precipitation_mm": "float64"
+    },
+    "numeric_ranges": {
+      "latitude": {
+        "min": -33.8688,
+        "max": 52.52,
+        "mean": 27.44870999999999
+      },
+      "longitude": {
+        "min": -79.3832,
+        "max": 151.2093,
+        "mean": 29.57516
+      },
+      "year": {
+        "min": 2020.0,
+        "max": 2024.0,
+        "mean": 2022.0
+      },
+      "month": {
+        "min": 1.0,
+        "max": 12.0,
+        "mean": 6.526027397260274
+      },
+      "day": {
+        "min": 1.0,
+        "max": 31.0,
+        "mean": 15.72054794520548
+      },
+      "hour": {
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 11.5
+      },
+      "dry_bulb_temperature_c": {
+        "min": -27.45,
+        "max": 29.82,
+        "mean": 0.44573860730593584
+      },
+      "relative_humidity_pct": {
+        "min": 45.8,
+        "max": 90.0,
+        "mean": 86.39083698630135
+      },
+      "wind_speed_mps": {
+        "min": 0.0,
+        "max": 8.0,
+        "mean": 3.993594178082192
+      },
+      "wind_direction_deg": {
+        "min": 0.0,
+        "max": 360.0,
+        "mean": 179.8685413242009
+      },
+      "atmospheric_pressure_pa": {
+        "min": 76872.0,
+        "max": 101494.0,
+        "mean": 89193.25062100457
+      },
+      "global_horizontal_irradiance_whm2": {
+        "min": 0.0,
+        "max": 749.7,
+        "mean": 130.7179506849315
+      },
+      "cloud_cover_pct": {
+        "min": 0.0,
+        "max": 80.0,
+        "mean": 39.9426205479452
+      },
+      "precipitation_mm": {
+        "min": 0.0,
+        "max": 10.0,
+        "mean": 1.4952596575342465
+      }
+    }
+  },
+  "future_climate_projections": {
+    "total_records": 2880,
+    "columns": [
+      "location_id",
+      "latitude",
+      "longitude",
+      "city",
+      "country",
+      "scenario",
+      "year",
+      "month",
+      "projected_temperature_c",
+      "temperature_increase_c",
+      "humidity_change_pct",
+      "precipitation_change_pct",
+      "extreme_weather_frequency",
+      "heat_wave_days",
+      "cooling_degree_days",
+      "heating_degree_days"
+    ],
+    "missing_values": {
+      "location_id": 0,
+      "latitude": 0,
+      "longitude": 0,
+      "city": 0,
+      "country": 0,
+      "scenario": 0,
+      "year": 0,
+      "month": 0,
+      "projected_temperature_c": 0,
+      "temperature_increase_c": 0,
+      "humidity_change_pct": 0,
+      "precipitation_change_pct": 0,
+      "extreme_weather_frequency": 0,
+      "heat_wave_days": 0,
+      "cooling_degree_days": 0,
+      "heating_degree_days": 0
+    },
+    "data_types": {
+      "location_id": "object",
+      "latitude": "float64",
+      "longitude": "float64",
+      "city": "object",
+      "country": "object",
+      "scenario": "object",
+      "year": "int64",
+      "month": "int64",
+      "projected_temperature_c": "float64",
+      "temperature_increase_c": "float64",
+      "humidity_change_pct": "float64",
+      "precipitation_change_pct": "float64",
+      "extreme_weather_frequency": "float64",
+      "heat_wave_days": "int64",
+      "cooling_degree_days": "float64",
+      "heating_degree_days": "float64"
+    },
+    "numeric_ranges": {
+      "latitude": {
+        "min": -33.8688,
+        "max": 52.52,
+        "mean": 27.448710000000002
+      },
+      "longitude": {
+        "min": -79.3832,
+        "max": 151.2093,
+        "mean": 29.575160000000004
+      },
+      "year": {
+        "min": 2020.0,
+        "max": 2090.0,
+        "mean": 2055.0
+      },
+      "month": {
+        "min": 1.0,
+        "max": 12.0,
+        "mean": 6.5
+      },
+      "projected_temperature_c": {
+        "min": -34.68,
+        "max": 36.32,
+        "mean": 3.8675902777777784
+      },
+      "temperature_increase_c": {
+        "min": 0.0,
+        "max": 3.5,
+        "mean": 1.1666666666666667
+      },
+      "humidity_change_pct": {
+        "min": 0.0,
+        "max": 140.0,
+        "mean": 40.833333333333336
+      },
+      "precipitation_change_pct": {
+        "min": 0.0,
+        "max": 221.7,
+        "mean": 58.49666666666668
+      },
+      "extreme_weather_frequency": {
+        "min": 1.0,
+        "max": 8.0,
+        "mean": 2.9833333333333334
+      },
+      "heat_wave_days": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      },
+      "cooling_degree_days": {
+        "min": 0.0,
+        "max": 18.021909995844293,
+        "mean": 1.5362895476984555
+      },
+      "heating_degree_days": {
+        "min": 0.0,
+        "max": 52.97620079988121,
+        "mean": 15.968840705143666
+      }
+    }
+  },
+  "labor_costs": {
+    "total_records": 450,
+    "columns": [
+      "region_id",
+      "country",
+      "year",
+      "activity",
+      "skill_level",
+      "base_hours_per_unit",
+      "unit_type",
+      "hourly_rate_usd",
+      "overtime_multiplier",
+      "weekend_multiplier",
+      "holiday_multiplier",
+      "productivity_factor",
+      "safety_requirements",
+      "certification_required"
+    ],
+    "missing_values": {
+      "region_id": 0,
+      "country": 0,
+      "year": 0,
+      "activity": 0,
+      "skill_level": 0,
+      "base_hours_per_unit": 0,
+      "unit_type": 0,
+      "hourly_rate_usd": 0,
+      "overtime_multiplier": 0,
+      "weekend_multiplier": 0,
+      "holiday_multiplier": 0,
+      "productivity_factor": 0,
+      "safety_requirements": 0,
+      "certification_required": 0
+    },
+    "data_types": {
+      "region_id": "object",
+      "country": "object",
+      "year": "int64",
+      "activity": "object",
+      "skill_level": "object",
+      "base_hours_per_unit": "float64",
+      "unit_type": "object",
+      "hourly_rate_usd": "float64",
+      "overtime_multiplier": "float64",
+      "weekend_multiplier": "float64",
+      "holiday_multiplier": "float64",
+      "productivity_factor": "float64",
+      "safety_requirements": "object",
+      "certification_required": "bool"
+    },
+    "numeric_ranges": {
+      "year": {
+        "min": 2020.0,
+        "max": 2024.0,
+        "mean": 2022.0
+      },
+      "base_hours_per_unit": {
+        "min": 0.2,
+        "max": 8.0,
+        "mean": 2.0555555555555554
+      },
+      "hourly_rate_usd": {
+        "min": 5.0,
+        "max": 60.48,
+        "mean": 31.407955555555557
+      },
+      "overtime_multiplier": {
+        "min": 1.5,
+        "max": 1.5,
+        "mean": 1.5
+      },
+      "weekend_multiplier": {
+        "min": 1.25,
+        "max": 1.25,
+        "mean": 1.25
+      },
+      "holiday_multiplier": {
+        "min": 2.0,
+        "max": 2.0,
+        "mean": 2.0
+      },
+      "productivity_factor": {
+        "min": 1.0,
+        "max": 1.04,
+        "mean": 1.0199999999999998
+      }
+    }
+  },
+  "energy_prices": {
+    "total_records": 438000,
+    "columns": [
+      "region_id",
+      "country",
+      "currency",
+      "year",
+      "month",
+      "day",
+      "hour",
+      "datetime",
+      "electricity_price_per_kwh",
+      "natural_gas_price_per_m3",
+      "demand_charge_per_kw",
+      "tou_period",
+      "renewable_energy_credit_per_kwh",
+      "carbon_tax_per_tonne_co2",
+      "grid_emissions_factor_kgco2_per_kwh"
+    ],
+    "missing_values": {
+      "region_id": 0,
+      "country": 0,
+      "currency": 0,
+      "year": 0,
+      "month": 0,
+      "day": 0,
+      "hour": 0,
+      "datetime": 0,
+      "electricity_price_per_kwh": 0,
+      "natural_gas_price_per_m3": 0,
+      "demand_charge_per_kw": 0,
+      "tou_period": 0,
+      "renewable_energy_credit_per_kwh": 0,
+      "carbon_tax_per_tonne_co2": 0,
+      "grid_emissions_factor_kgco2_per_kwh": 0
+    },
+    "data_types": {
+      "region_id": "object",
+      "country": "object",
+      "currency": "object",
+      "year": "int64",
+      "month": "int64",
+      "day": "int64",
+      "hour": "int64",
+      "datetime": "object",
+      "electricity_price_per_kwh": "float64",
+      "natural_gas_price_per_m3": "float64",
+      "demand_charge_per_kw": "float64",
+      "tou_period": "object",
+      "renewable_energy_credit_per_kwh": "float64",
+      "carbon_tax_per_tonne_co2": "int64",
+      "grid_emissions_factor_kgco2_per_kwh": "float64"
+    },
+    "numeric_ranges": {
+      "year": {
+        "min": 2020.0,
+        "max": 2024.0,
+        "mean": 2022.0
+      },
+      "month": {
+        "min": 1.0,
+        "max": 12.0,
+        "mean": 6.526027397260274
+      },
+      "day": {
+        "min": 1.0,
+        "max": 31.0,
+        "mean": 15.72054794520548
+      },
+      "hour": {
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 11.5
+      },
+      "electricity_price_per_kwh": {
+        "min": 0.0566,
+        "max": 0.5778,
+        "mean": 0.1944461607305936
+      },
+      "natural_gas_price_per_m3": {
+        "min": 0.201,
+        "max": 1.4904,
+        "mean": 0.5453787365296804
+      },
+      "demand_charge_per_kw": {
+        "min": 15.0,
+        "max": 24.0,
+        "mean": 20.344931506849314
+      },
+      "renewable_energy_credit_per_kwh": {
+        "min": 0.015,
+        "max": 0.029,
+        "mean": 0.02200087511415525
+      },
+      "carbon_tax_per_tonne_co2": {
+        "min": 0.0,
+        "max": 38.0,
+        "mean": 16.5
+      },
+      "grid_emissions_factor_kgco2_per_kwh": {
+        "min": 0.08,
+        "max": 0.8,
+        "mean": 0.3895
+      }
+    }
+  },
+  "material_technology_costs": {
+    "total_records": 960,
+    "columns": [
+      "category",
+      "material_name",
+      "year",
+      "region",
+      "base_cost",
+      "regional_cost",
+      "unit",
+      "efficiency_rating",
+      "efficiency_unit",
+      "lifespan_years",
+      "maintenance_cost_annual_pct",
+      "installation_complexity",
+      "carbon_footprint_kgco2_per_unit"
+    ],
+    "missing_values": {
+      "category": 0,
+      "material_name": 0,
+      "year": 0,
+      "region": 0,
+      "base_cost": 0,
+      "regional_cost": 0,
+      "unit": 0,
+      "efficiency_rating": 0,
+      "efficiency_unit": 0,
+      "lifespan_years": 0,
+      "maintenance_cost_annual_pct": 0,
+      "installation_complexity": 0,
+      "carbon_footprint_kgco2_per_unit": 0
+    },
+    "data_types": {
+      "category": "object",
+      "material_name": "object",
+      "year": "int64",
+      "region": "object",
+      "base_cost": "float64",
+      "regional_cost": "float64",
+      "unit": "object",
+      "efficiency_rating": "float64",
+      "efficiency_unit": "object",
+      "lifespan_years": "int64",
+      "maintenance_cost_annual_pct": "float64",
+      "installation_complexity": "object",
+      "carbon_footprint_kgco2_per_unit": "float64"
+    },
+    "numeric_ranges": {
+      "year": {
+        "min": 2020.0,
+        "max": 2029.0,
+        "mean": 2024.5
+      },
+      "base_cost": {
+        "min": 0.5,
+        "max": 15000.0,
+        "mean": 1790.3065833333335
+      },
+      "regional_cost": {
+        "min": 0.35,
+        "max": 16500.0,
+        "mean": 1701.4095000000002
+      },
+      "efficiency_rating": {
+        "min": 0.165,
+        "max": 129.8,
+        "mean": 16.386033333333334
+      },
+      "lifespan_years": {
+        "min": 10.0,
+        "max": 50.0,
+        "mean": 26.458333333333332
+      },
+      "maintenance_cost_annual_pct": {
+        "min": 0.5,
+        "max": 3.0,
+        "mean": 1.6041666666666667
+      },
+      "carbon_footprint_kgco2_per_unit": {
+        "min": 0.3,
+        "max": 600.0,
+        "mean": 111.44166666666666
+      }
+    }
+  },
+  "financial_parameters": {
+    "total_records": 100,
+    "columns": [
+      "country",
+      "year",
+      "discount_rate_pct",
+      "inflation_rate_pct",
+      "interest_rate_pct",
+      "real_discount_rate_pct",
+      "energy_tax_credit_pct",
+      "solar_rebate_per_kw",
+      "efficiency_rebate_pct",
+      "carbon_tax_per_tonne",
+      "net_metering_rate",
+      "feed_in_tariff_rate",
+      "property_tax_exemption_years",
+      "accelerated_depreciation_years",
+      "green_bond_availability",
+      "esg_investment_multiplier"
+    ],
+    "missing_values": {
+      "country": 0,
+      "year": 0,
+      "discount_rate_pct": 0,
+      "inflation_rate_pct": 0,
+      "interest_rate_pct": 0,
+      "real_discount_rate_pct": 0,
+      "energy_tax_credit_pct": 0,
+      "solar_rebate_per_kw": 0,
+      "efficiency_rebate_pct": 0,
+      "carbon_tax_per_tonne": 0,
+      "net_metering_rate": 0,
+      "feed_in_tariff_rate": 0,
+      "property_tax_exemption_years": 0,
+      "accelerated_depreciation_years": 0,
+      "green_bond_availability": 0,
+      "esg_investment_multiplier": 0
+    },
+    "data_types": {
+      "country": "object",
+      "year": "int64",
+      "discount_rate_pct": "float64",
+      "inflation_rate_pct": "float64",
+      "interest_rate_pct": "float64",
+      "real_discount_rate_pct": "float64",
+      "energy_tax_credit_pct": "float64",
+      "solar_rebate_per_kw": "float64",
+      "efficiency_rebate_pct": "float64",
+      "carbon_tax_per_tonne": "float64",
+      "net_metering_rate": "float64",
+      "feed_in_tariff_rate": "float64",
+      "property_tax_exemption_years": "int64",
+      "accelerated_depreciation_years": "int64",
+      "green_bond_availability": "bool",
+      "esg_investment_multiplier": "float64"
+    },
+    "numeric_ranges": {
+      "year": {
+        "min": 2020.0,
+        "max": 2029.0,
+        "mean": 2024.5
+      },
+      "discount_rate_pct": {
+        "min": 0.02,
+        "max": 0.13,
+        "mean": 0.0694
+      },
+      "inflation_rate_pct": {
+        "min": 0.01,
+        "max": 0.05,
+        "mean": 0.028599999999999993
+      },
+      "interest_rate_pct": {
+        "min": 0.0,
+        "max": 0.09,
+        "mean": 0.044700000000000004
+      },
+      "real_discount_rate_pct": {
+        "min": 0.01,
+        "max": 0.08,
+        "mean": 0.0403
+      },
+      "energy_tax_credit_pct": {
+        "min": 10.1,
+        "max": 29.7,
+        "mean": 20.658
+      },
+      "solar_rebate_per_kw": {
+        "min": 507.0,
+        "max": 1996.0,
+        "mean": 1302.62
+      },
+      "efficiency_rebate_pct": {
+        "min": 5.3,
+        "max": 20.0,
+        "mean": 12.873999999999999
+      },
+      "carbon_tax_per_tonne": {
+        "min": 10.29,
+        "max": 49.94,
+        "mean": 28.949600000000004
+      },
+      "net_metering_rate": {
+        "min": 0.05,
+        "max": 0.1481,
+        "mean": 0.104362
+      },
+      "feed_in_tariff_rate": {
+        "min": 0.0823,
+        "max": 0.1989,
+        "mean": 0.141168
+      },
+      "property_tax_exemption_years": {
+        "min": 5.0,
+        "max": 15.0,
+        "mean": 10.27
+      },
+      "accelerated_depreciation_years": {
+        "min": 3.0,
+        "max": 7.0,
+        "mean": 5.2
+      },
+      "esg_investment_multiplier": {
+        "min": 1.0,
+        "max": 1.49,
+        "mean": 1.2505
+      }
+    }
+  },
+  "building_codes": {
+    "total_records": 10,
+    "columns": [
+      "location_id",
+      "city",
+      "country",
+      "energy_code",
+      "energy_code_version",
+      "energy_code_year",
+      "u_value_walls_max",
+      "u_value_roof_max",
+      "u_value_windows_max",
+      "air_tightness_max",
+      "hvac_efficiency_min",
+      "lighting_power_density_max",
+      "renewable_energy_requirement_pct",
+      "emissions_target_2030_pct",
+      "emissions_target_2050_pct",
+      "net_zero_requirement_year",
+      "carbon_tax_rate",
+      "performance_rating_system",
+      "certification_required",
+      "inspection_frequency",
+      "penalty_rate",
+      "incentive_programs"
+    ],
+    "missing_values": {
+      "location_id": 0,
+      "city": 0,
+      "country": 0,
+      "energy_code": 0,
+      "energy_code_version": 0,
+      "energy_code_year": 0,
+      "u_value_walls_max": 0,
+      "u_value_roof_max": 0,
+      "u_value_windows_max": 0,
+      "air_tightness_max": 0,
+      "hvac_efficiency_min": 0,
+      "lighting_power_density_max": 0,
+      "renewable_energy_requirement_pct": 0,
+      "emissions_target_2030_pct": 0,
+      "emissions_target_2050_pct": 0,
+      "net_zero_requirement_year": 0,
+      "carbon_tax_rate": 0,
+      "performance_rating_system": 0,
+      "certification_required": 0,
+      "inspection_frequency": 0,
+      "penalty_rate": 0,
+      "incentive_programs": 0
+    },
+    "data_types": {
+      "location_id": "object",
+      "city": "object",
+      "country": "object",
+      "energy_code": "object",
+      "energy_code_version": "int64",
+      "energy_code_year": "int64",
+      "u_value_walls_max": "float64",
+      "u_value_roof_max": "float64",
+      "u_value_windows_max": "float64",
+      "air_tightness_max": "float64",
+      "hvac_efficiency_min": "int64",
+      "lighting_power_density_max": "float64",
+      "renewable_energy_requirement_pct": "int64",
+      "emissions_target_2030_pct": "int64",
+      "emissions_target_2050_pct": "int64",
+      "net_zero_requirement_year": "int64",
+      "carbon_tax_rate": "int64",
+      "performance_rating_system": "object",
+      "certification_required": "bool",
+      "inspection_frequency": "object",
+      "penalty_rate": "float64",
+      "incentive_programs": "object"
+    },
+    "numeric_ranges": {
+      "energy_code_version": {
+        "min": 2012.0,
+        "max": 2021.0,
+        "mean": 2019.6
+      },
+      "energy_code_year": {
+        "min": 2012.0,
+        "max": 2021.0,
+        "mean": 2019.6
+      },
+      "u_value_walls_max": {
+        "min": 0.065,
+        "max": 0.36,
+        "mean": 0.12349999999999998
+      },
+      "u_value_roof_max": {
+        "min": 0.04,
+        "max": 0.2,
+        "mean": 0.08100000000000002
+      },
+      "u_value_windows_max": {
+        "min": 0.32,
+        "max": 1.4,
+        "mean": 0.6340000000000001
+      },
+      "air_tightness_max": {
+        "min": 0.6,
+        "max": 5.0,
+        "mean": 2.81
+      },
+      "hvac_efficiency_min": {
+        "min": 14.0,
+        "max": 16.0,
+        "mean": 14.3
+      },
+      "lighting_power_density_max": {
+        "min": 0.7,
+        "max": 0.9,
+        "mean": 0.8600000000000001
+      },
+      "renewable_energy_requirement_pct": {
+        "min": 0.0,
+        "max": 20.0,
+        "mean": 4.5
+      },
+      "emissions_target_2030_pct": {
+        "min": 40.0,
+        "max": 68.0,
+        "mean": 52.3
+      },
+      "emissions_target_2050_pct": {
+        "min": 100.0,
+        "max": 100.0,
+        "mean": 100.0
+      },
+      "net_zero_requirement_year": {
+        "min": 2045.0,
+        "max": 2050.0,
+        "mean": 2049.5
+      },
+      "carbon_tax_rate": {
+        "min": 0.0,
+        "max": 45.0,
+        "mean": 10.0
+      },
+      "penalty_rate": {
+        "min": 0.08,
+        "max": 0.15,
+        "mean": 0.10500000000000001
+      }
+    }
+  },
+  "carbon_intensity": {
+    "total_records": 438000,
+    "columns": [
+      "region_id",
+      "country",
+      "year",
+      "month",
+      "day",
+      "hour",
+      "datetime",
+      "carbon_intensity_kgco2_per_kwh",
+      "renewable_percentage",
+      "coal_percentage",
+      "natural_gas_percentage",
+      "nuclear_percentage",
+      "solar_percentage",
+      "wind_percentage",
+      "hydro_percentage"
+    ],
+    "missing_values": {
+      "region_id": 0,
+      "country": 0,
+      "year": 0,
+      "month": 0,
+      "day": 0,
+      "hour": 0,
+      "datetime": 0,
+      "carbon_intensity_kgco2_per_kwh": 0,
+      "renewable_percentage": 0,
+      "coal_percentage": 0,
+      "natural_gas_percentage": 0,
+      "nuclear_percentage": 0,
+      "solar_percentage": 0,
+      "wind_percentage": 0,
+      "hydro_percentage": 0
+    },
+    "data_types": {
+      "region_id": "object",
+      "country": "object",
+      "year": "int64",
+      "month": "int64",
+      "day": "int64",
+      "hour": "int64",
+      "datetime": "object",
+      "carbon_intensity_kgco2_per_kwh": "float64",
+      "renewable_percentage": "float64",
+      "coal_percentage": "float64",
+      "natural_gas_percentage": "float64",
+      "nuclear_percentage": "float64",
+      "solar_percentage": "float64",
+      "wind_percentage": "float64",
+      "hydro_percentage": "float64"
+    },
+    "numeric_ranges": {
+      "year": {
+        "min": 2020.0,
+        "max": 2024.0,
+        "mean": 2022.0
+      },
+      "month": {
+        "min": 1.0,
+        "max": 12.0,
+        "mean": 6.526027397260274
+      },
+      "day": {
+        "min": 1.0,
+        "max": 31.0,
+        "mean": 15.72054794520548
+      },
+      "hour": {
+        "min": 0.0,
+        "max": 23.0,
+        "mean": 11.5
+      },
+      "carbon_intensity_kgco2_per_kwh": {
+        "min": -0.006,
+        "max": 0.8448,
+        "mean": 0.2781349858447489
+      },
+      "renewable_percentage": {
+        "min": 20.0,
+        "max": 105.6,
+        "mean": 40.21666666666667
+      },
+      "coal_percentage": {
+        "min": 0.0,
+        "max": 0.7,
+        "mean": 0.27159999999999995
+      },
+      "natural_gas_percentage": {
+        "min": 0.1,
+        "max": 0.4,
+        "mean": 0.24
+      },
+      "nuclear_percentage": {
+        "min": 0.0,
+        "max": 0.2,
+        "mean": 0.104
+      },
+      "solar_percentage": {
+        "min": 0.05,
+        "max": 0.38,
+        "mean": 0.14854166666666666
+      },
+      "wind_percentage": {
+        "min": 0.04,
+        "max": 0.288,
+        "mean": 0.1299287671232877
+      },
+      "hydro_percentage": {
+        "min": 0.04,
+        "max": 0.72,
+        "mean": 0.18510136986301368
+      }
+    }
+  },
+  "geospatial_data": {
+    "total_records": 10,
+    "columns": [
+      "location_id",
+      "latitude",
+      "longitude",
+      "city",
+      "country",
+      "altitude_m",
+      "urban_context",
+      "building_density",
+      "shading_factor",
+      "wind_exposure_class",
+      "solar_potential_kwh_per_sqft",
+      "climate_zone",
+      "seismic_zone",
+      "flood_risk",
+      "air_quality_index",
+      "noise_level_db",
+      "transportation_access",
+      "utility_infrastructure"
+    ],
+    "missing_values": {
+      "location_id": 0,
+      "latitude": 0,
+      "longitude": 0,
+      "city": 0,
+      "country": 0,
+      "altitude_m": 0,
+      "urban_context": 0,
+      "building_density": 0,
+      "shading_factor": 0,
+      "wind_exposure_class": 0,
+      "solar_potential_kwh_per_sqft": 0,
+      "climate_zone": 0,
+      "seismic_zone": 0,
+      "flood_risk": 0,
+      "air_quality_index": 0,
+      "noise_level_db": 0,
+      "transportation_access": 0,
+      "utility_infrastructure": 0
+    },
+    "data_types": {
+      "location_id": "object",
+      "latitude": "float64",
+      "longitude": "float64",
+      "city": "object",
+      "country": "object",
+      "altitude_m": "float64",
+      "urban_context": "object",
+      "building_density": "object",
+      "shading_factor": "float64",
+      "wind_exposure_class": "object",
+      "solar_potential_kwh_per_sqft": "float64",
+      "climate_zone": "object",
+      "seismic_zone": "object",
+      "flood_risk": "object",
+      "air_quality_index": "int64",
+      "noise_level_db": "float64",
+      "transportation_access": "object",
+      "utility_infrastructure": "object"
+    },
+    "numeric_ranges": {
+      "latitude": {
+        "min": -33.8688,
+        "max": 52.52,
+        "mean": 27.448709999999995
+      },
+      "longitude": {
+        "min": -79.3832,
+        "max": 151.2093,
+        "mean": 29.57516
+      },
+      "altitude_m": {
+        "min": 149.4761465580423,
+        "max": 1579.6637742305004,
+        "mean": 953.124514154613
+      },
+      "shading_factor": {
+        "min": 0.7,
+        "max": 1.0,
+        "mean": 0.9199999999999999
+      },
+      "solar_potential_kwh_per_sqft": {
+        "min": 3.05,
+        "max": 4.66,
+        "mean": 3.905
+      },
+      "air_quality_index": {
+        "min": 38.0,
+        "max": 84.0,
+        "mean": 58.8
+      },
+      "noise_level_db": {
+        "min": 40.49132581743704,
+        "max": 74.67350693610345,
+        "mean": 49.522003791986265
+      }
+    }
+  }
+}

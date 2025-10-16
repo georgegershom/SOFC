@@ -1,0 +1,11 @@
+location_id,city,country,energy_code,energy_code_version,energy_code_year,u_value_walls_max,u_value_roof_max,u_value_windows_max,air_tightness_max,hvac_efficiency_min,lighting_power_density_max,renewable_energy_requirement_pct,emissions_target_2030_pct,emissions_target_2050_pct,net_zero_requirement_year,carbon_tax_rate,performance_rating_system,certification_required,inspection_frequency,penalty_rate,incentive_programs
+New_York_USA,New_York,USA,IECC,2021,2021,0.065,0.04,0.32,3.0,14,0.9,0,50,100,2050,0,LEED,True,annual,0.1,"[""Energy Star"", ""LEED"", ""Green Globes""]"
+London_UK,London,UK,Part L,2021,2021,0.18,0.13,1.4,5.0,14,0.8,10,68,100,2050,30,BREEAM,True,annual,0.08,"[""BREEAM"", ""LEED"", ""Passivhaus""]"
+Paris_France,Paris,France,RT2012,2012,2012,0.36,0.2,1.4,0.6,15,0.7,20,40,100,2050,45,HQE,True,biennial,0.12,"[""HQE"", ""BBC"", ""RT2012""]"
+Berlin_Germany,Berlin,Germany,EnEV,2016,2016,0.24,0.2,1.3,1.5,16,0.8,15,65,100,2045,25,DGNB,True,biennial,0.15,"[""KfW"", ""DGNB"", ""BREEAM""]"
+Tokyo_Japan,Tokyo,Japan,IECC,2021,2021,0.065,0.04,0.32,3.0,14,0.9,0,50,100,2050,0,LEED,True,annual,0.1,"[""Energy Star"", ""LEED"", ""Green Globes""]"
+Beijing_China,Beijing,China,IECC,2021,2021,0.065,0.04,0.32,3.0,14,0.9,0,50,100,2050,0,LEED,True,annual,0.1,"[""Energy Star"", ""LEED"", ""Green Globes""]"
+Mumbai_India,Mumbai,India,IECC,2021,2021,0.065,0.04,0.32,3.0,14,0.9,0,50,100,2050,0,LEED,True,annual,0.1,"[""Energy Star"", ""LEED"", ""Green Globes""]"
+Toronto_Canada,Toronto,Canada,IECC,2021,2021,0.065,0.04,0.32,3.0,14,0.9,0,50,100,2050,0,LEED,True,annual,0.1,"[""Energy Star"", ""LEED"", ""Green Globes""]"
+Sydney_Australia,Sydney,Australia,IECC,2021,2021,0.065,0.04,0.32,3.0,14,0.9,0,50,100,2050,0,LEED,True,annual,0.1,"[""Energy Star"", ""LEED"", ""Green Globes""]"
+Sao_Paulo_Brazil,Sao_Paulo,Brazil,IECC,2021,2021,0.065,0.04,0.32,3.0,14,0.9,0,50,100,2050,0,LEED,True,annual,0.1,"[""Energy Star"", ""LEED"", ""Green Globes""]"
