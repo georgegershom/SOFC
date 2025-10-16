@@ -1,0 +1,617 @@
+{
+  "schema_version": "1.0.0",
+  "topic": "Dynamic Digital Twin for Retrofit Optimization (Static Building DNA)",
+  "building_id": "04de9cc4-5b98-4db5-b63e-2a51f2f89db4",
+  "name": "River Commons",
+  "address": "7580 2nd Ave, City 124, ST 27",
+  "climate_zone": "ASHRAE 5A",
+  "year_built": 2010,
+  "orientation_main_azimuth_deg": 268.0,
+  "geometry": {
+    "footprint_area_m2": 183.6,
+    "gross_floor_area_m2": 1468.8,
+    "envelope_area_m2": 1623.2,
+    "volume_m3": 4876.4,
+    "storey_height_m": 3.32,
+    "num_storeys": 8,
+    "bounding_box_m": {
+      "width": 13.7,
+      "depth": 13.4,
+      "height": 26.56
+    },
+    "floorplans_svg": [
+      "geometry/buildings/04de9cc4-5b98-4db5-b63e-2a51f2f89db4/floorplans/level_1.svg",
+      "geometry/buildings/04de9cc4-5b98-4db5-b63e-2a51f2f89db4/floorplans/level_2.svg",
+      "geometry/buildings/04de9cc4-5b98-4db5-b63e-2a51f2f89db4/floorplans/level_3.svg",
+      "geometry/buildings/04de9cc4-5b98-4db5-b63e-2a51f2f89db4/floorplans/level_4.svg",
+      "geometry/buildings/04de9cc4-5b98-4db5-b63e-2a51f2f89db4/floorplans/level_5.svg",
+      "geometry/buildings/04de9cc4-5b98-4db5-b63e-2a51f2f89db4/floorplans/level_6.svg",
+      "geometry/buildings/04de9cc4-5b98-4db5-b63e-2a51f2f89db4/floorplans/level_7.svg",
+      "geometry/buildings/04de9cc4-5b98-4db5-b63e-2a51f2f89db4/floorplans/level_8.svg"
+    ],
+    "samples": {
+      "ifc": [],
+      "lidar": [
+        "geometry/samples/lidar/autzen.laz"
+      ]
+    }
+  },
+  "fabric": {
+    "exterior_wall_assembly": {
+      "type": "exterior_wall",
+      "layers": [
+        {
+          "material": "brick",
+          "thickness_m": 0.094,
+          "conductivity_W_mK": 0.77,
+          "density_kg_m3": 1800,
+          "specific_heat_J_kgK": 840,
+          "r_layer_m2K_W": 0.1221,
+          "areal_heat_capacity_J_m2K": 142128.0
+        },
+        {
+          "material": "plywood",
+          "thickness_m": 0.01,
+          "conductivity_W_mK": 0.13,
+          "density_kg_m3": 540,
+          "specific_heat_J_kgK": 1500,
+          "r_layer_m2K_W": 0.0769,
+          "areal_heat_capacity_J_m2K": 8100.0
+        },
+        {
+          "material": "xps",
+          "thickness_m": 0.092,
+          "conductivity_W_mK": 0.029,
+          "density_kg_m3": 35,
+          "specific_heat_J_kgK": 1400,
+          "r_layer_m2K_W": 3.1724,
+          "areal_heat_capacity_J_m2K": 4508.0
+        },
+        {
+          "material": "wood",
+          "thickness_m": 0.135,
+          "conductivity_W_mK": 0.12,
+          "density_kg_m3": 600,
+          "specific_heat_J_kgK": 1700,
+          "r_layer_m2K_W": 1.125,
+          "areal_heat_capacity_J_m2K": 137700.0
+        },
+        {
+          "material": "gypsum_board",
+          "thickness_m": 0.012,
+          "conductivity_W_mK": 0.25,
+          "density_kg_m3": 800,
+          "specific_heat_J_kgK": 1090,
+          "r_layer_m2K_W": 0.048,
+          "areal_heat_capacity_J_m2K": 10464.0
+        }
+      ],
+      "overall_u_W_m2K": 0.212,
+      "overall_r_m2K_W": 4.714,
+      "areal_heat_capacity_kJ_m2K": 302.9
+    },
+    "roof_assembly": {
+      "type": "roof",
+      "layers": [
+        {
+          "material": "asphalt_shingle",
+          "thickness_m": 0.018,
+          "conductivity_W_mK": 0.75,
+          "density_kg_m3": 1200,
+          "specific_heat_J_kgK": 920,
+          "r_layer_m2K_W": 0.024,
+          "areal_heat_capacity_J_m2K": 19872.0
+        },
+        {
+          "material": "plywood",
+          "thickness_m": 0.016,
+          "conductivity_W_mK": 0.13,
+          "density_kg_m3": 540,
+          "specific_heat_J_kgK": 1500,
+          "r_layer_m2K_W": 0.1231,
+          "areal_heat_capacity_J_m2K": 12960.0
+        },
+        {
+          "material": "eps",
+          "thickness_m": 0.224,
+          "conductivity_W_mK": 0.036,
+          "density_kg_m3": 20,
+          "specific_heat_J_kgK": 1300,
+          "r_layer_m2K_W": 6.2222,
+          "areal_heat_capacity_J_m2K": 5824.0
+        },
+        {
+          "material": "wood",
+          "thickness_m": 0.162,
+          "conductivity_W_mK": 0.12,
+          "density_kg_m3": 600,
+          "specific_heat_J_kgK": 1700,
+          "r_layer_m2K_W": 1.35,
+          "areal_heat_capacity_J_m2K": 165240.0
+        }
+      ],
+      "overall_u_W_m2K": 0.127,
+      "overall_r_m2K_W": 7.889,
+      "areal_heat_capacity_kJ_m2K": 203.9
+    },
+    "floor_assembly": {
+      "type": "floor",
+      "layers": [
+        {
+          "material": "plywood",
+          "thickness_m": 0.019,
+          "conductivity_W_mK": 0.13,
+          "density_kg_m3": 540,
+          "specific_heat_J_kgK": 1500,
+          "r_layer_m2K_W": 0.1462,
+          "areal_heat_capacity_J_m2K": 15390.0
+        },
+        {
+          "material": "wood",
+          "thickness_m": 0.137,
+          "conductivity_W_mK": 0.12,
+          "density_kg_m3": 600,
+          "specific_heat_J_kgK": 1700,
+          "r_layer_m2K_W": 1.1417,
+          "areal_heat_capacity_J_m2K": 139740.0
+        },
+        {
+          "material": "concrete",
+          "thickness_m": 0.15,
+          "conductivity_W_mK": 1.4,
+          "density_kg_m3": 2400,
+          "specific_heat_J_kgK": 880,
+          "r_layer_m2K_W": 0.1071,
+          "areal_heat_capacity_J_m2K": 316800.0
+        }
+      ],
+      "overall_u_W_m2K": 0.639,
+      "overall_r_m2K_W": 1.565,
+      "areal_heat_capacity_kJ_m2K": 471.93
+    },
+    "openings": {
+      "windows": [
+        {
+          "area_m2": 2.92,
+          "u_W_m2K": 5.03,
+          "shgc": 0.76,
+          "vt": 0.63,
+          "glazing": "single",
+          "frame_type": "aluminum",
+          "gas_fill": "air",
+          "age_years": 32,
+          "condition": "good"
+        },
+        {
+          "area_m2": 0.92,
+          "u_W_m2K": 2.94,
+          "shgc": 0.47,
+          "vt": 0.6,
+          "glazing": "double",
+          "frame_type": "fiberglass",
+          "gas_fill": "argon",
+          "age_years": 20,
+          "condition": "excellent"
+        },
+        {
+          "area_m2": 2.45,
+          "u_W_m2K": 2.06,
+          "shgc": 0.56,
+          "vt": 0.52,
+          "glazing": "double",
+          "frame_type": "fiberglass",
+          "gas_fill": "air",
+          "age_years": 25,
+          "condition": "excellent"
+        },
+        {
+          "area_m2": 2.15,
+          "u_W_m2K": 1.06,
+          "shgc": 0.47,
+          "vt": 0.68,
+          "glazing": "triple",
+          "frame_type": "uPVC",
+          "gas_fill": "air",
+          "age_years": 29,
+          "condition": "fair"
+        },
+        {
+          "area_m2": 1.44,
+          "u_W_m2K": 0.86,
+          "shgc": 0.38,
+          "vt": 0.7,
+          "glazing": "triple",
+          "frame_type": "fiberglass",
+          "gas_fill": "argon",
+          "age_years": 4,
+          "condition": "fair"
+        },
+        {
+          "area_m2": 1.96,
+          "u_W_m2K": 1.33,
+          "shgc": 0.37,
+          "vt": 0.78,
+          "glazing": "triple",
+          "frame_type": "uPVC",
+          "gas_fill": "krypton",
+          "age_years": 6,
+          "condition": "good"
+        },
+        {
+          "area_m2": 2.38,
+          "u_W_m2K": 5.65,
+          "shgc": 0.65,
+          "vt": 0.59,
+          "glazing": "single",
+          "frame_type": "fiberglass",
+          "gas_fill": "krypton",
+          "age_years": 33,
+          "condition": "poor"
+        },
+        {
+          "area_m2": 3.19,
+          "u_W_m2K": 1.29,
+          "shgc": 0.39,
+          "vt": 0.71,
+          "glazing": "triple",
+          "frame_type": "aluminum",
+          "gas_fill": "krypton",
+          "age_years": 15,
+          "condition": "excellent"
+        },
+        {
+          "area_m2": 2.34,
+          "u_W_m2K": 2.0,
+          "shgc": 0.5,
+          "vt": 0.71,
+          "glazing": "double",
+          "frame_type": "wood",
+          "gas_fill": "krypton",
+          "age_years": 17,
+          "condition": "excellent"
+        },
+        {
+          "area_m2": 2.24,
+          "u_W_m2K": 1.67,
+          "shgc": 0.55,
+          "vt": 0.6,
+          "glazing": "double",
+          "frame_type": "aluminum",
+          "gas_fill": "argon",
+          "age_years": 4,
+          "condition": "good"
+        },
+        {
+          "area_m2": 3.18,
+          "u_W_m2K": 0.92,
+          "shgc": 0.47,
+          "vt": 0.67,
+          "glazing": "triple",
+          "frame_type": "uPVC",
+          "gas_fill": "argon",
+          "age_years": 24,
+          "condition": "poor"
+        },
+        {
+          "area_m2": 1.25,
+          "u_W_m2K": 4.89,
+          "shgc": 0.76,
+          "vt": 0.53,
+          "glazing": "single",
+          "frame_type": "wood",
+          "gas_fill": "krypton",
+          "age_years": 26,
+          "condition": "good"
+        },
+        {
+          "area_m2": 3.05,
+          "u_W_m2K": 1.03,
+          "shgc": 0.44,
+          "vt": 0.51,
+          "glazing": "triple",
+          "frame_type": "aluminum",
+          "gas_fill": "argon",
+          "age_years": 24,
+          "condition": "poor"
+        },
+        {
+          "area_m2": 3.07,
+          "u_W_m2K": 4.92,
+          "shgc": 0.68,
+          "vt": 0.72,
+          "glazing": "single",
+          "frame_type": "aluminum",
+          "gas_fill": "krypton",
+          "age_years": 2,
+          "condition": "excellent"
+        },
+        {
+          "area_m2": 1.62,
+          "u_W_m2K": 0.89,
+          "shgc": 0.47,
+          "vt": 0.59,
+          "glazing": "triple",
+          "frame_type": "wood",
+          "gas_fill": "krypton",
+          "age_years": 25,
+          "condition": "fair"
+        },
+        {
+          "area_m2": 2.63,
+          "u_W_m2K": 1.39,
+          "shgc": 0.43,
+          "vt": 0.57,
+          "glazing": "triple",
+          "frame_type": "aluminum",
+          "gas_fill": "air",
+          "age_years": 0,
+          "condition": "good"
+        },
+        {
+          "area_m2": 1.85,
+          "u_W_m2K": 2.43,
+          "shgc": 0.46,
+          "vt": 0.58,
+          "glazing": "double",
+          "frame_type": "wood",
+          "gas_fill": "krypton",
+          "age_years": 14,
+          "condition": "poor"
+        },
+        {
+          "area_m2": 1.85,
+          "u_W_m2K": 1.67,
+          "shgc": 0.57,
+          "vt": 0.58,
+          "glazing": "double",
+          "frame_type": "aluminum",
+          "gas_fill": "krypton",
+          "age_years": 20,
+          "condition": "poor"
+        },
+        {
+          "area_m2": 2.1,
+          "u_W_m2K": 2.41,
+          "shgc": 0.61,
+          "vt": 0.69,
+          "glazing": "double",
+          "frame_type": "fiberglass",
+          "gas_fill": "krypton",
+          "age_years": 17,
+          "condition": "fair"
+        },
+        {
+          "area_m2": 1.8,
+          "u_W_m2K": 1.32,
+          "shgc": 0.47,
+          "vt": 0.67,
+          "glazing": "triple",
+          "frame_type": "aluminum",
+          "gas_fill": "air",
+          "age_years": 21,
+          "condition": "excellent"
+        },
+        {
+          "area_m2": 1.86,
+          "u_W_m2K": 1.32,
+          "shgc": 0.42,
+          "vt": 0.55,
+          "glazing": "triple",
+          "frame_type": "uPVC",
+          "gas_fill": "argon",
+          "age_years": 6,
+          "condition": "poor"
+        },
+        {
+          "area_m2": 1.85,
+          "u_W_m2K": 1.65,
+          "shgc": 0.59,
+          "vt": 0.65,
+          "glazing": "double",
+          "frame_type": "fiberglass",
+          "gas_fill": "krypton",
+          "age_years": 6,
+          "condition": "excellent"
+        },
+        {
+          "area_m2": 1.28,
+          "u_W_m2K": 4.97,
+          "shgc": 0.72,
+          "vt": 0.69,
+          "glazing": "single",
+          "frame_type": "wood",
+          "gas_fill": "krypton",
+          "age_years": 8,
+          "condition": "fair"
+        },
+        {
+          "area_m2": 1.49,
+          "u_W_m2K": 0.96,
+          "shgc": 0.4,
+          "vt": 0.53,
+          "glazing": "triple",
+          "frame_type": "aluminum",
+          "gas_fill": "air",
+          "age_years": 12,
+          "condition": "fair"
+        },
+        {
+          "area_m2": 2.53,
+          "u_W_m2K": 0.88,
+          "shgc": 0.37,
+          "vt": 0.54,
+          "glazing": "triple",
+          "frame_type": "wood",
+          "gas_fill": "air",
+          "age_years": 10,
+          "condition": "fair"
+        },
+        {
+          "area_m2": 2.89,
+          "u_W_m2K": 1.06,
+          "shgc": 0.41,
+          "vt": 0.59,
+          "glazing": "triple",
+          "frame_type": "wood",
+          "gas_fill": "krypton",
+          "age_years": 24,
+          "condition": "excellent"
+        },
+        {
+          "area_m2": 1.99,
+          "u_W_m2K": 0.95,
+          "shgc": 0.45,
+          "vt": 0.78,
+          "glazing": "triple",
+          "frame_type": "fiberglass",
+          "gas_fill": "air",
+          "age_years": 27,
+          "condition": "fair"
+        }
+      ],
+      "doors": [
+        {
+          "area_m2": 2.21,
+          "u_W_m2K": 1.95,
+          "type": "insulated",
+          "age_years": 33,
+          "condition": "fair"
+        },
+        {
+          "area_m2": 2.02,
+          "u_W_m2K": 1.24,
+          "type": "metal",
+          "age_years": 40,
+          "condition": "fair"
+        },
+        {
+          "area_m2": 2.09,
+          "u_W_m2K": 1.26,
+          "type": "metal",
+          "age_years": 40,
+          "condition": "good"
+        },
+        {
+          "area_m2": 2.25,
+          "u_W_m2K": 1.87,
+          "type": "insulated",
+          "age_years": 18,
+          "condition": "poor"
+        }
+      ]
+    },
+    "air_tightness": {
+      "ach50": 2.05,
+      "measured_year": 2008,
+      "test_method": "blower_door"
+    }
+  },
+  "systems": {
+    "hvac": [
+      {
+        "type": "gas_furnace",
+        "make": "Goodman",
+        "model": "GF-24849",
+        "fuel": "natural_gas",
+        "age_years": 11,
+        "efficiency_AFUE": 0.94,
+        "rated_capacity_kW": 26.1,
+        "maintenance_history": []
+      },
+      {
+        "type": "dx_ac",
+        "make": "Goodman",
+        "model": "AC-38453",
+        "fuel": "electricity",
+        "age_years": 7,
+        "efficiency_SEER": 17.3,
+        "rated_capacity_kW": 21.0,
+        "maintenance_history": [
+          {
+            "date": "2025-10-14",
+            "action": "annual_service"
+          },
+          {
+            "date": "2014-12-08",
+            "action": "repair"
+          }
+        ]
+      }
+    ],
+    "dhw": {
+      "make": "Rheem",
+      "model": "DHW-3356",
+      "age_years": 21,
+      "tank_volume_l": 159.9,
+      "maintenance_history": [
+        {
+          "date": "2025-11-13",
+          "action": "filter_change"
+        },
+        {
+          "date": "2018-11-10",
+          "action": "repair"
+        },
+        {
+          "date": "2010-03-17",
+          "action": "repair"
+        },
+        {
+          "date": "2013-06-23",
+          "action": "filter_change"
+        }
+      ],
+      "type": "electric_tank",
+      "fuel": "electricity",
+      "efficiency_EF": 0.91
+    },
+    "lighting": {
+      "fixtures": [
+        {
+          "type": "LED",
+          "count": 56,
+          "watt_per_fixture": 16,
+          "controls": [
+            "dimmer",
+            "occupancy_sensor"
+          ]
+        },
+        {
+          "type": "CFL",
+          "count": 294,
+          "watt_per_fixture": 22,
+          "controls": [
+            "dimmer"
+          ]
+        },
+        {
+          "type": "Incandescent",
+          "count": 135,
+          "watt_per_fixture": 62,
+          "controls": [
+            "daylight_sensor"
+          ]
+        }
+      ]
+    },
+    "renewables": []
+  },
+  "operations_assumptions": {
+    "occupancy_density_m2_per_person": 13.4,
+    "setpoints_C": {
+      "heating": 19.9,
+      "cooling": 23.7
+    },
+    "ventilation_Lps_per_person": 5.9
+  },
+  "lca_summary": {
+    "embodied_carbon_kgCO2e_m2": 308.7,
+    "service_life_years": 83,
+    "end_of_life_scenario": "recycle_partial"
+  },
+  "provenance": {
+    "generated_by": "generate_building_dna.py",
+    "generated_at": "2025-10-16T20:34:00.900563Z",
+    "random_seed": 323454328
+  }
+}

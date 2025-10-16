@@ -1,0 +1,372 @@
+{
+  "schema_version": "1.0.0",
+  "topic": "Dynamic Digital Twin for Retrofit Optimization (Static Building DNA)",
+  "building_id": "6c205a43-21d2-401a-bf63-e515583a9965",
+  "name": "Maple Terrace",
+  "address": "2278 Main St, City 47, ST 24",
+  "climate_zone": "ASHRAE 4A",
+  "year_built": 2012,
+  "orientation_main_azimuth_deg": 311.2,
+  "geometry": {
+    "footprint_area_m2": 731.8,
+    "gross_floor_area_m2": 5122.6,
+    "envelope_area_m2": 3568.8,
+    "volume_m3": 17416.8,
+    "storey_height_m": 3.4,
+    "num_storeys": 7,
+    "bounding_box_m": {
+      "width": 42.3,
+      "depth": 17.3,
+      "height": 23.8
+    },
+    "floorplans_svg": [
+      "geometry/buildings/6c205a43-21d2-401a-bf63-e515583a9965/floorplans/level_1.svg",
+      "geometry/buildings/6c205a43-21d2-401a-bf63-e515583a9965/floorplans/level_2.svg",
+      "geometry/buildings/6c205a43-21d2-401a-bf63-e515583a9965/floorplans/level_3.svg",
+      "geometry/buildings/6c205a43-21d2-401a-bf63-e515583a9965/floorplans/level_4.svg",
+      "geometry/buildings/6c205a43-21d2-401a-bf63-e515583a9965/floorplans/level_5.svg",
+      "geometry/buildings/6c205a43-21d2-401a-bf63-e515583a9965/floorplans/level_6.svg",
+      "geometry/buildings/6c205a43-21d2-401a-bf63-e515583a9965/floorplans/level_7.svg"
+    ],
+    "samples": {
+      "ifc": [],
+      "lidar": [
+        "geometry/samples/lidar/autzen.laz"
+      ]
+    }
+  },
+  "fabric": {
+    "exterior_wall_assembly": {
+      "type": "exterior_wall",
+      "layers": [
+        {
+          "material": "brick",
+          "thickness_m": 0.101,
+          "conductivity_W_mK": 0.77,
+          "density_kg_m3": 1800,
+          "specific_heat_J_kgK": 840,
+          "r_layer_m2K_W": 0.1312,
+          "areal_heat_capacity_J_m2K": 152712.0
+        },
+        {
+          "material": "plywood",
+          "thickness_m": 0.011,
+          "conductivity_W_mK": 0.13,
+          "density_kg_m3": 540,
+          "specific_heat_J_kgK": 1500,
+          "r_layer_m2K_W": 0.0846,
+          "areal_heat_capacity_J_m2K": 8910.0
+        },
+        {
+          "material": "xps",
+          "thickness_m": 0.081,
+          "conductivity_W_mK": 0.029,
+          "density_kg_m3": 35,
+          "specific_heat_J_kgK": 1400,
+          "r_layer_m2K_W": 2.7931,
+          "areal_heat_capacity_J_m2K": 3969.0
+        },
+        {
+          "material": "wood",
+          "thickness_m": 0.141,
+          "conductivity_W_mK": 0.12,
+          "density_kg_m3": 600,
+          "specific_heat_J_kgK": 1700,
+          "r_layer_m2K_W": 1.175,
+          "areal_heat_capacity_J_m2K": 143820.0
+        },
+        {
+          "material": "gypsum_board",
+          "thickness_m": 0.014,
+          "conductivity_W_mK": 0.25,
+          "density_kg_m3": 800,
+          "specific_heat_J_kgK": 1090,
+          "r_layer_m2K_W": 0.056,
+          "areal_heat_capacity_J_m2K": 12208.0
+        }
+      ],
+      "overall_u_W_m2K": 0.227,
+      "overall_r_m2K_W": 4.41,
+      "areal_heat_capacity_kJ_m2K": 321.62
+    },
+    "roof_assembly": {
+      "type": "roof",
+      "layers": [
+        {
+          "material": "asphalt_shingle",
+          "thickness_m": 0.015,
+          "conductivity_W_mK": 0.75,
+          "density_kg_m3": 1200,
+          "specific_heat_J_kgK": 920,
+          "r_layer_m2K_W": 0.02,
+          "areal_heat_capacity_J_m2K": 16560.0
+        },
+        {
+          "material": "plywood",
+          "thickness_m": 0.019,
+          "conductivity_W_mK": 0.13,
+          "density_kg_m3": 540,
+          "specific_heat_J_kgK": 1500,
+          "r_layer_m2K_W": 0.1462,
+          "areal_heat_capacity_J_m2K": 15390.0
+        },
+        {
+          "material": "mineral_wool",
+          "thickness_m": 0.137,
+          "conductivity_W_mK": 0.04,
+          "density_kg_m3": 45,
+          "specific_heat_J_kgK": 840,
+          "r_layer_m2K_W": 3.425,
+          "areal_heat_capacity_J_m2K": 5178.6
+        },
+        {
+          "material": "wood",
+          "thickness_m": 0.176,
+          "conductivity_W_mK": 0.12,
+          "density_kg_m3": 600,
+          "specific_heat_J_kgK": 1700,
+          "r_layer_m2K_W": 1.4667,
+          "areal_heat_capacity_J_m2K": 179520.0
+        }
+      ],
+      "overall_u_W_m2K": 0.191,
+      "overall_r_m2K_W": 5.228,
+      "areal_heat_capacity_kJ_m2K": 216.65
+    },
+    "floor_assembly": {
+      "type": "floor",
+      "layers": [
+        {
+          "material": "plywood",
+          "thickness_m": 0.017,
+          "conductivity_W_mK": 0.13,
+          "density_kg_m3": 540,
+          "specific_heat_J_kgK": 1500,
+          "r_layer_m2K_W": 0.1308,
+          "areal_heat_capacity_J_m2K": 13770.0
+        },
+        {
+          "material": "wood",
+          "thickness_m": 0.163,
+          "conductivity_W_mK": 0.12,
+          "density_kg_m3": 600,
+          "specific_heat_J_kgK": 1700,
+          "r_layer_m2K_W": 1.3583,
+          "areal_heat_capacity_J_m2K": 166260.0
+        },
+        {
+          "material": "concrete",
+          "thickness_m": 0.176,
+          "conductivity_W_mK": 1.4,
+          "density_kg_m3": 2400,
+          "specific_heat_J_kgK": 880,
+          "r_layer_m2K_W": 0.1257,
+          "areal_heat_capacity_J_m2K": 371712.0
+        }
+      ],
+      "overall_u_W_m2K": 0.56,
+      "overall_r_m2K_W": 1.785,
+      "areal_heat_capacity_kJ_m2K": 551.74
+    },
+    "openings": {
+      "windows": [
+        {
+          "area_m2": 1.54,
+          "u_W_m2K": 5.55,
+          "shgc": 0.71,
+          "vt": 0.52,
+          "glazing": "single",
+          "frame_type": "uPVC",
+          "gas_fill": "krypton",
+          "age_years": 18,
+          "condition": "good"
+        },
+        {
+          "area_m2": 2.77,
+          "u_W_m2K": 4.89,
+          "shgc": 0.81,
+          "vt": 0.71,
+          "glazing": "single",
+          "frame_type": "wood",
+          "gas_fill": "krypton",
+          "age_years": 35,
+          "condition": "poor"
+        },
+        {
+          "area_m2": 1.48,
+          "u_W_m2K": 5.86,
+          "shgc": 0.67,
+          "vt": 0.6,
+          "glazing": "single",
+          "frame_type": "uPVC",
+          "gas_fill": "air",
+          "age_years": 36,
+          "condition": "good"
+        },
+        {
+          "area_m2": 2.5,
+          "u_W_m2K": 2.2,
+          "shgc": 0.6,
+          "vt": 0.68,
+          "glazing": "double",
+          "frame_type": "uPVC",
+          "gas_fill": "krypton",
+          "age_years": 20,
+          "condition": "poor"
+        },
+        {
+          "area_m2": 2.17,
+          "u_W_m2K": 0.84,
+          "shgc": 0.48,
+          "vt": 0.66,
+          "glazing": "triple",
+          "frame_type": "uPVC",
+          "gas_fill": "argon",
+          "age_years": 19,
+          "condition": "excellent"
+        },
+        {
+          "area_m2": 3.03,
+          "u_W_m2K": 1.07,
+          "shgc": 0.38,
+          "vt": 0.53,
+          "glazing": "triple",
+          "frame_type": "uPVC",
+          "gas_fill": "air",
+          "age_years": 38,
+          "condition": "good"
+        },
+        {
+          "area_m2": 2.2,
+          "u_W_m2K": 2.76,
+          "shgc": 0.58,
+          "vt": 0.77,
+          "glazing": "double",
+          "frame_type": "aluminum",
+          "gas_fill": "krypton",
+          "age_years": 17,
+          "condition": "good"
+        },
+        {
+          "area_m2": 2.44,
+          "u_W_m2K": 4.89,
+          "shgc": 0.77,
+          "vt": 0.65,
+          "glazing": "single",
+          "frame_type": "uPVC",
+          "gas_fill": "krypton",
+          "age_years": 1,
+          "condition": "excellent"
+        }
+      ],
+      "doors": [
+        {
+          "area_m2": 2.26,
+          "u_W_m2K": 1.34,
+          "type": "solid_wood",
+          "age_years": 3,
+          "condition": "poor"
+        }
+      ]
+    },
+    "air_tightness": {
+      "ach50": 1.33,
+      "measured_year": 2008,
+      "test_method": "estimated"
+    }
+  },
+  "systems": {
+    "hvac": [
+      {
+        "type": "vrf_heat_pump",
+        "make": "Daikin",
+        "model": "VRF-2972",
+        "fuel": "electricity",
+        "age_years": 10,
+        "cooling_EER": 13.2,
+        "heating_COP": 3.39,
+        "rated_capacity_kW": 37.7,
+        "maintenance_history": [
+          {
+            "date": "2014-12-09",
+            "action": "repair"
+          },
+          {
+            "date": "2019-11-04",
+            "action": "filter_change"
+          }
+        ]
+      }
+    ],
+    "dhw": {
+      "make": "AO Smith",
+      "model": "DHW-5801",
+      "age_years": 18,
+      "tank_volume_l": 159.1,
+      "maintenance_history": [
+        {
+          "date": "2018-01-03",
+          "action": "inspection"
+        },
+        {
+          "date": "2013-12-28",
+          "action": "filter_change"
+        },
+        {
+          "date": "2018-06-20",
+          "action": "annual_service"
+        }
+      ],
+      "type": "electric_tank",
+      "fuel": "electricity",
+      "efficiency_EF": 0.86
+    },
+    "lighting": {
+      "fixtures": [
+        {
+          "type": "LED",
+          "count": 56,
+          "watt_per_fixture": 18,
+          "controls": [
+            "switch"
+          ]
+        },
+        {
+          "type": "CFL",
+          "count": 15,
+          "watt_per_fixture": 13,
+          "controls": [
+            "occupancy_sensor"
+          ]
+        },
+        {
+          "type": "Incandescent",
+          "count": 158,
+          "watt_per_fixture": 68,
+          "controls": [
+            "daylight_sensor"
+          ]
+        }
+      ]
+    },
+    "renewables": []
+  },
+  "operations_assumptions": {
+    "occupancy_density_m2_per_person": 9.0,
+    "setpoints_C": {
+      "heating": 19.1,
+      "cooling": 24.2
+    },
+    "ventilation_Lps_per_person": 10.3
+  },
+  "lca_summary": {
+    "embodied_carbon_kgCO2e_m2": 666.2,
+    "service_life_years": 46,
+    "end_of_life_scenario": "recycle_partial"
+  },
+  "provenance": {
+    "generated_by": "generate_building_dna.py",
+    "generated_at": "2025-10-16T20:34:00.910284Z",
+    "random_seed": 699271824
+  }
+}
