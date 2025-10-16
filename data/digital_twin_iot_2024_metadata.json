@@ -1,0 +1,856 @@
+{
+  "ambient_temp_c": {
+    "name": "ambient_temp_c",
+    "unit": "C",
+    "description": "ambient temp c",
+    "category": "IEQ",
+    "location": "building"
+  },
+  "ambient_rh_pct": {
+    "name": "ambient_rh_pct",
+    "unit": "%",
+    "description": "ambient rh pct",
+    "category": "IEQ",
+    "location": "building"
+  },
+  "wind_speed_mps": {
+    "name": "wind_speed_mps",
+    "unit": "m/s",
+    "description": "wind speed mps",
+    "category": "Weather",
+    "location": "building"
+  },
+  "wind_dir_deg": {
+    "name": "wind_dir_deg",
+    "unit": "deg",
+    "description": "wind dir deg",
+    "category": "Weather",
+    "location": "building"
+  },
+  "solar_irradiance_wm2": {
+    "name": "solar_irradiance_wm2",
+    "unit": "W/m2",
+    "description": "solar irradiance wm2",
+    "category": "Weather",
+    "location": "building"
+  },
+  "rain_mm": {
+    "name": "rain_mm",
+    "unit": "mm",
+    "description": "rain mm",
+    "category": "Weather",
+    "location": "building"
+  },
+  "cloud_cover_pct": {
+    "name": "cloud_cover_pct",
+    "unit": "%",
+    "description": "cloud cover pct",
+    "category": "Weather",
+    "location": "building"
+  },
+  "occupancy_building": {
+    "name": "occupancy_building",
+    "unit": "",
+    "description": "occupancy building",
+    "category": "Other",
+    "location": "building"
+  },
+  "entrance_in_count": {
+    "name": "entrance_in_count",
+    "unit": "count",
+    "description": "entrance in count",
+    "category": "Occupancy",
+    "location": "building"
+  },
+  "entrance_out_count": {
+    "name": "entrance_out_count",
+    "unit": "count",
+    "description": "entrance out count",
+    "category": "Occupancy",
+    "location": "building"
+  },
+  "wifi_client_count": {
+    "name": "wifi_client_count",
+    "unit": "count",
+    "description": "wifi client count",
+    "category": "Occupancy",
+    "location": "building"
+  },
+  "zone_1_occupancy": {
+    "name": "zone_1_occupancy",
+    "unit": "count",
+    "description": "zone 1 occupancy",
+    "category": "Occupancy",
+    "location": "zone"
+  },
+  "zone_2_occupancy": {
+    "name": "zone_2_occupancy",
+    "unit": "count",
+    "description": "zone 2 occupancy",
+    "category": "Occupancy",
+    "location": "zone"
+  },
+  "zone_3_occupancy": {
+    "name": "zone_3_occupancy",
+    "unit": "count",
+    "description": "zone 3 occupancy",
+    "category": "Occupancy",
+    "location": "zone"
+  },
+  "zone_4_occupancy": {
+    "name": "zone_4_occupancy",
+    "unit": "count",
+    "description": "zone 4 occupancy",
+    "category": "Occupancy",
+    "location": "zone"
+  },
+  "zone_5_occupancy": {
+    "name": "zone_5_occupancy",
+    "unit": "count",
+    "description": "zone 5 occupancy",
+    "category": "Occupancy",
+    "location": "zone"
+  },
+  "zone_6_occupancy": {
+    "name": "zone_6_occupancy",
+    "unit": "count",
+    "description": "zone 6 occupancy",
+    "category": "Occupancy",
+    "location": "zone"
+  },
+  "zone_1_air_temp_c": {
+    "name": "zone_1_air_temp_c",
+    "unit": "C",
+    "description": "zone 1 air temp c",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_1_rh_pct": {
+    "name": "zone_1_rh_pct",
+    "unit": "%",
+    "description": "zone 1 rh pct",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_1_cool_valve_pos": {
+    "name": "zone_1_cool_valve_pos",
+    "unit": "[0-1]",
+    "description": "zone 1 cool valve pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_1_heat_valve_pos": {
+    "name": "zone_1_heat_valve_pos",
+    "unit": "[0-1]",
+    "description": "zone 1 heat valve pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_1_vav_damper_pos": {
+    "name": "zone_1_vav_damper_pos",
+    "unit": "[0-1]",
+    "description": "zone 1 vav damper pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_2_air_temp_c": {
+    "name": "zone_2_air_temp_c",
+    "unit": "C",
+    "description": "zone 2 air temp c",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_2_rh_pct": {
+    "name": "zone_2_rh_pct",
+    "unit": "%",
+    "description": "zone 2 rh pct",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_2_cool_valve_pos": {
+    "name": "zone_2_cool_valve_pos",
+    "unit": "[0-1]",
+    "description": "zone 2 cool valve pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_2_heat_valve_pos": {
+    "name": "zone_2_heat_valve_pos",
+    "unit": "[0-1]",
+    "description": "zone 2 heat valve pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_2_vav_damper_pos": {
+    "name": "zone_2_vav_damper_pos",
+    "unit": "[0-1]",
+    "description": "zone 2 vav damper pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_3_air_temp_c": {
+    "name": "zone_3_air_temp_c",
+    "unit": "C",
+    "description": "zone 3 air temp c",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_3_rh_pct": {
+    "name": "zone_3_rh_pct",
+    "unit": "%",
+    "description": "zone 3 rh pct",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_3_cool_valve_pos": {
+    "name": "zone_3_cool_valve_pos",
+    "unit": "[0-1]",
+    "description": "zone 3 cool valve pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_3_heat_valve_pos": {
+    "name": "zone_3_heat_valve_pos",
+    "unit": "[0-1]",
+    "description": "zone 3 heat valve pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_3_vav_damper_pos": {
+    "name": "zone_3_vav_damper_pos",
+    "unit": "[0-1]",
+    "description": "zone 3 vav damper pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_4_air_temp_c": {
+    "name": "zone_4_air_temp_c",
+    "unit": "C",
+    "description": "zone 4 air temp c",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_4_rh_pct": {
+    "name": "zone_4_rh_pct",
+    "unit": "%",
+    "description": "zone 4 rh pct",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_4_cool_valve_pos": {
+    "name": "zone_4_cool_valve_pos",
+    "unit": "[0-1]",
+    "description": "zone 4 cool valve pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_4_heat_valve_pos": {
+    "name": "zone_4_heat_valve_pos",
+    "unit": "[0-1]",
+    "description": "zone 4 heat valve pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_4_vav_damper_pos": {
+    "name": "zone_4_vav_damper_pos",
+    "unit": "[0-1]",
+    "description": "zone 4 vav damper pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_5_air_temp_c": {
+    "name": "zone_5_air_temp_c",
+    "unit": "C",
+    "description": "zone 5 air temp c",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_5_rh_pct": {
+    "name": "zone_5_rh_pct",
+    "unit": "%",
+    "description": "zone 5 rh pct",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_5_cool_valve_pos": {
+    "name": "zone_5_cool_valve_pos",
+    "unit": "[0-1]",
+    "description": "zone 5 cool valve pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_5_heat_valve_pos": {
+    "name": "zone_5_heat_valve_pos",
+    "unit": "[0-1]",
+    "description": "zone 5 heat valve pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_5_vav_damper_pos": {
+    "name": "zone_5_vav_damper_pos",
+    "unit": "[0-1]",
+    "description": "zone 5 vav damper pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_6_air_temp_c": {
+    "name": "zone_6_air_temp_c",
+    "unit": "C",
+    "description": "zone 6 air temp c",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_6_rh_pct": {
+    "name": "zone_6_rh_pct",
+    "unit": "%",
+    "description": "zone 6 rh pct",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_6_cool_valve_pos": {
+    "name": "zone_6_cool_valve_pos",
+    "unit": "[0-1]",
+    "description": "zone 6 cool valve pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_6_heat_valve_pos": {
+    "name": "zone_6_heat_valve_pos",
+    "unit": "[0-1]",
+    "description": "zone 6 heat valve pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_6_vav_damper_pos": {
+    "name": "zone_6_vav_damper_pos",
+    "unit": "[0-1]",
+    "description": "zone 6 vav damper pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "ahu_fan_power_kw": {
+    "name": "ahu_fan_power_kw",
+    "unit": "kW",
+    "description": "ahu fan power kw",
+    "category": "Energy",
+    "location": "building"
+  },
+  "ahu_fan_speed_pct": {
+    "name": "ahu_fan_speed_pct",
+    "unit": "%",
+    "description": "ahu fan speed pct",
+    "category": "HVAC",
+    "location": "building"
+  },
+  "ahu_supply_air_temp_c": {
+    "name": "ahu_supply_air_temp_c",
+    "unit": "C",
+    "description": "ahu supply air temp c",
+    "category": "IEQ",
+    "location": "building"
+  },
+  "ahu_return_air_temp_c": {
+    "name": "ahu_return_air_temp_c",
+    "unit": "C",
+    "description": "ahu return air temp c",
+    "category": "IEQ",
+    "location": "building"
+  },
+  "cooling_power_kw": {
+    "name": "cooling_power_kw",
+    "unit": "kW",
+    "description": "cooling power kw",
+    "category": "Energy",
+    "location": "building"
+  },
+  "heating_power_kw": {
+    "name": "heating_power_kw",
+    "unit": "kW",
+    "description": "heating power kw",
+    "category": "Energy",
+    "location": "building"
+  },
+  "chiller_status": {
+    "name": "chiller_status",
+    "unit": "binary",
+    "description": "chiller status",
+    "category": "HVAC",
+    "location": "building"
+  },
+  "boiler_status": {
+    "name": "boiler_status",
+    "unit": "binary",
+    "description": "boiler status",
+    "category": "HVAC",
+    "location": "building"
+  },
+  "cooling_setpoint_c": {
+    "name": "cooling_setpoint_c",
+    "unit": "",
+    "description": "cooling setpoint c",
+    "category": "Other",
+    "location": "building"
+  },
+  "heating_setpoint_c": {
+    "name": "heating_setpoint_c",
+    "unit": "",
+    "description": "heating setpoint c",
+    "category": "Other",
+    "location": "building"
+  },
+  "occupied": {
+    "name": "occupied",
+    "unit": "binary",
+    "description": "occupied",
+    "category": "HVAC",
+    "location": "building"
+  },
+  "zone_1_co2_ppm": {
+    "name": "zone_1_co2_ppm",
+    "unit": "ppm",
+    "description": "zone 1 co2 ppm",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_1_tvoc_ppb": {
+    "name": "zone_1_tvoc_ppb",
+    "unit": "ppb",
+    "description": "zone 1 tvoc ppb",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_1_pm25_ugm3": {
+    "name": "zone_1_pm25_ugm3",
+    "unit": "ug/m3",
+    "description": "zone 1 pm25 ugm3",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_1_pm10_ugm3": {
+    "name": "zone_1_pm10_ugm3",
+    "unit": "ug/m3",
+    "description": "zone 1 pm10 ugm3",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_1_lux": {
+    "name": "zone_1_lux",
+    "unit": "lux",
+    "description": "zone 1 lux",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_1_noise_dba": {
+    "name": "zone_1_noise_dba",
+    "unit": "dBA",
+    "description": "zone 1 noise dba",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_1_motion": {
+    "name": "zone_1_motion",
+    "unit": "binary",
+    "description": "zone 1 motion",
+    "category": "Occupancy",
+    "location": "zone"
+  },
+  "zone_2_co2_ppm": {
+    "name": "zone_2_co2_ppm",
+    "unit": "ppm",
+    "description": "zone 2 co2 ppm",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_2_tvoc_ppb": {
+    "name": "zone_2_tvoc_ppb",
+    "unit": "ppb",
+    "description": "zone 2 tvoc ppb",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_2_pm25_ugm3": {
+    "name": "zone_2_pm25_ugm3",
+    "unit": "ug/m3",
+    "description": "zone 2 pm25 ugm3",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_2_pm10_ugm3": {
+    "name": "zone_2_pm10_ugm3",
+    "unit": "ug/m3",
+    "description": "zone 2 pm10 ugm3",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_2_lux": {
+    "name": "zone_2_lux",
+    "unit": "lux",
+    "description": "zone 2 lux",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_2_noise_dba": {
+    "name": "zone_2_noise_dba",
+    "unit": "dBA",
+    "description": "zone 2 noise dba",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_2_motion": {
+    "name": "zone_2_motion",
+    "unit": "binary",
+    "description": "zone 2 motion",
+    "category": "Occupancy",
+    "location": "zone"
+  },
+  "zone_3_co2_ppm": {
+    "name": "zone_3_co2_ppm",
+    "unit": "ppm",
+    "description": "zone 3 co2 ppm",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_3_tvoc_ppb": {
+    "name": "zone_3_tvoc_ppb",
+    "unit": "ppb",
+    "description": "zone 3 tvoc ppb",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_3_pm25_ugm3": {
+    "name": "zone_3_pm25_ugm3",
+    "unit": "ug/m3",
+    "description": "zone 3 pm25 ugm3",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_3_pm10_ugm3": {
+    "name": "zone_3_pm10_ugm3",
+    "unit": "ug/m3",
+    "description": "zone 3 pm10 ugm3",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_3_lux": {
+    "name": "zone_3_lux",
+    "unit": "lux",
+    "description": "zone 3 lux",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_3_noise_dba": {
+    "name": "zone_3_noise_dba",
+    "unit": "dBA",
+    "description": "zone 3 noise dba",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_3_motion": {
+    "name": "zone_3_motion",
+    "unit": "binary",
+    "description": "zone 3 motion",
+    "category": "Occupancy",
+    "location": "zone"
+  },
+  "zone_4_co2_ppm": {
+    "name": "zone_4_co2_ppm",
+    "unit": "ppm",
+    "description": "zone 4 co2 ppm",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_4_tvoc_ppb": {
+    "name": "zone_4_tvoc_ppb",
+    "unit": "ppb",
+    "description": "zone 4 tvoc ppb",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_4_pm25_ugm3": {
+    "name": "zone_4_pm25_ugm3",
+    "unit": "ug/m3",
+    "description": "zone 4 pm25 ugm3",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_4_pm10_ugm3": {
+    "name": "zone_4_pm10_ugm3",
+    "unit": "ug/m3",
+    "description": "zone 4 pm10 ugm3",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_4_lux": {
+    "name": "zone_4_lux",
+    "unit": "lux",
+    "description": "zone 4 lux",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_4_noise_dba": {
+    "name": "zone_4_noise_dba",
+    "unit": "dBA",
+    "description": "zone 4 noise dba",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_4_motion": {
+    "name": "zone_4_motion",
+    "unit": "binary",
+    "description": "zone 4 motion",
+    "category": "Occupancy",
+    "location": "zone"
+  },
+  "zone_5_co2_ppm": {
+    "name": "zone_5_co2_ppm",
+    "unit": "ppm",
+    "description": "zone 5 co2 ppm",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_5_tvoc_ppb": {
+    "name": "zone_5_tvoc_ppb",
+    "unit": "ppb",
+    "description": "zone 5 tvoc ppb",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_5_pm25_ugm3": {
+    "name": "zone_5_pm25_ugm3",
+    "unit": "ug/m3",
+    "description": "zone 5 pm25 ugm3",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_5_pm10_ugm3": {
+    "name": "zone_5_pm10_ugm3",
+    "unit": "ug/m3",
+    "description": "zone 5 pm10 ugm3",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_5_lux": {
+    "name": "zone_5_lux",
+    "unit": "lux",
+    "description": "zone 5 lux",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_5_noise_dba": {
+    "name": "zone_5_noise_dba",
+    "unit": "dBA",
+    "description": "zone 5 noise dba",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_5_motion": {
+    "name": "zone_5_motion",
+    "unit": "binary",
+    "description": "zone 5 motion",
+    "category": "Occupancy",
+    "location": "zone"
+  },
+  "zone_6_co2_ppm": {
+    "name": "zone_6_co2_ppm",
+    "unit": "ppm",
+    "description": "zone 6 co2 ppm",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_6_tvoc_ppb": {
+    "name": "zone_6_tvoc_ppb",
+    "unit": "ppb",
+    "description": "zone 6 tvoc ppb",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_6_pm25_ugm3": {
+    "name": "zone_6_pm25_ugm3",
+    "unit": "ug/m3",
+    "description": "zone 6 pm25 ugm3",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_6_pm10_ugm3": {
+    "name": "zone_6_pm10_ugm3",
+    "unit": "ug/m3",
+    "description": "zone 6 pm10 ugm3",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_6_lux": {
+    "name": "zone_6_lux",
+    "unit": "lux",
+    "description": "zone 6 lux",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_6_noise_dba": {
+    "name": "zone_6_noise_dba",
+    "unit": "dBA",
+    "description": "zone 6 noise dba",
+    "category": "IEQ",
+    "location": "zone"
+  },
+  "zone_6_motion": {
+    "name": "zone_6_motion",
+    "unit": "binary",
+    "description": "zone 6 motion",
+    "category": "Occupancy",
+    "location": "zone"
+  },
+  "zone_1_window_open_frac": {
+    "name": "zone_1_window_open_frac",
+    "unit": "[0-1]",
+    "description": "zone 1 window open frac",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_1_blinds_pos": {
+    "name": "zone_1_blinds_pos",
+    "unit": "[0-1]",
+    "description": "zone 1 blinds pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_2_window_open_frac": {
+    "name": "zone_2_window_open_frac",
+    "unit": "[0-1]",
+    "description": "zone 2 window open frac",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_2_blinds_pos": {
+    "name": "zone_2_blinds_pos",
+    "unit": "[0-1]",
+    "description": "zone 2 blinds pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_3_window_open_frac": {
+    "name": "zone_3_window_open_frac",
+    "unit": "[0-1]",
+    "description": "zone 3 window open frac",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_3_blinds_pos": {
+    "name": "zone_3_blinds_pos",
+    "unit": "[0-1]",
+    "description": "zone 3 blinds pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_4_window_open_frac": {
+    "name": "zone_4_window_open_frac",
+    "unit": "[0-1]",
+    "description": "zone 4 window open frac",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_4_blinds_pos": {
+    "name": "zone_4_blinds_pos",
+    "unit": "[0-1]",
+    "description": "zone 4 blinds pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_5_window_open_frac": {
+    "name": "zone_5_window_open_frac",
+    "unit": "[0-1]",
+    "description": "zone 5 window open frac",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_5_blinds_pos": {
+    "name": "zone_5_blinds_pos",
+    "unit": "[0-1]",
+    "description": "zone 5 blinds pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_6_window_open_frac": {
+    "name": "zone_6_window_open_frac",
+    "unit": "[0-1]",
+    "description": "zone 6 window open frac",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "zone_6_blinds_pos": {
+    "name": "zone_6_blinds_pos",
+    "unit": "[0-1]",
+    "description": "zone 6 blinds pos",
+    "category": "Controls",
+    "location": "zone"
+  },
+  "electricity_kw": {
+    "name": "electricity_kw",
+    "unit": "kW",
+    "description": "electricity kw",
+    "category": "Energy",
+    "location": "building"
+  },
+  "gas_kw": {
+    "name": "gas_kw",
+    "unit": "kW",
+    "description": "gas kw",
+    "category": "Energy",
+    "location": "building"
+  },
+  "water_m3ph": {
+    "name": "water_m3ph",
+    "unit": "m3/h",
+    "description": "water m3ph",
+    "category": "Water",
+    "location": "building"
+  },
+  "cooling_kw": {
+    "name": "cooling_kw",
+    "unit": "kW",
+    "description": "cooling kw",
+    "category": "Energy",
+    "location": "building"
+  },
+  "heating_kw": {
+    "name": "heating_kw",
+    "unit": "kW",
+    "description": "heating kw",
+    "category": "Energy",
+    "location": "building"
+  },
+  "fan_kw": {
+    "name": "fan_kw",
+    "unit": "kW",
+    "description": "fan kw",
+    "category": "Energy",
+    "location": "building"
+  },
+  "lighting_kw": {
+    "name": "lighting_kw",
+    "unit": "kW",
+    "description": "lighting kw",
+    "category": "Energy",
+    "location": "building"
+  },
+  "plug_kw": {
+    "name": "plug_kw",
+    "unit": "kW",
+    "description": "plug kw",
+    "category": "Energy",
+    "location": "building"
+  },
+  "pumps_kw": {
+    "name": "pumps_kw",
+    "unit": "kW",
+    "description": "pumps kw",
+    "category": "Energy",
+    "location": "building"
+  },
+  "server_kw": {
+    "name": "server_kw",
+    "unit": "kW",
+    "description": "server kw",
+    "category": "Energy",
+    "location": "building"
+  }
+}
