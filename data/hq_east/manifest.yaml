@@ -1,0 +1,79 @@
+site_name: HQ-East
+time:
+  start: '2024-01-01 00:00:00'
+  end: '2024-12-31 00:00:00'
+  freq: 15min
+  tz: America/New_York
+seed: 42
+streams:
+- weather
+- occupancy
+- energy
+- ieq
+- hvac
+- windows_blinds
+configs:
+  weather:
+    latitude: 40.71
+    longitude: -74.01
+    use_download: true
+  occupancy:
+    peak_occupancy: 1200
+    arrival_spread_hours: 2.0
+    departure_spread_hours: 2.0
+    wfh_fraction: 0.2
+  energy:
+    floor_area_m2: 25000.0
+    elec_base_kw: 400.0
+    elec_peak_kw: 1500.0
+    gas_base_kw: 0.0
+    water_base_m3ph: 1.5
+    district_cooling_kw_per_C: 50.0
+    district_heating_kw_per_C: 45.0
+  ieq:
+    num_zones: 6
+    co2_outdoor_ppm: 420.0
+    co2_per_person_lps: 0.005
+    ventilation_lps_per_person: 0.01
+  hvac:
+    supply_temp_setpoint_C: 13.0
+    return_temp_offset_C: 8.0
+  windows_blinds:
+    window_open_bias: 0.05
+    blind_close_bias: 0.1
+schema:
+  weather:
+  - ambient_temp_C
+  - relative_humidity_pct
+  - wind_speed_mps
+  - wind_dir_deg
+  - rain_mm
+  - solar_irradiance_Wm2
+  occupancy:
+  - occupant_count
+  - wifi_clients_agg
+  energy:
+  - electric_kw_whole
+  - gas_kw_whole
+  - water_m3ph
+  - district_cooling_kw
+  - hvac_kw
+  - lighting_kw
+  - plugs_kw
+  ieq: various per-zone air_temp_C_zN, rh_pct_zN, plus co2_ppm, pm25_ugm3, pm10_ugm3,
+    tvoc_ppb, illuminance_lux, noise_db
+  hvac:
+  - supply_air_temp_C
+  - return_air_temp_C
+  - fan_speed_frac
+  - oa_damper_pos_frac
+  - valve_pos_frac
+  - chiller_status
+  - boiler_status
+  - heat_setpoint_C
+  - cool_setpoint_C
+  windows_blinds:
+  - window_open
+  - blinds_closed
+notes: Synthetic dataset integrating IoT streams for digital twin and retrofit optimization
+  research.
