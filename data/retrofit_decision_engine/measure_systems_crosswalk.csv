@@ -1,0 +1,13 @@
+measure_id,system_id,quantity_per_unit,quantity_unit,notes
+ME_HV_BOILER_COND,SYS_GAS_BOILER_COND,1.0,kw,Per kW capacity
+ME_HV_ATW_HP,SYS_AIR_TO_WATER_HP,1.0,kw,Per kW capacity
+ME_HV_CHILLER_HIGH_EFF,SYS_WATER_COOLED_CHILLER,1.0,kw,Per kW capacity
+ME_HV_ADD_ERV,SYS_ERV,1.0,cfm,Per cfm airflow
+ME_LT_LED,SYS_LED_FIXTURE,0.1,fixture_per_m2,Fixture density
+ME_RE_PV_10KW,SYS_PV_MODULE,10,kw,Nameplate capacity
+ME_RE_PV_10KW,SYS_PV_INVERTER,10,kw,Inverter matched to array
+ME_RE_PV_50KW,SYS_PV_MODULE,50,kw,Nameplate capacity
+ME_RE_PV_50KW,SYS_PV_INVERTER,50,kw,Inverter matched to array
+ME_RE_PV_100KW,SYS_PV_MODULE,100,kw,Nameplate capacity
+ME_RE_PV_100KW,SYS_PV_INVERTER,100,kw,Inverter matched to array
+ME_RE_BAT_50KWH,SYS_LI_ION_BATTERY,50,kwh_cap,Declared capacity

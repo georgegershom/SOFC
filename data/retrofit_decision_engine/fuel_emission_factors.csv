@@ -1,0 +1,5 @@
+fuel,unit,kgco2e_per_unit,notes
+electricity,kwh,0.4,Fallback average if hourly CI not used
+natural_gas,therm,5.3,Combustion CO2e only
+fuel_oil_2,gallon,10.2,Combustion CO2e only
+propane,gallon,5.7,Combustion CO2e only

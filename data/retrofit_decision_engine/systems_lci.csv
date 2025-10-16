@@ -1,0 +1,10 @@
+system_id,name,category,unit,gwp_a1a3_kgco2e_per_unit,gwp_a1a5_kgco2e_per_unit,lifetime_years_default,source
+SYS_GAS_BOILER_COND,Condensing gas boiler,HVAC,per_kw,25.0,28.0,20,Fabricated typical range inspired by EPDs
+SYS_AIR_TO_WATER_HP,Air-to-water heat pump,HVAC,per_kw,60.0,66.0,15,Fabricated typical range inspired by EPDs
+SYS_AIR_TO_AIR_HP,Air-to-air heat pump (RTU/mini-split),HVAC,per_kw,52.0,58.0,15,Fabricated typical range inspired by EPDs
+SYS_WATER_COOLED_CHILLER,Water-cooled chiller,HVAC,per_kw,80.0,90.0,25,Fabricated typical range inspired by EPDs
+SYS_ERV,Energy recovery ventilator,HVAC,per_cfm,0.18,0.22,20,Fabricated typical range inspired by EPDs
+SYS_LED_FIXTURE,LED luminaire,Electrical,per_fixture,12.0,14.0,12,Fabricated typical range inspired by EPDs
+SYS_PV_MODULE,PV modules + BOS,Electrical,per_kw,600.0,660.0,25,Fabricated typical range inspired by EPDs
+SYS_PV_INVERTER,PV string inverter,Electrical,per_kw,80.0,90.0,12,Fabricated typical range inspired by EPDs
+SYS_LI_ION_BATTERY,Li-ion battery pack,Electrical,per_kwh_cap,90.0,100.0,10,Fabricated typical range inspired by EPDs

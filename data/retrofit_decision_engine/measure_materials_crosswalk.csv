@@ -1,0 +1,20 @@
+measure_id,material_id,quantity_per_unit,quantity_unit,notes
+ME_EN_ROOF_R21_POLYISO,MAT_POLYISO,1.6256,kg_per_m2,2 inches
+ME_EN_ROOF_R42_POLYISO,MAT_POLYISO,3.2512,kg_per_m2,4 inches
+ME_EN_ROOF_R63_POLYISO,MAT_POLYISO,4.8768,kg_per_m2,6 inches
+ME_EN_ROOF_R29_XPS,MAT_XPS,3.556,kg_per_m2,4 inches
+ME_EN_ROOF_R44_XPS,MAT_XPS,5.334,kg_per_m2,6 inches
+ME_EN_ROOF_R40_MINERAL_WOOL,MAT_MINERAL_WOOL,6.096,kg_per_m2,6 inches
+ME_EN_WINDOW_U18,MAT_GLASS,40.0,kg_per_m2,Double-pane low-E
+ME_EN_WINDOW_U18,MAT_ALUMINUM,5.0,kg_per_m2,Frame/extrusions
+ME_EN_WINDOW_U18,MAT_PVC,0.8,kg_per_m2,Gaskets and spacers
+ME_EN_WINDOW_U12,MAT_GLASS,60.0,kg_per_m2,Triple-pane low-E
+ME_EN_WINDOW_U12,MAT_ALUMINUM,5.0,kg_per_m2,Frame/extrusions
+ME_EN_WINDOW_U12,MAT_PVC,0.8,kg_per_m2,Gaskets and spacers
+ME_EN_SHADING,MAT_ALUMINUM,6.0,kg_per_m2,Louver assemblies
+ME_HV_ADD_ERV,MAT_STEEL_STRUCT,0.002,kg_per_cfm,Casing and internals
+ME_HV_ADD_ERV,MAT_COPPER,0.0002,kg_per_cfm,Coils and wiring
+ME_HV_VFD,MAT_PVC,0.2,kg_per_kw,Enclosure and plastics
+ME_HV_VFD,MAT_COPPER,0.15,kg_per_kw,Wiring and windings
+ME_CTRL_BMS,MAT_PVC,0.05,kg_per_m2,"Sensors, cables"
+ME_CTRL_ADV_SEQ,MAT_PVC,0.02,kg_per_m2,Software/hardware minor
