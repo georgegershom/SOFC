@@ -1,0 +1,412 @@
+{
+  "renewable_energy_systems": [
+    {
+      "system_id": "PV_001",
+      "system_name": "Rooftop_Solar_PV_Array",
+      "system_type": "Grid_Tied_Solar_Photovoltaic",
+      "installation_date": "2020-06-15",
+      "warranty_period_years": 25,
+      "manufacturer": "SunPower_Corporation",
+      "installer": "Solar_Solutions_Pro",
+      "system_capacity": {
+        "dc_capacity_kw": 125.0,
+        "ac_capacity_kw": 118.5,
+        "dc_ac_ratio": 1.055,
+        "number_of_modules": 350,
+        "module_capacity_w": 357
+      },
+      "solar_modules": {
+        "manufacturer": "SunPower",
+        "model": "SPR_X22_370_COM",
+        "technology": "Monocrystalline_Silicon_IBC",
+        "rated_power_w": 370,
+        "efficiency_percent": 22.1,
+        "temperature_coefficient_percent_c": -0.29,
+        "dimensions": {
+          "length_mm": 2067,
+          "width_mm": 1046,
+          "thickness_mm": 46,
+          "weight_kg": 24.5
+        },
+        "electrical_characteristics": {
+          "vmp_v": 65.2,
+          "imp_a": 5.68,
+          "voc_v": 76.8,
+          "isc_a": 6.14,
+          "max_system_voltage_v": 1500
+        },
+        "certifications": ["IEC_61215", "IEC_61730", "UL_1703"],
+        "warranty": {
+          "product_warranty_years": 25,
+          "performance_warranty_years": 25,
+          "year_1_degradation_percent": 0.5,
+          "annual_degradation_percent": 0.25
+        }
+      },
+      "inverters": {
+        "manufacturer": "SMA_Solar_Technology",
+        "model": "Sunny_Tripower_25000TL",
+        "quantity": 5,
+        "rated_power_kw": 25.0,
+        "efficiency_percent": 98.4,
+        "technology": "Transformerless_String_Inverter",
+        "mppt_trackers": 3,
+        "input_voltage_range_v": [580, 1000],
+        "max_input_current_a": 33,
+        "output_voltage_v": 480,
+        "dimensions": {
+          "height_mm": 760,
+          "width_mm": 1085,
+          "depth_mm": 334,
+          "weight_kg": 61
+        },
+        "features": [
+          "Integrated_DC_Disconnect",
+          "Arc_Fault_Detection",
+          "Rapid_Shutdown_Compliant",
+          "Web_Based_Monitoring",
+          "Grid_Support_Functions"
+        ],
+        "warranty_years": 10
+      },
+      "mounting_system": {
+        "manufacturer": "IronRidge",
+        "model": "XR_Rail_System",
+        "mounting_type": "Ballasted_Racking",
+        "tilt_angle_degrees": 10,
+        "azimuth_degrees": 180,
+        "row_spacing_m": 4.2,
+        "wind_load_rating_pa": 2400,
+        "snow_load_rating_pa": 1440,
+        "material": "Aluminum_6005_T5",
+        "corrosion_protection": "Clear_Anodized_Finish"
+      },
+      "electrical_design": {
+        "dc_combiner_boxes": {
+          "manufacturer": "Midnite_Solar",
+          "model": "MNPV_12_600",
+          "quantity": 12,
+          "input_circuits": 12,
+          "rated_voltage_v": 600,
+          "rated_current_a": 15
+        },
+        "dc_wiring": {
+          "cable_type": "THWN_2_Copper_USE_2",
+          "cable_size_awg": 10,
+          "conduit_type": "EMT_Steel",
+          "total_dc_cable_length_m": 1250
+        },
+        "ac_wiring": {
+          "cable_type": "THWN_Copper",
+          "cable_size_awg": 4,
+          "conduit_type": "EMT_Steel",
+          "total_ac_cable_length_m": 185
+        },
+        "grounding_system": {
+          "equipment_grounding": "Copper_Wire_12_AWG",
+          "grounding_electrode": "Concrete_Encased_Electrode",
+          "bonding_jumpers": "Copper_6_AWG"
+        }
+      },
+      "monitoring_system": {
+        "manufacturer": "SMA",
+        "model": "Sunny_Portal",
+        "monitoring_type": "Web_Based_Portal",
+        "data_logger": "Sunny_WebBox",
+        "communication": "Ethernet_WiFi",
+        "parameters_monitored": [
+          "DC_Power_per_String",
+          "AC_Power_per_Inverter",
+          "Energy_Production",
+          "System_Efficiency",
+          "Environmental_Conditions",
+          "Fault_Detection",
+          "Performance_Ratio"
+        ],
+        "data_retention_years": 20,
+        "reporting_frequency": "15_minute_intervals"
+      },
+      "performance_data": {
+        "design_annual_production_kwh": 165000,
+        "actual_annual_production_kwh": 162350,
+        "performance_ratio": 0.823,
+        "capacity_factor_percent": 14.8,
+        "specific_yield_kwh_kw": 1299,
+        "system_efficiency_percent": 16.2,
+        "inverter_efficiency_percent": 97.8,
+        "dc_losses_percent": 2.5,
+        "ac_losses_percent": 1.2,
+        "soiling_losses_percent": 2.0,
+        "shading_losses_percent": 1.5
+      },
+      "environmental_impact": {
+        "annual_co2_avoided_kg": 81175,
+        "annual_co2_avoided_tons": 81.2,
+        "equivalent_trees_planted": 1843,
+        "equivalent_cars_removed": 17.6,
+        "energy_payback_time_years": 1.8,
+        "carbon_payback_time_years": 2.1
+      },
+      "financial_data": {
+        "system_cost_usd": 187500,
+        "cost_per_watt_usd": 1.50,
+        "annual_energy_savings_usd": 16235,
+        "simple_payback_years": 11.5,
+        "net_present_value_usd": 145680,
+        "internal_rate_of_return_percent": 8.7,
+        "federal_tax_credit_percent": 30,
+        "state_incentives_usd": 12500,
+        "utility_rebate_usd": 8750
+      },
+      "grid_interconnection": {
+        "utility_company": "Metropolitan_Electric_Cooperative",
+        "interconnection_agreement": "Net_Metering_Agreement",
+        "agreement_date": "2020-05-20",
+        "meter_type": "Bidirectional_Smart_Meter",
+        "net_metering_rate_usd_kwh": 0.098,
+        "excess_generation_credit": "Annual_True_Up",
+        "interconnection_capacity_kw": 118.5,
+        "utility_disconnect": "Lockable_AC_Disconnect"
+      },
+      "maintenance_history": [
+        {
+          "date": "2024-09-10",
+          "type": "Preventive_Maintenance",
+          "technician": "Solar_Solutions_Pro",
+          "work_performed": [
+            "Visual_Inspection_All_Components",
+            "Module_Cleaning",
+            "Electrical_Connection_Torque_Check",
+            "Inverter_Performance_Verification",
+            "Monitoring_System_Update"
+          ],
+          "findings": "System_Operating_Normally",
+          "performance_issues": "None",
+          "next_service_date": "2025-03-10"
+        },
+        {
+          "date": "2023-11-15",
+          "type": "Corrective_Maintenance",
+          "technician": "Solar_Solutions_Pro",
+          "work_performed": [
+            "Inverter_2_Replacement",
+            "DC_Combiner_Fuse_Replacement",
+            "Monitoring_Communication_Repair"
+          ],
+          "findings": "Inverter_Internal_Fault",
+          "parts_replaced": ["SMA_Inverter_25kW", "DC_Fuses_15A"],
+          "cost_usd": 3250,
+          "warranty_claim": true
+        }
+      ]
+    },
+    {
+      "system_id": "ST_001",
+      "system_name": "Solar_Thermal_Hot_Water",
+      "system_type": "Active_Solar_Water_Heating",
+      "installation_date": "2020-05-15",
+      "manufacturer": "Heliodyne",
+      "model": "GOBI_410_Evacuated_Tube",
+      "system_capacity": {
+        "collector_area_m2": 12.8,
+        "collector_area_sqft": 138,
+        "storage_capacity_liters": 303,
+        "storage_capacity_gallons": 80,
+        "daily_hot_water_production_liters": 450,
+        "daily_hot_water_production_gallons": 119
+      },
+      "solar_collectors": {
+        "manufacturer": "Heliodyne",
+        "model": "GOBI_410",
+        "collector_type": "Evacuated_Tube",
+        "quantity": 4,
+        "gross_area_m2": 3.2,
+        "aperture_area_m2": 2.8,
+        "absorber_area_m2": 2.6,
+        "efficiency_equation": "0.735 - 1.33*(Ti-Ta)/G - 0.0065*G*(Ti-Ta)^2/G^2",
+        "optical_efficiency": 0.735,
+        "heat_loss_coefficient_1": 1.33,
+        "heat_loss_coefficient_2": 0.0065,
+        "test_conditions": "EN_12975_Standard"
+      },
+      "collector_installation": {
+        "tilt_angle_degrees": 45,
+        "azimuth_degrees": 180,
+        "mounting_type": "Roof_Integrated",
+        "shading_analysis": "No_Shading_9AM_3PM",
+        "collector_spacing_m": 0.15,
+        "piping_insulation": "Armaflex_25mm_Thickness"
+      },
+      "heat_transfer_system": {
+        "system_type": "Closed_Loop_Glycol",
+        "heat_transfer_fluid": "Propylene_Glycol_40_Percent",
+        "fluid_volume_liters": 45,
+        "circulation_pump": {
+          "manufacturer": "Grundfos",
+          "model": "UPS_26_99_FC",
+          "flow_rate_lpm": 22.7,
+          "flow_rate_gpm": 6.0,
+          "head_pressure_m": 8.5,
+          "power_consumption_w": 85,
+          "control_type": "Variable_Speed_Controller"
+        },
+        "heat_exchanger": {
+          "type": "Coil_in_Tank",
+          "material": "Copper_Coil",
+          "heat_transfer_area_m2": 2.8,
+          "effectiveness": 0.75,
+          "pressure_drop_kpa": 15
+        },
+        "expansion_tank": {
+          "manufacturer": "Caleffi",
+          "model": "551_Series",
+          "capacity_liters": 7.6,
+          "pre_charge_pressure_kpa": 207,
+          "maximum_temperature_c": 120
+        }
+      },
+      "storage_system": {
+        "tank_manufacturer": "Heliodyne",
+        "tank_model": "ST_080_Solar_Storage",
+        "capacity_liters": 303,
+        "capacity_gallons": 80,
+        "insulation_r_value": 16,
+        "tank_material": "Glass_Lined_Steel",
+        "heat_exchanger_coil": "Single_Wall_Copper",
+        "auxiliary_heating": "Electric_Element_4.5kW",
+        "temperature_sensors": [
+          "Bottom_Tank_Temperature",
+          "Mid_Tank_Temperature",
+          "Top_Tank_Temperature"
+        ]
+      },
+      "controls": {
+        "controller_manufacturer": "Heliodyne",
+        "controller_model": "HC_40_Differential",
+        "control_strategy": "Differential_Temperature_Control",
+        "pump_on_differential_k": 8,
+        "pump_off_differential_k": 3,
+        "high_limit_temperature_c": 95,
+        "freeze_protection": "Glycol_Circulation",
+        "overheat_protection": "Collector_Stagnation_Control"
+      },
+      "performance_data": {
+        "annual_solar_fraction_percent": 58,
+        "annual_energy_delivered_kwh": 16500,
+        "annual_energy_delivered_btu": 56300000,
+        "peak_daily_collection_kwh": 65,
+        "collector_efficiency_percent": 68,
+        "system_efficiency_percent": 52,
+        "annual_auxiliary_energy_kwh": 12000,
+        "annual_fuel_savings_therms": 550,
+        "annual_cost_savings_usd": 1485
+      },
+      "environmental_impact": {
+        "annual_co2_avoided_kg": 5850,
+        "annual_co2_avoided_tons": 5.85,
+        "equivalent_trees_planted": 133,
+        "energy_payback_time_years": 2.5,
+        "carbon_payback_time_years": 3.1
+      },
+      "integration": {
+        "backup_system": "DHW_001_Gas_Water_Heater",
+        "connection_type": "Series_Preheat_Configuration",
+        "mixing_valve": "Thermostatic_Mixing_Valve_49C",
+        "recirculation_compatible": true,
+        "freeze_protection_method": "Active_Glycol_Circulation"
+      }
+    }
+  ],
+  "energy_storage": [
+    {
+      "system_id": "BESS_001",
+      "system_name": "Battery_Energy_Storage_System",
+      "system_type": "Lithium_Ion_Battery_Storage",
+      "installation_date": "2023-08-20",
+      "manufacturer": "Tesla",
+      "model": "Megapack_2XL",
+      "capacity_data": {
+        "usable_capacity_kwh": 3916,
+        "total_capacity_kwh": 4320,
+        "depth_of_discharge_percent": 90.6,
+        "power_rating_kw": 1500,
+        "continuous_power_kw": 1500,
+        "peak_power_kw": 1875,
+        "duration_hours": 2.6
+      },
+      "battery_specifications": {
+        "chemistry": "Lithium_Iron_Phosphate_LFP",
+        "cell_manufacturer": "CATL",
+        "module_configuration": "16S_1P",
+        "pack_voltage_v": 924,
+        "cycle_life": 6000,
+        "calendar_life_years": 20,
+        "operating_temperature_range_c": [-20, 50],
+        "efficiency_percent": 92.5
+      },
+      "inverter_system": {
+        "manufacturer": "Tesla",
+        "model": "Integrated_Inverter",
+        "quantity": 1,
+        "rated_power_kw": 1500,
+        "efficiency_percent": 97.5,
+        "grid_forming_capability": true,
+        "black_start_capability": true,
+        "reactive_power_capability_kvar": 750
+      },
+      "control_system": {
+        "manufacturer": "Tesla",
+        "model": "Autobidder_Software",
+        "control_strategy": "Grid_Services_Peak_Shaving",
+        "communication_protocol": "Modbus_TCP_IP",
+        "grid_services": [
+          "Frequency_Regulation",
+          "Voltage_Support",
+          "Peak_Shaving",
+          "Load_Shifting",
+          "Backup_Power"
+        ]
+      },
+      "performance_data": {
+        "annual_throughput_mwh": 2850,
+        "capacity_factor_percent": 19.5,
+        "round_trip_efficiency_percent": 89.8,
+        "availability_percent": 98.5,
+        "peak_shaving_savings_usd": 45000,
+        "grid_services_revenue_usd": 28500
+      },
+      "safety_systems": {
+        "fire_suppression": "Novec_1230_Clean_Agent",
+        "thermal_management": "Liquid_Cooling_System",
+        "ventilation": "Forced_Air_Ventilation",
+        "gas_detection": "Hydrogen_CO_Detection",
+        "emergency_shutdown": "Manual_Remote_Shutdown"
+      }
+    }
+  ],
+  "system_integration": {
+    "energy_management_system": {
+      "manufacturer": "Schneider_Electric",
+      "model": "EcoStruxure_Microgrid_Advisor",
+      "functions": [
+        "Load_Forecasting",
+        "Generation_Forecasting",
+        "Economic_Optimization",
+        "Grid_Services_Coordination",
+        "Demand_Response_Participation"
+      ]
+    },
+    "interconnection_protection": {
+      "utility_disconnect": "Motorized_Disconnect_Switch",
+      "protective_relaying": "SEL_751A_Feeder_Protection",
+      "anti_islanding": "IEEE_1547_Compliant",
+      "power_quality": "Harmonic_Filtering_5_Percent_THD"
+    },
+    "monitoring_and_analytics": {
+      "data_acquisition": "Real_Time_SCADA",
+      "performance_analytics": "Machine_Learning_Algorithms",
+      "predictive_maintenance": "Condition_Based_Monitoring",
+      "reporting": "Automated_Monthly_Reports"
+    }
+  }
+}
