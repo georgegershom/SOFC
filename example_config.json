@@ -1,0 +1,21 @@
+{
+  "building_type": "Commercial Office Building",
+  "floor_area": 5000.0,
+  "num_floors": 5,
+  "num_zones": 20,
+  "occupancy_capacity": 250,
+  "latitude": 40.7128,
+  "longitude": -74.0060,
+  "timezone": "America/New_York",
+  "elevation": 10.0,
+  "window_to_wall_ratio": 0.4,
+  "building_orientation": 0.0,
+  "hvac_type": "VAV with Reheat",
+  "chiller_capacity": 500.0,
+  "boiler_capacity": 300.0,
+  "num_ahu": 4,
+  "has_solar_panels": true,
+  "solar_capacity": 100.0,
+  "has_energy_storage": true,
+  "battery_capacity": 200.0
+}
