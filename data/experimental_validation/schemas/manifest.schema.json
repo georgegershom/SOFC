@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Experimental Validation Dataset Manifest",
+  "type": "object",
+  "required": ["dataset_name", "version", "samples"],
+  "properties": {
+    "dataset_name": {"type": "string"},
+    "version": {"type": "string"},
+    "description": {"type": "string"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "num_samples": {"type": "integer", "minimum": 1},
+    "parameter_space": {
+      "type": "object",
+      "properties": {
+        "anode_thickness_um": {"type": "array", "items": {"type": "number"}},
+        "electrolyte_thickness_um": {"type": "array", "items": {"type": "number"}},
+        "cathode_thickness_um": {"type": "array", "items": {"type": "number"}},
+        "sinter_cycles": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "samples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "parameters", "measurements"],
+        "properties": {
+          "id": {"type": "string"},
+          "split": {"type": "string", "enum": ["train", "val", "test"]},
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "anode_thickness_um": {"type": "number"},
+              "electrolyte_thickness_um": {"type": "number"},
+              "cathode_thickness_um": {"type": "number"},
+              "sinter_cycle": {"type": "string"}
+            },
+            "additionalProperties": false
+          },
+          "measurements": {
+            "type": "object",
+            "properties": {
+              "warp_point_cloud_path": {"type": "string"},
+              "warp_height_map_path": {"type": "string"},
+              "curvature_inverse": {
+                "type": "object",
+                "properties": {
+                  "R_mm": {"type": "number"},
+                  "avg_stress_MPa": {"type": "number"},
+                  "method": {"type": "string"}
+                }
+              },
+              "layer_removal_sequence": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "removed_layer": {"type": "string"},
+                    "thickness_removed_um": {"type": "number"},
+                    "warp_point_cloud_path": {"type": "string"}
+                  }
+                }
+              },
+              "xrd_map_path": {"type": "string"},
+              "raman_map_path": {"type": "string"}
+            }
+          }
+        }
+      }
+    }
+  }
+}
