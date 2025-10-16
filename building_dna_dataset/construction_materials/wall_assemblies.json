@@ -1,0 +1,321 @@
+{
+  "wall_assemblies": [
+    {
+      "assembly_id": "WA_001",
+      "assembly_name": "Exterior_Curtain_Wall_South",
+      "wall_type": "Curtain_Wall",
+      "total_thickness_m": 0.15,
+      "total_r_value_m2k_w": 2.85,
+      "total_u_value_w_m2k": 0.351,
+      "thermal_mass_kg_m2": 45.2,
+      "fire_rating_hours": 1.0,
+      "acoustic_rating_stc": 38,
+      "layers": [
+        {
+          "layer_id": "L001",
+          "layer_name": "Exterior_Glazing",
+          "material": "Low_E_Double_Glazed_Glass",
+          "thickness_m": 0.024,
+          "thermal_conductivity_w_mk": 1.0,
+          "density_kg_m3": 2500.0,
+          "specific_heat_j_kgk": 840.0,
+          "r_value_m2k_w": 0.35,
+          "u_value_w_m2k": 2.86,
+          "position_from_exterior": 1,
+          "material_properties": {
+            "solar_heat_gain_coefficient": 0.25,
+            "visible_transmittance": 0.68,
+            "emissivity_exterior": 0.84,
+            "emissivity_interior": 0.84,
+            "gas_fill": "Argon",
+            "spacer_type": "Warm_Edge"
+          }
+        },
+        {
+          "layer_id": "L002",
+          "layer_name": "Air_Gap",
+          "material": "Air_Space_Vertical",
+          "thickness_m": 0.025,
+          "thermal_conductivity_w_mk": 0.026,
+          "density_kg_m3": 1.2,
+          "specific_heat_j_kgk": 1006.0,
+          "r_value_m2k_w": 0.18,
+          "u_value_w_m2k": 5.56,
+          "position_from_exterior": 2
+        },
+        {
+          "layer_id": "L003",
+          "layer_name": "Rigid_Insulation",
+          "material": "Polyisocyanurate_Foam",
+          "thickness_m": 0.075,
+          "thermal_conductivity_w_mk": 0.023,
+          "density_kg_m3": 32.0,
+          "specific_heat_j_kgk": 1400.0,
+          "r_value_m2k_w": 3.26,
+          "u_value_w_m2k": 0.31,
+          "position_from_exterior": 3,
+          "material_properties": {
+            "moisture_permeability": "Low",
+            "flame_spread_index": 25,
+            "smoke_developed_index": 450
+          }
+        },
+        {
+          "layer_id": "L004",
+          "layer_name": "Vapor_Barrier",
+          "material": "Polyethylene_Sheet",
+          "thickness_m": 0.0002,
+          "thermal_conductivity_w_mk": 0.33,
+          "density_kg_m3": 920.0,
+          "specific_heat_j_kgk": 2300.0,
+          "r_value_m2k_w": 0.0006,
+          "u_value_w_m2k": 1650.0,
+          "position_from_exterior": 4,
+          "material_properties": {
+            "vapor_permeance_ng_pasm2": 0.06,
+            "tensile_strength_mpa": 20.0
+          }
+        },
+        {
+          "layer_id": "L005",
+          "layer_name": "Metal_Stud_Frame",
+          "material": "Steel_Stud_with_Batt_Insulation",
+          "thickness_m": 0.089,
+          "thermal_conductivity_w_mk": 0.045,
+          "density_kg_m3": 12.0,
+          "specific_heat_j_kgk": 840.0,
+          "r_value_m2k_w": 1.98,
+          "u_value_w_m2k": 0.51,
+          "position_from_exterior": 5,
+          "material_properties": {
+            "stud_spacing_mm": 610,
+            "stud_gauge": 20,
+            "insulation_type": "Mineral_Wool_Batt",
+            "insulation_r_value": 2.29
+          }
+        },
+        {
+          "layer_id": "L006",
+          "layer_name": "Interior_Gypsum_Board",
+          "material": "Gypsum_Wallboard",
+          "thickness_m": 0.0127,
+          "thermal_conductivity_w_mk": 0.16,
+          "density_kg_m3": 640.0,
+          "specific_heat_j_kgk": 1090.0,
+          "r_value_m2k_w": 0.079,
+          "u_value_w_m2k": 12.6,
+          "position_from_exterior": 6,
+          "material_properties": {
+            "fire_rating": "Type_X",
+            "moisture_resistance": "Standard",
+            "surface_finish": "Painted_Latex"
+          }
+        }
+      ],
+      "thermal_bridging": {
+        "linear_thermal_bridges": [
+          {
+            "bridge_type": "Window_Frame",
+            "psi_value_w_mk": 0.15,
+            "length_per_m2": 1.2
+          },
+          {
+            "bridge_type": "Structural_Connection",
+            "psi_value_w_mk": 0.08,
+            "length_per_m2": 0.3
+          }
+        ],
+        "point_thermal_bridges": [
+          {
+            "bridge_type": "Anchor_Bolt",
+            "chi_value_w_k": 0.02,
+            "quantity_per_m2": 4
+          }
+        ]
+      }
+    },
+    {
+      "assembly_id": "WA_002",
+      "assembly_name": "Exterior_Masonry_Wall_North",
+      "wall_type": "Mass_Wall",
+      "total_thickness_m": 0.30,
+      "total_r_value_m2k_w": 3.52,
+      "total_u_value_w_m2k": 0.284,
+      "thermal_mass_kg_m2": 485.6,
+      "fire_rating_hours": 4.0,
+      "acoustic_rating_stc": 52,
+      "layers": [
+        {
+          "layer_id": "L007",
+          "layer_name": "Exterior_Brick",
+          "material": "Clay_Brick",
+          "thickness_m": 0.102,
+          "thermal_conductivity_w_mk": 0.72,
+          "density_kg_m3": 1920.0,
+          "specific_heat_j_kgk": 840.0,
+          "r_value_m2k_w": 0.142,
+          "u_value_w_m2k": 7.06,
+          "position_from_exterior": 1,
+          "material_properties": {
+            "compressive_strength_mpa": 55.0,
+            "water_absorption_percent": 8.0,
+            "freeze_thaw_resistance": "Excellent"
+          }
+        },
+        {
+          "layer_id": "L008",
+          "layer_name": "Air_Cavity",
+          "material": "Air_Space_Vertical",
+          "thickness_m": 0.025,
+          "thermal_conductivity_w_mk": 0.026,
+          "density_kg_m3": 1.2,
+          "specific_heat_j_kgk": 1006.0,
+          "r_value_m2k_w": 0.18,
+          "u_value_w_m2k": 5.56,
+          "position_from_exterior": 2
+        },
+        {
+          "layer_id": "L009",
+          "layer_name": "Continuous_Insulation",
+          "material": "Mineral_Wool_Board",
+          "thickness_m": 0.051,
+          "thermal_conductivity_w_mk": 0.036,
+          "density_kg_m3": 144.0,
+          "specific_heat_j_kgk": 840.0,
+          "r_value_m2k_w": 1.42,
+          "u_value_w_m2k": 0.71,
+          "position_from_exterior": 3,
+          "material_properties": {
+            "fire_resistance": "Non_Combustible",
+            "moisture_resistance": "Excellent",
+            "compressive_strength_kpa": 40.0
+          }
+        },
+        {
+          "layer_id": "L010",
+          "layer_name": "CMU_Block",
+          "material": "Concrete_Masonry_Unit",
+          "thickness_m": 0.203,
+          "thermal_conductivity_w_mk": 1.28,
+          "density_kg_m3": 1840.0,
+          "specific_heat_j_kgk": 840.0,
+          "r_value_m2k_w": 0.159,
+          "u_value_w_m2k": 6.30,
+          "position_from_exterior": 4,
+          "material_properties": {
+            "block_size": "8x8x16_inch",
+            "compressive_strength_mpa": 13.8,
+            "core_fill": "Vermiculite_Insulation"
+          }
+        },
+        {
+          "layer_id": "L011",
+          "layer_name": "Interior_Furring",
+          "material": "Steel_Furring_with_Insulation",
+          "thickness_m": 0.038,
+          "thermal_conductivity_w_mk": 0.045,
+          "density_kg_m3": 8.0,
+          "specific_heat_j_kgk": 840.0,
+          "r_value_m2k_w": 0.84,
+          "u_value_w_m2k": 1.19,
+          "position_from_exterior": 5
+        },
+        {
+          "layer_id": "L012",
+          "layer_name": "Interior_Gypsum_Board",
+          "material": "Gypsum_Wallboard",
+          "thickness_m": 0.0127,
+          "thermal_conductivity_w_mk": 0.16,
+          "density_kg_m3": 640.0,
+          "specific_heat_j_kgk": 1090.0,
+          "r_value_m2k_w": 0.079,
+          "u_value_w_m2k": 12.6,
+          "position_from_exterior": 6
+        }
+      ]
+    }
+  ],
+  "window_door_specifications": [
+    {
+      "opening_id": "WIN_001",
+      "opening_type": "Window",
+      "manufacturer": "Pella Corporation",
+      "model": "Impervia_Fiberglass_Casement",
+      "installation_year": 2020,
+      "dimensions": {
+        "width_m": 2.0,
+        "height_m": 1.2,
+        "area_m2": 2.4
+      },
+      "thermal_properties": {
+        "u_value_w_m2k": 1.42,
+        "solar_heat_gain_coefficient": 0.25,
+        "visible_transmittance": 0.68,
+        "air_leakage_l_sm2": 0.15
+      },
+      "glazing_system": {
+        "glazing_type": "Triple_Glazed",
+        "glass_thickness_mm": [4, 4, 4],
+        "air_gap_mm": [16, 16],
+        "gas_fill": ["Argon", "Argon"],
+        "low_e_coating": "Double_Silver",
+        "spacer_type": "Warm_Edge_Stainless_Steel"
+      },
+      "frame_properties": {
+        "frame_material": "Fiberglass",
+        "frame_u_value_w_m2k": 2.1,
+        "frame_width_mm": 76,
+        "color": "White",
+        "thermal_break": true
+      },
+      "operation": {
+        "operation_type": "Casement",
+        "opening_direction": "Outward",
+        "hardware": "Multi_Point_Locking",
+        "screen_type": "Retractable"
+      },
+      "condition_assessment": {
+        "overall_condition": "Excellent",
+        "seal_condition": "Good",
+        "frame_condition": "Excellent",
+        "hardware_condition": "Good",
+        "last_maintenance": "2024-03-15"
+      }
+    },
+    {
+      "opening_id": "DR_001",
+      "opening_type": "Door",
+      "manufacturer": "Therma_Tru",
+      "model": "Classic_Craft_Mahogany_Fiberglass",
+      "installation_year": 2020,
+      "dimensions": {
+        "width_m": 0.91,
+        "height_m": 2.13,
+        "area_m2": 1.94
+      },
+      "thermal_properties": {
+        "u_value_w_m2k": 1.89,
+        "air_leakage_l_sm2": 0.25
+      },
+      "door_system": {
+        "door_type": "Insulated_Fiberglass",
+        "core_material": "Polyurethane_Foam",
+        "skin_material": "Fiberglass",
+        "thickness_mm": 44,
+        "glazing_area_percent": 15
+      },
+      "frame_properties": {
+        "frame_material": "Fiberglass",
+        "frame_width_mm": 114,
+        "weatherstripping": "Compression_Seal",
+        "threshold_type": "Adjustable_Oak"
+      },
+      "hardware": {
+        "lockset": "Schlage_Deadbolt",
+        "hinges": "Heavy_Duty_Steel",
+        "closer": "Hydraulic_Door_Closer",
+        "panic_hardware": false
+      }
+    }
+  ]
+}

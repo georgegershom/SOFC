@@ -1,0 +1,178 @@
+{
+  "lidar_survey_info": {
+    "survey_date": "2023-08-15",
+    "survey_company": "Precision Mapping Solutions",
+    "equipment": "Leica RTC360 3D Laser Scanner",
+    "point_density": "5mm @ 10m range",
+    "accuracy": "±2mm",
+    "coordinate_system": "NAD83_UTM_Zone_18N",
+    "weather_conditions": "Clear, 22°C, Wind 5 km/h"
+  },
+  "roof_geometry": {
+    "roof_area_m2": 1700.0,
+    "roof_perimeter_m": 314.0,
+    "roof_slope_degrees": 2.0,
+    "roof_orientation_degrees": 180.0,
+    "roof_height_m": 18.5,
+    "point_cloud_data": [
+      {"x": 0.0, "y": 0.0, "z": 18.48, "intensity": 245},
+      {"x": 5.0, "y": 0.0, "z": 18.49, "intensity": 248},
+      {"x": 10.0, "y": 0.0, "z": 18.50, "intensity": 252},
+      {"x": 15.0, "y": 0.0, "z": 18.51, "intensity": 247},
+      {"x": 20.0, "y": 0.0, "z": 18.52, "intensity": 250},
+      {"x": 25.0, "y": 0.0, "z": 18.53, "intensity": 249},
+      {"x": 30.0, "y": 0.0, "z": 18.54, "intensity": 251}
+    ],
+    "roof_obstacles": [
+      {
+        "obstacle_id": "OB_001",
+        "type": "HVAC_Unit",
+        "position": {"x": 28.0, "y": 22.5, "z": 19.2},
+        "dimensions": {"length": 4.2, "width": 2.1, "height": 1.8},
+        "shadow_impact": "moderate"
+      },
+      {
+        "obstacle_id": "OB_002",
+        "type": "Exhaust_Fan",
+        "position": {"x": 84.0, "y": 11.25, "z": 19.0},
+        "dimensions": {"length": 1.2, "width": 1.2, "height": 0.6},
+        "shadow_impact": "minimal"
+      },
+      {
+        "obstacle_id": "OB_003",
+        "type": "Parapet_Wall",
+        "position": {"x": 56.0, "y": 0.0, "z": 19.1},
+        "dimensions": {"length": 112.0, "width": 0.3, "height": 0.9},
+        "shadow_impact": "high"
+      }
+    ]
+  },
+  "surrounding_context": {
+    "adjacent_buildings": [
+      {
+        "building_id": "ADJ_001",
+        "distance_m": 25.0,
+        "direction_degrees": 90,
+        "height_m": 12.0,
+        "length_m": 45.0,
+        "shadow_impact": "morning_partial"
+      },
+      {
+        "building_id": "ADJ_002",
+        "distance_m": 18.0,
+        "direction_degrees": 270,
+        "height_m": 22.0,
+        "length_m": 68.0,
+        "shadow_impact": "afternoon_significant"
+      },
+      {
+        "building_id": "ADJ_003",
+        "distance_m": 35.0,
+        "direction_degrees": 0,
+        "height_m": 8.0,
+        "length_m": 30.0,
+        "shadow_impact": "minimal"
+      }
+    ],
+    "vegetation": [
+      {
+        "vegetation_id": "VEG_001",
+        "type": "Deciduous_Tree",
+        "species": "Oak",
+        "position": {"x": -12.0, "y": 15.0, "z": 0.0},
+        "height_m": 15.0,
+        "canopy_diameter_m": 12.0,
+        "seasonal_impact": "summer_shade_winter_sun"
+      },
+      {
+        "vegetation_id": "VEG_002",
+        "type": "Evergreen_Tree",
+        "species": "Pine",
+        "position": {"x": 125.0, "y": 30.0, "z": 0.0},
+        "height_m": 18.0,
+        "canopy_diameter_m": 8.0,
+        "seasonal_impact": "year_round_shade"
+      }
+    ],
+    "terrain": {
+      "slope_degrees": 1.5,
+      "slope_direction_degrees": 225,
+      "elevation_variation_m": 2.3,
+      "surface_type": "Paved_Asphalt"
+    }
+  },
+  "solar_exposure_analysis": {
+    "analysis_date": "2023-09-21",
+    "analysis_software": "PVsyst 7.4",
+    "weather_data_source": "TMY3_Local_Station",
+    "annual_solar_irradiation": {
+      "global_horizontal_kwh_m2": 1420.5,
+      "direct_normal_kwh_m2": 1680.2,
+      "diffuse_horizontal_kwh_m2": 740.8
+    },
+    "roof_zones": [
+      {
+        "zone_id": "RZ_001",
+        "zone_name": "South_Facing_Main",
+        "area_m2": 850.0,
+        "tilt_degrees": 2.0,
+        "azimuth_degrees": 180.0,
+        "annual_irradiation_kwh_m2": 1385.2,
+        "shading_factor": 0.05,
+        "solar_potential": "excellent"
+      },
+      {
+        "zone_id": "RZ_002",
+        "zone_name": "North_Facing_Section",
+        "area_m2": 425.0,
+        "tilt_degrees": 2.0,
+        "azimuth_degrees": 0.0,
+        "annual_irradiation_kwh_m2": 892.4,
+        "shading_factor": 0.15,
+        "solar_potential": "moderate"
+      },
+      {
+        "zone_id": "RZ_003",
+        "zone_name": "East_Facing_Section",
+        "area_m2": 212.5,
+        "tilt_degrees": 2.0,
+        "azimuth_degrees": 90.0,
+        "annual_irradiation_kwh_m2": 1156.8,
+        "shading_factor": 0.25,
+        "solar_potential": "good"
+      },
+      {
+        "zone_id": "RZ_004",
+        "zone_name": "West_Facing_Section",
+        "area_m2": 212.5,
+        "tilt_degrees": 2.0,
+        "azimuth_degrees": 270.0,
+        "annual_irradiation_kwh_m2": 1098.3,
+        "shading_factor": 0.35,
+        "solar_potential": "fair"
+      }
+    ],
+    "hourly_shadow_analysis": {
+      "summer_solstice": {
+        "date": "2023-06-21",
+        "shadow_coverage_by_hour": {
+          "06:00": 0.85,
+          "09:00": 0.45,
+          "12:00": 0.05,
+          "15:00": 0.25,
+          "18:00": 0.65
+        }
+      },
+      "winter_solstice": {
+        "date": "2023-12-21",
+        "shadow_coverage_by_hour": {
+          "08:00": 0.95,
+          "10:00": 0.75,
+          "12:00": 0.35,
+          "14:00": 0.65,
+          "16:00": 0.90
+        }
+      }
+    }
+  }
+}

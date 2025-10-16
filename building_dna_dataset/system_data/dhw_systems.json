@@ -1,0 +1,250 @@
+{
+  "domestic_hot_water_systems": [
+    {
+      "system_id": "DHW_001",
+      "system_name": "Primary_Hot_Water_System",
+      "system_type": "Gas_Fired_Storage_Water_Heater",
+      "manufacturer": "A.O._Smith",
+      "model": "BTH_120_Commercial_Tank",
+      "installation_date": "2020-05-10",
+      "warranty_expiration": "2026-05-10",
+      "capacity_data": {
+        "storage_capacity_liters": 454.0,
+        "storage_capacity_gallons": 120.0,
+        "input_capacity_kw": 58.6,
+        "input_capacity_btu_hr": 200000,
+        "recovery_rate_liters_hr": 378.5,
+        "recovery_rate_gallons_hr": 100.0,
+        "first_hour_rating_liters": 568.0,
+        "first_hour_rating_gallons": 150.0
+      },
+      "efficiency_ratings": {
+        "energy_factor_ef": 0.67,
+        "thermal_efficiency_percent": 82.0,
+        "uniform_energy_factor_uef": 0.64,
+        "standby_loss_percent_hr": 1.8
+      },
+      "equipment_details": {
+        "fuel_type": "Natural_Gas",
+        "burner_type": "Atmospheric_Burner",
+        "ignition_type": "Electronic_Ignition",
+        "venting": "Category_I_Natural_Draft",
+        "tank_material": "Glass_Lined_Steel",
+        "insulation_type": "Polyurethane_Foam",
+        "insulation_r_value": 16.0,
+        "anode_rod": "Magnesium_Sacrificial",
+        "temperature_pressure_relief_valve": "3_4_inch_ASME"
+      },
+      "controls": {
+        "control_type": "Gas_Valve_Thermostat",
+        "temperature_setpoint_c": 60.0,
+        "temperature_setpoint_f": 140.0,
+        "high_limit_switch_c": 82.0,
+        "aquastat_type": "Immersion_Bulb",
+        "pilot_light": "Electronic_Ignition_No_Pilot"
+      },
+      "distribution_system": {
+        "piping_material": "Type_L_Copper",
+        "pipe_insulation": "Fiberglass_R4",
+        "circulation_pump": {
+          "pump_id": "PUMP_DHW_001",
+          "manufacturer": "Grundfos",
+          "model": "UP_26_96_BF",
+          "flow_rate_lpm": 75.7,
+          "flow_rate_gpm": 20.0,
+          "head_pressure_m": 6.1,
+          "head_pressure_ft": 20.0,
+          "motor_power_w": 115,
+          "efficiency_percent": 85.0,
+          "control_type": "Timer_Control_24_7"
+        },
+        "recirculation_system": {
+          "type": "Dedicated_Return_Line",
+          "return_line_material": "Type_L_Copper",
+          "return_line_insulation": "Fiberglass_R4",
+          "aquastat_control": "Temperature_Maintenance",
+          "operating_schedule": "Continuous"
+        },
+        "expansion_tank": {
+          "tank_id": "EXP_001",
+          "manufacturer": "Amtrol",
+          "model": "Therm_X_Trol_ST_12",
+          "capacity_liters": 45.4,
+          "capacity_gallons": 12.0,
+          "pre_charge_pressure_kpa": 103.4,
+          "pre_charge_pressure_psi": 15.0
+        }
+      },
+      "fixtures_served": [
+        {
+          "fixture_type": "Lavatory_Faucet",
+          "quantity": 18,
+          "flow_rate_lpm": 5.7,
+          "flow_rate_gpm": 1.5,
+          "usage_pattern": "Intermittent"
+        },
+        {
+          "fixture_type": "Kitchen_Sink",
+          "quantity": 4,
+          "flow_rate_lpm": 9.5,
+          "flow_rate_gpm": 2.5,
+          "usage_pattern": "Peak_Lunch_Hours"
+        },
+        {
+          "fixture_type": "Janitor_Sink",
+          "quantity": 2,
+          "flow_rate_lpm": 11.4,
+          "flow_rate_gpm": 3.0,
+          "usage_pattern": "Morning_Evening"
+        },
+        {
+          "fixture_type": "Emergency_Shower",
+          "quantity": 1,
+          "flow_rate_lpm": 75.7,
+          "flow_rate_gpm": 20.0,
+          "usage_pattern": "Emergency_Only"
+        }
+      ],
+      "performance_data": {
+        "annual_gas_consumption_m3": 2850.0,
+        "annual_gas_consumption_therms": 10080.0,
+        "annual_water_heating_load_kwh": 28500.0,
+        "peak_hourly_demand_liters": 285.0,
+        "peak_hourly_demand_gallons": 75.3,
+        "average_daily_consumption_liters": 1136.0,
+        "average_daily_consumption_gallons": 300.0,
+        "operating_hours_annual": 6240
+      },
+      "maintenance_history": [
+        {
+          "date": "2024-08-20",
+          "type": "Preventive_Maintenance",
+          "technician": "Plumbing_Solutions_Inc",
+          "work_performed": [
+            "Anode_Rod_Inspection",
+            "Temperature_Pressure_Relief_Valve_Test",
+            "Burner_Cleaning",
+            "Flue_Inspection",
+            "Water_Quality_Test"
+          ],
+          "findings": "Anode_Rod_50_Percent_Consumed",
+          "recommendations": "Replace_Anode_Rod_Next_Service",
+          "next_service_date": "2025-02-20"
+        },
+        {
+          "date": "2023-11-15",
+          "type": "Corrective_Maintenance",
+          "technician": "Plumbing_Solutions_Inc",
+          "work_performed": [
+            "Gas_Valve_Replacement",
+            "Thermostat_Calibration",
+            "Pilot_Assembly_Cleaning"
+          ],
+          "findings": "Gas_Valve_Malfunction",
+          "parts_replaced": ["Honeywell_Gas_Valve_VR8205"],
+          "cost": 485.00
+        }
+      ],
+      "water_quality": {
+        "hardness_mg_l_caco3": 180.0,
+        "hardness_grains_gallon": 10.5,
+        "ph": 7.2,
+        "total_dissolved_solids_mg_l": 320.0,
+        "chloride_content_mg_l": 45.0,
+        "treatment_system": "Water_Softener_Installed"
+      }
+    },
+    {
+      "system_id": "DHW_002",
+      "system_name": "Solar_Hot_Water_Preheating",
+      "system_type": "Solar_Thermal_System",
+      "manufacturer": "Heliodyne",
+      "model": "GOBI_410_Evacuated_Tube",
+      "installation_date": "2020-05-15",
+      "capacity_data": {
+        "collector_area_m2": 12.8,
+        "collector_area_sqft": 138.0,
+        "storage_capacity_liters": 303.0,
+        "storage_capacity_gallons": 80.0,
+        "daily_solar_fraction_percent": 65.0,
+        "annual_solar_fraction_percent": 58.0
+      },
+      "collector_details": {
+        "collector_type": "Evacuated_Tube",
+        "collector_quantity": 4,
+        "collector_tilt_degrees": 45.0,
+        "collector_azimuth_degrees": 180.0,
+        "gross_collector_area_m2": 12.8,
+        "aperture_area_m2": 11.2,
+        "absorber_coating": "Selective_Surface_Black_Chrome",
+        "glazing": "Borosilicate_Glass_Tubes"
+      },
+      "system_configuration": {
+        "system_type": "Closed_Loop_Glycol",
+        "heat_transfer_fluid": "Propylene_Glycol_40_Percent",
+        "circulation_pump": {
+          "manufacturer": "Grundfos",
+          "model": "UPS_26_99_FC",
+          "flow_rate_lpm": 22.7,
+          "flow_rate_gpm": 6.0,
+          "power_consumption_w": 85
+        },
+        "heat_exchanger": {
+          "type": "Coil_in_Tank",
+          "material": "Copper_Coil",
+          "surface_area_m2": 2.8,
+          "effectiveness": 0.75
+        },
+        "expansion_tank": {
+          "capacity_liters": 7.6,
+          "pre_charge_pressure_kpa": 207.0
+        }
+      },
+      "controls": {
+        "controller": "Heliodyne_HC_40_Differential",
+        "sensor_locations": [
+          "Collector_Outlet_Temperature",
+          "Storage_Tank_Temperature",
+          "Ambient_Temperature"
+        ],
+        "pump_on_differential_k": 8.0,
+        "pump_off_differential_k": 3.0,
+        "high_limit_temperature_c": 95.0,
+        "freeze_protection": "Glycol_Circulation"
+      },
+      "performance_data": {
+        "annual_solar_energy_delivered_kwh": 16500.0,
+        "annual_solar_energy_delivered_btu": 56300000.0,
+        "peak_daily_collection_kwh": 65.0,
+        "collector_efficiency_percent": 68.0,
+        "system_efficiency_percent": 52.0,
+        "annual_gas_savings_m3": 1650.0,
+        "annual_cost_savings_usd": 1485.0
+      },
+      "integration_with_conventional": {
+        "backup_system": "DHW_001",
+        "preheating_configuration": "Series_Connection",
+        "mixing_valve": "Thermostatic_Mixing_Valve_49C",
+        "temperature_monitoring": "Digital_Display_Controller"
+      }
+    }
+  ],
+  "hot_water_distribution": {
+    "distribution_type": "Recirculating_System",
+    "total_piping_length_m": 185.0,
+    "supply_pipe_material": "Type_L_Copper",
+    "return_pipe_material": "Type_L_Copper",
+    "pipe_insulation": "Fiberglass_Pipe_Insulation_R4",
+    "insulation_thickness_mm": 25.4,
+    "pipe_sizes": [
+      {"size_mm": 19, "length_m": 95.0, "purpose": "Branch_Lines"},
+      {"size_mm": 25, "length_m": 65.0, "purpose": "Main_Distribution"},
+      {"size_mm": 32, "length_m": 25.0, "purpose": "Trunk_Line"}
+    ],
+    "heat_loss_calculations": {
+      "annual_distribution_losses_kwh": 4250.0,
+      "peak_heat_loss_rate_w": 1850.0,
+      "insulation_effectiveness_percent": 78.0
+    }
+  }
+}

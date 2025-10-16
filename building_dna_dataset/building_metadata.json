@@ -1,0 +1,40 @@
+{
+  "building_id": "BLD_001_OFFICE_COMPLEX",
+  "project_name": "Dynamic Digital Twin Framework - Sample Building",
+  "building_type": "Commercial Office",
+  "location": {
+    "address": "123 Innovation Drive, Tech City, TC 12345",
+    "coordinates": {
+      "latitude": 40.7589,
+      "longitude": -73.9851
+    },
+    "climate_zone": "4A",
+    "elevation_m": 10.5,
+    "orientation": 15.0
+  },
+  "building_characteristics": {
+    "year_built": 2010,
+    "year_renovated": 2020,
+    "total_floor_area_m2": 8500.0,
+    "conditioned_floor_area_m2": 8200.0,
+    "number_of_floors": 5,
+    "building_height_m": 18.5,
+    "occupancy_type": "Office",
+    "max_occupancy": 340,
+    "typical_occupancy": 280
+  },
+  "dataset_metadata": {
+    "version": "1.0.0",
+    "created_date": "2025-10-16",
+    "last_updated": "2025-10-16",
+    "data_quality_score": 0.95,
+    "completeness_percentage": 98.5,
+    "validation_status": "PASSED",
+    "source_systems": [
+      "BIM_Model_Revit_2023",
+      "Energy_Audit_2024",
+      "Commissioning_Report_2020",
+      "LiDAR_Survey_2023"
+    ]
+  }
+}

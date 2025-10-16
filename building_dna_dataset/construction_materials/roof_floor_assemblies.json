@@ -1,0 +1,368 @@
+{
+  "roof_assemblies": [
+    {
+      "assembly_id": "RA_001",
+      "assembly_name": "Low_Slope_Membrane_Roof",
+      "roof_type": "Built_Up_Membrane",
+      "total_thickness_m": 0.38,
+      "total_r_value_m2k_w": 6.85,
+      "total_u_value_w_m2k": 0.146,
+      "thermal_mass_kg_m2": 245.8,
+      "fire_rating": "Class_A",
+      "wind_uplift_rating": "UL_90",
+      "warranty_years": 20,
+      "layers": [
+        {
+          "layer_id": "RL001",
+          "layer_name": "Membrane_System",
+          "material": "Modified_Bitumen_SBS",
+          "thickness_m": 0.008,
+          "thermal_conductivity_w_mk": 0.17,
+          "density_kg_m3": 1100.0,
+          "specific_heat_j_kgk": 1000.0,
+          "r_value_m2k_w": 0.047,
+          "u_value_w_m2k": 21.25,
+          "position_from_exterior": 1,
+          "material_properties": {
+            "membrane_type": "Two_Ply_SBS",
+            "base_sheet": "Fiberglass_Reinforced",
+            "cap_sheet": "Granule_Surfaced",
+            "installation_method": "Torch_Applied",
+            "seam_type": "Heat_Welded"
+          }
+        },
+        {
+          "layer_id": "RL002",
+          "layer_name": "Cover_Board",
+          "material": "Gypsum_Fiber_Board",
+          "thickness_m": 0.0127,
+          "thermal_conductivity_w_mk": 0.16,
+          "density_kg_m3": 730.0,
+          "specific_heat_j_kgk": 1090.0,
+          "r_value_m2k_w": 0.079,
+          "u_value_w_m2k": 12.6,
+          "position_from_exterior": 2,
+          "material_properties": {
+            "fire_resistance": "Non_Combustible",
+            "compressive_strength_kpa": 690.0,
+            "fastener_type": "Mechanical_Screws"
+          }
+        },
+        {
+          "layer_id": "RL003",
+          "layer_name": "Primary_Insulation",
+          "material": "Polyisocyanurate_Foam_Board",
+          "thickness_m": 0.152,
+          "thermal_conductivity_w_mk": 0.023,
+          "density_kg_m3": 32.0,
+          "specific_heat_j_kgk": 1400.0,
+          "r_value_m2k_w": 6.61,
+          "u_value_w_m2k": 0.151,
+          "position_from_exterior": 3,
+          "material_properties": {
+            "board_size": "1.2x2.4m",
+            "edge_type": "Square_Edge",
+            "facer_type": "Foil_Both_Sides",
+            "attachment": "Mechanically_Fastened"
+          }
+        },
+        {
+          "layer_id": "RL004",
+          "layer_name": "Vapor_Retarder",
+          "material": "Self_Adhered_Membrane",
+          "thickness_m": 0.001,
+          "thermal_conductivity_w_mk": 0.17,
+          "density_kg_m3": 1100.0,
+          "specific_heat_j_kgk": 1000.0,
+          "r_value_m2k_w": 0.006,
+          "u_value_w_m2k": 170.0,
+          "position_from_exterior": 4,
+          "material_properties": {
+            "vapor_permeance_ng_pasm2": 0.05,
+            "adhesion_strength_n_mm": 1.4,
+            "temperature_range_c": [-40, 80]
+          }
+        },
+        {
+          "layer_id": "RL005",
+          "layer_name": "Roof_Deck",
+          "material": "Steel_Deck_Composite",
+          "thickness_m": 0.076,
+          "thermal_conductivity_w_mk": 0.29,
+          "density_kg_m3": 7850.0,
+          "specific_heat_j_kgk": 460.0,
+          "r_value_m2k_w": 0.262,
+          "u_value_w_m2k": 3.82,
+          "position_from_exterior": 5,
+          "material_properties": {
+            "deck_type": "Form_Deck_38mm",
+            "gauge": 20,
+            "coating": "Galvanized_G90",
+            "concrete_fill": "Lightweight_Concrete_50mm"
+          }
+        },
+        {
+          "layer_id": "RL006",
+          "layer_name": "Structural_Steel",
+          "material": "Steel_Beam_Frame",
+          "thickness_m": 0.30,
+          "thermal_conductivity_w_mk": 45.0,
+          "density_kg_m3": 7850.0,
+          "specific_heat_j_kgk": 460.0,
+          "r_value_m2k_w": 0.007,
+          "u_value_w_m2k": 150.0,
+          "position_from_exterior": 6,
+          "material_properties": {
+            "beam_size": "W21x62",
+            "spacing_m": 6.0,
+            "steel_grade": "A992",
+            "fire_protection": "Spray_Applied_Fireproofing"
+          }
+        },
+        {
+          "layer_id": "RL007",
+          "layer_name": "Ceiling_System",
+          "material": "Suspended_Acoustic_Ceiling",
+          "thickness_m": 0.019,
+          "thermal_conductivity_w_mk": 0.058,
+          "density_kg_m3": 290.0,
+          "specific_heat_j_kgk": 1210.0,
+          "r_value_m2k_w": 0.328,
+          "u_value_w_m2k": 3.05,
+          "position_from_exterior": 7,
+          "material_properties": {
+            "tile_type": "Mineral_Fiber",
+            "tile_size": "0.6x0.6m",
+            "edge_type": "Tegular",
+            "nrc_rating": 0.70,
+            "cac_rating": 35
+          }
+        }
+      ],
+      "drainage_system": {
+        "drainage_type": "Internal_Drains",
+        "drain_quantity": 4,
+        "drain_size_mm": 100,
+        "overflow_drains": 4,
+        "scupper_quantity": 2,
+        "slope_to_drains_percent": 2.0
+      }
+    }
+  ],
+  "floor_assemblies": [
+    {
+      "assembly_id": "FA_001",
+      "assembly_name": "Ground_Floor_Slab_On_Grade",
+      "floor_type": "Slab_On_Grade",
+      "total_thickness_m": 0.28,
+      "total_r_value_m2k_w": 2.15,
+      "total_u_value_w_m2k": 0.465,
+      "thermal_mass_kg_m2": 520.0,
+      "load_capacity_kpa": 4.8,
+      "layers": [
+        {
+          "layer_id": "FL001",
+          "layer_name": "Floor_Finish",
+          "material": "Polished_Concrete",
+          "thickness_m": 0.003,
+          "thermal_conductivity_w_mk": 1.4,
+          "density_kg_m3": 2300.0,
+          "specific_heat_j_kgk": 880.0,
+          "r_value_m2k_w": 0.002,
+          "u_value_w_m2k": 467.0,
+          "position_from_top": 1,
+          "material_properties": {
+            "finish_type": "Mechanically_Polished",
+            "aggregate_exposure": "Minimal",
+            "sealer_type": "Penetrating_Densifier",
+            "slip_resistance": "R10"
+          }
+        },
+        {
+          "layer_id": "FL002",
+          "layer_name": "Concrete_Slab",
+          "material": "Reinforced_Concrete",
+          "thickness_m": 0.15,
+          "thermal_conductivity_w_mk": 1.4,
+          "density_kg_m3": 2300.0,
+          "specific_heat_j_kgk": 880.0,
+          "r_value_m2k_w": 0.107,
+          "u_value_w_m2k": 9.33,
+          "position_from_top": 2,
+          "material_properties": {
+            "concrete_strength_mpa": 25.0,
+            "reinforcement": "6x6_W2.9xW2.9_WWF",
+            "air_entrainment_percent": 6.0,
+            "slump_mm": 100,
+            "water_cement_ratio": 0.45
+          }
+        },
+        {
+          "layer_id": "FL003",
+          "layer_name": "Under_Slab_Insulation",
+          "material": "Extruded_Polystyrene_XPS",
+          "thickness_m": 0.076,
+          "thermal_conductivity_w_mk": 0.029,
+          "density_kg_m3": 35.0,
+          "specific_heat_j_kgk": 1450.0,
+          "r_value_m2k_w": 2.62,
+          "u_value_w_m2k": 0.382,
+          "position_from_top": 3,
+          "material_properties": {
+            "compressive_strength_kpa": 275.0,
+            "moisture_absorption_percent": 0.3,
+            "thermal_drift_percent": 2.0,
+            "edge_treatment": "Tongue_and_Groove"
+          }
+        },
+        {
+          "layer_id": "FL004",
+          "layer_name": "Vapor_Barrier",
+          "material": "Polyethylene_Sheet",
+          "thickness_m": 0.0002,
+          "thermal_conductivity_w_mk": 0.33,
+          "density_kg_m3": 920.0,
+          "specific_heat_j_kgk": 2300.0,
+          "r_value_m2k_w": 0.0006,
+          "u_value_w_m2k": 1650.0,
+          "position_from_top": 4,
+          "material_properties": {
+            "thickness_mil": 8,
+            "vapor_permeance_ng_pasm2": 0.08,
+            "tensile_strength_mpa": 17.0,
+            "puncture_resistance_n": 67.0
+          }
+        },
+        {
+          "layer_id": "FL005",
+          "layer_name": "Granular_Base",
+          "material": "Crushed_Stone_Base",
+          "thickness_m": 0.10,
+          "thermal_conductivity_w_mk": 1.9,
+          "density_kg_m3": 1600.0,
+          "specific_heat_j_kgk": 840.0,
+          "r_value_m2k_w": 0.053,
+          "u_value_w_m2k": 19.0,
+          "position_from_top": 5,
+          "material_properties": {
+            "gradation": "ASTM_57_Stone",
+            "compaction": "95_percent_proctor",
+            "drainage": "Free_Draining",
+            "thickness_variation_mm": 13
+          }
+        }
+      ],
+      "edge_insulation": {
+        "insulation_type": "Vertical_Edge_Insulation",
+        "material": "Extruded_Polystyrene_XPS",
+        "thickness_m": 0.051,
+        "depth_m": 0.61,
+        "r_value_m2k_w": 1.76,
+        "extends_below_slab": true
+      }
+    },
+    {
+      "assembly_id": "FA_002",
+      "assembly_name": "Elevated_Floor_Assembly",
+      "floor_type": "Steel_Frame_Composite",
+      "total_thickness_m": 0.32,
+      "total_r_value_m2k_w": 3.85,
+      "total_u_value_w_m2k": 0.260,
+      "thermal_mass_kg_m2": 185.6,
+      "load_capacity_kpa": 3.8,
+      "layers": [
+        {
+          "layer_id": "FL006",
+          "layer_name": "Carpet_System",
+          "material": "Commercial_Carpet_Tile",
+          "thickness_m": 0.012,
+          "thermal_conductivity_w_mk": 0.06,
+          "density_kg_m3": 400.0,
+          "specific_heat_j_kgk": 1360.0,
+          "r_value_m2k_w": 0.20,
+          "u_value_w_m2k": 5.0,
+          "position_from_top": 1,
+          "material_properties": {
+            "fiber_type": "Solution_Dyed_Nylon",
+            "backing_type": "PVC_Cushion_Back",
+            "tile_size": "0.5x0.5m",
+            "wear_rating": "Heavy_Commercial"
+          }
+        },
+        {
+          "layer_id": "FL007",
+          "layer_name": "Concrete_Topping",
+          "material": "Lightweight_Concrete",
+          "thickness_m": 0.064,
+          "thermal_conductivity_w_mk": 0.44,
+          "density_kg_m3": 1840.0,
+          "specific_heat_j_kgk": 880.0,
+          "r_value_m2k_w": 0.145,
+          "u_value_w_m2k": 6.88,
+          "position_from_top": 2,
+          "material_properties": {
+            "concrete_strength_mpa": 17.0,
+            "aggregate_type": "Expanded_Shale",
+            "reinforcement": "6x6_W1.4xW1.4_WWF",
+            "finish": "Steel_Trowel"
+          }
+        },
+        {
+          "layer_id": "FL008",
+          "layer_name": "Metal_Deck",
+          "material": "Composite_Steel_Deck",
+          "thickness_m": 0.076,
+          "thermal_conductivity_w_mk": 45.0,
+          "density_kg_m3": 7850.0,
+          "specific_heat_j_kgk": 460.0,
+          "r_value_m2k_w": 0.002,
+          "u_value_w_m2k": 592.0,
+          "position_from_top": 3,
+          "material_properties": {
+            "deck_type": "Composite_Form_Deck",
+            "gauge": 20,
+            "coating": "Galvanized_G60",
+            "span_rating": "3.0m"
+          }
+        },
+        {
+          "layer_id": "FL009",
+          "layer_name": "Batt_Insulation",
+          "material": "Mineral_Wool_Batt",
+          "thickness_m": 0.152,
+          "thermal_conductivity_w_mk": 0.036,
+          "density_kg_m3": 64.0,
+          "specific_heat_j_kgk": 840.0,
+          "r_value_m2k_w": 4.22,
+          "u_value_w_m2k": 0.237,
+          "position_from_top": 4,
+          "material_properties": {
+            "batt_width": "0.61m",
+            "facing_type": "Kraft_Paper",
+            "fire_resistance": "Non_Combustible",
+            "installation": "Friction_Fit"
+          }
+        },
+        {
+          "layer_id": "FL010",
+          "layer_name": "Ceiling_System",
+          "material": "Suspended_Acoustic_Ceiling",
+          "thickness_m": 0.019,
+          "thermal_conductivity_w_mk": 0.058,
+          "density_kg_m3": 290.0,
+          "specific_heat_j_kgk": 1210.0,
+          "r_value_m2k_w": 0.328,
+          "u_value_w_m2k": 3.05,
+          "position_from_top": 5,
+          "material_properties": {
+            "tile_type": "Mineral_Fiber",
+            "tile_size": "0.6x1.2m",
+            "edge_type": "Square_Lay_In",
+            "nrc_rating": 0.75,
+            "light_reflectance": 0.83
+          }
+        }
+      ]
+    }
+  ]
+}

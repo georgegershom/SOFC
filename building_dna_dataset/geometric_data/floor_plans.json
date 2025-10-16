@@ -1,0 +1,218 @@
+{
+  "floor_plans": [
+    {
+      "floor_id": "FL_001",
+      "floor_name": "Ground Floor",
+      "floor_level": 1,
+      "elevation_m": 0.0,
+      "total_area_m2": 1700.0,
+      "conditioned_area_m2": 1650.0,
+      "ceiling_height_m": 3.8,
+      "floor_to_floor_height_m": 4.2,
+      "spaces": [
+        {
+          "space_id": "SP_001_FL1",
+          "space_name": "Main Lobby",
+          "area_m2": 120.0,
+          "occupancy_type": "Lobby",
+          "max_occupants": 40,
+          "dimensions": {
+            "length_m": 12.0,
+            "width_m": 10.0,
+            "height_m": 4.5
+          },
+          "boundaries": [
+            {"x": 50.0, "y": 5.0},
+            {"x": 62.0, "y": 5.0},
+            {"x": 62.0, "y": 15.0},
+            {"x": 50.0, "y": 15.0}
+          ]
+        },
+        {
+          "space_id": "SP_002_FL1",
+          "space_name": "Open Office Area",
+          "area_m2": 850.0,
+          "occupancy_type": "Office",
+          "max_occupants": 68,
+          "dimensions": {
+            "length_m": 85.0,
+            "width_m": 10.0,
+            "height_m": 3.8
+          },
+          "boundaries": [
+            {"x": 5.0, "y": 15.0},
+            {"x": 90.0, "y": 15.0},
+            {"x": 90.0, "y": 25.0},
+            {"x": 5.0, "y": 25.0}
+          ]
+        },
+        {
+          "space_id": "SP_003_FL1",
+          "space_name": "Conference Room A",
+          "area_m2": 45.0,
+          "occupancy_type": "Meeting",
+          "max_occupants": 12,
+          "dimensions": {
+            "length_m": 9.0,
+            "width_m": 5.0,
+            "height_m": 3.8
+          },
+          "boundaries": [
+            {"x": 95.0, "y": 15.0},
+            {"x": 104.0, "y": 15.0},
+            {"x": 104.0, "y": 20.0},
+            {"x": 95.0, "y": 20.0}
+          ]
+        },
+        {
+          "space_id": "SP_004_FL1",
+          "space_name": "Mechanical Room",
+          "area_m2": 85.0,
+          "occupancy_type": "Mechanical",
+          "max_occupants": 2,
+          "dimensions": {
+            "length_m": 17.0,
+            "width_m": 5.0,
+            "height_m": 3.8
+          },
+          "boundaries": [
+            {"x": 5.0, "y": 35.0},
+            {"x": 22.0, "y": 35.0},
+            {"x": 22.0, "y": 40.0},
+            {"x": 5.0, "y": 40.0}
+          ]
+        }
+      ],
+      "circulation": [
+        {
+          "element_type": "corridor",
+          "width_m": 2.4,
+          "length_m": 85.0,
+          "area_m2": 204.0,
+          "path": [
+            {"x": 5.0, "y": 12.5},
+            {"x": 90.0, "y": 12.5}
+          ]
+        },
+        {
+          "element_type": "stairwell",
+          "width_m": 3.0,
+          "length_m": 6.0,
+          "area_m2": 18.0,
+          "position": {"x": 92.0, "y": 5.0},
+          "serves_floors": [1, 2, 3, 4, 5]
+        },
+        {
+          "element_type": "elevator",
+          "width_m": 2.1,
+          "length_m": 2.4,
+          "area_m2": 5.04,
+          "position": {"x": 96.0, "y": 8.0},
+          "serves_floors": [1, 2, 3, 4, 5],
+          "capacity_kg": 1000
+        }
+      ]
+    },
+    {
+      "floor_id": "FL_002",
+      "floor_name": "Second Floor",
+      "floor_level": 2,
+      "elevation_m": 4.2,
+      "total_area_m2": 1700.0,
+      "conditioned_area_m2": 1680.0,
+      "ceiling_height_m": 3.8,
+      "floor_to_floor_height_m": 4.2,
+      "spaces": [
+        {
+          "space_id": "SP_001_FL2",
+          "space_name": "Open Office Area North",
+          "area_m2": 680.0,
+          "occupancy_type": "Office",
+          "max_occupants": 54,
+          "dimensions": {
+            "length_m": 68.0,
+            "width_m": 10.0,
+            "height_m": 3.8
+          },
+          "boundaries": [
+            {"x": 5.0, "y": 5.0},
+            {"x": 73.0, "y": 5.0},
+            {"x": 73.0, "y": 15.0},
+            {"x": 5.0, "y": 15.0}
+          ]
+        },
+        {
+          "space_id": "SP_002_FL2",
+          "space_name": "Open Office Area South",
+          "area_m2": 680.0,
+          "occupancy_type": "Office",
+          "max_occupants": 54,
+          "dimensions": {
+            "length_m": 68.0,
+            "width_m": 10.0,
+            "height_m": 3.8
+          },
+          "boundaries": [
+            {"x": 5.0, "y": 30.0},
+            {"x": 73.0, "y": 30.0},
+            {"x": 73.0, "y": 40.0},
+            {"x": 5.0, "y": 40.0}
+          ]
+        },
+        {
+          "space_id": "SP_003_FL2",
+          "space_name": "Executive Offices",
+          "area_m2": 240.0,
+          "occupancy_type": "Private_Office",
+          "max_occupants": 8,
+          "dimensions": {
+            "length_m": 24.0,
+            "width_m": 10.0,
+            "height_m": 3.8
+          },
+          "boundaries": [
+            {"x": 78.0, "y": 15.0},
+            {"x": 102.0, "y": 15.0},
+            {"x": 102.0, "y": 25.0},
+            {"x": 78.0, "y": 25.0}
+          ]
+        }
+      ]
+    }
+  ],
+  "vertical_circulation": {
+    "stairs": [
+      {
+        "stair_id": "ST_001",
+        "stair_type": "Concrete_Enclosed",
+        "width_m": 1.8,
+        "tread_depth_mm": 280,
+        "riser_height_mm": 175,
+        "handrail_height_mm": 1067,
+        "serves_floors": [1, 2, 3, 4, 5],
+        "fire_rating_hours": 2,
+        "capacity_persons": 150
+      }
+    ],
+    "elevators": [
+      {
+        "elevator_id": "EL_001",
+        "elevator_type": "Traction_Geared",
+        "capacity_kg": 1000,
+        "capacity_persons": 13,
+        "speed_mps": 1.0,
+        "serves_floors": [1, 2, 3, 4, 5],
+        "car_dimensions": {
+          "width_m": 2.1,
+          "depth_m": 2.4,
+          "height_m": 2.4
+        },
+        "shaft_dimensions": {
+          "width_m": 2.5,
+          "depth_m": 2.8,
+          "height_m": 21.0
+        }
+      }
+    ]
+  }
+}

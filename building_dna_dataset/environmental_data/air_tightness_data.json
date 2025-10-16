@@ -1,0 +1,235 @@
+{
+  "blower_door_tests": [
+    {
+      "test_id": "BDT_001",
+      "test_date": "2024-03-15",
+      "test_standard": "ASTM_E779_19",
+      "testing_company": "Building Performance Solutions",
+      "technician": "Sarah Johnson, BPI Certified",
+      "weather_conditions": {
+        "outdoor_temperature_c": 8.5,
+        "indoor_temperature_c": 21.2,
+        "wind_speed_ms": 3.2,
+        "wind_direction_degrees": 225,
+        "barometric_pressure_pa": 101325
+      },
+      "building_preparation": {
+        "hvac_system": "Off",
+        "exhaust_fans": "Sealed",
+        "fireplace_dampers": "Closed",
+        "interior_doors": "Open",
+        "windows_doors": "Closed_Locked"
+      },
+      "test_results": {
+        "air_changes_per_hour_50pa": 2.85,
+        "air_leakage_rate_50pa_m3h": 23420.0,
+        "air_leakage_rate_50pa_cfm": 13780.0,
+        "specific_leakage_area_cm2_m2": 3.2,
+        "normalized_leakage_area_cm2": 2720.0,
+        "effective_leakage_area_cm2": 1856.0,
+        "building_leakage_curve": {
+          "flow_coefficient_c": 1124.5,
+          "pressure_exponent_n": 0.67,
+          "correlation_coefficient_r2": 0.998
+        }
+      },
+      "pressure_test_points": [
+        {"pressure_pa": 10, "flow_rate_m3h": 4250, "flow_rate_cfm": 2500},
+        {"pressure_pa": 15, "flow_rate_m3h": 6120, "flow_rate_cfm": 3600},
+        {"pressure_pa": 20, "flow_rate_m3h": 7650, "flow_rate_cfm": 4500},
+        {"pressure_pa": 25, "flow_rate_m3h": 9010, "flow_rate_cfm": 5300},
+        {"pressure_pa": 30, "flow_rate_m3h": 10200, "flow_rate_cfm": 6000},
+        {"pressure_pa": 35, "flow_rate_m3h": 11270, "flow_rate_cfm": 6630},
+        {"pressure_pa": 40, "flow_rate_m3h": 12240, "flow_rate_cfm": 7200},
+        {"pressure_pa": 45, "flow_rate_m3h": 13130, "flow_rate_cfm": 7730},
+        {"pressure_pa": 50, "flow_rate_m3h": 13950, "flow_rate_cfm": 8210},
+        {"pressure_pa": 55, "flow_rate_m3h": 14720, "flow_rate_cfm": 8660},
+        {"pressure_pa": 60, "flow_rate_m3h": 15450, "flow_rate_cfm": 9090}
+      ],
+      "leakage_locations": [
+        {
+          "location_id": "LL_001",
+          "location_description": "Window_Frame_Perimeter",
+          "leakage_severity": "Moderate",
+          "estimated_contribution_percent": 25.0,
+          "detection_method": "Smoke_Pencil",
+          "repair_priority": "Medium"
+        },
+        {
+          "location_id": "LL_002",
+          "location_description": "Electrical_Outlet_Penetrations",
+          "leakage_severity": "Minor",
+          "estimated_contribution_percent": 15.0,
+          "detection_method": "Thermal_Camera",
+          "repair_priority": "Low"
+        },
+        {
+          "location_id": "LL_003",
+          "location_description": "HVAC_Duct_Penetrations",
+          "leakage_severity": "Significant",
+          "estimated_contribution_percent": 35.0,
+          "detection_method": "Smoke_Pencil",
+          "repair_priority": "High"
+        },
+        {
+          "location_id": "LL_004",
+          "location_description": "Door_Frame_Weather_Stripping",
+          "leakage_severity": "Minor",
+          "estimated_contribution_percent": 10.0,
+          "detection_method": "Visual_Inspection",
+          "repair_priority": "Medium"
+        },
+        {
+          "location_id": "LL_005",
+          "location_description": "Plumbing_Penetrations",
+          "leakage_severity": "Moderate",
+          "estimated_contribution_percent": 15.0,
+          "detection_method": "Smoke_Pencil",
+          "repair_priority": "Medium"
+        }
+      ],
+      "equipment_used": {
+        "blower_door_system": "Minneapolis_Blower_Door_Model_4",
+        "fan_ring": "Ring_A",
+        "pressure_gauges": "DG_1000_Digital_Gauge",
+        "flow_measurement": "Calibrated_Fan_Curve",
+        "calibration_date": "2024-01-15",
+        "calibration_due": "2025-01-15"
+      }
+    },
+    {
+      "test_id": "BDT_002",
+      "test_date": "2020-06-10",
+      "test_standard": "ASTM_E779_19",
+      "testing_company": "Energy Audit Professionals",
+      "technician": "Michael Chen, BPI Certified",
+      "test_purpose": "Post_Construction_Commissioning",
+      "weather_conditions": {
+        "outdoor_temperature_c": 24.5,
+        "indoor_temperature_c": 22.8,
+        "wind_speed_ms": 2.1,
+        "wind_direction_degrees": 180,
+        "barometric_pressure_pa": 101280
+      },
+      "test_results": {
+        "air_changes_per_hour_50pa": 3.45,
+        "air_leakage_rate_50pa_m3h": 28350.0,
+        "air_leakage_rate_50pa_cfm": 16680.0,
+        "specific_leakage_area_cm2_m2": 3.8,
+        "normalized_leakage_area_cm2": 3220.0,
+        "effective_leakage_area_cm2": 2185.0,
+        "building_leakage_curve": {
+          "flow_coefficient_c": 1356.2,
+          "pressure_exponent_n": 0.65,
+          "correlation_coefficient_r2": 0.996
+        }
+      },
+      "comparison_to_current": {
+        "improvement_ach50": 0.60,
+        "improvement_percent": 17.4,
+        "retrofit_measures_implemented": [
+          "Window_Weatherstripping_Replacement",
+          "HVAC_Duct_Sealing",
+          "Electrical_Penetration_Sealing",
+          "Door_Frame_Caulking"
+        ]
+      }
+    }
+  ],
+  "duct_leakage_tests": [
+    {
+      "test_id": "DLT_001",
+      "test_date": "2024-03-16",
+      "test_standard": "ASTM_E1554_07",
+      "system_tested": "Supply_Ductwork_AHU_1",
+      "total_duct_area_m2": 485.6,
+      "test_results": {
+        "leakage_to_outside_25pa_cfm": 245.0,
+        "leakage_to_outside_25pa_m3h": 416.5,
+        "leakage_per_100sqft_cfm": 12.2,
+        "leakage_per_100m2_m3h": 85.8,
+        "total_system_leakage_25pa_cfm": 380.0,
+        "total_system_leakage_25pa_m3h": 646.2
+      },
+      "leakage_locations": [
+        {
+          "location": "Main_Trunk_Joints",
+          "contribution_percent": 35.0,
+          "repair_method": "Mastic_Sealing"
+        },
+        {
+          "location": "Branch_Takeoffs",
+          "contribution_percent": 25.0,
+          "repair_method": "Mechanical_Fasteners"
+        },
+        {
+          "location": "Register_Boots",
+          "contribution_percent": 20.0,
+          "repair_method": "Aeroseal_Treatment"
+        },
+        {
+          "location": "Equipment_Connections",
+          "contribution_percent": 20.0,
+          "repair_method": "Gasket_Replacement"
+        }
+      ]
+    }
+  ],
+  "natural_infiltration_estimates": {
+    "estimation_method": "Sherman_Grimsrud_Model",
+    "reference_conditions": {
+      "indoor_outdoor_temp_diff_k": 11.0,
+      "wind_speed_ms": 4.5,
+      "building_height_m": 18.5,
+      "terrain_class": "Suburban"
+    },
+    "annual_average_infiltration": {
+      "air_changes_per_hour": 0.35,
+      "volumetric_flow_rate_m3h": 2870.0,
+      "mass_flow_rate_kg_h": 3484.0
+    },
+    "seasonal_variations": {
+      "winter_ach": 0.52,
+      "spring_ach": 0.28,
+      "summer_ach": 0.22,
+      "fall_ach": 0.38
+    },
+    "pressure_coefficients": {
+      "windward_wall": 0.6,
+      "leeward_wall": -0.3,
+      "side_walls": -0.65,
+      "roof": -0.7
+    }
+  },
+  "air_barrier_assessment": {
+    "assessment_date": "2024-03-15",
+    "assessment_method": "Visual_and_Thermal_Imaging",
+    "overall_rating": "Good",
+    "components": [
+      {
+        "component": "Exterior_Wall_Assembly",
+        "air_barrier_location": "Exterior_Sheathing",
+        "continuity_rating": "Good",
+        "deficiencies": ["Minor_gaps_at_window_rough_openings"]
+      },
+      {
+        "component": "Roof_Assembly",
+        "air_barrier_location": "Roof_Membrane",
+        "continuity_rating": "Excellent",
+        "deficiencies": []
+      },
+      {
+        "component": "Foundation_Assembly",
+        "air_barrier_location": "Concrete_Slab",
+        "continuity_rating": "Fair",
+        "deficiencies": ["Unsealed_utility_penetrations"]
+      },
+      {
+        "component": "Fenestration",
+        "air_barrier_location": "Window_Frame_Sealant",
+        "continuity_rating": "Good",
+        "deficiencies": ["Aging_sealant_at_south_facade"]
+      }
+    ]
+  }
+}

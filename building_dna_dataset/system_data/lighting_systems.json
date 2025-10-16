@@ -1,0 +1,411 @@
+{
+  "lighting_systems": [
+    {
+      "system_id": "LIGHT_001",
+      "system_name": "General_Office_Lighting",
+      "space_served": "Open_Office_Areas",
+      "total_area_m2": 1360.0,
+      "lighting_design": {
+        "design_illuminance_lux": 500,
+        "design_illuminance_fc": 46.5,
+        "uniformity_ratio": 0.8,
+        "color_rendering_index_cri": 82,
+        "color_temperature_k": 4000,
+        "lighting_power_density_w_m2": 8.5,
+        "lighting_power_density_w_sqft": 0.79
+      },
+      "fixtures": [
+        {
+          "fixture_id": "FIX_001",
+          "fixture_type": "LED_Troffer_2x4",
+          "manufacturer": "Lithonia_Lighting",
+          "model": "2GT8_4_40L_ADP_EZ1_LP840",
+          "quantity": 85,
+          "lamp_details": {
+            "lamp_type": "Integrated_LED",
+            "wattage_per_fixture": 40,
+            "total_wattage": 3400,
+            "lumens_per_fixture": 4200,
+            "total_lumens": 357000,
+            "efficacy_lm_w": 105.0,
+            "rated_life_hours": 50000,
+            "color_temperature_k": 4000,
+            "cri": 82
+          },
+          "installation_details": {
+            "mounting_type": "Recessed_Grid_Ceiling",
+            "fixture_spacing_m": 3.0,
+            "mounting_height_m": 2.7,
+            "ballast_driver": "Electronic_LED_Driver",
+            "dimming_capability": "0_10V_Dimming"
+          },
+          "controls": [
+            {
+              "control_type": "Occupancy_Sensor",
+              "manufacturer": "Wattstopper",
+              "model": "DT_300",
+              "coverage_area_m2": 16.0,
+              "sensor_type": "Dual_Technology_PIR_Ultrasonic",
+              "time_delay_minutes": 15,
+              "daylight_sensor_integrated": false
+            },
+            {
+              "control_type": "Daylight_Sensor",
+              "manufacturer": "Wattstopper",
+              "model": "LMLS_100",
+              "coverage_area_m2": 32.0,
+              "sensor_type": "Photocell",
+              "setpoint_lux": 300,
+              "dimming_range_percent": [10, 100]
+            }
+          ]
+        },
+        {
+          "fixture_id": "FIX_002",
+          "fixture_type": "LED_Linear_Pendant",
+          "manufacturer": "Cree_Lighting",
+          "model": "CPY_Series_4ft",
+          "quantity": 24,
+          "lamp_details": {
+            "lamp_type": "Integrated_LED",
+            "wattage_per_fixture": 32,
+            "total_wattage": 768,
+            "lumens_per_fixture": 3800,
+            "total_lumens": 91200,
+            "efficacy_lm_w": 118.8,
+            "rated_life_hours": 60000,
+            "color_temperature_k": 4000,
+            "cri": 90
+          },
+          "installation_details": {
+            "mounting_type": "Suspended_Pendant",
+            "suspension_length_m": 0.6,
+            "fixture_spacing_m": 4.0,
+            "mounting_height_m": 2.1,
+            "ballast_driver": "Electronic_LED_Driver",
+            "dimming_capability": "DALI_Dimming"
+          }
+        }
+      ],
+      "total_system_power": 4168,
+      "annual_energy_consumption_kwh": 10420,
+      "operating_schedule": {
+        "weekdays": "07:00-19:00",
+        "saturdays": "08:00-17:00",
+        "sundays": "Closed",
+        "holidays": "Closed",
+        "annual_hours": 3120
+      }
+    },
+    {
+      "system_id": "LIGHT_002",
+      "system_name": "Conference_Room_Lighting",
+      "space_served": "Conference_Rooms",
+      "total_area_m2": 180.0,
+      "lighting_design": {
+        "design_illuminance_lux": 750,
+        "design_illuminance_fc": 69.7,
+        "uniformity_ratio": 0.9,
+        "color_rendering_index_cri": 90,
+        "color_temperature_k": 3500,
+        "lighting_power_density_w_m2": 12.0,
+        "lighting_power_density_w_sqft": 1.11
+      },
+      "fixtures": [
+        {
+          "fixture_id": "FIX_003",
+          "fixture_type": "LED_Recessed_Downlight",
+          "manufacturer": "Philips_Lighting",
+          "model": "CoreLine_Downlight_DN140B",
+          "quantity": 36,
+          "lamp_details": {
+            "lamp_type": "Integrated_LED",
+            "wattage_per_fixture": 26,
+            "total_wattage": 936,
+            "lumens_per_fixture": 2600,
+            "total_lumens": 93600,
+            "efficacy_lm_w": 100.0,
+            "rated_life_hours": 50000,
+            "color_temperature_k": 3500,
+            "cri": 90
+          },
+          "installation_details": {
+            "mounting_type": "Recessed_Ceiling",
+            "fixture_spacing_m": 2.4,
+            "mounting_height_m": 2.7,
+            "beam_angle_degrees": 40,
+            "ballast_driver": "Electronic_LED_Driver",
+            "dimming_capability": "DALI_Dimming"
+          },
+          "controls": [
+            {
+              "control_type": "Wall_Dimmer_Switch",
+              "manufacturer": "Lutron",
+              "model": "Maestro_DVCL_153P",
+              "dimming_range_percent": [1, 100],
+              "preset_scenes": ["Presentation", "Meeting", "Cleaning"]
+            },
+            {
+              "control_type": "Occupancy_Sensor",
+              "manufacturer": "Leviton",
+              "model": "OSS10_D0W",
+              "sensor_type": "PIR_Motion",
+              "time_delay_minutes": 10,
+              "coverage_area_m2": 45.0
+            }
+          ]
+        },
+        {
+          "fixture_id": "FIX_004",
+          "fixture_type": "LED_Accent_Track",
+          "manufacturer": "Juno_Lighting",
+          "model": "T271L_Track_System",
+          "quantity": 8,
+          "lamp_details": {
+            "lamp_type": "LED_Track_Heads",
+            "wattage_per_fixture": 15,
+            "total_wattage": 120,
+            "lumens_per_fixture": 1200,
+            "total_lumens": 9600,
+            "efficacy_lm_w": 80.0,
+            "rated_life_hours": 50000,
+            "color_temperature_k": 3000,
+            "cri": 95
+          },
+          "installation_details": {
+            "mounting_type": "Surface_Track",
+            "track_length_m": 24.0,
+            "mounting_height_m": 2.7,
+            "beam_angle_degrees": 25,
+            "dimming_capability": "ELV_Dimming"
+          }
+        }
+      ],
+      "total_system_power": 1056,
+      "annual_energy_consumption_kwh": 1898,
+      "operating_schedule": {
+        "weekdays": "08:00-18:00",
+        "saturdays": "09:00-15:00",
+        "sundays": "Closed",
+        "holidays": "Closed",
+        "annual_hours": 1800
+      }
+    },
+    {
+      "system_id": "LIGHT_003",
+      "system_name": "Emergency_Exit_Lighting",
+      "space_served": "Entire_Building",
+      "system_type": "Life_Safety_System",
+      "code_compliance": "NFPA_101_IBC_2018",
+      "fixtures": [
+        {
+          "fixture_id": "FIX_005",
+          "fixture_type": "LED_Exit_Sign",
+          "manufacturer": "Hubbell_Lighting",
+          "model": "EVEUGWEI_Dual_Lite",
+          "quantity": 28,
+          "lamp_details": {
+            "lamp_type": "LED_Array",
+            "wattage_per_fixture": 3.5,
+            "total_wattage": 98,
+            "lumens_per_fixture": 400,
+            "rated_life_hours": 100000,
+            "color_temperature_k": 6500
+          },
+          "installation_details": {
+            "mounting_type": "Wall_Ceiling_Mount",
+            "viewing_distance_m": 30.0,
+            "face_material": "Acrylic",
+            "housing_material": "Thermoplastic"
+          },
+          "battery_backup": {
+            "battery_type": "Sealed_Lead_Acid",
+            "backup_duration_hours": 1.5,
+            "battery_capacity_ah": 4.5,
+            "charging_time_hours": 24,
+            "test_switch": "Integrated_Push_Test"
+          }
+        },
+        {
+          "fixture_id": "FIX_006",
+          "fixture_type": "LED_Emergency_Light",
+          "manufacturer": "Lithonia_Lighting",
+          "model": "ELM2_LED_M12",
+          "quantity": 18,
+          "lamp_details": {
+            "lamp_type": "LED_Lamp_Heads",
+            "wattage_per_fixture": 7.2,
+            "total_wattage": 129.6,
+            "lumens_per_fixture": 900,
+            "rated_life_hours": 50000
+          },
+          "installation_details": {
+            "mounting_type": "Wall_Mount",
+            "lamp_heads": 2,
+            "coverage_area_m2": 85.0,
+            "illumination_level_lux": 10.8
+          },
+          "battery_backup": {
+            "battery_type": "Sealed_Lead_Acid",
+            "backup_duration_hours": 1.5,
+            "battery_capacity_ah": 7.2,
+            "charging_time_hours": 24,
+            "self_diagnostic": "LED_Status_Indicators"
+          }
+        }
+      ],
+      "total_system_power": 227.6,
+      "annual_energy_consumption_kwh": 1994,
+      "testing_schedule": {
+        "monthly_test": "30_second_function_test",
+        "annual_test": "90_minute_duration_test",
+        "last_annual_test": "2024-09-15",
+        "next_annual_test": "2025-09-15"
+      }
+    },
+    {
+      "system_id": "LIGHT_004",
+      "system_name": "Exterior_Building_Lighting",
+      "space_served": "Building_Perimeter_Parking",
+      "total_area_m2": 2800.0,
+      "lighting_design": {
+        "design_illuminance_lux": 50,
+        "design_illuminance_fc": 4.6,
+        "uniformity_ratio": 0.4,
+        "color_temperature_k": 5000,
+        "lighting_power_density_w_m2": 1.2,
+        "lighting_power_density_w_sqft": 0.11
+      },
+      "fixtures": [
+        {
+          "fixture_id": "FIX_007",
+          "fixture_type": "LED_Area_Light",
+          "manufacturer": "Cooper_Lighting",
+          "model": "Crosstour_XSP2_LED",
+          "quantity": 12,
+          "lamp_details": {
+            "lamp_type": "Integrated_LED",
+            "wattage_per_fixture": 150,
+            "total_wattage": 1800,
+            "lumens_per_fixture": 18000,
+            "total_lumens": 216000,
+            "efficacy_lm_w": 120.0,
+            "rated_life_hours": 100000,
+            "color_temperature_k": 5000,
+            "cri": 70
+          },
+          "installation_details": {
+            "mounting_type": "Pole_Mount",
+            "pole_height_m": 7.6,
+            "fixture_spacing_m": 30.0,
+            "distribution_pattern": "Type_III_Medium",
+            "cutoff_classification": "Full_Cutoff"
+          },
+          "controls": [
+            {
+              "control_type": "Photocell",
+              "manufacturer": "Intermatic",
+              "model": "K4221C",
+              "on_setpoint_lux": 20,
+              "off_setpoint_lux": 50,
+              "time_delay_minutes": 5
+            },
+            {
+              "control_type": "Motion_Sensor",
+              "manufacturer": "Leviton",
+              "model": "OSFHU_ITW",
+              "sensor_type": "PIR_Motion",
+              "detection_range_m": 15.0,
+              "time_delay_minutes": 10,
+              "dimming_capability": "Bi_Level_50_100_Percent"
+            }
+          ]
+        },
+        {
+          "fixture_id": "FIX_008",
+          "fixture_type": "LED_Wall_Pack",
+          "manufacturer": "RAB_Lighting",
+          "model": "WPLED3T105",
+          "quantity": 16,
+          "lamp_details": {
+            "lamp_type": "Integrated_LED",
+            "wattage_per_fixture": 42,
+            "total_wattage": 672,
+            "lumens_per_fixture": 5200,
+            "total_lumens": 83200,
+            "efficacy_lm_w": 123.8,
+            "rated_life_hours": 100000,
+            "color_temperature_k": 5000,
+            "cri": 70
+          },
+          "installation_details": {
+            "mounting_type": "Wall_Mount",
+            "mounting_height_m": 4.0,
+            "fixture_spacing_m": 15.0,
+            "cutoff_classification": "Full_Cutoff",
+            "housing_material": "Die_Cast_Aluminum"
+          },
+          "controls": [
+            {
+              "control_type": "Integral_Photocell",
+              "on_setpoint_lux": 15,
+              "off_setpoint_lux": 40
+            }
+          ]
+        }
+      ],
+      "total_system_power": 2472,
+      "annual_energy_consumption_kwh": 10854,
+      "operating_schedule": {
+        "operation": "Dusk_to_Dawn",
+        "annual_hours": 4392,
+        "seasonal_adjustment": "Astronomical_Time_Clock"
+      }
+    }
+  ],
+  "lighting_controls": {
+    "control_system": "Lutron_Quantum_Total_Light_Management",
+    "communication_protocol": "Digital_Addressable_Lighting_Interface_DALI",
+    "zones": [
+      {
+        "zone_id": "LZ_001",
+        "zone_name": "Perimeter_Daylight_Zone",
+        "area_m2": 425.0,
+        "control_strategy": "Daylight_Harvesting_Occupancy",
+        "sensors": ["Daylight_Sensor", "Occupancy_Sensor"],
+        "dimming_range_percent": [10, 100],
+        "setpoint_lux": 500
+      },
+      {
+        "zone_id": "LZ_002",
+        "zone_name": "Interior_Zone",
+        "area_m2": 935.0,
+        "control_strategy": "Occupancy_Scheduling",
+        "sensors": ["Occupancy_Sensor"],
+        "dimming_range_percent": [20, 100],
+        "time_delay_minutes": 15
+      }
+    ],
+    "energy_savings": {
+      "daylight_harvesting_savings_percent": 25,
+      "occupancy_control_savings_percent": 15,
+      "scheduling_savings_percent": 10,
+      "total_annual_savings_kwh": 5240,
+      "total_annual_savings_usd": 628
+    }
+  },
+  "maintenance_data": {
+    "lamp_replacement_schedule": {
+      "led_fixtures": "Group_Replacement_50000_Hours",
+      "emergency_battery": "Replacement_Every_5_Years",
+      "photocells": "Replacement_Every_10_Years"
+    },
+    "cleaning_schedule": {
+      "interior_fixtures": "Quarterly",
+      "exterior_fixtures": "Semi_Annual",
+      "emergency_fixtures": "Annual"
+    },
+    "last_maintenance": "2024-06-15",
+    "next_maintenance": "2024-12-15"
+  }
+}

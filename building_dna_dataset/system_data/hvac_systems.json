@@ -1,0 +1,257 @@
+{
+  "hvac_systems": [
+    {
+      "system_id": "HVAC_001",
+      "system_name": "Primary_Air_Handling_Unit",
+      "system_type": "Variable_Air_Volume_VAV",
+      "manufacturer": "Trane",
+      "model": "Voyager_II_RTAC_140",
+      "installation_date": "2020-04-15",
+      "warranty_expiration": "2030-04-15",
+      "serves_zones": ["Zone_1", "Zone_2", "Zone_3", "Zone_4", "Zone_5"],
+      "capacity_data": {
+        "cooling_capacity_kw": 140.0,
+        "cooling_capacity_tons": 39.8,
+        "heating_capacity_kw": 120.0,
+        "supply_airflow_m3s": 12.5,
+        "supply_airflow_cfm": 26450,
+        "return_airflow_m3s": 11.8,
+        "return_airflow_cfm": 25000,
+        "outside_air_m3s": 2.8,
+        "outside_air_cfm": 5930
+      },
+      "efficiency_ratings": {
+        "cooling_eer": 11.2,
+        "cooling_cop": 3.28,
+        "heating_afue": 0.85,
+        "heating_cop": 2.95,
+        "integrated_part_load_value_iplv": 13.8,
+        "energy_efficiency_ratio_eer": 11.2
+      },
+      "equipment_details": {
+        "compressor_type": "Scroll_Compressor_2_Stage",
+        "compressor_quantity": 2,
+        "refrigerant_type": "R410A",
+        "refrigerant_charge_kg": 45.2,
+        "heat_exchanger_type": "Microchannel_Coil",
+        "fan_type": "Centrifugal_Variable_Speed",
+        "fan_motor_kw": 7.5,
+        "fan_motor_efficiency": 0.94,
+        "economizer": "Dry_Bulb_Temperature_Control",
+        "heat_recovery": "Energy_Recovery_Ventilator_ERV"
+      },
+      "controls": {
+        "control_system": "Trane_Tracer_SC_Plus",
+        "control_type": "DDC_Direct_Digital_Control",
+        "communication_protocol": "BACnet_IP",
+        "sensors": [
+          {
+            "sensor_type": "Supply_Air_Temperature",
+            "location": "Supply_Duct",
+            "accuracy": "±0.5°C",
+            "range": "-10°C to 60°C"
+          },
+          {
+            "sensor_type": "Return_Air_Temperature",
+            "location": "Return_Duct",
+            "accuracy": "±0.5°C",
+            "range": "-10°C to 60°C"
+          },
+          {
+            "sensor_type": "Outside_Air_Temperature",
+            "location": "OA_Intake",
+            "accuracy": "±0.5°C",
+            "range": "-40°C to 70°C"
+          },
+          {
+            "sensor_type": "Supply_Air_Pressure",
+            "location": "Supply_Fan_Discharge",
+            "accuracy": "±1%",
+            "range": "0-2500 Pa"
+          },
+          {
+            "sensor_type": "Return_Air_Humidity",
+            "location": "Return_Duct",
+            "accuracy": "±3% RH",
+            "range": "0-100% RH"
+          }
+        ],
+        "setpoints": {
+          "supply_air_temp_cooling_c": 13.0,
+          "supply_air_temp_heating_c": 35.0,
+          "space_temp_cooling_c": 24.0,
+          "space_temp_heating_c": 21.0,
+          "humidity_setpoint_percent": 50.0,
+          "co2_setpoint_ppm": 1000
+        }
+      },
+      "distribution_system": {
+        "ductwork_material": "Galvanized_Steel",
+        "ductwork_insulation": "Fiberglass_R6",
+        "total_ductwork_length_m": 485.0,
+        "supply_duct_area_m2": 125.6,
+        "return_duct_area_m2": 98.4,
+        "duct_leakage_class": "Seal_Class_A",
+        "terminal_units": [
+          {
+            "unit_id": "VAV_001",
+            "unit_type": "VAV_Box_with_Reheat",
+            "manufacturer": "Trane",
+            "model": "VAVR_Series",
+            "serves_space": "Open_Office_Floor_1",
+            "max_airflow_m3s": 2.8,
+            "max_airflow_cfm": 5930,
+            "min_airflow_percent": 30,
+            "reheat_capacity_kw": 12.0,
+            "damper_type": "Pressure_Independent"
+          },
+          {
+            "unit_id": "VAV_002",
+            "unit_type": "VAV_Box_Cooling_Only",
+            "manufacturer": "Trane",
+            "model": "VAVC_Series",
+            "serves_space": "Conference_Room_A",
+            "max_airflow_m3s": 0.8,
+            "max_airflow_cfm": 1695,
+            "min_airflow_percent": 25,
+            "damper_type": "Pressure_Independent"
+          }
+        ]
+      },
+      "maintenance_history": [
+        {
+          "date": "2024-09-15",
+          "type": "Preventive_Maintenance",
+          "technician": "HVAC_Service_Pro",
+          "work_performed": [
+            "Filter_Replacement",
+            "Coil_Cleaning",
+            "Belt_Inspection",
+            "Refrigerant_Level_Check",
+            "Control_Calibration"
+          ],
+          "findings": "System_Operating_Normally",
+          "next_service_date": "2024-12-15"
+        },
+        {
+          "date": "2024-06-10",
+          "type": "Corrective_Maintenance",
+          "technician": "HVAC_Service_Pro",
+          "work_performed": [
+            "Supply_Fan_Motor_Replacement",
+            "VFD_Repair",
+            "Sensor_Calibration"
+          ],
+          "findings": "Motor_Bearing_Failure",
+          "parts_replaced": ["Fan_Motor_7.5kW", "Motor_Bearings"],
+          "cost": 2850.00
+        }
+      ],
+      "performance_data": {
+        "annual_energy_consumption_kwh": 125680.0,
+        "annual_gas_consumption_m3": 8450.0,
+        "peak_electrical_demand_kw": 42.5,
+        "operating_hours_annual": 6240,
+        "load_factor": 0.68,
+        "seasonal_energy_efficiency_ratio_seer": 14.2
+      }
+    },
+    {
+      "system_id": "HVAC_002",
+      "system_name": "Supplemental_Heat_Pump",
+      "system_type": "Air_Source_Heat_Pump",
+      "manufacturer": "Carrier",
+      "model": "AquaEdge_19XR_Chiller",
+      "installation_date": "2020-04-20",
+      "serves_zones": ["Zone_6_Executive_Area"],
+      "capacity_data": {
+        "cooling_capacity_kw": 35.0,
+        "cooling_capacity_tons": 9.9,
+        "heating_capacity_kw": 32.0,
+        "supply_airflow_m3s": 3.2,
+        "supply_airflow_cfm": 6780
+      },
+      "efficiency_ratings": {
+        "cooling_eer": 12.8,
+        "cooling_cop": 3.75,
+        "heating_cop": 3.2,
+        "heating_seasonal_performance_factor_hspf": 9.5
+      },
+      "equipment_details": {
+        "compressor_type": "Variable_Speed_Inverter",
+        "refrigerant_type": "R32",
+        "refrigerant_charge_kg": 12.8,
+        "defrost_control": "Demand_Defrost",
+        "backup_heat": "Electric_Resistance_15kW"
+      },
+      "controls": {
+        "control_system": "Carrier_i_Vu_Open",
+        "control_type": "Programmable_Thermostat",
+        "communication_protocol": "BACnet_MSTP"
+      }
+    }
+  ],
+  "ventilation_systems": [
+    {
+      "system_id": "VENT_001",
+      "system_name": "Energy_Recovery_Ventilator",
+      "system_type": "Heat_Recovery_Ventilator_HRV",
+      "manufacturer": "Renewaire",
+      "model": "EV_Premium_Series",
+      "installation_date": "2020-04-18",
+      "capacity_data": {
+        "supply_airflow_m3s": 2.8,
+        "supply_airflow_cfm": 5930,
+        "exhaust_airflow_m3s": 2.6,
+        "exhaust_airflow_cfm": 5510
+      },
+      "efficiency_ratings": {
+        "sensible_recovery_efficiency_percent": 82.0,
+        "latent_recovery_efficiency_percent": 68.0,
+        "total_recovery_efficiency_percent": 75.0
+      },
+      "equipment_details": {
+        "heat_exchanger_type": "Enthalpy_Wheel",
+        "filter_type": "MERV_13",
+        "fan_type": "EC_Motor_Variable_Speed",
+        "frost_protection": "Recirculation_Damper"
+      },
+      "controls": {
+        "control_integration": "Integrated_with_AHU_001",
+        "bypass_damper": "Automatic_Economizer_Lockout",
+        "defrost_control": "Temperature_Based"
+      }
+    }
+  ],
+  "zone_systems": [
+    {
+      "zone_id": "Zone_1",
+      "zone_name": "Ground_Floor_Open_Office",
+      "conditioned_area_m2": 850.0,
+      "design_conditions": {
+        "cooling_load_kw": 28.5,
+        "heating_load_kw": 22.0,
+        "ventilation_requirement_m3s": 0.85,
+        "occupancy_density_people_m2": 0.08
+      },
+      "terminal_equipment": [
+        {
+          "equipment_id": "VAV_001",
+          "equipment_type": "VAV_Reheat_Box",
+          "airflow_range_m3s": [0.84, 2.8],
+          "reheat_capacity_kw": 12.0
+        }
+      ],
+      "thermostats": [
+        {
+          "thermostat_id": "TSTAT_001",
+          "location": "Central_Open_Office",
+          "type": "Programmable_Digital",
+          "manufacturer": "Honeywell",
+          "model": "T7350",
+          "communication": "BACnet_MSTP"
+        }
+      ]
+    }
+  ]
+}
