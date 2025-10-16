@@ -1,0 +1,51 @@
+material_id,material_name,thermal_conductivity_w_per_m_k,specific_heat_capacity_j_per_kg_k,density_kg_per_m3,r_value_per_inch,u_value_w_per_m2_k,vapor_permeability_ng_per_pa_s_m2,fire_rating_class,acoustic_performance_nrc,embodied_energy_mj_per_kg,water_absorption_percent,recycled_content_percent,recyclability_percent,biodegradable,toxicity_level,service_temperature_min_c,service_temperature_max_c,compressive_strength_kpa,tensile_strength_mpa,elastic_modulus_mpa,dimensional_stability_mm_per_m,uv_resistance,chemical_resistance,cost_volatility_index
+MAT001,Polyisocyanurate Rigid Foam Insulation,0.023,1400,35,6.5,0.154,5.7,Class B (ASTM E84),0.05,95.2,1.5,0,85,No,Low,-50,120,150,0.35,15.5,2.5,Poor,Good,1.25
+MAT002,Mineral Wool Insulation,0.035,840,150,4.0,0.233,200,Class A (Non-combustible),0.85,16.8,1.0,35,95,No,Very Low,-200,750,45,0.25,3.2,0.5,Excellent,Excellent,0.85
+MAT003,Extruded Polystyrene (XPS) Foam,0.029,1450,32,5.0,0.193,1.5,Class C (ASTM E84),0.05,85.5,0.5,10,90,No,Low,-50,75,250,0.45,18.5,1.8,Good,Good,1.45
+MAT004,Spray Polyurethane Foam (Closed-Cell),0.024,1380,40,6.0,0.160,2.8,Class B (ASTM E84),0.10,115.0,2.0,0,50,No,Moderate,-50,110,180,0.42,20.5,3.5,Fair,Fair,1.65
+MAT005,Cellulose Insulation,0.039,1880,55,3.7,0.260,70,Class A (Treated),0.75,3.5,15.0,85,90,Yes,Very Low,-40,80,8,0.08,0.8,5.0,Fair,Fair,0.65
+MAT006,Fiberglass Batt Insulation,0.040,840,12,3.5,0.267,120,Class A (ASTM E84),0.65,30.5,0.5,35,95,No,Low,-60,250,5,0.05,0.5,3.5,Good,Good,0.95
+MAT007,Triple-Pane Window Assembly,1.000,750,45,,,0,N/A,0.25,1850.0,0,15,75,No,Low,-40,80,,,150.0,0.1,Good,Excellent,1.35
+MAT008,Double-Pane Window Assembly,1.000,750,38,,,0,N/A,0.22,1250.0,0,12,75,No,Low,-40,80,,,120.0,0.1,Good,Excellent,1.25
+MAT009,Window Film (Low-E),0.180,1200,0.5,,,5,N/A,0.15,85.5,0,0,15,No,Low,-20,85,,,25.0,0.5,Fair,Good,1.15
+MAT010,Air Source Heat Pump Unit,45.000,900,150,,,0,N/A,0.10,15500.0,0,25,85,No,Moderate,-25,50,,,,,Good,Good,1.55
+MAT011,Ground Source Heat Pump System,45.000,900,280,,,0,N/A,0.10,22500.0,0,22,80,No,Moderate,-10,60,,,,,Excellent,Good,1.45
+MAT012,VRF System Unit,45.000,900,320,,,0,N/A,0.12,28500.0,0,20,82,No,Moderate,-20,50,,,,,Good,Good,1.65
+MAT013,Condensing Boiler,45.000,475,180,,,0,N/A,0.15,12500.0,0,28,85,No,Moderate,5,100,,,,,Good,Excellent,1.35
+MAT014,CHP Unit (100kW),45.000,475,850,,,0,N/A,0.18,55000.0,0,25,75,No,Moderate,5,100,,,,,Good,Excellent,1.85
+MAT015,Energy Recovery Ventilator,45.000,900,95,,,0,N/A,0.08,8500.0,0,35,88,No,Low,-30,50,,,,,Good,Good,1.25
+MAT016,DOAS Unit,45.000,900,285,,,0,N/A,0.10,18500.0,0,30,85,No,Low,-20,50,,,,,Good,Good,1.35
+MAT017,CO2 Sensor System,0.200,900,5,,,0,N/A,0.05,650.0,0,15,65,No,Low,0,50,,,,,Good,Fair,1.15
+MAT018,Smart Thermostat,0.200,900,0.3,,,0,N/A,0.05,285.0,0,18,68,No,Low,0,50,,,,,Good,Fair,1.25
+MAT019,Solar PV Module (Monocrystalline),1.000,700,20,,,0,N/A,0.05,12500.0,0,5,95,No,Low,-40,85,,,850.0,0.2,Excellent,Excellent,1.45
+MAT020,Solar PV Module (Polycrystalline),1.000,700,22,,,0,N/A,0.05,11500.0,0,8,95,No,Low,-40,85,,,750.0,0.2,Excellent,Excellent,1.35
+MAT021,Solar PV Inverter,45.000,900,8,,,0,N/A,0.08,4500.0,0,22,85,No,Low,-20,60,,,,,Good,Good,1.55
+MAT022,Lithium-Ion Battery (LFP),1.500,1100,12,,,0,N/A,0.05,8500.0,0,8,75,No,Moderate,0,60,,,,,Good,Good,2.15
+MAT023,Solar Thermal Collector,0.800,840,35,,,0,N/A,0.05,5500.0,0,25,85,No,Low,-30,120,,,250.0,1.5,Good,Good,1.25
+MAT024,BIPV Module (Building-Integrated),1.000,700,28,,,0,N/A,0.05,16500.0,0,5,90,No,Low,-40,85,,,950.0,0.2,Excellent,Excellent,1.75
+MAT025,LED Fixture (High-Efficiency),0.200,900,2.5,,,0,N/A,0.05,1850.0,0,28,82,No,Low,0,50,,,,,Good,Good,1.15
+MAT026,Occupancy Sensor,0.200,900,0.2,,,0,N/A,0.05,285.0,0,20,70,No,Low,0,50,,,,,Good,Fair,1.15
+MAT027,Circadian Tunable LED System,0.200,900,3.2,,,0,N/A,0.05,2250.0,0,25,80,No,Low,0,50,,,,,Good,Good,1.35
+MAT028,Air Sealing Materials (Caulk/Foam),0.035,1500,1,,,0.5,Class B (ASTM E84),0.02,45.5,0,0,15,No,Low,-40,80,,,5.0,15.0,Fair,Good,0.95
+MAT029,Blower Door Test Equipment,0.200,900,0,,,0,N/A,0.05,0.0,0,0,0,No,Very Low,0,50,,,,,Good,Good,0.85
+MAT030,Cool Roof Coating,0.180,1800,1.5,,,85,Class A (ASTM E84),0.15,85.5,2.0,0,25,No,Low,-20,90,,,15.0,12.0,Poor,Good,1.25
+MAT031,Green Roof Growing Medium,0.400,1550,800,,,850,Class A (Organic),0.25,1.5,45.0,75,85,Yes,Very Low,-30,50,15,0.02,0.3,25.0,Fair,Poor,0.75
+MAT032,Green Roof Drainage Layer,0.350,1400,2.5,,,0,N/A,0.35,750.0,5.0,85,95,No,Very Low,-40,80,85,0.85,55.0,2.0,Good,Excellent,0.85
+MAT033,Green Roof Waterproofing Membrane,0.180,1450,3.5,,,0.2,N/A,0.05,950.0,0.5,15,75,No,Low,-40,90,,,18.5,5.0,Good,Excellent,1.15
+MAT034,Green Roof Vegetation (Sedum),0.450,3800,5,,,0,N/A,0.15,0.5,95.0,0,100,Yes,Very Low,-30,40,,,0.1,0,Good,Poor,0.95
+MAT035,Heat Pump Water Heater,45.000,900,85,,,0,N/A,0.10,8500.0,0,25,85,No,Moderate,0,50,,,,,Good,Good,1.45
+MAT036,Condensing Tank Water Heater,45.000,475,95,,,0,N/A,0.12,9500.0,0,28,85,No,Moderate,5,95,,,,,Good,Excellent,1.35
+MAT037,Tankless Water Heater,45.000,475,28,,,0,N/A,0.08,7500.0,0,30,88,No,Moderate,5,95,,,,,Good,Excellent,1.25
+MAT038,Smart Power Strip,0.200,900,0.5,,,0,N/A,0.05,385.0,0,22,75,No,Low,0,50,,,,,Good,Fair,1.15
+MAT039,ENERGY STAR Refrigerator,45.000,475,75,,,0,N/A,0.10,11500.0,0,18,78,No,Low,5,43,,,,,Good,Good,1.25
+MAT040,Building Management System,0.200,900,150,,,0,N/A,0.08,35000.0,0,20,65,No,Low,0,50,,,,,Good,Fair,1.65
+MAT041,IoT Sensor Node,0.200,900,0.15,,,0,N/A,0.05,485.0,0,18,68,No,Low,0,50,,,,,Good,Fair,1.45
+MAT042,AI Control Software,0.000,0,0,,,0,N/A,0.00,2500.0,0,0,0,No,Very Low,0,50,,,,,N/A,N/A,1.85
+MAT043,External Fixed Shading Device,45.000,900,15,,,0,N/A,0.15,2850.0,0,85,95,No,Low,-40,80,,,350.0,1.0,Excellent,Excellent,1.15
+MAT044,Automated Dynamic Shading,45.000,900,22,,,0,N/A,0.18,4500.0,0,65,85,No,Low,-30,70,,,285.0,1.5,Good,Good,1.65
+MAT045,Phase Change Material Panel,0.200,2400,8,,,0,N/A,0.05,1850.0,0,0,45,No,Low,15,35,,,8.5,3.0,Fair,Good,1.95
+MAT046,District Heating Pipe Connection,45.000,475,850,,,0,N/A,0.12,45000.0,0,25,80,No,Low,5,150,,,,,Excellent,Excellent,1.45
+MAT047,District Cooling Pipe Connection,45.000,475,950,,,0,N/A,0.12,52000.0,0,25,80,No,Low,2,25,,,,,Excellent,Excellent,1.45
+MAT048,Elevator Regenerative Drive,45.000,900,125,,,0,N/A,0.10,12500.0,0,28,82,No,Low,0,50,,,,,Good,Good,1.55
+MAT049,Elevator Modernization Package,45.000,900,850,,,0,N/A,0.15,55000.0,0,25,78,No,Low,0,50,,,,,Good,Good,1.75
+MAT050,Construction Labor (General),0.000,0,0,,,0,N/A,0.00,3.5,0,0,0,No,Very Low,0,50,,,,,N/A,N/A,0.95

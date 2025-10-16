@@ -1,0 +1,33 @@
+region,electricity_grid_kg_co2e_per_kwh,natural_gas_kg_co2e_per_kwh,fuel_oil_kg_co2e_per_liter,diesel_kg_co2e_per_liter,gasoline_kg_co2e_per_liter,propane_kg_co2e_per_kg,coal_kg_co2e_per_kg,biomass_kg_co2e_per_kg,district_heating_kg_co2e_per_kwh,district_cooling_kg_co2e_per_kwh,hydrogen_kg_co2e_per_kg,year,data_source,renewable_fraction_percent,transmission_loss_percent,notes
+US-Northeast,0.285,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.165,0.095,8.50,2023,EPA eGRID,32.5,6.8,Grid mix: nuclear 32%; natural gas 38%; renewables 18%
+US-Southeast,0.425,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.185,0.125,8.50,2023,EPA eGRID,18.2,7.2,Grid mix: coal 32%; natural gas 48%; nuclear 15%
+US-Midwest,0.520,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.225,0.145,8.50,2023,EPA eGRID,14.5,7.5,Grid mix: coal 48%; natural gas 32%; wind 12%
+US-West,0.312,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.142,0.088,8.50,2023,EPA eGRID,42.8,6.2,Grid mix: hydro 22%; natural gas 38%; renewables 24%
+US-Southwest,0.385,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.178,0.112,8.50,2023,EPA eGRID,22.4,6.5,Grid mix: natural gas 52%; coal 18%; solar 15%
+US-Northwest,0.225,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.098,0.068,8.50,2023,EPA eGRID,58.5,5.8,Grid mix: hydro 52%; natural gas 28%; wind 12%
+US-Texas,0.395,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.182,0.118,8.50,2023,ERCOT,28.5,7.0,Grid mix: natural gas 52%; wind 22%; coal 14%
+US-California,0.245,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.118,0.075,8.50,2023,CAISO,55.2,6.0,Grid mix: renewables 52%; natural gas 38%; imports 8%
+Canada-Ontario,0.045,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.028,0.022,8.50,2023,Environment Canada,92.5,8.5,Grid mix: nuclear 58%; hydro 25%; wind 8%
+Canada-Quebec,0.015,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.012,0.010,8.50,2023,Environment Canada,99.2,8.2,Grid mix: hydro 95%; wind 4%
+Canada-Alberta,0.620,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.285,0.178,8.50,2023,Environment Canada,12.5,7.8,Grid mix: coal 45%; natural gas 42%; renewables 10%
+UK,0.225,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.095,0.068,8.50,2023,UK BEIS,42.8,7.5,Grid mix: wind 28%; natural gas 38%; nuclear 15%
+Germany,0.385,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.142,0.095,8.50,2023,UBA Germany,48.5,6.8,Grid mix: renewables 48%; coal 28%; natural gas 18%
+France,0.058,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.032,0.025,8.50,2023,RTE France,88.5,8.2,Grid mix: nuclear 68%; hydro 12%; wind 8%
+Spain,0.215,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.088,0.065,8.50,2023,REE Spain,52.5,7.0,Grid mix: wind 24%; solar 12%; natural gas 28%
+Italy,0.325,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.142,0.095,8.50,2023,Terna Italy,38.5,7.8,Grid mix: natural gas 48%; renewables 38%; imports 10%
+Netherlands,0.395,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.158,0.105,8.50,2023,TenneT NL,32.5,6.5,Grid mix: natural gas 55%; wind 18%; biomass 8%
+Sweden,0.018,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.015,0.012,8.50,2023,Svenska Kraftnät,98.5,8.5,Grid mix: hydro 42%; nuclear 30%; wind 22%
+Norway,0.008,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.008,0.008,8.50,2023,Statnett,99.5,8.0,Grid mix: hydro 92%; wind 7%
+Denmark,0.165,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.075,0.058,8.50,2023,Energinet,75.5,6.5,Grid mix: wind 58%; biomass 12%; imports 18%
+China,0.585,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.325,0.195,8.50,2023,China Electricity Council,28.5,8.5,Grid mix: coal 62%; hydro 18%; wind/solar 12%
+India,0.725,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.385,0.245,8.50,2023,CEA India,18.5,9.5,Grid mix: coal 72%; hydro 12%; renewables 12%
+Japan,0.485,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.225,0.145,8.50,2023,METI Japan,22.5,7.0,Grid mix: natural gas 38%; coal 32%; renewables 18%
+South Korea,0.465,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.215,0.138,8.50,2023,KPX,24.5,6.8,Grid mix: coal 38%; natural gas 28%; nuclear 22%
+Australia,0.695,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.345,0.218,8.50,2023,AEMO,26.5,8.2,Grid mix: coal 52%; natural gas 22%; renewables 22%
+Brazil,0.095,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.048,0.035,8.50,2023,ONS Brazil,82.5,14.5,Grid mix: hydro 65%; wind 12%; biomass 8%
+Mexico,0.485,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.225,0.145,8.50,2023,CENACE,22.5,11.5,Grid mix: natural gas 52%; oil 12%; renewables 22%
+South Africa,0.925,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.485,0.325,8.50,2023,Eskom,5.5,9.5,Grid mix: coal 88%; renewables 5%
+UAE,0.485,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.225,0.165,8.50,2023,ADWEA,12.5,8.0,Grid mix: natural gas 88%; nuclear 8%; solar 2%
+Singapore,0.425,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.195,0.135,8.50,2023,EMA Singapore,8.5,4.5,Grid mix: natural gas 95%; solar 2%
+Iceland,0.002,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.002,0.002,8.50,2023,Landsvirkjun,100.0,5.5,Grid mix: geothermal 72%; hydro 28%
+Global-Average,0.475,0.202,2.68,2.72,2.31,1.94,2.42,0.018,0.218,0.145,8.50,2023,IEA,28.5,8.5,Weighted average of global electricity generation mix
