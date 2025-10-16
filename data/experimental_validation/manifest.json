@@ -1,0 +1,1168 @@
+{
+  "dataset_name": "Experimental Validation Dataset (Reality Check)",
+  "version": "0.1.0",
+  "description": "Synthetic-but-physics-informed fabrication of experimental warp and partial stress measurements for SOFC plates.",
+  "created_at": "2025-10-16T01:06:02.183710+00:00",
+  "num_samples": 30,
+  "parameter_space": {
+    "anode_thickness_um": [
+      200,
+      1000
+    ],
+    "electrolyte_thickness_um": [
+      5,
+      30
+    ],
+    "cathode_thickness_um": [
+      20,
+      100
+    ],
+    "sinter_cycles": [
+      "fast_lowT",
+      "standard",
+      "slow_highT"
+    ]
+  },
+  "samples": [
+    {
+      "id": "EV0000",
+      "split": "test",
+      "parameters": {
+        "anode_thickness_um": 819.1648388447707,
+        "electrolyte_thickness_um": 15.971960993801307,
+        "cathode_thickness_um": 88.6878335929106,
+        "sinter_cycle": "fast_lowT"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0000/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0000/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 2663.3429844635207,
+          "avg_stress_MPa": 730.3037237391765,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 44.3439167964553,
+            "warp_point_cloud_path": "samples/EV0000/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 44.3439167964553,
+            "warp_point_cloud_path": "samples/EV0000/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 15.971960993801307,
+            "warp_point_cloud_path": "samples/EV0000/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0000/xrd_map.npy",
+        "raman_map_path": "samples/EV0000/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0001",
+      "split": "val",
+      "parameters": {
+        "anode_thickness_um": 757.8944232474911,
+        "electrolyte_thickness_um": 7.354433697191238,
+        "cathode_thickness_um": 98.04978813094047,
+        "sinter_cycle": "standard"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0001/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0001/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 1903.2352215276983,
+          "avg_stress_MPa": 1899.8616159377984,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 49.024894065470235,
+            "warp_point_cloud_path": "samples/EV0001/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 49.024894065470235,
+            "warp_point_cloud_path": "samples/EV0001/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 7.354433697191238,
+            "warp_point_cloud_path": "samples/EV0001/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0001/xrd_map.npy",
+        "raman_map_path": "samples/EV0001/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0002",
+      "split": "test",
+      "parameters": {
+        "anode_thickness_um": 808.9117615922823,
+        "electrolyte_thickness_um": 24.651607631923845,
+        "cathode_thickness_um": 30.24909061404367,
+        "sinter_cycle": "fast_lowT"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0002/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0002/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 2754.164800984821,
+          "avg_stress_MPa": 446.1833694572599,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 15.124545307021835,
+            "warp_point_cloud_path": "samples/EV0002/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 15.124545307021835,
+            "warp_point_cloud_path": "samples/EV0002/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 24.651607631923845,
+            "warp_point_cloud_path": "samples/EV0002/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0002/xrd_map.npy",
+        "raman_map_path": "samples/EV0002/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0003",
+      "split": "test",
+      "parameters": {
+        "anode_thickness_um": 560.3087503164537,
+        "electrolyte_thickness_um": 14.26995060581453,
+        "cathode_thickness_um": 94.14119910788814,
+        "sinter_cycle": "standard"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0003/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0003/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 2307.2553058012677,
+          "avg_stress_MPa": 441.4514375374301,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 47.07059955394407,
+            "warp_point_cloud_path": "samples/EV0003/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 47.07059955394407,
+            "warp_point_cloud_path": "samples/EV0003/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 14.26995060581453,
+            "warp_point_cloud_path": "samples/EV0003/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0003/xrd_map.npy",
+        "raman_map_path": "samples/EV0003/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0004",
+      "split": "test",
+      "parameters": {
+        "anode_thickness_um": 715.0920960645317,
+        "electrolyte_thickness_um": 25.56904033177075,
+        "cathode_thickness_um": 55.47313590618649,
+        "sinter_cycle": "standard"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0004/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0004/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 1820.4402874594423,
+          "avg_stress_MPa": 508.60349251457995,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 27.736567953093246,
+            "warp_point_cloud_path": "samples/EV0004/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 27.736567953093246,
+            "warp_point_cloud_path": "samples/EV0004/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 25.56904033177075,
+            "warp_point_cloud_path": "samples/EV0004/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0004/xrd_map.npy",
+        "raman_map_path": "samples/EV0004/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0005",
+      "split": "test",
+      "parameters": {
+        "anode_thickness_um": 381.79097742782153,
+        "electrolyte_thickness_um": 18.864619675395872,
+        "cathode_thickness_um": 25.105380488334028,
+        "sinter_cycle": "fast_lowT"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0005/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0005/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 4988.4522491441785,
+          "avg_stress_MPa": 71.71065629827497,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 12.552690244167014,
+            "warp_point_cloud_path": "samples/EV0005/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 12.552690244167014,
+            "warp_point_cloud_path": "samples/EV0005/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 18.864619675395872,
+            "warp_point_cloud_path": "samples/EV0005/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0005/xrd_map.npy",
+        "raman_map_path": "samples/EV0005/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0006",
+      "split": "test",
+      "parameters": {
+        "anode_thickness_um": 862.1049375940656,
+        "electrolyte_thickness_um": 20.79160997805162,
+        "cathode_thickness_um": 80.64701920682991,
+        "sinter_cycle": "fast_lowT"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0006/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0006/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 2592.8561449215895,
+          "avg_stress_MPa": 638.2634447010809,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 40.323509603414955,
+            "warp_point_cloud_path": "samples/EV0006/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 40.323509603414955,
+            "warp_point_cloud_path": "samples/EV0006/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 20.79160997805162,
+            "warp_point_cloud_path": "samples/EV0006/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0006/xrd_map.npy",
+        "raman_map_path": "samples/EV0006/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0007",
+      "split": "val",
+      "parameters": {
+        "anode_thickness_um": 483.62077450389467,
+        "electrolyte_thickness_um": 29.267450609872583,
+        "cathode_thickness_um": 91.44968970577581,
+        "sinter_cycle": "standard"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0007/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0007/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 2844.2219868489,
+          "avg_stress_MPa": 130.07917139794588,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 45.724844852887905,
+            "warp_point_cloud_path": "samples/EV0007/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 45.724844852887905,
+            "warp_point_cloud_path": "samples/EV0007/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 29.267450609872583,
+            "warp_point_cloud_path": "samples/EV0007/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0007/xrd_map.npy",
+        "raman_map_path": "samples/EV0007/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0008",
+      "split": "test",
+      "parameters": {
+        "anode_thickness_um": 822.7067976590095,
+        "electrolyte_thickness_um": 9.86596769629919,
+        "cathode_thickness_um": 57.33768029816274,
+        "sinter_cycle": "slow_highT"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0008/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0008/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 1125.746473519499,
+          "avg_stress_MPa": 2821.3446108183666,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 28.66884014908137,
+            "warp_point_cloud_path": "samples/EV0008/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 28.66884014908137,
+            "warp_point_cloud_path": "samples/EV0008/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 9.86596769629919,
+            "warp_point_cloud_path": "samples/EV0008/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0008/xrd_map.npy",
+        "raman_map_path": "samples/EV0008/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0009",
+      "split": "test",
+      "parameters": {
+        "anode_thickness_um": 235.04301262978302,
+        "electrolyte_thickness_um": 8.857237301688695,
+        "cathode_thickness_um": 74.64391625939638,
+        "sinter_cycle": "slow_highT"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0009/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0009/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 3676.6492149691267,
+          "avg_stress_MPa": 78.53992137219954,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 37.32195812969819,
+            "warp_point_cloud_path": "samples/EV0009/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 37.32195812969819,
+            "warp_point_cloud_path": "samples/EV0009/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 8.857237301688695,
+            "warp_point_cloud_path": "samples/EV0009/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0009/xrd_map.npy",
+        "raman_map_path": "samples/EV0009/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0010",
+      "split": "val",
+      "parameters": {
+        "anode_thickness_um": 242.83295201740924,
+        "electrolyte_thickness_um": 29.593584983615383,
+        "cathode_thickness_um": 98.4632718127854,
+        "sinter_cycle": "standard"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0010/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0010/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 5214.538803031359,
+          "avg_stress_MPa": 17.69082168906559,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 49.2316359063927,
+            "warp_point_cloud_path": "samples/EV0010/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 49.2316359063927,
+            "warp_point_cloud_path": "samples/EV0010/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 29.593584983615383,
+            "warp_point_cloud_path": "samples/EV0010/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0010/xrd_map.npy",
+        "raman_map_path": "samples/EV0010/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0011",
+      "split": "val",
+      "parameters": {
+        "anode_thickness_um": 200.0,
+        "electrolyte_thickness_um": 5.615979422575496,
+        "cathode_thickness_um": 23.386916878162676,
+        "sinter_cycle": "fast_lowT"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0011/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0011/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 8078.0941300036,
+          "avg_stress_MPa": 40.81988932358622,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 11.693458439081338,
+            "warp_point_cloud_path": "samples/EV0011/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 11.693458439081338,
+            "warp_point_cloud_path": "samples/EV0011/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 5.615979422575496,
+            "warp_point_cloud_path": "samples/EV0011/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0011/xrd_map.npy",
+        "raman_map_path": "samples/EV0011/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0012",
+      "split": "test",
+      "parameters": {
+        "anode_thickness_um": 997.7210508469025,
+        "electrolyte_thickness_um": 29.159843523037473,
+        "cathode_thickness_um": 97.52655635292628,
+        "sinter_cycle": "standard"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0012/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0012/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 1441.5063546614301,
+          "avg_stress_MPa": 1096.3842027407202,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 48.76327817646314,
+            "warp_point_cloud_path": "samples/EV0012/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 48.76327817646314,
+            "warp_point_cloud_path": "samples/EV0012/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 29.159843523037473,
+            "warp_point_cloud_path": "samples/EV0012/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0012/xrd_map.npy",
+        "raman_map_path": "samples/EV0012/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0013",
+      "split": "train",
+      "parameters": {
+        "anode_thickness_um": 213.01185575649401,
+        "electrolyte_thickness_um": 30.0,
+        "cathode_thickness_um": 100.0,
+        "sinter_cycle": "slow_highT"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0013/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0013/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 4287.980564872478,
+          "avg_stress_MPa": 16.329757588353917,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 50.0,
+            "warp_point_cloud_path": "samples/EV0013/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 50.0,
+            "warp_point_cloud_path": "samples/EV0013/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 30.0,
+            "warp_point_cloud_path": "samples/EV0013/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0013/xrd_map.npy",
+        "raman_map_path": "samples/EV0013/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0014",
+      "split": "test",
+      "parameters": {
+        "anode_thickness_um": 986.6898058542262,
+        "electrolyte_thickness_um": 30.0,
+        "cathode_thickness_um": 100.0,
+        "sinter_cycle": "fast_lowT"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0014/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0014/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 2366.7669324793123,
+          "avg_stress_MPa": 634.7910336313755,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 50.0,
+            "warp_point_cloud_path": "samples/EV0014/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 50.0,
+            "warp_point_cloud_path": "samples/EV0014/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 30.0,
+            "warp_point_cloud_path": "samples/EV0014/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0014/xrd_map.npy",
+        "raman_map_path": "samples/EV0014/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0015",
+      "split": "train",
+      "parameters": {
+        "anode_thickness_um": 204.37377193458025,
+        "electrolyte_thickness_um": 5.87142877794819,
+        "cathode_thickness_um": 20.670786646324046,
+        "sinter_cycle": "standard"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0015/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0015/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 4594.610526747187,
+          "avg_stress_MPa": 71.68100227532015,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 10.335393323162023,
+            "warp_point_cloud_path": "samples/EV0015/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 10.335393323162023,
+            "warp_point_cloud_path": "samples/EV0015/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 5.87142877794819,
+            "warp_point_cloud_path": "samples/EV0015/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0015/xrd_map.npy",
+        "raman_map_path": "samples/EV0015/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0016",
+      "split": "test",
+      "parameters": {
+        "anode_thickness_um": 213.5782712614379,
+        "electrolyte_thickness_um": 5.067579069488891,
+        "cathode_thickness_um": 20.86735819606995,
+        "sinter_cycle": "slow_highT"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0016/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0016/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 3232.9102225959255,
+          "avg_stress_MPa": 128.90394373210898,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 10.433679098034975,
+            "warp_point_cloud_path": "samples/EV0016/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 10.433679098034975,
+            "warp_point_cloud_path": "samples/EV0016/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 5.067579069488891,
+            "warp_point_cloud_path": "samples/EV0016/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0016/xrd_map.npy",
+        "raman_map_path": "samples/EV0016/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0017",
+      "split": "train",
+      "parameters": {
+        "anode_thickness_um": 1000.0,
+        "electrolyte_thickness_um": 5.0,
+        "cathode_thickness_um": 20.0,
+        "sinter_cycle": "fast_lowT"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0017/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0017/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 2222.3239275170918,
+          "avg_stress_MPa": 4166.475977966109,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 10.0,
+            "warp_point_cloud_path": "samples/EV0017/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 10.0,
+            "warp_point_cloud_path": "samples/EV0017/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 5.0,
+            "warp_point_cloud_path": "samples/EV0017/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0017/xrd_map.npy",
+        "raman_map_path": "samples/EV0017/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0018",
+      "split": "val",
+      "parameters": {
+        "anode_thickness_um": 200.0,
+        "electrolyte_thickness_um": 5.0,
+        "cathode_thickness_um": 20.0,
+        "sinter_cycle": "standard"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0018/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0018/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 5253.653308485731,
+          "avg_stress_MPa": 70.49768011378787,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 10.0,
+            "warp_point_cloud_path": "samples/EV0018/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 10.0,
+            "warp_point_cloud_path": "samples/EV0018/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 5.0,
+            "warp_point_cloud_path": "samples/EV0018/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0018/xrd_map.npy",
+        "raman_map_path": "samples/EV0018/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0019",
+      "split": "test",
+      "parameters": {
+        "anode_thickness_um": 1000.0,
+        "electrolyte_thickness_um": 5.0,
+        "cathode_thickness_um": 22.904835063774442,
+        "sinter_cycle": "fast_lowT"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0019/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0019/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 2229.842981404763,
+          "avg_stress_MPa": 4152.426577330608,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 11.452417531887221,
+            "warp_point_cloud_path": "samples/EV0019/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 11.452417531887221,
+            "warp_point_cloud_path": "samples/EV0019/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 5.0,
+            "warp_point_cloud_path": "samples/EV0019/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0019/xrd_map.npy",
+        "raman_map_path": "samples/EV0019/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0020",
+      "split": "val",
+      "parameters": {
+        "anode_thickness_um": 200.0,
+        "electrolyte_thickness_um": 5.0,
+        "cathode_thickness_um": 20.488259195315017,
+        "sinter_cycle": "fast_lowT"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0020/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0020/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 7702.1097206293825,
+          "avg_stress_MPa": 48.08687279257629,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 10.244129597657508,
+            "warp_point_cloud_path": "samples/EV0020/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 10.244129597657508,
+            "warp_point_cloud_path": "samples/EV0020/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 5.0,
+            "warp_point_cloud_path": "samples/EV0020/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0020/xrd_map.npy",
+        "raman_map_path": "samples/EV0020/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0021",
+      "split": "train",
+      "parameters": {
+        "anode_thickness_um": 1000.0,
+        "electrolyte_thickness_um": 30.0,
+        "cathode_thickness_um": 100.0,
+        "sinter_cycle": "fast_lowT"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0021/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0021/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 2357.5542915428655,
+          "avg_stress_MPa": 654.5808434100916,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 50.0,
+            "warp_point_cloud_path": "samples/EV0021/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 50.0,
+            "warp_point_cloud_path": "samples/EV0021/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 30.0,
+            "warp_point_cloud_path": "samples/EV0021/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0021/xrd_map.npy",
+        "raman_map_path": "samples/EV0021/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0022",
+      "split": "val",
+      "parameters": {
+        "anode_thickness_um": 200.0,
+        "electrolyte_thickness_um": 5.0,
+        "cathode_thickness_um": 22.573927643771462,
+        "sinter_cycle": "standard"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0022/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0022/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 5005.183732825575,
+          "avg_stress_MPa": 73.99735756778807,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 11.286963821885731,
+            "warp_point_cloud_path": "samples/EV0022/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 11.286963821885731,
+            "warp_point_cloud_path": "samples/EV0022/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 5.0,
+            "warp_point_cloud_path": "samples/EV0022/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0022/xrd_map.npy",
+        "raman_map_path": "samples/EV0022/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0023",
+      "split": "val",
+      "parameters": {
+        "anode_thickness_um": 996.1739135023677,
+        "electrolyte_thickness_um": 5.0,
+        "cathode_thickness_um": 20.0,
+        "sinter_cycle": "slow_highT"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0023/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0023/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 890.3013428769423,
+          "avg_stress_MPa": 10320.70930234531,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 10.0,
+            "warp_point_cloud_path": "samples/EV0023/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 10.0,
+            "warp_point_cloud_path": "samples/EV0023/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 5.0,
+            "warp_point_cloud_path": "samples/EV0023/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0023/xrd_map.npy",
+        "raman_map_path": "samples/EV0023/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0024",
+      "split": "test",
+      "parameters": {
+        "anode_thickness_um": 981.6109542799678,
+        "electrolyte_thickness_um": 5.497160744053764,
+        "cathode_thickness_um": 20.427277208211695,
+        "sinter_cycle": "standard"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0024/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0024/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 1312.4349284591603,
+          "avg_stress_MPa": 6183.1363683319,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 10.213638604105848,
+            "warp_point_cloud_path": "samples/EV0024/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 10.213638604105848,
+            "warp_point_cloud_path": "samples/EV0024/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 5.497160744053764,
+            "warp_point_cloud_path": "samples/EV0024/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0024/xrd_map.npy",
+        "raman_map_path": "samples/EV0024/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0025",
+      "split": "val",
+      "parameters": {
+        "anode_thickness_um": 1000.0,
+        "electrolyte_thickness_um": 5.0,
+        "cathode_thickness_um": 20.475619073230142,
+        "sinter_cycle": "fast_lowT"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0025/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0025/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 2200.1064787978294,
+          "avg_stress_MPa": 4208.5505172089015,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 10.237809536615071,
+            "warp_point_cloud_path": "samples/EV0025/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 10.237809536615071,
+            "warp_point_cloud_path": "samples/EV0025/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 5.0,
+            "warp_point_cloud_path": "samples/EV0025/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0025/xrd_map.npy",
+        "raman_map_path": "samples/EV0025/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0026",
+      "split": "train",
+      "parameters": {
+        "anode_thickness_um": 212.51180787934675,
+        "electrolyte_thickness_um": 29.690653460279762,
+        "cathode_thickness_um": 100.0,
+        "sinter_cycle": "standard"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0026/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0026/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 6055.504245056004,
+          "avg_stress_MPa": 11.62899842595955,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 50.0,
+            "warp_point_cloud_path": "samples/EV0026/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 50.0,
+            "warp_point_cloud_path": "samples/EV0026/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 29.690653460279762,
+            "warp_point_cloud_path": "samples/EV0026/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0026/xrd_map.npy",
+        "raman_map_path": "samples/EV0026/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0027",
+      "split": "test",
+      "parameters": {
+        "anode_thickness_um": 986.7614811786669,
+        "electrolyte_thickness_um": 5.0,
+        "cathode_thickness_um": 20.0,
+        "sinter_cycle": "fast_lowT"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0027/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0027/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 2061.2611030306894,
+          "avg_stress_MPa": 4373.887545268246,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 10.0,
+            "warp_point_cloud_path": "samples/EV0027/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 10.0,
+            "warp_point_cloud_path": "samples/EV0027/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 5.0,
+            "warp_point_cloud_path": "samples/EV0027/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0027/xrd_map.npy",
+        "raman_map_path": "samples/EV0027/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0028",
+      "split": "val",
+      "parameters": {
+        "anode_thickness_um": 200.0,
+        "electrolyte_thickness_um": 30.0,
+        "cathode_thickness_um": 98.59179297939183,
+        "sinter_cycle": "fast_lowT"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0028/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0028/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 12148.049893643207,
+          "avg_stress_MPa": 5.081341911019763,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 49.29589648969591,
+            "warp_point_cloud_path": "samples/EV0028/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 49.29589648969591,
+            "warp_point_cloud_path": "samples/EV0028/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 30.0,
+            "warp_point_cloud_path": "samples/EV0028/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0028/xrd_map.npy",
+        "raman_map_path": "samples/EV0028/raman_map.npy"
+      }
+    },
+    {
+      "id": "EV0029",
+      "split": "val",
+      "parameters": {
+        "anode_thickness_um": 1000.0,
+        "electrolyte_thickness_um": 5.480746658905909,
+        "cathode_thickness_um": 21.339593528089832,
+        "sinter_cycle": "slow_highT"
+      },
+      "measurements": {
+        "warp_point_cloud_path": "samples/EV0029/warp_point_cloud.xyz",
+        "warp_height_map_path": "samples/EV0029/warp_height_map.png",
+        "curvature_inverse": {
+          "R_mm": 887.5944001296668,
+          "avg_stress_MPa": 9516.8224605355,
+          "method": "stoney_bilayer"
+        },
+        "layer_removal_sequence": [
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 10.669796764044916,
+            "warp_point_cloud_path": "samples/EV0029/layer_removal_00.xyz"
+          },
+          {
+            "removed_layer": "cathode",
+            "thickness_removed_um": 10.669796764044916,
+            "warp_point_cloud_path": "samples/EV0029/layer_removal_01.xyz"
+          },
+          {
+            "removed_layer": "electrolyte",
+            "thickness_removed_um": 5.480746658905909,
+            "warp_point_cloud_path": "samples/EV0029/layer_removal_02.xyz"
+          }
+        ],
+        "xrd_map_path": "samples/EV0029/xrd_map.npy",
+        "raman_map_path": "samples/EV0029/raman_map.npy"
+      }
+    }
+  ]
+}
