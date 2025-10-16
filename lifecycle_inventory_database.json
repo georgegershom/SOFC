@@ -1,0 +1,662 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2025-10-16",
+    "description": "Life Cycle Inventory Database for Building Retrofit Materials and Systems",
+    "data_sources": ["Ecoinvent 3.9", "ICE Database v3.0", "EPD Library", "NREL LCI", "IDEMAT 2023"],
+    "lca_methodology": "ISO 14040/14044",
+    "impact_categories": {
+      "gwp": "Global Warming Potential (kg CO2e)",
+      "ap": "Acidification Potential (kg SO2e)",
+      "ep": "Eutrophication Potential (kg PO4e)",
+      "ozone_depletion": "Ozone Depletion Potential (kg CFC-11e)",
+      "fossil_fuel_depletion": "Fossil Fuel Depletion (MJ surplus)",
+      "water_use": "Water Use (m³ water eq)"
+    },
+    "system_boundaries": {
+      "A1_A3": "Cradle-to-gate (raw material extraction, transport, manufacturing)",
+      "A4_A5": "Transport to site and installation",
+      "B1_B7": "Use stage (maintenance, repair, replacement, refurbishment, operational water/energy use)",
+      "C1_C4": "End-of-life (deconstruction, transport, waste processing, disposal)"
+    },
+    "functional_units": {
+      "insulation": "per m² of insulation installed",
+      "windows": "per m² of window area",
+      "hvac": "per kW of capacity",
+      "solar": "per kW of installed capacity",
+      "lighting": "per fixture",
+      "concrete": "per m³",
+      "steel": "per kg",
+      "aluminum": "per kg"
+    }
+  },
+  "materials": {
+    "insulation_materials": {
+      "polyisocyanurate": {
+        "material_id": "INS_MAT_001",
+        "name": "Polyisocyanurate (Polyiso) Foam Board",
+        "density_kg_per_m3": 32.0,
+        "thermal_conductivity_w_per_mk": 0.022,
+        "functional_unit": "1 m² of 25mm thickness",
+        "embodied_carbon": {
+          "A1_A3": {
+            "gwp_kg_co2e": 4.85,
+            "uncertainty": 0.25,
+            "data_quality": "high",
+            "geographic_scope": "North America"
+          },
+          "A4_A5": {
+            "gwp_kg_co2e": 0.42,
+            "uncertainty": 0.30,
+            "transport_distance_km": 500,
+            "installation_energy_mj": 2.1
+          },
+          "B1_B7": {
+            "gwp_kg_co2e": 0.15,
+            "maintenance_frequency_years": 30,
+            "replacement_factor": 0.0,
+            "operational_impact": "negligible"
+          },
+          "C1_C4": {
+            "gwp_kg_co2e": 0.28,
+            "recycling_rate": 0.05,
+            "landfill_rate": 0.85,
+            "incineration_rate": 0.10
+          },
+          "total_lifecycle": {
+            "gwp_kg_co2e": 5.70,
+            "uncertainty": 0.22
+          }
+        },
+        "other_impacts": {
+          "ap_kg_so2e": 0.028,
+          "ep_kg_po4e": 0.0045,
+          "ozone_depletion_kg_cfc11e": 2.1e-7,
+          "fossil_fuel_depletion_mj": 75.2,
+          "water_use_m3": 0.085
+        }
+      },
+      "mineral_wool": {
+        "material_id": "INS_MAT_002",
+        "name": "Mineral Wool (Rock Wool) Batt Insulation",
+        "density_kg_per_m3": 64.0,
+        "thermal_conductivity_w_per_mk": 0.035,
+        "functional_unit": "1 m² of 100mm thickness",
+        "embodied_carbon": {
+          "A1_A3": {
+            "gwp_kg_co2e": 2.95,
+            "uncertainty": 0.20,
+            "data_quality": "high",
+            "geographic_scope": "Europe/North America"
+          },
+          "A4_A5": {
+            "gwp_kg_co2e": 0.35,
+            "uncertainty": 0.25,
+            "transport_distance_km": 400,
+            "installation_energy_mj": 1.8
+          },
+          "B1_B7": {
+            "gwp_kg_co2e": 0.12,
+            "maintenance_frequency_years": 40,
+            "replacement_factor": 0.0,
+            "operational_impact": "negligible"
+          },
+          "C1_C4": {
+            "gwp_kg_co2e": 0.18,
+            "recycling_rate": 0.15,
+            "landfill_rate": 0.75,
+            "incineration_rate": 0.10
+          },
+          "total_lifecycle": {
+            "gwp_kg_co2e": 3.60,
+            "uncertainty": 0.18
+          }
+        },
+        "other_impacts": {
+          "ap_kg_so2e": 0.022,
+          "ep_kg_po4e": 0.0032,
+          "ozone_depletion_kg_cfc11e": 1.8e-7,
+          "fossil_fuel_depletion_mj": 58.4,
+          "water_use_m3": 0.065
+        }
+      },
+      "spray_foam": {
+        "material_id": "INS_MAT_003",
+        "name": "Closed-Cell Spray Polyurethane Foam",
+        "density_kg_per_m3": 48.0,
+        "thermal_conductivity_w_per_mk": 0.024,
+        "functional_unit": "1 m² of 50mm thickness",
+        "embodied_carbon": {
+          "A1_A3": {
+            "gwp_kg_co2e": 8.25,
+            "uncertainty": 0.30,
+            "data_quality": "medium",
+            "geographic_scope": "North America"
+          },
+          "A4_A5": {
+            "gwp_kg_co2e": 0.65,
+            "uncertainty": 0.35,
+            "transport_distance_km": 300,
+            "installation_energy_mj": 4.2
+          },
+          "B1_B7": {
+            "gwp_kg_co2e": 0.08,
+            "maintenance_frequency_years": 50,
+            "replacement_factor": 0.0,
+            "operational_impact": "negligible"
+          },
+          "C1_C4": {
+            "gwp_kg_co2e": 0.45,
+            "recycling_rate": 0.02,
+            "landfill_rate": 0.88,
+            "incineration_rate": 0.10
+          },
+          "total_lifecycle": {
+            "gwp_kg_co2e": 9.43,
+            "uncertainty": 0.28
+          }
+        },
+        "other_impacts": {
+          "ap_kg_so2e": 0.048,
+          "ep_kg_po4e": 0.0078,
+          "ozone_depletion_kg_cfc11e": 3.2e-7,
+          "fossil_fuel_depletion_mj": 125.8,
+          "water_use_m3": 0.142
+        }
+      }
+    },
+    "window_materials": {
+      "double_pane_low_e": {
+        "material_id": "WIN_MAT_001",
+        "name": "Double-Pane Low-E Window with Vinyl Frame",
+        "functional_unit": "1 m² of window area",
+        "components": {
+          "glass": {
+            "thickness_mm": 6,
+            "low_e_coating": true,
+            "gas_fill": "argon"
+          },
+          "frame": {
+            "material": "vinyl",
+            "thermal_break": false
+          },
+          "spacer": {
+            "material": "aluminum",
+            "thermal_break": true
+          }
+        },
+        "embodied_carbon": {
+          "A1_A3": {
+            "gwp_kg_co2e": 45.2,
+            "uncertainty": 0.18,
+            "data_quality": "high",
+            "geographic_scope": "North America"
+          },
+          "A4_A5": {
+            "gwp_kg_co2e": 3.8,
+            "uncertainty": 0.25,
+            "transport_distance_km": 600,
+            "installation_energy_mj": 15.2
+          },
+          "B1_B7": {
+            "gwp_kg_co2e": 2.1,
+            "maintenance_frequency_years": 5,
+            "replacement_factor": 0.0,
+            "seal_replacement_years": 15
+          },
+          "C1_C4": {
+            "gwp_kg_co2e": 2.8,
+            "recycling_rate": 0.85,
+            "landfill_rate": 0.10,
+            "incineration_rate": 0.05
+          },
+          "total_lifecycle": {
+            "gwp_kg_co2e": 53.9,
+            "uncertainty": 0.20
+          }
+        },
+        "other_impacts": {
+          "ap_kg_so2e": 0.285,
+          "ep_kg_po4e": 0.042,
+          "ozone_depletion_kg_cfc11e": 1.8e-6,
+          "fossil_fuel_depletion_mj": 685.4,
+          "water_use_m3": 2.85
+        }
+      },
+      "triple_pane_high_performance": {
+        "material_id": "WIN_MAT_002",
+        "name": "Triple-Pane High-Performance Window with Fiberglass Frame",
+        "functional_unit": "1 m² of window area",
+        "components": {
+          "glass": {
+            "thickness_mm": 4,
+            "low_e_coating": "dual",
+            "gas_fill": "krypton"
+          },
+          "frame": {
+            "material": "fiberglass",
+            "thermal_break": true
+          },
+          "spacer": {
+            "material": "warm_edge",
+            "thermal_break": true
+          }
+        },
+        "embodied_carbon": {
+          "A1_A3": {
+            "gwp_kg_co2e": 68.5,
+            "uncertainty": 0.22,
+            "data_quality": "high",
+            "geographic_scope": "Europe/North America"
+          },
+          "A4_A5": {
+            "gwp_kg_co2e": 5.2,
+            "uncertainty": 0.28,
+            "transport_distance_km": 800,
+            "installation_energy_mj": 18.5
+          },
+          "B1_B7": {
+            "gwp_kg_co2e": 1.8,
+            "maintenance_frequency_years": 7,
+            "replacement_factor": 0.0,
+            "seal_replacement_years": 20
+          },
+          "C1_C4": {
+            "gwp_kg_co2e": 3.5,
+            "recycling_rate": 0.90,
+            "landfill_rate": 0.08,
+            "incineration_rate": 0.02
+          },
+          "total_lifecycle": {
+            "gwp_kg_co2e": 79.0,
+            "uncertainty": 0.24
+          }
+        },
+        "other_impacts": {
+          "ap_kg_so2e": 0.425,
+          "ep_kg_po4e": 0.058,
+          "ozone_depletion_kg_cfc11e": 2.5e-6,
+          "fossil_fuel_depletion_mj": 985.2,
+          "water_use_m3": 4.12
+        }
+      }
+    },
+    "hvac_equipment": {
+      "air_source_heat_pump": {
+        "material_id": "HVAC_MAT_001",
+        "name": "Variable-Speed Air-Source Heat Pump",
+        "functional_unit": "1 kW of heating capacity",
+        "components": {
+          "compressor": "variable_speed_scroll",
+          "refrigerant": "R-410A",
+          "heat_exchangers": "aluminum_fin_copper_tube",
+          "controls": "advanced_electronic"
+        },
+        "embodied_carbon": {
+          "A1_A3": {
+            "gwp_kg_co2e": 125.8,
+            "uncertainty": 0.25,
+            "data_quality": "medium",
+            "geographic_scope": "Global"
+          },
+          "A4_A5": {
+            "gwp_kg_co2e": 8.5,
+            "uncertainty": 0.30,
+            "transport_distance_km": 1200,
+            "installation_energy_mj": 45.2
+          },
+          "B1_B7": {
+            "gwp_kg_co2e": 15.2,
+            "maintenance_frequency_years": 2,
+            "refrigerant_leakage_rate": 0.05,
+            "component_replacement_years": 10
+          },
+          "C1_C4": {
+            "gwp_kg_co2e": 8.8,
+            "recycling_rate": 0.75,
+            "refrigerant_recovery_rate": 0.85,
+            "landfill_rate": 0.20
+          },
+          "total_lifecycle": {
+            "gwp_kg_co2e": 158.3,
+            "uncertainty": 0.28
+          }
+        },
+        "other_impacts": {
+          "ap_kg_so2e": 0.845,
+          "ep_kg_po4e": 0.125,
+          "ozone_depletion_kg_cfc11e": 8.5e-6,
+          "fossil_fuel_depletion_mj": 1850.4,
+          "water_use_m3": 12.5
+        }
+      },
+      "ground_source_heat_pump": {
+        "material_id": "HVAC_MAT_002",
+        "name": "Ground-Source Heat Pump with Vertical Loop Field",
+        "functional_unit": "1 kW of heating capacity",
+        "components": {
+          "heat_pump_unit": "water_to_air",
+          "ground_loop": "vertical_closed_loop",
+          "loop_fluid": "propylene_glycol",
+          "piping": "hdpe"
+        },
+        "embodied_carbon": {
+          "A1_A3": {
+            "gwp_kg_co2e": 185.5,
+            "uncertainty": 0.30,
+            "data_quality": "medium",
+            "geographic_scope": "North America"
+          },
+          "A4_A5": {
+            "gwp_kg_co2e": 25.8,
+            "uncertainty": 0.35,
+            "transport_distance_km": 800,
+            "drilling_energy_mj": 125.0,
+            "installation_energy_mj": 85.2
+          },
+          "B1_B7": {
+            "gwp_kg_co2e": 12.5,
+            "maintenance_frequency_years": 3,
+            "loop_fluid_replacement_years": 15,
+            "component_replacement_years": 12
+          },
+          "C1_C4": {
+            "gwp_kg_co2e": 15.2,
+            "recycling_rate": 0.70,
+            "loop_abandonment": true,
+            "landfill_rate": 0.25
+          },
+          "total_lifecycle": {
+            "gwp_kg_co2e": 239.0,
+            "uncertainty": 0.32
+          }
+        },
+        "other_impacts": {
+          "ap_kg_so2e": 1.285,
+          "ep_kg_po4e": 0.185,
+          "ozone_depletion_kg_cfc11e": 6.2e-6,
+          "fossil_fuel_depletion_mj": 2850.8,
+          "water_use_m3": 18.5
+        }
+      }
+    },
+    "solar_pv": {
+      "crystalline_silicon": {
+        "material_id": "SOLAR_MAT_001",
+        "name": "Monocrystalline Silicon PV Module",
+        "functional_unit": "1 kW of installed capacity",
+        "components": {
+          "solar_cells": "monocrystalline_silicon",
+          "glass": "tempered_solar_glass",
+          "backsheet": "tedlar_pvf",
+          "frame": "aluminum_anodized",
+          "junction_box": "ip67_rated"
+        },
+        "embodied_carbon": {
+          "A1_A3": {
+            "gwp_kg_co2e": 485.2,
+            "uncertainty": 0.20,
+            "data_quality": "high",
+            "geographic_scope": "Global"
+          },
+          "A4_A5": {
+            "gwp_kg_co2e": 35.8,
+            "uncertainty": 0.25,
+            "transport_distance_km": 8000,
+            "installation_energy_mj": 125.0
+          },
+          "B1_B7": {
+            "gwp_kg_co2e": 25.5,
+            "maintenance_frequency_years": 5,
+            "inverter_replacement_years": 12,
+            "cleaning_frequency": "annual"
+          },
+          "C1_C4": {
+            "gwp_kg_co2e": 18.5,
+            "recycling_rate": 0.95,
+            "silver_recovery_rate": 0.90,
+            "landfill_rate": 0.05
+          },
+          "total_lifecycle": {
+            "gwp_kg_co2e": 565.0,
+            "uncertainty": 0.22
+          }
+        },
+        "other_impacts": {
+          "ap_kg_so2e": 2.85,
+          "ep_kg_po4e": 0.385,
+          "ozone_depletion_kg_cfc11e": 1.2e-5,
+          "fossil_fuel_depletion_mj": 6850.4,
+          "water_use_m3": 45.8
+        }
+      },
+      "inverter_string": {
+        "material_id": "SOLAR_MAT_002",
+        "name": "String Inverter for Solar PV System",
+        "functional_unit": "1 kW of AC capacity",
+        "components": {
+          "power_electronics": "igbt_modules",
+          "transformer": "high_frequency",
+          "housing": "aluminum_ip65",
+          "cooling": "natural_convection"
+        },
+        "embodied_carbon": {
+          "A1_A3": {
+            "gwp_kg_co2e": 85.5,
+            "uncertainty": 0.28,
+            "data_quality": "medium",
+            "geographic_scope": "Global"
+          },
+          "A4_A5": {
+            "gwp_kg_co2e": 5.2,
+            "uncertainty": 0.30,
+            "transport_distance_km": 2000,
+            "installation_energy_mj": 15.0
+          },
+          "B1_B7": {
+            "gwp_kg_co2e": 8.5,
+            "maintenance_frequency_years": 5,
+            "replacement_frequency_years": 12,
+            "efficiency_degradation": 0.005
+          },
+          "C1_C4": {
+            "gwp_kg_co2e": 4.8,
+            "recycling_rate": 0.80,
+            "precious_metal_recovery": 0.95,
+            "landfill_rate": 0.15
+          },
+          "total_lifecycle": {
+            "gwp_kg_co2e": 104.0,
+            "uncertainty": 0.30
+          }
+        },
+        "other_impacts": {
+          "ap_kg_so2e": 0.485,
+          "ep_kg_po4e": 0.085,
+          "ozone_depletion_kg_cfc11e": 2.8e-6,
+          "fossil_fuel_depletion_mj": 1285.5,
+          "water_use_m3": 8.5
+        }
+      }
+    },
+    "battery_storage": {
+      "lithium_ion": {
+        "material_id": "STORAGE_MAT_001",
+        "name": "Lithium-Ion Battery Storage System",
+        "functional_unit": "1 kWh of usable capacity",
+        "components": {
+          "battery_cells": "lithium_iron_phosphate",
+          "battery_management_system": "active_balancing",
+          "inverter": "bidirectional",
+          "housing": "nema_3r_enclosure"
+        },
+        "embodied_carbon": {
+          "A1_A3": {
+            "gwp_kg_co2e": 185.5,
+            "uncertainty": 0.35,
+            "data_quality": "medium",
+            "geographic_scope": "Global"
+          },
+          "A4_A5": {
+            "gwp_kg_co2e": 12.5,
+            "uncertainty": 0.30,
+            "transport_distance_km": 5000,
+            "installation_energy_mj": 25.0
+          },
+          "B1_B7": {
+            "gwp_kg_co2e": 15.8,
+            "maintenance_frequency_years": 3,
+            "capacity_degradation_rate": 0.02,
+            "thermal_management_energy": "continuous"
+          },
+          "C1_C4": {
+            "gwp_kg_co2e": 8.5,
+            "recycling_rate": 0.95,
+            "lithium_recovery_rate": 0.90,
+            "cobalt_recovery_rate": 0.95
+          },
+          "total_lifecycle": {
+            "gwp_kg_co2e": 222.3,
+            "uncertainty": 0.38
+          }
+        },
+        "other_impacts": {
+          "ap_kg_so2e": 1.285,
+          "ep_kg_po4e": 0.185,
+          "ozone_depletion_kg_cfc11e": 5.8e-6,
+          "fossil_fuel_depletion_mj": 2850.5,
+          "water_use_m3": 125.8
+        }
+      }
+    },
+    "led_lighting": {
+      "led_fixture": {
+        "material_id": "LIGHT_MAT_001",
+        "name": "High-Efficiency LED Lighting Fixture",
+        "functional_unit": "1 fixture (equivalent to 100W incandescent)",
+        "components": {
+          "led_chips": "high_efficiency_white",
+          "driver": "electronic_dimmable",
+          "heat_sink": "aluminum_extruded",
+          "housing": "die_cast_aluminum",
+          "optics": "polycarbonate_lens"
+        },
+        "embodied_carbon": {
+          "A1_A3": {
+            "gwp_kg_co2e": 15.8,
+            "uncertainty": 0.25,
+            "data_quality": "high",
+            "geographic_scope": "Global"
+          },
+          "A4_A5": {
+            "gwp_kg_co2e": 1.2,
+            "uncertainty": 0.30,
+            "transport_distance_km": 3000,
+            "installation_energy_mj": 2.5
+          },
+          "B1_B7": {
+            "gwp_kg_co2e": 2.5,
+            "maintenance_frequency_years": 10,
+            "driver_replacement_years": 8,
+            "lumen_depreciation": 0.30
+          },
+          "C1_C4": {
+            "gwp_kg_co2e": 1.8,
+            "recycling_rate": 0.85,
+            "rare_earth_recovery": 0.70,
+            "landfill_rate": 0.10
+          },
+          "total_lifecycle": {
+            "gwp_kg_co2e": 21.3,
+            "uncertainty": 0.28
+          }
+        },
+        "other_impacts": {
+          "ap_kg_so2e": 0.125,
+          "ep_kg_po4e": 0.025,
+          "ozone_depletion_kg_cfc11e": 8.5e-7,
+          "fossil_fuel_depletion_mj": 285.5,
+          "water_use_m3": 2.85
+        }
+      }
+    }
+  },
+  "regional_factors": {
+    "electricity_grid_carbon_intensity": {
+      "US_national_average": {
+        "kg_co2e_per_kwh": 0.386,
+        "year": 2023,
+        "renewable_fraction": 0.22
+      },
+      "US_northeast": {
+        "kg_co2e_per_kwh": 0.285,
+        "year": 2023,
+        "renewable_fraction": 0.35
+      },
+      "US_southeast": {
+        "kg_co2e_per_kwh": 0.485,
+        "year": 2023,
+        "renewable_fraction": 0.15
+      },
+      "US_midwest": {
+        "kg_co2e_per_kwh": 0.525,
+        "year": 2023,
+        "renewable_fraction": 0.18
+      },
+      "US_west": {
+        "kg_co2e_per_kwh": 0.285,
+        "year": 2023,
+        "renewable_fraction": 0.42
+      },
+      "california": {
+        "kg_co2e_per_kwh": 0.215,
+        "year": 2023,
+        "renewable_fraction": 0.55
+      },
+      "texas": {
+        "kg_co2e_per_kwh": 0.385,
+        "year": 2023,
+        "renewable_fraction": 0.28
+      }
+    },
+    "transport_factors": {
+      "truck_transport": {
+        "kg_co2e_per_tonne_km": 0.085,
+        "uncertainty": 0.20
+      },
+      "rail_transport": {
+        "kg_co2e_per_tonne_km": 0.025,
+        "uncertainty": 0.15
+      },
+      "ship_transport": {
+        "kg_co2e_per_tonne_km": 0.012,
+        "uncertainty": 0.25
+      },
+      "air_transport": {
+        "kg_co2e_per_tonne_km": 0.685,
+        "uncertainty": 0.30
+      }
+    }
+  },
+  "uncertainty_analysis": {
+    "monte_carlo_parameters": {
+      "iterations": 10000,
+      "confidence_interval": 0.95,
+      "distribution_types": {
+        "material_gwp": "lognormal",
+        "transport_distance": "triangular",
+        "lifespan": "weibull",
+        "efficiency_degradation": "normal"
+      }
+    },
+    "sensitivity_analysis": {
+      "most_influential_parameters": [
+        "electricity_grid_carbon_intensity",
+        "material_production_gwp",
+        "transport_distance",
+        "system_lifespan",
+        "maintenance_frequency"
+      ]
+    }
+  }
+}

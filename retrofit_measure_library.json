@@ -1,0 +1,511 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2025-10-16",
+    "description": "Comprehensive Retrofit Measure Library for Dynamic Digital Twin Framework",
+    "data_sources": ["ASHRAE 90.1", "IECC", "DOE Building Energy Codes", "NREL", "EPA ENERGY STAR"],
+    "units": {
+      "thermal_resistance": "m²·K/W",
+      "u_value": "W/(m²·K)",
+      "cost": "USD",
+      "lifespan": "years",
+      "efficiency": "percentage",
+      "capacity": "kW"
+    }
+  },
+  "envelope_measures": {
+    "insulation": [
+      {
+        "measure_id": "INS_001",
+        "name": "Polyiso Roof Insulation - 2 inches",
+        "category": "roof_insulation",
+        "description": "Add 2 inches of continuous polyisocyanurate insulation to existing roof assembly",
+        "performance": {
+          "thermal_resistance_added": 2.27,
+          "u_value_improvement": 0.44,
+          "thermal_bridging_factor": 0.85
+        },
+        "costs": {
+          "material_cost_per_sqm": 18.50,
+          "labor_cost_per_sqm": 12.30,
+          "total_cost_per_sqm": 30.80,
+          "cost_uncertainty": 0.15
+        },
+        "lifespan": {
+          "expected_years": 30,
+          "warranty_years": 20,
+          "degradation_rate_annual": 0.001
+        },
+        "applicability": {
+          "building_types": ["office", "retail", "warehouse", "multifamily"],
+          "climate_zones": ["1A", "2A", "2B", "3A", "3B", "3C", "4A", "4B", "4C", "5A", "5B", "5C", "6A", "6B", "7", "8"],
+          "roof_types": ["flat", "low_slope"]
+        }
+      },
+      {
+        "measure_id": "INS_002",
+        "name": "Polyiso Roof Insulation - 4 inches",
+        "category": "roof_insulation",
+        "description": "Add 4 inches of continuous polyisocyanurate insulation to existing roof assembly",
+        "performance": {
+          "thermal_resistance_added": 4.54,
+          "u_value_improvement": 0.22,
+          "thermal_bridging_factor": 0.85
+        },
+        "costs": {
+          "material_cost_per_sqm": 35.20,
+          "labor_cost_per_sqm": 15.80,
+          "total_cost_per_sqm": 51.00,
+          "cost_uncertainty": 0.12
+        },
+        "lifespan": {
+          "expected_years": 35,
+          "warranty_years": 25,
+          "degradation_rate_annual": 0.0008
+        },
+        "applicability": {
+          "building_types": ["office", "retail", "warehouse", "multifamily"],
+          "climate_zones": ["4A", "4B", "4C", "5A", "5B", "5C", "6A", "6B", "7", "8"],
+          "roof_types": ["flat", "low_slope"]
+        }
+      },
+      {
+        "measure_id": "INS_003",
+        "name": "Spray Foam Wall Insulation",
+        "category": "wall_insulation",
+        "description": "Closed-cell spray polyurethane foam insulation for exterior walls",
+        "performance": {
+          "thermal_resistance_added": 6.25,
+          "u_value_improvement": 0.16,
+          "air_sealing_improvement": 0.75
+        },
+        "costs": {
+          "material_cost_per_sqm": 28.90,
+          "labor_cost_per_sqm": 22.10,
+          "total_cost_per_sqm": 51.00,
+          "cost_uncertainty": 0.18
+        },
+        "lifespan": {
+          "expected_years": 50,
+          "warranty_years": 25,
+          "degradation_rate_annual": 0.0005
+        },
+        "applicability": {
+          "building_types": ["office", "retail", "multifamily", "single_family"],
+          "climate_zones": ["3A", "3B", "3C", "4A", "4B", "4C", "5A", "5B", "5C", "6A", "6B", "7", "8"],
+          "wall_types": ["masonry", "wood_frame", "steel_frame"]
+        }
+      },
+      {
+        "measure_id": "INS_004",
+        "name": "Mineral Wool Cavity Insulation",
+        "category": "wall_insulation",
+        "description": "High-density mineral wool batt insulation for wall cavities",
+        "performance": {
+          "thermal_resistance_added": 3.52,
+          "u_value_improvement": 0.28,
+          "fire_resistance_rating": 2.0
+        },
+        "costs": {
+          "material_cost_per_sqm": 12.40,
+          "labor_cost_per_sqm": 8.60,
+          "total_cost_per_sqm": 21.00,
+          "cost_uncertainty": 0.10
+        },
+        "lifespan": {
+          "expected_years": 40,
+          "warranty_years": 20,
+          "degradation_rate_annual": 0.0012
+        },
+        "applicability": {
+          "building_types": ["office", "retail", "multifamily", "single_family"],
+          "climate_zones": ["2A", "2B", "3A", "3B", "3C", "4A", "4B", "4C", "5A", "5B", "5C"],
+          "wall_types": ["wood_frame", "steel_frame"]
+        }
+      }
+    ],
+    "windows": [
+      {
+        "measure_id": "WIN_001",
+        "name": "Double-Pane Low-E Windows",
+        "category": "window_replacement",
+        "description": "Double-pane windows with low-emissivity coating and argon fill",
+        "performance": {
+          "u_value": 1.8,
+          "solar_heat_gain_coefficient": 0.25,
+          "visible_transmittance": 0.65,
+          "air_leakage": 0.15
+        },
+        "costs": {
+          "material_cost_per_sqm": 285.00,
+          "labor_cost_per_sqm": 95.00,
+          "total_cost_per_sqm": 380.00,
+          "cost_uncertainty": 0.20
+        },
+        "lifespan": {
+          "expected_years": 25,
+          "warranty_years": 15,
+          "degradation_rate_annual": 0.002
+        },
+        "applicability": {
+          "building_types": ["office", "retail", "multifamily", "single_family"],
+          "climate_zones": ["1A", "2A", "2B", "3A", "3B", "3C", "4A", "4B", "4C"],
+          "frame_types": ["vinyl", "fiberglass", "wood"]
+        }
+      },
+      {
+        "measure_id": "WIN_002",
+        "name": "Triple-Pane High-Performance Windows",
+        "category": "window_replacement",
+        "description": "Triple-pane windows with dual low-E coatings and krypton fill",
+        "performance": {
+          "u_value": 1.2,
+          "solar_heat_gain_coefficient": 0.20,
+          "visible_transmittance": 0.60,
+          "air_leakage": 0.10
+        },
+        "costs": {
+          "material_cost_per_sqm": 485.00,
+          "labor_cost_per_sqm": 115.00,
+          "total_cost_per_sqm": 600.00,
+          "cost_uncertainty": 0.18
+        },
+        "lifespan": {
+          "expected_years": 30,
+          "warranty_years": 20,
+          "degradation_rate_annual": 0.0015
+        },
+        "applicability": {
+          "building_types": ["office", "retail", "multifamily", "single_family"],
+          "climate_zones": ["4A", "4B", "4C", "5A", "5B", "5C", "6A", "6B", "7", "8"],
+          "frame_types": ["fiberglass", "wood", "aluminum_thermal_break"]
+        }
+      },
+      {
+        "measure_id": "WIN_003",
+        "name": "Electrochromic Smart Windows",
+        "category": "window_replacement",
+        "description": "Dynamic electrochromic windows with automated tint control",
+        "performance": {
+          "u_value": 1.1,
+          "solar_heat_gain_coefficient_range": [0.09, 0.60],
+          "visible_transmittance_range": [0.03, 0.60],
+          "air_leakage": 0.08
+        },
+        "costs": {
+          "material_cost_per_sqm": 850.00,
+          "labor_cost_per_sqm": 150.00,
+          "control_system_cost": 2500.00,
+          "total_cost_per_sqm": 1000.00,
+          "cost_uncertainty": 0.25
+        },
+        "lifespan": {
+          "expected_years": 20,
+          "warranty_years": 10,
+          "degradation_rate_annual": 0.003
+        },
+        "applicability": {
+          "building_types": ["office", "retail"],
+          "climate_zones": ["1A", "2A", "2B", "3A", "3B", "3C", "4A", "4B"],
+          "frame_types": ["aluminum_thermal_break", "fiberglass"]
+        }
+      }
+    ]
+  },
+  "hvac_measures": {
+    "heating_cooling": [
+      {
+        "measure_id": "HVAC_001",
+        "name": "High-Efficiency Heat Pump",
+        "category": "heat_pump",
+        "description": "Variable-speed air-source heat pump with advanced controls",
+        "performance": {
+          "heating_cop": 4.2,
+          "cooling_eer": 16.5,
+          "capacity_heating_kw": 12.0,
+          "capacity_cooling_kw": 10.5,
+          "modulation_range": [0.25, 1.0]
+        },
+        "costs": {
+          "equipment_cost": 8500.00,
+          "installation_cost": 3200.00,
+          "total_cost": 11700.00,
+          "cost_uncertainty": 0.15
+        },
+        "lifespan": {
+          "expected_years": 18,
+          "warranty_years": 10,
+          "degradation_rate_annual": 0.015
+        },
+        "applicability": {
+          "building_types": ["office", "retail", "multifamily", "single_family"],
+          "climate_zones": ["2A", "2B", "3A", "3B", "3C", "4A", "4B", "4C", "5A", "5B"],
+          "system_types": ["split", "packaged"]
+        }
+      },
+      {
+        "measure_id": "HVAC_002",
+        "name": "Ground-Source Heat Pump",
+        "category": "heat_pump",
+        "description": "Geothermal heat pump system with vertical loop field",
+        "performance": {
+          "heating_cop": 5.1,
+          "cooling_eer": 22.0,
+          "capacity_heating_kw": 15.0,
+          "capacity_cooling_kw": 12.0,
+          "loop_field_size_sqm": 150.0
+        },
+        "costs": {
+          "equipment_cost": 12000.00,
+          "loop_field_cost": 18000.00,
+          "installation_cost": 8500.00,
+          "total_cost": 38500.00,
+          "cost_uncertainty": 0.20
+        },
+        "lifespan": {
+          "expected_years": 25,
+          "warranty_years": 15,
+          "degradation_rate_annual": 0.008
+        },
+        "applicability": {
+          "building_types": ["office", "retail", "multifamily", "single_family"],
+          "climate_zones": ["3A", "3B", "3C", "4A", "4B", "4C", "5A", "5B", "5C", "6A", "6B", "7"],
+          "soil_conditions": ["suitable_for_drilling"]
+        }
+      },
+      {
+        "measure_id": "HVAC_003",
+        "name": "Variable Refrigerant Flow (VRF) System",
+        "category": "vrf",
+        "description": "Multi-zone VRF system with heat recovery capability",
+        "performance": {
+          "heating_cop": 4.8,
+          "cooling_eer": 18.5,
+          "simultaneous_heating_cooling": true,
+          "zone_control_precision": 0.5,
+          "part_load_efficiency": 0.92
+        },
+        "costs": {
+          "outdoor_unit_cost": 15000.00,
+          "indoor_units_cost": 25000.00,
+          "installation_cost": 12000.00,
+          "controls_cost": 5000.00,
+          "total_cost": 57000.00,
+          "cost_uncertainty": 0.18
+        },
+        "lifespan": {
+          "expected_years": 20,
+          "warranty_years": 12,
+          "degradation_rate_annual": 0.012
+        },
+        "applicability": {
+          "building_types": ["office", "retail", "multifamily"],
+          "climate_zones": ["1A", "2A", "2B", "3A", "3B", "3C", "4A", "4B", "4C", "5A", "5B"],
+          "building_size": "medium_to_large"
+        }
+      }
+    ],
+    "ventilation": [
+      {
+        "measure_id": "VENT_001",
+        "name": "Energy Recovery Ventilator (ERV)",
+        "category": "ventilation",
+        "description": "Balanced ventilation system with sensible and latent heat recovery",
+        "performance": {
+          "sensible_effectiveness": 0.85,
+          "latent_effectiveness": 0.70,
+          "airflow_cfm": 1200,
+          "fan_power_w_per_cfm": 0.45,
+          "pressure_drop_pa": 125
+        },
+        "costs": {
+          "equipment_cost": 4500.00,
+          "installation_cost": 2800.00,
+          "ductwork_cost": 3200.00,
+          "total_cost": 10500.00,
+          "cost_uncertainty": 0.16
+        },
+        "lifespan": {
+          "expected_years": 15,
+          "warranty_years": 8,
+          "degradation_rate_annual": 0.018
+        },
+        "applicability": {
+          "building_types": ["office", "retail", "multifamily", "single_family"],
+          "climate_zones": ["3A", "3B", "3C", "4A", "4B", "4C", "5A", "5B", "5C", "6A", "6B", "7", "8"],
+          "ventilation_requirements": "continuous"
+        }
+      }
+    ]
+  },
+  "renewable_energy": {
+    "solar_pv": [
+      {
+        "measure_id": "SOLAR_001",
+        "name": "Rooftop Solar PV - 10kW",
+        "category": "solar_photovoltaic",
+        "description": "Crystalline silicon solar PV array with microinverters",
+        "performance": {
+          "rated_capacity_kw": 10.0,
+          "module_efficiency": 0.215,
+          "system_efficiency": 0.85,
+          "degradation_rate_annual": 0.005,
+          "tilt_angle_degrees": 30,
+          "azimuth_degrees": 180
+        },
+        "costs": {
+          "module_cost": 6500.00,
+          "inverter_cost": 2800.00,
+          "mounting_cost": 1200.00,
+          "installation_cost": 3500.00,
+          "permitting_cost": 800.00,
+          "total_cost": 14800.00,
+          "cost_uncertainty": 0.12
+        },
+        "lifespan": {
+          "expected_years": 25,
+          "warranty_years": 20,
+          "inverter_replacement_year": 12
+        },
+        "applicability": {
+          "building_types": ["office", "retail", "warehouse", "multifamily", "single_family"],
+          "climate_zones": ["1A", "2A", "2B", "3A", "3B", "3C", "4A", "4B", "4C", "5A", "5B", "5C"],
+          "roof_conditions": ["suitable_structural_capacity", "minimal_shading"]
+        }
+      },
+      {
+        "measure_id": "SOLAR_002",
+        "name": "Rooftop Solar PV - 25kW",
+        "category": "solar_photovoltaic",
+        "description": "High-efficiency monocrystalline solar PV array with string inverters",
+        "performance": {
+          "rated_capacity_kw": 25.0,
+          "module_efficiency": 0.225,
+          "system_efficiency": 0.87,
+          "degradation_rate_annual": 0.004,
+          "tilt_angle_degrees": 25,
+          "azimuth_degrees": 180
+        },
+        "costs": {
+          "module_cost": 15000.00,
+          "inverter_cost": 4500.00,
+          "mounting_cost": 2800.00,
+          "installation_cost": 7500.00,
+          "permitting_cost": 1500.00,
+          "total_cost": 31300.00,
+          "cost_uncertainty": 0.10
+        },
+        "lifespan": {
+          "expected_years": 25,
+          "warranty_years": 20,
+          "inverter_replacement_year": 15
+        },
+        "applicability": {
+          "building_types": ["office", "retail", "warehouse", "multifamily"],
+          "climate_zones": ["1A", "2A", "2B", "3A", "3B", "3C", "4A", "4B", "4C", "5A", "5B", "5C"],
+          "roof_conditions": ["suitable_structural_capacity", "minimal_shading"]
+        }
+      }
+    ],
+    "energy_storage": [
+      {
+        "measure_id": "STORAGE_001",
+        "name": "Lithium-Ion Battery Storage - 13.5kWh",
+        "category": "battery_storage",
+        "description": "Residential/small commercial lithium-ion battery system with integrated inverter",
+        "performance": {
+          "usable_capacity_kwh": 13.5,
+          "round_trip_efficiency": 0.90,
+          "max_discharge_rate_kw": 5.0,
+          "max_charge_rate_kw": 5.0,
+          "cycle_life": 6000,
+          "depth_of_discharge": 0.95
+        },
+        "costs": {
+          "battery_cost": 8500.00,
+          "inverter_cost": 2000.00,
+          "installation_cost": 2500.00,
+          "total_cost": 13000.00,
+          "cost_uncertainty": 0.15
+        },
+        "lifespan": {
+          "expected_years": 12,
+          "warranty_years": 10,
+          "capacity_retention_10_years": 0.80
+        },
+        "applicability": {
+          "building_types": ["office", "retail", "multifamily", "single_family"],
+          "climate_zones": ["all"],
+          "grid_connection": "grid_tied_with_backup"
+        }
+      }
+    ]
+  },
+  "lighting": [
+    {
+      "measure_id": "LIGHT_001",
+      "name": "LED Lighting Retrofit",
+      "category": "led_lighting",
+      "description": "High-efficiency LED fixtures with daylight and occupancy sensors",
+      "performance": {
+        "luminous_efficacy_lm_per_w": 130,
+        "color_rendering_index": 90,
+        "color_temperature_k": 4000,
+        "dimming_capability": true,
+        "sensor_integration": true,
+        "power_reduction_factor": 0.65
+      },
+      "costs": {
+        "fixture_cost_per_unit": 85.00,
+        "sensor_cost_per_unit": 45.00,
+        "installation_cost_per_unit": 25.00,
+        "total_cost_per_unit": 155.00,
+        "cost_uncertainty": 0.12
+      },
+      "lifespan": {
+        "expected_years": 15,
+        "warranty_years": 5,
+        "lumen_maintenance_50000_hours": 0.90
+      },
+      "applicability": {
+        "building_types": ["office", "retail", "warehouse", "multifamily"],
+        "space_types": ["office", "corridor", "storage", "retail"],
+        "mounting_types": ["recessed", "surface", "pendant"]
+      }
+    }
+  ],
+  "building_automation": [
+    {
+      "measure_id": "BAS_001",
+      "name": "Advanced Building Management System",
+      "category": "building_automation",
+      "description": "IoT-enabled BMS with AI-driven optimization and predictive maintenance",
+      "performance": {
+        "energy_savings_potential": 0.25,
+        "hvac_optimization": true,
+        "lighting_control": true,
+        "occupancy_detection": true,
+        "predictive_maintenance": true,
+        "demand_response_capability": true
+      },
+      "costs": {
+        "hardware_cost": 15000.00,
+        "software_license_annual": 2400.00,
+        "installation_cost": 8500.00,
+        "commissioning_cost": 3500.00,
+        "total_initial_cost": 27000.00,
+        "cost_uncertainty": 0.20
+      },
+      "lifespan": {
+        "expected_years": 12,
+        "warranty_years": 3,
+        "software_update_cycle_years": 2
+      },
+      "applicability": {
+        "building_types": ["office", "retail", "warehouse", "multifamily"],
+        "building_size": "medium_to_large",
+        "existing_controls": "upgradeable"
+      }
+    }
+  ]
+}

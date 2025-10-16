@@ -1,0 +1,970 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2025-10-16",
+    "description": "Maintenance and Operational Database for Building Retrofit Systems",
+    "data_sources": ["ASHRAE Handbook", "NIST Building Life Cycle Cost", "RSMeans", "BOMA Experience Exchange Report", "IFMA Operations & Maintenance Benchmarks"],
+    "cost_basis": "2023 USD",
+    "geographic_scope": "United States",
+    "uncertainty_methodology": "Monte Carlo simulation with triangular distributions"
+  },
+  "maintenance_schedules": {
+    "envelope_systems": {
+      "insulation": {
+        "polyisocyanurate_roof": {
+          "system_id": "INS_001",
+          "maintenance_tasks": [
+            {
+              "task_id": "INS_MAINT_001",
+              "task_name": "Visual Inspection",
+              "frequency_months": 12,
+              "duration_hours": 2,
+              "labor_cost_per_hour": 65,
+              "material_cost": 0,
+              "total_cost": 130,
+              "description": "Annual visual inspection for damage, moisture intrusion, or displacement"
+            },
+            {
+              "task_id": "INS_MAINT_002",
+              "task_name": "Thermal Imaging Survey",
+              "frequency_months": 60,
+              "duration_hours": 4,
+              "labor_cost_per_hour": 85,
+              "material_cost": 150,
+              "total_cost": 490,
+              "description": "Infrared thermography to detect thermal bridging and insulation gaps"
+            },
+            {
+              "task_id": "INS_MAINT_003",
+              "task_name": "Minor Repairs",
+              "frequency_months": 120,
+              "duration_hours": 8,
+              "labor_cost_per_hour": 75,
+              "material_cost": 250,
+              "total_cost": 850,
+              "description": "Repair small areas of damaged or displaced insulation"
+            }
+          ],
+          "degradation_model": {
+            "performance_retention_curve": {
+              "year_0": 1.00,
+              "year_5": 0.998,
+              "year_10": 0.995,
+              "year_15": 0.990,
+              "year_20": 0.985,
+              "year_25": 0.975,
+              "year_30": 0.960
+            },
+            "failure_modes": [
+              {
+                "mode": "moisture_damage",
+                "probability_annual": 0.002,
+                "impact_factor": 0.15,
+                "repair_cost_factor": 0.25
+              },
+              {
+                "mode": "mechanical_damage",
+                "probability_annual": 0.005,
+                "impact_factor": 0.08,
+                "repair_cost_factor": 0.12
+              },
+              {
+                "mode": "thermal_cycling_degradation",
+                "probability_annual": 0.001,
+                "impact_factor": 0.05,
+                "repair_cost_factor": 0.35
+              }
+            ]
+          }
+        },
+        "spray_foam_wall": {
+          "system_id": "INS_003",
+          "maintenance_tasks": [
+            {
+              "task_id": "INS_MAINT_004",
+              "task_name": "Visual Inspection",
+              "frequency_months": 24,
+              "duration_hours": 3,
+              "labor_cost_per_hour": 65,
+              "material_cost": 0,
+              "total_cost": 195,
+              "description": "Biennial inspection for cracks, gaps, or deterioration"
+            },
+            {
+              "task_id": "INS_MAINT_005",
+              "task_name": "Air Leakage Testing",
+              "frequency_months": 120,
+              "duration_hours": 6,
+              "labor_cost_per_hour": 95,
+              "material_cost": 200,
+              "total_cost": 770,
+              "description": "Blower door test to verify continued air sealing performance"
+            }
+          ],
+          "degradation_model": {
+            "performance_retention_curve": {
+              "year_0": 1.00,
+              "year_10": 0.995,
+              "year_20": 0.985,
+              "year_30": 0.970,
+              "year_40": 0.950,
+              "year_50": 0.920
+            }
+          }
+        }
+      },
+      "windows": {
+        "double_pane_low_e": {
+          "system_id": "WIN_001",
+          "maintenance_tasks": [
+            {
+              "task_id": "WIN_MAINT_001",
+              "task_name": "Cleaning and Inspection",
+              "frequency_months": 6,
+              "duration_hours": 1.5,
+              "labor_cost_per_hour": 45,
+              "material_cost": 15,
+              "total_cost": 82.50,
+              "description": "Semi-annual cleaning and inspection of glass, frames, and hardware"
+            },
+            {
+              "task_id": "WIN_MAINT_002",
+              "task_name": "Weatherstrip Replacement",
+              "frequency_months": 60,
+              "duration_hours": 3,
+              "labor_cost_per_hour": 65,
+              "material_cost": 85,
+              "total_cost": 280,
+              "description": "Replace weatherstripping and adjust hardware"
+            },
+            {
+              "task_id": "WIN_MAINT_003",
+              "task_name": "Seal Replacement",
+              "frequency_months": 180,
+              "duration_hours": 4,
+              "labor_cost_per_hour": 75,
+              "material_cost": 125,
+              "total_cost": 425,
+              "description": "Replace insulating glass unit seals"
+            }
+          ],
+          "degradation_model": {
+            "performance_retention_curve": {
+              "year_0": 1.00,
+              "year_5": 0.98,
+              "year_10": 0.95,
+              "year_15": 0.90,
+              "year_20": 0.82,
+              "year_25": 0.70
+            },
+            "failure_modes": [
+              {
+                "mode": "seal_failure",
+                "probability_annual": 0.015,
+                "impact_factor": 0.25,
+                "repair_cost_factor": 0.45
+              },
+              {
+                "mode": "hardware_failure",
+                "probability_annual": 0.008,
+                "impact_factor": 0.05,
+                "repair_cost_factor": 0.15
+              },
+              {
+                "mode": "frame_deterioration",
+                "probability_annual": 0.003,
+                "impact_factor": 0.15,
+                "repair_cost_factor": 0.65
+              }
+            ]
+          }
+        },
+        "triple_pane_high_performance": {
+          "system_id": "WIN_002",
+          "maintenance_tasks": [
+            {
+              "task_id": "WIN_MAINT_004",
+              "task_name": "Cleaning and Inspection",
+              "frequency_months": 6,
+              "duration_hours": 1.5,
+              "labor_cost_per_hour": 45,
+              "material_cost": 15,
+              "total_cost": 82.50,
+              "description": "Semi-annual cleaning and inspection"
+            },
+            {
+              "task_id": "WIN_MAINT_005",
+              "task_name": "Performance Verification",
+              "frequency_months": 60,
+              "duration_hours": 2,
+              "labor_cost_per_hour": 85,
+              "material_cost": 50,
+              "total_cost": 220,
+              "description": "U-value and air leakage testing"
+            }
+          ],
+          "degradation_model": {
+            "performance_retention_curve": {
+              "year_0": 1.00,
+              "year_5": 0.99,
+              "year_10": 0.97,
+              "year_15": 0.94,
+              "year_20": 0.89,
+              "year_25": 0.82,
+              "year_30": 0.72
+            }
+          }
+        },
+        "electrochromic_smart": {
+          "system_id": "WIN_003",
+          "maintenance_tasks": [
+            {
+              "task_id": "WIN_MAINT_006",
+              "task_name": "Control System Calibration",
+              "frequency_months": 12,
+              "duration_hours": 4,
+              "labor_cost_per_hour": 95,
+              "material_cost": 150,
+              "total_cost": 530,
+              "description": "Annual calibration of sensors and control algorithms"
+            },
+            {
+              "task_id": "WIN_MAINT_007",
+              "task_name": "Software Updates",
+              "frequency_months": 6,
+              "duration_hours": 1,
+              "labor_cost_per_hour": 85,
+              "material_cost": 0,
+              "total_cost": 85,
+              "description": "Firmware and software updates"
+            },
+            {
+              "task_id": "WIN_MAINT_008",
+              "task_name": "Electrochromic Layer Inspection",
+              "frequency_months": 24,
+              "duration_hours": 2,
+              "labor_cost_per_hour": 105,
+              "material_cost": 75,
+              "total_cost": 285,
+              "description": "Specialized inspection of electrochromic coating"
+            }
+          ],
+          "degradation_model": {
+            "performance_retention_curve": {
+              "year_0": 1.00,
+              "year_2": 0.95,
+              "year_5": 0.88,
+              "year_8": 0.78,
+              "year_10": 0.65,
+              "year_15": 0.45,
+              "year_20": 0.20
+            },
+            "failure_modes": [
+              {
+                "mode": "electrochromic_degradation",
+                "probability_annual": 0.05,
+                "impact_factor": 0.35,
+                "repair_cost_factor": 0.85
+              },
+              {
+                "mode": "control_system_failure",
+                "probability_annual": 0.025,
+                "impact_factor": 0.60,
+                "repair_cost_factor": 0.25
+              }
+            ]
+          }
+        }
+      }
+    },
+    "hvac_systems": {
+      "heat_pumps": {
+        "air_source_heat_pump": {
+          "system_id": "HVAC_001",
+          "maintenance_tasks": [
+            {
+              "task_id": "HVAC_MAINT_001",
+              "task_name": "Filter Replacement",
+              "frequency_months": 3,
+              "duration_hours": 0.5,
+              "labor_cost_per_hour": 65,
+              "material_cost": 25,
+              "total_cost": 57.50,
+              "description": "Quarterly air filter replacement"
+            },
+            {
+              "task_id": "HVAC_MAINT_002",
+              "task_name": "Coil Cleaning",
+              "frequency_months": 6,
+              "duration_hours": 2,
+              "labor_cost_per_hour": 75,
+              "material_cost": 45,
+              "total_cost": 195,
+              "description": "Semi-annual evaporator and condenser coil cleaning"
+            },
+            {
+              "task_id": "HVAC_MAINT_003",
+              "task_name": "Refrigerant Check",
+              "frequency_months": 12,
+              "duration_hours": 1.5,
+              "labor_cost_per_hour": 85,
+              "material_cost": 35,
+              "total_cost": 162.50,
+              "description": "Annual refrigerant level and leak check"
+            },
+            {
+              "task_id": "HVAC_MAINT_004",
+              "task_name": "Comprehensive Tune-up",
+              "frequency_months": 12,
+              "duration_hours": 4,
+              "labor_cost_per_hour": 85,
+              "material_cost": 125,
+              "total_cost": 465,
+              "description": "Annual comprehensive inspection and tune-up"
+            },
+            {
+              "task_id": "HVAC_MAINT_005",
+              "task_name": "Compressor Replacement",
+              "frequency_months": 144,
+              "duration_hours": 8,
+              "labor_cost_per_hour": 95,
+              "material_cost": 2500,
+              "total_cost": 3260,
+              "description": "Major component replacement (12-year interval)"
+            }
+          ],
+          "degradation_model": {
+            "performance_retention_curve": {
+              "year_0": 1.00,
+              "year_2": 0.98,
+              "year_5": 0.94,
+              "year_8": 0.88,
+              "year_10": 0.82,
+              "year_12": 0.75,
+              "year_15": 0.65,
+              "year_18": 0.50
+            },
+            "efficiency_degradation": {
+              "annual_rate": 0.015,
+              "accelerated_after_year": 10,
+              "accelerated_rate": 0.025
+            },
+            "failure_modes": [
+              {
+                "mode": "compressor_failure",
+                "probability_annual": 0.008,
+                "impact_factor": 0.80,
+                "repair_cost_factor": 0.65
+              },
+              {
+                "mode": "refrigerant_leak",
+                "probability_annual": 0.015,
+                "impact_factor": 0.25,
+                "repair_cost_factor": 0.15
+              },
+              {
+                "mode": "control_failure",
+                "probability_annual": 0.012,
+                "impact_factor": 0.35,
+                "repair_cost_factor": 0.25
+              }
+            ]
+          }
+        },
+        "ground_source_heat_pump": {
+          "system_id": "HVAC_002",
+          "maintenance_tasks": [
+            {
+              "task_id": "HVAC_MAINT_006",
+              "task_name": "Filter Replacement",
+              "frequency_months": 3,
+              "duration_hours": 0.5,
+              "labor_cost_per_hour": 65,
+              "material_cost": 25,
+              "total_cost": 57.50,
+              "description": "Quarterly air filter replacement"
+            },
+            {
+              "task_id": "HVAC_MAINT_007",
+              "task_name": "Loop Fluid Check",
+              "frequency_months": 12,
+              "duration_hours": 2,
+              "labor_cost_per_hour": 85,
+              "material_cost": 75,
+              "total_cost": 245,
+              "description": "Annual ground loop fluid level and quality check"
+            },
+            {
+              "task_id": "HVAC_MAINT_008",
+              "task_name": "Heat Exchanger Cleaning",
+              "frequency_months": 24,
+              "duration_hours": 3,
+              "labor_cost_per_hour": 85,
+              "material_cost": 125,
+              "total_cost": 380,
+              "description": "Biennial heat exchanger cleaning and inspection"
+            },
+            {
+              "task_id": "HVAC_MAINT_009",
+              "task_name": "Loop Fluid Replacement",
+              "frequency_months": 180,
+              "duration_hours": 6,
+              "labor_cost_per_hour": 85,
+              "material_cost": 450,
+              "total_cost": 960,
+              "description": "Ground loop fluid replacement (15-year interval)"
+            }
+          ],
+          "degradation_model": {
+            "performance_retention_curve": {
+              "year_0": 1.00,
+              "year_5": 0.97,
+              "year_10": 0.92,
+              "year_15": 0.86,
+              "year_20": 0.78,
+              "year_25": 0.68
+            },
+            "efficiency_degradation": {
+              "annual_rate": 0.008,
+              "loop_fouling_factor": 0.003
+            }
+          }
+        },
+        "vrf_system": {
+          "system_id": "HVAC_003",
+          "maintenance_tasks": [
+            {
+              "task_id": "HVAC_MAINT_010",
+              "task_name": "Filter Replacement - Indoor Units",
+              "frequency_months": 2,
+              "duration_hours": 3,
+              "labor_cost_per_hour": 65,
+              "material_cost": 150,
+              "total_cost": 345,
+              "description": "Bi-monthly filter replacement for all indoor units"
+            },
+            {
+              "task_id": "HVAC_MAINT_011",
+              "task_name": "Outdoor Unit Maintenance",
+              "frequency_months": 6,
+              "duration_hours": 4,
+              "labor_cost_per_hour": 85,
+              "material_cost": 185,
+              "total_cost": 525,
+              "description": "Semi-annual outdoor unit coil cleaning and inspection"
+            },
+            {
+              "task_id": "HVAC_MAINT_012",
+              "task_name": "Refrigerant System Check",
+              "frequency_months": 12,
+              "duration_hours": 6,
+              "labor_cost_per_hour": 95,
+              "material_cost": 125,
+              "total_cost": 695,
+              "description": "Annual comprehensive refrigerant system inspection"
+            },
+            {
+              "task_id": "HVAC_MAINT_013",
+              "task_name": "Control System Calibration",
+              "frequency_months": 12,
+              "duration_hours": 4,
+              "labor_cost_per_hour": 105,
+              "material_cost": 85,
+              "total_cost": 505,
+              "description": "Annual control system calibration and software updates"
+            }
+          ],
+          "degradation_model": {
+            "performance_retention_curve": {
+              "year_0": 1.00,
+              "year_3": 0.96,
+              "year_6": 0.90,
+              "year_10": 0.82,
+              "year_15": 0.70,
+              "year_20": 0.55
+            },
+            "efficiency_degradation": {
+              "annual_rate": 0.012,
+              "control_system_degradation": 0.008
+            }
+          }
+        }
+      },
+      "ventilation": {
+        "energy_recovery_ventilator": {
+          "system_id": "VENT_001",
+          "maintenance_tasks": [
+            {
+              "task_id": "VENT_MAINT_001",
+              "task_name": "Filter Replacement",
+              "frequency_months": 3,
+              "duration_hours": 1,
+              "labor_cost_per_hour": 65,
+              "material_cost": 85,
+              "total_cost": 150,
+              "description": "Quarterly filter replacement (supply and exhaust)"
+            },
+            {
+              "task_id": "VENT_MAINT_002",
+              "task_name": "Heat Recovery Core Cleaning",
+              "frequency_months": 6,
+              "duration_hours": 2,
+              "labor_cost_per_hour": 75,
+              "material_cost": 45,
+              "total_cost": 195,
+              "description": "Semi-annual heat recovery core cleaning"
+            },
+            {
+              "task_id": "VENT_MAINT_003",
+              "task_name": "Fan Motor Maintenance",
+              "frequency_months": 12,
+              "duration_hours": 2,
+              "labor_cost_per_hour": 85,
+              "material_cost": 65,
+              "total_cost": 235,
+              "description": "Annual fan motor lubrication and belt inspection"
+            },
+            {
+              "task_id": "VENT_MAINT_004",
+              "task_name": "Heat Recovery Core Replacement",
+              "frequency_months": 120,
+              "duration_hours": 4,
+              "labor_cost_per_hour": 85,
+              "material_cost": 850,
+              "total_cost": 1190,
+              "description": "Heat recovery core replacement (10-year interval)"
+            }
+          ],
+          "degradation_model": {
+            "performance_retention_curve": {
+              "year_0": 1.00,
+              "year_3": 0.95,
+              "year_6": 0.88,
+              "year_10": 0.78,
+              "year_15": 0.65
+            },
+            "effectiveness_degradation": {
+              "sensible_annual_rate": 0.015,
+              "latent_annual_rate": 0.020
+            }
+          }
+        }
+      }
+    },
+    "renewable_energy": {
+      "solar_pv": {
+        "crystalline_silicon_10kw": {
+          "system_id": "SOLAR_001",
+          "maintenance_tasks": [
+            {
+              "task_id": "SOLAR_MAINT_001",
+              "task_name": "Visual Inspection",
+              "frequency_months": 6,
+              "duration_hours": 2,
+              "labor_cost_per_hour": 75,
+              "material_cost": 25,
+              "total_cost": 175,
+              "description": "Semi-annual visual inspection of modules and mounting"
+            },
+            {
+              "task_id": "SOLAR_MAINT_002",
+              "task_name": "Panel Cleaning",
+              "frequency_months": 6,
+              "duration_hours": 3,
+              "labor_cost_per_hour": 55,
+              "material_cost": 35,
+              "total_cost": 200,
+              "description": "Semi-annual panel cleaning (climate dependent)"
+            },
+            {
+              "task_id": "SOLAR_MAINT_003",
+              "task_name": "Electrical Testing",
+              "frequency_months": 12,
+              "duration_hours": 3,
+              "labor_cost_per_hour": 85,
+              "material_cost": 65,
+              "total_cost": 320,
+              "description": "Annual electrical performance and safety testing"
+            },
+            {
+              "task_id": "SOLAR_MAINT_004",
+              "task_name": "Inverter Replacement",
+              "frequency_months": 144,
+              "duration_hours": 4,
+              "labor_cost_per_hour": 85,
+              "material_cost": 2800,
+              "total_cost": 3140,
+              "description": "Microinverter replacement (12-year interval)"
+            }
+          ],
+          "degradation_model": {
+            "performance_retention_curve": {
+              "year_0": 1.00,
+              "year_1": 0.975,
+              "year_5": 0.955,
+              "year_10": 0.925,
+              "year_15": 0.890,
+              "year_20": 0.850,
+              "year_25": 0.800
+            },
+            "annual_degradation_rate": 0.005,
+            "soiling_losses": {
+              "desert_climate": 0.08,
+              "urban_climate": 0.05,
+              "rural_climate": 0.03
+            },
+            "failure_modes": [
+              {
+                "mode": "module_failure",
+                "probability_annual": 0.002,
+                "impact_factor": 0.04,
+                "repair_cost_factor": 0.15
+              },
+              {
+                "mode": "inverter_failure",
+                "probability_annual": 0.015,
+                "impact_factor": 0.10,
+                "repair_cost_factor": 0.25
+              }
+            ]
+          }
+        },
+        "crystalline_silicon_25kw": {
+          "system_id": "SOLAR_002",
+          "maintenance_tasks": [
+            {
+              "task_id": "SOLAR_MAINT_005",
+              "task_name": "Comprehensive Inspection",
+              "frequency_months": 6,
+              "duration_hours": 6,
+              "labor_cost_per_hour": 75,
+              "material_cost": 85,
+              "total_cost": 535,
+              "description": "Semi-annual comprehensive system inspection"
+            },
+            {
+              "task_id": "SOLAR_MAINT_006",
+              "task_name": "Panel Cleaning",
+              "frequency_months": 4,
+              "duration_hours": 8,
+              "labor_cost_per_hour": 55,
+              "material_cost": 125,
+              "total_cost": 565,
+              "description": "Quarterly panel cleaning for larger system"
+            },
+            {
+              "task_id": "SOLAR_MAINT_007",
+              "task_name": "String Inverter Maintenance",
+              "frequency_months": 12,
+              "duration_hours": 4,
+              "labor_cost_per_hour": 85,
+              "material_cost": 185,
+              "total_cost": 525,
+              "description": "Annual string inverter inspection and maintenance"
+            },
+            {
+              "task_id": "SOLAR_MAINT_008",
+              "task_name": "Inverter Replacement",
+              "frequency_months": 180,
+              "duration_hours": 6,
+              "labor_cost_per_hour": 85,
+              "material_cost": 4500,
+              "total_cost": 5010,
+              "description": "String inverter replacement (15-year interval)"
+            }
+          ],
+          "degradation_model": {
+            "performance_retention_curve": {
+              "year_0": 1.00,
+              "year_1": 0.978,
+              "year_5": 0.960,
+              "year_10": 0.935,
+              "year_15": 0.905,
+              "year_20": 0.870,
+              "year_25": 0.825
+            },
+            "annual_degradation_rate": 0.004
+          }
+        }
+      },
+      "battery_storage": {
+        "lithium_ion_13_5kwh": {
+          "system_id": "STORAGE_001",
+          "maintenance_tasks": [
+            {
+              "task_id": "STORAGE_MAINT_001",
+              "task_name": "System Monitoring Check",
+              "frequency_months": 3,
+              "duration_hours": 1,
+              "labor_cost_per_hour": 85,
+              "material_cost": 25,
+              "total_cost": 110,
+              "description": "Quarterly battery management system check"
+            },
+            {
+              "task_id": "STORAGE_MAINT_002",
+              "task_name": "Thermal Management Inspection",
+              "frequency_months": 6,
+              "duration_hours": 2,
+              "labor_cost_per_hour": 85,
+              "material_cost": 45,
+              "total_cost": 215,
+              "description": "Semi-annual cooling system inspection"
+            },
+            {
+              "task_id": "STORAGE_MAINT_003",
+              "task_name": "Capacity Testing",
+              "frequency_months": 12,
+              "duration_hours": 3,
+              "labor_cost_per_hour": 95,
+              "material_cost": 85,
+              "total_cost": 370,
+              "description": "Annual capacity and performance testing"
+            },
+            {
+              "task_id": "STORAGE_MAINT_004",
+              "task_name": "Battery Module Replacement",
+              "frequency_months": 120,
+              "duration_hours": 8,
+              "labor_cost_per_hour": 95,
+              "material_cost": 6500,
+              "total_cost": 7260,
+              "description": "Battery module replacement (10-year interval)"
+            }
+          ],
+          "degradation_model": {
+            "capacity_retention_curve": {
+              "year_0": 1.00,
+              "year_2": 0.95,
+              "year_5": 0.88,
+              "year_8": 0.80,
+              "year_10": 0.70,
+              "year_12": 0.55
+            },
+            "cycle_degradation": {
+              "cycles_per_year": 365,
+              "capacity_loss_per_1000_cycles": 0.02
+            },
+            "calendar_aging": {
+              "annual_capacity_loss": 0.02,
+              "temperature_acceleration_factor": 1.5
+            }
+          }
+        }
+      }
+    },
+    "lighting": {
+      "led_fixtures": {
+        "high_efficiency_led": {
+          "system_id": "LIGHT_001",
+          "maintenance_tasks": [
+            {
+              "task_id": "LIGHT_MAINT_001",
+              "task_name": "Fixture Cleaning",
+              "frequency_months": 6,
+              "duration_hours": 0.25,
+              "labor_cost_per_hour": 45,
+              "material_cost": 5,
+              "total_cost": 16.25,
+              "description": "Semi-annual fixture cleaning per unit"
+            },
+            {
+              "task_id": "LIGHT_MAINT_002",
+              "task_name": "Driver Inspection",
+              "frequency_months": 24,
+              "duration_hours": 0.5,
+              "labor_cost_per_hour": 65,
+              "material_cost": 10,
+              "total_cost": 42.50,
+              "description": "Biennial LED driver inspection"
+            },
+            {
+              "task_id": "LIGHT_MAINT_003",
+              "task_name": "Driver Replacement",
+              "frequency_months": 96,
+              "duration_hours": 1,
+              "labor_cost_per_hour": 65,
+              "material_cost": 45,
+              "total_cost": 110,
+              "description": "LED driver replacement (8-year interval)"
+            }
+          ],
+          "degradation_model": {
+            "lumen_maintenance_curve": {
+              "year_0": 1.00,
+              "year_3": 0.95,
+              "year_6": 0.90,
+              "year_10": 0.82,
+              "year_15": 0.70
+            },
+            "l70_lifetime_hours": 50000,
+            "driver_failure_rate": 0.005
+          }
+        }
+      }
+    },
+    "building_automation": {
+      "advanced_bms": {
+        "iot_enabled_system": {
+          "system_id": "BAS_001",
+          "maintenance_tasks": [
+            {
+              "task_id": "BAS_MAINT_001",
+              "task_name": "Software Updates",
+              "frequency_months": 3,
+              "duration_hours": 2,
+              "labor_cost_per_hour": 95,
+              "material_cost": 0,
+              "total_cost": 190,
+              "description": "Quarterly software and firmware updates"
+            },
+            {
+              "task_id": "BAS_MAINT_002",
+              "task_name": "Sensor Calibration",
+              "frequency_months": 6,
+              "duration_hours": 4,
+              "labor_cost_per_hour": 85,
+              "material_cost": 125,
+              "total_cost": 465,
+              "description": "Semi-annual sensor calibration and testing"
+            },
+            {
+              "task_id": "BAS_MAINT_003",
+              "task_name": "Network Security Audit",
+              "frequency_months": 12,
+              "duration_hours": 8,
+              "labor_cost_per_hour": 125,
+              "material_cost": 250,
+              "total_cost": 1250,
+              "description": "Annual cybersecurity assessment and updates"
+            },
+            {
+              "task_id": "BAS_MAINT_004",
+              "task_name": "Hardware Refresh",
+              "frequency_months": 72,
+              "duration_hours": 16,
+              "labor_cost_per_hour": 95,
+              "material_cost": 8500,
+              "total_cost": 10020,
+              "description": "Major hardware upgrade (6-year interval)"
+            }
+          ],
+          "degradation_model": {
+            "performance_retention_curve": {
+              "year_0": 1.00,
+              "year_2": 0.95,
+              "year_4": 0.88,
+              "year_6": 0.75,
+              "year_8": 0.60,
+              "year_10": 0.45,
+              "year_12": 0.25
+            },
+            "obsolescence_factors": {
+              "software_compatibility": 0.15,
+              "hardware_reliability": 0.12,
+              "cybersecurity_risks": 0.20
+            }
+          }
+        }
+      }
+    }
+  },
+  "cost_escalation_factors": {
+    "labor_costs": {
+      "annual_escalation_rate": 0.035,
+      "regional_multipliers": {
+        "northeast": 1.25,
+        "west_coast": 1.35,
+        "southeast": 0.85,
+        "midwest": 0.95,
+        "mountain_west": 1.05
+      }
+    },
+    "material_costs": {
+      "annual_escalation_rate": 0.028,
+      "volatility_factors": {
+        "metals": 0.15,
+        "electronics": 0.20,
+        "chemicals": 0.12,
+        "standard_materials": 0.08
+      }
+    },
+    "energy_costs": {
+      "electricity": {
+        "annual_escalation_rate": 0.025,
+        "regional_variation": 0.35
+      },
+      "natural_gas": {
+        "annual_escalation_rate": 0.045,
+        "seasonal_volatility": 0.25
+      }
+    }
+  },
+  "reliability_models": {
+    "weibull_parameters": {
+      "hvac_compressors": {
+        "shape_parameter": 2.1,
+        "scale_parameter": 12.5,
+        "location_parameter": 0
+      },
+      "electronic_controls": {
+        "shape_parameter": 1.8,
+        "scale_parameter": 8.2,
+        "location_parameter": 0
+      },
+      "mechanical_components": {
+        "shape_parameter": 2.5,
+        "scale_parameter": 18.0,
+        "location_parameter": 0
+      }
+    },
+    "environmental_factors": {
+      "temperature_cycling": {
+        "acceleration_factor": 1.5,
+        "threshold_cycles_per_year": 200
+      },
+      "humidity": {
+        "acceleration_factor": 1.2,
+        "threshold_rh_percent": 70
+      },
+      "corrosive_environment": {
+        "acceleration_factor": 2.0,
+        "coastal_exposure": true
+      }
+    }
+  },
+  "predictive_maintenance": {
+    "condition_monitoring": {
+      "vibration_analysis": {
+        "applicable_systems": ["hvac_fans", "pumps", "compressors"],
+        "monitoring_frequency_days": 30,
+        "cost_per_measurement": 85,
+        "failure_prediction_accuracy": 0.85
+      },
+      "thermal_imaging": {
+        "applicable_systems": ["electrical_connections", "motors", "heat_exchangers"],
+        "monitoring_frequency_days": 90,
+        "cost_per_survey": 250,
+        "failure_prediction_accuracy": 0.75
+      },
+      "oil_analysis": {
+        "applicable_systems": ["compressors", "pumps"],
+        "monitoring_frequency_days": 180,
+        "cost_per_sample": 125,
+        "failure_prediction_accuracy": 0.80
+      },
+      "iot_sensor_monitoring": {
+        "applicable_systems": ["all_connected_systems"],
+        "monitoring_frequency_hours": 1,
+        "cost_per_sensor_annual": 150,
+        "failure_prediction_accuracy": 0.90
+      }
+    },
+    "maintenance_optimization": {
+      "cost_benefit_threshold": 2.5,
+      "lead_time_buffer_days": 14,
+      "spare_parts_inventory_cost_factor": 0.15,
+      "emergency_repair_cost_multiplier": 3.0
+    }
+  }
+}
