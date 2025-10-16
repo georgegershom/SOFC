@@ -1,0 +1,105 @@
+{
+  "dataset_info": {
+    "name": "IoT Building Digital Twin Dataset",
+    "version": "1.0",
+    "generated_date": "2025-10-16T21:34:13.309848",
+    "start_date": "2024-01-01T00:00:00",
+    "end_date": "2024-12-31T00:00:00",
+    "duration_days": 365,
+    "sampling_interval_minutes": 15,
+    "total_records_per_stream": 35040
+  },
+  "data_streams": {
+    "energy": {
+      "whole_building": {
+        "file": "energy/whole_building_energy.csv",
+        "records": 35040,
+        "metrics": [
+          "electricity_kw",
+          "gas_kw",
+          "water_m3",
+          "district_heating_kw",
+          "district_cooling_kw"
+        ]
+      },
+      "sub_metered": {
+        "file": "energy/sub_metered_energy.csv",
+        "records": 35040,
+        "metrics": [
+          "hvac_electricity_kw",
+          "lighting_electricity_kw",
+          "plug_loads_kw",
+          "other_loads_kw"
+        ]
+      }
+    },
+    "ieq": {
+      "file": "ieq/indoor_environmental_quality.csv",
+      "records": 420480,
+      "zones": 12,
+      "metrics": [
+        "temperature_c",
+        "relative_humidity_pct",
+        "co2_ppm",
+        "pm25_ugm3",
+        "pm10_ugm3",
+        "tvoc_ppb",
+        "illuminance_lux",
+        "noise_db"
+      ]
+    },
+    "occupancy": {
+      "file": "occupancy/occupancy_usage.csv",
+      "records": 35040,
+      "metrics": [
+        "occupant_count",
+        "desk_utilization_pct",
+        "meeting_room_utilization_pct",
+        "windows_open_pct",
+        "blinds_closed_pct"
+      ]
+    },
+    "weather": {
+      "file": "weather/weather_station.csv",
+      "records": 35040,
+      "metrics": [
+        "solar_irradiance_wm2",
+        "wind_speed_ms",
+        "wind_direction_deg",
+        "ambient_temperature_c",
+        "relative_humidity_pct",
+        "rainfall_mm"
+      ]
+    },
+    "hvac": {
+      "file": "hvac_systems/hvac_operation.csv",
+      "records": 420480,
+      "zones": 12,
+      "metrics": [
+        "supply_air_temp_c",
+        "return_air_temp_c",
+        "damper_position_pct",
+        "fan_speed_pct",
+        "heating_valve_pct",
+        "cooling_valve_pct",
+        "chiller_status",
+        "boiler_status",
+        "heating_setpoint_c",
+        "cooling_setpoint_c"
+      ]
+    }
+  },
+  "building_config": {
+    "total_area_sqm": 5000,
+    "num_floors": 5,
+    "num_zones": 12,
+    "max_occupancy": 250,
+    "location": {
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "timezone": "America/New_York"
+    },
+    "building_type": "Office",
+    "year_built": 1995
+  }
+}
