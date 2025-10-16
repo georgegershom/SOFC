@@ -1,0 +1,23 @@
+[
+  {
+    "assembly": "roof_concrete_polyiso",
+    "layers": [
+      {
+        "material": "concrete",
+        "thickness_m": 0.039736403629908885,
+        "thermal_conductivity_W_mK": 1.4,
+        "density_kg_m3": 2200,
+        "specific_heat_J_kgK": 880
+      },
+      {
+        "material": "polyiso",
+        "thickness_m": 0.17284963144620105,
+        "thermal_conductivity_W_mK": 0.028,
+        "density_kg_m3": 32,
+        "specific_heat_J_kgK": 1400
+      }
+    ],
+    "u_value_W_m2K": 0.157,
+    "r_value_m2K_W": 6.372
+  }
+]

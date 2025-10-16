@@ -1,0 +1,3826 @@
+{
+  "fixtures": [
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 12
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 3
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 10
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "occupancy_sensor",
+      "count": 12
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 12
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "occupancy_sensor",
+      "count": 4
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 8
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 3
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 2
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 4
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 12
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 1
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 10
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 3
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 9
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "switch",
+      "count": 2
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 10
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 7
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 4
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 11
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 12
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 2
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 1
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 5
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 5
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 3
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 3
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 7
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "CFL",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 8
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 11
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "CFL",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 9
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 7
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 2
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 3
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "switch",
+      "count": 9
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 5
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "switch",
+      "count": 12
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 4
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 7
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "switch",
+      "count": 3
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 11
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 5
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 7
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 12
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 3
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 4
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 2
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 10
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 10
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 12
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 10
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 8
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 2
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 11
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 9
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 2
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 9
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 4
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 3
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 4
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 4
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 6
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 6
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "dimmer",
+      "count": 5
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 8
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 2
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 7
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 3
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 8
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 1
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 8
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 5
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 12
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "Incandescent",
+      "wattage_W": 60,
+      "control": "switch",
+      "count": 2
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 5
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 6
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 5
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 1
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 3
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 11
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "Incandescent",
+      "wattage_W": 60,
+      "control": "switch",
+      "count": 7
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 9
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 12
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 8
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 11
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "CFL",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "occupancy_sensor",
+      "count": 12
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 2
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 1
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 9
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 7
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 12
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 8
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 10
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 7
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "switch",
+      "count": 2
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 5
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 6
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 1
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 1
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "CFL",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 6
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "Incandescent",
+      "wattage_W": 60,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 3
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 12
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 3
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 5
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 1
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "Incandescent",
+      "wattage_W": 60,
+      "control": "occupancy_sensor",
+      "count": 1
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 2
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "switch",
+      "count": 4
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 4
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 5
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 5
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "CFL",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 11
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 6
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "dimmer",
+      "count": 11
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "switch",
+      "count": 4
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 8
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 7
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 5
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 3
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 4
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 5
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 11
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 3
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 3
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 1
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 11
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 12
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 1
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 12
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 7
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 9
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 2
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "Incandescent",
+      "wattage_W": 60,
+      "control": "switch",
+      "count": 2
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 11
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 3
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "occupancy_sensor",
+      "count": 12
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 12
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 9
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 1
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "CFL",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 4
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 3
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "switch",
+      "count": 8
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "switch",
+      "count": 1
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 5
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 4
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 3
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 6
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 12
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "CFL",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 5
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 7
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 7
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 5
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 4
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 6
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "CFL",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 1
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 3
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 3
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 1
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 11
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 3
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 7
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 3
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 8
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 4
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 8
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 3
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 6
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "occupancy_sensor",
+      "count": 5
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "switch",
+      "count": 9
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 11
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "CFL",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 3
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 3
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 9
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 8
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "switch",
+      "count": 8
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 10
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 3
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 4
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 10
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 8
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 3
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 1
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "switch",
+      "count": 10
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 8
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 3
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "Incandescent",
+      "wattage_W": 75,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 4
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "switch",
+      "count": 7
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "Incandescent",
+      "wattage_W": 75,
+      "control": "dimmer",
+      "count": 6
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 3
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "dimmer",
+      "count": 7
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 12
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "Incandescent",
+      "wattage_W": 60,
+      "control": "dimmer",
+      "count": 10
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 3
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 12
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 12
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "CFL",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 4
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "CFL",
+      "wattage_W": 36,
+      "control": "switch",
+      "count": 2
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 1
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 8
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 10
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "occupancy_sensor",
+      "count": 11
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 6
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 4
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "Incandescent",
+      "wattage_W": 75,
+      "control": "dimmer",
+      "count": 8
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "CFL",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 10
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 9
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 3
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 7
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "CFL",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 6
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 10
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 12
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 6
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 4
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 9
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 6
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 4
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 11
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 5
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 11
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 4
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 7
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 9
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 6
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 2
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 7
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 3
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 3
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 9
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 9
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "Incandescent",
+      "wattage_W": 75,
+      "control": "switch",
+      "count": 10
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 3
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 2
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 6
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 2
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 10
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 10
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "CFL",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 12
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 2
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 5
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 1
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 5
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "switch",
+      "count": 12
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 6
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "CFL",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 10
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 12
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 8
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 8
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 9
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 2
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 3
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 6
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "occupancy_sensor",
+      "count": 11
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 6
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 12
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 3
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "CFL",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 2
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "Incandescent",
+      "wattage_W": 60,
+      "control": "occupancy_sensor",
+      "count": 12
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 11
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 12
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 6
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 7
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 8
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 12
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 4
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 9
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "CFL",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 5
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 6
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 10
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 10
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "Incandescent",
+      "wattage_W": 75,
+      "control": "occupancy_sensor",
+      "count": 7
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 6
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 9
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 6
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 5
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 4
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "CFL",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 12
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "occupancy_sensor",
+      "count": 10
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 6
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 7
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 5
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 4
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 12
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "Incandescent",
+      "wattage_W": 60,
+      "control": "dimmer",
+      "count": 9
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 3
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 11
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 3
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 7
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 10
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "CFL",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 8
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "CFL",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 4
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 4
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "switch",
+      "count": 1
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 1
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 9
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "CFL",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 1
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 8
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 6
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "Incandescent",
+      "wattage_W": 60,
+      "control": "occupancy_sensor",
+      "count": 9
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 10
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "CFL",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 6
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 6
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 6
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 7
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 4
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 2
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 7
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 9
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 2
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 4
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 5
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 10
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "Incandescent",
+      "wattage_W": 60,
+      "control": "switch",
+      "count": 6
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 8
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 5
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 3
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 3
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 12
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "switch",
+      "count": 8
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 8
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 2
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 10
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 3
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 10
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 6
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 7
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "occupancy_sensor",
+      "count": 11
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 2
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "switch",
+      "count": 2
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "switch",
+      "count": 1
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 9
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 7
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 7
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 6
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "CFL",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 5
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "CFL",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 9
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 5
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 6
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 1
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 7
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 11
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 5
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 1
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 12
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 1
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 10
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 12
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 11
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 8
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 3
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "CFL",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 2
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 6
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 4
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 6
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 8
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "Incandescent",
+      "wattage_W": 60,
+      "control": "dimmer",
+      "count": 3
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 4
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 1
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 4
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 6
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 9
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 12
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 3
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 4
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 12
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 2
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 1
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 8
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "switch",
+      "count": 12
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "CFL",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 1
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "occupancy_sensor",
+      "count": 11
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 4
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 6
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 4
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 3
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 6
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 5
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "Incandescent",
+      "wattage_W": 60,
+      "control": "dimmer",
+      "count": 4
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 9
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 11
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 10
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 1
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 7
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 1
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 6
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 11
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "Incandescent",
+      "wattage_W": 75,
+      "control": "switch",
+      "count": 1
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 11
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 9
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 7
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 6
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 6
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 5
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "Incandescent",
+      "wattage_W": 75,
+      "control": "occupancy_sensor",
+      "count": 2
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 4
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 6
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "CFL",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 3
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 3
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 3
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 2
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 5
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 1
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 4
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 4
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 4
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "switch",
+      "count": 9
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 4
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 3
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 4
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 2
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 10
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 11
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 4
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 6
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 11
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 6
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 1
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "CFL",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 1
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "CFL",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 3
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 5
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 8
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 11
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 7
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 10
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "Incandescent",
+      "wattage_W": 75,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 2
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "CFL",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 6
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 12
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 3
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 7
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 2
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 5
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 11
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "Incandescent",
+      "wattage_W": 75,
+      "control": "dimmer",
+      "count": 9
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "CFL",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 9
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 4
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 4
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 2
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "switch",
+      "count": 9
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 7
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 7
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 12
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "Incandescent",
+      "wattage_W": 60,
+      "control": "dimmer",
+      "count": 1
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 10
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 1
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 4
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 10
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 7
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 10
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 2
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "Incandescent",
+      "wattage_W": 60,
+      "control": "switch",
+      "count": 8
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 6
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 11
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 11
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 4
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "switch",
+      "count": 4
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "CFL",
+      "wattage_W": 8,
+      "control": "dimmer",
+      "count": 8
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 3
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 12
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 9
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 9
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 1
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "occupancy_sensor",
+      "count": 2
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "Incandescent",
+      "wattage_W": 60,
+      "control": "dimmer",
+      "count": 10
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "CFL",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 9
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 10
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 8
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 5
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 2
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 4
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 8
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 11
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "Incandescent",
+      "wattage_W": 75,
+      "control": "switch",
+      "count": 10
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 11
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "Incandescent",
+      "wattage_W": 60,
+      "control": "dimmer",
+      "count": 7
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 10
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 11
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 2
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 5
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 2
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 6
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 10
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 7
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "dimmer",
+      "count": 7
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 9
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "switch",
+      "count": 1
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 4
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 1
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 1
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "occupancy_sensor",
+      "count": 4
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 36,
+      "control": "occupancy_sensor",
+      "count": 6
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "switch",
+      "count": 3
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "dimmer",
+      "count": 2
+    },
+    {
+      "location": "corridor",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "switch",
+      "count": 10
+    },
+    {
+      "location": "classroom",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 4
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "occupancy_sensor",
+      "count": 3
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 36,
+      "control": "dimmer",
+      "count": 1
+    },
+    {
+      "location": "private_office",
+      "lamp_type": "CFL",
+      "wattage_W": 12,
+      "control": "switch",
+      "count": 5
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "Incandescent",
+      "wattage_W": 40,
+      "control": "switch",
+      "count": 5
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 2
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "CFL",
+      "wattage_W": 24,
+      "control": "occupancy_sensor",
+      "count": 1
+    },
+    {
+      "location": "living_room",
+      "lamp_type": "LED",
+      "wattage_W": 48,
+      "control": "dimmer",
+      "count": 1
+    },
+    {
+      "location": "open_office",
+      "lamp_type": "LED",
+      "wattage_W": 8,
+      "control": "occupancy_sensor",
+      "count": 10
+    },
+    {
+      "location": "kitchen",
+      "lamp_type": "LED",
+      "wattage_W": 18,
+      "control": "dimmer",
+      "count": 12
+    }
+  ]
+}

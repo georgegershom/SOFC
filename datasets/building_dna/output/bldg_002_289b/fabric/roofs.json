@@ -1,0 +1,23 @@
+[
+  {
+    "assembly": "roof_plywood_polyiso",
+    "layers": [
+      {
+        "material": "plywood",
+        "thickness_m": 0.021581619346827577,
+        "thermal_conductivity_W_mK": 0.12,
+        "density_kg_m3": 550,
+        "specific_heat_J_kgK": 1500
+      },
+      {
+        "material": "polyiso",
+        "thickness_m": 0.12567536393741227,
+        "thermal_conductivity_W_mK": 0.028,
+        "density_kg_m3": 32,
+        "specific_heat_J_kgK": 1400
+      }
+    ],
+    "u_value_W_m2K": 0.207,
+    "r_value_m2K_W": 4.838
+  }
+]

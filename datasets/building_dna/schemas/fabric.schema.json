@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Building Fabric",
+  "type": "object",
+  "properties": {
+    "walls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "assembly": { "type": "string" },
+          "layers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "material": { "type": "string" },
+                "thickness_m": { "type": "number", "minimum": 0 },
+                "thermal_conductivity_W_mK": { "type": "number", "minimum": 0 },
+                "density_kg_m3": { "type": "number", "minimum": 0 },
+                "specific_heat_J_kgK": { "type": "number", "minimum": 0 }
+              },
+              "required": ["material", "thickness_m"]
+            }
+          },
+          "u_value_W_m2K": { "type": "number", "minimum": 0 },
+          "r_value_m2K_W": { "type": "number", "minimum": 0 }
+        },
+        "required": ["assembly", "layers"]
+      }
+    },
+    "roofs": { "$ref": "#/properties/walls" },
+    "floors": { "$ref": "#/properties/walls" },
+    "windows_doors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": { "type": "string", "enum": ["window", "door"] },
+          "u_value_W_m2K": { "type": "number", "minimum": 0 },
+          "shgc": { "type": "number", "minimum": 0, "maximum": 1 },
+          "visible_transmittance": { "type": "number", "minimum": 0, "maximum": 1 },
+          "frame_type": { "type": "string" },
+          "gas_fill": { "type": "string" },
+          "area_m2": { "type": "number", "minimum": 0 },
+          "age_years": { "type": "number", "minimum": 0 },
+          "condition": { "type": "string" }
+        },
+        "required": ["type", "u_value_W_m2K", "area_m2"]
+      }
+    },
+    "airtightness": {
+      "type": "object",
+      "properties": {
+        "blower_door_ach50": { "type": "number", "minimum": 0 },
+        "test_year": { "type": "integer", "minimum": 1900, "maximum": 2025 }
+      }
+    }
+  },
+  "required": ["walls", "roofs", "floors", "windows_doors", "airtightness"]
+}
