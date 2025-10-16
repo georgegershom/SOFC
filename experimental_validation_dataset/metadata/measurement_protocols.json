@@ -1,0 +1,300 @@
+{
+  "measurement_protocols": {
+    "warp_measurement": {
+      "laser_scanning_confocal_microscopy": {
+        "technique": "Laser Scanning Confocal Microscopy",
+        "equipment": "Keyence VK-X1000 3D Laser Scanning Confocal Microscope",
+        "principle": "Confocal laser scanning with height measurement using optical sectioning",
+        "procedure": [
+          "Clean sample surface with isopropanol",
+          "Mount sample on vibration-isolated stage",
+          "Set laser power to 50% of maximum",
+          "Configure scan area to cover full sample surface",
+          "Set vertical resolution to 0.1 μm",
+          "Set lateral resolution to 1 μm",
+          "Perform 3D scan with 5x averaging",
+          "Export point cloud data in XYZ format"
+        ],
+        "parameters": {
+          "lateral_resolution": "1 μm",
+          "vertical_resolution": "0.1 μm",
+          "measurement_area": "100 mm × 100 mm",
+          "scan_speed": "0.5 mm/s",
+          "laser_wavelength": "405 nm",
+          "numerical_aperture": "0.95"
+        },
+        "data_format": {
+          "coordinate_system": "Right-handed XYZ",
+          "units": "micrometers",
+          "file_format": "CSV with headers: X, Y, Z, Intensity",
+          "coordinate_origin": "Bottom-left corner of sample"
+        },
+        "uncertainty_analysis": {
+          "repeatability": "±0.05 μm",
+          "accuracy": "±0.1 μm",
+          "systematic_error": "±0.02 μm",
+          "random_error": "±0.08 μm"
+        }
+      },
+      "white_light_interferometry": {
+        "technique": "White Light Interferometry",
+        "equipment": "Zygo NewView 7300 White Light Interferometer",
+        "principle": "Interference pattern analysis using white light source",
+        "procedure": [
+          "Clean sample surface with isopropanol",
+          "Mount sample on anti-vibration table",
+          "Select objective lens (10x for overview, 50x for detail)",
+          "Set measurement mode to 'Phase Shifting'",
+          "Configure measurement area (typically 1-4 mm²)",
+          "Perform measurement with 5-frame averaging",
+          "Apply noise reduction filtering",
+          "Export height map data"
+        ],
+        "parameters": {
+          "lateral_resolution": "0.5 μm",
+          "vertical_resolution": "1 nm",
+          "measurement_area": "1-4 mm² per field",
+          "wavelength": "White light (400-700 nm)",
+          "numerical_aperture": "0.55 (10x), 0.8 (50x)"
+        },
+        "data_format": {
+          "coordinate_system": "Right-handed XYZ",
+          "units": "nanometers",
+          "file_format": "TIFF height map + CSV coordinates",
+          "coordinate_origin": "Center of measurement field"
+        },
+        "uncertainty_analysis": {
+          "repeatability": "±0.5 nm",
+          "accuracy": "±1 nm",
+          "systematic_error": "±0.2 nm",
+          "random_error": "±0.8 nm"
+        }
+      },
+      "structured_light_3d_scanning": {
+        "technique": "Structured Light 3D Scanning",
+        "equipment": "GOM ATOS Core 3D Scanner",
+        "principle": "Projected light pattern deformation analysis",
+        "procedure": [
+          "Apply matte white spray coating to sample",
+          "Mount sample on rotary stage",
+          "Calibrate scanner with reference sphere",
+          "Configure scan resolution and overlap",
+          "Perform multi-angle scanning (typically 8-12 views)",
+          "Align and merge scan data",
+          "Apply noise reduction and hole filling",
+          "Export 3D mesh data"
+        ],
+        "parameters": {
+          "lateral_resolution": "10 μm",
+          "vertical_resolution": "5 μm",
+          "measurement_area": "Full sample surface",
+          "scan_overlap": "60%",
+          "projection_pattern": "Phase-shifted sinusoidal",
+          "camera_resolution": "5 megapixels"
+        },
+        "data_format": {
+          "coordinate_system": "Right-handed XYZ",
+          "units": "micrometers",
+          "file_format": "STL mesh + CSV point cloud",
+          "coordinate_origin": "Scanner coordinate system"
+        },
+        "uncertainty_analysis": {
+          "repeatability": "±2 μm",
+          "accuracy": "±5 μm",
+          "systematic_error": "±1 μm",
+          "random_error": "±4 μm"
+        }
+      }
+    },
+    "stress_measurement": {
+      "curvature_based_inverse_method": {
+        "technique": "Curvature-Based Inverse Method (Stoney's Formula)",
+        "equipment": "Profilometer + Custom curvature measurement setup",
+        "principle": "Measure curvature of bilayer after layer deposition and sintering",
+        "procedure": [
+          "Prepare bilayer sample (electrolyte on anode)",
+          "Measure initial flatness of substrate",
+          "Deposit and sinter electrolyte layer",
+          "Measure final curvature using profilometer",
+          "Calculate stress using Stoney's formula",
+          "Account for temperature-dependent properties",
+          "Estimate uncertainty from measurement errors"
+        ],
+        "stoney_formula": "σ = (E_s * t_s²) / (6 * (1-ν_s) * t_f) * (1/R_f - 1/R_i)",
+        "parameters": {
+          "substrate_thickness": "300 μm",
+          "film_thickness": "50-300 μm",
+          "substrate_modulus": "170 GPa (YSZ)",
+          "substrate_poisson": "0.23",
+          "curvature_measurement_accuracy": "±0.01 m⁻¹"
+        },
+        "data_format": {
+          "measurement_type": "Through-thickness average stress",
+          "units": "MPa",
+          "file_format": "JSON with stress values and uncertainties",
+          "coordinate_system": "Sample coordinate system"
+        },
+        "uncertainty_analysis": {
+          "measurement_uncertainty": "±10%",
+          "systematic_error": "±5%",
+          "random_error": "±8%"
+        }
+      },
+      "layer_removal_warp_measurement": {
+        "technique": "Layer Removal + Warp Measurement",
+        "equipment": "Precision milling machine + 3D profilometer",
+        "principle": "Destructive layer-by-layer removal with warp measurement after each step",
+        "procedure": [
+          "Measure initial warp field of complete sample",
+          "Remove cathode layer using precision milling",
+          "Measure warp field after cathode removal",
+          "Remove anode layer in 50 μm increments",
+          "Measure warp field after each removal step",
+          "Perform inverse FEA analysis to back-calculate stress",
+          "Account for stress redistribution effects"
+        ],
+        "milling_parameters": {
+          "tool_diameter": "0.5 mm",
+          "spindle_speed": "10000 RPM",
+          "feed_rate": "50 mm/min",
+          "depth_per_pass": "10 μm",
+          "coolant": "Minimal (air cooling)"
+        },
+        "inverse_analysis": {
+          "method": "FEA-based inverse analysis",
+          "software": "COMSOL Multiphysics",
+          "convergence_criteria": "R² > 0.95",
+          "max_iterations": "100"
+        },
+        "data_format": {
+          "measurement_type": "Through-thickness stress gradient",
+          "units": "MPa",
+          "file_format": "JSON with stress profiles and uncertainties",
+          "spatial_resolution": "50 μm through thickness"
+        },
+        "uncertainty_analysis": {
+          "measurement_uncertainty": "±5%",
+          "inverse_analysis_uncertainty": "±3%",
+          "total_uncertainty": "±6%"
+        }
+      },
+      "x_ray_diffraction": {
+        "technique": "X-Ray Diffraction (XRD) Stress Measurement",
+        "equipment": "Bruker D8 Discover XRD with 2D detector",
+        "principle": "Measure strain in crystal lattice using peak shift analysis",
+        "procedure": [
+          "Prepare sample surface (polish to 1 μm finish)",
+          "Align sample in XRD goniometer",
+          "Select appropriate diffraction peaks (e.g., (111), (200) for YSZ)",
+          "Perform θ-2θ scans at multiple φ angles",
+          "Measure peak positions with high precision",
+          "Calculate lattice strain from peak shifts",
+          "Convert strain to stress using elastic constants"
+        ],
+        "xrd_parameters": {
+          "x_ray_source": "Cu Kα (λ = 1.5418 Å)",
+          "tube_voltage": "40 kV",
+          "tube_current": "40 mA",
+          "divergence_slit": "0.5°",
+          "receiving_slit": "0.1 mm",
+          "step_size": "0.01°",
+          "counting_time": "2 s/step"
+        },
+        "stress_calculation": {
+          "method": "sin²ψ method",
+          "elastic_constants": "E = 200 GPa, ν = 0.23",
+          "penetration_depth": "5-10 μm",
+          "measurement_area": "100 μm × 100 μm"
+        },
+        "data_format": {
+          "measurement_type": "Point-wise stress measurements",
+          "units": "MPa",
+          "file_format": "JSON with stress values and coordinates",
+          "spatial_resolution": "100 μm spot size"
+        },
+        "uncertainty_analysis": {
+          "peak_position_uncertainty": "±0.01°",
+          "stress_uncertainty": "±15%",
+          "systematic_error": "±8%",
+          "random_error": "±12%"
+        }
+      },
+      "raman_spectroscopy": {
+        "technique": "Raman Spectroscopy Stress Measurement",
+        "equipment": "Horiba LabRAM HR Evolution Raman Microscope",
+        "principle": "Measure peak shift in Raman spectrum correlated with stress",
+        "procedure": [
+          "Clean sample surface with isopropanol",
+          "Focus laser on sample surface",
+          "Acquire Raman spectrum with high resolution",
+          "Identify characteristic peaks (e.g., 470 cm⁻¹ for YSZ)",
+          "Measure peak positions with sub-wavenumber precision",
+          "Calibrate peak shift vs. stress relationship",
+          "Map stress distribution across sample surface"
+        ],
+        "raman_parameters": {
+          "laser_wavelength": "532 nm",
+          "laser_power": "1 mW",
+          "grating": "1800 lines/mm",
+          "confocal_pinhole": "100 μm",
+          "integration_time": "10 s",
+          "accumulations": "3"
+        },
+        "stress_calibration": {
+          "method": "Four-point bending calibration",
+          "calibration_range": "0-200 MPa",
+          "peak_shift_sensitivity": "0.1 cm⁻¹/MPa",
+          "measurement_area": "1 μm × 1 μm"
+        },
+        "data_format": {
+          "measurement_type": "Local stress measurements",
+          "units": "MPa",
+          "file_format": "JSON with stress values and coordinates",
+          "spatial_resolution": "1 μm spot size"
+        },
+        "uncertainty_analysis": {
+          "peak_position_uncertainty": "±0.1 cm⁻¹",
+          "stress_uncertainty": "±20%",
+          "systematic_error": "±10%",
+          "random_error": "±17%"
+        }
+      }
+    }
+  },
+  "data_processing": {
+    "warp_data_processing": {
+      "noise_filtering": {
+        "method": "Gaussian filter with σ = 2 μm",
+        "outlier_removal": "3σ criterion",
+        "smoothing": "Savitzky-Golay filter (3rd order, window=5)"
+      },
+      "coordinate_transformation": {
+        "reference_plane": "Least squares fit to flat reference",
+        "coordinate_system": "Right-handed XYZ with Z pointing up",
+        "units": "micrometers"
+      },
+      "quality_metrics": {
+        "surface_coverage": "> 90%",
+        "noise_level": "< 1 μm RMS",
+        "measurement_density": "> 1 point/mm²"
+      }
+    },
+    "stress_data_processing": {
+      "uncertainty_propagation": {
+        "method": "Monte Carlo simulation",
+        "iterations": "10000",
+        "confidence_interval": "95%"
+      },
+      "data_fusion": {
+        "method": "Weighted average based on measurement uncertainty",
+        "weights": "Inverse of variance",
+        "outlier_detection": "Grubbs test (α = 0.05)"
+      },
+      "quality_metrics": {
+        "measurement_consistency": "R² > 0.8 between techniques",
+        "uncertainty_coverage": "95% confidence interval",
+        "spatial_resolution": "Appropriate for stress gradients"
+      }
+    }
+  }
+}

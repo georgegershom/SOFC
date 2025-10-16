@@ -1,0 +1,100 @@
+{
+  "dataset_info": {
+    "name": "Experimental Validation Dataset for ML-Augmented Inverse Modeling of SOFC Residual Stress",
+    "version": "1.0.0",
+    "description": "Comprehensive experimental dataset for validating FEA-based models against physical reality in SOFC residual stress quantification",
+    "created_date": "2024-01-15",
+    "authors": ["Research Team"],
+    "institution": "Research Institution",
+    "keywords": ["SOFC", "residual stress", "warp measurement", "experimental validation", "ML modeling", "FEA validation"],
+    "license": "Research Use Only",
+    "citation": "Experimental Validation Dataset for ML-Augmented Inverse Modeling of SOFC Residual Stress, Research Institution, 2024"
+  },
+  "dataset_specifications": {
+    "total_samples": 50,
+    "sample_dimensions": {
+      "length": "100 mm",
+      "width": "100 mm", 
+      "thickness_range": "0.5-2.0 mm"
+    },
+    "parameter_space": {
+      "layer_thickness_ratios": {
+        "min": 0.1,
+        "max": 0.5,
+        "description": "Electrolyte to anode thickness ratio"
+      },
+      "sintering_temperatures": {
+        "min": 1200,
+        "max": 1400,
+        "unit": "°C",
+        "description": "Peak sintering temperature"
+      },
+      "cooling_rates": {
+        "min": 1,
+        "max": 10,
+        "unit": "°C/min",
+        "description": "Cooling rate from sintering temperature"
+      },
+      "sintering_atmospheres": ["Air", "N2", "H2/N2_95/5", "H2/N2_90/10"],
+      "sintering_dwell_times": {
+        "min": 2,
+        "max": 8,
+        "unit": "hours",
+        "description": "Dwell time at peak temperature"
+      }
+    },
+    "measurement_techniques": {
+      "warp_measurement": {
+        "laser_confocal": {
+          "resolution_lateral": "1 μm",
+          "resolution_vertical": "0.1 μm",
+          "coverage": "full_surface"
+        },
+        "white_light_interferometry": {
+          "resolution_lateral": "0.5 μm", 
+          "resolution_vertical": "1 nm",
+          "coverage": "selected_regions"
+        },
+        "structured_light": {
+          "resolution_lateral": "10 μm",
+          "resolution_vertical": "5 μm", 
+          "coverage": "full_surface"
+        }
+      },
+      "stress_measurement": {
+        "curvature_method": {
+          "accuracy": "±10%",
+          "output": "through_thickness_average_stress"
+        },
+        "layer_removal": {
+          "accuracy": "±5%",
+          "output": "through_thickness_stress_gradient",
+          "destructive": true
+        },
+        "xrd": {
+          "spatial_resolution": "100 μm",
+          "output": "point_wise_stress_measurements"
+        },
+        "raman_spectroscopy": {
+          "spatial_resolution": "1 μm",
+          "output": "local_stress_measurements"
+        }
+      }
+    }
+  },
+  "quality_metrics": {
+    "measurement_uncertainty": {
+      "warp_measurement": "±2 μm",
+      "stress_measurement": "±5-10% depending on technique"
+    },
+    "data_completeness": {
+      "warp_data": "100% of samples",
+      "stress_data": "80% of samples (limited by destructive techniques)"
+    },
+    "validation_criteria": {
+      "ml_model_accuracy": "R² > 0.85",
+      "fea_model_accuracy": "R² > 0.80",
+      "stress_prediction_error": "< 15%"
+    }
+  }
+}
