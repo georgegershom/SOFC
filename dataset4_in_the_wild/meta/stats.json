@@ -1,0 +1,47 @@
+{
+  "train": {
+    "num_samples": 300,
+    "warp_mean_of_means": 1.2887877141084647e-12,
+    "warp_mean_of_stds": 0.0006909367941261735,
+    "stress_mean_of_means": {
+      "sigma_xx": 34.208544619977474,
+      "sigma_yy": 34.04286044836044,
+      "sigma_xy": 0.020935007217849487
+    },
+    "stress_mean_of_stds": {
+      "sigma_xx": 165.9061825052897,
+      "sigma_yy": 165.5137213643392,
+      "sigma_xy": 1.1502012004454931
+    }
+  },
+  "val": {
+    "num_samples": 60,
+    "warp_mean_of_means": 1.0779196563838236e-12,
+    "warp_mean_of_stds": 0.0006759442073719887,
+    "stress_mean_of_means": {
+      "sigma_xx": 36.10563194255034,
+      "sigma_yy": 35.98219068050385,
+      "sigma_xy": -0.044850817625410856
+    },
+    "stress_mean_of_stds": {
+      "sigma_xx": 165.0195421854655,
+      "sigma_yy": 164.95353266398112,
+      "sigma_xy": 1.153659936785698
+    }
+  },
+  "test": {
+    "num_samples": 60,
+    "warp_mean_of_means": -1.212659755959212e-13,
+    "warp_mean_of_stds": 0.0006774855901312549,
+    "stress_mean_of_means": {
+      "sigma_xx": 23.558620424506564,
+      "sigma_yy": 23.3937091358006,
+      "sigma_xy": -0.019670649897307158
+    },
+    "stress_mean_of_stds": {
+      "sigma_xx": 165.8958859761556,
+      "sigma_yy": 164.80041325887044,
+      "sigma_xy": 1.12994480629762
+    }
+  }
+}
