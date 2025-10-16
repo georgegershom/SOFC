@@ -1,0 +1,34 @@
+{
+  "dataset_info": {
+    "generation_date": "2025-10-16T23:00:54.269197",
+    "total_locations": 10,
+    "total_regions": 10,
+    "total_countries": 10,
+    "tmy_records": 438000,
+    "climate_projection_records": 2880,
+    "energy_price_records": 438000,
+    "material_cost_records": 960,
+    "labor_cost_records": 450,
+    "financial_param_records": 100,
+    "geospatial_records": 10,
+    "carbon_intensity_records": 438000,
+    "building_code_records": 10
+  },
+  "data_sources": {
+    "weather_climate": [
+      "tmy_data.csv",
+      "future_climate_projections.csv"
+    ],
+    "economic_market": [
+      "energy_prices.csv",
+      "material_technology_costs.csv",
+      "labor_costs.csv",
+      "financial_parameters.csv"
+    ],
+    "geospatial_regulatory": [
+      "geospatial_data.csv",
+      "carbon_intensity.csv",
+      "building_codes.csv"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+location_id,latitude,longitude,city,country,altitude_m,urban_context,building_density,shading_factor,wind_exposure_class,solar_potential_kwh_per_sqft,climate_zone,seismic_zone,flood_risk,air_quality_index,noise_level_db,transportation_access,utility_infrastructure
+New_York_USA,40.7128,-74.006,New_York,USA,765.4201978219057,rural,low,1.0,medium,4.2,temperate,low,low,58,42.51529838221962,high,high
+London_UK,51.5074,-0.1278,London,UK,149.4761465580423,suburban,medium,0.9,low,3.05,cold,low,low,59,49.699725895394906,high,high
+Paris_France,48.8566,2.3522,Paris,France,1579.6637742305004,rural,low,1.0,high,3.41,temperate,low,low,47,43.87347753139018,high,high
+Berlin_Germany,52.52,13.405,Berlin,Germany,562.5456110618345,suburban,medium,0.9,medium,3.21,cold,low,low,38,51.289386539794464,high,high
+Tokyo_Japan,35.6762,139.6503,Tokyo,Japan,1456.930010523861,suburban,medium,0.9,high,4.24,temperate,medium,medium,57,49.85613448460059,very_high,high
+Beijing_China,39.9042,116.4074,Beijing,China,1345.9610012957664,suburban,medium,0.9,high,3.98,temperate,medium,medium,84,47.24150192110438,very_high,medium
+Mumbai_India,19.076,72.8777,Mumbai,India,908.396884039592,rural,low,1.0,medium,4.65,tropical,low,high,76,42.002629048272496,medium,medium
+Toronto_Canada,43.6532,-79.3832,Toronto,Canada,343.2290025898783,suburban,medium,0.9,low,3.48,temperate,low,low,55,53.577051363545536,medium,low
+Sydney_Australia,-33.8688,151.2093,Sydney,Australia,1000.932367162791,rural,low,1.0,high,4.17,subtropical,medium,medium,44,40.491325817437044,medium,low
+Sao_Paulo_Brazil,-23.5505,-46.6333,Sao_Paulo,Brazil,1418.69014626196,urban_core,high,0.7,high,4.66,subtropical,low,high,70,74.67350693610345,medium,low
