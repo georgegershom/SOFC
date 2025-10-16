@@ -1,0 +1,211 @@
+{
+  "fabrication_plan": {
+    "overview": "Strategic fabrication of 50 SOFC plates covering extremes and center of parameter space for comprehensive validation",
+    "fabrication_facility": "Advanced Ceramics Processing Laboratory",
+    "materials": {
+      "electrolyte": {
+        "material": "8YSZ (8 mol% Y2O3-stabilized ZrO2)",
+        "purity": "99.9%",
+        "particle_size": "0.5-1.0 μm",
+        "supplier": "Tosoh Corporation"
+      },
+      "anode": {
+        "material": "NiO-YSZ cermet",
+        "composition": "40 vol% NiO, 60 vol% YSZ",
+        "particle_size": "0.3-0.8 μm",
+        "supplier": "Custom synthesis"
+      },
+      "cathode": {
+        "material": "LSM-YSZ composite",
+        "composition": "50 vol% LSM, 50 vol% YSZ", 
+        "particle_size": "0.5-1.2 μm",
+        "supplier": "Custom synthesis"
+      },
+      "interconnect": {
+        "material": "Crofer 22 APU",
+        "thickness": "2.0 mm",
+        "supplier": "ThyssenKrupp VDM"
+      }
+    },
+    "sample_design": {
+      "total_samples": 50,
+      "sample_groups": [
+        {
+          "group_id": "extreme_thin_electrolyte",
+          "samples": 10,
+          "description": "Very thin electrolyte layers for maximum stress",
+          "parameters": {
+            "electrolyte_thickness": "50-100 μm",
+            "anode_thickness": "300-500 μm",
+            "thickness_ratio_range": [0.1, 0.2]
+          }
+        },
+        {
+          "group_id": "extreme_thick_electrolyte", 
+          "samples": 10,
+          "description": "Thick electrolyte layers for minimum stress",
+          "parameters": {
+            "electrolyte_thickness": "200-300 μm",
+            "anode_thickness": "300-400 μm", 
+            "thickness_ratio_range": [0.5, 0.7]
+          }
+        },
+        {
+          "group_id": "extreme_high_temp",
+          "samples": 10,
+          "description": "High sintering temperatures for maximum residual stress",
+          "parameters": {
+            "sintering_temperature": "1350-1400°C",
+            "cooling_rate": "1-2°C/min",
+            "atmosphere": "Air"
+          }
+        },
+        {
+          "group_id": "extreme_fast_cool",
+          "samples": 10,
+          "description": "Fast cooling rates for maximum thermal stress",
+          "parameters": {
+            "sintering_temperature": "1300°C",
+            "cooling_rate": "8-10°C/min",
+            "atmosphere": "N2"
+          }
+        },
+        {
+          "group_id": "center_parameters",
+          "samples": 10,
+          "description": "Center of parameter space for baseline validation",
+          "parameters": {
+            "electrolyte_thickness": "150 μm",
+            "anode_thickness": "300 μm",
+            "sintering_temperature": "1300°C",
+            "cooling_rate": "5°C/min",
+            "atmosphere": "Air"
+          }
+        }
+      ]
+    },
+    "fabrication_process": {
+      "step_1_powder_preparation": {
+        "description": "Prepare and characterize starting powders",
+        "procedures": [
+          "Ball mill YSZ powder for 24 hours in ethanol",
+          "Mix NiO and YSZ for anode in 1:1 molar ratio",
+          "Mix LSM and YSZ for cathode in 1:1 molar ratio",
+          "Characterize particle size distribution using laser diffraction",
+          "Verify phase purity using XRD"
+        ],
+        "quality_control": {
+          "particle_size": "D50 ± 0.2 μm",
+          "phase_purity": "> 99% target phase",
+          "contamination": "< 0.1% impurities"
+        }
+      },
+      "step_2_tape_casting": {
+        "description": "Fabricate green tapes for each layer",
+        "procedures": [
+          "Prepare slurry with 50 wt% solids, 45 wt% solvent, 5 wt% binder",
+          "Cast electrolyte tapes to target thickness (50-300 μm)",
+          "Cast anode tapes to 300-500 μm thickness",
+          "Cast cathode tapes to 50-100 μm thickness",
+          "Dry tapes at 60°C for 24 hours"
+        ],
+        "quality_control": {
+          "thickness_tolerance": "±5 μm",
+          "surface_roughness": "< 1 μm Ra",
+          "green_density": "55-60% theoretical"
+        }
+      },
+      "step_3_lamination": {
+        "description": "Laminate layers to form green SOFC structure",
+        "procedures": [
+          "Cut tapes to 100 mm × 100 mm squares",
+          "Stack layers: anode/electrolyte/cathode",
+          "Laminate at 70°C, 10 MPa for 10 minutes",
+          "Verify layer alignment and bonding"
+        ],
+        "quality_control": {
+          "layer_alignment": "±0.5 mm",
+          "interlayer_bonding": "No delamination",
+          "overall_thickness": "Target ± 10 μm"
+        }
+      },
+      "step_4_sintering": {
+        "description": "Co-sinter the laminated structure",
+        "procedures": [
+          "Load samples into alumina setters",
+          "Heat to 600°C at 2°C/min (binder burnout)",
+          "Heat to sintering temperature at 5°C/min",
+          "Dwell at peak temperature for specified time",
+          "Cool at specified rate to room temperature"
+        ],
+        "sintering_profiles": {
+          "binder_burnout": {
+            "temperature": "600°C",
+            "dwell_time": "2 hours",
+            "atmosphere": "Air"
+          },
+          "sintering": {
+            "temperature_range": "1200-1400°C",
+            "dwell_time_range": "2-8 hours",
+            "atmosphere_options": ["Air", "N2", "H2/N2_95/5", "H2/N2_90/10"]
+          },
+          "cooling": {
+            "rate_range": "1-10°C/min",
+            "final_temperature": "25°C"
+          }
+        },
+        "quality_control": {
+          "density": "> 95% theoretical",
+          "phase_stability": "No phase decomposition",
+          "dimensional_stability": "Shrinkage within ±2%"
+        }
+      },
+      "step_5_post_processing": {
+        "description": "Final processing and characterization",
+        "procedures": [
+          "Measure final dimensions and density",
+          "Characterize microstructure using SEM",
+          "Verify phase composition using XRD",
+          "Measure surface roughness and flatness",
+          "Document any visible defects or warping"
+        ],
+        "quality_control": {
+          "dimensional_tolerance": "±0.5 mm",
+          "density": "> 95% theoretical",
+          "surface_quality": "No visible cracks or defects"
+        }
+      }
+    },
+    "measurement_schedule": {
+      "immediate_measurements": [
+        "Dimensional measurements",
+        "Density measurement", 
+        "Surface roughness",
+        "Initial warp measurement"
+      ],
+      "within_24_hours": [
+        "Detailed warp field mapping",
+        "XRD stress measurements",
+        "Raman spectroscopy mapping"
+      ],
+      "within_1_week": [
+        "Curvature-based stress measurement",
+        "Layer removal stress analysis (destructive samples)"
+      ]
+    },
+    "quality_assurance": {
+      "acceptance_criteria": {
+        "dimensional_tolerance": "±0.5 mm",
+        "density": "> 95% theoretical",
+        "surface_quality": "No visible defects",
+        "warp_measurement_success": "> 90% of surface area"
+      },
+      "rejection_criteria": [
+        "Cracks visible to naked eye",
+        "Density < 95% theoretical",
+        "Severe delamination",
+        "Excessive warping (> 5 mm)"
+      ]
+    }
+  }
+}
