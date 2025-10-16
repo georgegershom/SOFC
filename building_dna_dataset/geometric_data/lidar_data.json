@@ -1,0 +1,164 @@
+{
+  "lidar_scan_metadata": {
+    "scan_id": "LIDAR-BLD001-2024-03",
+    "scan_date": "2024-03-12",
+    "scanner_model": "Leica RTC360",
+    "point_cloud_resolution_mm": 6,
+    "total_scan_positions": 28,
+    "total_points": 425000000,
+    "coordinate_system": "NAD83 / Massachusetts Mainland (EPSG:26986)",
+    "accuracy_mm": 3
+  },
+  "roof_geometry": {
+    "roof_type": "Flat with parapet",
+    "roof_area_m2": 1450.3,
+    "parapet_height_m": 0.9,
+    "roof_slope_degrees": 1.5,
+    "drainage_direction": "Multi-directional to internal drains",
+    "roof_sections": [
+      {
+        "section_id": "R01",
+        "area_m2": 1450.3,
+        "elevation_min_m": 22.65,
+        "elevation_max_m": 22.95,
+        "surface_material": "EPDM membrane",
+        "condition": "Fair - some weathering visible"
+      }
+    ],
+    "roof_equipment": [
+      {
+        "equipment_id": "RTU-01",
+        "type": "Rooftop HVAC Unit",
+        "location": {"x": 12.5, "y": 8.3, "z": 23.2},
+        "footprint_m2": 8.5,
+        "height_m": 1.8
+      },
+      {
+        "equipment_id": "RTU-02",
+        "type": "Rooftop HVAC Unit",
+        "location": {"x": 28.7, "y": 8.3, "z": 23.2},
+        "footprint_m2": 8.5,
+        "height_m": 1.8
+      },
+      {
+        "equipment_id": "RTU-03",
+        "type": "Rooftop HVAC Unit",
+        "location": {"x": 12.5, "y": 25.0, "z": 23.2},
+        "footprint_m2": 8.5,
+        "height_m": 1.8
+      },
+      {
+        "equipment_id": "RTU-04",
+        "type": "Rooftop HVAC Unit",
+        "location": {"x": 28.7, "y": 25.0, "z": 23.2},
+        "footprint_m2": 8.5,
+        "height_m": 1.8
+      },
+      {
+        "equipment_id": "EXHF-01",
+        "type": "Exhaust Fan",
+        "location": {"x": 38.5, "y": 16.5, "z": 23.1},
+        "footprint_m2": 2.2,
+        "height_m": 1.2
+      }
+    ]
+  },
+  "solar_exposure_analysis": {
+    "unshaded_roof_area_m2": 1285,
+    "partially_shaded_area_m2": 125,
+    "heavily_shaded_area_m2": 40,
+    "optimal_pv_area_m2": 1150,
+    "solar_azimuth_optimal": 180,
+    "roof_tilt_optimal_degrees": 35,
+    "annual_dni_kwh_m2": 1680,
+    "annual_dhi_kwh_m2": 580,
+    "annual_ghi_kwh_m2": 1450,
+    "shading_sources": [
+      {
+        "source": "HVAC Equipment",
+        "shaded_area_m2": 45,
+        "impact": "Low - mainly morning/evening"
+      },
+      {
+        "source": "Parapet walls",
+        "shaded_area_m2": 85,
+        "impact": "Medium - perimeter shading"
+      },
+      {
+        "source": "Adjacent building (North)",
+        "shaded_area_m2": 35,
+        "impact": "Low - winter only"
+      }
+    ]
+  },
+  "surrounding_context": {
+    "site_area_m2": 4850,
+    "building_coverage_ratio": 0.29,
+    "nearest_buildings": [
+      {
+        "direction": "North",
+        "distance_m": 28.5,
+        "height_m": 18.3,
+        "type": "Commercial"
+      },
+      {
+        "direction": "East",
+        "distance_m": 45.2,
+        "height_m": 12.5,
+        "type": "Residential"
+      },
+      {
+        "direction": "South",
+        "distance_m": 52.8,
+        "height_m": 8.2,
+        "type": "Retail"
+      },
+      {
+        "direction": "West",
+        "distance_m": 15.5,
+        "height_m": 24.6,
+        "type": "Commercial"
+      }
+    ],
+    "vegetation": {
+      "trees_on_site": 12,
+      "average_tree_height_m": 8.5,
+      "canopy_coverage_percent": 15,
+      "impact_on_building": "Minor shading on west facade in summer"
+    }
+  },
+  "facade_analysis": {
+    "north_facade": {
+      "area_m2": 962.5,
+      "window_area_m2": 280,
+      "wwr": 0.29,
+      "surface_condition": "Good",
+      "thermal_anomalies_detected": 8,
+      "solar_exposure_rating": "Low"
+    },
+    "east_facade": {
+      "area_m2": 758.3,
+      "window_area_m2": 258,
+      "wwr": 0.34,
+      "surface_condition": "Fair",
+      "thermal_anomalies_detected": 15,
+      "solar_exposure_rating": "Medium"
+    },
+    "south_facade": {
+      "area_m2": 962.5,
+      "window_area_m2": 385,
+      "wwr": 0.40,
+      "surface_condition": "Fair",
+      "thermal_anomalies_detected": 22,
+      "solar_exposure_rating": "High"
+    },
+    "west_facade": {
+      "area_m2": 758.3,
+      "window_area_m2": 317,
+      "wwr": 0.42,
+      "surface_condition": "Poor",
+      "thermal_anomalies_detected": 28,
+      "solar_exposure_rating": "High"
+    }
+  }
+}

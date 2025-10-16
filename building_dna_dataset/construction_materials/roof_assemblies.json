@@ -1,0 +1,165 @@
+{
+  "roof_assemblies": [
+    {
+      "assembly_id": "ROOF-01",
+      "assembly_name": "Main Flat Roof",
+      "roof_type": "Flat/Low-slope",
+      "location": "Entire roof area",
+      "construction_year": 1985,
+      "last_renovation": 2015,
+      "total_thickness_mm": 385,
+      "slope_degrees": 1.5,
+      "drainage_system": "Internal drains",
+      "layers": [
+        {
+          "layer_number": 1,
+          "position": "Exterior",
+          "material": "EPDM Membrane (installed 2015)",
+          "thickness_mm": 1.5,
+          "conductivity_w_mk": 0.25,
+          "density_kg_m3": 1150,
+          "specific_heat_j_kgk": 1000,
+          "thermal_resistance_m2k_w": 0.006,
+          "reflectance_solar": 0.23,
+          "emittance_thermal": 0.87,
+          "embodied_carbon_kgco2_m2": 8.5,
+          "embodied_energy_mj_m2": 185,
+          "service_life_years": 25,
+          "current_age_years": 10
+        },
+        {
+          "layer_number": 2,
+          "position": "Mid-exterior",
+          "material": "Polyisocyanurate Insulation Board (added 2015)",
+          "thickness_mm": 150,
+          "conductivity_w_mk": 0.023,
+          "density_kg_m3": 32,
+          "specific_heat_j_kgk": 1470,
+          "thermal_resistance_m2k_w": 6.52,
+          "embodied_carbon_kgco2_m2": 42.5,
+          "embodied_energy_mj_m2": 725,
+          "service_life_years": 30,
+          "current_age_years": 10
+        },
+        {
+          "layer_number": 3,
+          "position": "Mid",
+          "material": "Vapor Barrier",
+          "thickness_mm": 0.2,
+          "conductivity_w_mk": 0.19,
+          "density_kg_m3": 920,
+          "specific_heat_j_kgk": 1800,
+          "thermal_resistance_m2k_w": 0.001,
+          "embodied_carbon_kgco2_m2": 3.2,
+          "embodied_energy_mj_m2": 85
+        },
+        {
+          "layer_number": 4,
+          "position": "Mid",
+          "material": "Concrete Roof Deck",
+          "thickness_mm": 200,
+          "conductivity_w_mk": 1.4,
+          "density_kg_m3": 2400,
+          "specific_heat_j_kgk": 880,
+          "thermal_resistance_m2k_w": 0.143,
+          "embodied_carbon_kgco2_m2": 185,
+          "embodied_energy_mj_m2": 850
+        },
+        {
+          "layer_number": 5,
+          "position": "Interior",
+          "material": "Spray-applied Fireproofing",
+          "thickness_mm": 15,
+          "conductivity_w_mk": 0.12,
+          "density_kg_m3": 300,
+          "specific_heat_j_kgk": 1050,
+          "thermal_resistance_m2k_w": 0.125,
+          "embodied_carbon_kgco2_m2": 4.8,
+          "embodied_energy_mj_m2": 95
+        },
+        {
+          "layer_number": 6,
+          "position": "Interior",
+          "material": "Acoustic Ceiling Tiles (suspended)",
+          "thickness_mm": 20,
+          "conductivity_w_mk": 0.06,
+          "density_kg_m3": 480,
+          "specific_heat_j_kgk": 1210,
+          "thermal_resistance_m2k_w": 0.333,
+          "embodied_carbon_kgco2_m2": 12.5,
+          "embodied_energy_mj_m2": 285
+        }
+      ],
+      "performance_characteristics": {
+        "u_value_w_m2k": 0.145,
+        "u_value_effective_w_m2k": 0.162,
+        "r_value_m2k_w": 6.90,
+        "effective_r_value_m2k_w": 6.17,
+        "thermal_mass_kj_m2k": 422,
+        "moisture_control": "Good - vapor barrier present",
+        "fire_rating_hours": 2,
+        "wind_uplift_rating": "Class 90",
+        "total_embodied_carbon_kgco2_m2": 256.5,
+        "total_embodied_energy_mj_m2": 2225,
+        "condition_rating": "Good",
+        "estimated_remaining_life_years": 15
+      },
+      "roof_area_m2": 1450.3,
+      "insulation_zones": [
+        {
+          "zone": "Main roof area",
+          "area_m2": 1320,
+          "insulation_thickness_mm": 150,
+          "r_value_m2k_w": 6.52
+        },
+        {
+          "zone": "HVAC equipment zones",
+          "area_m2": 90,
+          "insulation_thickness_mm": 100,
+          "r_value_m2k_w": 4.35,
+          "note": "Reduced thickness around equipment"
+        },
+        {
+          "zone": "Perimeter edge",
+          "area_m2": 40,
+          "insulation_thickness_mm": 75,
+          "r_value_m2k_w": 3.26,
+          "note": "Thermal bridge mitigation needed"
+        }
+      ],
+      "drainage_analysis": {
+        "number_of_drains": 8,
+        "drain_spacing_m": 15,
+        "ponding_risk_areas_m2": 25,
+        "drainage_adequacy": "Adequate",
+        "maintenance_frequency": "Quarterly inspection required"
+      }
+    }
+  ],
+  "roof_penetrations": [
+    {
+      "penetration_id": "PEN-01",
+      "type": "HVAC Duct",
+      "quantity": 12,
+      "typical_size_mm": 600,
+      "insulation_condition": "Fair",
+      "air_leakage_risk": "Medium"
+    },
+    {
+      "penetration_id": "PEN-02",
+      "type": "Exhaust Vent",
+      "quantity": 6,
+      "typical_size_mm": 300,
+      "insulation_condition": "Good",
+      "air_leakage_risk": "Low"
+    },
+    {
+      "penetration_id": "PEN-03",
+      "type": "Plumbing Vent",
+      "quantity": 8,
+      "typical_size_mm": 100,
+      "insulation_condition": "Poor",
+      "air_leakage_risk": "High"
+    }
+  ]
+}

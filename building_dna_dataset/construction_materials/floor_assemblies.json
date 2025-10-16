@@ -1,0 +1,268 @@
+{
+  "floor_assemblies": [
+    {
+      "assembly_id": "FLOOR-01",
+      "assembly_name": "Ground Floor Slab on Grade",
+      "floor_type": "Slab on Grade",
+      "location": "Ground floor",
+      "construction_year": 1985,
+      "total_thickness_mm": 275,
+      "layers": [
+        {
+          "layer_number": 1,
+          "position": "Top",
+          "material": "Carpet Tile",
+          "thickness_mm": 8,
+          "conductivity_w_mk": 0.06,
+          "density_kg_m3": 400,
+          "specific_heat_j_kgk": 1360,
+          "thermal_resistance_m2k_w": 0.133,
+          "embodied_carbon_kgco2_m2": 8.5,
+          "embodied_energy_mj_m2": 185
+        },
+        {
+          "layer_number": 2,
+          "position": "Top",
+          "material": "Concrete Topping",
+          "thickness_mm": 50,
+          "conductivity_w_mk": 1.4,
+          "density_kg_m3": 2400,
+          "specific_heat_j_kgk": 880,
+          "thermal_resistance_m2k_w": 0.036,
+          "embodied_carbon_kgco2_m2": 46.2,
+          "embodied_energy_mj_m2": 212
+        },
+        {
+          "layer_number": 3,
+          "position": "Mid",
+          "material": "Reinforced Concrete Slab",
+          "thickness_mm": 150,
+          "conductivity_w_mk": 1.7,
+          "density_kg_m3": 2400,
+          "specific_heat_j_kgk": 880,
+          "thermal_resistance_m2k_w": 0.088,
+          "embodied_carbon_kgco2_m2": 138.6,
+          "embodied_energy_mj_m2": 638
+        },
+        {
+          "layer_number": 4,
+          "position": "Bottom",
+          "material": "XPS Insulation (perimeter only)",
+          "thickness_mm": 50,
+          "conductivity_w_mk": 0.029,
+          "density_kg_m3": 35,
+          "specific_heat_j_kgk": 1450,
+          "thermal_resistance_m2k_w": 1.72,
+          "embodied_carbon_kgco2_m2": 28.5,
+          "embodied_energy_mj_m2": 485,
+          "coverage": "Perimeter only - 5m from edges"
+        },
+        {
+          "layer_number": 5,
+          "position": "Bottom",
+          "material": "Vapor Barrier",
+          "thickness_mm": 0.2,
+          "conductivity_w_mk": 0.19,
+          "density_kg_m3": 920,
+          "specific_heat_j_kgk": 1800,
+          "thermal_resistance_m2k_w": 0.001,
+          "embodied_carbon_kgco2_m2": 3.2,
+          "embodied_energy_mj_m2": 85
+        },
+        {
+          "layer_number": 6,
+          "position": "Bottom",
+          "material": "Compacted Gravel Base",
+          "thickness_mm": 100,
+          "conductivity_w_mk": 2.0,
+          "density_kg_m3": 2050,
+          "specific_heat_j_kgk": 840,
+          "thermal_resistance_m2k_w": 0.05,
+          "embodied_carbon_kgco2_m2": 2.5,
+          "embodied_energy_mj_m2": 15
+        }
+      ],
+      "performance_characteristics": {
+        "u_value_center_w_m2k": 0.42,
+        "u_value_perimeter_w_m2k": 0.28,
+        "f_value_w_mk": 0.85,
+        "thermal_mass_kj_m2k": 685,
+        "moisture_control": "Good",
+        "radon_barrier": "Present",
+        "total_embodied_carbon_kgco2_m2": 227.5,
+        "total_embodied_energy_mj_m2": 1620,
+        "condition_rating": "Good"
+      },
+      "floor_area_m2": 1408.3,
+      "ground_coupling": {
+        "soil_type": "Clay",
+        "soil_conductivity_w_mk": 1.5,
+        "groundwater_table_depth_m": 3.2,
+        "frost_depth_m": 1.2
+      }
+    },
+    {
+      "assembly_id": "FLOOR-02",
+      "assembly_name": "Typical Intermediate Floor",
+      "floor_type": "Suspended concrete",
+      "location": "Floors 2-6",
+      "construction_year": 1985,
+      "total_thickness_mm": 358,
+      "layers": [
+        {
+          "layer_number": 1,
+          "position": "Top",
+          "material": "Carpet Tile",
+          "thickness_mm": 8,
+          "conductivity_w_mk": 0.06,
+          "density_kg_m3": 400,
+          "specific_heat_j_kgk": 1360,
+          "thermal_resistance_m2k_w": 0.133,
+          "embodied_carbon_kgco2_m2": 8.5,
+          "embodied_energy_mj_m2": 185
+        },
+        {
+          "layer_number": 2,
+          "position": "Top",
+          "material": "Concrete Topping with Underfloor Services",
+          "thickness_mm": 75,
+          "conductivity_w_mk": 1.4,
+          "density_kg_m3": 2200,
+          "specific_heat_j_kgk": 880,
+          "thermal_resistance_m2k_w": 0.054,
+          "embodied_carbon_kgco2_m2": 60.8,
+          "embodied_energy_mj_m2": 280
+        },
+        {
+          "layer_number": 3,
+          "position": "Mid",
+          "material": "Post-tensioned Concrete Slab",
+          "thickness_mm": 225,
+          "conductivity_w_mk": 1.7,
+          "density_kg_m3": 2400,
+          "specific_heat_j_kgk": 880,
+          "thermal_resistance_m2k_w": 0.132,
+          "embodied_carbon_kgco2_m2": 207.9,
+          "embodied_energy_mj_m2": 956
+        },
+        {
+          "layer_number": 4,
+          "position": "Bottom",
+          "material": "Spray-applied Fireproofing",
+          "thickness_mm": 15,
+          "conductivity_w_mk": 0.12,
+          "density_kg_m3": 300,
+          "specific_heat_j_kgk": 1050,
+          "thermal_resistance_m2k_w": 0.125,
+          "embodied_carbon_kgco2_m2": 4.8,
+          "embodied_energy_mj_m2": 95
+        },
+        {
+          "layer_number": 5,
+          "position": "Bottom",
+          "material": "Acoustic Ceiling Tiles (suspended)",
+          "thickness_mm": 20,
+          "conductivity_w_mk": 0.06,
+          "density_kg_m3": 480,
+          "specific_heat_j_kgk": 1210,
+          "thermal_resistance_m2k_w": 0.333,
+          "embodied_carbon_kgco2_m2": 12.5,
+          "embodied_energy_mj_m2": 285
+        }
+      ],
+      "performance_characteristics": {
+        "u_value_w_m2k": 1.45,
+        "thermal_mass_kj_m2k": 758,
+        "stc_rating": 52,
+        "iic_rating": 48,
+        "fire_rating_hours": 2,
+        "vibration_control": "Good",
+        "total_embodied_carbon_kgco2_m2": 294.5,
+        "total_embodied_energy_mj_m2": 1801,
+        "condition_rating": "Good"
+      },
+      "total_area_5_floors_m2": 7041.5,
+      "structural_details": {
+        "span_direction": "Two-way",
+        "typical_span_m": 9.0,
+        "column_grid": "9m x 9m",
+        "live_load_capacity_kpa": 3.5,
+        "deflection_limit": "L/360"
+      }
+    },
+    {
+      "assembly_id": "FLOOR-03",
+      "assembly_name": "Basement Floor",
+      "floor_type": "Slab on Grade (Below Grade)",
+      "location": "Basement",
+      "construction_year": 1985,
+      "total_thickness_mm": 250,
+      "layers": [
+        {
+          "layer_number": 1,
+          "position": "Top",
+          "material": "Epoxy Coating",
+          "thickness_mm": 2,
+          "conductivity_w_mk": 0.2,
+          "density_kg_m3": 1100,
+          "specific_heat_j_kgk": 1000,
+          "thermal_resistance_m2k_w": 0.01,
+          "embodied_carbon_kgco2_m2": 12.5,
+          "embodied_energy_mj_m2": 285
+        },
+        {
+          "layer_number": 2,
+          "position": "Mid",
+          "material": "Reinforced Concrete Slab",
+          "thickness_mm": 180,
+          "conductivity_w_mk": 1.7,
+          "density_kg_m3": 2400,
+          "specific_heat_j_kgk": 880,
+          "thermal_resistance_m2k_w": 0.106,
+          "embodied_carbon_kgco2_m2": 166.3,
+          "embodied_energy_mj_m2": 765
+        },
+        {
+          "layer_number": 3,
+          "position": "Bottom",
+          "material": "Vapor Barrier",
+          "thickness_mm": 0.2,
+          "conductivity_w_mk": 0.19,
+          "density_kg_m3": 920,
+          "specific_heat_j_kgk": 1800,
+          "thermal_resistance_m2k_w": 0.001,
+          "embodied_carbon_kgco2_m2": 3.2,
+          "embodied_energy_mj_m2": 85
+        },
+        {
+          "layer_number": 4,
+          "position": "Bottom",
+          "material": "Compacted Gravel Base",
+          "thickness_mm": 150,
+          "conductivity_w_mk": 2.0,
+          "density_kg_m3": 2050,
+          "specific_heat_j_kgk": 840,
+          "thermal_resistance_m2k_w": 0.075,
+          "embodied_carbon_kgco2_m2": 3.8,
+          "embodied_energy_mj_m2": 22
+        }
+      ],
+      "performance_characteristics": {
+        "u_value_w_m2k": 0.68,
+        "thermal_mass_kj_m2k": 758,
+        "moisture_control": "Fair - below grade",
+        "waterproofing": "External membrane on walls",
+        "total_embodied_carbon_kgco2_m2": 185.8,
+        "total_embodied_energy_mj_m2": 1157,
+        "condition_rating": "Fair - some moisture intrusion"
+      },
+      "floor_area_m2": 1408.3,
+      "below_grade_conditions": {
+        "depth_below_grade_m": 2.8,
+        "wall_waterproofing": "Bituminous membrane",
+        "drainage": "Perimeter drainage tile",
+        "sump_pump": "Present - 2 pumps"
+      }
+    }
+  ]
+}

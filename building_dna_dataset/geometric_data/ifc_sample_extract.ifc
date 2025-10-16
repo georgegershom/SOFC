@@ -1,0 +1,114 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION(('ViewDefinition [CoordinationView]'), '2;1');
+FILE_NAME('BLD-DT-2025-001.ifc', '2024-09-30T10:00:00', ('BIM Manager'), ('Riverside Office Complex'), 'Autodesk Revit 2024', 'Autodesk Revit 2024', '');
+FILE_SCHEMA(('IFC4'));
+ENDSEC;
+
+DATA;
+#1 = IFCPROJECT('1a2b3c4d5e6f7g8h9i0j', #2, 'Riverside Office Complex - Building A', 'Commercial Office Building for Digital Twin Framework', $, 'Riverside Office Complex', $, (#20), #21);
+#2 = IFCOWNERHISTORY(#3, #6, $, .ADDED., 1727692800, #3, #6, 1727692800);
+#3 = IFCPERSONANDORGANIZATION(#4, #5, $);
+#4 = IFCPERSON('BIM001', 'Manager', 'BIM', $, $, $, $, $);
+#5 = IFCORGANIZATION($, 'Engineering Consultants Ltd', $, $, $);
+#6 = IFCAPPLICATION(#5, '2024', 'Autodesk Revit', 'Revit');
+#20 = IFCGEOMETRICREPRESENTATIONCONTEXT($, 'Model', 3, 1.0E-5, #22, #23);
+#21 = IFCUNITASSIGNMENT((#30, #31, #32, #33));
+#22 = IFCAXIS2PLACEMENT3D(#24, $, $);
+#23 = IFCDIRECTION((0., 1.));
+#24 = IFCCARTESIANPOINT((0., 0., 0.));
+#30 = IFCSIUNIT(*, .LENGTHUNIT., $, .METRE.);
+#31 = IFCSIUNIT(*, .AREAUNIT., $, .SQUARE_METRE.);
+#32 = IFCSIUNIT(*, .VOLUMEUNIT., $, .CUBIC_METRE.);
+#33 = IFCSIUNIT(*, .PLANEANGLEUNIT., $, .RADIAN.);
+
+/* BUILDING DEFINITION */
+#100 = IFCBUILDING('2b3c4d5e6f7g8h9i0j1k', #2, 'Building A', 'Riverside Office Complex - Main Building', $, #101, $, 'Building A', .ELEMENT., 15.2, $, #102);
+#101 = IFCLOCALPLACEMENT($, #103);
+#102 = IFCPOSTALADDRESS($, $, $, $, ('1250 Innovation Boulevard'), $, 'Cambridge', 'MA', '02142', 'USA');
+#103 = IFCAXIS2PLACEMENT3D(#24, $, $);
+
+/* BUILDING STOREY - GROUND FLOOR */
+#200 = IFCBUILDINGSTOREY('3c4d5e6f7g8h9i0j1k2l', #2, 'Ground Floor', 'Level 1 - Lobby and Retail', $, #201, $, 'F2_GROUND', .ELEMENT., 0.5);
+#201 = IFCLOCALPLACEMENT(#101, #202);
+#202 = IFCAXIS2PLACEMENT3D(#203, $, $);
+#203 = IFCCARTESIANPOINT((0., 0., 0.5));
+
+/* BUILDING STOREY - FIRST FLOOR */
+#210 = IFCBUILDINGSTOREY('4d5e6f7g8h9i0j1k2l3m', #2, 'First Floor', 'Level 2 - Office', $, #211, $, 'F3_FIRST', .ELEMENT., 4.3);
+#211 = IFCLOCALPLACEMENT(#101, #212);
+#212 = IFCAXIS2PLACEMENT3D(#213, $, $);
+#213 = IFCCARTESIANPOINT((0., 0., 4.3));
+
+/* WALL TYPE - EXTERIOR WALL */
+#300 = IFCWALLTYPE('5e6f7g8h9i0j1k2l3m4n', #2, 'Exterior Wall - Original', 'North/East/West Facade Wall Assembly', $, $, $, $, $, .STANDARD.);
+#301 = IFCMATERIALLAYERSET((#310, #311, #312, #313, #314), 'EXT-WALL-01', $);
+#310 = IFCMATERIALLAYER(#320, 0.100, $, 'Red Clay Brick', $, $, $);
+#311 = IFCMATERIALLAYER(#321, 0.025, $, 'Air Gap', $, $, $);
+#312 = IFCMATERIALLAYER(#322, 0.090, $, 'Fiberglass Insulation R-11', $, $, $);
+#313 = IFCMATERIALLAYER(#323, 0.150, $, 'Metal Studs', $, $, $);
+#314 = IFCMATERIALLAYER(#324, 0.015, $, 'Gypsum Board', $, $, $);
+#320 = IFCMATERIAL('Red Clay Brick', $, 'Masonry');
+#321 = IFCMATERIAL('Air', $, 'Gas');
+#322 = IFCMATERIAL('Fiberglass Batt', $, 'Insulation');
+#323 = IFCMATERIAL('Structural Steel', $, 'Metal');
+#324 = IFCMATERIAL('Gypsum Board', $, 'Finish');
+
+/* MATERIAL THERMAL PROPERTIES */
+#330 = IFCMATERIALPROPERTIES('Thermal Properties', $, (#331, #332), #320);
+#331 = IFCPROPERTYSINGLEVALUE('ThermalConductivity', $, IFCREAL(0.77), $);
+#332 = IFCPROPERTYSINGLEVALUE('SpecificHeat', $, IFCREAL(840.0), $);
+
+/* WINDOW TYPE */
+#400 = IFCWINDOWTYPE('6f7g8h9i0j1k2l3m4n5o', #2, 'Double Glazed Window - Original', 'Aluminum frame, double glazed', $, $, $, $, $, .WINDOW., .DOUBLE_PANEL_VERTICAL., $);
+#401 = IFCMATERIALLAYERSET((#410, #411, #412), 'WIN-TYPE-01', $);
+#410 = IFCMATERIALLAYER(#420, 0.006, $, 'Glass Pane 1', $, $, $);
+#411 = IFCMATERIALLAYER(#421, 0.012, $, 'Air Gap', $, $, $);
+#412 = IFCMATERIALLAYER(#420, 0.006, $, 'Glass Pane 2', $, $, $);
+#420 = IFCMATERIAL('Clear Float Glass', $, 'Glazing');
+#421 = IFCMATERIAL('Air', $, 'Gas');
+
+/* THERMAL PROPERTIES FOR WINDOW */
+#430 = IFCPROPERTYSET('7g8h9i0j1k2l3m4n5o6p', #2, 'Pset_WindowCommon', $, (#431, #432, #433));
+#431 = IFCPROPERTYSINGLEVALUE('UValue', 'Overall U-value', IFCREAL(3.6), $);
+#432 = IFCPROPERTYSINGLEVALUE('SHGC', 'Solar Heat Gain Coefficient', IFCREAL(0.76), $);
+#433 = IFCPROPERTYSINGLEVALUE('VT', 'Visible Transmittance', IFCREAL(0.81), $);
+
+/* SPACE - GROUND FLOOR LOBBY */
+#500 = IFCSPACE('8h9i0j1k2l3m4n5o6p7q', #2, 'Main Lobby', 'Ground floor main entrance lobby', $, #501, #502, 'GF-L01', .INTERNAL., $, $, 3.5);
+#501 = IFCLOCALPLACEMENT(#201, #503);
+#502 = IFCPRODUCTDEFINITIONSHAPE($, $, (#510));
+#503 = IFCAXIS2PLACEMENT3D(#504, $, $);
+#504 = IFCCARTESIANPOINT((5.0, 8.0, 0.0));
+#510 = IFCSHAPEREPRESENTATION(#20, 'Body', 'SweptSolid', (#520));
+#520 = IFCEXTRUDEDAREASOLID(#530, #503, #540, 3.5);
+#530 = IFCRECTANGLEPROFILEDEF(.AREA., 'Lobby Profile', $, 15.2, 16.15);
+#540 = IFCDIRECTION((0., 0., 1.));
+
+/* SPACE THERMAL ZONE */
+#600 = IFCZONE('9i0j1k2l3m4n5o6p7q8r', #2, 'TZ-01', 'Thermal Zone 1 - Ground Floor', $, 'TZ-01');
+#601 = IFCRELASSIGNSTOGROUP('0j1k2l3m4n5o6p7q8r9s', #2, $, $, (#500), .PRODUCT., #600);
+
+/* ENERGY PROPERTIES */
+#700 = IFCPROPERTYSET('1k2l3m4n5o6p7q8r9s0t', #2, 'Pset_SpaceThermalDesign', $, (#701, #702, #703));
+#701 = IFCPROPERTYSINGLEVALUE('SpaceTemperatureMax', 'Maximum design temperature', IFCREAL(26.0), $);
+#702 = IFCPROPERTYSINGLEVALUE('SpaceTemperatureMin', 'Minimum design temperature', IFCREAL(20.0), $);
+#703 = IFCPROPERTYSINGLEVALUE('SpaceHumidity', 'Relative humidity', IFCREAL(50.0), $);
+
+/* HVAC EQUIPMENT */
+#800 = IFCUNITARYEQUIPMENT('2l3m4n5o6p7q8r9s0t1u', #2, 'RTU-01', 'Rooftop HVAC Unit 1', $, #801, $, $);
+#801 = IFCLOCALPLACEMENT(#101, #802);
+#802 = IFCAXIS2PLACEMENT3D(#803, $, $);
+#803 = IFCCARTESIANPOINT((12.5, 8.3, 23.2));
+#810 = IFCPROPERTYSET('3m4n5o6p7q8r9s0t1u2v', #2, 'Pset_AirToAirHeatRecoveryPHistory', $, (#811, #812, #813));
+#811 = IFCPROPERTYSINGLEVALUE('HeatingCapacity', 'Rated heating output', IFCREAL(92.0), $);
+#812 = IFCPROPERTYSINGLEVALUE('CoolingCapacity', 'Rated cooling output', IFCREAL(88.0), $);
+#813 = IFCPROPERTYSINGLEVALUE('EnergyEfficiency', 'EER rating', IFCREAL(10.2), $);
+
+/* RELATIONSHIPS */
+#900 = IFCRELAGGREGATES('4n5o6p7q8r9s0t1u2v3w', #2, $, $, #1, (#100));
+#901 = IFCRELAGGREGATES('5o6p7q8r9s0t1u2v3w4x', #2, $, $, #100, (#200, #210));
+#902 = IFCRELCONTAINEDINSPATIALSTRUCTURE('6p7q8r9s0t1u2v3w4x5y', #2, $, $, (#500), #200);
+
+ENDSEC;
+END-ISO-10303-21;

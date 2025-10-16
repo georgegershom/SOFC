@@ -1,0 +1,259 @@
+{
+  "window_types": [
+    {
+      "window_id": "WIN-TYPE-01",
+      "window_name": "Original Double-Glazed Windows (North/East/West)",
+      "installation_year": 1985,
+      "last_renovation": null,
+      "quantity": 145,
+      "total_area_m2": 855,
+      "frame_type": "Aluminum (no thermal break)",
+      "frame_material_properties": {
+        "conductivity_w_mk": 160,
+        "frame_width_mm": 80,
+        "frame_percentage": 0.25
+      },
+      "glazing_system": {
+        "type": "Double-glazed",
+        "number_of_panes": 2,
+        "pane_1_thickness_mm": 6,
+        "air_gap_thickness_mm": 12,
+        "pane_2_thickness_mm": 6,
+        "gas_fill": "Air",
+        "low_e_coating": "None",
+        "spacer_type": "Aluminum"
+      },
+      "performance_characteristics": {
+        "u_value_center_glass_w_m2k": 2.8,
+        "u_value_frame_w_m2k": 5.8,
+        "u_value_total_w_m2k": 3.6,
+        "shgc": 0.76,
+        "visible_transmittance": 0.81,
+        "air_leakage_l_sm": 4.5,
+        "water_penetration_rating_pa": 300,
+        "wind_load_rating_pa": 1200,
+        "condensation_resistance_factor": 35
+      },
+      "condition_assessment": {
+        "overall_condition": "Poor",
+        "frame_condition": "Fair - some corrosion",
+        "seal_condition": "Poor - many failed seals",
+        "operation": "Fair - some difficulty opening",
+        "weatherstripping": "Poor - needs replacement",
+        "condensation_issues": "Yes - frequent",
+        "estimated_remaining_life_years": 3
+      },
+      "embodied_impacts": {
+        "embodied_carbon_kgco2_m2": 85.5,
+        "embodied_energy_mj_m2": 1850,
+        "recyclability_percent": 75
+      },
+      "typical_dimensions": {
+        "width_mm": 1500,
+        "height_mm": 1800,
+        "typical_size_m2": 2.7
+      },
+      "location_distribution": {
+        "north_facade": 38,
+        "east_facade": 52,
+        "west_facade": 55,
+        "south_facade": 0
+      }
+    },
+    {
+      "window_id": "WIN-TYPE-02",
+      "window_name": "Renovated Low-E Windows (South Facade)",
+      "installation_year": 2010,
+      "quantity": 68,
+      "total_area_m2": 385,
+      "frame_type": "Thermally broken aluminum",
+      "frame_material_properties": {
+        "conductivity_w_mk": 160,
+        "thermal_break_conductivity_w_mk": 0.3,
+        "frame_width_mm": 85,
+        "frame_percentage": 0.22
+      },
+      "glazing_system": {
+        "type": "Double-glazed Low-E",
+        "number_of_panes": 2,
+        "pane_1_thickness_mm": 6,
+        "pane_1_coating": "Low-E (surface 3)",
+        "air_gap_thickness_mm": 16,
+        "pane_2_thickness_mm": 6,
+        "gas_fill": "Argon",
+        "spacer_type": "Warm edge (silicone foam)"
+      },
+      "performance_characteristics": {
+        "u_value_center_glass_w_m2k": 1.6,
+        "u_value_frame_w_m2k": 2.2,
+        "u_value_total_w_m2k": 1.8,
+        "shgc": 0.38,
+        "visible_transmittance": 0.68,
+        "air_leakage_l_sm": 1.5,
+        "water_penetration_rating_pa": 600,
+        "wind_load_rating_pa": 2400,
+        "condensation_resistance_factor": 58
+      },
+      "condition_assessment": {
+        "overall_condition": "Good",
+        "frame_condition": "Good",
+        "seal_condition": "Good",
+        "operation": "Excellent",
+        "weatherstripping": "Good",
+        "condensation_issues": "No",
+        "estimated_remaining_life_years": 20
+      },
+      "embodied_impacts": {
+        "embodied_carbon_kgco2_m2": 95.8,
+        "embodied_energy_mj_m2": 2150,
+        "recyclability_percent": 78
+      },
+      "typical_dimensions": {
+        "width_mm": 1500,
+        "height_mm": 1800,
+        "typical_size_m2": 2.7
+      },
+      "location_distribution": {
+        "south_facade": 68
+      }
+    }
+  ],
+  "door_types": [
+    {
+      "door_id": "DOOR-TYPE-01",
+      "door_name": "Main Entrance Doors",
+      "type": "Aluminum curtain wall entrance",
+      "installation_year": 2010,
+      "quantity": 2,
+      "total_area_m2": 8.4,
+      "door_dimensions": {
+        "width_mm": 1200,
+        "height_mm": 3500
+      },
+      "frame_type": "Thermally broken aluminum",
+      "glazing": {
+        "type": "Double-glazed Low-E",
+        "u_value_w_m2k": 1.8,
+        "shgc": 0.42,
+        "visible_transmittance": 0.70
+      },
+      "performance_characteristics": {
+        "u_value_total_w_m2k": 2.2,
+        "air_leakage_l_sm": 2.0,
+        "fire_rating_minutes": 60,
+        "security_rating": "Medium"
+      },
+      "condition": "Good",
+      "estimated_remaining_life_years": 20
+    },
+    {
+      "door_id": "DOOR-TYPE-02",
+      "door_name": "Exterior Personnel Doors",
+      "type": "Insulated steel doors",
+      "installation_year": 1985,
+      "quantity": 4,
+      "total_area_m2": 7.2,
+      "door_dimensions": {
+        "width_mm": 900,
+        "height_mm": 2000
+      },
+      "construction": {
+        "core_material": "Polyurethane foam",
+        "core_thickness_mm": 45,
+        "face_material": "Steel - 18 gauge",
+        "thermal_break": "No"
+      },
+      "performance_characteristics": {
+        "u_value_w_m2k": 1.8,
+        "air_leakage_l_sm": 3.5,
+        "fire_rating_minutes": 90,
+        "security_rating": "High"
+      },
+      "condition": "Fair - showing wear",
+      "estimated_remaining_life_years": 10
+    },
+    {
+      "door_id": "DOOR-TYPE-03",
+      "door_name": "Interior Office Doors",
+      "type": "Hollow core wood",
+      "installation_year": 1985,
+      "quantity": 120,
+      "total_area_m2": 216,
+      "door_dimensions": {
+        "width_mm": 900,
+        "height_mm": 2000
+      },
+      "construction": {
+        "core_material": "Honeycomb cardboard",
+        "face_material": "Wood veneer",
+        "thickness_mm": 35
+      },
+      "performance_characteristics": {
+        "u_value_w_m2k": 2.5,
+        "stc_rating": 22,
+        "fire_rating_minutes": 20
+      },
+      "condition": "Fair",
+      "estimated_remaining_life_years": 15
+    },
+    {
+      "door_id": "DOOR-TYPE-04",
+      "door_name": "Loading Dock Doors",
+      "type": "Insulated sectional overhead",
+      "installation_year": 2005,
+      "quantity": 2,
+      "total_area_m2": 28.8,
+      "door_dimensions": {
+        "width_mm": 3600,
+        "height_mm": 4000
+      },
+      "construction": {
+        "panel_material": "Steel with polyurethane foam",
+        "panel_thickness_mm": 50,
+        "r_value_m2k_w": 2.8
+      },
+      "performance_characteristics": {
+        "u_value_w_m2k": 0.36,
+        "air_leakage_l_sm": 8.0,
+        "wind_load_rating_pa": 960
+      },
+      "condition": "Good",
+      "estimated_remaining_life_years": 15
+    }
+  ],
+  "window_inventory_by_orientation": {
+    "north": {
+      "area_m2": 280,
+      "window_type_01": 38,
+      "average_u_value_w_m2k": 3.6,
+      "average_shgc": 0.76
+    },
+    "east": {
+      "area_m2": 258,
+      "window_type_01": 52,
+      "average_u_value_w_m2k": 3.6,
+      "average_shgc": 0.76
+    },
+    "south": {
+      "area_m2": 385,
+      "window_type_02": 68,
+      "average_u_value_w_m2k": 1.8,
+      "average_shgc": 0.38
+    },
+    "west": {
+      "area_m2": 317,
+      "window_type_01": 55,
+      "average_u_value_w_m2k": 3.6,
+      "average_shgc": 0.76
+    }
+  },
+  "retrofit_recommendations": {
+    "priority_1": "Replace WIN-TYPE-01 windows on west facade (high solar gain + poor condition)",
+    "priority_2": "Replace WIN-TYPE-01 windows on east facade",
+    "priority_3": "Replace WIN-TYPE-01 windows on north facade",
+    "estimated_u_value_improvement": "From 3.6 to 1.4 W/m²K",
+    "estimated_energy_savings_kwh_year": 65000,
+    "estimated_cost_usd": 285000,
+    "simple_payback_years": 8.5
+  }
+}

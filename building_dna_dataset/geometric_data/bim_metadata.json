@@ -1,0 +1,198 @@
+{
+  "bim_model_info": {
+    "model_id": "BIM-BLD001-2024",
+    "software": "Autodesk Revit 2024",
+    "ifc_version": "IFC4",
+    "lod_level": "LOD 350",
+    "coordinate_system": "NAD83 / Massachusetts Mainland (EPSG:26986)",
+    "creation_date": "2024-01-15",
+    "last_updated": "2024-09-30",
+    "model_units": "meters"
+  },
+  "geometric_properties": {
+    "building_volume_m3": 32490,
+    "external_surface_area_m2": 6540,
+    "thermal_envelope_area_m2": 5090,
+    "bounding_box": {
+      "min": {"x": 0, "y": 0, "z": 0},
+      "max": {"x": 42.3, "y": 33.3, "z": 22.8}
+    },
+    "centroid": {"x": 21.15, "y": 16.65, "z": 11.4}
+  },
+  "floor_data": [
+    {
+      "floor_id": "F1_BASEMENT",
+      "floor_number": 0,
+      "elevation_m": 0,
+      "floor_area_m2": 1408.3,
+      "conditioned": false,
+      "ceiling_height_m": 2.4,
+      "usage": "Parking & Mechanical",
+      "thermal_zone": "unconditioned"
+    },
+    {
+      "floor_id": "F2_GROUND",
+      "floor_number": 1,
+      "elevation_m": 0.5,
+      "floor_area_m2": 1408.3,
+      "conditioned": true,
+      "ceiling_height_m": 2.7,
+      "usage": "Lobby & Retail",
+      "thermal_zone": "TZ-01"
+    },
+    {
+      "floor_id": "F3_FIRST",
+      "floor_number": 2,
+      "elevation_m": 4.3,
+      "floor_area_m2": 1408.3,
+      "conditioned": true,
+      "ceiling_height_m": 2.7,
+      "usage": "Office",
+      "thermal_zone": "TZ-02"
+    },
+    {
+      "floor_id": "F4_SECOND",
+      "floor_number": 3,
+      "elevation_m": 8.1,
+      "floor_area_m2": 1408.3,
+      "conditioned": true,
+      "ceiling_height_m": 2.7,
+      "usage": "Office",
+      "thermal_zone": "TZ-03"
+    },
+    {
+      "floor_id": "F5_THIRD",
+      "floor_number": 4,
+      "elevation_m": 11.9,
+      "floor_area_m2": 1408.3,
+      "conditioned": true,
+      "ceiling_height_m": 2.7,
+      "usage": "Office",
+      "thermal_zone": "TZ-04"
+    },
+    {
+      "floor_id": "F6_FOURTH",
+      "floor_number": 5,
+      "elevation_m": 15.7,
+      "floor_area_m2": 1408.3,
+      "conditioned": true,
+      "ceiling_height_m": 2.7,
+      "usage": "Office",
+      "thermal_zone": "TZ-05"
+    },
+    {
+      "floor_id": "F7_FIFTH",
+      "floor_number": 6,
+      "elevation_m": 19.5,
+      "floor_area_m2": 1408.3,
+      "conditioned": true,
+      "ceiling_height_m": 2.7,
+      "usage": "Office & Conference",
+      "thermal_zone": "TZ-06"
+    }
+  ],
+  "thermal_zones": [
+    {
+      "zone_id": "TZ-01",
+      "zone_name": "Ground Floor - Lobby & Retail",
+      "volume_m3": 3802,
+      "floor_area_m2": 1408.3,
+      "external_wall_area_m2": 520,
+      "window_area_m2": 185,
+      "orientation_distribution": {
+        "north": 0.25,
+        "east": 0.30,
+        "south": 0.25,
+        "west": 0.20
+      }
+    },
+    {
+      "zone_id": "TZ-02",
+      "zone_name": "First Floor - Office",
+      "volume_m3": 3802,
+      "floor_area_m2": 1408.3,
+      "external_wall_area_m2": 645,
+      "window_area_m2": 215,
+      "orientation_distribution": {
+        "north": 0.25,
+        "east": 0.25,
+        "south": 0.25,
+        "west": 0.25
+      }
+    },
+    {
+      "zone_id": "TZ-03",
+      "zone_name": "Second Floor - Office",
+      "volume_m3": 3802,
+      "floor_area_m2": 1408.3,
+      "external_wall_area_m2": 645,
+      "window_area_m2": 215,
+      "orientation_distribution": {
+        "north": 0.25,
+        "east": 0.25,
+        "south": 0.25,
+        "west": 0.25
+      }
+    },
+    {
+      "zone_id": "TZ-04",
+      "zone_name": "Third Floor - Office",
+      "volume_m3": 3802,
+      "floor_area_m2": 1408.3,
+      "external_wall_area_m2": 645,
+      "window_area_m2": 215,
+      "orientation_distribution": {
+        "north": 0.25,
+        "east": 0.25,
+        "south": 0.25,
+        "west": 0.25
+      }
+    },
+    {
+      "zone_id": "TZ-05",
+      "zone_name": "Fourth Floor - Office",
+      "volume_m3": 3802,
+      "floor_area_m2": 1408.3,
+      "external_wall_area_m2": 645,
+      "window_area_m2": 215,
+      "orientation_distribution": {
+        "north": 0.25,
+        "east": 0.25,
+        "south": 0.25,
+        "west": 0.25
+      }
+    },
+    {
+      "zone_id": "TZ-06",
+      "zone_name": "Fifth Floor - Office & Conference",
+      "volume_m3": 3802,
+      "floor_area_m2": 1408.3,
+      "external_wall_area_m2": 645,
+      "window_area_m2": 195,
+      "orientation_distribution": {
+        "north": 0.25,
+        "east": 0.25,
+        "south": 0.25,
+        "west": 0.25
+      }
+    }
+  ],
+  "spatial_relationships": {
+    "adjacency_matrix_file": "adjacency_matrix.csv",
+    "space_connectivity_graph": "space_graph.json"
+  },
+  "solar_exposure": {
+    "annual_solar_radiation_kwh_m2": {
+      "roof": 1450,
+      "south_facade": 980,
+      "east_facade": 720,
+      "west_facade": 690,
+      "north_facade": 320
+    },
+    "shading_analysis": {
+      "neighboring_buildings": true,
+      "self_shading": true,
+      "surrounding_vegetation": false
+    }
+  }
+}

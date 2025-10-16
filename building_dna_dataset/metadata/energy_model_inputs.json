@@ -1,0 +1,278 @@
+{
+  "energy_model_metadata": {
+    "model_id": "EM-BLD001-2024",
+    "model_type": "EnergyPlus",
+    "software_version": "EnergyPlus 23.2",
+    "weather_file": "USA_MA_Boston-Logan.Intl.AP.725090_TMY3.epw",
+    "simulation_period": "Annual (Jan 1 - Dec 31)",
+    "timestep_minutes": 10,
+    "baseline_calibration_status": "Calibrated to utility bills",
+    "calibration_cv_rmse_electric": 8.5,
+    "calibration_cv_rmse_gas": 12.3,
+    "calibration_nmbe_electric": -3.2,
+    "calibration_nmbe_gas": 5.8
+  },
+  "building_geometry_inputs": {
+    "total_floor_area_m2": 8450,
+    "conditioned_floor_area_m2": 7200,
+    "number_of_zones": 6,
+    "building_height_m": 22.8,
+    "aspect_ratio": 1.27,
+    "window_to_wall_ratio": {
+      "north": 0.29,
+      "east": 0.34,
+      "south": 0.40,
+      "west": 0.42,
+      "overall": 0.32
+    },
+    "shading_objects": [
+      {"name": "North Building", "distance_m": 28.5, "height_m": 18.3},
+      {"name": "West Building", "distance_m": 15.5, "height_m": 24.6}
+    ]
+  },
+  "envelope_inputs": {
+    "exterior_walls": {
+      "construction_north": {
+        "assembly_id": "EXT-WALL-01",
+        "u_value_w_m2k": 0.61,
+        "area_m2": 962.5,
+        "solar_absorptance": 0.6,
+        "thermal_absorptance": 0.9,
+        "visible_absorptance": 0.6
+      },
+      "construction_south": {
+        "assembly_id": "EXT-WALL-02",
+        "u_value_w_m2k": 0.36,
+        "area_m2": 962.5,
+        "solar_absorptance": 0.6,
+        "thermal_absorptance": 0.9,
+        "visible_absorptance": 0.6
+      },
+      "construction_east_west": {
+        "assembly_id": "EXT-WALL-01",
+        "u_value_w_m2k": 0.61,
+        "area_m2": 1925.0,
+        "solar_absorptance": 0.6,
+        "thermal_absorptance": 0.9,
+        "visible_absorptance": 0.6
+      }
+    },
+    "roof": {
+      "construction": "ROOF-01",
+      "u_value_w_m2k": 0.162,
+      "area_m2": 1450.3,
+      "solar_absorptance": 0.77,
+      "thermal_absorptance": 0.87,
+      "visible_absorptance": 0.77
+    },
+    "ground_floor": {
+      "construction": "FLOOR-01",
+      "u_value_w_m2k": 0.42,
+      "area_m2": 1408.3,
+      "perimeter_insulation_r_value": 1.72,
+      "perimeter_depth_m": 5.0
+    },
+    "windows": {
+      "north": {
+        "type": "WIN-TYPE-01",
+        "u_value_w_m2k": 3.6,
+        "shgc": 0.76,
+        "vt": 0.81,
+        "area_m2": 280
+      },
+      "east": {
+        "type": "WIN-TYPE-01",
+        "u_value_w_m2k": 3.6,
+        "shgc": 0.76,
+        "vt": 0.81,
+        "area_m2": 258
+      },
+      "south": {
+        "type": "WIN-TYPE-02",
+        "u_value_w_m2k": 1.8,
+        "shgc": 0.38,
+        "vt": 0.68,
+        "area_m2": 385
+      },
+      "west": {
+        "type": "WIN-TYPE-01",
+        "u_value_w_m2k": 3.6,
+        "shgc": 0.76,
+        "vt": 0.81,
+        "area_m2": 317
+      }
+    },
+    "infiltration": {
+      "method": "Flow/ExteriorArea",
+      "flow_per_area_m3_s_m2": 0.000189,
+      "ach50_test_result": 2.84,
+      "effective_leakage_area_cm2": 8450
+    }
+  },
+  "internal_loads": {
+    "occupancy": {
+      "people_per_m2": 0.0315,
+      "total_occupancy": 240,
+      "activity_level_w_person": 130,
+      "radiant_fraction": 0.3,
+      "schedule": "Office_Occupancy_Schedule"
+    },
+    "lighting": {
+      "lpd_w_m2": 19.8,
+      "total_lighting_power_kw": 142.5,
+      "return_air_fraction": 0.2,
+      "radiant_fraction": 0.42,
+      "visible_fraction": 0.18,
+      "schedule": "Office_Lighting_Schedule"
+    },
+    "equipment": {
+      "epd_w_m2": 12.5,
+      "total_equipment_power_kw": 90,
+      "radiant_fraction": 0.3,
+      "latent_fraction": 0.0,
+      "schedule": "Office_Equipment_Schedule"
+    },
+    "schedules": {
+      "office_occupancy": {
+        "weekday": "0-6: 0%, 6-8: 20%, 8-12: 90%, 12-13: 60%, 13-17: 90%, 17-19: 40%, 19-24: 5%",
+        "saturday": "0-24: 5%",
+        "sunday": "0-24: 2%"
+      },
+      "office_lighting": {
+        "weekday": "0-6: 10%, 6-19: 95%, 19-22: 30%, 22-24: 10%",
+        "saturday": "0-24: 15%",
+        "sunday": "0-24: 10%"
+      }
+    }
+  },
+  "hvac_system_inputs": {
+    "system_type": "VAV with Reheat",
+    "heating_system": {
+      "type": "Gas Furnace (in RTU)",
+      "fuel": "Natural Gas",
+      "efficiency": 0.72,
+      "capacity_kw": 368,
+      "capacity_sizing_factor": 1.15,
+      "control_type": "Staged"
+    },
+    "cooling_system": {
+      "type": "DX Cooling Coil (in RTU)",
+      "cop": 2.86,
+      "eer": 9.75,
+      "capacity_kw": 352,
+      "capacity_sizing_factor": 1.15,
+      "refrigerant": "R-410A"
+    },
+    "ventilation": {
+      "outdoor_air_method": "Sum",
+      "outdoor_air_per_person_l_s": 10,
+      "outdoor_air_per_area_l_s_m2": 0.3,
+      "demand_controlled_ventilation": true,
+      "economizer_type": "DifferentialDryBulb",
+      "economizer_limit_c": 21,
+      "minimum_oa_schedule": "Always_On"
+    },
+    "air_distribution": {
+      "supply_fan_total_efficiency": 0.62,
+      "supply_fan_pressure_rise_pa": 900,
+      "supply_fan_motor_efficiency": 0.91,
+      "return_fan_total_efficiency": 0.58,
+      "return_fan_pressure_rise_pa": 400,
+      "vfd_control": true,
+      "duct_leakage_percent": 15
+    },
+    "setpoints": {
+      "heating_setpoint_c": 20,
+      "cooling_setpoint_c": 24,
+      "heating_setback_c": 15,
+      "cooling_setup_c": 28,
+      "deadband_c": 2.0
+    },
+    "terminal_units": {
+      "type": "VAV_HotWaterReheat",
+      "minimum_flow_fraction": 0.25,
+      "reheat_coil_capacity_kw": 8.5,
+      "damper_action": "Normal"
+    }
+  },
+  "domestic_hot_water": {
+    "system_type": "Storage Tank Water Heater",
+    "fuel_type": "Natural Gas",
+    "tank_volume_l": 1135,
+    "heater_thermal_efficiency": 0.56,
+    "tank_ua_w_k": 12.5,
+    "setpoint_temperature_c": 60,
+    "use_side_effectiveness": 0.95,
+    "daily_hot_water_demand_l": 2400,
+    "inlet_water_temperature_c": 10,
+    "peak_flow_rate_l_h": 380,
+    "schedule": "DHW_Usage_Schedule"
+  },
+  "simulation_controls": {
+    "run_period": "1/1 through 12/31",
+    "timesteps_per_hour": 6,
+    "solar_distribution": "FullExteriorWithReflections",
+    "maximum_warmup_days": 25,
+    "minimum_warmup_days": 6,
+    "convergence_limits": {
+      "minimum_system_timestep_min": 1,
+      "maximum_hvac_iterations": 20,
+      "minimum_plant_iterations": 2,
+      "maximum_plant_iterations": 8
+    }
+  },
+  "output_variables": [
+    "Zone Mean Air Temperature",
+    "Zone Air Relative Humidity",
+    "Zone Lights Electricity Energy",
+    "Zone Electric Equipment Electricity Energy",
+    "Zone Ideal Loads Zone Total Heating Energy",
+    "Zone Ideal Loads Zone Total Cooling Energy",
+    "Facility Total HVAC Electricity Demand",
+    "Facility Total Building Electricity Demand",
+    "Facility Total Electricity Demand",
+    "Heating Coil Gas Energy",
+    "Cooling Coil Electricity Energy",
+    "Fan Electricity Energy",
+    "Water Heater Gas Energy",
+    "Site Outdoor Air Drybulb Temperature",
+    "Site Solar Azimuth Angle",
+    "Site Solar Altitude Angle",
+    "Site Direct Solar Radiation Rate per Area",
+    "Site Diffuse Solar Radiation Rate per Area"
+  ],
+  "retrofit_scenarios": {
+    "scenario_1_envelope": {
+      "description": "Window replacement and wall insulation",
+      "window_u_value_new": 1.4,
+      "window_shgc_new": 0.35,
+      "wall_u_value_new": 0.28,
+      "estimated_heating_reduction_percent": 28,
+      "estimated_cooling_reduction_percent": 18
+    },
+    "scenario_2_hvac": {
+      "description": "High-efficiency RTU replacement",
+      "heating_efficiency_new": 0.95,
+      "cooling_cop_new": 5.0,
+      "estimated_hvac_energy_reduction_percent": 42
+    },
+    "scenario_3_lighting": {
+      "description": "LED retrofit with advanced controls",
+      "lpd_new": 8.5,
+      "control_savings_additional_percent": 30,
+      "estimated_lighting_reduction_percent": 72
+    },
+    "scenario_4_renewables": {
+      "description": "Solar PV installation",
+      "pv_capacity_kw": 161.5,
+      "annual_generation_kwh": 215000,
+      "self_consumption_percent": 65
+    },
+    "scenario_5_integrated": {
+      "description": "Combined deep retrofit",
+      "includes": ["envelope", "hvac", "lighting", "renewables"],
+      "estimated_total_energy_reduction_percent": 78,
+      "estimated_net_zero_feasibility": "High"
+    }
+  }
+}
