@@ -1,0 +1,259 @@
+{
+  "physical_plausibility": {
+    "displacement_range": {
+      "min_rms_um": 8.880605458810118,
+      "max_rms_um": 27.14184130494684,
+      "mean_rms_um": 14.51314003202432,
+      "plausible": true
+    },
+    "stress_displacement_correlation": {
+      "mean_correlation": 0.013442071890640495,
+      "std_correlation": 0.18202197418094557,
+      "plausible": false
+    },
+    "edge_effects": {
+      "mean_edge_center_ratio": 30.526811935274527,
+      "plausible": false
+    },
+    "manufacturing_parameters": {
+      "sintering_temp": {
+        "min": 1360.64186009023,
+        "max": 1447.7108346856744,
+        "within_range": true
+      },
+      "sintering_time": {
+        "min": 3.633163891146743,
+        "max": 4.790628663721448,
+        "within_range": true
+      },
+      "cooling_rate": {
+        "min": 1.1771991312347234,
+        "max": 3.661040039653405,
+        "within_range": true
+      },
+      "green_density": {
+        "min": 0.493898645074683,
+        "max": 0.6202674660920827,
+        "within_range": true
+      },
+      "humidity": {
+        "min": 24.89871991471121,
+        "max": 69.59646905090273,
+        "within_range": true
+      }
+    }
+  },
+  "statistical_consistency": {
+    "parameter_drift": {
+      "sintering_temp": {
+        "slope": 0.20052765393693123,
+        "r_squared": 0.02235617234578189,
+        "p_value": 0.0007969029964160832,
+        "significant_drift": true
+      },
+      "sintering_time": {
+        "slope": 0.010080814875854058,
+        "r_squared": 0.24036475136567553,
+        "p_value": 1.3509550383490344e-31,
+        "significant_drift": true
+      },
+      "cooling_rate": {
+        "slope": 0.020734844226596803,
+        "r_squared": 0.35616836877798846,
+        "p_value": 1.4455348136446834e-49,
+        "significant_drift": true
+      },
+      "green_density": {
+        "slope": 8.824189776625917e-05,
+        "r_squared": 0.0023862331303727263,
+        "p_value": 0.2756180956833944,
+        "significant_drift": false
+      },
+      "humidity": {
+        "slope": 0.10525182871693056,
+        "r_squared": 0.02029466615450939,
+        "p_value": 0.0014040408605704474,
+        "significant_drift": true
+      }
+    },
+    "batch_effects": {
+      "sintering_temp": {
+        "f_statistic": 1.3662274221970112,
+        "p_value": 0.11658661079482566,
+        "significant_batch_effect": false
+      },
+      "sintering_time": {
+        "f_statistic": 7.379053025176285,
+        "p_value": 6.236209472251772e-21,
+        "significant_batch_effect": true
+      },
+      "cooling_rate": {
+        "f_statistic": 11.880459341601096,
+        "p_value": 3.1901410364155445e-35,
+        "significant_batch_effect": true
+      }
+    },
+    "noise_characteristics": {
+      "mean_noise_std": 2.028066275482223,
+      "fraction_normal": 1.0,
+      "mean_spatial_autocorr": -0.00874041020758826
+    },
+    "failure_mode_correlations": {
+      "edge_crack_risk": {
+        "edge_crack_risk": NaN,
+        "delamination_risk": NaN,
+        "thermal_shock_risk": NaN
+      },
+      "delamination_risk": {
+        "edge_crack_risk": NaN,
+        "delamination_risk": 1.0,
+        "thermal_shock_risk": 0.011401720846206442
+      },
+      "thermal_shock_risk": {
+        "edge_crack_risk": NaN,
+        "delamination_risk": 0.011401720846206442,
+        "thermal_shock_risk": 1.0
+      }
+    }
+  },
+  "data_quality": {
+    "missing_data": {
+      "manufacturing": {
+        "plate_id": 0,
+        "production_date": 0,
+        "batch_id": 0,
+        "shift": 0,
+        "sintering_temp": 0,
+        "sintering_time": 0,
+        "cooling_rate": 0,
+        "green_density": 0,
+        "humidity": 0,
+        "furnace_position": 0,
+        "days_from_start": 0
+      },
+      "quality": {
+        "plate_id": 0,
+        "edge_crack_risk": 0,
+        "max_edge_stress": 0,
+        "delamination_risk": 0,
+        "thermal_shock_risk": 0,
+        "overall_failure_risk": 0,
+        "measurement_snr": 0,
+        "stress_uniformity": 0,
+        "edge_quality": 0
+      },
+      "measurements": {
+        "plate_id": 0,
+        "mean_displacement_um": 0,
+        "std_displacement_um": 0,
+        "max_displacement_um": 0,
+        "min_displacement_um": 0,
+        "rms_displacement_um": 0
+      }
+    },
+    "outliers": {
+      "sintering_temp": {
+        "n_outliers": 3,
+        "outlier_fraction": 0.006
+      },
+      "sintering_time": {
+        "n_outliers": 0,
+        "outlier_fraction": 0.0
+      },
+      "cooling_rate": {
+        "n_outliers": 6,
+        "outlier_fraction": 0.012
+      },
+      "green_density": {
+        "n_outliers": 8,
+        "outlier_fraction": 0.016
+      },
+      "humidity": {
+        "n_outliers": 1,
+        "outlier_fraction": 0.002
+      }
+    },
+    "measurement_consistency": {
+      "extreme_displacements": {
+        "count": 0,
+        "fraction": 0.0
+      },
+      "snr_distribution": {
+        "count": 500.0,
+        "mean": 4.5266608471660295,
+        "std": 0.332514876158376,
+        "min": 3.568061703206086,
+        "25%": 4.289597121983916,
+        "50%": 4.5213993931014365,
+        "75%": 4.776721070223206,
+        "max": 5.358941599314428
+      }
+    },
+    "temporal_consistency": {
+      "dates_ordered": true,
+      "production_intervals": {
+        "mean_hours": 1.8745338918431305,
+        "std_hours": 5.426717476475876,
+        "min_hours": 0.5055221172222222,
+        "max_hours": 54.051460060833335,
+        "realistic": true
+      }
+    }
+  },
+  "manufacturing_correlations": {
+    "temperature_effects": {
+      "temp_vs_stress": 0.04084852023868361,
+      "temp_vs_displacement": 0.04537388422074746,
+      "temp_vs_edge_crack": NaN
+    },
+    "cooling_effects": {
+      "cooling_vs_thermal_shock": 0.8910781500662943,
+      "cooling_vs_displacement": 0.1905715994284158
+    },
+    "density_effects": {
+      "density_vs_delamination": -0.5871945290800206,
+      "density_vs_quality": 0.5652099486232719
+    },
+    "time_effects": {
+      "time_vs_failure_risk": 0.5401288609698917,
+      "time_vs_measurement_snr": 0.4343293657417615
+    },
+    "parameter_correlations": {
+      "sintering_temp": {
+        "sintering_temp": 1.0,
+        "sintering_time": 0.01848713316888334,
+        "cooling_rate": 0.03577936642544231,
+        "green_density": -0.018216530713669996,
+        "humidity": 0.0719080439247363
+      },
+      "sintering_time": {
+        "sintering_temp": 0.01848713316888334,
+        "sintering_time": 1.0,
+        "cooling_rate": 0.24520601068683637,
+        "green_density": 0.003194520782096962,
+        "humidity": 0.10179054716928944
+      },
+      "cooling_rate": {
+        "sintering_temp": 0.03577936642544231,
+        "sintering_time": 0.24520601068683637,
+        "cooling_rate": 1.0,
+        "green_density": 0.016400178736348588,
+        "humidity": 0.03950102673334902
+      },
+      "green_density": {
+        "sintering_temp": -0.018216530713669996,
+        "sintering_time": 0.003194520782096962,
+        "cooling_rate": 0.016400178736348588,
+        "green_density": 1.0,
+        "humidity": 0.012235990666957094
+      },
+      "humidity": {
+        "sintering_temp": 0.0719080439247363,
+        "sintering_time": 0.10179054716928944,
+        "cooling_rate": 0.03950102673334902,
+        "green_density": 0.012235990666957094,
+        "humidity": 1.0
+      }
+    }
+  }
+}
