@@ -1,0 +1,31 @@
+{
+  "jurisdiction": "New York",
+  "requirements": {
+    "energy_code": "IECC 2021 baseline with local amendments",
+    "envelope_U_values_Wm2K": {
+      "wall": 0.35,
+      "roof": 0.18,
+      "window": 1.6
+    },
+    "lighting_power_density_Wm2": 8.5,
+    "ventilation_standards": "ASHRAE 62.1-2019",
+    "emissions_policy": {
+      "name": "Local Law 97-like",
+      "threshold_kgco2e_m2_yr": 70,
+      "phasing": [
+        {
+          "start_year": 2024,
+          "threshold": 80
+        },
+        {
+          "start_year": 2030,
+          "threshold": 70
+        },
+        {
+          "start_year": 2035,
+          "threshold": 55
+        }
+      ]
+    }
+  }
+}
