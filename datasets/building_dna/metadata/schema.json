@@ -1,0 +1,20 @@
+{
+  "title": "Building Static & Fabric Data (DNA)",
+  "version": "1.0.0",
+  "description": "Schema for static building DNA dataset supporting digital-twin retrofit studies.",
+  "units": {
+    "length": "m",
+    "area": "m2",
+    "volume": "m3",
+    "u_value": "W/m2K"
+  },
+  "sections": [
+    "identity",
+    "geometry",
+    "fabric",
+    "systems",
+    "operations_assumptions",
+    "lca_summary",
+    "provenance"
+  ]
+}
