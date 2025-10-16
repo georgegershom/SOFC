@@ -1,0 +1,42 @@
+{
+  "name": "Dataset 4: In-The-Wild SOFC Warp/Stress",
+  "description": "Fabricated operational dataset with drift, noise, edge failure modes",
+  "target": "Predict in-plane residual stress fields from warp measurements",
+  "units": {
+    "stress": "MPa",
+    "warp": "meters",
+    "dimensions": "meters"
+  },
+  "material": {
+    "youngs_modulus_pa": 200000000000.0,
+    "poisson_ratio": 0.28,
+    "thickness_m": 0.0005
+  },
+  "config": {
+    "grid_size": 96,
+    "plate_length_m": 0.1,
+    "plate_width_m": 0.1,
+    "stress_range_mpa": [
+      -600.0,
+      600.0
+    ],
+    "drift_alpha": 0.97,
+    "drift_sigma": 10.0,
+    "edge_amp_mean_mpa": 120.0,
+    "edge_decay_len_ratio": 0.07,
+    "meas_noise_sigma": 5e-06,
+    "pink_noise_strength": 2e-06,
+    "gradient_factor_mean": 0.6,
+    "gradient_factor_std": 0.15,
+    "seed": 42
+  },
+  "splits": {
+    "train": 300,
+    "val": 60,
+    "test": 60
+  },
+  "created_at": "2025-10-16 00:47:26",
+  "seed": 42,
+  "license": "CC-BY-4.0",
+  "citation": "ML-Augmented Inverse Modeling for Residual Stress Quantification from Warped SOFC Plates"
+}
