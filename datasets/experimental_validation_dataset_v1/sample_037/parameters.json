@@ -1,0 +1,36 @@
+{
+  "anode": {
+    "name": "anode",
+    "thickness_um": 741.4060163535804,
+    "porosity": 0.2702031446099596,
+    "youngs_modulus_gpa": 97.94016841474256,
+    "poisson": 0.28474800317614885,
+    "cte_per_k": 1.2322286562537925e-05,
+    "shrinkage_strain": -0.01151511419277523
+  },
+  "electrolyte": {
+    "name": "electrolyte",
+    "thickness_um": 13.977625739332055,
+    "porosity": 0.2,
+    "youngs_modulus_gpa": 187.02690575582733,
+    "poisson": 0.26333224494511115,
+    "cte_per_k": 1.08525048462108e-05,
+    "shrinkage_strain": -0.007198449278880487
+  },
+  "cathode": {
+    "name": "cathode",
+    "thickness_um": 47.96389591897352,
+    "porosity": 0.21709726365396081,
+    "youngs_modulus_gpa": 167.21699837904296,
+    "poisson": 0.3051480098073924,
+    "cte_per_k": 1.348503288363012e-05,
+    "shrinkage_strain": -0.006526749841112038
+  },
+  "sinter_peak_c": 1397.4802485244206,
+  "dwell_minutes": 101.4203487256762,
+  "gradient_factor": 0.22096509960537625,
+  "anisotropy_strength": -0.1076832741155061,
+  "anisotropy_angle_rad": 5.340876543165797,
+  "local_waviness_um": 6.665848870636977,
+  "measurement_noise_level": 0.009895688590625121
+}

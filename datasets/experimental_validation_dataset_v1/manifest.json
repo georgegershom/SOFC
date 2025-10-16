@@ -1,0 +1,585 @@
+{
+  "dataset_name": "Experimental Validation Dataset (Reality Check)",
+  "version": 1,
+  "plate_size_mm": 50.0,
+  "grid_size": 256,
+  "num_samples": 40,
+  "units": {
+    "x_mm": "mm",
+    "y_mm": "mm",
+    "z_um": "micron",
+    "stress_mpa": "MPa"
+  },
+  "files": [
+    {
+      "sample_id": "sample_000",
+      "paths": {
+        "warp_height_map_um_npy": "sample_000/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_000/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_000/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_000/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_000/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_000/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_000/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_000/raman_surface_map.csv",
+        "parameters_json": "sample_000/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_001",
+      "paths": {
+        "warp_height_map_um_npy": "sample_001/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_001/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_001/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_001/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_001/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_001/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_001/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_001/raman_surface_map.csv",
+        "parameters_json": "sample_001/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_002",
+      "paths": {
+        "warp_height_map_um_npy": "sample_002/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_002/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_002/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_002/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_002/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_002/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_002/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_002/raman_surface_map.csv",
+        "parameters_json": "sample_002/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_003",
+      "paths": {
+        "warp_height_map_um_npy": "sample_003/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_003/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_003/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_003/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_003/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_003/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_003/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_003/raman_surface_map.csv",
+        "parameters_json": "sample_003/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_004",
+      "paths": {
+        "warp_height_map_um_npy": "sample_004/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_004/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_004/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_004/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_004/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_004/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_004/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_004/raman_surface_map.csv",
+        "parameters_json": "sample_004/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_005",
+      "paths": {
+        "warp_height_map_um_npy": "sample_005/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_005/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_005/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_005/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_005/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_005/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_005/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_005/raman_surface_map.csv",
+        "parameters_json": "sample_005/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_006",
+      "paths": {
+        "warp_height_map_um_npy": "sample_006/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_006/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_006/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_006/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_006/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_006/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_006/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_006/raman_surface_map.csv",
+        "parameters_json": "sample_006/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_007",
+      "paths": {
+        "warp_height_map_um_npy": "sample_007/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_007/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_007/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_007/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_007/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_007/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_007/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_007/raman_surface_map.csv",
+        "parameters_json": "sample_007/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_008",
+      "paths": {
+        "warp_height_map_um_npy": "sample_008/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_008/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_008/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_008/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_008/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_008/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_008/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_008/raman_surface_map.csv",
+        "parameters_json": "sample_008/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_009",
+      "paths": {
+        "warp_height_map_um_npy": "sample_009/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_009/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_009/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_009/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_009/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_009/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_009/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_009/raman_surface_map.csv",
+        "parameters_json": "sample_009/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_010",
+      "paths": {
+        "warp_height_map_um_npy": "sample_010/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_010/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_010/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_010/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_010/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_010/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_010/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_010/raman_surface_map.csv",
+        "parameters_json": "sample_010/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_011",
+      "paths": {
+        "warp_height_map_um_npy": "sample_011/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_011/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_011/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_011/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_011/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_011/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_011/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_011/raman_surface_map.csv",
+        "parameters_json": "sample_011/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_012",
+      "paths": {
+        "warp_height_map_um_npy": "sample_012/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_012/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_012/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_012/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_012/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_012/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_012/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_012/raman_surface_map.csv",
+        "parameters_json": "sample_012/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_013",
+      "paths": {
+        "warp_height_map_um_npy": "sample_013/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_013/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_013/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_013/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_013/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_013/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_013/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_013/raman_surface_map.csv",
+        "parameters_json": "sample_013/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_014",
+      "paths": {
+        "warp_height_map_um_npy": "sample_014/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_014/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_014/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_014/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_014/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_014/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_014/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_014/raman_surface_map.csv",
+        "parameters_json": "sample_014/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_015",
+      "paths": {
+        "warp_height_map_um_npy": "sample_015/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_015/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_015/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_015/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_015/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_015/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_015/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_015/raman_surface_map.csv",
+        "parameters_json": "sample_015/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_016",
+      "paths": {
+        "warp_height_map_um_npy": "sample_016/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_016/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_016/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_016/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_016/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_016/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_016/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_016/raman_surface_map.csv",
+        "parameters_json": "sample_016/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_017",
+      "paths": {
+        "warp_height_map_um_npy": "sample_017/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_017/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_017/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_017/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_017/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_017/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_017/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_017/raman_surface_map.csv",
+        "parameters_json": "sample_017/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_018",
+      "paths": {
+        "warp_height_map_um_npy": "sample_018/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_018/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_018/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_018/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_018/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_018/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_018/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_018/raman_surface_map.csv",
+        "parameters_json": "sample_018/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_019",
+      "paths": {
+        "warp_height_map_um_npy": "sample_019/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_019/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_019/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_019/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_019/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_019/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_019/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_019/raman_surface_map.csv",
+        "parameters_json": "sample_019/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_020",
+      "paths": {
+        "warp_height_map_um_npy": "sample_020/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_020/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_020/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_020/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_020/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_020/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_020/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_020/raman_surface_map.csv",
+        "parameters_json": "sample_020/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_021",
+      "paths": {
+        "warp_height_map_um_npy": "sample_021/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_021/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_021/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_021/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_021/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_021/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_021/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_021/raman_surface_map.csv",
+        "parameters_json": "sample_021/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_022",
+      "paths": {
+        "warp_height_map_um_npy": "sample_022/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_022/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_022/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_022/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_022/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_022/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_022/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_022/raman_surface_map.csv",
+        "parameters_json": "sample_022/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_023",
+      "paths": {
+        "warp_height_map_um_npy": "sample_023/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_023/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_023/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_023/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_023/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_023/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_023/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_023/raman_surface_map.csv",
+        "parameters_json": "sample_023/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_024",
+      "paths": {
+        "warp_height_map_um_npy": "sample_024/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_024/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_024/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_024/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_024/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_024/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_024/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_024/raman_surface_map.csv",
+        "parameters_json": "sample_024/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_025",
+      "paths": {
+        "warp_height_map_um_npy": "sample_025/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_025/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_025/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_025/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_025/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_025/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_025/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_025/raman_surface_map.csv",
+        "parameters_json": "sample_025/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_026",
+      "paths": {
+        "warp_height_map_um_npy": "sample_026/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_026/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_026/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_026/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_026/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_026/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_026/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_026/raman_surface_map.csv",
+        "parameters_json": "sample_026/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_027",
+      "paths": {
+        "warp_height_map_um_npy": "sample_027/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_027/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_027/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_027/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_027/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_027/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_027/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_027/raman_surface_map.csv",
+        "parameters_json": "sample_027/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_028",
+      "paths": {
+        "warp_height_map_um_npy": "sample_028/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_028/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_028/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_028/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_028/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_028/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_028/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_028/raman_surface_map.csv",
+        "parameters_json": "sample_028/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_029",
+      "paths": {
+        "warp_height_map_um_npy": "sample_029/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_029/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_029/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_029/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_029/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_029/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_029/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_029/raman_surface_map.csv",
+        "parameters_json": "sample_029/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_030",
+      "paths": {
+        "warp_height_map_um_npy": "sample_030/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_030/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_030/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_030/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_030/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_030/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_030/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_030/raman_surface_map.csv",
+        "parameters_json": "sample_030/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_031",
+      "paths": {
+        "warp_height_map_um_npy": "sample_031/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_031/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_031/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_031/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_031/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_031/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_031/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_031/raman_surface_map.csv",
+        "parameters_json": "sample_031/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_032",
+      "paths": {
+        "warp_height_map_um_npy": "sample_032/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_032/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_032/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_032/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_032/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_032/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_032/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_032/raman_surface_map.csv",
+        "parameters_json": "sample_032/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_033",
+      "paths": {
+        "warp_height_map_um_npy": "sample_033/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_033/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_033/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_033/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_033/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_033/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_033/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_033/raman_surface_map.csv",
+        "parameters_json": "sample_033/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_034",
+      "paths": {
+        "warp_height_map_um_npy": "sample_034/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_034/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_034/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_034/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_034/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_034/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_034/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_034/raman_surface_map.csv",
+        "parameters_json": "sample_034/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_035",
+      "paths": {
+        "warp_height_map_um_npy": "sample_035/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_035/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_035/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_035/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_035/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_035/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_035/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_035/raman_surface_map.csv",
+        "parameters_json": "sample_035/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_036",
+      "paths": {
+        "warp_height_map_um_npy": "sample_036/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_036/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_036/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_036/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_036/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_036/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_036/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_036/raman_surface_map.csv",
+        "parameters_json": "sample_036/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_037",
+      "paths": {
+        "warp_height_map_um_npy": "sample_037/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_037/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_037/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_037/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_037/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_037/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_037/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_037/raman_surface_map.csv",
+        "parameters_json": "sample_037/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_038",
+      "paths": {
+        "warp_height_map_um_npy": "sample_038/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_038/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_038/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_038/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_038/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_038/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_038/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_038/raman_surface_map.csv",
+        "parameters_json": "sample_038/parameters.json"
+      }
+    },
+    {
+      "sample_id": "sample_039",
+      "paths": {
+        "warp_height_map_um_npy": "sample_039/warp_height_map_um.npy",
+        "warp_point_cloud_ply": "sample_039/warp_point_cloud.ply",
+        "curvature_stoney_csv": "sample_039/curvature_stoney.csv",
+        "layer_removal_curvatures_csv": "sample_039/layer_removal_curvatures.csv",
+        "layer_removal_estimated_stress_profile_csv": "sample_039/layer_removal_estimated_stress_profile.csv",
+        "ground_truth_stress_profile_csv": "sample_039/ground_truth_stress_profile.csv",
+        "xrd_surface_map_csv": "sample_039/xrd_surface_map.csv",
+        "raman_surface_map_csv": "sample_039/raman_surface_map.csv",
+        "parameters_json": "sample_039/parameters.json"
+      }
+    }
+  ],
+  "modalities": [
+    "warp_height_map",
+    "point_cloud_ply",
+    "curvature_stoney",
+    "layer_removal",
+    "stress_profile_ground_truth",
+    "xrd_surface_map",
+    "raman_surface_map"
+  ],
+  "notes": "Synthetic dataset emulating experimental validation measurements for SOFC plates. Use warp maps as ML inputs and compare predicted stresses to destructive/point-wise measurements."
+}
