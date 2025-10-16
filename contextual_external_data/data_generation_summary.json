@@ -1,0 +1,92 @@
+{
+  "generation_info": {
+    "timestamp": "2025-10-16T23:11:55.678128",
+    "framework": "Dynamic Digital Twin Framework for Multi-Objective Building Retrofit Optimization",
+    "data_scope": "Contextual & External Data (The Ecosystem)",
+    "generator": "Synthetic Data Generator v1.0"
+  },
+  "data_categories": {
+    "weather_climate": {
+      "description": "Weather and climate data for building energy simulation",
+      "components": [
+        "TMY data",
+        "Climate projections"
+      ],
+      "temporal_coverage": "2023 baseline, 2050 projections",
+      "spatial_coverage": "New York City (representative)",
+      "resolution": "Hourly"
+    },
+    "economic_market": {
+      "description": "Economic and market data for retrofit cost-benefit analysis",
+      "components": [
+        "Energy prices",
+        "Material costs",
+        "Labor costs",
+        "Financial parameters"
+      ],
+      "temporal_coverage": "2015-2040",
+      "spatial_coverage": "United States (national/regional)",
+      "resolution": "Annual, with hourly TOU rates"
+    },
+    "geospatial_regulatory": {
+      "description": "Location-specific and regulatory data",
+      "components": [
+        "Location data",
+        "Carbon intensity",
+        "Building codes"
+      ],
+      "temporal_coverage": "2023 baseline",
+      "spatial_coverage": "5 major US cities, key grid regions",
+      "resolution": "City-level, hourly carbon intensity"
+    }
+  },
+  "key_features": [
+    "Hourly weather data with realistic seasonal/diurnal patterns",
+    "Climate change projections for future-proofing strategies",
+    "Time-of-use energy pricing with peak/off-peak rates",
+    "Comprehensive material and technology cost database",
+    "Regional labor costs by trade and skill level",
+    "Government incentives and financing options",
+    "Location-specific solar and shading analysis",
+    "Real-time grid carbon intensity for emissions optimization",
+    "Building code requirements by climate zone",
+    "Local emissions standards (NYC Local Law 97, Boston BERDO)"
+  ],
+  "data_volume": {
+    "total_files": 15,
+    "weather_records": 8760,
+    "carbon_intensity_records": 8760,
+    "energy_price_records": 54,
+    "material_cost_records": 10,
+    "labor_cost_records": 6,
+    "location_records": 5,
+    "building_code_records": 9
+  },
+  "integration_features": {
+    "unified_access": "Single API for all data categories",
+    "time_synchronization": "Consistent temporal alignment",
+    "spatial_consistency": "Coordinated geographic references",
+    "scenario_support": "Multiple climate and economic scenarios",
+    "real_time_capability": "Designed for live data integration"
+  },
+  "use_cases": [
+    "Building energy simulation and calibration",
+    "Retrofit measure cost-benefit analysis",
+    "Multi-objective optimization (energy, cost, emissions)",
+    "Climate resilience planning",
+    "Financial feasibility assessment",
+    "Regulatory compliance checking",
+    "Real-time operational optimization",
+    "Portfolio-level analysis and benchmarking"
+  ],
+  "next_steps": [
+    "Integrate with IoT sensors for real-time data",
+    "Implement machine learning for pattern recognition",
+    "Add more geographic regions and climate zones",
+    "Develop automated data refresh mechanisms",
+    "Create visualization dashboards",
+    "Implement uncertainty quantification",
+    "Add more detailed building archetypes",
+    "Integrate with BIM and digital twin platforms"
+  ]
+}

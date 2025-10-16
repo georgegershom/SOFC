@@ -1,0 +1,11 @@
+category,material_type,cost_per_unit,unit,r_value_per_inch,lifespan_years,year,location,currency,u_factor,efficiency_hspf,efficiency_cop,efficiency
+insulation,fiberglass_batt,1.25,sqft,3.2,30,2023,United States,USD,,,,
+insulation,spray_foam_closed,3.85,sqft,6.5,50,2023,United States,USD,,,,
+windows,double_pane_low_e,18.75,sqft,,30,2023,United States,USD,0.32,,,
+windows,triple_pane_high_performance,42.75,sqft,,40,2023,United States,USD,0.15,,,
+hvac,heat_pump_air_source,0.125,btu,,15,2023,United States,USD,,8.5,,
+hvac,heat_pump_ground_source,0.285,btu,,25,2023,United States,USD,,,4.2,
+solar,pv_residential_rooftop,3.25,watt,,25,2023,United States,USD,,,,0.2
+solar,pv_commercial_rooftop,2.85,watt,,25,2023,United States,USD,,,,0.21
+energy_storage,lithium_ion_residential,485.0,kwh,,15,2023,United States,USD,,,,0.95
+smart_building,building_automation_system,2.85,sqft,,15,2023,United States,USD,,,,

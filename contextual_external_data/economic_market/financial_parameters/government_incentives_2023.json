@@ -1,0 +1,22 @@
+{
+  "federal_tax_credits": {
+    "residential_solar_itc": {
+      "credit_rate": 0.3,
+      "expiration_year": 2032
+    },
+    "commercial_solar_itc": {
+      "credit_rate": 0.3,
+      "expiration_year": 2032
+    }
+  },
+  "state_programs": {
+    "california_sgip": {
+      "rebate_per_kwh": 200,
+      "max_rebate": 50000
+    },
+    "new_york_nyserda": {
+      "heat_pump_rebate": 1500,
+      "solar_rebate_per_watt": 0.4
+    }
+  }
+}
