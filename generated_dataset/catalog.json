@@ -1,0 +1,358 @@
+{
+  "building": "Demo Building",
+  "sampling": "15min",
+  "timezone": "UTC",
+  "start": "2024-01-01T00:00:00+00:00",
+  "end": "2025-01-01T00:00:00+00:00",
+  "zones": 6,
+  "sensors": [
+    {
+      "stream": "weather",
+      "field": "outdoor_temp_c",
+      "unit": "C",
+      "desc": "Outdoor air temperature"
+    },
+    {
+      "stream": "weather",
+      "field": "outdoor_rh_pct",
+      "unit": "%",
+      "desc": "Outdoor relative humidity"
+    },
+    {
+      "stream": "weather",
+      "field": "wind_speed_ms",
+      "unit": "m/s",
+      "desc": "Wind speed"
+    },
+    {
+      "stream": "weather",
+      "field": "wind_dir_deg",
+      "unit": "deg",
+      "desc": "Wind direction"
+    },
+    {
+      "stream": "weather",
+      "field": "rain_mm",
+      "unit": "mm",
+      "desc": "Rainfall depth"
+    },
+    {
+      "stream": "weather",
+      "field": "irradiance_wm2",
+      "unit": "W/m2",
+      "desc": "Global horizontal irradiance"
+    },
+    {
+      "stream": "occupancy",
+      "field": "occupants_total",
+      "unit": "people",
+      "desc": "Total occupant count"
+    },
+    {
+      "stream": "occupancy",
+      "field": "zone_1",
+      "unit": "people",
+      "desc": "Zone 1 occupants"
+    },
+    {
+      "stream": "utilization",
+      "field": "motion_zone_1",
+      "unit": "counts/15min",
+      "desc": "Zone 1 motion counts"
+    },
+    {
+      "stream": "utilization",
+      "field": "busy_zone_1",
+      "unit": "fraction",
+      "desc": "Zone 1 busy fraction"
+    },
+    {
+      "stream": "ieq",
+      "field": "co2_zone_1_ppm",
+      "unit": "ppm",
+      "desc": "Zone 1 CO2"
+    },
+    {
+      "stream": "occupancy",
+      "field": "zone_2",
+      "unit": "people",
+      "desc": "Zone 2 occupants"
+    },
+    {
+      "stream": "utilization",
+      "field": "motion_zone_2",
+      "unit": "counts/15min",
+      "desc": "Zone 2 motion counts"
+    },
+    {
+      "stream": "utilization",
+      "field": "busy_zone_2",
+      "unit": "fraction",
+      "desc": "Zone 2 busy fraction"
+    },
+    {
+      "stream": "ieq",
+      "field": "co2_zone_2_ppm",
+      "unit": "ppm",
+      "desc": "Zone 2 CO2"
+    },
+    {
+      "stream": "occupancy",
+      "field": "zone_3",
+      "unit": "people",
+      "desc": "Zone 3 occupants"
+    },
+    {
+      "stream": "utilization",
+      "field": "motion_zone_3",
+      "unit": "counts/15min",
+      "desc": "Zone 3 motion counts"
+    },
+    {
+      "stream": "utilization",
+      "field": "busy_zone_3",
+      "unit": "fraction",
+      "desc": "Zone 3 busy fraction"
+    },
+    {
+      "stream": "ieq",
+      "field": "co2_zone_3_ppm",
+      "unit": "ppm",
+      "desc": "Zone 3 CO2"
+    },
+    {
+      "stream": "occupancy",
+      "field": "zone_4",
+      "unit": "people",
+      "desc": "Zone 4 occupants"
+    },
+    {
+      "stream": "utilization",
+      "field": "motion_zone_4",
+      "unit": "counts/15min",
+      "desc": "Zone 4 motion counts"
+    },
+    {
+      "stream": "utilization",
+      "field": "busy_zone_4",
+      "unit": "fraction",
+      "desc": "Zone 4 busy fraction"
+    },
+    {
+      "stream": "ieq",
+      "field": "co2_zone_4_ppm",
+      "unit": "ppm",
+      "desc": "Zone 4 CO2"
+    },
+    {
+      "stream": "occupancy",
+      "field": "zone_5",
+      "unit": "people",
+      "desc": "Zone 5 occupants"
+    },
+    {
+      "stream": "utilization",
+      "field": "motion_zone_5",
+      "unit": "counts/15min",
+      "desc": "Zone 5 motion counts"
+    },
+    {
+      "stream": "utilization",
+      "field": "busy_zone_5",
+      "unit": "fraction",
+      "desc": "Zone 5 busy fraction"
+    },
+    {
+      "stream": "ieq",
+      "field": "co2_zone_5_ppm",
+      "unit": "ppm",
+      "desc": "Zone 5 CO2"
+    },
+    {
+      "stream": "occupancy",
+      "field": "zone_6",
+      "unit": "people",
+      "desc": "Zone 6 occupants"
+    },
+    {
+      "stream": "utilization",
+      "field": "motion_zone_6",
+      "unit": "counts/15min",
+      "desc": "Zone 6 motion counts"
+    },
+    {
+      "stream": "utilization",
+      "field": "busy_zone_6",
+      "unit": "fraction",
+      "desc": "Zone 6 busy fraction"
+    },
+    {
+      "stream": "ieq",
+      "field": "co2_zone_6_ppm",
+      "unit": "ppm",
+      "desc": "Zone 6 CO2"
+    },
+    {
+      "stream": "setpoints",
+      "field": "heating_sp_c",
+      "unit": "C",
+      "desc": "Heating setpoint"
+    },
+    {
+      "stream": "setpoints",
+      "field": "cooling_sp_c",
+      "unit": "C",
+      "desc": "Cooling setpoint"
+    },
+    {
+      "stream": "hvac",
+      "field": "supply_air_temp_c",
+      "unit": "C",
+      "desc": "Supply air temperature"
+    },
+    {
+      "stream": "hvac",
+      "field": "return_air_temp_c",
+      "unit": "C",
+      "desc": "Return air temperature"
+    },
+    {
+      "stream": "hvac",
+      "field": "fan_vfd_pct",
+      "unit": "%",
+      "desc": "Fan speed"
+    },
+    {
+      "stream": "hvac",
+      "field": "oa_damper_pct",
+      "unit": "%",
+      "desc": "Outside air damper"
+    },
+    {
+      "stream": "hvac",
+      "field": "chiller_status",
+      "unit": "0/1",
+      "desc": "Chiller status"
+    },
+    {
+      "stream": "hvac",
+      "field": "boiler_status",
+      "unit": "0/1",
+      "desc": "Boiler status"
+    },
+    {
+      "stream": "ieq",
+      "field": "zone_air_temp_c",
+      "unit": "C",
+      "desc": "Zone air temperature"
+    },
+    {
+      "stream": "ieq",
+      "field": "zone_rh_pct",
+      "unit": "%",
+      "desc": "Zone relative humidity"
+    },
+    {
+      "stream": "ieq",
+      "field": "illuminance_lux",
+      "unit": "lux",
+      "desc": "Illuminance"
+    },
+    {
+      "stream": "ieq",
+      "field": "noise_db",
+      "unit": "dB",
+      "desc": "Noise level"
+    },
+    {
+      "stream": "ieq",
+      "field": "pm25_ugm3",
+      "unit": "ug/m3",
+      "desc": "PM2.5"
+    },
+    {
+      "stream": "ieq",
+      "field": "pm10_ugm3",
+      "unit": "ug/m3",
+      "desc": "PM10"
+    },
+    {
+      "stream": "ieq",
+      "field": "tvoc_ppb",
+      "unit": "ppb",
+      "desc": "TVOC"
+    },
+    {
+      "stream": "energy_whole",
+      "field": "electricity_kwh",
+      "unit": "kWh/interval",
+      "desc": "Whole-building electricity"
+    },
+    {
+      "stream": "energy_whole",
+      "field": "gas_kwh",
+      "unit": "kWh/interval",
+      "desc": "Gas consumption"
+    },
+    {
+      "stream": "energy_whole",
+      "field": "water_m3",
+      "unit": "m3/interval",
+      "desc": "Water consumption"
+    },
+    {
+      "stream": "energy_whole",
+      "field": "district_cooling_kwh",
+      "unit": "kWh/interval",
+      "desc": "District cooling"
+    },
+    {
+      "stream": "energy_whole",
+      "field": "district_heating_kwh",
+      "unit": "kWh/interval",
+      "desc": "District heating"
+    },
+    {
+      "stream": "submeter",
+      "field": "hvac_chiller_kwh",
+      "unit": "kWh/interval",
+      "desc": "Chiller submeter"
+    },
+    {
+      "stream": "submeter",
+      "field": "hvac_fans_kwh",
+      "unit": "kWh/interval",
+      "desc": "Fans submeter"
+    },
+    {
+      "stream": "submeter",
+      "field": "hvac_pumps_kwh",
+      "unit": "kWh/interval",
+      "desc": "Pumps submeter"
+    },
+    {
+      "stream": "submeter",
+      "field": "lighting_kwh",
+      "unit": "kWh/interval",
+      "desc": "Lighting submeter"
+    },
+    {
+      "stream": "submeter",
+      "field": "plug_kwh",
+      "unit": "kWh/interval",
+      "desc": "Plug loads submeter"
+    },
+    {
+      "stream": "windows_blinds",
+      "field": "windows_open",
+      "unit": "0/1",
+      "desc": "Window open state"
+    },
+    {
+      "stream": "windows_blinds",
+      "field": "blinds_position_pct",
+      "unit": "%",
+      "desc": "Blinds position"
+    }
+  ]
+}
