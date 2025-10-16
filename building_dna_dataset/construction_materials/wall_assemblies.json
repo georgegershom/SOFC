@@ -1,0 +1,298 @@
+{
+  "wall_assemblies": [
+    {
+      "assembly_id": "EXT-WALL-01",
+      "assembly_name": "Original Exterior Wall - North/East/West",
+      "wall_type": "External",
+      "location": "North, East, West facades",
+      "construction_year": 1985,
+      "last_renovation": null,
+      "total_thickness_mm": 305,
+      "layers": [
+        {
+          "layer_number": 1,
+          "position": "Exterior",
+          "material": "Red Clay Brick",
+          "thickness_mm": 100,
+          "conductivity_w_mk": 0.77,
+          "density_kg_m3": 1920,
+          "specific_heat_j_kgk": 840,
+          "thermal_resistance_m2k_w": 0.130,
+          "embodied_carbon_kgco2_m2": 48.5,
+          "embodied_energy_mj_m2": 385
+        },
+        {
+          "layer_number": 2,
+          "position": "Mid-exterior",
+          "material": "Air Gap (ventilated)",
+          "thickness_mm": 25,
+          "conductivity_w_mk": 0.025,
+          "density_kg_m3": 1.2,
+          "specific_heat_j_kgk": 1005,
+          "thermal_resistance_m2k_w": 0.18,
+          "embodied_carbon_kgco2_m2": 0,
+          "embodied_energy_mj_m2": 0
+        },
+        {
+          "layer_number": 3,
+          "position": "Mid",
+          "material": "Fiberglass Batt Insulation (R-11)",
+          "thickness_mm": 90,
+          "conductivity_w_mk": 0.04,
+          "density_kg_m3": 12,
+          "specific_heat_j_kgk": 840,
+          "thermal_resistance_m2k_w": 2.25,
+          "embodied_carbon_kgco2_m2": 15.2,
+          "embodied_energy_mj_m2": 285
+        },
+        {
+          "layer_number": 4,
+          "position": "Mid-interior",
+          "material": "Plywood Sheathing",
+          "thickness_mm": 15,
+          "conductivity_w_mk": 0.13,
+          "density_kg_m3": 540,
+          "specific_heat_j_kgk": 1880,
+          "thermal_resistance_m2k_w": 0.115,
+          "embodied_carbon_kgco2_m2": 8.3,
+          "embodied_energy_mj_m2": 125
+        },
+        {
+          "layer_number": 5,
+          "position": "Mid-interior",
+          "material": "Metal Studs (150mm)",
+          "thickness_mm": 150,
+          "conductivity_w_mk": 45.0,
+          "density_kg_m3": 7850,
+          "specific_heat_j_kgk": 434,
+          "thermal_resistance_m2k_w": 0.003,
+          "thermal_bridging_factor": 0.85,
+          "embodied_carbon_kgco2_m2": 125,
+          "embodied_energy_mj_m2": 1850
+        },
+        {
+          "layer_number": 6,
+          "position": "Interior",
+          "material": "Gypsum Board",
+          "thickness_mm": 15,
+          "conductivity_w_mk": 0.25,
+          "density_kg_m3": 800,
+          "specific_heat_j_kgk": 1090,
+          "thermal_resistance_m2k_w": 0.06,
+          "embodied_carbon_kgco2_m2": 6.8,
+          "embodied_energy_mj_m2": 95
+        }
+      ],
+      "performance_characteristics": {
+        "u_value_w_m2k": 0.52,
+        "u_value_with_thermal_bridging_w_m2k": 0.61,
+        "r_value_m2k_w": 1.92,
+        "effective_r_value_m2k_w": 1.64,
+        "thermal_mass_kj_m2k": 145,
+        "moisture_permeability": "Medium",
+        "air_leakage_rating": "Poor",
+        "total_embodied_carbon_kgco2_m2": 203.8,
+        "total_embodied_energy_mj_m2": 2740,
+        "service_life_years": 60,
+        "current_age_years": 40,
+        "condition_rating": "Fair"
+      }
+    },
+    {
+      "assembly_id": "EXT-WALL-02",
+      "assembly_name": "Renovated Exterior Wall - South Facade",
+      "wall_type": "External",
+      "location": "South facade",
+      "construction_year": 1985,
+      "last_renovation": 2010,
+      "total_thickness_mm": 380,
+      "layers": [
+        {
+          "layer_number": 1,
+          "position": "Exterior",
+          "material": "Red Clay Brick",
+          "thickness_mm": 100,
+          "conductivity_w_mk": 0.77,
+          "density_kg_m3": 1920,
+          "specific_heat_j_kgk": 840,
+          "thermal_resistance_m2k_w": 0.130,
+          "embodied_carbon_kgco2_m2": 48.5,
+          "embodied_energy_mj_m2": 385
+        },
+        {
+          "layer_number": 2,
+          "position": "Mid-exterior",
+          "material": "XPS Insulation Board (added 2010)",
+          "thickness_mm": 50,
+          "conductivity_w_mk": 0.029,
+          "density_kg_m3": 35,
+          "specific_heat_j_kgk": 1450,
+          "thermal_resistance_m2k_w": 1.72,
+          "embodied_carbon_kgco2_m2": 28.5,
+          "embodied_energy_mj_m2": 485
+        },
+        {
+          "layer_number": 3,
+          "position": "Mid-exterior",
+          "material": "Air Gap (ventilated)",
+          "thickness_mm": 25,
+          "conductivity_w_mk": 0.025,
+          "density_kg_m3": 1.2,
+          "specific_heat_j_kgk": 1005,
+          "thermal_resistance_m2k_w": 0.18,
+          "embodied_carbon_kgco2_m2": 0,
+          "embodied_energy_mj_m2": 0
+        },
+        {
+          "layer_number": 4,
+          "position": "Mid",
+          "material": "Fiberglass Batt Insulation (R-11)",
+          "thickness_mm": 90,
+          "conductivity_w_mk": 0.04,
+          "density_kg_m3": 12,
+          "specific_heat_j_kgk": 840,
+          "thermal_resistance_m2k_w": 2.25,
+          "embodied_carbon_kgco2_m2": 15.2,
+          "embodied_energy_mj_m2": 285
+        },
+        {
+          "layer_number": 5,
+          "position": "Mid-interior",
+          "material": "Plywood Sheathing",
+          "thickness_mm": 15,
+          "conductivity_w_mk": 0.13,
+          "density_kg_m3": 540,
+          "specific_heat_j_kgk": 1880,
+          "thermal_resistance_m2k_w": 0.115,
+          "embodied_carbon_kgco2_m2": 8.3,
+          "embodied_energy_mj_m2": 125
+        },
+        {
+          "layer_number": 6,
+          "position": "Mid-interior",
+          "material": "Metal Studs (150mm)",
+          "thickness_mm": 150,
+          "conductivity_w_mk": 45.0,
+          "density_kg_m3": 7850,
+          "specific_heat_j_kgk": 434,
+          "thermal_resistance_m2k_w": 0.003,
+          "thermal_bridging_factor": 0.78,
+          "embodied_carbon_kgco2_m2": 125,
+          "embodied_energy_mj_m2": 1850
+        },
+        {
+          "layer_number": 7,
+          "position": "Interior",
+          "material": "Gypsum Board",
+          "thickness_mm": 15,
+          "conductivity_w_mk": 0.25,
+          "density_kg_m3": 800,
+          "specific_heat_j_kgk": 1090,
+          "thermal_resistance_m2k_w": 0.06,
+          "embodied_carbon_kgco2_m2": 6.8,
+          "embodied_energy_mj_m2": 95
+        }
+      ],
+      "performance_characteristics": {
+        "u_value_w_m2k": 0.28,
+        "u_value_with_thermal_bridging_w_m2k": 0.36,
+        "r_value_m2k_w": 3.57,
+        "effective_r_value_m2k_w": 2.78,
+        "thermal_mass_kj_m2k": 158,
+        "moisture_permeability": "Low",
+        "air_leakage_rating": "Good",
+        "total_embodied_carbon_kgco2_m2": 232.3,
+        "total_embodied_energy_mj_m2": 3225,
+        "service_life_years": 60,
+        "current_age_years": 40,
+        "renovation_age_years": 15,
+        "condition_rating": "Good"
+      }
+    },
+    {
+      "assembly_id": "INT-WALL-01",
+      "assembly_name": "Standard Interior Partition",
+      "wall_type": "Internal",
+      "location": "All interior partitions",
+      "construction_year": 1985,
+      "total_thickness_mm": 125,
+      "layers": [
+        {
+          "layer_number": 1,
+          "position": "Side A",
+          "material": "Gypsum Board",
+          "thickness_mm": 12,
+          "conductivity_w_mk": 0.25,
+          "density_kg_m3": 800,
+          "specific_heat_j_kgk": 1090,
+          "thermal_resistance_m2k_w": 0.048,
+          "embodied_carbon_kgco2_m2": 5.4,
+          "embodied_energy_mj_m2": 76
+        },
+        {
+          "layer_number": 2,
+          "position": "Core",
+          "material": "Metal Studs (100mm)",
+          "thickness_mm": 100,
+          "conductivity_w_mk": 45.0,
+          "density_kg_m3": 7850,
+          "specific_heat_j_kgk": 434,
+          "thermal_resistance_m2k_w": 0.002,
+          "embodied_carbon_kgco2_m2": 82,
+          "embodied_energy_mj_m2": 1220
+        },
+        {
+          "layer_number": 3,
+          "position": "Core",
+          "material": "Fiberglass Batt (for acoustics)",
+          "thickness_mm": 100,
+          "conductivity_w_mk": 0.04,
+          "density_kg_m3": 12,
+          "specific_heat_j_kgk": 840,
+          "thermal_resistance_m2k_w": 2.5,
+          "embodied_carbon_kgco2_m2": 16.8,
+          "embodied_energy_mj_m2": 315
+        },
+        {
+          "layer_number": 4,
+          "position": "Side B",
+          "material": "Gypsum Board",
+          "thickness_mm": 12,
+          "conductivity_w_mk": 0.25,
+          "density_kg_m3": 800,
+          "specific_heat_j_kgk": 1090,
+          "thermal_resistance_m2k_w": 0.048,
+          "embodied_carbon_kgco2_m2": 5.4,
+          "embodied_energy_mj_m2": 76
+        }
+      ],
+      "performance_characteristics": {
+        "u_value_w_m2k": 0.39,
+        "thermal_mass_kj_m2k": 42,
+        "stc_rating": 38,
+        "fire_rating_minutes": 60,
+        "total_embodied_carbon_kgco2_m2": 109.6,
+        "total_embodied_energy_mj_m2": 1687,
+        "condition_rating": "Good"
+      }
+    }
+  ],
+  "wall_inventory": {
+    "exterior_walls": {
+      "assembly_EXT_WALL_01": {
+        "area_m2": 2887.5,
+        "percentage": 75
+      },
+      "assembly_EXT_WALL_02": {
+        "area_m2": 962.5,
+        "percentage": 25
+      }
+    },
+    "interior_walls": {
+      "assembly_INT_WALL_01": {
+        "area_m2": 4850,
+        "length_m": 1820
+      }
+    }
+  }
+}

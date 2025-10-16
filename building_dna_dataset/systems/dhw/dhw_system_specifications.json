@@ -1,0 +1,223 @@
+{
+  "dhw_system_overview": {
+    "system_type": "Central gas-fired storage water heaters with recirculation",
+    "primary_fuel": "Natural Gas",
+    "distribution": "Copper piping with recirculation loop",
+    "total_capacity_l": 1135,
+    "annual_hot_water_demand_l": 875000,
+    "system_efficiency_annual": 0.65
+  },
+  "water_heaters": [
+    {
+      "heater_id": "WH-01",
+      "location": "Basement mechanical room - East",
+      "installation_year": 2008,
+      "manufacturer": "A.O. Smith",
+      "model": "BTH-300",
+      "serial_number": "AOS20080425A",
+      "type": "Storage tank - atmospheric",
+      "fuel_type": "Natural Gas",
+      "capacity": {
+        "storage_volume_l": 568,
+        "storage_volume_gallons": 150,
+        "input_rating_kw": 88,
+        "input_rating_btu_h": 300000,
+        "recovery_rate_gph_100f": 138,
+        "recovery_rate_l_h": 522,
+        "first_hour_rating_gph": 345,
+        "first_hour_rating_l": 1306
+      },
+      "efficiency": {
+        "energy_factor_rated": 0.62,
+        "energy_factor_current": 0.56,
+        "thermal_efficiency_percent": 82,
+        "standby_loss_percent_hour": 2.8,
+        "recovery_efficiency_percent": 78
+      },
+      "construction": {
+        "tank_material": "Glass-lined steel",
+        "insulation_type": "Polyurethane foam",
+        "insulation_r_value": 16,
+        "insulation_thickness_mm": 50,
+        "anode_rod": "Magnesium - replaced 2020",
+        "heat_exchanger": "Atmospheric burner"
+      },
+      "temperature_control": {
+        "setpoint_c": 60,
+        "aquastat_type": "Honeywell L6006C",
+        "high_limit_c": 82,
+        "mixing_valve": true,
+        "mixing_valve_setpoint_c": 49
+      },
+      "performance_monitoring": {
+        "current_age_years": 17,
+        "expected_lifespan_years": 15,
+        "condition_rating": "Fair - beyond design life",
+        "tank_corrosion": "Moderate",
+        "burner_condition": "Fair",
+        "flue_condition": "Good",
+        "recent_issues": "Pilot light issues 2023",
+        "maintenance_history": "Annual inspection"
+      },
+      "zones_served": ["Ground floor", "Floors 2-3"],
+      "average_daily_usage_l": 720
+    },
+    {
+      "heater_id": "WH-02",
+      "location": "Basement mechanical room - West",
+      "installation_year": 2008,
+      "manufacturer": "A.O. Smith",
+      "model": "BTH-300",
+      "serial_number": "AOS20080426B",
+      "type": "Storage tank - atmospheric",
+      "fuel_type": "Natural Gas",
+      "capacity": {
+        "storage_volume_l": 568,
+        "storage_volume_gallons": 150,
+        "input_rating_kw": 88,
+        "input_rating_btu_h": 300000,
+        "recovery_rate_gph_100f": 138,
+        "recovery_rate_l_h": 522,
+        "first_hour_rating_gph": 345,
+        "first_hour_rating_l": 1306
+      },
+      "efficiency": {
+        "energy_factor_rated": 0.62,
+        "energy_factor_current": 0.54,
+        "thermal_efficiency_percent": 80,
+        "standby_loss_percent_hour": 3.2,
+        "recovery_efficiency_percent": 76
+      },
+      "construction": {
+        "tank_material": "Glass-lined steel",
+        "insulation_type": "Polyurethane foam",
+        "insulation_r_value": 16,
+        "insulation_thickness_mm": 50,
+        "anode_rod": "Magnesium - needs replacement",
+        "heat_exchanger": "Atmospheric burner"
+      },
+      "temperature_control": {
+        "setpoint_c": 60,
+        "aquastat_type": "Honeywell L6006C",
+        "high_limit_c": 82,
+        "mixing_valve": true,
+        "mixing_valve_setpoint_c": 49
+      },
+      "performance_monitoring": {
+        "current_age_years": 17,
+        "expected_lifespan_years": 15,
+        "condition_rating": "Poor - beyond design life",
+        "tank_corrosion": "Significant - small leak detected",
+        "burner_condition": "Fair",
+        "flue_condition": "Good",
+        "recent_issues": "Minor tank leak at drain valve 2024",
+        "maintenance_history": "Annual inspection",
+        "replacement_priority": "High"
+      },
+      "zones_served": ["Floors 4-6"],
+      "average_daily_usage_l": 680
+    }
+  ],
+  "distribution_system": {
+    "piping": {
+      "supply_pipe_material": "Type L copper",
+      "supply_pipe_sizes_mm": [20, 25, 32, 40],
+      "return_pipe_material": "Type L copper",
+      "return_pipe_size_mm": 20,
+      "total_piping_length_m": 485,
+      "insulation": {
+        "material": "Fiberglass pipe wrap",
+        "thickness_mm": 25,
+        "r_value_m2k_w": 0.88,
+        "coverage_percent": 75,
+        "condition": "Fair - some damaged sections"
+      }
+    },
+    "recirculation_system": {
+      "pump_manufacturer": "Grundfos",
+      "pump_model": "UP 26-99",
+      "pump_power_w": 125,
+      "pump_flow_rate_l_min": 38,
+      "pump_installation_year": 2015,
+      "pump_control": "Timer - 6am to 6pm weekdays",
+      "pump_condition": "Good",
+      "system_losses_w": 2850,
+      "annual_recirculation_energy_kwh": 24960
+    },
+    "fixtures": {
+      "total_fixtures": 68,
+      "kitchen_sinks": 12,
+      "restroom_lavatories": 48,
+      "break_room_sinks": 8,
+      "flow_restrictors_installed": true,
+      "average_flow_rate_l_min": 5.7
+    }
+  },
+  "water_quality": {
+    "supply_water_source": "Municipal",
+    "water_hardness_mg_l": 185,
+    "water_hardness_grains": 10.8,
+    "ph": 7.4,
+    "chlorine_mg_l": 0.8,
+    "tds_mg_l": 245,
+    "water_treatment": {
+      "water_softener": false,
+      "scale_inhibitor": false,
+      "filtration": false
+    },
+    "scaling_issues": "Moderate - visible scale in tanks"
+  },
+  "energy_consumption": {
+    "annual_gas_consumption_m3": 12500,
+    "annual_gas_consumption_kwh": 125000,
+    "annual_electricity_consumption_kwh": 2190,
+    "standby_losses_kwh_year": 43750,
+    "distribution_losses_kwh_year": 24960,
+    "useful_energy_delivered_kwh_year": 56290,
+    "system_efficiency_delivered": 0.45
+  },
+  "retrofit_opportunities": {
+    "priority_1": {
+      "measure": "Replace both water heaters with high-efficiency condensing units",
+      "proposed_efficiency": 0.96,
+      "estimated_savings_kwh_year": 52500,
+      "estimated_cost_usd": 45000,
+      "simple_payback_years": 3.8,
+      "notes": "Current units beyond design life"
+    },
+    "priority_2": {
+      "measure": "Upgrade pipe insulation and repair recirculation controls",
+      "reduce_distribution_losses_percent": 40,
+      "estimated_savings_kwh_year": 9984,
+      "estimated_cost_usd": 12000,
+      "simple_payback_years": 2.5
+    },
+    "priority_3": {
+      "measure": "Install solar thermal pre-heat system",
+      "solar_fraction": 0.45,
+      "estimated_savings_kwh_year": 56250,
+      "estimated_cost_usd": 85000,
+      "simple_payback_years": 6.2,
+      "roof_area_required_m2": 45
+    },
+    "priority_4": {
+      "measure": "Heat pump water heater integration",
+      "cop_average": 3.2,
+      "estimated_savings_kwh_year": 78125,
+      "estimated_cost_usd": 65000,
+      "simple_payback_years": 4.1,
+      "notes": "Could use waste heat from server room"
+    }
+  },
+  "maintenance_schedule": {
+    "tank_inspection": "Annual",
+    "anode_rod_inspection": "Bi-annual",
+    "anode_rod_replacement": "Every 3-5 years",
+    "temperature_pressure_relief_valve_test": "Annual",
+    "burner_cleaning": "Annual",
+    "flue_inspection": "Annual",
+    "tank_flushing": "Annual",
+    "last_maintenance_date": "2024-03-15",
+    "next_scheduled_maintenance": "2025-03-15"
+  }
+}

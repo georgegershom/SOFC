@@ -1,0 +1,379 @@
+{
+  "hvac_system_overview": {
+    "system_type": "Multi-zone Rooftop VAV with Terminal Reheat",
+    "primary_fuel": "Natural Gas (heating) + Electric (cooling)",
+    "distribution": "Variable Air Volume (VAV)",
+    "control_system": "DDC (Direct Digital Control) - Installed 2010",
+    "zones_served": 6,
+    "total_capacity_heating_kw": 420,
+    "total_capacity_cooling_kw": 315,
+    "annual_runtime_hours": 3650
+  },
+  "rooftop_units": [
+    {
+      "unit_id": "RTU-01",
+      "location": "Roof - Northwest quadrant",
+      "zones_served": ["TZ-01", "TZ-02"],
+      "installation_year": 2005,
+      "manufacturer": "Trane",
+      "model": "Voyager II",
+      "serial_number": "T20050845A",
+      "capacity_heating": {
+        "rated_input_kw": 105,
+        "rated_output_kw": 92,
+        "fuel_type": "Natural Gas",
+        "afue": 0.80,
+        "modulation": "Single stage",
+        "heat_exchanger_type": "Aluminized steel tubular"
+      },
+      "capacity_cooling": {
+        "rated_capacity_tons": 25,
+        "rated_capacity_kw": 88,
+        "eer": 10.2,
+        "seer": 13.5,
+        "refrigerant_type": "R-410A",
+        "refrigerant_charge_kg": 24.5,
+        "compressor_type": "Scroll - single stage",
+        "compressor_quantity": 2
+      },
+      "airflow": {
+        "design_airflow_cfm": 10000,
+        "design_airflow_l_s": 4720,
+        "fan_type": "Centrifugal plenum",
+        "fan_motor_hp": 15,
+        "fan_motor_kw": 11.2,
+        "motor_efficiency": 0.91,
+        "vfd_equipped": true,
+        "vfd_installation_year": 2015,
+        "economizer": "Dry bulb",
+        "minimum_oa_percent": 15
+      },
+      "filtration": {
+        "filter_type": "MERV 8 pleated",
+        "filter_size": "24x24x2 inches",
+        "filter_quantity": 8,
+        "replacement_frequency_months": 3,
+        "pressure_drop_pa_clean": 75,
+        "pressure_drop_pa_dirty": 250
+      },
+      "performance_data": {
+        "current_age_years": 20,
+        "expected_lifespan_years": 20,
+        "condition_rating": "Fair",
+        "efficiency_degradation_percent": 15,
+        "current_eer": 8.7,
+        "current_afue": 0.72,
+        "annual_runtime_hours": 3200,
+        "maintenance_history": "Regular - quarterly"
+      },
+      "controls": {
+        "thermostat_type": "DDC networked",
+        "control_strategy": "Demand-based ventilation",
+        "setpoint_heating_c": 20,
+        "setpoint_cooling_c": 24,
+        "night_setback": true,
+        "optimal_start": true
+      }
+    },
+    {
+      "unit_id": "RTU-02",
+      "location": "Roof - Northeast quadrant",
+      "zones_served": ["TZ-03", "TZ-04"],
+      "installation_year": 2005,
+      "manufacturer": "Trane",
+      "model": "Voyager II",
+      "serial_number": "T20050846B",
+      "capacity_heating": {
+        "rated_input_kw": 105,
+        "rated_output_kw": 92,
+        "fuel_type": "Natural Gas",
+        "afue": 0.80,
+        "modulation": "Single stage",
+        "heat_exchanger_type": "Aluminized steel tubular"
+      },
+      "capacity_cooling": {
+        "rated_capacity_tons": 25,
+        "rated_capacity_kw": 88,
+        "eer": 10.2,
+        "seer": 13.5,
+        "refrigerant_type": "R-410A",
+        "refrigerant_charge_kg": 24.5,
+        "compressor_type": "Scroll - single stage",
+        "compressor_quantity": 2
+      },
+      "airflow": {
+        "design_airflow_cfm": 10000,
+        "design_airflow_l_s": 4720,
+        "fan_type": "Centrifugal plenum",
+        "fan_motor_hp": 15,
+        "fan_motor_kw": 11.2,
+        "motor_efficiency": 0.91,
+        "vfd_equipped": true,
+        "vfd_installation_year": 2015,
+        "economizer": "Dry bulb",
+        "minimum_oa_percent": 15
+      },
+      "filtration": {
+        "filter_type": "MERV 8 pleated",
+        "filter_size": "24x24x2 inches",
+        "filter_quantity": 8,
+        "replacement_frequency_months": 3,
+        "pressure_drop_pa_clean": 75,
+        "pressure_drop_pa_dirty": 250
+      },
+      "performance_data": {
+        "current_age_years": 20,
+        "expected_lifespan_years": 20,
+        "condition_rating": "Fair",
+        "efficiency_degradation_percent": 18,
+        "current_eer": 8.4,
+        "current_afue": 0.70,
+        "annual_runtime_hours": 3400,
+        "maintenance_history": "Regular - quarterly"
+      },
+      "controls": {
+        "thermostat_type": "DDC networked",
+        "control_strategy": "Demand-based ventilation",
+        "setpoint_heating_c": 20,
+        "setpoint_cooling_c": 24,
+        "night_setback": true,
+        "optimal_start": true
+      }
+    },
+    {
+      "unit_id": "RTU-03",
+      "location": "Roof - Southwest quadrant",
+      "zones_served": ["TZ-05"],
+      "installation_year": 2005,
+      "manufacturer": "Trane",
+      "model": "Voyager II",
+      "serial_number": "T20050847C",
+      "capacity_heating": {
+        "rated_input_kw": 105,
+        "rated_output_kw": 92,
+        "fuel_type": "Natural Gas",
+        "afue": 0.80,
+        "modulation": "Single stage",
+        "heat_exchanger_type": "Aluminized steel tubular"
+      },
+      "capacity_cooling": {
+        "rated_capacity_tons": 25,
+        "rated_capacity_kw": 88,
+        "eer": 10.2,
+        "seer": 13.5,
+        "refrigerant_type": "R-410A",
+        "refrigerant_charge_kg": 24.5,
+        "compressor_type": "Scroll - single stage",
+        "compressor_quantity": 2
+      },
+      "airflow": {
+        "design_airflow_cfm": 10000,
+        "design_airflow_l_s": 4720,
+        "fan_type": "Centrifugal plenum",
+        "fan_motor_hp": 15,
+        "fan_motor_kw": 11.2,
+        "motor_efficiency": 0.91,
+        "vfd_equipped": true,
+        "vfd_installation_year": 2015,
+        "economizer": "Dry bulb",
+        "minimum_oa_percent": 15
+      },
+      "filtration": {
+        "filter_type": "MERV 8 pleated",
+        "filter_size": "24x24x2 inches",
+        "filter_quantity": 8,
+        "replacement_frequency_months": 3,
+        "pressure_drop_pa_clean": 75,
+        "pressure_drop_pa_dirty": 250
+      },
+      "performance_data": {
+        "current_age_years": 20,
+        "expected_lifespan_years": 20,
+        "condition_rating": "Poor",
+        "efficiency_degradation_percent": 22,
+        "current_eer": 8.0,
+        "current_afue": 0.68,
+        "annual_runtime_hours": 3850,
+        "maintenance_history": "Regular - quarterly",
+        "recent_issues": "Refrigerant leak repaired 2023, compressor noise"
+      },
+      "controls": {
+        "thermostat_type": "DDC networked",
+        "control_strategy": "Demand-based ventilation",
+        "setpoint_heating_c": 20,
+        "setpoint_cooling_c": 24,
+        "night_setback": true,
+        "optimal_start": true
+      }
+    },
+    {
+      "unit_id": "RTU-04",
+      "location": "Roof - Southeast quadrant",
+      "zones_served": ["TZ-06"],
+      "installation_year": 2005,
+      "manufacturer": "Trane",
+      "model": "Voyager II",
+      "serial_number": "T20050848D",
+      "capacity_heating": {
+        "rated_input_kw": 105,
+        "rated_output_kw": 92,
+        "fuel_type": "Natural Gas",
+        "afue": 0.80,
+        "modulation": "Single stage",
+        "heat_exchanger_type": "Aluminized steel tubular"
+      },
+      "capacity_cooling": {
+        "rated_capacity_tons": 25,
+        "rated_capacity_kw": 88,
+        "eer": 10.2,
+        "seer": 13.5,
+        "refrigerant_type": "R-410A",
+        "refrigerant_charge_kg": 24.5,
+        "compressor_type": "Scroll - single stage",
+        "compressor_quantity": 2
+      },
+      "airflow": {
+        "design_airflow_cfm": 10000,
+        "design_airflow_l_s": 4720,
+        "fan_type": "Centrifugal plenum",
+        "fan_motor_hp": 15,
+        "fan_motor_kw": 11.2,
+        "motor_efficiency": 0.91,
+        "vfd_equipped": true,
+        "vfd_installation_year": 2015,
+        "economizer": "Dry bulb",
+        "minimum_oa_percent": 15
+      },
+      "filtration": {
+        "filter_type": "MERV 8 pleated",
+        "filter_size": "24x24x2 inches",
+        "filter_quantity": 8,
+        "replacement_frequency_months": 3,
+        "pressure_drop_pa_clean": 75,
+        "pressure_drop_pa_dirty": 250
+      },
+      "performance_data": {
+        "current_age_years": 20,
+        "expected_lifespan_years": 20,
+        "condition_rating": "Fair",
+        "efficiency_degradation_percent": 16,
+        "current_eer": 8.5,
+        "current_afue": 0.71,
+        "annual_runtime_hours": 3300,
+        "maintenance_history": "Regular - quarterly"
+      },
+      "controls": {
+        "thermostat_type": "DDC networked",
+        "control_strategy": "Demand-based ventilation",
+        "setpoint_heating_c": 20,
+        "setpoint_cooling_c": 24,
+        "night_setback": true,
+        "optimal_start": true
+      }
+    }
+  ],
+  "vav_boxes": [
+    {
+      "vav_id": "VAV-F1-01",
+      "type": "VAV with hot water reheat",
+      "zone": "TZ-01",
+      "manufacturer": "Krueger",
+      "model": "KVD-HC",
+      "installation_year": 2005,
+      "design_airflow_max_l_s": 1180,
+      "design_airflow_min_l_s": 295,
+      "turndown_ratio": 0.25,
+      "reheat_coil_capacity_kw": 8.5,
+      "reheat_type": "Hot water",
+      "damper_type": "Pressure independent",
+      "actuator": "Electronic",
+      "condition": "Good"
+    },
+    {
+      "vav_id": "VAV-F1-02",
+      "type": "VAV with hot water reheat",
+      "zone": "TZ-01",
+      "manufacturer": "Krueger",
+      "model": "KVD-HC",
+      "installation_year": 2005,
+      "design_airflow_max_l_s": 1180,
+      "design_airflow_min_l_s": 295,
+      "turndown_ratio": 0.25,
+      "reheat_coil_capacity_kw": 8.5,
+      "reheat_type": "Hot water",
+      "damper_type": "Pressure independent",
+      "actuator": "Electronic",
+      "condition": "Good"
+    }
+  ],
+  "ductwork": {
+    "supply_duct_material": "Galvanized steel",
+    "return_duct_material": "Galvanized steel",
+    "insulation": {
+      "supply_ducts": {
+        "material": "Fiberglass duct wrap",
+        "thickness_mm": 50,
+        "r_value_m2k_w": 1.76,
+        "condition": "Fair - some damaged sections"
+      },
+      "return_ducts": {
+        "material": "Fiberglass duct wrap",
+        "thickness_mm": 25,
+        "r_value_m2k_w": 0.88,
+        "condition": "Fair"
+      }
+    },
+    "duct_leakage": {
+      "estimated_leakage_percent": 15,
+      "last_test_date": "2018-04-12",
+      "test_method": "Duct Blaster",
+      "leakage_class": "Class 30 SMACNA (Poor)"
+    }
+  },
+  "building_automation_system": {
+    "bas_manufacturer": "Johnson Controls",
+    "bas_model": "Metasys",
+    "installation_year": 2010,
+    "last_upgrade": 2018,
+    "number_of_points": 385,
+    "network_protocol": "BACnet IP",
+    "trending_capability": true,
+    "remote_access": true,
+    "integration": {
+      "lighting_system": true,
+      "security_system": false,
+      "fire_alarm": true
+    }
+  },
+  "maintenance_history": {
+    "maintenance_contract": "Full service - quarterly inspections",
+    "service_provider": "ABC Mechanical Services",
+    "last_major_repair": "2023-08-15 - RTU-03 compressor replacement",
+    "filter_change_frequency": "Quarterly",
+    "coil_cleaning_frequency": "Annually",
+    "refrigerant_check_frequency": "Bi-annually"
+  },
+  "retrofit_opportunities": {
+    "priority_1": {
+      "measure": "Replace all 4 RTUs with high-efficiency units",
+      "estimated_seer": 18,
+      "estimated_afue": 0.95,
+      "estimated_savings_kwh_year": 95000,
+      "estimated_cost_usd": 380000,
+      "simple_payback_years": 6.8
+    },
+    "priority_2": {
+      "measure": "Duct sealing and insulation upgrade",
+      "reduce_leakage_to_percent": 5,
+      "estimated_savings_kwh_year": 28000,
+      "estimated_cost_usd": 45000,
+      "simple_payback_years": 3.2
+    },
+    "priority_3": {
+      "measure": "Advanced BAS controls with predictive algorithms",
+      "estimated_savings_kwh_year": 42000,
+      "estimated_cost_usd": 85000,
+      "simple_payback_years": 4.1
+    }
+  }
+}

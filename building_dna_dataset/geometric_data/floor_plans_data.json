@@ -1,0 +1,154 @@
+{
+  "floor_plans": [
+    {
+      "floor_id": "F2_GROUND",
+      "floor_number": 1,
+      "plan_file": "ground_floor_plan.dwg",
+      "spaces": [
+        {
+          "space_id": "GF-L01",
+          "space_name": "Main Lobby",
+          "area_m2": 245.5,
+          "perimeter_m": 68.2,
+          "function": "Circulation",
+          "occupancy_max": 50,
+          "ceiling_height_m": 3.5
+        },
+        {
+          "space_id": "GF-R01",
+          "space_name": "Retail Unit 1",
+          "area_m2": 185.3,
+          "perimeter_m": 56.8,
+          "function": "Retail",
+          "occupancy_max": 25,
+          "ceiling_height_m": 2.7
+        },
+        {
+          "space_id": "GF-R02",
+          "space_name": "Retail Unit 2",
+          "area_m2": 175.8,
+          "perimeter_m": 54.2,
+          "function": "Retail",
+          "occupancy_max": 22,
+          "ceiling_height_m": 2.7
+        },
+        {
+          "space_id": "GF-C01",
+          "space_name": "Coffee Shop",
+          "area_m2": 220.4,
+          "perimeter_m": 62.5,
+          "function": "Food Service",
+          "occupancy_max": 35,
+          "ceiling_height_m": 2.7
+        },
+        {
+          "space_id": "GF-S01",
+          "space_name": "Security Office",
+          "area_m2": 28.5,
+          "perimeter_m": 22.4,
+          "function": "Security",
+          "occupancy_max": 3,
+          "ceiling_height_m": 2.7
+        },
+        {
+          "space_id": "GF-M01",
+          "space_name": "Electrical Room",
+          "area_m2": 42.8,
+          "perimeter_m": 26.8,
+          "function": "Mechanical",
+          "occupancy_max": 2,
+          "ceiling_height_m": 2.7
+        }
+      ],
+      "dimensions": {
+        "length_m": 42.3,
+        "width_m": 33.3,
+        "total_area_m2": 1408.3
+      }
+    },
+    {
+      "floor_id": "F3_FIRST",
+      "floor_number": 2,
+      "plan_file": "first_floor_plan.dwg",
+      "spaces": [
+        {
+          "space_id": "F1-O01",
+          "space_name": "Open Office Area 1",
+          "area_m2": 385.6,
+          "perimeter_m": 82.4,
+          "function": "Office",
+          "occupancy_max": 48,
+          "ceiling_height_m": 2.7
+        },
+        {
+          "space_id": "F1-O02",
+          "space_name": "Open Office Area 2",
+          "area_m2": 365.2,
+          "perimeter_m": 78.6,
+          "function": "Office",
+          "occupancy_max": 45,
+          "ceiling_height_m": 2.7
+        },
+        {
+          "space_id": "F1-C01",
+          "space_name": "Conference Room 1",
+          "area_m2": 68.5,
+          "perimeter_m": 34.2,
+          "function": "Meeting",
+          "occupancy_max": 12,
+          "ceiling_height_m": 2.7
+        },
+        {
+          "space_id": "F1-C02",
+          "space_name": "Conference Room 2",
+          "area_m2": 58.3,
+          "perimeter_m": 31.4,
+          "function": "Meeting",
+          "occupancy_max": 10,
+          "ceiling_height_m": 2.7
+        },
+        {
+          "space_id": "F1-BR01",
+          "space_name": "Break Room",
+          "area_m2": 45.8,
+          "perimeter_m": 28.2,
+          "function": "Break Area",
+          "occupancy_max": 15,
+          "ceiling_height_m": 2.7
+        },
+        {
+          "space_id": "F1-S01",
+          "space_name": "Server Room",
+          "area_m2": 35.2,
+          "perimeter_m": 24.6,
+          "function": "IT",
+          "occupancy_max": 2,
+          "ceiling_height_m": 2.7
+        }
+      ],
+      "dimensions": {
+        "length_m": 42.3,
+        "width_m": 33.3,
+        "total_area_m2": 1408.3
+      }
+    }
+  ],
+  "typical_office_floor_layout": {
+    "description": "Floors 2-6 have similar layouts",
+    "common_spaces": {
+      "open_office_area_m2": 850,
+      "enclosed_offices_m2": 180,
+      "conference_rooms_m2": 145,
+      "break_rooms_m2": 48,
+      "restrooms_m2": 65,
+      "elevator_lobby_m2": 45,
+      "storage_m2": 35,
+      "mechanical_m2": 40
+    },
+    "workstation_density": {
+      "workstations_per_floor": 42,
+      "area_per_workstation_m2": 20.2,
+      "workstation_type": "Modular cubicle system"
+    }
+  }
+}

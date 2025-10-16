@@ -1,0 +1,310 @@
+{
+  "blower_door_test_history": [
+    {
+      "test_id": "BDT-2022-001",
+      "test_date": "2022-09-20",
+      "test_standard": "ASTM E779-19",
+      "testing_agency": "Energy Audit Solutions LLC",
+      "technician": "Michael Anderson, BPI Certified",
+      "weather_conditions": {
+        "outdoor_temperature_c": 18.5,
+        "indoor_temperature_c": 21.2,
+        "wind_speed_m_s": 3.2,
+        "wind_direction": "Northwest",
+        "barometric_pressure_pa": 101250
+      },
+      "test_setup": {
+        "test_type": "Building pressurization and depressurization",
+        "equipment": "Minneapolis Blower Door Model 4",
+        "fan_location": "Main entrance door",
+        "preparation": "All exterior doors and windows closed, interior doors open, HVAC system off"
+      },
+      "test_results": {
+        "building_volume_m3": 32490,
+        "envelope_surface_area_m2": 6540,
+        "floor_area_m2": 8450,
+        "test_pressure_pa": 50,
+        "air_flow_at_50pa_m3_h": 92400,
+        "air_flow_at_50pa_cfm": 54380,
+        "ach50": 2.84,
+        "air_leakage_per_envelope_area_m3_h_m2": 14.13,
+        "air_leakage_per_floor_area_m3_h_m2": 10.94,
+        "equivalent_leakage_area_cm2": 8450,
+        "equivalent_leakage_area_in2": 1310
+      },
+      "normalized_results": {
+        "ach_natural": 0.28,
+        "infiltration_rate_l_s_m2_at_4pa": 0.68,
+        "air_changes_per_hour_natural_conditions": 0.28,
+        "estimated_annual_infiltration_heat_loss_kwh": 45600
+      },
+      "pressure_mapping": [
+        {"pressure_pa": 10, "flow_m3_h": 41250, "flow_cfm": 24280},
+        {"pressure_pa": 20, "flow_m3_h": 58320, "flow_cfm": 34320},
+        {"pressure_pa": 30, "flow_m3_h": 71450, "flow_cfm": 42050},
+        {"pressure_pa": 40, "flow_m3_h": 82500, "flow_cfm": 48560},
+        {"pressure_pa": 50, "flow_m3_h": 92400, "flow_cfm": 54380},
+        {"pressure_pa": 60, "flow_m3_h": 101600, "flow_cfm": 59800}
+      ],
+      "leakage_coefficient": {
+        "c_value": 1847,
+        "n_value": 0.65,
+        "r_squared": 0.998
+      },
+      "major_leakage_areas_identified": [
+        {
+          "location": "Window perimeters - north facade",
+          "severity": "High",
+          "estimated_contribution_percent": 28,
+          "notes": "Poor window sealing, visible gaps"
+        },
+        {
+          "location": "Window perimeters - east facade",
+          "severity": "High",
+          "estimated_contribution_percent": 22,
+          "notes": "Original windows with failed weatherstripping"
+        },
+        {
+          "location": "Window perimeters - west facade",
+          "severity": "High",
+          "estimated_contribution_percent": 24,
+          "notes": "Original windows with failed weatherstripping"
+        },
+        {
+          "location": "Electrical penetrations through exterior walls",
+          "severity": "Medium",
+          "estimated_contribution_percent": 12,
+          "notes": "Unsealed conduit penetrations"
+        },
+        {
+          "location": "HVAC duct penetrations at roof",
+          "severity": "Medium",
+          "estimated_contribution_percent": 8,
+          "notes": "Inadequate sealing around roof curbs"
+        },
+        {
+          "location": "Loading dock doors",
+          "severity": "Low",
+          "estimated_contribution_percent": 4,
+          "notes": "Weatherstripping needs replacement"
+        },
+        {
+          "location": "Wall-to-roof junction",
+          "severity": "Low",
+          "estimated_contribution_percent": 2,
+          "notes": "Minor gaps at parapet"
+        }
+      ],
+      "comparison_to_standards": {
+        "ashrae_189_1_2020_requirement_ach50": 1.25,
+        "compliance": "Does not meet",
+        "iecc_2021_requirement_ach50": 1.5,
+        "compliance_iecc": "Does not meet",
+        "passivhaus_requirement_ach50": 0.6,
+        "compliance_passivhaus": "Does not meet"
+      }
+    },
+    {
+      "test_id": "BDT-2018-001",
+      "test_date": "2018-03-15",
+      "test_standard": "ASTM E779-10",
+      "testing_agency": "BuildTight Testing Inc",
+      "weather_conditions": {
+        "outdoor_temperature_c": 8.2,
+        "indoor_temperature_c": 20.5,
+        "wind_speed_m_s": 5.8,
+        "barometric_pressure_pa": 101580
+      },
+      "test_results": {
+        "building_volume_m3": 32490,
+        "test_pressure_pa": 50,
+        "air_flow_at_50pa_m3_h": 88200,
+        "ach50": 2.71,
+        "equivalent_leakage_area_cm2": 8050
+      },
+      "notes": "Test conducted before south facade window replacement in 2018. Shows slight improvement from 2022 test due to south facade renovations."
+    }
+  ],
+  "infrared_thermography_survey": {
+    "survey_id": "IR-2023-001",
+    "survey_date": "2023-11-08",
+    "survey_agency": "Thermal Imaging Diagnostics",
+    "technician": "Sarah Chen, Level II Thermographer",
+    "conditions": {
+      "outdoor_temperature_c": 2.5,
+      "indoor_temperature_c": 21.0,
+      "delta_t_c": 18.5,
+      "sky_conditions": "Clear night",
+      "wind_speed_m_s": 2.1
+    },
+    "camera_specifications": {
+      "manufacturer": "FLIR",
+      "model": "T1020",
+      "resolution": "1024x768",
+      "thermal_sensitivity_mk": 20,
+      "accuracy_c": 1
+    },
+    "thermal_anomalies_detected": [
+      {
+        "anomaly_id": "TA-001",
+        "location": "North facade - window frames",
+        "type": "Air leakage",
+        "severity": "High",
+        "temperature_differential_c": 8.5,
+        "estimated_heat_loss_w": 850,
+        "recommendation": "Window replacement or resealing"
+      },
+      {
+        "anomaly_id": "TA-002",
+        "location": "East facade - window frames",
+        "type": "Air leakage",
+        "severity": "High",
+        "temperature_differential_c": 7.8,
+        "estimated_heat_loss_w": 780,
+        "recommendation": "Window replacement"
+      },
+      {
+        "anomaly_id": "TA-003",
+        "location": "West facade - window frames",
+        "type": "Air leakage",
+        "severity": "High",
+        "temperature_differential_c": 9.2,
+        "estimated_heat_loss_w": 920,
+        "recommendation": "Window replacement - priority"
+      },
+      {
+        "anomaly_id": "TA-004",
+        "location": "Roof-wall junction - perimeter",
+        "type": "Thermal bridging",
+        "severity": "Medium",
+        "temperature_differential_c": 5.5,
+        "estimated_heat_loss_w": 420,
+        "recommendation": "Insulation enhancement at parapet"
+      },
+      {
+        "anomaly_id": "TA-005",
+        "location": "Basement wall - below grade",
+        "type": "Missing insulation",
+        "severity": "Medium",
+        "temperature_differential_c": 6.2,
+        "estimated_heat_loss_w": 580,
+        "recommendation": "Interior insulation application"
+      },
+      {
+        "anomaly_id": "TA-006",
+        "location": "North wall - electrical panel penetrations",
+        "type": "Air leakage",
+        "severity": "Low",
+        "temperature_differential_c": 3.5,
+        "estimated_heat_loss_w": 145,
+        "recommendation": "Seal penetrations"
+      },
+      {
+        "anomaly_id": "TA-007",
+        "location": "Roof HVAC curbs",
+        "type": "Air leakage",
+        "severity": "Medium",
+        "temperature_differential_c": 6.8,
+        "estimated_heat_loss_w": 520,
+        "recommendation": "Improve curb sealing and insulation"
+      },
+      {
+        "anomaly_id": "TA-008",
+        "location": "Loading dock area",
+        "type": "Air leakage at doors",
+        "severity": "Low",
+        "temperature_differential_c": 4.2,
+        "estimated_heat_loss_w": 280,
+        "recommendation": "Replace weatherstripping"
+      }
+    ],
+    "summary": {
+      "total_anomalies_detected": 47,
+      "high_severity": 15,
+      "medium_severity": 22,
+      "low_severity": 10,
+      "estimated_total_heat_loss_w": 4495,
+      "estimated_annual_energy_loss_kwh": 39400,
+      "estimated_annual_cost_usd": 4728
+    }
+  },
+  "compartmentalization_testing": {
+    "test_date": "2022-09-21",
+    "purpose": "Assess inter-floor and inter-zone air leakage",
+    "method": "Sequential floor pressurization with pressure monitoring",
+    "results": [
+      {
+        "zone": "Floor 2 to Floor 3",
+        "pressure_difference_pa": 8.5,
+        "air_leakage_m3_h": 2850,
+        "leakage_paths": ["Elevator shaft", "Stairwell doors", "Utility chases"]
+      },
+      {
+        "zone": "Floor 3 to Floor 4",
+        "pressure_difference_pa": 7.2,
+        "air_leakage_m3_h": 2420,
+        "leakage_paths": ["Elevator shaft", "Utility chases"]
+      },
+      {
+        "zone": "Basement to Floor 1",
+        "pressure_difference_pa": 12.5,
+        "air_leakage_m3_h": 4580,
+        "leakage_paths": ["Stairwell", "Elevator shaft", "Mechanical penetrations"],
+        "notes": "Highest inter-floor leakage"
+      }
+    ],
+    "findings": "Significant vertical air leakage through elevator shaft and utility chases. Recommend air sealing at floor penetrations."
+  },
+  "air_barrier_assessment": {
+    "assessment_date": "2022-09-20",
+    "air_barrier_system": "Continuous exterior sheathing with taped joints (renovated south facade only)",
+    "condition": {
+      "south_facade": "Good - recently renovated with proper air barrier",
+      "north_facade": "Poor - original construction, no continuous air barrier",
+      "east_facade": "Poor - original construction, deteriorated building paper",
+      "west_facade": "Poor - original construction, significant gaps",
+      "roof": "Fair - membrane provides barrier but penetrations not sealed properly"
+    },
+    "continuity_breaks": [
+      "Window and door rough openings (north, east, west)",
+      "Electrical and plumbing penetrations",
+      "HVAC duct penetrations at roof",
+      "Wall-to-roof transition (except south facade)",
+      "Foundation-to-wall transition"
+    ]
+  },
+  "recommended_air_sealing_measures": {
+    "priority_1": {
+      "measure": "Replace windows on north, east, and west facades",
+      "estimated_ach50_improvement": 1.2,
+      "estimated_cost_usd": 285000,
+      "estimated_annual_savings_kwh": 35000
+    },
+    "priority_2": {
+      "measure": "Seal all exterior wall penetrations (electrical, plumbing, HVAC)",
+      "estimated_ach50_improvement": 0.35,
+      "estimated_cost_usd": 15000,
+      "estimated_annual_savings_kwh": 8500
+    },
+    "priority_3": {
+      "measure": "Improve roof penetration sealing (HVAC curbs, vents)",
+      "estimated_ach50_improvement": 0.25,
+      "estimated_cost_usd": 12000,
+      "estimated_annual_savings_kwh": 6200
+    },
+    "priority_4": {
+      "measure": "Seal vertical shafts (elevator, stairs, utility chases)",
+      "estimated_ach50_improvement": 0.15,
+      "estimated_cost_usd": 22000,
+      "estimated_annual_savings_kwh": 4800
+    },
+    "combined_potential": {
+      "current_ach50": 2.84,
+      "achievable_ach50": 0.89,
+      "improvement_percent": 69,
+      "total_cost_usd": 334000,
+      "total_annual_savings_kwh": 54500,
+      "simple_payback_years": 6.1
+    }
+  }
+}

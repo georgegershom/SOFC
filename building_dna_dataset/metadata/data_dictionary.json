@@ -1,0 +1,498 @@
+{
+  "data_dictionary_version": "2024.1",
+  "last_updated": "2024-10-16",
+  "description": "Comprehensive data dictionary for Building DNA Dataset",
+  
+  "common_units": {
+    "length": "meters (m)",
+    "area": "square meters (m²)",
+    "volume": "cubic meters (m³)",
+    "temperature": "Celsius (°C)",
+    "energy": "kilowatt-hours (kWh)",
+    "power": "kilowatts (kW) or watts (W)",
+    "thermal_resistance": "m²K/W (R-value)",
+    "thermal_conductivity": "W/mK",
+    "u_value": "W/m²K",
+    "pressure": "Pascals (Pa)",
+    "flow_rate_air": "liters per second (l/s)",
+    "flow_rate_water": "liters per minute (l/min)",
+    "density": "kilograms per cubic meter (kg/m³)",
+    "specific_heat": "Joules per kilogram Kelvin (J/kgK)"
+  },
+
+  "field_definitions": {
+    "building_metadata": {
+      "building_id": {
+        "description": "Unique identifier for the building",
+        "type": "string",
+        "example": "BLD-DT-2025-001"
+      },
+      "latitude": {
+        "description": "Geographic latitude in decimal degrees",
+        "type": "float",
+        "range": [-90, 90],
+        "example": 42.3736
+      },
+      "longitude": {
+        "description": "Geographic longitude in decimal degrees",
+        "type": "float",
+        "range": [-180, 180],
+        "example": -71.1097
+      },
+      "gross_floor_area_m2": {
+        "description": "Total floor area including all spaces",
+        "type": "float",
+        "unit": "m²",
+        "example": 8450
+      },
+      "conditioned_floor_area_m2": {
+        "description": "Floor area that is heated and/or cooled",
+        "type": "float",
+        "unit": "m²",
+        "example": 7200
+      },
+      "eui_kwh_m2_year": {
+        "description": "Energy Use Intensity - annual energy per floor area",
+        "type": "float",
+        "unit": "kWh/m²/year",
+        "calculation": "annual_energy_kwh / gross_floor_area_m2",
+        "example": 163.8
+      }
+    },
+
+    "thermal_properties": {
+      "conductivity_w_mk": {
+        "description": "Thermal conductivity - rate of heat transfer through material",
+        "type": "float",
+        "unit": "W/mK",
+        "range": [0.001, 500],
+        "note": "Lower values indicate better insulation",
+        "example": 0.04
+      },
+      "u_value_w_m2k": {
+        "description": "Overall heat transfer coefficient (thermal transmittance)",
+        "type": "float",
+        "unit": "W/m²K",
+        "calculation": "1 / r_value",
+        "note": "Lower values indicate better insulation",
+        "example": 0.52
+      },
+      "r_value_m2k_w": {
+        "description": "Thermal resistance",
+        "type": "float",
+        "unit": "m²K/W",
+        "calculation": "sum of (thickness / conductivity) for each layer",
+        "note": "Higher values indicate better insulation",
+        "example": 1.92
+      },
+      "thermal_mass_kj_m2k": {
+        "description": "Heat storage capacity per unit area",
+        "type": "float",
+        "unit": "kJ/m²K",
+        "calculation": "sum of (thickness * density * specific_heat)",
+        "example": 145
+      },
+      "thermal_bridging_factor": {
+        "description": "Factor accounting for heat loss through structural elements",
+        "type": "float",
+        "range": [0, 1],
+        "note": "Multiplier applied to effective R-value, <1 reduces performance",
+        "example": 0.85
+      }
+    },
+
+    "window_properties": {
+      "u_value_center_glass_w_m2k": {
+        "description": "Heat transfer coefficient for center of glazing only",
+        "type": "float",
+        "unit": "W/m²K",
+        "example": 2.8
+      },
+      "u_value_total_w_m2k": {
+        "description": "Overall window U-value including frame and edge effects",
+        "type": "float",
+        "unit": "W/m²K",
+        "calculation": "area-weighted average of glass, frame, and edge",
+        "example": 3.6
+      },
+      "shgc": {
+        "description": "Solar Heat Gain Coefficient - fraction of solar radiation admitted",
+        "type": "float",
+        "range": [0, 1],
+        "note": "Higher values = more solar heat gain",
+        "example": 0.76
+      },
+      "visible_transmittance": {
+        "description": "Fraction of visible light transmitted (VT)",
+        "type": "float",
+        "range": [0, 1],
+        "note": "Higher values = more daylight",
+        "example": 0.81
+      },
+      "air_leakage_l_sm": {
+        "description": "Air leakage rate per meter of window perimeter",
+        "type": "float",
+        "unit": "l/s/m",
+        "test_condition": "75 Pa pressure difference",
+        "example": 4.5
+      }
+    },
+
+    "hvac_performance": {
+      "afue": {
+        "description": "Annual Fuel Utilization Efficiency for heating equipment",
+        "type": "float",
+        "range": [0, 1],
+        "note": "Ratio of useful heating output to fuel input over a year",
+        "example": 0.80
+      },
+      "eer": {
+        "description": "Energy Efficiency Ratio for cooling equipment",
+        "type": "float",
+        "unit": "Btu/Wh",
+        "calculation": "cooling_capacity_btu_h / power_input_w",
+        "conversion": "EER = COP * 3.412",
+        "example": 10.2
+      },
+      "cop": {
+        "description": "Coefficient of Performance",
+        "type": "float",
+        "calculation": "useful_output / energy_input (same units)",
+        "note": "For heating: COP = heat_delivered / electricity_input",
+        "example": 3.0
+      },
+      "seer": {
+        "description": "Seasonal Energy Efficiency Ratio for cooling",
+        "type": "float",
+        "unit": "Btu/Wh",
+        "note": "Average efficiency over a typical cooling season",
+        "example": 13.5
+      },
+      "vfd_equipped": {
+        "description": "Variable Frequency Drive present for fan speed control",
+        "type": "boolean",
+        "note": "true = energy savings through modulation",
+        "example": true
+      }
+    },
+
+    "air_tightness": {
+      "ach50": {
+        "description": "Air Changes per Hour at 50 Pascals pressure difference",
+        "type": "float",
+        "unit": "1/h",
+        "calculation": "flow_at_50pa_m3_h / building_volume_m3",
+        "standards": {
+          "passivhaus": 0.6,
+          "iecc_2021": 1.5,
+          "ashrae_189_1": 1.25
+        },
+        "example": 2.84
+      },
+      "equivalent_leakage_area_cm2": {
+        "description": "Equivalent area of a single hole with same leakage as building",
+        "type": "float",
+        "unit": "cm²",
+        "note": "Normalized to 4 Pa pressure difference",
+        "example": 8450
+      },
+      "c_value": {
+        "description": "Flow coefficient in power law leakage equation Q = C * ΔP^n",
+        "type": "float",
+        "unit": "m³/h/Pa^n",
+        "example": 1847
+      },
+      "n_value": {
+        "description": "Pressure exponent in power law leakage equation",
+        "type": "float",
+        "range": [0.5, 1.0],
+        "typical": 0.65,
+        "note": "0.5 = turbulent flow, 1.0 = laminar flow",
+        "example": 0.65
+      }
+    },
+
+    "environmental_data": {
+      "embodied_carbon_kgco2": {
+        "description": "CO2 equivalent emissions from material production",
+        "type": "float",
+        "unit": "kgCO2e per unit (m², m³, or kg)",
+        "scope": "Cradle-to-gate (A1-A3)",
+        "example": 48.5
+      },
+      "embodied_energy_mj": {
+        "description": "Primary energy consumed in material production",
+        "type": "float",
+        "unit": "MJ per unit (m², m³, or kg)",
+        "example": 385
+      },
+      "recyclability_percent": {
+        "description": "Percentage of material that can be recycled at end-of-life",
+        "type": "float",
+        "range": [0, 100],
+        "example": 75
+      },
+      "service_life_years": {
+        "description": "Expected service life under normal conditions",
+        "type": "integer",
+        "unit": "years",
+        "example": 50
+      }
+    },
+
+    "lighting": {
+      "lpd_w_m2": {
+        "description": "Lighting Power Density",
+        "type": "float",
+        "unit": "W/m²",
+        "calculation": "total_lighting_watts / floor_area_m2",
+        "benchmark_ashrae_90_1_2019_office": 9.7,
+        "example": 19.8
+      },
+      "efficacy_lm_w": {
+        "description": "Luminous efficacy - light output per unit power",
+        "type": "float",
+        "unit": "lumens/watt",
+        "ranges": {
+          "incandescent": [10, 17],
+          "fluorescent_t8": [80, 100],
+          "led": [80, 150]
+        },
+        "example": 95
+      },
+      "cri": {
+        "description": "Color Rendering Index - quality of color representation",
+        "type": "integer",
+        "range": [0, 100],
+        "note": "Higher values = better color rendering, 100 = natural sunlight",
+        "example": 80
+      },
+      "color_temperature_k": {
+        "description": "Correlated color temperature",
+        "type": "integer",
+        "unit": "Kelvin",
+        "ranges": {
+          "warm_white": [2700, 3000],
+          "neutral_white": [3500, 4100],
+          "cool_white": [5000, 6500]
+        },
+        "example": 4000
+      }
+    },
+
+    "energy_performance": {
+      "cv_rmse_percent": {
+        "description": "Coefficient of Variation of Root Mean Square Error",
+        "type": "float",
+        "unit": "percent",
+        "calculation": "100 * RMSE / mean_measured_value",
+        "ashrae_guideline_14_limit_monthly": 15,
+        "ashrae_guideline_14_limit_hourly": 30,
+        "example": 8.5
+      },
+      "nmbe_percent": {
+        "description": "Normalized Mean Bias Error",
+        "type": "float",
+        "unit": "percent",
+        "calculation": "100 * sum(measured - simulated) / sum(measured)",
+        "ashrae_guideline_14_limit_monthly": 5,
+        "ashrae_guideline_14_limit_hourly": 10,
+        "note": "Positive = model under-predicts, Negative = over-predicts",
+        "example": -3.2
+      }
+    },
+
+    "solar_energy": {
+      "dni_kwh_m2": {
+        "description": "Direct Normal Irradiance",
+        "type": "float",
+        "unit": "kWh/m²",
+        "note": "Solar radiation perpendicular to sun's rays",
+        "example": 1680
+      },
+      "dhi_kwh_m2": {
+        "description": "Diffuse Horizontal Irradiance",
+        "type": "float",
+        "unit": "kWh/m²",
+        "note": "Scattered solar radiation on horizontal surface",
+        "example": 580
+      },
+      "ghi_kwh_m2": {
+        "description": "Global Horizontal Irradiance",
+        "type": "float",
+        "unit": "kWh/m²",
+        "calculation": "DNI * cos(zenith) + DHI",
+        "note": "Total solar radiation on horizontal surface",
+        "example": 1450
+      },
+      "specific_yield_kwh_kwp": {
+        "description": "Annual energy production per kW of installed PV capacity",
+        "type": "float",
+        "unit": "kWh/kWp/year",
+        "typical_range_massachusetts": [1200, 1400],
+        "example": 1331
+      },
+      "performance_ratio": {
+        "description": "Ratio of actual to theoretical PV energy production",
+        "type": "float",
+        "range": [0, 1],
+        "typical_range": [0.75, 0.85],
+        "factors": ["Temperature", "Shading", "Soiling", "System losses"],
+        "example": 0.82
+      }
+    },
+
+    "occupancy": {
+      "occupancy_density_people_m2": {
+        "description": "Number of people per unit floor area",
+        "type": "float",
+        "unit": "people/m²",
+        "ashrae_62_1_office_default": 0.054,
+        "example": 0.0315
+      },
+      "metabolic_rate_w_person": {
+        "description": "Heat generation per person (sensible + latent)",
+        "type": "float",
+        "unit": "W/person",
+        "ashrae_values": {
+          "seated_office_work": 130,
+          "standing_light_work": 165,
+          "moderate_activity": 250
+        },
+        "example": 130
+      }
+    },
+
+    "iot_sensors": {
+      "sampling_rate_s": {
+        "description": "Time interval between sensor measurements",
+        "type": "integer",
+        "unit": "seconds",
+        "example": 60
+      },
+      "accuracy": {
+        "description": "Maximum expected deviation from true value",
+        "type": "float",
+        "note": "Units vary by sensor type (°C, %, Pa, etc.)",
+        "example": 0.2
+      },
+      "communication_protocol": {
+        "description": "Data transmission protocol",
+        "type": "string",
+        "options": ["BACnet/IP", "Modbus TCP", "MQTT", "Zigbee", "LoRaWAN"],
+        "example": "BACnet/IP"
+      }
+    }
+  },
+
+  "calculation_methods": {
+    "wall_u_value": {
+      "formula": "U = 1 / (R_si + R_layers + R_se)",
+      "where": {
+        "R_si": "Interior surface resistance (0.13 m²K/W)",
+        "R_layers": "Sum of (thickness / conductivity) for all layers",
+        "R_se": "Exterior surface resistance (0.04 m²K/W)"
+      },
+      "thermal_bridging_adjustment": "U_effective = U_clear * (1 + thermal_bridging_factor)"
+    },
+    
+    "window_to_wall_ratio": {
+      "formula": "WWR = window_area / (window_area + opaque_wall_area)",
+      "note": "Calculated per facade orientation"
+    },
+
+    "infiltration_energy_loss": {
+      "formula": "Q = 0.33 * V * ACH_natural * ΔT * hours",
+      "where": {
+        "0.33": "Volumetric heat capacity of air (Wh/m³K)",
+        "V": "Building volume (m³)",
+        "ACH_natural": "Air changes per hour at natural conditions",
+        "ΔT": "Indoor-outdoor temperature difference (K)",
+        "hours": "Hours in period"
+      }
+    },
+
+    "simple_payback": {
+      "formula": "Payback = net_investment / annual_savings",
+      "where": {
+        "net_investment": "Total cost minus incentives/rebates ($)",
+        "annual_savings": "First-year energy cost savings ($/year)"
+      }
+    },
+
+    "npv": {
+      "formula": "NPV = Σ(Cash_Flow_t / (1 + r)^t) - Initial_Investment",
+      "where": {
+        "r": "Discount rate (typically 0.03 to 0.07)",
+        "t": "Year (0 to analysis period)",
+        "Cash_Flow_t": "Net cash flow in year t"
+      }
+    }
+  },
+
+  "abbreviations": {
+    "ACH": "Air Changes per Hour",
+    "AFUE": "Annual Fuel Utilization Efficiency",
+    "ASHRAE": "American Society of Heating, Refrigerating and Air-Conditioning Engineers",
+    "BAS": "Building Automation System",
+    "BIM": "Building Information Modeling",
+    "COP": "Coefficient of Performance",
+    "DDC": "Direct Digital Control",
+    "DHW": "Domestic Hot Water",
+    "DX": "Direct Expansion (refrigerant-based cooling)",
+    "EER": "Energy Efficiency Ratio",
+    "EPDM": "Ethylene Propylene Diene Monomer (rubber roofing)",
+    "EUI": "Energy Use Intensity",
+    "HVAC": "Heating, Ventilation, and Air Conditioning",
+    "IAQ": "Indoor Air Quality",
+    "IFC": "Industry Foundation Classes",
+    "IR": "Infrared",
+    "LCA": "Life-Cycle Assessment",
+    "LED": "Light-Emitting Diode",
+    "LiDAR": "Light Detection and Ranging",
+    "LOD": "Level of Development (BIM)",
+    "LPD": "Lighting Power Density",
+    "NMBE": "Normalized Mean Bias Error",
+    "NPV": "Net Present Value",
+    "PIR": "Passive Infrared",
+    "PV": "Photovoltaic",
+    "RTU": "Rooftop Unit",
+    "SEER": "Seasonal Energy Efficiency Ratio",
+    "SHGC": "Solar Heat Gain Coefficient",
+    "VAV": "Variable Air Volume",
+    "VFD": "Variable Frequency Drive",
+    "VOC": "Volatile Organic Compound",
+    "VT": "Visible Transmittance",
+    "WWR": "Window-to-Wall Ratio",
+    "XPS": "Extruded Polystyrene (rigid foam insulation)"
+  },
+
+  "data_quality_flags": {
+    "measured": "Data from direct measurement/monitoring",
+    "calculated": "Derived from other measured values",
+    "estimated": "Engineering estimate based on similar buildings",
+    "manufacturer_rated": "From equipment nameplate or spec sheet",
+    "degraded": "Measured performance showing degradation from rated",
+    "assumed": "Assumed value pending verification"
+  },
+
+  "validation_rules": {
+    "u_value_range": {
+      "walls": [0.15, 3.0],
+      "roofs": [0.10, 2.0],
+      "windows": [0.8, 6.0],
+      "note": "Values outside range should be verified"
+    },
+    "efficiency_range": {
+      "gas_furnace_afue": [0.55, 0.98],
+      "dx_cooling_eer": [8, 22],
+      "dhw_energy_factor": [0.50, 0.95]
+    },
+    "temperature_setpoints": {
+      "heating_min_c": 15,
+      "heating_max_c": 23,
+      "cooling_min_c": 22,
+      "cooling_max_c": 28
+    }
+  }
+}

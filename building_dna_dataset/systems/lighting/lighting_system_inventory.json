@@ -1,0 +1,400 @@
+{
+  "lighting_system_overview": {
+    "total_fixtures": 1850,
+    "total_installed_power_kw": 142.5,
+    "lighting_power_density_w_m2": 19.8,
+    "annual_lighting_energy_kwh": 285000,
+    "control_systems": ["Manual switches", "Occupancy sensors (partial)", "Daylight harvesting (south facade only)"],
+    "last_major_upgrade": 2016
+  },
+  "fixture_types": [
+    {
+      "fixture_id": "FIX-LED-01",
+      "fixture_type": "LED Troffer 2x4",
+      "manufacturer": "Lithonia",
+      "model": "2GT8 4 40L ADP EZ1 LP840",
+      "installation_year": 2016,
+      "quantity": 485,
+      "locations": ["Office floors - open areas"],
+      "lamp_specifications": {
+        "lamp_type": "Integrated LED",
+        "color_temperature_k": 4000,
+        "cri": 80,
+        "rated_lumens": 4000,
+        "current_lumens": 3600,
+        "lumen_depreciation_percent": 10
+      },
+      "electrical": {
+        "wattage_rated": 40,
+        "wattage_actual": 42,
+        "voltage": 120,
+        "ballast_driver": "Electronic LED driver",
+        "driver_efficiency": 0.92,
+        "power_factor": 0.95
+      },
+      "performance": {
+        "efficacy_lm_w": 95,
+        "current_efficacy_lm_w": 86,
+        "rated_life_hours": 50000,
+        "operating_hours": 18500,
+        "remaining_life_percent": 63
+      },
+      "controls": {
+        "dimming_capable": true,
+        "dimming_protocol": "0-10V",
+        "occupancy_sensor": true,
+        "daylight_sensor": false,
+        "networked": false
+      },
+      "energy_consumption": {
+        "annual_runtime_hours": 2850,
+        "annual_energy_kwh_per_fixture": 119.7,
+        "total_annual_energy_kwh": 58054
+      },
+      "condition": "Good",
+      "maintenance_notes": "LED driver failures increasing"
+    },
+    {
+      "fixture_id": "FIX-LED-02",
+      "fixture_type": "LED Downlight 6-inch",
+      "manufacturer": "Cooper",
+      "model": "RA6069WH",
+      "installation_year": 2016,
+      "quantity": 285,
+      "locations": ["Corridors", "Restrooms", "Break rooms"],
+      "lamp_specifications": {
+        "lamp_type": "Integrated LED",
+        "color_temperature_k": 3500,
+        "cri": 90,
+        "rated_lumens": 850,
+        "current_lumens": 790,
+        "lumen_depreciation_percent": 7
+      },
+      "electrical": {
+        "wattage_rated": 12,
+        "wattage_actual": 13,
+        "voltage": 120,
+        "ballast_driver": "Electronic LED driver",
+        "driver_efficiency": 0.88,
+        "power_factor": 0.92
+      },
+      "performance": {
+        "efficacy_lm_w": 71,
+        "current_efficacy_lm_w": 61,
+        "rated_life_hours": 50000,
+        "operating_hours": 21500,
+        "remaining_life_percent": 57
+      },
+      "controls": {
+        "dimming_capable": false,
+        "occupancy_sensor": true,
+        "daylight_sensor": false,
+        "networked": false
+      },
+      "energy_consumption": {
+        "annual_runtime_hours": 3200,
+        "annual_energy_kwh_per_fixture": 41.6,
+        "total_annual_energy_kwh": 11856
+      },
+      "condition": "Good",
+      "maintenance_notes": "Occasional flicker reported"
+    },
+    {
+      "fixture_id": "FIX-FL-01",
+      "fixture_type": "Fluorescent Troffer 2x4 (T8)",
+      "manufacturer": "Lithonia",
+      "model": "2RT8 32 120 MVOLT GEB10IS",
+      "installation_year": 1985,
+      "last_relamped": 2018,
+      "quantity": 620,
+      "locations": ["Ground floor retail", "Basement", "Some office areas"],
+      "lamp_specifications": {
+        "lamp_type": "T8 Fluorescent",
+        "lamp_quantity_per_fixture": 4,
+        "color_temperature_k": 4100,
+        "cri": 82,
+        "rated_lumens_per_lamp": 2850,
+        "current_lumens_per_lamp": 2280,
+        "lumen_depreciation_percent": 20
+      },
+      "electrical": {
+        "wattage_per_lamp": 32,
+        "wattage_ballast": 8,
+        "wattage_total": 136,
+        "voltage": 120,
+        "ballast_type": "Electronic instant start",
+        "ballast_factor": 0.88,
+        "power_factor": 0.98
+      },
+      "performance": {
+        "efficacy_lm_w": 84,
+        "current_efficacy_lm_w": 67,
+        "rated_lamp_life_hours": 30000,
+        "operating_hours": 24000,
+        "lamp_remaining_life_percent": 20
+      },
+      "controls": {
+        "dimming_capable": false,
+        "occupancy_sensor": false,
+        "daylight_sensor": false,
+        "networked": false,
+        "switch_control_only": true
+      },
+      "energy_consumption": {
+        "annual_runtime_hours": 3850,
+        "annual_energy_kwh_per_fixture": 523.6,
+        "total_annual_energy_kwh": 324632
+      },
+      "condition": "Fair - aging, frequent lamp failures",
+      "maintenance_notes": "High maintenance cost, ballast failures increasing",
+      "retrofit_priority": "High"
+    },
+    {
+      "fixture_id": "FIX-INC-01",
+      "fixture_type": "Incandescent A-lamp",
+      "installation_year": 1985,
+      "quantity": 125,
+      "locations": ["Emergency exit signs (some)", "Closets", "Storage areas"],
+      "lamp_specifications": {
+        "lamp_type": "Incandescent A19",
+        "wattage": 60,
+        "rated_lumens": 840,
+        "current_lumens": 630,
+        "lumen_depreciation_percent": 25
+      },
+      "electrical": {
+        "wattage_total": 60,
+        "voltage": 120
+      },
+      "performance": {
+        "efficacy_lm_w": 14,
+        "current_efficacy_lm_w": 11,
+        "rated_lamp_life_hours": 1000,
+        "operating_hours": 850,
+        "lamp_remaining_life_percent": 15
+      },
+      "controls": {
+        "dimming_capable": false,
+        "switch_control_only": true
+      },
+      "energy_consumption": {
+        "annual_runtime_hours": 1200,
+        "annual_energy_kwh_per_fixture": 72,
+        "total_annual_energy_kwh": 9000
+      },
+      "condition": "Poor - obsolete technology",
+      "maintenance_notes": "Frequent lamp replacements needed",
+      "retrofit_priority": "Very High"
+    },
+    {
+      "fixture_id": "FIX-LED-03",
+      "fixture_type": "LED High Bay",
+      "manufacturer": "Cree",
+      "model": "HBL-150-40K",
+      "installation_year": 2018,
+      "quantity": 24,
+      "locations": ["Basement parking", "Loading dock"],
+      "lamp_specifications": {
+        "lamp_type": "Integrated LED",
+        "color_temperature_k": 4000,
+        "cri": 70,
+        "rated_lumens": 20000,
+        "current_lumens": 19200,
+        "lumen_depreciation_percent": 4
+      },
+      "electrical": {
+        "wattage_rated": 150,
+        "wattage_actual": 152,
+        "voltage": 277,
+        "ballast_driver": "Electronic LED driver",
+        "driver_efficiency": 0.93,
+        "power_factor": 0.96
+      },
+      "performance": {
+        "efficacy_lm_w": 133,
+        "current_efficacy_lm_w": 126,
+        "rated_life_hours": 70000,
+        "operating_hours": 12500,
+        "remaining_life_percent": 82
+      },
+      "controls": {
+        "dimming_capable": true,
+        "dimming_protocol": "0-10V",
+        "occupancy_sensor": true,
+        "daylight_sensor": false,
+        "networked": false
+      },
+      "energy_consumption": {
+        "annual_runtime_hours": 4380,
+        "annual_energy_kwh_per_fixture": 665.8,
+        "total_annual_energy_kwh": 15979
+      },
+      "condition": "Excellent"
+    },
+    {
+      "fixture_id": "FIX-EXIT-01",
+      "fixture_type": "LED Exit Sign",
+      "manufacturer": "Dual-Lite",
+      "model": "LZ2R",
+      "installation_year": 2012,
+      "quantity": 48,
+      "locations": ["All floors - code required locations"],
+      "lamp_specifications": {
+        "lamp_type": "Integrated LED",
+        "color": "Red",
+        "rated_lumens": 450
+      },
+      "electrical": {
+        "wattage_rated": 5,
+        "voltage": 120,
+        "battery_backup": true
+      },
+      "performance": {
+        "rated_life_hours": 100000,
+        "operating_hours": 105120,
+        "always_on": true
+      },
+      "energy_consumption": {
+        "annual_runtime_hours": 8760,
+        "annual_energy_kwh_per_fixture": 43.8,
+        "total_annual_energy_kwh": 2102
+      },
+      "condition": "Good",
+      "maintenance_notes": "Battery replacement needed every 5 years"
+    },
+    {
+      "fixture_id": "FIX-EXT-01",
+      "fixture_type": "Exterior Wall Pack LED",
+      "manufacturer": "RAB",
+      "model": "WP2LED37",
+      "installation_year": 2014,
+      "quantity": 32,
+      "locations": ["Building perimeter", "Entrances", "Parking areas"],
+      "lamp_specifications": {
+        "lamp_type": "Integrated LED",
+        "color_temperature_k": 5000,
+        "cri": 70,
+        "rated_lumens": 4200,
+        "current_lumens": 3780,
+        "lumen_depreciation_percent": 10
+      },
+      "electrical": {
+        "wattage_rated": 37,
+        "wattage_actual": 38,
+        "voltage": 120,
+        "photocell": true
+      },
+      "performance": {
+        "efficacy_lm_w": 114,
+        "current_efficacy_lm_w": 99,
+        "rated_life_hours": 60000,
+        "operating_hours": 43800,
+        "remaining_life_percent": 27
+      },
+      "controls": {
+        "dimming_capable": false,
+        "photocell_control": true,
+        "timer_control": true
+      },
+      "energy_consumption": {
+        "annual_runtime_hours": 4380,
+        "annual_energy_kwh_per_fixture": 166.4,
+        "total_annual_energy_kwh": 5325
+      },
+      "condition": "Fair - approaching end of life",
+      "maintenance_notes": "Photocell failures common"
+    }
+  ],
+  "control_systems": {
+    "occupancy_sensors": {
+      "type": "Passive Infrared (PIR)",
+      "manufacturer": "Lutron",
+      "quantity": 185,
+      "coverage_percent": 42,
+      "installation_year": 2016,
+      "time_delay_minutes": 15,
+      "estimated_energy_savings_percent": 25
+    },
+    "daylight_harvesting": {
+      "type": "Continuous dimming photosensors",
+      "manufacturer": "Lutron",
+      "quantity": 68,
+      "coverage_area_m2": 385,
+      "installation_year": 2016,
+      "location": "South facade perimeter zones only",
+      "estimated_energy_savings_percent": 35
+    },
+    "time_scheduling": {
+      "system": "BAS integrated",
+      "schedules": {
+        "weekday": "6:00 AM - 7:00 PM",
+        "weekend": "Off unless manually overridden",
+        "holiday": "Off"
+      }
+    }
+  },
+  "energy_analysis": {
+    "current_annual_consumption_kwh": 285000,
+    "current_lpd_w_m2": 19.8,
+    "ashrae_90_1_2019_lpd_w_m2": 9.7,
+    "compliance_gap_percent": 104,
+    "fixture_breakdown_consumption": {
+      "LED_troffers": 58054,
+      "LED_downlights": 11856,
+      "Fluorescent_troffers": 324632,
+      "Incandescent": 9000,
+      "LED_high_bay": 15979,
+      "Exit_signs": 2102,
+      "Exterior_LED": 5325
+    }
+  },
+  "retrofit_opportunities": {
+    "priority_1": {
+      "measure": "Replace all T8 fluorescent with LED troffers",
+      "fixtures_affected": 620,
+      "current_watts": 136,
+      "proposed_watts": 35,
+      "annual_savings_kwh": 244070,
+      "estimated_cost_usd": 124000,
+      "simple_payback_years": 2.1,
+      "additional_benefits": "Reduced maintenance, better light quality"
+    },
+    "priority_2": {
+      "measure": "Replace all incandescent with LED",
+      "fixtures_affected": 125,
+      "current_watts": 60,
+      "proposed_watts": 9,
+      "annual_savings_kwh": 7650,
+      "estimated_cost_usd": 3750,
+      "simple_payback_years": 0.8
+    },
+    "priority_3": {
+      "measure": "Install networked lighting control system",
+      "control_type": "Wireless mesh network",
+      "estimated_additional_savings_percent": 30,
+      "estimated_savings_kwh": 45000,
+      "estimated_cost_usd": 95000,
+      "simple_payback_years": 3.5,
+      "additional_benefits": "Granular control, occupancy analytics, demand response"
+    },
+    "priority_4": {
+      "measure": "Expand occupancy sensors and daylight harvesting",
+      "current_coverage_percent": 42,
+      "target_coverage_percent": 85,
+      "estimated_savings_kwh": 28500,
+      "estimated_cost_usd": 35000,
+      "simple_payback_years": 2.0
+    }
+  },
+  "maintenance_data": {
+    "annual_maintenance_cost_usd": 18500,
+    "lamp_replacement_frequency": {
+      "LED": "Rare - driver failures only",
+      "Fluorescent_T8": "Every 18 months",
+      "Incandescent": "Every 6 months"
+    },
+    "labor_hours_annual": 285,
+    "parts_cost_annual_usd": 12500,
+    "emergency_repairs_annual": 8
+  }
+}

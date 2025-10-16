@@ -1,0 +1,302 @@
+{
+  "renewable_systems_overview": {
+    "systems_installed": ["Solar PV (planned)", "Solar thermal (potential)"],
+    "current_renewable_generation_kwh_year": 0,
+    "renewable_percentage_of_consumption": 0,
+    "assessment_date": "2024-09-15",
+    "feasibility_study_completed": true
+  },
+  "solar_pv_potential": {
+    "system_design": {
+      "design_id": "PV-DESIGN-01",
+      "design_date": "2024-09-15",
+      "design_status": "Feasibility approved - awaiting funding",
+      "system_type": "Grid-tied with net metering",
+      "mounting_type": "Ballasted rooftop racking"
+    },
+    "available_roof_area": {
+      "total_roof_area_m2": 1450,
+      "usable_area_after_setbacks_m2": 1150,
+      "area_excluding_equipment_m2": 1060,
+      "optimal_pv_installation_area_m2": 950,
+      "module_area_with_spacing_m2": 855
+    },
+    "module_specifications": {
+      "manufacturer": "Canadian Solar (proposed)",
+      "model": "CS6R-410MS",
+      "technology": "Monocrystalline PERC",
+      "rated_power_w": 410,
+      "module_efficiency_percent": 20.5,
+      "temperature_coefficient_percent_c": -0.37,
+      "dimensions_mm": {"length": 2094, "width": 1038, "thickness": 35},
+      "area_m2": 2.17,
+      "weight_kg": 22.5,
+      "warranty_years": 25,
+      "degradation_rate_percent_year": 0.5
+    },
+    "system_sizing": {
+      "total_modules": 394,
+      "system_capacity_dc_kw": 161.5,
+      "system_capacity_ac_kw": 150,
+      "dc_to_ac_ratio": 1.08,
+      "estimated_module_coverage_m2": 855,
+      "array_tilt_degrees": 10,
+      "array_azimuth_degrees": 180,
+      "number_of_inverters": 3,
+      "module_per_string": 14,
+      "strings_per_inverter": 9
+    },
+    "inverter_specifications": {
+      "manufacturer": "SolarEdge (proposed)",
+      "model": "SE50K-US",
+      "type": "String inverter with power optimizers",
+      "rated_power_ac_kw": 50,
+      "quantity": 3,
+      "max_efficiency_percent": 98.8,
+      "weighted_efficiency_percent": 98.3,
+      "voltage_range_v": "450-900",
+      "grid_connection": "480V 3-phase"
+    },
+    "energy_production_estimate": {
+      "year_1_production_kwh": 215000,
+      "year_1_specific_yield_kwh_kwp": 1331,
+      "performance_ratio": 0.82,
+      "annual_degradation_percent": 0.5,
+      "year_25_production_kwh": 192000,
+      "lifetime_production_kwh": 5075000
+    },
+    "monthly_production_estimate_kwh": {
+      "january": 12800,
+      "february": 14200,
+      "march": 18500,
+      "april": 19800,
+      "may": 21500,
+      "june": 22300,
+      "july": 22800,
+      "august": 21200,
+      "september": 18900,
+      "october": 16500,
+      "november": 13200,
+      "december": 11300
+    },
+    "shading_analysis": {
+      "annual_shading_loss_percent": 3.2,
+      "shading_sources": {
+        "hvac_equipment": 1.8,
+        "parapet": 1.1,
+        "adjacent_building": 0.3
+      },
+      "optimal_module_placement": "South and east portions of roof"
+    },
+    "structural_analysis": {
+      "roof_load_capacity_kg_m2": 245,
+      "pv_system_weight_kg_m2": 18,
+      "safety_factor": 13.6,
+      "structural_approval": "Approved by PE - no reinforcement needed",
+      "wind_load_analysis": "Compliant with ASCE 7-16",
+      "seismic_analysis": "Zone 2A - compliant"
+    },
+    "financial_analysis": {
+      "installed_cost_usd": 290250,
+      "cost_per_watt_usd": 1.80,
+      "federal_itc_percent": 30,
+      "federal_itc_value_usd": 87075,
+      "state_incentives_usd": 24000,
+      "net_system_cost_usd": 179175,
+      "annual_energy_savings_usd": 25800,
+      "simple_payback_years": 6.9,
+      "25_year_savings_usd": 465000,
+      "irr_percent": 12.8,
+      "npv_usd_7percent": 185000
+    },
+    "grid_integration": {
+      "interconnection_status": "Pre-application submitted",
+      "utility": "Eversource Energy",
+      "net_metering_available": true,
+      "net_metering_limit_kw": 250,
+      "export_rate_usd_kwh": 0.12,
+      "import_rate_usd_kwh": 0.12,
+      "demand_charge_impact": "Minimal - export during peak hours"
+    },
+    "environmental_impact": {
+      "annual_co2_reduction_kg": 92450,
+      "25_year_co2_reduction_kg": 2186250,
+      "equivalent_trees_planted": 3640,
+      "equivalent_cars_removed": 20
+    }
+  },
+  "solar_thermal_potential": {
+    "system_design": {
+      "design_id": "ST-DESIGN-01",
+      "design_date": "2024-09-15",
+      "design_status": "Preliminary feasibility",
+      "system_type": "Flat plate collectors for DHW pre-heat",
+      "integration": "Series connection to existing DHW system"
+    },
+    "collector_specifications": {
+      "manufacturer": "Viessmann (proposed)",
+      "model": "Vitosol 200-F",
+      "type": "Flat plate evacuated tube",
+      "collector_area_m2": 3.0,
+      "number_of_collectors": 15,
+      "total_collector_area_m2": 45,
+      "optical_efficiency_percent": 78,
+      "heat_loss_coefficient_w_m2k": 3.5,
+      "stagnation_temperature_c": 195
+    },
+    "system_sizing": {
+      "total_collector_area_m2": 45,
+      "storage_tank_l": 1500,
+      "solar_fraction_annual": 0.45,
+      "auxiliary_heating_reduction_percent": 45,
+      "peak_thermal_output_kw": 28
+    },
+    "energy_production_estimate": {
+      "annual_useful_heat_kwh": 56250,
+      "specific_yield_kwh_m2": 1250,
+      "monthly_production_summer_kwh": 6500,
+      "monthly_production_winter_kwh": 2800
+    },
+    "financial_analysis": {
+      "installed_cost_usd": 85000,
+      "cost_per_m2_usd": 1889,
+      "federal_itc_percent": 30,
+      "federal_itc_value_usd": 25500,
+      "net_system_cost_usd": 59500,
+      "annual_gas_savings_m3": 5625,
+      "annual_energy_savings_usd": 6750,
+      "simple_payback_years": 8.8,
+      "25_year_savings_usd": 168750,
+      "irr_percent": 8.2
+    },
+    "roof_integration": {
+      "available_area_m2": 120,
+      "required_area_with_spacing_m2": 75,
+      "location": "South roof section - east of PV array",
+      "tilt_angle_degrees": 45,
+      "azimuth_degrees": 180
+    }
+  },
+  "wind_energy_assessment": {
+    "feasibility": "Not recommended",
+    "site_wind_resource": {
+      "average_wind_speed_m_s": 4.2,
+      "wind_power_class": 1,
+      "assessment": "Poor wind resource"
+    },
+    "barriers": [
+      "Urban location with obstructions",
+      "Low average wind speeds",
+      "Zoning restrictions on building-mounted turbines",
+      "Poor economics"
+    ]
+  },
+  "geothermal_assessment": {
+    "system_type": "Ground source heat pump (GSHP)",
+    "feasibility": "Moderate - limited by site constraints",
+    "ground_loop_options": {
+      "vertical_borehole": {
+        "feasible": true,
+        "number_of_boreholes": 48,
+        "depth_per_borehole_m": 150,
+        "total_drilling_m": 7200,
+        "site_area_required_m2": 850,
+        "estimated_cost_usd": 576000,
+        "notes": "Requires parking lot excavation"
+      },
+      "horizontal_loop": {
+        "feasible": false,
+        "reason": "Insufficient land area"
+      }
+    },
+    "system_capacity": {
+      "heating_capacity_kw": 350,
+      "cooling_capacity_kw": 280,
+      "cop_heating": 4.2,
+      "eer_cooling": 22
+    },
+    "financial_analysis": {
+      "total_installed_cost_usd": 1250000,
+      "annual_energy_savings_kwh": 285000,
+      "annual_cost_savings_usd": 38250,
+      "simple_payback_years": 32.7,
+      "notes": "Long payback due to high upfront cost, better suited for new construction"
+    }
+  },
+  "battery_storage_potential": {
+    "system_design": {
+      "design_id": "BESS-DESIGN-01",
+      "design_status": "Preliminary concept",
+      "technology": "Lithium-ion battery energy storage system",
+      "application": "Peak shaving and demand charge reduction"
+    },
+    "system_sizing": {
+      "usable_capacity_kwh": 300,
+      "power_rating_kw": 150,
+      "c_rate": 0.5,
+      "round_trip_efficiency_percent": 90,
+      "cycles_per_day": 1,
+      "design_life_years": 10,
+      "warranty_cycles": 3650
+    },
+    "battery_specifications": {
+      "manufacturer": "Tesla (proposed)",
+      "model": "Megapack (scaled)",
+      "chemistry": "Lithium nickel manganese cobalt oxide (NMC)",
+      "voltage_range_vdc": "650-850",
+      "enclosure": "NEMA 3R outdoor rated"
+    },
+    "economic_analysis": {
+      "installed_cost_usd": 225000,
+      "cost_per_kwh_usd": 750,
+      "annual_demand_charge_savings_usd": 18500,
+      "annual_energy_arbitrage_savings_usd": 4200,
+      "total_annual_savings_usd": 22700,
+      "simple_payback_years": 9.9,
+      "10_year_savings_usd": 227000
+    },
+    "integration_with_solar": {
+      "solar_self_consumption_increase_percent": 35,
+      "peak_demand_reduction_kw": 85,
+      "backup_power_capability_hours": 2.0
+    }
+  },
+  "combined_renewable_strategy": {
+    "recommended_phases": [
+      {
+        "phase": 1,
+        "system": "Solar PV",
+        "capacity_kw": 161.5,
+        "priority": "High",
+        "timeline": "Year 1",
+        "cost_usd": 179175,
+        "annual_savings_usd": 25800
+      },
+      {
+        "phase": 2,
+        "system": "Battery Storage",
+        "capacity_kwh": 300,
+        "priority": "Medium",
+        "timeline": "Year 2-3",
+        "cost_usd": 225000,
+        "annual_savings_usd": 22700,
+        "notes": "Paired with solar for optimal value"
+      },
+      {
+        "phase": 3,
+        "system": "Solar Thermal DHW",
+        "capacity_m2": 45,
+        "priority": "Low",
+        "timeline": "Year 4-5",
+        "cost_usd": 59500,
+        "annual_savings_usd": 6750,
+        "notes": "Consider when DHW system is replaced"
+      }
+    ],
+    "total_investment_usd": 463675,
+    "total_annual_savings_usd": 55250,
+    "combined_payback_years": 8.4,
+    "renewable_energy_percentage_target": 17,
+    "co2_reduction_annual_kg": 115000
+  }
+}

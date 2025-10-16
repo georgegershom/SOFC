@@ -1,0 +1,453 @@
+{
+  "material_database_info": {
+    "database_version": "2024.1",
+    "last_updated": "2024-09-30",
+    "sources": ["ASHRAE Fundamentals 2021", "ISO 10456:2007", "Manufacturer data", "NIST database"],
+    "total_materials": 45
+  },
+  "insulation_materials": [
+    {
+      "material_id": "INS-001",
+      "material_name": "Fiberglass Batt Insulation (R-11)",
+      "category": "Insulation",
+      "subcategory": "Mineral fiber",
+      "thermal_properties": {
+        "conductivity_w_mk": 0.040,
+        "conductivity_range_w_mk": [0.038, 0.042],
+        "r_value_per_inch": 3.14,
+        "r_value_per_25mm": 0.625,
+        "temperature_dependency": "Conductivity increases ~3% per 10°C"
+      },
+      "physical_properties": {
+        "density_kg_m3": 12,
+        "density_range_kg_m3": [10, 16],
+        "specific_heat_j_kgk": 840,
+        "moisture_permeability": "High",
+        "vapor_permeance_ng_pa_s_m2": 350
+      },
+      "environmental_data": {
+        "embodied_carbon_kgco2_kg": 1.35,
+        "embodied_energy_mj_kg": 28,
+        "recyclability_percent": 35,
+        "recycled_content_percent": 40,
+        "service_life_years": 50,
+        "degradation_factors": ["Moisture", "Compression"]
+      },
+      "acoustic_properties": {
+        "sound_absorption_coefficient_500hz": 0.85,
+        "nrc": 0.95
+      },
+      "installation_notes": "Susceptible to compression and moisture. Performance degrades significantly when wet."
+    },
+    {
+      "material_id": "INS-002",
+      "material_name": "XPS Rigid Insulation",
+      "category": "Insulation",
+      "subcategory": "Plastic foam",
+      "thermal_properties": {
+        "conductivity_w_mk": 0.029,
+        "r_value_per_inch": 5.0,
+        "r_value_per_25mm": 0.862,
+        "temperature_dependency": "Minimal variation with temperature"
+      },
+      "physical_properties": {
+        "density_kg_m3": 35,
+        "specific_heat_j_kgk": 1450,
+        "moisture_permeability": "Very low",
+        "vapor_permeance_ng_pa_s_m2": 30,
+        "compressive_strength_kpa": 300,
+        "water_absorption_percent_volume": 0.3
+      },
+      "environmental_data": {
+        "embodied_carbon_kgco2_kg": 3.5,
+        "embodied_energy_mj_kg": 85,
+        "recyclability_percent": 10,
+        "recycled_content_percent": 0,
+        "service_life_years": 50,
+        "blowing_agent": "HFO (low GWP)",
+        "gwp_of_blowing_agent": 1
+      },
+      "fire_properties": {
+        "flame_spread_index": 25,
+        "smoke_developed_index": 450,
+        "fire_rating": "Class C"
+      }
+    },
+    {
+      "material_id": "INS-003",
+      "material_name": "Polyisocyanurate Insulation Board",
+      "category": "Insulation",
+      "subcategory": "Plastic foam",
+      "thermal_properties": {
+        "conductivity_w_mk": 0.023,
+        "r_value_per_inch": 6.5,
+        "r_value_per_25mm": 1.087,
+        "temperature_dependency": "Performance decreases at low temperatures"
+      },
+      "physical_properties": {
+        "density_kg_m3": 32,
+        "specific_heat_j_kgk": 1470,
+        "moisture_permeability": "Low",
+        "vapor_permeance_ng_pa_s_m2": 85,
+        "compressive_strength_kpa": 150
+      },
+      "environmental_data": {
+        "embodied_carbon_kgco2_kg": 2.8,
+        "embodied_energy_mj_kg": 75,
+        "recyclability_percent": 5,
+        "service_life_years": 30,
+        "degradation_factors": ["UV exposure", "Moisture"]
+      }
+    }
+  ],
+  "structural_materials": [
+    {
+      "material_id": "STR-001",
+      "material_name": "Reinforced Concrete (2400 kg/m³)",
+      "category": "Structural",
+      "subcategory": "Cementitious",
+      "thermal_properties": {
+        "conductivity_w_mk": 1.7,
+        "conductivity_range_w_mk": [1.4, 2.0],
+        "specific_heat_j_kgk": 880,
+        "thermal_diffusivity_m2_s": 8.0e-7,
+        "thermal_mass_kj_m3k": 2112
+      },
+      "physical_properties": {
+        "density_kg_m3": 2400,
+        "compressive_strength_mpa": 30,
+        "tensile_strength_mpa": 3,
+        "elastic_modulus_gpa": 30,
+        "poisson_ratio": 0.2,
+        "coefficient_thermal_expansion_per_k": 1.0e-5
+      },
+      "environmental_data": {
+        "embodied_carbon_kgco2_m3": 185,
+        "embodied_energy_mj_m3": 850,
+        "recyclability_percent": 95,
+        "service_life_years": 100
+      },
+      "moisture_properties": {
+        "moisture_buffering": "Medium",
+        "capillary_water_absorption_kg_m2s": 0.015
+      }
+    },
+    {
+      "material_id": "STR-002",
+      "material_name": "Structural Steel",
+      "category": "Structural",
+      "subcategory": "Metal",
+      "thermal_properties": {
+        "conductivity_w_mk": 45.0,
+        "specific_heat_j_kgk": 434,
+        "thermal_diffusivity_m2_s": 1.32e-5
+      },
+      "physical_properties": {
+        "density_kg_m3": 7850,
+        "yield_strength_mpa": 250,
+        "tensile_strength_mpa": 400,
+        "elastic_modulus_gpa": 200,
+        "poisson_ratio": 0.30,
+        "coefficient_thermal_expansion_per_k": 1.2e-5
+      },
+      "environmental_data": {
+        "embodied_carbon_kgco2_kg": 1.85,
+        "embodied_energy_mj_kg": 35,
+        "recyclability_percent": 100,
+        "recycled_content_percent": 85,
+        "service_life_years": 100
+      },
+      "corrosion_properties": {
+        "corrosion_resistance": "Poor - requires protection",
+        "protective_coating": "Required in humid environments"
+      }
+    },
+    {
+      "material_id": "STR-003",
+      "material_name": "Plywood Sheathing",
+      "category": "Structural",
+      "subcategory": "Wood products",
+      "thermal_properties": {
+        "conductivity_w_mk": 0.13,
+        "specific_heat_j_kgk": 1880,
+        "thermal_diffusivity_m2_s": 1.28e-7
+      },
+      "physical_properties": {
+        "density_kg_m3": 540,
+        "bending_strength_mpa": 40,
+        "elastic_modulus_gpa": 8,
+        "moisture_content_percent": 12
+      },
+      "environmental_data": {
+        "embodied_carbon_kgco2_m3": 450,
+        "embodied_energy_mj_m3": 6750,
+        "recyclability_percent": 80,
+        "service_life_years": 60,
+        "carbon_sequestration_kgco2_m3": 620
+      },
+      "moisture_properties": {
+        "moisture_buffering": "High",
+        "equilibrium_moisture_content_50rh_percent": 9,
+        "swelling_coefficient_percent_per_percent_mc": 0.25
+      }
+    }
+  ],
+  "masonry_materials": [
+    {
+      "material_id": "MAS-001",
+      "material_name": "Red Clay Brick",
+      "category": "Masonry",
+      "subcategory": "Fired clay",
+      "thermal_properties": {
+        "conductivity_w_mk": 0.77,
+        "conductivity_range_w_mk": [0.6, 0.9],
+        "specific_heat_j_kgk": 840,
+        "thermal_diffusivity_m2_s": 4.78e-7,
+        "thermal_mass_kj_m3k": 1613
+      },
+      "physical_properties": {
+        "density_kg_m3": 1920,
+        "compressive_strength_mpa": 40,
+        "water_absorption_percent": 8,
+        "frost_resistance": "High"
+      },
+      "environmental_data": {
+        "embodied_carbon_kgco2_m3": 485,
+        "embodied_energy_mj_m3": 3850,
+        "recyclability_percent": 90,
+        "service_life_years": 100
+      },
+      "moisture_properties": {
+        "capillary_water_absorption_kg_m2s": 0.05,
+        "moisture_buffering": "High",
+        "drying_potential": "Good"
+      }
+    }
+  ],
+  "finish_materials": [
+    {
+      "material_id": "FIN-001",
+      "material_name": "Gypsum Board",
+      "category": "Finish",
+      "subcategory": "Gypsum products",
+      "thermal_properties": {
+        "conductivity_w_mk": 0.25,
+        "specific_heat_j_kgk": 1090,
+        "thermal_diffusivity_m2_s": 2.87e-7
+      },
+      "physical_properties": {
+        "density_kg_m3": 800,
+        "bending_strength_mpa": 2.5,
+        "moisture_content_percent": 1
+      },
+      "environmental_data": {
+        "embodied_carbon_kgco2_m2_12mm": 5.4,
+        "embodied_energy_mj_m2_12mm": 76,
+        "recyclability_percent": 100,
+        "recycled_content_percent": 15,
+        "service_life_years": 50
+      },
+      "fire_properties": {
+        "fire_resistance_minutes_12mm": 30,
+        "flame_spread_index": 0,
+        "smoke_developed_index": 0
+      },
+      "moisture_properties": {
+        "moisture_buffering": "Medium",
+        "max_relative_humidity_percent": 70,
+        "degradation_when_wet": "High"
+      }
+    },
+    {
+      "material_id": "FIN-002",
+      "material_name": "Carpet Tile",
+      "category": "Finish",
+      "subcategory": "Textile flooring",
+      "thermal_properties": {
+        "conductivity_w_mk": 0.06,
+        "specific_heat_j_kgk": 1360,
+        "thermal_resistance_m2k_w": 0.133
+      },
+      "physical_properties": {
+        "density_kg_m3": 400,
+        "pile_height_mm": 6,
+        "pile_weight_g_m2": 650
+      },
+      "environmental_data": {
+        "embodied_carbon_kgco2_m2": 8.5,
+        "embodied_energy_mj_m2": 185,
+        "recyclability_percent": 20,
+        "recycled_content_percent": 35,
+        "service_life_years": 10,
+        "voc_emissions": "Low - meets CRI Green Label Plus"
+      },
+      "acoustic_properties": {
+        "iic_rating": 67,
+        "sound_absorption_coefficient_500hz": 0.35,
+        "nrc": 0.30
+      }
+    },
+    {
+      "material_id": "FIN-003",
+      "material_name": "EPDM Roofing Membrane",
+      "category": "Finish",
+      "subcategory": "Synthetic rubber",
+      "thermal_properties": {
+        "conductivity_w_mk": 0.25,
+        "specific_heat_j_kgk": 1000,
+        "solar_reflectance": 0.23,
+        "thermal_emittance": 0.87,
+        "sri_solar_reflectance_index": 21
+      },
+      "physical_properties": {
+        "density_kg_m3": 1150,
+        "thickness_mm": 1.5,
+        "tensile_strength_mpa": 7,
+        "elongation_at_break_percent": 300
+      },
+      "environmental_data": {
+        "embodied_carbon_kgco2_m2": 8.5,
+        "embodied_energy_mj_m2": 185,
+        "recyclability_percent": 100,
+        "service_life_years": 25,
+        "degradation_factors": ["UV exposure", "Ozone", "Thermal cycling"]
+      },
+      "performance_properties": {
+        "water_impermeability": "Excellent",
+        "uv_resistance": "Good - carbon black stabilized",
+        "ozone_resistance": "Excellent",
+        "low_temperature_flexibility_c": -45
+      }
+    }
+  ],
+  "glazing_materials": [
+    {
+      "material_id": "GLZ-001",
+      "material_name": "Clear Float Glass (6mm)",
+      "category": "Glazing",
+      "subcategory": "Glass",
+      "thermal_properties": {
+        "conductivity_w_mk": 1.0,
+        "specific_heat_j_kgk": 840,
+        "thermal_diffusivity_m2_s": 5.0e-7
+      },
+      "physical_properties": {
+        "density_kg_m3": 2500,
+        "thickness_mm": 6,
+        "refractive_index": 1.52
+      },
+      "optical_properties": {
+        "visible_transmittance": 0.89,
+        "solar_transmittance": 0.84,
+        "solar_reflectance_exterior": 0.08,
+        "solar_absorptance": 0.08,
+        "uv_transmittance_300_380nm": 0.68
+      },
+      "environmental_data": {
+        "embodied_carbon_kgco2_m2": 45,
+        "embodied_energy_mj_m2": 950,
+        "recyclability_percent": 100,
+        "service_life_years": 50
+      }
+    },
+    {
+      "material_id": "GLZ-002",
+      "material_name": "Low-E Coated Glass (soft coat)",
+      "category": "Glazing",
+      "subcategory": "Coated glass",
+      "thermal_properties": {
+        "conductivity_w_mk": 1.0,
+        "emissivity_coated_surface": 0.04,
+        "emissivity_uncoated_surface": 0.84
+      },
+      "physical_properties": {
+        "density_kg_m3": 2500,
+        "thickness_mm": 6,
+        "coating_location": "Surface 3 (cavity side)"
+      },
+      "optical_properties": {
+        "visible_transmittance": 0.68,
+        "solar_transmittance": 0.38,
+        "solar_reflectance_exterior": 0.22,
+        "solar_absorptance": 0.40,
+        "shgc": 0.38,
+        "uv_transmittance_300_380nm": 0.25
+      },
+      "environmental_data": {
+        "embodied_carbon_kgco2_m2": 52,
+        "embodied_energy_mj_m2": 1150,
+        "recyclability_percent": 95,
+        "service_life_years": 30,
+        "coating_durability": "Soft coat - cavity use only"
+      }
+    }
+  ],
+  "gas_fills": [
+    {
+      "material_id": "GAS-001",
+      "material_name": "Air (IGU fill)",
+      "category": "Gas fill",
+      "thermal_properties": {
+        "conductivity_w_mk_at_10c": 0.0246,
+        "conductivity_w_mk_at_20c": 0.0257,
+        "specific_heat_j_kgk": 1005,
+        "viscosity_pa_s_at_20c": 1.81e-5
+      },
+      "physical_properties": {
+        "density_kg_m3_at_20c": 1.20,
+        "molecular_weight_g_mol": 29
+      },
+      "performance": {
+        "center_of_glass_u_value_improvement_vs_air": 0,
+        "diffusion_rate": "Reference",
+        "cost_multiplier": 1.0
+      }
+    },
+    {
+      "material_id": "GAS-002",
+      "material_name": "Argon (IGU fill)",
+      "category": "Gas fill",
+      "thermal_properties": {
+        "conductivity_w_mk_at_10c": 0.0163,
+        "conductivity_w_mk_at_20c": 0.0172,
+        "specific_heat_j_kgk": 520,
+        "viscosity_pa_s_at_20c": 2.23e-5
+      },
+      "physical_properties": {
+        "density_kg_m3_at_20c": 1.66,
+        "molecular_weight_g_mol": 40
+      },
+      "performance": {
+        "center_of_glass_u_value_improvement_vs_air_percent": 28,
+        "diffusion_rate_vs_air": 2.5,
+        "typical_concentration_percent": 90,
+        "cost_multiplier": 1.15
+      }
+    }
+  ],
+  "air_barrier_materials": [
+    {
+      "material_id": "AB-001",
+      "material_name": "Polyethylene Vapor Barrier (6 mil)",
+      "category": "Air/vapor barrier",
+      "thermal_properties": {
+        "conductivity_w_mk": 0.19,
+        "thermal_resistance_m2k_w": 0.001
+      },
+      "physical_properties": {
+        "density_kg_m3": 920,
+        "thickness_mm": 0.15
+      },
+      "vapor_properties": {
+        "permeance_ng_pa_s_m2": 5,
+        "permeability_ng_pa_s_m": 0.75,
+        "classification": "Vapor impermeable"
+      },
+      "environmental_data": {
+        "embodied_carbon_kgco2_m2": 3.2,
+        "embodied_energy_mj_m2": 85,
+        "service_life_years": 50
+      }
+    }
+  ]
+}

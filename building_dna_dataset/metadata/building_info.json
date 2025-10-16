@@ -1,0 +1,62 @@
+{
+  "building_id": "BLD-DT-2025-001",
+  "building_name": "Riverside Office Complex - Building A",
+  "building_type": "Commercial Office",
+  "location": {
+    "address": "1250 Innovation Boulevard, Cambridge, MA 02142",
+    "latitude": 42.3736,
+    "longitude": -71.1097,
+    "elevation_m": 15.2,
+    "climate_zone": "5A - Cool-Humid",
+    "ashrae_climate": "Zone 5A",
+    "koppen_classification": "Dfa"
+  },
+  "general_characteristics": {
+    "year_built": 1985,
+    "year_last_major_retrofit": 2010,
+    "gross_floor_area_m2": 8450,
+    "net_floor_area_m2": 7620,
+    "conditioned_floor_area_m2": 7200,
+    "number_of_floors": 6,
+    "floor_to_floor_height_m": 3.8,
+    "typical_ceiling_height_m": 2.7,
+    "building_footprint_m2": 1408.3,
+    "orientation": "Primary facade facing South (180°)",
+    "occupancy_type": "Office",
+    "typical_occupancy": 240,
+    "operating_hours": "Monday-Friday 7:00-19:00"
+  },
+  "envelope_summary": {
+    "total_wall_area_m2": 3850,
+    "total_roof_area_m2": 1450,
+    "total_window_area_m2": 1240,
+    "window_to_wall_ratio": 0.32,
+    "average_wall_u_value_w_m2k": 0.45,
+    "average_roof_u_value_w_m2k": 0.28,
+    "average_window_u_value_w_m2k": 2.8,
+    "estimated_infiltration_ach50": 8.5
+  },
+  "energy_summary": {
+    "annual_energy_consumption_kwh": 1250000,
+    "annual_heating_load_kwh": 420000,
+    "annual_cooling_load_kwh": 315000,
+    "annual_lighting_load_kwh": 285000,
+    "annual_plug_loads_kwh": 230000,
+    "eui_kwh_m2_year": 163.8,
+    "peak_heating_demand_kw": 385,
+    "peak_cooling_demand_kw": 295
+  },
+  "data_sources": {
+    "bim_model_version": "2024.1",
+    "last_energy_audit": "2023-06-15",
+    "last_blower_door_test": "2022-09-20",
+    "lidar_scan_date": "2024-03-12",
+    "thermographic_survey": "2023-11-08"
+  },
+  "retrofit_potential": {
+    "envelope_retrofit_feasibility": "High",
+    "hvac_retrofit_feasibility": "Medium",
+    "renewable_integration_potential": "High",
+    "estimated_eui_reduction_potential_percent": 45
+  }
+}

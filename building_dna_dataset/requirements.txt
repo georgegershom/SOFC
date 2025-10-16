@@ -1,0 +1,28 @@
+# Building DNA Dataset - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Optional: Advanced analysis
+scipy>=1.10.0
+scikit-learn>=1.3.0
+
+# Optional: Building energy modeling
+eppy>=0.5.63  # EnergyPlus Python interface
+
+# Optional: Optimization
+pymoo>=0.6.0  # Multi-objective optimization
+
+# Optional: Deep learning for digital twin
+# torch>=2.0.0
+# tensorflow>=2.12.0
+
+# Utility
+jupyter>=1.0.0  # For interactive notebooks

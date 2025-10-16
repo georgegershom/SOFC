@@ -1,0 +1,431 @@
+{
+  "iot_framework_overview": {
+    "framework_name": "Building Digital Twin IoT Integration",
+    "deployment_status": "Planned",
+    "total_sensors_planned": 385,
+    "data_collection_interval_s": 60,
+    "data_storage": "Time-series database (InfluxDB)",
+    "communication_protocol": "MQTT over TLS",
+    "edge_computing": "Yes - local preprocessing",
+    "cloud_platform": "AWS IoT Core"
+  },
+  "sensor_categories": {
+    "environmental_sensors": {
+      "temperature_humidity": {
+        "sensor_type": "Combined Temperature/Humidity",
+        "manufacturer": "Sensirion",
+        "model": "SHT31-DIS",
+        "quantity": 48,
+        "locations": ["Each thermal zone (6 per floor x 6 floors)", "Mechanical rooms (6)"],
+        "accuracy_temperature_c": 0.2,
+        "accuracy_humidity_percent": 2,
+        "range_temperature_c": [-40, 125],
+        "range_humidity_percent": [0, 100],
+        "sampling_rate_s": 60,
+        "communication": "Wireless (Zigbee)",
+        "power": "Battery (5 year life) or PoE"
+      },
+      "co2_sensors": {
+        "sensor_type": "CO2 Concentration",
+        "manufacturer": "Vaisala",
+        "model": "GMP252",
+        "quantity": 24,
+        "locations": ["Conference rooms", "High occupancy areas", "Return air ducts"],
+        "accuracy_ppm": 40,
+        "range_ppm": [0, 10000],
+        "sampling_rate_s": 60,
+        "communication": "BACnet/IP",
+        "calibration_interval_months": 12
+      },
+      "outdoor_weather_station": {
+        "sensor_type": "Comprehensive Weather Station",
+        "manufacturer": "Davis Instruments",
+        "model": "Vantage Pro2 Plus",
+        "quantity": 1,
+        "location": "Roof - central location",
+        "measurements": [
+          "Outdoor air temperature",
+          "Relative humidity",
+          "Wind speed and direction",
+          "Barometric pressure",
+          "Solar radiation",
+          "UV index",
+          "Rainfall"
+        ],
+        "sampling_rate_s": 10,
+        "communication": "Ethernet"
+      }
+    },
+    "energy_meters": {
+      "electrical_submeters": {
+        "sensor_type": "Power/Energy Meter",
+        "manufacturer": "Schneider Electric",
+        "model": "PowerLogic PM8000",
+        "quantity": 18,
+        "locations": {
+          "main_service": 1,
+          "hvac_systems": 4,
+          "lighting_panels": 6,
+          "plug_load_panels": 6,
+          "dhw_system": 1
+        },
+        "measurements": [
+          "Real power (W)",
+          "Reactive power (VAR)",
+          "Apparent power (VA)",
+          "Power factor",
+          "Current per phase (A)",
+          "Voltage per phase (V)",
+          "Energy consumption (kWh)",
+          "Demand (kW)",
+          "Harmonics (THD)"
+        ],
+        "accuracy_class": 0.5,
+        "sampling_rate_s": 1,
+        "communication": "Modbus TCP/IP",
+        "data_logging": "Internal 60-day buffer"
+      },
+      "gas_meter": {
+        "sensor_type": "Ultrasonic Gas Meter",
+        "manufacturer": "Elster",
+        "model": "EC-350",
+        "quantity": 1,
+        "location": "Main gas service",
+        "measurements": [
+          "Volumetric flow rate (m³/h)",
+          "Total volume (m³)",
+          "Temperature",
+          "Pressure"
+        ],
+        "accuracy_percent": 1.0,
+        "sampling_rate_s": 300,
+        "communication": "Pulse output + Modbus RTU",
+        "pulse_weight_m3": 0.01
+      },
+      "thermal_energy_meters": {
+        "sensor_type": "BTU Meter",
+        "manufacturer": "Kamstrup",
+        "model": "MULTICAL 603",
+        "quantity": 8,
+        "locations": ["Each HVAC zone", "DHW system"],
+        "measurements": [
+          "Flow rate (l/h)",
+          "Supply temperature (°C)",
+          "Return temperature (°C)",
+          "Delta T (K)",
+          "Thermal energy (kWh)",
+          "Thermal power (kW)"
+        ],
+        "accuracy_class": 2,
+        "sampling_rate_s": 60,
+        "communication": "M-Bus"
+      }
+    },
+    "hvac_system_sensors": {
+      "air_flow_sensors": {
+        "sensor_type": "Differential Pressure Air Flow",
+        "manufacturer": "Paragon",
+        "model": "AFT-500",
+        "quantity": 32,
+        "locations": ["VAV boxes (24)", "Main supply/return ducts (8)"],
+        "measurements": [
+          "Differential pressure (Pa)",
+          "Calculated flow rate (l/s)"
+        ],
+        "accuracy_percent": 2.0,
+        "sampling_rate_s": 10,
+        "communication": "BACnet MS/TP"
+      },
+      "duct_static_pressure": {
+        "sensor_type": "Static Pressure Transmitter",
+        "manufacturer": "Setra",
+        "model": "264",
+        "quantity": 12,
+        "locations": ["Supply ducts", "Return ducts", "Outside air intake"],
+        "range_pa": [0, 2500],
+        "accuracy_pa": 5,
+        "sampling_rate_s": 10,
+        "communication": "4-20mA to BACnet converter"
+      },
+      "refrigerant_sensors": {
+        "sensor_type": "Refrigerant Pressure/Temperature",
+        "manufacturer": "Dwyer",
+        "model": "629C-04-CH-P2-E5-S1",
+        "quantity": 16,
+        "locations": ["RTU compressor suction/discharge (4 units x 4 points)"],
+        "measurements": [
+          "Pressure (psi)",
+          "Temperature (°C)",
+          "Calculated superheat/subcooling"
+        ],
+        "accuracy_pressure_psi": 1.0,
+        "accuracy_temperature_c": 0.5,
+        "sampling_rate_s": 30,
+        "communication": "BACnet/IP"
+      },
+      "filter_differential_pressure": {
+        "sensor_type": "Filter Pressure Drop Monitor",
+        "manufacturer": "Dwyer",
+        "model": "Magnehelic",
+        "quantity": 8,
+        "locations": ["Each RTU filter bank (4)", "AHU filters (4)"],
+        "range_pa": [0, 500],
+        "alarm_setpoint_pa": 250,
+        "sampling_rate_s": 300,
+        "communication": "Digital output to BAS"
+      }
+    },
+    "water_system_sensors": {
+      "water_flow_meters": {
+        "sensor_type": "Ultrasonic Flow Meter",
+        "manufacturer": "Badger Meter",
+        "model": "ModMAG M2000",
+        "quantity": 4,
+        "locations": ["Main water supply", "DHW recirculation", "Cooling tower makeup", "Irrigation"],
+        "accuracy_percent": 0.5,
+        "range_l_s": [0, 50],
+        "sampling_rate_s": 60,
+        "communication": "Modbus TCP"
+      },
+      "water_temperature_sensors": {
+        "sensor_type": "Immersion Temperature Sensor",
+        "manufacturer": "Omega",
+        "model": "RTD-850",
+        "quantity": 12,
+        "locations": ["DHW tanks", "DHW supply/return", "Cold water supply"],
+        "type": "RTD Pt100",
+        "accuracy_c": 0.1,
+        "range_c": [0, 100],
+        "sampling_rate_s": 60,
+        "communication": "4-20mA to BACnet"
+      },
+      "water_quality_sensors": {
+        "sensor_type": "Multi-parameter Water Quality",
+        "manufacturer": "Hach",
+        "model": "sc200 Controller",
+        "quantity": 2,
+        "locations": ["Main water supply", "Cooling tower"],
+        "measurements": [
+          "pH",
+          "Conductivity (µS/cm)",
+          "Turbidity (NTU)",
+          "Temperature (°C)"
+        ],
+        "sampling_rate_s": 300,
+        "communication": "Modbus RTU"
+      }
+    },
+    "occupancy_sensors": {
+      "pir_occupancy_sensors": {
+        "sensor_type": "Passive Infrared Motion Sensor",
+        "manufacturer": "Lutron",
+        "model": "LRF2-OCR2B",
+        "quantity": 185,
+        "locations": ["Individual rooms and zones"],
+        "detection_range_m": 12,
+        "detection_angle_degrees": 180,
+        "time_delay_adjustable_s": [30, 1800],
+        "sampling_rate_s": 1,
+        "communication": "Wireless (proprietary RF)",
+        "battery_life_years": 10
+      },
+      "people_counting_sensors": {
+        "sensor_type": "Thermal People Counter",
+        "manufacturer": "Xovis",
+        "model": "PC2S",
+        "quantity": 12,
+        "locations": ["Building entrances", "Floor entrances", "Major corridors"],
+        "counting_accuracy_percent": 98,
+        "height_detection_m": [0.8, 2.5],
+        "max_counting_rate_people_min": 120,
+        "sampling_rate_s": 1,
+        "communication": "Ethernet/IP",
+        "privacy_compliant": true
+      },
+      "desk_occupancy_sensors": {
+        "sensor_type": "Desk Occupancy Sensor",
+        "manufacturer": "Enlighted",
+        "model": "Smart Sensor",
+        "quantity": 240,
+        "locations": ["Individual workstations"],
+        "detection_method": "PIR + Ultrasonic",
+        "accuracy_percent": 95,
+        "sampling_rate_s": 30,
+        "communication": "Wireless mesh network",
+        "additional_sensors": ["Light level", "Temperature"]
+      }
+    },
+    "lighting_sensors": {
+      "daylight_sensors": {
+        "sensor_type": "Photosensor",
+        "manufacturer": "Lutron",
+        "model": "LRF2-DCRB",
+        "quantity": 68,
+        "locations": ["Perimeter zones with windows"],
+        "range_lux": [10, 10000],
+        "accuracy_percent": 5,
+        "sampling_rate_s": 5,
+        "communication": "Wireless (proprietary RF)",
+        "control_integration": "Dimming control for LED fixtures"
+      }
+    },
+    "indoor_air_quality_sensors": {
+      "voc_sensors": {
+        "sensor_type": "Volatile Organic Compounds",
+        "manufacturer": "Amphenol",
+        "model": "Telaire T6713",
+        "quantity": 24,
+        "locations": ["Conference rooms", "High occupancy areas"],
+        "range_ppb": [0, 60000],
+        "accuracy_percent": 10,
+        "sampling_rate_s": 60,
+        "communication": "I2C to gateway"
+      },
+      "pm_sensors": {
+        "sensor_type": "Particulate Matter (PM2.5, PM10)",
+        "manufacturer": "Honeywell",
+        "model": "HPMA115S0",
+        "quantity": 18,
+        "locations": ["Each floor return air", "High traffic areas"],
+        "range_ug_m3": [0, 1000],
+        "accuracy_ug_m3": 10,
+        "sampling_rate_s": 60,
+        "communication": "UART to gateway"
+      }
+    },
+    "envelope_sensors": {
+      "surface_temperature_sensors": {
+        "sensor_type": "Wireless Surface Temperature",
+        "manufacturer": "Monnit",
+        "model": "MNS2-9-IN-ST-TS",
+        "quantity": 45,
+        "locations": ["Interior wall surfaces", "Window frames", "Roof underside"],
+        "accuracy_c": 0.5,
+        "range_c": [-40, 80],
+        "sampling_rate_s": 300,
+        "communication": "Wireless (900MHz)",
+        "battery_life_years": 5
+      },
+      "condensation_sensors": {
+        "sensor_type": "Moisture/Condensation Detector",
+        "manufacturer": "T&D",
+        "model": "TR-76Ui",
+        "quantity": 24,
+        "locations": ["Windows (high risk areas)", "Basement walls"],
+        "detection_method": "Capacitive moisture sensing",
+        "sampling_rate_s": 600,
+        "communication": "Wireless (920MHz)",
+        "alarm_capability": true
+      }
+    },
+    "renewable_energy_sensors": {
+      "pv_monitoring": {
+        "sensor_type": "Solar PV Monitoring System",
+        "manufacturer": "SolarEdge",
+        "model": "SE-MTR240-0-000-S1",
+        "quantity": 1,
+        "measurements": [
+          "DC power per string (kW)",
+          "AC power output (kW)",
+          "Energy production (kWh)",
+          "Inverter efficiency (%)",
+          "Module temperature (°C)",
+          "Irradiance (W/m²)"
+        ],
+        "sampling_rate_s": 1,
+        "communication": "Ethernet + cloud API"
+      },
+      "pyranometer": {
+        "sensor_type": "Solar Irradiance Sensor",
+        "manufacturer": "Kipp & Zonen",
+        "model": "CMP3",
+        "quantity": 1,
+        "location": "Roof - unshaded location",
+        "measurement": "Global horizontal irradiance (W/m²)",
+        "spectral_range_nm": [300, 2800],
+        "response_time_s": 18,
+        "accuracy_percent": 2,
+        "sampling_rate_s": 10,
+        "communication": "4-20mA to data logger"
+      }
+    }
+  },
+  "data_architecture": {
+    "edge_gateway": {
+      "manufacturer": "Dell",
+      "model": "Edge Gateway 5100",
+      "quantity": 6,
+      "location": "One per floor",
+      "processing": "Local data preprocessing and aggregation",
+      "storage": "7-day buffer",
+      "protocols_supported": ["BACnet", "Modbus", "MQTT", "OPC-UA"]
+    },
+    "network_infrastructure": {
+      "primary_network": "Building LAN (Gigabit Ethernet)",
+      "wireless_network": "802.11ax (WiFi 6)",
+      "iot_dedicated_vlan": "VLAN 50 - IoT Sensors",
+      "security": "WPA3 encryption, certificate-based authentication"
+    },
+    "data_pipeline": {
+      "ingestion": "MQTT broker (Eclipse Mosquitto)",
+      "preprocessing": "Apache NiFi",
+      "storage": {
+        "time_series": "InfluxDB 2.0",
+        "metadata": "PostgreSQL",
+        "raw_data_archive": "Amazon S3"
+      },
+      "analytics": "Apache Spark for stream processing",
+      "visualization": "Grafana dashboards"
+    }
+  },
+  "data_quality_assurance": {
+    "sensor_validation": {
+      "range_checking": true,
+      "rate_of_change_limits": true,
+      "cross_sensor_validation": true,
+      "stuck_sensor_detection": true
+    },
+    "calibration_schedule": {
+      "temperature_sensors": "Annual",
+      "humidity_sensors": "Annual",
+      "co2_sensors": "Annual",
+      "energy_meters": "Bi-annual",
+      "flow_meters": "Annual"
+    },
+    "data_backup": {
+      "frequency": "Real-time replication",
+      "retention_hot_storage_days": 90,
+      "retention_cold_storage_years": 10
+    }
+  },
+  "machine_learning_integration": {
+    "fault_detection": {
+      "algorithm": "Isolation Forest + LSTM",
+      "training_data_months": 6,
+      "anomaly_threshold": 95,
+      "retraining_frequency": "Monthly"
+    },
+    "predictive_maintenance": {
+      "equipment_monitored": ["HVAC RTUs", "Pumps", "Fans"],
+      "prediction_horizon_days": 30,
+      "features": ["Vibration", "Temperature", "Current draw", "Runtime hours"]
+    },
+    "occupancy_prediction": {
+      "algorithm": "Random Forest + Time series",
+      "prediction_horizon_hours": 24,
+      "features": ["Historical occupancy", "Calendar", "Weather", "Events"]
+    },
+    "energy_baseline": {
+      "model_type": "Gradient Boosting Regressor",
+      "independent_variables": ["OAT", "Occupancy", "Day of week", "Hour"],
+      "cv_rmse_target": 10
+    }
+  },
+  "digital_twin_synchronization": {
+    "update_frequency_s": 60,
+    "state_variables_tracked": 385,
+    "physics_engine": "EnergyPlus co-simulation",
+    "model_calibration": "Bayesian optimization every 7 days",
+    "forecast_horizon_hours": 72
+  }
+}
