@@ -1,0 +1,25 @@
+Parameter,Value,Description,Units
+Initial_Pore_Pressure,101325,Initial pore pressure (atmospheric),Pa
+Vapor_Pressure_Constant_A,8.07131,Antoine equation constant A,-
+Vapor_Pressure_Constant_B,1730.63,Antoine equation constant B,°C
+Vapor_Pressure_Constant_C,233.426,Antoine equation constant C,°C
+Saturation_Vapor_Pressure_100C,101325,Saturation vapor pressure at 100°C,Pa
+Saturation_Vapor_Pressure_200C,1555000,Saturation vapor pressure at 200°C,Pa
+Saturation_Vapor_Pressure_300C,8587000,Saturation vapor pressure at 300°C,Pa
+Moisture_Permeability_20C,1e-16,Moisture permeability at 20°C,m²
+Moisture_Permeability_100C,1e-15,Moisture permeability at 100°C,m²
+Moisture_Permeability_200C,1e-14,Moisture permeability at 200°C,m²
+Moisture_Permeability_300C,1e-13,Moisture permeability at 300°C,m²
+Vapor_Diffusivity_20C,2.6e-5,Vapor diffusivity at 20°C,m²/s
+Vapor_Diffusivity_100C,3.1e-5,Vapor diffusivity at 100°C,m²/s
+Vapor_Diffusivity_200C,4.2e-5,Vapor diffusivity at 200°C,m²/s
+Vapor_Diffusivity_300C,6.8e-5,Vapor diffusivity at 300°C,m²/s
+Relative_Humidity_Initial,0.65,Initial relative humidity,-
+Relative_Humidity_Critical,0.95,Critical relative humidity for spalling,-
+Pore_Pressure_Threshold,2e6,Threshold pore pressure for spalling,Pa
+Moisture_Content_Critical,0.02,Critical moisture content for spalling,kg/kg
+Thermal_Expansion_Coeff_Vapor,0.00367,Thermal expansion coefficient of water vapor,1/K
+Vapor_Density_20C,0.0173,Vapor density at 20°C,kg/m³
+Vapor_Density_100C,0.598,Vapor density at 100°C,kg/m³
+Vapor_Density_200C,0.46,Vapor density at 200°C,kg/m³
+Vapor_Density_300C,0.32,Vapor density at 300°C,kg/m³

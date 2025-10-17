@@ -1,0 +1,17 @@
+Parameter,Value,Description,Units
+Initial_Moisture_Content,0.05,Initial moisture content by mass,kg/kg
+Critical_Temperature_Dehydration,105,Onset temperature for dehydration,°C
+Dehydration_Activation_Energy,45000,Activation energy for dehydration,J/mol
+Dehydration_Pre_Exponential_Factor,1e6,Pre-exponential factor for dehydration,1/s
+Dehydration_Order,1.0,Reaction order for dehydration,-
+Mass_Loss_Rate_Constant,0.001,Rate constant for mass loss,1/s
+Porosity_Increase_Factor,2.0,Factor by which porosity increases due to dehydration,-
+Initial_Porosity,0.15,Initial porosity of concrete,-
+Maximum_Porosity,0.45,Maximum porosity after complete dehydration,-
+Dehydration_Heat,2500000,Heat of dehydration,J/kg
+Vapor_Pressure_Exponent,2.5,Exponent for vapor pressure calculation,-
+Vapor_Pressure_Constant,1e-6,Constant for vapor pressure calculation,Pa
+Moisture_Diffusivity_20C,1e-10,Moisture diffusivity at 20°C,m²/s
+Moisture_Diffusivity_100C,1e-9,Moisture diffusivity at 100°C,m²/s
+Moisture_Diffusivity_200C,1e-8,Moisture diffusivity at 200°C,m²/s
+Moisture_Diffusivity_300C,1e-7,Moisture diffusivity at 300°C,m²/s

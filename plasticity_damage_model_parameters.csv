@@ -1,0 +1,22 @@
+Parameter,Value,Description,Units
+Dilation_Angle,36.0,Angle of dilation for concrete plasticity,degrees
+Flow_Potential_Eccentricity,0.1,Eccentricity of the flow potential,-
+fb0_fc0_Ratio,1.16,Ratio of initial equibiaxial compressive yield stress to initial uniaxial compressive yield stress,-
+K_Parameter,0.667,Parameter that controls the shape of the yield surface in the deviatoric plane,-
+Viscosity_Parameter,0.0,Viscosity parameter for viscoplastic regularization,s
+Compressive_Stiffness_Recovery,0.0,Stiffness recovery factor for compression,-
+Tensile_Stiffness_Recovery,1.0,Stiffness recovery factor for tension,-
+Compressive_Damage_Threshold,0.0,Threshold for compressive damage initiation,-
+Tensile_Damage_Threshold,0.0,Threshold for tensile damage initiation,-
+Compressive_Damage_Evolution,0.0,Evolution of compressive damage,-
+Tensile_Damage_Evolution,0.0,Evolution of tensile damage,-
+Yield_Stress_Compression_20C,40.0,Yield stress in compression at 20°C,MPa
+Yield_Stress_Compression_200C,35.0,Yield stress in compression at 200°C,MPa
+Yield_Stress_Compression_400C,25.0,Yield stress in compression at 400°C,MPa
+Yield_Stress_Compression_600C,15.0,Yield stress in compression at 600°C,MPa
+Yield_Stress_Compression_800C,5.0,Yield stress in compression at 800°C,MPa
+Yield_Stress_Tension_20C,4.0,Yield stress in tension at 20°C,MPa
+Yield_Stress_Tension_200C,3.5,Yield stress in tension at 200°C,MPa
+Yield_Stress_Tension_400C,2.5,Yield stress in tension at 400°C,MPa
+Yield_Stress_Tension_600C,1.5,Yield stress in tension at 600°C,MPa
+Yield_Stress_Tension_800C,0.5,Yield stress in tension at 800°C,MPa
