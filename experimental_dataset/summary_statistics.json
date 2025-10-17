@@ -1,0 +1,123 @@
+{
+  "dataset_overview": {
+    "total_mix_types": 6,
+    "temperature_range": "20\u00b0C to 800\u00b0C",
+    "total_data_points": 0
+  },
+  "thermal_properties_summary": {
+    "Control": {
+      "max_mass_loss": 20.03373892878499,
+      "thermal_conductivity_range": {
+        "min": 1.8136031903073802,
+        "max": 2.4620863909111277
+      },
+      "cte_range": {
+        "min": 11.245246975678036,
+        "max": 33.0721491185309
+      }
+    },
+    "R5": {
+      "max_mass_loss": 23.59913646676004,
+      "thermal_conductivity_range": {
+        "min": 1.925806158244494,
+        "max": 2.532156625322395
+      },
+      "cte_range": {
+        "min": 11.543302535235153,
+        "max": 33.60986127911101
+      }
+    },
+    "R10": {
+      "max_mass_loss": 27.339999079622928,
+      "thermal_conductivity_range": {
+        "min": 1.9077381579988881,
+        "max": 2.6182159617524854
+      },
+      "cte_range": {
+        "min": 11.614309665019723,
+        "max": 33.5860032833688
+      }
+    },
+    "R15": {
+      "max_mass_loss": 31.26582536763673,
+      "thermal_conductivity_range": {
+        "min": 1.7890306022443114,
+        "max": 2.437713270882587
+      },
+      "cte_range": {
+        "min": 11.957051010592897,
+        "max": 34.00397230101377
+      }
+    },
+    "R20": {
+      "max_mass_loss": 35.07459022935554,
+      "thermal_conductivity_range": {
+        "min": 1.7230773149696652,
+        "max": 2.4250646025228773
+      },
+      "cte_range": {
+        "min": 12.377817172573257,
+        "max": 34.2272639595512
+      }
+    }
+  },
+  "mechanical_properties_summary": {
+    "Control": {
+      "compressive_strength_range": {
+        "min": 4.5,
+        "max": 45.0
+      },
+      "strength_retention_600C": 20.0
+    },
+    "R5": {
+      "compressive_strength_range": {
+        "min": 4.4325,
+        "max": 44.325
+      },
+      "strength_retention_600C": 20.0
+    },
+    "R10": {
+      "compressive_strength_range": {
+        "min": 4.365,
+        "max": 43.65
+      },
+      "strength_retention_600C": 20.0
+    },
+    "R15": {
+      "compressive_strength_range": {
+        "min": 4.297499999999999,
+        "max": 42.975
+      },
+      "strength_retention_600C": 19.999999999999996
+    },
+    "R20": {
+      "compressive_strength_range": {
+        "min": 4.2299999999999995,
+        "max": 42.3
+      },
+      "strength_retention_600C": 20.0
+    }
+  },
+  "spalling_analysis_summary": {
+    "Control": {
+      "spalling_events": 7,
+      "max_vapor_pressure": 0.4071681397752677
+    },
+    "R5": {
+      "spalling_events": 7,
+      "max_vapor_pressure": 0.3977948306545186
+    },
+    "R10": {
+      "spalling_events": 20,
+      "max_vapor_pressure": 0.3974949221633582
+    },
+    "R15": {
+      "spalling_events": 6,
+      "max_vapor_pressure": 0.39054706025018743
+    },
+    "R20": {
+      "spalling_events": 8,
+      "max_vapor_pressure": 0.38436117688228355
+    }
+  }
+}

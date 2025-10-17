@@ -1,0 +1,44 @@
+{
+  "project_title": "Development and Validation of a Thermo-Mechanical Model for Fire-Resistant Structural Elements Utilizing High-Performance Rubberized Concrete",
+  "dataset_type": "High-Temperature Experimental Investigation Dataset",
+  "generation_date": "2025-10-17T07:43:02.547315",
+  "description": "Comprehensive experimental dataset for fire-resistant rubberized concrete research",
+  "mix_types": {
+    "Control": {
+      "rubber_content": 0.0,
+      "w_c_ratio": 0.45,
+      "cement_type": "OPC"
+    },
+    "R5": {
+      "rubber_content": 0.05,
+      "w_c_ratio": 0.45,
+      "cement_type": "OPC"
+    },
+    "R10": {
+      "rubber_content": 0.1,
+      "w_c_ratio": 0.45,
+      "cement_type": "OPC"
+    },
+    "R15": {
+      "rubber_content": 0.15,
+      "w_c_ratio": 0.45,
+      "cement_type": "OPC"
+    },
+    "R20": {
+      "rubber_content": 0.2,
+      "w_c_ratio": 0.45,
+      "cement_type": "OPC"
+    },
+    "Raw_Rubber": {
+      "rubber_content": 1.0,
+      "w_c_ratio": 0.0,
+      "cement_type": "None"
+    }
+  },
+  "test_conditions": {
+    "temperature_range": "20\u00b0C to 800\u00b0C",
+    "heating_rate": "1\u00b0C/min",
+    "specimen_dimensions": "100x100x100 mm",
+    "test_standards": "ASTM E119, ISO 834, EN 1363-1"
+  }
+}
