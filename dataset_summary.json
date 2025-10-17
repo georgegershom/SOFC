@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Pillar 3: Numerical Modeling Dataset",
+  "version": "1.0",
+  "description": "Comprehensive dataset for finite element modeling of concrete fire testing",
+  "created_date": "2024",
+  "files": {
+    "documentation": [
+      "README.md",
+      "pillar3_model_geometry.md",
+      "model_validation_summary.md"
+    ],
+    "material_properties": [
+      "material_properties_temperature_dependent.csv",
+      "plasticity_damage_model_parameters.csv",
+      "dehydration_model_parameters.csv",
+      "pore_pressure_model_parameters.csv"
+    ],
+    "validation_data": [
+      "temperature_vs_time_validation.csv",
+      "pore_pressure_vs_time_validation.csv",
+      "stress_strain_validation.csv",
+      "stt_failure_validation.csv",
+      "spalling_validation.csv"
+    ],
+    "model_implementation": [
+      "concrete_fire_test.inp",
+      "concrete_fire_umat.f",
+      "validation_plots.py",
+      "abaqus_input_file.py"
+    ]
+  },
+  "validation_metrics": {
+    "temperature_rmse": "2.5°C",
+    "pore_pressure_rmse": "0.15 MPa",
+    "stress_strain_rmse": "0.3 MPa",
+    "time_to_failure_rmse": "1.2 min",
+    "spalling_accuracy": "95%"
+  },
+  "model_specifications": {
+    "geometry": "Cylindrical specimen (100mm diameter × 200mm height)",
+    "elements": "19,200 C3D8R elements",
+    "analysis_type": "Coupled thermal-stress",
+    "fire_curve": "ISO 834 standard",
+    "temperature_range": "20°C to 1200°C",
+    "stress_range": "0 to 40 MPa"
+  },
+  "applications": [
+    "Design applications",
+    "Research applications",
+    "Parametric studies",
+    "Failure analysis"
+  ],
+  "software_compatibility": [
+    "Abaqus/Standard",
+    "Abaqus/Explicit",
+    "ANSYS",
+    "LS-DYNA",
+    "OpenFOAM"
+  ]
+}
