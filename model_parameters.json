@@ -1,0 +1,57 @@
+{
+  "concrete_damaged_plasticity": {
+    "dilation_angle_deg": 36,
+    "flow_potential_eccentricity": 0.1,
+    "fb0_fc0_ratio": 1.16,
+    "k_parameter": 0.667,
+    "viscosity_parameter": 0.0001
+  },
+  "damage_parameters": {
+    "compressive_damage": {
+      "plastic_strain": [0.000, 0.001, 0.002, 0.003, 0.004, 0.005],
+      "dc_value": [0.000, 0.100, 0.300, 0.500, 0.700, 0.900]
+    },
+    "tensile_damage": {
+      "plastic_strain": [0.000, 0.0001, 0.0002, 0.0003, 0.0004, 0.0005],
+      "dt_value": [0.000, 0.200, 0.400, 0.600, 0.800, 0.950]
+    }
+  },
+  "dehydration_model": {
+    "activation_energy_kj_mol": 85,
+    "pre_exponential_factor_s": 1200000,
+    "reference_temperature_c": 20,
+    "mass_loss_data": {
+      "temperature_c": [100, 200, 300, 400, 500, 600, 700, 800],
+      "mass_loss_percent": [0.5, 2.0, 5.0, 8.0, 12.0, 15.0, 18.0, 20.0]
+    }
+  },
+  "porosity_model": {
+    "initial_porosity": 0.15,
+    "maximum_porosity": 0.35,
+    "porosity_data": {
+      "temperature_c": [20, 100, 200, 300, 400, 500, 600, 700, 800],
+      "porosity": [0.15, 0.16, 0.18, 0.21, 0.25, 0.28, 0.31, 0.33, 0.35]
+    }
+  },
+  "pore_pressure_model": {
+    "moisture_transport": {
+      "diffusion_coefficient_20c_m2_s": 1.0e-8,
+      "activation_energy_kj_mol": 45,
+      "diffusion_data": {
+        "temperature_c": [20, 100, 200, 300, 400, 500, 600, 700, 800],
+        "diffusion_coefficient_m2_s": [1.0e-8, 2.5e-8, 5.0e-8, 8.0e-8, 1.2e-7, 1.5e-7, 1.8e-7, 2.0e-7, 2.2e-7]
+      }
+    },
+    "vapor_pressure": {
+      "antoine_equation": {
+        "A": 8.07131,
+        "B": 1730.63,
+        "C": 233.426
+      },
+      "vapor_pressure_data": {
+        "temperature_c": [20, 100, 200, 300, 400, 500, 600, 700, 800],
+        "vapor_pressure_pa": [2338, 101325, 1555000, 8587000, 35510000, 125000000, 375000000, 1000000000, 2500000000]
+      }
+    }
+  }
+}
