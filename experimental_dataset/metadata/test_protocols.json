@@ -1,0 +1,84 @@
+{
+  "thermal_properties": {
+    "tga_dsc": {
+      "equipment": "TGA/DSC 3+ (Mettler Toledo)",
+      "sample_mass": "10-15 mg",
+      "heating_rate": "10°C/min",
+      "temperature_range": "25°C to 800°C",
+      "atmosphere": "Nitrogen (50 ml/min)",
+      "data_points": "775 points (1°C intervals)",
+      "replicates": 3
+    },
+    "thermal_conductivity": {
+      "equipment": "Hot Disk TPS 2500S",
+      "sensor": "Kapton insulated sensor (radius 3.189 mm)",
+      "measurement_time": "40 seconds",
+      "power": "Variable (0.01-0.1 W)",
+      "temperatures": [25, 100, 200, 400, 600],
+      "replicates": 5
+    },
+    "specific_heat": {
+      "equipment": "DSC 3+ (Mettler Toledo)",
+      "sample_mass": "10-15 mg",
+      "heating_rate": "10°C/min",
+      "temperature_range": "25°C to 600°C",
+      "reference": "Empty aluminum pan",
+      "replicates": 3
+    },
+    "cte": {
+      "equipment": "DIL 402 C (Netzsch)",
+      "heating_rate": "1°C/min",
+      "temperature_range": "25°C to 600°C",
+      "atmosphere": "Air",
+      "data_points": "575 points (1°C intervals)",
+      "replicates": 3
+    }
+  },
+  "mechanical_testing": {
+    "tts_curves": {
+      "equipment": "Instron 5982 with furnace",
+      "loading_rate": "0.5 MPa/s",
+      "temperatures": [25, 200, 400, 600, 800],
+      "specimen_size": "100mm cubes",
+      "heating_rate": "5°C/min",
+      "soak_time": "2 hours at target temperature",
+      "replicates": 5
+    },
+    "stt_tests": {
+      "equipment": "Instron 5982 with furnace",
+      "preload_levels": [0.2, 0.4, 0.6, 0.8],
+      "heating_rate": "5°C/min",
+      "failure_criteria": "Peak load or 5% strain",
+      "replicates": 5
+    },
+    "residual_properties": {
+      "cooling_method": "Natural air cooling",
+      "cooling_time": "24 hours to ambient",
+      "tests": ["Compressive strength", "Tensile strength", "Modulus of elasticity", "UPV"],
+      "replicates": 5
+    }
+  },
+  "spalling_durability": {
+    "visual_audio": {
+      "camera": "4K video recording",
+      "microphone": "High-sensitivity acoustic sensor",
+      "frame_rate": "30 fps",
+      "audio_sample_rate": "44.1 kHz",
+      "analysis_software": "ImageJ + MATLAB"
+    },
+    "vapor_pressure": {
+      "equipment": "Custom-built pressure transducers",
+      "sensor_depths": [10, 20, 30, 40, 50],
+      "pressure_range": "0-10 bar",
+      "sampling_rate": "1 Hz",
+      "heating_rate": "5°C/min"
+    },
+    "gas_permeability": {
+      "equipment": "Custom permeability apparatus",
+      "gas": "Nitrogen",
+      "pressure_difference": "0.1-1.0 bar",
+      "temperatures": [25, 100, 200, 400, 600],
+      "measurement_duration": "30 minutes per temperature"
+    }
+  }
+}

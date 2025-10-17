@@ -1,0 +1,494 @@
+{
+  "thermal_decomposition": {
+    "control": {
+      "decomposition_stages": [
+        {
+          "temperature": 37.0,
+          "mass_loss": 0.974498555,
+          "mass_loss_rate": 0.570772615
+        },
+        {
+          "temperature": 106.0,
+          "mass_loss": 4.00122711,
+          "mass_loss_rate": 0.543755152
+        },
+        {
+          "temperature": 160.0,
+          "mass_loss": 4.05176646,
+          "mass_loss_rate": 0.155414165
+        },
+        {
+          "temperature": 228.0,
+          "mass_loss": 0.0975289507,
+          "mass_loss_rate": 0.120649974
+        },
+        {
+          "temperature": 293.0,
+          "mass_loss": 0.0,
+          "mass_loss_rate": 0.125278041
+        },
+        {
+          "temperature": 409.0,
+          "mass_loss": 3.05464612,
+          "mass_loss_rate": 0.695928916
+        },
+        {
+          "temperature": 481.0,
+          "mass_loss": 13.0125063,
+          "mass_loss_rate": 0.546872175
+        },
+        {
+          "temperature": 627.0,
+          "mass_loss": 4.19215449,
+          "mass_loss_rate": 0.562071073
+        },
+        {
+          "temperature": 693.0,
+          "mass_loss": 9.03131322,
+          "mass_loss_rate": 0.561696948
+        },
+        {
+          "temperature": 756.0,
+          "mass_loss": 9.08524938,
+          "mass_loss_rate": 0.222790189
+        }
+      ],
+      "peak_temperatures": [
+        37.0,
+        106.0,
+        160.0,
+        228.0,
+        293.0,
+        409.0,
+        481.0,
+        627.0,
+        693.0,
+        756.0
+      ],
+      "mass_loss_at_stages": [
+        0.974498555,
+        4.00122711,
+        4.05176646,
+        0.0975289507,
+        0.0,
+        3.05464612,
+        13.0125063,
+        4.19215449,
+        9.03131322,
+        9.08524938
+      ]
+    },
+    "rubber_10": {
+      "decomposition_stages": [
+        {
+          "temperature": 50.0,
+          "mass_loss": 1.00758572,
+          "mass_loss_rate": 0.623308552
+        },
+        {
+          "temperature": 105.0,
+          "mass_loss": 3.06058723,
+          "mass_loss_rate": 0.496941073
+        },
+        {
+          "temperature": 179.0,
+          "mass_loss": 3.89785484,
+          "mass_loss_rate": 0.128601919
+        },
+        {
+          "temperature": 235.0,
+          "mass_loss": 0.0,
+          "mass_loss_rate": 0.108203998
+        },
+        {
+          "temperature": 311.0,
+          "mass_loss": 1.55346895,
+          "mass_loss_rate": 0.241616207
+        },
+        {
+          "temperature": 384.0,
+          "mass_loss": 6.4485399,
+          "mass_loss_rate": 0.203347849
+        },
+        {
+          "temperature": 449.0,
+          "mass_loss": 7.56799026,
+          "mass_loss_rate": 0.120132177
+        },
+        {
+          "temperature": 608.0,
+          "mass_loss": 0.943914741,
+          "mass_loss_rate": 0.573156227
+        },
+        {
+          "temperature": 665.0,
+          "mass_loss": 7.8845451,
+          "mass_loss_rate": 0.583637713
+        },
+        {
+          "temperature": 724.0,
+          "mass_loss": 8.98606727,
+          "mass_loss_rate": 0.150394806
+        },
+        {
+          "temperature": 780.0,
+          "mass_loss": 9.10711027,
+          "mass_loss_rate": 0.180531821
+        }
+      ],
+      "peak_temperatures": [
+        50.0,
+        105.0,
+        179.0,
+        235.0,
+        311.0,
+        384.0,
+        449.0,
+        608.0,
+        665.0,
+        724.0,
+        780.0
+      ],
+      "mass_loss_at_stages": [
+        1.00758572,
+        3.06058723,
+        3.89785484,
+        0.0,
+        1.55346895,
+        6.4485399,
+        7.56799026,
+        0.943914741,
+        7.8845451,
+        8.98606727,
+        9.10711027
+      ]
+    },
+    "rubber_20": {
+      "decomposition_stages": [
+        {
+          "temperature": 36.0,
+          "mass_loss": 0.0,
+          "mass_loss_rate": 0.54548143
+        },
+        {
+          "temperature": 106.0,
+          "mass_loss": 4.04938565,
+          "mass_loss_rate": 0.49575507
+        },
+        {
+          "temperature": 164.0,
+          "mass_loss": 4.02142665,
+          "mass_loss_rate": 0.18280748
+        },
+        {
+          "temperature": 216.0,
+          "mass_loss": 0.210553396,
+          "mass_loss_rate": 0.131452332
+        },
+        {
+          "temperature": 316.0,
+          "mass_loss": 4.2348714,
+          "mass_loss_rate": 0.455932855
+        },
+        {
+          "temperature": 395.0,
+          "mass_loss": 13.4454574,
+          "mass_loss_rate": 0.214769562
+        },
+        {
+          "temperature": 476.0,
+          "mass_loss": 2.386863,
+          "mass_loss_rate": 0.151279573
+        },
+        {
+          "temperature": 561.0,
+          "mass_loss": 0.0872884591,
+          "mass_loss_rate": 0.17571279
+        },
+        {
+          "temperature": 621.0,
+          "mass_loss": 4.04665084,
+          "mass_loss_rate": 0.601625839
+        },
+        {
+          "temperature": 693.0,
+          "mass_loss": 8.9185642,
+          "mass_loss_rate": 0.517542595
+        },
+        {
+          "temperature": 790.0,
+          "mass_loss": 8.96960924,
+          "mass_loss_rate": 0.16844193
+        }
+      ],
+      "peak_temperatures": [
+        36.0,
+        106.0,
+        164.0,
+        216.0,
+        316.0,
+        395.0,
+        476.0,
+        561.0,
+        621.0,
+        693.0,
+        790.0
+      ],
+      "mass_loss_at_stages": [
+        0.0,
+        4.04938565,
+        4.02142665,
+        0.210553396,
+        4.2348714,
+        13.4454574,
+        2.386863,
+        0.0872884591,
+        4.04665084,
+        8.9185642,
+        8.96960924
+      ]
+    },
+    "rubber_30": {
+      "decomposition_stages": [
+        {
+          "temperature": 71.0,
+          "mass_loss": 2.82888191,
+          "mass_loss_rate": 0.547494378
+        },
+        {
+          "temperature": 146.0,
+          "mass_loss": 4.04278975,
+          "mass_loss_rate": 0.144701064
+        },
+        {
+          "temperature": 308.0,
+          "mass_loss": 3.35077288,
+          "mass_loss_rate": 0.572436431
+        },
+        {
+          "temperature": 378.0,
+          "mass_loss": 18.7795456,
+          "mass_loss_rate": 0.293407888
+        },
+        {
+          "temperature": 444.0,
+          "mass_loss": 0.430127466,
+          "mass_loss_rate": 0.158273892
+        },
+        {
+          "temperature": 559.0,
+          "mass_loss": 0.0,
+          "mass_loss_rate": 0.104691868
+        },
+        {
+          "temperature": 609.0,
+          "mass_loss": 1.92812684,
+          "mass_loss_rate": 0.569515669
+        },
+        {
+          "temperature": 664.0,
+          "mass_loss": 7.17875428,
+          "mass_loss_rate": 0.638420653
+        },
+        {
+          "temperature": 714.0,
+          "mass_loss": 9.06816533,
+          "mass_loss_rate": 0.152691967
+        },
+        {
+          "temperature": 782.0,
+          "mass_loss": 8.93295624,
+          "mass_loss_rate": 0.129867965
+        }
+      ],
+      "peak_temperatures": [
+        71.0,
+        146.0,
+        308.0,
+        378.0,
+        444.0,
+        559.0,
+        609.0,
+        664.0,
+        714.0,
+        782.0
+      ],
+      "mass_loss_at_stages": [
+        2.82888191,
+        4.04278975,
+        3.35077288,
+        18.7795456,
+        0.430127466,
+        0.0,
+        1.92812684,
+        7.17875428,
+        9.06816533,
+        8.93295624
+      ]
+    },
+    "raw_rubber": {
+      "decomposition_stages": [
+        {
+          "temperature": 51.0,
+          "mass_loss": 2.00084074,
+          "mass_loss_rate": 0.624870014
+        },
+        {
+          "temperature": 105.0,
+          "mass_loss": 2.81617194,
+          "mass_loss_rate": 0.547102328
+        },
+        {
+          "temperature": 181.0,
+          "mass_loss": 3.92586595,
+          "mass_loss_rate": 0.159689075
+        },
+        {
+          "temperature": 309.0,
+          "mass_loss": 13.0286489,
+          "mass_loss_rate": 1.62063965
+        },
+        {
+          "temperature": 378.0,
+          "mass_loss": 63.0522434,
+          "mass_loss_rate": 0.662426852
+        },
+        {
+          "temperature": 429.0,
+          "mass_loss": 73.0123353,
+          "mass_loss_rate": 0.637132245
+        },
+        {
+          "temperature": 485.0,
+          "mass_loss": 78.0003086,
+          "mass_loss_rate": 0.552764421
+        },
+        {
+          "temperature": 597.0,
+          "mass_loss": 0.0554930318,
+          "mass_loss_rate": 0.113219096
+        },
+        {
+          "temperature": 669.0,
+          "mass_loss": 0.017549171,
+          "mass_loss_rate": 0.142454407
+        },
+        {
+          "temperature": 724.0,
+          "mass_loss": 0.0,
+          "mass_loss_rate": 0.115177916
+        }
+      ],
+      "peak_temperatures": [
+        51.0,
+        105.0,
+        181.0,
+        309.0,
+        378.0,
+        429.0,
+        485.0,
+        597.0,
+        669.0,
+        724.0
+      ],
+      "mass_loss_at_stages": [
+        2.00084074,
+        2.81617194,
+        3.92586595,
+        13.0286489,
+        63.0522434,
+        73.0123353,
+        78.0003086,
+        0.0554930318,
+        0.017549171,
+        0.0
+      ]
+    }
+  },
+  "mechanical_degradation": {
+    "mixes": {
+      "strength_degradation": [],
+      "modulus_degradation": [],
+      "ductility_changes": []
+    }
+  },
+  "rubber_effects": {
+    "thermal_conductivity": {},
+    "strength_degradation": {
+      "25": {
+        "rubber_contents": [
+          0,
+          10,
+          20,
+          30
+        ],
+        "strengths": [
+          41.7868728364401,
+          34.77786905979967,
+          30.781415125620875,
+          26.14524247556589
+        ]
+      },
+      "200": {
+        "rubber_contents": [
+          0,
+          10,
+          20,
+          30
+        ],
+        "strengths": [
+          35.41551607278464,
+          31.44627828268001,
+          26.348939766101427,
+          22.502370855486106
+        ]
+      },
+      "400": {
+        "rubber_contents": [
+          0,
+          10,
+          20,
+          30
+        ],
+        "strengths": [
+          24.651136691256475,
+          21.442968020432435,
+          19.509342670280013,
+          15.802637225345341
+        ]
+      },
+      "600": {
+        "rubber_contents": [
+          0,
+          10,
+          20,
+          30
+        ],
+        "strengths": [
+          15.306265450529839,
+          12.94895626465223,
+          11.738507356596024,
+          10.35928969781452
+        ]
+      },
+      "800": {
+        "rubber_contents": [
+          0,
+          10,
+          20,
+          30
+        ],
+        "strengths": [
+          6.851876018828205,
+          6.3966487065643935,
+          5.713989327169303,
+          4.966580353577531
+        ]
+      }
+    },
+    "residual_properties": {}
+  },
+  "degradation_models": {
+    "mixes": {}
+  }
+}
