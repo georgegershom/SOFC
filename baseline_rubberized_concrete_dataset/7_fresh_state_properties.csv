@@ -1,0 +1,11 @@
+Mix_ID,Mix_Name,Rubber_Content_Percent,Slump_Flow_mm,Slump_Flow_T50_sec,Slump_Retention_30min_mm,Slump_Retention_60min_mm,Air_Content_Percent,Air_Void_Spacing_Factor_mm,Fresh_Density_kg_m3,Temperature_at_Mixing_C,Mixing_Time_min,Setting_Time_Initial_min,Setting_Time_Final_min,Bleeding_ml_per_cm2,Segregation_Index,Workability_Rating,Visual_Appearance
+RC-00,Control Mix (0% Rubber),0,180,3.5,165,155,2.1,0.28,2410,24,5,245,365,0.15,0,Excellent,Uniform gray cohesive mixture
+RC-05,5% Rubber Replacement,5,185,3.2,170,160,2.8,0.31,2365,24,5,265,385,0.12,0,Very Good,Uniform with visible rubber particles
+RC-10,10% Rubber Replacement,10,195,2.8,180,170,3.5,0.35,2318,24,5,285,405,0.08,0,Good,Dark gray with distinct rubber aggregates
+RC-15,15% Rubber Replacement,15,210,2.5,195,185,4.2,0.38,2268,24,5,305,425,0.05,0,Acceptable,Darker appearance rubber clearly visible
+
+Mix_ID,Flow_Table_Spread_mm,Compacting_Factor,Vebe_Time_sec,Cohesiveness_Visual,Finishability,Pumpability_Rating,Plastic_Viscosity_Relative,Yield_Stress_Relative
+RC-00,420,0.92,5.2,Excellent,Excellent,10,1.00,1.00
+RC-05,445,0.90,4.8,Very Good,Very Good,9,0.88,0.92
+RC-10,475,0.88,4.2,Good,Good,8,0.75,0.85
+RC-15,510,0.85,3.5,Fair,Fair,7,0.62,0.78

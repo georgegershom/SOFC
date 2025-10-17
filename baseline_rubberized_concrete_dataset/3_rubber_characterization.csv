@@ -1,0 +1,21 @@
+Property,Value,Unit,Test_Method,Notes
+Source,Recycled truck tires (commercial vehicles),,Visual inspection,End-of-life commercial truck tires from regional recycling facility
+Processing_Method,Ambient mechanical grinding,,Manufacturer specification,Crumb rubber produced via mechanical shredding at ambient temperature
+Particle_Size_Range,1-4,mm,ASTM D5644,Sieve analysis confirms 90% retention between 1-4mm
+Mean_Particle_Size,2.3,mm,Calculated from sieve analysis,Volume-weighted mean diameter
+Specific_Gravity,1.26,-,ASTM D792 (Method A),Measured in water at 23°C
+Bulk_Density_Loose,450,kg/m³,ASTM C29,Uncompacted bulk density
+Bulk_Density_Compacted,580,kg/m³,ASTM C29,Compacted via rodding procedure
+Water_Absorption_24h,2.8,%,Modified ASTM C127,Significantly higher than natural aggregates
+Water_Absorption_30min,1.2,%,Modified ASTM C127,Initial absorption during mixing
+Hardness_Shore_A,68,-,ASTM D2240,Average of 10 measurements on flat rubber pieces
+Tensile_Strength_Rubber,8.5,MPa,ASTM D412,Single rubber particles tested
+Elongation_at_Break,420,%,ASTM D412,Highly deformable compared to mineral aggregates
+Surface_Texture,Rough with embedded fibers,,SEM imaging,Steel fiber remnants and textile fibers visible
+Color,Black with gray inclusions,,Visual,Carbon black dominates; white spots from ZnO
+Treatment_Method,Alkaline wash (NaOH 10% solution),,Pre-treatment protocol,15 min wash to remove surface contaminants and improve adhesion
+Treatment_Duration,15,minutes,Lab procedure,Followed by thorough water rinsing
+pH_After_Treatment,8.2,-,pH meter,Near neutral after rinsing
+Moisture_Content_Delivered,0.8,%,Oven drying at 105°C,As-received condition
+Surface_Area_BET,1.85,m²/g,BET nitrogen adsorption,Relatively low compared to fine powders
+Oil_Content,2.3,%,Extraction with toluene,Residual processing oils and plasticizers

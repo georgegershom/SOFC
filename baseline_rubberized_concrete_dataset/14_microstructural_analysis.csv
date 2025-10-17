@@ -1,0 +1,36 @@
+Mix_ID,Mix_Name,Rubber_Content_Percent,Analysis_Method,Parameter,Value,Unit,Location,Notes
+RC-00,Control Mix,0,SEM,ITZ_Thickness_Average,45,μm,Cement-aggregate interface,Dense interfacial transition zone
+RC-00,Control Mix,0,SEM,ITZ_Porosity,18,percent,Cement-aggregate interface,Typical ITZ porosity for normal concrete
+RC-00,Control Mix,0,SEM,Crack_Density_Matrix,0.12,cracks/mm²,Cement matrix,Minimal microcracking
+RC-00,Control Mix,0,SEM,CH_Crystal_Size,15,μm,Cement matrix,Large portlandite crystals
+RC-00,Control Mix,0,XRD,Portlandite_CH,8.2,percent,Bulk sample,Calcium hydroxide content
+RC-00,Control Mix,0,XRD,Calcite_CaCO3,2.8,percent,Bulk sample,Some carbonation
+RC-00,Control Mix,0,XRD,Ettringite,1.5,percent,Bulk sample,Hydration product
+RC-00,Control Mix,0,XRD,CSH_Gel,52,percent,Bulk sample,Main binding phase
+RC-05,5% Rubber,5,SEM,ITZ_Thickness_Rubber_Matrix,95,μm,Rubber-cement interface,Thicker ITZ around rubber particles
+RC-05,5% Rubber,5,SEM,ITZ_Porosity_Rubber,35,percent,Rubber-cement interface,High porosity due to poor bonding
+RC-05,5% Rubber,5,SEM,ITZ_Gap_Width,5,μm,Rubber-cement interface,Visible gap between rubber and cement
+RC-05,5% Rubber,5,SEM,ITZ_Thickness_Aggregate,48,μm,Cement-mineral aggregate interface,Similar to control mix
+RC-05,5% Rubber,5,SEM,Crack_Density_Matrix,0.15,cracks/mm²,Cement matrix,Slight increase in microcracking
+RC-05,5% Rubber,5,SEM,Rubber_Surface_Coverage,65,percent,Rubber particle surface,Partial cement paste adhesion
+RC-05,5% Rubber,5,XRD,Portlandite_CH,8.5,percent,Bulk sample,Slightly higher CH near rubber
+RC-05,5% Rubber,5,XRD,CSH_Gel,50,percent,Bulk sample,Slightly reduced C-S-H
+RC-10,10% Rubber,10,SEM,ITZ_Thickness_Rubber_Matrix,125,μm,Rubber-cement interface,Very thick transition zone
+RC-10,10% Rubber,10,SEM,ITZ_Porosity_Rubber,48,percent,Rubber-cement interface,Severe porosity and weak bonding
+RC-10,10% Rubber,10,SEM,ITZ_Gap_Width,12,μm,Rubber-cement interface,Significant debonding visible
+RC-10,10% Rubber,10,SEM,ITZ_Thickness_Aggregate,52,μm,Cement-mineral aggregate interface,Slight increase due to higher w/c effective
+RC-10,10% Rubber,10,SEM,Crack_Density_Matrix,0.22,cracks/mm²,Cement matrix,Increased microcracking around rubber
+RC-10,10% Rubber,10,SEM,Rubber_Surface_Coverage,48,percent,Rubber particle surface,Poor cement paste adhesion
+RC-10,10% Rubber,10,SEM,Void_Size_ITZ,85,μm,Rubber-cement interface,Large voids at interface
+RC-10,10% Rubber,10,XRD,Portlandite_CH,9.1,percent,Bulk sample,Higher CH accumulation near rubber
+RC-10,10% Rubber,10,XRD,CSH_Gel,48,percent,Bulk sample,Reduced C-S-H formation
+RC-15,15% Rubber,15,SEM,ITZ_Thickness_Rubber_Matrix,165,μm,Rubber-cement interface,Extremely thick weak zone
+RC-15,15% Rubber,15,SEM,ITZ_Porosity_Rubber,58,percent,Rubber-cement interface,Critical porosity level
+RC-15,15% Rubber,15,SEM,ITZ_Gap_Width,22,μm,Rubber-cement interface,Extensive debonding
+RC-15,15% Rubber,15,SEM,ITZ_Thickness_Aggregate,58,μm,Cement-mineral aggregate interface,Increased ITZ around all aggregates
+RC-15,15% Rubber,15,SEM,Crack_Density_Matrix,0.35,cracks/mm²,Cement matrix,Extensive microcrack network
+RC-15,15% Rubber,15,SEM,Rubber_Surface_Coverage,35,percent,Rubber particle surface,Very poor adhesion
+RC-15,15% Rubber,15,SEM,Void_Size_ITZ,145,μm,Rubber-cement interface,Very large interfacial voids
+RC-15,15% Rubber,15,SEM,Interconnected_Void_Network,Yes,-,Throughout sample,Percolated pore network
+RC-15,15% Rubber,15,XRD,Portlandite_CH,10.2,percent,Bulk sample,Significant CH near rubber surfaces
+RC-15,15% Rubber,15,XRD,CSH_Gel,45,percent,Bulk sample,Notably reduced C-S-H

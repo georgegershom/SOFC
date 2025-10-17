@@ -1,0 +1,98 @@
+Mix_ID,Strain_Microstrain,Stress_MPa,Loading_State,Specimen_Type,Notes
+RC-00,0,0,Loading,Cylinder 150x300mm,Origin point
+RC-00,100,3.2,Loading,Cylinder 150x300mm,Initial linear elastic
+RC-00,300,9.6,Loading,Cylinder 150x300mm,Linear elastic region
+RC-00,500,16.1,Loading,Cylinder 150x300mm,Linear elastic region
+RC-00,700,22.5,Loading,Cylinder 150x300mm,Linear elastic region
+RC-00,900,28.8,Loading,Cylinder 150x300mm,Linear elastic region
+RC-00,1100,35.2,Loading,Cylinder 150x300mm,Approaching nonlinearity
+RC-00,1300,40.8,Loading,Cylinder 150x300mm,Slight nonlinearity begins
+RC-00,1500,45.2,Loading,Cylinder 150x300mm,Nonlinear pre-peak
+RC-00,1700,48.5,Loading,Cylinder 150x300mm,Nonlinear pre-peak
+RC-00,1900,51.2,Loading,Cylinder 150x300mm,Near peak
+RC-00,2100,52.3,Peak,Cylinder 150x300mm,Peak compressive strength
+RC-00,2300,50.8,Post-peak,Cylinder 150x300mm,Brittle softening
+RC-00,2500,47.2,Post-peak,Cylinder 150x300mm,Rapid strength loss
+RC-00,2700,41.5,Post-peak,Cylinder 150x300mm,Continued degradation
+RC-00,2850,35.8,Failure,Cylinder 150x300mm,Near complete failure
+RC-05,0,0,Loading,Cylinder 150x300mm,Origin point
+RC-05,100,2.8,Loading,Cylinder 150x300mm,Initial linear elastic
+RC-05,300,8.5,Loading,Cylinder 150x300mm,Linear elastic region
+RC-05,500,14.1,Loading,Cylinder 150x300mm,Linear elastic region
+RC-05,700,19.7,Loading,Cylinder 150x300mm,Linear elastic region
+RC-05,900,25.3,Loading,Cylinder 150x300mm,Linear elastic region
+RC-05,1100,30.8,Loading,Cylinder 150x300mm,Approaching nonlinearity
+RC-05,1300,35.5,Loading,Cylinder 150x300mm,Slight nonlinearity
+RC-05,1500,39.2,Loading,Cylinder 150x300mm,Nonlinear pre-peak
+RC-05,1700,42.1,Loading,Cylinder 150x300mm,Nonlinear pre-peak
+RC-05,1900,44.5,Loading,Cylinder 150x300mm,Near peak
+RC-05,2100,46.2,Loading,Cylinder 150x300mm,Near peak
+RC-05,2300,46.8,Peak,Cylinder 150x300mm,Peak compressive strength
+RC-05,2500,46.1,Post-peak,Cylinder 150x300mm,Gradual softening
+RC-05,2700,44.8,Post-peak,Cylinder 150x300mm,Ductile behavior
+RC-05,2900,42.5,Post-peak,Cylinder 150x300mm,Continued load capacity
+RC-05,3100,39.2,Post-peak,Cylinder 150x300mm,Progressive failure
+RC-05,3300,35.1,Post-peak,Cylinder 150x300mm,Rubber bridging effect
+RC-05,3500,30.5,Post-peak,Cylinder 150x300mm,Late stage degradation
+RC-05,3580,28.2,Failure,Cylinder 150x300mm,Residual strength remains
+RC-10,0,0,Loading,Cylinder 150x300mm,Origin point
+RC-10,100,2.3,Loading,Cylinder 150x300mm,Initial linear elastic
+RC-10,300,6.8,Loading,Cylinder 150x300mm,Linear elastic region
+RC-10,500,11.4,Loading,Cylinder 150x300mm,Linear elastic region
+RC-10,700,15.9,Loading,Cylinder 150x300mm,Linear elastic region
+RC-10,900,20.5,Loading,Cylinder 150x300mm,Linear elastic region
+RC-10,1100,24.9,Loading,Cylinder 150x300mm,Approaching nonlinearity
+RC-10,1300,28.8,Loading,Cylinder 150x300mm,Slight nonlinearity
+RC-10,1500,32.2,Loading,Cylinder 150x300mm,Nonlinear pre-peak
+RC-10,1700,34.9,Loading,Cylinder 150x300mm,Nonlinear pre-peak
+RC-10,1900,37.1,Loading,Cylinder 150x300mm,Near peak
+RC-10,2100,38.8,Loading,Cylinder 150x300mm,Near peak
+RC-10,2300,39.6,Loading,Cylinder 150x300mm,Near peak
+RC-10,2500,39.8,Peak,Cylinder 150x300mm,Peak compressive strength
+RC-10,2700,39.4,Post-peak,Cylinder 150x300mm,Very gradual softening
+RC-10,2900,38.6,Post-peak,Cylinder 150x300mm,Ductile plateau
+RC-10,3100,37.5,Post-peak,Cylinder 150x300mm,Extended ductility
+RC-10,3300,35.8,Post-peak,Cylinder 150x300mm,Rubber deformation dominant
+RC-10,3500,33.5,Post-peak,Cylinder 150x300mm,Progressive degradation
+RC-10,3700,30.8,Post-peak,Cylinder 150x300mm,Continued load bearing
+RC-10,3900,27.5,Post-peak,Cylinder 150x300mm,Late stage failure
+RC-10,4100,23.8,Post-peak,Cylinder 150x300mm,Advanced damage
+RC-10,4300,19.5,Post-peak,Cylinder 150x300mm,Near complete failure
+RC-10,4500,15.2,Post-peak,Cylinder 150x300mm,Residual capacity
+RC-10,4700,11.5,Post-peak,Cylinder 150x300mm,Final stage
+RC-10,4850,9.8,Failure,Cylinder 150x300mm,Significant residual strength
+RC-15,0,0,Loading,Cylinder 150x300mm,Origin point
+RC-15,100,1.7,Loading,Cylinder 150x300mm,Initial linear elastic
+RC-15,300,5.2,Loading,Cylinder 150x300mm,Linear elastic region
+RC-15,500,8.6,Loading,Cylinder 150x300mm,Linear elastic region
+RC-15,700,12.0,Loading,Cylinder 150x300mm,Linear elastic region
+RC-15,900,15.5,Loading,Cylinder 150x300mm,Linear elastic region
+RC-15,1100,18.9,Loading,Cylinder 150x300mm,Approaching nonlinearity
+RC-15,1300,22.0,Loading,Cylinder 150x300mm,Nonlinear behavior
+RC-15,1500,24.8,Loading,Cylinder 150x300mm,Nonlinear pre-peak
+RC-15,1700,27.2,Loading,Cylinder 150x300mm,Nonlinear pre-peak
+RC-15,1900,29.3,Loading,Cylinder 150x300mm,Near peak
+RC-15,2100,30.9,Loading,Cylinder 150x300mm,Near peak
+RC-15,2300,31.9,Loading,Cylinder 150x300mm,Near peak
+RC-15,2500,32.5,Peak,Cylinder 150x300mm,Peak compressive strength
+RC-15,2700,32.3,Post-peak,Cylinder 150x300mm,Minimal strength loss
+RC-15,2900,31.9,Post-peak,Cylinder 150x300mm,Plastic plateau
+RC-15,3100,31.2,Post-peak,Cylinder 150x300mm,Highly ductile
+RC-15,3300,30.3,Post-peak,Cylinder 150x300mm,Extensive rubber deformation
+RC-15,3500,29.1,Post-peak,Cylinder 150x300mm,Gradual degradation
+RC-15,3700,27.6,Post-peak,Cylinder 150x300mm,Continued ductility
+RC-15,3900,25.8,Post-peak,Cylinder 150x300mm,Progressive failure
+RC-15,4100,23.8,Post-peak,Cylinder 150x300mm,Extensive damage
+RC-15,4300,21.5,Post-peak,Cylinder 150x300mm,Advanced failure
+RC-15,4500,19.0,Post-peak,Cylinder 150x300mm,Late stage
+RC-15,4700,16.3,Post-peak,Cylinder 150x300mm,Continued load bearing
+RC-15,4900,13.5,Post-peak,Cylinder 150x300mm,Final stages
+RC-15,5100,10.8,Post-peak,Cylinder 150x300mm,Near end
+RC-15,5300,8.5,Post-peak,Cylinder 150x300mm,Approaching residual
+RC-15,5500,6.8,Post-peak,Cylinder 150x300mm,Very late stage
+RC-15,5700,5.5,Post-peak,Cylinder 150x300mm,Almost complete failure
+RC-15,5900,4.5,Post-peak,Cylinder 150x300mm,Final residual
+RC-15,6100,3.8,Post-peak,Cylinder 150x300mm,Extreme deformation
+RC-15,6300,3.2,Post-peak,Cylinder 150x300mm,Beyond failure
+RC-15,6500,2.8,Post-peak,Cylinder 150x300mm,Ultimate residual
+RC-15,6850,2.5,Failure,Cylinder 150x300mm,Extraordinary ductility with high residual strength

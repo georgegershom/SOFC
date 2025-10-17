@@ -1,0 +1,21 @@
+Mix_ID,Mix_Name,Rubber_Content_Percent,Specimen_Type,Diameter_mm,Length_mm,Age_Days,Test_Standard,Specimen_ID,Tensile_Splitting_Strength_MPa,Average_Strength_MPa,Std_Dev_MPa,COV_Percent,Failure_Pattern,Energy_Absorption_Relative,Crack_Width_at_Peak_mm,Post_Peak_Behavior
+RC-00,Control Mix,0,Cylinder,150,300,28,ASTM C496,RC00-28D-T1,4.25,4.18,0.18,4.3,Clean vertical split,1.00,0.05,Sudden brittle failure
+RC-00,Control Mix,0,Cylinder,150,300,28,ASTM C496,RC00-28D-T2,4.05,4.18,0.18,4.3,Clean vertical split,1.00,0.04,Sudden brittle failure
+RC-00,Control Mix,0,Cylinder,150,300,28,ASTM C496,RC00-28D-T3,4.32,4.18,0.18,4.3,Clean vertical split,1.00,0.06,Sudden brittle failure
+RC-00,Control Mix,0,Cylinder,150,300,28,ASTM C496,RC00-28D-T4,4.15,4.18,0.18,4.3,Clean vertical split,1.00,0.05,Sudden brittle failure
+RC-00,Control Mix,0,Cylinder,150,300,28,ASTM C496,RC00-28D-T5,4.13,4.18,0.18,4.3,Clean vertical split,1.00,0.05,Sudden brittle failure
+RC-05,5% Rubber,5,Cylinder,150,300,28,ASTM C496,RC05-28D-T1,3.82,3.75,0.22,5.9,Vertical split with rubber bridging,1.28,0.12,Gradual load drop
+RC-05,5% Rubber,5,Cylinder,150,300,28,ASTM C496,RC05-28D-T2,3.58,3.75,0.22,5.9,Vertical split with rubber bridging,1.25,0.15,Gradual load drop
+RC-05,5% Rubber,5,Cylinder,150,300,28,ASTM C496,RC05-28D-T3,3.92,3.75,0.22,5.9,Vertical split with rubber bridging,1.32,0.10,Gradual load drop
+RC-05,5% Rubber,5,Cylinder,150,300,28,ASTM C496,RC05-28D-T4,3.71,3.75,0.22,5.9,Vertical split with rubber bridging,1.27,0.13,Gradual load drop
+RC-05,5% Rubber,5,Cylinder,150,300,28,ASTM C496,RC05-28D-T5,3.72,3.75,0.22,5.9,Vertical split with rubber bridging,1.30,0.11,Gradual load drop
+RC-10,10% Rubber,10,Cylinder,150,300,28,ASTM C496,RC10-28D-T1,3.15,3.08,0.25,8.1,Split with extensive rubber deformation,1.65,0.28,Progressive ductile behavior
+RC-10,10% Rubber,10,Cylinder,150,300,28,ASTM C496,RC10-28D-T2,2.88,3.08,0.25,8.1,Split with extensive rubber deformation,1.58,0.32,Progressive ductile behavior
+RC-10,10% Rubber,10,Cylinder,150,300,28,ASTM C496,RC10-28D-T3,3.28,3.08,0.25,8.1,Split with extensive rubber deformation,1.72,0.25,Progressive ductile behavior
+RC-10,10% Rubber,10,Cylinder,150,300,28,ASTM C496,RC10-28D-T4,3.05,3.08,0.25,8.1,Split with extensive rubber deformation,1.63,0.29,Progressive ductile behavior
+RC-10,10% Rubber,10,Cylinder,150,300,28,ASTM C496,RC10-28D-T5,3.02,3.08,0.25,8.1,Split with extensive rubber deformation,1.67,0.27,Progressive ductile behavior
+RC-15,15% Rubber,15,Cylinder,150,300,28,ASTM C496,RC15-28D-T1,2.55,2.48,0.28,11.3,Multiple micro-cracks with rubber stretching,2.18,0.45,Highly ductile progressive failure
+RC-15,15% Rubber,15,Cylinder,150,300,28,ASTM C496,RC15-28D-T2,2.28,2.48,0.28,11.3,Multiple micro-cracks with rubber stretching,2.05,0.52,Highly ductile progressive failure
+RC-15,15% Rubber,15,Cylinder,150,300,28,ASTM C496,RC15-28D-T3,2.72,2.48,0.28,11.3,Multiple micro-cracks with rubber stretching,2.28,0.42,Highly ductile progressive failure
+RC-15,15% Rubber,15,Cylinder,150,300,28,ASTM C496,RC15-28D-T4,2.45,2.48,0.28,11.3,Multiple micro-cracks with rubber stretching,2.15,0.48,Highly ductile progressive failure
+RC-15,15% Rubber,15,Cylinder,150,300,28,ASTM C496,RC15-28D-T5,2.40,2.48,0.28,11.3,Multiple micro-cracks with rubber stretching,2.22,0.46,Highly ductile progressive failure
