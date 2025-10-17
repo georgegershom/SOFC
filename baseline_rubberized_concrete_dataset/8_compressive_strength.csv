@@ -1,0 +1,41 @@
+Mix_ID,Mix_Name,Rubber_Content_Percent,Specimen_Type,Specimen_Dimension_mm,Age_Days,Test_Standard,Specimen_ID,Compressive_Strength_MPa,Average_Strength_MPa,Std_Dev_MPa,COV_Percent,Failure_Mode,Notes
+RC-00,Control Mix,0,Cube,150x150x150,7,BS EN 12390-3,RC00-7D-C1,38.5,38.2,0.85,2.2,Typical cone and shear,Normal concrete failure
+RC-00,Control Mix,0,Cube,150x150x150,7,BS EN 12390-3,RC00-7D-C2,37.2,38.2,0.85,2.2,Typical cone and shear,Normal concrete failure
+RC-00,Control Mix,0,Cube,150x150x150,7,BS EN 12390-3,RC00-7D-C3,38.8,38.2,0.85,2.2,Typical cone and shear,Normal concrete failure
+RC-00,Control Mix,0,Cube,150x150x150,7,BS EN 12390-3,RC00-7D-C4,39.1,38.2,0.85,2.2,Typical cone and shear,Normal concrete failure
+RC-00,Control Mix,0,Cube,150x150x150,7,BS EN 12390-3,RC00-7D-C5,37.5,38.2,0.85,2.2,Typical cone and shear,Normal concrete failure
+RC-00,Control Mix,0,Cube,150x150x150,28,BS EN 12390-3,RC00-28D-C1,52.8,52.3,1.12,2.1,Typical cone and shear,Normal concrete failure
+RC-00,Control Mix,0,Cube,150x150x150,28,BS EN 12390-3,RC00-28D-C2,51.5,52.3,1.12,2.1,Typical cone and shear,Normal concrete failure
+RC-00,Control Mix,0,Cube,150x150x150,28,BS EN 12390-3,RC00-28D-C3,53.2,52.3,1.12,2.1,Typical cone and shear,Normal concrete failure
+RC-00,Control Mix,0,Cube,150x150x150,28,BS EN 12390-3,RC00-28D-C4,52.8,52.3,1.12,2.1,Typical cone and shear,Normal concrete failure
+RC-00,Control Mix,0,Cube,150x150x150,28,BS EN 12390-3,RC00-28D-C5,51.2,52.3,1.12,2.1,Typical cone and shear,Normal concrete failure
+RC-05,5% Rubber,5,Cube,150x150x150,7,BS EN 12390-3,RC05-7D-C1,34.8,34.5,0.92,2.7,Shear with rubber pull-out,Rubber particles visible in failure plane
+RC-05,5% Rubber,5,Cube,150x150x150,7,BS EN 12390-3,RC05-7D-C2,33.5,34.5,0.92,2.7,Shear with rubber pull-out,Rubber particles visible in failure plane
+RC-05,5% Rubber,5,Cube,150x150x150,7,BS EN 12390-3,RC05-7D-C3,35.2,34.5,0.92,2.7,Shear with rubber pull-out,Rubber particles visible in failure plane
+RC-05,5% Rubber,5,Cube,150x150x150,7,BS EN 12390-3,RC05-7D-C4,34.8,34.5,0.92,2.7,Shear with rubber pull-out,Rubber particles visible in failure plane
+RC-05,5% Rubber,5,Cube,150x150x150,7,BS EN 12390-3,RC05-7D-C5,34.2,34.5,0.92,2.7,Shear with rubber pull-out,Rubber particles visible in failure plane
+RC-05,5% Rubber,5,Cube,150x150x150,28,BS EN 12390-3,RC05-28D-C1,47.2,46.8,1.25,2.7,Shear with rubber pull-out,Rubber-matrix interface debonding visible
+RC-05,5% Rubber,5,Cube,150x150x150,28,BS EN 12390-3,RC05-28D-C2,45.8,46.8,1.25,2.7,Shear with rubber pull-out,Rubber-matrix interface debonding visible
+RC-05,5% Rubber,5,Cube,150x150x150,28,BS EN 12390-3,RC05-28D-C3,47.8,46.8,1.25,2.7,Shear with rubber pull-out,Rubber-matrix interface debonding visible
+RC-05,5% Rubber,5,Cube,150x150x150,28,BS EN 12390-3,RC05-28D-C4,46.5,46.8,1.25,2.7,Shear with rubber pull-out,Rubber-matrix interface debonding visible
+RC-05,5% Rubber,5,Cube,150x150x150,28,BS EN 12390-3,RC05-28D-C5,46.7,46.8,1.25,2.7,Shear with rubber pull-out,Rubber-matrix interface debonding visible
+RC-10,10% Rubber,10,Cube,150x150x150,7,BS EN 12390-3,RC10-7D-C1,29.2,28.8,1.15,4.0,Shear with extensive rubber debonding,Rubber aggregates clearly debonded
+RC-10,10% Rubber,10,Cube,150x150x150,7,BS EN 12390-3,RC10-7D-C2,27.5,28.8,1.15,4.0,Shear with extensive rubber debonding,Rubber aggregates clearly debonded
+RC-10,10% Rubber,10,Cube,150x150x150,7,BS EN 12390-3,RC10-7D-C3,29.8,28.8,1.15,4.0,Shear with extensive rubber debonding,Rubber aggregates clearly debonded
+RC-10,10% Rubber,10,Cube,150x150x150,7,BS EN 12390-3,RC10-7D-C4,28.5,28.8,1.15,4.0,Shear with extensive rubber debonding,Rubber aggregates clearly debonded
+RC-10,10% Rubber,10,Cube,150x150x150,7,BS EN 12390-3,RC10-7D-C5,29.0,28.8,1.15,4.0,Shear with extensive rubber debonding,Rubber aggregates clearly debonded
+RC-10,10% Rubber,10,Cube,150x150x150,28,BS EN 12390-3,RC10-28D-C1,40.5,39.8,1.58,4.0,Shear with extensive rubber debonding,Significant rubber-matrix gap visible
+RC-10,10% Rubber,10,Cube,150x150x150,28,BS EN 12390-3,RC10-28D-C2,38.2,39.8,1.58,4.0,Shear with extensive rubber debonding,Significant rubber-matrix gap visible
+RC-10,10% Rubber,10,Cube,150x150x150,28,BS EN 12390-3,RC10-28D-C3,41.2,39.8,1.58,4.0,Shear with extensive rubber debonding,Significant rubber-matrix gap visible
+RC-10,10% Rubber,10,Cube,150x150x150,28,BS EN 12390-3,RC10-28D-C4,39.5,39.8,1.58,4.0,Shear with extensive rubber debonding,Significant rubber-matrix gap visible
+RC-10,10% Rubber,10,Cube,150x150x150,28,BS EN 12390-3,RC10-28D-C5,39.8,39.8,1.58,4.0,Shear with extensive rubber debonding,Significant rubber-matrix gap visible
+RC-15,15% Rubber,15,Cube,150x150x150,7,BS EN 12390-3,RC15-7D-C1,23.5,23.8,1.35,5.7,Progressive crushing with rubber deformation,High COV due to rubber distribution
+RC-15,15% Rubber,15,Cube,150x150x150,7,BS EN 12390-3,RC15-7D-C2,22.8,23.8,1.35,5.7,Progressive crushing with rubber deformation,High COV due to rubber distribution
+RC-15,15% Rubber,15,Cube,150x150x150,7,BS EN 12390-3,RC15-7D-C3,25.2,23.8,1.35,5.7,Progressive crushing with rubber deformation,High COV due to rubber distribution
+RC-15,15% Rubber,15,Cube,150x150x150,7,BS EN 12390-3,RC15-7D-C4,24.1,23.8,1.35,5.7,Progressive crushing with rubber deformation,High COV due to rubber distribution
+RC-15,15% Rubber,15,Cube,150x150x150,7,BS EN 12390-3,RC15-7D-C5,23.5,23.8,1.35,5.7,Progressive crushing with rubber deformation,High COV due to rubber distribution
+RC-15,15% Rubber,15,Cube,150x150x150,28,BS EN 12390-3,RC15-28D-C1,33.2,32.5,1.85,5.7,Progressive crushing with rubber deformation,Ductile failure with rubber compression
+RC-15,15% Rubber,15,Cube,150x150x150,28,BS EN 12390-3,RC15-28D-C2,30.8,32.5,1.85,5.7,Progressive crushing with rubber deformation,Ductile failure with rubber compression
+RC-15,15% Rubber,15,Cube,150x150x150,28,BS EN 12390-3,RC15-28D-C3,34.5,32.5,1.85,5.7,Progressive crushing with rubber deformation,Ductile failure with rubber compression
+RC-15,15% Rubber,15,Cube,150x150x150,28,BS EN 12390-3,RC15-28D-C4,32.1,32.5,1.85,5.7,Progressive crushing with rubber deformation,Ductile failure with rubber compression
+RC-15,15% Rubber,15,Cube,150x150x150,28,BS EN 12390-3,RC15-28D-C5,31.9,32.5,1.85,5.7,Progressive crushing with rubber deformation,Ductile failure with rubber compression

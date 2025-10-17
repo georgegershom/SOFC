@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Baseline Rubberized Concrete Dataset - Pillar 1: Material Characterization & Mixture Design"
+abstract: "Comprehensive baseline characterization dataset for rubberized concrete mixtures (0%, 5%, 10%, 15% rubber replacement) including mechanical properties, microstructure, thermal properties, and durability indicators. This dataset establishes the ambient temperature baseline for developing thermo-mechanical models of fire-resistant structural elements utilizing high-performance rubberized concrete."
+authors:
+  - name: "Rubberized Concrete Fire Resistance Research Project"
+    affiliation: "Research Institution"
+version: "1.0.0"
+date-released: "2025-10-17"
+keywords:
+  - rubberized concrete
+  - crumb rubber
+  - fire resistance
+  - mechanical properties
+  - thermo-mechanical modeling
+  - baseline characterization
+  - sustainable concrete
+  - waste tire recycling
+  - ductility enhancement
+  - structural fire safety
+license: "CC-BY-4.0"
+repository-code: "https://github.com/[repository-to-be-added]"
+identifiers:
+  - type: doi
+    value: "[DOI to be assigned]"
+references:
+  - type: generic
+    title: "Development and Validation of a Thermo-Mechanical Model for Fire-Resistant Structural Elements Utilizing High-Performance Rubberized Concrete"
+    scope: "This dataset is part of a larger research project on fire-resistant rubberized concrete"
+preferred-citation:
+  type: dataset
+  title: "Baseline Rubberized Concrete Dataset - Pillar 1: Material Characterization & Mixture Design"
+  authors:
+    - name: "Rubberized Concrete Fire Resistance Research Project"
+  version: "1.0.0"
+  date-released: "2025-10-17"
+  year: 2025
+  abstract: "Comprehensive baseline characterization dataset for rubberized concrete mixtures including mechanical properties, microstructure, thermal properties, and durability indicators at ambient temperature (23°C). The dataset covers four mix designs with rubber replacement levels of 0%, 5%, 10%, and 15% by volume of fine aggregate, establishing the foundation for thermo-mechanical modeling of fire-resistant structural elements."
