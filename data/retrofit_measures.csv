@@ -1,0 +1,14 @@
+measure_id,category,name,description,performance_metric,baseline_value,improved_value,unit,capex_usd,opex_delta_usd_per_year,lifespan_years,system_id
+roof_polyiso_4in,Envelope,"Roof insulation upgrade (polyiso, +4in)",Add 4 in polyisocyanurate insulation to roof to reduce U-value,U-value,0.35,0.2,W/m2K,22000,-500,35,roof_insulation
+roof_polyiso_6in,Envelope,"Roof insulation upgrade (polyiso, +6in)",Add 6 in polyisocyanurate insulation to roof to reduce U-value further,U-value,0.35,0.15,W/m2K,28000,-700,40,roof_insulation
+wall_eps_3in,Envelope,"Wall insulation upgrade (EPS, +3in)",Add 3 in EPS external insulation to reduce wall U-value,U-value,0.55,0.35,W/m2K,45000,-1200,50,wall_insulation
+window_u12,Envelope,High-performance window replacement (U=1.2),Replace existing windows with U=1.2 W/m2K double/triple glazing,U-value,2.7,1.2,W/m2K,180000,-4000,30,windows
+airtightness_upgrade,Envelope,Airtightness improvement (50%),Envelope infiltration reduction via sealing and detailing improvements,ACH50,10.0,5.0,1/h,25000,-800,25,airtightness
+boiler_95,HVAC,Condensing boiler replacement (95%),Replace legacy boiler with 95% efficient condensing model,Thermal efficiency,0.8,0.95,fraction,85000,-3500,20,boiler
+ashp_seasonal_3.5,HVAC,Air-source heat pump (SCOP 3.5),Install variable-speed ASHP to provide heating/cooling,SCOP,2.4,3.5,ratio,240000,-12000,18,heat_pump
+vrf_system_cop4,HVAC,VRF system (COP 4.0),Install VRF with heat recovery fan coils,COP,2.8,4.0,ratio,320000,-18000,18,vrf
+heat_recovery_vent,HVAC,Heat recovery ventilation (75%),Add centralized HRV to reduce ventilation heat losses,Sensible recovery,0.0,0.75,fraction,90000,-6000,20,hrv
+pv_10kw,DER,Solar PV array (10 kW),Install rooftop solar PV array rated at 10 kW,Capacity,0.0,10.0,kW,20000,-50,30,pv
+pv_50kw,DER,Solar PV array (50 kW),Install rooftop solar PV array rated at 50 kW,Capacity,0.0,50.0,kW,90000,-250,30,pv
+battery_100kwh,DER,Li-ion battery (100 kWh),Add lithium-ion battery storage with 100 kWh usable capacity,Usable capacity,0.0,100.0,kWh,70000,-400,12,battery
+solar_thermal_dhw,DER,Solar thermal DHW (40% solar fraction),Install solar thermal collectors for domestic hot water,DHW solar fraction,0.0,0.4,fraction,55000,-1000,25,solar_thermal

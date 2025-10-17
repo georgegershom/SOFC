@@ -1,0 +1,10 @@
+system_id,parameter,annual_degradation_fraction,notes
+pv,capacity_factor,0.005,1/2% per year PV module degradation
+battery,usable_capacity,0.03,3% per year due to cycling
+boiler,efficiency,0.004,Scaling and wear
+heat_pump,cop,0.006,Refrigerant and compressor wear
+vrf,cop,0.005,Fan coil dirt accumulation
+hrv,sensible_recovery,0.005,Filter fouling if not maintained
+windows,u_value,0.002,Sealant aging
+roof_insulation,r_value,0.001,Settling over decades
+wall_insulation,r_value,0.001,Moisture effects over time
