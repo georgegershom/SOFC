@@ -1,0 +1,60 @@
+{
+  "dataset_metadata": {
+    "title": "High-Temperature Experimental Dataset for Fire-Resistant Rubberized Concrete",
+    "version": "1.0.0",
+    "authors": [
+      "AI Dataset Generator"
+    ],
+    "institution": "Research Laboratory",
+    "date_created": "2025-10-17T09:10:47.912153",
+    "license": "Research Use Only",
+    "doi": "TBD",
+    "keywords": [
+      "rubberized concrete",
+      "fire resistance",
+      "high temperature",
+      "thermal properties",
+      "mechanical testing",
+      "spalling resistance",
+      "thermo-mechanical modeling"
+    ]
+  },
+  "experimental_parameters": {
+    "temperature_range": {
+      "min": 25,
+      "max": 800,
+      "unit": "\u00b0C"
+    },
+    "heating_rate": {
+      "value": 5,
+      "unit": "\u00b0C/min"
+    },
+    "specimen_dimensions": {
+      "diameter": 100,
+      "height": 200,
+      "unit": "mm"
+    },
+    "test_duration": {
+      "value": 120,
+      "unit": "minutes"
+    },
+    "measurement_frequency": {
+      "value": 0.1,
+      "unit": "Hz"
+    }
+  },
+  "data_quality": {
+    "uncertainty_thermal_conductivity": "\u00b15%",
+    "uncertainty_specific_heat": "\u00b12%",
+    "uncertainty_strength": "\u00b13%",
+    "uncertainty_modulus": "\u00b15%",
+    "uncertainty_mass_loss": "\u00b11%",
+    "uncertainty_permeability": "\u00b110%"
+  },
+  "file_formats": {
+    "primary": "CSV",
+    "metadata": "JSON",
+    "plots": "PNG",
+    "documentation": "Markdown"
+  }
+}

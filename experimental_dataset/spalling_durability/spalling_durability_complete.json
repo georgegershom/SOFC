@@ -1,0 +1,1102 @@
+{
+  "Control": {
+    "visual_acoustic": {
+      "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+      "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+      "spalling_events": "[0. 0. 0. ... 0. 0. 0.]",
+      "acoustic_intensity": "[26.2014807  26.34299939 27.31368249 ... 89.17897746 90.11578465\n 89.60683704]",
+      "visual_intensity": "[-1.25       -1.22497915 -1.1999583  ... 28.6999583  28.72497915\n 28.75      ]",
+      "total_spalling_events": 15.0,
+      "mix_name": "Control",
+      "rubber_content": 0
+    },
+    "vapor_pressure": {
+      "depths": [
+        5,
+        15,
+        25,
+        35,
+        45
+      ],
+      "vapor_pressure_data": {
+        "5": {
+          "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+          "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+          "vapor_pressure": "[  107009.95933219   110340.14690832   107601.69590527 ...\n 43021410.68299212 43237846.96508632 43453482.69155692]",
+          "depth": 5
+        },
+        "15": {
+          "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+          "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+          "vapor_pressure": "[  116332.56063156   118737.95790478   118835.95572021 ...\n 47119240.33053649 47354858.24268761 47594683.56613324]",
+          "depth": 15
+        },
+        "25": {
+          "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+          "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+          "vapor_pressure": "[  128389.23832161   129184.17260718   130219.29791183 ...\n 51218132.82475226 51475788.62428175 51731377.21015646]",
+          "depth": 25
+        },
+        "35": {
+          "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+          "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+          "vapor_pressure": "[  139186.93121035   139029.66832985   141015.292866   ...\n 55316003.84438528 55593891.2953131  55871637.32061078]",
+          "depth": 35
+        },
+        "45": {
+          "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+          "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+          "vapor_pressure": "[  148532.83860807   148773.47573495   148565.82766134 ...\n 59412421.9965722  59709368.16950987 60008719.53979107]",
+          "depth": 45
+        }
+      },
+      "mix_name": "Control",
+      "rubber_content": 0
+    },
+    "gas_permeability": {
+      "temperatures": [
+        25,
+        100,
+        200,
+        400,
+        600,
+        800
+      ],
+      "permeability_data": [
+        {
+          "temperature": 25,
+          "permeability": 1.0577458133986323e-16,
+          "permeability_log": -15.97561868494866
+        },
+        {
+          "temperature": 100,
+          "permeability": 1.1659392036115e-16,
+          "permeability_log": -15.933324094709443
+        },
+        {
+          "temperature": 200,
+          "permeability": 1.3271194349242019e-16,
+          "permeability_log": -15.877089990779556
+        },
+        {
+          "temperature": 400,
+          "permeability": 1.832831978761997e-16,
+          "permeability_log": -15.736877346298627
+        },
+        {
+          "temperature": 600,
+          "permeability": 2.798318547712552e-16,
+          "permeability_log": -15.553102848943801
+        },
+        {
+          "temperature": 800,
+          "permeability": 4.056118681291546e-16,
+          "permeability_log": -15.391889346111617
+        }
+      ],
+      "mix_name": "Control",
+      "rubber_content": 0
+    },
+    "microstructural_analysis": {
+      "25": {
+        "exposure_temperature": 25,
+        "sem_analysis": {
+          "crack_density": 0.1,
+          "itz_degradation": -0.4375,
+          "rubber_void_size": 0.1,
+          "rubber_void_density": 0.0,
+          "microstructural_damage_index": -0.4275
+        },
+        "xrd_analysis": {
+          "peaks": [
+            {
+              "phase": "portlandite",
+              "2theta": 18.0,
+              "intensity": 97.22222222222221,
+              "fwhm": 0.10125
+            },
+            {
+              "phase": "calcite",
+              "2theta": 29.4,
+              "intensity": 78.57142857142857,
+              "fwhm": 0.10125
+            },
+            {
+              "phase": "quartz",
+              "2theta": 26.6,
+              "intensity": 59.25,
+              "fwhm": 0.10125
+            },
+            {
+              "phase": "ettringite",
+              "2theta": 9.1,
+              "intensity": 35.0,
+              "fwhm": 0.10125
+            },
+            {
+              "phase": "C-S-H",
+              "2theta": 29.0,
+              "intensity": 112.5,
+              "fwhm": 0.10125
+            }
+          ],
+          "phase_change_index": 0.9017460317460317,
+          "total_phases_detected": 5
+        },
+        "mix_name": "Control",
+        "rubber_content": 0
+      },
+      "200": {
+        "exposure_temperature": 200,
+        "sem_analysis": {
+          "crack_density": 0.5,
+          "itz_degradation": 0.0,
+          "rubber_void_size": 0.11750000000000001,
+          "rubber_void_density": 0.0,
+          "microstructural_damage_index": 0.05
+        },
+        "xrd_analysis": {
+          "peaks": [
+            {
+              "phase": "portlandite",
+              "2theta": 18.0,
+              "intensity": 77.77777777777779,
+              "fwhm": 0.11000000000000001
+            },
+            {
+              "phase": "calcite",
+              "2theta": 29.4,
+              "intensity": 68.57142857142858,
+              "fwhm": 0.11000000000000001
+            },
+            {
+              "phase": "quartz",
+              "2theta": 26.6,
+              "intensity": 54.0,
+              "fwhm": 0.11000000000000001
+            }
+          ],
+          "phase_change_index": 0.413968253968254,
+          "total_phases_detected": 3
+        },
+        "mix_name": "Control",
+        "rubber_content": 0
+      },
+      "400": {
+        "exposure_temperature": 400,
+        "sem_analysis": {
+          "crack_density": 2.0,
+          "itz_degradation": 0.5,
+          "rubber_void_size": 0.1375,
+          "rubber_void_density": 0.0,
+          "microstructural_damage_index": 0.7
+        },
+        "xrd_analysis": {
+          "peaks": [
+            {
+              "phase": "portlandite",
+              "2theta": 18.0,
+              "intensity": 55.55555555555556,
+              "fwhm": 0.12000000000000001
+            },
+            {
+              "phase": "calcite",
+              "2theta": 29.4,
+              "intensity": 57.142857142857146,
+              "fwhm": 0.12000000000000001
+            },
+            {
+              "phase": "quartz",
+              "2theta": 26.6,
+              "intensity": 48.0,
+              "fwhm": 0.12000000000000001
+            }
+          ],
+          "phase_change_index": 0.22793650793650794,
+          "total_phases_detected": 3
+        },
+        "mix_name": "Control",
+        "rubber_content": 0
+      },
+      "600": {
+        "exposure_temperature": 600,
+        "sem_analysis": {
+          "crack_density": 5.0,
+          "itz_degradation": 1.0,
+          "rubber_void_size": 0.1575,
+          "rubber_void_density": 0.0,
+          "microstructural_damage_index": 1.5
+        },
+        "xrd_analysis": {
+          "peaks": [
+            {
+              "phase": "calcite",
+              "2theta": 29.4,
+              "intensity": 45.71428571428571,
+              "fwhm": 0.13
+            },
+            {
+              "phase": "quartz",
+              "2theta": 26.6,
+              "intensity": 42.0,
+              "fwhm": 0.13
+            }
+          ],
+          "phase_change_index": 0.10857142857142858,
+          "total_phases_detected": 2
+        },
+        "mix_name": "Control",
+        "rubber_content": 0
+      },
+      "800": {
+        "exposure_temperature": 800,
+        "sem_analysis": {
+          "crack_density": 10.0,
+          "itz_degradation": 1.0,
+          "rubber_void_size": 0.1775,
+          "rubber_void_density": 0.0,
+          "microstructural_damage_index": 2.0
+        },
+        "xrd_analysis": {
+          "peaks": [
+            {
+              "phase": "quartz",
+              "2theta": 26.6,
+              "intensity": 36.0,
+              "fwhm": 0.14
+            }
+          ],
+          "phase_change_index": 0.039999999999999994,
+          "total_phases_detected": 1
+        },
+        "mix_name": "Control",
+        "rubber_content": 0
+      }
+    }
+  },
+  "Low_Rubber": {
+    "visual_acoustic": {
+      "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+      "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+      "spalling_events": "[0. 0. 0. ... 0. 0. 0.]",
+      "acoustic_intensity": "[32.59387579 25.8773289  25.8413079  ... 89.10630901 93.0606105\n 92.03742252]",
+      "visual_intensity": "[-1.2        -1.17597998 -1.15195997 ... 27.55195997 27.57597998\n 27.6       ]",
+      "total_spalling_events": 7.0,
+      "mix_name": "Low_Rubber",
+      "rubber_content": 20
+    },
+    "vapor_pressure": {
+      "depths": [
+        5,
+        15,
+        25,
+        35,
+        45
+      ],
+      "vapor_pressure_data": {
+        "5": {
+          "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+          "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+          "vapor_pressure": "[  113127.64774065   112821.21968017   112722.17203749 ...\n 44901013.83367403 45127767.71073756 45355050.82892092]",
+          "depth": 5
+        },
+        "15": {
+          "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+          "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+          "vapor_pressure": "[  122806.49166054   124215.19154356   124668.51915721 ...\n 49177547.80215219 49425715.41280636 49672305.70697579]",
+          "depth": 15
+        },
+        "25": {
+          "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+          "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+          "vapor_pressure": "[  132513.57300948   134655.12405365   134799.70486206 ...\n 53455538.98085887 53724118.47670567 53992761.21497606]",
+          "depth": 25
+        },
+        "35": {
+          "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+          "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+          "vapor_pressure": "[  143799.2497124    145666.49896966   146706.67347711 ...\n 57730542.77231418 58021478.14615653 58313063.09696567]",
+          "depth": 35
+        },
+        "45": {
+          "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+          "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+          "vapor_pressure": "[  157208.28514636   157238.68876839   155503.41261793 ...\n 62008512.5128748  62319326.41553387 62633403.07813641]",
+          "depth": 45
+        }
+      },
+      "mix_name": "Low_Rubber",
+      "rubber_content": 20
+    },
+    "gas_permeability": {
+      "temperatures": [
+        25,
+        100,
+        200,
+        400,
+        600,
+        800
+      ],
+      "permeability_data": [
+        {
+          "temperature": 25,
+          "permeability": 2.0825546871828792e-16,
+          "permeability_log": -15.681403585344984
+        },
+        {
+          "temperature": 100,
+          "permeability": 1.9969199829505123e-16,
+          "permeability_log": -15.699639337061837
+        },
+        {
+          "temperature": 200,
+          "permeability": 2.301605075455124e-16,
+          "permeability_log": -15.637969193418858
+        },
+        {
+          "temperature": 400,
+          "permeability": 3.8119223334761125e-16,
+          "permeability_log": -15.418855956534857
+        },
+        {
+          "temperature": 600,
+          "permeability": 7.414306503268409e-16,
+          "permeability_log": -15.129929464445285
+        },
+        {
+          "temperature": 800,
+          "permeability": 9.85062834496954e-16,
+          "permeability_log": -15.006536066147113
+        }
+      ],
+      "mix_name": "Low_Rubber",
+      "rubber_content": 20
+    },
+    "microstructural_analysis": {
+      "25": {
+        "exposure_temperature": 25,
+        "sem_analysis": {
+          "crack_density": 0.094,
+          "itz_degradation": -0.42,
+          "rubber_void_size": 0.1,
+          "rubber_void_density": 2.84,
+          "microstructural_damage_index": -0.41059999999999997
+        },
+        "xrd_analysis": {
+          "peaks": [
+            {
+              "phase": "portlandite",
+              "2theta": 18.0,
+              "intensity": 99.16666666666666,
+              "fwhm": 0.10125
+            },
+            {
+              "phase": "calcite",
+              "2theta": 29.4,
+              "intensity": 78.57142857142857,
+              "fwhm": 0.10125
+            },
+            {
+              "phase": "quartz",
+              "2theta": 26.6,
+              "intensity": 59.25,
+              "fwhm": 0.10125
+            },
+            {
+              "phase": "ettringite",
+              "2theta": 9.1,
+              "intensity": 35.7,
+              "fwhm": 0.10125
+            },
+            {
+              "phase": "C-S-H",
+              "2theta": 29.0,
+              "intensity": 112.5,
+              "fwhm": 0.10125
+            }
+          ],
+          "phase_change_index": 0.9017460317460317,
+          "total_phases_detected": 5
+        },
+        "mix_name": "Low_Rubber",
+        "rubber_content": 20
+      },
+      "200": {
+        "exposure_temperature": 200,
+        "sem_analysis": {
+          "crack_density": 0.47,
+          "itz_degradation": 0.0,
+          "rubber_void_size": 0.11750000000000001,
+          "rubber_void_density": 2.0,
+          "microstructural_damage_index": 0.047
+        },
+        "xrd_analysis": {
+          "peaks": [
+            {
+              "phase": "portlandite",
+              "2theta": 18.0,
+              "intensity": 79.33333333333334,
+              "fwhm": 0.11000000000000001
+            },
+            {
+              "phase": "calcite",
+              "2theta": 29.4,
+              "intensity": 68.57142857142858,
+              "fwhm": 0.11000000000000001
+            },
+            {
+              "phase": "quartz",
+              "2theta": 26.6,
+              "intensity": 54.0,
+              "fwhm": 0.11000000000000001
+            }
+          ],
+          "phase_change_index": 0.413968253968254,
+          "total_phases_detected": 3
+        },
+        "mix_name": "Low_Rubber",
+        "rubber_content": 20
+      },
+      "400": {
+        "exposure_temperature": 400,
+        "sem_analysis": {
+          "crack_density": 1.88,
+          "itz_degradation": 0.48,
+          "rubber_void_size": 0.1375,
+          "rubber_void_density": 1.04,
+          "microstructural_damage_index": 0.6679999999999999
+        },
+        "xrd_analysis": {
+          "peaks": [
+            {
+              "phase": "portlandite",
+              "2theta": 18.0,
+              "intensity": 56.66666666666667,
+              "fwhm": 0.12000000000000001
+            },
+            {
+              "phase": "calcite",
+              "2theta": 29.4,
+              "intensity": 57.142857142857146,
+              "fwhm": 0.12000000000000001
+            },
+            {
+              "phase": "quartz",
+              "2theta": 26.6,
+              "intensity": 48.0,
+              "fwhm": 0.12000000000000001
+            }
+          ],
+          "phase_change_index": 0.22793650793650794,
+          "total_phases_detected": 3
+        },
+        "mix_name": "Low_Rubber",
+        "rubber_content": 20
+      },
+      "600": {
+        "exposure_temperature": 600,
+        "sem_analysis": {
+          "crack_density": 4.699999999999999,
+          "itz_degradation": 0.96,
+          "rubber_void_size": 0.1575,
+          "rubber_void_density": 0.08000000000000007,
+          "microstructural_damage_index": 1.43
+        },
+        "xrd_analysis": {
+          "peaks": [
+            {
+              "phase": "calcite",
+              "2theta": 29.4,
+              "intensity": 45.71428571428571,
+              "fwhm": 0.13
+            },
+            {
+              "phase": "quartz",
+              "2theta": 26.6,
+              "intensity": 42.0,
+              "fwhm": 0.13
+            }
+          ],
+          "phase_change_index": 0.10857142857142858,
+          "total_phases_detected": 2
+        },
+        "mix_name": "Low_Rubber",
+        "rubber_content": 20
+      },
+      "800": {
+        "exposure_temperature": 800,
+        "sem_analysis": {
+          "crack_density": 9.399999999999999,
+          "itz_degradation": 0.96,
+          "rubber_void_size": 0.1775,
+          "rubber_void_density": 0.08000000000000007,
+          "microstructural_damage_index": 1.9
+        },
+        "xrd_analysis": {
+          "peaks": [
+            {
+              "phase": "quartz",
+              "2theta": 26.6,
+              "intensity": 36.0,
+              "fwhm": 0.14
+            }
+          ],
+          "phase_change_index": 0.039999999999999994,
+          "total_phases_detected": 1
+        },
+        "mix_name": "Low_Rubber",
+        "rubber_content": 20
+      }
+    }
+  },
+  "Medium_Rubber": {
+    "visual_acoustic": {
+      "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+      "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+      "spalling_events": "[0. 0. 0. ... 0. 0. 0.]",
+      "acoustic_intensity": "[30.70366018 31.98682953 28.03427161 ... 84.14477032 84.09458177\n 94.2354318 ]",
+      "visual_intensity": "[-1.15       -1.12698082 -1.10396163 ... 26.40396163 26.42698082\n 26.45      ]",
+      "total_spalling_events": 5.0,
+      "mix_name": "Medium_Rubber",
+      "rubber_content": 40
+    },
+    "vapor_pressure": {
+      "depths": [
+        5,
+        15,
+        25,
+        35,
+        45
+      ],
+      "vapor_pressure_data": {
+        "5": {
+          "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+          "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+          "vapor_pressure": "[  116634.0719188    117844.63544454   115751.41494537 ...\n 46699483.24531381 46937176.67262159 47171522.76068975]",
+          "depth": 5
+        },
+        "15": {
+          "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+          "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+          "vapor_pressure": "[  128540.33958849   129745.675943     129416.74417521 ...\n 51150350.77487387 51406796.48435048 51663879.95584196]",
+          "depth": 15
+        },
+        "25": {
+          "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+          "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+          "vapor_pressure": "[  139766.7499131    140401.38357096   139115.55016302 ...\n 55598800.82081468 55876224.93629825 56157949.4674331 ]",
+          "depth": 25
+        },
+        "35": {
+          "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+          "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+          "vapor_pressure": "[  150528.34224866   151926.82592507   151498.01309741 ...\n 60046441.1504593  60347602.22913168 60649032.64578744]",
+          "depth": 35
+        },
+        "45": {
+          "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+          "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+          "vapor_pressure": "[  162926.73220768   163022.96834429   161940.78587146 ...\n 64492699.04659517 64816548.91700456 65144145.26436312]",
+          "depth": 45
+        }
+      },
+      "mix_name": "Medium_Rubber",
+      "rubber_content": 40
+    },
+    "gas_permeability": {
+      "temperatures": [
+        25,
+        100,
+        200,
+        400,
+        600,
+        800
+      ],
+      "permeability_data": [
+        {
+          "temperature": 25,
+          "permeability": 2.667161099508476e-16,
+          "permeability_log": -15.57395075164625
+        },
+        {
+          "temperature": 100,
+          "permeability": 3.207376927544296e-16,
+          "permeability_log": -15.49384999924418
+        },
+        {
+          "temperature": 200,
+          "permeability": 4.0407139526147536e-16,
+          "permeability_log": -15.393541892739245
+        },
+        {
+          "temperature": 400,
+          "permeability": 5.303658766062983e-16,
+          "permeability_log": -15.275424425927415
+        },
+        {
+          "temperature": 600,
+          "permeability": 8.376619359496026e-16,
+          "permeability_log": -15.07693121880928
+        },
+        {
+          "temperature": 800,
+          "permeability": 1.7280284572140274e-15,
+          "permeability_log": -14.762449109826305
+        }
+      ],
+      "mix_name": "Medium_Rubber",
+      "rubber_content": 40
+    },
+    "microstructural_analysis": {
+      "25": {
+        "exposure_temperature": 25,
+        "sem_analysis": {
+          "crack_density": 0.08800000000000001,
+          "itz_degradation": -0.40249999999999997,
+          "rubber_void_size": 0.1,
+          "rubber_void_density": 5.609999999999999,
+          "microstructural_damage_index": -0.3937
+        },
+        "xrd_analysis": {
+          "peaks": [
+            {
+              "phase": "portlandite",
+              "2theta": 18.0,
+              "intensity": 101.1111111111111,
+              "fwhm": 0.10125
+            },
+            {
+              "phase": "calcite",
+              "2theta": 29.4,
+              "intensity": 78.57142857142857,
+              "fwhm": 0.10125
+            },
+            {
+              "phase": "quartz",
+              "2theta": 26.6,
+              "intensity": 59.25,
+              "fwhm": 0.10125
+            },
+            {
+              "phase": "ettringite",
+              "2theta": 9.1,
+              "intensity": 36.4,
+              "fwhm": 0.10125
+            },
+            {
+              "phase": "C-S-H",
+              "2theta": 29.0,
+              "intensity": 112.5,
+              "fwhm": 0.10125
+            }
+          ],
+          "phase_change_index": 0.9017460317460317,
+          "total_phases_detected": 5
+        },
+        "mix_name": "Medium_Rubber",
+        "rubber_content": 40
+      },
+      "200": {
+        "exposure_temperature": 200,
+        "sem_analysis": {
+          "crack_density": 0.44,
+          "itz_degradation": 0.0,
+          "rubber_void_size": 0.11750000000000001,
+          "rubber_void_density": 4.0,
+          "microstructural_damage_index": 0.044000000000000004
+        },
+        "xrd_analysis": {
+          "peaks": [
+            {
+              "phase": "portlandite",
+              "2theta": 18.0,
+              "intensity": 80.8888888888889,
+              "fwhm": 0.11000000000000001
+            },
+            {
+              "phase": "calcite",
+              "2theta": 29.4,
+              "intensity": 68.57142857142858,
+              "fwhm": 0.11000000000000001
+            },
+            {
+              "phase": "quartz",
+              "2theta": 26.6,
+              "intensity": 54.0,
+              "fwhm": 0.11000000000000001
+            }
+          ],
+          "phase_change_index": 0.413968253968254,
+          "total_phases_detected": 3
+        },
+        "mix_name": "Medium_Rubber",
+        "rubber_content": 40
+      },
+      "400": {
+        "exposure_temperature": 400,
+        "sem_analysis": {
+          "crack_density": 1.76,
+          "itz_degradation": 0.45999999999999996,
+          "rubber_void_size": 0.1375,
+          "rubber_void_density": 2.16,
+          "microstructural_damage_index": 0.636
+        },
+        "xrd_analysis": {
+          "peaks": [
+            {
+              "phase": "portlandite",
+              "2theta": 18.0,
+              "intensity": 57.77777777777778,
+              "fwhm": 0.12000000000000001
+            },
+            {
+              "phase": "calcite",
+              "2theta": 29.4,
+              "intensity": 57.142857142857146,
+              "fwhm": 0.12000000000000001
+            },
+            {
+              "phase": "quartz",
+              "2theta": 26.6,
+              "intensity": 48.0,
+              "fwhm": 0.12000000000000001
+            }
+          ],
+          "phase_change_index": 0.22793650793650794,
+          "total_phases_detected": 3
+        },
+        "mix_name": "Medium_Rubber",
+        "rubber_content": 40
+      },
+      "600": {
+        "exposure_temperature": 600,
+        "sem_analysis": {
+          "crack_density": 4.4,
+          "itz_degradation": 0.9199999999999999,
+          "rubber_void_size": 0.1575,
+          "rubber_void_density": 0.3200000000000003,
+          "microstructural_damage_index": 1.3599999999999999
+        },
+        "xrd_analysis": {
+          "peaks": [
+            {
+              "phase": "calcite",
+              "2theta": 29.4,
+              "intensity": 45.71428571428571,
+              "fwhm": 0.13
+            },
+            {
+              "phase": "quartz",
+              "2theta": 26.6,
+              "intensity": 42.0,
+              "fwhm": 0.13
+            }
+          ],
+          "phase_change_index": 0.10857142857142858,
+          "total_phases_detected": 2
+        },
+        "mix_name": "Medium_Rubber",
+        "rubber_content": 40
+      },
+      "800": {
+        "exposure_temperature": 800,
+        "sem_analysis": {
+          "crack_density": 8.8,
+          "itz_degradation": 0.9199999999999999,
+          "rubber_void_size": 0.1775,
+          "rubber_void_density": 0.3200000000000003,
+          "microstructural_damage_index": 1.8
+        },
+        "xrd_analysis": {
+          "peaks": [
+            {
+              "phase": "quartz",
+              "2theta": 26.6,
+              "intensity": 36.0,
+              "fwhm": 0.14
+            }
+          ],
+          "phase_change_index": 0.039999999999999994,
+          "total_phases_detected": 1
+        },
+        "mix_name": "Medium_Rubber",
+        "rubber_content": 40
+      }
+    }
+  },
+  "High_Rubber": {
+    "visual_acoustic": {
+      "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+      "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+      "spalling_events": "[0. 0. 0. ... 0. 0. 0.]",
+      "acoustic_intensity": "[18.56466547 37.06361187 26.74857724 ... 89.08032557 86.82095778\n 85.81146796]",
+      "visual_intensity": "[-1.1        -1.07798165 -1.0559633  ... 25.2559633  25.27798165\n 25.3       ]",
+      "total_spalling_events": 0.0,
+      "mix_name": "High_Rubber",
+      "rubber_content": 60
+    },
+    "vapor_pressure": {
+      "depths": [
+        5,
+        15,
+        25,
+        35,
+        45
+      ],
+      "vapor_pressure_data": {
+        "5": {
+          "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+          "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+          "vapor_pressure": "[  121420.36259053   122220.65337309   123047.19718974 ...\n 48422095.12447558 48664848.72404069 48909615.79311118]",
+          "depth": 5
+        },
+        "15": {
+          "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+          "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+          "vapor_pressure": "[  132279.51105355   133911.70344884   133879.2845933  ...\n 53036570.60353012 53299583.72308291 53568427.11887349]",
+          "depth": 15
+        },
+        "25": {
+          "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+          "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+          "vapor_pressure": "[  143286.6214259    145286.01697967   146518.5596866  ...\n 57645995.80339165 57937296.05330944 58227289.41995623]",
+          "depth": 25
+        },
+        "35": {
+          "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+          "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+          "vapor_pressure": "[  155566.90332129   155816.77134182   156737.07228601 ...\n 62258424.70287305 62571707.17068995 62885082.49044485]",
+          "depth": 35
+        },
+        "45": {
+          "time": "[0.00000000e+00 1.00083403e-01 2.00166806e-01 ... 1.19799833e+02\n 1.19899917e+02 1.20000000e+02]",
+          "temperature": "[0.00000000e+00 5.00417014e-01 1.00083403e+00 ... 5.98999166e+02\n 5.99499583e+02 6.00000000e+02]",
+          "vapor_pressure": "[  165489.80901658   168257.6822194    169588.88785162 ...\n 66869451.92144354 67205496.61253045 67542312.31726478]",
+          "depth": 45
+        }
+      },
+      "mix_name": "High_Rubber",
+      "rubber_content": 60
+    },
+    "gas_permeability": {
+      "temperatures": [
+        25,
+        100,
+        200,
+        400,
+        600,
+        800
+      ],
+      "permeability_data": [
+        {
+          "temperature": 25,
+          "permeability": 3.726902423262227e-16,
+          "permeability_log": -15.428651977676406
+        },
+        {
+          "temperature": 100,
+          "permeability": 3.3489677527920013e-16,
+          "permeability_log": -15.475089034261243
+        },
+        {
+          "temperature": 200,
+          "permeability": 4.0665914712365274e-16,
+          "permeability_log": -15.390769454519251
+        },
+        {
+          "temperature": 400,
+          "permeability": 6.739151857764522e-16,
+          "permeability_log": -15.171394757273333
+        },
+        {
+          "temperature": 600,
+          "permeability": 1.310223453213914e-15,
+          "permeability_log": -14.882654630892308
+        },
+        {
+          "temperature": 800,
+          "permeability": 2.294546018294753e-15,
+          "permeability_log": -14.639303227883872
+        }
+      ],
+      "mix_name": "High_Rubber",
+      "rubber_content": 60
+    },
+    "microstructural_analysis": {
+      "25": {
+        "exposure_temperature": 25,
+        "sem_analysis": {
+          "crack_density": 0.08200000000000002,
+          "itz_degradation": -0.385,
+          "rubber_void_size": 0.1,
+          "rubber_void_density": 8.31,
+          "microstructural_damage_index": -0.3768
+        },
+        "xrd_analysis": {
+          "peaks": [
+            {
+              "phase": "portlandite",
+              "2theta": 18.0,
+              "intensity": 103.05555555555556,
+              "fwhm": 0.10125
+            },
+            {
+              "phase": "calcite",
+              "2theta": 29.4,
+              "intensity": 78.57142857142857,
+              "fwhm": 0.10125
+            },
+            {
+              "phase": "quartz",
+              "2theta": 26.6,
+              "intensity": 59.25,
+              "fwhm": 0.10125
+            },
+            {
+              "phase": "ettringite",
+              "2theta": 9.1,
+              "intensity": 37.1,
+              "fwhm": 0.10125
+            },
+            {
+              "phase": "C-S-H",
+              "2theta": 29.0,
+              "intensity": 112.5,
+              "fwhm": 0.10125
+            }
+          ],
+          "phase_change_index": 0.9017460317460317,
+          "total_phases_detected": 5
+        },
+        "mix_name": "High_Rubber",
+        "rubber_content": 60
+      },
+      "200": {
+        "exposure_temperature": 200,
+        "sem_analysis": {
+          "crack_density": 0.41000000000000003,
+          "itz_degradation": 0.0,
+          "rubber_void_size": 0.11750000000000001,
+          "rubber_void_density": 6.0,
+          "microstructural_damage_index": 0.04100000000000001
+        },
+        "xrd_analysis": {
+          "peaks": [
+            {
+              "phase": "portlandite",
+              "2theta": 18.0,
+              "intensity": 82.44444444444446,
+              "fwhm": 0.11000000000000001
+            },
+            {
+              "phase": "calcite",
+              "2theta": 29.4,
+              "intensity": 68.57142857142858,
+              "fwhm": 0.11000000000000001
+            },
+            {
+              "phase": "quartz",
+              "2theta": 26.6,
+              "intensity": 54.0,
+              "fwhm": 0.11000000000000001
+            }
+          ],
+          "phase_change_index": 0.413968253968254,
+          "total_phases_detected": 3
+        },
+        "mix_name": "High_Rubber",
+        "rubber_content": 60
+      },
+      "400": {
+        "exposure_temperature": 400,
+        "sem_analysis": {
+          "crack_density": 1.6400000000000001,
+          "itz_degradation": 0.44,
+          "rubber_void_size": 0.1375,
+          "rubber_void_density": 3.3600000000000003,
+          "microstructural_damage_index": 0.6040000000000001
+        },
+        "xrd_analysis": {
+          "peaks": [
+            {
+              "phase": "portlandite",
+              "2theta": 18.0,
+              "intensity": 58.88888888888889,
+              "fwhm": 0.12000000000000001
+            },
+            {
+              "phase": "calcite",
+              "2theta": 29.4,
+              "intensity": 57.142857142857146,
+              "fwhm": 0.12000000000000001
+            },
+            {
+              "phase": "quartz",
+              "2theta": 26.6,
+              "intensity": 48.0,
+              "fwhm": 0.12000000000000001
+            }
+          ],
+          "phase_change_index": 0.22793650793650794,
+          "total_phases_detected": 3
+        },
+        "mix_name": "High_Rubber",
+        "rubber_content": 60
+      },
+      "600": {
+        "exposure_temperature": 600,
+        "sem_analysis": {
+          "crack_density": 4.1000000000000005,
+          "itz_degradation": 0.88,
+          "rubber_void_size": 0.1575,
+          "rubber_void_density": 0.72,
+          "microstructural_damage_index": 1.29
+        },
+        "xrd_analysis": {
+          "peaks": [
+            {
+              "phase": "calcite",
+              "2theta": 29.4,
+              "intensity": 45.71428571428571,
+              "fwhm": 0.13
+            },
+            {
+              "phase": "quartz",
+              "2theta": 26.6,
+              "intensity": 42.0,
+              "fwhm": 0.13
+            }
+          ],
+          "phase_change_index": 0.10857142857142858,
+          "total_phases_detected": 2
+        },
+        "mix_name": "High_Rubber",
+        "rubber_content": 60
+      },
+      "800": {
+        "exposure_temperature": 800,
+        "sem_analysis": {
+          "crack_density": 8.200000000000001,
+          "itz_degradation": 0.88,
+          "rubber_void_size": 0.1775,
+          "rubber_void_density": 0.72,
+          "microstructural_damage_index": 1.7000000000000002
+        },
+        "xrd_analysis": {
+          "peaks": [
+            {
+              "phase": "quartz",
+              "2theta": 26.6,
+              "intensity": 36.0,
+              "fwhm": 0.14
+            }
+          ],
+          "phase_change_index": 0.039999999999999994,
+          "total_phases_detected": 1
+        },
+        "mix_name": "High_Rubber",
+        "rubber_content": 60
+      }
+    }
+  }
+}

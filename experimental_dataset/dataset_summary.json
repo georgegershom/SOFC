@@ -1,0 +1,73 @@
+{
+  "dataset_info": {
+    "title": "High-Temperature Experimental Dataset for Fire-Resistant Rubberized Concrete",
+    "generation_date": "2025-10-17T09:10:47.911720",
+    "description": "Comprehensive experimental dataset for thermo-mechanical model validation",
+    "total_mixes": 4,
+    "temperature_range": "25\u00b0C to 800\u00b0C",
+    "heating_rate": "5\u00b0C/min"
+  },
+  "mix_designs": {
+    "Control": {
+      "cement": 100,
+      "water": 40,
+      "aggregate": 180,
+      "rubber": 0
+    },
+    "Low_Rubber": {
+      "cement": 100,
+      "water": 40,
+      "aggregate": 160,
+      "rubber": 20
+    },
+    "Medium_Rubber": {
+      "cement": 100,
+      "water": 40,
+      "aggregate": 140,
+      "rubber": 40
+    },
+    "High_Rubber": {
+      "cement": 100,
+      "water": 40,
+      "aggregate": 120,
+      "rubber": 60
+    }
+  },
+  "data_summary": {
+    "thermal_properties": {
+      "tga_dsc_curves": "Mass loss and heat flow vs temperature (20-800\u00b0C)",
+      "thermal_conductivity": "Thermal conductivity at 5 temperatures (25-600\u00b0C)",
+      "specific_heat": "Specific heat at 5 temperatures (25-600\u00b0C)",
+      "cte": "Coefficient of thermal expansion (25-600\u00b0C)",
+      "mass_loss_heating": "In-situ mass loss during heating test"
+    },
+    "mechanical_testing": {
+      "tts_curves": "Transient-Test-Stress curves at 6 temperatures (25-800\u00b0C)",
+      "stt_tests": "Stressed-Test-Temperature tests at 4 stress levels",
+      "residual_properties": "Residual properties after cooling from high temperatures"
+    },
+    "spalling_durability": {
+      "visual_acoustic": "Spalling events, acoustic and visual intensity recording",
+      "vapor_pressure": "Vapor pressure measurements at 5 depths during heating",
+      "gas_permeability": "Gas permeability at elevated temperatures",
+      "microstructural_analysis": "SEM and XRD analysis after exposure"
+    }
+  },
+  "key_findings": {
+    "thermal_behavior": {
+      "rubber_decomposition": "Rubber decomposes at 300-500\u00b0C, providing thermal protection",
+      "thermal_conductivity_reduction": "Rubber reduces thermal conductivity by up to 30%",
+      "mass_loss_patterns": "Distinct mass loss stages: free water, bound water, rubber, portlandite"
+    },
+    "mechanical_behavior": {
+      "strength_retention": "Rubber improves high-temperature strength retention",
+      "ductility_improvement": "Rubber increases ductility at elevated temperatures",
+      "residual_properties": "Rubber reduces post-fire strength loss"
+    },
+    "spalling_resistance": {
+      "spalling_reduction": "Rubber reduces spalling risk by up to 60%",
+      "vapor_pressure_relief": "Rubber provides pathways for vapor pressure relief",
+      "microstructural_protection": "Rubber protects against microcracking and ITZ degradation"
+    }
+  }
+}
