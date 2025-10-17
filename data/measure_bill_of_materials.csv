@@ -1,0 +1,23 @@
+measure_id,material_id,quantity,unit,basis_notes
+roof_polyiso_4in,polyiso,5000,kg,"Assumes 2500 m2 roof, 2 kg/m2 per inch"
+roof_polyiso_6in,polyiso,7500,kg,"Assumes 2500 m2 roof, 2 kg/m2 per inch"
+wall_eps_3in,eps,9000,kg,"Assumes 3000 m2 walls, 1 kg/m2 per inch"
+window_u12,glass_unit,12000,kg,"Window area 1200 m2, 10 kg/m2"
+window_u12,al_frame,3000,kg,Aluminum frames and spacers
+airtightness_upgrade,eps,300,kg,Sealants/foams proxy
+boiler_95,steel,3000,kg,Boiler body and piping
+boiler_95,copper_wire,200,kg,Electrical and controls
+ashp_seasonal_3.5,steel,2500,kg,Outdoor units and piping
+ashp_seasonal_3.5,copper_wire,400,kg,Wiring and motors
+vrf_system_cop4,steel,4000,kg,Condensers and fan coils
+vrf_system_cop4,copper_wire,600,kg,Wiring and refrigerant lines
+heat_recovery_vent,steel,1200,kg,Casing and ducts
+heat_recovery_vent,copper_wire,150,kg,Wiring and fans
+pv_10kw,pv_module,10,kWp,10 kWp array
+pv_10kw,copper_wire,120,kg,Balance of system
+pv_50kw,pv_module,50,kWp,50 kWp array
+pv_50kw,copper_wire,400,kg,Balance of system
+battery_100kwh,li_ion_battery,100,kWh,Pack energy capacity
+battery_100kwh,steel,500,kg,Racks and enclosures
+solar_thermal_dhw,steel,800,kg,"Collectors, tanks, piping"
+solar_thermal_dhw,copper_wire,80,kg,Pumps and controls

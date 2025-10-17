@@ -1,0 +1,10 @@
+material_id,name,category,gwp_a1_a3_kgco2e_per_unit,gwp_a1_a5_kgco2e_per_unit,gwp_b_total_kgco2e_per_unit,gwp_c_total_kgco2e_per_unit,functional_unit,source
+polyiso,Polyisocyanurate insulation,Insulation,3.5,4.1,0.2,0.1,kg,EPD-synthetic
+eps,Expanded polystyrene (EPS),Insulation,2.8,3.3,0.15,0.08,kg,EPD-synthetic
+glass_unit,Double-glazed window unit,Fenestration,7.0,8.2,0.4,0.2,kg,ICE-synthetic
+al_frame,Aluminum window frame,Fenestration,9.5,10.8,0.6,0.3,kg,ICE-synthetic
+steel,Structural steel,Structure,1.8,2.2,0.1,0.05,kg,Ecoinvent-synthetic
+concrete_c30,Concrete C30/37,Structure,0.12,0.16,0.01,0.02,kg,Ecoinvent-synthetic
+li_ion_battery,Lithium-ion battery pack,Electrochemical,80.0,90.0,3.0,5.0,kWh,EPD-synthetic
+pv_module,Crystalline silicon PV module,PV,600.0,650.0,15.0,20.0,kWp,EPD-synthetic
+copper_wire,Copper wiring,Electrical,4.0,4.6,0.1,0.1,kg,ICE-synthetic
