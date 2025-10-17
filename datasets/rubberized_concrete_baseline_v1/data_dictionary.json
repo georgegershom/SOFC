@@ -1,0 +1,102 @@
+{
+  "mixture_proportions.csv": {
+    "mix_id": "Mixture identifier (CTRL, R05, R10, R15)",
+    "rubber_replacement_vol_pct": "% volume of fine aggregate replaced by crumb rubber",
+    "cement_kg": "kg per m^3",
+    "water_kg": "kg per m^3",
+    "coarse_aggregate_kg": "kg per m^3",
+    "fine_aggregate_kg": "kg per m^3",
+    "crumb_rubber_kg": "kg per m^3",
+    "superplasticizer_kg": "kg per m^3",
+    "superplasticizer_pct_bwoc": "% by weight of cement",
+    "total_batch_mass_kg_per_m3": "Sum of constituents per m^3"
+  },
+  "fresh_properties.csv": {
+    "slump_flow_mm": "mm (slump flow)",
+    "air_content_pct": "%",
+    "fresh_density_kg_m3": "kg/m^3"
+  },
+  "hardened_density.csv": {
+    "oven_dry_density_kg_m3": "kg/m^3",
+    "ssd_density_kg_m3": "kg/m^3"
+  },
+  "compressive_strength.csv": {
+    "day": "Age in days (7, 28)",
+    "specimen_id": "Replicate identifier",
+    "compressive_strength_mpa": "MPa"
+  },
+  "tensile_splitting.csv": {
+    "day": "Age in days (28)",
+    "specimen_id": "Replicate identifier",
+    "tensile_splitting_strength_mpa": "MPa"
+  },
+  "static_modulus.csv": {
+    "day": "Age in days (28)",
+    "specimen_id": "Replicate identifier",
+    "static_modulus_gpa": "GPa"
+  },
+  "upv.csv": {
+    "day": "Age in days (28)",
+    "specimen_id": "Replicate identifier",
+    "upv_km_s": "km/s"
+  },
+  "mip_summary.csv": {
+    "total_porosity_pct": "% by intruded volume",
+    "threshold_pore_diameter_um": "\u00b5m",
+    "median_pore_diameter_um": "\u00b5m"
+  },
+  "mip_curves/mix_*.csv": {
+    "pore_diameter_um": "\u00b5m",
+    "d_porosity_d_log10D": "Fraction per log10(D), scaled to total porosity",
+    "cumulative_porosity_pct": "%"
+  },
+  "tga/rubber_tga.csv": {
+    "temperature_C": "\u00b0C",
+    "mass_percent": "% remaining mass"
+  },
+  "ftir/rubber_ftir.csv": {
+    "wavenumber_cm_1": "cm^-1",
+    "absorbance": "a.u."
+  },
+  "rubber_psd.csv": {
+    "size_min_mm": "mm",
+    "size_max_mm": "mm",
+    "percent_mass": "% in bin"
+  },
+  "rubber_characterization.csv": {
+    "source": "Supplier/source",
+    "type": "Material type",
+    "particle_size_min_mm": "mm",
+    "particle_size_max_mm": "mm",
+    "ssd_specific_gravity": "-",
+    "water_absorption_pct": "%",
+    "hardness_shore_A": "Shore A",
+    "pretreatment": "Procedure applied (if any)"
+  },
+  "aggregates_characterization.json": {
+    "coarse": "Object with properties and PSD list",
+    "fine": "Object with properties and PSD list"
+  },
+  "constituents.json": {
+    "cement": "Cement details",
+    "coarse_aggregate": "Coarse aggregate details",
+    "fine_aggregate": "Fine aggregate details",
+    "water": "Water details",
+    "superplasticizer": "PCE details",
+    "rubber": "Rubber details"
+  },
+  "curing_regime.json": {
+    "curing": "Curing method details",
+    "applies_to": "List of mix IDs"
+  },
+  "metadata.json": {
+    "dataset_name": "Name",
+    "pillar": "Pillar description",
+    "topic": "Research topic",
+    "version": "Dataset version",
+    "generated_at": "UTC timestamp",
+    "random_seed": "Integer seed",
+    "units": "Units map",
+    "notes": "List of annotations"
+  }
+}

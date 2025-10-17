@@ -1,0 +1,42 @@
+{
+  "cement": {
+    "type": "CEM I 52.5R (ASTM Type I/II equivalent)",
+    "source": "LafargeHolcim - Plant A",
+    "specific_gravity": 3.15
+  },
+  "coarse_aggregate": {
+    "type": "Crushed granite 10 mm nominal size",
+    "grading": "ASTM C33 No. 7 equivalent",
+    "source": "BlueRock Quarry",
+    "ssd_specific_gravity": 2.7,
+    "water_absorption_pct": 0.5
+  },
+  "fine_aggregate": {
+    "type": "Natural river sand, Zone II",
+    "grading": "ASTM C33 fine aggregate",
+    "source": "Riverside Sands Co.",
+    "ssd_specific_gravity": 2.65,
+    "water_absorption_pct": 0.8
+  },
+  "water": {
+    "type": "Potable municipal water",
+    "source": "City Water Utility"
+  },
+  "superplasticizer": {
+    "type": "Polycarboxylate ether (PCE), Glenium-type",
+    "source": "Master Builders Solutions",
+    "dosage_pct_bwoc": 0.9
+  },
+  "rubber": {
+    "type": "Crumb rubber from end-of-life truck tires",
+    "source": "EcoTread Recycling Ltd.",
+    "particle_size_range_mm": [
+      1.0,
+      4.0
+    ],
+    "ssd_specific_gravity": 1.15,
+    "water_absorption_pct": 1.5,
+    "hardness_shore_A": 65,
+    "pretreatment": "None"
+  }
+}
