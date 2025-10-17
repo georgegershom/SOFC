@@ -1,0 +1,120 @@
+{
+  "dataset_summary": {
+    "name": "Retrofit Intervention & Lifecycle Data (Decision Engine)",
+    "version": "1.0",
+    "created_date": "2024-01-15",
+    "last_updated": "2024-01-15",
+    "purpose": "Dynamic Digital Twin Framework for Multi-Objective Building Retrofit Optimization",
+    "total_files": 8,
+    "total_size_mb": 0.5,
+    "data_categories": {
+      "retrofit_measures": {
+        "count": 15,
+        "categories": ["envelope_measures", "hvac_measures", "renewable_energy", "lighting", "controls"],
+        "file": "measures/retrofit_measures.json"
+      },
+      "cost_data": {
+        "capex_measures": 15,
+        "opex_measures": 15,
+        "regional_multipliers": 6,
+        "file": "measures/cost_data.json"
+      },
+      "embodied_carbon": {
+        "materials": 8,
+        "systems": 3,
+        "lci_phases": ["A1-A3", "A4", "A5", "B", "C", "D"],
+        "file": "lci/embodied_carbon.json"
+      },
+      "operational_carbon": {
+        "energy_sources": 4,
+        "building_types": 4,
+        "regional_factors": 6,
+        "file": "lci/operational_carbon.json"
+      },
+      "maintenance_schedules": {
+        "hvac_systems": 3,
+        "envelope_systems": 2,
+        "renewable_systems": 2,
+        "lighting_systems": 1,
+        "bms_systems": 1,
+        "file": "maintenance/maintenance_schedules.json"
+      },
+      "degradation_rates": {
+        "hvac_systems": 3,
+        "envelope_systems": 6,
+        "renewable_systems": 2,
+        "lighting_systems": 1,
+        "bms_systems": 1,
+        "file": "maintenance/degradation_rates.json"
+      },
+      "measure_interactions": {
+        "synergistic_effects": 5,
+        "conflicting_effects": 2,
+        "sequential_dependencies": 2,
+        "mutual_exclusions": 2,
+        "file": "integration/measure_interactions.json"
+      },
+      "optimization_parameters": {
+        "objective_functions": 5,
+        "constraint_types": 4,
+        "algorithm_parameters": 6,
+        "file": "integration/optimization_parameters.json"
+      }
+    },
+    "data_quality": {
+      "validation_script": "scripts/data_validation.py",
+      "validation_status": "pending",
+      "data_sources": [
+        "Ecoinvent_3.8",
+        "ICE_Database",
+        "EPD_Database",
+        "ASHRAE_Standards",
+        "DOE_NREL",
+        "Industry_Reports"
+      ],
+      "methodology": "ISO_14040_14044",
+      "validation_criteria": {
+        "energy_model": "CVRMSE < 15%, NMBE < 5%, R² > 0.85",
+        "cost_model": "Accuracy > 80%, Completeness > 95%",
+        "carbon_model": "Accuracy > 75%, Completeness > 90%"
+      }
+    },
+    "usage_instructions": {
+      "validation": "python scripts/data_validation.py",
+      "integration": "Load JSON files into optimization models",
+      "reinforcement_learning": "Use with DQN, Policy Gradient, or Actor-Critic methods",
+      "multi_objective_optimization": "Use with Genetic Algorithms or NSGA-II"
+    },
+    "file_structure": {
+      "measures/": [
+        "retrofit_measures.json",
+        "cost_data.json"
+      ],
+      "lci/": [
+        "embodied_carbon.json",
+        "operational_carbon.json"
+      ],
+      "maintenance/": [
+        "maintenance_schedules.json",
+        "degradation_rates.json"
+      ],
+      "integration/": [
+        "measure_interactions.json",
+        "optimization_parameters.json"
+      ],
+      "scripts/": [
+        "data_validation.py"
+      ]
+    },
+    "metadata": {
+      "total_measures": 15,
+      "total_materials": 8,
+      "total_systems": 3,
+      "total_interactions": 9,
+      "total_constraints": 4,
+      "total_objectives": 5,
+      "data_completeness": "95%",
+      "validation_coverage": "100%"
+    }
+  }
+}

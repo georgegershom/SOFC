@@ -1,0 +1,434 @@
+{
+  "degradation_rates": {
+    "hvac_systems": {
+      "air_source_heat_pump": {
+        "system_id": "ASHP_3TON",
+        "performance_degradation": {
+          "efficiency_degradation_per_year": 0.02,
+          "capacity_degradation_per_year": 0.01,
+          "reliability_degradation_per_year": 0.05,
+          "noise_increase_per_year": 0.03
+        },
+        "lifespan_data": {
+          "expected_lifespan_years": 20,
+          "warranty_period_years": 10,
+          "replacement_threshold_efficiency": 0.70,
+          "replacement_threshold_capacity": 0.80
+        },
+        "degradation_factors": {
+          "climate_impact": {
+            "hot_humid": 1.2,
+            "cold_dry": 1.1,
+            "moderate": 1.0,
+            "extreme_cold": 1.3
+          },
+          "usage_impact": {
+            "light_usage": 0.8,
+            "moderate_usage": 1.0,
+            "heavy_usage": 1.3,
+            "continuous_usage": 1.5
+          },
+          "maintenance_impact": {
+            "excellent": 0.7,
+            "good": 0.9,
+            "average": 1.0,
+            "poor": 1.4
+          }
+        }
+      },
+      "ground_source_heat_pump": {
+        "system_id": "GSHP_5TON",
+        "performance_degradation": {
+          "efficiency_degradation_per_year": 0.015,
+          "capacity_degradation_per_year": 0.008,
+          "reliability_degradation_per_year": 0.03,
+          "noise_increase_per_year": 0.02
+        },
+        "lifespan_data": {
+          "expected_lifespan_years": 25,
+          "warranty_period_years": 15,
+          "replacement_threshold_efficiency": 0.75,
+          "replacement_threshold_capacity": 0.85
+        },
+        "degradation_factors": {
+          "climate_impact": {
+            "hot_humid": 1.1,
+            "cold_dry": 1.0,
+            "moderate": 0.9,
+            "extreme_cold": 1.2
+          },
+          "usage_impact": {
+            "light_usage": 0.7,
+            "moderate_usage": 0.9,
+            "heavy_usage": 1.1,
+            "continuous_usage": 1.2
+          },
+          "maintenance_impact": {
+            "excellent": 0.6,
+            "good": 0.8,
+            "average": 1.0,
+            "poor": 1.3
+          }
+        }
+      },
+      "vrf_system": {
+        "system_id": "VRF_10TON",
+        "performance_degradation": {
+          "efficiency_degradation_per_year": 0.025,
+          "capacity_degradation_per_year": 0.012,
+          "reliability_degradation_per_year": 0.04,
+          "noise_increase_per_year": 0.025
+        },
+        "lifespan_data": {
+          "expected_lifespan_years": 18,
+          "warranty_period_years": 8,
+          "replacement_threshold_efficiency": 0.65,
+          "replacement_threshold_capacity": 0.75
+        },
+        "degradation_factors": {
+          "climate_impact": {
+            "hot_humid": 1.3,
+            "cold_dry": 1.1,
+            "moderate": 1.0,
+            "extreme_cold": 1.2
+          },
+          "usage_impact": {
+            "light_usage": 0.8,
+            "moderate_usage": 1.0,
+            "heavy_usage": 1.4,
+            "continuous_usage": 1.6
+          },
+          "maintenance_impact": {
+            "excellent": 0.8,
+            "good": 0.9,
+            "average": 1.0,
+            "poor": 1.5
+          }
+        }
+      }
+    },
+    "envelope_systems": {
+      "insulation": {
+        "polyisocyanurate": {
+          "material_id": "POLYISO_4IN",
+          "performance_degradation": {
+            "r_value_degradation_per_year": 0.005,
+            "air_sealing_degradation_per_year": 0.01,
+            "moisture_resistance_degradation_per_year": 0.003
+          },
+          "lifespan_data": {
+            "expected_lifespan_years": 40,
+            "warranty_period_years": 20,
+            "replacement_threshold_r_value": 0.80,
+            "replacement_threshold_air_sealing": 0.70
+          },
+          "degradation_factors": {
+            "climate_impact": {
+              "hot_humid": 1.2,
+              "cold_dry": 1.0,
+              "moderate": 0.9,
+              "extreme_cold": 1.1
+            },
+            "exposure_impact": {
+              "protected": 0.8,
+              "exposed": 1.2,
+              "severe_exposure": 1.5
+            },
+            "installation_impact": {
+              "excellent": 0.7,
+              "good": 0.9,
+              "average": 1.0,
+              "poor": 1.3
+            }
+          }
+        },
+        "extruded_polystyrene": {
+          "material_id": "XPS_6IN",
+          "performance_degradation": {
+            "r_value_degradation_per_year": 0.003,
+            "air_sealing_degradation_per_year": 0.008,
+            "moisture_resistance_degradation_per_year": 0.002
+          },
+          "lifespan_data": {
+            "expected_lifespan_years": 50,
+            "warranty_period_years": 25,
+            "replacement_threshold_r_value": 0.85,
+            "replacement_threshold_air_sealing": 0.75
+          },
+          "degradation_factors": {
+            "climate_impact": {
+              "hot_humid": 1.1,
+              "cold_dry": 0.9,
+              "moderate": 0.8,
+              "extreme_cold": 1.0
+            },
+            "exposure_impact": {
+              "protected": 0.7,
+              "exposed": 1.1,
+              "severe_exposure": 1.3
+            },
+            "installation_impact": {
+              "excellent": 0.6,
+              "good": 0.8,
+              "average": 1.0,
+              "poor": 1.2
+            }
+          }
+        },
+        "cellulose": {
+          "material_id": "CELLULOSE_6IN",
+          "performance_degradation": {
+            "r_value_degradation_per_year": 0.008,
+            "air_sealing_degradation_per_year": 0.015,
+            "moisture_resistance_degradation_per_year": 0.010
+          },
+          "lifespan_data": {
+            "expected_lifespan_years": 30,
+            "warranty_period_years": 15,
+            "replacement_threshold_r_value": 0.75,
+            "replacement_threshold_air_sealing": 0.65
+          },
+          "degradation_factors": {
+            "climate_impact": {
+              "hot_humid": 1.3,
+              "cold_dry": 1.0,
+              "moderate": 0.9,
+              "extreme_cold": 1.1
+            },
+            "exposure_impact": {
+              "protected": 0.8,
+              "exposed": 1.2,
+              "severe_exposure": 1.4
+            },
+            "installation_impact": {
+              "excellent": 0.8,
+              "good": 0.9,
+              "average": 1.0,
+              "poor": 1.4
+            }
+          }
+        }
+      },
+      "windows": {
+        "double_pane_low_e": {
+          "window_id": "WINDOW_U12_DOUBLE",
+          "performance_degradation": {
+            "u_value_degradation_per_year": 0.01,
+            "shgc_degradation_per_year": 0.005,
+            "air_leakage_increase_per_year": 0.02,
+            "visible_transmittance_degradation_per_year": 0.003
+          },
+          "lifespan_data": {
+            "expected_lifespan_years": 25,
+            "warranty_period_years": 10,
+            "replacement_threshold_u_value": 1.5,
+            "replacement_threshold_air_leakage": 0.3
+          },
+          "degradation_factors": {
+            "climate_impact": {
+              "hot_humid": 1.2,
+              "cold_dry": 1.0,
+              "moderate": 0.9,
+              "extreme_cold": 1.1
+            },
+            "exposure_impact": {
+              "protected": 0.8,
+              "exposed": 1.1,
+              "severe_exposure": 1.3
+            },
+            "maintenance_impact": {
+              "excellent": 0.7,
+              "good": 0.9,
+              "average": 1.0,
+              "poor": 1.3
+            }
+          }
+        },
+        "triple_pane_low_e": {
+          "window_id": "WINDOW_U08_TRIPLE",
+          "performance_degradation": {
+            "u_value_degradation_per_year": 0.008,
+            "shgc_degradation_per_year": 0.004,
+            "air_leakage_increase_per_year": 0.015,
+            "visible_transmittance_degradation_per_year": 0.002
+          },
+          "lifespan_data": {
+            "expected_lifespan_years": 30,
+            "warranty_period_years": 15,
+            "replacement_threshold_u_value": 1.2,
+            "replacement_threshold_air_leakage": 0.25
+          },
+          "degradation_factors": {
+            "climate_impact": {
+              "hot_humid": 1.1,
+              "cold_dry": 0.9,
+              "moderate": 0.8,
+              "extreme_cold": 1.0
+            },
+            "exposure_impact": {
+              "protected": 0.7,
+              "exposed": 1.0,
+              "severe_exposure": 1.2
+            },
+            "maintenance_impact": {
+              "excellent": 0.6,
+              "good": 0.8,
+              "average": 1.0,
+              "poor": 1.2
+            }
+          }
+        }
+      }
+    },
+    "renewable_energy": {
+      "solar_pv": {
+        "system_id": "SOLAR_PV_10KW",
+        "performance_degradation": {
+          "efficiency_degradation_per_year": 0.005,
+          "power_output_degradation_per_year": 0.005,
+          "reliability_degradation_per_year": 0.02,
+          "inverter_efficiency_degradation_per_year": 0.01
+        },
+        "lifespan_data": {
+          "expected_lifespan_years": 25,
+          "warranty_period_years": 20,
+          "replacement_threshold_efficiency": 0.80,
+          "replacement_threshold_power_output": 0.80
+        },
+        "degradation_factors": {
+          "climate_impact": {
+            "hot_humid": 1.2,
+            "cold_dry": 0.9,
+            "moderate": 1.0,
+            "extreme_cold": 1.1
+          },
+          "exposure_impact": {
+            "protected": 0.8,
+            "exposed": 1.1,
+            "severe_exposure": 1.3
+          },
+          "maintenance_impact": {
+            "excellent": 0.7,
+            "good": 0.9,
+            "average": 1.0,
+            "poor": 1.3
+          }
+        }
+      },
+      "solar_thermal": {
+        "system_id": "SOLAR_THERMAL_80SQFT",
+        "performance_degradation": {
+          "efficiency_degradation_per_year": 0.008,
+          "heat_output_degradation_per_year": 0.008,
+          "reliability_degradation_per_year": 0.03,
+          "pump_efficiency_degradation_per_year": 0.015
+        },
+        "lifespan_data": {
+          "expected_lifespan_years": 20,
+          "warranty_period_years": 10,
+          "replacement_threshold_efficiency": 0.70,
+          "replacement_threshold_heat_output": 0.75
+        },
+        "degradation_factors": {
+          "climate_impact": {
+            "hot_humid": 1.1,
+            "cold_dry": 1.0,
+            "moderate": 0.9,
+            "extreme_cold": 1.2
+          },
+          "exposure_impact": {
+            "protected": 0.8,
+            "exposed": 1.1,
+            "severe_exposure": 1.3
+          },
+          "maintenance_impact": {
+            "excellent": 0.7,
+            "good": 0.9,
+            "average": 1.0,
+            "poor": 1.3
+          }
+        }
+      }
+    },
+    "lighting_systems": {
+      "led_lighting": {
+        "system_id": "LED_RETROFIT_COMPREHENSIVE",
+        "performance_degradation": {
+          "luminous_flux_degradation_per_year": 0.03,
+          "efficiency_degradation_per_year": 0.02,
+          "color_rendering_degradation_per_year": 0.01,
+          "color_temperature_shift_per_year": 0.005
+        },
+        "lifespan_data": {
+          "expected_lifespan_years": 15,
+          "warranty_period_years": 5,
+          "replacement_threshold_luminous_flux": 0.70,
+          "replacement_threshold_efficiency": 0.80
+        },
+        "degradation_factors": {
+          "usage_impact": {
+            "light_usage": 0.7,
+            "moderate_usage": 1.0,
+            "heavy_usage": 1.3,
+            "continuous_usage": 1.5
+          },
+          "environment_impact": {
+            "indoor": 0.8,
+            "outdoor": 1.2,
+            "harsh_environment": 1.4
+          },
+          "maintenance_impact": {
+            "excellent": 0.8,
+            "good": 0.9,
+            "average": 1.0,
+            "poor": 1.2
+          }
+        }
+      }
+    },
+    "building_management_systems": {
+      "bms_systems": {
+        "system_id": "BMS_SMART_CONTROLS",
+        "performance_degradation": {
+          "sensor_accuracy_degradation_per_year": 0.02,
+          "communication_reliability_degradation_per_year": 0.03,
+          "software_performance_degradation_per_year": 0.05,
+          "hardware_reliability_degradation_per_year": 0.04
+        },
+        "lifespan_data": {
+          "expected_lifespan_years": 15,
+          "warranty_period_years": 3,
+          "replacement_threshold_accuracy": 0.80,
+          "replacement_threshold_reliability": 0.85
+        },
+        "degradation_factors": {
+          "usage_impact": {
+            "light_usage": 0.8,
+            "moderate_usage": 1.0,
+            "heavy_usage": 1.2,
+            "continuous_usage": 1.4
+          },
+          "environment_impact": {
+            "indoor": 0.9,
+            "outdoor": 1.1,
+            "harsh_environment": 1.3
+          },
+          "maintenance_impact": {
+            "excellent": 0.7,
+            "good": 0.9,
+            "average": 1.0,
+            "poor": 1.3
+          }
+        }
+      }
+    },
+    "metadata": {
+      "version": "1.0",
+      "created_date": "2024-01-15",
+      "last_updated": "2024-01-15",
+      "data_sources": ["ASHRAE", "Industry_Standards", "Manufacturer_Data", "Field_Studies"],
+      "methodology": "ISO_14040_14044",
+      "validation_status": "pending"
+    }
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "maintenance_schedules": {
+    "hvac_systems": {
+      "air_source_heat_pump": {
+        "system_id": "ASHP_3TON",
+        "maintenance_tasks": [
+          {
+            "task_id": "ASHP_FILTER_REPLACEMENT",
+            "task_name": "Filter Replacement",
+            "frequency_months": 3,
+            "cost_per_occurrence": 25.00,
+            "labor_hours": 0.5,
+            "materials_cost": 15.00,
+            "labor_cost": 10.00,
+            "carbon_footprint_kg_co2e": 2.0,
+            "complexity": "low",
+            "required_skills": ["basic_hvac"]
+          },
+          {
+            "task_id": "ASHP_COIL_CLEANING",
+            "task_name": "Coil Cleaning",
+            "frequency_months": 6,
+            "cost_per_occurrence": 150.00,
+            "labor_hours": 2.0,
+            "materials_cost": 30.00,
+            "labor_cost": 120.00,
+            "carbon_footprint_kg_co2e": 5.0,
+            "complexity": "medium",
+            "required_skills": ["hvac_technician"]
+          },
+          {
+            "task_id": "ASHP_ANNUAL_INSPECTION",
+            "task_name": "Annual System Inspection",
+            "frequency_months": 12,
+            "cost_per_occurrence": 200.00,
+            "labor_hours": 3.0,
+            "materials_cost": 50.00,
+            "labor_cost": 150.00,
+            "carbon_footprint_kg_co2e": 8.0,
+            "complexity": "high",
+            "required_skills": ["certified_hvac_technician"]
+          },
+          {
+            "task_id": "ASHP_REFRIGERANT_CHECK",
+            "task_name": "Refrigerant Level Check",
+            "frequency_months": 12,
+            "cost_per_occurrence": 100.00,
+            "labor_hours": 1.5,
+            "materials_cost": 20.00,
+            "labor_cost": 80.00,
+            "carbon_footprint_kg_co2e": 3.0,
+            "complexity": "medium",
+            "required_skills": ["certified_hvac_technician"]
+          }
+        ],
+        "total_annual_maintenance_cost": 475.00,
+        "total_annual_carbon_footprint": 18.0
+      },
+      "ground_source_heat_pump": {
+        "system_id": "GSHP_5TON",
+        "maintenance_tasks": [
+          {
+            "task_id": "GSHP_FILTER_REPLACEMENT",
+            "task_name": "Filter Replacement",
+            "frequency_months": 3,
+            "cost_per_occurrence": 30.00,
+            "labor_hours": 0.5,
+            "materials_cost": 20.00,
+            "labor_cost": 10.00,
+            "carbon_footprint_kg_co2e": 2.0,
+            "complexity": "low",
+            "required_skills": ["basic_hvac"]
+          },
+          {
+            "task_id": "GSHP_GROUND_LOOP_INSPECTION",
+            "task_name": "Ground Loop Inspection",
+            "frequency_months": 12,
+            "cost_per_occurrence": 300.00,
+            "labor_hours": 4.0,
+            "materials_cost": 50.00,
+            "labor_cost": 250.00,
+            "carbon_footprint_kg_co2e": 12.0,
+            "complexity": "high",
+            "required_skills": ["geothermal_specialist"]
+          },
+          {
+            "task_id": "GSHP_ANNUAL_INSPECTION",
+            "task_name": "Annual System Inspection",
+            "frequency_months": 12,
+            "cost_per_occurrence": 250.00,
+            "labor_hours": 3.0,
+            "materials_cost": 60.00,
+            "labor_cost": 190.00,
+            "carbon_footprint_kg_co2e": 10.0,
+            "complexity": "high",
+            "required_skills": ["certified_hvac_technician"]
+          }
+        ],
+        "total_annual_maintenance_cost": 580.00,
+        "total_annual_carbon_footprint": 24.0
+      },
+      "vrf_system": {
+        "system_id": "VRF_10TON",
+        "maintenance_tasks": [
+          {
+            "task_id": "VRF_FILTER_REPLACEMENT",
+            "task_name": "Filter Replacement",
+            "frequency_months": 2,
+            "cost_per_occurrence": 50.00,
+            "labor_hours": 1.0,
+            "materials_cost": 30.00,
+            "labor_cost": 20.00,
+            "carbon_footprint_kg_co2e": 3.0,
+            "complexity": "low",
+            "required_skills": ["basic_hvac"]
+          },
+          {
+            "task_id": "VRF_COIL_CLEANING",
+            "task_name": "Coil Cleaning",
+            "frequency_months": 6,
+            "cost_per_occurrence": 200.00,
+            "labor_hours": 3.0,
+            "materials_cost": 50.00,
+            "labor_cost": 150.00,
+            "carbon_footprint_kg_co2e": 8.0,
+            "complexity": "medium",
+            "required_skills": ["hvac_technician"]
+          },
+          {
+            "task_id": "VRF_ANNUAL_INSPECTION",
+            "task_name": "Annual System Inspection",
+            "frequency_months": 12,
+            "cost_per_occurrence": 400.00,
+            "labor_hours": 4.0,
+            "materials_cost": 100.00,
+            "labor_cost": 300.00,
+            "carbon_footprint_kg_co2e": 15.0,
+            "complexity": "high",
+            "required_skills": ["certified_hvac_technician"]
+          }
+        ],
+        "total_annual_maintenance_cost": 650.00,
+        "total_annual_carbon_footprint": 26.0
+      }
+    },
+    "envelope_systems": {
+      "insulation": {
+        "maintenance_tasks": [
+          {
+            "task_id": "INSULATION_INSPECTION",
+            "task_name": "Insulation Inspection",
+            "frequency_months": 60,
+            "cost_per_occurrence": 200.00,
+            "labor_hours": 2.0,
+            "materials_cost": 50.00,
+            "labor_cost": 150.00,
+            "carbon_footprint_kg_co2e": 5.0,
+            "complexity": "medium",
+            "required_skills": ["building_inspector"]
+          },
+          {
+            "task_id": "INSULATION_REPAIR",
+            "task_name": "Insulation Repair/Replacement",
+            "frequency_months": 120,
+            "cost_per_occurrence": 500.00,
+            "labor_hours": 4.0,
+            "materials_cost": 200.00,
+            "labor_cost": 300.00,
+            "carbon_footprint_kg_co2e": 12.0,
+            "complexity": "high",
+            "required_skills": ["insulation_contractor"]
+          }
+        ]
+      },
+      "windows": {
+        "maintenance_tasks": [
+          {
+            "task_id": "WINDOW_CLEANING",
+            "task_name": "Window Cleaning",
+            "frequency_months": 6,
+            "cost_per_occurrence": 100.00,
+            "labor_hours": 2.0,
+            "materials_cost": 20.00,
+            "labor_cost": 80.00,
+            "carbon_footprint_kg_co2e": 3.0,
+            "complexity": "low",
+            "required_skills": ["window_cleaner"]
+          },
+          {
+            "task_id": "WINDOW_SEAL_REPLACEMENT",
+            "task_name": "Window Seal Replacement",
+            "frequency_months": 60,
+            "cost_per_occurrence": 300.00,
+            "labor_hours": 3.0,
+            "materials_cost": 100.00,
+            "labor_cost": 200.00,
+            "carbon_footprint_kg_co2e": 8.0,
+            "complexity": "medium",
+            "required_skills": ["window_technician"]
+          },
+          {
+            "task_id": "WINDOW_HARDWARE_MAINTENANCE",
+            "task_name": "Window Hardware Maintenance",
+            "frequency_months": 24,
+            "cost_per_occurrence": 150.00,
+            "labor_hours": 2.0,
+            "materials_cost": 50.00,
+            "labor_cost": 100.00,
+            "carbon_footprint_kg_co2e": 5.0,
+            "complexity": "medium",
+            "required_skills": ["window_technician"]
+          }
+        ]
+      }
+    },
+    "renewable_energy": {
+      "solar_pv": {
+        "maintenance_tasks": [
+          {
+            "task_id": "PV_PANEL_CLEANING",
+            "task_name": "Solar Panel Cleaning",
+            "frequency_months": 6,
+            "cost_per_occurrence": 200.00,
+            "labor_hours": 2.0,
+            "materials_cost": 30.00,
+            "labor_cost": 170.00,
+            "carbon_footprint_kg_co2e": 5.0,
+            "complexity": "medium",
+            "required_skills": ["solar_technician"]
+          },
+          {
+            "task_id": "PV_INVERTER_INSPECTION",
+            "task_name": "Inverter Inspection",
+            "frequency_months": 12,
+            "cost_per_occurrence": 150.00,
+            "labor_hours": 1.5,
+            "materials_cost": 20.00,
+            "labor_cost": 130.00,
+            "carbon_footprint_kg_co2e": 4.0,
+            "complexity": "high",
+            "required_skills": ["certified_solar_technician"]
+          },
+          {
+            "task_id": "PV_ANNUAL_INSPECTION",
+            "task_name": "Annual System Inspection",
+            "frequency_months": 12,
+            "cost_per_occurrence": 300.00,
+            "labor_hours": 3.0,
+            "materials_cost": 50.00,
+            "labor_cost": 250.00,
+            "carbon_footprint_kg_co2e": 8.0,
+            "complexity": "high",
+            "required_skills": ["certified_solar_technician"]
+          }
+        ],
+        "total_annual_maintenance_cost": 650.00,
+        "total_annual_carbon_footprint": 17.0
+      },
+      "solar_thermal": {
+        "maintenance_tasks": [
+          {
+            "task_id": "ST_COLLECTOR_CLEANING",
+            "task_name": "Solar Thermal Collector Cleaning",
+            "frequency_months": 6,
+            "cost_per_occurrence": 150.00,
+            "labor_hours": 2.0,
+            "materials_cost": 25.00,
+            "labor_cost": 125.00,
+            "carbon_footprint_kg_co2e": 4.0,
+            "complexity": "medium",
+            "required_skills": ["solar_technician"]
+          },
+          {
+            "task_id": "ST_ANNUAL_INSPECTION",
+            "task_name": "Annual System Inspection",
+            "frequency_months": 12,
+            "cost_per_occurrence": 200.00,
+            "labor_hours": 2.5,
+            "materials_cost": 40.00,
+            "labor_cost": 160.00,
+            "carbon_footprint_kg_co2e": 6.0,
+            "complexity": "high",
+            "required_skills": ["certified_solar_technician"]
+          }
+        ],
+        "total_annual_maintenance_cost": 350.00,
+        "total_annual_carbon_footprint": 10.0
+      }
+    },
+    "lighting_systems": {
+      "led_lighting": {
+        "maintenance_tasks": [
+          {
+            "task_id": "LED_CLEANING",
+            "task_name": "LED Fixture Cleaning",
+            "frequency_months": 6,
+            "cost_per_occurrence": 50.00,
+            "labor_hours": 1.0,
+            "materials_cost": 10.00,
+            "labor_cost": 40.00,
+            "carbon_footprint_kg_co2e": 1.5,
+            "complexity": "low",
+            "required_skills": ["maintenance_technician"]
+          },
+          {
+            "task_id": "LED_REPLACEMENT",
+            "task_name": "LED Fixture Replacement",
+            "frequency_months": 120,
+            "cost_per_occurrence": 200.00,
+            "labor_hours": 2.0,
+            "materials_cost": 150.00,
+            "labor_cost": 50.00,
+            "carbon_footprint_kg_co2e": 5.0,
+            "complexity": "medium",
+            "required_skills": ["electrician"]
+          }
+        ],
+        "total_annual_maintenance_cost": 100.00,
+        "total_annual_carbon_footprint": 3.5
+      }
+    },
+    "building_management_systems": {
+      "bms_systems": {
+        "maintenance_tasks": [
+          {
+            "task_id": "BMS_SOFTWARE_UPDATE",
+            "task_name": "BMS Software Update",
+            "frequency_months": 6,
+            "cost_per_occurrence": 300.00,
+            "labor_hours": 2.0,
+            "materials_cost": 50.00,
+            "labor_cost": 250.00,
+            "carbon_footprint_kg_co2e": 5.0,
+            "complexity": "high",
+            "required_skills": ["bms_specialist"]
+          },
+          {
+            "task_id": "BMS_SENSOR_CALIBRATION",
+            "task_name": "Sensor Calibration",
+            "frequency_months": 12,
+            "cost_per_occurrence": 400.00,
+            "labor_hours": 3.0,
+            "materials_cost": 100.00,
+            "labor_cost": 300.00,
+            "carbon_footprint_kg_co2e": 8.0,
+            "complexity": "high",
+            "required_skills": ["bms_specialist"]
+          },
+          {
+            "task_id": "BMS_ANNUAL_INSPECTION",
+            "task_name": "Annual System Inspection",
+            "frequency_months": 12,
+            "cost_per_occurrence": 500.00,
+            "labor_hours": 4.0,
+            "materials_cost": 150.00,
+            "labor_cost": 350.00,
+            "carbon_footprint_kg_co2e": 10.0,
+            "complexity": "high",
+            "required_skills": ["certified_bms_specialist"]
+          }
+        ],
+        "total_annual_maintenance_cost": 1200.00,
+        "total_annual_carbon_footprint": 23.0
+      }
+    },
+    "metadata": {
+      "version": "1.0",
+      "created_date": "2024-01-15",
+      "last_updated": "2024-01-15",
+      "data_sources": ["ASHRAE", "Industry_Standards", "Maintenance_Manuals"],
+      "validation_status": "pending"
+    }
+  }
+}
