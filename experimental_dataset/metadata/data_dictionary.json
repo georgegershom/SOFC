@@ -1,0 +1,187 @@
+{
+  "dataset_overview": {
+    "title": "High-Temperature Experimental Dataset for Fire-Resistant Rubberized Concrete",
+    "description": "Comprehensive experimental dataset for thermo-mechanical model validation",
+    "version": "1.0",
+    "generation_date": "2024-01-15",
+    "total_size": "~2.5 GB",
+    "file_count": "~500 files"
+  },
+  "data_categories": {
+    "thermal_properties": {
+      "description": "Thermal property measurements including TGA/DSC, thermal conductivity, specific heat, CTE, and mass loss",
+      "subcategories": {
+        "tga_dsc": {
+          "description": "Thermal Gravimetric Analysis and Differential Scanning Calorimetry data",
+          "file_types": ["*.json", "*.csv"],
+          "key_parameters": ["temperature", "mass_loss_percent", "heat_flow_mW_mg", "remaining_mass_percent"],
+          "units": {
+            "temperature": "°C",
+            "mass_loss_percent": "%",
+            "heat_flow_mW_mg": "mW/mg",
+            "remaining_mass_percent": "%"
+          }
+        },
+        "thermal_conductivity": {
+          "description": "Thermal conductivity, specific heat, density, and thermal diffusivity measurements",
+          "file_types": ["*.json", "*.csv"],
+          "key_parameters": ["temperature", "thermal_conductivity", "specific_heat", "density", "thermal_diffusivity"],
+          "units": {
+            "temperature": "°C",
+            "thermal_conductivity": "W/m·K",
+            "specific_heat": "J/kg·K",
+            "density": "kg/m³",
+            "thermal_diffusivity": "m²/s"
+          }
+        },
+        "cte": {
+          "description": "Coefficient of Thermal Expansion measurements",
+          "file_types": ["*.json", "*.csv"],
+          "key_parameters": ["temperature", "instantaneous_cte", "thermal_strain", "length_change_percent"],
+          "units": {
+            "temperature": "°C",
+            "instantaneous_cte": "μm/m·°C",
+            "thermal_strain": "dimensionless",
+            "length_change_percent": "%"
+          }
+        },
+        "mass_loss": {
+          "description": "In-situ mass loss during heating tests",
+          "file_types": ["*.json", "*.csv"],
+          "key_parameters": ["temperature", "time", "remaining_mass", "mass_loss_percent", "mass_loss_rate"],
+          "units": {
+            "temperature": "°C",
+            "time": "min",
+            "remaining_mass": "kg",
+            "mass_loss_percent": "%",
+            "mass_loss_rate": "kg/min"
+          }
+        }
+      }
+    },
+    "mechanical_testing": {
+      "description": "High-temperature mechanical testing including TTS curves, STT tests, and residual properties",
+      "subcategories": {
+        "tts_curves": {
+          "description": "Transient-Test-Stress curves at different temperatures",
+          "file_types": ["*.json", "*.csv"],
+          "key_parameters": ["strain", "stress", "peak_strength", "peak_strain", "elastic_modulus", "temperature"],
+          "units": {
+            "strain": "dimensionless",
+            "stress": "MPa",
+            "peak_strength": "MPa",
+            "peak_strain": "dimensionless",
+            "elastic_modulus": "MPa",
+            "temperature": "°C"
+          }
+        },
+        "stt_tests": {
+          "description": "Stressed-Test-Temperature tests under sustained load",
+          "file_types": ["*.json", "*.csv"],
+          "key_parameters": ["time", "temperature", "applied_stress", "current_strength", "strain", "stress_ratio", "failure_temperature"],
+          "units": {
+            "time": "min",
+            "temperature": "°C",
+            "applied_stress": "MPa",
+            "current_strength": "MPa",
+            "strain": "dimensionless",
+            "stress_ratio": "dimensionless",
+            "failure_temperature": "°C"
+          }
+        },
+        "residual_properties": {
+          "description": "Residual mechanical properties after heating and cooling",
+          "file_types": ["*.json", "*.csv"],
+          "key_parameters": ["exposure_temperature", "compressive_strength", "tensile_strength", "elastic_modulus", "upv", "dynamic_modulus", "residual_factor_compressive"],
+          "units": {
+            "exposure_temperature": "°C",
+            "compressive_strength": "MPa",
+            "tensile_strength": "MPa",
+            "elastic_modulus": "MPa",
+            "upv": "m/s",
+            "dynamic_modulus": "GPa",
+            "residual_factor_compressive": "dimensionless"
+          }
+        }
+      }
+    },
+    "spalling_durability": {
+      "description": "Spalling and durability assessment including visual/audio recording, vapor pressure, permeability, and microstructural analysis",
+      "subcategories": {
+        "visual_audio": {
+          "description": "Video and audio recordings of heating tests",
+          "file_types": ["*.mp4", "*.wav", "*.json"],
+          "key_parameters": ["spalling_events", "audio_peaks", "temperature_at_spalling", "event_timing"],
+          "units": {
+            "spalling_events": "count",
+            "audio_peaks": "count",
+            "temperature_at_spalling": "°C",
+            "event_timing": "min"
+          }
+        },
+        "vapor_pressure": {
+          "description": "Vapor pressure measurements at different depths during heating",
+          "file_types": ["*.json", "*.csv"],
+          "key_parameters": ["temperature", "time", "vapor_pressure", "saturation_pressure", "depth"],
+          "units": {
+            "temperature": "°C",
+            "time": "min",
+            "vapor_pressure": "Pa",
+            "saturation_pressure": "Pa",
+            "depth": "mm"
+          }
+        },
+        "gas_permeability": {
+          "description": "Gas permeability measurements at elevated temperatures",
+          "file_types": ["*.json", "*.csv"],
+          "key_parameters": ["temperature", "pressure_difference", "permeability", "flow_rate", "viscosity"],
+          "units": {
+            "temperature": "°C",
+            "pressure_difference": "bar",
+            "permeability": "m²",
+            "flow_rate": "m³/s",
+            "viscosity": "Pa·s"
+          }
+        },
+        "microstructural": {
+          "description": "SEM and XRD analysis of post-exposure samples",
+          "file_types": ["*.json", "*.csv"],
+          "key_parameters": ["temperature", "microcrack_density", "itz_degradation", "void_density", "phase_abundance", "peak_intensity"],
+          "units": {
+            "temperature": "°C",
+            "microcrack_density": "cracks/mm²",
+            "itz_degradation": "dimensionless (0-1)",
+            "void_density": "voids/mm²",
+            "phase_abundance": "relative intensity",
+            "peak_intensity": "counts"
+          }
+        }
+      }
+    }
+  },
+  "sample_mixes": {
+    "control": "100% Natural Aggregate",
+    "rubber_10": "10% Crumb Rubber replacement",
+    "rubber_20": "20% Crumb Rubber replacement",
+    "rubber_30": "30% Crumb Rubber replacement",
+    "raw_rubber": "Pure crumb rubber (reference material)"
+  },
+  "test_temperatures": {
+    "ambient": 25,
+    "low": [100, 200],
+    "medium": [400, 600],
+    "high": [800, 1000]
+  },
+  "data_quality": {
+    "replicates_per_test": "3-5",
+    "measurement_uncertainty": "±5%",
+    "calibration_standards": "NIST traceable",
+    "validation_status": "Generated for model validation"
+  },
+  "usage_notes": {
+    "intended_use": "Thermo-mechanical model validation and calibration",
+    "limitations": "Generated data for research purposes - validate with experimental data",
+    "citation": "Please cite this dataset when used in publications",
+    "contact": "Research team contact information"
+  }
+}

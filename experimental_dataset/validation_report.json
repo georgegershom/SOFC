@@ -1,0 +1,62 @@
+{
+  "validation_timestamp": "2025-10-17T00:58:15.853603",
+  "dataset_path": "/workspace/experimental_dataset",
+  "validation_results": {
+    "file_structure": {
+      "valid": true,
+      "missing_dirs": []
+    },
+    "data_completeness": {
+      "thermal_properties": {
+        "tga_dsc": {
+          "json_files": 1,
+          "csv_files": 30,
+          "complete": true
+        },
+        "thermal_conductivity": {
+          "json_files": 1,
+          "csv_files": 4,
+          "complete": true
+        }
+      },
+      "mechanical_testing": {
+        "tts_curves": {
+          "json_files": 1,
+          "csv_files": 100,
+          "complete": true
+        },
+        "stt_tests": {
+          "json_files": 1,
+          "csv_files": 80,
+          "complete": true
+        }
+      },
+      "spalling_durability": {
+        "vapor_pressure": {
+          "json_files": 1,
+          "csv_files": 12,
+          "complete": true
+        },
+        "gas_permeability": {
+          "json_files": 1,
+          "csv_files": 4,
+          "complete": true
+        }
+      }
+    },
+    "data_quality": {
+      "thermal_properties": {
+        "tga_dsc": {
+          "issues": [],
+          "valid": true
+        }
+      },
+      "mechanical_testing": {
+        "tts_curves": {
+          "issues": [],
+          "valid": true
+        }
+      }
+    }
+  }
+}

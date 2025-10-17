@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generation_date": "2024-01-15T10:30:00Z",
+    "equipment": {
+      "camera": "Sony A7R IV 4K",
+      "microphone": "Rode VideoMic Pro Plus",
+      "frame_rate": "30 fps",
+      "resolution": "3840x2160",
+      "audio_sample_rate": "44.1 kHz",
+      "audio_bit_depth": "24-bit"
+    },
+    "test_conditions": {
+      "heating_rate": "5°C/min",
+      "maximum_temperature": "800°C",
+      "specimen_size": "100mm × 100mm × 100mm cubes",
+      "furnace_type": "High-temperature electric furnace"
+    },
+    "analysis_software": {
+      "video_analysis": "ImageJ",
+      "audio_analysis": "MATLAB Signal Processing Toolbox",
+      "spalling_detection": "Custom Python scripts"
+    },
+    "recordings": {
+      "control": {
+        "total_duration": "155 minutes",
+        "spalling_events": 0,
+        "audio_peaks": 2,
+        "temperature_at_first_peak": "450°C",
+        "notes": "No visible spalling, minor acoustic activity"
+      },
+      "rubber_10": {
+        "total_duration": "155 minutes",
+        "spalling_events": 1,
+        "audio_peaks": 5,
+        "temperature_at_first_peak": "380°C",
+        "temperature_at_spalling": "520°C",
+        "notes": "Minor spalling at 520°C, increased acoustic activity"
+      },
+      "rubber_20": {
+        "total_duration": "155 minutes",
+        "spalling_events": 3,
+        "audio_peaks": 12,
+        "temperature_at_first_peak": "350°C",
+        "temperature_at_spalling": "480°C, 520°C, 580°C",
+        "notes": "Multiple spalling events, significant acoustic activity"
+      },
+      "rubber_30": {
+        "total_duration": "155 minutes",
+        "spalling_events": 5,
+        "audio_peaks": 18,
+        "temperature_at_first_peak": "320°C",
+        "temperature_at_spalling": "420°C, 480°C, 520°C, 580°C, 620°C",
+        "notes": "Extensive spalling, very high acoustic activity"
+      }
+    },
+    "file_structure": {
+      "video_files": "*.mp4",
+      "audio_files": "*.wav",
+      "analysis_files": "*.csv",
+      "metadata_files": "*.json"
+    }
+  }
+}

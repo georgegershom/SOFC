@@ -1,0 +1,3438 @@
+{
+  "metadata": {
+    "generation_date": "2025-10-17T00:54:23.233356",
+    "equipment": "Custom permeability apparatus",
+    "gas": "Nitrogen",
+    "pressure_differences": [
+      0.1,
+      0.2,
+      0.5,
+      1.0
+    ],
+    "specimen_size": "100mm \u00d7 100mm \u00d7 50mm discs",
+    "measurement_duration": "30 minutes per temperature",
+    "replicates_per_temperature": 5
+  },
+  "mixes": {
+    "control": {
+      "mix_type": "control",
+      "temperatures": {
+        "25": {
+          "temperature": 25,
+          "replicates": [
+            {
+              "mix_type": "control",
+              "temperature": 25,
+              "replicate": 1,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 9.356888878156654e-17,
+                  "flow_rate": 1.0396543197951837e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 9.731819111422909e-17,
+                  "flow_rate": 2.1626264692050908e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 9.533237830887278e-17,
+                  "flow_rate": 5.296243239381821e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.177350301147864e-16,
+                  "flow_rate": 1.3081670012754045e-07,
+                  "viscosity": 1.8e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "control",
+              "temperature": 25,
+              "replicate": 2,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.0361354351288458e-16,
+                  "flow_rate": 1.1512615945876064e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.1266395696914867e-16,
+                  "flow_rate": 2.5036434882033036e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.144463787052525e-16,
+                  "flow_rate": 6.358132150291806e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.072216810545981e-16,
+                  "flow_rate": 1.1913520117177565e-07,
+                  "viscosity": 1.8e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "control",
+              "temperature": 25,
+              "replicate": 3,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 9.526117749995177e-17,
+                  "flow_rate": 1.0584575277772418e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 9.739293765166798e-17,
+                  "flow_rate": 2.1642875033703994e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.1521683364124587e-16,
+                  "flow_rate": 6.400935202291437e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.2397662340220724e-16,
+                  "flow_rate": 1.3775180378023024e-07,
+                  "viscosity": 1.8e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "control",
+              "temperature": 25,
+              "replicate": 4,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 9.129370498537092e-17,
+                  "flow_rate": 1.0143744998374547e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.0643411240995808e-16,
+                  "flow_rate": 2.3652024979990687e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 9.558965443522538e-17,
+                  "flow_rate": 5.3105363575125205e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 9.716253288081223e-17,
+                  "flow_rate": 1.0795836986756915e-07,
+                  "viscosity": 1.8e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "control",
+              "temperature": 25,
+              "replicate": 5,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.0156346584965798e-16,
+                  "flow_rate": 1.1284829538850887e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.0838637475786142e-16,
+                  "flow_rate": 2.4085861057302537e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.0659518422701569e-16,
+                  "flow_rate": 5.9219546792786493e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 8.911322995779936e-17,
+                  "flow_rate": 9.901469995311039e-08,
+                  "viscosity": 1.8e-05
+                }
+              ]
+            }
+          ]
+        },
+        "100": {
+          "temperature": 100,
+          "replicates": [
+            {
+              "mix_type": "control",
+              "temperature": 100,
+              "replicate": 1,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.2197817148573143e-16,
+                  "flow_rate": 1.3063257990439776e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.0298177415145006e-16,
+                  "flow_rate": 2.2057675855732274e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.1019556501039897e-16,
+                  "flow_rate": 5.900699598950412e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.1107672951470312e-16,
+                  "flow_rate": 1.1895767551775433e-07,
+                  "viscosity": 1.8675000000000003e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "control",
+              "temperature": 100,
+              "replicate": 2,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.1332630479910046e-16,
+                  "flow_rate": 1.2136685922259753e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.075702766368597e-16,
+                  "flow_rate": 2.3040487633062313e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.1802129074747162e-16,
+                  "flow_rate": 6.319747831189912e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.1616327588365033e-16,
+                  "flow_rate": 1.24405114734833e-07,
+                  "viscosity": 1.8675000000000003e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "control",
+              "temperature": 100,
+              "replicate": 3,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.031105460831275e-16,
+                  "flow_rate": 1.1042628763922621e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.2482203696077854e-16,
+                  "flow_rate": 2.673564379347331e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 9.148250163871962e-17,
+                  "flow_rate": 4.8986613996637004e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.2059561664648682e-16,
+                  "flow_rate": 1.2915193215152536e-07,
+                  "viscosity": 1.8675000000000003e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "control",
+              "temperature": 100,
+              "replicate": 4,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.1924833488981452e-16,
+                  "flow_rate": 1.2770906012296063e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.1432562751137182e-16,
+                  "flow_rate": 2.448741686990561e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.0228081983249289e-16,
+                  "flow_rate": 5.476884596117422e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.0792803755452913e-16,
+                  "flow_rate": 1.1558558238771524e-07,
+                  "viscosity": 1.8675000000000003e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "control",
+              "temperature": 100,
+              "replicate": 5,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.0801860126085986e-16,
+                  "flow_rate": 1.1568257163144294e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.097958155676659e-16,
+                  "flow_rate": 2.3517176025202868e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.0717685858105752e-16,
+                  "flow_rate": 5.7390553457058906e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.1514733030534813e-16,
+                  "flow_rate": 1.233170873417383e-07,
+                  "viscosity": 1.8675000000000003e-05
+                }
+              ]
+            }
+          ]
+        },
+        "200": {
+          "temperature": 200,
+          "replicates": [
+            {
+              "mix_type": "control",
+              "temperature": 200,
+              "replicate": 1,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.4388076832023932e-16,
+                  "flow_rate": 1.4700461641914619e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.2330426747931422e-16,
+                  "flow_rate": 2.5196274325274936e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.2485349677187276e-16,
+                  "flow_rate": 6.378211840197844e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.2029819433024258e-16,
+                  "flow_rate": 1.2291003252132066e-07,
+                  "viscosity": 1.9574999999999998e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "control",
+              "temperature": 200,
+              "replicate": 2,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.165264836986284e-16,
+                  "flow_rate": 1.1905643289770464e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.0734772951357609e-16,
+                  "flow_rate": 2.193567908323394e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.3021636382281513e-16,
+                  "flow_rate": 6.652176951357095e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.1912056924513315e-16,
+                  "flow_rate": 1.2170683958634296e-07,
+                  "viscosity": 1.9574999999999998e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "control",
+              "temperature": 200,
+              "replicate": 3,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.2834861959961102e-16,
+                  "flow_rate": 1.311352435245068e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.2843640526332066e-16,
+                  "flow_rate": 2.624498702698762e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.2107393431011732e-16,
+                  "flow_rate": 6.185130743811869e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.1413853812481916e-16,
+                  "flow_rate": 1.1661664176226734e-07,
+                  "viscosity": 1.9574999999999998e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "control",
+              "temperature": 200,
+              "replicate": 4,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.1930239735140414e-16,
+                  "flow_rate": 1.2189261542927628e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.0495110861071101e-16,
+                  "flow_rate": 2.1445948119685523e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.1660686256329722e-16,
+                  "flow_rate": 5.956927844868314e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.5579471747344448e-16,
+                  "flow_rate": 1.5917723368934304e-07,
+                  "viscosity": 1.9574999999999998e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "control",
+              "temperature": 200,
+              "replicate": 5,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.1789648333939385e-16,
+                  "flow_rate": 1.2045617710282897e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.327932387555197e-16,
+                  "flow_rate": 2.7135272287207096e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.1073513700179571e-16,
+                  "flow_rate": 5.656967407499142e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.0930201113139584e-16,
+                  "flow_rate": 1.1167510715851428e-07,
+                  "viscosity": 1.9574999999999998e-05
+                }
+              ]
+            }
+          ]
+        },
+        "400": {
+          "temperature": 400,
+          "replicates": [
+            {
+              "mix_type": "control",
+              "temperature": 400,
+              "replicate": 1,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.5000735299127359e-16,
+                  "flow_rate": 1.4035775718481737e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.3777598435527084e-16,
+                  "flow_rate": 2.578264034718518e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.3351123644199481e-16,
+                  "flow_rate": 6.246139716584552e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.3148375250235279e-16,
+                  "flow_rate": 1.2302573333553478e-07,
+                  "viscosity": 2.1375e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "control",
+              "temperature": 400,
+              "replicate": 2,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.3985093709556615e-16,
+                  "flow_rate": 1.3085467798415543e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.4741885457629016e-16,
+                  "flow_rate": 2.7587154072756047e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.6393292663196186e-16,
+                  "flow_rate": 7.669376684536228e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.6831706668305348e-16,
+                  "flow_rate": 1.5748965303677515e-07,
+                  "viscosity": 2.1375e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "control",
+              "temperature": 400,
+              "replicate": 3,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.2134741061929675e-16,
+                  "flow_rate": 1.1354143683676887e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.3467043669217216e-16,
+                  "flow_rate": 2.5201485228944493e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.3195238522124456e-16,
+                  "flow_rate": 6.173211004502669e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.428060277392771e-16,
+                  "flow_rate": 1.3361967507768614e-07,
+                  "viscosity": 2.1375e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "control",
+              "temperature": 400,
+              "replicate": 4,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.3662330700719412e-16,
+                  "flow_rate": 1.278346732231056e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.4130349156662262e-16,
+                  "flow_rate": 2.6442758655742245e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.3573099005981455e-16,
+                  "flow_rate": 6.34998783905565e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.567372033387879e-16,
+                  "flow_rate": 1.466546931824916e-07,
+                  "viscosity": 2.1375e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "control",
+              "temperature": 400,
+              "replicate": 5,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.50577199292274e-16,
+                  "flow_rate": 1.4089094670622126e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.3206291468451144e-16,
+                  "flow_rate": 2.4713527894177577e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.3219193989036688e-16,
+                  "flow_rate": 6.184418240484999e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.598670592038994e-16,
+                  "flow_rate": 1.4958321329019825e-07,
+                  "viscosity": 2.1375e-05
+                }
+              ]
+            }
+          ]
+        },
+        "600": {
+          "temperature": 600,
+          "replicates": [
+            {
+              "mix_type": "control",
+              "temperature": 600,
+              "replicate": 1,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.613822297013343e-16,
+                  "flow_rate": 1.392726901413888e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.7452632630535907e-16,
+                  "flow_rate": 3.012320626629714e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.6503665651016007e-16,
+                  "flow_rate": 7.121322826759872e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.5777912093182208e-16,
+                  "flow_rate": 1.361632111601485e-07,
+                  "viscosity": 2.3175e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "control",
+              "temperature": 600,
+              "replicate": 2,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.5000800341077012e-16,
+                  "flow_rate": 1.2945674512256321e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.7596170609157155e-16,
+                  "flow_rate": 3.037095250771461e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.622935512008991e-16,
+                  "flow_rate": 7.002957980621319e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.795003951149096e-16,
+                  "flow_rate": 1.5490864734835778e-07,
+                  "viscosity": 2.3175e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "control",
+              "temperature": 600,
+              "replicate": 3,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.763289089565065e-16,
+                  "flow_rate": 1.5217165821489232e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.7637843891355582e-16,
+                  "flow_rate": 3.04428805028791e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.6145995825776053e-16,
+                  "flow_rate": 6.966988490086753e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.6935468473405268e-16,
+                  "flow_rate": 1.4615291023434965e-07,
+                  "viscosity": 2.3175e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "control",
+              "temperature": 600,
+              "replicate": 4,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.5343660273187144e-16,
+                  "flow_rate": 1.3241562263807677e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.584237010178907e-16,
+                  "flow_rate": 2.734389661581716e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.808527455389049e-16,
+                  "flow_rate": 7.803786215270976e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.7949470644079668e-16,
+                  "flow_rate": 1.5490373802873498e-07,
+                  "viscosity": 2.3175e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "control",
+              "temperature": 600,
+              "replicate": 5,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.4366562135175332e-16,
+                  "flow_rate": 1.239832762474678e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.4853774230366098e-16,
+                  "flow_rate": 2.5637582274634042e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.8824730256260745e-16,
+                  "flow_rate": 8.12286095200032e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.6746834247269044e-16,
+                  "flow_rate": 1.445249988976832e-07,
+                  "viscosity": 2.3175e-05
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rubber_10": {
+      "mix_type": "rubber_10",
+      "temperatures": {
+        "25": {
+          "temperature": 25,
+          "replicates": [
+            {
+              "mix_type": "rubber_10",
+              "temperature": 25,
+              "replicate": 1,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.8913539084664373e-16,
+                  "flow_rate": 2.1015043427404858e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 2.5611635856084947e-16,
+                  "flow_rate": 5.6914746346855435e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 2.062637393450359e-16,
+                  "flow_rate": 1.1459096630279771e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 2.060758967581816e-16,
+                  "flow_rate": 2.2897321862020178e-07,
+                  "viscosity": 1.8e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_10",
+              "temperature": 25,
+              "replicate": 2,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 2.138934907299491e-16,
+                  "flow_rate": 2.3765943414438786e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.982528008581232e-16,
+                  "flow_rate": 4.405617796847182e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.9933779511214274e-16,
+                  "flow_rate": 1.1074321950674597e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.9025576491315535e-16,
+                  "flow_rate": 2.1139529434795036e-07,
+                  "viscosity": 1.8e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_10",
+              "temperature": 25,
+              "replicate": 3,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 2.211533616784203e-16,
+                  "flow_rate": 2.45725957420467e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.8010173554688003e-16,
+                  "flow_rate": 4.002260789930667e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 2.039880707755772e-16,
+                  "flow_rate": 1.1332670598643177e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 2.3227618769885517e-16,
+                  "flow_rate": 2.5808465299872795e-07,
+                  "viscosity": 1.8e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_10",
+              "temperature": 25,
+              "replicate": 4,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 2.120629053357123e-16,
+                  "flow_rate": 2.3562545037301363e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 2.0198413597868667e-16,
+                  "flow_rate": 4.4885363550819253e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.795378611623862e-16,
+                  "flow_rate": 9.974325620132565e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.9745515335329225e-16,
+                  "flow_rate": 2.193946148369914e-07,
+                  "viscosity": 1.8e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_10",
+              "temperature": 25,
+              "replicate": 5,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.887964308426615e-16,
+                  "flow_rate": 2.0977381204740167e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 2.3306247365658495e-16,
+                  "flow_rate": 5.1791660812574425e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 2.2169855993630466e-16,
+                  "flow_rate": 1.2316586663128036e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 2.2650097431730553e-16,
+                  "flow_rate": 2.5166774924145057e-07,
+                  "viscosity": 1.8e-05
+                }
+              ]
+            }
+          ]
+        },
+        "100": {
+          "temperature": 100,
+          "replicates": [
+            {
+              "mix_type": "rubber_10",
+              "temperature": 100,
+              "replicate": 1,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.6736077602486956e-16,
+                  "flow_rate": 1.7923510149919093e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 2.267198204318078e-16,
+                  "flow_rate": 4.856113958378748e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 2.471660793697395e-16,
+                  "flow_rate": 1.323513142542112e-07,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.7549559642021545e-16,
+                  "flow_rate": 1.879470912130821e-07,
+                  "viscosity": 1.8675000000000003e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_10",
+              "temperature": 100,
+              "replicate": 2,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 2.0203394983886447e-16,
+                  "flow_rate": 2.163683532410864e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 2.469991867512782e-16,
+                  "flow_rate": 5.290477895609706e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.962439541050006e-16,
+                  "flow_rate": 1.0508377729852776e-07,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 2.433625461244714e-16,
+                  "flow_rate": 2.6062923279729194e-07,
+                  "viscosity": 1.8675000000000003e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_10",
+              "temperature": 100,
+              "replicate": 3,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 2.2276949641873134e-16,
+                  "flow_rate": 2.3857509656624503e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 2.0433622555786862e-16,
+                  "flow_rate": 4.376679530021282e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 2.3164699457920387e-16,
+                  "flow_rate": 1.2404122869033672e-07,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 2.470559601147294e-16,
+                  "flow_rate": 2.6458469624067403e-07,
+                  "viscosity": 1.8675000000000003e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_10",
+              "temperature": 100,
+              "replicate": 4,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 2.1458444808995485e-16,
+                  "flow_rate": 2.2980931522351253e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 2.2408433091247787e-16,
+                  "flow_rate": 4.799664383667531e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 2.132963684353774e-16,
+                  "flow_rate": 1.1421492285696244e-07,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 2.7185294820339466e-16,
+                  "flow_rate": 2.9114104225263146e-07,
+                  "viscosity": 1.8675000000000003e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_10",
+              "temperature": 100,
+              "replicate": 5,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.956491576549652e-16,
+                  "flow_rate": 2.0953055706020365e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 2.645779695170821e-16,
+                  "flow_rate": 5.666998008398009e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 2.0419447166278833e-16,
+                  "flow_rate": 1.0934108255035519e-07,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.8959030005171142e-16,
+                  "flow_rate": 2.0304182067117687e-07,
+                  "viscosity": 1.8675000000000003e-05
+                }
+              ]
+            }
+          ]
+        },
+        "200": {
+          "temperature": 200,
+          "replicates": [
+            {
+              "mix_type": "rubber_10",
+              "temperature": 200,
+              "replicate": 1,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 2.510142881464537e-16,
+                  "flow_rate": 2.564641513629157e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 2.458909353269167e-16,
+                  "flow_rate": 5.024591271048106e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 2.4638682813872e-16,
+                  "flow_rate": 1.2586811143740488e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 2.7338253534854237e-16,
+                  "flow_rate": 2.7931804377884276e-07,
+                  "viscosity": 1.9574999999999998e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_10",
+              "temperature": 200,
+              "replicate": 2,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 2.4060332030912086e-16,
+                  "flow_rate": 2.4582714718684127e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 2.386606966962209e-16,
+                  "flow_rate": 4.8768469312126874e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 2.510064394050973e-16,
+                  "flow_rate": 1.2822806610732943e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 2.4820213500071212e-16,
+                  "flow_rate": 2.535909425294632e-07,
+                  "viscosity": 1.9574999999999998e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_10",
+              "temperature": 200,
+              "replicate": 3,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 2.263033356858048e-16,
+                  "flow_rate": 2.3121669035586697e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 2.848544354893671e-16,
+                  "flow_rate": 5.820780290970464e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.8109892760107307e-16,
+                  "flow_rate": 9.251541639901563e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 2.7685338866112593e-16,
+                  "flow_rate": 2.828642540598988e-07,
+                  "viscosity": 1.9574999999999998e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_10",
+              "temperature": 200,
+              "replicate": 4,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 2.8641621006875285e-16,
+                  "flow_rate": 2.9263469738825325e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 2.435691855191058e-16,
+                  "flow_rate": 4.9771481076701064e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 2.1965974751105635e-16,
+                  "flow_rate": 1.1221443040156138e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 2.850896885242534e-16,
+                  "flow_rate": 2.912793752482794e-07,
+                  "viscosity": 1.9574999999999998e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_10",
+              "temperature": 200,
+              "replicate": 5,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 2.705137195722314e-16,
+                  "flow_rate": 2.763869420916796e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 2.526175763352224e-16,
+                  "flow_rate": 5.1620449825843666e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 2.7251048526738216e-16,
+                  "flow_rate": 1.392135301493651e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 2.603980072236571e-16,
+                  "flow_rate": 2.660516038045028e-07,
+                  "viscosity": 1.9574999999999998e-05
+                }
+              ]
+            }
+          ]
+        },
+        "400": {
+          "temperature": 400,
+          "replicates": [
+            {
+              "mix_type": "rubber_10",
+              "temperature": 400,
+              "replicate": 1,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 2.6394106421701844e-16,
+                  "flow_rate": 2.469623992673856e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 2.4737925353596047e-16,
+                  "flow_rate": 4.629319364415634e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 2.636866465717502e-16,
+                  "flow_rate": 1.2336217383473692e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 3.151629685132497e-16,
+                  "flow_rate": 2.9488932726385935e-07,
+                  "viscosity": 2.1375e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_10",
+              "temperature": 400,
+              "replicate": 2,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 2.5381116150820637e-16,
+                  "flow_rate": 2.374841277269767e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 2.839390968157972e-16,
+                  "flow_rate": 5.313480174330707e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 2.868257172870238e-16,
+                  "flow_rate": 1.341874700758006e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 3.108844743796031e-16,
+                  "flow_rate": 2.908860578990438e-07,
+                  "viscosity": 2.1375e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_10",
+              "temperature": 400,
+              "replicate": 3,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 2.321701165634851e-16,
+                  "flow_rate": 2.1723519678454745e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 2.3401830693287864e-16,
+                  "flow_rate": 4.379289954299482e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 2.408156862310795e-16,
+                  "flow_rate": 1.1266230934787344e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 2.6379954134443276e-16,
+                  "flow_rate": 2.4682998020531716e-07,
+                  "viscosity": 2.1375e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_10",
+              "temperature": 400,
+              "replicate": 4,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 3.1571311339191783e-16,
+                  "flow_rate": 2.9540408270588797e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 2.6691951994641405e-16,
+                  "flow_rate": 4.994985168587865e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 3.6896170541292887e-16,
+                  "flow_rate": 1.7261366335107783e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 2.824808366122883e-16,
+                  "flow_rate": 2.643095547249481e-07,
+                  "viscosity": 2.1375e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_10",
+              "temperature": 400,
+              "replicate": 5,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 3.0063738188670134e-16,
+                  "flow_rate": 2.812981350986679e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 2.7192134191553354e-16,
+                  "flow_rate": 5.088586515378405e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 2.6601765153534338e-16,
+                  "flow_rate": 1.2445270247267526e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 2.5947507695004086e-16,
+                  "flow_rate": 2.4278369773103234e-07,
+                  "viscosity": 2.1375e-05
+                }
+              ]
+            }
+          ]
+        },
+        "600": {
+          "temperature": 600,
+          "replicates": [
+            {
+              "mix_type": "rubber_10",
+              "temperature": 600,
+              "replicate": 1,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 3.3104144279228365e-16,
+                  "flow_rate": 2.8568840801923074e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 3.0175192951899277e-16,
+                  "flow_rate": 5.2082317932080734e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 4.057355690319342e-16,
+                  "flow_rate": 1.7507467919393063e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 3.3862007651037464e-16,
+                  "flow_rate": 2.922287607425023e-07,
+                  "viscosity": 2.3175e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_10",
+              "temperature": 600,
+              "replicate": 2,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 2.9583307062907635e-16,
+                  "flow_rate": 2.5530362082336682e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 3.2799251623473995e-16,
+                  "flow_rate": 5.6611437537819196e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 3.425379905703746e-16,
+                  "flow_rate": 1.478049581749189e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 4.010734836447754e-16,
+                  "flow_rate": 3.461259837279615e-07,
+                  "viscosity": 2.3175e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_10",
+              "temperature": 600,
+              "replicate": 3,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 3.4072559553740574e-16,
+                  "flow_rate": 2.940458213915044e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 3.2026876488383506e-16,
+                  "flow_rate": 5.5278319721050276e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 2.8961025667189957e-16,
+                  "flow_rate": 1.249666695455877e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 3.595139837849391e-16,
+                  "flow_rate": 3.102601801811772e-07,
+                  "viscosity": 2.3175e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_10",
+              "temperature": 600,
+              "replicate": 4,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 2.2719007936273423e-16,
+                  "flow_rate": 1.960647934090479e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 3.314877143159869e-16,
+                  "flow_rate": 5.721470797255437e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 2.995017161528989e-16,
+                  "flow_rate": 1.2923482897643964e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 3.298116000345786e-16,
+                  "flow_rate": 2.846270550460225e-07,
+                  "viscosity": 2.3175e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_10",
+              "temperature": 600,
+              "replicate": 5,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 2.760806791971157e-16,
+                  "flow_rate": 2.3825732832545043e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 3.742439715116671e-16,
+                  "flow_rate": 6.459442873987781e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 3.1195447322229826e-16,
+                  "flow_rate": 1.34608186935188e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 4.598850948090978e-16,
+                  "flow_rate": 3.9688034071982544e-07,
+                  "viscosity": 2.3175e-05
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rubber_20": {
+      "mix_type": "rubber_20",
+      "temperatures": {
+        "25": {
+          "temperature": 25,
+          "replicates": [
+            {
+              "mix_type": "rubber_20",
+              "temperature": 25,
+              "replicate": 1,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 3.862869299490184e-16,
+                  "flow_rate": 4.292076999433538e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 3.8451268532537753e-16,
+                  "flow_rate": 8.544726340563944e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 4.296999985298305e-16,
+                  "flow_rate": 2.387222214054614e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 4.1712002167993107e-16,
+                  "flow_rate": 4.634666907554789e-07,
+                  "viscosity": 1.8e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_20",
+              "temperature": 25,
+              "replicate": 2,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 4.070723596707179e-16,
+                  "flow_rate": 4.523026218563532e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 4.535132781563015e-16,
+                  "flow_rate": 1.0078072847917809e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 4.694965759450332e-16,
+                  "flow_rate": 2.60831431080574e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 4.832873927939878e-16,
+                  "flow_rate": 5.369859919933199e-07,
+                  "viscosity": 1.8e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_20",
+              "temperature": 25,
+              "replicate": 3,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 4.4387843036006354e-16,
+                  "flow_rate": 4.931982559556262e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 3.3179363905113804e-16,
+                  "flow_rate": 7.373191978914179e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 3.512818471275871e-16,
+                  "flow_rate": 1.951565817375484e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 4.847854475723195e-16,
+                  "flow_rate": 5.386504973025772e-07,
+                  "viscosity": 1.8e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_20",
+              "temperature": 25,
+              "replicate": 4,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 4.950976384074136e-16,
+                  "flow_rate": 5.501084871193484e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 4.245665952684443e-16,
+                  "flow_rate": 9.43481322818765e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 4.232271569525031e-16,
+                  "flow_rate": 2.3512619830694615e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 4.303687036308135e-16,
+                  "flow_rate": 4.781874484786816e-07,
+                  "viscosity": 1.8e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_20",
+              "temperature": 25,
+              "replicate": 5,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 3.793609788703363e-16,
+                  "flow_rate": 4.215121987448181e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 4.2543402703406296e-16,
+                  "flow_rate": 9.454089489645842e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 4.889698705295404e-16,
+                  "flow_rate": 2.7164992807196686e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 4.3612897953017267e-16,
+                  "flow_rate": 4.845877550335252e-07,
+                  "viscosity": 1.8e-05
+                }
+              ]
+            }
+          ]
+        },
+        "100": {
+          "temperature": 100,
+          "replicates": [
+            {
+              "mix_type": "rubber_20",
+              "temperature": 100,
+              "replicate": 1,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 3.348333109826303e-16,
+                  "flow_rate": 3.585898912799253e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 4.0822451811631314e-16,
+                  "flow_rate": 8.743764778930402e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 4.2787293745549415e-16,
+                  "flow_rate": 2.2911536142195133e-07,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 5.078465110219478e-16,
+                  "flow_rate": 5.438784589257806e-07,
+                  "viscosity": 1.8675000000000003e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_20",
+              "temperature": 100,
+              "replicate": 2,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 4.954750221035599e-16,
+                  "flow_rate": 5.3062920707208544e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 4.09103112945383e-16,
+                  "flow_rate": 8.762583409807397e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 5.537367504384047e-16,
+                  "flow_rate": 2.965123161651431e-07,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 4.0960726220868517e-16,
+                  "flow_rate": 4.386690893801179e-07,
+                  "viscosity": 1.8675000000000003e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_20",
+              "temperature": 100,
+              "replicate": 3,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 5.068826272308147e-16,
+                  "flow_rate": 5.428461871280478e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 4.4021503861969885e-16,
+                  "flow_rate": 9.42897003736972e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 4.470158267416245e-16,
+                  "flow_rate": 2.3936590454705456e-07,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 4.3239653114274284e-16,
+                  "flow_rate": 4.6307526762275e-07,
+                  "viscosity": 1.8675000000000003e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_20",
+              "temperature": 100,
+              "replicate": 4,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 4.94021305346763e-16,
+                  "flow_rate": 5.290723484302682e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 4.3048949185892687e-16,
+                  "flow_rate": 9.22065846016443e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 4.885251292313964e-16,
+                  "flow_rate": 2.615931080221667e-07,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 5.626169293597454e-16,
+                  "flow_rate": 6.025348641068223e-07,
+                  "viscosity": 1.8675000000000003e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_20",
+              "temperature": 100,
+              "replicate": 5,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 4.2286649176832347e-16,
+                  "flow_rate": 4.5286906748950294e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 4.1061542366658234e-16,
+                  "flow_rate": 8.794975607316355e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 4.3476947804939745e-16,
+                  "flow_rate": 2.328082881121271e-07,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 4.57112576220726e-16,
+                  "flow_rate": 4.895449276794923e-07,
+                  "viscosity": 1.8675000000000003e-05
+                }
+              ]
+            }
+          ]
+        },
+        "200": {
+          "temperature": 200,
+          "replicates": [
+            {
+              "mix_type": "rubber_20",
+              "temperature": 200,
+              "replicate": 1,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 5.486356824275132e-16,
+                  "flow_rate": 5.605473128250455e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 5.095825362856861e-16,
+                  "flow_rate": 1.0412925390256678e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 4.96905277368369e-16,
+                  "flow_rate": 2.538468849902268e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 5.690412233719633e-16,
+                  "flow_rate": 5.813958859483661e-07,
+                  "viscosity": 1.9574999999999998e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_20",
+              "temperature": 200,
+              "replicate": 2,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 5.043035694013046e-16,
+                  "flow_rate": 5.1525268904347854e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 4.50030019701951e-16,
+                  "flow_rate": 9.196015728264644e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 4.487406318483961e-16,
+                  "flow_rate": 2.2924170209368898e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 4.988153690082691e-16,
+                  "flow_rate": 5.096453323200707e-07,
+                  "viscosity": 1.9574999999999998e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_20",
+              "temperature": 200,
+              "replicate": 3,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 5.279302968121645e-16,
+                  "flow_rate": 5.3939238499327154e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 4.1742901261341383e-16,
+                  "flow_rate": 8.529839338205136e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 5.971825943738061e-16,
+                  "flow_rate": 3.050741222854693e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 4.842922293702567e-16,
+                  "flow_rate": 4.94806875474081e-07,
+                  "viscosity": 1.9574999999999998e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_20",
+              "temperature": 200,
+              "replicate": 4,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 5.306284853357936e-16,
+                  "flow_rate": 5.421491548769284e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 5.013159446860635e-16,
+                  "flow_rate": 1.024400397825928e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 5.517216419129134e-16,
+                  "flow_rate": 2.8185013635397874e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 5.707265596938275e-16,
+                  "flow_rate": 5.831178132248557e-07,
+                  "viscosity": 1.9574999999999998e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_20",
+              "temperature": 200,
+              "replicate": 5,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 5.108874437376355e-16,
+                  "flow_rate": 5.2197950828877186e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 3.9604801076394824e-16,
+                  "flow_rate": 8.092935085853348e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 4.555177997661542e-16,
+                  "flow_rate": 2.3270385684094722e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 4.879952012630273e-16,
+                  "flow_rate": 4.985902439468989e-07,
+                  "viscosity": 1.9574999999999998e-05
+                }
+              ]
+            }
+          ]
+        },
+        "400": {
+          "temperature": 400,
+          "replicates": [
+            {
+              "mix_type": "rubber_20",
+              "temperature": 400,
+              "replicate": 1,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 4.3400663696891487e-16,
+                  "flow_rate": 4.060880813744232e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 5.362738171992521e-16,
+                  "flow_rate": 1.0035533421272553e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 6.258762022630116e-16,
+                  "flow_rate": 2.928075800060873e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 5.26510651732511e-16,
+                  "flow_rate": 4.926415454807122e-07,
+                  "viscosity": 2.1375e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_20",
+              "temperature": 400,
+              "replicate": 2,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 6.350070173453191e-16,
+                  "flow_rate": 5.941586127207663e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 6.134059807918769e-16,
+                  "flow_rate": 1.1478942330608221e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 5.549112752380805e-16,
+                  "flow_rate": 2.596076141464704e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 5.577183133819374e-16,
+                  "flow_rate": 5.218416967316374e-07,
+                  "viscosity": 2.1375e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_20",
+              "temperature": 400,
+              "replicate": 3,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 4.873952044887475e-16,
+                  "flow_rate": 4.560422965976584e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 5.973584841078689e-16,
+                  "flow_rate": 1.1178638299094622e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 4.871508036804439e-16,
+                  "flow_rate": 2.279068087393889e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 5.352248301220669e-16,
+                  "flow_rate": 5.00795162687314e-07,
+                  "viscosity": 2.1375e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_20",
+              "temperature": 400,
+              "replicate": 4,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 4.94665399995711e-16,
+                  "flow_rate": 4.628448187094372e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 5.366029881396643e-16,
+                  "flow_rate": 1.0041693345303659e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 6.222725789342031e-16,
+                  "flow_rate": 2.9112167435518274e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 6.4137694507526e-16,
+                  "flow_rate": 6.001187790177871e-07,
+                  "viscosity": 2.1375e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_20",
+              "temperature": 400,
+              "replicate": 5,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 4.974809953822525e-16,
+                  "flow_rate": 4.654792939249146e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 5.166764243020099e-16,
+                  "flow_rate": 9.668798583429423e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 6.245049542741256e-16,
+                  "flow_rate": 2.92166060479123e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 6.413438054616303e-16,
+                  "flow_rate": 6.000877711921687e-07,
+                  "viscosity": 2.1375e-05
+                }
+              ]
+            }
+          ]
+        },
+        "600": {
+          "temperature": 600,
+          "replicates": [
+            {
+              "mix_type": "rubber_20",
+              "temperature": 600,
+              "replicate": 1,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 5.428590532143281e-16,
+                  "flow_rate": 4.6848677731549347e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 5.712098599074679e-16,
+                  "flow_rate": 9.859069858165571e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 6.633523230654251e-16,
+                  "flow_rate": 2.8623616960751895e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 6.850261226224626e-16,
+                  "flow_rate": 5.911768048521791e-07,
+                  "viscosity": 2.3175e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_20",
+              "temperature": 600,
+              "replicate": 2,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 7.292079988089361e-16,
+                  "flow_rate": 6.293057163399663e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 6.948593274972371e-16,
+                  "flow_rate": 1.199325700103106e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 6.134753849038271e-16,
+                  "flow_rate": 2.6471429769312925e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 7.412596584680721e-16,
+                  "flow_rate": 6.397062856250891e-07,
+                  "viscosity": 2.3175e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_20",
+              "temperature": 600,
+              "replicate": 3,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 7.412687089713483e-16,
+                  "flow_rate": 6.397140961996533e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 6.449442118895221e-16,
+                  "flow_rate": 1.1131723182559172e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 7.493798900638963e-16,
+                  "flow_rate": 3.233570183662983e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 7.352322815252136e-16,
+                  "flow_rate": 6.345046658254268e-07,
+                  "viscosity": 2.3175e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_20",
+              "temperature": 600,
+              "replicate": 4,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 6.951406332741832e-16,
+                  "flow_rate": 5.999056166335992e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 6.28731643548474e-16,
+                  "flow_rate": 1.0851894602778408e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 5.997416352765811e-16,
+                  "flow_rate": 2.5878819213660456e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 7.585471205545547e-16,
+                  "flow_rate": 6.546253467568972e-07,
+                  "viscosity": 2.3175e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_20",
+              "temperature": 600,
+              "replicate": 5,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 6.666419198882341e-16,
+                  "flow_rate": 5.753112577244738e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 7.039503436983622e-16,
+                  "flow_rate": 1.215016774452405e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 6.589902947522158e-16,
+                  "flow_rate": 2.843539567431351e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 6.973363571017902e-16,
+                  "flow_rate": 6.018005239281899e-07,
+                  "viscosity": 2.3175e-05
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rubber_30": {
+      "mix_type": "rubber_30",
+      "temperatures": {
+        "25": {
+          "temperature": 25,
+          "replicates": [
+            {
+              "mix_type": "rubber_30",
+              "temperature": 25,
+              "replicate": 1,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 6.035402330544923e-16,
+                  "flow_rate": 6.706002589494358e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 8.612756898025267e-16,
+                  "flow_rate": 1.913945977338948e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 9.254992566895344e-16,
+                  "flow_rate": 5.141662537164079e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 9.686360444054068e-16,
+                  "flow_rate": 1.076262271561563e-06,
+                  "viscosity": 1.8e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_30",
+              "temperature": 25,
+              "replicate": 2,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 7.028163331831809e-16,
+                  "flow_rate": 7.80907036870201e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 7.391247941909022e-16,
+                  "flow_rate": 1.642499542646449e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 7.498540369367647e-16,
+                  "flow_rate": 4.1658557607598033e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 8.667966248398629e-16,
+                  "flow_rate": 9.63107360933181e-07,
+                  "viscosity": 1.8e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_30",
+              "temperature": 25,
+              "replicate": 3,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 7.86625650239352e-16,
+                  "flow_rate": 8.740285002659465e-08,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 9.11834952729345e-16,
+                  "flow_rate": 2.0262998949540998e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 6.674085338466507e-16,
+                  "flow_rate": 3.7078251880369484e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 8.5809812810329195e-16,
+                  "flow_rate": 9.534423645592133e-07,
+                  "viscosity": 1.8e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_30",
+              "temperature": 25,
+              "replicate": 4,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 9.26767139076351e-16,
+                  "flow_rate": 1.02974126564039e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 7.684784276290007e-16,
+                  "flow_rate": 1.707729839175557e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 8.542579476188011e-16,
+                  "flow_rate": 4.7458774867711173e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.0376874127353736e-15,
+                  "flow_rate": 1.152986014150415e-06,
+                  "viscosity": 1.8e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_30",
+              "temperature": 25,
+              "replicate": 5,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 9.505666291240806e-16,
+                  "flow_rate": 1.0561851434712006e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 7.429385088588402e-16,
+                  "flow_rate": 1.650974464130756e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 8.632507082288873e-16,
+                  "flow_rate": 4.795837267938262e-07,
+                  "viscosity": 1.8e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.0402510255545967e-15,
+                  "flow_rate": 1.1558344728384408e-06,
+                  "viscosity": 1.8e-05
+                }
+              ]
+            }
+          ]
+        },
+        "100": {
+          "temperature": 100,
+          "replicates": [
+            {
+              "mix_type": "rubber_30",
+              "temperature": 100,
+              "replicate": 1,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 8.464720183567237e-16,
+                  "flow_rate": 9.065296046658352e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 8.838421561436572e-16,
+                  "flow_rate": 1.8931023424763738e-07,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 7.114697471656913e-16,
+                  "flow_rate": 3.809744295398614e-07,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.0019528153739928e-15,
+                  "flow_rate": 1.0730418370805812e-06,
+                  "viscosity": 1.8675000000000003e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_30",
+              "temperature": 100,
+              "replicate": 2,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 8.416284649137763e-16,
+                  "flow_rate": 9.01342398836708e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 7.640264144983941e-16,
+                  "flow_rate": 1.6364688931692508e-07,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 9.37034870018303e-16,
+                  "flow_rate": 5.017589665425986e-07,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 7.843677414302423e-16,
+                  "flow_rate": 8.400190001930304e-07,
+                  "viscosity": 1.8675000000000003e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_30",
+              "temperature": 100,
+              "replicate": 3,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 9.312953148686334e-16,
+                  "flow_rate": 9.973711538084425e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 8.892568157994985e-16,
+                  "flow_rate": 1.9047000070671989e-07,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 9.549199882394825e-16,
+                  "flow_rate": 5.113360044120388e-07,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 6.93931745260772e-16,
+                  "flow_rate": 7.431665277223795e-07,
+                  "viscosity": 1.8675000000000003e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_30",
+              "temperature": 100,
+              "replicate": 4,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 9.227288489720154e-16,
+                  "flow_rate": 9.881968931427204e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 7.625226479916759e-16,
+                  "flow_rate": 1.6332479742793594e-07,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 8.950495143211608e-16,
+                  "flow_rate": 4.792768483647447e-07,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 9.648437836545147e-16,
+                  "flow_rate": 1.0332999021735096e-06,
+                  "viscosity": 1.8675000000000003e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_30",
+              "temperature": 100,
+              "replicate": 5,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 8.473121809752029e-16,
+                  "flow_rate": 9.074293772157459e-08,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 9.449502394904716e-16,
+                  "flow_rate": 2.0239898034601798e-07,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 8.935303408043438e-16,
+                  "flow_rate": 4.784633685699297e-07,
+                  "viscosity": 1.8675000000000003e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 9.769112820335482e-16,
+                  "flow_rate": 1.046223595216651e-06,
+                  "viscosity": 1.8675000000000003e-05
+                }
+              ]
+            }
+          ]
+        },
+        "200": {
+          "temperature": 200,
+          "replicates": [
+            {
+              "mix_type": "rubber_30",
+              "temperature": 200,
+              "replicate": 1,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 9.550870282624603e-16,
+                  "flow_rate": 9.758232728096657e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 9.786343639628517e-16,
+                  "flow_rate": 1.9997637066929283e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.121172246440617e-15,
+                  "flow_rate": 5.727572140181952e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 9.903605635840947e-16,
+                  "flow_rate": 1.0118626447857931e-06,
+                  "viscosity": 1.9574999999999998e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_30",
+              "temperature": 200,
+              "replicate": 2,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 8.966587815955135e-16,
+                  "flow_rate": 9.161264690631044e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.1184281781011564e-15,
+                  "flow_rate": 2.285421564446808e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 9.097970432596386e-16,
+                  "flow_rate": 4.6477499017095205e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 9.471707934601788e-16,
+                  "flow_rate": 9.677351657319835e-07,
+                  "viscosity": 1.9574999999999998e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_30",
+              "temperature": 200,
+              "replicate": 3,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.0296812150500887e-15,
+                  "flow_rate": 1.0520370013283155e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 8.952299181767448e-16,
+                  "flow_rate": 1.8293331661338338e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 9.324864432710125e-16,
+                  "flow_rate": 4.7636599911673693e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.0195815512585905e-15,
+                  "flow_rate": 1.0417180600343199e-06,
+                  "viscosity": 1.9574999999999998e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_30",
+              "temperature": 200,
+              "replicate": 4,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.1974308193293287e-15,
+                  "flow_rate": 1.2234286787528265e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 9.169845497429323e-16,
+                  "flow_rate": 1.8737870748259154e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 9.538035655469541e-16,
+                  "flow_rate": 4.87255972182352e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.0760436079915291e-15,
+                  "flow_rate": 1.0994059851765306e-06,
+                  "viscosity": 1.9574999999999998e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_30",
+              "temperature": 200,
+              "replicate": 5,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 8.560189028022786e-16,
+                  "flow_rate": 8.746042429652912e-08,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 9.396404803259719e-16,
+                  "flow_rate": 1.9200827184183334e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 9.6192240505201e-16,
+                  "flow_rate": 4.914035274850626e-07,
+                  "viscosity": 1.9574999999999998e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.0921806461020265e-15,
+                  "flow_rate": 1.1158933804362979e-06,
+                  "viscosity": 1.9574999999999998e-05
+                }
+              ]
+            }
+          ]
+        },
+        "400": {
+          "temperature": 400,
+          "replicates": [
+            {
+              "mix_type": "rubber_30",
+              "temperature": 400,
+              "replicate": 1,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.2022425673628643e-15,
+                  "flow_rate": 1.1249053261874752e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.2285756647099407e-15,
+                  "flow_rate": 2.299088963199889e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.2079979392751827e-15,
+                  "flow_rate": 5.651452347486235e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.4032725560352714e-15,
+                  "flow_rate": 1.313003561202593e-06,
+                  "viscosity": 2.1375e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_30",
+              "temperature": 400,
+              "replicate": 2,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.105727375477703e-15,
+                  "flow_rate": 1.0345987138972659e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.0585223517674244e-15,
+                  "flow_rate": 1.9808605413191564e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.0516863762556309e-15,
+                  "flow_rate": 4.920170181312893e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.0782450749941506e-15,
+                  "flow_rate": 1.0088842806962811e-06,
+                  "viscosity": 2.1375e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_30",
+              "temperature": 400,
+              "replicate": 3,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 9.76409918928571e-16,
+                  "flow_rate": 9.135999241436921e-08,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.0770980703499307e-15,
+                  "flow_rate": 2.0156221199530865e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.3036745736198814e-15,
+                  "flow_rate": 6.099062332724591e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.2534171926657096e-15,
+                  "flow_rate": 1.1727880165293187e-06,
+                  "viscosity": 2.1375e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_30",
+              "temperature": 400,
+              "replicate": 4,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.0864377720230249e-15,
+                  "flow_rate": 1.0165499621268069e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.0889095932343162e-15,
+                  "flow_rate": 2.037725554590533e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.3471661942074057e-15,
+                  "flow_rate": 6.302531902724704e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.3109300812051653e-15,
+                  "flow_rate": 1.2266012455720844e-06,
+                  "viscosity": 2.1375e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_30",
+              "temperature": 400,
+              "replicate": 5,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.083692493428022e-15,
+                  "flow_rate": 1.0139812804004884e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.1091083517534336e-15,
+                  "flow_rate": 2.0755244009420977e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.0684003829090032e-15,
+                  "flow_rate": 4.998364364486564e-07,
+                  "viscosity": 2.1375e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 9.971725511186674e-16,
+                  "flow_rate": 9.330269484151273e-07,
+                  "viscosity": 2.1375e-05
+                }
+              ]
+            }
+          ]
+        },
+        "600": {
+          "temperature": 600,
+          "replicates": [
+            {
+              "mix_type": "rubber_30",
+              "temperature": 600,
+              "replicate": 1,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.2437236295479403e-15,
+                  "flow_rate": 1.073332150634684e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.5609531446524335e-15,
+                  "flow_rate": 2.6942017599179e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.3836561496800731e-15,
+                  "flow_rate": 5.970468822783487e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.6700438679299997e-15,
+                  "flow_rate": 1.441246056466019e-06,
+                  "viscosity": 2.3175e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_30",
+              "temperature": 600,
+              "replicate": 2,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.0394134140224389e-15,
+                  "flow_rate": 8.970126550355459e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.2920016761955676e-15,
+                  "flow_rate": 2.2299921056234175e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.2770753704365608e-15,
+                  "flow_rate": 5.510573335217091e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.3372077812606874e-15,
+                  "flow_rate": 1.1540088727168822e-06,
+                  "viscosity": 2.3175e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_30",
+              "temperature": 600,
+              "replicate": 3,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.2847741970616314e-15,
+                  "flow_rate": 1.1087587461157551e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.2904060687565246e-15,
+                  "flow_rate": 2.2272380906261476e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.3421977167180647e-15,
+                  "flow_rate": 5.791575908168563e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.4709721968525879e-15,
+                  "flow_rate": 1.2694474190745093e-06,
+                  "viscosity": 2.3175e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_30",
+              "temperature": 600,
+              "replicate": 4,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.019330540953914e-15,
+                  "flow_rate": 8.79681157241781e-08,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.3594562315567556e-15,
+                  "flow_rate": 2.3464185226438065e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.4488154921239652e-15,
+                  "flow_rate": 6.251631033976116e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.5201297255123432e-15,
+                  "flow_rate": 1.3118703132792607e-06,
+                  "viscosity": 2.3175e-05
+                }
+              ]
+            },
+            {
+              "mix_type": "rubber_30",
+              "temperature": 600,
+              "replicate": 5,
+              "specimen_area": 0.01,
+              "specimen_length": 0.05,
+              "measurements": [
+                {
+                  "pressure_difference": 0.1,
+                  "permeability": 1.4832851257983988e-15,
+                  "flow_rate": 1.2800734634721887e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.2,
+                  "permeability": 1.2390343713676937e-15,
+                  "flow_rate": 2.1385706517673248e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 0.5,
+                  "permeability": 1.3184108573167503e-15,
+                  "flow_rate": 5.688935738152104e-07,
+                  "viscosity": 2.3175e-05
+                },
+                {
+                  "pressure_difference": 1.0,
+                  "permeability": 1.4641834493400347e-15,
+                  "flow_rate": 1.2635887372945282e-06,
+                  "viscosity": 2.3175e-05
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

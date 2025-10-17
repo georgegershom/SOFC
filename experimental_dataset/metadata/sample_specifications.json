@@ -1,0 +1,87 @@
+{
+  "sample_mixes": {
+    "control": {
+      "name": "Control Mix (100% NA)",
+      "cement_type": "Portland Cement Type I",
+      "water_cement_ratio": 0.45,
+      "aggregate": {
+        "fine": "Natural sand (100%)",
+        "coarse": "Natural gravel (100%)"
+      },
+      "admixtures": ["Superplasticizer", "Air entraining agent"],
+      "target_strength_28d": "40 MPa"
+    },
+    "rubber_10": {
+      "name": "10% Rubber Replacement",
+      "cement_type": "Portland Cement Type I",
+      "water_cement_ratio": 0.45,
+      "aggregate": {
+        "fine": "Natural sand (90%) + Crumb rubber (10%)",
+        "coarse": "Natural gravel (100%)"
+      },
+      "rubber_properties": {
+        "type": "Crumb rubber from waste tires",
+        "size": "0-4mm",
+        "specific_gravity": 1.15,
+        "bulk_density": "650 kg/m³"
+      },
+      "admixtures": ["Superplasticizer", "Air entraining agent"],
+      "target_strength_28d": "35 MPa"
+    },
+    "rubber_20": {
+      "name": "20% Rubber Replacement",
+      "cement_type": "Portland Cement Type I",
+      "water_cement_ratio": 0.45,
+      "aggregate": {
+        "fine": "Natural sand (80%) + Crumb rubber (20%)",
+        "coarse": "Natural gravel (100%)"
+      },
+      "rubber_properties": {
+        "type": "Crumb rubber from waste tires",
+        "size": "0-4mm",
+        "specific_gravity": 1.15,
+        "bulk_density": "650 kg/m³"
+      },
+      "admixtures": ["Superplasticizer", "Air entraining agent"],
+      "target_strength_28d": "30 MPa"
+    },
+    "rubber_30": {
+      "name": "30% Rubber Replacement",
+      "cement_type": "Portland Cement Type I",
+      "water_cement_ratio": 0.45,
+      "aggregate": {
+        "fine": "Natural sand (70%) + Crumb rubber (30%)",
+        "coarse": "Natural gravel (100%)"
+      },
+      "rubber_properties": {
+        "type": "Crumb rubber from waste tires",
+        "size": "0-4mm",
+        "specific_gravity": 1.15,
+        "bulk_density": "650 kg/m³"
+      },
+      "admixtures": ["Superplasticizer", "Air entraining agent"],
+      "target_strength_28d": "25 MPa"
+    },
+    "raw_rubber": {
+      "name": "Pure Crumb Rubber",
+      "type": "Crumb rubber from waste tires",
+      "size": "0-4mm",
+      "specific_gravity": 1.15,
+      "bulk_density": "650 kg/m³",
+      "purpose": "Reference material for TGA/DSC analysis"
+    }
+  },
+  "specimen_dimensions": {
+    "compressive_testing": "100mm × 100mm × 100mm cubes",
+    "tensile_testing": "100mm × 100mm × 400mm prisms",
+    "thermal_testing": "50mm × 50mm × 25mm discs",
+    "cte_testing": "25mm × 25mm × 100mm prisms",
+    "permeability_testing": "100mm × 100mm × 50mm discs"
+  },
+  "curing_conditions": {
+    "temperature": "20°C ± 2°C",
+    "humidity": "95% ± 5% RH",
+    "duration": "28 days",
+    "method": "Water curing in lime-saturated water"
+  }
+}
