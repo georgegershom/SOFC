@@ -1,0 +1,2342 @@
+{
+  "metadata": {
+    "dataset_id": "a192cb8b-85d9-40f9-8614-25a0b6793dc8",
+    "generated_at": "2025-10-16T23:59:52.518060",
+    "building_id": "da485779-b270-4724-b18d-df4f52661ffe",
+    "building_type": "office",
+    "generator_version": "1.0.0"
+  },
+  "building_dna": {
+    "metadata": {
+      "generated_at": "2025-10-16T23:59:25.602923",
+      "building_type": "office",
+      "generator_version": "1.0.0",
+      "dataset_id": "39064892-eefe-4525-abe0-db2709667c4c",
+      "building_id": "da485779-b270-4724-b18d-df4f52661ffe"
+    },
+    "geometry": {
+      "building_id": "99b176e1-6f14-45ae-9d60-073063e1f964",
+      "building_type": "office",
+      "total_area": 2035.4910975080106,
+      "total_volume": 139236.90472520958,
+      "number_of_floors": 24,
+      "floor_heights": [
+        2.8717059108670426,
+        2.810023650417796,
+        2.7113560929298233,
+        2.915843193689613,
+        2.9201637073805102,
+        2.8552561917771677,
+        3.059689358040064,
+        2.934085879850651,
+        2.7392450284594654,
+        2.8888841751125174,
+        3.0392660511526315,
+        2.7606684828556083,
+        2.7242195156415856,
+        3.029020594355026,
+        2.8749406020893287,
+        2.9642542886040895,
+        2.7505147447450957,
+        2.8380044904270276,
+        2.7911840166844337,
+        2.7986496308179833,
+        2.7992288758177666,
+        2.9668217055977224,
+        2.7124011187577928,
+        2.6491483246814855
+      ],
+      "floor_areas": [
+        83.24764249335232,
+        86.31828351673605,
+        88.92303320491555,
+        83.67753948837093,
+        84.41400300312173,
+        79.71378489062444,
+        78.57876796188805,
+        87.69731807468895,
+        86.03008674500181,
+        83.35151848869364,
+        85.09032642125688,
+        88.38776946951187,
+        88.5065408112201,
+        78.044537015249,
+        82.30670331212488,
+        90.24607566639385,
+        82.20437094263184,
+        85.19071882729267,
+        91.0463648590147,
+        83.37799467837827,
+        90.92713975813231,
+        85.1610636311498,
+        88.00682898338003,
+        84.07322687696477
+      ],
+      "wall_areas": {
+        "north": 661.4489591159678,
+        "south": 661.4489591159678,
+        "east": 599.9733141791304,
+        "west": 599.9733141791304
+      },
+      "window_areas": {
+        "north": 402.8957654842899,
+        "south": 402.8957654842899,
+        "east": 365.45028056196037,
+        "west": 365.45028056196037
+      },
+      "roof_area": 84.81212906283376,
+      "roof_type": "pitched",
+      "roof_pitch": 13.962128708006539,
+      "building_height": 68.40457563075223,
+      "aspect_ratio": 1.1024639654531083,
+      "window_to_wall_ratio": 0.6091108919768556,
+      "floor_plan_coordinates": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0
+          ],
+          [
+            9.66965956614464,
+            0
+          ],
+          [
+            9.66965956614464,
+            8.770952946448864
+          ],
+          [
+            0,
+            8.770952946448864
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "roof_coordinates": [
+        [
+          0,
+          0,
+          68.40457563075223
+        ],
+        [
+          9.66965956614464,
+          0,
+          68.40457563075223
+        ],
+        [
+          4.83482978307232,
+          4.385476473224432,
+          69.60664026361049
+        ],
+        [
+          0,
+          8.770952946448864,
+          68.40457563075223
+        ]
+      ],
+      "surrounding_buildings": [
+        {
+          "distance": 75.7690885727844,
+          "height": 23.36144929774949,
+          "angle": 357.4337126999901,
+          "shading_factor": 0.6166485498979783
+        },
+        {
+          "distance": 60.10076901625045,
+          "height": 45.38506418971166,
+          "angle": 334.8082291855469,
+          "shading_factor": 1.0
+        },
+        {
+          "distance": 34.30783893649303,
+          "height": 38.499039960331935,
+          "angle": 338.1203732183762,
+          "shading_factor": 1.0
+        },
+        {
+          "distance": 17.63793907214022,
+          "height": 46.030597075366316,
+          "angle": 95.83823820611155,
+          "shading_factor": 1.0
+        },
+        {
+          "distance": 45.320347956391664,
+          "height": 27.526416563510335,
+          "angle": 336.1581913625389,
+          "shading_factor": 1.0
+        },
+        {
+          "distance": 90.04390387002493,
+          "height": 16.895113952419656,
+          "angle": 326.31075087983,
+          "shading_factor": 0.3752639151853552
+        },
+        {
+          "distance": 65.75278308602356,
+          "height": 46.38596714831923,
+          "angle": 94.61756999243296,
+          "shading_factor": 1.0
+        },
+        {
+          "distance": 80.55034446673199,
+          "height": 7.054549074567969,
+          "angle": 295.45432378613185,
+          "shading_factor": 0.17515875621069657
+        }
+      ],
+      "solar_exposure": {
+        "north": 0.3843674146007369,
+        "south": 0.7687348292014738,
+        "east": 0.3843674146007369,
+        "west": 0.3843674146007369
+      }
+    },
+    "construction_materials": {
+      "wall_assembly": {
+        "name": "Brick Veneer Wall",
+        "layers": [
+          {
+            "material_name": "Common Brick",
+            "thickness_mm": 100,
+            "thickness_m": 0.1,
+            "position": "exterior",
+            "density": 1800,
+            "thermal_conductivity": 0.77,
+            "specific_heat": 840,
+            "r_value": 0.12987012987012989,
+            "thermal_mass": 151200.0,
+            "embodied_carbon": 20.000000000000004,
+            "cost": 45
+          },
+          {
+            "material_name": "Fiberglass Insulation",
+            "thickness_mm": 90,
+            "thickness_m": 0.09,
+            "position": "cavity",
+            "density": 12,
+            "thermal_conductivity": 0.04,
+            "specific_heat": 840,
+            "r_value": 2.25,
+            "thermal_mass": 907.1999999999999,
+            "embodied_carbon": 4.5,
+            "cost": 8
+          },
+          {
+            "material_name": "Concrete Block",
+            "thickness_mm": 200,
+            "thickness_m": 0.2,
+            "position": "structural",
+            "density": 2000,
+            "thermal_conductivity": 1.1,
+            "specific_heat": 1000,
+            "r_value": 0.18181818181818182,
+            "thermal_mass": 400000.0,
+            "embodied_carbon": 30.0,
+            "cost": 35
+          },
+          {
+            "material_name": "Gypsum Board",
+            "thickness_mm": 13,
+            "thickness_m": 0.013,
+            "position": "interior",
+            "density": 800,
+            "thermal_conductivity": 0.17,
+            "specific_heat": 1090,
+            "r_value": 0.07647058823529411,
+            "thermal_mass": 11336.0,
+            "embodied_carbon": 1.0399999999999998,
+            "cost": 8
+          }
+        ],
+        "total_thickness": 403,
+        "total_u_value": 0.37905222465142546,
+        "total_r_value": 2.6381588999236056,
+        "total_thermal_mass": 563443.2,
+        "air_tightness": 0.45095461934326864,
+        "structural_load": 5.477426568694442,
+        "fire_rating": 40,
+        "acoustic_rating": 56.576984866436206,
+        "embodied_carbon": 55.54,
+        "cost_per_m2": 96
+      },
+      "materials_database": {
+        "brick_common": {
+          "name": "Common Brick",
+          "density": 1800,
+          "thermal_conductivity": 0.77,
+          "specific_heat": 840,
+          "u_value": 1.3,
+          "r_value": 0.77,
+          "thermal_mass": 1512,
+          "emissivity": 0.93,
+          "solar_absorptance": 0.65,
+          "visible_transmittance": 0.0,
+          "shgc": 0.0,
+          "air_permeability": 0.1,
+          "fire_resistance": 240,
+          "acoustic_rating": 45,
+          "embodied_carbon": 0.2,
+          "cost_per_m2": 45
+        },
+        "concrete_block": {
+          "name": "Concrete Block",
+          "density": 2000,
+          "thermal_conductivity": 1.1,
+          "specific_heat": 1000,
+          "u_value": 2.0,
+          "r_value": 0.5,
+          "thermal_mass": 2000,
+          "emissivity": 0.9,
+          "solar_absorptance": 0.7,
+          "visible_transmittance": 0.0,
+          "shgc": 0.0,
+          "air_permeability": 0.05,
+          "fire_resistance": 180,
+          "acoustic_rating": 50,
+          "embodied_carbon": 0.15,
+          "cost_per_m2": 35
+        },
+        "insulation_fiberglass": {
+          "name": "Fiberglass Insulation",
+          "density": 12,
+          "thermal_conductivity": 0.04,
+          "specific_heat": 840,
+          "u_value": 0.25,
+          "r_value": 4.0,
+          "thermal_mass": 10,
+          "emissivity": 0.9,
+          "solar_absorptance": 0.8,
+          "visible_transmittance": 0.0,
+          "shgc": 0.0,
+          "air_permeability": 0.0,
+          "fire_resistance": 0,
+          "acoustic_rating": 25,
+          "embodied_carbon": 0.05,
+          "cost_per_m2": 8
+        },
+        "insulation_rockwool": {
+          "name": "Rockwool Insulation",
+          "density": 30,
+          "thermal_conductivity": 0.035,
+          "specific_heat": 1000,
+          "u_value": 0.22,
+          "r_value": 4.5,
+          "thermal_mass": 30,
+          "emissivity": 0.9,
+          "solar_absorptance": 0.8,
+          "visible_transmittance": 0.0,
+          "shgc": 0.0,
+          "air_permeability": 0.0,
+          "fire_resistance": 0,
+          "acoustic_rating": 30,
+          "embodied_carbon": 0.08,
+          "cost_per_m2": 12
+        },
+        "insulation_xps": {
+          "name": "XPS Insulation",
+          "density": 35,
+          "thermal_conductivity": 0.03,
+          "specific_heat": 1500,
+          "u_value": 0.19,
+          "r_value": 5.3,
+          "thermal_mass": 53,
+          "emissivity": 0.9,
+          "solar_absorptance": 0.8,
+          "visible_transmittance": 0.0,
+          "shgc": 0.0,
+          "air_permeability": 0.0,
+          "fire_resistance": 0,
+          "acoustic_rating": 20,
+          "embodied_carbon": 0.12,
+          "cost_per_m2": 15
+        },
+        "gypsum_board": {
+          "name": "Gypsum Board",
+          "density": 800,
+          "thermal_conductivity": 0.17,
+          "specific_heat": 1090,
+          "u_value": 1.0,
+          "r_value": 1.0,
+          "thermal_mass": 872,
+          "emissivity": 0.9,
+          "solar_absorptance": 0.6,
+          "visible_transmittance": 0.0,
+          "shgc": 0.0,
+          "air_permeability": 0.0,
+          "fire_resistance": 30,
+          "acoustic_rating": 35,
+          "embodied_carbon": 0.08,
+          "cost_per_m2": 8
+        },
+        "aluminum_siding": {
+          "name": "Aluminum Siding",
+          "density": 2700,
+          "thermal_conductivity": 237,
+          "specific_heat": 900,
+          "u_value": 5.0,
+          "r_value": 0.2,
+          "thermal_mass": 2430,
+          "emissivity": 0.1,
+          "solar_absorptance": 0.3,
+          "visible_transmittance": 0.0,
+          "shgc": 0.0,
+          "air_permeability": 0.0,
+          "fire_resistance": 0,
+          "acoustic_rating": 15,
+          "embodied_carbon": 0.25,
+          "cost_per_m2": 25
+        },
+        "vinyl_siding": {
+          "name": "Vinyl Siding",
+          "density": 1400,
+          "thermal_conductivity": 0.16,
+          "specific_heat": 1200,
+          "u_value": 0.8,
+          "r_value": 1.25,
+          "thermal_mass": 1680,
+          "emissivity": 0.9,
+          "solar_absorptance": 0.7,
+          "visible_transmittance": 0.0,
+          "shgc": 0.0,
+          "air_permeability": 0.0,
+          "fire_resistance": 0,
+          "acoustic_rating": 20,
+          "embodied_carbon": 0.15,
+          "cost_per_m2": 18
+        },
+        "asphalt_shingles": {
+          "name": "Asphalt Shingles",
+          "density": 1200,
+          "thermal_conductivity": 0.19,
+          "specific_heat": 1000,
+          "u_value": 0.5,
+          "r_value": 2.0,
+          "thermal_mass": 1200,
+          "emissivity": 0.9,
+          "solar_absorptance": 0.8,
+          "visible_transmittance": 0.0,
+          "shgc": 0.0,
+          "air_permeability": 0.0,
+          "fire_resistance": 60,
+          "acoustic_rating": 25,
+          "embodied_carbon": 0.1,
+          "cost_per_m2": 12
+        },
+        "metal_roofing": {
+          "name": "Metal Roofing",
+          "density": 7800,
+          "thermal_conductivity": 50,
+          "specific_heat": 460,
+          "u_value": 2.0,
+          "r_value": 0.5,
+          "thermal_mass": 3588,
+          "emissivity": 0.1,
+          "solar_absorptance": 0.3,
+          "visible_transmittance": 0.0,
+          "shgc": 0.0,
+          "air_permeability": 0.0,
+          "fire_resistance": 120,
+          "acoustic_rating": 40,
+          "embodied_carbon": 0.3,
+          "cost_per_m2": 35
+        },
+        "membrane_roofing": {
+          "name": "Membrane Roofing",
+          "density": 1200,
+          "thermal_conductivity": 0.16,
+          "specific_heat": 1000,
+          "u_value": 0.4,
+          "r_value": 2.5,
+          "thermal_mass": 1200,
+          "emissivity": 0.9,
+          "solar_absorptance": 0.7,
+          "visible_transmittance": 0.0,
+          "shgc": 0.0,
+          "air_permeability": 0.0,
+          "fire_resistance": 90,
+          "acoustic_rating": 30,
+          "embodied_carbon": 0.2,
+          "cost_per_m2": 20
+        },
+        "concrete_slab": {
+          "name": "Concrete Slab",
+          "density": 2400,
+          "thermal_conductivity": 1.7,
+          "specific_heat": 1000,
+          "u_value": 1.5,
+          "r_value": 0.67,
+          "thermal_mass": 2400,
+          "emissivity": 0.9,
+          "solar_absorptance": 0.6,
+          "visible_transmittance": 0.0,
+          "shgc": 0.0,
+          "air_permeability": 0.0,
+          "fire_resistance": 240,
+          "acoustic_rating": 50,
+          "embodied_carbon": 0.2,
+          "cost_per_m2": 30
+        },
+        "wood_flooring": {
+          "name": "Wood Flooring",
+          "density": 600,
+          "thermal_conductivity": 0.14,
+          "specific_heat": 1200,
+          "u_value": 0.7,
+          "r_value": 1.43,
+          "thermal_mass": 720,
+          "emissivity": 0.9,
+          "solar_absorptance": 0.5,
+          "visible_transmittance": 0.0,
+          "shgc": 0.0,
+          "air_permeability": 0.0,
+          "fire_resistance": 30,
+          "acoustic_rating": 25,
+          "embodied_carbon": 0.1,
+          "cost_per_m2": 25
+        },
+        "carpet": {
+          "name": "Carpet",
+          "density": 200,
+          "thermal_conductivity": 0.06,
+          "specific_heat": 1200,
+          "u_value": 0.3,
+          "r_value": 3.33,
+          "thermal_mass": 240,
+          "emissivity": 0.9,
+          "solar_absorptance": 0.6,
+          "visible_transmittance": 0.0,
+          "shgc": 0.0,
+          "air_permeability": 0.0,
+          "fire_resistance": 0,
+          "acoustic_rating": 35,
+          "embodied_carbon": 0.05,
+          "cost_per_m2": 15
+        }
+      }
+    },
+    "openings": {
+      "windows": [
+        {
+          "id": "50f127b8-cf0e-414a-a869-cbfc4b0c5105",
+          "type": "window",
+          "material": "wood",
+          "frame_type": "non_thermal_break",
+          "glazing_type": "triple",
+          "gas_fill": "argon",
+          "u_value": 1.4901096610690625,
+          "shgc": 0.30894088048714935,
+          "visible_transmittance": 0.46232549386183014,
+          "air_leakage": 0.7768357177294225,
+          "water_penetration": 386.19963461122586,
+          "structural_load": 4766.216975033268,
+          "age": 16,
+          "condition": "fair",
+          "maintenance_history": [
+            {
+              "date": "2013-11-02",
+              "type": "cleaning",
+              "cost": 298.5188661551316,
+              "description": "Maintenance event 1"
+            },
+            {
+              "date": "2014-01-23",
+              "type": "inspection",
+              "cost": 327.159670911972,
+              "description": "Maintenance event 2"
+            },
+            {
+              "date": "2011-04-09",
+              "type": "cleaning",
+              "cost": 350.7363980202724,
+              "description": "Maintenance event 3"
+            }
+          ],
+          "cost": 2331.885802462263
+        },
+        {
+          "id": "ed53ee3c-c062-4781-b456-f462d16bbee9",
+          "type": "window",
+          "material": "steel",
+          "frame_type": "non_thermal_break",
+          "glazing_type": "double",
+          "gas_fill": "krypton",
+          "u_value": 2.1282603415760732,
+          "shgc": 0.6288740993227627,
+          "visible_transmittance": 0.640941243234131,
+          "air_leakage": 0.7704614129790066,
+          "water_penetration": 142.24688256103306,
+          "structural_load": 1029.237974895699,
+          "age": 0,
+          "condition": "excellent",
+          "maintenance_history": [],
+          "cost": 1236.2593253087716
+        },
+        {
+          "id": "e462e5bb-3068-45e9-a280-e44c30aeae7c",
+          "type": "window",
+          "material": "aluminum",
+          "frame_type": "thermal_break",
+          "glazing_type": "triple",
+          "gas_fill": "krypton",
+          "u_value": 1.0603635443515538,
+          "shgc": 0.445242334752155,
+          "visible_transmittance": 0.5810901968626947,
+          "air_leakage": 0.11442332613890704,
+          "water_penetration": 333.6563322854347,
+          "structural_load": 3914.416200834206,
+          "age": 20,
+          "condition": "fair",
+          "maintenance_history": [
+            {
+              "date": "2024-01-06",
+              "type": "cleaning",
+              "cost": 170.26625846835483,
+              "description": "Maintenance event 1"
+            },
+            {
+              "date": "2010-06-08",
+              "type": "replacement",
+              "cost": 240.99797956906184,
+              "description": "Maintenance event 2"
+            },
+            {
+              "date": "2019-06-27",
+              "type": "replacement",
+              "cost": 248.99041629662943,
+              "description": "Maintenance event 3"
+            },
+            {
+              "date": "2019-10-01",
+              "type": "inspection",
+              "cost": 201.26784839995682,
+              "description": "Maintenance event 4"
+            }
+          ],
+          "cost": 2564.486162755559
+        },
+        {
+          "id": "885aacff-2957-40c7-8918-aad1638d8f22",
+          "type": "window",
+          "material": "vinyl",
+          "frame_type": "composite",
+          "glazing_type": "low_e_triple",
+          "gas_fill": "argon",
+          "u_value": 0.9609167201645417,
+          "shgc": 0.5351722114678867,
+          "visible_transmittance": 0.5420449881603058,
+          "air_leakage": 0.8441065650001718,
+          "water_penetration": 110.384907692778,
+          "structural_load": 1008.9583086134124,
+          "age": 17,
+          "condition": "fair",
+          "maintenance_history": [
+            {
+              "date": "2023-11-06",
+              "type": "repair",
+              "cost": 398.2535224234056,
+              "description": "Maintenance event 1"
+            },
+            {
+              "date": "2025-05-29",
+              "type": "replacement",
+              "cost": 294.0609814346721,
+              "description": "Maintenance event 2"
+            },
+            {
+              "date": "2025-08-22",
+              "type": "inspection",
+              "cost": 390.56919198283236,
+              "description": "Maintenance event 3"
+            }
+          ],
+          "cost": 1641.0879091897611
+        },
+        {
+          "id": "d95f56da-f32f-4946-b061-599cfddedd72",
+          "type": "window",
+          "material": "wood",
+          "frame_type": "non_thermal_break",
+          "glazing_type": "single",
+          "gas_fill": "xenon",
+          "u_value": 5.243101729263225,
+          "shgc": 0.7576897044769004,
+          "visible_transmittance": 0.8503241292854086,
+          "air_leakage": 0.3172314442518006,
+          "water_penetration": 255.29045607452247,
+          "structural_load": 2648.181060591089,
+          "age": 12,
+          "condition": "good",
+          "maintenance_history": [
+            {
+              "date": "2017-02-03",
+              "type": "replacement",
+              "cost": 499.4233413389985,
+              "description": "Maintenance event 1"
+            },
+            {
+              "date": "2022-11-20",
+              "type": "inspection",
+              "cost": 331.73209743351896,
+              "description": "Maintenance event 2"
+            }
+          ],
+          "cost": 2251.4713382084024
+        },
+        {
+          "id": "fa91cf2a-c6f1-4538-b70f-627cf0a6ffb3",
+          "type": "window",
+          "material": "wood",
+          "frame_type": "thermal_break",
+          "glazing_type": "double",
+          "gas_fill": "argon",
+          "u_value": 2.589731010209628,
+          "shgc": 0.5423162012812535,
+          "visible_transmittance": 0.7590151269999127,
+          "air_leakage": 0.41527538400506725,
+          "water_penetration": 300.9745910572625,
+          "structural_load": 3814.156584526368,
+          "age": 3,
+          "condition": "excellent",
+          "maintenance_history": [
+            {
+              "date": "2025-09-03",
+              "type": "inspection",
+              "cost": 122.01557483257625,
+              "description": "Maintenance event 1"
+            }
+          ],
+          "cost": 1941.0172907853741
+        },
+        {
+          "id": "6f604379-0b83-4a5d-aa15-404af0ba9600",
+          "type": "window",
+          "material": "wood",
+          "frame_type": "non_thermal_break",
+          "glazing_type": "single",
+          "gas_fill": "air",
+          "u_value": 5.938134124279547,
+          "shgc": 0.7655069955397514,
+          "visible_transmittance": 0.8088373819611706,
+          "air_leakage": 0.9671402114016225,
+          "water_penetration": 495.7213774741834,
+          "structural_load": 4676.308348223981,
+          "age": 2,
+          "condition": "excellent",
+          "maintenance_history": [
+            {
+              "date": "2024-06-15",
+              "type": "cleaning",
+              "cost": 260.8774511574131,
+              "description": "Maintenance event 1"
+            }
+          ],
+          "cost": 1326.7265560791943
+        },
+        {
+          "id": "0751b03c-a4ec-41b7-bca0-e372aa813f46",
+          "type": "window",
+          "material": "vinyl",
+          "frame_type": "non_thermal_break",
+          "glazing_type": "triple",
+          "gas_fill": "krypton",
+          "u_value": 1.9920458144091397,
+          "shgc": 0.438515279497085,
+          "visible_transmittance": 0.4709469703593225,
+          "air_leakage": 0.256117023788341,
+          "water_penetration": 118.46722308342832,
+          "structural_load": 2307.15882009913,
+          "age": 14,
+          "condition": "good",
+          "maintenance_history": [
+            {
+              "date": "2014-06-17",
+              "type": "inspection",
+              "cost": 126.85072195932383,
+              "description": "Maintenance event 1"
+            },
+            {
+              "date": "2015-03-04",
+              "type": "repair",
+              "cost": 183.40052533321736,
+              "description": "Maintenance event 2"
+            }
+          ],
+          "cost": 962.474795614341
+        },
+        {
+          "id": "f1c3e840-e9d8-4743-b246-e9e325f7611b",
+          "type": "window",
+          "material": "aluminum",
+          "frame_type": "composite",
+          "glazing_type": "double",
+          "gas_fill": "air",
+          "u_value": 2.695193284876123,
+          "shgc": 0.6745009824965443,
+          "visible_transmittance": 0.6050716415628405,
+          "air_leakage": 0.16616429247738723,
+          "water_penetration": 176.00541078332094,
+          "structural_load": 2457.8716319548244,
+          "age": 6,
+          "condition": "good",
+          "maintenance_history": [
+            {
+              "date": "2022-09-23",
+              "type": "repair",
+              "cost": 159.5966479360203,
+              "description": "Maintenance event 1"
+            }
+          ],
+          "cost": 2351.097069934491
+        },
+        {
+          "id": "9635f499-9591-41e8-a51c-8206ea14592c",
+          "type": "window",
+          "material": "steel",
+          "frame_type": "composite",
+          "glazing_type": "single",
+          "gas_fill": "argon",
+          "u_value": 5.634431150187615,
+          "shgc": 0.8702299043617119,
+          "visible_transmittance": 0.8604447417354184,
+          "air_leakage": 0.4504267224895575,
+          "water_penetration": 360.83874479524326,
+          "structural_load": 4282.918401484845,
+          "age": 25,
+          "condition": "poor",
+          "maintenance_history": [
+            {
+              "date": "2016-04-07",
+              "type": "cleaning",
+              "cost": 300.8518402209852,
+              "description": "Maintenance event 1"
+            },
+            {
+              "date": "2017-12-22",
+              "type": "repair",
+              "cost": 307.6944698966,
+              "description": "Maintenance event 2"
+            },
+            {
+              "date": "2023-02-27",
+              "type": "inspection",
+              "cost": 371.64000646606615,
+              "description": "Maintenance event 3"
+            },
+            {
+              "date": "2018-06-01",
+              "type": "inspection",
+              "cost": 438.85172064983726,
+              "description": "Maintenance event 4"
+            },
+            {
+              "date": "2009-11-09",
+              "type": "repair",
+              "cost": 127.29207693456453,
+              "description": "Maintenance event 5"
+            }
+          ],
+          "cost": 3074.028808996719
+        },
+        {
+          "id": "80caf091-8bad-429d-b410-025b02668463",
+          "type": "window",
+          "material": "vinyl",
+          "frame_type": "thermal_break",
+          "glazing_type": "low_e_double",
+          "gas_fill": "argon",
+          "u_value": 1.3512893710946625,
+          "shgc": 0.21303444948962463,
+          "visible_transmittance": 0.46576686418882485,
+          "air_leakage": 0.6006714389530642,
+          "water_penetration": 314.81796166542443,
+          "structural_load": 4887.238782268325,
+          "age": 29,
+          "condition": "poor",
+          "maintenance_history": [
+            {
+              "date": "1997-05-19",
+              "type": "repair",
+              "cost": 82.27471688441213,
+              "description": "Maintenance event 1"
+            },
+            {
+              "date": "1998-11-08",
+              "type": "inspection",
+              "cost": 81.60295952547243,
+              "description": "Maintenance event 2"
+            },
+            {
+              "date": "2013-09-24",
+              "type": "cleaning",
+              "cost": 139.46558946283076,
+              "description": "Maintenance event 3"
+            },
+            {
+              "date": "2021-07-29",
+              "type": "replacement",
+              "cost": 406.99152354130496,
+              "description": "Maintenance event 4"
+            },
+            {
+              "date": "2018-11-06",
+              "type": "cleaning",
+              "cost": 451.92216852184526,
+              "description": "Maintenance event 5"
+            }
+          ],
+          "cost": 1294.9814510174958
+        },
+        {
+          "id": "4a23bd85-9d2f-4d01-ac41-d9fc4a297164",
+          "type": "window",
+          "material": "fiberglass",
+          "frame_type": "non_thermal_break",
+          "glazing_type": "triple",
+          "gas_fill": "xenon",
+          "u_value": 1.2001317585107913,
+          "shgc": 0.3148946726069905,
+          "visible_transmittance": 0.4021198761217316,
+          "air_leakage": 0.2690676104591124,
+          "water_penetration": 453.5930919012309,
+          "structural_load": 3641.2987481252444,
+          "age": 9,
+          "condition": "good",
+          "maintenance_history": [
+            {
+              "date": "2025-01-02",
+              "type": "cleaning",
+              "cost": 342.5445780576434,
+              "description": "Maintenance event 1"
+            }
+          ],
+          "cost": 1027.1706035793877
+        }
+      ],
+      "doors": [
+        {
+          "id": "4e9af7e1-79c5-44e7-9a8a-b82a2bd2868b",
+          "type": "window",
+          "material": "wood",
+          "frame_type": "non_thermal_break",
+          "glazing_type": "triple",
+          "gas_fill": "xenon",
+          "u_value": 1.2623016876268918,
+          "shgc": 0.3010071127565819,
+          "visible_transmittance": 0.4125018620093174,
+          "air_leakage": 0.6219006120204889,
+          "water_penetration": 130.42603775806737,
+          "structural_load": 2310.44982782045,
+          "age": 18,
+          "condition": "fair",
+          "maintenance_history": [
+            {
+              "date": "2011-09-15",
+              "type": "repair",
+              "cost": 185.33979412781306,
+              "description": "Maintenance event 1"
+            },
+            {
+              "date": "2013-06-23",
+              "type": "cleaning",
+              "cost": 185.82056274867307,
+              "description": "Maintenance event 2"
+            },
+            {
+              "date": "2009-10-24",
+              "type": "replacement",
+              "cost": 205.70730296286217,
+              "description": "Maintenance event 3"
+            }
+          ],
+          "cost": 1027.2487765747944
+        },
+        {
+          "id": "589ad8f1-7a98-4e2a-b8ba-bf4314aed504",
+          "type": "window",
+          "material": "steel",
+          "frame_type": "thermal_break",
+          "glazing_type": "low_e_double",
+          "gas_fill": "xenon",
+          "u_value": 1.5130991663583193,
+          "shgc": 0.2974657468621087,
+          "visible_transmittance": 0.6276440973259283,
+          "air_leakage": 0.9083402540686573,
+          "water_penetration": 396.5468293222186,
+          "structural_load": 3771.7981812784697,
+          "age": 25,
+          "condition": "poor",
+          "maintenance_history": [
+            {
+              "date": "2024-06-12",
+              "type": "repair",
+              "cost": 126.80830263979466,
+              "description": "Maintenance event 1"
+            },
+            {
+              "date": "2015-03-13",
+              "type": "repair",
+              "cost": 123.81421450274192,
+              "description": "Maintenance event 2"
+            },
+            {
+              "date": "2005-11-28",
+              "type": "repair",
+              "cost": 400.1467232328651,
+              "description": "Maintenance event 3"
+            },
+            {
+              "date": "2023-03-25",
+              "type": "cleaning",
+              "cost": 313.7570583231432,
+              "description": "Maintenance event 4"
+            },
+            {
+              "date": "2001-09-15",
+              "type": "replacement",
+              "cost": 348.0114532430003,
+              "description": "Maintenance event 5"
+            }
+          ],
+          "cost": 450.4611419996834
+        }
+      ]
+    },
+    "systems": {
+      "hvac": {
+        "id": "aded6b95-9e61-4ddc-a9c3-09ffef33be9b",
+        "system_type": "Packaged Unit",
+        "make": "Rheem",
+        "model": "Model-5653",
+        "fuel_type": "Electric",
+        "age": 6,
+        "efficiency_rating": {
+          "EER": 11.274304894951063,
+          "COP": 3.1483921010817246
+        },
+        "rated_capacity": 35.79911088964445,
+        "actual_capacity": 35.400623008434415,
+        "maintenance_history": [
+          {
+            "date": "2021-12-12",
+            "type": "inspection",
+            "cost": 972.1602511905794,
+            "description": "Maintenance event 1"
+          },
+          {
+            "date": "2019-11-04",
+            "type": "refrigerant_check",
+            "cost": 1768.5187231418276,
+            "description": "Maintenance event 2"
+          }
+        ],
+        "control_system": "building_automation",
+        "zoning": 8,
+        "ductwork_condition": "good",
+        "filter_type": "hepa",
+        "cost": 17449.1218081457,
+        "replacement_cost": 18695.487651584677
+      },
+      "lighting": [
+        {
+          "id": "7a428f5a-da08-4bd9-a19b-aab83a0b1b48",
+          "fixture_type": "Linear LED",
+          "lamp_type": "LED",
+          "wattage": 34.08248401182139,
+          "lumens": 3493.8954943954495,
+          "color_temperature": 5151,
+          "cri": 94,
+          "control_type": "occupancy",
+          "quantity": 15,
+          "age": 0,
+          "condition": "excellent",
+          "maintenance_schedule": "annual",
+          "cost": 1805.6736323357834
+        },
+        {
+          "id": "050fadb6-d773-475d-9000-4c7a837a5af7",
+          "fixture_type": "Linear LED",
+          "lamp_type": "LED",
+          "wattage": 16.63729307372443,
+          "lumens": 1630.064609458975,
+          "color_temperature": 6233,
+          "cri": 92,
+          "control_type": "daylight",
+          "quantity": 2,
+          "age": 0,
+          "condition": "excellent",
+          "maintenance_schedule": "monthly",
+          "cost": 118.67790738939921
+        },
+        {
+          "id": "ace0f254-a75f-4de8-8fab-b762dcfb10a9",
+          "fixture_type": "Fluorescent T8",
+          "lamp_type": "Fluorescent",
+          "wattage": 25.73796957305897,
+          "lumens": 2351.7551769000574,
+          "color_temperature": 5966,
+          "cri": 80,
+          "control_type": "switch",
+          "quantity": 3,
+          "age": 6,
+          "condition": "good",
+          "maintenance_schedule": "semi_annual",
+          "cost": 125.96493508384063
+        },
+        {
+          "id": "892923f7-6882-412f-8b4b-185350784e0a",
+          "fixture_type": "Recessed LED",
+          "lamp_type": "LED",
+          "wattage": 11.018657815371402,
+          "lumens": 1153.1918167464148,
+          "color_temperature": 3447,
+          "cri": 91,
+          "control_type": "occupancy",
+          "quantity": 2,
+          "age": 4,
+          "condition": "good",
+          "maintenance_schedule": "monthly",
+          "cost": 100.07633206465533
+        },
+        {
+          "id": "b9282792-605a-4df0-aefb-2239568d1bbc",
+          "fixture_type": "Recessed LED",
+          "lamp_type": "LED",
+          "wattage": 11.421236092912748,
+          "lumens": 1044.463001930396,
+          "color_temperature": 5517,
+          "cri": 86,
+          "control_type": "dimmer",
+          "quantity": 12,
+          "age": 11,
+          "condition": "fair",
+          "maintenance_schedule": "semi_annual",
+          "cost": 472.9095721270605
+        },
+        {
+          "id": "4bef9e44-21e3-4675-a5dd-af79bf5019c1",
+          "fixture_type": "Linear LED",
+          "lamp_type": "LED",
+          "wattage": 39.45813504622168,
+          "lumens": 3234.9411035333196,
+          "color_temperature": 4995,
+          "cri": 94,
+          "control_type": "dimmer",
+          "quantity": 2,
+          "age": 9,
+          "condition": "fair",
+          "maintenance_schedule": "annual",
+          "cost": 154.28914684276972
+        }
+      ],
+      "renewable_energy": []
+    },
+    "performance_data": {
+      "air_tightness": {
+        "test_date": "2025-08-15",
+        "test_method": "pressurization",
+        "air_changes_per_hour": 7.730811847222038,
+        "air_leakage_rate": 4.638487108333223,
+        "pressure_difference": 50,
+        "temperature": 16.799149320230622,
+        "humidity": 36.990297119387506,
+        "wind_speed": 7.5103455074468775,
+        "test_conditions": {
+          "pressure_difference": 50,
+          "temperature": 16.799149320230622,
+          "humidity": 36.990297119387506,
+          "wind_speed": 7.5103455074468775,
+          "test_duration": 39.79438247389232,
+          "equipment": "TEC"
+        },
+        "leakage_locations": [
+          {
+            "location": "attic_access",
+            "severity": "major",
+            "air_flow_rate": 1.733220510916681,
+            "description": "Leakage location 1"
+          },
+          {
+            "location": "door_frame",
+            "severity": "moderate",
+            "air_flow_rate": 0.2510693006446656,
+            "description": "Leakage location 2"
+          },
+          {
+            "location": "basement_joint",
+            "severity": "moderate",
+            "air_flow_rate": 0.42168724586402084,
+            "description": "Leakage location 3"
+          }
+        ],
+        "recommendations": [
+          "Seal air leaks around windows and doors",
+          "Improve air sealing at building envelope",
+          "Consider comprehensive air sealing retrofit",
+          "Install weatherstripping on doors",
+          "Seal electrical and plumbing penetrations",
+          "Improve attic and basement air sealing"
+        ]
+      },
+      "thermal_performance": {
+        "overall_u_value": 0.37905222465142546,
+        "overall_r_value": 2.6381588999236056,
+        "thermal_mass": 563443.2,
+        "air_changes_per_hour": 7.730811847222038
+      }
+    }
+  },
+  "bim_model": {
+    "model_id": "ea4b57d0-281e-476c-988d-2429abe8cd27",
+    "elements_count": 43,
+    "materials": [
+      "concrete",
+      "steel",
+      "brick",
+      "glass",
+      "wood",
+      "insulation"
+    ],
+    "spaces_count": 24,
+    "systems_count": 48
+  },
+  "lidar_point_cloud": {
+    "total_points": 1889490,
+    "sample_points": [
+      {
+        "x": 4.833914808914916,
+        "y": -2.7808418414117813,
+        "z": -0.06818132834670237,
+        "intensity": 0.7344970091887266
+      },
+      {
+        "x": 4.827254073522505,
+        "y": 2.1644416496737175,
+        "z": 0.0956545695336771,
+        "intensity": 0.1304225395145526
+      },
+      {
+        "x": 1.8650173635096676,
+        "y": -1.1536027003301221,
+        "z": 0.11983146752032584,
+        "intensity": 0.355869096492177
+      },
+      {
+        "x": 3.709160033756446,
+        "y": 3.273981436596836,
+        "z": -0.10825079046053625,
+        "intensity": 0.31910973219719696
+      },
+      {
+        "x": 0.9808037764455468,
+        "y": -4.312474562830371,
+        "z": -0.11286042760548849,
+        "intensity": 0.9036116818193997
+      },
+      {
+        "x": -1.2733630607540778,
+        "y": -4.398878912909148,
+        "z": 0.03685391952703653,
+        "intensity": 0.23797520745368905
+      },
+      {
+        "x": 0.5543155547684674,
+        "y": -0.6762741929852453,
+        "z": 0.09815764245917767,
+        "intensity": 0.5844873399228531
+      },
+      {
+        "x": 1.4761777564736172,
+        "y": -3.286694069565946,
+        "z": -0.09354953256566179,
+        "intensity": 0.6634226798029932
+      },
+      {
+        "x": 0.6738011298330968,
+        "y": 1.8687781990673404,
+        "z": -0.08466876941434358,
+        "intensity": 0.18693410448200581
+      },
+      {
+        "x": -3.415077887643632,
+        "y": -0.019916411626789515,
+        "z": 0.09719413803011041,
+        "intensity": 0.6052637809682788
+      },
+      {
+        "x": -2.0711803302470826,
+        "y": -4.171249520371836,
+        "z": 0.1041809842767868,
+        "intensity": 0.43082353203007795
+      },
+      {
+        "x": 2.6109547138869917,
+        "y": 4.243650841801634,
+        "z": 0.10734775651839802,
+        "intensity": 0.943210271221111
+      },
+      {
+        "x": -4.842579913887074,
+        "y": -2.405031604071233,
+        "z": 0.0635796414374283,
+        "intensity": 0.494520288060189
+      },
+      {
+        "x": 4.792503566651187,
+        "y": 1.78417699098995,
+        "z": -0.10063769826186457,
+        "intensity": 0.28798871316787
+      },
+      {
+        "x": 0.9190275070604917,
+        "y": 4.3912883373095575,
+        "z": 0.06455557775481507,
+        "intensity": 0.17692033672898022
+      },
+      {
+        "x": -0.5227486781556407,
+        "y": -4.403739015403003,
+        "z": -0.021014918323683605,
+        "intensity": 0.4227200914919027
+      },
+      {
+        "x": -4.549034318251299,
+        "y": -4.39634541595583,
+        "z": -0.03287302782779079,
+        "intensity": 0.4376854410863493
+      },
+      {
+        "x": 4.861679059621218,
+        "y": 0.5992460804739361,
+        "z": -0.02478583615759497,
+        "intensity": 0.3091350819480892
+      },
+      {
+        "x": -4.760471957977494,
+        "y": -4.3922035460822215,
+        "z": -0.058646979286254876,
+        "intensity": 0.8017829491469884
+      },
+      {
+        "x": -0.832218902790178,
+        "y": 4.401807656099383,
+        "z": 0.09560775436830737,
+        "intensity": 0.797845505942344
+      },
+      {
+        "x": 4.846925401301969,
+        "y": -2.559657617647052,
+        "z": -0.006304050175345875,
+        "intensity": 0.16699072019041133
+      },
+      {
+        "x": -4.858410018986761,
+        "y": 2.20091762468418,
+        "z": 0.03604173136177729,
+        "intensity": 0.7656569180883613
+      },
+      {
+        "x": 0.008352581271129374,
+        "y": -1.1467265528086528,
+        "z": 0.09116581646909332,
+        "intensity": 0.9813517159129017
+      },
+      {
+        "x": -3.4864434057063987,
+        "y": 3.016830708324644,
+        "z": -0.11208456461106794,
+        "intensity": 0.9014158420287612
+      },
+      {
+        "x": -0.5254770255678269,
+        "y": 0.02921427292969708,
+        "z": -0.08549514024410186,
+        "intensity": 0.3788907087890411
+      },
+      {
+        "x": -2.327544666795019,
+        "y": -0.49318179706186144,
+        "z": -0.11978928094745533,
+        "intensity": 0.897868054727791
+      },
+      {
+        "x": -1.8067127909734082,
+        "y": 4.3972646482017925,
+        "z": -0.0803267691166222,
+        "intensity": 0.46693628660441366
+      },
+      {
+        "x": -3.7129268683781045,
+        "y": 4.4060838092508074,
+        "z": -0.09021899785393493,
+        "intensity": 0.11389505927635034
+      },
+      {
+        "x": -3.00811641719538,
+        "y": -4.400727895769445,
+        "z": -0.016750246590918692,
+        "intensity": 0.18814133257899054
+      },
+      {
+        "x": 0.85521068883749,
+        "y": -4.405432630594485,
+        "z": -0.05298265702200136,
+        "intensity": 0.20292488585780694
+      },
+      {
+        "x": 3.3769851708108347,
+        "y": 4.394685157789866,
+        "z": -0.0814254466369717,
+        "intensity": 0.2755541140422739
+      },
+      {
+        "x": -4.84964230982133,
+        "y": -3.3700128551105615,
+        "z": 0.06815992805218953,
+        "intensity": 0.8703077793878253
+      },
+      {
+        "x": 4.7545880394178255,
+        "y": -4.381262714353741,
+        "z": -0.08946620365184384,
+        "intensity": 0.29168545398347023
+      },
+      {
+        "x": -2.958738994056972,
+        "y": 4.3878896845046675,
+        "z": -0.04560950757555771,
+        "intensity": 0.1443245556595516
+      },
+      {
+        "x": -1.6487243610057651,
+        "y": -1.182336533549358,
+        "z": 0.09540697118222498,
+        "intensity": 0.58310821856067
+      },
+      {
+        "x": -1.0275718643963563,
+        "y": -3.3488321313471605,
+        "z": -0.10157104167889106,
+        "intensity": 0.8378018033896144
+      },
+      {
+        "x": 1.569055166091625,
+        "y": 4.392974909629609,
+        "z": -0.05788065893837033,
+        "intensity": 0.7799248423635606
+      },
+      {
+        "x": -4.850693865479169,
+        "y": -0.4047530881713221,
+        "z": 0.08751959892603872,
+        "intensity": 0.6996941281349581
+      },
+      {
+        "x": -2.320610960559258,
+        "y": 3.893516126290066,
+        "z": 0.10065930109169034,
+        "intensity": 0.8965282395648896
+      },
+      {
+        "x": 4.840954473576983,
+        "y": -2.793653529079683,
+        "z": 0.0032424651720369827,
+        "intensity": 0.41494133319304105
+      },
+      {
+        "x": -0.7458799936344889,
+        "y": -2.032306096158509,
+        "z": 0.10772708577353962,
+        "intensity": 0.285050743342249
+      },
+      {
+        "x": 3.1928487196782136,
+        "y": -1.2156435613665957,
+        "z": 0.09753176997846014,
+        "intensity": 0.5855897611740712
+      },
+      {
+        "x": 4.835326544043409,
+        "y": -1.808696976119148,
+        "z": 0.05350078428916478,
+        "intensity": 0.5583754859488654
+      },
+      {
+        "x": 4.840980591303917,
+        "y": 2.8795071214414616,
+        "z": -0.009608225432275967,
+        "intensity": 0.9328487985963191
+      },
+      {
+        "x": -4.845553507472414,
+        "y": -0.10060296409631089,
+        "z": -0.037507686336252226,
+        "intensity": 0.25659489615519965
+      },
+      {
+        "x": -4.835823709994058,
+        "y": -3.6251646432498066,
+        "z": 0.10807204012601804,
+        "intensity": 0.43947787868424615
+      },
+      {
+        "x": -0.32527092099288807,
+        "y": 4.400656492155834,
+        "z": 0.06367218992690665,
+        "intensity": 0.1450684753095837
+      },
+      {
+        "x": -4.854101110158611,
+        "y": 1.5579838812919529,
+        "z": -0.0836385770701137,
+        "intensity": 0.39295354345478717
+      },
+      {
+        "x": 4.846238873366107,
+        "y": -1.8135597256055944,
+        "z": 0.04158352752362524,
+        "intensity": 0.4436431052545504
+      },
+      {
+        "x": -0.11198076759806733,
+        "y": 2.0988507936325878,
+        "z": 0.0997041611904514,
+        "intensity": 0.3909537788778328
+      },
+      {
+        "x": -3.438383502794804,
+        "y": -4.388833911466223,
+        "z": 0.06878913570864603,
+        "intensity": 0.6240774053078894
+      },
+      {
+        "x": -1.9013407218342235,
+        "y": -4.357923797260695,
+        "z": -0.10454261899590626,
+        "intensity": 0.5829427792228841
+      },
+      {
+        "x": 0.23176964167853664,
+        "y": -4.396895517413452,
+        "z": 0.0884271030437357,
+        "intensity": 0.2569411630757216
+      },
+      {
+        "x": -0.23227582114168763,
+        "y": 4.3854913807672276,
+        "z": -0.06485599252036989,
+        "intensity": 0.9064575484083536
+      },
+      {
+        "x": 4.852215910610776,
+        "y": 0.36773517819924123,
+        "z": 0.0923522029140744,
+        "intensity": 0.32560115452276384
+      },
+      {
+        "x": 1.9136207187718635,
+        "y": -0.052566243755110695,
+        "z": -0.11736204937528971,
+        "intensity": 0.9252213522159277
+      },
+      {
+        "x": -4.835257012709072,
+        "y": -1.023839814633303,
+        "z": -0.00028100782826690623,
+        "intensity": 0.43903354069736455
+      },
+      {
+        "x": -3.4847877079806144,
+        "y": 0.3136237285626737,
+        "z": 0.10142906060921589,
+        "intensity": 0.4094926237699852
+      },
+      {
+        "x": -4.845520566457113,
+        "y": 0.44766654569476677,
+        "z": -0.06884824141667524,
+        "intensity": 0.8241495168520059
+      },
+      {
+        "x": 4.84221529285614,
+        "y": 4.046169525539425,
+        "z": -0.005382598541338978,
+        "intensity": 0.49147889611076734
+      },
+      {
+        "x": -4.857068256493265,
+        "y": -1.2840973061864813,
+        "z": -0.06481848364731257,
+        "intensity": 0.8848017570997898
+      },
+      {
+        "x": -4.8271679962756044,
+        "y": -2.998498088790744,
+        "z": -0.004247673111203949,
+        "intensity": 0.23097982103628434
+      },
+      {
+        "x": 2.275724903284559,
+        "y": 4.3920568594180995,
+        "z": 0.041869130559310935,
+        "intensity": 0.549766271064624
+      },
+      {
+        "x": 3.291460049895132,
+        "y": 4.387815348504212,
+        "z": -0.0015145032775970829,
+        "intensity": 0.5989469598381362
+      },
+      {
+        "x": -4.852987812233509,
+        "y": -0.14592097441910928,
+        "z": -0.07664026631774747,
+        "intensity": 0.9480179765039235
+      },
+      {
+        "x": 3.452118723663192,
+        "y": -2.81232516892163,
+        "z": 0.09856566090921147,
+        "intensity": 0.8927723592270603
+      },
+      {
+        "x": -4.594295525602023,
+        "y": 4.396052566522892,
+        "z": 0.04980961243271694,
+        "intensity": 0.21371558208929534
+      },
+      {
+        "x": -1.1362284083825283,
+        "y": 4.4155679112485355,
+        "z": 0.02182345353436506,
+        "intensity": 0.2771054220260332
+      },
+      {
+        "x": -0.9477341442316422,
+        "y": -4.394595055847566,
+        "z": -0.040010445893262185,
+        "intensity": 0.5685492326353361
+      },
+      {
+        "x": -4.1630317918194235,
+        "y": 3.609191038336411,
+        "z": -0.10217994254836955,
+        "intensity": 0.6004544273730346
+      },
+      {
+        "x": -0.5148870882296983,
+        "y": -4.397294391753352,
+        "z": -0.045777139376513704,
+        "intensity": 0.8990869208963672
+      },
+      {
+        "x": 2.09064434586635,
+        "y": 1.8035858178895565,
+        "z": 0.09912557798955537,
+        "intensity": 0.35147993315866044
+      },
+      {
+        "x": 2.305950727496866,
+        "y": 1.9317490409053366,
+        "z": -0.10018825684317356,
+        "intensity": 0.5992032402731158
+      },
+      {
+        "x": 4.854203692551179,
+        "y": 3.2179786584462478,
+        "z": -0.05078495807455602,
+        "intensity": 0.5326889537346294
+      },
+      {
+        "x": 3.7554831384415515,
+        "y": -4.312280008917557,
+        "z": -0.10181289172175623,
+        "intensity": 0.5436914903492256
+      },
+      {
+        "x": -3.331193532897065,
+        "y": 4.396801922916348,
+        "z": 0.10438202518048059,
+        "intensity": 0.45089052982984956
+      },
+      {
+        "x": -4.864964035547465,
+        "y": -0.842456231116619,
+        "z": -0.016976924749007492,
+        "intensity": 0.49544279951451875
+      },
+      {
+        "x": 2.752331000975844,
+        "y": 4.371395291010508,
+        "z": 0.007077838910614443,
+        "intensity": 0.194657095228498
+      },
+      {
+        "x": 4.848174665644744,
+        "y": -0.9916399337463844,
+        "z": -0.003054729807973902,
+        "intensity": 0.27939749388957724
+      },
+      {
+        "x": 1.5446427578765618,
+        "y": 4.382165505098767,
+        "z": -0.004619988856397233,
+        "intensity": 0.7999412767985551
+      },
+      {
+        "x": -2.359524786541676,
+        "y": -4.38044560099233,
+        "z": 0.01181286087571198,
+        "intensity": 0.2791392827725688
+      },
+      {
+        "x": 4.831102038862299,
+        "y": 0.7440104743421291,
+        "z": 0.06763744588792546,
+        "intensity": 0.9268385996287957
+      },
+      {
+        "x": -4.844396778195941,
+        "y": 0.15664117540602068,
+        "z": 0.1080707953256073,
+        "intensity": 0.18147242001954733
+      },
+      {
+        "x": 4.8201909289064115,
+        "y": -0.08126058708423149,
+        "z": 0.04828126152256891,
+        "intensity": 0.26923339268000457
+      },
+      {
+        "x": 4.855125587095409,
+        "y": -0.6154527098642373,
+        "z": 0.08315167294420632,
+        "intensity": 0.7140300542681625
+      },
+      {
+        "x": 4.840754420539319,
+        "y": 2.67470253737001,
+        "z": 0.05974323657204226,
+        "intensity": 0.24999940139732654
+      },
+      {
+        "x": 4.828707351985346,
+        "y": 3.8169285527405683,
+        "z": -0.10147246969935025,
+        "intensity": 0.8294358120181718
+      },
+      {
+        "x": -4.8541690518013985,
+        "y": 1.2396879517308006,
+        "z": 0.06284480670016626,
+        "intensity": 0.24134266803672294
+      },
+      {
+        "x": 4.83240821255198,
+        "y": 3.820477688881105,
+        "z": -0.08116143412384931,
+        "intensity": 0.5397257521371971
+      },
+      {
+        "x": -4.839521727552139,
+        "y": -1.599075582043437,
+        "z": -0.0020772598204539753,
+        "intensity": 0.1712475975705084
+      },
+      {
+        "x": -4.853893461075719,
+        "y": 1.6445823144335288,
+        "z": 0.07921435206182989,
+        "intensity": 0.26637512458624624
+      },
+      {
+        "x": -4.851480916012243,
+        "y": 4.347602195469863,
+        "z": -0.07555751181115045,
+        "intensity": 0.859648451659726
+      },
+      {
+        "x": -1.6247163153055613,
+        "y": -3.2180781291485214,
+        "z": 0.09689329046927667,
+        "intensity": 0.2274917441109115
+      },
+      {
+        "x": -1.8570896811346156,
+        "y": 4.379457675143665,
+        "z": -0.053480455698660376,
+        "intensity": 0.9899380212461456
+      },
+      {
+        "x": 4.836245966674187,
+        "y": -2.27241661838639,
+        "z": -0.08569155250102406,
+        "intensity": 0.31105612938107885
+      },
+      {
+        "x": 1.567347999756563,
+        "y": -3.758100521688308,
+        "z": -0.10926328693283302,
+        "intensity": 0.4476789052169122
+      },
+      {
+        "x": 4.122121321379077,
+        "y": -3.540395817860264,
+        "z": 0.09467674773337455,
+        "intensity": 0.2788944617951919
+      },
+      {
+        "x": -1.316061277217549,
+        "y": 2.278501596371339,
+        "z": 0.09911300243069202,
+        "intensity": 0.6340540449165141
+      },
+      {
+        "x": 4.782354712705307,
+        "y": 0.7179938024908863,
+        "z": -0.08991843164277871,
+        "intensity": 0.8638373620398044
+      },
+      {
+        "x": -3.0323358012433546,
+        "y": 1.8714354685700632,
+        "z": -0.08938406837175691,
+        "intensity": 0.6503308031300994
+      }
+    ]
+  },
+  "iot_sensor_data": {
+    "zones_count": 76,
+    "sensors_count": 345,
+    "sensor_types": [
+      "occupancy",
+      "co2",
+      "temperature",
+      "energy",
+      "humidity",
+      "light",
+      "vibration"
+    ]
+  },
+  "lca_assessment": {
+    "carbon_intensity": 53.2,
+    "energy_intensity": 321.0,
+    "water_intensity": 17.1,
+    "waste_intensity": 8.5,
+    "recommendations_count": 8
+  },
+  "performance_metrics": {
+    "building_area_m2": 2035.4910975080106,
+    "building_volume_m3": 139236.90472520958,
+    "number_of_floors": 24,
+    "aspect_ratio": 1.1024639654531083,
+    "window_to_wall_ratio": 0.6091108919768556
+  }
+}
