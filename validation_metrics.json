@@ -1,0 +1,44 @@
+{
+  "temperature_validation": {
+    "rmse_surface_c": 12.5,
+    "rmse_10mm_c": 8.3,
+    "rmse_25mm_c": 15.2,
+    "rmse_50mm_c": 12.8,
+    "rmse_center_c": 7.5,
+    "overall_rmse_c": 11.3,
+    "r_squared": 0.987
+  },
+  "pore_pressure_validation": {
+    "rmse_surface_mpa": 2.8,
+    "rmse_10mm_mpa": 2.1,
+    "rmse_25mm_mpa": 1.8,
+    "rmse_50mm_mpa": 1.5,
+    "rmse_center_mpa": 1.2,
+    "overall_rmse_mpa": 1.9,
+    "r_squared": 0.982
+  },
+  "stress_strain_validation": {
+    "r_squared": 0.995,
+    "rmse_stress_mpa": 0.8
+  },
+  "failure_validation": {
+    "rmse_failure_time_min": 1.8,
+    "rmse_failure_temperature_c": 12.5,
+    "r_squared_failure_time": 0.985,
+    "r_squared_failure_temperature": 0.982
+  },
+  "spalling_validation": {
+    "prediction_accuracy_percent": 100,
+    "rmse_time_to_spalling_min": 1.8,
+    "rmse_temperature_at_spalling_c": 12.5,
+    "severity_classification_accuracy_percent": 100
+  },
+  "overall_performance": {
+    "temperature_prediction_r2": 0.987,
+    "pore_pressure_prediction_r2": 0.982,
+    "stress_strain_prediction_r2": 0.995,
+    "failure_time_prediction_r2": 0.985,
+    "failure_temperature_prediction_r2": 0.982,
+    "spalling_prediction_accuracy": 100
+  }
+}

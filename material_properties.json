@@ -1,0 +1,42 @@
+{
+  "youngs_modulus": {
+    "temperature_c": [20, 100, 200, 300, 400, 500, 600, 700, 800],
+    "value_gpa": [30.0, 28.5, 26.0, 22.0, 17.0, 12.0, 8.0, 5.0, 3.0],
+    "source": "Eurocode 2"
+  },
+  "poissons_ratio": {
+    "temperature_c": [20, 100, 200, 300, 400, 500, 600, 700, 800],
+    "value": [0.20, 0.20, 0.20, 0.20, 0.20, 0.20, 0.20, 0.20, 0.20],
+    "source": "Constant"
+  },
+  "compressive_strength": {
+    "temperature_c": [20, 100, 200, 300, 400, 500, 600, 700, 800],
+    "value_mpa": [40.0, 38.0, 35.0, 30.0, 22.0, 15.0, 10.0, 6.0, 3.0],
+    "source": "Eurocode 2"
+  },
+  "tensile_strength": {
+    "temperature_c": [20, 100, 200, 300, 400, 500, 600, 700, 800],
+    "value_mpa": [3.2, 3.0, 2.8, 2.4, 1.8, 1.2, 0.8, 0.5, 0.3],
+    "source": "Eurocode 2"
+  },
+  "thermal_conductivity": {
+    "temperature_c": [20, 100, 200, 300, 400, 500, 600, 700, 800],
+    "value_w_mk": [1.8, 1.6, 1.4, 1.2, 1.0, 0.8, 0.7, 0.6, 0.5],
+    "source": "Eurocode 2"
+  },
+  "specific_heat": {
+    "temperature_c": [20, 100, 200, 300, 400, 500, 600, 700, 800],
+    "value_j_kgk": [900, 950, 1000, 1100, 1200, 1300, 1400, 1500, 1600],
+    "source": "Eurocode 2"
+  },
+  "density": {
+    "temperature_c": [20, 100, 200, 300, 400, 500, 600, 700, 800],
+    "value_kg_m3": [2400, 2380, 2350, 2300, 2250, 2200, 2150, 2100, 2050],
+    "source": "Eurocode 2"
+  },
+  "thermal_expansion": {
+    "temperature_c": [20, 100, 200, 300, 400, 500, 600, 700, 800],
+    "value_10e6_k": [10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0],
+    "source": "Eurocode 2"
+  }
+}
