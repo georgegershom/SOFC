@@ -1,0 +1,163 @@
+{
+  "Mix_0pct_Rubber": {
+    "cement_type": "Type I/II Portland Cement",
+    "cement_grade": "42.5N",
+    "cement_content": 400,
+    "water_cement_ratio": 0.45,
+    "coarse_aggregate": {
+      "type": "Crushed limestone",
+      "max_size": 20,
+      "ssd_specific_gravity": 2.65,
+      "grading": "20-10mm: 60%, 10-5mm: 40%",
+      "content": 1050
+    },
+    "fine_aggregate": {
+      "type": "Natural sand",
+      "ssd_specific_gravity": 2.6,
+      "fineness_modulus": 2.8,
+      "content": -111750.0
+    },
+    "water": {
+      "content": 180,
+      "type": "Potable water"
+    },
+    "superplasticizer": {
+      "type": "Polycarboxylate ether (PCE)",
+      "dosage": 1.2,
+      "content": 4.8
+    },
+    "air_entrainer": {
+      "type": "Synthetic air-entraining admixture",
+      "dosage": 0.05,
+      "content": 0.2
+    },
+    "mix_id": "Mix_0pct_Rubber",
+    "total_volume": 1.0
+  },
+  "Mix_5pct_Rubber": {
+    "cement_type": "Type I/II Portland Cement",
+    "cement_grade": "42.5N",
+    "cement_content": 400,
+    "water_cement_ratio": 0.45,
+    "coarse_aggregate": {
+      "type": "Crushed limestone",
+      "max_size": 20,
+      "ssd_specific_gravity": 2.65,
+      "grading": "20-10mm: 60%, 10-5mm: 40%",
+      "content": 1050
+    },
+    "fine_aggregate": {
+      "type": "Natural sand",
+      "ssd_specific_gravity": 2.6,
+      "fineness_modulus": 2.8,
+      "content": -111750.0
+    },
+    "water": {
+      "content": 180,
+      "type": "Potable water"
+    },
+    "superplasticizer": {
+      "type": "Polycarboxylate ether (PCE)",
+      "dosage": 1.2,
+      "content": 4.8
+    },
+    "air_entrainer": {
+      "type": "Synthetic air-entraining admixture",
+      "dosage": 0.05,
+      "content": 0.2
+    },
+    "rubber_aggregate": {
+      "type": "Crumb rubber from truck tires",
+      "particle_size": "1-4 mm",
+      "specific_gravity": 1.15,
+      "content": 16586.53846153846,
+      "replacement_level": 5
+    },
+    "mix_id": "Mix_5pct_Rubber",
+    "total_volume": 1.0
+  },
+  "Mix_10pct_Rubber": {
+    "cement_type": "Type I/II Portland Cement",
+    "cement_grade": "42.5N",
+    "cement_content": 400,
+    "water_cement_ratio": 0.45,
+    "coarse_aggregate": {
+      "type": "Crushed limestone",
+      "max_size": 20,
+      "ssd_specific_gravity": 2.65,
+      "grading": "20-10mm: 60%, 10-5mm: 40%",
+      "content": 1050
+    },
+    "fine_aggregate": {
+      "type": "Natural sand",
+      "ssd_specific_gravity": 2.6,
+      "fineness_modulus": 2.8,
+      "content": -111750.0
+    },
+    "water": {
+      "content": 180,
+      "type": "Potable water"
+    },
+    "superplasticizer": {
+      "type": "Polycarboxylate ether (PCE)",
+      "dosage": 1.2,
+      "content": 4.8
+    },
+    "air_entrainer": {
+      "type": "Synthetic air-entraining admixture",
+      "dosage": 0.05,
+      "content": 0.2
+    },
+    "rubber_aggregate": {
+      "type": "Crumb rubber from truck tires",
+      "particle_size": "1-4 mm",
+      "specific_gravity": 1.15,
+      "content": 33173.07692307692,
+      "replacement_level": 10
+    },
+    "mix_id": "Mix_10pct_Rubber",
+    "total_volume": 1.0
+  },
+  "Mix_15pct_Rubber": {
+    "cement_type": "Type I/II Portland Cement",
+    "cement_grade": "42.5N",
+    "cement_content": 400,
+    "water_cement_ratio": 0.45,
+    "coarse_aggregate": {
+      "type": "Crushed limestone",
+      "max_size": 20,
+      "ssd_specific_gravity": 2.65,
+      "grading": "20-10mm: 60%, 10-5mm: 40%",
+      "content": 1050
+    },
+    "fine_aggregate": {
+      "type": "Natural sand",
+      "ssd_specific_gravity": 2.6,
+      "fineness_modulus": 2.8,
+      "content": -111750.0
+    },
+    "water": {
+      "content": 180,
+      "type": "Potable water"
+    },
+    "superplasticizer": {
+      "type": "Polycarboxylate ether (PCE)",
+      "dosage": 1.2,
+      "content": 4.8
+    },
+    "air_entrainer": {
+      "type": "Synthetic air-entraining admixture",
+      "dosage": 0.05,
+      "content": 0.2
+    },
+    "rubber_aggregate": {
+      "type": "Crumb rubber from truck tires",
+      "particle_size": "1-4 mm",
+      "specific_gravity": 1.15,
+      "content": 49759.61538461538,
+      "replacement_level": 15
+    },
+    "mix_id": "Mix_15pct_Rubber",
+    "total_volume": 1.0
+  }
+}
