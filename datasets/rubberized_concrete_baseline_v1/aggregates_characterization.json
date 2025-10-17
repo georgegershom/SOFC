@@ -1,0 +1,66 @@
+{
+  "coarse": {
+    "type": "Crushed granite 10 mm nominal size",
+    "source": "BlueRock Quarry",
+    "ssd_specific_gravity": 2.7,
+    "water_absorption_pct": 0.5,
+    "psd": [
+      {
+        "sieve_mm": 25,
+        "percent_passing": 100
+      },
+      {
+        "sieve_mm": 19,
+        "percent_passing": 98
+      },
+      {
+        "sieve_mm": 12.5,
+        "percent_passing": 70
+      },
+      {
+        "sieve_mm": 9.5,
+        "percent_passing": 35
+      },
+      {
+        "sieve_mm": 4.75,
+        "percent_passing": 5
+      }
+    ]
+  },
+  "fine": {
+    "type": "Natural river sand, Zone II",
+    "source": "Riverside Sands Co.",
+    "ssd_specific_gravity": 2.65,
+    "water_absorption_pct": 0.8,
+    "psd": [
+      {
+        "sieve_mm": 9.5,
+        "percent_passing": 100
+      },
+      {
+        "sieve_mm": 4.75,
+        "percent_passing": 95
+      },
+      {
+        "sieve_mm": 2.36,
+        "percent_passing": 80
+      },
+      {
+        "sieve_mm": 1.18,
+        "percent_passing": 60
+      },
+      {
+        "sieve_mm": 0.6,
+        "percent_passing": 35
+      },
+      {
+        "sieve_mm": 0.3,
+        "percent_passing": 15
+      },
+      {
+        "sieve_mm": 0.15,
+        "percent_passing": 3
+      }
+    ]
+  }
+}

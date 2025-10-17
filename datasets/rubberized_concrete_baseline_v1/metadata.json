@@ -1,0 +1,23 @@
+{
+  "dataset_name": "Baseline: High-Performance Rubberized Concrete",
+  "pillar": "Pillar 1: Material Characterization & Mixture Design",
+  "topic": "Development and Validation of a Thermo-Mechanical Model for Fire-Resistant Structural Elements Utilizing High-Performance Rubberized Concrete",
+  "version": "v1.0.0",
+  "generated_at": "2025-10-17T00:33:12.385165Z",
+  "random_seed": 42,
+  "units": {
+    "mass": "kg",
+    "density": "kg/m^3",
+    "strength": "MPa",
+    "modulus": "GPa",
+    "velocity": "km/s",
+    "porosity": "%",
+    "diameter": "\u00b5m",
+    "temperature": "\u00b0C"
+  },
+  "notes": [
+    "Fabricated dataset with physically plausible trends vs rubber replacement.",
+    "Rubber replacement is by volume of fine aggregate at 0%, 5%, 10%, 15%.",
+    "Random noise applied for specimen-level replicates; seeded for reproducibility."
+  ]
+}
