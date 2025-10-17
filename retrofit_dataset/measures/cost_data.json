@@ -1,0 +1,604 @@
+{
+  "cost_data": {
+    "capex_costs": {
+      "ROOF_POLYISO_4IN": {
+        "material_cost_per_sqft": 8.50,
+        "labor_cost_per_sqft": 12.00,
+        "total_cost_per_sqft": 20.50,
+        "cost_currency": "USD",
+        "cost_year": 2024,
+        "cost_escalation_rate": 0.03,
+        "regional_multipliers": {
+          "northeast": 1.15,
+          "southeast": 0.95,
+          "midwest": 1.00,
+          "southwest": 1.05,
+          "west": 1.10,
+          "northwest": 1.08
+        },
+        "building_type_multipliers": {
+          "residential": 1.00,
+          "office": 1.20,
+          "commercial": 1.15,
+          "industrial": 1.10
+        },
+        "installation_complexity_multipliers": {
+          "low": 0.85,
+          "medium": 1.00,
+          "high": 1.25,
+          "very_high": 1.50
+        }
+      },
+      "ROOF_XPS_6IN": {
+        "material_cost_per_sqft": 12.00,
+        "labor_cost_per_sqft": 15.00,
+        "total_cost_per_sqft": 27.00,
+        "cost_currency": "USD",
+        "cost_year": 2024,
+        "cost_escalation_rate": 0.03,
+        "regional_multipliers": {
+          "northeast": 1.15,
+          "southeast": 0.95,
+          "midwest": 1.00,
+          "southwest": 1.05,
+          "west": 1.10,
+          "northwest": 1.08
+        },
+        "building_type_multipliers": {
+          "residential": 1.00,
+          "office": 1.20,
+          "commercial": 1.15,
+          "industrial": 1.10
+        },
+        "installation_complexity_multipliers": {
+          "low": 0.85,
+          "medium": 1.00,
+          "high": 1.25,
+          "very_high": 1.50
+        }
+      },
+      "WALL_CELULOSE_6IN": {
+        "material_cost_per_sqft": 2.50,
+        "labor_cost_per_sqft": 4.00,
+        "total_cost_per_sqft": 6.50,
+        "cost_currency": "USD",
+        "cost_year": 2024,
+        "cost_escalation_rate": 0.03,
+        "regional_multipliers": {
+          "northeast": 1.15,
+          "southeast": 0.95,
+          "midwest": 1.00,
+          "southwest": 1.05,
+          "west": 1.10,
+          "northwest": 1.08
+        },
+        "building_type_multipliers": {
+          "residential": 1.00,
+          "office": 1.20,
+          "commercial": 1.15,
+          "industrial": 1.10
+        },
+        "installation_complexity_multipliers": {
+          "low": 0.85,
+          "medium": 1.00,
+          "high": 1.25,
+          "very_high": 1.50
+        }
+      },
+      "WALL_EXTERIOR_CI_4IN": {
+        "material_cost_per_sqft": 15.00,
+        "labor_cost_per_sqft": 25.00,
+        "total_cost_per_sqft": 40.00,
+        "cost_currency": "USD",
+        "cost_year": 2024,
+        "cost_escalation_rate": 0.03,
+        "regional_multipliers": {
+          "northeast": 1.15,
+          "southeast": 0.95,
+          "midwest": 1.00,
+          "southwest": 1.05,
+          "west": 1.10,
+          "northwest": 1.08
+        },
+        "building_type_multipliers": {
+          "residential": 1.00,
+          "office": 1.20,
+          "commercial": 1.15,
+          "industrial": 1.10
+        },
+        "installation_complexity_multipliers": {
+          "low": 0.85,
+          "medium": 1.00,
+          "high": 1.25,
+          "very_high": 1.50
+        }
+      },
+      "FLOOR_SPF_3IN": {
+        "material_cost_per_sqft": 8.00,
+        "labor_cost_per_sqft": 10.00,
+        "total_cost_per_sqft": 18.00,
+        "cost_currency": "USD",
+        "cost_year": 2024,
+        "cost_escalation_rate": 0.03,
+        "regional_multipliers": {
+          "northeast": 1.15,
+          "southeast": 0.95,
+          "midwest": 1.00,
+          "southwest": 1.05,
+          "west": 1.10,
+          "northwest": 1.08
+        },
+        "building_type_multipliers": {
+          "residential": 1.00,
+          "office": 1.20,
+          "commercial": 1.15,
+          "industrial": 1.10
+        },
+        "installation_complexity_multipliers": {
+          "low": 0.85,
+          "medium": 1.00,
+          "high": 1.25,
+          "very_high": 1.50
+        }
+      },
+      "WINDOW_U12_DOUBLE": {
+        "material_cost_per_sqft": 45.00,
+        "labor_cost_per_sqft": 25.00,
+        "total_cost_per_sqft": 70.00,
+        "cost_currency": "USD",
+        "cost_year": 2024,
+        "cost_escalation_rate": 0.03,
+        "regional_multipliers": {
+          "northeast": 1.15,
+          "southeast": 0.95,
+          "midwest": 1.00,
+          "southwest": 1.05,
+          "west": 1.10,
+          "northwest": 1.08
+        },
+        "building_type_multipliers": {
+          "residential": 1.00,
+          "office": 1.20,
+          "commercial": 1.15,
+          "industrial": 1.10
+        },
+        "installation_complexity_multipliers": {
+          "low": 0.85,
+          "medium": 1.00,
+          "high": 1.25,
+          "very_high": 1.50
+        }
+      },
+      "WINDOW_U08_TRIPLE": {
+        "material_cost_per_sqft": 75.00,
+        "labor_cost_per_sqft": 35.00,
+        "total_cost_per_sqft": 110.00,
+        "cost_currency": "USD",
+        "cost_year": 2024,
+        "cost_escalation_rate": 0.03,
+        "regional_multipliers": {
+          "northeast": 1.15,
+          "southeast": 0.95,
+          "midwest": 1.00,
+          "southwest": 1.05,
+          "west": 1.10,
+          "northwest": 1.08
+        },
+        "building_type_multipliers": {
+          "residential": 1.00,
+          "office": 1.20,
+          "commercial": 1.15,
+          "industrial": 1.10
+        },
+        "installation_complexity_multipliers": {
+          "low": 0.85,
+          "medium": 1.00,
+          "high": 1.25,
+          "very_high": 1.50
+        }
+      },
+      "AIR_SEAL_COMPREHENSIVE": {
+        "material_cost_per_sqft": 1.50,
+        "labor_cost_per_sqft": 3.00,
+        "total_cost_per_sqft": 4.50,
+        "cost_currency": "USD",
+        "cost_year": 2024,
+        "cost_escalation_rate": 0.03,
+        "regional_multipliers": {
+          "northeast": 1.15,
+          "southeast": 0.95,
+          "midwest": 1.00,
+          "southwest": 1.05,
+          "west": 1.10,
+          "northwest": 1.08
+        },
+        "building_type_multipliers": {
+          "residential": 1.00,
+          "office": 1.20,
+          "commercial": 1.15,
+          "industrial": 1.10
+        },
+        "installation_complexity_multipliers": {
+          "low": 0.85,
+          "medium": 1.00,
+          "high": 1.25,
+          "very_high": 1.50
+        }
+      },
+      "HEAT_PUMP_AIR_SOURCE_3TON": {
+        "equipment_cost": 8000.00,
+        "installation_cost": 4000.00,
+        "total_cost": 12000.00,
+        "cost_per_ton": 4000.00,
+        "cost_currency": "USD",
+        "cost_year": 2024,
+        "cost_escalation_rate": 0.03,
+        "regional_multipliers": {
+          "northeast": 1.15,
+          "southeast": 0.95,
+          "midwest": 1.00,
+          "southwest": 1.05,
+          "west": 1.10,
+          "northwest": 1.08
+        },
+        "building_type_multipliers": {
+          "residential": 1.00,
+          "office": 1.20,
+          "commercial": 1.15,
+          "industrial": 1.10
+        },
+        "installation_complexity_multipliers": {
+          "low": 0.85,
+          "medium": 1.00,
+          "high": 1.25,
+          "very_high": 1.50
+        }
+      },
+      "HEAT_PUMP_GROUND_SOURCE_5TON": {
+        "equipment_cost": 15000.00,
+        "ground_loop_cost": 25000.00,
+        "installation_cost": 10000.00,
+        "total_cost": 50000.00,
+        "cost_per_ton": 10000.00,
+        "cost_currency": "USD",
+        "cost_year": 2024,
+        "cost_escalation_rate": 0.03,
+        "regional_multipliers": {
+          "northeast": 1.15,
+          "southeast": 0.95,
+          "midwest": 1.00,
+          "southwest": 1.05,
+          "west": 1.10,
+          "northwest": 1.08
+        },
+        "building_type_multipliers": {
+          "residential": 1.00,
+          "office": 1.20,
+          "commercial": 1.15,
+          "industrial": 1.10
+        },
+        "installation_complexity_multipliers": {
+          "low": 0.85,
+          "medium": 1.00,
+          "high": 1.25,
+          "very_high": 1.50
+        }
+      },
+      "AC_VRF_10TON": {
+        "equipment_cost": 25000.00,
+        "installation_cost": 15000.00,
+        "total_cost": 40000.00,
+        "cost_per_ton": 4000.00,
+        "cost_currency": "USD",
+        "cost_year": 2024,
+        "cost_escalation_rate": 0.03,
+        "regional_multipliers": {
+          "northeast": 1.15,
+          "southeast": 0.95,
+          "midwest": 1.00,
+          "southwest": 1.05,
+          "west": 1.10,
+          "northwest": 1.08
+        },
+        "building_type_multipliers": {
+          "residential": 1.00,
+          "office": 1.20,
+          "commercial": 1.15,
+          "industrial": 1.10
+        },
+        "installation_complexity_multipliers": {
+          "low": 0.85,
+          "medium": 1.00,
+          "high": 1.25,
+          "very_high": 1.50
+        }
+      },
+      "ERV_2000CFM": {
+        "equipment_cost": 8000.00,
+        "installation_cost": 5000.00,
+        "total_cost": 13000.00,
+        "cost_per_cfm": 6.50,
+        "cost_currency": "USD",
+        "cost_year": 2024,
+        "cost_escalation_rate": 0.03,
+        "regional_multipliers": {
+          "northeast": 1.15,
+          "southeast": 0.95,
+          "midwest": 1.00,
+          "southwest": 1.05,
+          "west": 1.10,
+          "northwest": 1.08
+        },
+        "building_type_multipliers": {
+          "residential": 1.00,
+          "office": 1.20,
+          "commercial": 1.15,
+          "industrial": 1.10
+        },
+        "installation_complexity_multipliers": {
+          "low": 0.85,
+          "medium": 1.00,
+          "high": 1.25,
+          "very_high": 1.50
+        }
+      },
+      "SOLAR_PV_10KW": {
+        "equipment_cost": 15000.00,
+        "installation_cost": 5000.00,
+        "total_cost": 20000.00,
+        "cost_per_kw": 2000.00,
+        "cost_currency": "USD",
+        "cost_year": 2024,
+        "cost_escalation_rate": -0.05,
+        "regional_multipliers": {
+          "northeast": 1.15,
+          "southeast": 0.95,
+          "midwest": 1.00,
+          "southwest": 1.05,
+          "west": 1.10,
+          "northwest": 1.08
+        },
+        "building_type_multipliers": {
+          "residential": 1.00,
+          "office": 1.20,
+          "commercial": 1.15,
+          "industrial": 1.10
+        },
+        "installation_complexity_multipliers": {
+          "low": 0.85,
+          "medium": 1.00,
+          "high": 1.25,
+          "very_high": 1.50
+        }
+      },
+      "SOLAR_PV_50KW": {
+        "equipment_cost": 60000.00,
+        "installation_cost": 20000.00,
+        "total_cost": 80000.00,
+        "cost_per_kw": 1600.00,
+        "cost_currency": "USD",
+        "cost_year": 2024,
+        "cost_escalation_rate": -0.05,
+        "regional_multipliers": {
+          "northeast": 1.15,
+          "southeast": 0.95,
+          "midwest": 1.00,
+          "southwest": 1.05,
+          "west": 1.10,
+          "northwest": 1.08
+        },
+        "building_type_multipliers": {
+          "residential": 1.00,
+          "office": 1.20,
+          "commercial": 1.15,
+          "industrial": 1.10
+        },
+        "installation_complexity_multipliers": {
+          "low": 0.85,
+          "medium": 1.00,
+          "high": 1.25,
+          "very_high": 1.50
+        }
+      },
+      "SOLAR_THERMAL_80SQFT": {
+        "equipment_cost": 4000.00,
+        "installation_cost": 2000.00,
+        "total_cost": 6000.00,
+        "cost_per_sqft": 75.00,
+        "cost_currency": "USD",
+        "cost_year": 2024,
+        "cost_escalation_rate": 0.03,
+        "regional_multipliers": {
+          "northeast": 1.15,
+          "southeast": 0.95,
+          "midwest": 1.00,
+          "southwest": 1.05,
+          "west": 1.10,
+          "northwest": 1.08
+        },
+        "building_type_multipliers": {
+          "residential": 1.00,
+          "office": 1.20,
+          "commercial": 1.15,
+          "industrial": 1.10
+        },
+        "installation_complexity_multipliers": {
+          "low": 0.85,
+          "medium": 1.00,
+          "high": 1.25,
+          "very_high": 1.50
+        }
+      },
+      "LED_RETROFIT_COMPREHENSIVE": {
+        "fixture_cost_per_sqft": 8.00,
+        "installation_cost_per_sqft": 4.00,
+        "total_cost_per_sqft": 12.00,
+        "cost_currency": "USD",
+        "cost_year": 2024,
+        "cost_escalation_rate": -0.02,
+        "regional_multipliers": {
+          "northeast": 1.15,
+          "southeast": 0.95,
+          "midwest": 1.00,
+          "southwest": 1.05,
+          "west": 1.10,
+          "northwest": 1.08
+        },
+        "building_type_multipliers": {
+          "residential": 1.00,
+          "office": 1.20,
+          "commercial": 1.15,
+          "industrial": 1.10
+        },
+        "installation_complexity_multipliers": {
+          "low": 0.85,
+          "medium": 1.00,
+          "high": 1.25,
+          "very_high": 1.50
+        }
+      },
+      "BMS_SMART_CONTROLS": {
+        "equipment_cost": 15000.00,
+        "installation_cost": 10000.00,
+        "total_cost": 25000.00,
+        "cost_per_sqft": 2.50,
+        "cost_currency": "USD",
+        "cost_year": 2024,
+        "cost_escalation_rate": 0.02,
+        "regional_multipliers": {
+          "northeast": 1.15,
+          "southeast": 0.95,
+          "midwest": 1.00,
+          "southwest": 1.05,
+          "west": 1.10,
+          "northwest": 1.08
+        },
+        "building_type_multipliers": {
+          "residential": 1.00,
+          "office": 1.20,
+          "commercial": 1.15,
+          "industrial": 1.10
+        },
+        "installation_complexity_multipliers": {
+          "low": 0.85,
+          "medium": 1.00,
+          "high": 1.25,
+          "very_high": 1.50
+        }
+      }
+    },
+    "opex_costs": {
+      "annual_energy_savings": {
+        "ROOF_POLYISO_4IN": {
+          "heating_savings_kwh": 1200,
+          "cooling_savings_kwh": 800,
+          "total_annual_savings_kwh": 2000,
+          "annual_cost_savings_usd": 240.00
+        },
+        "ROOF_XPS_6IN": {
+          "heating_savings_kwh": 1500,
+          "cooling_savings_kwh": 1000,
+          "total_annual_savings_kwh": 2500,
+          "annual_cost_savings_usd": 300.00
+        },
+        "WALL_CELULOSE_6IN": {
+          "heating_savings_kwh": 800,
+          "cooling_savings_kwh": 400,
+          "total_annual_savings_kwh": 1200,
+          "annual_cost_savings_usd": 144.00
+        },
+        "WALL_EXTERIOR_CI_4IN": {
+          "heating_savings_kwh": 1000,
+          "cooling_savings_kwh": 600,
+          "total_annual_savings_kwh": 1600,
+          "annual_cost_savings_usd": 192.00
+        },
+        "FLOOR_SPF_3IN": {
+          "heating_savings_kwh": 600,
+          "cooling_savings_kwh": 300,
+          "total_annual_savings_kwh": 900,
+          "annual_cost_savings_usd": 108.00
+        },
+        "WINDOW_U12_DOUBLE": {
+          "heating_savings_kwh": 1000,
+          "cooling_savings_kwh": 800,
+          "total_annual_savings_kwh": 1800,
+          "annual_cost_savings_usd": 216.00
+        },
+        "WINDOW_U08_TRIPLE": {
+          "heating_savings_kwh": 1200,
+          "cooling_savings_kwh": 1000,
+          "total_annual_savings_kwh": 2200,
+          "annual_cost_savings_usd": 264.00
+        },
+        "AIR_SEAL_COMPREHENSIVE": {
+          "heating_savings_kwh": 1500,
+          "cooling_savings_kwh": 1000,
+          "total_annual_savings_kwh": 2500,
+          "annual_cost_savings_usd": 300.00
+        },
+        "HEAT_PUMP_AIR_SOURCE_3TON": {
+          "heating_savings_kwh": 2000,
+          "cooling_savings_kwh": 1500,
+          "total_annual_savings_kwh": 3500,
+          "annual_cost_savings_usd": 420.00
+        },
+        "HEAT_PUMP_GROUND_SOURCE_5TON": {
+          "heating_savings_kwh": 3000,
+          "cooling_savings_kwh": 2500,
+          "total_annual_savings_kwh": 5500,
+          "annual_cost_savings_usd": 660.00
+        },
+        "AC_VRF_10TON": {
+          "heating_savings_kwh": 0,
+          "cooling_savings_kwh": 4000,
+          "total_annual_savings_kwh": 4000,
+          "annual_cost_savings_usd": 480.00
+        },
+        "ERV_2000CFM": {
+          "heating_savings_kwh": 800,
+          "cooling_savings_kwh": 600,
+          "total_annual_savings_kwh": 1400,
+          "annual_cost_savings_usd": 168.00
+        },
+        "SOLAR_PV_10KW": {
+          "heating_savings_kwh": 0,
+          "cooling_savings_kwh": 0,
+          "total_annual_savings_kwh": 12000,
+          "annual_cost_savings_usd": 1440.00
+        },
+        "SOLAR_PV_50KW": {
+          "heating_savings_kwh": 0,
+          "cooling_savings_kwh": 0,
+          "total_annual_savings_kwh": 60000,
+          "annual_cost_savings_usd": 7200.00
+        },
+        "SOLAR_THERMAL_80SQFT": {
+          "heating_savings_kwh": 2000,
+          "cooling_savings_kwh": 0,
+          "total_annual_savings_kwh": 2000,
+          "annual_cost_savings_usd": 240.00
+        },
+        "LED_RETROFIT_COMPREHENSIVE": {
+          "heating_savings_kwh": 0,
+          "cooling_savings_kwh": 500,
+          "total_annual_savings_kwh": 3000,
+          "annual_cost_savings_usd": 360.00
+        },
+        "BMS_SMART_CONTROLS": {
+          "heating_savings_kwh": 1000,
+          "cooling_savings_kwh": 800,
+          "total_annual_savings_kwh": 1800,
+          "annual_cost_savings_usd": 216.00
+        }
+      }
+    },
+    "metadata": {
+      "version": "1.0",
+      "created_date": "2024-01-15",
+      "last_updated": "2024-01-15",
+      "cost_sources": ["RSMeans", "BOMA", "NREL", "Industry_Reports"],
+      "validation_status": "pending"
+    }
+  }
+}

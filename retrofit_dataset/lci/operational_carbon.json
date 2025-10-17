@@ -1,0 +1,153 @@
+{
+  "operational_carbon": {
+    "energy_carbon_intensity": {
+      "electricity": {
+        "us_national_average": {
+          "kg_co2e_per_kwh": 0.409,
+          "data_year": 2022,
+          "data_source": "EPA_eGRID"
+        },
+        "regional_factors": {
+          "northeast": 0.312,
+          "southeast": 0.456,
+          "midwest": 0.678,
+          "southwest": 0.456,
+          "west": 0.312,
+          "northwest": 0.156
+        },
+        "renewable_mix": {
+          "solar": 0.041,
+          "wind": 0.011,
+          "hydro": 0.024,
+          "nuclear": 0.012,
+          "natural_gas": 0.409,
+          "coal": 0.967,
+          "other": 0.409
+        }
+      },
+      "natural_gas": {
+        "kg_co2e_per_kwh": 0.202,
+        "kg_co2e_per_therm": 5.92,
+        "data_year": 2022,
+        "data_source": "EPA"
+      },
+      "fuel_oil": {
+        "kg_co2e_per_kwh": 0.274,
+        "kg_co2e_per_gallon": 10.15,
+        "data_year": 2022,
+        "data_source": "EPA"
+      },
+      "propane": {
+        "kg_co2e_per_kwh": 0.214,
+        "kg_co2e_per_gallon": 5.75,
+        "data_year": 2022,
+        "data_source": "EPA"
+      }
+    },
+    "building_energy_use": {
+      "residential": {
+        "annual_kwh_per_sqft": 12.1,
+        "heating_percentage": 0.45,
+        "cooling_percentage": 0.15,
+        "water_heating_percentage": 0.18,
+        "lighting_percentage": 0.12,
+        "appliances_percentage": 0.10
+      },
+      "office": {
+        "annual_kwh_per_sqft": 15.2,
+        "heating_percentage": 0.25,
+        "cooling_percentage": 0.35,
+        "lighting_percentage": 0.25,
+        "equipment_percentage": 0.15
+      },
+      "commercial": {
+        "annual_kwh_per_sqft": 14.7,
+        "heating_percentage": 0.30,
+        "cooling_percentage": 0.30,
+        "lighting_percentage": 0.25,
+        "equipment_percentage": 0.15
+      },
+      "industrial": {
+        "annual_kwh_per_sqft": 18.5,
+        "heating_percentage": 0.20,
+        "cooling_percentage": 0.15,
+        "lighting_percentage": 0.10,
+        "process_percentage": 0.55
+      }
+    },
+    "carbon_intensity_trends": {
+      "electricity_decarbonization": {
+        "2024": 0.409,
+        "2025": 0.395,
+        "2030": 0.325,
+        "2035": 0.250,
+        "2040": 0.180,
+        "2045": 0.120,
+        "2050": 0.080,
+        "data_source": "EIA_Projections"
+      },
+      "natural_gas_trends": {
+        "2024": 0.202,
+        "2025": 0.200,
+        "2030": 0.195,
+        "2035": 0.190,
+        "2040": 0.185,
+        "2045": 0.180,
+        "2050": 0.175,
+        "data_source": "EIA_Projections"
+      }
+    },
+    "operational_carbon_savings": {
+      "insulation_measures": {
+        "heating_savings_factor": 0.15,
+        "cooling_savings_factor": 0.10,
+        "carbon_reduction_per_sqft_per_year": 0.5
+      },
+      "window_measures": {
+        "heating_savings_factor": 0.20,
+        "cooling_savings_factor": 0.15,
+        "carbon_reduction_per_sqft_per_year": 0.3
+      },
+      "hvac_measures": {
+        "efficiency_improvement_factor": 0.30,
+        "carbon_reduction_per_sqft_per_year": 0.8
+      },
+      "lighting_measures": {
+        "energy_savings_factor": 0.70,
+        "carbon_reduction_per_sqft_per_year": 0.2
+      },
+      "renewable_energy": {
+        "solar_pv_carbon_offset_per_kwh": 0.409,
+        "solar_thermal_carbon_offset_per_kwh": 0.202
+      }
+    },
+    "maintenance_carbon": {
+      "annual_maintenance_carbon": {
+        "hvac_systems": {
+          "kg_co2e_per_sqft_per_year": 0.05,
+          "maintenance_frequency": "annual"
+        },
+        "lighting_systems": {
+          "kg_co2e_per_sqft_per_year": 0.01,
+          "maintenance_frequency": "biannual"
+        },
+        "envelope_systems": {
+          "kg_co2e_per_sqft_per_year": 0.02,
+          "maintenance_frequency": "every_5_years"
+        },
+        "renewable_systems": {
+          "kg_co2e_per_sqft_per_year": 0.03,
+          "maintenance_frequency": "annual"
+        }
+      }
+    },
+    "metadata": {
+      "version": "1.0",
+      "created_date": "2024-01-15",
+      "last_updated": "2024-01-15",
+      "data_sources": ["EPA_eGRID", "EIA", "DOE", "NREL"],
+      "methodology": "ISO_14040_14044",
+      "validation_status": "pending"
+    }
+  }
+}

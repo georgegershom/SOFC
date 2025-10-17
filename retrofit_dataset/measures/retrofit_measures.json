@@ -1,0 +1,343 @@
+{
+  "retrofit_measures": {
+    "envelope_measures": {
+      "insulation": {
+        "roof_insulation": [
+          {
+            "id": "ROOF_POLYISO_4IN",
+            "name": "Add 4 inches of polyiso insulation to roof",
+            "description": "Install 4-inch polyisocyanurate insulation board to existing roof assembly",
+            "category": "envelope_insulation",
+            "subcategory": "roof",
+            "material": "polyisocyanurate",
+            "thickness_mm": 101.6,
+            "r_value": 25.0,
+            "u_value_improvement": 0.04,
+            "application_method": "above_deck",
+            "compatibility": ["flat_roof", "low_slope_roof"],
+            "climate_zones": ["1", "2", "3", "4", "5", "6", "7", "8"],
+            "building_types": ["office", "residential", "commercial", "industrial"],
+            "installation_complexity": "medium",
+            "disruption_level": "medium",
+            "retrofit_type": "additive"
+          },
+          {
+            "id": "ROOF_XPS_6IN",
+            "name": "Add 6 inches of XPS insulation to roof",
+            "description": "Install 6-inch extruded polystyrene insulation board to existing roof assembly",
+            "category": "envelope_insulation",
+            "subcategory": "roof",
+            "material": "extruded_polystyrene",
+            "thickness_mm": 152.4,
+            "r_value": 30.0,
+            "u_value_improvement": 0.033,
+            "application_method": "above_deck",
+            "compatibility": ["flat_roof", "low_slope_roof"],
+            "climate_zones": ["3", "4", "5", "6", "7", "8"],
+            "building_types": ["office", "residential", "commercial", "industrial"],
+            "installation_complexity": "medium",
+            "disruption_level": "medium",
+            "retrofit_type": "additive"
+          }
+        ],
+        "wall_insulation": [
+          {
+            "id": "WALL_CELULOSE_6IN",
+            "name": "Add 6 inches of cellulose insulation to walls",
+            "description": "Blow-in cellulose insulation to existing wall cavities",
+            "category": "envelope_insulation",
+            "subcategory": "wall",
+            "material": "cellulose",
+            "thickness_mm": 152.4,
+            "r_value": 22.0,
+            "u_value_improvement": 0.045,
+            "application_method": "blown_in",
+            "compatibility": ["wood_frame", "steel_frame"],
+            "climate_zones": ["1", "2", "3", "4", "5", "6", "7", "8"],
+            "building_types": ["residential", "office", "commercial"],
+            "installation_complexity": "low",
+            "disruption_level": "low",
+            "retrofit_type": "additive"
+          },
+          {
+            "id": "WALL_EXTERIOR_CI_4IN",
+            "name": "Add 4 inches of continuous insulation to exterior walls",
+            "description": "Install 4-inch continuous insulation board on exterior of existing walls",
+            "category": "envelope_insulation",
+            "subcategory": "wall",
+            "material": "mineral_wool",
+            "thickness_mm": 101.6,
+            "r_value": 16.0,
+            "u_value_improvement": 0.063,
+            "application_method": "exterior_continuous",
+            "compatibility": ["masonry", "concrete", "wood_frame"],
+            "climate_zones": ["3", "4", "5", "6", "7", "8"],
+            "building_types": ["office", "commercial", "residential"],
+            "installation_complexity": "high",
+            "disruption_level": "high",
+            "retrofit_type": "additive"
+          }
+        ],
+        "floor_insulation": [
+          {
+            "id": "FLOOR_SPF_3IN",
+            "name": "Add 3 inches of spray foam insulation to floor",
+            "description": "Apply 3-inch closed-cell spray polyurethane foam to floor assembly",
+            "category": "envelope_insulation",
+            "subcategory": "floor",
+            "material": "spray_polyurethane_foam",
+            "thickness_mm": 76.2,
+            "r_value": 18.0,
+            "u_value_improvement": 0.056,
+            "application_method": "spray_applied",
+            "compatibility": ["wood_joist", "concrete_slab"],
+            "climate_zones": ["1", "2", "3", "4", "5", "6", "7", "8"],
+            "building_types": ["residential", "office", "commercial"],
+            "installation_complexity": "medium",
+            "disruption_level": "medium",
+            "retrofit_type": "additive"
+          }
+        ]
+      },
+      "windows": [
+        {
+          "id": "WINDOW_U12_DOUBLE",
+          "name": "Replace windows with U=1.2 double-pane model",
+          "description": "Replace existing single-pane windows with double-pane low-e windows",
+          "category": "envelope_windows",
+          "subcategory": "replacement",
+          "frame_material": "vinyl",
+          "glazing_type": "double_pane_low_e",
+          "u_value": 1.2,
+          "shgc": 0.35,
+          "vt": 0.65,
+          "air_leakage": 0.1,
+          "compatibility": ["residential", "commercial"],
+          "climate_zones": ["1", "2", "3", "4", "5", "6", "7", "8"],
+          "building_types": ["residential", "office", "commercial"],
+          "installation_complexity": "medium",
+          "disruption_level": "medium",
+          "retrofit_type": "replacement"
+        },
+        {
+          "id": "WINDOW_U08_TRIPLE",
+          "name": "Replace windows with U=0.8 triple-pane model",
+          "description": "Replace existing windows with triple-pane low-e windows with argon fill",
+          "category": "envelope_windows",
+          "subcategory": "replacement",
+          "frame_material": "fiberglass",
+          "glazing_type": "triple_pane_low_e_argon",
+          "u_value": 0.8,
+          "shgc": 0.28,
+          "vt": 0.58,
+          "air_leakage": 0.05,
+          "compatibility": ["residential", "commercial"],
+          "climate_zones": ["4", "5", "6", "7", "8"],
+          "building_types": ["residential", "office", "commercial"],
+          "installation_complexity": "high",
+          "disruption_level": "high",
+          "retrofit_type": "replacement"
+        }
+      ],
+      "air_sealing": [
+        {
+          "id": "AIR_SEAL_COMPREHENSIVE",
+          "name": "Comprehensive air sealing",
+          "description": "Seal all air leaks in building envelope including windows, doors, and penetrations",
+          "category": "envelope_air_sealing",
+          "subcategory": "comprehensive",
+          "air_leakage_reduction": 0.3,
+          "materials": ["caulk", "weatherstripping", "spray_foam", "gaskets"],
+          "compatibility": ["all_building_types"],
+          "climate_zones": ["1", "2", "3", "4", "5", "6", "7", "8"],
+          "building_types": ["residential", "office", "commercial", "industrial"],
+          "installation_complexity": "medium",
+          "disruption_level": "low",
+          "retrofit_type": "improvement"
+        }
+      ]
+    },
+    "hvac_measures": {
+      "heating": [
+        {
+          "id": "HEAT_PUMP_AIR_SOURCE_3TON",
+          "name": "Install 3-ton air-source heat pump",
+          "description": "Replace existing heating system with high-efficiency air-source heat pump",
+          "category": "hvac_heating",
+          "subcategory": "heat_pump",
+          "capacity_btuh": 36000,
+          "efficiency_seer": 18.0,
+          "efficiency_hspf": 10.0,
+          "efficiency_cop": 3.5,
+          "fuel_type": "electric",
+          "compatibility": ["residential", "small_commercial"],
+          "climate_zones": ["1", "2", "3", "4", "5", "6", "7", "8"],
+          "building_types": ["residential", "office", "commercial"],
+          "installation_complexity": "high",
+          "disruption_level": "high",
+          "retrofit_type": "replacement"
+        },
+        {
+          "id": "HEAT_PUMP_GROUND_SOURCE_5TON",
+          "name": "Install 5-ton ground-source heat pump",
+          "description": "Install geothermal heat pump system with ground loop",
+          "category": "hvac_heating",
+          "subcategory": "geothermal",
+          "capacity_btuh": 60000,
+          "efficiency_eer": 25.0,
+          "efficiency_cop": 4.5,
+          "fuel_type": "electric",
+          "compatibility": ["commercial", "large_residential"],
+          "climate_zones": ["3", "4", "5", "6", "7", "8"],
+          "building_types": ["office", "commercial", "residential"],
+          "installation_complexity": "very_high",
+          "disruption_level": "very_high",
+          "retrofit_type": "replacement"
+        }
+      ],
+      "cooling": [
+        {
+          "id": "AC_VRF_10TON",
+          "name": "Install 10-ton VRF cooling system",
+          "description": "Install variable refrigerant flow cooling system",
+          "category": "hvac_cooling",
+          "subcategory": "vrf",
+          "capacity_btuh": 120000,
+          "efficiency_seer": 22.0,
+          "efficiency_eer": 12.0,
+          "fuel_type": "electric",
+          "compatibility": ["commercial", "office"],
+          "climate_zones": ["1", "2", "3", "4", "5", "6", "7", "8"],
+          "building_types": ["office", "commercial"],
+          "installation_complexity": "high",
+          "disruption_level": "high",
+          "retrofit_type": "replacement"
+        }
+      ],
+      "ventilation": [
+        {
+          "id": "ERV_2000CFM",
+          "name": "Install 2000 CFM energy recovery ventilator",
+          "description": "Install energy recovery ventilation system for fresh air supply",
+          "category": "hvac_ventilation",
+          "subcategory": "erv",
+          "capacity_cfm": 2000,
+          "efficiency_recovery": 0.75,
+          "fuel_type": "electric",
+          "compatibility": ["commercial", "office"],
+          "climate_zones": ["1", "2", "3", "4", "5", "6", "7", "8"],
+          "building_types": ["office", "commercial", "residential"],
+          "installation_complexity": "high",
+          "disruption_level": "high",
+          "retrofit_type": "addition"
+        }
+      ]
+    },
+    "renewable_energy": {
+      "solar_pv": [
+        {
+          "id": "SOLAR_PV_10KW",
+          "name": "Install 10kW solar PV array",
+          "description": "Install 10kW rooftop solar photovoltaic system",
+          "category": "renewable_solar",
+          "subcategory": "pv_rooftop",
+          "capacity_kw": 10.0,
+          "efficiency": 0.20,
+          "panel_type": "monocrystalline",
+          "mounting_type": "roof_mounted",
+          "orientation": "south",
+          "tilt_angle": 30,
+          "compatibility": ["residential", "commercial"],
+          "climate_zones": ["1", "2", "3", "4", "5", "6", "7", "8"],
+          "building_types": ["residential", "office", "commercial"],
+          "installation_complexity": "high",
+          "disruption_level": "medium",
+          "retrofit_type": "addition"
+        },
+        {
+          "id": "SOLAR_PV_50KW",
+          "name": "Install 50kW solar PV array",
+          "description": "Install 50kW rooftop solar photovoltaic system for commercial building",
+          "category": "renewable_solar",
+          "subcategory": "pv_rooftop",
+          "capacity_kw": 50.0,
+          "efficiency": 0.22,
+          "panel_type": "monocrystalline",
+          "mounting_type": "roof_mounted",
+          "orientation": "south",
+          "tilt_angle": 15,
+          "compatibility": ["commercial", "industrial"],
+          "climate_zones": ["1", "2", "3", "4", "5", "6", "7", "8"],
+          "building_types": ["office", "commercial", "industrial"],
+          "installation_complexity": "high",
+          "disruption_level": "medium",
+          "retrofit_type": "addition"
+        }
+      ],
+      "solar_thermal": [
+        {
+          "id": "SOLAR_THERMAL_80SQFT",
+          "name": "Install 80 sq ft solar thermal system",
+          "description": "Install solar thermal collectors for domestic hot water heating",
+          "category": "renewable_solar",
+          "subcategory": "thermal",
+          "collector_area_sqft": 80,
+          "efficiency": 0.75,
+          "collector_type": "flat_plate",
+          "compatibility": ["residential", "commercial"],
+          "climate_zones": ["1", "2", "3", "4", "5", "6", "7", "8"],
+          "building_types": ["residential", "office", "commercial"],
+          "installation_complexity": "medium",
+          "disruption_level": "medium",
+          "retrofit_type": "addition"
+        }
+      ]
+    },
+    "lighting": [
+      {
+        "id": "LED_RETROFIT_COMPREHENSIVE",
+        "name": "Comprehensive LED lighting retrofit",
+        "description": "Replace all existing lighting with high-efficiency LED fixtures",
+        "category": "lighting",
+        "subcategory": "led_retrofit",
+        "efficiency_improvement": 0.70,
+        "lighting_controls": "occupancy_sensors",
+        "dimming_capability": true,
+        "color_temperature": 4000,
+        "cri": 90,
+        "compatibility": ["all_building_types"],
+        "climate_zones": ["1", "2", "3", "4", "5", "6", "7", "8"],
+        "building_types": ["residential", "office", "commercial", "industrial"],
+        "installation_complexity": "medium",
+        "disruption_level": "low",
+        "retrofit_type": "replacement"
+      }
+    ],
+    "controls": [
+      {
+        "id": "BMS_SMART_CONTROLS",
+        "name": "Install smart building management system",
+        "description": "Install comprehensive building management system with IoT sensors and controls",
+        "category": "controls",
+        "subcategory": "bms",
+        "features": ["occupancy_sensing", "demand_response", "predictive_maintenance", "energy_monitoring"],
+        "protocols": ["BACnet", "Modbus", "WiFi", "Zigbee"],
+        "compatibility": ["commercial", "office"],
+        "climate_zones": ["1", "2", "3", "4", "5", "6", "7", "8"],
+        "building_types": ["office", "commercial", "industrial"],
+        "installation_complexity": "high",
+        "disruption_level": "medium",
+        "retrofit_type": "addition"
+      }
+    ]
+  },
+  "metadata": {
+    "version": "1.0",
+    "created_date": "2024-01-15",
+    "last_updated": "2024-01-15",
+    "total_measures": 15,
+    "categories": ["envelope_measures", "hvac_measures", "renewable_energy", "lighting", "controls"],
+    "data_sources": ["ASHRAE", "DOE", "NREL", "Industry_Standards"],
+    "validation_status": "pending"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "measure_interactions": {
+    "synergistic_effects": {
+      "insulation_and_air_sealing": {
+        "measure_combination": ["insulation_measures", "air_sealing_measures"],
+        "synergy_factor": 1.15,
+        "description": "Air sealing enhances insulation effectiveness by reducing air infiltration",
+        "energy_savings_multiplier": 1.20,
+        "cost_savings_multiplier": 1.05,
+        "carbon_reduction_multiplier": 1.18
+      },
+      "windows_and_insulation": {
+        "measure_combination": ["window_measures", "insulation_measures"],
+        "synergy_factor": 1.10,
+        "description": "High-performance windows work better with improved insulation",
+        "energy_savings_multiplier": 1.15,
+        "cost_savings_multiplier": 1.03,
+        "carbon_reduction_multiplier": 1.12
+      },
+      "hvac_and_controls": {
+        "measure_combination": ["hvac_measures", "bms_controls"],
+        "synergy_factor": 1.25,
+        "description": "Smart controls optimize HVAC system performance",
+        "energy_savings_multiplier": 1.30,
+        "cost_savings_multiplier": 1.08,
+        "carbon_reduction_multiplier": 1.28
+      },
+      "renewable_and_hvac": {
+        "measure_combination": ["renewable_energy", "hvac_measures"],
+        "synergy_factor": 1.20,
+        "description": "Renewable energy reduces HVAC load and carbon footprint",
+        "energy_savings_multiplier": 1.25,
+        "cost_savings_multiplier": 1.10,
+        "carbon_reduction_multiplier": 1.35
+      },
+      "lighting_and_controls": {
+        "measure_combination": ["lighting_measures", "bms_controls"],
+        "synergy_factor": 1.18,
+        "description": "Smart controls optimize lighting usage and energy consumption",
+        "energy_savings_multiplier": 1.22,
+        "cost_savings_multiplier": 1.06,
+        "carbon_reduction_multiplier": 1.20
+      }
+    },
+    "conflicting_effects": {
+      "insulation_and_ventilation": {
+        "measure_combination": ["insulation_measures", "ventilation_measures"],
+        "conflict_factor": 0.95,
+        "description": "Excessive insulation can reduce natural ventilation effectiveness",
+        "energy_savings_multiplier": 0.90,
+        "cost_savings_multiplier": 1.05,
+        "carbon_reduction_multiplier": 0.92
+      },
+      "solar_and_shading": {
+        "measure_combination": ["solar_pv", "window_measures"],
+        "conflict_factor": 0.98,
+        "description": "Window treatments may reduce solar panel efficiency",
+        "energy_savings_multiplier": 0.95,
+        "cost_savings_multiplier": 1.02,
+        "carbon_reduction_multiplier": 0.97
+      }
+    },
+    "sequential_dependencies": {
+      "envelope_before_hvac": {
+        "prerequisite_measures": ["insulation_measures", "window_measures", "air_sealing_measures"],
+        "dependent_measures": ["hvac_measures"],
+        "description": "Envelope improvements should be completed before HVAC upgrades to ensure proper sizing",
+        "efficiency_improvement": 1.10,
+        "cost_reduction": 0.95
+      },
+      "controls_after_systems": {
+        "prerequisite_measures": ["hvac_measures", "lighting_measures"],
+        "dependent_measures": ["bms_controls"],
+        "description": "Control systems should be installed after major system upgrades",
+        "efficiency_improvement": 1.15,
+        "cost_reduction": 0.90
+      }
+    },
+    "mutual_exclusions": {
+      "competing_hvac_systems": {
+        "excluded_combinations": [
+          ["air_source_heat_pump", "ground_source_heat_pump"],
+          ["vrf_system", "air_source_heat_pump"]
+        ],
+        "description": "Only one primary HVAC system can be installed",
+        "penalty_factor": 0.0
+      },
+      "competing_insulation_types": {
+        "excluded_combinations": [
+          ["polyisocyanurate", "extruded_polystyrene"],
+          ["cellulose", "spray_foam"]
+        ],
+        "description": "Only one insulation type per application area",
+        "penalty_factor": 0.0
+      }
+    },
+    "performance_interactions": {
+      "thermal_bridge_effects": {
+        "affected_measures": ["insulation_measures", "window_measures"],
+        "interaction_type": "thermal_bridge",
+        "performance_impact": 0.05,
+        "description": "Window frames can create thermal bridges that reduce insulation effectiveness"
+      },
+      "airflow_interactions": {
+        "affected_measures": ["air_sealing_measures", "ventilation_measures"],
+        "interaction_type": "airflow",
+        "performance_impact": 0.08,
+        "description": "Air sealing affects ventilation system performance and indoor air quality"
+      },
+      "electrical_load_interactions": {
+        "affected_measures": ["hvac_measures", "lighting_measures", "renewable_energy"],
+        "interaction_type": "electrical_load",
+        "performance_impact": 0.03,
+        "description": "Electrical loads interact to affect overall building energy consumption"
+      }
+    },
+    "cost_interactions": {
+      "bulk_discounts": {
+        "measure_combinations": [
+          {
+            "measures": ["insulation_measures", "window_measures"],
+            "discount_rate": 0.05,
+            "minimum_scope": "whole_building"
+          },
+          {
+            "measures": ["hvac_measures", "bms_controls"],
+            "discount_rate": 0.08,
+            "minimum_scope": "system_level"
+          }
+        ]
+      },
+      "shared_infrastructure": {
+        "measure_combinations": [
+          {
+            "measures": ["solar_pv", "solar_thermal"],
+            "shared_costs": ["electrical_connections", "roof_penetrations"],
+            "cost_reduction": 0.15
+          },
+          {
+            "measures": ["hvac_measures", "bms_controls"],
+            "shared_costs": ["electrical_connections", "control_wiring"],
+            "cost_reduction": 0.12
+          }
+        ]
+      }
+    },
+    "carbon_interactions": {
+      "embodied_carbon_synergies": {
+        "measure_combinations": [
+          {
+            "measures": ["insulation_measures", "window_measures"],
+            "carbon_reduction_factor": 1.10,
+            "description": "Combined envelope improvements reduce operational carbon more than individually"
+          },
+          {
+            "measures": ["renewable_energy", "hvac_measures"],
+            "carbon_reduction_factor": 1.25,
+            "description": "Renewable energy offsets HVAC carbon emissions"
+          }
+        ]
+      },
+      "operational_carbon_interactions": {
+        "measure_combinations": [
+          {
+            "measures": ["insulation_measures", "air_sealing_measures"],
+            "carbon_reduction_factor": 1.18,
+            "description": "Air sealing enhances insulation carbon reduction benefits"
+          },
+          {
+            "measures": ["hvac_measures", "bms_controls"],
+            "carbon_reduction_factor": 1.22,
+            "description": "Smart controls optimize HVAC carbon efficiency"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "version": "1.0",
+      "created_date": "2024-01-15",
+      "last_updated": "2024-01-15",
+      "data_sources": ["ASHRAE", "NREL", "Industry_Studies", "Field_Measurements"],
+      "methodology": "Multi_Objective_Optimization",
+      "validation_status": "pending"
+    }
+  }
+}

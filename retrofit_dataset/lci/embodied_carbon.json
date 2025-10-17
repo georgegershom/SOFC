@@ -1,0 +1,575 @@
+{
+  "embodied_carbon": {
+    "materials": {
+      "polyisocyanurate": {
+        "material_id": "POLYISO_4IN",
+        "material_name": "Polyisocyanurate Insulation Board",
+        "thickness_mm": 101.6,
+        "density_kg_m3": 32,
+        "mass_per_sqft_kg": 0.30,
+        "lci_data": {
+          "a1_a3_cradle_to_gate": {
+            "gwp_kg_co2e_per_kg": 3.2,
+            "gwp_kg_co2e_per_sqft": 0.96,
+            "data_source": "Ecoinvent_3.8",
+            "data_quality": "high",
+            "year": 2020
+          },
+          "a4_transport": {
+            "gwp_kg_co2e_per_kg": 0.15,
+            "gwp_kg_co2e_per_sqft": 0.045,
+            "transport_distance_km": 500,
+            "transport_mode": "truck",
+            "data_source": "Ecoinvent_3.8"
+          },
+          "a5_installation": {
+            "gwp_kg_co2e_per_sqft": 0.05,
+            "data_source": "Industry_Estimate"
+          },
+          "b_use_phase": {
+            "gwp_kg_co2e_per_sqft_per_year": 0.001,
+            "maintenance_events": 0,
+            "data_source": "Industry_Estimate"
+          },
+          "c_end_of_life": {
+            "gwp_kg_co2e_per_sqft": 0.02,
+            "disposal_method": "landfill",
+            "recycling_rate": 0.05,
+            "data_source": "Ecoinvent_3.8"
+          },
+          "d_benefits": {
+            "gwp_kg_co2e_per_sqft": 0.0,
+            "recycling_benefits": 0.0,
+            "data_source": "Industry_Estimate"
+          }
+        },
+        "total_lifecycle_gwp": {
+          "a1_a5_kg_co2e_per_sqft": 1.075,
+          "b_c_d_kg_co2e_per_sqft": 0.02,
+          "total_kg_co2e_per_sqft": 1.095
+        }
+      },
+      "extruded_polystyrene": {
+        "material_id": "XPS_6IN",
+        "material_name": "Extruded Polystyrene Insulation Board",
+        "thickness_mm": 152.4,
+        "density_kg_m3": 35,
+        "mass_per_sqft_kg": 0.51,
+        "lci_data": {
+          "a1_a3_cradle_to_gate": {
+            "gwp_kg_co2e_per_kg": 4.8,
+            "gwp_kg_co2e_per_sqft": 2.45,
+            "data_source": "Ecoinvent_3.8",
+            "data_quality": "high",
+            "year": 2020
+          },
+          "a4_transport": {
+            "gwp_kg_co2e_per_kg": 0.15,
+            "gwp_kg_co2e_per_sqft": 0.077,
+            "transport_distance_km": 500,
+            "transport_mode": "truck",
+            "data_source": "Ecoinvent_3.8"
+          },
+          "a5_installation": {
+            "gwp_kg_co2e_per_sqft": 0.08,
+            "data_source": "Industry_Estimate"
+          },
+          "b_use_phase": {
+            "gwp_kg_co2e_per_sqft_per_year": 0.001,
+            "maintenance_events": 0,
+            "data_source": "Industry_Estimate"
+          },
+          "c_end_of_life": {
+            "gwp_kg_co2e_per_sqft": 0.03,
+            "disposal_method": "landfill",
+            "recycling_rate": 0.05,
+            "data_source": "Ecoinvent_3.8"
+          },
+          "d_benefits": {
+            "gwp_kg_co2e_per_sqft": 0.0,
+            "recycling_benefits": 0.0,
+            "data_source": "Industry_Estimate"
+          }
+        },
+        "total_lifecycle_gwp": {
+          "a1_a5_kg_co2e_per_sqft": 2.607,
+          "b_c_d_kg_co2e_per_sqft": 0.03,
+          "total_kg_co2e_per_sqft": 2.637
+        }
+      },
+      "cellulose_insulation": {
+        "material_id": "CELLULOSE_6IN",
+        "material_name": "Blown Cellulose Insulation",
+        "thickness_mm": 152.4,
+        "density_kg_m3": 50,
+        "mass_per_sqft_kg": 0.73,
+        "lci_data": {
+          "a1_a3_cradle_to_gate": {
+            "gwp_kg_co2e_per_kg": 0.8,
+            "gwp_kg_co2e_per_sqft": 0.58,
+            "data_source": "Ecoinvent_3.8",
+            "data_quality": "high",
+            "year": 2020
+          },
+          "a4_transport": {
+            "gwp_kg_co2e_per_kg": 0.10,
+            "gwp_kg_co2e_per_sqft": 0.073,
+            "transport_distance_km": 300,
+            "transport_mode": "truck",
+            "data_source": "Ecoinvent_3.8"
+          },
+          "a5_installation": {
+            "gwp_kg_co2e_per_sqft": 0.02,
+            "data_source": "Industry_Estimate"
+          },
+          "b_use_phase": {
+            "gwp_kg_co2e_per_sqft_per_year": 0.0005,
+            "maintenance_events": 0,
+            "data_source": "Industry_Estimate"
+          },
+          "c_end_of_life": {
+            "gwp_kg_co2e_per_sqft": 0.01,
+            "disposal_method": "landfill",
+            "recycling_rate": 0.0,
+            "data_source": "Ecoinvent_3.8"
+          },
+          "d_benefits": {
+            "gwp_kg_co2e_per_sqft": 0.0,
+            "recycling_benefits": 0.0,
+            "data_source": "Industry_Estimate"
+          }
+        },
+        "total_lifecycle_gwp": {
+          "a1_a5_kg_co2e_per_sqft": 0.673,
+          "b_c_d_kg_co2e_per_sqft": 0.01,
+          "total_kg_co2e_per_sqft": 0.683
+        }
+      },
+      "mineral_wool": {
+        "material_id": "MINERAL_WOOL_4IN",
+        "material_name": "Mineral Wool Insulation Board",
+        "thickness_mm": 101.6,
+        "density_kg_m3": 120,
+        "mass_per_sqft_kg": 1.13,
+        "lci_data": {
+          "a1_a3_cradle_to_gate": {
+            "gwp_kg_co2e_per_kg": 1.2,
+            "gwp_kg_co2e_per_sqft": 1.36,
+            "data_source": "Ecoinvent_3.8",
+            "data_quality": "high",
+            "year": 2020
+          },
+          "a4_transport": {
+            "gwp_kg_co2e_per_kg": 0.12,
+            "gwp_kg_co2e_per_sqft": 0.136,
+            "transport_distance_km": 400,
+            "transport_mode": "truck",
+            "data_source": "Ecoinvent_3.8"
+          },
+          "a5_installation": {
+            "gwp_kg_co2e_per_sqft": 0.10,
+            "data_source": "Industry_Estimate"
+          },
+          "b_use_phase": {
+            "gwp_kg_co2e_per_sqft_per_year": 0.001,
+            "maintenance_events": 0,
+            "data_source": "Industry_Estimate"
+          },
+          "c_end_of_life": {
+            "gwp_kg_co2e_per_sqft": 0.05,
+            "disposal_method": "landfill",
+            "recycling_rate": 0.10,
+            "data_source": "Ecoinvent_3.8"
+          },
+          "d_benefits": {
+            "gwp_kg_co2e_per_sqft": 0.0,
+            "recycling_benefits": 0.0,
+            "data_source": "Industry_Estimate"
+          }
+        },
+        "total_lifecycle_gwp": {
+          "a1_a5_kg_co2e_per_sqft": 1.596,
+          "b_c_d_kg_co2e_per_sqft": 0.05,
+          "total_kg_co2e_per_sqft": 1.646
+        }
+      },
+      "spray_polyurethane_foam": {
+        "material_id": "SPF_3IN",
+        "material_name": "Spray Polyurethane Foam",
+        "thickness_mm": 76.2,
+        "density_kg_m3": 40,
+        "mass_per_sqft_kg": 0.28,
+        "lci_data": {
+          "a1_a3_cradle_to_gate": {
+            "gwp_kg_co2e_per_kg": 5.5,
+            "gwp_kg_co2e_per_sqft": 1.54,
+            "data_source": "Ecoinvent_3.8",
+            "data_quality": "high",
+            "year": 2020
+          },
+          "a4_transport": {
+            "gwp_kg_co2e_per_kg": 0.20,
+            "gwp_kg_co2e_per_sqft": 0.056,
+            "transport_distance_km": 200,
+            "transport_mode": "truck",
+            "data_source": "Ecoinvent_3.8"
+          },
+          "a5_installation": {
+            "gwp_kg_co2e_per_sqft": 0.15,
+            "data_source": "Industry_Estimate"
+          },
+          "b_use_phase": {
+            "gwp_kg_co2e_per_sqft_per_year": 0.001,
+            "maintenance_events": 0,
+            "data_source": "Industry_Estimate"
+          },
+          "c_end_of_life": {
+            "gwp_kg_co2e_per_sqft": 0.03,
+            "disposal_method": "landfill",
+            "recycling_rate": 0.0,
+            "data_source": "Ecoinvent_3.8"
+          },
+          "d_benefits": {
+            "gwp_kg_co2e_per_sqft": 0.0,
+            "recycling_benefits": 0.0,
+            "data_source": "Industry_Estimate"
+          }
+        },
+        "total_lifecycle_gwp": {
+          "a1_a5_kg_co2e_per_sqft": 1.746,
+          "b_c_d_kg_co2e_per_sqft": 0.03,
+          "total_kg_co2e_per_sqft": 1.776
+        }
+      },
+      "vinyl_window_frame": {
+        "material_id": "VINYL_FRAME",
+        "material_name": "Vinyl Window Frame",
+        "mass_per_sqft_kg": 8.5,
+        "lci_data": {
+          "a1_a3_cradle_to_gate": {
+            "gwp_kg_co2e_per_kg": 2.8,
+            "gwp_kg_co2e_per_sqft": 23.8,
+            "data_source": "Ecoinvent_3.8",
+            "data_quality": "high",
+            "year": 2020
+          },
+          "a4_transport": {
+            "gwp_kg_co2e_per_kg": 0.15,
+            "gwp_kg_co2e_per_sqft": 1.28,
+            "transport_distance_km": 600,
+            "transport_mode": "truck",
+            "data_source": "Ecoinvent_3.8"
+          },
+          "a5_installation": {
+            "gwp_kg_co2e_per_sqft": 0.50,
+            "data_source": "Industry_Estimate"
+          },
+          "b_use_phase": {
+            "gwp_kg_co2e_per_sqft_per_year": 0.01,
+            "maintenance_events": 2,
+            "data_source": "Industry_Estimate"
+          },
+          "c_end_of_life": {
+            "gwp_kg_co2e_per_sqft": 0.20,
+            "disposal_method": "landfill",
+            "recycling_rate": 0.15,
+            "data_source": "Ecoinvent_3.8"
+          },
+          "d_benefits": {
+            "gwp_kg_co2e_per_sqft": 0.0,
+            "recycling_benefits": 0.0,
+            "data_source": "Industry_Estimate"
+          }
+        },
+        "total_lifecycle_gwp": {
+          "a1_a5_kg_co2e_per_sqft": 25.58,
+          "b_c_d_kg_co2e_per_sqft": 0.20,
+          "total_kg_co2e_per_sqft": 25.78
+        }
+      },
+      "fiberglass_window_frame": {
+        "material_id": "FIBERGLASS_FRAME",
+        "material_name": "Fiberglass Window Frame",
+        "mass_per_sqft_kg": 12.0,
+        "lci_data": {
+          "a1_a3_cradle_to_gate": {
+            "gwp_kg_co2e_per_kg": 1.8,
+            "gwp_kg_co2e_per_sqft": 21.6,
+            "data_source": "Ecoinvent_3.8",
+            "data_quality": "high",
+            "year": 2020
+          },
+          "a4_transport": {
+            "gwp_kg_co2e_per_kg": 0.15,
+            "gwp_kg_co2e_per_sqft": 1.80,
+            "transport_distance_km": 600,
+            "transport_mode": "truck",
+            "data_source": "Ecoinvent_3.8"
+          },
+          "a5_installation": {
+            "gwp_kg_co2e_per_sqft": 0.60,
+            "data_source": "Industry_Estimate"
+          },
+          "b_use_phase": {
+            "gwp_kg_co2e_per_sqft_per_year": 0.01,
+            "maintenance_events": 2,
+            "data_source": "Industry_Estimate"
+          },
+          "c_end_of_life": {
+            "gwp_kg_co2e_per_sqft": 0.25,
+            "disposal_method": "landfill",
+            "recycling_rate": 0.20,
+            "data_source": "Ecoinvent_3.8"
+          },
+          "d_benefits": {
+            "gwp_kg_co2e_per_sqft": 0.0,
+            "recycling_benefits": 0.0,
+            "data_source": "Industry_Estimate"
+          }
+        },
+        "total_lifecycle_gwp": {
+          "a1_a5_kg_co2e_per_sqft": 24.0,
+          "b_c_d_kg_co2e_per_sqft": 0.25,
+          "total_kg_co2e_per_sqft": 24.25
+        }
+      },
+      "double_pane_glass": {
+        "material_id": "DOUBLE_PANE_GLASS",
+        "material_name": "Double Pane Low-E Glass",
+        "thickness_mm": 12.7,
+        "mass_per_sqft_kg": 3.2,
+        "lci_data": {
+          "a1_a3_cradle_to_gate": {
+            "gwp_kg_co2e_per_kg": 0.8,
+            "gwp_kg_co2e_per_sqft": 2.56,
+            "data_source": "Ecoinvent_3.8",
+            "data_quality": "high",
+            "year": 2020
+          },
+          "a4_transport": {
+            "gwp_kg_co2e_per_kg": 0.10,
+            "gwp_kg_co2e_per_sqft": 0.32,
+            "transport_distance_km": 400,
+            "transport_mode": "truck",
+            "data_source": "Ecoinvent_3.8"
+          },
+          "a5_installation": {
+            "gwp_kg_co2e_per_sqft": 0.10,
+            "data_source": "Industry_Estimate"
+          },
+          "b_use_phase": {
+            "gwp_kg_co2e_per_sqft_per_year": 0.005,
+            "maintenance_events": 1,
+            "data_source": "Industry_Estimate"
+          },
+          "c_end_of_life": {
+            "gwp_kg_co2e_per_sqft": 0.05,
+            "disposal_method": "landfill",
+            "recycling_rate": 0.30,
+            "data_source": "Ecoinvent_3.8"
+          },
+          "d_benefits": {
+            "gwp_kg_co2e_per_sqft": 0.0,
+            "recycling_benefits": 0.0,
+            "data_source": "Industry_Estimate"
+          }
+        },
+        "total_lifecycle_gwp": {
+          "a1_a5_kg_co2e_per_sqft": 2.98,
+          "b_c_d_kg_co2e_per_sqft": 0.05,
+          "total_kg_co2e_per_sqft": 3.03
+        }
+      },
+      "triple_pane_glass": {
+        "material_id": "TRIPLE_PANE_GLASS",
+        "material_name": "Triple Pane Low-E Glass with Argon",
+        "thickness_mm": 19.1,
+        "mass_per_sqft_kg": 4.8,
+        "lci_data": {
+          "a1_a3_cradle_to_gate": {
+            "gwp_kg_co2e_per_kg": 0.8,
+            "gwp_kg_co2e_per_sqft": 3.84,
+            "data_source": "Ecoinvent_3.8",
+            "data_quality": "high",
+            "year": 2020
+          },
+          "a4_transport": {
+            "gwp_kg_co2e_per_kg": 0.10,
+            "gwp_kg_co2e_per_sqft": 0.48,
+            "transport_distance_km": 400,
+            "transport_mode": "truck",
+            "data_source": "Ecoinvent_3.8"
+          },
+          "a5_installation": {
+            "gwp_kg_co2e_per_sqft": 0.15,
+            "data_source": "Industry_Estimate"
+          },
+          "b_use_phase": {
+            "gwp_kg_co2e_per_sqft_per_year": 0.005,
+            "maintenance_events": 1,
+            "data_source": "Industry_Estimate"
+          },
+          "c_end_of_life": {
+            "gwp_kg_co2e_per_sqft": 0.08,
+            "disposal_method": "landfill",
+            "recycling_rate": 0.30,
+            "data_source": "Ecoinvent_3.8"
+          },
+          "d_benefits": {
+            "gwp_kg_co2e_per_sqft": 0.0,
+            "recycling_benefits": 0.0,
+            "data_source": "Industry_Estimate"
+          }
+        },
+        "total_lifecycle_gwp": {
+          "a1_a5_kg_co2e_per_sqft": 4.47,
+          "b_c_d_kg_co2e_per_sqft": 0.08,
+          "total_kg_co2e_per_sqft": 4.55
+        }
+      }
+    },
+    "systems": {
+      "air_source_heat_pump": {
+        "system_id": "ASHP_3TON",
+        "system_name": "Air Source Heat Pump 3 Ton",
+        "capacity_btuh": 36000,
+        "lci_data": {
+          "a1_a3_cradle_to_gate": {
+            "gwp_kg_co2e_per_system": 1200,
+            "data_source": "Ecoinvent_3.8",
+            "data_quality": "high",
+            "year": 2020
+          },
+          "a4_transport": {
+            "gwp_kg_co2e_per_system": 60,
+            "transport_distance_km": 800,
+            "transport_mode": "truck",
+            "data_source": "Ecoinvent_3.8"
+          },
+          "a5_installation": {
+            "gwp_kg_co2e_per_system": 80,
+            "data_source": "Industry_Estimate"
+          },
+          "b_use_phase": {
+            "gwp_kg_co2e_per_system_per_year": 5,
+            "maintenance_events": 2,
+            "data_source": "Industry_Estimate"
+          },
+          "c_end_of_life": {
+            "gwp_kg_co2e_per_system": 40,
+            "disposal_method": "recycling",
+            "recycling_rate": 0.70,
+            "data_source": "Ecoinvent_3.8"
+          },
+          "d_benefits": {
+            "gwp_kg_co2e_per_system": 0.0,
+            "recycling_benefits": 0.0,
+            "data_source": "Industry_Estimate"
+          }
+        },
+        "total_lifecycle_gwp": {
+          "a1_a5_kg_co2e_per_system": 1340,
+          "b_c_d_kg_co2e_per_system": 40,
+          "total_kg_co2e_per_system": 1380
+        }
+      },
+      "ground_source_heat_pump": {
+        "system_id": "GSHP_5TON",
+        "system_name": "Ground Source Heat Pump 5 Ton",
+        "capacity_btuh": 60000,
+        "lci_data": {
+          "a1_a3_cradle_to_gate": {
+            "gwp_kg_co2e_per_system": 2000,
+            "data_source": "Ecoinvent_3.8",
+            "data_quality": "high",
+            "year": 2020
+          },
+          "a4_transport": {
+            "gwp_kg_co2e_per_system": 100,
+            "transport_distance_km": 800,
+            "transport_mode": "truck",
+            "data_source": "Ecoinvent_3.8"
+          },
+          "a5_installation": {
+            "gwp_kg_co2e_per_system": 500,
+            "data_source": "Industry_Estimate"
+          },
+          "b_use_phase": {
+            "gwp_kg_co2e_per_system_per_year": 8,
+            "maintenance_events": 2,
+            "data_source": "Industry_Estimate"
+          },
+          "c_end_of_life": {
+            "gwp_kg_co2e_per_system": 80,
+            "disposal_method": "recycling",
+            "recycling_rate": 0.70,
+            "data_source": "Ecoinvent_3.8"
+          },
+          "d_benefits": {
+            "gwp_kg_co2e_per_system": 0.0,
+            "recycling_benefits": 0.0,
+            "data_source": "Industry_Estimate"
+          }
+        },
+        "total_lifecycle_gwp": {
+          "a1_a5_kg_co2e_per_system": 2600,
+          "b_c_d_kg_co2e_per_system": 80,
+          "total_kg_co2e_per_system": 2680
+        }
+      },
+      "solar_pv_panel": {
+        "system_id": "PV_PANEL_MONO",
+        "system_name": "Monocrystalline Solar PV Panel",
+        "capacity_w": 400,
+        "lci_data": {
+          "a1_a3_cradle_to_gate": {
+            "gwp_kg_co2e_per_panel": 180,
+            "data_source": "Ecoinvent_3.8",
+            "data_quality": "high",
+            "year": 2020
+          },
+          "a4_transport": {
+            "gwp_kg_co2e_per_panel": 15,
+            "transport_distance_km": 1000,
+            "transport_mode": "truck",
+            "data_source": "Ecoinvent_3.8"
+          },
+          "a5_installation": {
+            "gwp_kg_co2e_per_panel": 25,
+            "data_source": "Industry_Estimate"
+          },
+          "b_use_phase": {
+            "gwp_kg_co2e_per_panel_per_year": 2,
+            "maintenance_events": 1,
+            "data_source": "Industry_Estimate"
+          },
+          "c_end_of_life": {
+            "gwp_kg_co2e_per_panel": 10,
+            "disposal_method": "recycling",
+            "recycling_rate": 0.85,
+            "data_source": "Ecoinvent_3.8"
+          },
+          "d_benefits": {
+            "gwp_kg_co2e_per_panel": 0.0,
+            "recycling_benefits": 0.0,
+            "data_source": "Industry_Estimate"
+          }
+        },
+        "total_lifecycle_gwp": {
+          "a1_a5_kg_co2e_per_panel": 220,
+          "b_c_d_kg_co2e_per_panel": 10,
+          "total_kg_co2e_per_panel": 230
+        }
+      }
+    },
+    "metadata": {
+      "version": "1.0",
+      "created_date": "2024-01-15",
+      "last_updated": "2024-01-15",
+      "data_sources": ["Ecoinvent_3.8", "ICE_Database", "EPD_Database", "Industry_Reports"],
+      "methodology": "ISO_14040_14044",
+      "system_boundaries": "cradle_to_grave",
+      "validation_status": "pending"
+    }
+  }
+}
