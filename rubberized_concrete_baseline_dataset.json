@@ -1,0 +1,2245 @@
+{
+  "metadata": {
+    "project_title": "Development and Validation of a Thermo-Mechanical Model for Fire-Resistant Structural Elements Utilizing High-Performance Rubberized Concrete",
+    "dataset_type": "Baseline Material Characterization",
+    "generation_date": "2025-10-17T00:29:22.755154",
+    "rubber_replacement_levels": [
+      0,
+      5,
+      10,
+      15
+    ],
+    "specimen_count_per_mix": 12,
+    "curing_periods": [
+      7,
+      28
+    ],
+    "test_standards": {
+      "compressive_strength": "ASTM C39",
+      "tensile_splitting": "ASTM C496",
+      "modulus_elasticity": "ASTM C469",
+      "slump_flow": "ASTM C143",
+      "air_content": "ASTM C231",
+      "density": "ASTM C642",
+      "porosity": "ASTM D4404 (MIP)"
+    }
+  },
+  "mixture_proportions": {
+    "Mix_0pct_Rubber": {
+      "cement_type": "Type I/II Portland Cement",
+      "cement_grade": "42.5N",
+      "cement_content": 400,
+      "water_cement_ratio": 0.45,
+      "coarse_aggregate": {
+        "type": "Crushed limestone",
+        "max_size": 20,
+        "ssd_specific_gravity": 2.65,
+        "grading": "20-10mm: 60%, 10-5mm: 40%",
+        "content": 1050
+      },
+      "fine_aggregate": {
+        "type": "Natural sand",
+        "ssd_specific_gravity": 2.6,
+        "fineness_modulus": 2.8,
+        "content": -111750.0
+      },
+      "water": {
+        "content": 180,
+        "type": "Potable water"
+      },
+      "superplasticizer": {
+        "type": "Polycarboxylate ether (PCE)",
+        "dosage": 1.2,
+        "content": 4.8
+      },
+      "air_entrainer": {
+        "type": "Synthetic air-entraining admixture",
+        "dosage": 0.05,
+        "content": 0.2
+      },
+      "mix_id": "Mix_0pct_Rubber",
+      "total_volume": 1.0
+    },
+    "Mix_5pct_Rubber": {
+      "cement_type": "Type I/II Portland Cement",
+      "cement_grade": "42.5N",
+      "cement_content": 400,
+      "water_cement_ratio": 0.45,
+      "coarse_aggregate": {
+        "type": "Crushed limestone",
+        "max_size": 20,
+        "ssd_specific_gravity": 2.65,
+        "grading": "20-10mm: 60%, 10-5mm: 40%",
+        "content": 1050
+      },
+      "fine_aggregate": {
+        "type": "Natural sand",
+        "ssd_specific_gravity": 2.6,
+        "fineness_modulus": 2.8,
+        "content": -111750.0
+      },
+      "water": {
+        "content": 180,
+        "type": "Potable water"
+      },
+      "superplasticizer": {
+        "type": "Polycarboxylate ether (PCE)",
+        "dosage": 1.2,
+        "content": 4.8
+      },
+      "air_entrainer": {
+        "type": "Synthetic air-entraining admixture",
+        "dosage": 0.05,
+        "content": 0.2
+      },
+      "rubber_aggregate": {
+        "type": "Crumb rubber from truck tires",
+        "particle_size": "1-4 mm",
+        "specific_gravity": 1.15,
+        "content": 16586.53846153846,
+        "replacement_level": 5
+      },
+      "mix_id": "Mix_5pct_Rubber",
+      "total_volume": 1.0
+    },
+    "Mix_10pct_Rubber": {
+      "cement_type": "Type I/II Portland Cement",
+      "cement_grade": "42.5N",
+      "cement_content": 400,
+      "water_cement_ratio": 0.45,
+      "coarse_aggregate": {
+        "type": "Crushed limestone",
+        "max_size": 20,
+        "ssd_specific_gravity": 2.65,
+        "grading": "20-10mm: 60%, 10-5mm: 40%",
+        "content": 1050
+      },
+      "fine_aggregate": {
+        "type": "Natural sand",
+        "ssd_specific_gravity": 2.6,
+        "fineness_modulus": 2.8,
+        "content": -111750.0
+      },
+      "water": {
+        "content": 180,
+        "type": "Potable water"
+      },
+      "superplasticizer": {
+        "type": "Polycarboxylate ether (PCE)",
+        "dosage": 1.2,
+        "content": 4.8
+      },
+      "air_entrainer": {
+        "type": "Synthetic air-entraining admixture",
+        "dosage": 0.05,
+        "content": 0.2
+      },
+      "rubber_aggregate": {
+        "type": "Crumb rubber from truck tires",
+        "particle_size": "1-4 mm",
+        "specific_gravity": 1.15,
+        "content": 33173.07692307692,
+        "replacement_level": 10
+      },
+      "mix_id": "Mix_10pct_Rubber",
+      "total_volume": 1.0
+    },
+    "Mix_15pct_Rubber": {
+      "cement_type": "Type I/II Portland Cement",
+      "cement_grade": "42.5N",
+      "cement_content": 400,
+      "water_cement_ratio": 0.45,
+      "coarse_aggregate": {
+        "type": "Crushed limestone",
+        "max_size": 20,
+        "ssd_specific_gravity": 2.65,
+        "grading": "20-10mm: 60%, 10-5mm: 40%",
+        "content": 1050
+      },
+      "fine_aggregate": {
+        "type": "Natural sand",
+        "ssd_specific_gravity": 2.6,
+        "fineness_modulus": 2.8,
+        "content": -111750.0
+      },
+      "water": {
+        "content": 180,
+        "type": "Potable water"
+      },
+      "superplasticizer": {
+        "type": "Polycarboxylate ether (PCE)",
+        "dosage": 1.2,
+        "content": 4.8
+      },
+      "air_entrainer": {
+        "type": "Synthetic air-entraining admixture",
+        "dosage": 0.05,
+        "content": 0.2
+      },
+      "rubber_aggregate": {
+        "type": "Crumb rubber from truck tires",
+        "particle_size": "1-4 mm",
+        "specific_gravity": 1.15,
+        "content": 49759.61538461538,
+        "replacement_level": 15
+      },
+      "mix_id": "Mix_15pct_Rubber",
+      "total_volume": 1.0
+    }
+  },
+  "rubber_characterization": [
+    {
+      "source": "Truck tire crumb rubber (recycled)",
+      "manufacturer": "EcoRubber Solutions Inc.",
+      "particle_size_distribution": {
+        "1-2mm": 35,
+        "2-3mm": 45,
+        "3-4mm": 20
+      },
+      "physical_properties": {
+        "specific_gravity": 1.285107844503958,
+        "water_absorption": 2.5,
+        "hardness_shore_a": 71,
+        "bulk_density": 0.68,
+        "void_content": 41
+      },
+      "chemical_composition": {
+        "natural_rubber": 45,
+        "synthetic_rubber": 35,
+        "carbon_black": 15,
+        "zinc_oxide": 2,
+        "sulfur": 1.5,
+        "other_additives": 1.5
+      },
+      "thermal_properties": {
+        "glass_transition_temp": -60,
+        "decomposition_start": 280,
+        "peak_decomposition": 420,
+        "residual_mass_600C": 35
+      },
+      "pre_treatment": {
+        "method": "NaOH washing + plasma treatment",
+        "naoh_concentration": "2M",
+        "treatment_time": 30,
+        "plasma_power": 100,
+        "treatment_duration": 5
+      },
+      "batch_id": "RB_01"
+    },
+    {
+      "source": "Truck tire crumb rubber (recycled)",
+      "manufacturer": "EcoRubber Solutions Inc.",
+      "particle_size_distribution": {
+        "1-2mm": 35,
+        "2-3mm": 45,
+        "3-4mm": 20
+      },
+      "physical_properties": {
+        "specific_gravity": 1.285107844503958,
+        "water_absorption": 2.5,
+        "hardness_shore_a": 71,
+        "bulk_density": 0.68,
+        "void_content": 41
+      },
+      "chemical_composition": {
+        "natural_rubber": 45,
+        "synthetic_rubber": 35,
+        "carbon_black": 15,
+        "zinc_oxide": 2,
+        "sulfur": 1.5,
+        "other_additives": 1.5
+      },
+      "thermal_properties": {
+        "glass_transition_temp": -60,
+        "decomposition_start": 280,
+        "peak_decomposition": 420,
+        "residual_mass_600C": 35
+      },
+      "pre_treatment": {
+        "method": "NaOH washing + plasma treatment",
+        "naoh_concentration": "2M",
+        "treatment_time": 30,
+        "plasma_power": 100,
+        "treatment_duration": 5
+      },
+      "batch_id": "RB_02"
+    },
+    {
+      "source": "Truck tire crumb rubber (recycled)",
+      "manufacturer": "EcoRubber Solutions Inc.",
+      "particle_size_distribution": {
+        "1-2mm": 35,
+        "2-3mm": 45,
+        "3-4mm": 20
+      },
+      "physical_properties": {
+        "specific_gravity": 1.285107844503958,
+        "water_absorption": 2.5,
+        "hardness_shore_a": 71,
+        "bulk_density": 0.68,
+        "void_content": 41
+      },
+      "chemical_composition": {
+        "natural_rubber": 45,
+        "synthetic_rubber": 35,
+        "carbon_black": 15,
+        "zinc_oxide": 2,
+        "sulfur": 1.5,
+        "other_additives": 1.5
+      },
+      "thermal_properties": {
+        "glass_transition_temp": -60,
+        "decomposition_start": 280,
+        "peak_decomposition": 420,
+        "residual_mass_600C": 35
+      },
+      "pre_treatment": {
+        "method": "NaOH washing + plasma treatment",
+        "naoh_concentration": "2M",
+        "treatment_time": 30,
+        "plasma_power": 100,
+        "treatment_duration": 5
+      },
+      "batch_id": "RB_03"
+    },
+    {
+      "source": "Truck tire crumb rubber (recycled)",
+      "manufacturer": "EcoRubber Solutions Inc.",
+      "particle_size_distribution": {
+        "1-2mm": 35,
+        "2-3mm": 45,
+        "3-4mm": 20
+      },
+      "physical_properties": {
+        "specific_gravity": 1.285107844503958,
+        "water_absorption": 2.5,
+        "hardness_shore_a": 71,
+        "bulk_density": 0.68,
+        "void_content": 41
+      },
+      "chemical_composition": {
+        "natural_rubber": 45,
+        "synthetic_rubber": 35,
+        "carbon_black": 15,
+        "zinc_oxide": 2,
+        "sulfur": 1.5,
+        "other_additives": 1.5
+      },
+      "thermal_properties": {
+        "glass_transition_temp": -60,
+        "decomposition_start": 280,
+        "peak_decomposition": 420,
+        "residual_mass_600C": 35
+      },
+      "pre_treatment": {
+        "method": "NaOH washing + plasma treatment",
+        "naoh_concentration": "2M",
+        "treatment_time": 30,
+        "plasma_power": 100,
+        "treatment_duration": 5
+      },
+      "batch_id": "RB_04"
+    },
+    {
+      "source": "Truck tire crumb rubber (recycled)",
+      "manufacturer": "EcoRubber Solutions Inc.",
+      "particle_size_distribution": {
+        "1-2mm": 35,
+        "2-3mm": 45,
+        "3-4mm": 20
+      },
+      "physical_properties": {
+        "specific_gravity": 1.285107844503958,
+        "water_absorption": 2.5,
+        "hardness_shore_a": 71,
+        "bulk_density": 0.68,
+        "void_content": 41
+      },
+      "chemical_composition": {
+        "natural_rubber": 45,
+        "synthetic_rubber": 35,
+        "carbon_black": 15,
+        "zinc_oxide": 2,
+        "sulfur": 1.5,
+        "other_additives": 1.5
+      },
+      "thermal_properties": {
+        "glass_transition_temp": -60,
+        "decomposition_start": 280,
+        "peak_decomposition": 420,
+        "residual_mass_600C": 35
+      },
+      "pre_treatment": {
+        "method": "NaOH washing + plasma treatment",
+        "naoh_concentration": "2M",
+        "treatment_time": 30,
+        "plasma_power": 100,
+        "treatment_duration": 5
+      },
+      "batch_id": "RB_05"
+    }
+  ],
+  "fresh_state_properties": [
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "test_id": 1,
+      "slump_flow": 176.6284278199318,
+      "air_content": 5.210645766978326,
+      "fresh_density": 2386.0694322701866,
+      "workability_rating": "Good",
+      "test_temperature": 22.53052561406505,
+      "test_humidity": 52.712800217929825
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "test_id": 2,
+      "slump_flow": 173.32678522350054,
+      "air_content": 4.290421610893384,
+      "fresh_density": 2361.3722267636035,
+      "workability_rating": "Good",
+      "test_temperature": 21.0867197553422,
+      "test_humidity": 41.375410837434835
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "test_id": 3,
+      "slump_flow": 171.90305957893,
+      "air_content": 4.0442259958495095,
+      "fresh_density": 2364.769624631978,
+      "workability_rating": "Good",
+      "test_temperature": 22.09197592447879,
+      "test_humidity": 42.93848149332354
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "test_id": 1,
+      "slump_flow": 120.66320536348223,
+      "air_content": 4.398400664781059,
+      "fresh_density": 2353.1738256203325,
+      "workability_rating": "Fair",
+      "test_temperature": 21.575251813786544,
+      "test_humidity": 47.27808637737409
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "test_id": 2,
+      "slump_flow": 108.95837117509325,
+      "air_content": 3.9820528901599634,
+      "fresh_density": 2367.6578068622466,
+      "workability_rating": "Fair",
+      "test_temperature": 22.399361310081193,
+      "test_humidity": 48.54153125103362
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "test_id": 3,
+      "slump_flow": 102.80125487033801,
+      "air_content": 5.333525183029022,
+      "fresh_density": 2349.365630437317,
+      "workability_rating": "Fair",
+      "test_temperature": 21.9422890710441,
+      "test_humidity": 54.11272456051594
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "test_id": 1,
+      "slump_flow": 50,
+      "air_content": 4.5939886177521405,
+      "fresh_density": 2257.8955041776508,
+      "workability_rating": "Very Poor",
+      "test_temperature": 21.67181395110157,
+      "test_humidity": 50.984306179345616
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "test_id": 2,
+      "slump_flow": 50,
+      "air_content": 4.577115726535486,
+      "fresh_density": 2344.5645307277528,
+      "workability_rating": "Very Poor",
+      "test_temperature": 22.69889630441071,
+      "test_humidity": 42.60739004816286
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "test_id": 3,
+      "slump_flow": 50,
+      "air_content": 4.292712553068096,
+      "fresh_density": 2399.6847446322895,
+      "workability_rating": "Very Poor",
+      "test_temperature": 23.34361828956846,
+      "test_humidity": 41.18479922318633
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "test_id": 1,
+      "slump_flow": 50,
+      "air_content": 4.326712973812658,
+      "fresh_density": 2318.18466598562,
+      "workability_rating": "Very Poor",
+      "test_temperature": 23.61167628884087,
+      "test_humidity": 55.154997612479754
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "test_id": 2,
+      "slump_flow": 50,
+      "air_content": 4.1223521145498125,
+      "fresh_density": 2335.467018334993,
+      "workability_rating": "Very Poor",
+      "test_temperature": 23.331263431403563,
+      "test_humidity": 54.877725635611796
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "test_id": 3,
+      "slump_flow": 50,
+      "air_content": 4.416453460501282,
+      "fresh_density": 2298.002256221717,
+      "workability_rating": "Very Poor",
+      "test_temperature": 21.80379337591933,
+      "test_humidity": 54.06262911197099
+    }
+  ],
+  "mechanical_properties": [
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 1,
+      "age_days": 7,
+      "compressive_strength": 38.79747207999831,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 1,
+      "age_days": 28,
+      "compressive_strength": 44.8055726717331,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 3.851236514262208,
+      "modulus_elasticity": 35.886008261366705
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 2,
+      "age_days": 7,
+      "compressive_strength": 33.19366468710565,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 2,
+      "age_days": 28,
+      "compressive_strength": 45.97576813487272,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 4.03831279826309,
+      "modulus_elasticity": 34.91222620418062
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 3,
+      "age_days": 7,
+      "compressive_strength": 39.38100223627922,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 3,
+      "age_days": 28,
+      "compressive_strength": 37.92668821895769,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 3.787665876531329,
+      "modulus_elasticity": 35.21326531718352
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 4,
+      "age_days": 7,
+      "compressive_strength": 34.16277941869557,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 4,
+      "age_days": 28,
+      "compressive_strength": 45.247754096645856,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 2.8043508798896877,
+      "modulus_elasticity": 34.46180387479809
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 5,
+      "age_days": 7,
+      "compressive_strength": 35.99991520023289,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 5,
+      "age_days": 28,
+      "compressive_strength": 48.990313920802095,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 3.3186054236042235,
+      "modulus_elasticity": 33.01919067291169
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 6,
+      "age_days": 7,
+      "compressive_strength": 33.5950802779633,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 6,
+      "age_days": 28,
+      "compressive_strength": 47.4715857177956,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 3.6150628883808893,
+      "modulus_elasticity": 33.70208750077075
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 7,
+      "age_days": 7,
+      "compressive_strength": 36.437148812717396,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 7,
+      "age_days": 28,
+      "compressive_strength": 45.26210938323971,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 3.839025746686511,
+      "modulus_elasticity": 33.27996992000048
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 8,
+      "age_days": 7,
+      "compressive_strength": 34.08254598952625,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 8,
+      "age_days": 28,
+      "compressive_strength": 43.94130798654317,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 2.9877697681537585,
+      "modulus_elasticity": 35.72549467880821
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 9,
+      "age_days": 7,
+      "compressive_strength": 35.730954762103686,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 9,
+      "age_days": 28,
+      "compressive_strength": 45.01380633293465,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 3.4178945033186987,
+      "modulus_elasticity": 31.532341681976483
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 10,
+      "age_days": 7,
+      "compressive_strength": 33.822193096256996,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 10,
+      "age_days": 28,
+      "compressive_strength": 44.07467080537772,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 3.2192029557724338,
+      "modulus_elasticity": 34.60485000641828
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 11,
+      "age_days": 7,
+      "compressive_strength": 36.13134239908071,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 11,
+      "age_days": 28,
+      "compressive_strength": 50.09270193326844,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 3.561102234491144,
+      "modulus_elasticity": 35.63099845727078
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 12,
+      "age_days": 7,
+      "compressive_strength": 34.79155143585473,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 12,
+      "age_days": 28,
+      "compressive_strength": 39.81931771869259,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 3.490720143592774,
+      "modulus_elasticity": 35.14756401435552
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 1,
+      "age_days": 7,
+      "compressive_strength": 16.758831165983523,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 1,
+      "age_days": 28,
+      "compressive_strength": 17.79225015803639,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.442216627926706,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 2,
+      "age_days": 7,
+      "compressive_strength": 12.691080597866124,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 2,
+      "age_days": 28,
+      "compressive_strength": 19.234248639676224,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.5052706245761485,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 3,
+      "age_days": 7,
+      "compressive_strength": 12.981486050629893,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 3,
+      "age_days": 28,
+      "compressive_strength": 19.51501785581099,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.2037408512090808,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 4,
+      "age_days": 7,
+      "compressive_strength": 16.453310300907177,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 4,
+      "age_days": 28,
+      "compressive_strength": 16.930220768858856,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.3207183178556121,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 5,
+      "age_days": 7,
+      "compressive_strength": 13.436107267389858,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 5,
+      "age_days": 28,
+      "compressive_strength": 16.325283494448577,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.4095988164728441,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 6,
+      "age_days": 7,
+      "compressive_strength": 14.530423522311402,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 6,
+      "age_days": 28,
+      "compressive_strength": 17.007021827027494,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.6169908167024556,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 7,
+      "age_days": 7,
+      "compressive_strength": 13.639291101849643,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 7,
+      "age_days": 28,
+      "compressive_strength": 18.878598594759247,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.2276789956992464,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 8,
+      "age_days": 7,
+      "compressive_strength": 15.46399988479632,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 8,
+      "age_days": 28,
+      "compressive_strength": 16.263918106673874,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.4258487401945226,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 9,
+      "age_days": 7,
+      "compressive_strength": 14.875641616390588,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 9,
+      "age_days": 28,
+      "compressive_strength": 16.664093232251673,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.2151360741682014,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 10,
+      "age_days": 7,
+      "compressive_strength": 14.33262283402117,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 10,
+      "age_days": 28,
+      "compressive_strength": 18.270532278373548,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.4485027493295768,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 11,
+      "age_days": 7,
+      "compressive_strength": 14.260124140820324,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 11,
+      "age_days": 28,
+      "compressive_strength": 18.316518271162575,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.2999908014763086,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 12,
+      "age_days": 7,
+      "compressive_strength": 14.530692871421202,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 12,
+      "age_days": 28,
+      "compressive_strength": 16.71339222302114,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.4919175052087363,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 1,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 1,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 2,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 2,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 3,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 3,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 4,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 4,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 5,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 5,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 6,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 6,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 7,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 7,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 8,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 8,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 9,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 9,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 10,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 10,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 11,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 11,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 12,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 12,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 1,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 1,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 2,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 2,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 3,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 3,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 4,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 4,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 5,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 5,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 6,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 6,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 7,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 7,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 8,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 8,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 9,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 9,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 10,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 10,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 11,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 11,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 12,
+      "age_days": 7,
+      "compressive_strength": 10,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube"
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 12,
+      "age_days": 28,
+      "compressive_strength": 15,
+      "test_standard": "ASTM C39",
+      "specimen_type": "100mm cube",
+      "tensile_splitting_strength": 1.0,
+      "modulus_elasticity": 10
+    }
+  ],
+  "physical_properties": [
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 1,
+      "oven_dry_density": 2300.109302673876,
+      "ssd_density": 2349.047798475448,
+      "porosity": 11.745238992377239,
+      "ultrasonic_pulse_velocity": 4404.464622141465,
+      "water_absorption": 3.721909714073114,
+      "void_content": 8.774634053429336
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 2,
+      "oven_dry_density": 2284.651401753745,
+      "ssd_density": 2333.261006046378,
+      "porosity": 11.66630503023189,
+      "ultrasonic_pulse_velocity": 4374.864386336959,
+      "water_absorption": 3.4702373219691,
+      "void_content": 4.758732659930928
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 3,
+      "oven_dry_density": 2277.7806712859324,
+      "ssd_density": 2326.244089823931,
+      "porosity": 11.631220449119656,
+      "ultrasonic_pulse_velocity": 4361.707668419871,
+      "water_absorption": 3.37371592430342,
+      "void_content": 6.7522168180351505
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 4,
+      "oven_dry_density": 2465.0849969271803,
+      "ssd_density": 2517.5336138830776,
+      "porosity": 12.58766806941539,
+      "ultrasonic_pulse_velocity": 4720.375526030771,
+      "water_absorption": 2.7849293110196838,
+      "void_content": 7.5599555133030165
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 5,
+      "oven_dry_density": 2359.217210698669,
+      "ssd_density": 2409.4133215645984,
+      "porosity": 12.047066607822991,
+      "ultrasonic_pulse_velocity": 4517.649977933622,
+      "water_absorption": 4.220636644533058,
+      "void_content": 6.564137848820561
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 6,
+      "oven_dry_density": 2432.0030445269244,
+      "ssd_density": 2483.747790155157,
+      "porosity": 12.418738950775785,
+      "ultrasonic_pulse_velocity": 4657.027106540919,
+      "water_absorption": 3.5051165305097935,
+      "void_content": 7.018491348952049
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 1,
+      "oven_dry_density": 2025.1915506952264,
+      "ssd_density": 2068.280732624912,
+      "porosity": 21.29112518878586,
+      "ultrasonic_pulse_velocity": 2737.4303814153245,
+      "water_absorption": 3.599529847786735,
+      "void_content": 7.399783122841205
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 2,
+      "oven_dry_density": 2001.6828899430268,
+      "ssd_density": 2044.2718876013892,
+      "porosity": 21.04397531354371,
+      "ultrasonic_pulse_velocity": 2705.6539688841917,
+      "water_absorption": 3.30734320156912,
+      "void_content": 8.113517345251248
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 3,
+      "oven_dry_density": 2037.1781806706738,
+      "ssd_density": 2080.522397280688,
+      "porosity": 21.41714232494826,
+      "ultrasonic_pulse_velocity": 2753.6325846362047,
+      "water_absorption": 4.2930084080726765,
+      "void_content": 6.7621845011731505
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 4,
+      "oven_dry_density": 2125.3220249762767,
+      "ssd_density": 2170.5416425289636,
+      "porosity": 22.34381102603345,
+      "ultrasonic_pulse_velocity": 2872.7757033471576,
+      "water_absorption": 2.523956100238749,
+      "void_content": 7.848214904964417
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 5,
+      "oven_dry_density": 2032.7549085985884,
+      "ssd_density": 2076.0050130368563,
+      "porosity": 21.370639840085285,
+      "ultrasonic_pulse_velocity": 2747.653693725251,
+      "water_absorption": 3.6404959338675162,
+      "void_content": 7.377300480179406
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 6,
+      "oven_dry_density": 1985.0282741473402,
+      "ssd_density": 2027.2629182781347,
+      "porosity": 20.86888298227492,
+      "ultrasonic_pulse_velocity": 2683.1420977210605,
+      "water_absorption": 3.253499532670584,
+      "void_content": 7.410635243055788
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 1,
+      "oven_dry_density": 1686.9278634879875,
+      "ssd_density": 1722.8199456898594,
+      "porosity": 30.76464188731892,
+      "ultrasonic_pulse_velocity": 922.9392566195673,
+      "water_absorption": 3.6785077429825237,
+      "void_content": 7.307090404739346
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 2,
+      "oven_dry_density": 1689.395253852631,
+      "ssd_density": 1725.339833721836,
+      "porosity": 30.809639887889926,
+      "ultrasonic_pulse_velocity": 924.2891966366975,
+      "water_absorption": 3.6536497604383045,
+      "void_content": 8.81286211883896
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 3,
+      "oven_dry_density": 1676.0721833489304,
+      "ssd_density": 1711.73329363295,
+      "porosity": 30.566665957731253,
+      "ultrasonic_pulse_velocity": 916.9999787319373,
+      "water_absorption": 3.085502494538964,
+      "void_content": 7.439818959803031
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 4,
+      "oven_dry_density": 1681.8789394128328,
+      "ssd_density": 1717.6635976982122,
+      "porosity": 30.672564244610932,
+      "ultrasonic_pulse_velocity": 920.1769273383278,
+      "water_absorption": 3.8051851327167325,
+      "void_content": 7.979098406035852
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 5,
+      "oven_dry_density": 1650.7901063662885,
+      "ssd_density": 1685.9133001187627,
+      "porosity": 30.105594644977906,
+      "ultrasonic_pulse_velocity": 903.167839349337,
+      "water_absorption": 4.138832447894212,
+      "void_content": 7.40842861116417
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 6,
+      "oven_dry_density": 1671.9992557607416,
+      "ssd_density": 1707.57370801097,
+      "porosity": 30.492387643053036,
+      "ultrasonic_pulse_velocity": 914.7716292915909,
+      "water_absorption": 3.398903673783053,
+      "void_content": 7.782318796772779
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 1,
+      "oven_dry_density": 1335.1050724358033,
+      "ssd_density": 1363.5115633386927,
+      "porosity": 40.285568916825014,
+      "ultrasonic_pulse_velocity": -929.6669750036539,
+      "water_absorption": 3.912708174494015,
+      "void_content": 8.813509636000639
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 2,
+      "oven_dry_density": 1343.119940747409,
+      "ssd_density": 1371.6969607633114,
+      "porosity": 40.52741020437056,
+      "ultrasonic_pulse_velocity": -935.2479277931666,
+      "water_absorption": 3.5105019208163797,
+      "void_content": 8.681952971294963
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 3,
+      "oven_dry_density": 1280.4694065130889,
+      "ssd_density": 1307.7134364388992,
+      "porosity": 38.63698789478566,
+      "ultrasonic_pulse_velocity": -891.6227975719765,
+      "water_absorption": 3.662083176244221,
+      "void_content": 7.869856945632315
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 4,
+      "oven_dry_density": 1296.2610185425926,
+      "ssd_density": 1323.8410402137115,
+      "porosity": 39.11348527904148,
+      "ultrasonic_pulse_velocity": -902.618891054803,
+      "water_absorption": 3.7975785127184567,
+      "void_content": 7.181779316766527
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 5,
+      "oven_dry_density": 1373.6323166147038,
+      "ssd_density": 1402.8585361171442,
+      "porosity": 41.44809311255199,
+      "ultrasonic_pulse_velocity": -956.4944564435071,
+      "water_absorption": 2.996991309250149,
+      "void_content": 6.785811387212268
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 6,
+      "oven_dry_density": 1337.405749119965,
+      "ssd_density": 1365.8611905906027,
+      "porosity": 40.35498972199508,
+      "ultrasonic_pulse_velocity": -931.2689935845017,
+      "water_absorption": 3.895831346981468,
+      "void_content": 8.624119817052154
+    }
+  ],
+  "porosity_distribution": [
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 1,
+      "total_porosity": 63.770073055585684,
+      "pore_size_distribution": {
+        "pore_sizes_um": [
+          0.01,
+          0.1,
+          1,
+          10,
+          100,
+          1000
+        ],
+        "volume_percentages": [
+          2.125669101852856,
+          8.502676407411425,
+          15.942518263896421,
+          21.256691018528564,
+          10.628345509264282,
+          5.314172754632141
+        ],
+        "cumulative_volume": [
+          2.125669101852856,
+          10.628345509264282,
+          26.570863773160703,
+          47.827554791689266,
+          58.455900300953545,
+          63.770073055585684
+        ]
+      },
+      "critical_pore_diameter": 0.1,
+      "permeability_coefficient": 1e-15
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 2,
+      "total_porosity": 59.92651936291851,
+      "pore_size_distribution": {
+        "pore_sizes_um": [
+          0.01,
+          0.1,
+          1,
+          10,
+          100,
+          1000
+        ],
+        "volume_percentages": [
+          1.9975506454306171,
+          7.9902025817224684,
+          14.981629840729628,
+          19.97550645430617,
+          9.987753227153085,
+          4.993876613576543
+        ],
+        "cumulative_volume": [
+          1.9975506454306171,
+          9.987753227153085,
+          24.969383067882713,
+          44.94488952218889,
+          54.93264274934197,
+          59.92651936291851
+        ]
+      },
+      "critical_pore_diameter": 0.1,
+      "permeability_coefficient": 1e-15
+    },
+    {
+      "mix_id": "Mix_0pct_Rubber",
+      "rubber_replacement": 0,
+      "specimen_id": 3,
+      "total_porosity": 54.61647377108501,
+      "pore_size_distribution": {
+        "pore_sizes_um": [
+          0.01,
+          0.1,
+          1,
+          10,
+          100,
+          1000
+        ],
+        "volume_percentages": [
+          1.8205491257028337,
+          7.282196502811335,
+          13.654118442771253,
+          18.205491257028335,
+          9.102745628514167,
+          4.551372814257084
+        ],
+        "cumulative_volume": [
+          1.8205491257028337,
+          9.102745628514167,
+          22.75686407128542,
+          40.962355328313755,
+          50.06510095682792,
+          54.616473771085005
+        ]
+      },
+      "critical_pore_diameter": 0.1,
+      "permeability_coefficient": 1e-15
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 1,
+      "total_porosity": 63.72946383057532,
+      "pore_size_distribution": {
+        "pore_sizes_um": [
+          0.01,
+          0.1,
+          1,
+          10,
+          100,
+          1000
+        ],
+        "volume_percentages": [
+          2.7708462535032745,
+          8.060643646554981,
+          15.11370683729059,
+          20.15160911638745,
+          10.075804558193726,
+          7.556853418645295
+        ],
+        "cumulative_volume": [
+          2.7708462535032745,
+          10.831489900058255,
+          25.945196737348844,
+          46.0968058537363,
+          56.17261041193002,
+          63.72946383057532
+        ]
+      },
+      "critical_pore_diameter": 0.15000000000000002,
+      "permeability_coefficient": 2e-15
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 2,
+      "total_porosity": 58.96695217468589,
+      "pore_size_distribution": {
+        "pore_sizes_um": [
+          0.01,
+          0.1,
+          1,
+          10,
+          100,
+          1000
+        ],
+        "volume_percentages": [
+          2.5637805293341693,
+          7.45827063079031,
+          13.984257432731832,
+          18.645676576975777,
+          9.322838288487889,
+          6.992128716365916
+        ],
+        "cumulative_volume": [
+          2.5637805293341693,
+          10.02205116012448,
+          24.006308592856314,
+          42.65198516983209,
+          51.974823458319975,
+          58.96695217468589
+        ]
+      },
+      "critical_pore_diameter": 0.15000000000000002,
+      "permeability_coefficient": 2e-15
+    },
+    {
+      "mix_id": "Mix_5pct_Rubber",
+      "rubber_replacement": 5,
+      "specimen_id": 3,
+      "total_porosity": 69.41763231386727,
+      "pore_size_distribution": {
+        "pore_sizes_um": [
+          0.01,
+          0.1,
+          1,
+          10,
+          100,
+          1000
+        ],
+        "volume_percentages": [
+          3.0181579266898817,
+          8.7800957867342,
+          16.462679600126627,
+          21.9502394668355,
+          10.97511973341775,
+          8.231339800063314
+        ],
+        "cumulative_volume": [
+          3.0181579266898817,
+          11.798253713424081,
+          28.26093331355071,
+          50.21117278038621,
+          61.186292513803956,
+          69.41763231386727
+        ]
+      },
+      "critical_pore_diameter": 0.15000000000000002,
+      "permeability_coefficient": 2e-15
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 1,
+      "total_porosity": 65.52206841301079,
+      "pore_size_distribution": {
+        "pore_sizes_um": [
+          0.01,
+          0.1,
+          1,
+          10,
+          100,
+          1000
+        ],
+        "volume_percentages": [
+          3.4485299164742518,
+          7.8823540947982895,
+          14.779413927746793,
+          19.705885236995723,
+          9.852942618497861,
+          9.852942618497861
+        ],
+        "cumulative_volume": [
+          3.4485299164742518,
+          11.330884011272541,
+          26.110297939019333,
+          45.81618317601506,
+          55.66912579451292,
+          65.52206841301079
+        ]
+      },
+      "critical_pore_diameter": 0.2,
+      "permeability_coefficient": 3.0000000000000002e-15
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 2,
+      "total_porosity": 61.01044364132979,
+      "pore_size_distribution": {
+        "pore_sizes_um": [
+          0.01,
+          0.1,
+          1,
+          10,
+          100,
+          1000
+        ],
+        "volume_percentages": [
+          3.211075981122621,
+          7.339602242565991,
+          13.761754204811233,
+          18.349005606414977,
+          9.174502803207488,
+          9.174502803207488
+        ],
+        "cumulative_volume": [
+          3.211075981122621,
+          10.550678223688612,
+          24.312432428499847,
+          42.66143803491482,
+          51.83594083812231,
+          61.0104436413298
+        ]
+      },
+      "critical_pore_diameter": 0.2,
+      "permeability_coefficient": 3.0000000000000002e-15
+    },
+    {
+      "mix_id": "Mix_10pct_Rubber",
+      "rubber_replacement": 10,
+      "specimen_id": 3,
+      "total_porosity": 64.3627841530076,
+      "pore_size_distribution": {
+        "pore_sizes_um": [
+          0.01,
+          0.1,
+          1,
+          10,
+          100,
+          1000
+        ],
+        "volume_percentages": [
+          3.387514955421452,
+          7.742891326677605,
+          14.51792123752051,
+          19.357228316694012,
+          9.678614158347006,
+          9.678614158347006
+        ],
+        "cumulative_volume": [
+          3.387514955421452,
+          11.130406282099058,
+          25.648327519619567,
+          45.005555836313576,
+          54.68416999466058,
+          64.36278415300758
+        ]
+      },
+      "critical_pore_diameter": 0.2,
+      "permeability_coefficient": 3.0000000000000002e-15
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 1,
+      "total_porosity": 72.63019689357249,
+      "pore_size_distribution": {
+        "pore_sizes_um": [
+          0.01,
+          0.1,
+          1,
+          10,
+          100,
+          1000
+        ],
+        "volume_percentages": [
+          4.425495868067141,
+          8.3303451634205,
+          15.619397181413436,
+          20.82586290855125,
+          10.412931454275625,
+          13.016164317844531
+        ],
+        "cumulative_volume": [
+          4.425495868067141,
+          12.755841031487641,
+          28.375238212901078,
+          49.201101121452325,
+          59.61403257572795,
+          72.63019689357247
+        ]
+      },
+      "critical_pore_diameter": 0.25,
+      "permeability_coefficient": 4e-15
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 2,
+      "total_porosity": 65.81802124419228,
+      "pore_size_distribution": {
+        "pore_sizes_um": [
+          0.01,
+          0.1,
+          1,
+          10,
+          100,
+          1000
+        ],
+        "volume_percentages": [
+          4.010417065058311,
+          7.54902035775682,
+          14.154413170794038,
+          18.87255089439205,
+          9.436275447196024,
+          11.795344308995032
+        ],
+        "cumulative_volume": [
+          4.010417065058311,
+          11.559437422815131,
+          25.71385059360917,
+          44.586401488001215,
+          54.02267693519724,
+          65.81802124419227
+        ]
+      },
+      "critical_pore_diameter": 0.25,
+      "permeability_coefficient": 4e-15
+    },
+    {
+      "mix_id": "Mix_15pct_Rubber",
+      "rubber_replacement": 15,
+      "specimen_id": 3,
+      "total_porosity": 64.01501274092415,
+      "pore_size_distribution": {
+        "pore_sizes_um": [
+          0.01,
+          0.1,
+          1,
+          10,
+          100,
+          1000
+        ],
+        "volume_percentages": [
+          3.9005563318842666,
+          7.342223683546855,
+          13.766669406650355,
+          18.355559208867138,
+          9.177779604433569,
+          11.472224505541961
+        ],
+        "cumulative_volume": [
+          3.9005563318842666,
+          11.242780015431123,
+          25.009449422081477,
+          43.365008630948616,
+          52.54278823538218,
+          64.01501274092415
+        ]
+      },
+      "critical_pore_diameter": 0.25,
+      "permeability_coefficient": 4e-15
+    }
+  ],
+  "chemical_analysis": {
+    "tga": {
+      "sample_type": "Crumb rubber",
+      "temperature_range": "25-800\u00b0C",
+      "heating_rate": "10\u00b0C/min",
+      "atmosphere": "Nitrogen",
+      "weight_loss_stages": [
+        {
+          "temperature_range": "25-200\u00b0C",
+          "weight_loss": 2.5,
+          "description": "Moisture and volatiles"
+        },
+        {
+          "temperature_range": "200-350\u00b0C",
+          "weight_loss": 15.0,
+          "description": "Plasticizer decomposition"
+        },
+        {
+          "temperature_range": "350-500\u00b0C",
+          "weight_loss": 45.0,
+          "description": "Rubber polymer decomposition"
+        },
+        {
+          "temperature_range": "500-800\u00b0C",
+          "weight_loss": 2.5,
+          "description": "Carbon black oxidation"
+        },
+        {
+          "residual_at_800\u00b0C": 35.0,
+          "description": "Ash and carbon black residue"
+        }
+      ]
+    },
+    "ftir": {
+      "sample_type": "Crumb rubber",
+      "wavenumber_range": "4000-400 cm\u207b\u00b9",
+      "resolution": "4 cm\u207b\u00b9",
+      "peaks": [
+        {
+          "wavenumber": 2950,
+          "intensity": 0.85,
+          "assignment": "C-H stretching (CH\u2082, CH\u2083)"
+        },
+        {
+          "wavenumber": 1640,
+          "intensity": 0.45,
+          "assignment": "C=C stretching (natural rubber)"
+        },
+        {
+          "wavenumber": 1440,
+          "intensity": 0.6,
+          "assignment": "CH\u2082 bending"
+        },
+        {
+          "wavenumber": 1375,
+          "intensity": 0.4,
+          "assignment": "CH\u2083 bending"
+        },
+        {
+          "wavenumber": 1100,
+          "intensity": 0.25,
+          "assignment": "C-O stretching (additives)"
+        },
+        {
+          "wavenumber": 800,
+          "intensity": 0.3,
+          "assignment": "C-H out-of-plane bending"
+        }
+      ]
+    }
+  },
+  "curing_regime": {
+    "curing_method": "Lime-saturated water curing",
+    "curing_temperature": "23 \u00b1 2\u00b0C",
+    "curing_duration": "28 days",
+    "specimen_preparation": {
+      "demolding_time": "24 hours after casting",
+      "initial_curing": "24 hours in molds at 23\u00b0C, 95% RH",
+      "water_curing": "27 days in lime-saturated water at 23\u00b0C"
+    },
+    "quality_control": {
+      "temperature_monitoring": "Continuous with data logger",
+      "ph_monitoring": "Weekly pH checks (maintained at 12.5-13.0)",
+      "specimen_handling": "Minimal handling, no drying before testing"
+    }
+  },
+  "statistical_summary": {
+    "fresh_properties": "                   slump_flow               ... fresh_density                  \n                         mean   std    min  ...           std      min      max\nrubber_replacement                          ...                                \n0                      173.95  2.42  171.9  ...         13.39  2361.37  2386.07\n5                      110.81  9.07  102.8  ...          9.65  2349.37  2367.66\n10                      50.00  0.00   50.0  ...         71.48  2257.90  2399.68\n15                      50.00  0.00   50.0  ...         18.75  2298.00  2335.47\n\n[4 rows x 12 columns]",
+    "mechanical_properties": "                            compressive_strength        ... modulus_elasticity       \n                                            mean   std  ...                min    max\nrubber_replacement age_days                             ...                          \n0                  7                       35.51  1.99  ...                NaN    NaN\n                   28                      44.89  3.41  ...              31.53  35.89\n5                  7                       14.50  1.26  ...                NaN    NaN\n                   28                      17.66  1.16  ...              10.00  10.00\n10                 7                       10.00  0.00  ...                NaN    NaN\n                   28                      15.00  0.00  ...              10.00  10.00\n15                 7                       10.00  0.00  ...                NaN    NaN\n                   28                      15.00  0.00  ...              10.00  10.00\n\n[8 rows x 12 columns]",
+    "physical_properties": "                   oven_dry_density                  ... ultrasonic_pulse_velocity                  \n                               mean    std      min  ...                       std      min      max\nrubber_replacement                                   ...                                            \n0                           2353.14  79.96  2277.78  ...                    153.12  4361.71  4720.38\n5                           2034.53  48.72  1985.03  ...                     65.86  2683.14  2872.78\n10                          1676.18  14.03  1650.79  ...                      7.68   903.17   924.29\n15                          1327.67  33.81  1280.47  ...                     23.54  -956.49  -891.62\n\n[4 rows x 16 columns]"
+  }
+}
