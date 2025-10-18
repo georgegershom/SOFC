@@ -1,0 +1,17 @@
+# Requirements for Numerical Modeling Dataset
+# Fire-Resistant Rubberized Concrete
+
+# Core scientific computing
+numpy>=1.20.0
+pandas>=1.2.0
+scipy>=1.6.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Optional: For advanced analysis
+# scikit-learn>=0.24.0  # For statistical analysis
+# plotly>=5.0.0         # For interactive visualizations
+# h5py>=3.0.0           # For HDF5 file support
+# openpyxl>=3.0.0       # For Excel file support

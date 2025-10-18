@@ -1,0 +1,56 @@
+{
+  "generated_date": "2025-10-18T19:32:29.168397",
+  "temperature_range_C": [
+    20,
+    800
+  ],
+  "rubber_content_range_percent": [
+    0,
+    30
+  ],
+  "water_cement_ratios": [
+    0.35,
+    0.4,
+    0.45
+  ],
+  "properties": {
+    "porosity": {
+      "range": [
+        0.08,
+        0.5
+      ],
+      "units": "fraction",
+      "method": "Mercury intrusion porosimetry"
+    },
+    "permeability": {
+      "range": [
+        1e-20,
+        1e-10
+      ],
+      "units": "m^2",
+      "methods": [
+        "Gas permeability (Cembureau)",
+        "Water permeability"
+      ]
+    },
+    "pore_pressure": {
+      "range": [
+        0,
+        10
+      ],
+      "units": "MPa",
+      "critical_value": "2-4 MPa for spalling"
+    },
+    "saturation": {
+      "range": [
+        0,
+        1
+      ],
+      "units": "fraction",
+      "initial": 0.75
+    }
+  },
+  "damage_model": "Mazars damage model with temperature coupling",
+  "moisture_transport": "Fick's law with temperature-dependent diffusivity",
+  "data_source": "Synthetic data based on literature and theoretical models"
+}

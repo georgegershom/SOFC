@@ -1,0 +1,68 @@
+{
+  "generated_date": "2025-10-18T19:41:01.436295",
+  "specimen_types": [
+    "slab",
+    "column",
+    "wall"
+  ],
+  "rubber_content_range_percent": [
+    0,
+    30
+  ],
+  "moisture_content_range": [
+    0.5,
+    0.95
+  ],
+  "spalling_characteristics": {
+    "depth_range_mm": [
+      5,
+      50
+    ],
+    "area_range_cm2": [
+      50,
+      500
+    ],
+    "time_to_first_spalling_min": [
+      5,
+      120
+    ],
+    "acoustic_emission": {
+      "sound_level_dB": [
+        70,
+        100
+      ],
+      "frequency_Hz": [
+        1000,
+        5000
+      ]
+    }
+  },
+  "failure_modes": [
+    "spalling",
+    "crushing",
+    "buckling",
+    "thermal_bowing",
+    "shear",
+    "no_failure"
+  ],
+  "measurement_techniques": {
+    "visual_inspection": "High-speed camera (1000 fps)",
+    "acoustic_monitoring": "Piezoelectric sensors",
+    "laser_scanning": "3D surface profiling",
+    "thermal_imaging": "IR camera for hot spots",
+    "digital_image_correlation": "Full-field strain measurement"
+  },
+  "critical_parameters": {
+    "pore_pressure_threshold_MPa": 4,
+    "tensile_strength_threshold_MPa": 3,
+    "moisture_clog_depth_mm": 20,
+    "temperature_gradient_C_mm": 10
+  },
+  "rubber_benefits": {
+    "spalling_reduction": "Up to 60% reduction in spalling risk",
+    "failure_time_extension": "Up to 40% increase in time to failure",
+    "crack_reduction": "Up to 50% reduction in crack density",
+    "improved_permeability": "Enhanced moisture escape paths"
+  },
+  "data_usage": "Model validation for spalling and failure prediction"
+}
