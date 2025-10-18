@@ -1,0 +1,49 @@
+{
+  "cement_characterization": {
+    "type": "OPC Type I",
+    "manufacturer": "Portland Cement Co.",
+    "batch_number": "PC-2024-001",
+    "specific_gravity": 3.15,
+    "fineness_blaine": 350,
+    "fineness_blaine_units": "m²/kg",
+    "chemical_composition_xrf": {
+      "SiO2": 20.8,
+      "Al2O3": 5.2,
+      "Fe2O3": 3.1,
+      "CaO": 63.4,
+      "MgO": 2.1,
+      "SO3": 2.8,
+      "Na2O": 0.3,
+      "K2O": 0.6,
+      "LOI": 1.7,
+      "units": "% by mass"
+    },
+    "bogue_composition": {
+      "C3S": 56.2,
+      "C2S": 18.7,
+      "C3A": 8.9,
+      "C4AF": 9.4,
+      "units": "% by mass",
+      "calculation_method": "ASTM C150"
+    },
+    "physical_properties": {
+      "initial_setting_time": 145,
+      "final_setting_time": 285,
+      "setting_time_units": "minutes",
+      "compressive_strength_3d": 28.5,
+      "compressive_strength_7d": 42.1,
+      "compressive_strength_28d": 58.3,
+      "strength_units": "MPa",
+      "autoclave_expansion": 0.08,
+      "expansion_units": "%"
+    },
+    "thermal_properties": {
+      "specific_heat_20C": 0.84,
+      "specific_heat_units": "kJ/kg·K",
+      "thermal_conductivity_20C": 1.2,
+      "conductivity_units": "W/m·K",
+      "coefficient_thermal_expansion": 10.5e-6,
+      "expansion_units": "/°C"
+    }
+  }
+}

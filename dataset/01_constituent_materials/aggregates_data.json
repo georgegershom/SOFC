@@ -1,0 +1,68 @@
+{
+  "coarse_aggregate": {
+    "type": "Crushed granite",
+    "source": "Mountain Quarry Ltd.",
+    "nominal_max_size": 19,
+    "nominal_max_size_units": "mm",
+    "specific_gravity_bulk_dry": 2.68,
+    "specific_gravity_bulk_ssd": 2.72,
+    "specific_gravity_apparent": 2.78,
+    "water_absorption": 1.2,
+    "absorption_units": "%",
+    "bulk_density_loose": 1580,
+    "bulk_density_compacted": 1650,
+    "density_units": "kg/m³",
+    "sieve_analysis": {
+      "25.0mm": 100.0,
+      "19.0mm": 95.2,
+      "12.5mm": 68.4,
+      "9.5mm": 42.1,
+      "4.75mm": 8.3,
+      "2.36mm": 2.1,
+      "pan": 0.0,
+      "units": "% passing"
+    },
+    "fineness_modulus": 6.85,
+    "los_angeles_abrasion": 22.5,
+    "abrasion_units": "%",
+    "thermal_properties": {
+      "coefficient_thermal_expansion": 8.2e-6,
+      "expansion_units": "/°C",
+      "thermal_conductivity_20C": 2.8,
+      "conductivity_units": "W/m·K"
+    }
+  },
+  "fine_aggregate": {
+    "type": "Natural river sand",
+    "source": "River Valley Aggregates",
+    "specific_gravity_bulk_dry": 2.62,
+    "specific_gravity_bulk_ssd": 2.65,
+    "specific_gravity_apparent": 2.71,
+    "water_absorption": 1.8,
+    "absorption_units": "%",
+    "bulk_density_loose": 1520,
+    "bulk_density_compacted": 1680,
+    "density_units": "kg/m³",
+    "sieve_analysis": {
+      "9.5mm": 100.0,
+      "4.75mm": 98.5,
+      "2.36mm": 85.2,
+      "1.18mm": 68.4,
+      "0.6mm": 45.2,
+      "0.3mm": 18.7,
+      "0.15mm": 4.2,
+      "pan": 0.0,
+      "units": "% passing"
+    },
+    "fineness_modulus": 2.68,
+    "moisture_content": 2.1,
+    "moisture_units": "%",
+    "organic_impurities": "Light straw color (Plate 2)",
+    "thermal_properties": {
+      "coefficient_thermal_expansion": 7.8e-6,
+      "expansion_units": "/°C",
+      "thermal_conductivity_20C": 1.8,
+      "conductivity_units": "W/m·K"
+    }
+  }
+}

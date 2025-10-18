@@ -1,0 +1,126 @@
+{
+  "crumb_rubber_characterization": {
+    "source": {
+      "tire_type": "Passenger car tires",
+      "processing_method": "Ambient grinding",
+      "supplier": "GreenTire Recycling Inc.",
+      "batch_number": "CR-2024-A15"
+    },
+    "physical_properties": {
+      "specific_gravity": 1.15,
+      "bulk_density_loose": 480,
+      "bulk_density_compacted": 650,
+      "density_units": "kg/m³",
+      "mohs_hardness": 2.5,
+      "water_absorption_24h": 0.8,
+      "absorption_units": "%"
+    },
+    "particle_size_distribution": {
+      "size_range_1": {
+        "designation": "Fine rubber (FR)",
+        "nominal_range": "1-4mm",
+        "sieve_analysis": {
+          "4.75mm": 100.0,
+          "4.0mm": 95.8,
+          "2.36mm": 78.4,
+          "1.18mm": 45.2,
+          "0.6mm": 18.7,
+          "0.3mm": 5.2,
+          "pan": 0.0,
+          "units": "% passing"
+        },
+        "fineness_modulus": 4.12,
+        "d50": 2.1,
+        "d50_units": "mm"
+      },
+      "size_range_2": {
+        "designation": "Coarse rubber (CR)",
+        "nominal_range": "4-8mm",
+        "sieve_analysis": {
+          "9.5mm": 100.0,
+          "8.0mm": 92.3,
+          "6.3mm": 68.5,
+          "4.75mm": 28.4,
+          "4.0mm": 12.1,
+          "2.36mm": 3.2,
+          "pan": 0.0,
+          "units": "% passing"
+        },
+        "fineness_modulus": 5.85,
+        "d50": 5.8,
+        "d50_units": "mm"
+      }
+    },
+    "chemical_composition": {
+      "tga_analysis": {
+        "temperature_range": "25-800°C",
+        "heating_rate": "10°C/min",
+        "atmosphere": "nitrogen",
+        "results": {
+          "moisture_content": 0.8,
+          "volatile_organics": 62.4,
+          "carbon_black": 28.7,
+          "ash_content": 8.1,
+          "units": "% by mass"
+        }
+      },
+      "ftir_analysis": {
+        "major_peaks": {
+          "2920_cm-1": "C-H stretching (alkyl)",
+          "2850_cm-1": "C-H stretching (alkyl)",
+          "1540_cm-1": "C=C stretching (aromatic)",
+          "1450_cm-1": "C-H bending",
+          "1375_cm-1": "C-H bending (methyl)",
+          "835_cm-1": "C-H out-of-plane bending",
+          "740_cm-1": "C-S stretching"
+        },
+        "polymer_identification": "Styrene-butadiene rubber (SBR) with natural rubber (NR)"
+      },
+      "elemental_composition": {
+        "carbon": 78.5,
+        "hydrogen": 7.2,
+        "sulfur": 1.8,
+        "oxygen": 4.1,
+        "nitrogen": 0.4,
+        "zinc": 2.1,
+        "silicon": 3.8,
+        "other": 2.1,
+        "units": "% by mass"
+      }
+    },
+    "morphology": {
+      "sem_analysis": {
+        "magnifications": ["100x", "500x", "1000x", "5000x"],
+        "observations": {
+          "surface_texture": "Rough, irregular with sharp edges from grinding",
+          "particle_shape": "Angular to sub-angular",
+          "porosity": "Low surface porosity, dense structure",
+          "fiber_content": "Minimal textile fiber contamination (<1%)"
+        }
+      }
+    },
+    "thermal_properties": {
+      "glass_transition_temp": -65,
+      "glass_transition_units": "°C",
+      "decomposition_temp_onset": 280,
+      "decomposition_temp_peak": 380,
+      "decomposition_units": "°C",
+      "coefficient_thermal_expansion": 180e-6,
+      "expansion_units": "/°C",
+      "thermal_conductivity_20C": 0.13,
+      "conductivity_units": "W/m·K",
+      "specific_heat_20C": 1.8,
+      "specific_heat_units": "kJ/kg·K"
+    },
+    "fire_resistance_properties": {
+      "limiting_oxygen_index": 18.5,
+      "loi_units": "%",
+      "heat_release_rate_peak": 285,
+      "hrr_units": "kW/m²",
+      "time_to_ignition": 45,
+      "ignition_units": "seconds",
+      "smoke_production_rate": 0.18,
+      "spr_units": "m²/s"
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "water_characterization": {
+    "source": "Municipal tap water",
+    "treatment": "Chlorinated",
+    "ph": 7.2,
+    "ph_measurement_temp": 20,
+    "temp_units": "°C",
+    "total_dissolved_solids": 185,
+    "tds_units": "mg/L",
+    "chemical_analysis": {
+      "chlorides": 28,
+      "sulfates": 45,
+      "carbonates": 12,
+      "bicarbonates": 125,
+      "calcium": 68,
+      "magnesium": 18,
+      "sodium": 22,
+      "potassium": 8,
+      "units": "mg/L"
+    },
+    "suitability": "Meets ASTM C1602 requirements for concrete mixing water"
+  },
+  "chemical_admixtures": {
+    "superplasticizer": {
+      "type": "Polycarboxylate ether (PCE)",
+      "commercial_name": "MasterGlenium 7700",
+      "manufacturer": "BASF Construction Chemicals",
+      "solid_content": 40,
+      "solid_content_units": "%",
+      "specific_gravity": 1.08,
+      "ph": 6.5,
+      "chloride_content": 0.1,
+      "chloride_units": "% by mass",
+      "dosage_range": {
+        "minimum": 0.2,
+        "maximum": 2.0,
+        "recommended": 0.8,
+        "units": "% by cement mass"
+      },
+      "performance_data": {
+        "water_reduction": 25,
+        "water_reduction_units": "%",
+        "slump_retention_60min": 85,
+        "slump_retention_units": "% of initial"
+      }
+    },
+    "air_entraining_agent": {
+      "type": "Synthetic detergent",
+      "commercial_name": "MasterAir 100",
+      "manufacturer": "BASF Construction Chemicals",
+      "solid_content": 15,
+      "solid_content_units": "%",
+      "specific_gravity": 1.02,
+      "ph": 11.5,
+      "dosage_range": {
+        "minimum": 0.01,
+        "maximum": 0.1,
+        "recommended": 0.05,
+        "units": "% by cement mass"
+      },
+      "target_air_content": {
+        "minimum": 4.0,
+        "maximum": 7.0,
+        "units": "%"
+      }
+    },
+    "silica_fume": {
+      "type": "Densified silica fume",
+      "commercial_name": "MicroSilica 940-D",
+      "manufacturer": "Elkem Materials",
+      "specific_gravity": 2.22,
+      "bulk_density": 650,
+      "density_units": "kg/m³",
+      "fineness_blaine": 20000,
+      "fineness_units": "m²/kg",
+      "chemical_composition": {
+        "SiO2": 94.2,
+        "Al2O3": 0.8,
+        "Fe2O3": 1.2,
+        "CaO": 0.4,
+        "MgO": 0.8,
+        "SO3": 0.3,
+        "Na2O": 0.2,
+        "K2O": 1.1,
+        "LOI": 1.0,
+        "units": "% by mass"
+      },
+      "replacement_level": {
+        "typical": 8,
+        "maximum": 15,
+        "units": "% by cement mass"
+      }
+    },
+    "fiber_reinforcement": {
+      "type": "Polypropylene microfibers",
+      "commercial_name": "Fibermesh 150",
+      "manufacturer": "Propex Concrete Systems",
+      "fiber_properties": {
+        "length": 19,
+        "length_units": "mm",
+        "diameter": 18,
+        "diameter_units": "μm",
+        "aspect_ratio": 1056,
+        "tensile_strength": 550,
+        "tensile_units": "MPa",
+        "elastic_modulus": 3800,
+        "modulus_units": "MPa",
+        "melting_point": 165,
+        "melting_units": "°C",
+        "specific_gravity": 0.91
+      },
+      "dosage": {
+        "typical": 0.6,
+        "maximum": 1.8,
+        "units": "kg/m³"
+      },
+      "fire_resistance": {
+        "ignition_temperature": 590,
+        "ignition_units": "°C",
+        "limiting_oxygen_index": 18.0,
+        "loi_units": "%"
+      }
+    }
+  }
+}
