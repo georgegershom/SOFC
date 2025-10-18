@@ -1,0 +1,131 @@
+specimen_id,rubber_content_pct,temperature_condition,event_number,event_type,onset_temp_C,peak_temp_C,endset_temp_C,enthalpy_J_g,peak_intensity_uV_mg,mass_loss_pct,phase_identification,interpretation
+DTA-R0-RT-01,0,unheated,1,endothermic,50,96,145,125.4,2850,2.15,Free_water,Evaporation of physically absorbed water
+DTA-R0-RT-01,0,unheated,2,endothermic,155,212,385,456.8,3420,8.67,CSH_bound_water,Dehydration of C-S-H gel structure
+DTA-R0-RT-01,0,unheated,3,endothermic,418,442,488,285.3,4680,3.42,Ca(OH)2,Dehydroxylation of Portlandite
+DTA-R0-RT-01,0,unheated,4,endothermic,648,712,782,168.7,2120,2.18,CaCO3,Decarbonation of calcite
+DTA-R0-RT-02,0,unheated,1,endothermic,52,98,148,132.1,2920,2.23,Free_water,Capillary and gel water loss
+DTA-R0-RT-02,0,unheated,2,endothermic,158,215,388,468.5,3510,8.84,CSH_bound_water,C-S-H structural water loss
+DTA-R0-RT-02,0,unheated,3,endothermic,420,444,491,293.6,4750,3.51,Ca(OH)2,CH decomposition
+DTA-R0-RT-02,0,unheated,4,endothermic,650,715,785,175.2,2180,2.24,CaCO3,Calcite decomposition
+DTA-R5-RT-01,5,unheated,1,endothermic,54,102,152,142.8,3080,2.42,Free_water,Free water evaporation
+DTA-R5-RT-01,5,unheated,2,endothermic,160,218,390,432.6,3280,8.21,CSH_bound_water,C-S-H dehydration
+DTA-R5-RT-01,5,unheated,3,exothermic,345,385,425,48.5,1250,0.58,Rubber_polymer,Rubber oxidation and combustion
+DTA-R5-RT-01,5,unheated,4,endothermic,412,438,484,274.2,4520,3.28,Ca(OH)2,Portlandite dehydroxylation
+DTA-R5-RT-01,5,unheated,5,endothermic,652,718,788,179.4,2280,2.31,CaCO3,Carbonate decomposition
+DTA-R5-RT-02,5,unheated,1,endothermic,57,105,156,148.3,3150,2.51,Free_water,Moisture removal
+DTA-R5-RT-02,5,unheated,2,endothermic,163,221,392,440.8,3340,8.35,CSH_bound_water,Bound water loss
+DTA-R5-RT-02,5,unheated,3,exothermic,348,388,428,51.2,1310,0.62,Rubber_polymer,Rubber thermal decomposition
+DTA-R5-RT-02,5,unheated,4,endothermic,415,440,487,280.1,4590,3.34,Ca(OH)2,CH breakdown
+DTA-R5-RT-02,5,unheated,5,endothermic,655,721,791,184.5,2340,2.38,CaCO3,CaCO3 decarbonation
+DTA-R10-RT-01,10,unheated,1,endothermic,59,108,158,158.2,3280,2.68,Free_water,Physical water loss
+DTA-R10-RT-01,10,unheated,2,endothermic,165,224,395,413.4,3150,7.84,CSH_bound_water,C-S-H water removal
+DTA-R10-RT-01,10,unheated,3,exothermic,352,392,432,106.8,2680,1.28,Rubber_polymer,Significant rubber combustion
+DTA-R10-RT-01,10,unheated,4,endothermic,406,434,480,261.5,4350,3.12,Ca(OH)2,Portlandite decomposition
+DTA-R10-RT-01,10,unheated,5,endothermic,658,724,794,190.8,2450,2.45,CaCO3,Calcite thermal breakdown
+DTA-R10-RT-02,10,unheated,1,endothermic,62,112,162,164.3,3380,2.78,Free_water,Evaporable water
+DTA-R10-RT-02,10,unheated,2,endothermic,168,227,398,421.6,3220,7.98,CSH_bound_water,CSH gel degradation
+DTA-R10-RT-02,10,unheated,3,exothermic,355,395,435,112.5,2780,1.35,Rubber_polymer,Rubber oxidation peak
+DTA-R10-RT-02,10,unheated,4,endothermic,408,436,483,266.8,4420,3.18,Ca(OH)2,CH dehydroxylation
+DTA-R10-RT-02,10,unheated,5,endothermic,661,727,797,196.2,2510,2.52,CaCO3,Carbonate loss
+DTA-R15-RT-01,15,unheated,1,endothermic,65,115,165,174.2,3520,2.95,Free_water,Free moisture evaporation
+DTA-R15-RT-01,15,unheated,2,endothermic,170,230,400,391.2,3020,7.42,CSH_bound_water,Reduced C-S-H content
+DTA-R15-RT-01,15,unheated,3,exothermic,358,398,438,173.6,4350,2.08,Rubber_polymer,Major rubber combustion
+DTA-R15-RT-01,15,unheated,4,endothermic,398,428,476,246.8,4180,2.95,Ca(OH)2,Lower CH content
+DTA-R15-RT-01,15,unheated,5,endothermic,665,731,801,202.5,2620,2.61,CaCO3,Carbonate decomposition
+DTA-R15-RT-02,15,unheated,1,endothermic,68,119,169,181.6,3640,3.08,Free_water,Water removal
+DTA-R15-RT-02,15,unheated,2,endothermic,173,233,403,398.5,3080,7.56,CSH_bound_water,CSH dehydration
+DTA-R15-RT-02,15,unheated,3,exothermic,361,402,441,181.8,4520,2.18,Rubber_polymer,Rubber thermal oxidation
+DTA-R15-RT-02,15,unheated,4,endothermic,401,430,479,252.4,4250,3.02,Ca(OH)2,Portlandite loss
+DTA-R15-RT-02,15,unheated,5,endothermic,668,734,804,207.8,2680,2.68,CaCO3,CaCO3 breakdown
+DTA-R20-RT-01,20,unheated,1,endothermic,72,122,172,192.1,3820,3.25,Free_water,High porosity water content
+DTA-R20-RT-01,20,unheated,2,endothermic,176,236,406,368.2,2940,6.98,CSH_bound_water,Low hydration degree
+DTA-R20-RT-01,20,unheated,3,exothermic,365,405,445,246.2,6180,2.95,Rubber_polymer,Extensive rubber content
+DTA-R20-RT-01,20,unheated,4,endothermic,390,422,472,230.6,4020,2.76,Ca(OH)2,Reduced CH due to poor hydration
+DTA-R20-RT-01,20,unheated,5,endothermic,672,738,808,215.4,2780,2.78,CaCO3,Carbonate loss
+DTA-R20-RT-02,20,unheated,1,endothermic,75,127,176,199.8,3950,3.38,Free_water,Capillary water
+DTA-R20-RT-02,20,unheated,2,endothermic,179,239,409,375.6,3010,7.12,CSH_bound_water,CSH gel water
+DTA-R20-RT-02,20,unheated,3,exothermic,368,409,448,259.4,6520,3.12,Rubber_polymer,Maximum rubber combustion
+DTA-R20-RT-02,20,unheated,4,endothermic,393,424,475,237.2,4090,2.84,Ca(OH)2,Low Portlandite content
+DTA-R20-RT-02,20,unheated,5,endothermic,676,742,812,221.8,2840,2.85,CaCO3,Calcite decomposition
+DTA-R0-400-01,0,post_400C,1,endothermic,48,72,138,85.6,1820,1.45,Residual_water,Remaining free water
+DTA-R0-400-01,0,post_400C,2,endothermic,152,198,378,306.8,2450,5.82,CSH_decomp,Partially degraded C-S-H
+DTA-R0-400-01,0,post_400C,3,endothermic,405,428,475,211.2,3680,2.52,Ca(OH)2_residual,Remaining Portlandite
+DTA-R0-400-01,0,post_400C,4,endothermic,640,702,772,200.5,2580,2.58,CaCO3,Carbonate phase
+DTA-R0-400-02,0,post_400C,1,endothermic,51,76,142,89.8,1890,1.52,Residual_water,Post-heating water
+DTA-R0-400-02,0,post_400C,2,endothermic,155,202,381,313.4,2510,5.94,CSH_decomp,Degraded gel
+DTA-R0-400-02,0,post_400C,3,endothermic,408,431,478,218.5,3750,2.61,Ca(OH)2_residual,Residual CH
+DTA-R0-400-02,0,post_400C,4,endothermic,643,705,775,205.8,2640,2.65,CaCO3,Calcite loss
+DTA-R5-400-01,5,post_400C,1,endothermic,54,78,145,99.2,2050,1.68,Residual_water,Water after heating
+DTA-R5-400-01,5,post_400C,2,endothermic,158,205,384,285.6,2280,5.42,CSH_decomp,Damaged C-S-H structure
+DTA-R5-400-01,5,post_400C,3,exothermic,265,298,332,12.5,320,0.15,Rubber_residue,Remaining rubber char
+DTA-R5-400-01,5,post_400C,4,endothermic,395,420,468,190.8,3420,2.28,Ca(OH)2_residual,Depleted Portlandite
+DTA-R5-400-01,5,post_400C,5,endothermic,645,708,778,211.4,2720,2.72,CaCO3,Carbonate decomposition
+DTA-R5-400-02,5,post_400C,1,endothermic,57,82,149,103.6,2120,1.74,Residual_water,Remaining moisture
+DTA-R5-400-02,5,post_400C,2,endothermic,161,208,387,291.8,2340,5.53,CSH_decomp,Partially destroyed gel
+DTA-R5-400-02,5,post_400C,3,exothermic,268,302,336,15.0,350,0.18,Rubber_residue,Rubber char oxidation
+DTA-R5-400-02,5,post_400C,4,endothermic,397,422,471,196.4,3480,2.34,Ca(OH)2_residual,Low CH remaining
+DTA-R5-400-02,5,post_400C,5,endothermic,648,711,781,216.8,2780,2.78,CaCO3,Calcite thermal loss
+DTA-R10-400-01,10,post_400C,1,endothermic,61,85,153,113.6,2280,1.92,Residual_water,Post-400C water
+DTA-R10-400-01,10,post_400C,2,endothermic,163,211,390,267.8,2110,5.08,CSH_decomp,Severely damaged CSH
+DTA-R10-400-01,10,post_400C,3,exothermic,272,308,340,29.2,740,0.35,Rubber_residue,Rubber char remains
+DTA-R10-400-01,10,post_400C,4,endothermic,386,412,462,171.5,3180,2.05,Ca(OH)2_residual,Very low CH
+DTA-R10-400-01,10,post_400C,5,endothermic,650,715,784,223.6,2880,2.88,CaCO3,Carbonate phase loss
+DTA-R10-400-02,10,post_400C,1,endothermic,64,88,157,117.2,2350,1.98,Residual_water,Remaining water
+DTA-R10-400-02,10,post_400C,2,endothermic,166,214,393,273.4,2170,5.18,CSH_decomp,Damaged hydrate
+DTA-R10-400-02,10,post_400C,3,exothermic,275,312,344,31.8,780,0.38,Rubber_residue,Carbonized rubber
+DTA-R10-400-02,10,post_400C,4,endothermic,388,414,465,176.2,3240,2.11,Ca(OH)2_residual,Minimal Portlandite
+DTA-R10-400-02,10,post_400C,5,endothermic,653,718,787,228.9,2940,2.94,CaCO3,CaCO3 breakdown
+DTA-R15-400-01,15,post_400C,1,endothermic,68,92,161,128.6,2520,2.18,Residual_water,Water content
+DTA-R15-400-01,15,post_400C,2,endothermic,169,217,396,248.6,1980,4.72,CSH_decomp,Extensively degraded gel
+DTA-R15-400-01,15,post_400C,3,exothermic,278,318,348,48.4,1220,0.58,Rubber_residue,Char combustion
+DTA-R15-400-01,15,post_400C,4,endothermic,376,404,456,152.2,2950,1.82,Ca(OH)2_residual,Trace Portlandite
+DTA-R15-400-01,15,post_400C,5,endothermic,658,722,791,237.2,3080,3.05,CaCO3,Carbonate loss
+DTA-R20-400-01,20,post_400C,1,endothermic,72,102,169,147.8,2780,2.52,Residual_water,High porosity water
+DTA-R20-400-01,20,post_400C,2,endothermic,172,220,399,229.1,1840,4.35,CSH_decomp,Minimal CSH remaining
+DTA-R20-400-01,20,post_400C,3,exothermic,282,328,356,73.5,1850,0.88,Rubber_residue,Significant char
+DTA-R20-400-01,20,post_400C,4,endothermic,368,396,450,138.1,2720,1.65,Ca(OH)2_residual,Very low CH content
+DTA-R20-400-01,20,post_400C,5,endothermic,668,732,801,252.4,3280,3.25,CaCO3,Calcite decomposition
+DTA-R0-600-01,0,post_600C,1,endothermic,45,52,122,57.8,1120,0.98,Residual_water,Minimal water remains
+DTA-R0-600-01,0,post_600C,2,endothermic,148,185,365,202.8,1620,3.85,CSH_residue,Severely decomposed CSH
+DTA-R0-600-01,0,post_600C,3,endothermic,372,385,435,93.6,1650,1.12,Ca(OH)2_trace,Trace CH remaining
+DTA-R0-600-01,0,post_600C,4,endothermic,625,685,755,151.2,1950,1.95,CaCO3,Reduced carbonate
+DTA-R0-600-02,0,post_600C,1,endothermic,48,56,126,62.1,1180,1.05,Residual_water,Post-600C water
+DTA-R0-600-02,0,post_600C,2,endothermic,151,188,368,207.6,1680,3.94,CSH_residue,Decomposed gel phase
+DTA-R0-600-02,0,post_600C,3,endothermic,375,388,438,98.4,1710,1.18,Ca(OH)2_trace,Minimal Portlandite
+DTA-R0-600-02,0,post_600C,4,endothermic,628,689,758,156.5,2010,2.02,CaCO3,Carbonate phase
+DTA-R5-600-01,5,post_600C,1,endothermic,52,58,130,67.9,1280,1.15,Residual_water,Trace water
+DTA-R5-600-01,5,post_600C,2,endothermic,154,191,371,185.4,1480,3.52,CSH_residue,Minimal CSH left
+DTA-R5-600-01,5,post_600C,3,endothermic,361,376,428,71.2,1250,0.85,Ca(OH)2_trace,Nearly no CH
+DTA-R5-600-01,5,post_600C,4,endothermic,630,692,761,164.8,2120,2.12,CaCO3,Calcite loss
+DTA-R10-600-01,10,post_600C,1,endothermic,58,65,138,79.8,1460,1.35,Residual_water,Minimal moisture
+DTA-R10-600-01,10,post_600C,2,endothermic,157,194,374,167.2,1340,3.18,CSH_residue,Trace CSH
+DTA-R10-600-01,10,post_600C,3,endothermic,350,368,420,51.8,910,0.62,Ca(OH)2_trace,Trace Portlandite
+DTA-R10-600-01,10,post_600C,4,endothermic,638,698,768,177.3,2280,2.28,CaCO3,Carbonate breakdown
+DTA-R15-600-01,15,post_600C,1,endothermic,65,72,145,93.2,1680,1.58,Residual_water,Residual water
+DTA-R15-600-01,15,post_600C,2,endothermic,160,197,377,150.1,1200,2.85,CSH_residue,Nearly complete CSH loss
+DTA-R15-600-01,15,post_600C,3,endothermic,338,358,412,35.2,620,0.42,Ca(OH)2_trace,Negligible CH
+DTA-R15-600-01,15,post_600C,4,endothermic,645,705,775,190.5,2450,2.45,CaCO3,Calcite decomposition
+DTA-R20-600-01,20,post_600C,1,endothermic,72,82,155,109.2,1980,1.85,Residual_water,High porosity effects
+DTA-R20-600-01,20,post_600C,2,endothermic,163,200,380,132.6,1060,2.52,CSH_residue,Minimal binding phase
+DTA-R20-600-01,20,post_600C,3,endothermic,328,348,405,23.4,410,0.28,Ca(OH)2_trace,Essentially no CH
+DTA-R20-600-01,20,post_600C,4,endothermic,655,715,785,206.1,2650,2.65,CaCO3,Carbonate loss
+DTA-R0-800-01,0,post_800C,1,endothermic,42,35,105,38.4,720,0.65,Residual_water,Trace water absorption
+DTA-R0-800-01,0,post_800C,2,endothermic,142,175,352,113.2,910,2.15,CSH_trace,Decomposed remnants
+DTA-R0-800-01,0,post_800C,3,endothermic,328,342,395,26.8,470,0.32,Ca(OH)2_trace,No significant CH
+DTA-R0-800-01,0,post_800C,4,endothermic,592,625,708,68.4,880,0.88,CaCO3_residue,Minimal carbonate
+DTA-R5-800-01,5,post_800C,1,endothermic,45,42,112,46.2,850,0.78,Residual_water,Absorbed moisture
+DTA-R5-800-01,5,post_800C,2,endothermic,145,178,355,102.8,730,1.95,CSH_trace,Trace decomposed gel
+DTA-R5-800-01,5,post_800C,3,endothermic,318,334,388,15.1,260,0.18,Ca(OH)2_trace,Essentially nil
+DTA-R5-800-01,5,post_800C,4,endothermic,598,632,715,79.3,1020,1.02,CaCO3_residue,Small carbonate loss
+DTA-R10-800-01,10,post_800C,1,endothermic,48,48,120,56.1,1020,0.95,Residual_water,Hygroscopic water
+DTA-R10-800-01,10,post_800C,2,endothermic,148,181,358,93.7,590,1.78,CSH_trace,Negligible CSH
+DTA-R10-800-01,10,post_800C,3,endothermic,308,326,380,10.0,180,0.12,Ca(OH)2_trace,No CH detected
+DTA-R10-800-01,10,post_800C,4,endothermic,608,642,725,91.8,1170,1.18,CaCO3_residue,Residual carbonate
+DTA-R15-800-01,15,post_800C,1,endothermic,52,55,128,67.9,1180,1.15,Residual_water,Absorbed water
+DTA-R15-800-01,15,post_800C,2,endothermic,151,184,361,85.1,480,1.62,CSH_trace,Minimal phase
+DTA-R15-800-01,15,post_800C,3,endothermic,298,318,372,6.7,120,0.08,Ca(OH)2_trace,None detected
+DTA-R15-800-01,15,post_800C,4,endothermic,618,652,738,105.1,1350,1.35,CaCO3_residue,Carbonate remnant
+DTA-R20-800-01,20,post_800C,1,endothermic,58,65,138,77.9,1350,1.32,Residual_water,High porosity water
+DTA-R20-800-01,20,post_800C,2,endothermic,154,187,364,74.8,360,1.42,CSH_trace,Nearly absent
+DTA-R20-800-01,20,post_800C,3,endothermic,288,308,365,4.2,70,0.05,Ca(OH)2_trace,Below detection
+DTA-R20-800-01,20,post_800C,4,endothermic,628,662,748,118.1,1550,1.52,CaCO3_residue,Small loss
