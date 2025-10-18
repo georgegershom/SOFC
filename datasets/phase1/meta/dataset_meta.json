@@ -1,0 +1,11 @@
+{
+  "title": "Phase 1: Material Characterization & Specimen Preparation",
+  "topic": "Development and Validation of a Thermo-Mechanical Model for Fire-Resistant Structural Elements Utilizing High-Performance Rubberized Concrete",
+  "description": "Synthetic baseline dataset with deterministic values, including constituent materials, mix designs, and fresh concrete properties. Includes synthetic SEM images representative of crumb rubber morphology (pre-heating).",
+  "random_seed": 42,
+  "directories": {
+    "materials": "materials",
+    "mixes": "mixes",
+    "images_sem": "images/sem"
+  }
+}
