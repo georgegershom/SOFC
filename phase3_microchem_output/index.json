@@ -1,0 +1,437 @@
+{
+  "entries": [
+    {
+      "Sample_ID": "C28-HPRC-0-200C-Furnace-Rep1",
+      "Mix_ID": "HPRC-0",
+      "Temperature_C": 200,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-0-200C-Furnace-Rep1.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-0-200C-Furnace-Rep1_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-0-200C-Furnace-Rep1_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-0-200C-Furnace-Rep1_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-0-200C-Furnace-Rep1_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-0-200C-Furnace-Rep2",
+      "Mix_ID": "HPRC-0",
+      "Temperature_C": 200,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-0-200C-Furnace-Rep2.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-0-200C-Furnace-Rep2_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-0-200C-Furnace-Rep2_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-0-200C-Furnace-Rep2_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-0-200C-Furnace-Rep2_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-0-200C-Furnace-Rep3",
+      "Mix_ID": "HPRC-0",
+      "Temperature_C": 200,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-0-200C-Furnace-Rep3.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-0-200C-Furnace-Rep3_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-0-200C-Furnace-Rep3_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-0-200C-Furnace-Rep3_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-0-200C-Furnace-Rep3_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-0-400C-Furnace-Rep1",
+      "Mix_ID": "HPRC-0",
+      "Temperature_C": 400,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-0-400C-Furnace-Rep1.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-0-400C-Furnace-Rep1_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-0-400C-Furnace-Rep1_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-0-400C-Furnace-Rep1_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-0-400C-Furnace-Rep1_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-0-400C-Furnace-Rep2",
+      "Mix_ID": "HPRC-0",
+      "Temperature_C": 400,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-0-400C-Furnace-Rep2.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-0-400C-Furnace-Rep2_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-0-400C-Furnace-Rep2_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-0-400C-Furnace-Rep2_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-0-400C-Furnace-Rep2_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-0-400C-Furnace-Rep3",
+      "Mix_ID": "HPRC-0",
+      "Temperature_C": 400,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-0-400C-Furnace-Rep3.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-0-400C-Furnace-Rep3_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-0-400C-Furnace-Rep3_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-0-400C-Furnace-Rep3_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-0-400C-Furnace-Rep3_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-0-600C-Furnace-Rep1",
+      "Mix_ID": "HPRC-0",
+      "Temperature_C": 600,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-0-600C-Furnace-Rep1.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-0-600C-Furnace-Rep1_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-0-600C-Furnace-Rep1_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-0-600C-Furnace-Rep1_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-0-600C-Furnace-Rep1_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-0-600C-Furnace-Rep2",
+      "Mix_ID": "HPRC-0",
+      "Temperature_C": 600,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-0-600C-Furnace-Rep2.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-0-600C-Furnace-Rep2_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-0-600C-Furnace-Rep2_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-0-600C-Furnace-Rep2_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-0-600C-Furnace-Rep2_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-0-600C-Furnace-Rep3",
+      "Mix_ID": "HPRC-0",
+      "Temperature_C": 600,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-0-600C-Furnace-Rep3.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-0-600C-Furnace-Rep3_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-0-600C-Furnace-Rep3_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-0-600C-Furnace-Rep3_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-0-600C-Furnace-Rep3_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-0-800C-Furnace-Rep1",
+      "Mix_ID": "HPRC-0",
+      "Temperature_C": 800,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-0-800C-Furnace-Rep1.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-0-800C-Furnace-Rep1_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-0-800C-Furnace-Rep1_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-0-800C-Furnace-Rep1_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-0-800C-Furnace-Rep1_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-0-800C-Furnace-Rep2",
+      "Mix_ID": "HPRC-0",
+      "Temperature_C": 800,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-0-800C-Furnace-Rep2.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-0-800C-Furnace-Rep2_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-0-800C-Furnace-Rep2_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-0-800C-Furnace-Rep2_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-0-800C-Furnace-Rep2_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-0-800C-Furnace-Rep3",
+      "Mix_ID": "HPRC-0",
+      "Temperature_C": 800,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-0-800C-Furnace-Rep3.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-0-800C-Furnace-Rep3_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-0-800C-Furnace-Rep3_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-0-800C-Furnace-Rep3_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-0-800C-Furnace-Rep3_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-10-200C-Furnace-Rep1",
+      "Mix_ID": "HPRC-10",
+      "Temperature_C": 200,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-10-200C-Furnace-Rep1.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-10-200C-Furnace-Rep1_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-10-200C-Furnace-Rep1_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-10-200C-Furnace-Rep1_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-10-200C-Furnace-Rep1_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-10-200C-Furnace-Rep2",
+      "Mix_ID": "HPRC-10",
+      "Temperature_C": 200,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-10-200C-Furnace-Rep2.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-10-200C-Furnace-Rep2_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-10-200C-Furnace-Rep2_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-10-200C-Furnace-Rep2_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-10-200C-Furnace-Rep2_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-10-200C-Furnace-Rep3",
+      "Mix_ID": "HPRC-10",
+      "Temperature_C": 200,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-10-200C-Furnace-Rep3.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-10-200C-Furnace-Rep3_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-10-200C-Furnace-Rep3_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-10-200C-Furnace-Rep3_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-10-200C-Furnace-Rep3_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-10-400C-Furnace-Rep1",
+      "Mix_ID": "HPRC-10",
+      "Temperature_C": 400,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-10-400C-Furnace-Rep1.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-10-400C-Furnace-Rep1_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-10-400C-Furnace-Rep1_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-10-400C-Furnace-Rep1_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-10-400C-Furnace-Rep1_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-10-400C-Furnace-Rep2",
+      "Mix_ID": "HPRC-10",
+      "Temperature_C": 400,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-10-400C-Furnace-Rep2.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-10-400C-Furnace-Rep2_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-10-400C-Furnace-Rep2_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-10-400C-Furnace-Rep2_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-10-400C-Furnace-Rep2_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-10-400C-Furnace-Rep3",
+      "Mix_ID": "HPRC-10",
+      "Temperature_C": 400,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-10-400C-Furnace-Rep3.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-10-400C-Furnace-Rep3_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-10-400C-Furnace-Rep3_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-10-400C-Furnace-Rep3_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-10-400C-Furnace-Rep3_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-10-600C-Furnace-Rep1",
+      "Mix_ID": "HPRC-10",
+      "Temperature_C": 600,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-10-600C-Furnace-Rep1.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-10-600C-Furnace-Rep1_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-10-600C-Furnace-Rep1_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-10-600C-Furnace-Rep1_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-10-600C-Furnace-Rep1_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-10-600C-Furnace-Rep2",
+      "Mix_ID": "HPRC-10",
+      "Temperature_C": 600,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-10-600C-Furnace-Rep2.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-10-600C-Furnace-Rep2_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-10-600C-Furnace-Rep2_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-10-600C-Furnace-Rep2_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-10-600C-Furnace-Rep2_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-10-600C-Furnace-Rep3",
+      "Mix_ID": "HPRC-10",
+      "Temperature_C": 600,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-10-600C-Furnace-Rep3.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-10-600C-Furnace-Rep3_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-10-600C-Furnace-Rep3_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-10-600C-Furnace-Rep3_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-10-600C-Furnace-Rep3_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-10-800C-Furnace-Rep1",
+      "Mix_ID": "HPRC-10",
+      "Temperature_C": 800,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-10-800C-Furnace-Rep1.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-10-800C-Furnace-Rep1_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-10-800C-Furnace-Rep1_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-10-800C-Furnace-Rep1_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-10-800C-Furnace-Rep1_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-10-800C-Furnace-Rep2",
+      "Mix_ID": "HPRC-10",
+      "Temperature_C": 800,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-10-800C-Furnace-Rep2.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-10-800C-Furnace-Rep2_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-10-800C-Furnace-Rep2_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-10-800C-Furnace-Rep2_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-10-800C-Furnace-Rep2_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-10-800C-Furnace-Rep3",
+      "Mix_ID": "HPRC-10",
+      "Temperature_C": 800,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-10-800C-Furnace-Rep3.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-10-800C-Furnace-Rep3_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-10-800C-Furnace-Rep3_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-10-800C-Furnace-Rep3_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-10-800C-Furnace-Rep3_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-20-200C-Furnace-Rep1",
+      "Mix_ID": "HPRC-20",
+      "Temperature_C": 200,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-20-200C-Furnace-Rep1.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-20-200C-Furnace-Rep1_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-20-200C-Furnace-Rep1_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-20-200C-Furnace-Rep1_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-20-200C-Furnace-Rep1_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-20-200C-Furnace-Rep2",
+      "Mix_ID": "HPRC-20",
+      "Temperature_C": 200,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-20-200C-Furnace-Rep2.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-20-200C-Furnace-Rep2_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-20-200C-Furnace-Rep2_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-20-200C-Furnace-Rep2_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-20-200C-Furnace-Rep2_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-20-200C-Furnace-Rep3",
+      "Mix_ID": "HPRC-20",
+      "Temperature_C": 200,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-20-200C-Furnace-Rep3.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-20-200C-Furnace-Rep3_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-20-200C-Furnace-Rep3_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-20-200C-Furnace-Rep3_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-20-200C-Furnace-Rep3_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-20-400C-Furnace-Rep1",
+      "Mix_ID": "HPRC-20",
+      "Temperature_C": 400,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-20-400C-Furnace-Rep1.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-20-400C-Furnace-Rep1_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-20-400C-Furnace-Rep1_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-20-400C-Furnace-Rep1_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-20-400C-Furnace-Rep1_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-20-400C-Furnace-Rep2",
+      "Mix_ID": "HPRC-20",
+      "Temperature_C": 400,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-20-400C-Furnace-Rep2.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-20-400C-Furnace-Rep2_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-20-400C-Furnace-Rep2_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-20-400C-Furnace-Rep2_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-20-400C-Furnace-Rep2_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-20-400C-Furnace-Rep3",
+      "Mix_ID": "HPRC-20",
+      "Temperature_C": 400,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-20-400C-Furnace-Rep3.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-20-400C-Furnace-Rep3_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-20-400C-Furnace-Rep3_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-20-400C-Furnace-Rep3_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-20-400C-Furnace-Rep3_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-20-600C-Furnace-Rep1",
+      "Mix_ID": "HPRC-20",
+      "Temperature_C": 600,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-20-600C-Furnace-Rep1.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-20-600C-Furnace-Rep1_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-20-600C-Furnace-Rep1_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-20-600C-Furnace-Rep1_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-20-600C-Furnace-Rep1_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-20-600C-Furnace-Rep2",
+      "Mix_ID": "HPRC-20",
+      "Temperature_C": 600,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-20-600C-Furnace-Rep2.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-20-600C-Furnace-Rep2_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-20-600C-Furnace-Rep2_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-20-600C-Furnace-Rep2_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-20-600C-Furnace-Rep2_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-20-600C-Furnace-Rep3",
+      "Mix_ID": "HPRC-20",
+      "Temperature_C": 600,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-20-600C-Furnace-Rep3.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-20-600C-Furnace-Rep3_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-20-600C-Furnace-Rep3_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-20-600C-Furnace-Rep3_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-20-600C-Furnace-Rep3_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-20-800C-Furnace-Rep1",
+      "Mix_ID": "HPRC-20",
+      "Temperature_C": 800,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-20-800C-Furnace-Rep1.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-20-800C-Furnace-Rep1_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-20-800C-Furnace-Rep1_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-20-800C-Furnace-Rep1_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-20-800C-Furnace-Rep1_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-20-800C-Furnace-Rep2",
+      "Mix_ID": "HPRC-20",
+      "Temperature_C": 800,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-20-800C-Furnace-Rep2.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-20-800C-Furnace-Rep2_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-20-800C-Furnace-Rep2_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-20-800C-Furnace-Rep2_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-20-800C-Furnace-Rep2_dta_peaks.json"
+      }
+    },
+    {
+      "Sample_ID": "C28-HPRC-20-800C-Furnace-Rep3",
+      "Mix_ID": "HPRC-20",
+      "Temperature_C": 800,
+      "paths": {
+        "micro_ct_volume_npz": "micro_ct/volumes/C28-HPRC-20-800C-Furnace-Rep3.npz",
+        "sem_fov_metrics_csv": "sem/C28-HPRC-20-800C-Furnace-Rep3_fov_metrics.csv",
+        "xrd_phases_csv": "xrd/C28-HPRC-20-800C-Furnace-Rep3_phases.csv",
+        "tga_curve_csv": "tga_dta/C28-HPRC-20-800C-Furnace-Rep3_tg_curve.csv",
+        "dta_peaks_json": "tga_dta/C28-HPRC-20-800C-Furnace-Rep3_dta_peaks.json"
+      }
+    }
+  ],
+  "voxel_size_um": 5.0
+}
