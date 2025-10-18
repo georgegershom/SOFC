@@ -1,0 +1,51 @@
+DATASET SUMMARY
+================================================================================
+
+Mix Designs:
+--------------------------------------------------------------------------------
+C: Control concrete (no rubber)
+  Rubber content: 0% (none)
+  w/c ratio: 0.4
+  Cement: 400 kg/m³
+
+R5S: 5% small rubber particles
+  Rubber content: 5% (small)
+  w/c ratio: 0.42
+  Cement: 400 kg/m³
+
+R10S: 10% small rubber particles
+  Rubber content: 10% (small)
+  w/c ratio: 0.44
+  Cement: 400 kg/m³
+
+R15S: 15% small rubber particles
+  Rubber content: 15% (small)
+  w/c ratio: 0.46
+  Cement: 400 kg/m³
+
+R20S: 20% small rubber particles
+  Rubber content: 20% (small)
+  w/c ratio: 0.48
+  Cement: 400 kg/m³
+
+R10L: 10% large rubber particles
+  Rubber content: 10% (large)
+  w/c ratio: 0.44
+  Cement: 400 kg/m³
+
+
+Dataset Statistics:
+--------------------------------------------------------------------------------
+Total records: 1,920
+Temperature range: 20°C to 800°C
+Temperature increments: 20°C
+
+Records per category:
+  Thermal: 480 records
+  Mechanical: 480 records
+  Transport: 480 records
+  Deformation: 480 records
+
+Calibration vs Validation split:
+  Calibration: 960 records (50.0%)
+  Validation: 960 records (50.0%)

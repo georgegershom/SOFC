@@ -1,0 +1,78 @@
+DATA DICTIONARY
+================================================================================
+
+THERMAL PROPERTIES
+--------------------------------------------------------------------------------
+Thermal_Conductivity_W_mK: Thermal conductivity (W/m·K)
+  - Temperature-dependent, decreases with increasing temperature
+  - Reduced by rubber content (insulation effect)
+  - Range: ~0.3 to 1.6 W/m·K
+
+Specific_Heat_J_kgK: Specific heat capacity (J/kg·K)
+  - Includes moisture evaporation peak at ~100°C
+  - Includes dehydration peak at ~450°C
+  - Range: ~900 to 2500 J/kg·K
+
+Density_kg_m3: Material density (kg/m³)
+  - Decreases with temperature due to moisture loss
+  - Reduced by rubber content
+  - Range: ~2000 to 2400 kg/m³
+
+
+MECHANICAL PROPERTIES
+--------------------------------------------------------------------------------
+Compressive_Strength_MPa: Uniaxial compressive strength (MPa)
+  - Eurocode-based degradation with rubber modification
+  - Rubber reduces ambient strength but improves high-temp retention
+  - Range: ~5 to 45 MPa
+
+Tensile_Strength_MPa: Uniaxial tensile strength (MPa)
+  - Degrades faster than compressive strength
+  - Range: ~0.3 to 4.2 MPa
+
+Elastic_Modulus_MPa: Young's modulus (MPa)
+  - Significant degradation with temperature
+  - Rubber softening effect
+  - Range: ~1500 to 35000 MPa
+
+Poisson_Ratio: Poisson's ratio (dimensionless)
+  - Increases with temperature due to microcracking
+  - Range: 0.15 to 0.35
+
+Fracture_Energy_N_m: Mode I fracture energy (N/m)
+  - Decreases with temperature
+  - Slightly enhanced by rubber content
+  - Range: ~20 to 120 N/m
+
+
+TRANSPORT PROPERTIES
+--------------------------------------------------------------------------------
+Gas_Permeability_m2: Intrinsic gas permeability (m²)
+  - Exponentially increases with temperature due to thermal damage
+  - Increased by rubber content
+  - Range: ~1e-17 to 1e-14 m²
+
+Moisture_Diffusivity_m2_s: Moisture diffusion coefficient (m²/s)
+  - Increases with temperature and damage
+  - Range: ~1e-11 to 1e-8 m²/s
+
+Porosity: Volume fraction of pore space (dimensionless)
+  - Increases due to thermal damage and moisture loss
+  - Range: 0.12 to 0.25
+
+
+DEFORMATION PROPERTIES
+--------------------------------------------------------------------------------
+Thermal_Strain: Free thermal expansion strain (dimensionless)
+  - Includes thermal expansion and transient creep
+  - Enhanced by rubber content
+  - Range: 0 to 0.015
+
+Creep_Coefficient: Load-independent thermal creep coefficient
+  - Peaks at intermediate temperatures (500°C)
+  - Range: 0.5 to 2.5
+
+Shrinkage_Strain: Autogenous shrinkage strain (dimensionless)
+  - Enhanced at elevated temperatures
+  - Range: -0.0005 to -0.002
+
