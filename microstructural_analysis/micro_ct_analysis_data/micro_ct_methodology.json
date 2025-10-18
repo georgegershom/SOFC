@@ -1,0 +1,47 @@
+{
+  "instrument": "Zeiss Xradia 520 Versa X-ray Microscope",
+  "detector": "sCMOS 2048x2048 pixels",
+  "voxel_size_range": "5-20 \u03bcm",
+  "voltage_range": "80-140 kV",
+  "current_range": "80-120 \u03bcA",
+  "exposure_time_range": "1000-2000 ms",
+  "sample_dimensions": "10mm \u00d7 20mm",
+  "roi_size": "512\u00d7512\u00d7512 voxels",
+  "reconstruction_software": "Zeiss XMReconstructor",
+  "analysis_software": [
+    "ImageJ-FIJI",
+    "Avizo",
+    "BoneJ",
+    "MorphoLibJ"
+  ],
+  "segmentation_methods": [
+    "Otsu thresholding",
+    "Watershed",
+    "Machine learning"
+  ],
+  "pore_size_classes": {
+    "gel_pores": [
+      0.001,
+      0.01
+    ],
+    "capillary_pores": [
+      0.01,
+      10
+    ],
+    "air_voids": [
+      10,
+      1000
+    ],
+    "macropores": [
+      1000,
+      10000
+    ]
+  },
+  "measurement_precision": {
+    "porosity": "\u00b10.5%",
+    "pore_size": "\u00b11 voxel",
+    "connectivity": "\u00b10.02"
+  },
+  "scan_conditions": "Room temperature, atmospheric pressure",
+  "sample_preparation": "Dried at 60\u00b0C for 24h before scanning"
+}
