@@ -1,0 +1,40 @@
+{
+  "sem": {
+    "images": "SEM-like PGM images focusing on ITZ. 512x512 uint8 grayscale.",
+    "metrics.csv": {
+      "sem_crack_length_mm": "Total crack length estimated from binary cracks across views (mm).",
+      "sem_itz_porosity": "Porosity fraction within ITZ mask (0-1).",
+      "sem_itz_width_px": "ITZ shell width used for analysis (pixels)."
+    }
+  },
+  "xrd": {
+    "*_xrd.csv": "Two-column CSV (two_theta_deg, intensity).",
+    "metrics.csv": {
+      "xrd_ch_rel_area": "Integrated area around main CH peaks (relative).",
+      "xrd_caco3_rel_area": "Integrated area around main calcite peaks (relative).",
+      "xrd_cao_rel_area": "Integrated area around CaO peaks (relative).",
+      "xrd_csh_hump_area": "Integrated C-S-H amorphous hump area (relative)."
+    }
+  },
+  "tga_dta": {
+    "*_tga_dta.csv": "Three-column CSV (temperature_C, mass, dtg).",
+    "metrics.csv": {
+      "tga_mass_200C": "Residual mass at 200\u00b0C.",
+      "tga_mass_400C": "Residual mass at 400\u00b0C.",
+      "tga_mass_600C": "Residual mass at 600\u00b0C.",
+      "tga_mass_800C": "Residual mass at 800\u00b0C.",
+      "tga_total_loss": "Total mass loss up to 1000\u00b0C."
+    }
+  },
+  "micro_ct": {
+    "*_volume.npy": "3D labeled volume (uint8): 0=void,1=paste,2=aggregate,3=rubber/residue,4=crack.",
+    "*_slice_[Z|Y|X].pgm": "Central slices previews in PGM grayscale.",
+    "metrics.csv": {
+      "ct_porosity": "Void fraction (excludes cracks).",
+      "ct_crack_fraction": "Crack volume fraction.",
+      "ct_void_plus_crack": "Combined void+crack fraction.",
+      "ct_connected_porosity_frac": "Largest connected porosity fraction (downsampled).",
+      "ct_itz_width_vox": "ITZ shell width used for porosity boost (voxels)."
+    }
+  }
+}
