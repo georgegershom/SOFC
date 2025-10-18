@@ -1,0 +1,21 @@
+{
+  "package_name": "rubberized_concrete_fire_dataset_20251018_170116.zip",
+  "creation_date": "2025-10-18T17:01:16.337088",
+  "total_files": 13,
+  "size_bytes": 95626,
+  "size_mb": 0.09,
+  "contents": {
+    "csv_files": 6,
+    "json_files": 1,
+    "python_scripts": 4,
+    "documentation": 1
+  },
+  "datasets": {
+    "mix_designs": "12 concrete mix designs with varying rubber content",
+    "ambient_tests": "108 specimens tested at 7, 28, and 56 days",
+    "high_temp_residual": "360 specimens tested after heating to 200-800\u00b0C",
+    "in_situ_tests": "216 specimens tested at elevated temperatures",
+    "spalling_data": "840 pore pressure and spalling measurements",
+    "stress_strain": "3000 stress-strain data points at various temperatures"
+  }
+}

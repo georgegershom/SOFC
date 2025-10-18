@@ -1,0 +1,25 @@
+{
+  "dataset_name": "Rubberized Concrete Fire Resistance Experimental Dataset",
+  "generation_date": "2025-10-18T16:53:28.365612",
+  "purpose": "Thermo-mechanical modeling of fire-resistant rubberized concrete",
+  "test_standards": {
+    "compressive_strength": "ASTM C39",
+    "tensile_strength": "ASTM C496",
+    "elastic_modulus": "ASTM C469",
+    "fire_test": "ISO 834"
+  },
+  "temperature_range": "23-800\u00b0C",
+  "mix_designs": 12,
+  "total_specimens": "Approximately 2000+",
+  "cooling_methods": [
+    "Furnace cooling",
+    "Water quenching"
+  ],
+  "key_parameters": [
+    "Residual mechanical properties",
+    "In-situ hot properties",
+    "Thermal strain and LITS",
+    "Spalling behavior",
+    "Pore pressure development"
+  ]
+}

@@ -1,0 +1,13 @@
+Mix_ID,Cement_kg_m3,Water_kg_m3,Fine_Aggregate_kg_m3,Coarse_Aggregate_kg_m3,Rubber_Content_%,Rubber_Size_mm,Rubber_Type,Silica_Fume_kg_m3,Fly_Ash_kg_m3,Superplasticizer_kg_m3,Steel_Fibers_kg_m3,PP_Fibers_kg_m3,w_c_ratio,Target_Strength_MPa
+RC0,380,171,720,1080,0,0,None,0,0,3.8,0,0,0.45,40
+RC5,380,175,684,1026,5,2-4,Crumb,0,0,4.2,0,0,0.46,38
+RC10,380,178,648,972,10,2-4,Crumb,0,0,4.6,0,0,0.47,35
+RC15,380,182,612,918,15,2-4,Crumb,0,0,5.0,0,0,0.48,32
+RC20,380,185,576,864,20,2-4,Crumb,0,0,5.3,0,0,0.49,30
+RC10_SF,360,162,648,972,10,2-4,Crumb,40,0,5.5,0,0,0.42,42
+RC10_FA,340,160,648,972,10,2-4,Crumb,0,60,4.8,0,0,0.41,38
+RC10_ST,380,178,648,972,10,2-4,Crumb,0,0,4.6,40,0,0.47,40
+RC10_PP,380,178,648,972,10,2-4,Crumb,0,0,4.6,0,0.9,0.47,36
+RC15_HYB,360,165,612,918,15,2-4,Crumb,30,30,6.2,30,0.6,0.43,38
+RC10_CHIP,380,178,648,972,10,5-10,Chip,0,0,4.8,0,0,0.47,33
+RC10_SHRED,380,178,648,972,10,10-20,Shred,0,0,5.0,0,0,0.47,31
