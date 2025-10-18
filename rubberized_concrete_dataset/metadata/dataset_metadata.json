@@ -1,0 +1,104 @@
+{
+  "dataset_info": {
+    "title": "Experimental Dataset: Fire-Resistant Rubberized Concrete",
+    "subtitle": "Development and Validation of Thermo-Mechanical Models for Fire-Resistant Structural Elements",
+    "version": "1.0",
+    "creation_date": "2024-04-22",
+    "last_modified": "2024-04-22",
+    "dataset_size": "~50MB",
+    "total_specimens": 450,
+    "total_tests": 1250
+  },
+  "research_context": {
+    "project": "Development and Validation of a Thermo-Mechanical Model for Fire-Resistant Structural Elements Utilizing High-Performance Rubberized Concrete",
+    "objective": "Comprehensive characterization of rubberized concrete behavior under fire conditions",
+    "scope": "Experimental investigation of mechanical, thermal, and fire performance properties",
+    "applications": ["Fire-resistant structures", "High-temperature applications", "Sustainable construction"]
+  },
+  "experimental_program": {
+    "mix_designs": {
+      "total_mixes": 6,
+      "control_mix": "Standard high-strength concrete (HSC)",
+      "rubber_mixes": ["10% rubber (RC-10)", "20% rubber (RC-20)", "30% rubber (RC-30)"],
+      "enhanced_mixes": ["15% rubber + 8% silica fume (RC-15-SF)", "15% rubber + 15% fly ash (RC-15-FA)"]
+    },
+    "test_conditions": {
+      "curing_ages": [7, 28, 56],
+      "test_temperatures": [23, 200, 400, 600, 800],
+      "cooling_regimes": ["Furnace cooling (slow)", "Water quenching (rapid)"],
+      "specimens_per_condition": 3
+    },
+    "test_categories": {
+      "ambient_tests": {
+        "compressive_strength": "ASTM C39",
+        "splitting_tensile": "ASTM C496",
+        "flexural_strength": "ASTM C78",
+        "elastic_modulus": "ASTM C469",
+        "density_upv": "ASTM C597"
+      },
+      "thermal_exposure": {
+        "mass_loss": "Gravimetric analysis",
+        "residual_properties": "Post-heat mechanical testing",
+        "visual_assessment": "High-resolution photography"
+      },
+      "insitu_thermal": {
+        "transient_strain": "Strain measurement during heating",
+        "insitu_strength": "Testing at elevated temperature",
+        "thermal_expansion": "Dilatometry"
+      },
+      "spalling_analysis": {
+        "spalling_measurements": "Depth and area quantification",
+        "pore_pressure": "Embedded pressure transducers",
+        "visual_damage": "Systematic damage assessment"
+      }
+    }
+  },
+  "data_quality": {
+    "statistical_significance": "Minimum 3 specimens per condition",
+    "measurement_precision": {
+      "strength": "±0.5 MPa",
+      "strain": "±5 microstrain",
+      "temperature": "±2°C",
+      "pressure": "±0.01 MPa"
+    },
+    "calibration": "All equipment calibrated according to standards",
+    "quality_control": "Regular reference tests and cross-validation"
+  },
+  "file_structure": {
+    "mix_designs": "Concrete compositions and material properties",
+    "ambient_tests": "Standard mechanical property tests",
+    "thermal_exposure": "High-temperature exposure protocols",
+    "residual_properties": "Post-heat mechanical properties",
+    "insitu_thermal": "In-situ high-temperature measurements",
+    "spalling_analysis": "Spalling behavior and pore pressure data",
+    "raw_data": "Original measurement files",
+    "processed_data": "Analyzed and processed datasets"
+  },
+  "key_findings": {
+    "strength_retention": "Rubber improves high-temperature strength retention",
+    "spalling_resistance": "Significant reduction in spalling with rubber content",
+    "thermal_expansion": "Modified thermal expansion characteristics",
+    "pore_pressure": "Reduced pore pressure buildup with rubber",
+    "cooling_effects": "Water quenching causes severe thermal shock damage"
+  },
+  "limitations": {
+    "rubber_source": "Single tire rubber source - variability may exist",
+    "aggregate_type": "Limited to limestone coarse aggregate",
+    "heating_rate": "Single heating rate tested (5°C/min)",
+    "specimen_size": "Standard cylinder specimens only"
+  },
+  "future_work": {
+    "recommendations": [
+      "Different rubber sources and sizes",
+      "Various heating rates",
+      "Full-scale structural elements",
+      "Long-term durability studies"
+    ]
+  },
+  "contact": {
+    "institution": "Fire Safety Research Laboratory",
+    "department": "Structural Engineering",
+    "email": "fire.research@university.edu",
+    "website": "www.university.edu/fire-research"
+  }
+}

@@ -1,0 +1,33 @@
+Parameter,Mix_ID,Temperature_Range_C,Equation_Type,Coefficient_A,Coefficient_B,Coefficient_C,R_Squared,RMSE,Validation_Points,Notes
+Strength_Temperature,CTRL,23-800,Exponential,-0.0025,1.0,0,0.985,2.15,15,fc(T) = fc0 * exp(A*T)
+Strength_Temperature,RC-10,23-800,Exponential,-0.0018,1.0,0,0.992,1.85,12,Better retention than control
+Strength_Temperature,RC-20,23-800,Exponential,-0.0015,1.0,0,0.988,1.95,12,Excellent high-temp retention
+Strength_Temperature,RC-30,23-800,Exponential,-0.0012,1.0,0,0.991,2.05,12,Outstanding retention
+Modulus_Temperature,CTRL,23-800,Polynomial,-8.5e-5,0.015,1.0,0.978,1.25,15,E(T) = E0*(A*T^2 + B*T + C)
+Modulus_Temperature,RC-10,23-800,Polynomial,-6.2e-5,0.012,1.0,0.985,0.95,12,Improved stiffness retention
+Modulus_Temperature,RC-20,23-800,Polynomial,-5.1e-5,0.010,1.0,0.982,0.85,12,Better stiffness retention
+Modulus_Temperature,RC-30,23-800,Polynomial,-4.2e-5,0.008,1.0,0.988,0.75,12,Excellent stiffness retention
+Thermal_Expansion,CTRL,23-800,Linear,10.0e-6,0,0,0.995,25,20,CTE = A (constant for concrete)
+Thermal_Expansion,RC-10,23-400,Bilinear,10.6e-6,12.0e-6,250,0.988,35,15,CTE changes at rubber softening
+Thermal_Expansion,RC-20,23-400,Bilinear,11.1e-6,13.2e-6,250,0.985,45,15,Higher expansion due to rubber
+Thermal_Expansion,RC-30,23-400,Bilinear,11.7e-6,14.8e-6,250,0.982,55,15,Maximum expansion with 30% rubber
+Mass_Loss,CTRL,23-800,Multi_Phase,0.029,0.065,0.105,0.998,0.15,20,Three-phase decomposition
+Mass_Loss,RC-10,23-800,Multi_Phase,0.030,0.068,0.125,0.995,0.25,15,Additional rubber decomposition
+Mass_Loss,RC-20,23-800,Multi_Phase,0.031,0.072,0.155,0.992,0.35,15,Significant rubber content effect
+Mass_Loss,RC-30,23-800,Multi_Phase,0.032,0.075,0.195,0.988,0.45,15,Major rubber decomposition
+Spalling_Onset,CTRL,200-800,Threshold,2.5,380,0,0.975,25,12,Pressure threshold model
+Spalling_Onset,RC-10,200-800,Threshold,3.2,395,0,0.985,18,9,Delayed spalling onset
+Spalling_Onset,RC-20,200-800,Threshold,4.1,415,0,0.988,15,9,Significantly delayed onset
+Spalling_Onset,RC-30,200-800,Threshold,5.2,435,0,0.992,12,9,Maximum spalling resistance
+Pore_Pressure,CTRL,23-600,Exponential,0.0085,1.2,0,0.982,0.25,18,P = A*exp(B*T/100)
+Pore_Pressure,RC-10,23-600,Exponential,0.0065,1.1,0,0.988,0.18,12,Reduced pressure buildup
+Pore_Pressure,RC-20,23-600,Exponential,0.0055,1.0,0,0.985,0.22,12,Further pressure reduction
+Pore_Pressure,RC-30,23-800,Exponential,0.0045,0.9,0,0.991,0.15,12,Minimum pressure buildup
+Creep_Strain,CTRL,400-800,Power_Law,2.5e-6,1.8,0,0.975,125,15,εcr = A*σ^B*t^C at temperature
+Creep_Strain,RC-10,400-800,Power_Law,1.8e-6,1.6,0,0.982,95,12,Reduced creep due to rubber
+Creep_Strain,RC-20,400-800,Power_Law,1.5e-6,1.4,0,0.988,75,12,Significant creep reduction
+Creep_Strain,RC-30,400-800,Power_Law,1.2e-6,1.2,0,0.985,85,12,Maximum creep resistance
+Damage_Index,CTRL,23-800,Sigmoid,0.8,0.0025,400,0.992,0.05,20,DI = A/(1+exp(-B*(T-C)))
+Damage_Index,RC-10,23-800,Sigmoid,0.7,0.0020,450,0.988,0.06,15,Reduced damage progression
+Damage_Index,RC-20,23-800,Sigmoid,0.6,0.0018,500,0.985,0.07,15,Further damage reduction
+Damage_Index,RC-30,23-800,Sigmoid,0.5,0.0015,550,0.991,0.04,15,Minimum damage accumulation

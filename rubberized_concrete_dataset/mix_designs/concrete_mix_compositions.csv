@@ -1,0 +1,7 @@
+Mix_ID,Mix_Name,Cement_kg_m3,Water_kg_m3,Fine_Aggregate_kg_m3,Coarse_Aggregate_kg_m3,Rubber_Crumb_kg_m3,Silica_Fume_kg_m3,Fly_Ash_kg_m3,Superplasticizer_kg_m3,W_C_Ratio,Rubber_Replacement_Percent,28d_Target_Strength_MPa,Slump_mm,Air_Content_Percent
+CTRL,Control HSC,450,162,650,1150,0,0,0,4.5,0.36,0,50,75,2.1
+RC-10,10% Rubber Replacement,450,162,585,1150,65,0,0,5.4,0.36,10,45,85,2.8
+RC-20,20% Rubber Replacement,450,162,520,1150,130,0,0,6.3,0.36,20,40,95,3.5
+RC-30,30% Rubber Replacement,450,162,455,1150,195,0,0,7.2,0.36,30,35,110,4.2
+RC-15-SF,15% Rubber + Silica Fume,414,162,552.5,1150,97.5,36,0,6.3,0.36,15,48,80,2.5
+RC-15-FA,15% Rubber + Fly Ash,382.5,162,552.5,1150,97.5,0,67.5,5.9,0.36,15,46,90,3.0

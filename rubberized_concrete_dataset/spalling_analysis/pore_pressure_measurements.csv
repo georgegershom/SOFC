@@ -1,0 +1,45 @@
+Specimen_ID,Mix_ID,Target_Temperature_C,Sensor_Depth_mm,Time_min,Temperature_C,Pore_Pressure_MPa,Steam_Pressure_MPa,Gas_Pressure_MPa,Pressure_Gradient_MPa_mm,Sensor_Status,Test_Date,Operator,Notes
+PP-CTRL-400-1,CTRL,400,10,0,23,0.00,0.00,0.00,0.000,Active,2024-04-07,Tech_A,Initial conditions
+PP-CTRL-400-1,CTRL,400,10,10,125,0.15,0.12,0.03,0.015,Active,2024-04-07,Tech_A,Moisture mobilization
+PP-CTRL-400-1,CTRL,400,10,20,225,0.45,0.38,0.07,0.045,Active,2024-04-07,Tech_A,Pressure buildup
+PP-CTRL-400-1,CTRL,400,10,30,325,0.85,0.72,0.13,0.085,Active,2024-04-07,Tech_A,Significant pressure
+PP-CTRL-400-1,CTRL,400,10,40,400,1.25,1.05,0.20,0.125,Active,2024-04-07,Tech_A,Peak pressure reached
+PP-CTRL-400-1,CTRL,400,10,50,400,1.45,1.22,0.23,0.145,Active,2024-04-07,Tech_A,Pressure continues to rise
+PP-CTRL-400-1,CTRL,400,10,60,400,1.65,1.38,0.27,0.165,Active,2024-04-07,Tech_A,Critical pressure level
+PP-CTRL-400-1,CTRL,400,10,70,400,1.85,1.55,0.30,0.185,Active,2024-04-07,Tech_A,Approaching spalling threshold
+PP-CTRL-400-1,CTRL,400,10,80,400,2.15,1.80,0.35,0.215,Damaged,2024-04-07,Tech_A,Sensor damaged by spalling
+PP-CTRL-400-2,CTRL,400,25,0,23,0.00,0.00,0.00,0.000,Active,2024-04-07,Tech_A,Deeper sensor
+PP-CTRL-400-2,CTRL,400,25,10,125,0.08,0.06,0.02,0.003,Active,2024-04-07,Tech_A,Lower pressure at depth
+PP-CTRL-400-2,CTRL,400,25,20,225,0.25,0.21,0.04,0.010,Active,2024-04-07,Tech_A,Gradual pressure increase
+PP-CTRL-400-2,CTRL,400,25,30,325,0.55,0.46,0.09,0.022,Active,2024-04-07,Tech_A,Moderate pressure
+PP-CTRL-400-2,CTRL,400,25,40,400,0.85,0.71,0.14,0.034,Active,2024-04-07,Tech_A,Continued buildup
+PP-CTRL-400-2,CTRL,400,25,50,400,1.05,0.88,0.17,0.042,Active,2024-04-07,Tech_A,Steady pressure
+PP-CTRL-400-2,CTRL,400,25,60,400,1.25,1.05,0.20,0.050,Active,2024-04-07,Tech_A,High pressure maintained
+PP-CTRL-600-1,CTRL,600,10,0,23,0.00,0.00,0.00,0.000,Active,2024-04-08,Tech_B,Initial conditions
+PP-CTRL-600-1,CTRL,600,10,10,125,0.25,0.20,0.05,0.025,Active,2024-04-08,Tech_B,Rapid pressure rise
+PP-CTRL-600-1,CTRL,600,10,20,225,0.85,0.70,0.15,0.085,Active,2024-04-08,Tech_B,Accelerating buildup
+PP-CTRL-600-1,CTRL,600,10,30,325,1.65,1.35,0.30,0.165,Active,2024-04-08,Tech_B,Very high pressure
+PP-CTRL-600-1,CTRL,600,10,35,380,2.45,2.00,0.45,0.245,Active,2024-04-08,Tech_B,Critical pressure before spalling
+PP-CTRL-600-1,CTRL,600,10,40,450,3.25,2.65,0.60,0.325,Damaged,2024-04-08,Tech_B,Explosive spalling event
+PP-RC10-400-1,RC-10,400,10,0,23,0.00,0.00,0.00,0.000,Active,2024-04-09,Tech_A,Rubber mix initial conditions
+PP-RC10-400-1,RC-10,400,10,10,125,0.12,0.10,0.02,0.012,Active,2024-04-09,Tech_A,Lower pressure than control
+PP-RC10-400-1,RC-10,400,10,20,225,0.35,0.29,0.06,0.035,Active,2024-04-09,Tech_A,Reduced pressure buildup
+PP-RC10-400-1,RC-10,400,10,30,325,0.65,0.54,0.11,0.065,Active,2024-04-09,Tech_A,Moderate pressure
+PP-RC10-400-1,RC-10,400,10,40,400,0.95,0.79,0.16,0.095,Active,2024-04-09,Tech_A,Controlled pressure rise
+PP-RC10-400-1,RC-10,400,10,50,400,1.15,0.96,0.19,0.115,Active,2024-04-09,Tech_A,Stable pressure
+PP-RC10-400-1,RC-10,400,10,60,400,1.25,1.04,0.21,0.125,Active,2024-04-09,Tech_A,Lower than control
+PP-RC20-600-1,RC-20,600,10,0,23,0.00,0.00,0.00,0.000,Active,2024-04-10,Tech_B,20% rubber mix
+PP-RC20-600-1,RC-20,600,10,10,125,0.18,0.15,0.03,0.018,Active,2024-04-10,Tech_B,Moderate pressure rise
+PP-RC20-600-1,RC-20,600,10,20,225,0.55,0.46,0.09,0.055,Active,2024-04-10,Tech_B,Controlled buildup
+PP-RC20-600-1,RC-20,600,10,30,325,1.05,0.87,0.18,0.105,Active,2024-04-10,Tech_B,Significant pressure reduction
+PP-RC20-600-1,RC-20,600,10,40,450,1.65,1.36,0.29,0.165,Active,2024-04-10,Tech_B,Much lower than control
+PP-RC20-600-1,RC-20,600,10,50,550,2.15,1.77,0.38,0.215,Active,2024-04-10,Tech_B,Pressure plateau
+PP-RC20-600-1,RC-20,600,10,60,600,2.45,2.02,0.43,0.245,Active,2024-04-10,Tech_B,Stable high pressure
+PP-RC30-800-1,RC-30,800,10,0,23,0.00,0.00,0.00,0.000,Active,2024-04-11,Tech_A,30% rubber mix
+PP-RC30-800-1,RC-30,800,10,10,125,0.15,0.12,0.03,0.015,Active,2024-04-11,Tech_A,Low initial pressure
+PP-RC30-800-1,RC-30,800,10,20,225,0.45,0.37,0.08,0.045,Active,2024-04-11,Tech_A,Gradual increase
+PP-RC30-800-1,RC-30,800,10,30,325,0.85,0.70,0.15,0.085,Active,2024-04-11,Tech_A,Moderate pressure
+PP-RC30-800-1,RC-30,800,10,40,450,1.35,1.11,0.24,0.135,Active,2024-04-11,Tech_A,Controlled pressure
+PP-RC30-800-1,RC-30,800,10,50,600,1.85,1.52,0.33,0.185,Active,2024-04-11,Tech_A,Steady rise
+PP-RC30-800-1,RC-30,800,10,60,750,2.35,1.93,0.42,0.235,Active,2024-04-11,Tech_A,High but controlled
+PP-RC30-800-1,RC-30,800,10,70,800,2.75,2.26,0.49,0.275,Active,2024-04-11,Tech_A,Peak pressure - no spalling

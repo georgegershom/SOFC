@@ -1,0 +1,29 @@
+Specimen_ID,Mix_ID,Test_Temperature_C,Applied_Load_MPa,Time_min,Temperature_C,Axial_Strain_microstrain,Lateral_Strain_microstrain,Thermal_Strain_microstrain,Mechanical_Strain_microstrain,Creep_Strain_microstrain,Test_Date,Operator,Notes
+TTS-CTRL-400-1,CTRL,400,10.0,0,23,350,63,0,350,0,2024-03-10,Tech_A,Initial loading
+TTS-CTRL-400-1,CTRL,400,10.0,5,75,485,87,152,333,0,2024-03-10,Tech_A,Heating begins
+TTS-CTRL-400-1,CTRL,400,10.0,10,125,625,112,305,320,0,2024-03-10,Tech_A,Linear thermal expansion
+TTS-CTRL-400-1,CTRL,400,10.0,20,225,1125,202,670,305,150,2024-03-10,Tech_A,Creep begins
+TTS-CTRL-400-1,CTRL,400,10.0,30,325,1685,303,965,270,450,2024-03-10,Tech_A,Significant creep
+TTS-CTRL-400-1,CTRL,400,10.0,40,400,2385,428,1185,250,950,2024-03-10,Tech_A,Approaching target temperature
+TTS-CTRL-400-1,CTRL,400,10.0,50,400,2685,482,1185,200,1300,2024-03-10,Tech_A,Steady state creep
+TTS-CTRL-400-1,CTRL,400,10.0,60,400,2985,536,1185,150,1650,2024-03-10,Tech_A,Continued creep
+TTS-CTRL-400-1,CTRL,400,10.0,80,400,3585,644,1185,50,2350,2024-03-10,Tech_A,Accelerating creep
+TTS-CTRL-400-1,CTRL,400,10.0,100,400,4285,770,1185,-50,3150,2024-03-10,Tech_A,Compressive creep dominates
+TTS-RC10-400-1,RC-10,400,10.0,0,23,350,70,0,350,0,2024-03-11,Tech_A,Initial loading - rubber mix
+TTS-RC10-400-1,RC-10,400,10.0,5,75,480,96,152,328,0,2024-03-11,Tech_A,Heating begins
+TTS-RC10-400-1,RC-10,400,10.0,10,125,615,123,305,310,0,2024-03-11,Tech_A,Slightly lower thermal expansion
+TTS-RC10-400-1,RC-10,400,10.0,20,225,1095,219,670,295,130,2024-03-11,Tech_A,Reduced creep due to rubber
+TTS-RC10-400-1,RC-10,400,10.0,30,325,1625,325,965,260,400,2024-03-11,Tech_A,Rubber provides restraint
+TTS-RC10-400-1,RC-10,400,10.0,40,400,2285,457,1185,240,860,2024-03-11,Tech_A,Better creep resistance
+TTS-RC10-400-1,RC-10,400,10.0,50,400,2545,509,1185,210,1150,2024-03-11,Tech_A,Steady state with rubber
+TTS-RC10-400-1,RC-10,400,10.0,60,400,2805,561,1185,170,1450,2024-03-11,Tech_A,Continued improvement
+TTS-RC10-400-1,RC-10,400,10.0,80,400,3325,665,1185,90,2050,2024-03-11,Tech_A,Rubber degradation begins
+TTS-RC10-400-1,RC-10,400,10.0,100,400,3945,789,1185,-10,2770,2024-03-11,Tech_A,Approaching control behavior
+TTS-RC20-600-1,RC-20,600,8.0,0,23,280,70,0,280,0,2024-03-12,Tech_B,Lower load due to reduced strength
+TTS-RC20-600-1,RC-20,600,8.0,10,125,425,106,228,197,0,2024-03-12,Tech_B,Initial heating phase
+TTS-RC20-600-1,RC-20,600,8.0,20,225,785,196,456,179,150,2024-03-12,Tech_B,Rubber provides flexibility
+TTS-RC20-600-1,RC-20,600,8.0,40,425,1685,421,855,130,700,2024-03-12,Tech_B,Significant rubber softening
+TTS-RC20-600-1,RC-20,600,8.0,60,600,2785,697,1140,45,1600,2024-03-12,Tech_B,Rubber degradation zone
+TTS-RC20-600-1,RC-20,600,8.0,80,600,3485,871,1140,-55,2400,2024-03-12,Tech_B,Rubber burnout begins
+TTS-RC20-600-1,RC-20,600,8.0,100,600,4285,1071,1140,-155,3300,2024-03-12,Tech_B,Extensive creep
+TTS-RC20-600-1,RC-20,600,8.0,120,600,5185,1296,1140,-255,4300,2024-03-12,Tech_B,Approaching failure

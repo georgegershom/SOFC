@@ -1,0 +1,40 @@
+Specimen_ID,Mix_ID,Target_Temperature_C,Cooling_Method,Original_Strength_MPa,Residual_Strength_MPa,Strength_Retention_Percent,Failure_Mode,Visual_Damage,Crack_Pattern,Test_Date,Operator,Notes
+TE-CTRL-23-1,CTRL,23,Ambient,50.2,50.2,100.0,Cone,None,None,2024-02-22,Tech_A,Reference specimen
+TE-CTRL-23-2,CTRL,23,Ambient,49.8,49.8,100.0,Cone,None,None,2024-02-22,Tech_A,Reference specimen
+TE-CTRL-23-3,CTRL,23,Ambient,50.4,50.4,100.0,Cone,None,None,2024-02-22,Tech_A,Reference specimen
+TE-CTRL-200-FC-1,CTRL,200,Furnace_Cooling,50.0,47.5,95.0,Cone,Slight_Discoloration,None,2024-02-22,Tech_A,Minor strength loss
+TE-CTRL-200-FC-2,CTRL,200,Furnace_Cooling,49.9,47.3,94.8,Cone,Slight_Discoloration,None,2024-02-22,Tech_A,Minor strength loss
+TE-CTRL-200-FC-3,CTRL,200,Furnace_Cooling,50.4,47.8,94.8,Cone,Slight_Discoloration,None,2024-02-22,Tech_A,Minor strength loss
+TE-CTRL-200-WQ-1,CTRL,200,Water_Quench,50.0,46.5,93.0,Cone-Shear,Slight_Discoloration,Micro_Cracks,2024-02-22,Tech_A,Thermal shock effect
+TE-CTRL-200-WQ-2,CTRL,200,Water_Quench,49.9,46.2,92.6,Cone-Shear,Slight_Discoloration,Micro_Cracks,2024-02-22,Tech_A,Thermal shock effect
+TE-CTRL-200-WQ-3,CTRL,200,Water_Quench,50.4,46.8,92.9,Cone-Shear,Slight_Discoloration,Micro_Cracks,2024-02-22,Tech_A,Thermal shock effect
+TE-CTRL-400-FC-1,CTRL,400,Furnace_Cooling,50.0,42.5,85.0,Cone-Shear,Pink_Discoloration,Surface_Cracks,2024-02-23,Tech_B,Moderate strength loss
+TE-CTRL-400-FC-2,CTRL,400,Furnace_Cooling,49.9,42.2,84.6,Cone-Shear,Pink_Discoloration,Surface_Cracks,2024-02-23,Tech_B,Moderate strength loss
+TE-CTRL-400-FC-3,CTRL,400,Furnace_Cooling,50.4,42.8,84.9,Cone-Shear,Pink_Discoloration,Surface_Cracks,2024-02-23,Tech_B,Moderate strength loss
+TE-CTRL-400-WQ-1,CTRL,400,Water_Quench,50.0,38.5,77.0,Shear,Pink_Discoloration,Network_Cracks,2024-02-23,Tech_B,Significant thermal shock
+TE-CTRL-400-WQ-2,CTRL,400,Water_Quench,49.9,38.1,76.4,Shear,Pink_Discoloration,Network_Cracks,2024-02-23,Tech_B,Significant thermal shock
+TE-CTRL-400-WQ-3,CTRL,400,Water_Quench,50.4,38.8,77.0,Shear,Pink_Discoloration,Network_Cracks,2024-02-23,Tech_B,Significant thermal shock
+TE-CTRL-600-FC-1,CTRL,600,Furnace_Cooling,50.0,30.0,60.0,Shear,Gray_Discoloration,Extensive_Cracking,2024-02-24,Tech_A,Severe strength loss
+TE-CTRL-600-FC-2,CTRL,600,Furnace_Cooling,49.9,29.7,59.5,Shear,Gray_Discoloration,Extensive_Cracking,2024-02-24,Tech_A,Severe strength loss
+TE-CTRL-600-FC-3,CTRL,600,Furnace_Cooling,50.4,30.2,59.9,Shear,Gray_Discoloration,Extensive_Cracking,2024-02-24,Tech_A,Severe strength loss
+TE-CTRL-600-WQ-1,CTRL,600,Water_Quench,50.0,22.5,45.0,Brittle_Failure,Gray_Discoloration,Spalling_Surface,2024-02-24,Tech_A,Explosive spalling risk
+TE-CTRL-600-WQ-2,CTRL,600,Water_Quench,49.9,22.2,44.5,Brittle_Failure,Gray_Discoloration,Spalling_Surface,2024-02-24,Tech_A,Explosive spalling risk
+TE-CTRL-600-WQ-3,CTRL,600,Water_Quench,50.4,22.7,45.0,Brittle_Failure,Gray_Discoloration,Spalling_Surface,2024-02-24,Tech_A,Explosive spalling risk
+TE-CTRL-800-FC-1,CTRL,800,Furnace_Cooling,50.0,15.0,30.0,Brittle_Failure,White_Discoloration,Severe_Spalling,2024-02-25,Tech_B,Critical strength loss
+TE-CTRL-800-FC-2,CTRL,800,Furnace_Cooling,49.9,14.7,29.5,Brittle_Failure,White_Discoloration,Severe_Spalling,2024-02-25,Tech_B,Critical strength loss
+TE-CTRL-800-FC-3,CTRL,800,Furnace_Cooling,50.4,15.1,30.0,Brittle_Failure,White_Discoloration,Severe_Spalling,2024-02-25,Tech_B,Critical strength loss
+TE-CTRL-800-WQ-1,CTRL,800,Water_Quench,50.0,8.5,17.0,Complete_Failure,White_Discoloration,Explosive_Spalling,2024-02-25,Tech_B,Structural failure
+TE-CTRL-800-WQ-2,CTRL,800,Water_Quench,49.9,8.2,16.4,Complete_Failure,White_Discoloration,Explosive_Spalling,2024-02-25,Tech_B,Structural failure
+TE-CTRL-800-WQ-3,CTRL,800,Water_Quench,50.4,8.6,17.1,Complete_Failure,White_Discoloration,Explosive_Spalling,2024-02-25,Tech_B,Structural failure
+TE-RC10-200-FC-1,RC-10,200,Furnace_Cooling,45.0,43.2,96.0,Cone-Shear,Slight_Discoloration,None,2024-02-26,Tech_A,Better retention than control
+TE-RC10-200-FC-2,RC-10,200,Furnace_Cooling,44.6,42.8,95.9,Cone-Shear,Slight_Discoloration,None,2024-02-26,Tech_A,Better retention than control
+TE-RC10-200-FC-3,RC-10,200,Furnace_Cooling,45.4,43.5,95.8,Cone-Shear,Slight_Discoloration,None,2024-02-26,Tech_A,Better retention than control
+TE-RC10-400-FC-1,RC-10,400,Furnace_Cooling,45.0,40.5,90.0,Cone-Shear,Pink_Discoloration,Surface_Cracks,2024-02-27,Tech_B,Better retention than control
+TE-RC10-400-FC-2,RC-10,400,Furnace_Cooling,44.6,40.1,89.9,Cone-Shear,Pink_Discoloration,Surface_Cracks,2024-02-27,Tech_B,Better retention than control
+TE-RC10-400-FC-3,RC-10,400,Furnace_Cooling,45.4,40.8,89.9,Cone-Shear,Pink_Discoloration,Surface_Cracks,2024-02-27,Tech_B,Better retention than control
+TE-RC20-600-FC-1,RC-20,600,Furnace_Cooling,40.0,30.0,75.0,Shear,Gray_Discoloration,Moderate_Cracking,2024-02-28,Tech_A,Significantly better than control
+TE-RC20-600-FC-2,RC-20,600,Furnace_Cooling,39.5,29.6,74.9,Shear,Gray_Discoloration,Moderate_Cracking,2024-02-28,Tech_A,Significantly better than control
+TE-RC20-600-FC-3,RC-20,600,Furnace_Cooling,40.4,30.3,75.0,Shear,Gray_Discoloration,Moderate_Cracking,2024-02-28,Tech_A,Significantly better than control
+TE-RC30-800-FC-1,RC-30,800,Furnace_Cooling,35.0,21.0,60.0,Shear,White_Discoloration,Moderate_Spalling,2024-03-01,Tech_B,Much better than control
+TE-RC30-800-FC-2,RC-30,800,Furnace_Cooling,34.5,20.7,60.0,Shear,White_Discoloration,Moderate_Spalling,2024-03-01,Tech_B,Much better than control
+TE-RC30-800-FC-3,RC-30,800,Furnace_Cooling,35.4,21.2,59.9,Shear,White_Discoloration,Moderate_Spalling,2024-03-01,Tech_B,Much better than control
