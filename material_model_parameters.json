@@ -1,0 +1,116 @@
+{
+  "material_models": {
+    "control_concrete": {
+      "thermal_model": {
+        "type": "temperature_dependent",
+        "conductivity_function": "k(T) = 1.75 - 0.001*T",
+        "specific_heat_function": "cp(T) = 900 + 0.5*T",
+        "density_function": "rho(T) = 2400 - 0.2*T"
+      },
+      "mechanical_model": {
+        "type": "damage_plasticity",
+        "compressive_strength_function": "fc(T) = 45.2*exp(-0.0008*T)",
+        "tensile_strength_function": "ft(T) = 4.1*exp(-0.0012*T)",
+        "elastic_modulus_function": "E(T) = 32.5*exp(-0.001*T)",
+        "poisson_ratio": 0.20
+      },
+      "deformation_model": {
+        "cte_function": "alpha(T) = 10e-6 + 5e-9*T",
+        "thermal_strain_function": "epsilon_th(T) = alpha(T)*T",
+        "creep_model": "Burgers_model"
+      }
+    },
+    "rubberized_concrete_5%": {
+      "thermal_model": {
+        "type": "temperature_dependent",
+        "conductivity_function": "k(T) = 1.45 - 0.001*T",
+        "specific_heat_function": "cp(T) = 950 + 0.5*T",
+        "density_function": "rho(T) = 2350 - 0.2*T"
+      },
+      "mechanical_model": {
+        "type": "damage_plasticity",
+        "compressive_strength_function": "fc(T) = 42.8*exp(-0.0008*T)",
+        "tensile_strength_function": "ft(T) = 3.9*exp(-0.0012*T)",
+        "elastic_modulus_function": "E(T) = 30.8*exp(-0.001*T)",
+        "poisson_ratio": 0.21
+      },
+      "deformation_model": {
+        "cte_function": "alpha(T) = 11.2e-6 + 5e-9*T",
+        "thermal_strain_function": "epsilon_th(T) = alpha(T)*T",
+        "creep_model": "Burgers_model"
+      }
+    },
+    "rubberized_concrete_10%": {
+      "thermal_model": {
+        "type": "temperature_dependent",
+        "conductivity_function": "k(T) = 1.25 - 0.001*T",
+        "specific_heat_function": "cp(T) = 1000 + 0.5*T",
+        "density_function": "rho(T) = 2300 - 0.2*T"
+      },
+      "mechanical_model": {
+        "type": "damage_plasticity",
+        "compressive_strength_function": "fc(T) = 40.1*exp(-0.0008*T)",
+        "tensile_strength_function": "ft(T) = 3.6*exp(-0.0012*T)",
+        "elastic_modulus_function": "E(T) = 28.9*exp(-0.001*T)",
+        "poisson_ratio": 0.22
+      },
+      "deformation_model": {
+        "cte_function": "alpha(T) = 12.5e-6 + 5e-9*T",
+        "thermal_strain_function": "epsilon_th(T) = alpha(T)*T",
+        "creep_model": "Burgers_model"
+      }
+    },
+    "rubberized_concrete_15%": {
+      "thermal_model": {
+        "type": "temperature_dependent",
+        "conductivity_function": "k(T) = 1.10 - 0.001*T",
+        "specific_heat_function": "cp(T) = 1050 + 0.5*T",
+        "density_function": "rho(T) = 2250 - 0.2*T"
+      },
+      "mechanical_model": {
+        "type": "damage_plasticity",
+        "compressive_strength_function": "fc(T) = 37.2*exp(-0.0008*T)",
+        "tensile_strength_function": "ft(T) = 3.2*exp(-0.0012*T)",
+        "elastic_modulus_function": "E(T) = 26.8*exp(-0.001*T)",
+        "poisson_ratio": 0.23
+      },
+      "deformation_model": {
+        "cte_function": "alpha(T) = 13.8e-6 + 5e-9*T",
+        "thermal_strain_function": "epsilon_th(T) = alpha(T)*T",
+        "creep_model": "Burgers_model"
+      }
+    },
+    "rubberized_concrete_20%": {
+      "thermal_model": {
+        "type": "temperature_dependent",
+        "conductivity_function": "k(T) = 0.95 - 0.001*T",
+        "specific_heat_function": "cp(T) = 1100 + 0.5*T",
+        "density_function": "rho(T) = 2200 - 0.2*T"
+      },
+      "mechanical_model": {
+        "type": "damage_plasticity",
+        "compressive_strength_function": "fc(T) = 34.1*exp(-0.0008*T)",
+        "tensile_strength_function": "ft(T) = 2.9*exp(-0.0012*T)",
+        "elastic_modulus_function": "E(T) = 24.5*exp(-0.001*T)",
+        "poisson_ratio": 0.24
+      },
+      "deformation_model": {
+        "cte_function": "alpha(T) = 15.2e-6 + 5e-9*T",
+        "thermal_strain_function": "epsilon_th(T) = alpha(T)*T",
+        "creep_model": "Burgers_model"
+      }
+    }
+  },
+  "spalling_criteria": {
+    "pore_pressure_threshold": 4.0,
+    "stress_threshold": 0.8,
+    "temperature_threshold": 200,
+    "moisture_threshold": 0.05
+  },
+  "numerical_parameters": {
+    "time_integration": "implicit",
+    "convergence_tolerance": 1e-6,
+    "max_iterations": 100,
+    "damping_factor": 0.8
+  }
+}

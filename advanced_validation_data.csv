@@ -1,0 +1,22 @@
+Test_ID,Concrete_Type,Test_Type,Heating_Rate_C_min,Max_Temperature_C,Load_Level,Specimen_Dimensions_mm,Moisture_Content_%,Time_to_Failure_min,Peak_Strain_10e6,Peak_Stress_MPa,Spalling_Occurred,Notes
+VT001,Control_Concrete,Standard_Fire,10,1000,0.3,100x100x400,4.2,12.3,3700,13.5,Yes,Baseline test
+VT002,Rubberized_5%,Standard_Fire,10,1000,0.3,100x100x400,4.5,18.7,3750,12.8,Yes,Improved performance
+VT003,Rubberized_10%,Standard_Fire,10,1000,0.3,100x100x400,4.8,24.2,3800,12.0,Yes,Enhanced fire resistance
+VT004,Rubberized_15%,Standard_Fire,10,1000,0.3,100x100x400,5.1,28.9,3850,11.2,Yes,Superior fire resistance
+VT005,Rubberized_20%,Standard_Fire,10,1000,0.3,100x100x400,5.4,33.6,3900,10.2,Yes,Optimal fire resistance
+VT006,Control_Concrete,Slow_Heating,5,1000,0.3,100x100x400,4.2,15.8,3650,13.5,Yes,Slower heating rate
+VT007,Rubberized_10%,Slow_Heating,5,1000,0.3,100x100x400,4.8,28.5,3750,12.0,Yes,Better thermal shock resistance
+VT008,Control_Concrete,Fast_Heating,20,1000,0.3,100x100x400,4.2,8.9,3850,13.5,Yes,Rapid heating
+VT009,Rubberized_10%,Fast_Heating,20,1000,0.3,100x100x400,4.8,18.2,3950,12.0,Yes,Improved thermal shock
+VT010,Control_Concrete,High_Load,10,1000,0.6,100x100x400,4.2,7.5,4200,27.0,Yes,High stress level
+VT011,Rubberized_10%,High_Load,10,1000,0.6,100x100x400,4.8,17.6,4350,24.0,Yes,Better load capacity
+VT012,Control_Concrete,Moisture_Saturated,10,1000,0.3,100x100x400,8.5,5.2,4500,13.5,Yes,High moisture content
+VT013,Rubberized_10%,Moisture_Saturated,10,1000,0.3,100x100x400,9.2,14.5,4600,12.0,Yes,Moisture resistance
+VT014,Control_Concrete,Thick_Specimen,10,1000,0.3,200x200x800,4.2,18.5,3200,13.5,Yes,Larger specimen
+VT015,Rubberized_10%,Thick_Specimen,10,1000,0.3,200x200x800,4.8,32.1,3300,12.0,Yes,Scale effect
+VT016,Control_Concrete,Cyclic_Heating,10,600,0.3,100x100x400,4.2,45.2,2800,13.5,No,Cyclic loading
+VT017,Rubberized_10%,Cyclic_Heating,10,600,0.3,100x100x400,4.8,67.8,2900,12.0,No,Fatigue resistance
+VT018,Control_Concrete,Partial_Heating,10,500,0.3,100x100x400,4.2,No_failure,2500,13.5,No,Lower temperature
+VT019,Rubberized_10%,Partial_Heating,10,500,0.3,100x100x400,4.8,No_failure,2600,12.0,No,Temperature threshold
+VT020,Control_Concrete,Restrained_Heating,10,1000,0.3,100x100x400,4.2,9.8,4100,13.5,Yes,Restrained conditions
+VT021,Rubberized_10%,Restrained_Heating,10,1000,0.3,100x100x400,4.8,19.2,4200,12.0,Yes,Restraint compatibility
