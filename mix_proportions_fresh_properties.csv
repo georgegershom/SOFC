@@ -1,0 +1,13 @@
+Mix_ID,Description,Cement (kg/m³),Water (kg/m³),Coarse_Aggregate (kg/m³),Fine_Aggregate (kg/m³),CR_Small_1_4mm (kg/m³),CR_Large_4_8mm (kg/m³),Superplasticizer (kg/m³),w/c_ratio,CR_Content_%,CR_Size_mm,Slump_mm,Air_Content_%,Fresh_Density_kg_m3,Workability_Class,Initial_Setting_Time_min,Final_Setting_Time_min
+C,Control,450,180,1100,650,0,0,4.5,0.40,0,0,180,2.1,2380,High,240,360
+R5S,5% Rubber Small,450,180,1045,650,55,0,5.2,0.40,5,1-4,175,2.8,2320,High,245,365
+R10S,10% Rubber Small,450,180,990,650,110,0,6.0,0.40,10,1-4,170,3.2,2260,Medium,250,370
+R15S,15% Rubber Small,450,180,935,650,165,0,6.8,0.40,15,1-4,165,3.6,2200,Medium,255,375
+R20S,20% Rubber Small,450,180,880,650,220,0,7.5,0.40,20,1-4,160,4.0,2140,Low,260,380
+R10L,10% Rubber Large,450,180,990,650,0,110,6.2,0.40,10,4-8,168,3.4,2250,Medium,252,372
+R15L,15% Rubber Large,450,180,935,650,0,165,7.0,0.40,15,4-8,163,3.8,2190,Medium,257,377
+R20L,20% Rubber Large,450,180,880,650,0,220,7.8,0.40,20,4-8,158,4.2,2130,Low,262,382
+R5M,5% Rubber Mixed,450,180,1045,650,27.5,27.5,5.4,0.40,5,Mixed,173,3.0,2305,High,247,367
+R10M,10% Rubber Mixed,450,180,990,650,55,55,6.4,0.40,10,Mixed,169,3.5,2255,Medium,251,371
+R15M,15% Rubber Mixed,450,180,935,650,82.5,82.5,7.2,0.40,15,Mixed,164,3.9,2195,Medium,256,376
+R20M,20% Rubber Mixed,450,180,880,650,110,110,8.0,0.40,20,Mixed,159,4.3,2135,Low,261,381
