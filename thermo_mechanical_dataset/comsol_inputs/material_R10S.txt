@@ -1,0 +1,7 @@
+% Material properties for R10S
+E = 35e9; % Elastic modulus
+nu = 0.18; % Poisson's ratio
+rho = 2400; % Density
+k = 2.1; % Thermal conductivity
+cp = 900; % Specific heat
+alpha = 12e-6; % Thermal expansion
