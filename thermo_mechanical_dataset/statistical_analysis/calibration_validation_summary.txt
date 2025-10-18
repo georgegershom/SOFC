@@ -1,0 +1,360 @@
+Calibration/Validation Data Split Summary
+==================================================
+
+Dataset: thermal_conductivity
+Total Points: 474
+Calibration: 327 (69.0%)
+Validation: 147 (31.0%)
+
+Split by Mix Type:
+  C: 55 cal, 24 val (69.6% cal)
+  R5S: 55 cal, 24 val (69.6% cal)
+  R10S: 59 cal, 20 val (74.7% cal)
+  R15S: 51 cal, 28 val (64.6% cal)
+  R20S: 59 cal, 20 val (74.7% cal)
+  R10L: 48 cal, 31 val (60.8% cal)
+
+Split by Temperature Range:
+  20-200°C: 72 cal, 36 val (66.7% cal)
+  200-400°C: 87 cal, 33 val (72.5% cal)
+  400-600°C: 84 cal, 36 val (70.0% cal)
+  600-800°C: 80 cal, 40 val (66.7% cal)
+
+--------------------------------------------------
+
+Dataset: specific_heat
+Total Points: 474
+Calibration: 345 (72.8%)
+Validation: 129 (27.2%)
+
+Split by Mix Type:
+  C: 50 cal, 29 val (63.3% cal)
+  R5S: 61 cal, 18 val (77.2% cal)
+  R10S: 65 cal, 14 val (82.3% cal)
+  R15S: 51 cal, 28 val (64.6% cal)
+  R20S: 58 cal, 21 val (73.4% cal)
+  R10L: 60 cal, 19 val (75.9% cal)
+
+Split by Temperature Range:
+  20-200°C: 79 cal, 29 val (73.1% cal)
+  200-400°C: 88 cal, 32 val (73.3% cal)
+  400-600°C: 86 cal, 34 val (71.7% cal)
+  600-800°C: 91 cal, 29 val (75.8% cal)
+
+--------------------------------------------------
+
+Dataset: thermal_diffusivity
+Total Points: 474
+Calibration: 337 (71.1%)
+Validation: 137 (28.9%)
+
+Split by Mix Type:
+  C: 59 cal, 20 val (74.7% cal)
+  R5S: 55 cal, 24 val (69.6% cal)
+  R10S: 53 cal, 26 val (67.1% cal)
+  R15S: 51 cal, 28 val (64.6% cal)
+  R20S: 57 cal, 22 val (72.2% cal)
+  R10L: 62 cal, 17 val (78.5% cal)
+
+Split by Temperature Range:
+  20-200°C: 76 cal, 32 val (70.4% cal)
+  200-400°C: 81 cal, 39 val (67.5% cal)
+  400-600°C: 88 cal, 32 val (73.3% cal)
+  600-800°C: 89 cal, 31 val (74.2% cal)
+
+--------------------------------------------------
+
+Dataset: thermal_expansion
+Total Points: 474
+Calibration: 328 (69.2%)
+Validation: 146 (30.8%)
+
+Split by Mix Type:
+  C: 60 cal, 19 val (75.9% cal)
+  R5S: 52 cal, 27 val (65.8% cal)
+  R10S: 55 cal, 24 val (69.6% cal)
+  R15S: 55 cal, 24 val (69.6% cal)
+  R20S: 56 cal, 23 val (70.9% cal)
+  R10L: 50 cal, 29 val (63.3% cal)
+
+Split by Temperature Range:
+  20-200°C: 75 cal, 33 val (69.4% cal)
+  200-400°C: 77 cal, 43 val (64.2% cal)
+  400-600°C: 85 cal, 35 val (70.8% cal)
+  600-800°C: 87 cal, 33 val (72.5% cal)
+
+--------------------------------------------------
+
+Dataset: compressive_strength
+Total Points: 474
+Calibration: 327 (69.0%)
+Validation: 147 (31.0%)
+
+Split by Mix Type:
+  C: 55 cal, 24 val (69.6% cal)
+  R5S: 55 cal, 24 val (69.6% cal)
+  R10S: 59 cal, 20 val (74.7% cal)
+  R15S: 51 cal, 28 val (64.6% cal)
+  R20S: 59 cal, 20 val (74.7% cal)
+  R10L: 48 cal, 31 val (60.8% cal)
+
+Split by Temperature Range:
+  20-200°C: 72 cal, 36 val (66.7% cal)
+  200-400°C: 87 cal, 33 val (72.5% cal)
+  400-600°C: 84 cal, 36 val (70.0% cal)
+  600-800°C: 80 cal, 40 val (66.7% cal)
+
+--------------------------------------------------
+
+Dataset: tensile_strength
+Total Points: 474
+Calibration: 345 (72.8%)
+Validation: 129 (27.2%)
+
+Split by Mix Type:
+  C: 50 cal, 29 val (63.3% cal)
+  R5S: 61 cal, 18 val (77.2% cal)
+  R10S: 65 cal, 14 val (82.3% cal)
+  R15S: 51 cal, 28 val (64.6% cal)
+  R20S: 58 cal, 21 val (73.4% cal)
+  R10L: 60 cal, 19 val (75.9% cal)
+
+Split by Temperature Range:
+  20-200°C: 79 cal, 29 val (73.1% cal)
+  200-400°C: 88 cal, 32 val (73.3% cal)
+  400-600°C: 86 cal, 34 val (71.7% cal)
+  600-800°C: 91 cal, 29 val (75.8% cal)
+
+--------------------------------------------------
+
+Dataset: elastic_modulus
+Total Points: 474
+Calibration: 323 (68.1%)
+Validation: 151 (31.9%)
+
+Split by Mix Type:
+  C: 54 cal, 25 val (68.4% cal)
+  R5S: 52 cal, 27 val (65.8% cal)
+  R10S: 51 cal, 28 val (64.6% cal)
+  R15S: 55 cal, 24 val (69.6% cal)
+  R20S: 57 cal, 22 val (72.2% cal)
+  R10L: 54 cal, 25 val (68.4% cal)
+
+Split by Temperature Range:
+  20-200°C: 74 cal, 34 val (68.5% cal)
+  200-400°C: 90 cal, 30 val (75.0% cal)
+  400-600°C: 75 cal, 45 val (62.5% cal)
+  600-800°C: 80 cal, 40 val (66.7% cal)
+
+--------------------------------------------------
+
+Dataset: poissons_ratio
+Total Points: 474
+Calibration: 335 (70.7%)
+Validation: 139 (29.3%)
+
+Split by Mix Type:
+  C: 57 cal, 22 val (72.2% cal)
+  R5S: 58 cal, 21 val (73.4% cal)
+  R10S: 58 cal, 21 val (73.4% cal)
+  R15S: 57 cal, 22 val (72.2% cal)
+  R20S: 56 cal, 23 val (70.9% cal)
+  R10L: 49 cal, 30 val (62.0% cal)
+
+Split by Temperature Range:
+  20-200°C: 72 cal, 36 val (66.7% cal)
+  200-400°C: 87 cal, 33 val (72.5% cal)
+  400-600°C: 81 cal, 39 val (67.5% cal)
+  600-800°C: 90 cal, 30 val (75.0% cal)
+
+--------------------------------------------------
+
+Dataset: fracture_properties
+Total Points: 474
+Calibration: 337 (71.1%)
+Validation: 137 (28.9%)
+
+Split by Mix Type:
+  C: 59 cal, 20 val (74.7% cal)
+  R5S: 55 cal, 24 val (69.6% cal)
+  R10S: 53 cal, 26 val (67.1% cal)
+  R15S: 51 cal, 28 val (64.6% cal)
+  R20S: 57 cal, 22 val (72.2% cal)
+  R10L: 62 cal, 17 val (78.5% cal)
+
+Split by Temperature Range:
+  20-200°C: 76 cal, 32 val (70.4% cal)
+  200-400°C: 81 cal, 39 val (67.5% cal)
+  400-600°C: 88 cal, 32 val (73.3% cal)
+  600-800°C: 89 cal, 31 val (74.2% cal)
+
+--------------------------------------------------
+
+Dataset: permeability
+Total Points: 474
+Calibration: 327 (69.0%)
+Validation: 147 (31.0%)
+
+Split by Mix Type:
+  C: 55 cal, 24 val (69.6% cal)
+  R5S: 55 cal, 24 val (69.6% cal)
+  R10S: 59 cal, 20 val (74.7% cal)
+  R15S: 51 cal, 28 val (64.6% cal)
+  R20S: 59 cal, 20 val (74.7% cal)
+  R10L: 48 cal, 31 val (60.8% cal)
+
+Split by Temperature Range:
+  20-200°C: 72 cal, 36 val (66.7% cal)
+  200-400°C: 87 cal, 33 val (72.5% cal)
+  400-600°C: 84 cal, 36 val (70.0% cal)
+  600-800°C: 80 cal, 40 val (66.7% cal)
+
+--------------------------------------------------
+
+Dataset: porosity
+Total Points: 474
+Calibration: 345 (72.8%)
+Validation: 129 (27.2%)
+
+Split by Mix Type:
+  C: 50 cal, 29 val (63.3% cal)
+  R5S: 61 cal, 18 val (77.2% cal)
+  R10S: 65 cal, 14 val (82.3% cal)
+  R15S: 51 cal, 28 val (64.6% cal)
+  R20S: 58 cal, 21 val (73.4% cal)
+  R10L: 60 cal, 19 val (75.9% cal)
+
+Split by Temperature Range:
+  20-200°C: 79 cal, 29 val (73.1% cal)
+  200-400°C: 88 cal, 32 val (73.3% cal)
+  400-600°C: 86 cal, 34 val (71.7% cal)
+  600-800°C: 91 cal, 29 val (75.8% cal)
+
+--------------------------------------------------
+
+Dataset: moisture_transport
+Total Points: 474
+Calibration: 323 (68.1%)
+Validation: 151 (31.9%)
+
+Split by Mix Type:
+  C: 54 cal, 25 val (68.4% cal)
+  R5S: 52 cal, 27 val (65.8% cal)
+  R10S: 51 cal, 28 val (64.6% cal)
+  R15S: 55 cal, 24 val (69.6% cal)
+  R20S: 57 cal, 22 val (72.2% cal)
+  R10L: 54 cal, 25 val (68.4% cal)
+
+Split by Temperature Range:
+  20-200°C: 74 cal, 34 val (68.5% cal)
+  200-400°C: 90 cal, 30 val (75.0% cal)
+  400-600°C: 75 cal, 45 val (62.5% cal)
+  600-800°C: 80 cal, 40 val (66.7% cal)
+
+--------------------------------------------------
+
+Dataset: gas_transport
+Total Points: 474
+Calibration: 335 (70.7%)
+Validation: 139 (29.3%)
+
+Split by Mix Type:
+  C: 57 cal, 22 val (72.2% cal)
+  R5S: 58 cal, 21 val (73.4% cal)
+  R10S: 58 cal, 21 val (73.4% cal)
+  R15S: 57 cal, 22 val (72.2% cal)
+  R20S: 56 cal, 23 val (70.9% cal)
+  R10L: 49 cal, 30 val (62.0% cal)
+
+Split by Temperature Range:
+  20-200°C: 72 cal, 36 val (66.7% cal)
+  200-400°C: 87 cal, 33 val (72.5% cal)
+  400-600°C: 81 cal, 39 val (67.5% cal)
+  600-800°C: 90 cal, 30 val (75.0% cal)
+
+--------------------------------------------------
+
+Dataset: creep_parameters
+Total Points: 474
+Calibration: 327 (69.0%)
+Validation: 147 (31.0%)
+
+Split by Mix Type:
+  C: 55 cal, 24 val (69.6% cal)
+  R5S: 55 cal, 24 val (69.6% cal)
+  R10S: 59 cal, 20 val (74.7% cal)
+  R15S: 51 cal, 28 val (64.6% cal)
+  R20S: 59 cal, 20 val (74.7% cal)
+  R10L: 48 cal, 31 val (60.8% cal)
+
+Split by Temperature Range:
+  20-200°C: 72 cal, 36 val (66.7% cal)
+  200-400°C: 87 cal, 33 val (72.5% cal)
+  400-600°C: 84 cal, 36 val (70.0% cal)
+  600-800°C: 80 cal, 40 val (66.7% cal)
+
+--------------------------------------------------
+
+Dataset: shrinkage_parameters
+Total Points: 474
+Calibration: 345 (72.8%)
+Validation: 129 (27.2%)
+
+Split by Mix Type:
+  C: 50 cal, 29 val (63.3% cal)
+  R5S: 61 cal, 18 val (77.2% cal)
+  R10S: 65 cal, 14 val (82.3% cal)
+  R15S: 51 cal, 28 val (64.6% cal)
+  R20S: 58 cal, 21 val (73.4% cal)
+  R10L: 60 cal, 19 val (75.9% cal)
+
+Split by Temperature Range:
+  20-200°C: 79 cal, 29 val (73.1% cal)
+  200-400°C: 88 cal, 32 val (73.3% cal)
+  400-600°C: 86 cal, 34 val (71.7% cal)
+  600-800°C: 91 cal, 29 val (75.8% cal)
+
+--------------------------------------------------
+
+Dataset: thermal_strain
+Total Points: 474
+Calibration: 323 (68.1%)
+Validation: 151 (31.9%)
+
+Split by Mix Type:
+  C: 54 cal, 25 val (68.4% cal)
+  R5S: 52 cal, 27 val (65.8% cal)
+  R10S: 51 cal, 28 val (64.6% cal)
+  R15S: 55 cal, 24 val (69.6% cal)
+  R20S: 57 cal, 22 val (72.2% cal)
+  R10L: 54 cal, 25 val (68.4% cal)
+
+Split by Temperature Range:
+  20-200°C: 74 cal, 34 val (68.5% cal)
+  200-400°C: 90 cal, 30 val (75.0% cal)
+  400-600°C: 75 cal, 45 val (62.5% cal)
+  600-800°C: 80 cal, 40 val (66.7% cal)
+
+--------------------------------------------------
+
+Dataset: damage_evolution
+Total Points: 474
+Calibration: 335 (70.7%)
+Validation: 139 (29.3%)
+
+Split by Mix Type:
+  C: 57 cal, 22 val (72.2% cal)
+  R5S: 58 cal, 21 val (73.4% cal)
+  R10S: 58 cal, 21 val (73.4% cal)
+  R15S: 57 cal, 22 val (72.2% cal)
+  R20S: 56 cal, 23 val (70.9% cal)
+  R10L: 49 cal, 30 val (62.0% cal)
+
+Split by Temperature Range:
+  20-200°C: 72 cal, 36 val (66.7% cal)
+  200-400°C: 87 cal, 33 val (72.5% cal)
+  400-600°C: 81 cal, 39 val (67.5% cal)
+  600-800°C: 90 cal, 30 val (75.0% cal)
+
+--------------------------------------------------
+
