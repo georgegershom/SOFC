@@ -1,0 +1,48 @@
+{
+  "source": "Passenger tire tread",
+  "size_range_mm": [
+    4.0,
+    8.0
+  ],
+  "particle_size_distribution_pct": [
+    20.85,
+    17.08,
+    19.48,
+    18.8,
+    11.74,
+    12.04
+  ],
+  "specific_gravity": 1.12,
+  "mohs_hardness": 0.5,
+  "tga_mass_loss_profile_pct": [
+    0.0,
+    1.5,
+    5.0,
+    12.0,
+    28.0,
+    45.0,
+    58.0,
+    64.0,
+    68.0
+  ],
+  "ftir_peaks_cm1": {
+    "C-H stretch": 2920.0,
+    "C=C stretch": 1660.0,
+    "S-S stretch": 500.0,
+    "Aromatic ring": 1600.0
+  },
+  "additives_pct": {
+    "sulfur": 1.8,
+    "carbon_black": 30.0,
+    "processing_oils": 6.5,
+    "antioxidants": 0.8
+  },
+  "morphology_image_paths": [
+    "images/sem/sem_large_4-8mm_01.png",
+    "images/sem/sem_large_4-8mm_02.png",
+    "images/sem/sem_large_4-8mm_03.png",
+    "images/sem/sem_large_4-8mm_04.png",
+    "images/sem/sem_large_4-8mm_05.png",
+    "images/sem/sem_large_4-8mm_06.png"
+  ]
+}
