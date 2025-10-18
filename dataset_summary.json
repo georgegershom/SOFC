@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "title": "Development and Validation of a Thermo-Mechanical Model for Fire-Resistant Structural Elements Utilizing High-Performance Rubberized Concrete",
+    "phase": "Phase 1 - Material Characterization & Specimen Preparation",
+    "generation_date": "2024-01-15",
+    "description": "Synthetic dataset for high-performance concrete system incorporating crumb rubber (CR) content and particle size variations",
+    "total_mixes": 6,
+    "total_batches": 18,
+    "total_specimens": 108
+  },
+  "mix_designs": {
+    "C": {
+      "description": "Control mix - No rubber",
+      "rubber_content_pct": 0,
+      "rubber_size_mm": 0,
+      "batches": 3
+    },
+    "R5S": {
+      "description": "5% Rubber, Small particles (1-4mm)",
+      "rubber_content_pct": 5,
+      "rubber_size_mm": 2.5,
+      "batches": 3
+    },
+    "R10S": {
+      "description": "10% Rubber, Small particles (1-4mm)",
+      "rubber_content_pct": 10,
+      "rubber_size_mm": 2.5,
+      "batches": 3
+    },
+    "R15S": {
+      "description": "15% Rubber, Small particles (1-4mm)",
+      "rubber_content_pct": 15,
+      "rubber_size_mm": 2.5,
+      "batches": 3
+    },
+    "R20S": {
+      "description": "20% Rubber, Small particles (1-4mm)",
+      "rubber_content_pct": 20,
+      "rubber_size_mm": 2.5,
+      "batches": 3
+    },
+    "R10L": {
+      "description": "10% Rubber, Large particles (4-8mm)",
+      "rubber_content_pct": 10,
+      "rubber_size_mm": 6.0,
+      "batches": 3
+    }
+  },
+  "testing_ages": [7, 28, 90],
+  "specimen_types": ["Cylinder", "Beam", "Prism"],
+  "properties_measured": {
+    "fresh_properties": [
+      "Slump",
+      "Air Content",
+      "Fresh Density",
+      "Workability Class"
+    ],
+    "mechanical_properties": [
+      "Compressive Strength",
+      "Flexural Strength",
+      "Split Tensile Strength",
+      "Static Modulus",
+      "Poisson Ratio",
+      "Hardened Density",
+      "Water Absorption"
+    ],
+    "thermal_properties": [
+      "Thermal Conductivity",
+      "Specific Heat",
+      "Thermal Diffusivity",
+      "Linear Thermal Expansion",
+      "Fire Resistance Rating",
+      "Residual Strength after Elevated Temperatures"
+    ]
+  },
+  "data_quality": {
+    "realism": "All data points fall within scientifically accepted ranges for concrete technology",
+    "consistency": "Data for each mix ID is self-consistent with proper material balance",
+    "variation": "Controlled random noise (±5-10%) added to simulate experimental error",
+    "completeness": "Exhaustive dataset including all necessary parameters for analysis",
+    "traceability": "Full batch tracking and specimen identification system"
+  },
+  "file_structure": {
+    "constituent_materials_cement.csv": "Cement characterization data (OPC 52.5N)",
+    "constituent_materials_aggregates.csv": "Coarse and fine aggregate properties",
+    "constituent_materials_crumb_rubber.csv": "Crumb rubber properties for two particle sizes",
+    "constituent_materials_other.csv": "Water and superplasticizer properties",
+    "mix_proportions_fresh_properties.csv": "Core operational dataset with mix proportions and fresh properties",
+    "mechanical_properties.csv": "Mechanical properties at 7, 28, and 90 days",
+    "thermal_properties.csv": "Thermal properties and fire resistance data",
+    "specimen_preparation_testing.csv": "Specimen preparation and testing conditions"
+  }
+}
