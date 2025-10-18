@@ -1,0 +1,81 @@
+{
+  "dataset": "Phase 4: Numerical Modeling Dataset",
+  "topic": "Thermo-Mechanical Model for Fire-Resistant Structural Elements with HPRC",
+  "created_at_utc": "2025-10-18T19:26:46.264824+00:00",
+  "mixtures": {
+    "HPC_ref": {
+      "description": "High-performance concrete reference (no rubber).",
+      "rubber_volume_fraction": 0.0,
+      "baseline_props": {
+        "k_W_mK@20C": 2.2,
+        "cp_J_kgK@20C": 900.0,
+        "rho_kg_m3@20C": 2350.0,
+        "fc_MPa@20C": 70.0,
+        "ft_MPa@20C": 5.5,
+        "E_GPa@20C": 38.0,
+        "nu@20C": 0.2,
+        "porosity": 0.12
+      }
+    },
+    "HPRC_lowRubber": {
+      "description": "HPRC with ~10% rubber by volume.",
+      "rubber_volume_fraction": 0.1,
+      "baseline_props": {
+        "k_W_mK@20C": 1.6,
+        "cp_J_kgK@20C": 950.0,
+        "rho_kg_m3@20C": 2100.0,
+        "fc_MPa@20C": 58.0,
+        "ft_MPa@20C": 4.6,
+        "E_GPa@20C": 32.0,
+        "nu@20C": 0.22,
+        "porosity": 0.17
+      }
+    },
+    "HPRC_highRubber": {
+      "description": "HPRC with ~20% rubber by volume.",
+      "rubber_volume_fraction": 0.2,
+      "baseline_props": {
+        "k_W_mK@20C": 1.3,
+        "cp_J_kgK@20C": 980.0,
+        "rho_kg_m3@20C": 1950.0,
+        "fc_MPa@20C": 50.0,
+        "ft_MPa@20C": 4.0,
+        "E_GPa@20C": 28.0,
+        "nu@20C": 0.24,
+        "porosity": 0.21
+      }
+    }
+  },
+  "files": {
+    "HPC_ref": {
+      "properties_csv": "/workspace/datasets/phase4_numerical_modeling/model_input/material_properties_HPC_ref.csv",
+      "permeability_csv": "/workspace/datasets/phase4_numerical_modeling/model_input/permeability_HPC_ref.csv",
+      "thermocouples_csv": "/workspace/datasets/phase4_numerical_modeling/model_validation/thermocouples_HPC_ref.csv",
+      "strain_csv": "/workspace/datasets/phase4_numerical_modeling/model_validation/strain_history_HPC_ref.csv",
+      "spalling_json": "/workspace/datasets/phase4_numerical_modeling/model_validation/spalling_HPC_ref.json"
+    },
+    "HPRC_lowRubber": {
+      "properties_csv": "/workspace/datasets/phase4_numerical_modeling/model_input/material_properties_HPRC_lowRubber.csv",
+      "permeability_csv": "/workspace/datasets/phase4_numerical_modeling/model_input/permeability_HPRC_lowRubber.csv",
+      "thermocouples_csv": "/workspace/datasets/phase4_numerical_modeling/model_validation/thermocouples_HPRC_lowRubber.csv",
+      "strain_csv": "/workspace/datasets/phase4_numerical_modeling/model_validation/strain_history_HPRC_lowRubber.csv",
+      "spalling_json": "/workspace/datasets/phase4_numerical_modeling/model_validation/spalling_HPRC_lowRubber.json"
+    },
+    "HPRC_highRubber": {
+      "properties_csv": "/workspace/datasets/phase4_numerical_modeling/model_input/material_properties_HPRC_highRubber.csv",
+      "permeability_csv": "/workspace/datasets/phase4_numerical_modeling/model_input/permeability_HPRC_highRubber.csv",
+      "thermocouples_csv": "/workspace/datasets/phase4_numerical_modeling/model_validation/thermocouples_HPRC_highRubber.csv",
+      "strain_csv": "/workspace/datasets/phase4_numerical_modeling/model_validation/strain_history_HPRC_highRubber.csv",
+      "spalling_json": "/workspace/datasets/phase4_numerical_modeling/model_validation/spalling_HPRC_highRubber.json"
+    }
+  },
+  "notes": [
+    "Synthesized properties guided by Eurocode-style residuals and typical HPRC trends.",
+    "Thermal solver uses 1D explicit scheme with variable properties vs temperature.",
+    "Validation includes thermocouples (noisy), strain history under 0.30 load ratio, and spalling/failure heuristics.",
+    "Units: SI. Temperatures in Celsius, stresses in MPa, modulus in GPa."
+  ],
+  "license": "CC-BY-4.0",
+  "citation": "Synthetic dataset generated for benchmarking and model development purposes.",
+  "generator_script": "../scripts/generate_phase4_dataset.py"
+}

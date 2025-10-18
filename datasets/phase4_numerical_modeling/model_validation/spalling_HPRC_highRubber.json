@@ -1,0 +1,56 @@
+{
+  "events": [
+    {
+      "time_s": 160.0,
+      "depth_m": 0.01851,
+      "surface_temp_C": 485.4,
+      "risk_index": 1.21,
+      "reason": "Combined thermal, rate, tensile and porosity risk"
+    },
+    {
+      "time_s": 165.0,
+      "depth_m": 0.02,
+      "surface_temp_C": 489.8,
+      "risk_index": 1.26,
+      "reason": "Combined thermal, rate, tensile and porosity risk"
+    },
+    {
+      "time_s": 170.0,
+      "depth_m": 0.0197,
+      "surface_temp_C": 494.1,
+      "risk_index": 1.28,
+      "reason": "Combined thermal, rate, tensile and porosity risk"
+    },
+    {
+      "time_s": 175.0,
+      "depth_m": 0.02,
+      "surface_temp_C": 498.2,
+      "risk_index": 1.31,
+      "reason": "Combined thermal, rate, tensile and porosity risk"
+    },
+    {
+      "time_s": 180.0,
+      "depth_m": 0.01925,
+      "surface_temp_C": 502.3,
+      "risk_index": 1.33,
+      "reason": "Combined thermal, rate, tensile and porosity risk"
+    },
+    {
+      "time_s": 185.0,
+      "depth_m": 0.01863,
+      "surface_temp_C": 506.2,
+      "risk_index": 1.35,
+      "reason": "Combined thermal, rate, tensile and porosity risk"
+    },
+    {
+      "time_s": 190.0,
+      "depth_m": 0.0191,
+      "surface_temp_C": 510.1,
+      "risk_index": 1.37,
+      "reason": "Combined thermal, rate, tensile and porosity risk"
+    }
+  ],
+  "effective_thickness_m": 0.0648,
+  "time_to_failure_s": 0.0,
+  "failure_mode": "capacity_drop_below_load"
+}
