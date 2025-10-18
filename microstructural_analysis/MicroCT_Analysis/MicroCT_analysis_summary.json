@@ -1,0 +1,36 @@
+{
+  "Dataset": "Micro-CT Analysis for Rubberized Concrete",
+  "Generated": "2025-10-18T18:00:17.098147",
+  "Total_Porosity_Analyses": 225,
+  "Total_Crack_Analyses": 250,
+  "Total_Rubber_Analyses": 160,
+  "Total_Damage_Metrics": 25,
+  "Total_Segmentation_Analyses": 25,
+  "Total_Transport_Predictions": 25,
+  "Temperature_Range_C": "20-800",
+  "Rubber_Contents_%": [
+    0,
+    5,
+    10,
+    15,
+    20
+  ],
+  "Voxel_Resolutions_um": [
+    5,
+    10,
+    20
+  ],
+  "Key_Findings": {
+    "Max_Porosity_%": 60.0,
+    "Max_Crack_Volume_%": 20.0,
+    "Percolation_Threshold_Temp": "600\u00b0C",
+    "Max_Damage_Parameter": 1.0,
+    "Permeability_Increase_Factor": 7655.095172470834,
+    "Critical_Observations": [
+      "Significant crack network development above 400\u00b0C",
+      "Rubber particles show 60% volume reduction at 800\u00b0C",
+      "Percolation threshold reached at 600\u00b0C for high rubber content",
+      "Transport properties increase by 3 orders of magnitude"
+    ]
+  }
+}

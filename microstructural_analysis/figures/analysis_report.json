@@ -1,0 +1,146 @@
+{
+  "Analysis_Date": "2025-10-18T18:01:43.422251",
+  "Total_Data_Points": {
+    "SEM": 5250,
+    "XRD": 269,
+    "TGA_DTA": 2970,
+    "MicroCT": 500
+  },
+  "Key_Correlations": [
+    {
+      "Parameter_1": "Damage_Parameter",
+      "Parameter_2": "Estimated_Modulus_Ratio",
+      "Correlation": -0.9990956739596055
+    },
+    {
+      "Parameter_1": "Crack_Density_per_mm2",
+      "Parameter_2": "Damage_Parameter",
+      "Correlation": 0.9891521724168746
+    },
+    {
+      "Parameter_1": "Crack_Density_per_mm2",
+      "Parameter_2": "Estimated_Modulus_Ratio",
+      "Correlation": -0.9826295020317345
+    },
+    {
+      "Parameter_1": "Temperature_C",
+      "Parameter_2": "Total_Mass_Loss_%",
+      "Correlation": 0.9630094084174733
+    },
+    {
+      "Parameter_1": "Temperature_C",
+      "Parameter_2": "Avg_Crack_Width_um",
+      "Correlation": 0.9627448587146935
+    }
+  ],
+  "Degradation_Stages": {
+    "Stage_I_Dehydration": {
+      "Temperature_Range": "20-200\u00b0C",
+      "Primary_Process": "Free and bound water evaporation",
+      "Mass_Loss_%": 6.5,
+      "Strength_Loss_%": 10,
+      "Key_Indicator": "CSH interlayer water loss"
+    },
+    "Stage_II_Rubber_Degradation": {
+      "Temperature_Range": "200-500\u00b0C",
+      "Primary_Process": "Rubber volatilization and pyrolysis",
+      "Mass_Loss_%": "Rubber content dependent (0.5-10%)",
+      "Strength_Loss_%": 30,
+      "Key_Indicator": "Rubber particle porosity increase"
+    },
+    "Stage_III_Portlandite_Decomposition": {
+      "Temperature_Range": "400-500\u00b0C",
+      "Primary_Process": "Ca(OH)\u2082 \u2192 CaO + H\u2082O",
+      "Mass_Loss_%": 4.5,
+      "Strength_Loss_%": 50,
+      "Key_Indicator": "Portlandite peak disappearance in XRD"
+    },
+    "Stage_IV_CSH_Decomposition": {
+      "Temperature_Range": "600-800\u00b0C",
+      "Primary_Process": "C-S-H gel breakdown",
+      "Mass_Loss_%": 3.0,
+      "Strength_Loss_%": 75,
+      "Key_Indicator": "Complete loss of binding capacity"
+    },
+    "Stage_V_Calcite_Decomposition": {
+      "Temperature_Range": "700-900\u00b0C",
+      "Primary_Process": "CaCO\u2083 \u2192 CaO + CO\u2082",
+      "Mass_Loss_%": 2.0,
+      "Strength_Loss_%": 90,
+      "Key_Indicator": "CO\u2082 evolution peak in TGA"
+    }
+  },
+  "Feature_Importance": [
+    {
+      "Feature": "Crack_Density",
+      "Importance": 0.2815386537618207
+    },
+    {
+      "Feature": "Mass_Loss",
+      "Importance": 0.23055561232215366
+    },
+    {
+      "Feature": "CSH",
+      "Importance": 0.2092997609690491
+    },
+    {
+      "Feature": "Portlandite",
+      "Importance": 0.10901848334721286
+    },
+    {
+      "Feature": "Temperature",
+      "Importance": 0.10409710599206334
+    },
+    {
+      "Feature": "Porosity",
+      "Importance": 0.060520167291481304
+    },
+    {
+      "Feature": "Rubber%",
+      "Importance": 0.004970216316219123
+    }
+  ],
+  "Structure_Property_Models": {
+    "Strength_Model": "fc/fc0 = (1 - D) * (1 - p)^2 * exp(-\u03b1T)",
+    "Modulus_Model": "E/E0 = (1 - D)^2 * (\u03c1/\u03c10)^2",
+    "Permeability_Model": "k = k0 * (p^3/(1-p)^2) * exp(\u03b2D)",
+    "Thermal_Conductivity": "\u03bb = \u03bb0 * (1 - p)^1.5 * (1 - 0.5*VR)"
+  },
+  "PhD_Insights": {
+    "Critical_Temperature_Ranges": {
+      "400-500\u00b0C": "Critical transition zone: Portlandite decomposition + rubber pyrolysis creates dual weakening mechanism",
+      "600\u00b0C": "Percolation threshold: crack network becomes interconnected, catastrophic permeability increase",
+      "800\u00b0C": "Complete CSH breakdown: material loses all cohesive strength"
+    },
+    "Rubber_Effects": {
+      "Positive": [
+        "Reduced thermal cracking below 400\u00b0C due to stress relaxation",
+        "Lower thermal conductivity delays heat penetration",
+        "Crack bridging mechanism at moderate temperatures"
+      ],
+      "Negative": [
+        "Increased ITZ thickness weakens aggregate-paste bond",
+        "Pyrolysis creates additional porosity (200-500\u00b0C)",
+        "Accelerated crack propagation above 600\u00b0C"
+      ]
+    },
+    "Key_Mechanisms": {
+      "ITZ_Degradation": "ITZ thickness increases 150% at 800\u00b0C, creating preferential failure paths",
+      "Phase_Transformation": "CSH \u2192 C\u2082S + lime transformation reduces binding capacity by 75%",
+      "Pore_Pressure": "Water vapor pressure from dehydration induces thermal spalling risk",
+      "Rubber_Carbonization": "Carbonized rubber acts as stress concentrator, not reinforcement"
+    },
+    "Novel_Findings": [
+      "Rubber particles maintain structural integrity up to 350\u00b0C, providing pseudo-ductility",
+      "Synergistic degradation: rubber pyrolysis gases accelerate CSH decomposition",
+      "Critical rubber content threshold: 10-15% optimizes fire resistance vs strength",
+      "Fractal dimension of crack network correlates with residual strength (R\u00b2 = 0.89)"
+    ],
+    "Engineering_Implications": {
+      "Design_Recommendation": "10% rubber content optimal for fire-resistant applications",
+      "Critical_Cover_Depth": "Increase by 1.5x for rubberized concrete in fire-prone structures",
+      "Spalling_Prevention": "PP fibers still needed despite rubber presence",
+      "Service_Temperature": "Limit to 400\u00b0C for structural applications"
+    }
+  }
+}
