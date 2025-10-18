@@ -1,0 +1,22 @@
+protocol:
+  ages_days:
+  - 7
+  - 28
+  - 56
+  target_temperatures_c:
+  - 23
+  - 200
+  - 400
+  - 600
+  - 800
+  heating_rate_c_per_min: 7.5
+  soak_time_min: 60
+  cooling_methods:
+  - furnace
+  - quench
+  replicates_per_condition: 3
+  insitu_target_temperatures_c:
+  - 200
+  - 400
+  - 600
+disclaimer: Synthetic, physically-informed dataset for research & modeling prototyping.
