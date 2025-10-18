@@ -1,0 +1,33 @@
+{
+  "instrument": "TA Instruments Q600 SDT (Simultaneous TGA-DTA)",
+  "temperature_range": "25-1000\u00b0C",
+  "heating_rates": "5-20\u00b0C/min",
+  "sample_mass_range": "10-25mg",
+  "atmospheres": [
+    "air",
+    "nitrogen",
+    "argon"
+  ],
+  "flow_rates": "50-150mL/min",
+  "crucible_material": "alumina",
+  "reference_material": "empty alumina crucible",
+  "data_collection_rate": "1 point/\u00b0C",
+  "temperature_precision": "\u00b11\u00b0C",
+  "mass_precision": "\u00b10.01%",
+  "thermal_events_analyzed": [
+    "free_water_loss",
+    "ettringite_dehydration",
+    "gypsum_dehydration",
+    "csh_gel_dehydration",
+    "rubber_pyrolysis",
+    "portlandite_decomposition",
+    "calcite_decomposition",
+    "residual_organics"
+  ],
+  "kinetic_models": [
+    "Kissinger",
+    "Ozawa",
+    "Flynn-Wall-Ozawa"
+  ],
+  "software": "TA Universal Analysis"
+}

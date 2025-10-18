@@ -1,0 +1,27 @@
+{
+  "instrument": "PANalytical X'Pert Pro MPD",
+  "radiation": "Cu K\u03b1 (\u03bb = 1.5406 \u00c5)",
+  "detector": "X'Celerator RTMS",
+  "measurement_range": "5-70\u00b0 2\u03b8",
+  "step_size": "0.02\u00b0 2\u03b8",
+  "scan_speed": "2\u00b0/min",
+  "sample_preparation": "Back-loading technique, random orientation",
+  "quantitative_analysis": "Rietveld refinement with TOPAS-Academic",
+  "internal_standard": "Corundum (Al\u2082O\u2083) - 10 wt%",
+  "phases_identified": [
+    "Portlandite",
+    "Calcite",
+    "Quartz",
+    "C3S",
+    "C2S",
+    "C3A",
+    "C4AF",
+    "Ettringite",
+    "Gypsum",
+    "Lime",
+    "Periclase",
+    "Gehlenite"
+  ],
+  "detection_limit": "1 wt%",
+  "precision": "\u00b12% relative"
+}
