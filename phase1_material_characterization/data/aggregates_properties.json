@@ -1,0 +1,153 @@
+{
+  "coarse_aggregate": {
+    "type": "Crushed Granite",
+    "source": "Blue Mountain Quarry",
+    "batch_id": "BMQ-CA-2024-892",
+    "physical_properties": {
+      "specific_gravity": {
+        "bulk_dry": 2.68,
+        "bulk_ssd": 2.71,
+        "apparent": 2.76
+      },
+      "water_absorption": {
+        "value": 1.12,
+        "unit": "%"
+      },
+      "bulk_density": {
+        "loose": {
+          "value": 1485,
+          "unit": "kg/m3"
+        },
+        "compacted": {
+          "value": 1628,
+          "unit": "kg/m3"
+        }
+      },
+      "moisture_content": {
+        "value": 0.8,
+        "unit": "%"
+      },
+      "los_angeles_abrasion": {
+        "value": 22.5,
+        "unit": "%"
+      },
+      "aggregate_impact_value": {
+        "value": 18.2,
+        "unit": "%"
+      },
+      "aggregate_crushing_value": {
+        "value": 21.8,
+        "unit": "%"
+      }
+    },
+    "sieve_analysis": {
+      "test_standard": "ASTM C136",
+      "sample_weight_g": 5000,
+      "sieve_data": [
+        {"sieve_size_mm": 25, "retained_g": 0, "retained_percent": 0, "cumulative_retained_percent": 0, "passing_percent": 100},
+        {"sieve_size_mm": 19, "retained_g": 250, "retained_percent": 5.0, "cumulative_retained_percent": 5.0, "passing_percent": 95.0},
+        {"sieve_size_mm": 12.5, "retained_g": 1750, "retained_percent": 35.0, "cumulative_retained_percent": 40.0, "passing_percent": 60.0},
+        {"sieve_size_mm": 9.5, "retained_g": 1500, "retained_percent": 30.0, "cumulative_retained_percent": 70.0, "passing_percent": 30.0},
+        {"sieve_size_mm": 4.75, "retained_g": 1350, "retained_percent": 27.0, "cumulative_retained_percent": 97.0, "passing_percent": 3.0},
+        {"sieve_size_mm": 2.36, "retained_g": 100, "retained_percent": 2.0, "cumulative_retained_percent": 99.0, "passing_percent": 1.0},
+        {"pan": 0, "retained_g": 50, "retained_percent": 1.0, "cumulative_retained_percent": 100.0, "passing_percent": 0}
+      ],
+      "fineness_modulus": 6.81,
+      "nominal_max_size_mm": 19
+    },
+    "chemical_properties": {
+      "chloride_content": {
+        "value": 0.003,
+        "unit": "%"
+      },
+      "sulfate_content": {
+        "value": 0.08,
+        "unit": "%"
+      },
+      "alkali_silica_reactivity": "Non-reactive"
+    },
+    "thermal_properties": {
+      "thermal_expansion_coefficient": {
+        "value": 5.5e-6,
+        "unit": "1/K"
+      },
+      "specific_heat_capacity": {
+        "value": 0.84,
+        "unit": "kJ/kg·K"
+      }
+    }
+  },
+  "fine_aggregate": {
+    "type": "Natural River Sand",
+    "source": "River Valley Sand Co.",
+    "batch_id": "RVS-FA-2024-1128",
+    "physical_properties": {
+      "specific_gravity": {
+        "bulk_dry": 2.63,
+        "bulk_ssd": 2.65,
+        "apparent": 2.68
+      },
+      "water_absorption": {
+        "value": 0.75,
+        "unit": "%"
+      },
+      "bulk_density": {
+        "loose": {
+          "value": 1542,
+          "unit": "kg/m3"
+        },
+        "compacted": {
+          "value": 1685,
+          "unit": "kg/m3"
+        }
+      },
+      "moisture_content": {
+        "value": 2.3,
+        "unit": "%"
+      },
+      "silt_content": {
+        "value": 2.8,
+        "unit": "%"
+      },
+      "clay_lumps": {
+        "value": 0.5,
+        "unit": "%"
+      }
+    },
+    "sieve_analysis": {
+      "test_standard": "ASTM C136",
+      "sample_weight_g": 500,
+      "sieve_data": [
+        {"sieve_size_mm": 4.75, "retained_g": 10, "retained_percent": 2.0, "cumulative_retained_percent": 2.0, "passing_percent": 98.0},
+        {"sieve_size_mm": 2.36, "retained_g": 65, "retained_percent": 13.0, "cumulative_retained_percent": 15.0, "passing_percent": 85.0},
+        {"sieve_size_mm": 1.18, "retained_g": 90, "retained_percent": 18.0, "cumulative_retained_percent": 33.0, "passing_percent": 67.0},
+        {"sieve_size_mm": 0.6, "retained_g": 100, "retained_percent": 20.0, "cumulative_retained_percent": 53.0, "passing_percent": 47.0},
+        {"sieve_size_mm": 0.3, "retained_g": 115, "retained_percent": 23.0, "cumulative_retained_percent": 76.0, "passing_percent": 24.0},
+        {"sieve_size_mm": 0.15, "retained_g": 85, "retained_percent": 17.0, "cumulative_retained_percent": 93.0, "passing_percent": 7.0},
+        {"sieve_size_mm": 0.075, "retained_g": 25, "retained_percent": 5.0, "cumulative_retained_percent": 98.0, "passing_percent": 2.0},
+        {"pan": 0, "retained_g": 10, "retained_percent": 2.0, "cumulative_retained_percent": 100.0, "passing_percent": 0}
+      ],
+      "fineness_modulus": 2.72,
+      "grading_zone": "Zone II"
+    },
+    "mineralogical_composition": {
+      "quartz": 68.5,
+      "feldspar": 15.2,
+      "mica": 3.8,
+      "clay_minerals": 2.5,
+      "iron_oxides": 1.2,
+      "carbonates": 4.3,
+      "others": 4.5
+    },
+    "thermal_properties": {
+      "thermal_expansion_coefficient": {
+        "value": 4.8e-6,
+        "unit": "1/K"
+      },
+      "specific_heat_capacity": {
+        "value": 0.80,
+        "unit": "kJ/kg·K"
+      }
+    }
+  }
+}

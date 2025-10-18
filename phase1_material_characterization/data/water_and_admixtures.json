@@ -1,0 +1,308 @@
+{
+  "water_properties": {
+    "source": "Municipal Potable Water Supply",
+    "sampling_date": "2024-10-14",
+    "test_standard": "ASTM C1602",
+    "physical_properties": {
+      "temperature": {
+        "value": 22.5,
+        "unit": "°C"
+      },
+      "ph": 7.2,
+      "turbidity": {
+        "value": 0.8,
+        "unit": "NTU"
+      },
+      "total_dissolved_solids": {
+        "value": 285,
+        "unit": "mg/L"
+      },
+      "electrical_conductivity": {
+        "value": 428,
+        "unit": "μS/cm"
+      },
+      "color": "Clear",
+      "odor": "None"
+    },
+    "chemical_analysis": {
+      "chlorides": {
+        "value": 45,
+        "limit": 500,
+        "unit": "mg/L"
+      },
+      "sulfates": {
+        "value": 82,
+        "limit": 3000,
+        "unit": "mg/L"
+      },
+      "alkalis_as_Na2O_eq": {
+        "value": 38,
+        "limit": 600,
+        "unit": "mg/L"
+      },
+      "total_solids": {
+        "value": 312,
+        "limit": 50000,
+        "unit": "mg/L"
+      },
+      "organic_matter": {
+        "value": 8,
+        "limit": 200,
+        "unit": "mg/L",
+        "test_method": "Color comparison"
+      },
+      "calcium": {
+        "value": 42,
+        "unit": "mg/L"
+      },
+      "magnesium": {
+        "value": 12,
+        "unit": "mg/L"
+      },
+      "sodium": {
+        "value": 25,
+        "unit": "mg/L"
+      },
+      "potassium": {
+        "value": 8,
+        "unit": "mg/L"
+      },
+      "iron": {
+        "value": 0.15,
+        "unit": "mg/L"
+      },
+      "bicarbonates": {
+        "value": 145,
+        "unit": "mg/L"
+      }
+    },
+    "microbiological": {
+      "total_coliform": {
+        "value": 0,
+        "unit": "CFU/100mL"
+      },
+      "e_coli": {
+        "value": 0,
+        "unit": "CFU/100mL"
+      }
+    },
+    "suitability": {
+      "concrete_mixing": "Suitable",
+      "compliance": "Meets ASTM C1602 requirements",
+      "certificate_number": "WQ-2024-10-847"
+    }
+  },
+  "chemical_admixtures": {
+    "superplasticizer": {
+      "product_name": "MasterGlenium SKY 8100",
+      "manufacturer": "Master Builders Solutions",
+      "type": "Polycarboxylate Ether (PCE) based",
+      "appearance": "Light brown liquid",
+      "batch_number": "MBS-2024-SP-3928",
+      "technical_data": {
+        "specific_gravity": 1.08,
+        "ph": 6.5,
+        "solid_content": {
+          "value": 40,
+          "unit": "%"
+        },
+        "chloride_content": {
+          "value": "<0.01",
+          "unit": "%"
+        },
+        "alkali_content": {
+          "value": 2.5,
+          "unit": "%",
+          "as": "Na2O equivalent"
+        },
+        "viscosity": {
+          "value": 128,
+          "unit": "cP",
+          "temperature": "20°C"
+        }
+      },
+      "performance_characteristics": {
+        "water_reduction": {
+          "minimum": 12,
+          "typical": 25,
+          "maximum": 40,
+          "unit": "%"
+        },
+        "dosage_range": {
+          "minimum": 0.2,
+          "typical": 0.8,
+          "maximum": 2.0,
+          "unit": "% by weight of cement"
+        },
+        "workability_retention": {
+          "value": 60,
+          "unit": "minutes",
+          "condition": "at 25°C"
+        },
+        "setting_time_variation": {
+          "initial": "+15 to -30 minutes",
+          "final": "+30 to -45 minutes",
+          "note": "Compared to control mix"
+        }
+      },
+      "compatibility": {
+        "cement_types": ["OPC", "PPC", "PSC"],
+        "other_admixtures": ["Air entraining agents", "Retarders", "Accelerators"],
+        "supplementary_materials": ["Fly ash", "GGBS", "Silica fume"]
+      },
+      "storage_conditions": {
+        "temperature_range": "5-35°C",
+        "shelf_life": "12 months",
+        "protect_from": ["Freezing", "Direct sunlight", "Contamination"]
+      },
+      "compliance_standards": ["ASTM C494 Type F", "EN 934-2", "IS 9103:1999"]
+    },
+    "air_entraining_agent": {
+      "product_name": "MasterAir 100",
+      "manufacturer": "Master Builders Solutions",
+      "type": "Synthetic surfactant based",
+      "appearance": "Clear to pale yellow liquid",
+      "batch_number": "MBS-2024-AE-1847",
+      "technical_data": {
+        "specific_gravity": 1.01,
+        "ph": 10.5,
+        "solid_content": {
+          "value": 8,
+          "unit": "%"
+        },
+        "chloride_content": {
+          "value": "Nil",
+          "unit": "%"
+        },
+        "freezing_point": {
+          "value": 0,
+          "unit": "°C"
+        }
+      },
+      "performance_characteristics": {
+        "air_content_range": {
+          "minimum": 4,
+          "typical": 6,
+          "maximum": 8,
+          "unit": "%"
+        },
+        "dosage_range": {
+          "minimum": 0.01,
+          "typical": 0.05,
+          "maximum": 0.2,
+          "unit": "% by weight of cement"
+        },
+        "bubble_characteristics": {
+          "spacing_factor": {
+            "value": "<0.20",
+            "unit": "mm"
+          },
+          "specific_surface": {
+            "value": ">25",
+            "unit": "mm²/mm³"
+          }
+        },
+        "freeze_thaw_resistance": {
+          "durability_factor": ">85%",
+          "test_method": "ASTM C666"
+        }
+      },
+      "benefits": [
+        "Improved freeze-thaw resistance",
+        "Enhanced workability",
+        "Reduced bleeding and segregation",
+        "Better finishability"
+      ],
+      "compliance_standards": ["ASTM C260", "EN 934-2", "AASHTO M 154"]
+    },
+    "retarder": {
+      "product_name": "MasterSet DELVO",
+      "manufacturer": "Master Builders Solutions",
+      "type": "Modified phosphate based",
+      "appearance": "Clear amber liquid",
+      "batch_number": "MBS-2024-RT-0923",
+      "technical_data": {
+        "specific_gravity": 1.24,
+        "ph": 7.0,
+        "solid_content": {
+          "value": 32,
+          "unit": "%"
+        },
+        "chloride_content": {
+          "value": "<0.01",
+          "unit": "%"
+        }
+      },
+      "performance_characteristics": {
+        "setting_time_extension": {
+          "at_0.2_percent": "2-4 hours",
+          "at_0.5_percent": "4-8 hours",
+          "at_1.0_percent": "8-24 hours",
+          "temperature": "20°C"
+        },
+        "dosage_range": {
+          "minimum": 0.2,
+          "typical": 0.5,
+          "maximum": 1.5,
+          "unit": "% by weight of cement"
+        },
+        "strength_development": {
+          "early_strength_3d": "85-95% of control",
+          "final_strength_28d": "100-105% of control"
+        }
+      },
+      "application_temperature": {
+        "optimal": "20-35°C",
+        "maximum": "45°C"
+      },
+      "compliance_standards": ["ASTM C494 Type B/D", "EN 934-2"]
+    }
+  },
+  "supplementary_cementitious_materials": {
+    "silica_fume": {
+      "product_name": "MICROSILICA 920D",
+      "supplier": "Elkem Materials",
+      "batch_id": "ELK-SF-2024-2847",
+      "physical_properties": {
+        "specific_gravity": 2.22,
+        "bulk_density": {
+          "undensified": {
+            "value": 200,
+            "unit": "kg/m3"
+          },
+          "densified": {
+            "value": 550,
+            "unit": "kg/m3"
+          }
+        },
+        "specific_surface_area": {
+          "value": 20000,
+          "unit": "m2/kg"
+        },
+        "particle_size": {
+          "mean": 0.15,
+          "unit": "μm"
+        },
+        "color": "Gray"
+      },
+      "chemical_composition": {
+        "SiO2": 92.5,
+        "Al2O3": 0.8,
+        "Fe2O3": 1.2,
+        "CaO": 0.5,
+        "MgO": 0.9,
+        "SO3": 0.3,
+        "Na2O": 0.4,
+        "K2O": 1.2,
+        "loss_on_ignition": 2.2,
+        "unit": "%"
+      },
+      "pozzolanic_activity_index": {
+        "7_days": 108,
+        "28_days": 115,
+        "unit": "%",
+        "test_method": "ASTM C1240"
+      }
+    }
+  }
+}
