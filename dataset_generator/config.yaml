@@ -1,0 +1,17 @@
+# Default configuration for HPRC Fire Dataset (Synthetic)
+seed: 42
+output_dir: generated
+n_mix_designs: 8
+replicates_per_condition: 3
+ages_days: [7, 28, 56]
+target_temperatures_c: [23, 200, 400, 600, 800]
+heating_rate_c_per_min: 7.5
+soak_time_min: 60
+cooling_methods: [furnace, quench]
+make_flexural_instead_of_splitting: false
+make_images: true
+image_resolution: [1280, 960]
+make_curves_png: true
+include_pore_pressure: true
+insitu_target_temperatures_c: [200, 400, 600]
+load_ratio_for_transient_strain: 0.2
