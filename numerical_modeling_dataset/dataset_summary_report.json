@@ -1,0 +1,83 @@
+{
+  "dataset_name": "Thermo-Mechanical Model Validation Dataset for Fire-Resistant Rubberized Concrete",
+  "generation_date": "2025-10-18T19:45:05.018009",
+  "dataset_statistics": {
+    "total_files": 870,
+    "total_size_MB": 8.08,
+    "rubber_content_range_%": [
+      0,
+      30
+    ],
+    "temperature_range_C": [
+      20,
+      1200
+    ],
+    "specimen_types": [
+      "slab",
+      "column",
+      "beam",
+      "wall",
+      "cylinder",
+      "prism",
+      "cube"
+    ],
+    "fire_scenarios": [
+      "ISO834",
+      "ASTM_E119",
+      "Hydrocarbon"
+    ],
+    "parameters_covered": [
+      "Thermal conductivity",
+      "Specific heat capacity",
+      "Density",
+      "Compressive strength",
+      "Tensile strength",
+      "Elastic modulus",
+      "Poisson ratio",
+      "Thermal expansion",
+      "Transient strain",
+      "Porosity",
+      "Permeability",
+      "Pore pressure",
+      "Spalling depth",
+      "Failure modes"
+    ]
+  },
+  "file_inventory": {
+    "Thermal Properties": {
+      "file_count": 28,
+      "total_size_MB": 0.25,
+      "file_pattern": "model_input_data/thermal_properties/*.csv"
+    },
+    "Mechanical Properties": {
+      "file_count": 392,
+      "total_size_MB": 2.54,
+      "file_pattern": "model_input_data/mechanical_properties/*.csv"
+    },
+    "Deformation Properties": {
+      "file_count": 63,
+      "total_size_MB": 0.54,
+      "file_pattern": "model_input_data/deformation_properties/*.csv"
+    },
+    "Poro-Mechanical Properties": {
+      "file_count": 126,
+      "total_size_MB": 0.6,
+      "file_pattern": "model_input_data/poro_mechanical_properties/*.csv"
+    },
+    "Temperature Evolution": {
+      "file_count": 60,
+      "total_size_MB": 2.83,
+      "file_pattern": "model_validation_data/temperature_evolution/*.csv"
+    },
+    "Deformation History": {
+      "file_count": 96,
+      "total_size_MB": 1.09,
+      "file_pattern": "model_validation_data/deformation_history/*.csv"
+    },
+    "Spalling Patterns": {
+      "file_count": 105,
+      "total_size_MB": 0.23,
+      "file_pattern": "model_validation_data/spalling_patterns/*.csv"
+    }
+  }
+}

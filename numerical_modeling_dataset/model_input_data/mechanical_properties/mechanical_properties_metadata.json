@@ -1,0 +1,37 @@
+{
+  "generated_date": "2025-10-18T19:26:25.314148",
+  "temperature_range_C": [
+    20,
+    1000
+  ],
+  "rubber_content_range_percent": [
+    0,
+    30
+  ],
+  "strength_classes_MPa": [
+    30,
+    40,
+    50,
+    60
+  ],
+  "loading_rates_MPa_s": [
+    0.5,
+    2.0,
+    10.0
+  ],
+  "test_standards": [
+    "ASTM C39 - Compressive Strength",
+    "ASTM C469 - Elastic Modulus",
+    "ASTM C496 - Tensile Strength",
+    "RILEM TC 200-HTC - High Temperature Testing"
+  ],
+  "specimen_geometry": {
+    "type": "Cylinder",
+    "diameter_mm": 150,
+    "height_mm": 300
+  },
+  "heating_protocol": {
+    "rate_C_min": 3,
+    "stabilization_time_min": 45
+  }
+}

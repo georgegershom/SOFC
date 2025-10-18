@@ -1,0 +1,39 @@
+{
+  "generated_date": "2025-10-18T19:35:10.464634",
+  "specimen_types": [
+    "slab",
+    "column",
+    "beam"
+  ],
+  "rubber_content_range_percent": [
+    0,
+    30
+  ],
+  "fire_scenarios": {
+    "ISO_834": "T = 20 + 345*log10(8t+1)",
+    "ASTM_E119": "Standard time-temperature curve",
+    "Hydrocarbon": "T = 1080*(1-0.325*exp(-0.167t)-0.675*exp(-2.5t))+20"
+  },
+  "measurement_methods": {
+    "thermocouples": {
+      "type": "Type K",
+      "accuracy": "\u00b12.2\u00b0C or 0.75%",
+      "response_time": "< 1 second",
+      "positions": "Multiple depths from exposed surface"
+    },
+    "ir_thermography": {
+      "camera": "FLIR A655sc",
+      "resolution": "640x480 pixels",
+      "accuracy": "\u00b12\u00b0C or 2%",
+      "frame_rate": "50 Hz",
+      "emissivity": 0.95
+    }
+  },
+  "test_conditions": {
+    "initial_temperature_C": 20,
+    "initial_moisture": "75% RH equilibrium",
+    "loading": "No mechanical load during thermal tests",
+    "boundary_conditions": "One-sided heating for slabs, 4-sided for columns"
+  },
+  "data_usage": "Model validation - DO NOT use for calibration"
+}

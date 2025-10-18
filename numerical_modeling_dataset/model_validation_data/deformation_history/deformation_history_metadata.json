@@ -1,0 +1,58 @@
+{
+  "generated_date": "2025-10-18T19:38:04.066585",
+  "specimen_types": [
+    "cylinder",
+    "prism",
+    "cube"
+  ],
+  "rubber_content_range_percent": [
+    0,
+    30
+  ],
+  "test_conditions": {
+    "heating_rate_C_min": 5,
+    "load_levels": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "max_temperature_C": 800,
+    "loading_type": "Constant compressive stress"
+  },
+  "measurement_systems": {
+    "LVDT": {
+      "type": "High-temperature LVDT",
+      "range_mm": "\u00b125",
+      "accuracy": "\u00b10.01 mm",
+      "max_temp_C": 1000,
+      "gauge_lengths_mm": [
+        100,
+        150,
+        200,
+        "full_height"
+      ]
+    },
+    "strain_gauges": {
+      "type": "High-temperature resistance strain gauge",
+      "gauge_factor": 2.1,
+      "max_temp_C": 500,
+      "accuracy": "\u00b15 microstrain",
+      "temperature_compensation": "Self-compensating"
+    },
+    "data_acquisition": {
+      "system": "HBM QuantumX",
+      "sampling_rate_Hz": 10,
+      "resolution_bits": 24
+    }
+  },
+  "strain_components": {
+    "mechanical": "Instantaneous elastic and plastic strain",
+    "thermal": "Free thermal expansion",
+    "transient": "Load-induced thermal strain (LITS)",
+    "creep": "Time-dependent deformation",
+    "total": "Sum of all components"
+  },
+  "data_usage": "Model validation - Independent from calibration data"
+}

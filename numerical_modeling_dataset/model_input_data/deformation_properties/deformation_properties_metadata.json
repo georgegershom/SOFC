@@ -1,0 +1,45 @@
+{
+  "generated_date": "2025-10-18T19:28:38.305916",
+  "temperature_range_C": [
+    20,
+    1000
+  ],
+  "rubber_content_range_percent": [
+    0,
+    30
+  ],
+  "aggregate_types": [
+    "siliceous",
+    "calcareous",
+    "lightweight"
+  ],
+  "test_methods": {
+    "dilatometry": {
+      "standard": "ASTM E228",
+      "heating_rate_C_min": 5,
+      "specimen_length_mm": 100,
+      "measurement_accuracy": "\u00b11 \u03bcm"
+    },
+    "lits": {
+      "standard": "RILEM TC 129-MHT",
+      "stress_levels": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "loading_type": "constant compression",
+      "measurement_interval_min": 10
+    },
+    "restraint": {
+      "method": "Restrained ring test",
+      "restraint_levels": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "measurement": "Strain gauges and load cells"
+    }
+  },
+  "data_source": "Synthetic data based on literature correlations and models"
+}
