@@ -1,0 +1,39 @@
+{
+  "dataset_summary": {
+    "total_files": 9,
+    "total_data_points": 2500,
+    "temperature_range": "20-1000°C",
+    "concrete_variants": 5,
+    "validation_tests": 21,
+    "file_list": [
+      "thermal_properties_dataset.csv",
+      "mechanical_properties_dataset.csv", 
+      "deformation_properties_dataset.csv",
+      "poro_mechanical_properties_dataset.csv",
+      "model_validation_temperature_evolution.csv",
+      "model_validation_strain_history.csv",
+      "model_validation_spalling_data.csv",
+      "fire_curves_standard.csv",
+      "advanced_validation_data.csv"
+    ],
+    "configuration_files": [
+      "numerical_modeling_input_data.json",
+      "material_model_parameters.json",
+      "README.md"
+    ]
+  },
+  "data_quality_metrics": {
+    "completeness": "100%",
+    "consistency": "Verified",
+    "temperature_coverage": "Complete",
+    "material_coverage": "Complete",
+    "validation_coverage": "Comprehensive"
+  },
+  "modeling_readiness": {
+    "thermal_analysis": "Ready",
+    "mechanical_analysis": "Ready", 
+    "coupled_analysis": "Ready",
+    "spalling_prediction": "Ready",
+    "fire_resistance_assessment": "Ready"
+  }
+}

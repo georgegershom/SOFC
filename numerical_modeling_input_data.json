@@ -1,0 +1,62 @@
+{
+  "dataset_info": {
+    "title": "Thermo-Mechanical Model Dataset for Fire-Resistant Rubberized Concrete",
+    "description": "Comprehensive dataset for numerical modeling of fire-resistant structural elements using high-performance rubberized concrete",
+    "version": "1.0",
+    "created_date": "2024-01-15",
+    "author": "Research Team",
+    "purpose": "Phase 4: Numerical Modeling Dataset for Thermo-Mechanical Analysis"
+  },
+  "material_properties": {
+    "thermal_properties_file": "thermal_properties_dataset.csv",
+    "mechanical_properties_file": "mechanical_properties_dataset.csv",
+    "deformation_properties_file": "deformation_properties_dataset.csv",
+    "poro_mechanical_properties_file": "poro_mechanical_properties_dataset.csv"
+  },
+  "validation_data": {
+    "temperature_evolution_file": "model_validation_temperature_evolution.csv",
+    "strain_history_file": "model_validation_strain_history.csv",
+    "spalling_data_file": "model_validation_spalling_data.csv",
+    "fire_curves_file": "fire_curves_standard.csv"
+  },
+  "concrete_types": [
+    "Control_Concrete",
+    "Rubberized_5%",
+    "Rubberized_10%",
+    "Rubberized_15%",
+    "Rubberized_20%"
+  ],
+  "temperature_range": {
+    "min": 20,
+    "max": 1000,
+    "unit": "Celsius"
+  },
+  "modeling_parameters": {
+    "mesh_density": "fine",
+    "time_step": 0.1,
+    "convergence_criteria": 1e-6,
+    "solver_type": "implicit",
+    "thermal_analysis": true,
+    "mechanical_analysis": true,
+    "coupled_analysis": true
+  },
+  "boundary_conditions": {
+    "thermal": {
+      "convection_coefficient": 25,
+      "emissivity": 0.7,
+      "ambient_temperature": 20
+    },
+    "mechanical": {
+      "load_levels": [0.3, 0.4, 0.5, 0.6, 0.7, 0.8],
+      "constraint_type": "fixed_support"
+    }
+  },
+  "output_parameters": {
+    "temperature_field": true,
+    "stress_field": true,
+    "strain_field": true,
+    "displacement_field": true,
+    "damage_field": true,
+    "spalling_prediction": true
+  }
+}
