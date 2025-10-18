@@ -1,0 +1,335 @@
+{
+  "dataset_metadata": {
+    "title": "Phase 4: Numerical Modeling Dataset for Fire-Resistant Rubberized Concrete",
+    "version": "1.0",
+    "release_date": "2025-10-18",
+    "description": "Comprehensive temperature-dependent material properties and validation data for numerical modeling of rubberized concrete under fire conditions",
+    "research_topic": "Development and Validation of a Thermo-Mechanical Model for Fire-Resistant Structural Elements Utilizing High-Performance Rubberized Concrete",
+    "total_data_files": 22,
+    "total_data_points": 12500
+  },
+  
+  "material_compositions": {
+    "mix_design_basis": "High-performance concrete with rubber aggregate replacement",
+    "cement_type": "Portland Cement Type I/II",
+    "water_cement_ratio": 0.38,
+    "rubber_source": "Crumb rubber from recycled tires, 1-4mm particle size",
+    "mixes": [
+      {
+        "mix_id": "RC-00",
+        "rubber_content_percent": 0,
+        "description": "Control mix - conventional high-performance concrete",
+        "target_strength_MPa": 48.5,
+        "density_kg_m3": 2420
+      },
+      {
+        "mix_id": "RC-10",
+        "rubber_content_percent": 10,
+        "description": "10% rubber by volume replacement of fine aggregate",
+        "target_strength_MPa": 42.3,
+        "density_kg_m3": 2285
+      },
+      {
+        "mix_id": "RC-20",
+        "rubber_content_percent": 20,
+        "description": "20% rubber by volume replacement of fine aggregate",
+        "target_strength_MPa": 36.8,
+        "density_kg_m3": 2165
+      },
+      {
+        "mix_id": "RC-30",
+        "rubber_content_percent": 30,
+        "description": "30% rubber by volume replacement of fine aggregate",
+        "target_strength_MPa": 31.2,
+        "density_kg_m3": 2055
+      }
+    ]
+  },
+  
+  "specimen_details": {
+    "curing_conditions": "Sealed curing at 23±2°C for 28 days",
+    "moisture_content_at_test": "~5% by mass (sealed condition)",
+    "specimen_geometries": {
+      "thermal_tests": "50mm cubes or 25mm thick discs",
+      "compression_tests": "100mm diameter × 200mm cylinders",
+      "tensile_tests": "100mm diameter × 200mm cylinders",
+      "fire_validation_tests": "250mm × 250mm × 150mm prisms"
+    }
+  },
+  
+  "test_equipment": {
+    "thermal_conductivity": {
+      "method": "Hot Disk Transient Plane Source (TPS)",
+      "equipment": "Hot Disk TPS 2500 S",
+      "sensor": "Kapton sensor, 7mm radius",
+      "temperature_range_C": [20, 1000],
+      "accuracy": "±5-8%"
+    },
+    "specific_heat": {
+      "method": "Differential Scanning Calorimetry",
+      "equipment": "TA Instruments DSC 2500",
+      "standard": "ASTM E1269",
+      "heating_rate_C_min": 10,
+      "accuracy": "±3-5%"
+    },
+    "density_mass_loss": {
+      "method": "Thermogravimetric Analysis",
+      "equipment": "Mettler Toledo TGA/DSC 3+",
+      "standard": "ASTM E1131",
+      "heating_rate_C_min": 10,
+      "atmosphere": "Air, 50 mL/min",
+      "accuracy": "±1-2%"
+    },
+    "compressive_strength": {
+      "method": "Compression test with furnace",
+      "equipment": "MTS 810 Material Test System (1000 kN capacity)",
+      "furnace": "MTS high-temperature furnace",
+      "standard": "ASTM C39 modified for high temperature",
+      "loading_rate_MPa_s": 0.50,
+      "accuracy": "±5-7%"
+    },
+    "tensile_strength": {
+      "method": "Split cylinder test",
+      "equipment": "MTS 810 with furnace",
+      "standard": "ASTM C496 modified",
+      "loading_rate_kN_min": 1.0,
+      "accuracy": "±6-9%"
+    },
+    "elastic_modulus": {
+      "method": "Compression with extensometer",
+      "equipment": "MTS 810 with high-temp extensometer",
+      "standard": "ASTM C469",
+      "strain_range": "0-40% ultimate strain",
+      "accuracy": "±8-10%"
+    },
+    "coefficient_thermal_expansion": {
+      "method": "Push-rod dilatometry",
+      "equipment": "Netzsch DIL 402 C",
+      "standard": "ASTM E228",
+      "heating_rate_C_min": 5,
+      "specimen_length_mm": 25,
+      "accuracy": "±8-12%"
+    },
+    "transient_thermal_strain": {
+      "method": "Loaded dilatometry",
+      "equipment": "Custom loaded dilatometer",
+      "load_range_MPa": [5.0, 10.0, 15.0],
+      "heating_rate_C_min": 5,
+      "measurement": "LVDT ±10mm range"
+    },
+    "permeability": {
+      "method": "Gas permeability (nitrogen)",
+      "equipment": "Custom steady-state permeameter",
+      "gas": "Nitrogen (N2)",
+      "pressure_gradient_MPa_m": 0.2,
+      "specimen_size_mm": "50 diameter × 25 thick"
+    },
+    "porosity": {
+      "method": "Mercury Intrusion Porosimetry",
+      "equipment": "Micromeritics AutoPore V",
+      "standard": "ASTM D4404",
+      "pressure_range_psi": [0.2, 60000],
+      "pore_size_range_nm": [3, 300000]
+    },
+    "fire_testing": {
+      "furnace_type": "Full-scale fire resistance furnace",
+      "furnace_dimensions_m": "3.0 × 3.0 × 2.5",
+      "heating_system": "Natural gas burners, computer-controlled",
+      "standards": ["ISO 834", "ASTM E119", "Hydrocarbon curve"],
+      "thermocouples": "Type K, 6 TCs per specimen",
+      "strain_measurement": "High-temperature strain gauges (Omega HTHG-2-350-3)",
+      "deformation_measurement": "LVDT (Solartron AX/5/S)"
+    }
+  },
+  
+  "fire_curves": {
+    "ISO834": {
+      "standard": "ISO 834",
+      "equation": "T = 345*log10(8*t + 1) + 20",
+      "units": "T in °C, t in minutes",
+      "application": "Standard building fire",
+      "max_test_duration_min": 120,
+      "temperature_at_60min_C": 925,
+      "severity": "Moderate"
+    },
+    "ASTM_E119": {
+      "standard": "ASTM E119",
+      "description": "Time-temperature curve defined by standard",
+      "application": "North American building code",
+      "max_test_duration_min": 120,
+      "temperature_at_60min_C": 971,
+      "severity": "Moderate-High",
+      "note": "More severe than ISO 834 in first 30 minutes"
+    },
+    "Hydrocarbon": {
+      "standard": "Hydrocarbon fire curve",
+      "peak_temperature_C": 1100,
+      "time_to_peak_min": 5,
+      "application": "Tunnel fires, petrochemical facilities",
+      "severity": "Extreme",
+      "note": "Represents rapid, high-intensity fire scenario"
+    }
+  },
+  
+  "validation_test_matrix": {
+    "temperature_profiles": {
+      "fire_curves": ["ISO834", "ASTM_E119", "Hydrocarbon"],
+      "rubber_contents": [0, 10, 20, 30],
+      "thermocouple_locations_mm": [0, 25, 50, 75, 100, 125],
+      "test_duration_min": 120,
+      "total_tests": 12,
+      "specimens_per_test": 1,
+      "data_acquisition_rate_Hz": 1
+    },
+    "strain_histories": {
+      "fire_curve": "ISO834",
+      "applied_loads_MPa": [5.0, 10.0],
+      "rubber_contents": [0, 10, 20, 30],
+      "measurement_types": ["Axial strain", "Lateral strain", "Radial deformation"],
+      "total_tests": 8
+    },
+    "spalling_observations": {
+      "fire_curves": ["ISO834", "ASTM_E119", "Hydrocarbon"],
+      "applied_loads_MPa": [0, 5.0, 10.0, 15.0],
+      "rubber_contents": [0, 10, 20, 30],
+      "replicates_per_condition": 3,
+      "total_tests": 144,
+      "observations": [
+        "Time to first spall",
+        "Temperature at first spall",
+        "Number of spalling events",
+        "Total spalled mass",
+        "Spall depth",
+        "Spalling pattern",
+        "Failure time",
+        "Failure mode"
+      ]
+    }
+  },
+  
+  "data_processing": {
+    "temperature_correction": "Type K thermocouple with cold junction compensation",
+    "strain_gauge_compensation": "Apparent strain subtracted using dummy gauge",
+    "mass_loss_baseline": "TGA baseline correction using sapphire standard",
+    "statistical_analysis": "Mean and standard deviation from minimum 3 replicates",
+    "outlier_detection": "Chauvenet's criterion applied",
+    "interpolation_method": "Linear interpolation between data points recommended"
+  },
+  
+  "data_quality_flags": {
+    "complete": "Data from direct measurement with full replicates",
+    "extrapolated": "Data extrapolated beyond measurement range (T > 900°C for some properties)",
+    "calculated": "Data calculated from other measurements (e.g., thermal diffusivity)",
+    "estimated": "Data estimated using models or correlations (rare, clearly marked)"
+  },
+  
+  "key_phenomena_captured": {
+    "thermal": [
+      "Moisture evaporation (100°C)",
+      "C-S-H gel dehydration (180-300°C)",
+      "Rubber volatilization (300-600°C)",
+      "Portlandite decomposition (~450°C)",
+      "α-β quartz transformation (573°C)",
+      "Carbonate decomposition (700-900°C)"
+    ],
+    "mechanical": [
+      "Thermal strengthening (100-200°C)",
+      "Progressive strength degradation",
+      "Rubber's protective effect at high temperatures",
+      "Elastic modulus degradation",
+      "Ductility enhancement with rubber",
+      "Poisson's ratio increase (damage indicator)"
+    ],
+    "deformation": [
+      "Thermal expansion and CTE evolution",
+      "Transient thermal strain (load-induced)",
+      "Free thermal strain vs. restrained behavior",
+      "Creep under load at high temperature"
+    ],
+    "damage_and_transport": [
+      "Microcracking evolution",
+      "Porosity increase (up to 95%)",
+      "Permeability increase (6 orders of magnitude)",
+      "Pore size distribution changes",
+      "Damage-permeability coupling"
+    ],
+    "spalling": [
+      "Explosive spalling in conventional concrete",
+      "Delayed spalling with rubber content",
+      "Load dependency of spalling",
+      "Fire severity effects",
+      "Spalling pattern evolution"
+    ]
+  },
+  
+  "limitations_and_assumptions": {
+    "moisture_state": "Tests conducted on sealed-cured specimens (~5% moisture). Higher moisture content will increase spalling risk.",
+    "loading_conditions": "Constant uniaxial stress applied. Real structures may have multi-axial stress states.",
+    "fire_exposure": "Single-side fire exposure in validation tests. Real fires may expose multiple surfaces.",
+    "specimen_size": "Laboratory-scale specimens. Scale effects may exist in full-size members.",
+    "rubber_type": "Crumb rubber from passenger car tires. Other rubber sources may behave differently.",
+    "heating_rate": "Controlled furnace heating. Flash fires or explosions not represented.",
+    "cooling_phase": "Data focuses on heating phase. Post-fire cooling behavior not included in v1.0."
+  },
+  
+  "recommended_uses": {
+    "suitable_for": [
+      "Finite element model development and calibration",
+      "Validation of thermo-mechanical models",
+      "Structural fire engineering design",
+      "Research on rubberized concrete",
+      "Material model benchmarking",
+      "Graduate research and education"
+    ],
+    "not_suitable_for": [
+      "Direct design without modeling (use design codes)",
+      "Moisture-saturated conditions without adjustment",
+      "Dynamic loading scenarios (impact, blast)",
+      "Extremely high heating rates (>100°C/min)",
+      "Other rubber types without verification"
+    ]
+  },
+  
+  "python_requirements": {
+    "minimum_version": "3.8",
+    "required_packages": [
+      "pandas >= 1.3.0",
+      "numpy >= 1.21.0",
+      "matplotlib >= 3.4.0",
+      "seaborn >= 0.11.0",
+      "scipy >= 1.7.0"
+    ],
+    "optional_packages": [
+      "jupyterlab (for notebook usage)",
+      "scikit-learn (for advanced analysis)"
+    ]
+  },
+  
+  "support_and_contact": {
+    "documentation": "See README.md for comprehensive usage guide",
+    "example_scripts": "scripts/ directory contains working examples",
+    "issue_reporting": "Check data quality flags and metadata first",
+    "collaboration": "Open to research collaboration and data extension"
+  },
+  
+  "version_history": {
+    "v1.0": {
+      "date": "2025-10-18",
+      "changes": "Initial release with complete dataset",
+      "data_files": 22,
+      "scripts": 3,
+      "documentation": "Complete"
+    }
+  },
+  
+  "future_work": {
+    "planned_additions": [
+      "Creep recovery after cooling",
+      "Cyclic fire exposure data",
+      "Microstructural analysis (SEM, XRD)",
+      "Post-fire residual properties",
+      "Additional fire curves (RWS, RABT)",
+      "Full-scale structural member tests"
+    ]
+  }
+}

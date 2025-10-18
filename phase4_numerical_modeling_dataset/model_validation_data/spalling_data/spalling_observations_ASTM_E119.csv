@@ -1,0 +1,13 @@
+Specimen_ID,Rubber_Content_Percent,Fire_Curve,Applied_Load_MPa,First_Spall_Time_min,First_Spall_Temp_C,Number_Spalls_30min,Number_Spalls_60min,Number_Spalls_90min,Total_Spalled_Mass_g,Spall_Depth_mm,Spall_Pattern,Failure_Time_min,Failure_Mode,Notes
+VAL-SPALL-E01,0,ASTM_E119,10.0,16.5,728,4,15,35,2125,18.5,Corner_Edge_Extensive,98,Severe_Explosive,More_severe_than_ISO
+VAL-SPALL-E02,0,ASTM_E119,10.0,15.8,722,5,17,38,2258,19.8,Corner_Edge_Extensive,95,Severe_Explosive,Replicate_1
+VAL-SPALL-E03,0,ASTM_E119,10.0,17.2,735,3,14,33,2015,17.5,Corner_Edge_Extensive,102,Severe_Explosive,Replicate_2
+VAL-SPALL-E04,10,ASTM_E119,10.0,28.5,795,2,7,19,1125,10.5,Corner_Surface,135,Explosive_Spalling,Better_performance
+VAL-SPALL-E05,10,ASTM_E119,10.0,27.2,788,3,8,21,1228,11.2,Corner_Surface,128,Explosive_Spalling,Replicate_1
+VAL-SPALL-E06,10,ASTM_E119,10.0,29.8,802,1,6,18,1042,9.8,Corner_Surface,142,Explosive_Spalling,Replicate_2
+VAL-SPALL-E07,20,ASTM_E119,10.0,42.5,858,1,3,11,568,6.2,Surface_Patches,168,Progressive_Spalling,Good_performance
+VAL-SPALL-E08,20,ASTM_E119,10.0,40.8,852,1,4,12,612,6.8,Surface_Patches,162,Progressive_Spalling,Replicate_1
+VAL-SPALL-E09,20,ASTM_E119,10.0,44.2,865,0,2,10,525,5.8,Surface_Patches,175,Progressive_Spalling,Replicate_2
+VAL-SPALL-E10,30,ASTM_E119,10.0,58.5,912,0,1,5,285,3.5,Superficial,205,Minimal_Spalling,Excellent_performance
+VAL-SPALL-E11,30,ASTM_E119,10.0,56.2,905,0,1,6,318,3.8,Superficial,198,Minimal_Spalling,Replicate_1
+VAL-SPALL-E12,30,ASTM_E119,10.0,60.8,918,0,0,4,252,3.2,Superficial,212,Minimal_Spalling,Replicate_2
