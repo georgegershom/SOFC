@@ -1,0 +1,398 @@
+{
+  "project_info": {
+    "title": "Fire-Resistant Structural Elements with High-Performance Rubberized Concrete",
+    "phase": "Phase 1 - Material Characterization & Mix Design",
+    "date": "2024-10-18",
+    "laboratory": "Advanced Concrete Technology Lab",
+    "principal_investigator": "Dr. Sarah Chen",
+    "test_standards": ["ACI 211.1", "ASTM C192", "ASTM C143", "ASTM C231", "ASTM C138"]
+  },
+  "base_mix_parameters": {
+    "target_strength_28d": {
+      "value": 40,
+      "unit": "MPa"
+    },
+    "water_cement_ratio": 0.45,
+    "cement_content": {
+      "value": 380,
+      "unit": "kg/m3"
+    },
+    "total_aggregate_content": {
+      "value": 1850,
+      "unit": "kg/m3"
+    },
+    "fine_to_total_aggregate_ratio": 0.38,
+    "air_content_target": {
+      "value": 2.0,
+      "unit": "%"
+    }
+  },
+  "mix_designs": {
+    "CM-00": {
+      "designation": "Control Mix",
+      "rubber_replacement": {
+        "percentage": 0,
+        "by": "volume of fine aggregate"
+      },
+      "proportions_kg_m3": {
+        "cement": 380,
+        "water": 171,
+        "fine_aggregate": 703,
+        "coarse_aggregate": 1147,
+        "crumb_rubber": 0,
+        "superplasticizer": 3.04,
+        "air_entrainer": 0.19,
+        "silica_fume": 0
+      },
+      "actual_wc_ratio": 0.45,
+      "paste_volume": {
+        "value": 28.5,
+        "unit": "%"
+      },
+      "mortar_volume": {
+        "value": 55.2,
+        "unit": "%"
+      }
+    },
+    "RM-05-F": {
+      "designation": "5% Rubber - Fine (1-4mm)",
+      "rubber_replacement": {
+        "percentage": 5,
+        "by": "volume of fine aggregate",
+        "size_range": "1-4mm"
+      },
+      "proportions_kg_m3": {
+        "cement": 380,
+        "water": 173,
+        "fine_aggregate": 668,
+        "coarse_aggregate": 1147,
+        "crumb_rubber": 15.2,
+        "superplasticizer": 3.42,
+        "air_entrainer": 0.19,
+        "silica_fume": 0
+      },
+      "actual_wc_ratio": 0.455,
+      "paste_volume": {
+        "value": 28.7,
+        "unit": "%"
+      },
+      "mortar_volume": {
+        "value": 55.2,
+        "unit": "%"
+      }
+    },
+    "RM-05-C": {
+      "designation": "5% Rubber - Coarse (4-8mm)",
+      "rubber_replacement": {
+        "percentage": 5,
+        "by": "volume of fine aggregate",
+        "size_range": "4-8mm"
+      },
+      "proportions_kg_m3": {
+        "cement": 380,
+        "water": 174,
+        "fine_aggregate": 668,
+        "coarse_aggregate": 1147,
+        "crumb_rubber": 15.2,
+        "superplasticizer": 3.80,
+        "air_entrainer": 0.19,
+        "silica_fume": 0
+      },
+      "actual_wc_ratio": 0.458,
+      "paste_volume": {
+        "value": 28.8,
+        "unit": "%"
+      },
+      "mortar_volume": {
+        "value": 55.2,
+        "unit": "%"
+      }
+    },
+    "RM-10-F": {
+      "designation": "10% Rubber - Fine (1-4mm)",
+      "rubber_replacement": {
+        "percentage": 10,
+        "by": "volume of fine aggregate",
+        "size_range": "1-4mm"
+      },
+      "proportions_kg_m3": {
+        "cement": 380,
+        "water": 176,
+        "fine_aggregate": 633,
+        "coarse_aggregate": 1147,
+        "crumb_rubber": 30.4,
+        "superplasticizer": 4.18,
+        "air_entrainer": 0.23,
+        "silica_fume": 0
+      },
+      "actual_wc_ratio": 0.463,
+      "paste_volume": {
+        "value": 29.0,
+        "unit": "%"
+      },
+      "mortar_volume": {
+        "value": 55.2,
+        "unit": "%"
+      }
+    },
+    "RM-10-C": {
+      "designation": "10% Rubber - Coarse (4-8mm)",
+      "rubber_replacement": {
+        "percentage": 10,
+        "by": "volume of fine aggregate",
+        "size_range": "4-8mm"
+      },
+      "proportions_kg_m3": {
+        "cement": 380,
+        "water": 178,
+        "fine_aggregate": 633,
+        "coarse_aggregate": 1147,
+        "crumb_rubber": 30.4,
+        "superplasticizer": 4.56,
+        "air_entrainer": 0.23,
+        "silica_fume": 0
+      },
+      "actual_wc_ratio": 0.468,
+      "paste_volume": {
+        "value": 29.2,
+        "unit": "%"
+      },
+      "mortar_volume": {
+        "value": 55.2,
+        "unit": "%"
+      }
+    },
+    "RM-10-M": {
+      "designation": "10% Rubber - Mixed Sizes",
+      "rubber_replacement": {
+        "percentage": 10,
+        "by": "volume of fine aggregate",
+        "size_range": "50% 1-4mm + 50% 4-8mm"
+      },
+      "proportions_kg_m3": {
+        "cement": 380,
+        "water": 177,
+        "fine_aggregate": 633,
+        "coarse_aggregate": 1147,
+        "crumb_rubber_fine": 15.2,
+        "crumb_rubber_coarse": 15.2,
+        "superplasticizer": 4.37,
+        "air_entrainer": 0.23,
+        "silica_fume": 0
+      },
+      "actual_wc_ratio": 0.466,
+      "paste_volume": {
+        "value": 29.1,
+        "unit": "%"
+      },
+      "mortar_volume": {
+        "value": 55.2,
+        "unit": "%"
+      }
+    },
+    "RM-15-F": {
+      "designation": "15% Rubber - Fine (1-4mm)",
+      "rubber_replacement": {
+        "percentage": 15,
+        "by": "volume of fine aggregate",
+        "size_range": "1-4mm"
+      },
+      "proportions_kg_m3": {
+        "cement": 380,
+        "water": 180,
+        "fine_aggregate": 598,
+        "coarse_aggregate": 1147,
+        "crumb_rubber": 45.6,
+        "superplasticizer": 4.94,
+        "air_entrainer": 0.27,
+        "silica_fume": 0
+      },
+      "actual_wc_ratio": 0.474,
+      "paste_volume": {
+        "value": 29.4,
+        "unit": "%"
+      },
+      "mortar_volume": {
+        "value": 55.2,
+        "unit": "%"
+      }
+    },
+    "RM-15-C": {
+      "designation": "15% Rubber - Coarse (4-8mm)",
+      "rubber_replacement": {
+        "percentage": 15,
+        "by": "volume of fine aggregate",
+        "size_range": "4-8mm"
+      },
+      "proportions_kg_m3": {
+        "cement": 380,
+        "water": 182,
+        "fine_aggregate": 598,
+        "coarse_aggregate": 1147,
+        "crumb_rubber": 45.6,
+        "superplasticizer": 5.32,
+        "air_entrainer": 0.27,
+        "silica_fume": 0
+      },
+      "actual_wc_ratio": 0.479,
+      "paste_volume": {
+        "value": 29.6,
+        "unit": "%"
+      },
+      "mortar_volume": {
+        "value": 55.2,
+        "unit": "%"
+      }
+    },
+    "RM-15-SF": {
+      "designation": "15% Rubber - Fine + Silica Fume",
+      "rubber_replacement": {
+        "percentage": 15,
+        "by": "volume of fine aggregate",
+        "size_range": "1-4mm"
+      },
+      "proportions_kg_m3": {
+        "cement": 342,
+        "water": 180,
+        "fine_aggregate": 598,
+        "coarse_aggregate": 1147,
+        "crumb_rubber": 45.6,
+        "superplasticizer": 5.70,
+        "air_entrainer": 0.27,
+        "silica_fume": 38
+      },
+      "actual_wc_ratio": 0.474,
+      "actual_wcm_ratio": 0.427,
+      "paste_volume": {
+        "value": 29.8,
+        "unit": "%"
+      },
+      "mortar_volume": {
+        "value": 55.5,
+        "unit": "%"
+      }
+    },
+    "RM-20-F": {
+      "designation": "20% Rubber - Fine (1-4mm)",
+      "rubber_replacement": {
+        "percentage": 20,
+        "by": "volume of fine aggregate",
+        "size_range": "1-4mm"
+      },
+      "proportions_kg_m3": {
+        "cement": 380,
+        "water": 185,
+        "fine_aggregate": 562,
+        "coarse_aggregate": 1147,
+        "crumb_rubber": 60.8,
+        "superplasticizer": 5.70,
+        "air_entrainer": 0.30,
+        "silica_fume": 0
+      },
+      "actual_wc_ratio": 0.487,
+      "paste_volume": {
+        "value": 29.9,
+        "unit": "%"
+      },
+      "mortar_volume": {
+        "value": 55.2,
+        "unit": "%"
+      }
+    },
+    "RM-20-C": {
+      "designation": "20% Rubber - Coarse (4-8mm)",
+      "rubber_replacement": {
+        "percentage": 20,
+        "by": "volume of fine aggregate",
+        "size_range": "4-8mm"
+      },
+      "proportions_kg_m3": {
+        "cement": 380,
+        "water": 188,
+        "fine_aggregate": 562,
+        "coarse_aggregate": 1147,
+        "crumb_rubber": 60.8,
+        "superplasticizer": 6.08,
+        "air_entrainer": 0.30,
+        "silica_fume": 0
+      },
+      "actual_wc_ratio": 0.495,
+      "paste_volume": {
+        "value": 30.2,
+        "unit": "%"
+      },
+      "mortar_volume": {
+        "value": 55.2,
+        "unit": "%"
+      }
+    },
+    "RM-20-SF": {
+      "designation": "20% Rubber - Fine + Silica Fume",
+      "rubber_replacement": {
+        "percentage": 20,
+        "by": "volume of fine aggregate",
+        "size_range": "1-4mm"
+      },
+      "proportions_kg_m3": {
+        "cement": 342,
+        "water": 185,
+        "fine_aggregate": 562,
+        "coarse_aggregate": 1147,
+        "crumb_rubber": 60.8,
+        "superplasticizer": 6.46,
+        "air_entrainer": 0.30,
+        "silica_fume": 38
+      },
+      "actual_wc_ratio": 0.487,
+      "actual_wcm_ratio": 0.438,
+      "paste_volume": {
+        "value": 30.3,
+        "unit": "%"
+      },
+      "mortar_volume": {
+        "value": 55.5,
+        "unit": "%"
+      }
+    }
+  },
+  "mixing_procedure": {
+    "equipment": "Pan mixer - 100L capacity",
+    "ambient_conditions": {
+      "temperature": "23±2°C",
+      "relative_humidity": "65±5%"
+    },
+    "sequence": [
+      {
+        "step": 1,
+        "action": "Add coarse aggregate and 50% water",
+        "duration": "30 seconds mixing"
+      },
+      {
+        "step": 2,
+        "action": "Add cement and fine aggregate",
+        "duration": "30 seconds mixing"
+      },
+      {
+        "step": 3,
+        "action": "Add crumb rubber (if applicable)",
+        "duration": "30 seconds mixing"
+      },
+      {
+        "step": 4,
+        "action": "Add remaining water with dissolved admixtures",
+        "duration": "2 minutes mixing"
+      },
+      {
+        "step": 5,
+        "action": "Rest period",
+        "duration": "3 minutes"
+      },
+      {
+        "step": 6,
+        "action": "Final mixing",
+        "duration": "2 minutes"
+      }
+    ],
+    "total_mixing_time": "8 minutes"
+  }
+}

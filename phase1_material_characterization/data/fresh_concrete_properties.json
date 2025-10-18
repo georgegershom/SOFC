@@ -1,0 +1,813 @@
+{
+  "test_conditions": {
+    "date": "2024-10-15 to 2024-10-17",
+    "laboratory_temperature": {
+      "value": 23,
+      "tolerance": 2,
+      "unit": "°C"
+    },
+    "laboratory_humidity": {
+      "value": 65,
+      "tolerance": 5,
+      "unit": "%"
+    },
+    "test_standards": {
+      "slump": "ASTM C143",
+      "air_content": "ASTM C231",
+      "unit_weight": "ASTM C138",
+      "temperature": "ASTM C1064",
+      "bleeding": "ASTM C232",
+      "setting_time": "ASTM C403"
+    }
+  },
+  "fresh_properties_results": {
+    "CM-00": {
+      "mix_id": "Control Mix - 0% Rubber",
+      "batch_size": "50L",
+      "slump": {
+        "initial": {
+          "value": 180,
+          "unit": "mm",
+          "time": "5 min"
+        },
+        "30_min": {
+          "value": 150,
+          "unit": "mm"
+        },
+        "60_min": {
+          "value": 110,
+          "unit": "mm"
+        },
+        "workability_class": "S4"
+      },
+      "air_content": {
+        "value": 2.1,
+        "unit": "%",
+        "method": "Pressure method"
+      },
+      "unit_weight": {
+        "value": 2385,
+        "unit": "kg/m3"
+      },
+      "concrete_temperature": {
+        "value": 24.5,
+        "unit": "°C"
+      },
+      "bleeding": {
+        "total_bleeding": {
+          "value": 0.8,
+          "unit": "%"
+        },
+        "bleeding_rate": {
+          "value": 0.05,
+          "unit": "mL/cm2/hr"
+        },
+        "duration": {
+          "value": 180,
+          "unit": "minutes"
+        }
+      },
+      "setting_time": {
+        "initial": {
+          "value": 285,
+          "unit": "minutes"
+        },
+        "final": {
+          "value": 395,
+          "unit": "minutes"
+        },
+        "penetration_resistance_method": true
+      },
+      "rheology": {
+        "yield_stress": {
+          "value": 285,
+          "unit": "Pa"
+        },
+        "plastic_viscosity": {
+          "value": 42,
+          "unit": "Pa.s"
+        }
+      },
+      "segregation_resistance": {
+        "value": 8,
+        "unit": "%",
+        "classification": "Good"
+      }
+    },
+    "RM-05-F": {
+      "mix_id": "5% Rubber - Fine (1-4mm)",
+      "batch_size": "50L",
+      "slump": {
+        "initial": {
+          "value": 165,
+          "unit": "mm",
+          "time": "5 min"
+        },
+        "30_min": {
+          "value": 135,
+          "unit": "mm"
+        },
+        "60_min": {
+          "value": 95,
+          "unit": "mm"
+        },
+        "workability_class": "S3"
+      },
+      "air_content": {
+        "value": 2.8,
+        "unit": "%"
+      },
+      "unit_weight": {
+        "value": 2342,
+        "unit": "kg/m3"
+      },
+      "concrete_temperature": {
+        "value": 24.8,
+        "unit": "°C"
+      },
+      "bleeding": {
+        "total_bleeding": {
+          "value": 0.6,
+          "unit": "%"
+        },
+        "bleeding_rate": {
+          "value": 0.04,
+          "unit": "mL/cm2/hr"
+        }
+      },
+      "setting_time": {
+        "initial": {
+          "value": 295,
+          "unit": "minutes"
+        },
+        "final": {
+          "value": 410,
+          "unit": "minutes"
+        }
+      },
+      "rheology": {
+        "yield_stress": {
+          "value": 315,
+          "unit": "Pa"
+        },
+        "plastic_viscosity": {
+          "value": 48,
+          "unit": "Pa.s"
+        }
+      },
+      "segregation_resistance": {
+        "value": 6,
+        "unit": "%",
+        "classification": "Good"
+      }
+    },
+    "RM-05-C": {
+      "mix_id": "5% Rubber - Coarse (4-8mm)",
+      "batch_size": "50L",
+      "slump": {
+        "initial": {
+          "value": 160,
+          "unit": "mm",
+          "time": "5 min"
+        },
+        "30_min": {
+          "value": 130,
+          "unit": "mm"
+        },
+        "60_min": {
+          "value": 90,
+          "unit": "mm"
+        },
+        "workability_class": "S3"
+      },
+      "air_content": {
+        "value": 3.1,
+        "unit": "%"
+      },
+      "unit_weight": {
+        "value": 2335,
+        "unit": "kg/m3"
+      },
+      "concrete_temperature": {
+        "value": 24.6,
+        "unit": "°C"
+      },
+      "bleeding": {
+        "total_bleeding": {
+          "value": 0.5,
+          "unit": "%"
+        }
+      },
+      "setting_time": {
+        "initial": {
+          "value": 300,
+          "unit": "minutes"
+        },
+        "final": {
+          "value": 415,
+          "unit": "minutes"
+        }
+      },
+      "rheology": {
+        "yield_stress": {
+          "value": 328,
+          "unit": "Pa"
+        },
+        "plastic_viscosity": {
+          "value": 51,
+          "unit": "Pa.s"
+        }
+      },
+      "segregation_resistance": {
+        "value": 5,
+        "unit": "%",
+        "classification": "Excellent"
+      }
+    },
+    "RM-10-F": {
+      "mix_id": "10% Rubber - Fine (1-4mm)",
+      "batch_size": "50L",
+      "slump": {
+        "initial": {
+          "value": 155,
+          "unit": "mm",
+          "time": "5 min"
+        },
+        "30_min": {
+          "value": 120,
+          "unit": "mm"
+        },
+        "60_min": {
+          "value": 80,
+          "unit": "mm"
+        },
+        "workability_class": "S3"
+      },
+      "air_content": {
+        "value": 3.5,
+        "unit": "%"
+      },
+      "unit_weight": {
+        "value": 2298,
+        "unit": "kg/m3"
+      },
+      "concrete_temperature": {
+        "value": 25.1,
+        "unit": "°C"
+      },
+      "bleeding": {
+        "total_bleeding": {
+          "value": 0.4,
+          "unit": "%"
+        }
+      },
+      "setting_time": {
+        "initial": {
+          "value": 310,
+          "unit": "minutes"
+        },
+        "final": {
+          "value": 425,
+          "unit": "minutes"
+        }
+      },
+      "rheology": {
+        "yield_stress": {
+          "value": 358,
+          "unit": "Pa"
+        },
+        "plastic_viscosity": {
+          "value": 56,
+          "unit": "Pa.s"
+        }
+      },
+      "segregation_resistance": {
+        "value": 4,
+        "unit": "%",
+        "classification": "Excellent"
+      }
+    },
+    "RM-10-C": {
+      "mix_id": "10% Rubber - Coarse (4-8mm)",
+      "batch_size": "50L",
+      "slump": {
+        "initial": {
+          "value": 145,
+          "unit": "mm",
+          "time": "5 min"
+        },
+        "30_min": {
+          "value": 110,
+          "unit": "mm"
+        },
+        "60_min": {
+          "value": 75,
+          "unit": "mm"
+        },
+        "workability_class": "S3"
+      },
+      "air_content": {
+        "value": 3.8,
+        "unit": "%"
+      },
+      "unit_weight": {
+        "value": 2285,
+        "unit": "kg/m3"
+      },
+      "concrete_temperature": {
+        "value": 24.9,
+        "unit": "°C"
+      },
+      "bleeding": {
+        "total_bleeding": {
+          "value": 0.3,
+          "unit": "%"
+        }
+      },
+      "setting_time": {
+        "initial": {
+          "value": 315,
+          "unit": "minutes"
+        },
+        "final": {
+          "value": 430,
+          "unit": "minutes"
+        }
+      },
+      "rheology": {
+        "yield_stress": {
+          "value": 375,
+          "unit": "Pa"
+        },
+        "plastic_viscosity": {
+          "value": 59,
+          "unit": "Pa.s"
+        }
+      },
+      "segregation_resistance": {
+        "value": 3,
+        "unit": "%",
+        "classification": "Excellent"
+      }
+    },
+    "RM-10-M": {
+      "mix_id": "10% Rubber - Mixed Sizes",
+      "batch_size": "50L",
+      "slump": {
+        "initial": {
+          "value": 150,
+          "unit": "mm",
+          "time": "5 min"
+        },
+        "30_min": {
+          "value": 115,
+          "unit": "mm"
+        },
+        "60_min": {
+          "value": 78,
+          "unit": "mm"
+        },
+        "workability_class": "S3"
+      },
+      "air_content": {
+        "value": 3.6,
+        "unit": "%"
+      },
+      "unit_weight": {
+        "value": 2291,
+        "unit": "kg/m3"
+      },
+      "concrete_temperature": {
+        "value": 25.0,
+        "unit": "°C"
+      },
+      "bleeding": {
+        "total_bleeding": {
+          "value": 0.35,
+          "unit": "%"
+        }
+      },
+      "setting_time": {
+        "initial": {
+          "value": 312,
+          "unit": "minutes"
+        },
+        "final": {
+          "value": 428,
+          "unit": "minutes"
+        }
+      },
+      "rheology": {
+        "yield_stress": {
+          "value": 365,
+          "unit": "Pa"
+        },
+        "plastic_viscosity": {
+          "value": 57,
+          "unit": "Pa.s"
+        }
+      }
+    },
+    "RM-15-F": {
+      "mix_id": "15% Rubber - Fine (1-4mm)",
+      "batch_size": "50L",
+      "slump": {
+        "initial": {
+          "value": 140,
+          "unit": "mm",
+          "time": "5 min"
+        },
+        "30_min": {
+          "value": 105,
+          "unit": "mm"
+        },
+        "60_min": {
+          "value": 70,
+          "unit": "mm"
+        },
+        "workability_class": "S3"
+      },
+      "air_content": {
+        "value": 4.2,
+        "unit": "%"
+      },
+      "unit_weight": {
+        "value": 2255,
+        "unit": "kg/m3"
+      },
+      "concrete_temperature": {
+        "value": 25.3,
+        "unit": "°C"
+      },
+      "bleeding": {
+        "total_bleeding": {
+          "value": 0.25,
+          "unit": "%"
+        }
+      },
+      "setting_time": {
+        "initial": {
+          "value": 325,
+          "unit": "minutes"
+        },
+        "final": {
+          "value": 440,
+          "unit": "minutes"
+        }
+      },
+      "rheology": {
+        "yield_stress": {
+          "value": 395,
+          "unit": "Pa"
+        },
+        "plastic_viscosity": {
+          "value": 63,
+          "unit": "Pa.s"
+        }
+      },
+      "segregation_resistance": {
+        "value": 2,
+        "unit": "%",
+        "classification": "Excellent"
+      }
+    },
+    "RM-15-C": {
+      "mix_id": "15% Rubber - Coarse (4-8mm)",
+      "batch_size": "50L",
+      "slump": {
+        "initial": {
+          "value": 130,
+          "unit": "mm",
+          "time": "5 min"
+        },
+        "30_min": {
+          "value": 95,
+          "unit": "mm"
+        },
+        "60_min": {
+          "value": 65,
+          "unit": "mm"
+        },
+        "workability_class": "S2"
+      },
+      "air_content": {
+        "value": 4.5,
+        "unit": "%"
+      },
+      "unit_weight": {
+        "value": 2242,
+        "unit": "kg/m3"
+      },
+      "concrete_temperature": {
+        "value": 25.1,
+        "unit": "°C"
+      },
+      "bleeding": {
+        "total_bleeding": {
+          "value": 0.2,
+          "unit": "%"
+        }
+      },
+      "setting_time": {
+        "initial": {
+          "value": 330,
+          "unit": "minutes"
+        },
+        "final": {
+          "value": 445,
+          "unit": "minutes"
+        }
+      },
+      "rheology": {
+        "yield_stress": {
+          "value": 415,
+          "unit": "Pa"
+        },
+        "plastic_viscosity": {
+          "value": 67,
+          "unit": "Pa.s"
+        }
+      }
+    },
+    "RM-15-SF": {
+      "mix_id": "15% Rubber - Fine + Silica Fume",
+      "batch_size": "50L",
+      "slump": {
+        "initial": {
+          "value": 135,
+          "unit": "mm",
+          "time": "5 min"
+        },
+        "30_min": {
+          "value": 100,
+          "unit": "mm"
+        },
+        "60_min": {
+          "value": 68,
+          "unit": "mm"
+        },
+        "workability_class": "S2"
+      },
+      "air_content": {
+        "value": 3.8,
+        "unit": "%"
+      },
+      "unit_weight": {
+        "value": 2268,
+        "unit": "kg/m3"
+      },
+      "concrete_temperature": {
+        "value": 25.5,
+        "unit": "°C"
+      },
+      "bleeding": {
+        "total_bleeding": {
+          "value": 0.15,
+          "unit": "%"
+        }
+      },
+      "setting_time": {
+        "initial": {
+          "value": 305,
+          "unit": "minutes"
+        },
+        "final": {
+          "value": 420,
+          "unit": "minutes"
+        }
+      },
+      "rheology": {
+        "yield_stress": {
+          "value": 425,
+          "unit": "Pa"
+        },
+        "plastic_viscosity": {
+          "value": 71,
+          "unit": "Pa.s"
+        }
+      },
+      "segregation_resistance": {
+        "value": 1,
+        "unit": "%",
+        "classification": "Excellent"
+      }
+    },
+    "RM-20-F": {
+      "mix_id": "20% Rubber - Fine (1-4mm)",
+      "batch_size": "50L",
+      "slump": {
+        "initial": {
+          "value": 125,
+          "unit": "mm",
+          "time": "5 min"
+        },
+        "30_min": {
+          "value": 90,
+          "unit": "mm"
+        },
+        "60_min": {
+          "value": 60,
+          "unit": "mm"
+        },
+        "workability_class": "S2"
+      },
+      "air_content": {
+        "value": 4.8,
+        "unit": "%"
+      },
+      "unit_weight": {
+        "value": 2212,
+        "unit": "kg/m3"
+      },
+      "concrete_temperature": {
+        "value": 25.6,
+        "unit": "°C"
+      },
+      "bleeding": {
+        "total_bleeding": {
+          "value": 0.15,
+          "unit": "%"
+        }
+      },
+      "setting_time": {
+        "initial": {
+          "value": 340,
+          "unit": "minutes"
+        },
+        "final": {
+          "value": 455,
+          "unit": "minutes"
+        }
+      },
+      "rheology": {
+        "yield_stress": {
+          "value": 445,
+          "unit": "Pa"
+        },
+        "plastic_viscosity": {
+          "value": 75,
+          "unit": "Pa.s"
+        }
+      },
+      "segregation_resistance": {
+        "value": 1,
+        "unit": "%",
+        "classification": "Excellent"
+      }
+    },
+    "RM-20-C": {
+      "mix_id": "20% Rubber - Coarse (4-8mm)",
+      "batch_size": "50L",
+      "slump": {
+        "initial": {
+          "value": 115,
+          "unit": "mm",
+          "time": "5 min"
+        },
+        "30_min": {
+          "value": 80,
+          "unit": "mm"
+        },
+        "60_min": {
+          "value": 55,
+          "unit": "mm"
+        },
+        "workability_class": "S2"
+      },
+      "air_content": {
+        "value": 5.2,
+        "unit": "%"
+      },
+      "unit_weight": {
+        "value": 2198,
+        "unit": "kg/m3"
+      },
+      "concrete_temperature": {
+        "value": 25.4,
+        "unit": "°C"
+      },
+      "bleeding": {
+        "total_bleeding": {
+          "value": 0.1,
+          "unit": "%"
+        }
+      },
+      "setting_time": {
+        "initial": {
+          "value": 345,
+          "unit": "minutes"
+        },
+        "final": {
+          "value": 460,
+          "unit": "minutes"
+        }
+      },
+      "rheology": {
+        "yield_stress": {
+          "value": 468,
+          "unit": "Pa"
+        },
+        "plastic_viscosity": {
+          "value": 79,
+          "unit": "Pa.s"
+        }
+      }
+    },
+    "RM-20-SF": {
+      "mix_id": "20% Rubber - Fine + Silica Fume",
+      "batch_size": "50L",
+      "slump": {
+        "initial": {
+          "value": 120,
+          "unit": "mm",
+          "time": "5 min"
+        },
+        "30_min": {
+          "value": 85,
+          "unit": "mm"
+        },
+        "60_min": {
+          "value": 58,
+          "unit": "mm"
+        },
+        "workability_class": "S2"
+      },
+      "air_content": {
+        "value": 4.4,
+        "unit": "%"
+      },
+      "unit_weight": {
+        "value": 2225,
+        "unit": "kg/m3"
+      },
+      "concrete_temperature": {
+        "value": 25.8,
+        "unit": "°C"
+      },
+      "bleeding": {
+        "total_bleeding": {
+          "value": 0.08,
+          "unit": "%"
+        }
+      },
+      "setting_time": {
+        "initial": {
+          "value": 315,
+          "unit": "minutes"
+        },
+        "final": {
+          "value": 430,
+          "unit": "minutes"
+        }
+      },
+      "rheology": {
+        "yield_stress": {
+          "value": 478,
+          "unit": "Pa"
+        },
+        "plastic_viscosity": {
+          "value": 83,
+          "unit": "Pa.s"
+        }
+      },
+      "segregation_resistance": {
+        "value": 0.5,
+        "unit": "%",
+        "classification": "Excellent"
+      }
+    }
+  },
+  "observations_and_trends": {
+    "workability": [
+      "Slump decreases with increasing rubber content",
+      "Coarse rubber (4-8mm) shows slightly lower slump than fine rubber",
+      "Silica fume addition partially compensates for workability loss",
+      "Higher superplasticizer dosage required with increased rubber content"
+    ],
+    "air_content": [
+      "Progressive increase in air content with rubber percentage",
+      "Coarse rubber entrains slightly more air than fine rubber",
+      "Maximum air content of 5.2% observed at 20% coarse rubber"
+    ],
+    "unit_weight": [
+      "Linear decrease with rubber content",
+      "Approximately 7.5% reduction at 20% rubber replacement",
+      "Consistent with lower specific gravity of rubber"
+    ],
+    "bleeding": [
+      "Reduced bleeding with increased rubber content",
+      "Rubber particles help retain water in the mix",
+      "Silica fume further reduces bleeding"
+    ],
+    "setting_time": [
+      "Slight retardation with rubber addition",
+      "Effect more pronounced with coarse rubber",
+      "Silica fume reduces setting time delay"
+    ],
+    "rheology": [
+      "Increased yield stress and plastic viscosity with rubber",
+      "Non-linear relationship with rubber content",
+      "Critical threshold appears around 15% replacement"
+    ]
+  }
+}

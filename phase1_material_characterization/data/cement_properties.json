@@ -1,0 +1,97 @@
+{
+  "cement_type": "Type I Portland Cement (OPC)",
+  "manufacturer": "LafargeHolcim",
+  "batch_id": "LC-2024-B47",
+  "testing_date": "2024-10-15",
+  "physical_properties": {
+    "specific_gravity": 3.15,
+    "fineness_blaine": {
+      "value": 382,
+      "unit": "m2/kg"
+    },
+    "particle_size_d50": {
+      "value": 12.5,
+      "unit": "μm"
+    },
+    "color": "Gray",
+    "loss_on_ignition": {
+      "value": 2.8,
+      "unit": "%"
+    }
+  },
+  "chemical_composition_xrf": {
+    "SiO2": 20.45,
+    "Al2O3": 5.28,
+    "Fe2O3": 3.12,
+    "CaO": 63.85,
+    "MgO": 2.15,
+    "SO3": 2.95,
+    "Na2O": 0.18,
+    "K2O": 0.52,
+    "TiO2": 0.25,
+    "P2O5": 0.12,
+    "Cl": 0.008,
+    "free_CaO": 1.05,
+    "total": 99.878
+  },
+  "bogue_composition": {
+    "C3S": 58.2,
+    "C2S": 16.8,
+    "C3A": 8.9,
+    "C4AF": 9.5,
+    "calculation_method": "ASTM C150"
+  },
+  "mineralogical_analysis_xrd": {
+    "phases": {
+      "Alite_M3": 54.8,
+      "Belite_β": 15.2,
+      "Aluminate_cubic": 6.8,
+      "Ferrite": 9.2,
+      "Gypsum": 4.5,
+      "Calcite": 2.1,
+      "Quartz": 0.8,
+      "Portlandite": 0.6,
+      "Amorphous": 6.0
+    }
+  },
+  "mechanical_properties": {
+    "setting_time": {
+      "initial": {
+        "value": 145,
+        "unit": "minutes"
+      },
+      "final": {
+        "value": 265,
+        "unit": "minutes"
+      }
+    },
+    "compressive_strength": {
+      "3_days": {
+        "value": 28.5,
+        "unit": "MPa"
+      },
+      "7_days": {
+        "value": 38.2,
+        "unit": "MPa"
+      },
+      "28_days": {
+        "value": 52.8,
+        "unit": "MPa"
+      }
+    }
+  },
+  "thermal_properties": {
+    "specific_heat_capacity": {
+      "value": 0.75,
+      "unit": "kJ/kg·K"
+    },
+    "thermal_conductivity": {
+      "value": 0.29,
+      "unit": "W/m·K"
+    }
+  },
+  "quality_compliance": {
+    "standards": ["ASTM C150", "EN 197-1"],
+    "certificate_number": "QC-2024-10-3847"
+  }
+}

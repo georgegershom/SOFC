@@ -1,0 +1,227 @@
+{
+  "crumb_rubber_characterization": {
+    "source": {
+      "type": "End-of-Life Tires (ELT)",
+      "tire_types": ["Passenger Car Tires (70%)", "Light Truck Tires (30%)"],
+      "processing_method": "Ambient Mechanical Grinding",
+      "supplier": "EcoRubber Recycling Inc.",
+      "batch_id": "ER-CR-2024-4782",
+      "processing_date": "2024-09-28"
+    },
+    "physical_properties": {
+      "specific_gravity": 1.15,
+      "bulk_density": {
+        "loose": {
+          "value": 385,
+          "unit": "kg/m3"
+        },
+        "compacted": {
+          "value": 468,
+          "unit": "kg/m3"
+        }
+      },
+      "moisture_content": {
+        "value": 0.5,
+        "unit": "%"
+      },
+      "mohs_hardness": 2.5,
+      "porosity": {
+        "value": 3.8,
+        "unit": "%"
+      },
+      "steel_content": {
+        "value": 0.05,
+        "unit": "%",
+        "note": "Residual steel wire fragments"
+      },
+      "fiber_content": {
+        "value": 0.12,
+        "unit": "%",
+        "note": "Residual textile fibers"
+      }
+    },
+    "particle_size_distribution": {
+      "size_range_1_4mm": {
+        "designation": "Fine Crumb",
+        "sieve_analysis": [
+          {"sieve_size_mm": 4.75, "retained_percent": 0, "cumulative_retained_percent": 0, "passing_percent": 100},
+          {"sieve_size_mm": 4.0, "retained_percent": 2.5, "cumulative_retained_percent": 2.5, "passing_percent": 97.5},
+          {"sieve_size_mm": 2.36, "retained_percent": 35.8, "cumulative_retained_percent": 38.3, "passing_percent": 61.7},
+          {"sieve_size_mm": 1.18, "retained_percent": 42.5, "cumulative_retained_percent": 80.8, "passing_percent": 19.2},
+          {"sieve_size_mm": 0.6, "retained_percent": 15.2, "cumulative_retained_percent": 96.0, "passing_percent": 4.0},
+          {"sieve_size_mm": 0.3, "retained_percent": 3.5, "cumulative_retained_percent": 99.5, "passing_percent": 0.5},
+          {"pan": 0, "retained_percent": 0.5, "cumulative_retained_percent": 100, "passing_percent": 0}
+        ],
+        "d10_mm": 1.05,
+        "d30_mm": 1.68,
+        "d50_mm": 2.15,
+        "d60_mm": 2.42,
+        "uniformity_coefficient": 2.30,
+        "coefficient_of_curvature": 1.11
+      },
+      "size_range_4_8mm": {
+        "designation": "Coarse Crumb",
+        "sieve_analysis": [
+          {"sieve_size_mm": 9.5, "retained_percent": 0, "cumulative_retained_percent": 0, "passing_percent": 100},
+          {"sieve_size_mm": 8.0, "retained_percent": 3.2, "cumulative_retained_percent": 3.2, "passing_percent": 96.8},
+          {"sieve_size_mm": 6.3, "retained_percent": 28.5, "cumulative_retained_percent": 31.7, "passing_percent": 68.3},
+          {"sieve_size_mm": 4.75, "retained_percent": 45.8, "cumulative_retained_percent": 77.5, "passing_percent": 22.5},
+          {"sieve_size_mm": 4.0, "retained_percent": 18.5, "cumulative_retained_percent": 96.0, "passing_percent": 4.0},
+          {"sieve_size_mm": 2.36, "retained_percent": 3.5, "cumulative_retained_percent": 99.5, "passing_percent": 0.5},
+          {"pan": 0, "retained_percent": 0.5, "cumulative_retained_percent": 100, "passing_percent": 0}
+        ],
+        "d10_mm": 4.15,
+        "d30_mm": 5.02,
+        "d50_mm": 5.68,
+        "d60_mm": 6.05,
+        "uniformity_coefficient": 1.46,
+        "coefficient_of_curvature": 1.00
+      }
+    },
+    "chemical_composition": {
+      "elemental_analysis": {
+        "carbon": 86.5,
+        "hydrogen": 7.8,
+        "oxygen": 2.5,
+        "sulfur": 1.85,
+        "zinc": 1.2,
+        "silicon": 0.08,
+        "iron": 0.05,
+        "others": 0.02,
+        "unit": "%"
+      },
+      "polymer_composition": {
+        "natural_rubber_NR": 22.5,
+        "styrene_butadiene_rubber_SBR": 45.8,
+        "polybutadiene_rubber_BR": 18.2,
+        "carbon_black": 28.5,
+        "extender_oil": 7.8,
+        "zinc_oxide": 1.8,
+        "stearic_acid": 1.2,
+        "sulfur": 1.5,
+        "accelerators": 0.8,
+        "antioxidants": 1.5,
+        "others": 0.4,
+        "unit": "%"
+      }
+    },
+    "thermal_analysis": {
+      "tga_thermogravimetric": {
+        "test_conditions": {
+          "atmosphere": "Nitrogen",
+          "heating_rate": "10°C/min",
+          "temperature_range": "25-800°C"
+        },
+        "decomposition_stages": [
+          {
+            "stage": 1,
+            "temperature_range": "25-250°C",
+            "weight_loss": 2.8,
+            "component": "Volatile oils and moisture"
+          },
+          {
+            "stage": 2,
+            "temperature_range": "250-380°C",
+            "weight_loss": 8.5,
+            "component": "Processing oils and plasticizers"
+          },
+          {
+            "stage": 3,
+            "temperature_range": "380-480°C",
+            "weight_loss": 58.2,
+            "component": "Natural and synthetic rubber decomposition"
+          },
+          {
+            "stage": 4,
+            "temperature_range": "480-600°C",
+            "weight_loss": 2.5,
+            "component": "Residual polymer decomposition"
+          },
+          {
+            "residue_at_800C": 28.0,
+            "component": "Carbon black and inorganic fillers"
+          }
+        ]
+      },
+      "dsc_differential_scanning_calorimetry": {
+        "glass_transition_temperature": -62.5,
+        "melting_temperature": "Not observed",
+        "decomposition_onset": 382,
+        "unit": "°C"
+      }
+    },
+    "ftir_spectroscopy": {
+      "major_peaks_cm-1": [
+        {"wavenumber": 2918, "assignment": "C-H stretching (CH2)"},
+        {"wavenumber": 2850, "assignment": "C-H stretching (CH3)"},
+        {"wavenumber": 1540, "assignment": "C=C stretching (aromatic)"},
+        {"wavenumber": 1456, "assignment": "CH2 bending"},
+        {"wavenumber": 1375, "assignment": "CH3 bending"},
+        {"wavenumber": 966, "assignment": "C=C bending (trans-butadiene)"},
+        {"wavenumber": 910, "assignment": "C=C bending (vinyl)"},
+        {"wavenumber": 700, "assignment": "C-H bending (aromatic)"}
+      ],
+      "functional_groups_identified": [
+        "Aliphatic hydrocarbons",
+        "Aromatic compounds",
+        "Unsaturated carbon bonds",
+        "Sulfur compounds (weak signals)"
+      ]
+    },
+    "morphology_sem": {
+      "pre_heating": {
+        "surface_texture": "Rough and irregular",
+        "porosity": "Microporous structure observed",
+        "particle_shape": "Angular with jagged edges",
+        "surface_features": [
+          "Torn rubber fragments",
+          "Embedded carbon black particles",
+          "Micro-cracks from grinding process",
+          "Occasional fiber remnants"
+        ],
+        "magnification_used": ["100x", "500x", "2000x", "5000x"]
+      }
+    },
+    "surface_properties": {
+      "surface_area_bet": {
+        "value": 0.085,
+        "unit": "m2/g"
+      },
+      "water_contact_angle": {
+        "value": 118,
+        "unit": "degrees",
+        "classification": "Hydrophobic"
+      },
+      "surface_energy": {
+        "total": 25.8,
+        "dispersive": 23.5,
+        "polar": 2.3,
+        "unit": "mJ/m2"
+      }
+    },
+    "mechanical_properties": {
+      "tensile_strength": {
+        "value": 8.5,
+        "unit": "MPa"
+      },
+      "elongation_at_break": {
+        "value": 420,
+        "unit": "%"
+      },
+      "shore_a_hardness": 65,
+      "resilience": {
+        "value": 45,
+        "unit": "%"
+      }
+    },
+    "environmental_testing": {
+      "leaching_test_tclp": {
+        "lead": {"value": 0.08, "limit": 5.0, "unit": "mg/L"},
+        "cadmium": {"value": 0.01, "limit": 1.0, "unit": "mg/L"},
+        "chromium": {"value": 0.05, "limit": 5.0, "unit": "mg/L"},
+        "zinc": {"value": 2.85, "limit": 250, "unit": "mg/L"},
+        "status": "Pass - Below regulatory limits"
+      }
+    }
+  }
+}
