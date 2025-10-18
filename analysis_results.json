@@ -1,0 +1,63 @@
+{
+  "dataset_info": {
+    "total_mixes": 12,
+    "total_specimens": 48,
+    "total_mechanical_tests": 48,
+    "total_thermal_tests": 56
+  },
+  "rubber_content_effects": {
+    "Fresh_Density_kg_m3": {
+      "0": 2380.0,
+      "5": 2312.5,
+      "10": 2255.0,
+      "15": 2195.0,
+      "20": 2135.0
+    },
+    "Slump_mm": {
+      "0": 180.0,
+      "5": 174.0,
+      "10": 169.0,
+      "15": 164.0,
+      "20": 159.0
+    },
+    "Air_Content_%": {
+      "0": 2.1,
+      "5": 2.9,
+      "10": 3.37,
+      "15": 3.77,
+      "20": 4.17
+    }
+  },
+  "mechanical_properties_28d": {
+    "Compressive_Strength_MPa": {
+      "0": 58.9,
+      "5": 53.2,
+      "10": 47.0,
+      "15": 41.75,
+      "20": 36.0
+    },
+    "Modulus_of_Elasticity_GPa": {
+      "0": 38.2,
+      "5": 35.6,
+      "10": 31.95,
+      "15": 28.7,
+      "20": 25.25
+    }
+  },
+  "thermal_properties_20c": {
+    "Thermal_Conductivity_W_mK": {
+      "0": 2.1,
+      "5": 1.9,
+      "10": 1.65,
+      "15": 1.45,
+      "20": 1.25
+    },
+    "Fire_Resistance_Rating_min": {
+      "0": 60.0,
+      "5": 75.0,
+      "10": 87.5,
+      "15": 102.5,
+      "20": 117.5
+    }
+  }
+}

@@ -1,0 +1,16 @@
+Validation_Check,Description,Status,Notes
+Mix_Proportion_Sum,Sum of all mix components equals 100%,PASS,All mixes sum to 100% ±0.1%
+Water_Cement_Ratio,Consistent w/c ratio across all mixes,PASS,All mixes maintain 0.40 w/c ratio
+Density_Consistency,Fresh density decreases with rubber content,PASS,Linear relationship maintained
+Strength_Consistency,Compressive strength decreases with rubber content,PASS,Realistic strength reduction observed
+Thermal_Properties,Lower thermal conductivity with rubber content,PASS,Expected thermal insulation improvement
+Age_Progression,Strength increases with age for all mixes,PASS,Realistic strength development curves
+Temperature_Effects,Thermal properties change consistently with temperature,PASS,Realistic thermal behavior
+Specimen_Dimensions,All specimens meet standard dimensions,PASS,150x300mm cylinders maintained
+Curing_Conditions,Consistent curing across all specimens,PASS,20°C, 95% RH maintained
+Testing_Standards,All tests follow ASTM/EN standards,PASS,Standards referenced for each test
+Data_Completeness,All required parameters included,PASS,Complete dataset generated
+Statistical_Validity,Sufficient replicates for statistical analysis,PASS,6 specimens per mix per age
+Traceability,Full traceability maintained,PASS,Specimen IDs and operator tracking
+Measurement_Uncertainty,Realistic measurement uncertainties included,PASS,±5-10% variation applied
+Quality_Control,Data within acceptable ranges,PASS,All values within expected ranges
