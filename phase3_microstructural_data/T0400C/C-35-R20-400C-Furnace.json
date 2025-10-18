@@ -1,0 +1,986 @@
+{
+  "sample_id": "C-35-R20-400C-Furnace",
+  "mix_design": {
+    "mix_id": "C-35-R20",
+    "cement_content": 380,
+    "rubber_content": 20,
+    "rubber_size": "Coarse",
+    "w_c_ratio": 0.42,
+    "aggregate_type": "Granite",
+    "admixtures": {
+      "SP": 2.0,
+      "SF": 30
+    }
+  },
+  "thermal_exposure": {
+    "temperature": 400,
+    "exposure_type": "Furnace",
+    "duration": 60,
+    "heating_rate": 5.0,
+    "cooling_method": "Air"
+  },
+  "analyses": {
+    "SEM": {
+      "morphology": [
+        {
+          "Field_ID": "F001",
+          "Magnification": 5000,
+          "Total_Porosity_%": 50.38,
+          "Mean_Pore_Size_um": 18.75,
+          "D10_Pore_um": 7.63,
+          "D50_Pore_um": 18.13,
+          "D90_Pore_um": 44.65,
+          "Crack_Density_per_mm2": 0.577,
+          "Avg_Crack_Width_um": 6.0,
+          "Max_Crack_Width_um": 13.93,
+          "ITZ_Thickness_um": 24.2,
+          "ITZ_Porosity_%": 75.57,
+          "Rubber_Integrity_%": 66.7,
+          "Aspect_Ratio": 2.43,
+          "Circularity": 0.86,
+          "Specific_Surface_m2_g": 2.91
+        },
+        {
+          "Field_ID": "F002",
+          "Magnification": 2000,
+          "Total_Porosity_%": 50.38,
+          "Mean_Pore_Size_um": 18.75,
+          "D10_Pore_um": 6.97,
+          "D50_Pore_um": 18.21,
+          "D90_Pore_um": 44.31,
+          "Crack_Density_per_mm2": 0.577,
+          "Avg_Crack_Width_um": 6.0,
+          "Max_Crack_Width_um": 10.14,
+          "ITZ_Thickness_um": 24.2,
+          "ITZ_Porosity_%": 75.57,
+          "Rubber_Integrity_%": 66.7,
+          "Aspect_Ratio": 1.59,
+          "Circularity": 0.76,
+          "Specific_Surface_m2_g": 2.42
+        },
+        {
+          "Field_ID": "F003",
+          "Magnification": 500,
+          "Total_Porosity_%": 50.38,
+          "Mean_Pore_Size_um": 18.75,
+          "D10_Pore_um": 7.31,
+          "D50_Pore_um": 20.12,
+          "D90_Pore_um": 51.14,
+          "Crack_Density_per_mm2": 0.577,
+          "Avg_Crack_Width_um": 6.0,
+          "Max_Crack_Width_um": 10.57,
+          "ITZ_Thickness_um": 24.2,
+          "ITZ_Porosity_%": 75.57,
+          "Rubber_Integrity_%": 66.7,
+          "Aspect_Ratio": 2.07,
+          "Circularity": 0.77,
+          "Specific_Surface_m2_g": 2.26
+        },
+        {
+          "Field_ID": "F004",
+          "Magnification": 1000,
+          "Total_Porosity_%": 50.38,
+          "Mean_Pore_Size_um": 18.75,
+          "D10_Pore_um": 7.87,
+          "D50_Pore_um": 19.51,
+          "D90_Pore_um": 51.18,
+          "Crack_Density_per_mm2": 0.577,
+          "Avg_Crack_Width_um": 6.0,
+          "Max_Crack_Width_um": 13.05,
+          "ITZ_Thickness_um": 24.2,
+          "ITZ_Porosity_%": 75.57,
+          "Rubber_Integrity_%": 66.7,
+          "Aspect_Ratio": 1.86,
+          "Circularity": 0.82,
+          "Specific_Surface_m2_g": 2.69
+        },
+        {
+          "Field_ID": "F005",
+          "Magnification": 2000,
+          "Total_Porosity_%": 50.38,
+          "Mean_Pore_Size_um": 18.75,
+          "D10_Pore_um": 7.21,
+          "D50_Pore_um": 23.09,
+          "D90_Pore_um": 57.0,
+          "Crack_Density_per_mm2": 0.577,
+          "Avg_Crack_Width_um": 6.0,
+          "Max_Crack_Width_um": 11.46,
+          "ITZ_Thickness_um": 24.2,
+          "ITZ_Porosity_%": 75.57,
+          "Rubber_Integrity_%": 66.7,
+          "Aspect_Ratio": 2.21,
+          "Circularity": 0.87,
+          "Specific_Surface_m2_g": 2.77
+        },
+        {
+          "Field_ID": "F006",
+          "Magnification": 500,
+          "Total_Porosity_%": 50.38,
+          "Mean_Pore_Size_um": 18.75,
+          "D10_Pore_um": 6.64,
+          "D50_Pore_um": 15.97,
+          "D90_Pore_um": 49.97,
+          "Crack_Density_per_mm2": 0.577,
+          "Avg_Crack_Width_um": 6.0,
+          "Max_Crack_Width_um": 9.03,
+          "ITZ_Thickness_um": 24.2,
+          "ITZ_Porosity_%": 75.57,
+          "Rubber_Integrity_%": 66.7,
+          "Aspect_Ratio": 2.27,
+          "Circularity": 0.71,
+          "Specific_Surface_m2_g": 2.16
+        },
+        {
+          "Field_ID": "F007",
+          "Magnification": 2000,
+          "Total_Porosity_%": 50.38,
+          "Mean_Pore_Size_um": 18.75,
+          "D10_Pore_um": 8.15,
+          "D50_Pore_um": 20.69,
+          "D90_Pore_um": 58.44,
+          "Crack_Density_per_mm2": 0.577,
+          "Avg_Crack_Width_um": 6.0,
+          "Max_Crack_Width_um": 9.54,
+          "ITZ_Thickness_um": 24.2,
+          "ITZ_Porosity_%": 75.57,
+          "Rubber_Integrity_%": 66.7,
+          "Aspect_Ratio": 1.78,
+          "Circularity": 0.74,
+          "Specific_Surface_m2_g": 2.21
+        },
+        {
+          "Field_ID": "F008",
+          "Magnification": 500,
+          "Total_Porosity_%": 50.38,
+          "Mean_Pore_Size_um": 18.75,
+          "D10_Pore_um": 7.12,
+          "D50_Pore_um": 18.84,
+          "D90_Pore_um": 39.2,
+          "Crack_Density_per_mm2": 0.577,
+          "Avg_Crack_Width_um": 6.0,
+          "Max_Crack_Width_um": 10.3,
+          "ITZ_Thickness_um": 24.2,
+          "ITZ_Porosity_%": 75.57,
+          "Rubber_Integrity_%": 66.7,
+          "Aspect_Ratio": 2.32,
+          "Circularity": 0.74,
+          "Specific_Surface_m2_g": 2.43
+        },
+        {
+          "Field_ID": "F009",
+          "Magnification": 5000,
+          "Total_Porosity_%": 50.38,
+          "Mean_Pore_Size_um": 18.75,
+          "D10_Pore_um": 7.21,
+          "D50_Pore_um": 21.99,
+          "D90_Pore_um": 44.1,
+          "Crack_Density_per_mm2": 0.577,
+          "Avg_Crack_Width_um": 6.0,
+          "Max_Crack_Width_um": 12.15,
+          "ITZ_Thickness_um": 24.2,
+          "ITZ_Porosity_%": 75.57,
+          "Rubber_Integrity_%": 66.7,
+          "Aspect_Ratio": 1.5,
+          "Circularity": 0.7,
+          "Specific_Surface_m2_g": 1.92
+        },
+        {
+          "Field_ID": "F010",
+          "Magnification": 1000,
+          "Total_Porosity_%": 50.38,
+          "Mean_Pore_Size_um": 18.75,
+          "D10_Pore_um": 7.73,
+          "D50_Pore_um": 18.21,
+          "D90_Pore_um": 50.46,
+          "Crack_Density_per_mm2": 0.577,
+          "Avg_Crack_Width_um": 6.0,
+          "Max_Crack_Width_um": 10.65,
+          "ITZ_Thickness_um": 24.2,
+          "ITZ_Porosity_%": 75.57,
+          "Rubber_Integrity_%": 66.7,
+          "Aspect_Ratio": 2.36,
+          "Circularity": 0.82,
+          "Specific_Surface_m2_g": 1.93
+        }
+      ],
+      "eds": [
+        {
+          "Point_ID": "P001",
+          "Location_Type": "Crack",
+          "X_Position_um": 300.2,
+          "Y_Position_um": 737.2,
+          "Ca_wt%": 22.42,
+          "Si_wt%": 15.92,
+          "Al_wt%": 5.47,
+          "Fe_wt%": 1.92,
+          "Mg_wt%": 1.16,
+          "Na_wt%": 0.85,
+          "K_wt%": 1.13,
+          "S_wt%": 0.79,
+          "O_wt%": 43.25,
+          "C_wt%": 7.09,
+          "Ca_Si_Ratio": 1.41,
+          "Total_%": 100.0
+        },
+        {
+          "Point_ID": "P002",
+          "Location_Type": "Crack",
+          "X_Position_um": 361.5,
+          "Y_Position_um": 230.6,
+          "Ca_wt%": 25.79,
+          "Si_wt%": 16.68,
+          "Al_wt%": 5.08,
+          "Fe_wt%": 1.79,
+          "Mg_wt%": 1.65,
+          "Na_wt%": 1.0,
+          "K_wt%": 1.3,
+          "S_wt%": 1.03,
+          "O_wt%": 39.02,
+          "C_wt%": 6.67,
+          "Ca_Si_Ratio": 1.55,
+          "Total_%": 100.0
+        },
+        {
+          "Point_ID": "P003",
+          "Location_Type": "Aggregate",
+          "X_Position_um": 257.3,
+          "Y_Position_um": 627.2,
+          "Ca_wt%": 25.17,
+          "Si_wt%": 14.24,
+          "Al_wt%": 4.7,
+          "Fe_wt%": 1.7,
+          "Mg_wt%": 1.37,
+          "Na_wt%": 0.72,
+          "K_wt%": 1.12,
+          "S_wt%": 1.11,
+          "O_wt%": 44.14,
+          "C_wt%": 5.73,
+          "Ca_Si_Ratio": 1.77,
+          "Total_%": 100.0
+        },
+        {
+          "Point_ID": "P004",
+          "Location_Type": "Crack",
+          "X_Position_um": 63.0,
+          "Y_Position_um": 725.3,
+          "Ca_wt%": 22.69,
+          "Si_wt%": 14.82,
+          "Al_wt%": 5.67,
+          "Fe_wt%": 1.99,
+          "Mg_wt%": 1.61,
+          "Na_wt%": 0.75,
+          "K_wt%": 1.11,
+          "S_wt%": 1.17,
+          "O_wt%": 44.04,
+          "C_wt%": 6.15,
+          "Ca_Si_Ratio": 1.53,
+          "Total_%": 100.0
+        },
+        {
+          "Point_ID": "P005",
+          "Location_Type": "Rubber",
+          "X_Position_um": 808.6,
+          "Y_Position_um": 740.5,
+          "Ca_wt%": 25.75,
+          "Si_wt%": 13.06,
+          "Al_wt%": 4.6,
+          "Fe_wt%": 2.36,
+          "Mg_wt%": 1.42,
+          "Na_wt%": 0.72,
+          "K_wt%": 1.21,
+          "S_wt%": 0.9,
+          "O_wt%": 42.36,
+          "C_wt%": 7.62,
+          "Ca_Si_Ratio": 1.97,
+          "Total_%": 100.0
+        },
+        {
+          "Point_ID": "P006",
+          "Location_Type": "Aggregate",
+          "X_Position_um": 982.2,
+          "Y_Position_um": 166.4,
+          "Ca_wt%": 22.55,
+          "Si_wt%": 14.32,
+          "Al_wt%": 4.91,
+          "Fe_wt%": 1.41,
+          "Mg_wt%": 1.37,
+          "Na_wt%": 0.71,
+          "K_wt%": 1.38,
+          "S_wt%": 1.05,
+          "O_wt%": 45.74,
+          "C_wt%": 6.56,
+          "Ca_Si_Ratio": 1.57,
+          "Total_%": 100.0
+        },
+        {
+          "Point_ID": "P007",
+          "Location_Type": "Matrix",
+          "X_Position_um": 867.2,
+          "Y_Position_um": 474.4,
+          "Ca_wt%": 25.01,
+          "Si_wt%": 11.6,
+          "Al_wt%": 5.32,
+          "Fe_wt%": 2.12,
+          "Mg_wt%": 1.2,
+          "Na_wt%": 0.81,
+          "K_wt%": 0.86,
+          "S_wt%": 1.0,
+          "O_wt%": 45.25,
+          "C_wt%": 6.84,
+          "Ca_Si_Ratio": 2.16,
+          "Total_%": 100.0
+        },
+        {
+          "Point_ID": "P008",
+          "Location_Type": "ITZ",
+          "X_Position_um": 674.5,
+          "Y_Position_um": 121.1,
+          "Ca_wt%": 24.59,
+          "Si_wt%": 16.35,
+          "Al_wt%": 6.04,
+          "Fe_wt%": 1.56,
+          "Mg_wt%": 1.5,
+          "Na_wt%": 0.66,
+          "K_wt%": 1.31,
+          "S_wt%": 0.92,
+          "O_wt%": 40.77,
+          "C_wt%": 6.29,
+          "Ca_Si_Ratio": 1.5,
+          "Total_%": 100.0
+        },
+        {
+          "Point_ID": "P009",
+          "Location_Type": "ITZ",
+          "X_Position_um": 10.8,
+          "Y_Position_um": 656.2,
+          "Ca_wt%": 23.15,
+          "Si_wt%": 13.4,
+          "Al_wt%": 5.44,
+          "Fe_wt%": 1.85,
+          "Mg_wt%": 1.66,
+          "Na_wt%": 0.69,
+          "K_wt%": 1.4,
+          "S_wt%": 1.03,
+          "O_wt%": 44.82,
+          "C_wt%": 6.55,
+          "Ca_Si_Ratio": 1.73,
+          "Total_%": 100.0
+        },
+        {
+          "Point_ID": "P010",
+          "Location_Type": "Crack",
+          "X_Position_um": 17.6,
+          "Y_Position_um": 304.5,
+          "Ca_wt%": 27.91,
+          "Si_wt%": 13.36,
+          "Al_wt%": 4.35,
+          "Fe_wt%": 1.82,
+          "Mg_wt%": 1.5,
+          "Na_wt%": 0.61,
+          "K_wt%": 1.05,
+          "S_wt%": 1.1,
+          "O_wt%": 41.9,
+          "C_wt%": 6.4,
+          "Ca_Si_Ratio": 2.09,
+          "Total_%": 100.0
+        },
+        {
+          "Point_ID": "P011",
+          "Location_Type": "Matrix",
+          "X_Position_um": 662.5,
+          "Y_Position_um": 792.3,
+          "Ca_wt%": 25.77,
+          "Si_wt%": 12.93,
+          "Al_wt%": 4.9,
+          "Fe_wt%": 1.83,
+          "Mg_wt%": 1.26,
+          "Na_wt%": 0.62,
+          "K_wt%": 1.2,
+          "S_wt%": 0.95,
+          "O_wt%": 43.73,
+          "C_wt%": 6.82,
+          "Ca_Si_Ratio": 1.99,
+          "Total_%": 100.0
+        },
+        {
+          "Point_ID": "P012",
+          "Location_Type": "Rubber",
+          "X_Position_um": 481.9,
+          "Y_Position_um": 240.0,
+          "Ca_wt%": 22.08,
+          "Si_wt%": 16.5,
+          "Al_wt%": 5.42,
+          "Fe_wt%": 1.93,
+          "Mg_wt%": 1.82,
+          "Na_wt%": 0.75,
+          "K_wt%": 1.23,
+          "S_wt%": 0.9,
+          "O_wt%": 42.19,
+          "C_wt%": 7.17,
+          "Ca_Si_Ratio": 1.34,
+          "Total_%": 100.0
+        },
+        {
+          "Point_ID": "P013",
+          "Location_Type": "Aggregate",
+          "X_Position_um": 27.6,
+          "Y_Position_um": 820.7,
+          "Ca_wt%": 24.41,
+          "Si_wt%": 13.17,
+          "Al_wt%": 4.44,
+          "Fe_wt%": 2.16,
+          "Mg_wt%": 1.04,
+          "Na_wt%": 0.83,
+          "K_wt%": 0.98,
+          "S_wt%": 1.04,
+          "O_wt%": 44.96,
+          "C_wt%": 6.98,
+          "Ca_Si_Ratio": 1.85,
+          "Total_%": 100.0
+        },
+        {
+          "Point_ID": "P014",
+          "Location_Type": "ITZ",
+          "X_Position_um": 305.4,
+          "Y_Position_um": 975.2,
+          "Ca_wt%": 26.92,
+          "Si_wt%": 12.34,
+          "Al_wt%": 5.16,
+          "Fe_wt%": 1.94,
+          "Mg_wt%": 1.28,
+          "Na_wt%": 0.76,
+          "K_wt%": 1.33,
+          "S_wt%": 0.94,
+          "O_wt%": 42.42,
+          "C_wt%": 6.92,
+          "Ca_Si_Ratio": 2.18,
+          "Total_%": 100.0
+        },
+        {
+          "Point_ID": "P015",
+          "Location_Type": "Matrix",
+          "X_Position_um": 415.6,
+          "Y_Position_um": 519.8,
+          "Ca_wt%": 25.51,
+          "Si_wt%": 14.52,
+          "Al_wt%": 4.44,
+          "Fe_wt%": 2.07,
+          "Mg_wt%": 1.24,
+          "Na_wt%": 0.73,
+          "K_wt%": 1.46,
+          "S_wt%": 0.74,
+          "O_wt%": 42.32,
+          "C_wt%": 6.96,
+          "Ca_Si_Ratio": 1.76,
+          "Total_%": 100.0
+        },
+        {
+          "Point_ID": "P016",
+          "Location_Type": "Rubber",
+          "X_Position_um": 292.1,
+          "Y_Position_um": 352.4,
+          "Ca_wt%": 24.7,
+          "Si_wt%": 12.78,
+          "Al_wt%": 5.64,
+          "Fe_wt%": 1.99,
+          "Mg_wt%": 1.33,
+          "Na_wt%": 0.88,
+          "K_wt%": 0.98,
+          "S_wt%": 1.04,
+          "O_wt%": 44.58,
+          "C_wt%": 6.08,
+          "Ca_Si_Ratio": 1.93,
+          "Total_%": 100.0
+        },
+        {
+          "Point_ID": "P017",
+          "Location_Type": "Matrix",
+          "X_Position_um": 901.7,
+          "Y_Position_um": 863.0,
+          "Ca_wt%": 23.62,
+          "Si_wt%": 14.63,
+          "Al_wt%": 4.26,
+          "Fe_wt%": 1.79,
+          "Mg_wt%": 1.29,
+          "Na_wt%": 0.86,
+          "K_wt%": 1.3,
+          "S_wt%": 0.9,
+          "O_wt%": 44.39,
+          "C_wt%": 6.96,
+          "Ca_Si_Ratio": 1.61,
+          "Total_%": 100.0
+        },
+        {
+          "Point_ID": "P018",
+          "Location_Type": "ITZ",
+          "X_Position_um": 274.5,
+          "Y_Position_um": 287.4,
+          "Ca_wt%": 25.55,
+          "Si_wt%": 13.75,
+          "Al_wt%": 4.27,
+          "Fe_wt%": 2.01,
+          "Mg_wt%": 1.3,
+          "Na_wt%": 0.7,
+          "K_wt%": 1.22,
+          "S_wt%": 0.84,
+          "O_wt%": 43.48,
+          "C_wt%": 6.87,
+          "Ca_Si_Ratio": 1.86,
+          "Total_%": 100.0
+        },
+        {
+          "Point_ID": "P019",
+          "Location_Type": "Rubber",
+          "X_Position_um": 913.0,
+          "Y_Position_um": 938.2,
+          "Ca_wt%": 25.0,
+          "Si_wt%": 14.35,
+          "Al_wt%": 3.88,
+          "Fe_wt%": 1.51,
+          "Mg_wt%": 1.54,
+          "Na_wt%": 0.74,
+          "K_wt%": 1.24,
+          "S_wt%": 0.93,
+          "O_wt%": 44.21,
+          "C_wt%": 6.6,
+          "Ca_Si_Ratio": 1.74,
+          "Total_%": 100.0
+        },
+        {
+          "Point_ID": "P020",
+          "Location_Type": "Matrix",
+          "X_Position_um": 476.9,
+          "Y_Position_um": 324.5,
+          "Ca_wt%": 23.21,
+          "Si_wt%": 14.19,
+          "Al_wt%": 4.29,
+          "Fe_wt%": 2.22,
+          "Mg_wt%": 1.28,
+          "Na_wt%": 0.74,
+          "K_wt%": 1.04,
+          "S_wt%": 0.96,
+          "O_wt%": 45.21,
+          "C_wt%": 6.85,
+          "Ca_Si_Ratio": 1.64,
+          "Total_%": 100.0
+        }
+      ]
+    },
+    "XRD": {
+      "phases": [
+        {
+          "Phase": "C3S",
+          "Content_wt%": 30.0,
+          "Crystallite_Size_nm": 29.5,
+          "Microstrain_%": 0.14,
+          "Lattice_Parameter_A": 5.395,
+          "FWHM_deg": 0.161,
+          "Preferred_Orientation": 0.94
+        },
+        {
+          "Phase": "C2S",
+          "Content_wt%": 10.0,
+          "Crystallite_Size_nm": 24.1,
+          "Microstrain_%": 0.286,
+          "Lattice_Parameter_A": 5.494,
+          "FWHM_deg": 0.107,
+          "Preferred_Orientation": 1.04
+        },
+        {
+          "Phase": "C3A",
+          "Content_wt%": 8.0,
+          "Crystallite_Size_nm": 21.9,
+          "Microstrain_%": 0.142,
+          "Lattice_Parameter_A": 5.444,
+          "FWHM_deg": 0.154,
+          "Preferred_Orientation": 0.81
+        },
+        {
+          "Phase": "C4AF",
+          "Content_wt%": 10.0,
+          "Crystallite_Size_nm": 29.9,
+          "Microstrain_%": 0.116,
+          "Lattice_Parameter_A": 5.322,
+          "FWHM_deg": 0.145,
+          "Preferred_Orientation": 0.98
+        },
+        {
+          "Phase": "CH",
+          "Content_wt%": 12.0,
+          "Crystallite_Size_nm": 30.1,
+          "Microstrain_%": 0.242,
+          "Lattice_Parameter_A": 5.406,
+          "FWHM_deg": 0.107,
+          "Preferred_Orientation": 1.04
+        },
+        {
+          "Phase": "CSH",
+          "Content_wt%": 30.0,
+          "Crystallite_Size_nm": 20.9,
+          "Microstrain_%": 0.153,
+          "Lattice_Parameter_A": 5.558,
+          "FWHM_deg": 0.123,
+          "Preferred_Orientation": 0.93
+        },
+        {
+          "Phase": "CC",
+          "Content_wt%": 3.0,
+          "Crystallite_Size_nm": 21.7,
+          "Microstrain_%": 0.143,
+          "Lattice_Parameter_A": 5.322,
+          "FWHM_deg": 0.15,
+          "Preferred_Orientation": 1.16
+        },
+        {
+          "Phase": "Quartz",
+          "Content_wt%": 2.0,
+          "Crystallite_Size_nm": 19.9,
+          "Microstrain_%": 0.193,
+          "Lattice_Parameter_A": 5.367,
+          "FWHM_deg": 0.144,
+          "Preferred_Orientation": 1.11
+        }
+      ],
+      "refinement_quality": {
+        "Rwp": 8.58,
+        "Rexp": 6.04,
+        "GOF": 1.42
+      }
+    },
+    "TGA": {
+      "curve": [
+        {
+          "Temperature_C": 25.0,
+          "Weight_%": 100.06991077728145,
+          "DTG_%_per_C": 3.021780950692741,
+          "Time_min": 2.5
+        },
+        {
+          "Temperature_C": 64.07815631262525,
+          "Weight_%": 98.74112318439306,
+          "DTG_%_per_C": 3.069023009226979,
+          "Time_min": 6.407815631262525
+        },
+        {
+          "Temperature_C": 103.15631262525051,
+          "Weight_%": 97.66402126882133,
+          "DTG_%_per_C": -61.11142106106245,
+          "Time_min": 10.31563126252505
+        },
+        {
+          "Temperature_C": 142.23446893787576,
+          "Weight_%": 99.45655141033664,
+          "DTG_%_per_C": 1.6779850201269801,
+          "Time_min": 14.223446893787576
+        },
+        {
+          "Temperature_C": 181.31262525050101,
+          "Weight_%": 98.86897217390414,
+          "DTG_%_per_C": 1.6779477295281522,
+          "Time_min": 18.1312625250501
+        },
+        {
+          "Temperature_C": 220.39078156312627,
+          "Weight_%": 99.76721992628225,
+          "DTG_%_per_C": 1.124859777494975,
+          "Time_min": 22.039078156312627
+        },
+        {
+          "Temperature_C": 259.4689378757515,
+          "Weight_%": 99.39067823630175,
+          "DTG_%_per_C": 0.924325723750804,
+          "Time_min": 25.946893787575153
+        },
+        {
+          "Temperature_C": 298.5470941883768,
+          "Weight_%": 99.01734791459407,
+          "DTG_%_per_C": 1.1284686260061005,
+          "Time_min": 29.85470941883768
+        },
+        {
+          "Temperature_C": 337.62525050100203,
+          "Weight_%": 98.71276102738005,
+          "DTG_%_per_C": 1.3725852498195525,
+          "Time_min": 33.7625250501002
+        },
+        {
+          "Temperature_C": 376.7034068136273,
+          "Weight_%": 98.26121084058272,
+          "DTG_%_per_C": 0.9151264576632265,
+          "Time_min": 37.67034068136273
+        },
+        {
+          "Temperature_C": 415.78156312625254,
+          "Weight_%": 97.31989025282739,
+          "DTG_%_per_C": 4.601944265828158,
+          "Time_min": 41.578156312625254
+        },
+        {
+          "Temperature_C": 454.8597194388778,
+          "Weight_%": 95.60287438408524,
+          "DTG_%_per_C": 4.508656764106309,
+          "Time_min": 45.485971943887776
+        },
+        {
+          "Temperature_C": 493.93787575150304,
+          "Weight_%": 93.81398946273357,
+          "DTG_%_per_C": 4.474916792933438,
+          "Time_min": 49.393787575150306
+        },
+        {
+          "Temperature_C": 533.0160320641282,
+          "Weight_%": 99.92198916068654,
+          "DTG_%_per_C": -0.20592877525911377,
+          "Time_min": 53.30160320641282
+        },
+        {
+          "Temperature_C": 572.0941883767536,
+          "Weight_%": 99.98562788872562,
+          "DTG_%_per_C": 0.06550853293915403,
+          "Time_min": 57.20941883767536
+        },
+        {
+          "Temperature_C": 611.1723446893787,
+          "Weight_%": 99.84312352824776,
+          "DTG_%_per_C": 1.0028843828453116,
+          "Time_min": 61.11723446893787
+        },
+        {
+          "Temperature_C": 650.2505010020041,
+          "Weight_%": 99.49714060903015,
+          "DTG_%_per_C": 1.0768024669991831,
+          "Time_min": 65.0250501002004
+        },
+        {
+          "Temperature_C": 689.3286573146293,
+          "Weight_%": 99.06207177599524,
+          "DTG_%_per_C": 1.049360009782063,
+          "Time_min": 68.93286573146293
+        },
+        {
+          "Temperature_C": 728.4068136272546,
+          "Weight_%": 98.68736470941565,
+          "DTG_%_per_C": 0.950215711340994,
+          "Time_min": 72.84068136272546
+        },
+        {
+          "Temperature_C": 767.4849699398798,
+          "Weight_%": 98.33420677174159,
+          "DTG_%_per_C": 1.0727512984835401,
+          "Time_min": 76.74849699398797
+        },
+        {
+          "Temperature_C": 806.5631262525051,
+          "Weight_%": 99.88279659943834,
+          "DTG_%_per_C": -0.011005905902335463,
+          "Time_min": 80.65631262525051
+        },
+        {
+          "Temperature_C": 845.6412825651303,
+          "Weight_%": 99.93342855641582,
+          "DTG_%_per_C": 0.08235523402189683,
+          "Time_min": 84.56412825651303
+        },
+        {
+          "Temperature_C": 884.7194388777556,
+          "Weight_%": 99.9870124215033,
+          "DTG_%_per_C": -0.07261509065540885,
+          "Time_min": 88.47194388777555
+        },
+        {
+          "Temperature_C": 923.7975951903808,
+          "Weight_%": 100.02620157024396,
+          "DTG_%_per_C": -0.04058152676546494,
+          "Time_min": 92.37975951903807
+        },
+        {
+          "Temperature_C": 962.8757515030061,
+          "Weight_%": 100.06626606004652,
+          "DTG_%_per_C": -0.019063656578538087,
+          "Time_min": 96.28757515030061
+        }
+      ],
+      "events": [
+        {
+          "Temp_Range": "25-105",
+          "Process": "Free water",
+          "Weight_Loss_%": 2.5
+        },
+        {
+          "Temp_Range": "105-200",
+          "Process": "CSH water",
+          "Weight_Loss_%": 1.5
+        },
+        {
+          "Temp_Range": "200-500",
+          "Process": "Rubber decomposition",
+          "Weight_Loss_%": 3.0
+        },
+        {
+          "Temp_Range": "400-500",
+          "Process": "Ca(OH)2 \u2192 CaO + H2O",
+          "Weight_Loss_%": 3.5
+        },
+        {
+          "Temp_Range": "600-800",
+          "Process": "CaCO3 \u2192 CaO + CO2",
+          "Weight_Loss_%": 2.0
+        }
+      ],
+      "total_weight_loss": 0.02
+    },
+    "DTA": {
+      "curve": [
+        {
+          "Temperature_C": 25.0,
+          "Heat_Flow_mW_mg": 0.04597328177724895,
+          "Time_min": 2.5
+        },
+        {
+          "Temperature_C": 64.07815631262525,
+          "Heat_Flow_mW_mg": -0.7882056910703812,
+          "Time_min": 6.407815631262525
+        },
+        {
+          "Temperature_C": 103.15631262525051,
+          "Heat_Flow_mW_mg": -2.5473002303102374,
+          "Time_min": 10.31563126252505
+        },
+        {
+          "Temperature_C": 142.23446893787576,
+          "Heat_Flow_mW_mg": -1.4379329273843537,
+          "Time_min": 14.223446893787576
+        },
+        {
+          "Temperature_C": 181.31262525050101,
+          "Heat_Flow_mW_mg": -0.6875132052357875,
+          "Time_min": 18.1312625250501
+        },
+        {
+          "Temperature_C": 220.39078156312627,
+          "Heat_Flow_mW_mg": -0.062140203781302805,
+          "Time_min": 22.039078156312627
+        },
+        {
+          "Temperature_C": 259.4689378757515,
+          "Heat_Flow_mW_mg": -1.0033053932475082,
+          "Time_min": 25.946893787575153
+        },
+        {
+          "Temperature_C": 298.5470941883768,
+          "Heat_Flow_mW_mg": -3.1780338233736445,
+          "Time_min": 29.85470941883768
+        },
+        {
+          "Temperature_C": 337.62525050100203,
+          "Heat_Flow_mW_mg": -5.58845557363636,
+          "Time_min": 33.7625250501002
+        },
+        {
+          "Temperature_C": 376.7034068136273,
+          "Heat_Flow_mW_mg": -4.846835916304179,
+          "Time_min": 37.67034068136273
+        },
+        {
+          "Temperature_C": 415.78156312625254,
+          "Heat_Flow_mW_mg": -3.787416767400986,
+          "Time_min": 41.578156312625254
+        },
+        {
+          "Temperature_C": 454.8597194388778,
+          "Heat_Flow_mW_mg": -3.9858474466737173,
+          "Time_min": 45.485971943887776
+        },
+        {
+          "Temperature_C": 493.93787575150304,
+          "Heat_Flow_mW_mg": 1.0212275037774838,
+          "Time_min": 49.393787575150306
+        },
+        {
+          "Temperature_C": 533.0160320641282,
+          "Heat_Flow_mW_mg": 4.228958834911392,
+          "Time_min": 53.30160320641282
+        },
+        {
+          "Temperature_C": 572.0941883767536,
+          "Heat_Flow_mW_mg": 3.972235660557373,
+          "Time_min": 57.20941883767536
+        },
+        {
+          "Temperature_C": 611.1723446893787,
+          "Heat_Flow_mW_mg": 1.7707255561640114,
+          "Time_min": 61.11723446893787
+        },
+        {
+          "Temperature_C": 650.2505010020041,
+          "Heat_Flow_mW_mg": 0.2786176401714575,
+          "Time_min": 65.0250501002004
+        },
+        {
+          "Temperature_C": 689.3286573146293,
+          "Heat_Flow_mW_mg": -1.8877854462722994,
+          "Time_min": 68.93286573146293
+        },
+        {
+          "Temperature_C": 728.4068136272546,
+          "Heat_Flow_mW_mg": -2.7073813183066955,
+          "Time_min": 72.84068136272546
+        },
+        {
+          "Temperature_C": 767.4849699398798,
+          "Heat_Flow_mW_mg": -0.9657167775985003,
+          "Time_min": 76.74849699398797
+        },
+        {
+          "Temperature_C": 806.5631262525051,
+          "Heat_Flow_mW_mg": 0.3947421560231276,
+          "Time_min": 80.65631262525051
+        },
+        {
+          "Temperature_C": 845.6412825651303,
+          "Heat_Flow_mW_mg": 0.880388502092525,
+          "Time_min": 84.56412825651303
+        },
+        {
+          "Temperature_C": 884.7194388777556,
+          "Heat_Flow_mW_mg": 0.9340770216895531,
+          "Time_min": 88.47194388777555
+        },
+        {
+          "Temperature_C": 923.7975951903808,
+          "Heat_Flow_mW_mg": 0.7718761290452506,
+          "Time_min": 92.37975951903807
+        },
+        {
+          "Temperature_C": 962.8757515030061,
+          "Heat_Flow_mW_mg": 0.8675152549234486,
+          "Time_min": 96.28757515030061
+        }
+      ]
+    },
+    "MicroCT": {
+      "statistics": {
+        "Porosity_%": 18.55,
+        "Paste_%": 78.34,
+        "Aggregate_%": 3.05,
+        "Rubber_%": 0.0,
+        "Cracks_%": 0.06,
+        "Number_of_Pores": 27,
+        "Mean_Pore_Volume_mm3": 0.013422,
+        "Max_Pore_Volume_mm3": 0.134547,
+        "Connectivity_Density": 13.824,
+        "Tortuosity": 1.09,
+        "Specific_Surface_Area_mm-1": 9480.19
+      },
+      "metadata": {
+        "dimensions": [
+          50,
+          50,
+          50
+        ],
+        "resolution": "25\u00b5m",
+        "total_volume_mm3": 1.9531250000000004
+      }
+    }
+  }
+}
