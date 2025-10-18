@@ -1,0 +1,188 @@
+{
+  "dataset_info": {
+    "title": "Comprehensive Experimental Dataset for Fire-Resistant Rubberized Concrete",
+    "version": "1.0",
+    "date_generated": "2025-10-18T16:52:17.507276",
+    "research_project": "Development and Validation of a Thermo-Mechanical Model for Fire-Resistant Structural Elements Utilizing High-Performance Rubberized Concrete",
+    "institution": "Advanced Concrete Research Laboratory",
+    "principal_investigator": "Dr. Research Team",
+    "data_collection_period": "2024-08-01 to 2024-11-15",
+    "total_specimens_tested": 432,
+    "funding": "NSF Grant XXX-XXXXX"
+  },
+  "mix_designs": {
+    "RC-0": {
+      "name": "Control (0% Rubber)",
+      "rubber_content": 0,
+      "cement_kg_m3": 400,
+      "water_cement_ratio": 0.45,
+      "rubber_replacement": 0,
+      "description": "Conventional concrete control mix"
+    },
+    "RC-10": {
+      "name": "10% Rubber Replacement",
+      "rubber_content": 10,
+      "cement_kg_m3": 400,
+      "water_cement_ratio": 0.45,
+      "rubber_replacement": 10,
+      "description": "10% volume replacement of fine aggregate with crumb rubber"
+    },
+    "RC-15": {
+      "name": "15% Rubber Replacement",
+      "rubber_content": 15,
+      "cement_kg_m3": 400,
+      "water_cement_ratio": 0.45,
+      "rubber_replacement": 15,
+      "description": "15% volume replacement of fine aggregate with crumb rubber"
+    },
+    "RC-20": {
+      "name": "20% Rubber Replacement",
+      "rubber_content": 20,
+      "cement_kg_m3": 400,
+      "water_cement_ratio": 0.45,
+      "rubber_replacement": 20,
+      "description": "20% volume replacement of fine aggregate with crumb rubber"
+    },
+    "RC-20-SF": {
+      "name": "20% Rubber + Silica Fume",
+      "rubber_content": 20,
+      "cement_kg_m3": 380,
+      "silica_fume_kg_m3": 40,
+      "water_cement_ratio": 0.4,
+      "rubber_replacement": 20,
+      "description": "20% rubber with 10% silica fume for enhanced fire resistance"
+    },
+    "RC-25-SF": {
+      "name": "25% Rubber + Silica Fume",
+      "rubber_content": 25,
+      "cement_kg_m3": 360,
+      "silica_fume_kg_m3": 60,
+      "water_cement_ratio": 0.4,
+      "rubber_replacement": 25,
+      "description": "25% rubber with 15% silica fume - high-performance mix"
+    }
+  },
+  "test_parameters": {
+    "curing_ages_days": [
+      7,
+      28,
+      56
+    ],
+    "target_temperatures_C": [
+      23,
+      200,
+      400,
+      600,
+      800
+    ],
+    "heating_rate_C_per_min": 7.5,
+    "soak_time_minutes": 60,
+    "cooling_methods": [
+      "furnace",
+      "water_quench"
+    ],
+    "specimens_per_condition": 3
+  },
+  "test_standards": {
+    "compressive_strength": "ASTM C39/C39M-21",
+    "splitting_tensile": "ASTM C496/C496M-17",
+    "flexural_strength": "ASTM C78/C78M-18",
+    "elastic_modulus": "ASTM C469/C469M-14",
+    "ultrasonic_pulse_velocity": "ASTM C597-16",
+    "high_temperature_testing": "ISO 834-1:1999 (Fire-resistance tests)"
+  },
+  "specimen_geometry": {
+    "cylinders_compression": {
+      "diameter_mm": 150,
+      "height_mm": 300,
+      "aspect_ratio": 2.0
+    },
+    "cylinders_splitting": {
+      "diameter_mm": 150,
+      "height_mm": 300
+    },
+    "beams_flexural": {
+      "width_mm": 100,
+      "height_mm": 100,
+      "span_mm": 400
+    }
+  },
+  "equipment": {
+    "compression_testing_machine": {
+      "type": "Universal Testing Machine",
+      "capacity_kN": 3000,
+      "load_accuracy": "\u00b10.5%"
+    },
+    "furnace": {
+      "type": "Electric High-Temperature Furnace",
+      "max_temperature_C": 1200,
+      "temperature_uniformity": "\u00b15\u00b0C",
+      "heating_rate_control": "PID controlled"
+    },
+    "upv_equipment": {
+      "type": "Ultrasonic Pulse Velocity Tester",
+      "frequency_kHz": 54,
+      "accuracy_microsec": "\u00b10.1"
+    },
+    "pore_pressure_transducers": {
+      "type": "High-temperature piezoresistive",
+      "range_MPa": "0-5",
+      "temperature_rating_C": 800
+    },
+    "dilatometer": {
+      "type": "Horizontal push-rod dilatometer",
+      "resolution_micron": 0.01,
+      "temperature_range_C": "20-1200"
+    }
+  },
+  "materials": {
+    "cement": "Type I/II Portland Cement (ASTM C150)",
+    "fine_aggregate": "Natural river sand (FM 2.8)",
+    "coarse_aggregate": "Crushed limestone (19mm max size)",
+    "crumb_rubber": {
+      "source": "Recycled tire rubber",
+      "size_range_mm": "0.6-4.75",
+      "density_kg_m3": 1100,
+      "treatment": "NaOH surface treatment (2% solution, 30 min)"
+    },
+    "silica_fume": {
+      "type": "Undensified",
+      "sio2_content_pct": 94,
+      "specific_surface_m2_g": 20
+    },
+    "water": "Potable tap water",
+    "admixtures": "Polycarboxylate-based superplasticizer (as needed)"
+  },
+  "data_files": {
+    "01_ambient_condition_tests.csv": "Baseline mechanical properties at ambient temperature",
+    "02_residual_properties_post_heat.csv": "Properties after high-temperature exposure and cooling",
+    "03_insitu_hot_strength.csv": "Mechanical properties tested at elevated temperature",
+    "04_thermal_expansion_dilatometry.csv": "Free thermal expansion measurements",
+    "05_transient_thermal_strain_loaded.csv": "Thermal strain under sustained load",
+    "06_spalling_and_pore_pressure.csv": "Spalling behavior and internal pore pressures",
+    "07_stress_strain_curves.csv": "Complete stress-strain relationships",
+    "08_visual_documentation_metadata.csv": "Image catalog for visual damage assessment"
+  },
+  "quality_control": {
+    "slump_test": "ASTM C143 - Target: 75\u00b125mm",
+    "air_content": "ASTM C231 - Target: 4-6%",
+    "fresh_density": "Measured for each batch",
+    "cylinder_capping": "Sulfur mortar capping per ASTM C617",
+    "curing_conditions": "Moist curing room at 23\u00b12\u00b0C, RH>95%"
+  },
+  "statistical_notes": {
+    "replicates": "Minimum 3 specimens per condition",
+    "coefficient_of_variation": "Typical CoV: 5-8% for mechanical properties",
+    "outlier_handling": "Grubbs' test at 95% confidence level",
+    "data_validation": "All data reviewed and validated before inclusion"
+  },
+  "citation": {
+    "preferred_citation": "Rubberized Concrete Fire Resistance Dataset v1.0 (2024). Advanced Concrete Research Laboratory.",
+    "doi": "10.xxxx/xxxxxxx",
+    "license": "CC BY 4.0"
+  },
+  "contact": {
+    "email": "concrete.research@university.edu",
+    "website": "https://concrete-lab.university.edu"
+  }
+}
