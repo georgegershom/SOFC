@@ -1,0 +1,89 @@
+Analysis_Type,Sample_ID,Material_Type,Test_Date,Operator,Instrument_Model,Atmosphere,Heating_Rate_C_min,Temperature_Range_C,Sample_Mass_mg
+
+# Thermogravimetric Analysis (TGA) - Crumb Rubber
+TGA,CR-001-TGA-01,Crumb_Rubber_Fine,2024-01-20,Dr. Martinez,TA_Instruments_Q500,Nitrogen,10,25-800,15.24
+TGA,CR-002-TGA-01,Crumb_Rubber_Coarse,2024-01-20,Dr. Martinez,TA_Instruments_Q500,Nitrogen,10,25-800,16.85
+
+# TGA Mass Loss Stages - CR-001
+Stage,Temperature_Range_C,Mass_Loss_Percent,DTG_Peak_Temp_C,DTG_Peak_Rate_percent_min,Assigned_Component
+Moisture_Loss,25-150,1.2,85,0.15,Moisture_Volatiles
+Plasticizer_Oils,150-350,4.5,285,0.68,Oils_Plasticizers
+Main_Polymer,350-500,48.5,425,8.52,Natural_Rubber_SBR_Polybutadiene
+Carbon_Black,500-700,28.2,N/A,N/A,Carbon_Black_Oxidation
+Inorganic,700-800,1.8,N/A,N/A,Zinc_Oxide_Decomposition
+Residue,>800,15.8,N/A,N/A,Ash_Inorganics
+
+# TGA Mass Loss Stages - CR-002
+Stage,Temperature_Range_C,Mass_Loss_Percent,DTG_Peak_Temp_C,DTG_Peak_Rate_percent_min,Assigned_Component
+Moisture_Loss,25-150,1.3,88,0.16,Moisture_Volatiles
+Plasticizer_Oils,150-350,4.6,288,0.70,Oils_Plasticizers
+Main_Polymer,350-500,47.8,428,8.35,Natural_Rubber_SBR_Polybutadiene
+Carbon_Black,500-700,28.5,N/A,N/A,Carbon_Black_Oxidation
+Inorganic,700-800,1.9,N/A,N/A,Zinc_Oxide_Decomposition
+Residue,>800,15.9,N/A,N/A,Ash_Inorganics
+
+# Differential Scanning Calorimetry (DSC) - Crumb Rubber
+DSC,CR-001-DSC-01,Crumb_Rubber_Fine,2024-01-21,Dr. Martinez,TA_Instruments_Q2000,Nitrogen,10,-80-300,8.52
+DSC,CR-002-DSC-01,Crumb_Rubber_Coarse,2024-01-21,Dr. Martinez,TA_Instruments_Q2000,Nitrogen,10,-80-300,9.18
+
+# DSC Thermal Transitions - CR-001
+Transition_Type,Temperature_C,Enthalpy_J_g,Peak_Width_C,Transition_Description
+Glass_Transition,"-45.2",N/A,12.5,Tg_of_rubber_phase
+Endothermic_1,125.5,8.5,25.2,Melting_of_plasticizers
+Endothermic_2,185.2,3.2,18.8,Decomposition_onset
+Exothermic_1,255.8,"-12.5",35.5,Oxidative_crosslinking
+
+# DSC Thermal Transitions - CR-002
+Transition_Type,Temperature_C,Enthalpy_J_g,Peak_Width_C,Transition_Description
+Glass_Transition,"-44.8",N/A,13.1,Tg_of_rubber_phase
+Endothermic_1,127.2,8.8,26.5,Melting_of_plasticizers
+Endothermic_2,187.5,3.4,19.5,Decomposition_onset
+Exothermic_1,258.2,"-13.1",36.8,Oxidative_crosslinking
+
+# TGA - Cement Hydration Products (for reference)
+TGA,CEM-001-Paste-01,Cement_Paste_28day,2024-01-24,Dr. Martinez,TA_Instruments_Q500,Nitrogen,10,25-1000,12.35
+
+Stage,Temperature_Range_C,Mass_Loss_Percent,Assignment
+Free_Water,25-105,2.8,Evaporable_water
+CSH_AFt,105-200,4.5,CSH_interlayer_water_Ettringite
+Portlandite,400-500,3.2,Ca_OH_2_dehydroxylation
+Carbonates,600-800,4.1,CaCO3_decomposition
+Total_Loss,25-1000,14.6,Total_mass_loss
+
+# Specific Heat Capacity - Temperature Dependent
+Material,Temperature_C,Specific_Heat_kJ_kg_K,Test_Method
+CR-001,25,1.38,DSC
+CR-001,100,1.52,DSC
+CR-001,200,1.68,DSC
+CR-001,300,1.85,DSC
+CR-002,25,1.37,DSC
+CR-002,100,1.51,DSC
+CR-002,200,1.67,DSC
+CR-002,300,1.84,DSC
+OPC_Concrete,25,0.88,Literature
+OPC_Concrete,100,0.95,Literature
+OPC_Concrete,200,1.02,Literature
+OPC_Concrete,300,1.08,Literature
+
+# Thermal Conductivity - Temperature Dependent
+Material,Temperature_C,Thermal_Conductivity_W_m_K,Test_Method
+CR-001,25,0.23,Hot_Disk_TPS
+CR-001,100,0.21,Hot_Disk_TPS
+CR-001,200,0.19,Hot_Disk_TPS
+CR-002,25,0.24,Hot_Disk_TPS
+CR-002,100,0.22,Hot_Disk_TPS
+CR-002,200,0.20,Hot_Disk_TPS
+Normal_Concrete,25,1.75,Literature
+Rubberized_5percent,25,1.62,Estimated
+Rubberized_10percent,25,1.49,Estimated
+Rubberized_15percent,25,1.36,Estimated
+Rubberized_20percent,25,1.23,Estimated
+
+# Thermal Expansion Coefficient
+Material,Temperature_Range_C,CTE_10E-6_per_C,Test_Method
+CR-001,25-200,185,TMA
+CR-002,25-200,182,TMA
+Concrete_Control,25-200,10.5,Literature
+Fine_Aggregate,25-200,8.5,Literature
+Coarse_Aggregate,25-200,9.2,Literature
+Cement_Paste,25-200,18.5,Literature

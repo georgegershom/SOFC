@@ -1,0 +1,82 @@
+Mix_ID,Mix_Name,Rubber_Replacement_Level_percent,Rubber_Size_Range_mm,Rubber_Material_ID,Target_Strength_Grade_MPa,Water_Cement_Ratio,Target_Slump_mm,Target_Air_Content_percent,Design_Method,Design_Date
+M-00,Control_0R,0,N/A,N/A,40,0.42,75,2.0,ACI 211.1,2024-02-01
+M-05F,Rubber_5_Fine,5,1-4,CR-001,40,0.42,75,2.5,Modified ACI 211.1,2024-02-01
+M-10F,Rubber_10_Fine,10,1-4,CR-001,40,0.44,75,3.0,Modified ACI 211.1,2024-02-01
+M-15F,Rubber_15_Fine,15,1-4,CR-001,40,0.46,75,3.5,Modified ACI 211.1,2024-02-01
+M-20F,Rubber_20_Fine,20,1-4,CR-001,40,0.48,75,4.0,Modified ACI 211.1,2024-02-01
+M-05C,Rubber_5_Coarse,5,4-8,CR-002,40,0.42,75,2.5,Modified ACI 211.1,2024-02-01
+M-10C,Rubber_10_Coarse,10,4-8,CR-002,40,0.44,75,3.0,Modified ACI 211.1,2024-02-01
+M-15C,Rubber_15_Coarse,15,4-8,CR-002,40,0.46,75,3.5,Modified ACI 211.1,2024-02-01
+M-20C,Rubber_20_Coarse,20,4-8,CR-002,40,0.48,75,4.0,Modified ACI 211.1,2024-02-01
+M-10M,Rubber_10_Mixed,10,1-8,CR-001+CR-002,40,0.44,75,3.0,Modified ACI 211.1,2024-02-01
+M-15M,Rubber_15_Mixed,15,1-8,CR-001+CR-002,40,0.46,75,3.5,Modified ACI 211.1,2024-02-01
+
+# Detailed Mix Proportions (kg/m3 of concrete)
+Mix_ID,Cement_kg,Water_kg,Fine_Aggregate_kg,Coarse_Aggregate_kg,Crumb_Rubber_kg,Superplasticizer_L,AEA_mL,VMA_kg,Total_Volume_m3,Theoretical_Density_kg_m3,Cement_Content_kg_m3,Water_Content_L_m3,Aggregate_Total_kg_m3
+M-00,420,176,680,1050,0,4.2,168,0,1.000,2330.2,420,176,1730
+M-05F,420,176,646,1050,34,4.6,189,0,1.000,2330.6,420,176,1730
+M-10F,420,185,612,1050,68,5.0,210,0.42,1.000,2335.4,420,185,1730
+M-15F,420,193,578,1050,102,5.5,231,0.63,1.000,2343.6,420,193,1730
+M-20F,420,202,544,1050,136,6.0,252,0.84,1.000,2352.8,420,202,1730
+M-05C,420,176,646,1050,34,4.6,189,0,1.000,2330.6,420,176,1730
+M-10C,420,185,612,1050,68,5.0,210,0.42,1.000,2335.4,420,185,1730
+M-15C,420,193,578,1050,102,5.5,231,0.63,1.000,2343.6,420,193,1730
+M-20C,420,202,544,1050,136,6.0,252,0.84,1.000,2352.8,420,202,1730
+M-10M,420,185,612,1050,68,5.0,210,0.42,1.000,2335.4,420,185,1730
+M-15M,420,193,578,1050,102,5.5,231,0.63,1.000,2343.6,420,193,1730
+
+# Volume-based Mix Proportions (absolute volume method)
+Mix_ID,Cement_Volume_L,Water_Volume_L,Fine_Agg_Volume_L,Coarse_Agg_Volume_L,Rubber_Volume_L,Air_Volume_L,Admixture_Volume_L,Total_Volume_L
+M-00,133.3,176.0,256.6,391.8,0.0,20.0,2.3,1000.0
+M-05F,133.3,176.0,243.8,391.8,29.8,22.5,2.8,1000.0
+M-10F,133.3,185.0,231.0,391.8,59.6,25.0,3.3,1000.0
+M-15F,133.3,193.0,218.1,391.8,89.5,27.5,3.8,1000.0
+M-20F,133.3,202.0,205.3,391.8,119.3,30.0,4.3,1000.0
+M-05C,133.3,176.0,243.8,391.8,29.6,22.5,2.8,1000.0
+M-10C,133.3,185.0,231.0,391.8,59.1,25.0,3.3,1000.0
+M-15C,133.3,193.0,218.1,391.8,88.7,27.5,3.8,1000.0
+M-20C,133.3,202.0,205.3,391.8,118.3,30.0,4.3,1000.0
+M-10M,133.3,185.0,231.0,391.8,59.4,25.0,3.3,1000.0
+M-15M,133.3,193.0,218.1,391.8,89.1,27.5,3.8,1000.0
+
+# Admixture Dosages (detailed)
+Mix_ID,Superplasticizer_Percent_by_Cement_Mass,Superplasticizer_mL_per_100kg_Cement,AEA_Percent_by_Cement_Mass,AEA_mL_per_100kg_Cement,VMA_Percent_by_Cement_Mass,VMA_g_per_100kg_Cement
+M-00,1.00,1000,0.040,40,0.00,0
+M-05F,1.10,1100,0.045,45,0.00,0
+M-10F,1.19,1190,0.050,50,0.10,100
+M-15F,1.31,1310,0.055,55,0.15,150
+M-20F,1.43,1430,0.060,60,0.20,200
+M-05C,1.10,1100,0.045,45,0.00,0
+M-10C,1.19,1190,0.050,50,0.10,100
+M-15C,1.31,1310,0.055,55,0.15,150
+M-20C,1.43,1430,0.060,60,0.20,200
+M-10M,1.19,1190,0.050,50,0.10,100
+M-15M,1.31,1310,0.055,55,0.15,150
+
+# Rubber Replacement Details
+Mix_ID,Fine_Agg_Replaced_kg,Fine_Agg_Replaced_Volume_L,Rubber_Fine_kg,Rubber_Fine_Volume_L,Rubber_Coarse_kg,Rubber_Coarse_Volume_L,Replacement_Method
+M-00,0,0,0,0,0,0,None
+M-05F,34,12.8,34,29.8,0,0,Volume_replacement_of_fine_aggregate
+M-10F,68,25.7,68,59.6,0,0,Volume_replacement_of_fine_aggregate
+M-15F,102,38.5,102,89.5,0,0,Volume_replacement_of_fine_aggregate
+M-20F,136,51.3,136,119.3,0,0,Volume_replacement_of_fine_aggregate
+M-05C,34,12.8,0,0,34,29.6,Volume_replacement_of_fine_aggregate
+M-10C,68,25.7,0,0,68,59.1,Volume_replacement_of_fine_aggregate
+M-15C,102,38.5,0,0,102,88.7,Volume_replacement_of_fine_aggregate
+M-20C,136,51.3,0,0,136,118.3,Volume_replacement_of_fine_aggregate
+M-10M,68,25.7,34,29.8,34,29.6,Volume_replacement_of_fine_aggregate
+M-15M,102,38.5,51,44.7,51,44.3,Volume_replacement_of_fine_aggregate
+
+# Target Performance Properties
+Mix_ID,Target_28day_Compressive_Strength_MPa,Target_Modulus_of_Elasticity_GPa,Target_Thermal_Conductivity_W_m_K,Target_Fire_Resistance_Rating_min,Expected_Density_Reduction_percent,Expected_Energy_Absorption_Increase_percent
+M-00,40,30.0,1.75,120,0,0
+M-05F,36,28.5,1.62,135,2,8
+M-10F,32,27.0,1.49,150,4,18
+M-15F,28,25.5,1.36,165,6,30
+M-20F,24,24.0,1.23,180,8,45
+M-05C,35,28.0,1.60,140,2,10
+M-10C,30,26.5,1.46,155,4,22
+M-15C,26,25.0,1.32,170,6,36
+M-20C,22,23.5,1.18,185,8,52
+M-10M,31,26.8,1.48,152,4,20
+M-15M,27,25.3,1.34,167,6,33

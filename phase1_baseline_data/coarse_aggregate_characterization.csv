@@ -1,0 +1,26 @@
+Material_ID,Aggregate_Type,Source,Quarry_Location,Extraction_Date,Specific_Gravity_SSD,Specific_Gravity_OD,Water_Absorption_percent,Bulk_Density_kg_m3,Bulk_Density_Loose_kg_m3,Nominal_Max_Size_mm,Moisture_Content_percent,LA_Abrasion_Loss_percent
+CA-001,Crushed Limestone,Mountain Quarry Inc.,Phoenix Quarry - AZ,2024-01-22,2.68,2.62,2.29,1595,1485,19,0.8,22.5
+
+# Sieve Analysis - Coarse Aggregate (CA-001)
+Sieve_Size_mm,Mass_Retained_g,Percent_Retained,Cumulative_Percent_Retained,Percent_Passing,Specification_ASTM_C33_Size_57_Min,Specification_ASTM_C33_Size_57_Max
+37.5,0,0.0,0.0,100.0,100,100
+25,25,0.5,0.5,99.5,95,100
+19,1875,37.5,38.0,62.0,25,60
+12.5,2125,42.5,80.5,19.5,-,-
+9.5,725,14.5,95.0,5.0,0,10
+4.75,225,4.5,99.5,0.5,0,5
+Pan,25,0.5,100.0,0.0,-,-
+Total,5000,100.0,-,-,-,-
+
+# Additional Physical Properties
+Property,Value,Unit,Test_Standard
+Soundness_MgSO4,3.8,percent_loss,ASTM C88
+Flat_Elongated_Particles,6.5,percent,ASTM D4791
+Clay_Lumps_Friable,0.4,percent,ASTM C142
+Material_Finer_than_75um,0.8,percent,ASTM C117
+Alkali_Carbonate_Reactivity,Non-Reactive,Classification,ASTM C586
+Crushing_Value,18.5,percent,BS 812
+Impact_Value,16.2,percent,BS 812
+Chloride_Content,0.001,percent,ASTM C1218
+Sulfate_Content,0.008,percent,ASTM C1580
+Bulk_Modulus_GPa,65.2,GPa,Calculated

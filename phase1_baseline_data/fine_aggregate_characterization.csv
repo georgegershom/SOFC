@@ -1,0 +1,24 @@
+Material_ID,Aggregate_Type,Source,Quarry_Location,Extraction_Date,Specific_Gravity_SSD,Specific_Gravity_OD,Water_Absorption_percent,Bulk_Density_kg_m3,Bulk_Density_Loose_kg_m3,Fineness_Modulus,Moisture_Content_percent
+FA-001,Natural River Sand,River Valley Aggregates,Colorado River - AZ,2024-01-20,2.65,2.58,2.71,1685,1542,2.85,1.2
+
+# Sieve Analysis - Fine Aggregate (FA-001)
+Sieve_Size_mm,Mass_Retained_g,Percent_Retained,Cumulative_Percent_Retained,Percent_Passing,Specification_ASTM_C33_Min,Specification_ASTM_C33_Max
+9.5,0,0.0,0.0,100.0,100,100
+4.75,85,1.7,1.7,98.3,95,100
+2.36,425,8.5,10.2,89.8,80,100
+1.18,875,17.5,27.7,72.3,50,85
+0.6,1250,25.0,52.7,47.3,25,60
+0.3,1125,22.5,75.2,24.8,5,30
+0.15,875,17.5,92.7,7.3,0,10
+Pan,365,7.3,100.0,0.0,-,-
+Total,5000,100.0,-,-,-,-
+
+# Additional Physical Properties
+Property,Value,Unit,Test_Standard
+Soundness_MgSO4,4.2,percent_loss,ASTM C88
+Organic_Impurities,Plate_1,Color_Comparison,ASTM C40
+Clay_Lumps_Friable,0.8,percent,ASTM C142
+Material_Finer_than_75um,2.1,percent,ASTM C117
+Alkali_Silica_Reactivity,Non-Reactive,Classification,ASTM C1260
+Chloride_Content,0.002,percent,ASTM C1218
+Sulfate_Content,0.015,percent,ASTM C1580
