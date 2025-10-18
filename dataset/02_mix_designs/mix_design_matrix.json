@@ -1,0 +1,298 @@
+{
+  "mix_design_matrix": {
+    "design_parameters": {
+      "target_strength": 40,
+      "target_strength_units": "MPa at 28 days",
+      "target_slump": 100,
+      "target_slump_units": "mm",
+      "target_air_content": 5.5,
+      "target_air_units": "%",
+      "water_cement_ratio": 0.45,
+      "cement_content_base": 380,
+      "cement_units": "kg/m³"
+    },
+    "mix_designs": {
+      "M00_Control": {
+        "description": "Control mix - 0% rubber replacement",
+        "rubber_content": 0,
+        "rubber_size": "N/A",
+        "proportions": {
+          "cement_opc": 380,
+          "silica_fume": 30,
+          "water": 171,
+          "fine_aggregate": 720,
+          "coarse_aggregate": 1050,
+          "crumb_rubber": 0,
+          "superplasticizer": 3.04,
+          "air_entraining_agent": 0.19,
+          "pp_fibers": 0.6,
+          "units": "kg/m³"
+        },
+        "w_cm_ratio": 0.42,
+        "total_cementitious": 410
+      },
+      "M05F_5pct_Fine": {
+        "description": "5% fine rubber (1-4mm) by volume of fine aggregate",
+        "rubber_content": 5,
+        "rubber_size": "1-4mm",
+        "proportions": {
+          "cement_opc": 380,
+          "silica_fume": 30,
+          "water": 171,
+          "fine_aggregate": 684,
+          "coarse_aggregate": 1050,
+          "crumb_rubber": 20.7,
+          "superplasticizer": 3.42,
+          "air_entraining_agent": 0.19,
+          "pp_fibers": 0.6,
+          "units": "kg/m³"
+        },
+        "w_cm_ratio": 0.42,
+        "total_cementitious": 410,
+        "volume_replacement": {
+          "fine_aggregate_reduced": 36,
+          "rubber_volume": 36,
+          "units": "L/m³"
+        }
+      },
+      "M10F_10pct_Fine": {
+        "description": "10% fine rubber (1-4mm) by volume of fine aggregate",
+        "rubber_content": 10,
+        "rubber_size": "1-4mm",
+        "proportions": {
+          "cement_opc": 380,
+          "silica_fume": 30,
+          "water": 171,
+          "fine_aggregate": 648,
+          "coarse_aggregate": 1050,
+          "crumb_rubber": 41.4,
+          "superplasticizer": 3.80,
+          "air_entraining_agent": 0.21,
+          "pp_fibers": 0.6,
+          "units": "kg/m³"
+        },
+        "w_cm_ratio": 0.42,
+        "total_cementitious": 410,
+        "volume_replacement": {
+          "fine_aggregate_reduced": 72,
+          "rubber_volume": 72,
+          "units": "L/m³"
+        }
+      },
+      "M15F_15pct_Fine": {
+        "description": "15% fine rubber (1-4mm) by volume of fine aggregate",
+        "rubber_content": 15,
+        "rubber_size": "1-4mm",
+        "proportions": {
+          "cement_opc": 380,
+          "silica_fume": 30,
+          "water": 171,
+          "fine_aggregate": 612,
+          "coarse_aggregate": 1050,
+          "crumb_rubber": 62.1,
+          "superplasticizer": 4.18,
+          "air_entraining_agent": 0.23,
+          "pp_fibers": 0.6,
+          "units": "kg/m³"
+        },
+        "w_cm_ratio": 0.42,
+        "total_cementitious": 410,
+        "volume_replacement": {
+          "fine_aggregate_reduced": 108,
+          "rubber_volume": 108,
+          "units": "L/m³"
+        }
+      },
+      "M20F_20pct_Fine": {
+        "description": "20% fine rubber (1-4mm) by volume of fine aggregate",
+        "rubber_content": 20,
+        "rubber_size": "1-4mm",
+        "proportions": {
+          "cement_opc": 380,
+          "silica_fume": 30,
+          "water": 171,
+          "fine_aggregate": 576,
+          "coarse_aggregate": 1050,
+          "crumb_rubber": 82.8,
+          "superplasticizer": 4.56,
+          "air_entraining_agent": 0.25,
+          "pp_fibers": 0.6,
+          "units": "kg/m³"
+        },
+        "w_cm_ratio": 0.42,
+        "total_cementitious": 410,
+        "volume_replacement": {
+          "fine_aggregate_reduced": 144,
+          "rubber_volume": 144,
+          "units": "L/m³"
+        }
+      },
+      "M10C_10pct_Coarse": {
+        "description": "10% coarse rubber (4-8mm) by volume of fine aggregate",
+        "rubber_content": 10,
+        "rubber_size": "4-8mm",
+        "proportions": {
+          "cement_opc": 380,
+          "silica_fume": 30,
+          "water": 171,
+          "fine_aggregate": 648,
+          "coarse_aggregate": 1050,
+          "crumb_rubber": 41.4,
+          "superplasticizer": 3.65,
+          "air_entraining_agent": 0.21,
+          "pp_fibers": 0.6,
+          "units": "kg/m³"
+        },
+        "w_cm_ratio": 0.42,
+        "total_cementitious": 410,
+        "volume_replacement": {
+          "fine_aggregate_reduced": 72,
+          "rubber_volume": 72,
+          "units": "L/m³"
+        }
+      },
+      "M15C_15pct_Coarse": {
+        "description": "15% coarse rubber (4-8mm) by volume of fine aggregate",
+        "rubber_content": 15,
+        "rubber_size": "4-8mm",
+        "proportions": {
+          "cement_opc": 380,
+          "silica_fume": 30,
+          "water": 171,
+          "fine_aggregate": 612,
+          "coarse_aggregate": 1050,
+          "crumb_rubber": 62.1,
+          "superplasticizer": 3.95,
+          "air_entraining_agent": 0.23,
+          "pp_fibers": 0.6,
+          "units": "kg/m³"
+        },
+        "w_cm_ratio": 0.42,
+        "total_cementitious": 410,
+        "volume_replacement": {
+          "fine_aggregate_reduced": 108,
+          "rubber_volume": 108,
+          "units": "L/m³"
+        }
+      },
+      "M10M_10pct_Mixed": {
+        "description": "10% mixed rubber (50% fine + 50% coarse) by volume of fine aggregate",
+        "rubber_content": 10,
+        "rubber_size": "Mixed (1-8mm)",
+        "proportions": {
+          "cement_opc": 380,
+          "silica_fume": 30,
+          "water": 171,
+          "fine_aggregate": 648,
+          "coarse_aggregate": 1050,
+          "crumb_rubber_fine": 20.7,
+          "crumb_rubber_coarse": 20.7,
+          "superplasticizer": 3.72,
+          "air_entraining_agent": 0.21,
+          "pp_fibers": 0.6,
+          "units": "kg/m³"
+        },
+        "w_cm_ratio": 0.42,
+        "total_cementitious": 410,
+        "volume_replacement": {
+          "fine_aggregate_reduced": 72,
+          "rubber_volume": 72,
+          "units": "L/m³"
+        }
+      },
+      "M25F_25pct_Fine": {
+        "description": "25% fine rubber (1-4mm) by volume of fine aggregate - high rubber content",
+        "rubber_content": 25,
+        "rubber_size": "1-4mm",
+        "proportions": {
+          "cement_opc": 380,
+          "silica_fume": 30,
+          "water": 171,
+          "fine_aggregate": 540,
+          "coarse_aggregate": 1050,
+          "crumb_rubber": 103.5,
+          "superplasticizer": 4.94,
+          "air_entraining_agent": 0.27,
+          "pp_fibers": 0.6,
+          "units": "kg/m³"
+        },
+        "w_cm_ratio": 0.42,
+        "total_cementitious": 410,
+        "volume_replacement": {
+          "fine_aggregate_reduced": 180,
+          "rubber_volume": 180,
+          "units": "L/m³"
+        }
+      },
+      "M30F_30pct_Fine": {
+        "description": "30% fine rubber (1-4mm) by volume of fine aggregate - maximum rubber content",
+        "rubber_content": 30,
+        "rubber_size": "1-4mm",
+        "proportions": {
+          "cement_opc": 380,
+          "silica_fume": 30,
+          "water": 171,
+          "fine_aggregate": 504,
+          "coarse_aggregate": 1050,
+          "crumb_rubber": 124.2,
+          "superplasticizer": 5.32,
+          "air_entraining_agent": 0.29,
+          "pp_fibers": 0.6,
+          "units": "kg/m³"
+        },
+        "w_cm_ratio": 0.42,
+        "total_cementitious": 410,
+        "volume_replacement": {
+          "fine_aggregate_reduced": 216,
+          "rubber_volume": 216,
+          "units": "L/m³"
+        }
+      }
+    },
+    "additional_mixes": {
+      "high_strength_series": {
+        "M00_HS_Control": {
+          "description": "High-strength control mix - 0% rubber replacement",
+          "target_strength": 60,
+          "target_strength_units": "MPa at 28 days",
+          "rubber_content": 0,
+          "proportions": {
+            "cement_opc": 420,
+            "silica_fume": 42,
+            "water": 162,
+            "fine_aggregate": 680,
+            "coarse_aggregate": 1020,
+            "crumb_rubber": 0,
+            "superplasticizer": 4.62,
+            "air_entraining_agent": 0.21,
+            "pp_fibers": 0.9,
+            "units": "kg/m³"
+          },
+          "w_cm_ratio": 0.35,
+          "total_cementitious": 462
+        },
+        "M10F_HS_10pct": {
+          "description": "High-strength 10% fine rubber mix",
+          "target_strength": 60,
+          "target_strength_units": "MPa at 28 days",
+          "rubber_content": 10,
+          "rubber_size": "1-4mm",
+          "proportions": {
+            "cement_opc": 420,
+            "silica_fume": 42,
+            "water": 162,
+            "fine_aggregate": 612,
+            "coarse_aggregate": 1020,
+            "crumb_rubber": 39.1,
+            "superplasticizer": 5.54,
+            "air_entraining_agent": 0.23,
+            "pp_fibers": 0.9,
+            "units": "kg/m³"
+          },
+          "w_cm_ratio": 0.35,
+          "total_cementitious": 462
+        }
+      }
+    }
+  }
+}

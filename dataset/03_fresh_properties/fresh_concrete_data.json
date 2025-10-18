@@ -1,0 +1,677 @@
+{
+  "fresh_concrete_properties": {
+    "test_conditions": {
+      "ambient_temperature": 23,
+      "relative_humidity": 65,
+      "atmospheric_pressure": 101.3,
+      "units": "°C, %, kPa"
+    },
+    "test_methods": {
+      "slump": "ASTM C143",
+      "air_content": "ASTM C231 (pressure method)",
+      "unit_weight": "ASTM C138",
+      "temperature": "ASTM C1064"
+    },
+    "batch_data": {
+      "M00_Control": {
+        "batch_1": {
+          "slump": 105,
+          "slump_units": "mm",
+          "air_content": 5.2,
+          "air_units": "%",
+          "unit_weight": 2385,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.5,
+          "temp_units": "°C",
+          "mixing_time": 4.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Excellent",
+          "bleeding": "Minimal",
+          "segregation": "None observed"
+        },
+        "batch_2": {
+          "slump": 98,
+          "slump_units": "mm",
+          "air_content": 5.4,
+          "air_units": "%",
+          "unit_weight": 2378,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 23.8,
+          "temp_units": "°C",
+          "mixing_time": 4.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Excellent",
+          "bleeding": "Minimal",
+          "segregation": "None observed"
+        },
+        "batch_3": {
+          "slump": 102,
+          "slump_units": "mm",
+          "air_content": 5.6,
+          "air_units": "%",
+          "unit_weight": 2382,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.2,
+          "temp_units": "°C",
+          "mixing_time": 4.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Excellent",
+          "bleeding": "Minimal",
+          "segregation": "None observed"
+        },
+        "average": {
+          "slump": 101.7,
+          "air_content": 5.4,
+          "unit_weight": 2381.7,
+          "fresh_temperature": 24.2
+        }
+      },
+      "M05F_5pct_Fine": {
+        "batch_1": {
+          "slump": 110,
+          "slump_units": "mm",
+          "air_content": 5.8,
+          "air_units": "%",
+          "unit_weight": 2365,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.1,
+          "temp_units": "°C",
+          "mixing_time": 5.0,
+          "mixing_units": "minutes",
+          "workability_rating": "Very good",
+          "bleeding": "Minimal",
+          "segregation": "None observed"
+        },
+        "batch_2": {
+          "slump": 115,
+          "slump_units": "mm",
+          "air_content": 6.1,
+          "air_units": "%",
+          "unit_weight": 2358,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 23.7,
+          "temp_units": "°C",
+          "mixing_time": 5.0,
+          "mixing_units": "minutes",
+          "workability_rating": "Very good",
+          "bleeding": "Minimal",
+          "segregation": "None observed"
+        },
+        "batch_3": {
+          "slump": 108,
+          "slump_units": "mm",
+          "air_content": 5.9,
+          "air_units": "%",
+          "unit_weight": 2362,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.3,
+          "temp_units": "°C",
+          "mixing_time": 5.0,
+          "mixing_units": "minutes",
+          "workability_rating": "Very good",
+          "bleeding": "Minimal",
+          "segregation": "None observed"
+        },
+        "average": {
+          "slump": 111.0,
+          "air_content": 5.9,
+          "unit_weight": 2361.7,
+          "fresh_temperature": 24.0
+        }
+      },
+      "M10F_10pct_Fine": {
+        "batch_1": {
+          "slump": 125,
+          "slump_units": "mm",
+          "air_content": 6.4,
+          "air_units": "%",
+          "unit_weight": 2342,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 23.9,
+          "temp_units": "°C",
+          "mixing_time": 5.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Good",
+          "bleeding": "Very minimal",
+          "segregation": "None observed"
+        },
+        "batch_2": {
+          "slump": 118,
+          "slump_units": "mm",
+          "air_content": 6.7,
+          "air_units": "%",
+          "unit_weight": 2335,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.4,
+          "temp_units": "°C",
+          "mixing_time": 5.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Good",
+          "bleeding": "Very minimal",
+          "segregation": "None observed"
+        },
+        "batch_3": {
+          "slump": 122,
+          "slump_units": "mm",
+          "air_content": 6.2,
+          "air_units": "%",
+          "unit_weight": 2339,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.1,
+          "temp_units": "°C",
+          "mixing_time": 5.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Good",
+          "bleeding": "Very minimal",
+          "segregation": "None observed"
+        },
+        "average": {
+          "slump": 121.7,
+          "air_content": 6.4,
+          "unit_weight": 2338.7,
+          "fresh_temperature": 24.1
+        }
+      },
+      "M15F_15pct_Fine": {
+        "batch_1": {
+          "slump": 135,
+          "slump_units": "mm",
+          "air_content": 7.1,
+          "air_units": "%",
+          "unit_weight": 2318,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.0,
+          "temp_units": "°C",
+          "mixing_time": 6.0,
+          "mixing_units": "minutes",
+          "workability_rating": "Good",
+          "bleeding": "None observed",
+          "segregation": "Slight rubber floating"
+        },
+        "batch_2": {
+          "slump": 142,
+          "slump_units": "mm",
+          "air_content": 7.4,
+          "air_units": "%",
+          "unit_weight": 2312,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 23.6,
+          "temp_units": "°C",
+          "mixing_time": 6.0,
+          "mixing_units": "minutes",
+          "workability_rating": "Good",
+          "bleeding": "None observed",
+          "segregation": "Slight rubber floating"
+        },
+        "batch_3": {
+          "slump": 138,
+          "slump_units": "mm",
+          "air_content": 6.9,
+          "air_units": "%",
+          "unit_weight": 2315,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.2,
+          "temp_units": "°C",
+          "mixing_time": 6.0,
+          "mixing_units": "minutes",
+          "workability_rating": "Good",
+          "bleeding": "None observed",
+          "segregation": "Slight rubber floating"
+        },
+        "average": {
+          "slump": 138.3,
+          "air_content": 7.1,
+          "unit_weight": 2315.0,
+          "fresh_temperature": 23.9
+        }
+      },
+      "M20F_20pct_Fine": {
+        "batch_1": {
+          "slump": 155,
+          "slump_units": "mm",
+          "air_content": 7.8,
+          "air_units": "%",
+          "unit_weight": 2295,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 23.8,
+          "temp_units": "°C",
+          "mixing_time": 6.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Fair",
+          "bleeding": "None observed",
+          "segregation": "Moderate rubber floating"
+        },
+        "batch_2": {
+          "slump": 148,
+          "slump_units": "mm",
+          "air_content": 8.2,
+          "air_units": "%",
+          "unit_weight": 2288,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.3,
+          "temp_units": "°C",
+          "mixing_time": 6.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Fair",
+          "bleeding": "None observed",
+          "segregation": "Moderate rubber floating"
+        },
+        "batch_3": {
+          "slump": 152,
+          "slump_units": "mm",
+          "air_content": 7.9,
+          "air_units": "%",
+          "unit_weight": 2292,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.0,
+          "temp_units": "°C",
+          "mixing_time": 6.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Fair",
+          "bleeding": "None observed",
+          "segregation": "Moderate rubber floating"
+        },
+        "average": {
+          "slump": 151.7,
+          "air_content": 8.0,
+          "unit_weight": 2291.7,
+          "fresh_temperature": 24.0
+        }
+      },
+      "M10C_10pct_Coarse": {
+        "batch_1": {
+          "slump": 115,
+          "slump_units": "mm",
+          "air_content": 6.2,
+          "air_units": "%",
+          "unit_weight": 2345,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.1,
+          "temp_units": "°C",
+          "mixing_time": 5.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Good",
+          "bleeding": "Very minimal",
+          "segregation": "None observed"
+        },
+        "batch_2": {
+          "slump": 108,
+          "slump_units": "mm",
+          "air_content": 6.5,
+          "air_units": "%",
+          "unit_weight": 2338,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 23.7,
+          "temp_units": "°C",
+          "mixing_time": 5.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Good",
+          "bleeding": "Very minimal",
+          "segregation": "None observed"
+        },
+        "batch_3": {
+          "slump": 112,
+          "slump_units": "mm",
+          "air_content": 6.0,
+          "air_units": "%",
+          "unit_weight": 2342,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.4,
+          "temp_units": "°C",
+          "mixing_time": 5.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Good",
+          "bleeding": "Very minimal",
+          "segregation": "None observed"
+        },
+        "average": {
+          "slump": 111.7,
+          "air_content": 6.2,
+          "unit_weight": 2341.7,
+          "fresh_temperature": 24.1
+        }
+      },
+      "M15C_15pct_Coarse": {
+        "batch_1": {
+          "slump": 128,
+          "slump_units": "mm",
+          "air_content": 6.8,
+          "air_units": "%",
+          "unit_weight": 2322,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 23.9,
+          "temp_units": "°C",
+          "mixing_time": 6.0,
+          "mixing_units": "minutes",
+          "workability_rating": "Good",
+          "bleeding": "None observed",
+          "segregation": "Minimal rubber floating"
+        },
+        "batch_2": {
+          "slump": 135,
+          "slump_units": "mm",
+          "air_content": 7.2,
+          "air_units": "%",
+          "unit_weight": 2315,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.2,
+          "temp_units": "°C",
+          "mixing_time": 6.0,
+          "mixing_units": "minutes",
+          "workability_rating": "Good",
+          "bleeding": "None observed",
+          "segregation": "Minimal rubber floating"
+        },
+        "batch_3": {
+          "slump": 131,
+          "slump_units": "mm",
+          "air_content": 6.9,
+          "air_units": "%",
+          "unit_weight": 2319,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.0,
+          "temp_units": "°C",
+          "mixing_time": 6.0,
+          "mixing_units": "minutes",
+          "workability_rating": "Good",
+          "bleeding": "None observed",
+          "segregation": "Minimal rubber floating"
+        },
+        "average": {
+          "slump": 131.3,
+          "air_content": 7.0,
+          "unit_weight": 2318.7,
+          "fresh_temperature": 24.0
+        }
+      },
+      "M10M_10pct_Mixed": {
+        "batch_1": {
+          "slump": 118,
+          "slump_units": "mm",
+          "air_content": 6.3,
+          "air_units": "%",
+          "unit_weight": 2341,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.0,
+          "temp_units": "°C",
+          "mixing_time": 5.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Good",
+          "bleeding": "Very minimal",
+          "segregation": "None observed"
+        },
+        "batch_2": {
+          "slump": 125,
+          "slump_units": "mm",
+          "air_content": 6.6,
+          "air_units": "%",
+          "unit_weight": 2334,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 23.6,
+          "temp_units": "°C",
+          "mixing_time": 5.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Good",
+          "bleeding": "Very minimal",
+          "segregation": "None observed"
+        },
+        "batch_3": {
+          "slump": 121,
+          "slump_units": "mm",
+          "air_content": 6.1,
+          "air_units": "%",
+          "unit_weight": 2338,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.3,
+          "temp_units": "°C",
+          "mixing_time": 5.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Good",
+          "bleeding": "Very minimal",
+          "segregation": "None observed"
+        },
+        "average": {
+          "slump": 121.3,
+          "air_content": 6.3,
+          "unit_weight": 2337.7,
+          "fresh_temperature": 24.0
+        }
+      },
+      "M25F_25pct_Fine": {
+        "batch_1": {
+          "slump": 175,
+          "slump_units": "mm",
+          "air_content": 8.5,
+          "air_units": "%",
+          "unit_weight": 2268,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 23.7,
+          "temp_units": "°C",
+          "mixing_time": 7.0,
+          "mixing_units": "minutes",
+          "workability_rating": "Poor",
+          "bleeding": "None observed",
+          "segregation": "Significant rubber floating"
+        },
+        "batch_2": {
+          "slump": 168,
+          "slump_units": "mm",
+          "air_content": 9.1,
+          "air_units": "%",
+          "unit_weight": 2261,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.1,
+          "temp_units": "°C",
+          "mixing_time": 7.0,
+          "mixing_units": "minutes",
+          "workability_rating": "Poor",
+          "bleeding": "None observed",
+          "segregation": "Significant rubber floating"
+        },
+        "batch_3": {
+          "slump": 172,
+          "slump_units": "mm",
+          "air_content": 8.7,
+          "air_units": "%",
+          "unit_weight": 2265,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 23.9,
+          "temp_units": "°C",
+          "mixing_time": 7.0,
+          "mixing_units": "minutes",
+          "workability_rating": "Poor",
+          "bleeding": "None observed",
+          "segregation": "Significant rubber floating"
+        },
+        "average": {
+          "slump": 171.7,
+          "air_content": 8.8,
+          "unit_weight": 2264.7,
+          "fresh_temperature": 23.9
+        }
+      },
+      "M30F_30pct_Fine": {
+        "batch_1": {
+          "slump": 195,
+          "slump_units": "mm",
+          "air_content": 9.8,
+          "air_units": "%",
+          "unit_weight": 2242,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 23.5,
+          "temp_units": "°C",
+          "mixing_time": 7.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Poor",
+          "bleeding": "None observed",
+          "segregation": "Severe rubber floating"
+        },
+        "batch_2": {
+          "slump": 188,
+          "slump_units": "mm",
+          "air_content": 10.2,
+          "air_units": "%",
+          "unit_weight": 2235,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.0,
+          "temp_units": "°C",
+          "mixing_time": 7.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Poor",
+          "bleeding": "None observed",
+          "segregation": "Severe rubber floating"
+        },
+        "batch_3": {
+          "slump": 192,
+          "slump_units": "mm",
+          "air_content": 9.5,
+          "air_units": "%",
+          "unit_weight": 2239,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 23.8,
+          "temp_units": "°C",
+          "mixing_time": 7.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Poor",
+          "bleeding": "None observed",
+          "segregation": "Severe rubber floating"
+        },
+        "average": {
+          "slump": 191.7,
+          "air_content": 9.8,
+          "unit_weight": 2238.7,
+          "fresh_temperature": 23.8
+        }
+      },
+      "M00_HS_Control": {
+        "batch_1": {
+          "slump": 95,
+          "slump_units": "mm",
+          "air_content": 4.8,
+          "air_units": "%",
+          "unit_weight": 2425,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.2,
+          "temp_units": "°C",
+          "mixing_time": 4.0,
+          "mixing_units": "minutes",
+          "workability_rating": "Excellent",
+          "bleeding": "Minimal",
+          "segregation": "None observed"
+        },
+        "batch_2": {
+          "slump": 88,
+          "slump_units": "mm",
+          "air_content": 5.1,
+          "air_units": "%",
+          "unit_weight": 2418,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 23.9,
+          "temp_units": "°C",
+          "mixing_time": 4.0,
+          "mixing_units": "minutes",
+          "workability_rating": "Excellent",
+          "bleeding": "Minimal",
+          "segregation": "None observed"
+        },
+        "batch_3": {
+          "slump": 92,
+          "slump_units": "mm",
+          "air_content": 4.9,
+          "air_units": "%",
+          "unit_weight": 2422,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.1,
+          "temp_units": "°C",
+          "mixing_time": 4.0,
+          "mixing_units": "minutes",
+          "workability_rating": "Excellent",
+          "bleeding": "Minimal",
+          "segregation": "None observed"
+        },
+        "average": {
+          "slump": 91.7,
+          "air_content": 4.9,
+          "unit_weight": 2421.7,
+          "fresh_temperature": 24.1
+        }
+      },
+      "M10F_HS_10pct": {
+        "batch_1": {
+          "slump": 105,
+          "slump_units": "mm",
+          "air_content": 5.5,
+          "air_units": "%",
+          "unit_weight": 2398,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.0,
+          "temp_units": "°C",
+          "mixing_time": 4.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Very good",
+          "bleeding": "Very minimal",
+          "segregation": "None observed"
+        },
+        "batch_2": {
+          "slump": 112,
+          "slump_units": "mm",
+          "air_content": 5.8,
+          "air_units": "%",
+          "unit_weight": 2391,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 23.6,
+          "temp_units": "°C",
+          "mixing_time": 4.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Very good",
+          "bleeding": "Very minimal",
+          "segregation": "None observed"
+        },
+        "batch_3": {
+          "slump": 108,
+          "slump_units": "mm",
+          "air_content": 5.3,
+          "air_units": "%",
+          "unit_weight": 2395,
+          "weight_units": "kg/m³",
+          "fresh_temperature": 24.3,
+          "temp_units": "°C",
+          "mixing_time": 4.5,
+          "mixing_units": "minutes",
+          "workability_rating": "Very good",
+          "bleeding": "Very minimal",
+          "segregation": "None observed"
+        },
+        "average": {
+          "slump": 108.3,
+          "air_content": 5.5,
+          "unit_weight": 2394.7,
+          "fresh_temperature": 24.0
+        }
+      }
+    },
+    "summary_statistics": {
+      "slump_range": {
+        "minimum": 91.7,
+        "maximum": 191.7,
+        "units": "mm"
+      },
+      "air_content_range": {
+        "minimum": 4.9,
+        "maximum": 9.8,
+        "units": "%"
+      },
+      "unit_weight_range": {
+        "minimum": 2238.7,
+        "maximum": 2421.7,
+        "units": "kg/m³"
+      },
+      "trends": {
+        "slump_vs_rubber": "Increases with rubber content due to reduced friction",
+        "air_content_vs_rubber": "Increases with rubber content due to entrapped air",
+        "unit_weight_vs_rubber": "Decreases with rubber content due to lower specific gravity",
+        "workability_vs_rubber": "Decreases at high rubber contents due to segregation"
+      }
+    }
+  }
+}
