@@ -1,0 +1,50 @@
+{
+  "dataset_info": {
+    "title": "Synthetic Dataset for Fire-Resistant Structural Elements Research",
+    "subtitle": "Development and Validation of a Thermo-Mechanical Model for Fire-Resistant Structural Elements Utilizing High-Performance Rubberized Concrete",
+    "generation_date": "2025-10-18T17:12:51.586268",
+    "random_seed": 42
+  },
+  "mix_compositions": {
+    "C": "Control concrete (no rubber)",
+    "R5S": "5% small rubber particles",
+    "R10S": "10% small rubber particles",
+    "R15S": "15% small rubber particles",
+    "R20S": "20% small rubber particles",
+    "R10L": "10% large rubber particles"
+  },
+  "test_conditions": {
+    "curing_ages": [
+      7,
+      28,
+      56
+    ],
+    "peak_temperatures": [
+      23,
+      200,
+      400,
+      600,
+      800
+    ],
+    "heating_rates": [
+      "5_C_per_min",
+      "10_C_per_min"
+    ],
+    "cooling_methods": [
+      "Furnace",
+      "Quench"
+    ],
+    "test_types": [
+      "Ambient",
+      "Residual",
+      "In-Situ"
+    ]
+  },
+  "dataset_statistics": {
+    "ambient_specimens": 54,
+    "residual_specimens": 270,
+    "in_situ_specimens": 24,
+    "pore_pressure_configurations": 12,
+    "stress_strain_curves": 24
+  }
+}
