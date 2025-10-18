@@ -1,0 +1,26 @@
+{
+  "SEM": {
+    "total_samples": 300,
+    "total_fields_of_view": 300,
+    "unique_samples": 60,
+    "temperature_range": "25-800\u00b0C",
+    "porosity_range": "4.47-37.56%",
+    "crack_density_range": "0.000-4.407 mm/mm\u00b2"
+  },
+  "XRD": {
+    "total_samples": 60,
+    "unique_samples": 60,
+    "ch_content_range": "0.64-20.57%",
+    "crystallinity_range": "45.41-69.36%"
+  },
+  "TGA": {
+    "total_samples": 12,
+    "mass_loss_range": "13.03-42.46%",
+    "rubber_decomposition_range": "0.00-30.52%"
+  },
+  "MicroCT": {
+    "total_samples": 60,
+    "porosity_3d_range": "6.34-46.83%",
+    "tortuosity_range": "1.357-3.145"
+  }
+}
