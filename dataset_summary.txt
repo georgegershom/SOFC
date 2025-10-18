@@ -1,0 +1,31 @@
+FIRE-RESISTANT CONCRETE DATASET SUMMARY
+==================================================
+
+Total Records: 4548
+Unique Samples: 75
+Analysis Types: SEM, XRD, TGA, MicroCT, DTA
+Temperature Range: 25°C - 800°C
+Rubber Content Range: 0.0% - 20.0%
+
+QUANTITATIVE METRICS BY ANALYSIS TYPE:
+----------------------------------------
+
+SEM:
+  Records: 1875
+  Metrics: Pore_Size_Distribution, Crack_Density, Interface_Quality_Index, Rubber_Melt_Fraction, Gas_Evolution_Pore_Density
+
+XRD:
+  Records: 630
+  Metrics: C3S_Content, C2S_Content, C3A_Content, C4AF_Content, CH_Content, CSH_Content, CASH_Content, AFm_Content, Natural_Rubber_Content, SBR_Content, Carbon_Black_Content, Vulcanization_Products_Content
+
+TGA:
+  Records: 225
+  Metrics: Total_Mass_Loss, Rubber_Mass_Loss, Cement_Mass_Loss
+
+MicroCT:
+  Records: 1575
+  Metrics: Total_Porosity, Pore_Connectivity, Tortuosity, Rubber_Void_Volume_Fraction, Rubber_Void_Sphericity, Crack_Volume_Fraction, Crack_Orientation_Preference
+
+DTA:
+  Records: 243
+  Metrics: Peak_Endothermic_105C, Peak_Endothermic_220C, Peak_Endothermic_450C, Peak_Endothermic_650C, Peak_Endothermic_200C
