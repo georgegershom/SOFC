@@ -1,0 +1,21 @@
+rubber_content_pct,test_condition,heating_rate,load_ratio,moisture_content_pct,spalling_occurred,time_to_spalling_min,spalling_temperature_C,max_spalling_depth_mm,failure_time_min,failure_mode
+0,standard_fire,ISO834,0.3,4.5,False,,,1.389056117037909,,No failure
+0,rapid_heating,hydrocarbon,0.4,6.0,True,57.0,243.04170885299115,20.367139345466008,75.23438608753987,Temperature limit exceeded
+0,high_load,ISO834,0.6,4.0,False,,,1.7207597979195233,,No failure
+0,high_moisture,ISO834,0.3,8.0,False,,,1.0651892705185364,,No failure
+5,standard_fire,ISO834,0.3,4.5,False,,,1.4995493298993023,,No failure
+5,rapid_heating,hydrocarbon,0.4,6.0,True,59.699999999999996,243.09793980999245,24.12219556730262,67.61481099248994,Temperature limit exceeded
+5,high_load,ISO834,0.6,4.0,False,,,1.4515168715912077,,No failure
+5,high_moisture,ISO834,0.3,8.0,False,,,1.4298546499694178,,No failure
+10,standard_fire,ISO834,0.3,4.5,False,,,1.3005808799915295,,No failure
+10,rapid_heating,hydrocarbon,0.4,6.0,False,,,1.4722098789244022,,No failure
+10,high_load,ISO834,0.6,4.0,False,,,1.19336538257128,,No failure
+10,high_moisture,ISO834,0.3,8.0,False,,,1.146725733017516,,No failure
+15,standard_fire,ISO834,0.3,4.5,False,,,1.747556606774469,,No failure
+15,rapid_heating,hydrocarbon,0.4,6.0,False,,,1.249868435345637,,No failure
+15,high_load,ISO834,0.6,4.0,False,,,1.091346125669379,,No failure
+15,high_moisture,ISO834,0.3,8.0,False,,,1.5177467055834275,,No failure
+20,standard_fire,ISO834,0.3,4.5,False,,,1.4824256648915692,,No failure
+20,rapid_heating,hydrocarbon,0.4,6.0,False,,,1.1239273928607425,,No failure
+20,high_load,ISO834,0.6,4.0,False,,,1.2832192139838836,,No failure
+20,high_moisture,ISO834,0.3,8.0,False,,,1.1456129560534871,,No failure

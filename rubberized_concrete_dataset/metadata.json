@@ -1,0 +1,94 @@
+{
+  "dataset_info": {
+    "name": "Fire-Resistant Rubberized Concrete Dataset",
+    "version": "1.0",
+    "generation_date": "2025-10-18T19:31:13.976610",
+    "topic": "Development and Validation of a Thermo-Mechanical Model for Fire-Resistant Structural Elements Utilizing High-Performance Rubberized Concrete",
+    "description": "Comprehensive dataset for thermo-mechanical modeling of rubberized concrete under fire conditions"
+  },
+  "scope": {
+    "temperature_range": {
+      "min": 20,
+      "max": 1000,
+      "unit": "\u00b0C"
+    },
+    "rubber_content_range": {
+      "min": 0,
+      "max": 20,
+      "unit": "% by volume"
+    },
+    "time_range": {
+      "max": 4,
+      "unit": "hours"
+    },
+    "specimen_types": [
+      "small_cube",
+      "cylinder",
+      "beam",
+      "slab"
+    ],
+    "fire_curves": [
+      "ISO834",
+      "ASTM_E119",
+      "hydrocarbon",
+      "parametric"
+    ]
+  },
+  "data_categories": {
+    "material_properties": {
+      "thermal": [
+        "thermal_conductivity",
+        "specific_heat",
+        "density"
+      ],
+      "mechanical": [
+        "compressive_strength",
+        "tensile_strength",
+        "elastic_modulus",
+        "poisson_ratio"
+      ],
+      "deformation": [
+        "thermal_expansion_coefficient",
+        "transient_strain",
+        "creep_strain"
+      ],
+      "poromechanical": [
+        "porosity",
+        "permeability",
+        "damage_parameter"
+      ]
+    },
+    "validation_data": {
+      "temperature_evolution": [
+        "thermocouple_measurements",
+        "fire_exposure"
+      ],
+      "strain_evolution": [
+        "thermal_mechanical_loading",
+        "strain_components"
+      ],
+      "spalling_failure": [
+        "spalling_patterns",
+        "failure_analysis"
+      ]
+    }
+  },
+  "file_formats": {
+    "json": "Hierarchical data structure with metadata",
+    "csv": "Tabular format for analysis",
+    "png": "Visualization plots"
+  },
+  "quality_metrics": {
+    "data_points": "~50,000 total data points",
+    "temperature_resolution": "~10\u00b0C intervals",
+    "time_resolution": "1 minute intervals",
+    "noise_level": "Realistic measurement uncertainty added"
+  },
+  "applications": [
+    "Finite element model calibration",
+    "Fire resistance prediction",
+    "Material optimization",
+    "Structural design verification",
+    "Research and education"
+  ]
+}
