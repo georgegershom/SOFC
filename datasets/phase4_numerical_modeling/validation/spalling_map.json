@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "event_id": 1,
+      "time_s": 1146.850232559865,
+      "location_label": "surface_corner_band",
+      "depth_mm": 13.3,
+      "area_cm2": 76.6,
+      "description": "Initial surface scaling and corner spalls due to pore-pressure."
+    },
+    {
+      "event_id": 2,
+      "time_s": 3774.717439435198,
+      "location_label": "near_surface_face",
+      "depth_mm": 23.8,
+      "area_cm2": 260.7,
+      "description": "Moderate spalling with shallow depth across exposed face."
+    }
+  ],
+  "time_to_failure_s": 7200.0,
+  "notes": "Schematic spalling description, not from image analysis."
+}

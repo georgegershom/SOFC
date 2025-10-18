@@ -1,0 +1,21 @@
+{
+  "topic": "Thermo-Mechanical Model for Fire-Resistant HPRC",
+  "phase": 4,
+  "seed": 42,
+  "outputs": {
+    "properties": [
+      "thermal_properties.csv",
+      "mechanical_properties.csv",
+      "deformation_properties.csv",
+      "poro_mechanical_properties.csv",
+      "metadata.json"
+    ],
+    "validation": [
+      "iso_834_fire_curve.csv",
+      "thermocouples.csv",
+      "strain_history.csv",
+      "spalling_events.csv",
+      "spalling_map.json"
+    ]
+  }
+}
