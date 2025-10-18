@@ -1,0 +1,69 @@
+{
+  "generation_date": "2025-10-18T18:42:47.002004",
+  "dataset_description": "Phase 3 Microstructural and Chemical Analysis Dataset",
+  "research_title": "Development and Validation of a Thermo-Mechanical Model for Fire-Resistant Structural Elements Utilizing High-Performance Rubberized Concrete",
+  "mix_compositions": {
+    "C-0": {
+      "cement": 100,
+      "rubber": 0,
+      "silica_fume": 0,
+      "fly_ash": 0
+    },
+    "C-10": {
+      "cement": 90,
+      "rubber": 10,
+      "silica_fume": 5,
+      "fly_ash": 0
+    },
+    "C-20": {
+      "cement": 80,
+      "rubber": 20,
+      "silica_fume": 8,
+      "fly_ash": 5
+    },
+    "C-30": {
+      "cement": 70,
+      "rubber": 30,
+      "silica_fume": 10,
+      "fly_ash": 8
+    }
+  },
+  "temperature_conditions": [
+    25,
+    200,
+    400,
+    600,
+    800
+  ],
+  "statistical_parameters": {
+    "n_replicates": 5,
+    "n_fields_sem": 10,
+    "n_measurements_per_field": 25
+  },
+  "dataset_summary": {
+    "sem_data": {
+      "records": 1000,
+      "columns": 39
+    },
+    "xrd_data": {
+      "records": 100,
+      "columns": 43
+    },
+    "tga_data": {
+      "records": 20,
+      "columns": 44
+    },
+    "microct_data": {
+      "records": 100,
+      "columns": 53
+    },
+    "correlation_data": {
+      "records": 20,
+      "columns": 17
+    },
+    "statistical_summary": {
+      "records": 16,
+      "columns": 20
+    }
+  }
+}
