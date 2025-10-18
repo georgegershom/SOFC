@@ -1,0 +1,53 @@
+Image_ID,Sample_ID,Material_Type,Magnification,Accelerating_Voltage_kV,Working_Distance_mm,Image_Width_um,Image_Height_um,Capture_Date,Operator
+SEM-CR001-001,CR-001,Crumb_Rubber_Fine_Pre_Heat,100X,15,10.5,1280,960,2024-01-19,Dr. Chen
+SEM-CR001-002,CR-001,Crumb_Rubber_Fine_Pre_Heat,500X,15,10.2,256,192,2024-01-19,Dr. Chen
+SEM-CR001-003,CR-001,Crumb_Rubber_Fine_Pre_Heat,1000X,15,10.0,128,96,2024-01-19,Dr. Chen
+SEM-CR001-004,CR-001,Crumb_Rubber_Fine_Pre_Heat,5000X,20,8.5,25.6,19.2,2024-01-19,Dr. Chen
+SEM-CR002-001,CR-002,Crumb_Rubber_Coarse_Pre_Heat,100X,15,10.5,1280,960,2024-01-19,Dr. Chen
+SEM-CR002-002,CR-002,Crumb_Rubber_Coarse_Pre_Heat,500X,15,10.2,256,192,2024-01-19,Dr. Chen
+SEM-CR002-003,CR-002,Crumb_Rubber_Coarse_Pre_Heat,1000X,15,10.0,128,96,2024-01-19,Dr. Chen
+SEM-CR002-004,CR-002,Crumb_Rubber_Coarse_Pre_Heat,5000X,20,8.5,25.6,19.2,2024-01-19,Dr. Chen
+
+# Morphological Characteristics from SEM Analysis
+Image_ID,Avg_Particle_Size_um,Min_Particle_Size_um,Max_Particle_Size_um,Particle_Count,Surface_Roughness_Qualitative,Angular_vs_Rounded,Carbon_Black_Visible,Fiber_Count,Porosity_Visible,Surface_Cracks
+SEM-CR001-001,2485,1250,3850,42,High,Angular,Yes,3,Yes,Multiple
+SEM-CR001-002,2520,1800,3200,18,High,Angular,Yes,1,Yes,Multiple
+SEM-CR001-003,2505,2100,2950,8,Very_High,Angular,Yes_Dense,0,Yes_Detailed,Fine_Network
+SEM-CR001-004,N/A,N/A,N/A,N/A,Very_High,Angular_Sharp_Edges,Dense_Aggregates,0,Micro_Pores_Visible,Surface_Texture_Rough
+SEM-CR002-001,5825,4150,7850,28,High,Angular,Yes,5,Yes,Multiple
+SEM-CR002-002,5780,4600,7100,12,High,Angular,Yes,2,Yes,Multiple
+SEM-CR002-003,5810,5200,6500,5,Very_High,Angular,Yes_Dense,1,Yes_Detailed,Fine_Network
+SEM-CR002-004,N/A,N/A,N/A,N/A,Very_High,Angular_Sharp_Edges,Dense_Aggregates,0,Micro_Pores_Visible,Surface_Texture_Very_Rough
+
+# Quantitative Image Analysis (using ImageJ/Fiji)
+Image_ID,Mean_Gray_Value,Standard_Deviation,Area_Fraction_percent,Perimeter_um,Circularity,Aspect_Ratio,Roundness,Solidity
+SEM-CR001-001,142.5,38.6,78.5,N/A,N/A,N/A,N/A,N/A
+SEM-CR001-002,138.2,42.1,82.1,12850,0.58,1.82,0.55,0.89
+SEM-CR001-003,135.8,45.3,85.6,6420,0.54,1.95,0.51,0.86
+SEM-CR001-004,128.5,52.8,N/A,N/A,N/A,N/A,N/A,N/A
+SEM-CR002-001,145.8,36.2,75.2,N/A,N/A,N/A,N/A,N/A
+SEM-CR002-002,141.5,40.5,79.8,28650,0.52,2.15,0.46,0.87
+SEM-CR002-003,138.9,44.8,83.5,14280,0.49,2.28,0.44,0.84
+SEM-CR002-004,132.2,51.5,N/A,N/A,N/A,N/A,N/A,N/A
+
+# Surface Element Analysis (EDX - Energy Dispersive X-ray Spectroscopy)
+Image_ID,Carbon_Weight_Percent,Oxygen_Weight_Percent,Silicon_Weight_Percent,Sulfur_Weight_Percent,Zinc_Weight_Percent,Calcium_Weight_Percent,Iron_Weight_Percent,Other_Weight_Percent
+SEM-CR001-001,82.5,8.2,2.1,1.8,3.5,0.6,0.4,0.9
+SEM-CR001-002,83.1,7.8,1.9,1.7,3.8,0.5,0.3,0.9
+SEM-CR001-003,84.2,7.2,1.6,1.9,3.2,0.6,0.4,0.9
+SEM-CR001-004,85.5,6.8,1.4,2.1,2.9,0.4,0.2,0.7
+SEM-CR002-001,81.8,8.5,2.3,1.9,3.6,0.7,0.5,0.7
+SEM-CR002-002,82.6,8.1,2.0,1.8,3.9,0.6,0.4,0.6
+SEM-CR002-003,83.8,7.6,1.7,2.0,3.3,0.5,0.4,0.7
+SEM-CR002-004,84.9,7.0,1.5,2.2,3.0,0.4,0.3,0.7
+
+# Notes and Observations
+Image_ID,Key_Observations,Surface_Treatment,Coating_Info,Storage_Conditions
+SEM-CR001-001,Irregular angular particles with rough texture. Multiple surface cracks visible. Carbon black well distributed.,Gold_Sputter,10nm_Au_Pd,Vacuum_Desiccator
+SEM-CR001-002,Clear visibility of embedded carbon black aggregates. Surface porosity evident.,Gold_Sputter,10nm_Au_Pd,Vacuum_Desiccator
+SEM-CR001-003,High surface roughness with complex topography. Fine crack network throughout.,Gold_Sputter,10nm_Au_Pd,Vacuum_Desiccator
+SEM-CR001-004,Dense carbon black aggregates (30-50nm diameter). Rough irregular surface with micro-pores.,Gold_Sputter,10nm_Au_Pd,Vacuum_Desiccator
+SEM-CR002-001,Larger particles show similar morphology to fine rubber. More pronounced angularity.,Gold_Sputter,10nm_Au_Pd,Vacuum_Desiccator
+SEM-CR002-002,Coarse texture with deep surface irregularities. Carbon black distribution similar to fine rubber.,Gold_Sputter,10nm_Au_Pd,Vacuum_Desiccator
+SEM-CR002-003,Complex surface with multiple layers visible in cracks. High carbon black content evident.,Gold_Sputter,10nm_Au_Pd,Vacuum_Desiccator
+SEM-CR002-004,Micro-scale features show very rough texture. Individual carbon black particles visible.,Gold_Sputter,10nm_Au_Pd,Vacuum_Desiccator

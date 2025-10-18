@@ -1,0 +1,28 @@
+Material_ID,Cement_Type,Manufacturer,Batch_Number,Production_Date,Specific_Gravity,Blaine_Fineness_m2_kg,Initial_Setting_Time_min,Final_Setting_Time_min,Compressive_Strength_3day_MPa,Compressive_Strength_7day_MPa,Compressive_Strength_28day_MPa
+CEM-001,OPC Type I,Portland Cement Co.,PCB-2024-0156,2024-01-15,3.15,385,95,240,22.5,35.2,48.7
+
+# XRF Chemical Composition (% by mass)
+Component,CEM-001_Percent
+CaO,63.45
+SiO2,20.85
+Al2O3,5.12
+Fe2O3,3.24
+MgO,2.18
+SO3,2.95
+Na2O,0.35
+K2O,0.68
+LOI,1.18
+
+# Bogue Composition (calculated phase composition, % by mass)
+Phase,CEM-001_Percent,Description
+C3S,55.2,Tricalcium Silicate (Alite) - primary strength contributor
+C2S,18.5,Dicalcium Silicate (Belite) - long-term strength
+C3A,8.1,Tricalcium Aluminate - rapid hydration
+C4AF,9.9,Tetracalcium Aluminoferrite - iron phase
+
+# Physical Properties
+Property,Value,Unit,Test_Standard
+Free_Lime,0.85,percent,ASTM C114
+Insoluble_Residue,0.32,percent,ASTM C114
+Autoclave_Expansion,0.04,percent,ASTM C151
+Heat_of_Hydration_7day,365,J/g,ASTM C186

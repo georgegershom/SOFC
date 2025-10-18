@@ -1,0 +1,74 @@
+Material_ID,Rubber_Type,Source,Tire_Type,Processing_Method,Production_Date,Particle_Size_Range_mm,Specific_Gravity,Apparent_Density_kg_m3,Bulk_Density_kg_m3,Mohs_Hardness,Shore_A_Hardness,Tensile_Strength_MPa,Elongation_at_Break_percent
+CR-001,Crumb Rubber Fine,Tire Recycling Corp.,Passenger Car Tires,Ambient Grinding,2024-01-18,1-4,1.14,1140,615,2.5,65,2.8,285
+CR-002,Crumb Rubber Coarse,Tire Recycling Corp.,Passenger Car Tires,Ambient Grinding,2024-01-18,4-8,1.15,1150,595,2.5,65,2.8,285
+
+# Particle Size Distribution - Fine Crumb Rubber (CR-001)
+Sieve_Size_mm,Mass_Retained_g,Percent_Retained,Cumulative_Percent_Retained,Percent_Passing
+4.75,0,0.0,0.0,100.0
+4.0,125,2.5,2.5,97.5
+2.36,1875,37.5,40.0,60.0
+1.18,2125,42.5,82.5,17.5
+0.6,625,12.5,95.0,5.0
+0.3,175,3.5,98.5,1.5
+0.15,50,1.0,99.5,0.5
+Pan,25,0.5,100.0,0.0
+Total,5000,100.0,-,-
+
+# Particle Size Distribution - Coarse Crumb Rubber (CR-002)
+Sieve_Size_mm,Mass_Retained_g,Percent_Retained,Cumulative_Percent_Retained,Percent_Passing
+9.5,0,0.0,0.0,100.0
+8.0,285,5.7,5.7,94.3
+6.3,1625,32.5,38.2,61.8
+4.75,2375,47.5,85.7,14.3
+4.0,525,10.5,96.2,3.8
+2.36,165,3.3,99.5,0.5
+Pan,25,0.5,100.0,0.0
+Total,5000,100.0,-,-
+
+# Chemical Composition - TGA Analysis (CR-001, CR-002)
+Component,Weight_Percent,Temperature_Range_C,Analysis_Method
+Natural_Rubber_SBR,48.5,150-500,TGA
+Carbon_Black,28.2,500-700,TGA
+Zinc_Oxide,1.8,700-850,TGA
+Sulfur_Compounds,1.2,200-400,TGA
+Oils_Plasticizers,4.5,150-350,TGA
+Ash_Inorganics,15.8,>700,TGA
+
+# FTIR Spectroscopy - Functional Groups
+Wavenumber_cm-1,Peak_Assignment,Intensity,Compound_Type
+2920,C-H Stretch Aliphatic,Strong,Hydrocarbon
+2850,C-H Stretch Aliphatic,Strong,Hydrocarbon
+1540,C=C Stretch,Medium,Unsaturated Hydrocarbon
+1450,C-H Bend,Medium,Hydrocarbon
+1375,C-H Bend Symmetric,Weak,Hydrocarbon
+966,Trans C=H,Medium,Polybutadiene
+740,C-H Out-of-plane,Weak,Aromatic
+690,C-S Stretch,Weak,Vulcanization Agent
+
+# Morphology & Surface Characteristics (SEM Analysis)
+Property,Value,Unit,Observation
+Average_Particle_Diameter_CR001,2.5,mm,Irregular angular particles
+Average_Particle_Diameter_CR002,5.8,mm,Irregular angular particles
+Surface_Texture,Rough,-,Multiple embedded carbon black aggregates
+Particle_Shape_Factor,0.68,-,Angular to sub-angular
+Surface_Area_BET,0.82,m2_g,Relatively low surface area
+Porosity,12.5,percent,Open and closed pores visible
+Fiber_Content,2.1,percent_by_count,Steel and textile fibers removed but trace amounts present
+
+# Heavy Metal Content (Environmental Safety)
+Element,Concentration_mg_kg,Regulatory_Limit_mg_kg,Analysis_Method
+Lead_Pb,15.2,300,ICP-MS
+Cadmium_Cd,1.8,75,ICP-MS
+Chromium_Cr,48.5,1000,ICP-MS
+Zinc_Zn,12500,None,ICP-MS
+Copper_Cu,235,1500,ICP-MS
+Nickel_Ni,18.5,420,ICP-MS
+
+# Thermal Properties
+Property,Value,Unit,Test_Method
+Glass_Transition_Temp_Tg,-45.2,C,DSC
+Thermal_Conductivity,0.23,W_m_K,Hot Disk Method
+Specific_Heat_Capacity,1.38,kJ_kg_K,DSC
+Decomposition_Onset_Temp,285,C,TGA
+Peak_Decomposition_Temp,385,C,TGA
+Char_Residue_800C,32.5,percent,TGA

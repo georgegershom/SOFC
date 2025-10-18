@@ -1,0 +1,74 @@
+Material_ID,Material_Type,Description,Supplier,Batch_Number,Date_Tested
+
+# Water Characterization (WAT-001)
+WAT-001,Mixing Water,Municipal Tap Water,Phoenix Water Department,N/A,2024-01-25
+
+Property,Value,Unit,Specification_Limit,Test_Standard
+pH,7.45,pH_units,6.0-8.0,ASTM D1293
+Total_Dissolved_Solids,285,mg_L,<2000,ASTM D1888
+Chloride_Cl,45,mg_L,<500,ASTM D512
+Sulfate_SO4,125,mg_L,<3000,ASTM D516
+Alkalinity_as_CaCO3,95,mg_L,<1000,ASTM D1067
+Total_Hardness_as_CaCO3,155,mg_L,-,ASTM D1126
+Calcium_Ca,48,mg_L,-,ASTM D511
+Magnesium_Mg,12,mg_L,-,ASTM D511
+Sodium_Na,38,mg_L,-,ICP-MS
+Potassium_K,5.2,mg_L,-,ICP-MS
+Iron_Fe,0.08,mg_L,<1.0,ASTM D1068
+Manganese_Mn,0.02,mg_L,-,ASTM D858
+Lead_Pb,<0.001,mg_L,<0.05,EPA 200.8
+Zinc_Zn,0.15,mg_L,<5.0,ASTM D1691
+Suspended_Solids,8,mg_L,<50000,ASTM D5907
+Organic_Matter,12,mg_L,-,ASTM D2579
+Nitrate_NO3,2.5,mg_L,-,EPA 300.0
+Phosphate_PO4,0.8,mg_L,-,EPA 300.0
+Turbidity,1.2,NTU,<5.0,ASTM D1889
+Color,<5,Pt-Co_units,<40,ASTM D1209
+Electrical_Conductivity,425,microS_cm,-,ASTM D1125
+Temperature,18.5,C,-,ASTM D1293
+
+# Chemical Admixture 1 - Superplasticizer (ADM-001)
+ADM-001,Superplasticizer,Polycarboxylate Ether-based HRWR,MasterBuilders Inc.,SP-PCE-24-0156,2024-01-20
+
+Property,Value,Unit,Technical_Data_Sheet
+Product_Type,PCE,Type,High Range Water Reducer Type F per ASTM C494
+Appearance,Light_Brown_Liquid,Visual,-
+Specific_Gravity,1.08,g_cm3,1.06-1.10
+pH,5.8,pH_units,5.0-7.0
+Solid_Content,40.2,percent,38-42
+Chloride_Content,<0.1,percent,<0.1
+Alkali_Content_as_Na2O_equiv,2.85,percent,<3.5
+Air_Entrainment,<1.0,percent,Minimal
+Freezing_Point,-2,C,Approx -2
+Dosage_Range_Recommended,0.2-1.5,percent_by_cement_mass,-
+Typical_Water_Reduction,20-35,percent,-
+Shelf_Life,12,months,-
+
+# Chemical Admixture 2 - Air Entraining Agent (ADM-002)
+ADM-002,Air_Entraining_Agent,Vinsol Resin Based AEA,AirTech Solutions,AEA-VR-24-0089,2024-01-22
+
+Property,Value,Unit,Technical_Data_Sheet
+Product_Type,Vinsol_Resin,Type,Air Entraining Agent per ASTM C260
+Appearance,Dark_Brown_Liquid,Visual,-
+Specific_Gravity,1.02,g_cm3,1.00-1.04
+pH,11.2,pH_units,10.5-12.0
+Solid_Content,18.5,percent,16-20
+Chloride_Content,<0.01,percent,<0.02
+Alkali_Content_as_Na2O_equiv,0.85,percent,<1.5
+Dosage_Range_Recommended,0.01-0.05,percent_by_cement_mass,-
+Target_Air_Content,4-7,percent,-
+Shelf_Life,18,months,-
+
+# Chemical Admixture 3 - Viscosity Modifying Agent (ADM-003)
+ADM-003,Viscosity_Modifier,Polysaccharide-based VMA,RheoTech Corp.,VMA-PS-24-0124,2024-01-23
+
+Property,Value,Unit,Technical_Data_Sheet
+Product_Type,Polysaccharide,Type,Viscosity Modifying Agent
+Appearance,White_Powder,Visual,-
+Bulk_Density,550,kg_m3,500-600
+pH_in_solution,7.2,pH_units,6.5-8.0
+Moisture_Content,5.2,percent,<8.0
+Chloride_Content,<0.01,percent,<0.02
+Dosage_Range_Recommended,0.05-0.3,percent_by_cement_mass,-
+Solubility,Complete,in_water,-
+Shelf_Life,24,months,-
