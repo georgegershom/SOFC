@@ -1,0 +1,284 @@
+{
+  "thermal_properties": {
+    "description": "Temperature-dependent thermal properties",
+    "fields": {
+      "rubber_content_pct": {
+        "type": "integer",
+        "unit": "% by volume",
+        "description": "Rubber content percentage"
+      },
+      "temperature_C": {
+        "type": "float",
+        "unit": "\u00b0C",
+        "description": "Temperature"
+      },
+      "thermal_conductivity_W_m_K": {
+        "type": "float",
+        "unit": "W/m\u00b7K",
+        "description": "Thermal conductivity"
+      },
+      "specific_heat_J_kg_K": {
+        "type": "float",
+        "unit": "J/kg\u00b7K",
+        "description": "Specific heat capacity"
+      },
+      "density_kg_m3": {
+        "type": "float",
+        "unit": "kg/m\u00b3",
+        "description": "Density"
+      }
+    }
+  },
+  "mechanical_properties": {
+    "description": "Temperature-dependent mechanical properties",
+    "fields": {
+      "rubber_content_pct": {
+        "type": "integer",
+        "unit": "% by volume",
+        "description": "Rubber content percentage"
+      },
+      "temperature_C": {
+        "type": "float",
+        "unit": "\u00b0C",
+        "description": "Temperature"
+      },
+      "compressive_strength_MPa": {
+        "type": "float",
+        "unit": "MPa",
+        "description": "Compressive strength"
+      },
+      "tensile_strength_MPa": {
+        "type": "float",
+        "unit": "MPa",
+        "description": "Tensile strength"
+      },
+      "elastic_modulus_GPa": {
+        "type": "float",
+        "unit": "GPa",
+        "description": "Elastic modulus"
+      },
+      "poisson_ratio": {
+        "type": "float",
+        "unit": "dimensionless",
+        "description": "Poisson's ratio"
+      }
+    }
+  },
+  "deformation_properties": {
+    "description": "Deformation-related properties",
+    "fields": {
+      "rubber_content_pct": {
+        "type": "integer",
+        "unit": "% by volume",
+        "description": "Rubber content percentage"
+      },
+      "temperature_C": {
+        "type": "float",
+        "unit": "\u00b0C",
+        "description": "Temperature"
+      },
+      "thermal_expansion_coeff_per_K": {
+        "type": "float",
+        "unit": "1/K",
+        "description": "Coefficient of thermal expansion"
+      },
+      "transient_thermal_strain": {
+        "type": "float",
+        "unit": "dimensionless",
+        "description": "Transient thermal strain"
+      }
+    }
+  },
+  "poromechanical_properties": {
+    "description": "Porosity and permeability properties",
+    "fields": {
+      "rubber_content_pct": {
+        "type": "integer",
+        "unit": "% by volume",
+        "description": "Rubber content percentage"
+      },
+      "temperature_C": {
+        "type": "float",
+        "unit": "\u00b0C",
+        "description": "Temperature"
+      },
+      "porosity": {
+        "type": "float",
+        "unit": "dimensionless",
+        "description": "Porosity (0-1)"
+      },
+      "permeability_m2": {
+        "type": "float",
+        "unit": "m\u00b2",
+        "description": "Permeability"
+      },
+      "damage_parameter": {
+        "type": "float",
+        "unit": "dimensionless",
+        "description": "Damage parameter (0-1)"
+      }
+    }
+  },
+  "temperature_evolution_validation": {
+    "description": "Temperature evolution during fire exposure",
+    "fields": {
+      "specimen_type": {
+        "type": "string",
+        "description": "Type of test specimen"
+      },
+      "rubber_content_pct": {
+        "type": "integer",
+        "unit": "% by volume",
+        "description": "Rubber content percentage"
+      },
+      "fire_curve": {
+        "type": "string",
+        "description": "Fire exposure curve"
+      },
+      "time_hours": {
+        "type": "float",
+        "unit": "hours",
+        "description": "Time since start of test"
+      },
+      "time_minutes": {
+        "type": "float",
+        "unit": "minutes",
+        "description": "Time since start of test"
+      },
+      "thermocouple_location": {
+        "type": "string",
+        "description": "Thermocouple position"
+      },
+      "depth_mm": {
+        "type": "float",
+        "unit": "mm",
+        "description": "Depth from surface"
+      },
+      "temperature_C": {
+        "type": "float",
+        "unit": "\u00b0C",
+        "description": "Measured temperature"
+      },
+      "furnace_temperature_C": {
+        "type": "float",
+        "unit": "\u00b0C",
+        "description": "Furnace temperature"
+      }
+    }
+  },
+  "deformation_strain_validation": {
+    "description": "Strain evolution under thermal-mechanical loading",
+    "fields": {
+      "rubber_content_pct": {
+        "type": "integer",
+        "unit": "% by volume",
+        "description": "Rubber content percentage"
+      },
+      "loading_scenario": {
+        "type": "string",
+        "description": "Loading condition"
+      },
+      "mechanical_load_ratio": {
+        "type": "float",
+        "unit": "dimensionless",
+        "description": "Load as fraction of strength"
+      },
+      "time_hours": {
+        "type": "float",
+        "unit": "hours",
+        "description": "Time since start of test"
+      },
+      "temperature_C": {
+        "type": "float",
+        "unit": "\u00b0C",
+        "description": "Temperature"
+      },
+      "total_strain": {
+        "type": "float",
+        "unit": "dimensionless",
+        "description": "Total strain"
+      },
+      "thermal_strain": {
+        "type": "float",
+        "unit": "dimensionless",
+        "description": "Thermal strain component"
+      },
+      "mechanical_strain": {
+        "type": "float",
+        "unit": "dimensionless",
+        "description": "Mechanical strain component"
+      },
+      "creep_strain": {
+        "type": "float",
+        "unit": "dimensionless",
+        "description": "Creep strain component"
+      },
+      "transient_strain": {
+        "type": "float",
+        "unit": "dimensionless",
+        "description": "Transient strain component"
+      },
+      "displacement_mm": {
+        "type": "float",
+        "unit": "mm",
+        "description": "Displacement over 100mm gauge length"
+      }
+    }
+  },
+  "spalling_failure_summary": {
+    "description": "Summary of spalling and failure behavior",
+    "fields": {
+      "rubber_content_pct": {
+        "type": "integer",
+        "unit": "% by volume",
+        "description": "Rubber content percentage"
+      },
+      "test_condition": {
+        "type": "string",
+        "description": "Test condition name"
+      },
+      "heating_rate": {
+        "type": "string",
+        "description": "Fire curve used"
+      },
+      "load_ratio": {
+        "type": "float",
+        "unit": "dimensionless",
+        "description": "Load as fraction of strength"
+      },
+      "moisture_content_pct": {
+        "type": "float",
+        "unit": "%",
+        "description": "Initial moisture content"
+      },
+      "spalling_occurred": {
+        "type": "boolean",
+        "description": "Whether spalling occurred"
+      },
+      "time_to_spalling_min": {
+        "type": "float",
+        "unit": "minutes",
+        "description": "Time to first spalling"
+      },
+      "spalling_temperature_C": {
+        "type": "float",
+        "unit": "\u00b0C",
+        "description": "Temperature at which spalling occurred"
+      },
+      "max_spalling_depth_mm": {
+        "type": "float",
+        "unit": "mm",
+        "description": "Maximum spalling depth"
+      },
+      "failure_time_min": {
+        "type": "float",
+        "unit": "minutes",
+        "description": "Time to structural failure"
+      },
+      "failure_mode": {
+        "type": "string",
+        "description": "Mode of failure"
+      }
+    }
+  }
+}

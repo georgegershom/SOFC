@@ -1,0 +1,175 @@
+{
+  "dataset_name": "Fire-Resistant Rubberized Concrete Dataset",
+  "version": "1.0",
+  "creation_date": "2025-10-18T19:32:24.420028",
+  "topic": "Development and Validation of a Thermo-Mechanical Model for Fire-Resistant Structural Elements Utilizing High-Performance Rubberized Concrete",
+  "contents": {
+    "mechanical_properties.csv": {
+      "size_bytes": 47931,
+      "size_mb": 0.046,
+      "modified": "2025-10-18T19:31:05.024729",
+      "type": "CSV data file"
+    },
+    "deformation_strain_validation.csv": {
+      "size_bytes": 567352,
+      "size_mb": 0.541,
+      "modified": "2025-10-18T19:31:06.272732",
+      "type": "CSV data file"
+    },
+    "GENERATION_REPORT.md": {
+      "size_bytes": 1905,
+      "size_mb": 0.002,
+      "modified": "2025-10-18T19:31:14.012748",
+      "type": "Documentation"
+    },
+    "usage_examples.py": {
+      "size_bytes": 7292,
+      "size_mb": 0.007,
+      "modified": "2025-10-18T19:31:13.972748",
+      "type": "Python script"
+    },
+    "thermal_properties.csv": {
+      "size_bytes": 38291,
+      "size_mb": 0.037,
+      "modified": "2025-10-18T19:31:05.016730",
+      "type": "CSV data file"
+    },
+    "poromechanical_properties.csv": {
+      "size_bytes": 39999,
+      "size_mb": 0.038,
+      "modified": "2025-10-18T19:31:05.040730",
+      "type": "CSV data file"
+    },
+    "data_dictionary.json": {
+      "size_bytes": 7659,
+      "size_mb": 0.007,
+      "modified": "2025-10-18T19:31:13.972748",
+      "type": "JSON data file"
+    },
+    "temperature_evolution_validation.json": {
+      "size_bytes": 3408784,
+      "size_mb": 3.251,
+      "modified": "2025-10-18T19:31:05.936732",
+      "type": "JSON data file"
+    },
+    "thermal_properties.json": {
+      "size_bytes": 51719,
+      "size_mb": 0.049,
+      "modified": "2025-10-18T19:31:05.012730",
+      "type": "JSON data file"
+    },
+    "custom_strength_plot.png": {
+      "size_bytes": 254728,
+      "size_mb": 0.243,
+      "modified": "2025-10-18T19:31:26.756772",
+      "type": "Visualization plot"
+    },
+    "deformation_strain_validation.json": {
+      "size_bytes": 773802,
+      "size_mb": 0.738,
+      "modified": "2025-10-18T19:31:06.240732",
+      "type": "JSON data file"
+    },
+    "spalling_failure_summary.csv": {
+      "size_bytes": 1724,
+      "size_mb": 0.002,
+      "modified": "2025-10-18T19:31:06.280732",
+      "type": "CSV data file"
+    },
+    "README.md": {
+      "size_bytes": 8414,
+      "size_mb": 0.008,
+      "modified": "2025-10-18T19:31:13.972748",
+      "type": "Documentation"
+    },
+    "poromechanical_properties.json": {
+      "size_bytes": 53427,
+      "size_mb": 0.051,
+      "modified": "2025-10-18T19:31:05.036730",
+      "type": "JSON data file"
+    },
+    "mechanical_properties.json": {
+      "size_bytes": 65041,
+      "size_mb": 0.062,
+      "modified": "2025-10-18T19:31:05.020730",
+      "type": "JSON data file"
+    },
+    "temperature_evolution_validation.csv": {
+      "size_bytes": 4578274,
+      "size_mb": 4.366,
+      "modified": "2025-10-18T19:31:06.212732",
+      "type": "CSV data file"
+    },
+    "spalling_failure_detailed.csv": {
+      "size_bytes": 165504,
+      "size_mb": 0.158,
+      "modified": "2025-10-18T19:31:06.288732",
+      "type": "CSV data file"
+    },
+    "metadata.json": {
+      "size_bytes": 2365,
+      "size_mb": 0.002,
+      "modified": "2025-10-18T19:31:13.972748",
+      "type": "JSON data file"
+    },
+    "deformation_properties.json": {
+      "size_bytes": 296266,
+      "size_mb": 0.283,
+      "modified": "2025-10-18T19:31:05.032730",
+      "type": "JSON data file"
+    },
+    "spalling_failure_validation.json": {
+      "size_bytes": 219207,
+      "size_mb": 0.209,
+      "modified": "2025-10-18T19:31:06.280732",
+      "type": "JSON data file"
+    },
+    "deformation_properties.csv": {
+      "size_bytes": 29105,
+      "size_mb": 0.028,
+      "modified": "2025-10-18T19:31:05.036730",
+      "type": "CSV data file"
+    },
+    "visualizations/thermal_properties.png": {
+      "size_bytes": 1249418,
+      "size_mb": 1.192,
+      "modified": "2025-10-18T19:31:08.108736",
+      "type": "Visualization plot"
+    },
+    "visualizations/spalling_analysis.png": {
+      "size_bytes": 942598,
+      "size_mb": 0.899,
+      "modified": "2025-10-18T19:31:12.120744",
+      "type": "Visualization plot"
+    },
+    "visualizations/temperature_evolution.png": {
+      "size_bytes": 908962,
+      "size_mb": 0.867,
+      "modified": "2025-10-18T19:31:10.096740",
+      "type": "Visualization plot"
+    },
+    "visualizations/summary_dashboard.png": {
+      "size_bytes": 1321259,
+      "size_mb": 1.26,
+      "modified": "2025-10-18T19:31:13.424747",
+      "type": "Visualization plot"
+    },
+    "visualizations/mechanical_properties.png": {
+      "size_bytes": 1437103,
+      "size_mb": 1.371,
+      "modified": "2025-10-18T19:31:08.992738",
+      "type": "Visualization plot"
+    },
+    "visualizations/strain_evolution.png": {
+      "size_bytes": 835295,
+      "size_mb": 0.797,
+      "modified": "2025-10-18T19:31:10.992742",
+      "type": "Visualization plot"
+    }
+  },
+  "summary": {
+    "total_files": 27,
+    "total_size_bytes": 17313424,
+    "total_size_mb": 16.51
+  }
+}
