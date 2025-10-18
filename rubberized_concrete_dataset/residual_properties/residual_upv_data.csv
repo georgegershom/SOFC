@@ -1,0 +1,40 @@
+Specimen_ID,Mix_ID,Target_Temperature_C,Cooling_Method,Initial_UPV_m_s,Residual_UPV_m_s,UPV_Retention_Percent,Damage_Index,Quality_Assessment,Internal_Cracking,Test_Date,Operator,Notes
+TE-CTRL-23-1,CTRL,23,Ambient,4685,4685,100.0,0.00,Excellent,None,2024-03-02,Tech_A,Reference specimen
+TE-CTRL-23-2,CTRL,23,Ambient,4695,4695,100.0,0.00,Excellent,None,2024-03-02,Tech_A,Reference specimen
+TE-CTRL-23-3,CTRL,23,Ambient,4675,4675,100.0,0.00,Excellent,None,2024-03-02,Tech_A,Reference specimen
+TE-CTRL-200-FC-1,CTRL,200,Furnace_Cooling,4685,4405,94.0,0.06,Good,Minimal,2024-03-02,Tech_A,Slight velocity reduction
+TE-CTRL-200-FC-2,CTRL,200,Furnace_Cooling,4695,4415,94.0,0.06,Good,Minimal,2024-03-02,Tech_A,Slight velocity reduction
+TE-CTRL-200-FC-3,CTRL,200,Furnace_Cooling,4675,4395,94.0,0.06,Good,Minimal,2024-03-02,Tech_A,Slight velocity reduction
+TE-CTRL-200-WQ-1,CTRL,200,Water_Quench,4685,4265,91.0,0.09,Good,Moderate,2024-03-02,Tech_A,Thermal shock damage
+TE-CTRL-200-WQ-2,CTRL,200,Water_Quench,4695,4275,91.0,0.09,Good,Moderate,2024-03-02,Tech_A,Thermal shock damage
+TE-CTRL-200-WQ-3,CTRL,200,Water_Quench,4675,4255,91.0,0.09,Good,Moderate,2024-03-02,Tech_A,Thermal shock damage
+TE-CTRL-400-FC-1,CTRL,400,Furnace_Cooling,4685,3748,80.0,0.20,Medium,Significant,2024-03-03,Tech_B,Moderate internal damage
+TE-CTRL-400-FC-2,CTRL,400,Furnace_Cooling,4695,3756,80.0,0.20,Medium,Significant,2024-03-03,Tech_B,Moderate internal damage
+TE-CTRL-400-FC-3,CTRL,400,Furnace_Cooling,4675,3740,80.0,0.20,Medium,Significant,2024-03-03,Tech_B,Moderate internal damage
+TE-CTRL-400-WQ-1,CTRL,400,Water_Quench,4685,3279,70.0,0.30,Poor,Extensive,2024-03-03,Tech_B,Severe thermal shock
+TE-CTRL-400-WQ-2,CTRL,400,Water_Quench,4695,3287,70.0,0.30,Poor,Extensive,2024-03-03,Tech_B,Severe thermal shock
+TE-CTRL-400-WQ-3,CTRL,400,Water_Quench,4675,3273,70.0,0.30,Poor,Extensive,2024-03-03,Tech_B,Severe thermal shock
+TE-CTRL-600-FC-1,CTRL,600,Furnace_Cooling,4685,2341,50.0,0.50,Poor,Severe,2024-03-04,Tech_A,Extensive microcracking
+TE-CTRL-600-FC-2,CTRL,600,Furnace_Cooling,4695,2348,50.0,0.50,Poor,Severe,2024-03-04,Tech_A,Extensive microcracking
+TE-CTRL-600-FC-3,CTRL,600,Furnace_Cooling,4675,2338,50.0,0.50,Poor,Severe,2024-03-04,Tech_A,Extensive microcracking
+TE-CTRL-600-WQ-1,CTRL,600,Water_Quench,4685,1874,40.0,0.60,Very_Poor,Critical,2024-03-04,Tech_A,Network of macrocracks
+TE-CTRL-600-WQ-2,CTRL,600,Water_Quench,4695,1878,40.0,0.60,Very_Poor,Critical,2024-03-04,Tech_A,Network of macrocracks
+TE-CTRL-600-WQ-3,CTRL,600,Water_Quench,4675,1870,40.0,0.60,Very_Poor,Critical,2024-03-04,Tech_A,Network of macrocracks
+TE-CTRL-800-FC-1,CTRL,800,Furnace_Cooling,4685,1406,30.0,0.70,Very_Poor,Critical,2024-03-05,Tech_B,Structural integrity compromised
+TE-CTRL-800-FC-2,CTRL,800,Furnace_Cooling,4695,1409,30.0,0.70,Very_Poor,Critical,2024-03-05,Tech_B,Structural integrity compromised
+TE-CTRL-800-FC-3,CTRL,800,Furnace_Cooling,4675,1403,30.0,0.70,Very_Poor,Critical,2024-03-05,Tech_B,Structural integrity compromised
+TE-CTRL-800-WQ-1,CTRL,800,Water_Quench,4685,938,20.0,0.80,Failed,Complete,2024-03-05,Tech_B,Near complete failure
+TE-CTRL-800-WQ-2,CTRL,800,Water_Quench,4695,940,20.0,0.80,Failed,Complete,2024-03-05,Tech_B,Near complete failure
+TE-CTRL-800-WQ-3,CTRL,800,Water_Quench,4675,935,20.0,0.80,Failed,Complete,2024-03-05,Tech_B,Near complete failure
+TE-RC10-200-FC-1,RC-10,200,Furnace_Cooling,4425,4203,95.0,0.05,Good,Minimal,2024-03-06,Tech_A,Better retention than control
+TE-RC10-200-FC-2,RC-10,200,Furnace_Cooling,4435,4213,95.0,0.05,Good,Minimal,2024-03-06,Tech_A,Better retention than control
+TE-RC10-200-FC-3,RC-10,200,Furnace_Cooling,4415,4194,95.0,0.05,Good,Minimal,2024-03-06,Tech_A,Better retention than control
+TE-RC10-400-FC-1,RC-10,400,Furnace_Cooling,4425,3761,85.0,0.15,Good,Moderate,2024-03-07,Tech_B,Better retention than control
+TE-RC10-400-FC-2,RC-10,400,Furnace_Cooling,4435,3770,85.0,0.15,Good,Moderate,2024-03-07,Tech_B,Better retention than control
+TE-RC10-400-FC-3,RC-10,400,Furnace_Cooling,4415,3753,85.0,0.15,Good,Moderate,2024-03-07,Tech_B,Better retention than control
+TE-RC20-600-FC-1,RC-20,600,Furnace_Cooling,4125,2888,70.0,0.30,Medium,Significant,2024-03-08,Tech_A,Much better than control
+TE-RC20-600-FC-2,RC-20,600,Furnace_Cooling,4135,2895,70.0,0.30,Medium,Significant,2024-03-08,Tech_A,Much better than control
+TE-RC20-600-FC-3,RC-20,600,Furnace_Cooling,4115,2881,70.0,0.30,Medium,Significant,2024-03-08,Tech_A,Much better than control
+TE-RC30-800-FC-1,RC-30,800,Furnace_Cooling,3825,2295,60.0,0.40,Medium,Moderate,2024-03-09,Tech_B,Excellent retention compared to control
+TE-RC30-800-FC-2,RC-30,800,Furnace_Cooling,3835,2301,60.0,0.40,Medium,Moderate,2024-03-09,Tech_B,Excellent retention compared to control
+TE-RC30-800-FC-3,RC-30,800,Furnace_Cooling,3815,2289,60.0,0.40,Medium,Moderate,2024-03-09,Tech_B,Excellent retention compared to control

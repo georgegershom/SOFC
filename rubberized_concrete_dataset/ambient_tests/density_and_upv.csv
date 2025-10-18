@@ -1,0 +1,55 @@
+Specimen_ID,Mix_ID,Curing_Age_days,Test_Date,Fresh_Density_kg_m3,Hardened_Density_kg_m3,UPV_Longitudinal_m_s,UPV_Transverse_m_s,Dynamic_Modulus_GPa,Quality_Index,Operator,Notes
+CTRL-DU-7d-1,CTRL,7,2024-01-18,2385,2378,4520,2680,48.5,Excellent,Tech_A,High quality concrete
+CTRL-DU-7d-2,CTRL,7,2024-01-18,2388,2381,4535,2695,49.2,Excellent,Tech_A,High quality concrete
+CTRL-DU-7d-3,CTRL,7,2024-01-18,2382,2375,4505,2665,47.8,Excellent,Tech_A,High quality concrete
+CTRL-DU-28d-1,CTRL,28,2024-02-08,2385,2380,4685,2785,52.1,Excellent,Tech_B,High quality concrete
+CTRL-DU-28d-2,CTRL,28,2024-02-08,2388,2383,4695,2795,52.8,Excellent,Tech_B,High quality concrete
+CTRL-DU-28d-3,CTRL,28,2024-02-08,2382,2377,4675,2775,51.5,Excellent,Tech_B,High quality concrete
+CTRL-DU-56d-1,CTRL,56,2024-03-08,2385,2382,4745,2825,54.2,Excellent,Tech_A,High quality concrete
+CTRL-DU-56d-2,CTRL,56,2024-03-08,2388,2385,4755,2835,54.9,Excellent,Tech_A,High quality concrete
+CTRL-DU-56d-3,CTRL,56,2024-03-08,2382,2379,4735,2815,53.6,Excellent,Tech_A,High quality concrete
+RC10-DU-7d-1,RC-10,7,2024-01-18,2295,2288,4285,2545,43.2,Good,Tech_A,Slight reduction due to rubber
+RC10-DU-7d-2,RC-10,7,2024-01-18,2298,2291,4295,2555,43.8,Good,Tech_A,Slight reduction due to rubber
+RC10-DU-7d-3,RC-10,7,2024-01-18,2292,2285,4275,2535,42.6,Good,Tech_A,Slight reduction due to rubber
+RC10-DU-28d-1,RC-10,28,2024-02-08,2295,2290,4425,2625,46.2,Good,Tech_B,Slight reduction due to rubber
+RC10-DU-28d-2,RC-10,28,2024-02-08,2298,2293,4435,2635,46.8,Good,Tech_B,Slight reduction due to rubber
+RC10-DU-28d-3,RC-10,28,2024-02-08,2292,2287,4415,2615,45.6,Good,Tech_B,Slight reduction due to rubber
+RC10-DU-56d-1,RC-10,56,2024-03-08,2295,2292,4485,2665,47.8,Good,Tech_A,Slight reduction due to rubber
+RC10-DU-56d-2,RC-10,56,2024-03-08,2298,2295,4495,2675,48.4,Good,Tech_A,Slight reduction due to rubber
+RC10-DU-56d-3,RC-10,56,2024-03-08,2292,2289,4475,2655,47.2,Good,Tech_A,Slight reduction due to rubber
+RC20-DU-7d-1,RC-20,7,2024-01-18,2205,2198,3985,2365,38.5,Good,Tech_A,Moderate reduction due to rubber
+RC20-DU-7d-2,RC-20,7,2024-01-18,2208,2201,3995,2375,39.1,Good,Tech_A,Moderate reduction due to rubber
+RC20-DU-7d-3,RC-20,7,2024-01-18,2202,2195,3975,2355,37.9,Good,Tech_A,Moderate reduction due to rubber
+RC20-DU-28d-1,RC-20,28,2024-02-08,2205,2200,4125,2445,41.2,Good,Tech_B,Moderate reduction due to rubber
+RC20-DU-28d-2,RC-20,28,2024-02-08,2208,2203,4135,2455,41.8,Good,Tech_B,Moderate reduction due to rubber
+RC20-DU-28d-3,RC-20,28,2024-02-08,2202,2197,4115,2435,40.6,Good,Tech_B,Moderate reduction due to rubber
+RC20-DU-56d-1,RC-20,56,2024-03-08,2205,2202,4185,2485,42.8,Good,Tech_A,Moderate reduction due to rubber
+RC20-DU-56d-2,RC-20,56,2024-03-08,2208,2205,4195,2495,43.4,Good,Tech_A,Moderate reduction due to rubber
+RC20-DU-56d-3,RC-20,56,2024-03-08,2202,2199,4175,2475,42.2,Good,Tech_A,Moderate reduction due to rubber
+RC30-DU-7d-1,RC-30,7,2024-01-18,2115,2108,3685,2185,32.5,Medium,Tech_A,Significant reduction due to rubber
+RC30-DU-7d-2,RC-30,7,2024-01-18,2118,2111,3695,2195,33.1,Medium,Tech_A,Significant reduction due to rubber
+RC30-DU-7d-3,RC-30,7,2024-01-18,2112,2105,3675,2175,31.9,Medium,Tech_A,Significant reduction due to rubber
+RC30-DU-28d-1,RC-30,28,2024-02-08,2115,2110,3825,2265,35.2,Medium,Tech_B,Significant reduction due to rubber
+RC30-DU-28d-2,RC-30,28,2024-02-08,2118,2113,3835,2275,35.8,Medium,Tech_B,Significant reduction due to rubber
+RC30-DU-28d-3,RC-30,28,2024-02-08,2112,2107,3815,2255,34.6,Medium,Tech_B,Significant reduction due to rubber
+RC30-DU-56d-1,RC-30,56,2024-03-08,2115,2112,3885,2305,36.8,Medium,Tech_A,Significant reduction due to rubber
+RC30-DU-56d-2,RC-30,56,2024-03-08,2118,2115,3895,2315,37.4,Medium,Tech_A,Significant reduction due to rubber
+RC30-DU-56d-3,RC-30,56,2024-03-08,2112,2109,3875,2295,36.2,Medium,Tech_A,Significant reduction due to rubber
+RC15SF-DU-7d-1,RC-15-SF,7,2024-01-18,2315,2308,4365,2595,45.8,Good,Tech_A,SF improves quality
+RC15SF-DU-7d-2,RC-15-SF,7,2024-01-18,2318,2311,4375,2605,46.4,Good,Tech_A,SF improves quality
+RC15SF-DU-7d-3,RC-15-SF,7,2024-01-18,2312,2305,4355,2585,45.2,Good,Tech_A,SF improves quality
+RC15SF-DU-28d-1,RC-15-SF,28,2024-02-08,2315,2310,4505,2675,48.5,Good,Tech_B,SF improves quality
+RC15SF-DU-28d-2,RC-15-SF,28,2024-02-08,2318,2313,4515,2685,49.1,Good,Tech_B,SF improves quality
+RC15SF-DU-28d-3,RC-15-SF,28,2024-02-08,2312,2307,4495,2665,47.9,Good,Tech_B,SF improves quality
+RC15SF-DU-56d-1,RC-15-SF,56,2024-03-08,2315,2312,4565,2715,50.2,Good,Tech_A,SF improves quality
+RC15SF-DU-56d-2,RC-15-SF,56,2024-03-08,2318,2315,4575,2725,50.8,Good,Tech_A,SF improves quality
+RC15SF-DU-56d-3,RC-15-SF,56,2024-03-08,2312,2309,4555,2705,49.6,Good,Tech_A,SF improves quality
+RC15FA-DU-7d-1,RC-15-FA,7,2024-01-18,2285,2278,4245,2515,42.5,Good,Tech_A,FA provides moderate improvement
+RC15FA-DU-7d-2,RC-15-FA,7,2024-01-18,2288,2281,4255,2525,43.1,Good,Tech_A,FA provides moderate improvement
+RC15FA-DU-7d-3,RC-15-FA,7,2024-01-18,2282,2275,4235,2505,41.9,Good,Tech_A,FA provides moderate improvement
+RC15FA-DU-28d-1,RC-15-FA,28,2024-02-08,2285,2280,4385,2595,45.2,Good,Tech_B,FA provides moderate improvement
+RC15FA-DU-28d-2,RC-15-FA,28,2024-02-08,2288,2283,4395,2605,45.8,Good,Tech_B,FA provides moderate improvement
+RC15FA-DU-28d-3,RC-15-FA,28,2024-02-08,2282,2277,4375,2585,44.6,Good,Tech_B,FA provides moderate improvement
+RC15FA-DU-56d-1,RC-15-FA,56,2024-03-08,2285,2282,4445,2635,46.8,Good,Tech_A,FA provides moderate improvement
+RC15FA-DU-56d-2,RC-15-FA,56,2024-03-08,2288,2285,4455,2645,47.4,Good,Tech_A,FA provides moderate improvement
+RC15FA-DU-56d-3,RC-15-FA,56,2024-03-08,2282,2279,4435,2625,46.2,Good,Tech_A,FA provides moderate improvement

@@ -1,0 +1,46 @@
+Specimen_ID,Mix_ID,Temperature_C,Linear_Strain_microstrain,Coefficient_Thermal_Expansion_per_C,Volumetric_Strain_microstrain,Phase_Change,Measurement_Direction,Test_Date,Operator,Notes
+CTE-CTRL-1,CTRL,23,0,0.0,0,None,Longitudinal,2024-03-25,Tech_A,Reference temperature
+CTE-CTRL-1,CTRL,50,270,10.0,810,None,Longitudinal,2024-03-25,Tech_A,Linear expansion
+CTE-CTRL-1,CTRL,100,770,10.0,2310,None,Longitudinal,2024-03-25,Tech_A,Linear expansion
+CTE-CTRL-1,CTRL,150,1270,10.0,3810,None,Longitudinal,2024-03-25,Tech_A,Linear expansion
+CTE-CTRL-1,CTRL,200,1770,10.0,5310,Dehydration_Start,Longitudinal,2024-03-25,Tech_A,Slight deviation from linearity
+CTE-CTRL-1,CTRL,250,2270,10.0,6810,Dehydration,Longitudinal,2024-03-25,Tech_A,Continued expansion
+CTE-CTRL-1,CTRL,300,2770,10.0,8310,Dehydration,Longitudinal,2024-03-25,Tech_A,Continued expansion
+CTE-CTRL-1,CTRL,350,3270,10.0,9810,Dehydration,Longitudinal,2024-03-25,Tech_A,Continued expansion
+CTE-CTRL-1,CTRL,400,3770,10.0,11310,CSH_Decomposition,Longitudinal,2024-03-25,Tech_A,Microstructural changes
+CTE-CTRL-1,CTRL,450,4220,9.5,12660,CSH_Decomposition,Longitudinal,2024-03-25,Tech_A,Reduced expansion rate
+CTE-CTRL-1,CTRL,500,4620,9.0,13860,CSH_Decomposition,Longitudinal,2024-03-25,Tech_A,Further reduction
+CTE-CTRL-1,CTRL,550,4970,8.5,14910,Aggregate_Expansion,Longitudinal,2024-03-25,Tech_A,Aggregate effects dominate
+CTE-CTRL-1,CTRL,600,5270,8.0,15810,Aggregate_Expansion,Longitudinal,2024-03-25,Tech_A,Continued aggregate expansion
+CTE-CTRL-1,CTRL,650,5520,7.5,16560,Quartz_Transition,Longitudinal,2024-03-25,Tech_A,α-β quartz transition begins
+CTE-CTRL-1,CTRL,700,5720,7.0,17160,Quartz_Transition,Longitudinal,2024-03-25,Tech_A,Quartz transition peak
+CTE-CTRL-1,CTRL,750,5870,6.5,17610,Carbonate_Decomposition,Longitudinal,2024-03-25,Tech_A,Limestone decomposition
+CTE-CTRL-1,CTRL,800,5970,6.0,17910,Carbonate_Decomposition,Longitudinal,2024-03-25,Tech_A,Severe microstructural damage
+CTE-RC10-1,RC-10,23,0,0.0,0,None,Longitudinal,2024-03-26,Tech_A,Reference temperature
+CTE-RC10-1,RC-10,50,285,10.6,855,None,Longitudinal,2024-03-26,Tech_A,Slightly higher than control
+CTE-RC10-1,RC-10,100,815,10.6,2445,None,Longitudinal,2024-03-26,Tech_A,Rubber contribution
+CTE-RC10-1,RC-10,150,1345,10.6,4035,Rubber_Softening,Longitudinal,2024-03-26,Tech_A,Rubber begins to soften
+CTE-RC10-1,RC-10,200,1875,10.6,5625,Rubber_Softening,Longitudinal,2024-03-26,Tech_A,Increased expansion
+CTE-RC10-1,RC-10,250,2435,11.2,7305,Rubber_Expansion,Longitudinal,2024-03-26,Tech_A,Rubber thermal expansion
+CTE-RC10-1,RC-10,300,3025,12.0,9075,Rubber_Expansion,Longitudinal,2024-03-26,Tech_A,Peak rubber expansion
+CTE-RC10-1,RC-10,350,3645,12.5,10935,Rubber_Degradation_Start,Longitudinal,2024-03-26,Tech_A,Rubber degradation begins
+CTE-RC10-1,RC-10,400,4285,11.8,12855,Rubber_Degradation,Longitudinal,2024-03-26,Tech_A,Rubber decomposition
+CTE-RC10-1,RC-10,450,4845,10.5,14535,Rubber_Burnout,Longitudinal,2024-03-26,Tech_A,Rubber burnout
+CTE-RC10-1,RC-10,500,5325,9.8,15975,Rubber_Burnout,Longitudinal,2024-03-26,Tech_A,Approaching control behavior
+CTE-RC20-1,RC-20,23,0,0.0,0,None,Longitudinal,2024-03-27,Tech_B,Reference temperature
+CTE-RC20-1,RC-20,50,300,11.1,900,None,Longitudinal,2024-03-27,Tech_B,Higher expansion than control
+CTE-RC20-1,RC-20,100,860,11.1,2580,Rubber_Softening,Longitudinal,2024-03-27,Tech_B,Rubber effects more pronounced
+CTE-RC20-1,RC-20,150,1420,11.1,4260,Rubber_Softening,Longitudinal,2024-03-27,Tech_B,Continued rubber softening
+CTE-RC20-1,RC-20,200,1980,11.1,5940,Rubber_Expansion,Longitudinal,2024-03-27,Tech_B,Significant rubber expansion
+CTE-RC20-1,RC-20,250,2580,12.4,7740,Rubber_Expansion,Longitudinal,2024-03-27,Tech_B,Peak rubber expansion phase
+CTE-RC20-1,RC-20,300,3220,13.2,9660,Rubber_Expansion,Longitudinal,2024-03-27,Tech_B,Maximum expansion rate
+CTE-RC20-1,RC-20,350,3900,13.8,11700,Rubber_Degradation_Start,Longitudinal,2024-03-27,Tech_B,Rubber degradation begins
+CTE-RC20-1,RC-20,400,4620,13.0,13860,Rubber_Degradation,Longitudinal,2024-03-27,Tech_B,Active rubber decomposition
+CTE-RC30-1,RC-30,23,0,0.0,0,None,Longitudinal,2024-03-28,Tech_A,Reference temperature
+CTE-RC30-1,RC-30,50,315,11.7,945,None,Longitudinal,2024-03-28,Tech_A,Highest expansion of all mixes
+CTE-RC30-1,RC-30,100,905,11.7,2715,Rubber_Softening,Longitudinal,2024-03-28,Tech_A,Significant rubber content effect
+CTE-RC30-1,RC-30,150,1495,11.7,4485,Rubber_Softening,Longitudinal,2024-03-28,Tech_A,Extensive rubber softening
+CTE-RC30-1,RC-30,200,2085,11.7,6255,Rubber_Expansion,Longitudinal,2024-03-28,Tech_A,Major rubber expansion
+CTE-RC30-1,RC-30,250,2725,13.6,8175,Rubber_Expansion,Longitudinal,2024-03-28,Tech_A,Peak expansion phase
+CTE-RC30-1,RC-30,300,3415,14.8,10245,Rubber_Expansion,Longitudinal,2024-03-28,Tech_A,Maximum expansion rate
+CTE-RC30-1,RC-30,350,4155,15.2,12465,Rubber_Degradation_Start,Longitudinal,2024-03-28,Tech_A,Rubber degradation onset

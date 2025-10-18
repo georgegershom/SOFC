@@ -1,0 +1,37 @@
+Specimen_ID,Mix_ID,Target_Temperature_C,Cooling_Method,Initial_Mass_g,Final_Mass_g,Mass_Loss_g,Mass_Loss_Percent,Water_Loss_g,CO2_Loss_g,Organic_Loss_g,Test_Date,Operator,Notes
+TE-CTRL-200-FC-1,CTRL,200,Furnace_Cooling,3856.2,3742.8,113.4,2.94,108.5,2.1,2.8,2024-02-14,Tech_A,Mainly water loss
+TE-CTRL-200-FC-2,CTRL,200,Furnace_Cooling,3862.1,3748.9,113.2,2.93,108.2,2.2,2.8,2024-02-14,Tech_A,Mainly water loss
+TE-CTRL-200-FC-3,CTRL,200,Furnace_Cooling,3859.5,3746.1,113.4,2.94,108.6,2.0,2.8,2024-02-14,Tech_A,Mainly water loss
+TE-CTRL-200-WQ-1,CTRL,200,Water_Quench,3858.7,3745.2,113.5,2.94,108.7,2.0,2.8,2024-02-14,Tech_A,Similar to furnace cooling
+TE-CTRL-200-WQ-2,CTRL,200,Water_Quench,3861.3,3747.8,113.5,2.94,108.6,2.1,2.8,2024-02-14,Tech_A,Similar to furnace cooling
+TE-CTRL-200-WQ-3,CTRL,200,Water_Quench,3857.9,3744.5,113.4,2.94,108.5,2.1,2.8,2024-02-14,Tech_A,Similar to furnace cooling
+TE-CTRL-400-FC-1,CTRL,400,Furnace_Cooling,3854.6,3625.2,229.4,5.95,185.2,38.5,5.7,2024-02-15,Tech_B,Significant dehydration
+TE-CTRL-400-FC-2,CTRL,400,Furnace_Cooling,3860.8,3631.1,229.7,5.95,185.4,38.6,5.7,2024-02-15,Tech_B,Significant dehydration
+TE-CTRL-400-FC-3,CTRL,400,Furnace_Cooling,3857.2,3627.8,229.4,5.95,185.1,38.6,5.7,2024-02-15,Tech_B,Significant dehydration
+TE-CTRL-400-WQ-1,CTRL,400,Water_Quench,3856.4,3626.8,229.6,5.95,185.3,38.6,5.7,2024-02-15,Tech_B,Similar to furnace cooling
+TE-CTRL-400-WQ-2,CTRL,400,Water_Quench,3859.1,3629.5,229.6,5.95,185.2,38.7,5.7,2024-02-15,Tech_B,Similar to furnace cooling
+TE-CTRL-400-WQ-3,CTRL,400,Water_Quench,3855.7,3626.1,229.6,5.95,185.3,38.6,5.7,2024-02-15,Tech_B,Similar to furnace cooling
+TE-CTRL-600-FC-1,CTRL,600,Furnace_Cooling,3852.9,3468.5,384.4,9.98,225.8,152.1,6.5,2024-02-16,Tech_A,Extensive dehydration and decomposition
+TE-CTRL-600-FC-2,CTRL,600,Furnace_Cooling,3858.4,3473.7,384.7,9.97,226.0,152.2,6.5,2024-02-16,Tech_A,Extensive dehydration and decomposition
+TE-CTRL-600-FC-3,CTRL,600,Furnace_Cooling,3855.1,3470.8,384.3,9.97,225.7,152.1,6.5,2024-02-16,Tech_A,Extensive dehydration and decomposition
+TE-CTRL-600-WQ-1,CTRL,600,Water_Quench,3854.2,3469.6,384.6,9.98,225.9,152.2,6.5,2024-02-16,Tech_A,Similar to furnace cooling
+TE-CTRL-600-WQ-2,CTRL,600,Water_Quench,3857.8,3473.1,384.7,9.97,226.0,152.2,6.5,2024-02-16,Tech_A,Similar to furnace cooling
+TE-CTRL-600-WQ-3,CTRL,600,Water_Quench,3853.5,3469.0,384.5,9.98,225.8,152.2,6.5,2024-02-16,Tech_A,Similar to furnace cooling
+TE-CTRL-800-FC-1,CTRL,800,Furnace_Cooling,3851.2,3312.8,538.4,13.98,285.4,245.2,7.8,2024-02-17,Tech_B,Severe decomposition
+TE-CTRL-800-FC-2,CTRL,800,Furnace_Cooling,3856.7,3318.1,538.6,13.96,285.5,245.3,7.8,2024-02-17,Tech_B,Severe decomposition
+TE-CTRL-800-FC-3,CTRL,800,Furnace_Cooling,3853.9,3315.4,538.5,13.97,285.4,245.3,7.8,2024-02-17,Tech_B,Severe decomposition
+TE-CTRL-800-WQ-1,CTRL,800,Water_Quench,3852.8,3314.2,538.6,13.98,285.5,245.3,7.8,2024-02-17,Tech_B,Similar to furnace cooling
+TE-CTRL-800-WQ-2,CTRL,800,Water_Quench,3855.4,3316.8,538.6,13.97,285.4,245.4,7.8,2024-02-17,Tech_B,Similar to furnace cooling
+TE-CTRL-800-WQ-3,CTRL,800,Water_Quench,3854.1,3315.5,538.6,13.98,285.5,245.3,7.8,2024-02-17,Tech_B,Similar to furnace cooling
+TE-RC10-200-FC-1,RC-10,200,Furnace_Cooling,3695.4,3585.2,110.2,2.98,105.8,2.1,2.3,2024-02-18,Tech_A,Rubber starts to soften
+TE-RC10-200-FC-2,RC-10,200,Furnace_Cooling,3698.1,3587.8,110.3,2.98,105.9,2.1,2.3,2024-02-18,Tech_A,Rubber starts to soften
+TE-RC10-200-FC-3,RC-10,200,Furnace_Cooling,3696.7,3586.5,110.2,2.98,105.8,2.1,2.3,2024-02-18,Tech_A,Rubber starts to soften
+TE-RC10-400-FC-1,RC-10,400,Furnace_Cooling,3694.2,3452.8,241.4,6.53,182.5,38.2,20.7,2024-02-19,Tech_B,Rubber degradation begins
+TE-RC10-400-FC-2,RC-10,400,Furnace_Cooling,3697.5,3456.0,241.5,6.53,182.6,38.2,20.7,2024-02-19,Tech_B,Rubber degradation begins
+TE-RC10-400-FC-3,RC-10,400,Furnace_Cooling,3695.8,3454.4,241.4,6.53,182.5,38.2,20.7,2024-02-19,Tech_B,Rubber degradation begins
+TE-RC20-600-FC-1,RC-20,600,Furnace_Cooling,3542.1,3098.5,443.6,12.52,218.4,148.2,77.0,2024-02-20,Tech_A,Significant rubber decomposition
+TE-RC20-600-FC-2,RC-20,600,Furnace_Cooling,3545.8,3102.1,443.7,12.51,218.5,148.2,77.0,2024-02-20,Tech_A,Significant rubber decomposition
+TE-RC20-600-FC-3,RC-20,600,Furnace_Cooling,3543.4,3099.8,443.6,12.52,218.4,148.2,77.0,2024-02-20,Tech_A,Significant rubber decomposition
+TE-RC30-800-FC-1,RC-30,800,Furnace_Cooling,3389.6,2756.8,632.8,18.67,275.2,238.5,119.1,2024-02-21,Tech_B,Extensive rubber burnout
+TE-RC30-800-FC-2,RC-30,800,Furnace_Cooling,3392.4,2759.5,632.9,18.66,275.3,238.5,119.1,2024-02-21,Tech_B,Extensive rubber burnout
+TE-RC30-800-FC-3,RC-30,800,Furnace_Cooling,3390.8,2758.1,632.7,18.67,275.1,238.5,119.1,2024-02-21,Tech_B,Extensive rubber burnout

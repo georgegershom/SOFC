@@ -1,0 +1,37 @@
+Specimen_ID,Mix_ID,Target_Temperature_C,Cooling_Method,Spalling_Onset_Time_min,Spalling_Onset_Temperature_C,Max_Spalling_Depth_mm,Spalled_Area_Percent,Spalled_Mass_g,Spalling_Pattern,Spalling_Severity,Corner_Spalling,Edge_Spalling,Surface_Spalling,Test_Date,Operator,Notes
+SP-CTRL-400-FC-1,CTRL,400,Furnace_Cooling,45,380,8.5,12.3,285,Localized,Moderate,Yes,Yes,No,2024-03-29,Tech_A,Typical corner spalling
+SP-CTRL-400-FC-2,CTRL,400,Furnace_Cooling,43,375,9.2,13.1,298,Localized,Moderate,Yes,Yes,No,2024-03-29,Tech_A,Typical corner spalling
+SP-CTRL-400-FC-3,CTRL,400,Furnace_Cooling,47,385,7.8,11.8,272,Localized,Moderate,Yes,Yes,No,2024-03-29,Tech_A,Typical corner spalling
+SP-CTRL-400-WQ-1,CTRL,400,Water_Quench,45,380,15.2,18.5,425,Extensive,Severe,Yes,Yes,Yes,2024-03-29,Tech_A,Thermal shock induced
+SP-CTRL-400-WQ-2,CTRL,400,Water_Quench,43,375,16.8,19.2,445,Extensive,Severe,Yes,Yes,Yes,2024-03-29,Tech_A,Thermal shock induced
+SP-CTRL-400-WQ-3,CTRL,400,Water_Quench,47,385,14.5,17.8,405,Extensive,Severe,Yes,Yes,Yes,2024-03-29,Tech_A,Thermal shock induced
+SP-CTRL-600-FC-1,CTRL,600,Furnace_Cooling,35,320,25.4,28.7,685,Progressive,Severe,Yes,Yes,Yes,2024-03-30,Tech_B,Extensive spalling
+SP-CTRL-600-FC-2,CTRL,600,Furnace_Cooling,33,315,27.1,30.2,715,Progressive,Severe,Yes,Yes,Yes,2024-03-30,Tech_B,Extensive spalling
+SP-CTRL-600-FC-3,CTRL,600,Furnace_Cooling,37,325,24.8,27.9,665,Progressive,Severe,Yes,Yes,Yes,2024-03-30,Tech_B,Extensive spalling
+SP-CTRL-600-WQ-1,CTRL,600,Water_Quench,35,320,42.5,45.8,1125,Explosive,Critical,Yes,Yes,Yes,2024-03-30,Tech_B,Explosive spalling event
+SP-CTRL-600-WQ-2,CTRL,600,Water_Quench,33,315,45.2,48.1,1185,Explosive,Critical,Yes,Yes,Yes,2024-03-30,Tech_B,Explosive spalling event
+SP-CTRL-600-WQ-3,CTRL,600,Water_Quench,37,325,41.8,44.5,1095,Explosive,Critical,Yes,Yes,Yes,2024-03-30,Tech_B,Explosive spalling event
+SP-CTRL-800-FC-1,CTRL,800,Furnace_Cooling,25,280,55.8,65.2,1685,Continuous,Critical,Yes,Yes,Yes,2024-03-31,Tech_A,Structural integrity lost
+SP-CTRL-800-FC-2,CTRL,800,Furnace_Cooling,23,275,58.4,67.8,1745,Continuous,Critical,Yes,Yes,Yes,2024-03-31,Tech_A,Structural integrity lost
+SP-CTRL-800-FC-3,CTRL,800,Furnace_Cooling,27,285,54.2,63.9,1625,Continuous,Critical,Yes,Yes,Yes,2024-03-31,Tech_A,Structural integrity lost
+SP-CTRL-800-WQ-1,CTRL,800,Water_Quench,25,280,85.5,85.2,2285,Explosive,Failure,Yes,Yes,Yes,2024-03-31,Tech_A,Complete structural failure
+SP-CTRL-800-WQ-2,CTRL,800,Water_Quench,23,275,88.2,87.5,2345,Explosive,Failure,Yes,Yes,Yes,2024-03-31,Tech_A,Complete structural failure
+SP-CTRL-800-WQ-3,CTRL,800,Water_Quench,27,285,83.8,83.8,2225,Explosive,Failure,Yes,Yes,Yes,2024-03-31,Tech_A,Complete structural failure
+SP-RC10-400-FC-1,RC-10,400,Furnace_Cooling,52,395,5.2,8.5,195,Minimal,Light,Yes,No,No,2024-04-01,Tech_A,Rubber reduces spalling
+SP-RC10-400-FC-2,RC-10,400,Furnace_Cooling,54,398,4.8,7.9,185,Minimal,Light,Yes,No,No,2024-04-01,Tech_A,Rubber reduces spalling
+SP-RC10-400-FC-3,RC-10,400,Furnace_Cooling,50,392,5.6,9.1,205,Minimal,Light,Yes,No,No,2024-04-01,Tech_A,Rubber reduces spalling
+SP-RC10-600-FC-1,RC-10,600,Furnace_Cooling,42,365,12.5,15.8,385,Localized,Moderate,Yes,Yes,No,2024-04-02,Tech_B,Significant improvement over control
+SP-RC10-600-FC-2,RC-10,600,Furnace_Cooling,40,360,13.2,16.5,395,Localized,Moderate,Yes,Yes,No,2024-04-02,Tech_B,Significant improvement over control
+SP-RC10-600-FC-3,RC-10,600,Furnace_Cooling,44,370,11.8,15.1,375,Localized,Moderate,Yes,Yes,No,2024-04-02,Tech_B,Significant improvement over control
+SP-RC20-600-FC-1,RC-20,600,Furnace_Cooling,48,385,8.5,11.2,265,Minimal,Light,Yes,No,No,2024-04-03,Tech_A,Excellent spalling resistance
+SP-RC20-600-FC-2,RC-20,600,Furnace_Cooling,46,380,9.1,11.8,275,Minimal,Light,Yes,No,No,2024-04-03,Tech_A,Excellent spalling resistance
+SP-RC20-600-FC-3,RC-20,600,Furnace_Cooling,50,390,7.9,10.6,255,Minimal,Light,Yes,No,No,2024-04-03,Tech_A,Excellent spalling resistance
+SP-RC20-800-FC-1,RC-20,800,Furnace_Cooling,35,325,22.5,25.8,625,Progressive,Moderate,Yes,Yes,Yes,2024-04-04,Tech_B,Much better than control
+SP-RC20-800-FC-2,RC-20,800,Furnace_Cooling,33,320,24.1,27.2,645,Progressive,Moderate,Yes,Yes,Yes,2024-04-04,Tech_B,Much better than control
+SP-RC20-800-FC-3,RC-20,800,Furnace_Cooling,37,330,21.8,24.5,605,Progressive,Moderate,Yes,Yes,Yes,2024-04-04,Tech_B,Much better than control
+SP-RC30-600-FC-1,RC-30,600,Furnace_Cooling,55,415,4.2,6.8,155,Surface,Light,No,No,Yes,2024-04-05,Tech_A,Outstanding spalling resistance
+SP-RC30-600-FC-2,RC-30,600,Furnace_Cooling,53,410,4.8,7.2,165,Surface,Light,No,No,Yes,2024-04-05,Tech_A,Outstanding spalling resistance
+SP-RC30-600-FC-3,RC-30,600,Furnace_Cooling,57,420,3.9,6.5,145,Surface,Light,No,No,Yes,2024-04-05,Tech_A,Outstanding spalling resistance
+SP-RC30-800-FC-1,RC-30,800,Furnace_Cooling,42,385,15.5,18.2,445,Localized,Moderate,Yes,Yes,No,2024-04-06,Tech_B,Exceptional performance at 800C
+SP-RC30-800-FC-2,RC-30,800,Furnace_Cooling,40,380,16.8,19.5,465,Localized,Moderate,Yes,Yes,No,2024-04-06,Tech_B,Exceptional performance at 800C
+SP-RC30-800-FC-3,RC-30,800,Furnace_Cooling,44,390,14.2,16.9,425,Localized,Moderate,Yes,Yes,No,2024-04-06,Tech_B,Exceptional performance at 800C

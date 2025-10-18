@@ -1,0 +1,41 @@
+Specimen_ID,Mix_ID,Target_Temperature_C,Cooling_Method,Surface_Color_Change,Color_Description,Crack_Density_per_cm2,Max_Crack_Width_mm,Crack_Pattern,Surface_Texture,Aggregate_Exposure,Rubber_Condition,Damage_Rating,Photo_ID,Test_Date,Operator,Notes
+VDA-CTRL-200-FC-1,CTRL,200,Furnace_Cooling,Slight,Light_Pink,0.2,0.1,Random_Micro,Slightly_Rough,None,NA,1,IMG_001,2024-04-12,Tech_A,Minimal visible damage
+VDA-CTRL-200-FC-2,CTRL,200,Furnace_Cooling,Slight,Light_Pink,0.3,0.1,Random_Micro,Slightly_Rough,None,NA,1,IMG_002,2024-04-12,Tech_A,Minimal visible damage
+VDA-CTRL-400-FC-1,CTRL,400,Furnace_Cooling,Moderate,Pink_Red,1.5,0.5,Network,Rough,Slight,NA,3,IMG_003,2024-04-12,Tech_A,Visible microcracking
+VDA-CTRL-400-FC-2,CTRL,400,Furnace_Cooling,Moderate,Pink_Red,1.7,0.6,Network,Rough,Slight,NA,3,IMG_004,2024-04-12,Tech_A,Visible microcracking
+VDA-CTRL-400-WQ-1,CTRL,400,Water_Quench,Moderate,Pink_Red,3.2,1.2,Radial,Very_Rough,Moderate,NA,4,IMG_005,2024-04-12,Tech_A,Thermal shock cracking
+VDA-CTRL-400-WQ-2,CTRL,400,Water_Quench,Moderate,Pink_Red,3.5,1.4,Radial,Very_Rough,Moderate,NA,4,IMG_006,2024-04-12,Tech_A,Thermal shock cracking
+VDA-CTRL-600-FC-1,CTRL,600,Furnace_Cooling,Severe,Gray_Brown,5.8,2.5,Interconnected,Very_Rough,Extensive,NA,5,IMG_007,2024-04-13,Tech_B,Significant deterioration
+VDA-CTRL-600-FC-2,CTRL,600,Furnace_Cooling,Severe,Gray_Brown,6.1,2.8,Interconnected,Very_Rough,Extensive,NA,5,IMG_008,2024-04-13,Tech_B,Significant deterioration
+VDA-CTRL-600-WQ-1,CTRL,600,Water_Quench,Severe,Gray_Brown,12.5,5.2,Explosive,Spalled,Complete,NA,7,IMG_009,2024-04-13,Tech_B,Explosive spalling damage
+VDA-CTRL-600-WQ-2,CTRL,600,Water_Quench,Severe,Gray_Brown,13.2,5.8,Explosive,Spalled,Complete,NA,7,IMG_010,2024-04-13,Tech_B,Explosive spalling damage
+VDA-CTRL-800-FC-1,CTRL,800,Furnace_Cooling,Complete,White_Gray,15.2,8.5,Continuous,Severely_Spalled,Complete,NA,8,IMG_011,2024-04-14,Tech_A,Structural failure
+VDA-CTRL-800-FC-2,CTRL,800,Furnace_Cooling,Complete,White_Gray,16.8,9.2,Continuous,Severely_Spalled,Complete,NA,8,IMG_012,2024-04-14,Tech_A,Structural failure
+VDA-CTRL-800-WQ-1,CTRL,800,Water_Quench,Complete,White_Gray,25.5,15.2,Catastrophic,Destroyed,Complete,NA,10,IMG_013,2024-04-14,Tech_A,Complete failure
+VDA-CTRL-800-WQ-2,CTRL,800,Water_Quench,Complete,White_Gray,28.2,16.8,Catastrophic,Destroyed,Complete,NA,10,IMG_014,2024-04-14,Tech_A,Complete failure
+VDA-RC10-200-FC-1,RC-10,200,Furnace_Cooling,Slight,Light_Pink,0.1,0.05,Isolated,Smooth,None,Intact,1,IMG_015,2024-04-15,Tech_A,Excellent condition
+VDA-RC10-200-FC-2,RC-10,200,Furnace_Cooling,Slight,Light_Pink,0.1,0.05,Isolated,Smooth,None,Intact,1,IMG_016,2024-04-15,Tech_A,Excellent condition
+VDA-RC10-400-FC-1,RC-10,400,Furnace_Cooling,Moderate,Pink_Red,0.8,0.3,Scattered,Slightly_Rough,None,Softened,2,IMG_017,2024-04-15,Tech_A,Better than control
+VDA-RC10-400-FC-2,RC-10,400,Furnace_Cooling,Moderate,Pink_Red,0.9,0.3,Scattered,Slightly_Rough,None,Softened,2,IMG_018,2024-04-15,Tech_A,Better than control
+VDA-RC10-600-FC-1,RC-10,600,Furnace_Cooling,Severe,Gray_Brown,2.5,1.2,Localized,Rough,Slight,Degraded,3,IMG_019,2024-04-16,Tech_B,Significant improvement
+VDA-RC10-600-FC-2,RC-10,600,Furnace_Cooling,Severe,Gray_Brown,2.8,1.4,Localized,Rough,Slight,Degraded,3,IMG_020,2024-04-16,Tech_B,Significant improvement
+VDA-RC20-400-FC-1,RC-20,400,Furnace_Cooling,Moderate,Pink_Red,0.5,0.2,Minimal,Smooth,None,Softened,1,IMG_021,2024-04-17,Tech_A,Excellent performance
+VDA-RC20-400-FC-2,RC-20,400,Furnace_Cooling,Moderate,Pink_Red,0.6,0.2,Minimal,Smooth,None,Softened,1,IMG_022,2024-04-17,Tech_A,Excellent performance
+VDA-RC20-600-FC-1,RC-20,600,Furnace_Cooling,Severe,Gray_Brown,1.2,0.8,Scattered,Slightly_Rough,None,Degraded,2,IMG_023,2024-04-17,Tech_A,Much better than control
+VDA-RC20-600-FC-2,RC-20,600,Furnace_Cooling,Severe,Gray_Brown,1.4,0.9,Scattered,Slightly_Rough,None,Degraded,2,IMG_024,2024-04-17,Tech_A,Much better than control
+VDA-RC20-800-FC-1,RC-20,800,Furnace_Cooling,Complete,White_Gray,4.5,3.2,Localized,Rough,Moderate,Burned_Out,4,IMG_025,2024-04-18,Tech_B,Remarkable improvement
+VDA-RC20-800-FC-2,RC-20,800,Furnace_Cooling,Complete,White_Gray,4.8,3.5,Localized,Rough,Moderate,Burned_Out,4,IMG_026,2024-04-18,Tech_B,Remarkable improvement
+VDA-RC30-400-FC-1,RC-30,400,Furnace_Cooling,Moderate,Pink_Red,0.3,0.1,Minimal,Smooth,None,Softened,1,IMG_027,2024-04-19,Tech_A,Outstanding performance
+VDA-RC30-400-FC-2,RC-30,400,Furnace_Cooling,Moderate,Pink_Red,0.2,0.1,Minimal,Smooth,None,Softened,1,IMG_028,2024-04-19,Tech_A,Outstanding performance
+VDA-RC30-600-FC-1,RC-30,600,Furnace_Cooling,Severe,Gray_Brown,0.8,0.5,Surface_Only,Slightly_Rough,None,Degraded,2,IMG_029,2024-04-19,Tech_A,Exceptional spalling resistance
+VDA-RC30-600-FC-2,RC-30,600,Furnace_Cooling,Severe,Gray_Brown,0.9,0.6,Surface_Only,Slightly_Rough,None,Degraded,2,IMG_030,2024-04-19,Tech_A,Exceptional spalling resistance
+VDA-RC30-800-FC-1,RC-30,800,Furnace_Cooling,Complete,White_Gray,2.5,2.1,Localized,Rough,Slight,Burned_Out,3,IMG_031,2024-04-20,Tech_B,Excellent compared to control
+VDA-RC30-800-FC-2,RC-30,800,Furnace_Cooling,Complete,White_Gray,2.8,2.3,Localized,Rough,Slight,Burned_Out,3,IMG_032,2024-04-20,Tech_B,Excellent compared to control
+VDA-RC15SF-400-FC-1,RC-15-SF,400,Furnace_Cooling,Moderate,Pink_Red,0.6,0.2,Scattered,Smooth,None,Softened,2,IMG_033,2024-04-21,Tech_A,SF improves surface quality
+VDA-RC15SF-400-FC-2,RC-15-SF,400,Furnace_Cooling,Moderate,Pink_Red,0.7,0.3,Scattered,Smooth,None,Softened,2,IMG_034,2024-04-21,Tech_A,SF improves surface quality
+VDA-RC15SF-600-FC-1,RC-15-SF,600,Furnace_Cooling,Severe,Gray_Brown,1.8,1.0,Localized,Slightly_Rough,None,Degraded,3,IMG_035,2024-04-21,Tech_A,SF provides thermal stability
+VDA-RC15SF-600-FC-2,RC-15-SF,600,Furnace_Cooling,Severe,Gray_Brown,2.0,1.1,Localized,Slightly_Rough,None,Degraded,3,IMG_036,2024-04-21,Tech_A,SF provides thermal stability
+VDA-RC15FA-400-FC-1,RC-15-FA,400,Furnace_Cooling,Moderate,Pink_Red,0.8,0.3,Scattered,Slightly_Rough,None,Softened,2,IMG_037,2024-04-22,Tech_B,FA shows moderate improvement
+VDA-RC15FA-400-FC-2,RC-15-FA,400,Furnace_Cooling,Moderate,Pink_Red,0.9,0.4,Scattered,Slightly_Rough,None,Softened,2,IMG_038,2024-04-22,Tech_B,FA shows moderate improvement
+VDA-RC15FA-600-FC-1,RC-15-FA,600,Furnace_Cooling,Severe,Gray_Brown,2.2,1.3,Localized,Rough,Slight,Degraded,3,IMG_039,2024-04-22,Tech_B,FA provides some benefit
+VDA-RC15FA-600-FC-2,RC-15-FA,600,Furnace_Cooling,Severe,Gray_Brown,2.4,1.4,Localized,Rough,Slight,Degraded,3,IMG_040,2024-04-22,Tech_B,FA provides some benefit

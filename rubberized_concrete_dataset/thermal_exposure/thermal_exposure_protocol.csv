@@ -1,0 +1,25 @@
+Test_ID,Mix_ID,Target_Temperature_C,Heating_Rate_C_min,Soak_Time_min,Cooling_Method,Actual_Peak_Temperature_C,Time_to_Peak_min,Total_Test_Duration_min,Furnace_Type,Atmosphere,Operator,Test_Date,Notes
+TE-CTRL-200-FC-1,CTRL,200,5,60,Furnace_Cooling,202,40,180,Electric_Muffle,Air,Tech_A,2024-02-10,Standard heating protocol
+TE-CTRL-200-FC-2,CTRL,200,5,60,Furnace_Cooling,201,40,182,Electric_Muffle,Air,Tech_A,2024-02-10,Standard heating protocol
+TE-CTRL-200-FC-3,CTRL,200,5,60,Furnace_Cooling,203,39,178,Electric_Muffle,Air,Tech_A,2024-02-10,Standard heating protocol
+TE-CTRL-200-WQ-1,CTRL,200,5,60,Water_Quench,202,40,65,Electric_Muffle,Air,Tech_A,2024-02-10,Rapid cooling in water
+TE-CTRL-200-WQ-2,CTRL,200,5,60,Water_Quench,201,40,65,Electric_Muffle,Air,Tech_A,2024-02-10,Rapid cooling in water
+TE-CTRL-200-WQ-3,CTRL,200,5,60,Water_Quench,203,39,65,Electric_Muffle,Air,Tech_A,2024-02-10,Rapid cooling in water
+TE-CTRL-400-FC-1,CTRL,400,5,60,Furnace_Cooling,398,80,240,Electric_Muffle,Air,Tech_B,2024-02-11,Standard heating protocol
+TE-CTRL-400-FC-2,CTRL,400,5,60,Furnace_Cooling,401,80,242,Electric_Muffle,Air,Tech_B,2024-02-11,Standard heating protocol
+TE-CTRL-400-FC-3,CTRL,400,5,60,Furnace_Cooling,402,79,238,Electric_Muffle,Air,Tech_B,2024-02-11,Standard heating protocol
+TE-CTRL-400-WQ-1,CTRL,400,5,60,Water_Quench,398,80,145,Electric_Muffle,Air,Tech_B,2024-02-11,Rapid cooling in water
+TE-CTRL-400-WQ-2,CTRL,400,5,60,Water_Quench,401,80,145,Electric_Muffle,Air,Tech_B,2024-02-11,Rapid cooling in water
+TE-CTRL-400-WQ-3,CTRL,400,5,60,Water_Quench,402,79,145,Electric_Muffle,Air,Tech_B,2024-02-11,Rapid cooling in water
+TE-CTRL-600-FC-1,CTRL,600,5,60,Furnace_Cooling,595,120,300,Electric_Muffle,Air,Tech_A,2024-02-12,Standard heating protocol
+TE-CTRL-600-FC-2,CTRL,600,5,60,Furnace_Cooling,602,120,305,Electric_Muffle,Air,Tech_A,2024-02-12,Standard heating protocol
+TE-CTRL-600-FC-3,CTRL,600,5,60,Furnace_Cooling,598,119,298,Electric_Muffle,Air,Tech_A,2024-02-12,Standard heating protocol
+TE-CTRL-600-WQ-1,CTRL,600,5,60,Water_Quench,595,120,185,Electric_Muffle,Air,Tech_A,2024-02-12,Rapid cooling in water
+TE-CTRL-600-WQ-2,CTRL,600,5,60,Water_Quench,602,120,185,Electric_Muffle,Air,Tech_A,2024-02-12,Rapid cooling in water
+TE-CTRL-600-WQ-3,CTRL,600,5,60,Water_Quench,598,119,185,Electric_Muffle,Air,Tech_A,2024-02-12,Rapid cooling in water
+TE-CTRL-800-FC-1,CTRL,800,5,60,Furnace_Cooling,792,160,400,Electric_Muffle,Air,Tech_B,2024-02-13,Standard heating protocol
+TE-CTRL-800-FC-2,CTRL,800,5,60,Furnace_Cooling,805,160,405,Electric_Muffle,Air,Tech_B,2024-02-13,Standard heating protocol
+TE-CTRL-800-FC-3,CTRL,800,5,60,Furnace_Cooling,798,159,398,Electric_Muffle,Air,Tech_B,2024-02-13,Standard heating protocol
+TE-CTRL-800-WQ-1,CTRL,800,5,60,Water_Quench,792,160,225,Electric_Muffle,Air,Tech_B,2024-02-13,Rapid cooling in water
+TE-CTRL-800-WQ-2,CTRL,800,5,60,Water_Quench,805,160,225,Electric_Muffle,Air,Tech_B,2024-02-13,Rapid cooling in water
+TE-CTRL-800-WQ-3,CTRL,800,5,60,Water_Quench,798,159,225,Electric_Muffle,Air,Tech_B,2024-02-13,Rapid cooling in water
