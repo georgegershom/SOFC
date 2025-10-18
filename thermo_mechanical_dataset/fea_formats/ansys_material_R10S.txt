@@ -1,0 +1,12 @@
+! Material: R10S
+! Temperature-dependent properties
+
+! Elastic Modulus (MPa) vs Temperature (C)
+MPTEMP
+MPTEMP,1,20,40,60,80,100,120
+MPDATA,EX,1
+MPDATA,EX,1,1,33766.7,33496.5,33226.6,32956.9,32687.5,31862.6
+
+! Thermal Conductivity (W/m-K) vs Temperature (C)
+MPDATA,KXX,1
+MPDATA,KXX,1,1,2.114,2.100,2.084,2.066,2.047,2.025

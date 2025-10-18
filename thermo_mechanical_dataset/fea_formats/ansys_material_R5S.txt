@@ -1,0 +1,12 @@
+! Material: R5S
+! Temperature-dependent properties
+
+! Elastic Modulus (MPa) vs Temperature (C)
+MPTEMP
+MPTEMP,1,20,40,60,80,100,120
+MPDATA,EX,1
+MPDATA,EX,1,1,34381.0,34114.6,33848.3,33582.1,33316.1,32483.6
+
+! Thermal Conductivity (W/m-K) vs Temperature (C)
+MPDATA,KXX,1
+MPDATA,KXX,1,1,2.197,2.183,2.166,2.148,2.127,2.104
