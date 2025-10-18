@@ -1,0 +1,37 @@
+{
+  "Critical_Temperature_Ranges": {
+    "400-500\u00b0C": "Critical transition zone: Portlandite decomposition + rubber pyrolysis creates dual weakening mechanism",
+    "600\u00b0C": "Percolation threshold: crack network becomes interconnected, catastrophic permeability increase",
+    "800\u00b0C": "Complete CSH breakdown: material loses all cohesive strength"
+  },
+  "Rubber_Effects": {
+    "Positive": [
+      "Reduced thermal cracking below 400\u00b0C due to stress relaxation",
+      "Lower thermal conductivity delays heat penetration",
+      "Crack bridging mechanism at moderate temperatures"
+    ],
+    "Negative": [
+      "Increased ITZ thickness weakens aggregate-paste bond",
+      "Pyrolysis creates additional porosity (200-500\u00b0C)",
+      "Accelerated crack propagation above 600\u00b0C"
+    ]
+  },
+  "Key_Mechanisms": {
+    "ITZ_Degradation": "ITZ thickness increases 150% at 800\u00b0C, creating preferential failure paths",
+    "Phase_Transformation": "CSH \u2192 C\u2082S + lime transformation reduces binding capacity by 75%",
+    "Pore_Pressure": "Water vapor pressure from dehydration induces thermal spalling risk",
+    "Rubber_Carbonization": "Carbonized rubber acts as stress concentrator, not reinforcement"
+  },
+  "Novel_Findings": [
+    "Rubber particles maintain structural integrity up to 350\u00b0C, providing pseudo-ductility",
+    "Synergistic degradation: rubber pyrolysis gases accelerate CSH decomposition",
+    "Critical rubber content threshold: 10-15% optimizes fire resistance vs strength",
+    "Fractal dimension of crack network correlates with residual strength (R\u00b2 = 0.89)"
+  ],
+  "Engineering_Implications": {
+    "Design_Recommendation": "10% rubber content optimal for fire-resistant applications",
+    "Critical_Cover_Depth": "Increase by 1.5x for rubberized concrete in fire-prone structures",
+    "Spalling_Prevention": "PP fibers still needed despite rubber presence",
+    "Service_Temperature": "Limit to 400\u00b0C for structural applications"
+  }
+}

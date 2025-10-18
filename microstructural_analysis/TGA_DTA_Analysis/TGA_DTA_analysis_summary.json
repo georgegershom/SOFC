@@ -1,0 +1,42 @@
+{
+  "Dataset": "TGA/DTA Analysis for Rubberized Concrete",
+  "Generated": "2025-10-18T18:00:32.086957",
+  "Total_TGA_Points": 1485,
+  "Total_DTA_Points": 1485,
+  "Total_Kinetic_Analyses": 47,
+  "Temperature_Range_C": "20-1000",
+  "Heating_Rates_C_per_min": [
+    5,
+    10,
+    20
+  ],
+  "Rubber_Contents_%": [
+    0,
+    5,
+    10,
+    15,
+    20
+  ],
+  "Key_Decomposition_Events": [
+    "Free_Water",
+    "C-S-H_Water",
+    "Ettringite",
+    "Gypsum",
+    "Rubber_Volatiles",
+    "Rubber_Pyrolysis",
+    "Portlandite",
+    "C-S-H_Decomposition",
+    "Calcite",
+    "Rubber_Char_Oxidation"
+  ],
+  "Critical_Temperatures": {
+    "Free_Water_Loss": "20-105\u00b0C",
+    "CSH_Dehydration": "105-200\u00b0C",
+    "Rubber_Pyrolysis": "350-500\u00b0C",
+    "Portlandite_Decomposition": "400-500\u00b0C",
+    "CSH_Decomposition": "600-800\u00b0C",
+    "Calcite_Decomposition": "600-850\u00b0C"
+  },
+  "Max_Total_Mass_Loss_%": 22.569304616594096,
+  "Activation_Energy_Range_kJ_mol": "123.6-1213.9"
+}

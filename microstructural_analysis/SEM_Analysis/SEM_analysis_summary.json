@@ -1,0 +1,27 @@
+{
+  "Dataset": "SEM Analysis for Rubberized Concrete",
+  "Generated": "2025-10-18T18:00:14.441215",
+  "Total_ITZ_Measurements": 2250,
+  "Total_Crack_Analyses": 1500,
+  "Total_Rubber_Particles_Analyzed": 1500,
+  "Total_Paste_Regions": 375,
+  "Total_EDS_Maps": 250,
+  "Temperature_Range_C": "20-800",
+  "Rubber_Contents_%": [
+    0,
+    5,
+    10,
+    15,
+    20
+  ],
+  "Analysis_Parameters": {
+    "ITZ_Thickness_Range_um": "9.9-119.9",
+    "Max_Crack_Density_per_mm2": "61.4",
+    "Rubber_Degradation_States": [
+      "Intact",
+      "Partial_Pyrolysis",
+      "Advanced_Pyrolysis",
+      "Carbonized"
+    ]
+  }
+}
