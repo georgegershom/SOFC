@@ -243,6 +243,10 @@ The viscoelastic effects on fracture risk are evaluated by comparing the evoluti
 
 ## 3. Results and Discussion
 
+![High-Fidelity Model Validation: Predicting Nickel Coarsening](figures/ni_coarsening_validation.png)
+
+**Figure 8.** High-Fidelity (HF) model validation for Nickel coarsening (Δd$_{Ni}$): comparison of HF predictions and SEM measurements. Bars show mean ± 95% CI; Validation R² = 0.97. A light bracket highlights the minimal difference between methods.
+
 ### 3.1. Model Validation and Baseline Stress Distribution
 
 The validation of the numerical model against experimental data and literature constitutes a critical foundation for the subsequent comparative analysis. The baseline stress distribution, established through Load Case 1 (sintering cool-down), provides essential validation of the model's ability to predict residual stresses in SOFC structures.
