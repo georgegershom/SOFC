@@ -1,0 +1,68 @@
+# SOFC Synthetic Dataset Configuration
+
+# Dataset generation parameters
+dataset:
+  n_samples: 1000  # Number of samples to generate
+  sampling_strategy: "lhs"  # DOE strategy: lhs, sobol, random, halton, stratified
+  random_seed: 42
+  use_creep: true  # Include creep effects
+  save_intermediate: true  # Save intermediate results
+
+# Output configuration
+output:
+  base_dir: "./dataset"
+  formats: ["hdf5", "npz", "csv", "json"]  # Export formats
+  vtk_samples: 10  # Number of samples to export as VTK
+  visualization: true  # Generate visualizations
+
+# Mesh parameters
+mesh:
+  cell_length: 100.0  # mm
+  cell_width: 100.0   # mm
+  electrolyte_thickness: 150.0  # μm
+  anode_thickness: 300.0  # μm
+  cathode_thickness: 50.0  # μm
+  interconnect_thickness: 2000.0  # μm
+  elements_per_mm: 10.0
+  electrolyte_elements_z: 8
+  electrode_elements_z: 4
+  interconnect_elements_z: 12
+
+# Material property variations (as percentage of nominal)
+material_variations:
+  electrolyte_youngs_modulus: [-10, 10]  # %
+  electrolyte_cte: [-5, 5]  # %
+  anode_youngs_modulus: [-15, 15]  # %
+  anode_cte: [-8, 8]  # %
+  cathode_youngs_modulus: [-12, 12]  # %
+  cathode_cte: [-6, 6]  # %
+
+# Process parameter ranges
+process_parameters:
+  sintering_temperature: [1300, 1400]  # °C
+  cooling_rate: [1, 5]  # °C/min
+  assembly_pressure: [0.1, 0.4]  # MPa
+  operating_temperature: [750, 850]  # °C
+  thermal_gradient: [10, 100]  # °C
+
+# Creep parameters
+creep:
+  enabled: true
+  time_steps: [0, 3600, 7200]  # seconds (0, 1h, 2h)
+  activation_energy_variation: [-10, 10]  # %
+  stress_exponent_variation: [-15, 15]  # %
+
+# Visualization settings
+visualization:
+  height_map_resolution: [100, 100]
+  stress_map_resolution: [100, 100]
+  plot_samples: 5  # Number of samples to plot
+  save_plots: true
+  plot_formats: ["png", "pdf"]
+
+# Quality control
+quality_control:
+  min_warp_threshold: 0.001  # mm
+  max_stress_threshold: 500.0  # MPa
+  convergence_tolerance: 1e-6
+  max_iterations: 50

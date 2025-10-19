@@ -1,0 +1,26 @@
+{
+  "mesh_resolution": {
+    "elements_per_mm": 10.0,
+    "electrolyte_elements_z": 8,
+    "electrode_elements_z": 4,
+    "interconnect_elements_z": 12
+  },
+  "warp_analysis": {
+    "height_map_resolution": [50, 50],
+    "surfaces": ["top", "bottom", "electrolyte_top", "electrolyte_bottom"]
+  },
+  "stress_analysis": {
+    "surface_resolution": [50, 50],
+    "surfaces": ["electrolyte_top", "electrolyte_bottom"]
+  },
+  "simulation": {
+    "load_cases": ["sintering_cooling", "operation", "thermal_cycling"],
+    "temperature_field_type": "linear"
+  },
+  "dataset": {
+    "min_warp_magnitude": 0.001,
+    "max_warp_magnitude": 10.0,
+    "min_stress": 0.1,
+    "max_stress": 500.0
+  }
+}
