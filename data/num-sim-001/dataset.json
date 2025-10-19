@@ -1,0 +1,51 @@
+{
+  "name": "synthetic_multiphysics_fem_dataset",
+  "version": 1,
+  "description": "Fabricated multi-physics FEM-like dataset (thermal-mech-electro) with fields over time.",
+  "root": "/workspace/data/num-sim-001",
+  "num_samples": 3,
+  "samples": [
+    "sample_000",
+    "sample_001",
+    "sample_002"
+  ],
+  "artifacts_per_sample": [
+    "inputs.json",
+    "time.csv",
+    "fields_timeseries.npz"
+  ],
+  "fields_timeseries_keys": [
+    "temperature_C",
+    "voltage_V",
+    "stress_vm_MPa",
+    "stress_principal1_MPa",
+    "stress_principal2_MPa",
+    "shear_tau_xy_MPa",
+    "strain_elastic_xx",
+    "strain_elastic_yy",
+    "strain_thermal_iso",
+    "strain_plastic_eq",
+    "strain_creep_eq",
+    "damage_D",
+    "interfacial_tau_xy_MPa",
+    "delamination_init_step_by_x",
+    "crack_init_step_mask"
+  ],
+  "units": {
+    "temperature_C": "C",
+    "voltage_V": "V",
+    "stress_vm_MPa": "MPa",
+    "stress_principal1_MPa": "MPa",
+    "stress_principal2_MPa": "MPa",
+    "shear_tau_xy_MPa": "MPa",
+    "strain_elastic_xx": "dimensionless",
+    "strain_elastic_yy": "dimensionless",
+    "strain_thermal_iso": "dimensionless",
+    "strain_plastic_eq": "dimensionless",
+    "strain_creep_eq": "dimensionless",
+    "damage_D": "0..1",
+    "interfacial_tau_xy_MPa": "MPa",
+    "delamination_init_step_by_x": "time step index; -1 if never",
+    "crack_init_step_mask": "bool"
+  }
+}

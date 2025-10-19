@@ -1,0 +1,80 @@
+{
+  "mesh": {
+    "nx": 48,
+    "ny": 40,
+    "element_type": "tri3",
+    "element_size_x_mm": 0.6666666666666666,
+    "element_size_y_mm": 0.8,
+    "interface_y_fraction": 0.5,
+    "interface_refinement_level": 3
+  },
+  "boundary_conditions": {
+    "thermal": {
+      "t_initial_C": 26.787890362893172,
+      "t_peak_C": 176.91360175228525,
+      "heating_rate_C_per_min": 7.732537956186087,
+      "hold_minutes": 19.08326816250787,
+      "cooling_rate_C_per_min": 6.899957283619986,
+      "deltaT_top_minus_bottom_C": 9.465361225365335
+    },
+    "mechanical": {
+      "uy_top_um": 58.86472098011739,
+      "ux_left_um": 22.139958622107414,
+      "shear_amplitude": 0.0008279248177412324
+    },
+    "electrical": {
+      "v_top_V": 1.6546474776234503,
+      "v_bottom_V": 0.0
+    }
+  },
+  "materials": {
+    "layers": [
+      {
+        "name": "bottom_layer",
+        "thickness_fraction": 0.5,
+        "youngs_modulus_GPa": 36.0768931577356,
+        "poisson_ratio": 0.39789269765371,
+        "thermal_expansion_1_per_K": 1.01422155255892e-05,
+        "thermal_conductivity_W_per_mK": 143.2098204096413,
+        "heat_capacity_J_per_kgK": 703.53107152824,
+        "density_kg_per_m3": 6212.8905907254675,
+        "yield_strength_MPa": 585.6865800047842,
+        "hardening_GPa": 0.3551931315772504,
+        "creep_A_per_Pa_pow_n_per_min": 3.0253240139120256e-24,
+        "creep_n": 6.7814109080075,
+        "elec_conductivity_S_per_m": 1252501.7861673054
+      },
+      {
+        "name": "top_layer",
+        "thickness_fraction": 0.5,
+        "youngs_modulus_GPa": 84.1298196958086,
+        "poisson_ratio": 0.2551926841708953,
+        "thermal_expansion_1_per_K": 1.1013059162880229e-05,
+        "thermal_conductivity_W_per_mK": 73.46110205237505,
+        "heat_capacity_J_per_kgK": 489.2739065519942,
+        "density_kg_per_m3": 3686.7263564792593,
+        "yield_strength_MPa": 509.93383473458164,
+        "hardening_GPa": 4.971401494591769,
+        "creep_A_per_Pa_pow_n_per_min": 3.0339570304584883e-23,
+        "creep_n": 6.972537309959543,
+        "elec_conductivity_S_per_m": 3928308.6326209144
+      }
+    ],
+    "interface_tau_crit_MPa": 20.68501522180043,
+    "damage_coupling_coeff": 2.6261126257912735,
+    "crack_sigma1_crit_MPa": 795.66155663976
+  },
+  "time": {
+    "total_minutes": 60.25555666447218,
+    "time_steps": 72
+  },
+  "units": {
+    "length": "mm",
+    "temperature": "C",
+    "stress": "MPa",
+    "voltage": "V",
+    "strain": "dimensionless",
+    "time": "minutes"
+  },
+  "notes": "Synthetic data; not from a PDE solver."
+}
