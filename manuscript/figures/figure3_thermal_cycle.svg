@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-label="Thermal cycle and stress response">
+  <title>Thermal Cycle and Electrolyte Stress Response</title>
+  <desc>Line graph showing temperature vs time and corresponding principal stress for elastic and viscoelastic models.</desc>
+  <style><![CDATA[
+    .axis{stroke:#333; stroke-width:2}
+    .grid{stroke:#eee; stroke-width:1}
+    .label{font-family:Arial, Helvetica, sans-serif; font-size:14px; fill:#222}
+    .title{font-size:20px; font-weight:bold}
+    .line{fill:none; stroke-width:3}
+    .elastic{stroke:#2c7fb8}
+    .visco{stroke:#f46d43; stroke-dasharray:6 4}
+    .temp{stroke:#7570b3; stroke-dasharray:2 4}
+  ]]></style>
+
+  <text x="450" y="30" text-anchor="middle" class="title">Thermal Cycle (ΔT=400°C) and Max Principal Stress</text>
+
+  <!-- Axes -->
+  <line x1="80" y1="460" x2="820" y2="460" class="axis"/>
+  <line x1="80" y1="460" x2="80" y2="80" class="axis"/>
+
+  <!-- Grid -->
+  <g>
+    <line x1="80" y1="400" x2="820" y2="400" class="grid"/>
+    <line x1="80" y1="340" x2="820" y2="340" class="grid"/>
+    <line x1="80" y1="280" x2="820" y2="280" class="grid"/>
+    <line x1="80" y1="220" x2="820" y2="220" class="grid"/>
+    <line x1="80" y1="160" x2="820" y2="160" class="grid"/>
+    <line x1="80" y1="100" x2="820" y2="100" class="grid"/>
+  </g>
+
+  <text x="20" y="80" class="label" transform="rotate(-90 20,80)">Max Principal Stress (MPa)</text>
+  <text x="450" y="490" class="label" text-anchor="middle">Time (arbitrary units)</text>
+
+  <!-- Temperature profile -->
+  <polyline points="80,420 200,120 350,120 500,420 650,120 820,420" class="line temp"/>
+  <text x="160" y="110" class="label">Temperature</text>
+
+  <!-- Elastic stress response -->
+  <polyline points="80,360 200,200 350,200 500,360 650,200 820,360" class="line elastic"/>
+  <text x="520" y="200" class="label">Elastic</text>
+
+  <!-- Viscoelastic stress response (lower due to relaxation) -->
+  <polyline points="80,380 200,240 350,240 500,380 650,240 820,380" class="line visco"/>
+  <text x="540" y="240" class="label">Viscoelastic</text>
+
+  <!-- Legend -->
+  <rect x="580" y="90" width="240" height="70" fill="#fff" stroke="#ccc"/>
+  <line x1="600" y1="115" x2="640" y2="115" class="line elastic"/>
+  <text x="650" y="120" class="label">Elastic Stress</text>
+  <line x1="600" y1="140" x2="640" y2="140" class="line visco"/>
+  <text x="650" y="145" class="label">Viscoelastic Stress</text>
+  <line x1="600" y1="165" x2="640" y2="165" class="line temp"/>
+  <text x="650" y="170" class="label">Temperature</text>
+</svg>
