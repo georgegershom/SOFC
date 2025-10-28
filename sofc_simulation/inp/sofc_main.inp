@@ -1,0 +1,271 @@
+*Heading
+** SOFC Single Repeat Unit - Thermo-mechanical Analysis
+** 2D Plane Stress Model with Sequential Heat Transfer and Structural Analysis
+** Units: SI (m-kg-s-K-N-Pa)
+**
+*Preprint, echo=NO, model=NO, history=NO, contact=NO
+**
+** PART DEFINITION
+**
+*Part, name=SOFC_CELL
+*Node
+      1,  0.000000E+00,  0.000000E+00
+      2,  1.000000E-03,  0.000000E+00
+      3,  2.000000E-03,  0.000000E+00
+      4,  3.000000E-03,  0.000000E+00
+      5,  4.000000E-03,  0.000000E+00
+      6,  5.000000E-03,  0.000000E+00
+      7,  6.000000E-03,  0.000000E+00
+      8,  7.000000E-03,  0.000000E+00
+      9,  8.000000E-03,  0.000000E+00
+     10,  9.000000E-03,  0.000000E+00
+     11,  1.000000E-02,  0.000000E+00
+** Continue mesh generation with refined layers
+*Element, type=DC2D4, elset=HEAT_ELEM
+1, 1, 2, 22, 21
+2, 2, 3, 23, 22
+3, 3, 4, 24, 23
+4, 4, 5, 25, 24
+5, 5, 6, 26, 25
+6, 6, 7, 27, 26
+7, 7, 8, 28, 27
+8, 8, 9, 29, 28
+9, 9, 10, 30, 29
+10, 10, 11, 31, 30
+** Element sets for structural analysis
+*Element, type=CPS4, elset=STRUCT_ELEM
+1001, 1, 2, 22, 21
+1002, 2, 3, 23, 22
+1003, 3, 4, 24, 23
+1004, 4, 5, 25, 24
+1005, 5, 6, 26, 25
+1006, 6, 7, 27, 26
+1007, 7, 8, 28, 27
+1008, 8, 9, 29, 28
+1009, 9, 10, 30, 29
+1010, 10, 11, 31, 30
+** Generate complete mesh with refinement at interfaces
+*Ngen, nset=ALL_NODES
+1, 881, 1, 0.0, 0.0, 0.0, 0.000125, 0.0, 0.0, 80
+*Ngen, nset=Y_LAYERS
+1, 11, 1, 0.0, 0.0, 0.0, 0.0, 0.00002, 0.0, 50
+** Element generation for all layers
+*Elgen, elset=ANODE_ELEM
+1, 10, 1, 1, 20, 11, 100
+*Elgen, elset=ELECTROLYTE_ELEM
+201, 10, 1, 1, 5, 11, 100
+*Elgen, elset=CATHODE_ELEM
+251, 10, 1, 1, 20, 11, 100
+*Elgen, elset=INTERCONNECT_ELEM
+451, 10, 1, 1, 5, 11, 100
+** Define node sets for boundaries and interfaces
+*Nset, nset=X0_EDGE, generate
+1, 551, 11
+*Nset, nset=X10_EDGE, generate
+11, 561, 11
+*Nset, nset=Y0_EDGE, generate
+1, 11, 1
+*Nset, nset=YTOP_EDGE, generate
+551, 561, 1
+*Nset, nset=INT_AE, generate
+221, 231, 1
+*Nset, nset=INT_EC, generate
+276, 286, 1
+*Nset, nset=INT_CI, generate
+496, 506, 1
+** Surface definitions for interface tracking
+*Surface, type=ELEMENT, name=SURF_AE
+ANODE_ELEM, S3
+*Surface, type=ELEMENT, name=SURF_EC
+ELECTROLYTE_ELEM, S3
+*Surface, type=ELEMENT, name=SURF_CI
+CATHODE_ELEM, S3
+*End Part
+**
+** ASSEMBLY
+**
+*Assembly, name=Assembly
+*Instance, name=SOFC_CELL-1, part=SOFC_CELL
+*End Instance
+*End Assembly
+**
+** MATERIALS
+**
+** Material: Ni-YSZ (Anode)
+*Material, name=NI_YSZ
+*Density
+7000.0
+*Elastic, temperature=298.0
+1.40E+11, 0.30
+*Elastic, temperature=1273.0
+9.10E+10, 0.30
+*Expansion, temperature=298.0
+1.25E-05
+*Expansion, temperature=1273.0
+1.35E-05
+*Conductivity, temperature=298.0
+6.0
+*Conductivity, temperature=1273.0
+4.0
+*Specific Heat, temperature=298.0
+450.0
+*Specific Heat, temperature=1273.0
+570.0
+** Johnson-Cook Plasticity for Ni-YSZ
+*Plastic, hardening=JOHNSON COOK
+150.0E+06, 200.0E+06, 0.35, 0.02, 1.0, 298.0, 1720.0, 1.0
+** Norton-Bailey Creep
+*Creep, law=NORTON
+1.0E-18, 3.5, 2.2E+05, 8.314
+**
+** Material: 8YSZ (Electrolyte)
+*Material, name=YSZ_8
+*Density
+5900.0
+*Elastic, temperature=298.0
+2.10E+11, 0.28
+*Elastic, temperature=1273.0
+1.70E+11, 0.28
+*Expansion, temperature=298.0
+1.05E-05
+*Expansion, temperature=1273.0
+1.12E-05
+*Conductivity, temperature=298.0
+2.6
+*Conductivity, temperature=1273.0
+2.0
+*Specific Heat, temperature=298.0
+400.0
+*Specific Heat, temperature=1273.0
+600.0
+** Norton-Bailey Creep for YSZ
+*Creep, law=NORTON
+5.0E-22, 2.0, 3.8E+05, 8.314
+**
+** Material: LSM (Cathode)
+*Material, name=LSM
+*Density
+6500.0
+*Elastic, temperature=298.0
+1.20E+11, 0.30
+*Elastic, temperature=1273.0
+8.40E+10, 0.30
+*Expansion, temperature=298.0
+1.15E-05
+*Expansion, temperature=1273.0
+1.24E-05
+*Conductivity, temperature=298.0
+2.0
+*Conductivity, temperature=1273.0
+1.8
+*Specific Heat, temperature=298.0
+480.0
+*Specific Heat, temperature=1273.0
+610.0
+**
+** Material: Ferritic Steel (Interconnect)
+*Material, name=FERRITIC_STEEL
+*Density
+7800.0
+*Elastic, temperature=298.0
+2.05E+11, 0.30
+*Elastic, temperature=1273.0
+1.50E+11, 0.30
+*Expansion, temperature=298.0
+1.25E-05
+*Expansion, temperature=1273.0
+1.32E-05
+*Conductivity, temperature=298.0
+20.0
+*Conductivity, temperature=1273.0
+15.0
+*Specific Heat, temperature=298.0
+500.0
+*Specific Heat, temperature=1273.0
+700.0
+**
+** SECTIONS
+**
+*Solid Section, elset=ANODE_ELEM, material=NI_YSZ
+1.0,
+*Solid Section, elset=ELECTROLYTE_ELEM, material=YSZ_8
+1.0,
+*Solid Section, elset=CATHODE_ELEM, material=LSM
+1.0,
+*Solid Section, elset=INTERCONNECT_ELEM, material=FERRITIC_STEEL
+1.0,
+**
+** AMPLITUDE CURVES FOR THERMAL LOADING
+**
+** HR1: 1°C/min heating rate
+*Amplitude, name=AMP_HR1
+0.0, 298.0, 52500.0, 1173.0, 53100.0, 1173.0, 105600.0, 298.0
+** HR4: 4°C/min heating rate
+*Amplitude, name=AMP_HR4
+0.0, 298.0, 13125.0, 1173.0, 13725.0, 1173.0, 26850.0, 298.0
+** HR10: 10°C/min heating rate
+*Amplitude, name=AMP_HR10
+0.0, 298.0, 5250.0, 1173.0, 5850.0, 1173.0, 11100.0, 298.0
+**
+** STEP 1: TRANSIENT HEAT TRANSFER
+**
+*Step, name=Heat_Transfer, nlgeom=NO, inc=25000
+*Heat Transfer, end=PERIOD, deltmx=50.0
+1.0, 52500.0, 1.0, 100.0
+**
+** BOUNDARY CONDITIONS - THERMAL
+**
+*Boundary, amplitude=AMP_HR1
+SOFC_CELL-1.Y0_EDGE, 11, 11, 1.0
+*Film, amplitude=RAMP
+SOFC_CELL-1.YTOP_EDGE, F, 298.0, 25.0
+**
+** OUTPUT REQUESTS - HEAT TRANSFER
+**
+*Restart, write, frequency=100
+*Output, field, frequency=50
+*Node Output
+NT, RFL
+*Element Output, directions=YES
+HFL, HFLA
+*Output, history, frequency=10
+*Node Output, nset=SOFC_CELL-1.INT_AE
+NT
+*Node Output, nset=SOFC_CELL-1.INT_EC
+NT
+*Node Output, nset=SOFC_CELL-1.INT_CI
+NT
+*End Step
+**
+** STEP 2: THERMO-MECHANICAL ANALYSIS
+**
+*Step, name=Thermo_Mechanical, nlgeom=YES, inc=25000
+*Static
+1.0, 52500.0, 0.01, 100.0
+**
+** PREDEFINED FIELD - TEMPERATURE FROM HEAT TRANSFER
+**
+*Temperature, file=Heat_Transfer, bstep=1, binc=LAST, estep=1, einc=LAST
+**
+** BOUNDARY CONDITIONS - MECHANICAL
+**
+*Boundary
+SOFC_CELL-1.X0_EDGE, 1, 1, 0.0
+SOFC_CELL-1.Y0_EDGE, 2, 2, 0.0
+**
+** OUTPUT REQUESTS - STRUCTURAL
+**
+*Restart, write, frequency=100
+*Output, field, frequency=50
+*Node Output
+U, RF, NT
+*Element Output, directions=YES
+S, E, LE, EE, PE, CE, PEEQ, CEEQ, PEMAG, CEMAG, MISES, TEMP
+*Output, history, frequency=10
+*Element Output, elset=SOFC_CELL-1.INT_AE
+S11, S22, S12, MISES
+*Element Output, elset=SOFC_CELL-1.INT_EC
+S11, S22, S12, MISES
+*Element Output, elset=SOFC_CELL-1.INT_CI
+S11, S22, S12, MISES
+*End Step
