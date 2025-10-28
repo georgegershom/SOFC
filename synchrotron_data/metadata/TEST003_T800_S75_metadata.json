@@ -1,0 +1,90 @@
+{
+  "test_id": "TEST003",
+  "test_type": "In-situ creep test with tomography",
+  "start_time": "2025-10-04T10:59:48.258322",
+  "end_time": "2025-12-26T18:59:48.258322",
+  "duration_hours": 2000,
+  "thermal_conditions": {
+    "nominal_temperature": 800,
+    "temperature_stability": "\u00b12\u00b0C",
+    "heating_rate": 10,
+    "temperature_profile": "Isothermal after stabilization",
+    "atmosphere": {
+      "composition": "Ar-5%H2",
+      "flow_rate": 100,
+      "dew_point": -40,
+      "oxygen_partial_pressure": 1e-20
+    },
+    "furnace_type": "Resistance heating with Mo elements",
+    "temperature_measurement": "Type S thermocouple"
+  },
+  "mechanical_loading": {
+    "load_type": "Constant stress (creep)",
+    "nominal_stress": 75,
+    "stress_uncertainty": "\u00b11 MPa",
+    "loading_rate": 50,
+    "load_cell_capacity": 5000,
+    "load_cell_accuracy": "0.1% full scale",
+    "alignment": "Class 5 per ASTM E1012"
+  },
+  "synchrotron_parameters": {
+    "beam_energy": 80,
+    "wavelength": 0.1549,
+    "beam_size": "0.5 \u00d7 0.5 mm\u00b2",
+    "flux": 1000000000000.0,
+    "detector": {
+      "tomography": {
+        "type": "Scintillator + sCMOS",
+        "pixel_size": 0.65,
+        "array_size": "2048 \u00d7 2048",
+        "bit_depth": 16,
+        "frame_rate": 100
+      },
+      "diffraction": {
+        "type": "GE amorphous Si detector",
+        "pixel_size": 200,
+        "array_size": "2048 \u00d7 2048",
+        "sample_detector_distance": 1500,
+        "integration_time": 1
+      }
+    },
+    "scan_parameters": {
+      "tomography": {
+        "projections": 1800,
+        "angular_range": 180,
+        "scan_time": 60,
+        "scan_interval": 200.0
+      },
+      "diffraction": {
+        "2theta_range": [
+          10,
+          120
+        ],
+        "step_size": 0.02,
+        "count_time": 0.5,
+        "spatial_resolution": "50 \u00d7 50 points"
+      }
+    }
+  },
+  "data_acquisition": {
+    "sampling_rate": {
+      "load": 10,
+      "displacement": 10,
+      "temperature": 1,
+      "tomography": 1.388888888888889e-06,
+      "diffraction": 1.388888888888889e-06
+    },
+    "data_storage": {
+      "format": "HDF5",
+      "compression": "gzip",
+      "total_data_size_estimate": "1010.0 GB"
+    },
+    "metadata_standard": "NeXus format compliant"
+  },
+  "environmental_monitoring": {
+    "room_temperature": 22,
+    "room_humidity": 45,
+    "vibration_level": "< 1 \u03bcm peak-to-peak",
+    "beam_stability": "< 1% intensity variation"
+  }
+}
