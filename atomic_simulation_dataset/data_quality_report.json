@@ -1,0 +1,126 @@
+{
+  "DFT Formation Energies": {
+    "total_samples": 1000,
+    "total_features": 11,
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "numeric_features": 6,
+    "categorical_features": 5,
+    "memory_usage_mb": 0.30489253997802734,
+    "outlier_counts": {
+      "formation_energy_eV": 57,
+      "temperature_K": 0,
+      "defect_concentration": 0,
+      "supercell_size": 0,
+      "cutoff_energy_eV": 0,
+      "convergence_threshold": 0
+    },
+    "total_outliers": 57
+  },
+  "Activation Barriers": {
+    "total_samples": 500,
+    "total_features": 10,
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "numeric_features": 8,
+    "categorical_features": 2,
+    "memory_usage_mb": 0.08724308013916016,
+    "outlier_counts": {
+      "activation_barrier_eV": 12,
+      "attempt_frequency_Hz": 0,
+      "applied_stress_MPa": 0,
+      "grain_size_nm": 0,
+      "temperature_K": 0,
+      "migration_path_length_A": 0,
+      "coordination_number": 0,
+      "elastic_modulus_GPa": 0
+    },
+    "total_outliers": 12
+  },
+  "Surface Energies": {
+    "total_samples": 300,
+    "total_features": 10,
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "numeric_features": 6,
+    "categorical_features": 4,
+    "memory_usage_mb": 0.07438373565673828,
+    "outlier_counts": {
+      "surface_energy_J_m2": 6,
+      "temperature_K": 0,
+      "surface_area_A2": 0,
+      "relaxation_layers": 0,
+      "slab_thickness_A": 0,
+      "vacuum_thickness_A": 0
+    },
+    "total_outliers": 6
+  },
+  "Grain Boundary Sliding": {
+    "total_samples": 200,
+    "total_features": 16,
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "numeric_features": 12,
+    "categorical_features": 4,
+    "memory_usage_mb": 0.06011676788330078,
+    "outlier_counts": {
+      "temperature_K": 0,
+      "applied_stress_MPa": 0,
+      "gb_angle_deg": 0,
+      "gb_energy_J_m2": 0,
+      "sliding_resistance_Pa_s": 25,
+      "stress_exponent": 0,
+      "max_displacement_A": 26,
+      "avg_sliding_rate_A_ps": 26,
+      "simulation_time_ps": 0,
+      "timestep_fs": 0,
+      "box_size_A": 0,
+      "n_atoms": 0
+    },
+    "total_outliers": 77
+  },
+  "Dislocation Mobility": {
+    "total_samples": 150,
+    "total_features": 16,
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "numeric_features": 11,
+    "categorical_features": 5,
+    "memory_usage_mb": 0.052527427673339844,
+    "outlier_counts": {
+      "temperature_K": 0,
+      "applied_stress_MPa": 0,
+      "dislocation_density_m2": 0,
+      "burgers_vector_A": 0,
+      "base_mobility_m2_Pa_s": 0,
+      "avg_velocity_A_ps": 8,
+      "max_velocity_A_ps": 8,
+      "total_displacement_A": 8,
+      "simulation_time_ps": 0,
+      "timestep_fs": 0,
+      "n_atoms": 0
+    },
+    "total_outliers": 24
+  },
+  "Force Field Parameters": {
+    "total_samples": 7,
+    "total_features": 11,
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "numeric_features": 9,
+    "categorical_features": 2,
+    "memory_usage_mb": 0.0012941360473632812,
+    "outlier_counts": {
+      "epsilon_eV": 1,
+      "sigma_A": 0,
+      "lattice_constant_A": 0,
+      "cohesive_energy_eV": 0,
+      "bulk_modulus_GPa": 0,
+      "rho_cutoff_A": 1,
+      "phi_cutoff_A": 1,
+      "atomic_mass_amu": 0,
+      "melting_point_K": 0
+    },
+    "total_outliers": 3
+  }
+}
