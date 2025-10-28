@@ -1,0 +1,55 @@
+{
+  "simulation_id": "sim_0003",
+  "timestamp": "2025-10-03T07:01:19.292898",
+  "software": "COMSOL/ABAQUS equivalent",
+  "solver": "Nonlinear transient coupled",
+  "convergence_tolerance": 1e-06,
+  "time_stepping": "Adaptive",
+  "parameters": {
+    "mesh": {
+      "element_size": 1.0,
+      "element_type": "tet4",
+      "interface_refinement": 3.9968927582833023,
+      "num_elements": 40000,
+      "num_nodes": 48000
+    },
+    "boundary_conditions": {
+      "mechanical": {
+        "type": "force",
+        "displacement_x": 0,
+        "displacement_y": 0.07992294519045554,
+        "displacement_z": -0.009558836222076206,
+        "force_x": 0,
+        "force_y": 0,
+        "force_z": -344.85629046267684
+      },
+      "thermal": {
+        "type": "convection",
+        "h_convection": 16.235865349420266,
+        "T_ambient": 25,
+        "heat_flux": 914.6955171385064
+      },
+      "electrical": {
+        "voltage_applied": 3.070712846089562,
+        "current_density": 2.8408352683628495,
+        "charge_rate": 1.2467038157592298
+      }
+    },
+    "grid_size": [
+      20,
+      20,
+      10
+    ],
+    "time_steps": 20,
+    "heating_rate": 5.127711530502917
+  },
+  "units": {
+    "stress": "MPa",
+    "strain": "mm/mm",
+    "temperature": "Celsius",
+    "voltage": "V",
+    "time": "seconds",
+    "length": "mm",
+    "damage": "dimensionless (0-1)"
+  }
+}
