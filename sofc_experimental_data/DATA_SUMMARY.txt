@@ -1,0 +1,98 @@
+======================================================================
+SOFC EXPERIMENTAL DATA SUMMARY
+======================================================================
+
+This synthetic dataset contains comprehensive experimental measurements
+for Solid Oxide Fuel Cell (SOFC) characterization.
+
+1. DIGITAL IMAGE CORRELATION (DIC) DATA
+----------------------------------------------------------------------
+   - Sintering strain data (1200-1500°C)
+   - Thermal cycling data (ΔT = 400°C, 10 cycles)
+   - Startup/shutdown cycle data (5 cycles)
+   - Speckle pattern images with timestamps
+   - Lagrangian strain tensor outputs (Vic-3D format)
+   - Strain hotspot catalog (>1.0% strain)
+
+2. SYNCHROTRON X-RAY DIFFRACTION (XRD) DATA
+----------------------------------------------------------------------
+   - Residual stress profiles across cross-sections
+   - Lattice strain measurements (25-1500°C)
+   - Sin²ψ method peak shift data
+   - Microcrack initiation threshold data (ε_cr > 0.02)
+
+3. POST-MORTEM ANALYSIS DATA
+----------------------------------------------------------------------
+   - SEM crack density analysis (cracks/mm²)
+   - EDS line scans (Ni, Zr, Y, O, La, Sr, Mn)
+   - Nano-indentation maps:
+     * Young's modulus (YSZ: 184.7 GPa, Ni-YSZ: 109.8 GPa)
+     * Hardness and creep compliance
+     * Load-displacement curves
+
+======================================================================
+DATA STRUCTURE
+======================================================================
+
+sofc_experimental_data/
+  postmortem_data/
+    sem_analysis/
+      crack_density_summary.png
+      crack_density_analysis.csv
+      crack_density_summary.csv
+    nanoindentation/
+      nanoindentation_map.csv
+      nanoindentation_property_maps.png
+      load_displacement_curves/
+        curve_cathode.csv
+        load_disp_curve_cathode.png
+        load_disp_curve_electrolyte.png
+        curve_interface.csv
+        load_disp_curve_anode.png
+        curve_anode.csv
+        curve_electrolyte.csv
+        load_disp_curve_interface.png
+    eds_analysis/
+      eds_point_analysis.csv
+      eds_line_scan.png
+      eds_line_scan_cross_section.csv
+  dic_data/
+    thermal_cycling_analysis.png
+    sintering_strain_data.csv
+    sintering_final_strain_map.png
+    thermal_cycling_strain_data.csv
+    startup_shutdown_cycles.csv
+    speckle_patterns/
+      metadata_t0_25C.json
+      metadata_t2_800C.json
+      speckle_t4_1500C.png
+      speckle_t1_400C.png
+      speckle_t0_25C.png
+      metadata_t4_1500C.json
+      speckle_t3_1200C.png
+      metadata_t3_1200C.json
+      speckle_t2_800C.png
+      metadata_t1_400C.json
+    strain_hotspots/
+      strain_hotspot_catalog.csv
+      hotspot_analysis.png
+    lagrangian_tensors/
+      lagrangian_strain_25C.csv
+      lagrangian_strain_800C.csv
+      strain_tensor_field_1500C.png
+      lagrangian_strain_1200C.csv
+      strain_tensor_field_1200C.png
+      lagrangian_strain_400C.csv
+      strain_tensor_field_25C.png
+      strain_tensor_field_800C.png
+      lagrangian_strain_1500C.csv
+      strain_tensor_field_400C.png
+  xrd_data/
+    sin2psi_analysis.png
+    sin2psi_stress_analysis.csv
+    residual_stress_profiles.csv
+    microcrack_threshold_analysis.png
+    microcrack_threshold_data.csv
+    residual_stress_profiles.png
+    lattice_strain_analysis.png
+    lattice_strain_vs_temperature.csv

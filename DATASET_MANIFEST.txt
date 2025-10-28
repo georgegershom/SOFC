@@ -1,0 +1,196 @@
+================================================================================
+SOFC EXPERIMENTAL DATASET - COMPLETE MANIFEST
+================================================================================
+Generated: October 2025
+Total Size: 15 MB
+Total Files: 50+
+
+================================================================================
+DOCUMENTATION FILES (100 KB)
+================================================================================
+1. README.md                          16 KB - Comprehensive documentation
+2. QUICK_START_GUIDE.md               9 KB  - Quick start instructions  
+3. PROJECT_OVERVIEW.md                13 KB - High-level summary
+4. DATASET_MANIFEST.txt               This file
+5. DATA_SUMMARY.txt                   Auto-generated inventory
+
+================================================================================
+PYTHON SCRIPTS (75 KB)
+================================================================================
+1. generate_sofc_experimental_data.py  58 KB - Main data generator
+2. example_analysis.py                 17 KB - Example analysis scripts
+
+================================================================================
+GENERATED DATA FILES (15 MB in sofc_experimental_data/)
+================================================================================
+
+A. DIGITAL IMAGE CORRELATION (DIC) - dic_data/
+   ============================================
+   CSV Files:
+   1. sintering_strain_data.csv              - Strain evolution 1200-1500°C
+   2. thermal_cycling_strain_data.csv        - 10 thermal cycles (ΔT=400°C)
+   3. startup_shutdown_cycles.csv            - 5 startup/shutdown cycles
+   
+   Lagrangian Tensors: (lagrangian_tensors/)
+   4. lagrangian_strain_25C.csv              - Strain field at 25°C
+   5. lagrangian_strain_400C.csv             - Strain field at 400°C
+   6. lagrangian_strain_800C.csv             - Strain field at 800°C
+   7. lagrangian_strain_1200C.csv            - Strain field at 1200°C
+   8. lagrangian_strain_1500C.csv            - Strain field at 1500°C
+   9. strain_tensor_field_25C.png            - Visualization
+   10. strain_tensor_field_400C.png          - Visualization
+   11. strain_tensor_field_800C.png          - Visualization
+   12. strain_tensor_field_1200C.png         - Visualization
+   13. strain_tensor_field_1500C.png         - Visualization
+   
+   Speckle Patterns: (speckle_patterns/)
+   14. speckle_t0_25C.png                    - Speckle image 25°C
+   15. speckle_t1_400C.png                   - Speckle image 400°C
+   16. speckle_t2_800C.png                   - Speckle image 800°C
+   17. speckle_t3_1200C.png                  - Speckle image 1200°C
+   18. speckle_t4_1500C.png                  - Speckle image 1500°C
+   19. metadata_t0_25C.json                  - Metadata
+   20. metadata_t1_400C.json                 - Metadata
+   21. metadata_t2_800C.json                 - Metadata
+   22. metadata_t3_1200C.json                - Metadata
+   23. metadata_t4_1500C.json                - Metadata
+   
+   Strain Hotspots: (strain_hotspots/)
+   24. strain_hotspot_catalog.csv            - Hotspots >1.0% strain
+   25. hotspot_analysis.png                  - Visualization
+   
+   Other Visualizations:
+   26. sintering_final_strain_map.png        - Final strain map
+   27. thermal_cycling_analysis.png          - Cycling analysis
+
+B. X-RAY DIFFRACTION (XRD) - xrd_data/
+   ====================================
+   CSV Files:
+   28. residual_stress_profiles.csv          - Stress across cross-section
+   29. lattice_strain_vs_temperature.csv     - Lattice strain 25-1500°C
+   30. sin2psi_stress_analysis.csv           - Sin²ψ peak shift data
+   31. microcrack_threshold_data.csv         - Crack initiation data
+   
+   Visualizations:
+   32. residual_stress_profiles.png          - Stress profiles
+   33. lattice_strain_analysis.png           - Lattice strain plots
+   34. sin2psi_analysis.png                  - Sin²ψ plots
+   35. microcrack_threshold_analysis.png     - Crack threshold
+
+C. POST-MORTEM ANALYSIS - postmortem_data/
+   ========================================
+   
+   SEM Analysis: (sem_analysis/)
+   36. crack_density_analysis.csv            - Crack measurements
+   37. crack_density_summary.csv             - Summary statistics
+   38. crack_density_summary.png             - Visualization
+   
+   EDS Analysis: (eds_analysis/)
+   39. eds_line_scan_cross_section.csv       - Line scan data
+   40. eds_point_analysis.csv                - Point measurements
+   41. eds_line_scan.png                     - Visualization
+   
+   Nano-indentation: (nanoindentation/)
+   42. nanoindentation_map.csv               - Property map (2000 points)
+   43. nanoindentation_property_maps.png     - E, H, creep maps
+   
+   Load-Displacement Curves: (nanoindentation/load_displacement_curves/)
+   44. curve_anode.csv                       - Anode curve data
+   45. curve_electrolyte.csv                 - Electrolyte curve data
+   46. curve_cathode.csv                     - Cathode curve data
+   47. curve_interface.csv                   - Interface curve data
+   48. load_disp_curve_anode.png            - Visualization
+   49. load_disp_curve_electrolyte.png      - Visualization
+   50. load_disp_curve_cathode.png          - Visualization
+   51. load_disp_curve_interface.png        - Visualization
+
+================================================================================
+ANALYSIS OUTPUT FILES (Generated by example_analysis.py)
+================================================================================
+52. analysis_sintering_strain.png         - Sintering analysis
+53. analysis_xrd_stress.png               - XRD stress analysis
+54. analysis_microcrack_threshold.png     - Crack threshold analysis
+55. analysis_eds_composition.png          - EDS composition analysis
+56. analysis_nanoindentation.png          - Nano-indentation analysis
+57. ANALYSIS_SUMMARY_REPORT.txt           - Summary statistics
+
+================================================================================
+DATA SPECIFICATIONS
+================================================================================
+
+DIC Data:
+- Spatial resolution: 2.5 μm/pixel
+- Grid size: 100×80 points (10mm × 8mm)
+- Temperature range: 25-1500°C
+- Strain components: εxx, εyy, εxy, Von Mises
+- Total measurements: ~8,500 strain values
+
+XRD Data:
+- Depth range: 0-800 μm
+- Temperature range: 25-1500°C
+- Phases: YSZ, Ni, LSM
+- Stress range: -150 to +200 MPa
+- Total measurements: ~1,000 stress/strain values
+
+SEM Data:
+- Specimens: 6 (pristine to 200h operation)
+- ROIs: 10 per specimen × 5 regions = 300 total
+- Magnification: 5000×
+- Accelerating voltage: 15 kV
+
+EDS Data:
+- Elements tracked: Ni, Zr, Y, O, La, Sr, Mn (7 total)
+- Line scan: 400 points (0-800 μm)
+- Point analysis: 25 measurements (5 locations × 5 replicates)
+
+Nano-indentation:
+- Indent count: 2,000 (50×40 grid)
+- Max load: 10 mN
+- Properties: E, H, creep compliance
+- Load-displacement curves: 4 representative locations
+
+================================================================================
+KEY FINDINGS
+================================================================================
+Maximum strain:              2.2% (anode-electrolyte interface)
+Maximum stress:              200 MPa (interface, after cycling)
+Critical crack strain:       2.0% (εcr threshold)
+YSZ Young's modulus:         184.7 GPa
+Ni-YSZ Young's modulus:      109.8 GPa
+Interface degradation:       15-20% property reduction
+Crack initiation rate:       70% above 2% strain
+
+================================================================================
+USAGE EXAMPLES
+================================================================================
+
+Generate Data:
+  python3 generate_sofc_experimental_data.py
+
+Run Analysis:
+  python3 example_analysis.py
+
+Load Data (Python):
+  import pandas as pd
+  df = pd.read_csv('sofc_experimental_data/dic_data/thermal_cycling_strain_data.csv')
+
+================================================================================
+REQUIREMENTS
+================================================================================
+- Python 3.6+
+- numpy
+- pandas
+- matplotlib
+- scipy
+
+Install: pip install numpy pandas matplotlib scipy
+
+================================================================================
+STATUS: COMPLETE ✅
+================================================================================
+All data files successfully generated
+All visualizations created
+All documentation complete
+Ready for research, ML training, or educational use
+
+================================================================================
