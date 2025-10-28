@@ -1,0 +1,228 @@
+%%{init: {'theme':'dark', 'themeVariables': { 'primaryColor':'#2E86AB', 'primaryTextColor':'#fff', 'primaryBorderColor':'#7C8A99', 'lineColor':'#F18F01', 'secondaryColor':'#A23B72', 'tertiaryColor':'#C73E1D', 'background':'#1a1a1a', 'mainBkg':'#2E86AB', 'secondBkg':'#A23B72', 'tertiaryBkg':'#F18F01'}}}%%
+
+graph TB
+    %% Title and Main Framework
+    TITLE["<b>SENCE Framework: Socio-Economic Natural Compound Ecosystem</b><br/>Niger Delta Petroleum Cities Vulnerability Assessment"]
+    
+    %% Core Components
+    subgraph SENCE["SENCE FRAMEWORK CORE"]
+        direction TB
+        
+        %% Environmental Subsystem
+        subgraph ENV["Environmental Subsystem"]
+            direction LR
+            E1[Oil Spill Impact<br/>OSI Index]
+            E2[Gas Flaring<br/>Radiance: nW/cm²/sr]
+            E3[Vegetation Health<br/>NDVI: 0-1 scale]
+            E4[Water Quality<br/>NDWI Index]
+            E5[Mangrove Loss<br/>% Degradation]
+            E6[Temperature<br/>Anomalies]
+            
+            E1 -.-> E3
+            E2 -.-> E6
+            E3 -.-> E4
+            E4 -.-> E5
+        end
+        
+        %% Economic Subsystem
+        subgraph ECON["Economic Subsystem"]
+            direction LR
+            EC1[Unemployment<br/>Rate %]
+            EC2[Livelihood<br/>Dependence]
+            EC3[Income Diversity<br/>HHI Index]
+            EC4[Infrastructure<br/>Access]
+            EC5[Poverty<br/>Level %]
+            EC6[Market<br/>Resilience]
+            
+            EC1 -.-> EC2
+            EC2 -.-> EC3
+            EC3 -.-> EC5
+            EC4 -.-> EC6
+        end
+        
+        %% Social Subsystem
+        subgraph SOC["Social Subsystem"]
+            direction LR
+            S1[Healthcare<br/>Access]
+            S2[Education<br/>Level]
+            S3[Crime<br/>Rate]
+            S4[Community<br/>Cohesion]
+            S5[Housing<br/>Quality]
+            S6[Safety<br/>Perception]
+            
+            S1 -.-> S2
+            S3 -.-> S6
+            S4 -.-> S5
+        end
+        
+        %% Governance & Institutional
+        subgraph GOV["Governance Subsystem"]
+            direction LR
+            G1[Institutional<br/>Trust]
+            G2[Policy<br/>Effectiveness]
+            G3[Corruption<br/>Index]
+            G4[Regulatory<br/>Compliance]
+            
+            G1 -.-> G2
+            G3 -.-> G4
+        end
+    end
+    
+    %% Data Processing Pipeline
+    subgraph PROCESS["Data Processing & Analysis"]
+        direction TB
+        
+        %% Data Sources
+        subgraph DATA["Multi-Source Data Integration"]
+            D1[Household<br/>Surveys]
+            D2[Geospatial<br/>Data]
+            D3[Environmental<br/>Indices]
+            D4[Economic<br/>Statistics]
+            D5[Remote<br/>Sensing]
+        end
+        
+        %% Analysis Methods
+        subgraph ANALYSIS["Statistical Analysis"]
+            A1[Principal Component<br/>Analysis - PCA]
+            A2[Normalization<br/>Min-Max Scaling]
+            A3[Correlation<br/>Analysis]
+            A4[Spatial<br/>Autocorrelation]
+            A5[Time Series<br/>Analysis]
+        end
+        
+        %% Model Validation
+        subgraph VALID["Validation Methods"]
+            V1[Cross-validation<br/>k-fold]
+            V2[Sensitivity<br/>Analysis]
+            V3[Bootstrap<br/>Resampling]
+            V4[Monte Carlo<br/>Simulation]
+        end
+    end
+    
+    %% City-Specific Profiles
+    subgraph CITIES["City Vulnerability Profiles"]
+        direction LR
+        
+        subgraph PH["Port Harcourt<br/>CVI: 0.52"]
+            PH1[Balanced Urban<br/>Vulnerability]
+            PH2[Diffuse Pollution]
+            PH3[Economic Diversity]
+        end
+        
+        subgraph WR["Warri<br/>CVI: 0.61"]
+            WR1[Compound Vortex]
+            WR2[Industrial Pollution]
+            WR3[High Unemployment]
+        end
+        
+        subgraph BN["Bonny<br/>CVI: 0.59"]
+            BN1[Environmental Center]
+            BN2[Point-Source Pollution]
+            BN3[Export Dependence]
+        end
+    end
+    
+    %% Composite Vulnerability Index
+    subgraph CVI["Composite Vulnerability Index (CVI)"]
+        direction TB
+        
+        CVI_CALC["CVI = Σ(wi × Di)<br/>wi: domain weight<br/>Di: domain score"]
+        
+        subgraph ZONES["Vulnerability Zones"]
+            Z1[Low: 0.0-0.3<br/>Green Zone]
+            Z2[Moderate: 0.3-0.6<br/>Yellow Zone]
+            Z3[High: 0.6-0.8<br/>Orange Zone]
+            Z4[Critical: 0.8-1.0<br/>Red Zone]
+        end
+        
+        CVI_CALC --> ZONES
+    end
+    
+    %% Feedback Loops
+    subgraph FEEDBACK["System Feedback Loops"]
+        direction TB
+        
+        F1[Environmental<br/>Degradation]
+        F2[Economic<br/>Decline]
+        F3[Social<br/>Disruption]
+        F4[Institutional<br/>Weakness]
+        
+        F1 --> F2
+        F2 --> F3
+        F3 --> F4
+        F4 --> F1
+    end
+    
+    %% Policy Interventions
+    subgraph POLICY["Policy Recommendations"]
+        direction TB
+        
+        P1[Environmental<br/>Remediation]
+        P2[Economic<br/>Diversification]
+        P3[Social<br/>Investment]
+        P4[Governance<br/>Reform]
+        P5[Infrastructure<br/>Development]
+    end
+    
+    %% Main Connections
+    TITLE ==> SENCE
+    
+    %% Data Flow
+    DATA --> A1
+    DATA --> A2
+    A1 --> A3
+    A2 --> A3
+    A3 --> A4
+    A4 --> A5
+    
+    %% Validation Flow
+    ANALYSIS --> VALID
+    V1 --> V2
+    V2 --> V3
+    V3 --> V4
+    
+    %% Subsystem Interactions
+    ENV ==> CVI_CALC
+    ECON ==> CVI_CALC
+    SOC ==> CVI_CALC
+    GOV ==> CVI_CALC
+    
+    %% City Analysis
+    CVI --> PH
+    CVI --> WR
+    CVI --> BN
+    
+    %% Feedback Integration
+    ENV -.-> F1
+    ECON -.-> F2
+    SOC -.-> F3
+    GOV -.-> F4
+    
+    %% Policy Connections
+    FEEDBACK ==> POLICY
+    POLICY -.-> SENCE
+    
+    %% Cross-domain Interactions
+    ENV <--> ECON
+    ECON <--> SOC
+    SOC <--> GOV
+    GOV <--> ENV
+    
+    %% Styling
+    classDef envClass fill:#2E86AB,stroke:#fff,stroke-width:3px,color:#fff
+    classDef econClass fill:#A23B72,stroke:#fff,stroke-width:3px,color:#fff
+    classDef socClass fill:#F18F01,stroke:#fff,stroke-width:3px,color:#fff
+    classDef govClass fill:#C73E1D,stroke:#fff,stroke-width:3px,color:#fff
+    classDef cityClass fill:#4A5568,stroke:#fff,stroke-width:2px,color:#fff
+    classDef cviClass fill:#1A365D,stroke:#FFD700,stroke-width:4px,color:#FFD700
+    classDef dataClass fill:#2D3748,stroke:#63B3ED,stroke-width:2px,color:#fff
+    classDef policyClass fill:#065F46,stroke:#10B981,stroke-width:3px,color:#fff
+    
+    class ENV,E1,E2,E3,E4,E5,E6 envClass
+    class ECON,EC1,EC2,EC3,EC4,EC5,EC6 econClass
+    class SOC,S1,S2,S3,S4,S5,S6 socClass
+    class GOV,G1,G2,G3,G4 govClass
+    class PH,WR,BN,PH1,PH2,PH3,WR1,WR2,WR3,BN1,BN2,BN3 cityClass
+    class CVI,CVI_CALC,ZONES,Z1,Z2,Z3,Z4 cviClass
+    class DATA,D1,D2,D3,D4,D5,ANALYSIS,A1,A2,A3,A4,A5,VALID,V1,V2,V3,V4 dataClass
+    class POLICY,P1,P2,P3,P4,P5 policyClass
