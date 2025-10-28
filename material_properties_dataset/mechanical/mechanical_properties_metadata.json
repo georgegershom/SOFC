@@ -1,0 +1,28 @@
+{
+  "material_class": "Nickel-based Superalloy",
+  "nominal_composition": {
+    "Ni": "50-55%",
+    "Cr": "17-21%",
+    "Fe": "17%",
+    "Nb+Ta": "4.75-5.5%",
+    "Mo": "2.8-3.3%",
+    "Ti": "0.65-1.15%",
+    "Al": "0.2-0.8%"
+  },
+  "test_conditions": {
+    "atmosphere": "Air",
+    "humidity": "50% RH",
+    "grip_type": "Hydraulic",
+    "extensometer": "High-temp contact"
+  },
+  "data_source": "Synthetic data based on literature values",
+  "generation_date": "2025-10-04T11:31:54.552735",
+  "units": {
+    "Temperature": "Celsius",
+    "Youngs_Modulus": "GPa",
+    "Tensile_Strength": "MPa",
+    "Yield_Strength": "MPa",
+    "Poissons_Ratio": "dimensionless",
+    "Elongation": "percent"
+  }
+}

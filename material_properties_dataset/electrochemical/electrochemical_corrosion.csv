@@ -1,0 +1,17 @@
+Temperature_C,Electrolyte,pH,Electrolyte_Conductivity_mS_per_cm,Corrosion_Potential_V_vs_SCE,Corrosion_Current_Density_A_per_cm2,Corrosion_Rate_mm_per_year,Tafel_Slope_Anodic_mV_per_decade,Tafel_Slope_Cathodic_mV_per_decade,Polarization_Resistance_ohm_cm2,Test_Method,Reference_Electrode,Counter_Electrode,Scan_Rate_mV_per_s
+25,3.5%_NaCl,7.0,53.0,-0.45,2.22092e-05,7.3e-05,67.5,-111.2,111927.63,Potentiodynamic_Polarization,SCE,Platinum,0.5
+40,3.5%_NaCl,7.0,53.0,-0.454,3.95001e-05,0.000129,61.0,-140.4,66935.98,Potentiodynamic_Polarization,SCE,Platinum,0.5
+60,3.5%_NaCl,7.0,53.0,-0.455,6.68856e-05,0.000219,55.0,-122.8,37544.69,Potentiodynamic_Polarization,SCE,Platinum,0.5
+80,3.5%_NaCl,7.0,53.0,-0.414,0.0001391752,0.000455,57.1,-114.3,19182.44,Potentiodynamic_Polarization,SCE,Platinum,0.5
+25,0.1M_H2SO4,1.0,39.1,-0.422,1.7314e-06,6e-06,60.3,-126.5,1395275.87,Potentiodynamic_Polarization,SCE,Platinum,0.5
+40,0.1M_H2SO4,1.0,39.1,-0.436,2.5834e-06,8e-06,64.5,-113.6,989556.36,Potentiodynamic_Polarization,SCE,Platinum,0.5
+60,0.1M_H2SO4,1.0,39.1,-0.429,4.2867e-06,1.4e-05,66.6,-118.0,656548.82,Potentiodynamic_Polarization,SCE,Platinum,0.5
+80,0.1M_H2SO4,1.0,39.1,-0.408,7.6838e-06,2.5e-05,68.7,-118.0,395978.83,Potentiodynamic_Polarization,SCE,Platinum,0.5
+25,0.1M_NaOH,13.0,17.7,-0.463,0.0003788433,0.001239,58.4,-115.8,6062.22,Potentiodynamic_Polarization,SCE,Platinum,0.5
+40,0.1M_NaOH,13.0,17.7,-0.44,0.000588537,0.001925,59.9,-98.6,3933.34,Potentiodynamic_Polarization,SCE,Platinum,0.5
+60,0.1M_NaOH,13.0,17.7,-0.415,0.0011872898,0.003882,60.2,-118.8,2224.53,Potentiodynamic_Polarization,SCE,Platinum,0.5
+80,0.1M_NaOH,13.0,17.7,-0.438,0.0018609177,0.006085,58.7,-136.7,1546.72,Potentiodynamic_Polarization,SCE,Platinum,0.5
+25,Simulated_Seawater,8.2,50.0,-0.442,4.64767e-05,0.000152,57.6,-104.3,47224.48,Potentiodynamic_Polarization,SCE,Platinum,0.5
+40,Simulated_Seawater,8.2,50.0,-0.475,5.84343e-05,0.000191,61.1,-109.5,41720.33,Potentiodynamic_Polarization,SCE,Platinum,0.5
+60,Simulated_Seawater,8.2,50.0,-0.416,0.0001190168,0.000389,65.4,-120.4,23538.93,Potentiodynamic_Polarization,SCE,Platinum,0.5
+80,Simulated_Seawater,8.2,50.0,-0.453,0.0002473779,0.000809,63.3,-135.8,12225.27,Potentiodynamic_Polarization,SCE,Platinum,0.5

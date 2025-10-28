@@ -1,0 +1,35 @@
+{
+  "youngs_modulus": {
+    "type": "polynomial",
+    "order": 3,
+    "coefficients": [
+      -1.925159133535895e-08,
+      3.4036873287747215e-05,
+      -0.029260562561806664,
+      207.271763525836
+    ],
+    "r_squared": 0.8126947484507976,
+    "equation": "E(T) = -1.93e-08*T\u00b3 + 3.40e-05*T\u00b2 + -2.93e-02*T + 207.27"
+  },
+  "tensile_strength": {
+    "type": "piecewise",
+    "critical_temp": 600,
+    "low_temp_coeffs": [
+      -0.7138423645320192,
+      1397.0044334975369
+    ],
+    "high_temp_coeffs": [
+      -0.006243225344633184,
+      10.61526211887685
+    ],
+    "description": "Linear below 600\u00b0C, exponential decay above"
+  },
+  "cte": {
+    "type": "logarithmic",
+    "coefficients": [
+      1.727191321908871,
+      3.913316138448233
+    ],
+    "equation": "CTE(T) = 1.73 * ln(T+1) + 3.91"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "test_standard": "ASTM E139",
+  "material": "Nickel-based Superalloy",
+  "test_conditions": {
+    "temperatures_C": [
+      600,
+      700,
+      750,
+      800,
+      850,
+      900,
+      950,
+      1000
+    ],
+    "stress_levels_MPa": [
+      100,
+      150,
+      200,
+      250,
+      300,
+      350,
+      400
+    ],
+    "max_test_duration_hours": 3162.2776601683795,
+    "loading_type": "Constant Load",
+    "specimen_preparation": "Machined and polished to 0.4 \u03bcm"
+  },
+  "data_processing": {
+    "strain_measurement": "High-temperature extensometer",
+    "data_acquisition_rate": "1 point per minute",
+    "filtering": "Moving average, window=5"
+  },
+  "models_applicable": [
+    "Norton-Bailey",
+    "Theta Projection",
+    "Wilshire",
+    "Larson-Miller Parameter"
+  ],
+  "generation_date": "2025-10-04T11:31:57.722961"
+}
