@@ -1,0 +1,64 @@
+{
+  "experiment_info": {
+    "title": "SOFC Experimental Measurement Dataset",
+    "generated_date": "2025-10-03T05:47:56.684812",
+    "description": "Fabricated experimental data for SOFC thermomechanical analysis",
+    "sample_geometry": {
+      "width_mm": 10,
+      "height_mm": 5,
+      "anode_thickness_um": 500,
+      "electrolyte_thickness_um": 15,
+      "cathode_thickness_um": 50
+    }
+  },
+  "dic_analysis": {
+    "conditions_tested": [
+      "sintering",
+      "thermal_cycling",
+      "startup_shutdown"
+    ],
+    "temperature_ranges": {
+      "sintering": "1200-1500\u00b0C",
+      "thermal_cycling": "800-1200\u00b0C (\u0394T=400\u00b0C)",
+      "startup_shutdown": "25-800\u00b0C"
+    },
+    "max_strain_observed": "1.23%",
+    "strain_hotspots_identified": "Yes (>1.0% at interfaces)",
+    "measurement_points": 1000,
+    "speckle_pattern_quality": "0.85-0.98"
+  },
+  "xrd_analysis": {
+    "residual_stress_range_mpa": "-200 to +200",
+    "phases_analyzed": [
+      "YSZ",
+      "Ni",
+      "LSM"
+    ],
+    "microcrack_threshold": "0.018-0.025 strain",
+    "sin2psi_measurement_points": 5,
+    "lattice_strain_temperature_range": "25-800\u00b0C"
+  },
+  "postmortem_analysis": {
+    "crack_density_range_per_mm2": "0.8-4.5",
+    "highest_crack_density_location": "anode-electrolyte interface",
+    "youngs_modulus_ysz_gpa": 184.7,
+    "youngs_modulus_ni_gpa": 109.8,
+    "hardness_range_gpa": "2.1-12.5",
+    "creep_compliance_measured": "Yes (600-800\u00b0C)",
+    "eds_elements_analyzed": [
+      "Ni",
+      "Zr",
+      "Y",
+      "La",
+      "Sr",
+      "Mn",
+      "O"
+    ]
+  },
+  "data_files_generated": {
+    "dic_data": 12,
+    "xrd_data": 8,
+    "postmortem_data": 15,
+    "total_files": 35
+  }
+}

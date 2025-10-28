@@ -1,0 +1,77 @@
+{
+  "filename": "electrolyte_02.tif",
+  "region": "electrolyte",
+  "magnification": 5000,
+  "pixel_size_nm": 200.0,
+  "image_width_pixels": 1024,
+  "image_height_pixels": 768,
+  "bit_depth": 8,
+  "acquisition_time": "2025-10-03T05:47:47.606645",
+  "crack_annotations": [
+    {
+      "crack_id": 1,
+      "start_coords": [
+        764,
+        194
+      ],
+      "end_coords": [
+        741,
+        177
+      ],
+      "length_pixels": 28.600699292150182,
+      "confidence": 0.8113490646049235
+    },
+    {
+      "crack_id": 2,
+      "start_coords": [
+        599,
+        108
+      ],
+      "end_coords": [
+        565,
+        93
+      ],
+      "length_pixels": 37.16180835212409,
+      "confidence": 0.9250876033572932
+    },
+    {
+      "crack_id": 3,
+      "start_coords": [
+        168,
+        389
+      ],
+      "end_coords": [
+        165,
+        387
+      ],
+      "length_pixels": 3.605551275463989,
+      "confidence": 0.9274696653978105
+    },
+    {
+      "crack_id": 4,
+      "start_coords": [
+        220,
+        336
+      ],
+      "end_coords": [
+        215,
+        315
+      ],
+      "length_pixels": 21.587033144922902,
+      "confidence": 0.8594373519786205
+    },
+    {
+      "crack_id": 5,
+      "start_coords": [
+        198,
+        284
+      ],
+      "end_coords": [
+        209,
+        265
+      ],
+      "length_pixels": 21.95449840010015,
+      "confidence": 0.9252215797716279
+    }
+  ]
+}
