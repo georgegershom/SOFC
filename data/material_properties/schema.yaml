@@ -1,0 +1,83 @@
+version: 1
+name: Material Properties & Calibration Dataset (Fabricated)
+description: |
+  Synthetic, literature-inspired tabular properties for multi-physics model prototyping and calibration. All values are fabricated
+  and statistically shaped to be plausible for their material categories. Not for design or safety-critical use.
+
+provenance:
+  status: fabricated
+  generator: scripts/generate_material_properties.py
+  license: CC BY 4.0
+  disclaimer: |
+    This dataset is fully synthetic and not a substitute for real characterization.
+    Use only for method development, demos, and non-safety-critical benchmarks.
+
+files:
+  mechanical:
+    path: mechanical.csv
+    description: Tensile strength, Young's modulus, and Poisson's ratio vs temperature.
+    columns:
+      - { name: material, type: string, unit: null }
+      - { name: category, type: string, unit: null }
+      - { name: temperature_C, type: float, unit: C }
+      - { name: youngs_modulus_GPa, type: float, unit: GPa }
+      - { name: tensile_strength_MPa, type: float, unit: MPa }
+      - { name: poisson_ratio, type: float, unit: 1 }
+
+  creep:
+    path: creep.csv
+    description: Creep strain vs time for select temperatures and stress levels for calibration use.
+    columns:
+      - { name: material, type: string, unit: null }
+      - { name: category, type: string, unit: null }
+      - { name: temperature_C, type: float, unit: C }
+      - { name: stress_MPa, type: float, unit: MPa }
+      - { name: time_h, type: float, unit: h }
+      - { name: creep_strain, type: float, unit: 1 }
+    model_hint: Norton-Bailey law with category-shaped parameters.
+
+  thermal:
+    path: thermal.csv
+    description: Coefficient of thermal expansion, thermal conductivity, and specific heat vs temperature.
+    columns:
+      - { name: material, type: string, unit: null }
+      - { name: category, type: string, unit: null }
+      - { name: temperature_C, type: float, unit: C }
+      - { name: cte_1_per_K, type: float, unit: 1/K }
+      - { name: thermal_conductivity_W_mK, type: float, unit: W/(m*K) }
+      - { name: specific_heat_J_kgK, type: float, unit: J/(kg*K) }
+
+  electrochemical:
+    path: electrochemical.csv
+    description: Ionic and electronic conductivities vs temperature (where applicable).
+    columns:
+      - { name: material, type: string, unit: null }
+      - { name: category, type: string, unit: null }
+      - { name: temperature_C, type: float, unit: C }
+      - { name: ionic_conductivity_S_m, type: float, unit: S/m }
+      - { name: electronic_conductivity_S_m, type: float, unit: S/m }
+
+units:
+  temperature_C: degrees Celsius
+  youngs_modulus_GPa: gigapascals
+  tensile_strength_MPa: megapascals
+  poisson_ratio: dimensionless
+  cte_1_per_K: per kelvin
+  thermal_conductivity_W_mK: watt per meter-kelvin
+  specific_heat_J_kgK: joule per kilogram-kelvin
+  ionic_conductivity_S_m: siemens per meter
+  electronic_conductivity_S_m: siemens per meter
+
+quality:
+  randomness_seed: 1337
+  monotonicity:
+    - youngs_modulus_GPa: decreases with temperature (most materials)
+    - tensile_strength_MPa: decreases with temperature
+    - poisson_ratio: slightly increases with temperature (bounded 0.15..0.49)
+    - cte_1_per_K: slowly increases with temperature
+    - thermal_conductivity_W_mK: metals decrease; ceramics may increase or plateau
+    - specific_heat_J_kgK: increases with temperature
+    - ionic_conductivity_S_m: Arrhenius-like increase with temperature (where applicable)
+
+intended_use: prototyping, benchmarking, calibration strategy development
+not_intended_for: certification, safety-critical design, final material selection

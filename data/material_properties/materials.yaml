@@ -1,0 +1,40 @@
+materials:
+  - name: SS304
+    category: metal
+    include_electrochem: false
+  - name: Inconel718
+    category: superalloy
+    include_electrochem: false
+  - name: Al6061T6
+    category: metal
+    include_electrochem: false
+  - name: Copper
+    category: metal
+    include_electrochem: false
+  - name: Ti64
+    category: metal
+    include_electrochem: false
+  - name: SiC
+    category: ceramic
+    include_electrochem: false
+  - name: YSZ
+    category: ceramic
+    include_electrochem: false
+  - name: PEEK
+    category: polymer
+    include_electrochem: false
+  - name: Graphite
+    category: carbon
+    include_electrochem: true
+  - name: LCO
+    category: battery_active
+    include_electrochem: true
+  - name: NMC811
+    category: battery_active
+    include_electrochem: true
+  - name: LLZO
+    category: solid_electrolyte
+    include_electrochem: true
+  - name: LiPF6_EC_DMC_1M
+    category: liquid_electrolyte
+    include_electrochem: true
