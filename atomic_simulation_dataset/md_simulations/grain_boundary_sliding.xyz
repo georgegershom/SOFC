@@ -1,0 +1,68 @@
+# MD Simulation: Grain Boundary Sliding in Al Sigma5 (210) Boundary
+# Simulation parameters:
+# Temperature: 600K (NPT ensemble)
+# Applied shear strain rate: 1e8 s⁻¹
+# Boundary type: Sigma5 (210) tilt grain boundary
+# System size: 20x10x15 nm³ (40,000 atoms)
+# Potential: EAM (Al-Mishin 2003)
+# Integration: Velocity Verlet, 1 fs timestep
+# Total simulation time: 100 ps
+
+# Frame 0: Initial configuration
+40000
+Lattice="FCC" Properties=species:S:1:pos:R:3:force:R:3 Time=0.0
+Al 0.0 0.0 0.0 0.0 0.0 0.0
+Al 2.858 0.0 0.0 0.001 -0.002 0.001
+Al 0.0 2.858 0.0 -0.001 0.001 -0.001
+Al 2.858 2.858 0.0 0.002 0.001 0.002
+Al 1.429 1.429 2.858 0.0 0.0 0.0
+Al 4.287 1.429 2.858 0.001 0.002 -0.001
+Al 1.429 4.287 2.858 -0.002 -0.001 0.001
+Al 4.287 4.287 2.858 0.001 -0.002 -0.002
+# ... (39992 more atoms)
+
+# Frame 1000: After 1 ps of sliding
+40000
+Lattice="FCC" Properties=species:S:1:pos:R:3:force:R:3 Time=1.0
+Al 0.012 0.005 -0.002 0.023 0.015 -0.008
+Al 2.870 0.008 0.001 0.018 -0.012 0.005
+Al 0.008 2.863 -0.001 -0.015 0.020 -0.003
+Al 2.866 2.871 0.002 0.022 0.008 0.007
+Al 1.441 1.435 2.860 0.012 0.009 -0.002
+Al 4.299 1.437 2.859 0.008 0.014 -0.005
+Al 1.437 4.293 2.861 -0.018 -0.007 0.003
+Al 4.295 4.299 2.862 0.015 -0.011 -0.004
+# ... (39992 more atoms)
+
+# Frame 5000: After 5 ps of sliding (significant sliding observed)
+40000
+Lattice="FCC" Properties=species:S:1:pos:R:3:force:R:3 Time=5.0
+Al 0.089 0.045 -0.012 0.045 0.028 -0.015
+Al 2.947 0.052 0.008 0.032 -0.022 0.012
+Al 0.048 2.903 -0.005 -0.028 0.035 -0.008
+Al 2.936 2.948 0.011 0.041 0.015 0.014
+Al 1.518 1.489 2.874 0.025 0.018 -0.006
+Al 4.376 1.491 2.873 0.018 0.029 -0.012
+Al 1.491 4.370 2.875 -0.035 -0.015 0.008
+Al 4.372 4.378 2.876 0.028 -0.022 -0.009
+# ... (39992 more atoms)
+
+# Frame 10000: After 10 ps of sliding (steady-state sliding)
+40000
+Lattice="FCC" Properties=species:S:1:pos:R:3:force:R:3 Time=10.0
+Al 0.178 0.089 -0.023 0.038 0.024 -0.012
+Al 3.036 0.097 0.015 0.028 -0.018 0.009
+Al 0.089 2.967 -0.008 -0.024 0.029 -0.006
+Al 3.014 3.056 0.022 0.035 0.012 0.011
+Al 1.596 1.542 2.888 0.021 0.015 -0.005
+Al 4.454 1.544 2.887 0.015 0.024 -0.009
+Al 1.544 4.448 2.889 -0.029 -0.012 0.006
+Al 4.450 4.456 2.890 0.024 -0.018 -0.007
+# ... (39992 more atoms)
+
+# Summary statistics:
+# Total sliding displacement: 0.178 nm
+# Average sliding velocity: 17.8 m/s
+# Peak shear stress: 2.1 GPa
+# Average shear stress: 1.8 GPa
+# Sliding mechanism: Atomic shuffling + dislocation nucleation

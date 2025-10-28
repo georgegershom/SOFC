@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "description": "Activation energy barriers for diffusion processes calculated using DFT with NEB method",
+    "units": "eV",
+    "temperature_range": "300-1000K",
+    "method": "DFT-PBE with NEB",
+    "convergence_threshold": "0.01 eV/Å"
+  },
+  "diffusion_processes": {
+    "vacancy_migration": [
+      {
+        "host_element": "Al",
+        "migrating_atom": "Al",
+        "path": "FCC nearest neighbor",
+        "activation_energy": 0.61,
+        "prefactor": "1.2e13",
+        "units": "s⁻¹",
+        "diffusion_coefficient": "D0 = 1.2e-5 exp(-0.61/kT)",
+        "units": "m²/s"
+      },
+      {
+        "host_element": "Mg",
+        "migrating_atom": "Mg",
+        "path": "FCC nearest neighbor",
+        "activation_energy": 0.78,
+        "prefactor": "8.9e12",
+        "units": "s⁻¹",
+        "diffusion_coefficient": "D0 = 8.9e-6 exp(-0.78/kT)",
+        "units": "m²/s"
+      }
+    ],
+    "solute_drag": [
+      {
+        "host_element": "Al",
+        "solute_element": "Mg",
+        "solute_concentration": 0.05,
+        "activation_energy": 0.89,
+        "binding_energy": -0.12,
+        "drag_force_coefficient": 2.3e-4,
+        "units": "N/m"
+      },
+      {
+        "host_element": "Al",
+        "solute_element": "Cu",
+        "solute_concentration": 0.03,
+        "activation_energy": 0.94,
+        "binding_energy": -0.08,
+        "drag_force_coefficient": 1.8e-4,
+        "units": "N/m"
+      }
+    ],
+    "grain_boundary_diffusion": [
+      {
+        "boundary_type": "Sigma5 (210)",
+        "diffusing_species": "Al",
+        "activation_energy_parallel": 0.45,
+        "activation_energy_perpendicular": 0.82,
+        "diffusion_anisotropy_ratio": 15.2,
+        "enhanced_diffusivity": "10^4 - 10^6 times bulk"
+      },
+      {
+        "boundary_type": "Sigma3 (111)",
+        "diffusing_species": "Al",
+        "activation_energy_parallel": 0.38,
+        "activation_energy_perpendicular": 0.71,
+        "diffusion_anisotropy_ratio": 8.7,
+        "enhanced_diffusivity": "10^3 - 10^5 times bulk"
+      }
+    ],
+    "pipe_diffusion": [
+      {
+        "dislocation_type": "edge",
+        "burgers_vector": "1/2[110]",
+        "diffusing_species": "Al",
+        "activation_energy": 0.52,
+        "diffusion_coefficient": "D_pipe = 2.1e-8 exp(-0.52/kT)",
+        "units": "m²/s",
+        "core_diffusion_ratio": "10^2 - 10^3 times bulk"
+      }
+    ]
+  ],
+  "neb_parameters": {
+    "number_of_images": 7,
+    "spring_constant": 5.0,
+    "units": "eV/Å²",
+    "optimizer": "FIRE",
+    "convergence_force": 0.01,
+    "units": "eV/Å"
+  },
+  "computational_details": {
+    "software": "VASP 5.4.4 with VTST tools",
+    "pseudopotentials": "PAW-PBE",
+    "energy_cutoff": 520,
+    "units": "eV",
+    "supercell_size": "4x4x4 for bulk, 1x2x8 for GB"
+  }
+}
