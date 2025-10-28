@@ -1,0 +1,4002 @@
+[
+  {
+    "sample_id": "CD_000",
+    "material": "alumina",
+    "true_depth": 43.16190591912623,
+    "predicted_depth": 33.52778354573117,
+    "confidence_interval": 5.955196433171299,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 39.122320589238974,
+        "total_broadening": 39.122472660606725,
+        "intensity": 0.08252089160624024,
+        "d_spacing": 2.8655425598121895
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 35.881822729410096,
+        "total_broadening": 35.8820194669533,
+        "intensity": 0.1750255928001121,
+        "d_spacing": 1.2709890378576896
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 42.25671357372221,
+        "total_broadening": 42.25692269750383,
+        "intensity": 0.05712108626840675,
+        "d_spacing": 1.5455877853996915
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 42.53262981027855,
+        "total_broadening": 42.532856235141196,
+        "intensity": 0.09049423017342373,
+        "d_spacing": 1.807952566606167
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 42.4733385645791,
+        "total_broadening": 42.4733698082212,
+        "intensity": 0.0529333056172366,
+        "d_spacing": 2.2675939519854578
+      }
+    ],
+    "crack_orientation": 43.612799256083974,
+    "crack_aspect_ratio": 0.46979771310962115,
+    "measurement_error": 22.320891925965473,
+    "sample_temperature": 168.47938709250153,
+    "beam_energy": 8.093866177104863,
+    "exposure_time": 1.1750163257759194
+  },
+  {
+    "sample_id": "CD_001",
+    "material": "zirconia",
+    "true_depth": 3.813978080081932,
+    "predicted_depth": 3.3754863167442153,
+    "confidence_interval": 0.38277413616980227,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 3.819610198656536,
+        "total_broadening": 3.8202201298309437,
+        "intensity": 0.7462265630460488,
+        "d_spacing": 2.1134185131057075
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 4.177519621500411,
+        "total_broadening": 4.17835525250206,
+        "intensity": 0.7137149052964367,
+        "d_spacing": 1.9683689966451936
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 4.0399213868768244,
+        "total_broadening": 4.040253923491368,
+        "intensity": 0.7506853498557424,
+        "d_spacing": 1.6196942335065598
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 3.1820694728667283,
+        "total_broadening": 3.1826181324830625,
+        "intensity": 0.7930713865955621,
+        "d_spacing": 1.2542052275414808
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 3.5953962034261555,
+        "total_broadening": 3.5970556084846472,
+        "intensity": 0.6182140610779919,
+        "d_spacing": 1.4732662629400177
+      }
+    ],
+    "crack_orientation": 5.074441280499988,
+    "crack_aspect_ratio": 0.19789803185477092,
+    "measurement_error": 11.496966005853313,
+    "sample_temperature": 267.4086003869504,
+    "beam_energy": 10.911395580082566,
+    "exposure_time": 7.483000322493937
+  },
+  {
+    "sample_id": "CD_002",
+    "material": "silicon_carbide",
+    "true_depth": 5.344367755660551,
+    "predicted_depth": 6.039332008438765,
+    "confidence_interval": 1.173639312243181,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 5.747122068937318,
+        "total_broadening": 5.747499253712536,
+        "intensity": 0.6446422858727515,
+        "d_spacing": 1.653786526111213
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 4.298578436568232,
+        "total_broadening": 4.300255905869589,
+        "intensity": 0.6027242192041788,
+        "d_spacing": 1.9837356438344136
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 5.9520861063118895,
+        "total_broadening": 5.953072986649399,
+        "intensity": 0.5876084112782572,
+        "d_spacing": 1.1395989697894995
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 5.2988374205244275,
+        "total_broadening": 5.299263962458143,
+        "intensity": 0.786425884532776,
+        "d_spacing": 2.1082523267165483
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 5.402401805382938,
+        "total_broadening": 5.403880207445525,
+        "intensity": 0.5746209770864393,
+        "d_spacing": 1.3948976341822634
+      }
+    ],
+    "crack_orientation": 102.89298480500979,
+    "crack_aspect_ratio": 0.11856115440605026,
+    "measurement_error": 13.00367573025143,
+    "sample_temperature": 196.58886509380392,
+    "beam_energy": 12.382686713909326,
+    "exposure_time": 9.020807176616286
+  },
+  {
+    "sample_id": "CD_003",
+    "material": "zirconia",
+    "true_depth": 22.207694834094525,
+    "predicted_depth": 21.067422001281138,
+    "confidence_interval": 6.285196282623213,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 23.254238623241992,
+        "total_broadening": 23.254585403240135,
+        "intensity": 0.15725861261548094,
+        "d_spacing": 2.7804413411091122
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 20.16768346589703,
+        "total_broadening": 20.168117247954058,
+        "intensity": 0.2818176823119018,
+        "d_spacing": 1.6288682116228108
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 22.926945099319465,
+        "total_broadening": 22.927274976752628,
+        "intensity": 0.26266523043694684,
+        "d_spacing": 2.3986258423106075
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 24.083106388132528,
+        "total_broadening": 24.08316964122133,
+        "intensity": 0.37010316872626475,
+        "d_spacing": 1.5248321633924289
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 19.913768828805193,
+        "total_broadening": 19.914011452606776,
+        "intensity": 0.36528875546199924,
+        "d_spacing": 2.4994514935670864
+      }
+    ],
+    "crack_orientation": 138.67880450262066,
+    "crack_aspect_ratio": 0.1842113953762452,
+    "measurement_error": 5.134584392175523,
+    "sample_temperature": 162.89640526692546,
+    "beam_energy": 9.635373345539966,
+    "exposure_time": 4.686048345362583
+  },
+  {
+    "sample_id": "CD_004",
+    "material": "alumina",
+    "true_depth": 15.808772440136359,
+    "predicted_depth": 16.71613327118941,
+    "confidence_interval": 4.68898865990903,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 15.71706663828981,
+        "total_broadening": 15.71737091703138,
+        "intensity": 0.3336106542503332,
+        "d_spacing": 1.289865054219001
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 14.258043071065867,
+        "total_broadening": 14.258744722406924,
+        "intensity": 0.25540511674502636,
+        "d_spacing": 2.5150967862667426
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 17.767608369696738,
+        "total_broadening": 17.76814943104826,
+        "intensity": 0.2723407095621591,
+        "d_spacing": 1.9310113330549594
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 14.323311690167424,
+        "total_broadening": 14.323843513009203,
+        "intensity": 0.47995126661266196,
+        "d_spacing": 1.1654766069741431
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 18.433555624436785,
+        "total_broadening": 18.43372634546904,
+        "intensity": 0.37445377712212446,
+        "d_spacing": 2.520623302208848
+      }
+    ],
+    "crack_orientation": 156.98900735451116,
+    "crack_aspect_ratio": 0.12850333305929118,
+    "measurement_error": 5.739603340417395,
+    "sample_temperature": 259.9209669273333,
+    "beam_energy": 13.471448118102472,
+    "exposure_time": 1.9316165230551792
+  },
+  {
+    "sample_id": "CD_005",
+    "material": "alumina",
+    "true_depth": 35.763645587474656,
+    "predicted_depth": 29.706011895077832,
+    "confidence_interval": 3.2502012902936257,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 42.0252106820465,
+        "total_broadening": 42.02544797500496,
+        "intensity": 0.2245816739459655,
+        "d_spacing": 1.2631306132787092
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 32.93512318434221,
+        "total_broadening": 32.9354186521773,
+        "intensity": 0.284258133950378,
+        "d_spacing": 1.2200354422550872
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 42.164308126884144,
+        "total_broadening": 42.16440923005201,
+        "intensity": 0.02487111958515313,
+        "d_spacing": 1.0921383393509352
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 36.3913393560832,
+        "total_broadening": 36.39143596862014,
+        "intensity": 0.14081119213590856,
+        "d_spacing": 2.7376021916356406
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 38.079721827872845,
+        "total_broadening": 38.07983638306581,
+        "intensity": 0.25057293552159215,
+        "d_spacing": 1.2395199328643944
+      }
+    ],
+    "crack_orientation": 120.33840512051736,
+    "crack_aspect_ratio": 0.4451083109836903,
+    "measurement_error": 16.937964776494603,
+    "sample_temperature": 69.79822998128336,
+    "beam_energy": 13.686895603367304,
+    "exposure_time": 8.680561601832474
+  },
+  {
+    "sample_id": "CD_006",
+    "material": "alumina",
+    "true_depth": 41.67716342909429,
+    "predicted_depth": 40.256298560197344,
+    "confidence_interval": 4.8674926363917965,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 48.83575915261334,
+        "total_broadening": 48.83588952187588,
+        "intensity": 0.07563706554337453,
+        "d_spacing": 2.9642703688723007
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 49.72952478883397,
+        "total_broadening": 49.729728948751394,
+        "intensity": 0.15773865144158752,
+        "d_spacing": 2.634000966995261
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 40.15666409906872,
+        "total_broadening": 40.15674920985255,
+        "intensity": 0.13573239806688794,
+        "d_spacing": 1.0971254465913234
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 40.80950652171035,
+        "total_broadening": 40.80961608338083,
+        "intensity": 0.1657729949778986,
+        "d_spacing": 1.2465678549048256
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 35.799893194490394,
+        "total_broadening": 35.799932387394044,
+        "intensity": 0.023460273916345715,
+        "d_spacing": 1.8631686582350184
+      }
+    ],
+    "crack_orientation": 158.5807352666474,
+    "crack_aspect_ratio": 0.31099837782330464,
+    "measurement_error": 3.409216827614188,
+    "sample_temperature": 251.8302188338285,
+    "beam_energy": 13.996286353574483,
+    "exposure_time": 9.349070873495673
+  },
+  {
+    "sample_id": "CD_007",
+    "material": "alumina",
+    "true_depth": 47.426415261520496,
+    "predicted_depth": 47.170671356752976,
+    "confidence_interval": 8.893897324408995,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 53.92315323870037,
+        "total_broadening": 53.923291787262805,
+        "intensity": 0.012096134488376974,
+        "d_spacing": 1.9855626917299114
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 40.989955423936976,
+        "total_broadening": 40.99022198456782,
+        "intensity": 0.02309969739923628,
+        "d_spacing": 1.7282421136830108
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 50.07065458380024,
+        "total_broadening": 50.07069409662975,
+        "intensity": 0.061156785575445564,
+        "d_spacing": 2.775503049343376
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 38.71106614417023,
+        "total_broadening": 38.71132428983276,
+        "intensity": 0.13324198064598172,
+        "d_spacing": 2.5785813093542096
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 38.53327111898279,
+        "total_broadening": 38.53355031754094,
+        "intensity": 0.07852277748419714,
+        "d_spacing": 1.7251664251893541
+      }
+    ],
+    "crack_orientation": 170.80491927396872,
+    "crack_aspect_ratio": 0.19839989612271808,
+    "measurement_error": 0.5392435910605677,
+    "sample_temperature": 171.32387658295312,
+    "beam_energy": 11.37649346007927,
+    "exposure_time": 7.325797996450913
+  },
+  {
+    "sample_id": "CD_008",
+    "material": "zirconia",
+    "true_depth": 40.689003988877516,
+    "predicted_depth": 40.49554876493873,
+    "confidence_interval": 5.475667447012809,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 44.64122909957219,
+        "total_broadening": 44.6413802257338,
+        "intensity": 0.04602700905448824,
+        "d_spacing": 2.1523186596519324
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 41.56264302207764,
+        "total_broadening": 41.56270002923137,
+        "intensity": 0.018683197888161744,
+        "d_spacing": 2.9855419730254678
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 45.30450247862736,
+        "total_broadening": 45.30472564004522,
+        "intensity": 0.05292200931491171,
+        "d_spacing": 1.2853087029463242
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 40.8368162123845,
+        "total_broadening": 40.83703269423724,
+        "intensity": 0.07551431699135554,
+        "d_spacing": 1.2563702205981957
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 34.551830737341426,
+        "total_broadening": 34.55201212132212,
+        "intensity": 0.16533214105886104,
+        "d_spacing": 2.113364105363507
+      }
+    ],
+    "crack_orientation": 129.00934543817556,
+    "crack_aspect_ratio": 0.38239616118479736,
+    "measurement_error": 0.475448413511586,
+    "sample_temperature": 89.40474144172481,
+    "beam_energy": 9.88744079453443,
+    "exposure_time": 6.892936422418795
+  },
+  {
+    "sample_id": "CD_009",
+    "material": "silicon_carbide",
+    "true_depth": 42.49504873162466,
+    "predicted_depth": 48.01964488009287,
+    "confidence_interval": 5.039155580886288,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 42.157382048375055,
+        "total_broadening": 42.157472482156116,
+        "intensity": 0.1028821599327481,
+        "d_spacing": 1.3781553075566977
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 49.30968614545697,
+        "total_broadening": 49.309825946898044,
+        "intensity": 0.11193847124549383,
+        "d_spacing": 2.208347876345184
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 36.05213067987346,
+        "total_broadening": 36.05217712522596,
+        "intensity": 0.10375752492001755,
+        "d_spacing": 2.1776205403124465
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 35.51263913711315,
+        "total_broadening": 35.51276116802879,
+        "intensity": 0.042738556116628974,
+        "d_spacing": 2.1223004248703488
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 45.68110414753862,
+        "total_broadening": 45.68117872047142,
+        "intensity": 0.027880013470776288,
+        "d_spacing": 1.5725180707663664
+      }
+    ],
+    "crack_orientation": 145.84664349311166,
+    "crack_aspect_ratio": 0.31463127601144814,
+    "measurement_error": 13.000564332467345,
+    "sample_temperature": 101.50972644392608,
+    "beam_energy": 8.431255897047285,
+    "exposure_time": 2.462485739269973
+  },
+  {
+    "sample_id": "CD_010",
+    "material": "silicon_carbide",
+    "true_depth": 1.0172113897845785,
+    "predicted_depth": 0.975624946213329,
+    "confidence_interval": 0.20042231691525134,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 1.094372374640149,
+        "total_broadening": 1.0973026849865697,
+        "intensity": 0.7122532964466087,
+        "d_spacing": 1.9380800933319258
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 1.0190117506216314,
+        "total_broadening": 1.0247726023761634,
+        "intensity": 0.8071542944434147,
+        "d_spacing": 1.665468307967711
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 0.842731250671789,
+        "total_broadening": 0.8447906850120636,
+        "intensity": 0.7639721827414818,
+        "d_spacing": 2.0322696093489956
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 0.9378030549510843,
+        "total_broadening": 0.9452967120060243,
+        "intensity": 0.7607555690102364,
+        "d_spacing": 1.3859680158780572
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 0.8610411931888519,
+        "total_broadening": 0.868246605060445,
+        "intensity": 0.7167238558551583,
+        "d_spacing": 2.306273466583711
+      }
+    ],
+    "crack_orientation": 132.161004213495,
+    "crack_aspect_ratio": 0.12204385597626671,
+    "measurement_error": 4.088279387046242,
+    "sample_temperature": 269.16505625911583,
+    "beam_energy": 12.920942083027736,
+    "exposure_time": 2.94513398513886
+  },
+  {
+    "sample_id": "CD_011",
+    "material": "alumina",
+    "true_depth": 21.639844685774793,
+    "predicted_depth": 23.59544311178155,
+    "confidence_interval": 2.5488959501282524,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 24.38867044934758,
+        "total_broadening": 24.38904019090789,
+        "intensity": 0.33188850442203677,
+        "d_spacing": 1.0108874183833811
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 17.616345173909078,
+        "total_broadening": 17.61691090084843,
+        "intensity": 0.3575534552947599,
+        "d_spacing": 2.5072202629559746
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 25.583831559536744,
+        "total_broadening": 25.584147814307123,
+        "intensity": 0.41455153981868564,
+        "d_spacing": 1.3364221848670832
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 24.527241455346534,
+        "total_broadening": 24.527339953031724,
+        "intensity": 0.38513063860106267,
+        "d_spacing": 2.3539535046220568
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 21.615961636443874,
+        "total_broadening": 21.61604324848689,
+        "intensity": 0.253282020411989,
+        "d_spacing": 2.9214295033396347
+      }
+    ],
+    "crack_orientation": 162.2604293169083,
+    "crack_aspect_ratio": 0.3229717117057279,
+    "measurement_error": 9.037026163557869,
+    "sample_temperature": 263.83094158076165,
+    "beam_energy": 13.841003839340196,
+    "exposure_time": 8.497055936809776
+  },
+  {
+    "sample_id": "CD_012",
+    "material": "silicon_carbide",
+    "true_depth": 16.773736816954724,
+    "predicted_depth": 16.49678828637631,
+    "confidence_interval": 3.856134999534376,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 18.90671321503391,
+        "total_broadening": 18.906789863750273,
+        "intensity": 0.4630810304471124,
+        "d_spacing": 1.7965004697268256
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 16.754730701867583,
+        "total_broadening": 16.755137405653034,
+        "intensity": 0.18732474360761375,
+        "d_spacing": 1.8934790506227857
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 15.720121508954191,
+        "total_broadening": 15.720251074022473,
+        "intensity": 0.3476547460071708,
+        "d_spacing": 1.8072933889869556
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 17.972455774372644,
+        "total_broadening": 17.97269170341347,
+        "intensity": 0.4956102073891689,
+        "d_spacing": 2.6149558713038177
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 14.152712308819298,
+        "total_broadening": 14.152996750259263,
+        "intensity": 0.3196625729657323,
+        "d_spacing": 2.722227040122851
+      }
+    ],
+    "crack_orientation": 97.71806382494493,
+    "crack_aspect_ratio": 0.4331574379548918,
+    "measurement_error": 1.6510842729956006,
+    "sample_temperature": 59.39945020501097,
+    "beam_energy": 8.908480760058278,
+    "exposure_time": 6.011365242504768
+  },
+  {
+    "sample_id": "CD_013",
+    "material": "zirconia",
+    "true_depth": 34.10485975972107,
+    "predicted_depth": 33.66346680179181,
+    "confidence_interval": 6.437523607786039,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 30.743697973171606,
+        "total_broadening": 30.744009371689142,
+        "intensity": 0.15160380077120716,
+        "d_spacing": 1.448738351396972
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 34.02095083260718,
+        "total_broadening": 34.02126479658695,
+        "intensity": 0.22096677737510112,
+        "d_spacing": 1.6754382891244342
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 34.77697778220963,
+        "total_broadening": 34.77720183844592,
+        "intensity": 0.2112811970338395,
+        "d_spacing": 2.4423185364277544
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 36.257405445637716,
+        "total_broadening": 36.2576990408405,
+        "intensity": 0.28455183328125916,
+        "d_spacing": 2.446789377709857
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 31.022347801855,
+        "total_broadening": 31.02263978716131,
+        "intensity": 0.12432633161137772,
+        "d_spacing": 1.768321515906925
+      }
+    ],
+    "crack_orientation": 88.62436701530814,
+    "crack_aspect_ratio": 0.11465187903952777,
+    "measurement_error": 1.2942230551276421,
+    "sample_temperature": 78.83015812574547,
+    "beam_energy": 13.787197000030995,
+    "exposure_time": 8.476906497352847
+  },
+  {
+    "sample_id": "CD_014",
+    "material": "alumina",
+    "true_depth": 9.674471901784624,
+    "predicted_depth": 9.224739451548887,
+    "confidence_interval": 1.1957122011352006,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 7.976473057080156,
+        "total_broadening": 7.977219027301529,
+        "intensity": 0.5420297828944146,
+        "d_spacing": 1.0933696397985475
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 10.75620046237032,
+        "total_broadening": 10.756463742497813,
+        "intensity": 0.6332986919663754,
+        "d_spacing": 2.891347074101609
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 9.322039542308652,
+        "total_broadening": 9.322763697930139,
+        "intensity": 0.5385888384177275,
+        "d_spacing": 1.8991978120154747
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 8.46954446854779,
+        "total_broadening": 8.470144159146308,
+        "intensity": 0.5893247441604413,
+        "d_spacing": 2.471041411587162
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 10.308310887212293,
+        "total_broadening": 10.308493380931543,
+        "intensity": 0.571948805523097,
+        "d_spacing": 2.7881990722123184
+      }
+    ],
+    "crack_orientation": 134.33648626243382,
+    "crack_aspect_ratio": 0.10334188166885544,
+    "measurement_error": 4.648651159478551,
+    "sample_temperature": 71.36473831936013,
+    "beam_energy": 12.065577808974329,
+    "exposure_time": 7.4294880583356315
+  },
+  {
+    "sample_id": "CD_015",
+    "material": "silicon_carbide",
+    "true_depth": 35.30428293153773,
+    "predicted_depth": 32.57052895455886,
+    "confidence_interval": 7.327036220384564,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 37.73010051507808,
+        "total_broadening": 37.7302065106826,
+        "intensity": 0.02175650178630482,
+        "d_spacing": 2.0691090895120783
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 37.77741694738544,
+        "total_broadening": 37.77752835125852,
+        "intensity": 0.20409410796199,
+        "d_spacing": 1.1483523911886244
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 30.95502476588043,
+        "total_broadening": 30.955314797440742,
+        "intensity": 0.22919678751206082,
+        "d_spacing": 1.2351144982418731
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 42.22706495612417,
+        "total_broadening": 42.227124545576004,
+        "intensity": 0.03174753499561924,
+        "d_spacing": 1.5621477708902263
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 37.67700544733992,
+        "total_broadening": 37.67706621365875,
+        "intensity": 0.18950804334329438,
+        "d_spacing": 1.6403623348568772
+      }
+    ],
+    "crack_orientation": 60.56106332715183,
+    "crack_aspect_ratio": 0.18448330343518068,
+    "measurement_error": 7.743406040225147,
+    "sample_temperature": 111.12506394349967,
+    "beam_energy": 9.251887479554595,
+    "exposure_time": 9.117244970540945
+  },
+  {
+    "sample_id": "CD_016",
+    "material": "zirconia",
+    "true_depth": 23.6966781783062,
+    "predicted_depth": 22.88599164530529,
+    "confidence_interval": 3.26305839122695,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 19.327756560972727,
+        "total_broadening": 19.32809190009237,
+        "intensity": 0.11369083574725647,
+        "d_spacing": 2.923262513250614
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 20.753457344782245,
+        "total_broadening": 20.75379075449553,
+        "intensity": 0.12429140035326942,
+        "d_spacing": 1.6945753323053492
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 25.412792671035298,
+        "total_broadening": 25.412942578045318,
+        "intensity": 0.1311314489845572,
+        "d_spacing": 1.22534705326958
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 24.425429468075365,
+        "total_broadening": 24.42548937044099,
+        "intensity": 0.3048274410686164,
+        "d_spacing": 2.6757465402387255
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 27.324940077743864,
+        "total_broadening": 27.32531010766848,
+        "intensity": 0.10404844663918751,
+        "d_spacing": 2.114013612626257
+      }
+    ],
+    "crack_orientation": 136.07385280762466,
+    "crack_aspect_ratio": 0.3560775474148128,
+    "measurement_error": 3.421097788056545,
+    "sample_temperature": 57.96920865805749,
+    "beam_energy": 11.3846544715548,
+    "exposure_time": 7.168964701341622
+  },
+  {
+    "sample_id": "CD_017",
+    "material": "zirconia",
+    "true_depth": 7.4579051623823585,
+    "predicted_depth": 9.466152535475477,
+    "confidence_interval": 1.8599543334293782,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 6.184827637503615,
+        "total_broadening": 6.186219740151975,
+        "intensity": 0.6875436257594937,
+        "d_spacing": 2.432650686952056
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 7.963209332630294,
+        "total_broadening": 7.963808637035257,
+        "intensity": 0.5133400981326414,
+        "d_spacing": 2.2429288453135694
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 8.286859392236135,
+        "total_broadening": 8.287463167651737,
+        "intensity": 0.507028569344611,
+        "d_spacing": 2.285604100324165
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 8.03306238421256,
+        "total_broadening": 8.034232184238236,
+        "intensity": 0.5979415908525317,
+        "d_spacing": 2.122711648378676
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 8.599968458452915,
+        "total_broadening": 8.600582623502003,
+        "intensity": 0.6054163170571593,
+        "d_spacing": 2.4986307102848686
+      }
+    ],
+    "crack_orientation": 16.858341469345408,
+    "crack_aspect_ratio": 0.4072357513674666,
+    "measurement_error": 26.92776764208144,
+    "sample_temperature": 230.4867773993614,
+    "beam_energy": 10.181923250449683,
+    "exposure_time": 3.7561532070556036
+  },
+  {
+    "sample_id": "CD_018",
+    "material": "alumina",
+    "true_depth": 28.51911180623343,
+    "predicted_depth": 28.58165528930996,
+    "confidence_interval": 3.6706897049437877,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 31.238138494784582,
+        "total_broadening": 31.2382043676309,
+        "intensity": 0.31182665569293033,
+        "d_spacing": 1.2536878537851943
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 28.08476806293097,
+        "total_broadening": 28.085090026503558,
+        "intensity": 0.28095693818470496,
+        "d_spacing": 2.422531649420906
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 23.955885625772243,
+        "total_broadening": 23.955945041409873,
+        "intensity": 0.2367495774849016,
+        "d_spacing": 2.5915734623530042
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 26.696355422108287,
+        "total_broadening": 26.696403475064663,
+        "intensity": 0.16436356684100137,
+        "d_spacing": 1.1839690213415999
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 26.54204174876756,
+        "total_broadening": 26.542207201132026,
+        "intensity": 0.14037646796032438,
+        "d_spacing": 1.1106995784361904
+      }
+    ],
+    "crack_orientation": 115.15953628267604,
+    "crack_aspect_ratio": 0.12187384830134623,
+    "measurement_error": 0.21930375497480015,
+    "sample_temperature": 137.0301267577636,
+    "beam_energy": 9.241866290848277,
+    "exposure_time": 1.9867265428166778
+  },
+  {
+    "sample_id": "CD_019",
+    "material": "alumina",
+    "true_depth": 46.42395502308053,
+    "predicted_depth": 51.942553403186984,
+    "confidence_interval": 14.432952776325251,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 38.1565365979245,
+        "total_broadening": 38.156647884360545,
+        "intensity": 0.12269717221603703,
+        "d_spacing": 2.6129918922104904
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 40.475102443977846,
+        "total_broadening": 40.47536561913845,
+        "intensity": 0.05828560463932852,
+        "d_spacing": 2.7492115890063316
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 47.60993910948094,
+        "total_broadening": 47.61004761181703,
+        "intensity": 0.13179171031833736,
+        "d_spacing": 1.3250312895142307
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 49.658732066684145,
+        "total_broadening": 49.65877247072198,
+        "intensity": 0.16853512505703022,
+        "d_spacing": 1.7547752499495526
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 45.398095144216434,
+        "total_broadening": 45.3981280299169,
+        "intensity": 0.010650474356092867,
+        "d_spacing": 1.2572481208783841
+      }
+    ],
+    "crack_orientation": 93.49158335102418,
+    "crack_aspect_ratio": 0.32601300999037996,
+    "measurement_error": 11.887393862420339,
+    "sample_temperature": 209.16309242739993,
+    "beam_energy": 14.729677291006006,
+    "exposure_time": 6.424029648500546
+  },
+  {
+    "sample_id": "CD_020",
+    "material": "zirconia",
+    "true_depth": 9.902421629617013,
+    "predicted_depth": 7.72738046403324,
+    "confidence_interval": 2.201095541983834,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 10.353361848932485,
+        "total_broadening": 10.35352865911881,
+        "intensity": 0.5245129329854114,
+        "d_spacing": 2.3188464936998328
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 10.396357072000898,
+        "total_broadening": 10.396651579743168,
+        "intensity": 0.4158611135980264,
+        "d_spacing": 2.4380456408672018
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 9.917825031800652,
+        "total_broadening": 9.91856161471768,
+        "intensity": 0.41165178433904465,
+        "d_spacing": 1.6684306745202293
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 8.02390218172533,
+        "total_broadening": 8.024342953609375,
+        "intensity": 0.6628598132283361,
+        "d_spacing": 2.036436631271855
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 9.72616523932002,
+        "total_broadening": 9.726310092235146,
+        "intensity": 0.49159257762085207,
+        "d_spacing": 2.8895001604204236
+      }
+    ],
+    "crack_orientation": 4.390378759817413,
+    "crack_aspect_ratio": 0.3325699579476349,
+    "measurement_error": 21.964740009438426,
+    "sample_temperature": 175.95644423731784,
+    "beam_energy": 9.535242808479675,
+    "exposure_time": 4.859986882151896
+  },
+  {
+    "sample_id": "CD_021",
+    "material": "silicon_carbide",
+    "true_depth": 46.704171795277645,
+    "predicted_depth": 49.19329230129874,
+    "confidence_interval": 10.241908033192326,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 41.163431756247434,
+        "total_broadening": 41.16348258677626,
+        "intensity": 0.1615441583638186,
+        "d_spacing": 1.3731569985072827
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 42.395426130027886,
+        "total_broadening": 42.39562564715302,
+        "intensity": 0.07790890956815896,
+        "d_spacing": 1.6367040442720218
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 44.485349119383486,
+        "total_broadening": 44.485598888997295,
+        "intensity": 0.037486350299092884,
+        "d_spacing": 2.688804686381064
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 41.83242626360957,
+        "total_broadening": 41.83252637915305,
+        "intensity": 0.10399977232143343,
+        "d_spacing": 1.919004533140635
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 44.13562414387348,
+        "total_broadening": 44.135757913189664,
+        "intensity": 0.11228347481725719,
+        "d_spacing": 1.1407362158120586
+      }
+    ],
+    "crack_orientation": 128.74807485166397,
+    "crack_aspect_ratio": 0.32269292310368713,
+    "measurement_error": 5.32954639883535,
+    "sample_temperature": 260.0536701127942,
+    "beam_energy": 14.507081662182983,
+    "exposure_time": 2.6579790936672336
+  },
+  {
+    "sample_id": "CD_022",
+    "material": "alumina",
+    "true_depth": 19.679866836542793,
+    "predicted_depth": 19.01523046424433,
+    "confidence_interval": 3.4527194134750663,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 18.933725335907464,
+        "total_broadening": 18.93382866460445,
+        "intensity": 0.33603656834795126,
+        "d_spacing": 2.056453215454314
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 20.95416488471628,
+        "total_broadening": 20.954284314811012,
+        "intensity": 0.47256729215644916,
+        "d_spacing": 1.9421674589678506
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 18.980435964610503,
+        "total_broadening": 18.980578882894072,
+        "intensity": 0.33228950080967873,
+        "d_spacing": 2.360475507687566
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 22.375669990164457,
+        "total_broadening": 22.375788571961333,
+        "intensity": 0.3455507384484437,
+        "d_spacing": 2.8255747707730507
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 16.67563462227027,
+        "total_broadening": 16.676028235056368,
+        "intensity": 0.2561161721970542,
+        "d_spacing": 2.024600721830933
+      }
+    ],
+    "crack_orientation": 119.06060699035821,
+    "crack_aspect_ratio": 0.45276131390538377,
+    "measurement_error": 3.377240190794004,
+    "sample_temperature": 137.58201107544008,
+    "beam_energy": 10.029164756737018,
+    "exposure_time": 1.130635850748479
+  },
+  {
+    "sample_id": "CD_023",
+    "material": "alumina",
+    "true_depth": 15.887132828645376,
+    "predicted_depth": 14.954811336410014,
+    "confidence_interval": 3.893163871672844,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 18.893897979689527,
+        "total_broadening": 18.894025333432296,
+        "intensity": 0.31564369872181003,
+        "d_spacing": 1.016902992124921
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 18.04274955123369,
+        "total_broadening": 18.04282798093469,
+        "intensity": 0.5573950066922654,
+        "d_spacing": 2.0710438321719273
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 16.164176304388118,
+        "total_broadening": 16.164588074995827,
+        "intensity": 0.36517928447223325,
+        "d_spacing": 1.0895367773769737
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 13.053170996827594,
+        "total_broadening": 13.053521975818768,
+        "intensity": 0.4533746606294804,
+        "d_spacing": 1.2093212678157925
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 17.937513019131945,
+        "total_broadening": 17.93765355289649,
+        "intensity": 0.3269668865758365,
+        "d_spacing": 1.800310545730798
+      }
+    ],
+    "crack_orientation": 79.47612186820145,
+    "crack_aspect_ratio": 0.29624543035927964,
+    "measurement_error": 5.868406227172311,
+    "sample_temperature": 258.4110859523614,
+    "beam_energy": 12.942406802466216,
+    "exposure_time": 5.414089676678063
+  },
+  {
+    "sample_id": "CD_024",
+    "material": "silicon_carbide",
+    "true_depth": 20.830406911357077,
+    "predicted_depth": 21.328286876249468,
+    "confidence_interval": 2.584136771106619,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 20.063536332510214,
+        "total_broadening": 20.06370576590367,
+        "intensity": 0.41161577523695553,
+        "d_spacing": 1.9572897411010497
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 17.036450053217113,
+        "total_broadening": 17.0366424003789,
+        "intensity": 0.25337336768642216,
+        "d_spacing": 1.1751511468323494
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 23.377343922654212,
+        "total_broadening": 23.377636295874385,
+        "intensity": 0.3563572267508615,
+        "d_spacing": 2.3594515920035164
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 21.73885382470144,
+        "total_broadening": 21.73922419772829,
+        "intensity": 0.2802049900258033,
+        "d_spacing": 2.2871524454796406
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 17.56484479749786,
+        "total_broadening": 17.565094315057305,
+        "intensity": 0.3505375532055859,
+        "d_spacing": 1.6320094457327876
+      }
+    ],
+    "crack_orientation": 113.13792555819501,
+    "crack_aspect_ratio": 0.13801609626064779,
+    "measurement_error": 2.390159573027538,
+    "sample_temperature": 51.112253040041026,
+    "beam_energy": 13.097283500319376,
+    "exposure_time": 3.917216564495167
+  },
+  {
+    "sample_id": "CD_025",
+    "material": "silicon_carbide",
+    "true_depth": 13.19917935290055,
+    "predicted_depth": 13.192743056638745,
+    "confidence_interval": 1.6595914240656662,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 11.202878510893397,
+        "total_broadening": 11.203333567433338,
+        "intensity": 0.4397497012150486,
+        "d_spacing": 1.950718135361737
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 12.47858049039615,
+        "total_broadening": 12.479102131304312,
+        "intensity": 0.4677801355975588,
+        "d_spacing": 1.7628176198062468
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 11.303083469816494,
+        "total_broadening": 11.303643258282024,
+        "intensity": 0.5725341776405978,
+        "d_spacing": 1.5577438525219298
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 15.576146734061927,
+        "total_broadening": 15.576248576900753,
+        "intensity": 0.3942351097386854,
+        "d_spacing": 2.7875483755238895
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 13.356561389143948,
+        "total_broadening": 13.357073253434871,
+        "intensity": 0.4539041558596686,
+        "d_spacing": 1.0771831238762677
+      }
+    ],
+    "crack_orientation": 84.32302267567557,
+    "crack_aspect_ratio": 0.3393224302784075,
+    "measurement_error": 0.04876285176313485,
+    "sample_temperature": 33.516915941190284,
+    "beam_energy": 9.924269607799614,
+    "exposure_time": 1.2951988684920641
+  },
+  {
+    "sample_id": "CD_026",
+    "material": "zirconia",
+    "true_depth": 46.79719964314618,
+    "predicted_depth": 48.279732729577134,
+    "confidence_interval": 7.334178382611788,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 41.818076570835174,
+        "total_broadening": 41.818117403548555,
+        "intensity": 0.03236942650834674,
+        "d_spacing": 1.0717855023778649
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 54.56287307002273,
+        "total_broadening": 54.562939592529105,
+        "intensity": 0.05405122590495563,
+        "d_spacing": 1.5410435603436932
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 52.50132872218692,
+        "total_broadening": 52.50144722572836,
+        "intensity": 0.12904828084993694,
+        "d_spacing": 1.61945844350266
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 46.47542384540246,
+        "total_broadening": 46.475496727519115,
+        "intensity": 0.1375026497852524,
+        "d_spacing": 2.3195272809061676
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 40.00191347650927,
+        "total_broadening": 40.00208954920822,
+        "intensity": 0.1685517825030329,
+        "d_spacing": 2.1197107600689544
+      }
+    ],
+    "crack_orientation": 52.63038429259327,
+    "crack_aspect_ratio": 0.38212265701437087,
+    "measurement_error": 3.167995302573802,
+    "sample_temperature": 227.24506332035122,
+    "beam_energy": 10.124473622523107,
+    "exposure_time": 4.108095801336972
+  },
+  {
+    "sample_id": "CD_027",
+    "material": "alumina",
+    "true_depth": 46.13636300479942,
+    "predicted_depth": 46.10755871836333,
+    "confidence_interval": 10.532899581356467,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 47.399986354577436,
+        "total_broadening": 47.40006504881492,
+        "intensity": 0.12394757473490256,
+        "d_spacing": 2.387019674092641
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 37.641942679004394,
+        "total_broadening": 37.6421809781044,
+        "intensity": 0.07821326338698836,
+        "d_spacing": 1.4424756396133673
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 49.4041778391265,
+        "total_broadening": 49.404341650438305,
+        "intensity": 0.08273442304780244,
+        "d_spacing": 1.9126518476447971
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 53.409139992454776,
+        "total_broadening": 53.40923321077215,
+        "intensity": 0.1685320155607609,
+        "d_spacing": 1.821009642696713
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 41.15519505908405,
+        "total_broadening": 41.15529480151449,
+        "intensity": 0.13493190409047184,
+        "d_spacing": 2.0488726917154985
+      }
+    ],
+    "crack_orientation": 44.213683328786615,
+    "crack_aspect_ratio": 0.143711778147264,
+    "measurement_error": 0.06243293697228662,
+    "sample_temperature": 243.4556619005355,
+    "beam_energy": 8.692780363860948,
+    "exposure_time": 3.442432555716261
+  },
+  {
+    "sample_id": "CD_028",
+    "material": "silicon_carbide",
+    "true_depth": 40.613293214059006,
+    "predicted_depth": 39.62121410462612,
+    "confidence_interval": 5.870897677499151,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 41.15716167739584,
+        "total_broadening": 41.15719879605575,
+        "intensity": 0.11770813078636788,
+        "d_spacing": 2.7757186994711054
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 34.15195026303152,
+        "total_broadening": 34.15217687469834,
+        "intensity": 0.16500704953787598,
+        "d_spacing": 1.9432171414821846
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 44.040859266577115,
+        "total_broadening": 44.04095937792033,
+        "intensity": 0.03316905998023021,
+        "d_spacing": 2.823277379470607
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 43.090456008229175,
+        "total_broadening": 43.09064428249599,
+        "intensity": 0.0708752757212753,
+        "d_spacing": 2.2855473232365853
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 37.81538180722925,
+        "total_broadening": 37.81562638944773,
+        "intensity": 0.03181798839947652,
+        "d_spacing": 1.7934552009367717
+      }
+    ],
+    "crack_orientation": 23.381784816625945,
+    "crack_aspect_ratio": 0.38617448131061616,
+    "measurement_error": 2.4427448032937664,
+    "sample_temperature": 44.02290238898972,
+    "beam_energy": 10.318458116299652,
+    "exposure_time": 3.542488539588681
+  },
+  {
+    "sample_id": "CD_029",
+    "material": "zirconia",
+    "true_depth": 30.51547263672777,
+    "predicted_depth": 28.760309910041084,
+    "confidence_interval": 7.484419136177516,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 31.55537629370678,
+        "total_broadening": 31.555496153222318,
+        "intensity": 0.1690011574104943,
+        "d_spacing": 1.2836887952339704
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 27.022076106853373,
+        "total_broadening": 27.022143948849354,
+        "intensity": 0.24733394180715357,
+        "d_spacing": 2.9012127431597454
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 33.31897077548754,
+        "total_broadening": 33.31901650835261,
+        "intensity": 0.31844278712253987,
+        "d_spacing": 1.8866406415453973
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 31.56353326428408,
+        "total_broadening": 31.563878408681077,
+        "intensity": 0.22160881480325798,
+        "d_spacing": 1.1660775156203729
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 26.744393338092426,
+        "total_broadening": 26.74455879653352,
+        "intensity": 0.23147858577467834,
+        "d_spacing": 2.9765242302863735
+      }
+    ],
+    "crack_orientation": 108.78852943490546,
+    "crack_aspect_ratio": 0.17941714354728067,
+    "measurement_error": 5.751714048741987,
+    "sample_temperature": 161.07782557089055,
+    "beam_energy": 13.196171718736071,
+    "exposure_time": 7.933706083617794
+  },
+  {
+    "sample_id": "CD_030",
+    "material": "zirconia",
+    "true_depth": 6.359545044080948,
+    "predicted_depth": 7.677592397701197,
+    "confidence_interval": 1.3883366252409972,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 7.088305748468867,
+        "total_broadening": 7.088495062260378,
+        "intensity": 0.5783485373431686,
+        "d_spacing": 2.480606119798168
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 5.883242408888183,
+        "total_broadening": 5.884738347019831,
+        "intensity": 0.7017144302443935,
+        "d_spacing": 2.9786812756792473
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 6.815291271992619,
+        "total_broadening": 6.816908822664375,
+        "intensity": 0.4392792655735842,
+        "d_spacing": 1.2157065291246183
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 5.75489204583432,
+        "total_broadening": 5.756449310753234,
+        "intensity": 0.47106488894466847,
+        "d_spacing": 2.134257415064746
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 6.51510243278395,
+        "total_broadening": 6.515832391451565,
+        "intensity": 0.5784524720048244,
+        "d_spacing": 1.6211540311015746
+      }
+    ],
+    "crack_orientation": 157.56682739890198,
+    "crack_aspect_ratio": 0.26619735867836575,
+    "measurement_error": 20.725497570726425,
+    "sample_temperature": 135.76343694579163,
+    "beam_energy": 8.253450830411694,
+    "exposure_time": 5.960272025752604
+  },
+  {
+    "sample_id": "CD_031",
+    "material": "alumina",
+    "true_depth": 1.207920368093731,
+    "predicted_depth": 1.2851299174189985,
+    "confidence_interval": 0.20522256644479325,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 1.1130859851397692,
+        "total_broadening": 1.1221206687177132,
+        "intensity": 0.7206581991143348,
+        "d_spacing": 2.0684408198624946
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 1.364371059675095,
+        "total_broadening": 1.3657035727530782,
+        "intensity": 0.900051758353567,
+        "d_spacing": 1.3625005111031039
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 1.3103558619054454,
+        "total_broadening": 1.3133407799340147,
+        "intensity": 0.8744513235827691,
+        "d_spacing": 2.9255696159614644
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 1.027532377895311,
+        "total_broadening": 1.0316483838758956,
+        "intensity": 0.7643537666416401,
+        "d_spacing": 1.72637824743245
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 0.9915908497392939,
+        "total_broadening": 0.9986528082848163,
+        "intensity": 0.7110554092130885,
+        "d_spacing": 2.632067004604137
+      }
+    ],
+    "crack_orientation": 114.85669064336143,
+    "crack_aspect_ratio": 0.21526085431096123,
+    "measurement_error": 6.391940343477705,
+    "sample_temperature": 89.90218083902082,
+    "beam_energy": 13.113602578184286,
+    "exposure_time": 1.3629271574885564
+  },
+  {
+    "sample_id": "CD_032",
+    "material": "alumina",
+    "true_depth": 43.428021206250264,
+    "predicted_depth": 45.96182110101026,
+    "confidence_interval": 8.89443003004299,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 39.86197001263202,
+        "total_broadening": 39.86200159852924,
+        "intensity": 0.03993875209397619,
+        "d_spacing": 2.9819723389933706
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 43.83696714115197,
+        "total_broadening": 43.837023785288125,
+        "intensity": 0.05928938552410788,
+        "d_spacing": 1.039451492926351
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 37.09070998231323,
+        "total_broadening": 37.09090254951803,
+        "intensity": 0.023208876386441476,
+        "d_spacing": 1.7014745968086176
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 47.9051886604252,
+        "total_broadening": 47.905310942623245,
+        "intensity": 0.14010203017353146,
+        "d_spacing": 2.367184850443738
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 34.791788608836384,
+        "total_broadening": 34.79208285367453,
+        "intensity": 0.02350647847280849,
+        "d_spacing": 2.5420767404897093
+      }
+    ],
+    "crack_orientation": 157.48909300848084,
+    "crack_aspect_ratio": 0.4243312453449084,
+    "measurement_error": 5.834481572914319,
+    "sample_temperature": 294.7712332696379,
+    "beam_energy": 14.48583446525683,
+    "exposure_time": 9.083114512415909
+  },
+  {
+    "sample_id": "CD_033",
+    "material": "alumina",
+    "true_depth": 18.413207548684216,
+    "predicted_depth": 19.287095129252393,
+    "confidence_interval": 4.746221420034316,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 15.512209782237987,
+        "total_broadening": 15.51266518360925,
+        "intensity": 0.4925239088058003,
+        "d_spacing": 2.857458738554671
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 20.654497883761298,
+        "total_broadening": 20.654604330294575,
+        "intensity": 0.23485174750010945,
+        "d_spacing": 1.3365208886760083
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 19.014592722738108,
+        "total_broadening": 19.01516515716066,
+        "intensity": 0.39861109484298085,
+        "d_spacing": 1.0090089619605773
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 17.03793252419185,
+        "total_broadening": 17.038241900068886,
+        "intensity": 0.239991371105282,
+        "d_spacing": 1.885529913723789
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 16.59584471137884,
+        "total_broadening": 16.59644302382621,
+        "intensity": 0.15477414225249178,
+        "d_spacing": 1.010628338309724
+      }
+    ],
+    "crack_orientation": 81.58710300871016,
+    "crack_aspect_ratio": 0.3737314601821067,
+    "measurement_error": 4.7459823512966555,
+    "sample_temperature": 123.97635995922495,
+    "beam_energy": 12.674643539906318,
+    "exposure_time": 1.3653638677213606
+  },
+  {
+    "sample_id": "CD_034",
+    "material": "silicon_carbide",
+    "true_depth": 39.91033837320953,
+    "predicted_depth": 43.5995556514016,
+    "confidence_interval": 8.043645311570486,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 46.638546718172975,
+        "total_broadening": 46.63878107093008,
+        "intensity": 0.017814290814515386,
+        "d_spacing": 1.8256787955178129
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 45.65510416296696,
+        "total_broadening": 45.6551660645849,
+        "intensity": 0.22979766244266556,
+        "d_spacing": 2.5870748044576617
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 33.29479354566846,
+        "total_broadening": 33.294863693901625,
+        "intensity": 0.14470633238957886,
+        "d_spacing": 2.633755971787566
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 32.150954720954985,
+        "total_broadening": 32.15116294489166,
+        "intensity": 0.08798157627067,
+        "d_spacing": 2.392062813978227
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 37.39559145143342,
+        "total_broadening": 37.39564087144253,
+        "intensity": 0.02639196688115208,
+        "d_spacing": 2.041310707468223
+      }
+    ],
+    "crack_orientation": 71.65569208252155,
+    "crack_aspect_ratio": 0.110578761039067,
+    "measurement_error": 9.24376346723365,
+    "sample_temperature": 117.27823046658071,
+    "beam_energy": 14.83214110267146,
+    "exposure_time": 8.8620001860438
+  },
+  {
+    "sample_id": "CD_035",
+    "material": "silicon_carbide",
+    "true_depth": 40.53718354799591,
+    "predicted_depth": 40.75933818237162,
+    "confidence_interval": 9.292773562807728,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 45.35053915907571,
+        "total_broadening": 45.35058258100667,
+        "intensity": 0.21270641588257969,
+        "d_spacing": 2.795057244753729
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 39.68039781742631,
+        "total_broadening": 39.68050843667868,
+        "intensity": 0.15026418645182485,
+        "d_spacing": 2.0417480732697717
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 45.99161134897003,
+        "total_broadening": 45.99180371106636,
+        "intensity": 0.22608891778416168,
+        "d_spacing": 1.4155412588794567
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 32.75858957731384,
+        "total_broadening": 32.75873598977777,
+        "intensity": 0.1045460583002437,
+        "d_spacing": 1.2493948942472064
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 41.93503805047623,
+        "total_broadening": 41.935228623664166,
+        "intensity": 0.23866196288567385,
+        "d_spacing": 2.587264828511162
+      }
+    ],
+    "crack_orientation": 154.84559155194677,
+    "crack_aspect_ratio": 0.4783138584963823,
+    "measurement_error": 0.5480268112674432,
+    "sample_temperature": 280.71108763765426,
+    "beam_energy": 10.669907406483496,
+    "exposure_time": 1.707958524828328
+  },
+  {
+    "sample_id": "CD_036",
+    "material": "zirconia",
+    "true_depth": 42.902500863784866,
+    "predicted_depth": 50.87288197342355,
+    "confidence_interval": 13.532519147001365,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 42.81640060211189,
+        "total_broadening": 42.81644708827411,
+        "intensity": 0.12678114242600402,
+        "d_spacing": 1.8824593381834336
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 35.43747925263845,
+        "total_broadening": 35.43772707447242,
+        "intensity": 0.031538572556414846,
+        "d_spacing": 2.7284612045231142
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 42.29470567208962,
+        "total_broadening": 42.29488872678316,
+        "intensity": 0.13846551781425345,
+        "d_spacing": 1.863610201571824
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 47.80726036065297,
+        "total_broadening": 47.80735724156386,
+        "intensity": 0.19089874576456795,
+        "d_spacing": 1.925238543867459
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 47.79461917857261,
+        "total_broadening": 47.79480189414676,
+        "intensity": 0.09859622117687428,
+        "d_spacing": 1.935516461915159
+      }
+    ],
+    "crack_orientation": 8.869257644898864,
+    "crack_aspect_ratio": 0.4409755542567493,
+    "measurement_error": 18.577893943629512,
+    "sample_temperature": 175.8102576040257,
+    "beam_energy": 9.38119779403242,
+    "exposure_time": 3.8552969480473003
+  },
+  {
+    "sample_id": "CD_037",
+    "material": "silicon_carbide",
+    "true_depth": 44.61843055181105,
+    "predicted_depth": 54.87818552834468,
+    "confidence_interval": 13.204722091706122,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 44.09145689764693,
+        "total_broadening": 44.09157669257046,
+        "intensity": 0.2153004266688465,
+        "d_spacing": 1.72354001154596
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 35.87938615254254,
+        "total_broadening": 35.87956289259537,
+        "intensity": 0.140335311189316,
+        "d_spacing": 2.935724702326426
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 51.09650958194656,
+        "total_broadening": 51.096597678062444,
+        "intensity": 0.016009573099730126,
+        "d_spacing": 2.3784880399240462
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 46.54076759106125,
+        "total_broadening": 46.54088337420005,
+        "intensity": 0.07880200191189543,
+        "d_spacing": 1.5546935234492585
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 44.62256184236109,
+        "total_broadening": 44.62261074097425,
+        "intensity": 0.056115057979659794,
+        "d_spacing": 2.1742656031684016
+      }
+    ],
+    "crack_orientation": 52.467144631656566,
+    "crack_aspect_ratio": 0.2881486269539466,
+    "measurement_error": 22.994432680952258,
+    "sample_temperature": 287.96763786415846,
+    "beam_energy": 13.366936665977704,
+    "exposure_time": 9.726011877008668
+  },
+  {
+    "sample_id": "CD_038",
+    "material": "silicon_carbide",
+    "true_depth": 35.81156633840834,
+    "predicted_depth": 34.56565435155167,
+    "confidence_interval": 5.210029054546427,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 39.939347685961756,
+        "total_broadening": 39.93952919418624,
+        "intensity": 0.16146033644766183,
+        "d_spacing": 2.716746759522125
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 42.35556666399612,
+        "total_broadening": 42.355684484623396,
+        "intensity": 0.25048868947153347,
+        "d_spacing": 2.0767683737928664
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 35.15954848708343,
+        "total_broadening": 35.159620030751995,
+        "intensity": 0.022084096013674642,
+        "d_spacing": 2.0194463432071306
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 34.09203748524211,
+        "total_broadening": 34.092169425506356,
+        "intensity": 0.24023634952229697,
+        "d_spacing": 1.9043658787202158
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 30.56181348051894,
+        "total_broadening": 30.561862603493175,
+        "intensity": 0.2139950811089754,
+        "d_spacing": 2.52140961208779
+      }
+    ],
+    "crack_orientation": 41.051127042003586,
+    "crack_aspect_ratio": 0.10461040562119411,
+    "measurement_error": 3.479077053159814,
+    "sample_temperature": 60.84369898149477,
+    "beam_energy": 10.164876780497867,
+    "exposure_time": 2.0519088453184513
+  },
+  {
+    "sample_id": "CD_039",
+    "material": "alumina",
+    "true_depth": 0.17881311178780226,
+    "predicted_depth": 0.16969840780436796,
+    "confidence_interval": 0.045593662721083006,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 0.2053852561461526,
+        "total_broadening": 0.2121229087829682,
+        "intensity": 0.7086339656540176,
+        "d_spacing": 1.5324913987880069
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 0.17861301301757057,
+        "total_broadening": 0.20091162302668625,
+        "intensity": 0.7898706676080733,
+        "d_spacing": 2.4554127401219343
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 0.1909192667543315,
+        "total_broadening": 0.19929848368731407,
+        "intensity": 0.7108005019425853,
+        "d_spacing": 2.085852778199569
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 0.16165154112524632,
+        "total_broadening": 0.1948381864113864,
+        "intensity": 0.9838652662463989,
+        "d_spacing": 1.6194563674550637
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 0.16035678310828635,
+        "total_broadening": 0.17825369555899012,
+        "intensity": 0.8851802675618929,
+        "d_spacing": 2.461368194841553
+      }
+    ],
+    "crack_orientation": 36.67968615439147,
+    "crack_aspect_ratio": 0.39715952563937285,
+    "measurement_error": 5.097335364450644,
+    "sample_temperature": 213.54084329984045,
+    "beam_energy": 13.312221950983126,
+    "exposure_time": 5.794171126424342
+  },
+  {
+    "sample_id": "CD_040",
+    "material": "zirconia",
+    "true_depth": 49.78064966999494,
+    "predicted_depth": 48.8573854639302,
+    "confidence_interval": 9.465157281799877,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 44.85561109425907,
+        "total_broadening": 44.8557089137388,
+        "intensity": 0.06873857867303677,
+        "d_spacing": 1.0305296792920595
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 44.20779045100309,
+        "total_broadening": 44.20785960451728,
+        "intensity": 0.0537337049496397,
+        "d_spacing": 2.7465087133833452
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 53.86089339478713,
+        "total_broadening": 53.86092518589532,
+        "intensity": 0.10290914534266797,
+        "d_spacing": 2.9124423472872554
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 39.88467211146763,
+        "total_broadening": 39.88474223896625,
+        "intensity": 0.17138471608455427,
+        "d_spacing": 2.4411728387412746
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 55.07259798207573,
+        "total_broadening": 55.07262974487624,
+        "intensity": 0.06607170384841676,
+        "d_spacing": 1.3624360872272345
+      }
+    ],
+    "crack_orientation": 168.94408312548595,
+    "crack_aspect_ratio": 0.17433282222613702,
+    "measurement_error": 1.8546648390192402,
+    "sample_temperature": 293.9481915280145,
+    "beam_energy": 14.960015900327413,
+    "exposure_time": 6.000554392141626
+  },
+  {
+    "sample_id": "CD_041",
+    "material": "silicon_carbide",
+    "true_depth": 1.2113955078544707,
+    "predicted_depth": 1.4353842261592926,
+    "confidence_interval": 0.29565909265383483,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 1.390256414011285,
+        "total_broadening": 1.3942470262485456,
+        "intensity": 0.9260962416352291,
+        "d_spacing": 2.3302403562272316
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 1.3038751389806842,
+        "total_broadening": 1.3102111513311467,
+        "intensity": 0.7324171976142387,
+        "d_spacing": 2.9364158554067323
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 1.4163297465535167,
+        "total_broadening": 1.4230764544573529,
+        "intensity": 0.8981620954214983,
+        "d_spacing": 1.0967917638915312
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 1.0410817425168521,
+        "total_broadening": 1.0450859123252247,
+        "intensity": 0.7325160709203592,
+        "d_spacing": 1.712953341695575
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 1.0479909013108555,
+        "total_broadening": 1.0526484648529748,
+        "intensity": 0.8573194454508706,
+        "d_spacing": 1.2155844947310825
+      }
+    ],
+    "crack_orientation": 70.50160737639881,
+    "crack_aspect_ratio": 0.3487657685135513,
+    "measurement_error": 18.490139417929104,
+    "sample_temperature": 291.37563295757576,
+    "beam_energy": 8.664355368362546,
+    "exposure_time": 4.510144546728046
+  },
+  {
+    "sample_id": "CD_042",
+    "material": "silicon_carbide",
+    "true_depth": 39.388707535644386,
+    "predicted_depth": 38.6061505146938,
+    "confidence_interval": 10.78979403588368,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 40.03996645568205,
+        "total_broadening": 40.04005122138281,
+        "intensity": 0.043731346855932565,
+        "d_spacing": 1.941524784775206
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 45.34609509918533,
+        "total_broadening": 45.34622510741856,
+        "intensity": 0.17590964046424418,
+        "d_spacing": 2.318311089200269
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 37.78251230957559,
+        "total_broadening": 37.78264827866889,
+        "intensity": 0.17914722326403185,
+        "d_spacing": 1.7762429135369942
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 33.018610026699704,
+        "total_broadening": 33.01891304368631,
+        "intensity": 0.03194609812539754,
+        "d_spacing": 1.8263889576055954
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 37.90169544193872,
+        "total_broadening": 37.90187898770758,
+        "intensity": 0.027246278854215027,
+        "d_spacing": 2.54406357194471
+      }
+    ],
+    "crack_orientation": 118.1062965325396,
+    "crack_aspect_ratio": 0.4527419203282731,
+    "measurement_error": 1.9867547576736748,
+    "sample_temperature": 158.45219720530451,
+    "beam_energy": 11.794233415680415,
+    "exposure_time": 9.27134449325804
+  },
+  {
+    "sample_id": "CD_043",
+    "material": "alumina",
+    "true_depth": 15.79761917265674,
+    "predicted_depth": 12.658528019420004,
+    "confidence_interval": 1.2692845909096597,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 13.915068490925524,
+        "total_broadening": 13.915826701951636,
+        "intensity": 0.3258822317058918,
+        "d_spacing": 1.3973013053622783
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 14.411913581929475,
+        "total_broadening": 14.412693453540316,
+        "intensity": 0.2855552493930721,
+        "d_spacing": 2.318656255968003
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 14.49565128852535,
+        "total_broadening": 14.495828021737324,
+        "intensity": 0.23926504902202866,
+        "d_spacing": 1.211831379257547
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 12.755924006545701,
+        "total_broadening": 12.756591165368324,
+        "intensity": 0.2704051906983906,
+        "d_spacing": 2.5950849579733193
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 16.037234467119504,
+        "total_broadening": 16.037438860432236,
+        "intensity": 0.2706822530029145,
+        "d_spacing": 2.202773971963572
+      }
+    ],
+    "crack_orientation": 89.47607568314348,
+    "crack_aspect_ratio": 0.401123597804404,
+    "measurement_error": 19.87065974264035,
+    "sample_temperature": 251.39887960656233,
+    "beam_energy": 14.15577895314119,
+    "exposure_time": 5.389469814838325
+  },
+  {
+    "sample_id": "CD_044",
+    "material": "zirconia",
+    "true_depth": 34.40449372208143,
+    "predicted_depth": 33.325980105669856,
+    "confidence_interval": 5.260127056389092,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 30.96222043359268,
+        "total_broadening": 30.962430393944764,
+        "intensity": 0.2367735606831494,
+        "d_spacing": 2.82203139995844
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 41.19131322611946,
+        "total_broadening": 41.19135781651309,
+        "intensity": 0.09426405102062078,
+        "d_spacing": 2.9166553729627736
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 28.868222714723316,
+        "total_broadening": 28.868268651608137,
+        "intensity": 0.0740317624773616,
+        "d_spacing": 1.3599992332213737
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 34.439553369871106,
+        "total_broadening": 34.43981734300938,
+        "intensity": 0.032326252221154456,
+        "d_spacing": 1.5540508977392486
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 39.39087346525809,
+        "total_broadening": 39.390951378072835,
+        "intensity": 0.21174664505888804,
+        "d_spacing": 1.44298709771928
+      }
+    ],
+    "crack_orientation": 145.61599493046754,
+    "crack_aspect_ratio": 0.4201456753821381,
+    "measurement_error": 3.134804497121163,
+    "sample_temperature": 150.681586852972,
+    "beam_energy": 12.245585577262531,
+    "exposure_time": 6.4383356438823265
+  },
+  {
+    "sample_id": "CD_045",
+    "material": "silicon_carbide",
+    "true_depth": 18.994254931864294,
+    "predicted_depth": 18.88563451552974,
+    "confidence_interval": 1.9847770408001717,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 18.37223626036519,
+        "total_broadening": 18.372534377681948,
+        "intensity": 0.34463051114392096,
+        "d_spacing": 1.612001947166335
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 22.240042332175314,
+        "total_broadening": 22.240308746370033,
+        "intensity": 0.31449825167066375,
+        "d_spacing": 2.53593351561961
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 22.494729636695375,
+        "total_broadening": 22.494951709512495,
+        "intensity": 0.17636224098363187,
+        "d_spacing": 1.9579411229069428
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 22.01049762286396,
+        "total_broadening": 22.010679505418555,
+        "intensity": 0.43987861762272074,
+        "d_spacing": 2.9475610019578578
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 15.25769234612135,
+        "total_broadening": 15.258333545096528,
+        "intensity": 0.5089642745780749,
+        "d_spacing": 1.0261530683492297
+      }
+    ],
+    "crack_orientation": 11.449619311770132,
+    "crack_aspect_ratio": 0.18843154947737678,
+    "measurement_error": 0.5718593160099891,
+    "sample_temperature": 165.92093640456815,
+    "beam_energy": 11.821317914867652,
+    "exposure_time": 1.3083501051415392
+  },
+  {
+    "sample_id": "CD_046",
+    "material": "silicon_carbide",
+    "true_depth": 16.34261657249416,
+    "predicted_depth": 16.24178448337392,
+    "confidence_interval": 2.394865296789241,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 14.013385963834466,
+        "total_broadening": 14.013908289689024,
+        "intensity": 0.33711581263584783,
+        "d_spacing": 1.0184831768110287
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 18.357053571019755,
+        "total_broadening": 18.35717811097442,
+        "intensity": 0.3827128350225467,
+        "d_spacing": 2.1709718766300714
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 15.137535736191014,
+        "total_broadening": 15.137649525105907,
+        "intensity": 0.2442813486038135,
+        "d_spacing": 1.8560387048792877
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 17.37732504536512,
+        "total_broadening": 17.377492906903317,
+        "intensity": 0.17349646144982725,
+        "d_spacing": 2.211518978717944
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 19.36842257497117,
+        "total_broadening": 19.36872898537642,
+        "intensity": 0.37593907291540335,
+        "d_spacing": 2.8558012597240543
+      }
+    ],
+    "crack_orientation": 47.274050225893255,
+    "crack_aspect_ratio": 0.3017684158860852,
+    "measurement_error": 0.6169886485004286,
+    "sample_temperature": 229.6135990878589,
+    "beam_energy": 11.522534450280734,
+    "exposure_time": 1.6101675624530132
+  },
+  {
+    "sample_id": "CD_047",
+    "material": "alumina",
+    "true_depth": 40.3179094206806,
+    "predicted_depth": 37.02564081045234,
+    "confidence_interval": 4.367735291097744,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 36.92310701789539,
+        "total_broadening": 36.92329053243121,
+        "intensity": 0.10976293996410791,
+        "d_spacing": 2.69045111632148
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 40.728055422374624,
+        "total_broadening": 40.72822971039468,
+        "intensity": 0.19764390860491166,
+        "d_spacing": 1.626501480977644
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 44.408824769213545,
+        "total_broadening": 44.40888314669518,
+        "intensity": 0.09927007525564258,
+        "d_spacing": 2.44884468053863
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 38.76665374960154,
+        "total_broadening": 38.76671963860925,
+        "intensity": 0.07450551981150187,
+        "d_spacing": 1.3521785758877078
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 44.24217916796478,
+        "total_broadening": 44.24224308985072,
+        "intensity": 0.09863147602262252,
+        "d_spacing": 2.9641547572712614
+      }
+    ],
+    "crack_orientation": 106.33566984355167,
+    "crack_aspect_ratio": 0.3397454206953062,
+    "measurement_error": 8.165772128401906,
+    "sample_temperature": 140.1587223827301,
+    "beam_energy": 11.022905846184209,
+    "exposure_time": 1.485393245567841
+  },
+  {
+    "sample_id": "CD_048",
+    "material": "silicon_carbide",
+    "true_depth": 1.6356813951320888,
+    "predicted_depth": 1.7288810124170833,
+    "confidence_interval": 0.18569979891548377,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 1.7125340476851874,
+        "total_broadening": 1.7171678819130467,
+        "intensity": 0.9011029575901947,
+        "d_spacing": 2.4157613904730706
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 1.7978910366774088,
+        "total_broadening": 1.7992413241764245,
+        "intensity": 0.890730297237297,
+        "d_spacing": 1.7225327768119791
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 1.4481427164216043,
+        "total_broadening": 1.450844745027024,
+        "intensity": 0.7725997667016689,
+        "d_spacing": 2.473303750449576
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 1.3828472788351407,
+        "total_broadening": 1.3890008144205979,
+        "intensity": 0.6949690373559178,
+        "d_spacing": 2.1807619304077215
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 1.3544214292622196,
+        "total_broadening": 1.355443580904734,
+        "intensity": 0.7736482670766884,
+        "d_spacing": 2.8152327724504547
+      }
+    ],
+    "crack_orientation": 96.34549223327564,
+    "crack_aspect_ratio": 0.3819182399701182,
+    "measurement_error": 5.697907768735622,
+    "sample_temperature": 118.27024644438428,
+    "beam_energy": 8.777443122971583,
+    "exposure_time": 3.507111578850935
+  },
+  {
+    "sample_id": "CD_049",
+    "material": "zirconia",
+    "true_depth": 17.014599316023787,
+    "predicted_depth": 17.476957950455144,
+    "confidence_interval": 4.431670408099163,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 14.585468497860292,
+        "total_broadening": 14.586100573233034,
+        "intensity": 0.313570624970779,
+        "d_spacing": 2.132887370173253
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 16.82237728445578,
+        "total_broadening": 16.822672025121182,
+        "intensity": 0.36416708653330476,
+        "d_spacing": 2.3363613239158103
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 19.708433039915867,
+        "total_broadening": 19.70851197238327,
+        "intensity": 0.2425002384778658,
+        "d_spacing": 1.8745632964892351
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 16.3581666878906,
+        "total_broadening": 16.358290700857133,
+        "intensity": 0.3169947692364874,
+        "d_spacing": 1.9532409126210808
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 18.80872279018635,
+        "total_broadening": 18.808875634828357,
+        "intensity": 0.41903784191846893,
+        "d_spacing": 2.3733008467080747
+      }
+    ],
+    "crack_orientation": 7.2916511294379305,
+    "crack_aspect_ratio": 0.149164473016898,
+    "measurement_error": 2.7174229956501135,
+    "sample_temperature": 80.84441305301709,
+    "beam_energy": 10.813663472306537,
+    "exposure_time": 8.611703904931868
+  },
+  {
+    "sample_id": "CD_050",
+    "material": "zirconia",
+    "true_depth": 31.052403764170386,
+    "predicted_depth": 25.552158020311836,
+    "confidence_interval": 5.416162095875336,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 28.497334649408263,
+        "total_broadening": 28.497394991587896,
+        "intensity": 0.23149418039537786,
+        "d_spacing": 1.9191990992764472
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 27.783367267284163,
+        "total_broadening": 27.783595972205408,
+        "intensity": 0.14272849082733913,
+        "d_spacing": 2.405895097233813
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 26.54014514313845,
+        "total_broadening": 26.540303455558796,
+        "intensity": 0.14896514774933078,
+        "d_spacing": 2.683861348958507
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 32.08858540348371,
+        "total_broadening": 32.08863454021828,
+        "intensity": 0.1832479369723444,
+        "d_spacing": 2.559920921080786
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 33.12218400504615,
+        "total_broadening": 33.12228275053739,
+        "intensity": 0.1324284478077666,
+        "d_spacing": 2.566673383849241
+      }
+    ],
+    "crack_orientation": 1.5058187971459525,
+    "crack_aspect_ratio": 0.13306681519461694,
+    "measurement_error": 17.712785733531433,
+    "sample_temperature": 59.69663729090261,
+    "beam_energy": 9.29788272479022,
+    "exposure_time": 5.608163140079222
+  },
+  {
+    "sample_id": "CD_051",
+    "material": "zirconia",
+    "true_depth": 22.007559274624352,
+    "predicted_depth": 20.679512816246287,
+    "confidence_interval": 3.612985041597167,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 18.001136071830977,
+        "total_broadening": 18.001696228661405,
+        "intensity": 0.22800486831903893,
+        "d_spacing": 2.3796421426575236
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 21.847672187220162,
+        "total_broadening": 21.847761397245886,
+        "intensity": 0.15412824268590308,
+        "d_spacing": 2.148587079417147
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 23.081787673780408,
+        "total_broadening": 23.082006788691235,
+        "intensity": 0.41559442997668233,
+        "d_spacing": 2.2312487933662535
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 17.718343013018213,
+        "total_broadening": 17.718746142610406,
+        "intensity": 0.2622873958063536,
+        "d_spacing": 2.298161204037769
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 20.68918863967824,
+        "total_broadening": 20.68967395223822,
+        "intensity": 0.1589083738101452,
+        "d_spacing": 1.0087191599131609
+      }
+    ],
+    "crack_orientation": 38.57401301811815,
+    "crack_aspect_ratio": 0.3340486643708499,
+    "measurement_error": 6.034501335681321,
+    "sample_temperature": 146.80137696153997,
+    "beam_energy": 8.239229123287611,
+    "exposure_time": 3.8768685602977055
+  },
+  {
+    "sample_id": "CD_052",
+    "material": "zirconia",
+    "true_depth": 0.46291310393106344,
+    "predicted_depth": 0.5495620547723568,
+    "confidence_interval": 0.06709972739820255,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 0.3816093103482315,
+        "total_broadening": 0.39275066506352235,
+        "intensity": 0.7362203833435065,
+        "d_spacing": 1.7909600560633137
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 0.4026696047055339,
+        "total_broadening": 0.42465890899562814,
+        "intensity": 0.8544302414647365,
+        "d_spacing": 2.0056861239981734
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 0.3799372405758216,
+        "total_broadening": 0.4063898224522152,
+        "intensity": 0.7797484161752302,
+        "d_spacing": 1.3162531392661365
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 0.4330138492427455,
+        "total_broadening": 0.43613107768747567,
+        "intensity": 0.8367163114069754,
+        "d_spacing": 2.7437324917018895
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 0.4976083332485687,
+        "total_broadening": 0.5013525531756995,
+        "intensity": 0.7993574467094737,
+        "d_spacing": 1.3914155032775757
+      }
+    ],
+    "crack_orientation": 155.1787332212664,
+    "crack_aspect_ratio": 0.43567693714861544,
+    "measurement_error": 18.718189246636012,
+    "sample_temperature": 204.57300117397236,
+    "beam_energy": 11.515924052167712,
+    "exposure_time": 7.4934025581850525
+  },
+  {
+    "sample_id": "CD_053",
+    "material": "zirconia",
+    "true_depth": 29.721166167876078,
+    "predicted_depth": 29.619150996165047,
+    "confidence_interval": 4.971298629468551,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 25.72884037389518,
+        "total_broadening": 25.728915912911223,
+        "intensity": 0.2997490482547292,
+        "d_spacing": 1.4548434574470586
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 25.81371903604652,
+        "total_broadening": 25.813983098498497,
+        "intensity": 0.23397152955489367,
+        "d_spacing": 1.1760120550229045
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 34.39968886746126,
+        "total_broadening": 34.399803809402506,
+        "intensity": 0.1349390631404955,
+        "d_spacing": 1.7801321314952565
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 34.04353917792286,
+        "total_broadening": 34.043839202242175,
+        "intensity": 0.15088084668051494,
+        "d_spacing": 2.5630462590661343
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 34.84280873433791,
+        "total_broadening": 34.84288854175175,
+        "intensity": 0.19685240631336445,
+        "d_spacing": 2.648188980968748
+      }
+    ],
+    "crack_orientation": 58.08306727400764,
+    "crack_aspect_ratio": 0.35796252954596686,
+    "measurement_error": 0.3432408107232795,
+    "sample_temperature": 259.15822356134834,
+    "beam_energy": 12.264367739753283,
+    "exposure_time": 8.678556807820502
+  },
+  {
+    "sample_id": "CD_054",
+    "material": "silicon_carbide",
+    "true_depth": 26.02314255277256,
+    "predicted_depth": 22.67984559906138,
+    "confidence_interval": 3.192040364982287,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 25.508264674768167,
+        "total_broadening": 25.50831598759623,
+        "intensity": 0.26229496729660967,
+        "d_spacing": 2.18382880883814
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 28.482640748130816,
+        "total_broadening": 28.482842233016953,
+        "intensity": 0.07399216795070973,
+        "d_spacing": 2.1929491550879048
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 23.680843126928547,
+        "total_broadening": 23.68091406780902,
+        "intensity": 0.21369205359390447,
+        "d_spacing": 1.657491976699213
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 28.317693615355292,
+        "total_broadening": 28.317924602717156,
+        "intensity": 0.19422528222378704,
+        "d_spacing": 2.2973900850660707
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 27.453846826210867,
+        "total_broadening": 27.45404893009875,
+        "intensity": 0.07137423377136749,
+        "d_spacing": 1.752083582218313
+      }
+    ],
+    "crack_orientation": 61.269270781958845,
+    "crack_aspect_ratio": 0.2906271774320074,
+    "measurement_error": 12.847398990845463,
+    "sample_temperature": 106.41801526071045,
+    "beam_energy": 11.60450646774738,
+    "exposure_time": 2.488333829618673
+  },
+  {
+    "sample_id": "CD_055",
+    "material": "alumina",
+    "true_depth": 18.759000698368514,
+    "predicted_depth": 21.406037495208338,
+    "confidence_interval": 3.7164547417869644,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 19.23032142346671,
+        "total_broadening": 19.23039931179942,
+        "intensity": 0.13702561625020382,
+        "d_spacing": 2.3794032847292463
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 21.40137663713224,
+        "total_broadening": 21.401638738930092,
+        "intensity": 0.33076214060697473,
+        "d_spacing": 1.3231959119160424
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 15.895282426470907,
+        "total_broadening": 15.895782351047663,
+        "intensity": 0.434131345623395,
+        "d_spacing": 2.3188913174312766
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 21.868925243296413,
+        "total_broadening": 21.869004861627445,
+        "intensity": 0.42300123717660354,
+        "d_spacing": 2.1972743576597225
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 17.20230699956953,
+        "total_broadening": 17.20271438297438,
+        "intensity": 0.35563891265075964,
+        "d_spacing": 2.0670428619619674
+      }
+    ],
+    "crack_orientation": 22.514080826938574,
+    "crack_aspect_ratio": 0.1165997217542846,
+    "measurement_error": 14.110755894742514,
+    "sample_temperature": 102.41514571240327,
+    "beam_energy": 9.70963590254855,
+    "exposure_time": 6.043167766179657
+  },
+  {
+    "sample_id": "CD_056",
+    "material": "alumina",
+    "true_depth": 22.76810914558522,
+    "predicted_depth": 23.02497880938416,
+    "confidence_interval": 4.625168886606689,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 24.76768111240879,
+        "total_broadening": 24.767755604415854,
+        "intensity": 0.39522553316979037,
+        "d_spacing": 1.4234335569239314
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 19.53764240735563,
+        "total_broadening": 19.537812932098795,
+        "intensity": 0.35933801516263586,
+        "d_spacing": 1.9122544178932666
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 18.487888826751146,
+        "total_broadening": 18.488106540224933,
+        "intensity": 0.3406901535742072,
+        "d_spacing": 2.033472089880129
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 25.674297318213004,
+        "total_broadening": 25.67451085312041,
+        "intensity": 0.09679720283996733,
+        "d_spacing": 2.1510990156622065
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 26.871778184249997,
+        "total_broadening": 26.872121894946854,
+        "intensity": 0.16049213036508983,
+        "d_spacing": 1.4023459342278015
+      }
+    ],
+    "crack_orientation": 83.57971406312751,
+    "crack_aspect_ratio": 0.20135924302374908,
+    "measurement_error": 1.1281993693742685,
+    "sample_temperature": 163.88271269091092,
+    "beam_energy": 8.213475834969282,
+    "exposure_time": 2.1862933614771327
+  },
+  {
+    "sample_id": "CD_057",
+    "material": "zirconia",
+    "true_depth": 13.385051376438291,
+    "predicted_depth": 15.553678036551075,
+    "confidence_interval": 3.1813299382948084,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 13.46282889343651,
+        "total_broadening": 13.462965680397753,
+        "intensity": 0.5340267923647471,
+        "d_spacing": 2.436894562604832
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 13.509577932687685,
+        "total_broadening": 13.509687910258073,
+        "intensity": 0.5715588093060978,
+        "d_spacing": 2.4917284767306658
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 14.962777233578514,
+        "total_broadening": 14.963297470085427,
+        "intensity": 0.45184595766878616,
+        "d_spacing": 2.250053575620658
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 15.280462102140302,
+        "total_broadening": 15.281017180497235,
+        "intensity": 0.23635616795061598,
+        "d_spacing": 1.0694323043677891
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 11.25455234604675,
+        "total_broadening": 11.255091273094672,
+        "intensity": 0.45214916219182394,
+        "d_spacing": 1.902178574933663
+      }
+    ],
+    "crack_orientation": 28.45662071091278,
+    "crack_aspect_ratio": 0.14989444528867166,
+    "measurement_error": 16.201855331913166,
+    "sample_temperature": 76.80126381844418,
+    "beam_energy": 10.456454664759757,
+    "exposure_time": 9.374763409066167
+  },
+  {
+    "sample_id": "CD_058",
+    "material": "alumina",
+    "true_depth": 40.58040486422776,
+    "predicted_depth": 42.51918032993589,
+    "confidence_interval": 8.947925775577621,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 36.07840233466766,
+        "total_broadening": 36.0786077300153,
+        "intensity": 0.2104333240508049,
+        "d_spacing": 2.0800583845213754
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 39.9478954311457,
+        "total_broadening": 39.94798080407871,
+        "intensity": 0.1100824161924425,
+        "d_spacing": 2.9719831443413187
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 47.686270085165276,
+        "total_broadening": 47.68646463350105,
+        "intensity": 0.19503590805778315,
+        "d_spacing": 2.3148886543549296
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 46.993191890281864,
+        "total_broadening": 46.99327672813995,
+        "intensity": 0.20581935400441162,
+        "d_spacing": 2.202165330786431
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 43.98598894703419,
+        "total_broadening": 43.986228138139985,
+        "intensity": 0.06055896425848458,
+        "d_spacing": 2.0416311722881644
+      }
+    ],
+    "crack_orientation": 118.97528771694165,
+    "crack_aspect_ratio": 0.2291604274311604,
+    "measurement_error": 4.7776148912136485,
+    "sample_temperature": 157.35033675259137,
+    "beam_energy": 12.32147975691647,
+    "exposure_time": 4.6441973284285964
+  },
+  {
+    "sample_id": "CD_059",
+    "material": "zirconia",
+    "true_depth": 29.837802744551453,
+    "predicted_depth": 26.705644010715165,
+    "confidence_interval": 4.0907451366161185,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 24.24454631714156,
+        "total_broadening": 24.2446389688769,
+        "intensity": 0.22134219793190787,
+        "d_spacing": 2.0163275809163492
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 24.621813584578234,
+        "total_broadening": 24.622175033129484,
+        "intensity": 0.23652868039724312,
+        "d_spacing": 2.2686587145147588
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 33.63693334292357,
+        "total_broadening": 33.63712681246556,
+        "intensity": 0.1422996652347524,
+        "d_spacing": 1.4209234953664245
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 27.66865412815761,
+        "total_broadening": 27.668753103357,
+        "intensity": 0.17855228367489537,
+        "d_spacing": 2.8666207606966774
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 27.850752524226642,
+        "total_broadening": 27.85084532552205,
+        "intensity": 0.17524838476240154,
+        "d_spacing": 2.0698081727652884
+      }
+    ],
+    "crack_orientation": 78.91917209307454,
+    "crack_aspect_ratio": 0.11211729059185026,
+    "measurement_error": 10.497283465044147,
+    "sample_temperature": 236.92669492905955,
+    "beam_energy": 12.352771952132912,
+    "exposure_time": 6.412236465505188
+  },
+  {
+    "sample_id": "CD_060",
+    "material": "alumina",
+    "true_depth": 11.669794732754132,
+    "predicted_depth": 12.335119618254643,
+    "confidence_interval": 3.534865907008692,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 13.060569076997385,
+        "total_broadening": 13.061001760836216,
+        "intensity": 0.26146760360252735,
+        "d_spacing": 1.8157698537007179
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 9.86772294827778,
+        "total_broadening": 9.868423849786595,
+        "intensity": 0.5639218704930297,
+        "d_spacing": 2.456941891117184
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 9.336082377985813,
+        "total_broadening": 9.337214414672923,
+        "intensity": 0.6229966803444612,
+        "d_spacing": 1.0312865906148683
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 13.695011968681921,
+        "total_broadening": 13.695638294078881,
+        "intensity": 0.470566118693216,
+        "d_spacing": 2.4775560578371953
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 13.816648077670528,
+        "total_broadening": 13.817150713535565,
+        "intensity": 0.5703659353408499,
+        "d_spacing": 1.885874243468872
+      }
+    ],
+    "crack_orientation": 13.695250817791306,
+    "crack_aspect_ratio": 0.30044788033013925,
+    "measurement_error": 5.701256112355716,
+    "sample_temperature": 213.91192138099555,
+    "beam_energy": 13.543345768955659,
+    "exposure_time": 6.247167826997227
+  },
+  {
+    "sample_id": "CD_061",
+    "material": "alumina",
+    "true_depth": 27.787859158257938,
+    "predicted_depth": 25.00264764189504,
+    "confidence_interval": 3.1327330225313537,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 31.08000852615211,
+        "total_broadening": 31.080049353316486,
+        "intensity": 0.25741231711283896,
+        "d_spacing": 1.63630437160832
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 27.247918864595423,
+        "total_broadening": 27.24802124911381,
+        "intensity": 0.3032271521061036,
+        "d_spacing": 2.0654232440779703
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 26.593272413630746,
+        "total_broadening": 26.5933901666944,
+        "intensity": 0.2922309717950971,
+        "d_spacing": 2.0028948396833455
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 28.019373490542513,
+        "total_broadening": 28.019533986148996,
+        "intensity": 0.11718600279559545,
+        "d_spacing": 1.1970745343354814
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 30.649592093106236,
+        "total_broadening": 30.649677492575623,
+        "intensity": 0.07706950425490532,
+        "d_spacing": 1.308123305721296
+      }
+    ],
+    "crack_orientation": 74.60657626578478,
+    "crack_aspect_ratio": 0.10592354445305006,
+    "measurement_error": 10.023123769630855,
+    "sample_temperature": 256.2873701909541,
+    "beam_energy": 11.594485729393,
+    "exposure_time": 2.2524400981716566
+  },
+  {
+    "sample_id": "CD_062",
+    "material": "zirconia",
+    "true_depth": 45.75281889106305,
+    "predicted_depth": 56.069747363572304,
+    "confidence_interval": 9.880616640025643,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 45.55510298857275,
+        "total_broadening": 45.55520209963786,
+        "intensity": 0.030083713020121215,
+        "d_spacing": 1.0846689850366067
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 48.19666533281728,
+        "total_broadening": 48.19672345980783,
+        "intensity": 0.054149377910302665,
+        "d_spacing": 1.6544423663229078
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 41.03471302622514,
+        "total_broadening": 41.03476757004197,
+        "intensity": 0.12282384720702019,
+        "d_spacing": 1.907507520500707
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 45.87964782937262,
+        "total_broadening": 45.879801480556814,
+        "intensity": 0.1252986415877318,
+        "d_spacing": 1.0895028678524763
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 42.02745462995733,
+        "total_broadening": 42.027527036045726,
+        "intensity": 0.02280016499673981,
+        "d_spacing": 1.6195306282858069
+      }
+    ],
+    "crack_orientation": 129.50464163640862,
+    "crack_aspect_ratio": 0.234466135431832,
+    "measurement_error": 22.54927395200227,
+    "sample_temperature": 104.8280112615591,
+    "beam_energy": 11.78831639099917,
+    "exposure_time": 1.2134472427521155
+  },
+  {
+    "sample_id": "CD_063",
+    "material": "zirconia",
+    "true_depth": 44.674005149727165,
+    "predicted_depth": 48.03856763431296,
+    "confidence_interval": 13.26506706375564,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 44.91311197406017,
+        "total_broadening": 44.91330751525151,
+        "intensity": 0.1795455611538381,
+        "d_spacing": 2.68184768754692
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 47.241495920550854,
+        "total_broadening": 47.241626161245044,
+        "intensity": 0.08822019153112595,
+        "d_spacing": 2.5904331730607657
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 53.05552088286959,
+        "total_broadening": 53.055609058806816,
+        "intensity": 0.10407340905143797,
+        "d_spacing": 2.336977241966808
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 46.99563285672231,
+        "total_broadening": 46.995661386155426,
+        "intensity": 0.08502193974340651,
+        "d_spacing": 1.0527672360110767
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 49.87758255715026,
+        "total_broadening": 49.877640253338704,
+        "intensity": 0.05045490359367919,
+        "d_spacing": 1.3590005209887013
+      }
+    ],
+    "crack_orientation": 71.50358366403033,
+    "crack_aspect_ratio": 0.2074802943017073,
+    "measurement_error": 7.531365216325013,
+    "sample_temperature": 120.58994897612901,
+    "beam_energy": 12.98940255461833,
+    "exposure_time": 5.995051051010375
+  },
+  {
+    "sample_id": "CD_064",
+    "material": "zirconia",
+    "true_depth": 27.80763979813622,
+    "predicted_depth": 31.98727533647018,
+    "confidence_interval": 8.594518959202512,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 23.35765969510124,
+        "total_broadening": 23.35802425600148,
+        "intensity": 0.18090778411264688,
+        "d_spacing": 2.4507792033236653
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 24.57818199923988,
+        "total_broadening": 24.57857204224645,
+        "intensity": 0.23844698455997615,
+        "d_spacing": 1.364670367156439
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 32.727377863550046,
+        "total_broadening": 32.7276185168667,
+        "intensity": 0.11244943804035601,
+        "d_spacing": 2.6193485161761467
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 29.98417338822948,
+        "total_broadening": 29.984440562968082,
+        "intensity": 0.208850656127096,
+        "d_spacing": 1.7729874457278274
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 24.59600107727735,
+        "total_broadening": 24.59626188196249,
+        "intensity": 0.3092240882155715,
+        "d_spacing": 1.9219391844250793
+      }
+    ],
+    "crack_orientation": 137.11368716451287,
+    "crack_aspect_ratio": 0.12331888154494282,
+    "measurement_error": 15.030529626660721,
+    "sample_temperature": 299.56583932903783,
+    "beam_energy": 13.26681717603627,
+    "exposure_time": 8.775129846647019
+  },
+  {
+    "sample_id": "CD_065",
+    "material": "alumina",
+    "true_depth": 19.872152674411446,
+    "predicted_depth": 25.13164029250932,
+    "confidence_interval": 5.800037572439268,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 19.1299318859551,
+        "total_broadening": 19.130226009891423,
+        "intensity": 0.24198220016340846,
+        "d_spacing": 1.5912045550084426
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 21.50455217326218,
+        "total_broadening": 21.504790867012613,
+        "intensity": 0.3019393746409494,
+        "d_spacing": 2.470046396356341
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 17.397040440305915,
+        "total_broadening": 17.39714860489155,
+        "intensity": 0.35326196250356046,
+        "d_spacing": 1.1000716728695135
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 16.449335856884083,
+        "total_broadening": 16.449851666886904,
+        "intensity": 0.36213036244751,
+        "d_spacing": 2.230456405600407
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 19.42049898574188,
+        "total_broadening": 19.420829304085434,
+        "intensity": 0.3492128205308511,
+        "d_spacing": 2.5559688519769086
+      }
+    ],
+    "crack_orientation": 166.07216684323933,
+    "crack_aspect_ratio": 0.12268798142069515,
+    "measurement_error": 26.46662243527497,
+    "sample_temperature": 33.105996834223106,
+    "beam_energy": 9.247832470421415,
+    "exposure_time": 9.878029534240628
+  },
+  {
+    "sample_id": "CD_066",
+    "material": "silicon_carbide",
+    "true_depth": 18.85932493262434,
+    "predicted_depth": 16.56692840674361,
+    "confidence_interval": 3.879890835631679,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 19.122395585484504,
+        "total_broadening": 19.122891077229013,
+        "intensity": 0.39998766601419805,
+        "d_spacing": 1.9242809465398014
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 19.230054113397287,
+        "total_broadening": 19.23060010694713,
+        "intensity": 0.41074559491942453,
+        "d_spacing": 2.453959742691631
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 17.939224201011857,
+        "total_broadening": 17.939296158812,
+        "intensity": 0.13157189092693017,
+        "d_spacing": 1.9766698260086693
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 15.25771964262319,
+        "total_broadening": 15.258181302495275,
+        "intensity": 0.264686184742324,
+        "d_spacing": 1.6018381463308375
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 16.348276086704196,
+        "total_broadening": 16.34852778231191,
+        "intensity": 0.23739368272312059,
+        "d_spacing": 1.39765706057296
+      }
+    ],
+    "crack_orientation": 135.70878319945632,
+    "crack_aspect_ratio": 0.14415769369997353,
+    "measurement_error": 12.15524168585251,
+    "sample_temperature": 153.64566331026828,
+    "beam_energy": 8.496101904584116,
+    "exposure_time": 6.383642009878022
+  },
+  {
+    "sample_id": "CD_067",
+    "material": "zirconia",
+    "true_depth": 26.428460396251523,
+    "predicted_depth": 24.78796442247469,
+    "confidence_interval": 7.29050388996141,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 26.613047434248053,
+        "total_broadening": 26.61342859517676,
+        "intensity": 0.24826858815363714,
+        "d_spacing": 1.8033062515287606
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 31.175853399244094,
+        "total_broadening": 31.17611501148968,
+        "intensity": 0.177224613143506,
+        "d_spacing": 1.86479272037018
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 29.902927030822205,
+        "total_broadening": 29.903219648377156,
+        "intensity": 0.13369671885509354,
+        "d_spacing": 1.5812859386130622
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 24.28767761583176,
+        "total_broadening": 24.28780816939171,
+        "intensity": 0.26159842275481093,
+        "d_spacing": 1.0018116704921805
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 28.70381185948335,
+        "total_broadening": 28.703890331350916,
+        "intensity": 0.0866587774826061,
+        "d_spacing": 1.759801044645408
+      }
+    ],
+    "crack_orientation": 128.89134961552045,
+    "crack_aspect_ratio": 0.22927762612973446,
+    "measurement_error": 6.207308141224574,
+    "sample_temperature": 112.64174575348426,
+    "beam_energy": 11.139797845579215,
+    "exposure_time": 6.636203404867296
+  },
+  {
+    "sample_id": "CD_068",
+    "material": "zirconia",
+    "true_depth": 21.954401801732164,
+    "predicted_depth": 23.950440508224975,
+    "confidence_interval": 5.60917142544062,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 20.681002948817095,
+        "total_broadening": 20.68108220257833,
+        "intensity": 0.37175245477680813,
+        "d_spacing": 1.6097587147824142
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 26.25900833247286,
+        "total_broadening": 26.25907147358869,
+        "intensity": 0.32438888022587536,
+        "d_spacing": 1.8932038022133117
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 21.582455736266365,
+        "total_broadening": 21.582589084450362,
+        "intensity": 0.37147351147273794,
+        "d_spacing": 1.564794220211654
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 24.89898290909344,
+        "total_broadening": 24.899116897270613,
+        "intensity": 0.3005480474108214,
+        "d_spacing": 1.3374032856074913
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 20.336763228094178,
+        "total_broadening": 20.337057412363258,
+        "intensity": 0.314093563961684,
+        "d_spacing": 1.155678306221028
+      }
+    ],
+    "crack_orientation": 28.835354376979694,
+    "crack_aspect_ratio": 0.10311358810758686,
+    "measurement_error": 9.09174717907972,
+    "sample_temperature": 232.0699447564321,
+    "beam_energy": 8.744577164696706,
+    "exposure_time": 1.7411422956785696
+  },
+  {
+    "sample_id": "CD_069",
+    "material": "zirconia",
+    "true_depth": 9.397207148274822,
+    "predicted_depth": 11.024777855520112,
+    "confidence_interval": 1.5192524961788443,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 7.892624836908331,
+        "total_broadening": 7.893096990895488,
+        "intensity": 0.4459834518801175,
+        "d_spacing": 1.6969559515913106
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 8.191281126305713,
+        "total_broadening": 8.192084239669134,
+        "intensity": 0.5212934103759661,
+        "d_spacing": 1.8553835760669222
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 11.111331821530255,
+        "total_broadening": 11.11156169542075,
+        "intensity": 0.5800357231985369,
+        "d_spacing": 2.113688826269125
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 11.009846401881669,
+        "total_broadening": 11.010196459526133,
+        "intensity": 0.4461902977109894,
+        "d_spacing": 2.2179982221038568
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 8.601120746667418,
+        "total_broadening": 8.601374202941605,
+        "intensity": 0.5482583105766374,
+        "d_spacing": 1.151743282448095
+      }
+    ],
+    "crack_orientation": 84.4982751877279,
+    "crack_aspect_ratio": 0.38812916659142405,
+    "measurement_error": 17.31972788898334,
+    "sample_temperature": 170.59482864885103,
+    "beam_energy": 10.768423533284992,
+    "exposure_time": 3.9010461227284927
+  },
+  {
+    "sample_id": "CD_070",
+    "material": "silicon_carbide",
+    "true_depth": 46.961524045681,
+    "predicted_depth": 49.72614566877837,
+    "confidence_interval": 6.123031171156789,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 50.187683828002996,
+        "total_broadening": 50.18771673774501,
+        "intensity": 0.08395537247339975,
+        "d_spacing": 1.1889248516021738
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 56.144863450039665,
+        "total_broadening": 56.14505044832248,
+        "intensity": 0.016896216602391902,
+        "d_spacing": 1.7262651805189244
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 53.43675118104091,
+        "total_broadening": 53.43683009932407,
+        "intensity": 0.07339420472183165,
+        "d_spacing": 2.5489548385519667
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 38.20393524644053,
+        "total_broadening": 38.20409164231662,
+        "intensity": 0.026314851151994972,
+        "d_spacing": 1.695937332310433
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 46.38033461501321,
+        "total_broadening": 46.3804096234189,
+        "intensity": 0.015573840202117092,
+        "d_spacing": 1.0668759711221953
+      }
+    ],
+    "crack_orientation": 170.32760874055475,
+    "crack_aspect_ratio": 0.3933446058928375,
+    "measurement_error": 5.88699297835422,
+    "sample_temperature": 200.31217080689487,
+    "beam_energy": 12.516944287264941,
+    "exposure_time": 8.440548835566538
+  },
+  {
+    "sample_id": "CD_071",
+    "material": "zirconia",
+    "true_depth": 13.828875093066994,
+    "predicted_depth": 12.760897026860617,
+    "confidence_interval": 2.5795881009653954,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 13.86839183735236,
+        "total_broadening": 13.868988342644068,
+        "intensity": 0.5769368683309638,
+        "d_spacing": 2.1643614722892797
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 12.439439972825372,
+        "total_broadening": 12.439981972142473,
+        "intensity": 0.39709128177884745,
+        "d_spacing": 1.8784210218637492
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 15.72764625881627,
+        "total_broadening": 15.727957581280661,
+        "intensity": 0.41007836870936715,
+        "d_spacing": 1.3117613950596114
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 12.205062207510723,
+        "total_broadening": 12.205639762854881,
+        "intensity": 0.4060953621836193,
+        "d_spacing": 1.3154072425189838
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 12.458539166426325,
+        "total_broadening": 12.45871221351444,
+        "intensity": 0.5104929745510225,
+        "d_spacing": 1.674439819820452
+      }
+    ],
+    "crack_orientation": 81.90277892360061,
+    "crack_aspect_ratio": 0.4068672561377408,
+    "measurement_error": 7.7228122968714965,
+    "sample_temperature": 206.44574288508707,
+    "beam_energy": 11.121631137244016,
+    "exposure_time": 3.021946300945643
+  },
+  {
+    "sample_id": "CD_072",
+    "material": "zirconia",
+    "true_depth": 19.904710113423455,
+    "predicted_depth": 18.11030229432816,
+    "confidence_interval": 2.07001850655374,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 18.017140463101903,
+        "total_broadening": 18.017353175356128,
+        "intensity": 0.29613044829394913,
+        "d_spacing": 1.4838115451835157
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 19.096595035920505,
+        "total_broadening": 19.096665608714424,
+        "intensity": 0.34366635684317903,
+        "d_spacing": 1.0878092272612745
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 21.128441284258535,
+        "total_broadening": 21.128825339686152,
+        "intensity": 0.3975955490516391,
+        "d_spacing": 1.4107363693799706
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 21.793489372038888,
+        "total_broadening": 21.793819585466125,
+        "intensity": 0.2558874236447992,
+        "d_spacing": 1.208742916165658
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 23.747817907113063,
+        "total_broadening": 23.74820747110132,
+        "intensity": 0.42470615287187624,
+        "d_spacing": 2.4446223366474156
+      }
+    ],
+    "crack_orientation": 70.13833601186077,
+    "crack_aspect_ratio": 0.39664120789488344,
+    "measurement_error": 9.014990968821852,
+    "sample_temperature": 131.27192150597477,
+    "beam_energy": 10.312059228276938,
+    "exposure_time": 6.358201502592807
+  },
+  {
+    "sample_id": "CD_073",
+    "material": "zirconia",
+    "true_depth": 11.753735916125779,
+    "predicted_depth": 12.45282648991618,
+    "confidence_interval": 2.1752063323850397,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 14.078745936213235,
+        "total_broadening": 14.079499391777693,
+        "intensity": 0.5853254227053858,
+        "d_spacing": 1.589731256139394
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 13.697394515921644,
+        "total_broadening": 13.697614077140807,
+        "intensity": 0.6208823424342604,
+        "d_spacing": 2.2060076808598232
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 13.178553017258894,
+        "total_broadening": 13.179186029152048,
+        "intensity": 0.3856669017848265,
+        "d_spacing": 1.186935873808887
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 11.790643319862475,
+        "total_broadening": 11.790829294643775,
+        "intensity": 0.5002041343671884,
+        "d_spacing": 2.9743356792604088
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 10.897875090205806,
+        "total_broadening": 10.898363675679516,
+        "intensity": 0.5516203463489346,
+        "d_spacing": 1.957167464865547
+      }
+    ],
+    "crack_orientation": 162.38200288416976,
+    "crack_aspect_ratio": 0.46698248875640547,
+    "measurement_error": 5.947815901081036,
+    "sample_temperature": 280.93218859096095,
+    "beam_energy": 9.893123298299985,
+    "exposure_time": 4.603200348429626
+  },
+  {
+    "sample_id": "CD_074",
+    "material": "silicon_carbide",
+    "true_depth": 18.022175031592898,
+    "predicted_depth": 17.875995863026226,
+    "confidence_interval": 2.9283561633427246,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 18.744886114383167,
+        "total_broadening": 18.74498800626275,
+        "intensity": 0.16300563426027148,
+        "d_spacing": 2.157833065185435
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 17.24865688755679,
+        "total_broadening": 17.24899358132419,
+        "intensity": 0.37278561023679274,
+        "d_spacing": 2.2990648621307797
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 17.476072153110398,
+        "total_broadening": 17.476316947877454,
+        "intensity": 0.20927009268003358,
+        "d_spacing": 2.1743582562713932
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 17.85269015319787,
+        "total_broadening": 17.852881101719138,
+        "intensity": 0.34548868822595835,
+        "d_spacing": 2.8288807395080946
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 14.566555897573677,
+        "total_broadening": 14.56728991254949,
+        "intensity": 0.3229739318833038,
+        "d_spacing": 1.5128880349263762
+      }
+    ],
+    "crack_orientation": 138.09227911265907,
+    "crack_aspect_ratio": 0.18276647493844678,
+    "measurement_error": 0.811107251541057,
+    "sample_temperature": 272.56458579383013,
+    "beam_energy": 11.66087060574083,
+    "exposure_time": 2.030555768220833
+  },
+  {
+    "sample_id": "CD_075",
+    "material": "alumina",
+    "true_depth": 40.470824056993045,
+    "predicted_depth": 37.192613092281064,
+    "confidence_interval": 4.653994582882952,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 45.0154180266049,
+        "total_broadening": 45.01547481064897,
+        "intensity": 0.17791429698428252,
+        "d_spacing": 1.6922144815647902
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 35.170912461155076,
+        "total_broadening": 35.17094837704937,
+        "intensity": 0.09594060522919934,
+        "d_spacing": 2.109819667650818
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 35.42073043505263,
+        "total_broadening": 35.42099139573424,
+        "intensity": 0.05315729378310136,
+        "d_spacing": 1.961428112968712
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 40.45222405063659,
+        "total_broadening": 40.45228725439076,
+        "intensity": 0.05457891178925012,
+        "d_spacing": 2.4369203566463336
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 44.8431143224361,
+        "total_broadening": 44.84321757965684,
+        "intensity": 0.17390399407482451,
+        "d_spacing": 1.2765510553556172
+      }
+    ],
+    "crack_orientation": 24.90814125754531,
+    "crack_aspect_ratio": 0.39926471961147847,
+    "measurement_error": 8.100183381725659,
+    "sample_temperature": 154.15492066169648,
+    "beam_energy": 13.48053920917907,
+    "exposure_time": 7.716294049151848
+  },
+  {
+    "sample_id": "CD_076",
+    "material": "zirconia",
+    "true_depth": 36.356629714740016,
+    "predicted_depth": 42.078193301563566,
+    "confidence_interval": 10.370626801307566,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 36.50293211635005,
+        "total_broadening": 36.50310454046559,
+        "intensity": 0.12216753917336183,
+        "d_spacing": 1.8503787671473166
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 35.73800924923841,
+        "total_broadening": 35.738154146477235,
+        "intensity": 0.2293029330150989,
+        "d_spacing": 1.6983207731314995
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 38.83352886106682,
+        "total_broadening": 38.83369690343757,
+        "intensity": 0.26738936997437607,
+        "d_spacing": 2.2948938475024963
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 34.05172279902821,
+        "total_broadening": 34.051963214192845,
+        "intensity": 0.18357954054550304,
+        "d_spacing": 1.495012257139608
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 30.24371093712821,
+        "total_broadening": 30.243764630338948,
+        "intensity": 0.19930150245884395,
+        "d_spacing": 1.0038638285830104
+      }
+    ],
+    "crack_orientation": 63.9729732172204,
+    "crack_aspect_ratio": 0.4281985778631421,
+    "measurement_error": 15.737332177695954,
+    "sample_temperature": 37.294406140187036,
+    "beam_energy": 13.288017704354193,
+    "exposure_time": 3.4036474721417895
+  },
+  {
+    "sample_id": "CD_077",
+    "material": "zirconia",
+    "true_depth": 41.14954995070531,
+    "predicted_depth": 41.33474159149348,
+    "confidence_interval": 5.256393824790824,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 37.3861608298334,
+        "total_broadening": 37.38622362164317,
+        "intensity": 0.15069638751060319,
+        "d_spacing": 2.028807737492369
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 37.14601996274255,
+        "total_broadening": 37.146058472493195,
+        "intensity": 0.07635861020924388,
+        "d_spacing": 2.8119783012984043
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 33.59861285903734,
+        "total_broadening": 33.59874202681717,
+        "intensity": 0.017558792138448666,
+        "d_spacing": 2.317733333844044
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 43.570974823411206,
+        "total_broadening": 43.57100743050082,
+        "intensity": 0.011925004854698768,
+        "d_spacing": 2.5259977954238844
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 42.541663466762344,
+        "total_broadening": 42.54169750059017,
+        "intensity": 0.1138793827505559,
+        "d_spacing": 2.7379027892016126
+      }
+    ],
+    "crack_orientation": 42.64666573166055,
+    "crack_aspect_ratio": 0.4104685968160895,
+    "measurement_error": 0.45004536139526297,
+    "sample_temperature": 292.15815913663545,
+    "beam_energy": 11.264755321522664,
+    "exposure_time": 3.748178921930108
+  },
+  {
+    "sample_id": "CD_078",
+    "material": "alumina",
+    "true_depth": 39.50471332825851,
+    "predicted_depth": 40.79949581469375,
+    "confidence_interval": 10.697753260508023,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 43.27828334613808,
+        "total_broadening": 43.278429620292044,
+        "intensity": 0.22772384023815936,
+        "d_spacing": 1.2262115130034397
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 44.692054556778956,
+        "total_broadening": 44.69211779878966,
+        "intensity": 0.2102698418666659,
+        "d_spacing": 2.3935910279286823
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 41.02217091993388,
+        "total_broadening": 41.02228333967202,
+        "intensity": 0.08201425202915456,
+        "d_spacing": 2.272745411419181
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 43.47530230894796,
+        "total_broadening": 43.47546204330951,
+        "intensity": 0.0501452134362406,
+        "d_spacing": 2.583280144366126
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 39.120791957783666,
+        "total_broadening": 39.12092929983172,
+        "intensity": 0.18993445312838336,
+        "d_spacing": 1.8186898417647852
+      }
+    ],
+    "crack_orientation": 154.61755038578102,
+    "crack_aspect_ratio": 0.49663769426566673,
+    "measurement_error": 3.2775392538010264,
+    "sample_temperature": 105.86092026099975,
+    "beam_energy": 12.971703393490813,
+    "exposure_time": 2.038598724527454
+  },
+  {
+    "sample_id": "CD_079",
+    "material": "alumina",
+    "true_depth": 40.77879824052593,
+    "predicted_depth": 46.93894257853781,
+    "confidence_interval": 6.307250206042645,
+    "xrd_measurements": [
+      {
+        "reflection": "(104)",
+        "peak_broadening": 34.005092144853265,
+        "total_broadening": 34.005277567769184,
+        "intensity": 0.012759213824992892,
+        "d_spacing": 2.8079600181116815
+      },
+      {
+        "reflection": "(110)",
+        "peak_broadening": 41.22840441331282,
+        "total_broadening": 41.22858965578205,
+        "intensity": 0.2146942160013928,
+        "d_spacing": 2.7387056958455918
+      },
+      {
+        "reflection": "(113)",
+        "peak_broadening": 40.50658261392604,
+        "total_broadening": 40.50666887714125,
+        "intensity": 0.03638389853929764,
+        "d_spacing": 1.7329871583223269
+      },
+      {
+        "reflection": "(024)",
+        "peak_broadening": 41.75055442465784,
+        "total_broadening": 41.75071710627418,
+        "intensity": 0.23125859980149213,
+        "d_spacing": 2.2874970648858466
+      },
+      {
+        "reflection": "(116)",
+        "peak_broadening": 38.08890530000292,
+        "total_broadening": 38.08894280360811,
+        "intensity": 0.07001311797959447,
+        "d_spacing": 1.4105438816076035
+      }
+    ],
+    "crack_orientation": 47.09246513252939,
+    "crack_aspect_ratio": 0.2985214413945906,
+    "measurement_error": 15.106242959092251,
+    "sample_temperature": 140.05304390465807,
+    "beam_energy": 13.449946932827316,
+    "exposure_time": 7.609641782889223
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "dataset_info": {
+    "generation_date": "2025-10-03T07:38:40.111507",
+    "total_samples": 280,
+    "stress_strain_samples": 100,
+    "crack_depth_samples": 80,
+    "sintering_samples": 60,
+    "geometric_samples": 40
+  },
+  "data_quality_metrics": {
+    "stress_strain_avg_r_squared": 0.9964149185149768,
+    "crack_depth_avg_error": 8.50785779603316,
+    "sintering_avg_density": 0.958163979749815,
+    "geometric_avg_efficiency": 0.8242370823636957
+  }
+}
