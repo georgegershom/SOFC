@@ -1,0 +1,18 @@
+Material,Component,Parameter,Symbol,Value,Unit,Notes
+Ni-YSZ,Anode,Norton-Bailey B,B,1.2E-15,1/s·MPa^-n,Pre-exponential factor
+Ni-YSZ,Anode,Norton-Bailey n,n,2.8,-,Stress exponent
+Ni-YSZ,Anode,Norton-Bailey Q,Q,180,kJ/mol,Activation energy
+Ni-YSZ,Anode,Johnson-Cook A,A,200,MPa,Yield strength
+Ni-YSZ,Anode,Johnson-Cook B,B,150,MPa,Strain hardening coefficient
+Ni-YSZ,Anode,Johnson-Cook n,n,0.25,-,Strain hardening exponent
+Ni-YSZ,Anode,Johnson-Cook C,C,0.015,-,Strain rate coefficient
+Ni-YSZ,Anode,Johnson-Cook m,m,1.0,-,Temperature exponent
+Ni-YSZ,Anode,Melting Temperature,Tm,1455,°C,Reference temperature
+8YSZ,Electrolyte,Norton-Bailey B,B,2.5E-18,1/s·MPa^-n,Pre-exponential factor
+8YSZ,Electrolyte,Norton-Bailey n,n,3.2,-,Stress exponent
+8YSZ,Electrolyte,Norton-Bailey Q,Q,220,kJ/mol,Activation energy
+8YSZ,Electrolyte,Activation Energy,Ea,85,kJ/mol,Ionic conductivity
+LSM,Cathode,Activation Energy,Ea,120,kJ/mol,Electronic conductivity
+LSCF,Cathode,Activation Energy,Ea,95,kJ/mol,Mixed conductivity
+Crofer 22 APU,Interconnect,Parabolic Rate Constant,kp,2.5E-12,m²/s,Oxidation kinetics
+Crofer 22 APU,Interconnect,Oxidation Activation Energy,Qox,180,kJ/mol,Oxidation resistance

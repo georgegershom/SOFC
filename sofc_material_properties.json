@@ -1,0 +1,332 @@
+{
+  "metadata": {
+    "title": "SOFC Material Properties Dataset",
+    "description": "Comprehensive thermo-physical, mechanical, and electrochemical properties for SOFC components",
+    "version": "1.0",
+    "temperature_range": "25-1000°C",
+    "units": {
+      "temperature": "°C",
+      "thermal_expansion": "1/K",
+      "youngs_modulus": "GPa",
+      "density": "kg/m³",
+      "thermal_conductivity": "W/m·K",
+      "specific_heat": "J/kg·K",
+      "electrical_conductivity": "S/m",
+      "exchange_current_density": "A/m²",
+      "activation_energy": "kJ/mol"
+    }
+  },
+  "materials": {
+    "anode_ni_ysz": {
+      "name": "Ni-YSZ Anode",
+      "composition": "40% Ni, 60% 8YSZ",
+      "porosity": 0.35,
+      "thermo_physical": {
+        "thermal_expansion_coefficient": {
+          "25°C": 12.5e-6,
+          "500°C": 13.2e-6,
+          "800°C": 14.1e-6,
+          "1000°C": 14.8e-6
+        },
+        "thermal_conductivity": {
+          "25°C": 2.1,
+          "500°C": 2.3,
+          "800°C": 2.5,
+          "1000°C": 2.7
+        },
+        "specific_heat_capacity": {
+          "25°C": 450,
+          "500°C": 520,
+          "800°C": 580,
+          "1000°C": 620
+        },
+        "density": 5500
+      },
+      "mechanical": {
+        "youngs_modulus": {
+          "25°C": 45,
+          "500°C": 42,
+          "800°C": 38,
+          "1000°C": 35
+        },
+        "poisson_ratio": 0.28,
+        "creep_parameters": {
+          "norton_bailey": {
+            "B": 1.2e-15,
+            "n": 2.8,
+            "Q": 180
+          }
+        },
+        "plasticity_parameters": {
+          "johnson_cook": {
+            "A": 200,
+            "B": 150,
+            "n": 0.25,
+            "C": 0.015,
+            "m": 1.0,
+            "melting_temperature": 1455
+          }
+        }
+      },
+      "electrochemical": {
+        "electronic_conductivity": {
+          "25°C": 1.2e6,
+          "500°C": 1.8e6,
+          "800°C": 2.1e6,
+          "1000°C": 2.3e6
+        },
+        "ionic_conductivity": {
+          "25°C": 0.01,
+          "500°C": 0.15,
+          "800°C": 0.45,
+          "1000°C": 0.78
+        },
+        "exchange_current_density": {
+          "25°C": 1.2e3,
+          "500°C": 2.8e3,
+          "800°C": 5.5e3,
+          "1000°C": 8.2e3
+        },
+        "activation_overpotential": {
+          "alpha_anode": 0.5,
+          "alpha_cathode": 0.5
+        }
+      }
+    },
+    "electrolyte_8ysz": {
+      "name": "8YSZ Electrolyte",
+      "composition": "8 mol% Y₂O₃ - ZrO₂",
+      "porosity": 0.02,
+      "thermo_physical": {
+        "thermal_expansion_coefficient": {
+          "25°C": 10.5e-6,
+          "500°C": 11.2e-6,
+          "800°C": 12.0e-6,
+          "1000°C": 12.8e-6
+        },
+        "thermal_conductivity": {
+          "25°C": 2.2,
+          "500°C": 1.8,
+          "800°C": 1.5,
+          "1000°C": 1.3
+        },
+        "specific_heat_capacity": {
+          "25°C": 480,
+          "500°C": 550,
+          "800°C": 620,
+          "1000°C": 680
+        },
+        "density": 6050
+      },
+      "mechanical": {
+        "youngs_modulus": {
+          "25°C": 210,
+          "500°C": 200,
+          "800°C": 185,
+          "1000°C": 170
+        },
+        "poisson_ratio": 0.31,
+        "creep_parameters": {
+          "norton_bailey": {
+            "B": 2.5e-18,
+            "n": 3.2,
+            "Q": 220
+          }
+        }
+      },
+      "electrochemical": {
+        "ionic_conductivity": {
+          "25°C": 0.001,
+          "500°C": 0.025,
+          "800°C": 0.12,
+          "1000°C": 0.28
+        },
+        "electronic_conductivity": {
+          "25°C": 1e-8,
+          "500°C": 1e-6,
+          "800°C": 1e-4,
+          "1000°C": 1e-3
+        },
+        "activation_energy": 85
+      }
+    },
+    "cathode_lsm": {
+      "name": "LSM Cathode",
+      "composition": "La₀.₈Sr₀.₂MnO₃",
+      "porosity": 0.30,
+      "thermo_physical": {
+        "thermal_expansion_coefficient": {
+          "25°C": 11.8e-6,
+          "500°C": 12.5e-6,
+          "800°C": 13.2e-6,
+          "1000°C": 13.9e-6
+        },
+        "thermal_conductivity": {
+          "25°C": 1.8,
+          "500°C": 1.6,
+          "800°C": 1.4,
+          "1000°C": 1.2
+        },
+        "specific_heat_capacity": {
+          "25°C": 420,
+          "500°C": 480,
+          "800°C": 540,
+          "1000°C": 590
+        },
+        "density": 6800
+      },
+      "mechanical": {
+        "youngs_modulus": {
+          "25°C": 120,
+          "500°C": 115,
+          "800°C": 105,
+          "1000°C": 95
+        },
+        "poisson_ratio": 0.25
+      },
+      "electrochemical": {
+        "electronic_conductivity": {
+          "25°C": 2.5e4,
+          "500°C": 1.8e4,
+          "800°C": 1.2e4,
+          "1000°C": 8.5e3
+        },
+        "ionic_conductivity": {
+          "25°C": 0.001,
+          "500°C": 0.008,
+          "800°C": 0.025,
+          "1000°C": 0.045
+        },
+        "exchange_current_density": {
+          "25°C": 8.5e2,
+          "500°C": 1.8e3,
+          "800°C": 3.2e3,
+          "1000°C": 4.8e3
+        },
+        "activation_energy": 120
+      }
+    },
+    "interconnect_crofer22": {
+      "name": "Crofer 22 APU Interconnect",
+      "composition": "Fe-22Cr-0.5Mn-0.3Ti-0.1La",
+      "porosity": 0.0,
+      "thermo_physical": {
+        "thermal_expansion_coefficient": {
+          "25°C": 12.0e-6,
+          "500°C": 12.8e-6,
+          "800°C": 13.5e-6,
+          "1000°C": 14.2e-6
+        },
+        "thermal_conductivity": {
+          "25°C": 18.5,
+          "500°C": 20.2,
+          "800°C": 22.1,
+          "1000°C": 23.8
+        },
+        "specific_heat_capacity": {
+          "25°C": 460,
+          "500°C": 520,
+          "800°C": 580,
+          "1000°C": 630
+        },
+        "density": 7800
+      },
+      "mechanical": {
+        "youngs_modulus": {
+          "25°C": 200,
+          "500°C": 190,
+          "800°C": 175,
+          "1000°C": 160
+        },
+        "poisson_ratio": 0.30,
+        "yield_strength": {
+          "25°C": 250,
+          "500°C": 180,
+          "800°C": 120,
+          "1000°C": 80
+        }
+      },
+      "electrochemical": {
+        "electrical_conductivity": {
+          "25°C": 1.2e6,
+          "500°C": 1.0e6,
+          "800°C": 0.8e6,
+          "1000°C": 0.6e6
+        },
+        "oxidation_resistance": {
+          "parabolic_rate_constant": 2.5e-12,
+          "activation_energy": 180
+        }
+      }
+    },
+    "cathode_lscf": {
+      "name": "LSCF Cathode",
+      "composition": "La₀.₆Sr₀.₄Co₀.₂Fe₀.₈O₃-δ",
+      "porosity": 0.25,
+      "thermo_physical": {
+        "thermal_expansion_coefficient": {
+          "25°C": 13.5e-6,
+          "500°C": 14.2e-6,
+          "800°C": 15.0e-6,
+          "1000°C": 15.8e-6
+        },
+        "thermal_conductivity": {
+          "25°C": 1.5,
+          "500°C": 1.3,
+          "800°C": 1.1,
+          "1000°C": 0.9
+        },
+        "specific_heat_capacity": {
+          "25°C": 450,
+          "500°C": 510,
+          "800°C": 570,
+          "1000°C": 620
+        },
+        "density": 6500
+      },
+      "mechanical": {
+        "youngs_modulus": {
+          "25°C": 100,
+          "500°C": 95,
+          "800°C": 85,
+          "1000°C": 75
+        },
+        "poisson_ratio": 0.27
+      },
+      "electrochemical": {
+        "electronic_conductivity": {
+          "25°C": 1.5e4,
+          "500°C": 1.2e4,
+          "800°C": 8.5e3,
+          "1000°C": 5.5e3
+        },
+        "ionic_conductivity": {
+          "25°C": 0.01,
+          "500°C": 0.08,
+          "800°C": 0.25,
+          "1000°C": 0.45
+        },
+        "exchange_current_density": {
+          "25°C": 1.2e3,
+          "500°C": 2.5e3,
+          "800°C": 4.8e3,
+          "1000°C": 7.2e3
+        },
+        "activation_energy": 95
+      }
+    }
+  },
+  "temperature_dependent_functions": {
+    "thermal_expansion": "α(T) = α₀ + α₁T + α₂T²",
+    "thermal_conductivity": "k(T) = k₀ + k₁T + k₂T²",
+    "electrical_conductivity": "σ(T) = σ₀ exp(-Ea/RT)",
+    "creep_strain_rate": "ε̇ = Bσⁿ exp(-Q/RT)"
+  },
+  "references": {
+    "ni_ysz": "Typical values for Ni-YSZ cermet anodes in SOFC applications",
+    "8ysz": "Standard 8 mol% yttria-stabilized zirconia electrolyte properties",
+    "lsm": "Lanthanum strontium manganite cathode material properties",
+    "lscf": "Lanthanum strontium cobalt ferrite mixed conducting cathode",
+    "crofer22": "Crofer 22 APU ferritic stainless steel interconnect alloy"
+  }
+}
