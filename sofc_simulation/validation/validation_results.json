@@ -1,0 +1,125 @@
+{
+  "HR1": {
+    "temperature": {
+      "temperature_max_valid": true,
+      "temperature_min_valid": false,
+      "temperature_max": 913.9673294545537,
+      "temperature_min": 11.404617866389025,
+      "expected_range": [
+        25,
+        900
+      ]
+    },
+    "stress": {
+      "stress_valid": false,
+      "stress_max": 165362008.0237928,
+      "stress_mean": 65057512.051889084,
+      "expected_range": [
+        30000000.0,
+        80000000.0
+      ]
+    },
+    "damage": {
+      "damage_valid": true,
+      "damage_max": 0.07831533877314795,
+      "damage_mean": 0.017055131531522646,
+      "damaged_nodes": 0,
+      "expected_range": [
+        0.05,
+        0.15
+      ]
+    },
+    "delamination": {
+      "delamination_valid": false,
+      "delamination_max": 0.028588368229557626,
+      "delamination_mean": 0.004383365999828643,
+      "critical_nodes": 0,
+      "expected_range": [
+        5,
+        20
+      ]
+    }
+  },
+  "HR4": {
+    "temperature": {
+      "temperature_max_valid": true,
+      "temperature_min_valid": false,
+      "temperature_max": 888.5757472591662,
+      "temperature_min": 46.0910965294269,
+      "expected_range": [
+        25,
+        900
+      ]
+    },
+    "stress": {
+      "stress_valid": false,
+      "stress_max": 223374833.5530876,
+      "stress_mean": 95882557.99920493,
+      "expected_range": [
+        50000000.0,
+        120000000.0
+      ]
+    },
+    "damage": {
+      "damage_valid": true,
+      "damage_max": 0.17061900513266337,
+      "damage_mean": 0.03319687523457735,
+      "damaged_nodes": 32,
+      "expected_range": [
+        0.1,
+        0.25
+      ]
+    },
+    "delamination": {
+      "delamination_valid": false,
+      "delamination_max": 0.05690352686272252,
+      "delamination_mean": 0.008979391517202581,
+      "critical_nodes": 0,
+      "expected_range": [
+        15,
+        35
+      ]
+    }
+  },
+  "HR10": {
+    "temperature": {
+      "temperature_max_valid": true,
+      "temperature_min_valid": true,
+      "temperature_max": 925.5639143247106,
+      "temperature_min": 30.22687674373553,
+      "expected_range": [
+        25,
+        900
+      ]
+    },
+    "stress": {
+      "stress_valid": false,
+      "stress_max": 290212447.5248456,
+      "stress_mean": 130181373.42061117,
+      "expected_range": [
+        80000000.0,
+        150000000.0
+      ]
+    },
+    "damage": {
+      "damage_valid": true,
+      "damage_max": 0.2339047856576595,
+      "damage_mean": 0.05066106480762241,
+      "damaged_nodes": 128,
+      "expected_range": [
+        0.15,
+        0.35
+      ]
+    },
+    "delamination": {
+      "delamination_valid": false,
+      "delamination_max": 0.06949132303117755,
+      "delamination_mean": 0.01418792340291977,
+      "critical_nodes": 0,
+      "expected_range": [
+        30,
+        60
+      ]
+    }
+  }
+}
