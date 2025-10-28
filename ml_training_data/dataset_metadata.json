@@ -1,0 +1,57 @@
+{
+  "generated_date": "2025-10-03T07:24:30.519507",
+  "training_samples": 10000,
+  "validation_samples": 1000,
+  "total_samples": 11000,
+  "input_features": {
+    "sintering_temperature_range": [
+      1200,
+      1500
+    ],
+    "sintering_temperature_unit": "Celsius",
+    "cooling_rate_range": [
+      1,
+      10
+    ],
+    "cooling_rate_unit": "C/min",
+    "TEC_mismatch": 2.3e-06,
+    "TEC_mismatch_unit": "K^-1",
+    "porosity_range": [
+      0,
+      30
+    ],
+    "porosity_unit": "percent"
+  },
+  "output_labels": [
+    "stress_hotspot_intensity",
+    "crack_initiation_risk",
+    "delamination_probability"
+  ],
+  "validation_characteristics": {
+    "DIC_noise_level": 0.05,
+    "XRD_noise_level": 0.08,
+    "invalid_measurement_rate": 0.05
+  },
+  "feature_columns": [
+    "sample_id",
+    "sintering_temperature_C",
+    "cooling_rate_C_per_min",
+    "porosity_percent",
+    "youngs_modulus_Pa",
+    "poisson_ratio",
+    "density_g_cm3",
+    "thermal_conductivity_W_mK",
+    "grain_size_um",
+    "TEC_mismatch_K-1",
+    "x_coordinate",
+    "y_coordinate",
+    "z_coordinate",
+    "thermal_stress_Pa",
+    "thermal_strain",
+    "stress_hotspot_intensity",
+    "crack_initiation_risk",
+    "delamination_probability"
+  ],
+  "physics_based_simulation": true,
+  "random_seed": 42
+}
