@@ -1,0 +1,195 @@
+{
+  "generation_date": "2025-10-04T11:49:04.659817",
+  "datasets": {
+    "dft_defect_formation_energies": {
+      "samples": 500,
+      "file": "dft_defect_formation_energies.csv",
+      "description": "Formation energies for vacancies, interstitials, and other defects",
+      "key_columns": [
+        "material",
+        "defect_type",
+        "temperature_K",
+        "formation_energy_eV",
+        "lattice_parameter_A",
+        "defect_volume_A3",
+        "charge_state",
+        "convergence_tolerance",
+        "k_points",
+        "energy_cutoff_eV"
+      ],
+      "statistics": {
+        "mean_formation_energy_eV": 2.4317906,
+        "std_formation_energy_eV": 1.3950994548021365,
+        "temperature_range_K": [
+          304.76,
+          1499.8
+        ]
+      }
+    },
+    "dft_grain_boundary_energies": {
+      "samples": 200,
+      "file": "dft_grain_boundary_energies.csv",
+      "description": "Grain boundary energies for various misorientation angles",
+      "key_columns": [
+        "material",
+        "gb_type",
+        "misorientation_deg",
+        "gb_energy_J_m2",
+        "gb_width_nm",
+        "grain_size_um",
+        "segregation_energy_eV",
+        "diffusivity_enhancement"
+      ],
+      "statistics": {
+        "mean_gb_energy_J_m2": 0.591345,
+        "std_gb_energy_J_m2": 0.2451744963148004,
+        "misorientation_range_deg": [
+          5.22,
+          59.79
+        ]
+      }
+    },
+    "dft_activation_barriers": {
+      "samples": 400,
+      "file": "dft_activation_barriers.csv",
+      "description": "Activation energy barriers for diffusion mechanisms",
+      "key_columns": [
+        "material",
+        "mechanism",
+        "temperature_K",
+        "activation_energy_eV",
+        "pre_exponential_factor_m2_s",
+        "diffusion_coefficient_m2_s",
+        "attempt_frequency_THz",
+        "migration_path_length_A",
+        "saddle_point_energy_eV"
+      ],
+      "statistics": {
+        "mean_activation_energy_eV": 1.0280735,
+        "std_activation_energy_eV": 0.6085937403965593,
+        "mechanisms": [
+          "vacancy_migration",
+          "substitutional_diffusion",
+          "grain_boundary_diffusion",
+          "interstitial_migration",
+          "solute_drag",
+          "dislocation_pipe_diffusion"
+        ]
+      }
+    },
+    "dft_surface_energies": {
+      "samples": 300,
+      "file": "dft_surface_energies.csv",
+      "description": "Surface energies for different crystallographic orientations",
+      "key_columns": [
+        "material",
+        "surface_orientation",
+        "surface_energy_J_m2",
+        "temperature_K",
+        "work_of_adhesion_J_m2",
+        "surface_stress_N_m",
+        "atomic_density_per_A2",
+        "surface_relaxation_percent"
+      ],
+      "statistics": {
+        "mean_surface_energy_J_m2": 1.860851,
+        "std_surface_energy_J_m2": 0.3854606351321168,
+        "orientations": [
+          "(111)",
+          "(112)",
+          "(110)",
+          "(210)",
+          "(100)",
+          "(211)"
+        ]
+      }
+    },
+    "md_grain_boundary_sliding": {
+      "samples": 350,
+      "file": "md_grain_boundary_sliding.csv",
+      "description": "Grain boundary sliding resistance and displacement data",
+      "key_columns": [
+        "material",
+        "gb_type",
+        "temperature_K",
+        "misorientation_deg",
+        "applied_shear_stress_MPa",
+        "critical_shear_stress_MPa",
+        "sliding_displacement_nm",
+        "sliding_velocity_nm_ps",
+        "activation_energy_eV",
+        "simulation_time_ps",
+        "box_size_nm",
+        "num_atoms",
+        "timestep_fs"
+      ],
+      "statistics": {
+        "mean_critical_shear_stress_MPa": 52.26837142857143,
+        "mean_sliding_velocity_nm_ps": 0.29263718
+      }
+    },
+    "md_dislocation_mobility": {
+      "samples": 400,
+      "file": "md_dislocation_mobility.csv",
+      "description": "Dislocation velocity and mobility coefficients",
+      "key_columns": [
+        "material",
+        "dislocation_type",
+        "slip_system",
+        "temperature_K",
+        "applied_stress_MPa",
+        "peierls_stress_MPa",
+        "dislocation_velocity_m_s",
+        "mobility_coefficient",
+        "stress_exponent",
+        "burgers_vector_A",
+        "dislocation_density_m2",
+        "line_tension_eV_A",
+        "core_energy_eV_A",
+        "interaction_energy_eV",
+        "simulation_time_ps",
+        "num_atoms"
+      ],
+      "statistics": {
+        "mean_peierls_stress_MPa": 52.207649999999994,
+        "dislocation_types": [
+          "mixed",
+          "screw",
+          "prismatic",
+          "edge",
+          "basal"
+        ]
+      }
+    },
+    "md_sample_trajectory": {
+      "file": "md_sample_trajectory.json",
+      "description": "Sample MD trajectory data (positions, velocities, energies)",
+      "num_atoms": 1000,
+      "num_steps": 100
+    }
+  },
+  "total_samples": 2150,
+  "materials_covered": [
+    "Al",
+    "Cr",
+    "Cu",
+    "Fe",
+    "Inconel-718",
+    "Ni",
+    "Steel-316",
+    "Ti"
+  ],
+  "usage_notes": {
+    "DFT_data": "Can be used to parameterize phase-field models, crystal plasticity models, or train ML surrogate models",
+    "MD_data": "Provides kinetic information for grain boundary sliding and dislocation dynamics",
+    "integration": "These atomic-scale properties can be upscaled into continuum models for creep simulation",
+    "units": {
+      "energy": "eV (electron volts)",
+      "surface_energy": "J/m\u00b2",
+      "temperature": "K (Kelvin)",
+      "stress": "MPa (Megapascals)",
+      "length": "Angstroms (\u00c5) or nm",
+      "time": "fs (femtoseconds) or ps (picoseconds)"
+    }
+  }
+}
