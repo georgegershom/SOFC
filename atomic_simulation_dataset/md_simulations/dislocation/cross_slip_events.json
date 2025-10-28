@@ -1,0 +1,523 @@
+{
+  "simulation_type": "cross_slip_events",
+  "method": "MD-EAM",
+  "timestamp": "2025-10-04T11:54:36.622067",
+  "units": {
+    "time": "ps",
+    "distance": "Angstrom",
+    "energy": "eV",
+    "stress": "MPa"
+  },
+  "simulations": [
+    {
+      "simulation_id": "cross_slip_0000",
+      "temperature": 906.8800476420146,
+      "applied_stress": 510.3189676763983,
+      "initial_plane": [
+        1,
+        1,
+        1
+      ],
+      "cross_slip_plane": [
+        1,
+        -1,
+        1
+      ],
+      "screw_dislocation_length": 126.87388562895275,
+      "event_details": {
+        "nucleation_time": 67.22387975816966,
+        "completion_time": 82.95521748218947,
+        "activation_energy": 1.4270751029851483,
+        "critical_stress": 577.0723244222592,
+        "constriction_width": 14.04112472002778
+      },
+      "energy_barrier": {
+        "forward_barrier": 1.4270751029851483,
+        "reverse_barrier": 1.5067475926325922,
+        "saddle_point_configuration": "Fleischer-type"
+      },
+      "success_rate": 1.1815297211455127e-08,
+      "computational_details": {
+        "n_atoms": 94592,
+        "simulation_time": 250,
+        "method": "adaptive-timestep MD"
+      }
+    },
+    {
+      "simulation_id": "cross_slip_0001",
+      "temperature": 998.4941967729824,
+      "applied_stress": 630.0305424001099,
+      "initial_plane": [
+        1,
+        1,
+        1
+      ],
+      "cross_slip_plane": [
+        1,
+        -1,
+        1
+      ],
+      "screw_dislocation_length": 90.094338560687,
+      "event_details": {
+        "nucleation_time": 85.29467767407104,
+        "completion_time": 95.00489000879124,
+        "activation_energy": 0.9436664202882346,
+        "critical_stress": 363.59175224704137,
+        "constriction_width": 13.216795661462346
+      },
+      "energy_barrier": {
+        "forward_barrier": 0.9436664202882346,
+        "reverse_barrier": 1.0036659789234663,
+        "saddle_point_configuration": "Fleischer-type"
+      },
+      "success_rate": 1.7330568431756138e-05,
+      "computational_details": {
+        "n_atoms": 86131,
+        "simulation_time": 250,
+        "method": "adaptive-timestep MD"
+      }
+    },
+    {
+      "simulation_id": "cross_slip_0002",
+      "temperature": 877.4112032825881,
+      "applied_stress": 598.5326147905708,
+      "initial_plane": [
+        1,
+        1,
+        1
+      ],
+      "cross_slip_plane": [
+        1,
+        -1,
+        1
+      ],
+      "screw_dislocation_length": 88.14836122232458,
+      "event_details": {
+        "nucleation_time": 140.67454528318086,
+        "completion_time": 150.88165861968542,
+        "activation_energy": 0.8046009555294578,
+        "critical_stress": 406.28059266986594,
+        "constriction_width": 10.481959952264775
+      },
+      "energy_barrier": {
+        "forward_barrier": 0.8046009555294578,
+        "reverse_barrier": 0.8143591244950563,
+        "saddle_point_configuration": "Fleischer-type"
+      },
+      "success_rate": 2.4001439453167906e-05,
+      "computational_details": {
+        "n_atoms": 92704,
+        "simulation_time": 250,
+        "method": "adaptive-timestep MD"
+      }
+    },
+    {
+      "simulation_id": "cross_slip_0003",
+      "temperature": 723.7569392720777,
+      "applied_stress": 557.7006948346547,
+      "initial_plane": [
+        1,
+        1,
+        1
+      ],
+      "cross_slip_plane": [
+        1,
+        -1,
+        1
+      ],
+      "screw_dislocation_length": 84.07424319598042,
+      "event_details": {
+        "nucleation_time": 175.78730166175757,
+        "completion_time": 181.56371453437774,
+        "activation_energy": 1.450027919698225,
+        "critical_stress": 533.7455245462702,
+        "constriction_width": 8.628141295120678
+      },
+      "energy_barrier": {
+        "forward_barrier": 1.450027919698225,
+        "reverse_barrier": 1.2965235731032239,
+        "saddle_point_configuration": "Fleischer-type"
+      },
+      "success_rate": 8.069909583272101e-11,
+      "computational_details": {
+        "n_atoms": 84672,
+        "simulation_time": 250,
+        "method": "adaptive-timestep MD"
+      }
+    },
+    {
+      "simulation_id": "cross_slip_0004",
+      "temperature": 1074.0737831999324,
+      "applied_stress": 670.61832080289,
+      "initial_plane": [
+        1,
+        1,
+        1
+      ],
+      "cross_slip_plane": [
+        1,
+        -1,
+        1
+      ],
+      "screw_dislocation_length": 61.866370459675835,
+      "event_details": {
+        "nucleation_time": 90.7718011139688,
+        "completion_time": 102.15580122998972,
+        "activation_energy": 0.8081452765510141,
+        "critical_stress": 484.8085147513576,
+        "constriction_width": 11.748322147003012
+      },
+      "energy_barrier": {
+        "forward_barrier": 0.8081452765510141,
+        "reverse_barrier": 0.7859871728101018,
+        "saddle_point_configuration": "Fleischer-type"
+      },
+      "success_rate": 0.00016199074558105275,
+      "computational_details": {
+        "n_atoms": 99888,
+        "simulation_time": 250,
+        "method": "adaptive-timestep MD"
+      }
+    },
+    {
+      "simulation_id": "cross_slip_0005",
+      "temperature": 1139.6370350096895,
+      "applied_stress": 638.7149895127457,
+      "initial_plane": [
+        1,
+        1,
+        1
+      ],
+      "cross_slip_plane": [
+        1,
+        -1,
+        1
+      ],
+      "screw_dislocation_length": 88.80771048115412,
+      "event_details": {
+        "nucleation_time": 180.43238845879824,
+        "completion_time": 186.42435679471754,
+        "activation_energy": 1.2310006076030677,
+        "critical_stress": 399.5223840851887,
+        "constriction_width": 5.854011333627928
+      },
+      "energy_barrier": {
+        "forward_barrier": 1.2310006076030677,
+        "reverse_barrier": 1.3255544918581041,
+        "saddle_point_configuration": "Fleischer-type"
+      },
+      "success_rate": 3.616656732853195e-06,
+      "computational_details": {
+        "n_atoms": 93999,
+        "simulation_time": 250,
+        "method": "adaptive-timestep MD"
+      }
+    },
+    {
+      "simulation_id": "cross_slip_0006",
+      "temperature": 694.3408494191568,
+      "applied_stress": 217.6365695731807,
+      "initial_plane": [
+        1,
+        1,
+        1
+      ],
+      "cross_slip_plane": [
+        1,
+        -1,
+        1
+      ],
+      "screw_dislocation_length": 63.15223243790109,
+      "event_details": {
+        "nucleation_time": 83.89933951623703,
+        "completion_time": 94.45576919215804,
+        "activation_energy": 1.1155685445575192,
+        "critical_stress": 441.7174337254263,
+        "constriction_width": 8.084941863001019
+      },
+      "energy_barrier": {
+        "forward_barrier": 1.1155685445575192,
+        "reverse_barrier": 1.038919973861784,
+        "saddle_point_configuration": "Fleischer-type"
+      },
+      "success_rate": 8.052870603481626e-09,
+      "computational_details": {
+        "n_atoms": 79547,
+        "simulation_time": 250,
+        "method": "adaptive-timestep MD"
+      }
+    },
+    {
+      "simulation_id": "cross_slip_0007",
+      "temperature": 1129.5171183635218,
+      "applied_stress": 374.52168430304437,
+      "initial_plane": [
+        1,
+        1,
+        1
+      ],
+      "cross_slip_plane": [
+        1,
+        -1,
+        1
+      ],
+      "screw_dislocation_length": 69.13099887727238,
+      "event_details": {
+        "nucleation_time": 61.70708034659205,
+        "completion_time": 79.07053914672832,
+        "activation_energy": 1.273623537367263,
+        "critical_stress": 555.4363165358455,
+        "constriction_width": 10.89286598800326
+      },
+      "energy_barrier": {
+        "forward_barrier": 1.273623537367263,
+        "reverse_barrier": 1.1560526369530852,
+        "saddle_point_configuration": "Fleischer-type"
+      },
+      "success_rate": 2.0866410063682865e-06,
+      "computational_details": {
+        "n_atoms": 55011,
+        "simulation_time": 250,
+        "method": "adaptive-timestep MD"
+      }
+    },
+    {
+      "simulation_id": "cross_slip_0008",
+      "temperature": 700.4855874775578,
+      "applied_stress": 645.5822474879785,
+      "initial_plane": [
+        1,
+        1,
+        1
+      ],
+      "cross_slip_plane": [
+        1,
+        -1,
+        1
+      ],
+      "screw_dislocation_length": 137.26417968369972,
+      "event_details": {
+        "nucleation_time": 111.19513892308213,
+        "completion_time": 126.58122832627922,
+        "activation_energy": 0.876189703514395,
+        "critical_stress": 353.61000714467883,
+        "constriction_width": 7.162162131514405
+      },
+      "energy_barrier": {
+        "forward_barrier": 0.876189703514395,
+        "reverse_barrier": 0.9472905078293976,
+        "saddle_point_configuration": "Fleischer-type"
+      },
+      "success_rate": 4.99504217708535e-07,
+      "computational_details": {
+        "n_atoms": 77101,
+        "simulation_time": 250,
+        "method": "adaptive-timestep MD"
+      }
+    },
+    {
+      "simulation_id": "cross_slip_0009",
+      "temperature": 1074.3916050128173,
+      "applied_stress": 291.79980224682515,
+      "initial_plane": [
+        1,
+        1,
+        1
+      ],
+      "cross_slip_plane": [
+        1,
+        -1,
+        1
+      ],
+      "screw_dislocation_length": 121.34333520082514,
+      "event_details": {
+        "nucleation_time": 170.2047465095617,
+        "completion_time": 189.66801419607071,
+        "activation_energy": 1.1887964118853782,
+        "critical_stress": 345.67289308964445,
+        "constriction_width": 11.776087316752722
+      },
+      "energy_barrier": {
+        "forward_barrier": 1.1887964118853782,
+        "reverse_barrier": 1.0266229845652055,
+        "saddle_point_configuration": "Fleischer-type"
+      },
+      "success_rate": 2.665265855209418e-06,
+      "computational_details": {
+        "n_atoms": 98203,
+        "simulation_time": 250,
+        "method": "adaptive-timestep MD"
+      }
+    },
+    {
+      "simulation_id": "cross_slip_0010",
+      "temperature": 878.1363247403314,
+      "applied_stress": 426.86986204691493,
+      "initial_plane": [
+        1,
+        1,
+        1
+      ],
+      "cross_slip_plane": [
+        1,
+        -1,
+        1
+      ],
+      "screw_dislocation_length": 129.85006970223014,
+      "event_details": {
+        "nucleation_time": 185.81823726217397,
+        "completion_time": 198.15957792297795,
+        "activation_energy": 1.4352245114082063,
+        "critical_stress": 400.05159360216294,
+        "constriction_width": 7.034857644914253
+      },
+      "energy_barrier": {
+        "forward_barrier": 1.4352245114082063,
+        "reverse_barrier": 1.581811553015563,
+        "saddle_point_configuration": "Fleischer-type"
+      },
+      "success_rate": 5.83716726548012e-09,
+      "computational_details": {
+        "n_atoms": 56543,
+        "simulation_time": 250,
+        "method": "adaptive-timestep MD"
+      }
+    },
+    {
+      "simulation_id": "cross_slip_0011",
+      "temperature": 832.1080595950314,
+      "applied_stress": 667.3199500502371,
+      "initial_plane": [
+        1,
+        1,
+        1
+      ],
+      "cross_slip_plane": [
+        1,
+        -1,
+        1
+      ],
+      "screw_dislocation_length": 126.00989141260467,
+      "event_details": {
+        "nucleation_time": 165.15007864507317,
+        "completion_time": 173.1269050334911,
+        "activation_energy": 1.08396026225167,
+        "critical_stress": 518.1510254121534,
+        "constriction_width": 5.596726035136996
+      },
+      "energy_barrier": {
+        "forward_barrier": 1.08396026225167,
+        "reverse_barrier": 1.1903745183861123,
+        "saddle_point_configuration": "Fleischer-type"
+      },
+      "success_rate": 2.737789239083718e-07,
+      "computational_details": {
+        "n_atoms": 53611,
+        "simulation_time": 250,
+        "method": "adaptive-timestep MD"
+      }
+    },
+    {
+      "simulation_id": "cross_slip_0012",
+      "temperature": 1184.5691636417112,
+      "applied_stress": 789.7759241715072,
+      "initial_plane": [
+        1,
+        1,
+        1
+      ],
+      "cross_slip_plane": [
+        1,
+        -1,
+        1
+      ],
+      "screw_dislocation_length": 64.39261596707632,
+      "event_details": {
+        "nucleation_time": 128.9846313927098,
+        "completion_time": 141.24132368413603,
+        "activation_energy": 1.254915902415877,
+        "critical_stress": 555.051829728026,
+        "constriction_width": 13.048654505478002
+      },
+      "energy_barrier": {
+        "forward_barrier": 1.254915902415877,
+        "reverse_barrier": 1.142389691799198,
+        "saddle_point_configuration": "Fleischer-type"
+      },
+      "success_rate": 4.6026572326834724e-06,
+      "computational_details": {
+        "n_atoms": 98010,
+        "simulation_time": 250,
+        "method": "adaptive-timestep MD"
+      }
+    },
+    {
+      "simulation_id": "cross_slip_0013",
+      "temperature": 707.5199977882592,
+      "applied_stress": 410.6403455063938,
+      "initial_plane": [
+        1,
+        1,
+        1
+      ],
+      "cross_slip_plane": [
+        1,
+        -1,
+        1
+      ],
+      "screw_dislocation_length": 149.65781244869817,
+      "event_details": {
+        "nucleation_time": 138.98307701568257,
+        "completion_time": 146.45949353693968,
+        "activation_energy": 0.8185790142155115,
+        "critical_stress": 414.65935758558595,
+        "constriction_width": 9.654765102456047
+      },
+      "energy_barrier": {
+        "forward_barrier": 0.8185790142155115,
+        "reverse_barrier": 0.7733740676219052,
+        "saddle_point_configuration": "Fleischer-type"
+      },
+      "success_rate": 1.4838871199869773e-06,
+      "computational_details": {
+        "n_atoms": 90485,
+        "simulation_time": 250,
+        "method": "adaptive-timestep MD"
+      }
+    },
+    {
+      "simulation_id": "cross_slip_0014",
+      "temperature": 654.431027582585,
+      "applied_stress": 419.4365180604431,
+      "initial_plane": [
+        1,
+        1,
+        1
+      ],
+      "cross_slip_plane": [
+        1,
+        -1,
+        1
+      ],
+      "screw_dislocation_length": 75.13854044450704,
+      "event_details": {
+        "nucleation_time": 191.2078755231647,
+        "completion_time": 205.85883840495316,
+        "activation_energy": 1.0983378018426713,
+        "critical_stress": 373.7066911422159,
+        "constriction_width": 6.952268436076531
+      },
+      "energy_barrier": {
+        "forward_barrier": 1.0983378018426713,
+        "reverse_barrier": 1.0844896766466603,
+        "saddle_point_configuration": "Fleischer-type"
+      },
+      "success_rate": 3.5074027058026147e-09,
+      "computational_details": {
+        "n_atoms": 80140,
+        "simulation_time": 250,
+        "method": "adaptive-timestep MD"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "generation_timestamp": "2025-10-04T11:55:58.531506",
+  "key_findings": {
+    "vacancy_formation_energy": 1.393331048521808,
+    "gb_sliding_activation": 1.826905703930638e-06,
+    "average_dislocation_mobility": {
+      "edge": "N/A",
+      "screw": "N/A"
+    }
+  },
+  "data_statistics": {
+    "total_dft_calculations": 205,
+    "total_md_simulations": 80,
+    "temperature_range_K": [
+      600,
+      1200
+    ],
+    "stress_range_MPa": [
+      50,
+      1000
+    ]
+  },
+  "recommended_parameters": {
+    "phase_field": {
+      "vacancy_migration_barrier": 1.2,
+      "gb_energy": 0.8,
+      "surface_energy": 2.0
+    },
+    "crystal_plasticity": {
+      "dislocation_density_evolution_rate": 0.001,
+      "hardening_modulus": 100,
+      "recovery_rate": 0.0001
+    }
+  }
+}

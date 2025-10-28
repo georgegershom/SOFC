@@ -1,0 +1,1261 @@
+{
+  "calculation_type": "vacancy_formation",
+  "method": "DFT-PBE+U",
+  "timestamp": "2025-10-04T11:54:32.108407",
+  "units": {
+    "energy": "eV",
+    "distance": "Angstrom"
+  },
+  "configurations": [
+    {
+      "config_id": "vac_0000",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_surface",
+        "coordinates": [
+          8.242893254883716,
+          6.30989986981026,
+          4.7133438631681654
+        ]
+      },
+      "formation_energy": 1.394096062474884,
+      "relaxation_volume": 0.21999498316360058,
+      "magnetic_moment": 0.5918497783931734,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 65
+      }
+    },
+    {
+      "config_id": "vac_0001",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "bulk",
+        "coordinates": [
+          10.253886957056602,
+          8.800583598542058,
+          2.2448490780907355
+        ]
+      },
+      "formation_energy": 1.270251287480539,
+      "relaxation_volume": 0.23636499344142015,
+      "magnetic_moment": 0.5366809019706867,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 41
+      }
+    },
+    {
+      "config_id": "vac_0002",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_surface",
+        "coordinates": [
+          1.4747290948133862,
+          3.088553224314326,
+          3.873177407300908
+        ]
+      },
+      "formation_energy": 1.3269421542900972,
+      "relaxation_volume": 0.2912139968434072,
+      "magnetic_moment": 0.6570351922786026,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 73
+      }
+    },
+    {
+      "config_id": "vac_0003",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_surface",
+        "coordinates": [
+          9.09128998001638,
+          7.192211297950006,
+          4.762678091822008
+        ]
+      },
+      "formation_energy": 1.5771093548338295,
+      "relaxation_volume": 0.2026529922319733,
+      "magnetic_moment": 0.6884403511369706,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 43
+      }
+    },
+    {
+      "config_id": "vac_0004",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "bulk",
+        "coordinates": [
+          2.441009524477359,
+          2.5481212268269955,
+          7.223461921022744
+        ]
+      },
+      "formation_energy": 1.5021032806517003,
+      "relaxation_volume": 0.3219993315565242,
+      "magnetic_moment": 0.6666389823472328,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 64
+      }
+    },
+    {
+      "config_id": "vac_0005",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_gb",
+        "coordinates": [
+          4.4947479051214385,
+          2.198359259842492,
+          6.001727865712949
+        ]
+      },
+      "formation_energy": 1.4369298142968205,
+      "relaxation_volume": 0.20626265849111172,
+      "magnetic_moment": 0.6684569549189997,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 73
+      }
+    },
+    {
+      "config_id": "vac_0006",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_gb",
+        "coordinates": [
+          2.071930821495203,
+          0.4781428983622084,
+          3.4393922568292306
+        ]
+      },
+      "formation_energy": 1.452628571178266,
+      "relaxation_volume": 0.27773545793789645,
+      "magnetic_moment": 0.5542698063547792,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 53
+      }
+    },
+    {
+      "config_id": "vac_0007",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "bulk",
+        "coordinates": [
+          1.4898509064331906,
+          8.480826480531707,
+          0.788149404982537
+        ]
+      },
+      "formation_energy": 1.1905774052248668,
+      "relaxation_volume": 0.39737738732010347,
+      "magnetic_moment": 0.6544489538593314,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 73
+      }
+    },
+    {
+      "config_id": "vac_0008",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_surface",
+        "coordinates": [
+          8.153870105163818,
+          0.7828000581328033,
+          3.78969968217005
+        ]
+      },
+      "formation_energy": 1.285807155130269,
+      "relaxation_volume": 0.22317381190502594,
+      "magnetic_moment": 0.6726206851751186,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 37
+      }
+    },
+    {
+      "config_id": "vac_0009",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_surface",
+        "coordinates": [
+          3.2877051051779804,
+          3.4378380804667694,
+          7.713396517390013
+        ]
+      },
+      "formation_energy": 1.3283850677674938,
+      "relaxation_volume": 0.32751149427104265,
+      "magnetic_moment": 0.6774425485152653,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 30
+      }
+    },
+    {
+      "config_id": "vac_0010",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_surface",
+        "coordinates": [
+          8.043019533977839,
+          5.933822532704713,
+          8.150665026479619
+        ]
+      },
+      "formation_energy": 1.3941744180746976,
+      "relaxation_volume": 0.2987591192728782,
+      "magnetic_moment": 0.6045465658763988,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 44
+      }
+    },
+    {
+      "config_id": "vac_0011",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_surface",
+        "coordinates": [
+          0.3322693510801545,
+          6.728130867880686,
+          3.3233714319389254
+        ]
+      },
+      "formation_energy": 1.2376396563027645,
+      "relaxation_volume": 0.3017141382329406,
+      "magnetic_moment": 0.6815132947852186,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 52
+      }
+    },
+    {
+      "config_id": "vac_0012",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "bulk",
+        "coordinates": [
+          2.4188542055774325,
+          0.8138316067099994,
+          3.0632523602043555
+        ]
+      },
+      "formation_energy": 1.7767191523431194,
+      "relaxation_volume": 0.2322442574508009,
+      "magnetic_moment": 0.6859395304685145,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 74
+      }
+    },
+    {
+      "config_id": "vac_0013",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_gb",
+        "coordinates": [
+          9.338038897290275,
+          3.428975562067756,
+          1.2907138570955186
+        ]
+      },
+      "formation_energy": 1.3120590146111675,
+      "relaxation_volume": 0.271259567615395,
+      "magnetic_moment": 0.6813656883091508,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 30
+      }
+    },
+    {
+      "config_id": "vac_0014",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "bulk",
+        "coordinates": [
+          9.099643726186063,
+          0.07349792397574811,
+          5.3996204828500245
+        ]
+      },
+      "formation_energy": 1.1508673501235742,
+      "relaxation_volume": 0.2834822006297558,
+      "magnetic_moment": 0.544421562094146,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 71
+      }
+    },
+    {
+      "config_id": "vac_0015",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_gb",
+        "coordinates": [
+          2.3127753293264983,
+          5.9002543653273305,
+          4.269356000425607
+        ]
+      },
+      "formation_energy": 1.3877376800740155,
+      "relaxation_volume": 0.21297844942179633,
+      "magnetic_moment": 0.5507830827868689,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 41
+      }
+    },
+    {
+      "config_id": "vac_0016",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "bulk",
+        "coordinates": [
+          1.5655750234673436,
+          10.548112407937413,
+          2.8204088829183127
+        ]
+      },
+      "formation_energy": 1.1380467664758844,
+      "relaxation_volume": 0.3953229911665306,
+      "magnetic_moment": 0.5822074026636462,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 52
+      }
+    },
+    {
+      "config_id": "vac_0017",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_surface",
+        "coordinates": [
+          7.196418033836994,
+          5.613040414828766,
+          4.733963615866725
+        ]
+      },
+      "formation_energy": 1.3750334082608426,
+      "relaxation_volume": 0.3105786178142656,
+      "magnetic_moment": 0.6185393447758787,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 40
+      }
+    },
+    {
+      "config_id": "vac_0018",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_gb",
+        "coordinates": [
+          3.8882032791079446,
+          6.684737241035322,
+          6.697676102164178
+        ]
+      },
+      "formation_energy": 1.2236691475984662,
+      "relaxation_volume": 0.3071549368149517,
+      "magnetic_moment": 0.5180579540108816,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 62
+      }
+    },
+    {
+      "config_id": "vac_0019",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "bulk",
+        "coordinates": [
+          9.074569284490645,
+          3.4460375457943253,
+          2.3283883548629762
+        ]
+      },
+      "formation_energy": 1.2118419136666647,
+      "relaxation_volume": 0.34222990648760354,
+      "magnetic_moment": 0.661900209227943,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 49
+      }
+    },
+    {
+      "config_id": "vac_0020",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "bulk",
+        "coordinates": [
+          4.203131406937286,
+          5.473667277776519,
+          8.856271239652271
+        ]
+      },
+      "formation_energy": 1.407923678908972,
+      "relaxation_volume": 0.33513802340785614,
+      "magnetic_moment": 0.6470432238481544,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 79
+      }
+    },
+    {
+      "config_id": "vac_0021",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_gb",
+        "coordinates": [
+          10.383483725678792,
+          5.461874642517163,
+          2.757486036307084
+        ]
+      },
+      "formation_energy": 1.24604621340339,
+      "relaxation_volume": 0.3992507399515849,
+      "magnetic_moment": 0.6930838702577586,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 34
+      }
+    },
+    {
+      "config_id": "vac_0022",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "bulk",
+        "coordinates": [
+          2.9482279396045468,
+          7.404182978472138,
+          8.95090159574337
+        ]
+      },
+      "formation_energy": 1.5202675704790176,
+      "relaxation_volume": 0.3712648583756185,
+      "magnetic_moment": 0.580901625424438,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 62
+      }
+    },
+    {
+      "config_id": "vac_0023",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_gb",
+        "coordinates": [
+          7.072543828838825,
+          6.139018961826198,
+          3.9357734080907476
+        ]
+      },
+      "formation_energy": 1.3908368184952258,
+      "relaxation_volume": 0.3880266884915557,
+      "magnetic_moment": 0.6947327673510635,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 47
+      }
+    },
+    {
+      "config_id": "vac_0024",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_gb",
+        "coordinates": [
+          4.740740039650606,
+          10.513404294721596,
+          1.8598817713048952
+        ]
+      },
+      "formation_energy": 1.2162134167456877,
+      "relaxation_volume": 0.2036150727231042,
+      "magnetic_moment": 0.5987787430366869,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 77
+      }
+    },
+    {
+      "config_id": "vac_0025",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_surface",
+        "coordinates": [
+          7.62177687919351,
+          3.2568186914634585,
+          5.735735317426395
+        ]
+      },
+      "formation_energy": 1.6187572963571248,
+      "relaxation_volume": 0.301762815367752,
+      "magnetic_moment": 0.627266523637179,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 51
+      }
+    },
+    {
+      "config_id": "vac_0026",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_surface",
+        "coordinates": [
+          4.592417232176252,
+          3.701028926148111,
+          6.820032743387131
+        ]
+      },
+      "formation_energy": 1.397994501180473,
+      "relaxation_volume": 0.33378481193261994,
+      "magnetic_moment": 0.6728335130143805,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 77
+      }
+    },
+    {
+      "config_id": "vac_0027",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_gb",
+        "coordinates": [
+          10.084932916071352,
+          9.671946333410581,
+          3.913317779100558
+        ]
+      },
+      "formation_energy": 1.4088262373834222,
+      "relaxation_volume": 0.2030913233057735,
+      "magnetic_moment": 0.6856637125175451,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 78
+      }
+    },
+    {
+      "config_id": "vac_0028",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "bulk",
+        "coordinates": [
+          0.7965606184967874,
+          3.2318288879040864,
+          2.018311421321458
+        ]
+      },
+      "formation_energy": 1.7279248239322258,
+      "relaxation_volume": 0.2536949713780314,
+      "magnetic_moment": 0.5970559748552631,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 47
+      }
+    },
+    {
+      "config_id": "vac_0029",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_gb",
+        "coordinates": [
+          9.832137977620114,
+          0.7444393353413781,
+          2.2086886826295875
+        ]
+      },
+      "formation_energy": 1.4393772927508621,
+      "relaxation_volume": 0.33422870336481014,
+      "magnetic_moment": 0.5717293562592327,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 56
+      }
+    },
+    {
+      "config_id": "vac_0030",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "bulk",
+        "coordinates": [
+          1.4443607160051286,
+          7.494607059333774,
+          5.8444127958704
+        ]
+      },
+      "formation_energy": 1.1612690648137343,
+      "relaxation_volume": 0.2593020287295597,
+      "magnetic_moment": 0.5839561712892553,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 79
+      }
+    },
+    {
+      "config_id": "vac_0031",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "bulk",
+        "coordinates": [
+          2.0538642365293103,
+          0.7499873745232352,
+          4.194798621305227
+        ]
+      },
+      "formation_energy": 1.9936621079135106,
+      "relaxation_volume": 0.2101537062078794,
+      "magnetic_moment": 0.6773234297901319,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 44
+      }
+    },
+    {
+      "config_id": "vac_0032",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_surface",
+        "coordinates": [
+          7.1046603023408474,
+          3.469230000542866,
+          1.6390999720457116
+        ]
+      },
+      "formation_energy": 1.3158359482621198,
+      "relaxation_volume": 0.39636817766210625,
+      "magnetic_moment": 0.6677867004138727,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 51
+      }
+    },
+    {
+      "config_id": "vac_0033",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "bulk",
+        "coordinates": [
+          5.521155745299391,
+          8.140371843358514,
+          2.2816599026966258
+        ]
+      },
+      "formation_energy": 1.1256740909880996,
+      "relaxation_volume": 0.3245780951638001,
+      "magnetic_moment": 0.5170694929987536,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 74
+      }
+    },
+    {
+      "config_id": "vac_0034",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_surface",
+        "coordinates": [
+          6.738908918639039,
+          7.676237580115977,
+          10.316708184077916
+        ]
+      },
+      "formation_energy": 1.177591505075049,
+      "relaxation_volume": 0.3032600696602391,
+      "magnetic_moment": 0.5645912945882492,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 46
+      }
+    },
+    {
+      "config_id": "vac_0035",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_gb",
+        "coordinates": [
+          0.8294408635504357,
+          0.26800805938821676,
+          10.177119039975024
+        ]
+      },
+      "formation_energy": 1.0260143525799266,
+      "relaxation_volume": 0.3671960241024412,
+      "magnetic_moment": 0.6391948412187396,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 30
+      }
+    },
+    {
+      "config_id": "vac_0036",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_gb",
+        "coordinates": [
+          2.535031961012067,
+          0.9924284227394163,
+          1.933259321418453
+        ]
+      },
+      "formation_energy": 1.3256106094658942,
+      "relaxation_volume": 0.38692279946794195,
+      "magnetic_moment": 0.62765411876867,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 68
+      }
+    },
+    {
+      "config_id": "vac_0037",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "bulk",
+        "coordinates": [
+          4.4360118599865945,
+          2.6190120210062364,
+          3.763343158701137
+        ]
+      },
+      "formation_energy": 1.6391635663038482,
+      "relaxation_volume": 0.35156922209287383,
+      "magnetic_moment": 0.5028786977259512,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 43
+      }
+    },
+    {
+      "config_id": "vac_0038",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "bulk",
+        "coordinates": [
+          4.9125315503975715,
+          6.8694073728992935,
+          0.5080789466110405
+        ]
+      },
+      "formation_energy": 1.5149391141496502,
+      "relaxation_volume": 0.3898291463182772,
+      "magnetic_moment": 0.6773360774596094,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 60
+      }
+    },
+    {
+      "config_id": "vac_0039",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "bulk",
+        "coordinates": [
+          1.7225427631048746,
+          0.7460527975173442,
+          6.791656609197168
+        ]
+      },
+      "formation_energy": 1.5619761950548365,
+      "relaxation_volume": 0.20530226210832436,
+      "magnetic_moment": 0.6171551162546927,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 56
+      }
+    },
+    {
+      "config_id": "vac_0040",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_surface",
+        "coordinates": [
+          6.800843045372558,
+          4.844649558276314,
+          5.768260696648063
+        ]
+      },
+      "formation_energy": 1.5752688459409225,
+      "relaxation_volume": 0.38829296175530503,
+      "magnetic_moment": 0.5772205275601549,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 62
+      }
+    },
+    {
+      "config_id": "vac_0041",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "bulk",
+        "coordinates": [
+          0.7332876728522492,
+          1.0654250305621544,
+          0.1926411407881837
+        ]
+      },
+      "formation_energy": 1.4214499915356271,
+      "relaxation_volume": 0.2188885921511857,
+      "magnetic_moment": 0.6366013546832714,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 46
+      }
+    },
+    {
+      "config_id": "vac_0042",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_gb",
+        "coordinates": [
+          0.24603090459915103,
+          8.610560797930228,
+          2.979768678904384
+        ]
+      },
+      "formation_energy": 1.5677407978013538,
+      "relaxation_volume": 0.22363296552433126,
+      "magnetic_moment": 0.6393474330728302,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 74
+      }
+    },
+    {
+      "config_id": "vac_0043",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_gb",
+        "coordinates": [
+          4.476934802081429,
+          6.010396439804559,
+          6.08867460962847
+        ]
+      },
+      "formation_energy": 1.4006226811524292,
+      "relaxation_volume": 0.346329551059928,
+      "magnetic_moment": 0.5255379458844931,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 78
+      }
+    },
+    {
+      "config_id": "vac_0044",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_gb",
+        "coordinates": [
+          5.940054669343974,
+          2.522446001703476,
+          7.187319013105398
+        ]
+      },
+      "formation_energy": 1.5308304612529553,
+      "relaxation_volume": 0.3479817520894749,
+      "magnetic_moment": 0.5476472304807959,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 59
+      }
+    },
+    {
+      "config_id": "vac_0045",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "bulk",
+        "coordinates": [
+          3.3835643820956274,
+          9.46747157166183,
+          4.114640147577572
+        ]
+      },
+      "formation_energy": 1.530247438049773,
+      "relaxation_volume": 0.2021675302960597,
+      "magnetic_moment": 0.6810763952838527,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 41
+      }
+    },
+    {
+      "config_id": "vac_0046",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_surface",
+        "coordinates": [
+          10.049818757423843,
+          6.06238535323938,
+          6.679783007059117
+        ]
+      },
+      "formation_energy": 1.390923307347577,
+      "relaxation_volume": 0.289689104395664,
+      "magnetic_moment": 0.558642154339613,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 54
+      }
+    },
+    {
+      "config_id": "vac_0047",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "bulk",
+        "coordinates": [
+          8.36857365026967,
+          8.347843005624023,
+          0.9642309214307545
+        ]
+      },
+      "formation_energy": 1.3583650111975398,
+      "relaxation_volume": 0.29888406094051634,
+      "magnetic_moment": 0.5115117520033289,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 60
+      }
+    },
+    {
+      "config_id": "vac_0048",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_surface",
+        "coordinates": [
+          1.5117080626625805,
+          8.050690398517116,
+          6.535801365379512
+        ]
+      },
+      "formation_energy": 1.541370763061574,
+      "relaxation_volume": 0.22022453522455807,
+      "magnetic_moment": 0.5168213612229995,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 42
+      }
+    },
+    {
+      "config_id": "vac_0049",
+      "supercell_size": [
+        3,
+        3,
+        3
+      ],
+      "total_atoms": 107,
+      "vacancy_site": {
+        "type": "near_surface",
+        "coordinates": [
+          7.4663928254984775,
+          0.8600193089461643,
+          0.8969043133086488
+        ]
+      },
+      "formation_energy": 1.1612100636476224,
+      "relaxation_volume": 0.3973279157002351,
+      "magnetic_moment": 0.5748541591512241,
+      "convergence": {
+        "energy_tolerance": 1e-06,
+        "force_tolerance": 0.01,
+        "iterations": 30
+      }
+    }
+  ]
+}
