@@ -1,0 +1,44 @@
+SYNTHETIC SYNCHROTRON X-RAY DATASET SUMMARY
+==================================================
+
+GENERATION DETAILS:
+Generated: 2025-10-04T10:56:32.877466
+Data Type: 4D_synchrotron_xray
+Experiment: SOFC_creep_deformation
+
+SAMPLE SPECIFICATIONS:
+Dimensions: 3.0 x 2.0 x 0.5 mm
+Volume: 3.00 mm³
+Shape: rectangular
+
+MATERIAL PROPERTIES:
+Alloy Composition: {'Fe': 76.8, 'Cr': 22.0, 'Mn': 0.5, 'Ti': 0.08, 'C': 0.03}
+Mean Grain Size: 15.0 μm
+Initial Porosity: 0.002
+Elastic Modulus: 200.0 GPa
+
+OPERATIONAL CONDITIONS:
+Temperature: 700.0°C
+Mechanical Stress: 50.0 MPa
+Time Points: 4 measurements
+Duration: 250.0 hours
+
+IMAGING PARAMETERS:
+Voxel Size: 1.0 μm
+Image Dimensions: (48, 48, 24)
+Total Voxels: 55,296
+
+DAMAGE EVOLUTION SUMMARY:
+Initial Porosity: 0.0001
+Final Porosity: 0.9996
+Porosity Increase: 0.9995
+Initial Damage: 0.3991
+Final Damage: 0.9996
+Damage Progression: 0.6005
+
+FILES GENERATED:
+- metadata.json: Experimental metadata and parameters
+- tomography_4d.h5: 4D tomography data (3D + time)
+- xrd_data.h5: X-ray diffraction patterns and strain/stress maps
+- analysis_metrics.json: Quantitative analysis results
+- dataset_summary.txt: This summary report
