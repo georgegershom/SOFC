@@ -1,0 +1,447 @@
+{
+  "metadata": {
+    "description": "SOFC Materials Plasticity Model Parameters Database",
+    "version": "1.0",
+    "date_created": "2025-10-03",
+    "models": ["Johnson-Cook", "Ramberg-Osgood", "Power-Law Hardening", "Chaboche"],
+    "units": {
+      "stress": "MPa",
+      "strain": "dimensionless",
+      "strain_rate": "1/s",
+      "temperature": "K"
+    }
+  },
+  "plasticity_models": {
+    "Johnson_Cook": {
+      "description": "Temperature and strain-rate dependent plasticity",
+      "equation": "σ = (A + B*ε_p^n) * (1 + C*ln(ε_dot/ε_dot_0)) * (1 - T_h^m)",
+      "parameters": {
+        "A": "Initial yield stress (MPa)",
+        "B": "Hardening modulus (MPa)",
+        "n": "Hardening exponent",
+        "C": "Strain rate sensitivity",
+        "m": "Thermal softening exponent",
+        "T_h": "Homologous temperature = (T-T_room)/(T_melt-T_room)"
+      }
+    },
+    "Ramberg_Osgood": {
+      "description": "Power-law stress-strain relationship",
+      "equation": "ε = σ/E + K*(σ/σ_y)^n",
+      "parameters": {
+        "K": "Strength coefficient",
+        "n": "Hardening exponent",
+        "σ_y": "Yield stress"
+      }
+    },
+    "Chaboche": {
+      "description": "Kinematic/isotropic hardening for cyclic loading",
+      "equation": "Combined isotropic-kinematic hardening",
+      "parameters": {
+        "C": "Kinematic hardening modulus",
+        "γ": "Kinematic hardening rate",
+        "Q": "Isotropic hardening asymptotic value",
+        "b": "Isotropic hardening rate"
+      }
+    }
+  },
+  "materials": {
+    "Ni-YSZ_Anode": {
+      "Johnson_Cook_Parameters": {
+        "A": {
+          "value": 180,
+          "units": "MPa",
+          "temperature_dependent": {
+            "300": 220,
+            "573": 195,
+            "773": 180,
+            "973": 155,
+            "1173": 125,
+            "1273": 105
+          }
+        },
+        "B": {
+          "value": 450,
+          "units": "MPa",
+          "porosity_corrected": "B_eff = B * (1 - porosity)^1.5"
+        },
+        "n": {
+          "value": 0.42,
+          "range": [0.35, 0.50]
+        },
+        "C": {
+          "value": 0.015,
+          "range": [0.010, 0.020]
+        },
+        "m": {
+          "value": 1.25,
+          "range": [1.0, 1.5]
+        },
+        "reference_strain_rate": {
+          "value": 1.0e-3,
+          "units": "1/s"
+        },
+        "melting_temperature": {
+          "value": 1728,
+          "units": "K",
+          "note": "Ni melting point"
+        }
+      },
+      "Ramberg_Osgood_Parameters": {
+        "yield_stress": {
+          "value": 180,
+          "units": "MPa",
+          "temperature_dependent": {
+            "300": 220,
+            "773": 180,
+            "1073": 140,
+            "1273": 105
+          }
+        },
+        "K": {
+          "value": 0.15,
+          "range": [0.10, 0.20]
+        },
+        "n": {
+          "value": 5.2,
+          "range": [4.5, 6.0]
+        },
+        "ultimate_stress": {
+          "value": 320,
+          "units": "MPa",
+          "temperature_dependent": {
+            "300": 380,
+            "773": 320,
+            "1073": 250,
+            "1273": 180
+          }
+        }
+      },
+      "Power_Law_Hardening": {
+        "K": {
+          "value": 680,
+          "units": "MPa",
+          "description": "Strength coefficient"
+        },
+        "n": {
+          "value": 0.38,
+          "description": "Strain hardening exponent"
+        },
+        "equation": "σ = K * ε^n"
+      },
+      "Cyclic_Parameters": {
+        "Chaboche_Model": {
+          "C1": {
+            "value": 25000,
+            "units": "MPa"
+          },
+          "γ1": {
+            "value": 350
+          },
+          "C2": {
+            "value": 8000,
+            "units": "MPa"
+          },
+          "γ2": {
+            "value": 50
+          },
+          "Q": {
+            "value": 45,
+            "units": "MPa"
+          },
+          "b": {
+            "value": 8.5
+          }
+        },
+        "cyclic_strength_coefficient": {
+          "value": 720,
+          "units": "MPa"
+        },
+        "cyclic_strain_hardening_exponent": {
+          "value": 0.35
+        }
+      },
+      "damage_parameters": {
+        "ductile_damage": {
+          "fracture_strain": {
+            "value": 0.25,
+            "temperature_dependent": {
+              "300": 0.35,
+              "773": 0.28,
+              "1073": 0.25,
+              "1273": 0.20
+            }
+          },
+          "damage_exponent": 2.0,
+          "triaxiality_factor": 0.33
+        }
+      },
+      "porosity_effects": {
+        "yield_stress_reduction": "σ_y_porous = σ_y_dense * (1 - 1.5*p)",
+        "elastic_modulus_reduction": "E_porous = E_dense * (1 - 1.9*p + 0.9*p^2)",
+        "p": "porosity fraction (0.3-0.4 typical)"
+      }
+    },
+    "8YSZ_Electrolyte": {
+      "brittle_behavior": {
+        "description": "YSZ exhibits primarily brittle behavior",
+        "yield_stress": {
+          "value": null,
+          "note": "Brittle fracture before yielding"
+        },
+        "fracture_stress": {
+          "value": 250,
+          "units": "MPa",
+          "temperature_dependent": {
+            "300": 280,
+            "773": 260,
+            "1073": 250,
+            "1273": 235
+          }
+        }
+      },
+      "high_temperature_plasticity": {
+        "active_temperature": ">1273 K",
+        "yield_stress": {
+          "value": 200,
+          "units": "MPa",
+          "at_temperature": 1473
+        },
+        "hardening_modulus": {
+          "value": 500,
+          "units": "MPa"
+        },
+        "hardening_exponent": {
+          "value": 0.15
+        }
+      },
+      "microcracking_parameters": {
+        "critical_stress": {
+          "value": 180,
+          "units": "MPa"
+        },
+        "crack_density_evolution": {
+          "model": "exponential",
+          "rate_parameter": 0.001
+        }
+      }
+    },
+    "LSM_Cathode": {
+      "Johnson_Cook_Parameters": {
+        "A": {
+          "value": 120,
+          "units": "MPa",
+          "temperature_dependent": {
+            "300": 145,
+            "773": 125,
+            "1073": 105,
+            "1273": 85
+          }
+        },
+        "B": {
+          "value": 280,
+          "units": "MPa"
+        },
+        "n": {
+          "value": 0.35
+        },
+        "C": {
+          "value": 0.012
+        },
+        "m": {
+          "value": 1.15
+        }
+      },
+      "Ramberg_Osgood_Parameters": {
+        "yield_stress": {
+          "value": 120,
+          "units": "MPa"
+        },
+        "K": {
+          "value": 0.18
+        },
+        "n": {
+          "value": 4.8
+        }
+      },
+      "porosity_effects": {
+        "yield_stress_reduction": "σ_y_porous = σ_y_dense * (1 - 1.4*p)",
+        "typical_porosity": 0.35
+      }
+    },
+    "LSCF_Cathode": {
+      "Johnson_Cook_Parameters": {
+        "A": {
+          "value": 110,
+          "units": "MPa"
+        },
+        "B": {
+          "value": 250,
+          "units": "MPa"
+        },
+        "n": {
+          "value": 0.32
+        },
+        "C": {
+          "value": 0.010
+        },
+        "m": {
+          "value": 1.10
+        }
+      },
+      "phase_transformation_plasticity": {
+        "transformation_strain": 0.002,
+        "transformation_temperature": 873,
+        "stress_influence_factor": 2.5e-5
+      }
+    },
+    "Crofer22APU_Interconnect": {
+      "Johnson_Cook_Parameters": {
+        "A": {
+          "value": 340,
+          "units": "MPa",
+          "temperature_dependent": {
+            "300": 340,
+            "573": 310,
+            "773": 280,
+            "973": 230,
+            "1073": 190,
+            "1173": 150,
+            "1273": 120
+          }
+        },
+        "B": {
+          "value": 850,
+          "units": "MPa"
+        },
+        "n": {
+          "value": 0.55,
+          "range": [0.50, 0.60]
+        },
+        "C": {
+          "value": 0.025,
+          "range": [0.020, 0.030]
+        },
+        "m": {
+          "value": 1.35,
+          "range": [1.2, 1.5]
+        },
+        "reference_strain_rate": {
+          "value": 1.0e-3,
+          "units": "1/s"
+        },
+        "melting_temperature": {
+          "value": 1773,
+          "units": "K"
+        }
+      },
+      "Ramberg_Osgood_Parameters": {
+        "yield_stress_0.2": {
+          "value": 280,
+          "units": "MPa",
+          "temperature_dependent": {
+            "300": 340,
+            "573": 290,
+            "773": 240,
+            "973": 180,
+            "1073": 140,
+            "1273": 80
+          }
+        },
+        "K": {
+          "value": 0.12
+        },
+        "n": {
+          "value": 6.5
+        },
+        "ultimate_tensile_strength": {
+          "value": 520,
+          "units": "MPa",
+          "temperature_dependent": {
+            "300": 520,
+            "773": 380,
+            "1073": 200,
+            "1273": 120
+          }
+        }
+      },
+      "Chaboche_Parameters": {
+        "kinematic_hardening": {
+          "C1": 45000,
+          "γ1": 500,
+          "C2": 12000,
+          "γ2": 80,
+          "C3": 3000,
+          "γ3": 15
+        },
+        "isotropic_hardening": {
+          "Q_inf": 65,
+          "b": 12,
+          "Q_0": 0
+        }
+      },
+      "oxidation_effects": {
+        "oxide_scale_influence": {
+          "Cr2O3_layer": {
+            "yield_stress_reduction": 0.9,
+            "ductility_reduction": 0.7
+          }
+        },
+        "dual_atmosphere_effect": {
+          "stress_gradient": true,
+          "additional_stress": "10-30 MPa"
+        }
+      },
+      "fatigue_parameters": {
+        "Coffin_Manson": {
+          "fatigue_strength_coefficient": 900,
+          "fatigue_strength_exponent": -0.12,
+          "fatigue_ductility_coefficient": 0.35,
+          "fatigue_ductility_exponent": -0.6
+        },
+        "cycles_to_failure": {
+          "equation": "N_f = (Δε_p/2*ε_f')^(1/c)",
+          "ε_f_prime": 0.35,
+          "c": -0.6
+        }
+      }
+    },
+    "GDC_Barrier_Layer": {
+      "brittle_behavior": {
+        "description": "GDC exhibits brittle behavior at low temperatures",
+        "transition_temperature": 1173,
+        "fracture_stress": {
+          "value": 200,
+          "units": "MPa"
+        }
+      },
+      "high_temperature_plasticity": {
+        "yield_stress": {
+          "value": 150,
+          "units": "MPa",
+          "at_temperature": 1273
+        },
+        "hardening_parameters": {
+          "B": 350,
+          "n": 0.25
+        }
+      }
+    }
+  },
+  "validation_tests": {
+    "tensile_tests": {
+      "strain_rates": [1e-5, 1e-4, 1e-3, 1e-2],
+      "temperatures": [300, 573, 773, 973, 1073, 1173, 1273],
+      "atmosphere": ["air", "H2/H2O", "N2"]
+    },
+    "compression_tests": {
+      "note": "Preferred for ceramic materials",
+      "strain_rates": [1e-5, 1e-4, 1e-3],
+      "max_strain": 0.05
+    },
+    "cyclic_tests": {
+      "frequency": [0.1, 1.0, 10.0],
+      "R_ratio": [-1, 0, 0.5],
+      "waveform": ["sinusoidal", "triangular"]
+    }
+  }
+}

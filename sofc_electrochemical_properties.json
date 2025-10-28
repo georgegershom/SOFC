@@ -1,0 +1,603 @@
+{
+  "metadata": {
+    "description": "SOFC Materials Electrochemical Properties Database",
+    "version": "1.0",
+    "date_created": "2025-10-03",
+    "units": {
+      "conductivity": "S/cm",
+      "activation_energy": "eV or kJ/mol",
+      "exchange_current_density": "A/cm²",
+      "overpotential": "V",
+      "temperature": "K",
+      "partial_pressure": "atm"
+    }
+  },
+  "electrochemical_models": {
+    "Butler_Volmer": {
+      "equation": "i = i0 * [exp(αnFη/RT) - exp(-(1-α)nFη/RT)]",
+      "parameters": {
+        "i0": "Exchange current density",
+        "α": "Transfer coefficient (typically 0.5)",
+        "n": "Number of electrons",
+        "F": "Faraday constant (96485 C/mol)",
+        "η": "Overpotential"
+      }
+    },
+    "Arrhenius_Conductivity": {
+      "equation": "σ = (σ0/T) * exp(-Ea/kT)",
+      "parameters": {
+        "σ0": "Pre-exponential factor",
+        "Ea": "Activation energy",
+        "k": "Boltzmann constant"
+      }
+    }
+  },
+  "materials": {
+    "Ni-YSZ_Anode": {
+      "electronic_conductivity": {
+        "value": 3500,
+        "units": "S/cm",
+        "temperature_dependent": {
+          "773": 4200,
+          "873": 3900,
+          "973": 3600,
+          "1073": 3400,
+          "1173": 3200,
+          "1273": 3000
+        },
+        "porosity_correction": "σ_eff = σ_bulk * (1-p)^1.5",
+        "percolation_threshold": 0.30,
+        "Ni_volume_fraction": {
+          "optimal": 0.40,
+          "range": [0.35, 0.45]
+        }
+      },
+      "ionic_conductivity": {
+        "value": 0.05,
+        "units": "S/cm",
+        "at_temperature": 1073,
+        "from_YSZ_phase": true,
+        "temperature_dependent": {
+          "773": 0.008,
+          "873": 0.018,
+          "973": 0.035,
+          "1073": 0.050,
+          "1173": 0.068,
+          "1273": 0.085
+        }
+      },
+      "exchange_current_density": {
+        "H2_oxidation": {
+          "value": 0.53,
+          "units": "A/cm²",
+          "at_temperature": 1073,
+          "partial_pressure_H2": 0.97,
+          "partial_pressure_H2O": 0.03,
+          "temperature_dependent": {
+            "973": 0.28,
+            "1023": 0.40,
+            "1073": 0.53,
+            "1123": 0.68,
+            "1173": 0.85
+          }
+        },
+        "CO_oxidation": {
+          "value": 0.12,
+          "units": "A/cm²",
+          "at_temperature": 1073
+        }
+      },
+      "activation_energy": {
+        "H2_oxidation": {
+          "value": 100,
+          "units": "kJ/mol",
+          "range": [80, 120]
+        },
+        "electronic_conduction": {
+          "value": 15,
+          "units": "kJ/mol"
+        },
+        "ionic_conduction": {
+          "value": 80,
+          "units": "kJ/mol"
+        }
+      },
+      "charge_transfer_resistance": {
+        "value": 0.15,
+        "units": "Ω·cm²",
+        "at_temperature": 1073,
+        "temperature_dependent": {
+          "973": 0.28,
+          "1023": 0.20,
+          "1073": 0.15,
+          "1123": 0.11,
+          "1173": 0.08
+        }
+      },
+      "triple_phase_boundary": {
+        "length_density": {
+          "value": 1.2e12,
+          "units": "m/m³",
+          "microstructure_dependent": true
+        },
+        "active_thickness": {
+          "value": 10,
+          "units": "μm",
+          "range": [5, 20]
+        }
+      },
+      "degradation_parameters": {
+        "Ni_coarsening": {
+          "rate": 0.001,
+          "units": "μm/1000h",
+          "activation_energy": 200,
+          "units_Ea": "kJ/mol"
+        },
+        "carbon_deposition": {
+          "critical_O_C_ratio": 1.0,
+          "deposition_rate": "function of temperature and gas composition"
+        },
+        "sulfur_poisoning": {
+          "critical_concentration": 0.1,
+          "units": "ppm",
+          "reversible": "partially at T>1073K"
+        }
+      }
+    },
+    "8YSZ_Electrolyte": {
+      "ionic_conductivity": {
+        "value": 0.10,
+        "units": "S/cm",
+        "at_temperature": 1273,
+        "temperature_dependent": {
+          "773": 0.008,
+          "873": 0.018,
+          "973": 0.036,
+          "1073": 0.056,
+          "1173": 0.078,
+          "1273": 0.100,
+          "1373": 0.125
+        },
+        "activation_energy": {
+          "value": 0.90,
+          "units": "eV",
+          "range": [0.85, 0.95]
+        },
+        "pre_exponential_factor": {
+          "value": 3.6e6,
+          "units": "S·K/cm"
+        }
+      },
+      "electronic_conductivity": {
+        "value": 1e-8,
+        "units": "S/cm",
+        "at_temperature": 1073,
+        "note": "Negligible electronic conductivity",
+        "p_type": {
+          "high_pO2": 1e-6,
+          "activation_energy": 2.0,
+          "units": "eV"
+        },
+        "n_type": {
+          "low_pO2": 1e-7,
+          "activation_energy": 3.5,
+          "units": "eV"
+        }
+      },
+      "oxygen_ion_transference_number": {
+        "value": 0.99,
+        "range": [0.98, 1.00],
+        "pO2_dependent": {
+          "1e-20": 0.98,
+          "1e-10": 0.99,
+          "0.21": 0.995,
+          "1.0": 0.995
+        }
+      },
+      "grain_boundary_properties": {
+        "conductivity": {
+          "value": 0.02,
+          "units": "S/cm",
+          "at_temperature": 1073,
+          "relative_to_bulk": 0.1
+        },
+        "activation_energy": {
+          "value": 1.15,
+          "units": "eV"
+        },
+        "blocking_factor": {
+          "value": 100,
+          "temperature_dependent": true
+        }
+      },
+      "mechanical_electrochemical_coupling": {
+        "stress_effect_on_conductivity": {
+          "tensile": {
+            "factor": 0.95,
+            "at_stress": 100,
+            "units": "MPa"
+          },
+          "compressive": {
+            "factor": 1.02,
+            "at_stress": -100,
+            "units": "MPa"
+          }
+        }
+      }
+    },
+    "LSM_Cathode": {
+      "electronic_conductivity": {
+        "value": 130,
+        "units": "S/cm",
+        "at_temperature": 1073,
+        "temperature_dependent": {
+          "773": 95,
+          "873": 110,
+          "973": 120,
+          "1073": 130,
+          "1173": 135,
+          "1273": 140
+        },
+        "p_type_semiconductor": true,
+        "activation_energy": {
+          "value": 0.09,
+          "units": "eV",
+          "range": [0.08, 0.11]
+        }
+      },
+      "ionic_conductivity": {
+        "value": 1e-7,
+        "units": "S/cm",
+        "at_temperature": 1073,
+        "note": "Negligible ionic conductivity"
+      },
+      "exchange_current_density": {
+        "O2_reduction": {
+          "value": 0.15,
+          "units": "A/cm²",
+          "at_temperature": 1073,
+          "partial_pressure_O2": 0.21,
+          "temperature_dependent": {
+            "973": 0.08,
+            "1023": 0.11,
+            "1073": 0.15,
+            "1123": 0.20,
+            "1173": 0.26
+          }
+        }
+      },
+      "activation_energy": {
+        "O2_reduction": {
+          "value": 150,
+          "units": "kJ/mol",
+          "range": [140, 160]
+        },
+        "electronic_conduction": {
+          "value": 9,
+          "units": "kJ/mol"
+        }
+      },
+      "charge_transfer_resistance": {
+        "value": 0.35,
+        "units": "Ω·cm²",
+        "at_temperature": 1073,
+        "temperature_dependent": {
+          "973": 0.65,
+          "1023": 0.48,
+          "1073": 0.35,
+          "1123": 0.25,
+          "1173": 0.18
+        }
+      },
+      "surface_exchange_coefficient": {
+        "value": 2.5e-5,
+        "units": "cm/s",
+        "at_temperature": 1073,
+        "activation_energy": {
+          "value": 1.5,
+          "units": "eV"
+        }
+      },
+      "Sr_segregation": {
+        "surface_enrichment_factor": 2.5,
+        "degradation_rate": 0.002,
+        "units": "mΩ·cm²/h"
+      },
+      "Cr_poisoning": {
+        "threshold": 2,
+        "units": "ppm",
+        "degradation_mechanism": "SrCrO4 formation",
+        "mitigation": "protective coating"
+      }
+    },
+    "LSCF_Cathode": {
+      "electronic_conductivity": {
+        "value": 320,
+        "units": "S/cm",
+        "at_temperature": 1073,
+        "temperature_dependent": {
+          "673": 280,
+          "773": 295,
+          "873": 308,
+          "973": 315,
+          "1073": 320,
+          "1173": 322
+        },
+        "activation_energy": {
+          "value": 0.05,
+          "units": "eV"
+        }
+      },
+      "ionic_conductivity": {
+        "value": 0.22,
+        "units": "S/cm",
+        "at_temperature": 1073,
+        "temperature_dependent": {
+          "673": 0.01,
+          "773": 0.04,
+          "873": 0.10,
+          "973": 0.16,
+          "1073": 0.22,
+          "1173": 0.28
+        },
+        "activation_energy": {
+          "value": 0.75,
+          "units": "eV"
+        }
+      },
+      "exchange_current_density": {
+        "O2_reduction": {
+          "value": 0.48,
+          "units": "A/cm²",
+          "at_temperature": 1073,
+          "temperature_dependent": {
+            "873": 0.18,
+            "973": 0.32,
+            "1073": 0.48,
+            "1173": 0.68
+          }
+        }
+      },
+      "activation_energy": {
+        "O2_reduction": {
+          "value": 120,
+          "units": "kJ/mol",
+          "range": [110, 130]
+        }
+      },
+      "charge_transfer_resistance": {
+        "value": 0.10,
+        "units": "Ω·cm²",
+        "at_temperature": 1073,
+        "temperature_dependent": {
+          "873": 0.35,
+          "973": 0.18,
+          "1073": 0.10,
+          "1173": 0.06
+        }
+      },
+      "surface_exchange_coefficient": {
+        "value": 5.2e-4,
+        "units": "cm/s",
+        "at_temperature": 1073,
+        "activation_energy": {
+          "value": 1.2,
+          "units": "eV"
+        }
+      },
+      "oxygen_diffusion_coefficient": {
+        "value": 8.5e-6,
+        "units": "cm²/s",
+        "at_temperature": 1073,
+        "activation_energy": {
+          "value": 0.85,
+          "units": "eV"
+        }
+      },
+      "oxygen_nonstoichiometry": {
+        "δ": {
+          "value": 0.15,
+          "at_temperature": 1073,
+          "pO2_dependent": {
+            "1e-4": 0.25,
+            "0.01": 0.18,
+            "0.21": 0.15,
+            "1.0": 0.12
+          }
+        }
+      }
+    },
+    "Crofer22APU_Interconnect": {
+      "electronic_conductivity": {
+        "metallic": {
+          "value": 12500,
+          "units": "S/cm",
+          "at_temperature": 1073,
+          "temperature_dependent": {
+            "300": 14500,
+            "573": 13800,
+            "773": 13200,
+            "973": 12700,
+            "1073": 12500,
+            "1173": 12200
+          }
+        },
+        "oxide_scale": {
+          "Cr2O3": {
+            "value": 0.01,
+            "units": "S/cm",
+            "at_temperature": 1073,
+            "activation_energy": 0.75,
+            "units_Ea": "eV"
+          },
+          "MnCr2O4_spinel": {
+            "value": 0.08,
+            "units": "S/cm",
+            "at_temperature": 1073
+          }
+        }
+      },
+      "area_specific_resistance": {
+        "initial": {
+          "value": 10,
+          "units": "mΩ·cm²",
+          "at_temperature": 1073
+        },
+        "after_1000h": {
+          "value": 15,
+          "units": "mΩ·cm²"
+        },
+        "after_5000h": {
+          "value": 22,
+          "units": "mΩ·cm²"
+        },
+        "after_10000h": {
+          "value": 30,
+          "units": "mΩ·cm²"
+        },
+        "parabolic_growth_rate": {
+          "value": 3.2e-14,
+          "units": "cm²/s",
+          "at_temperature": 1073
+        }
+      },
+      "contact_resistance": {
+        "with_cathode": {
+          "value": 8,
+          "units": "mΩ·cm²",
+          "coating_effect": {
+            "LSM_coating": 0.5,
+            "MCO_coating": 0.3
+          }
+        },
+        "with_anode": {
+          "value": 5,
+          "units": "mΩ·cm²"
+        }
+      },
+      "Cr_evaporation": {
+        "rate": {
+          "value": 1e-10,
+          "units": "g/cm²·s",
+          "at_temperature": 1073
+        },
+        "vapor_species": ["CrO3", "CrO2(OH)2"],
+        "mitigation": "protective coatings"
+      }
+    },
+    "GDC_Barrier_Layer": {
+      "ionic_conductivity": {
+        "value": 0.095,
+        "units": "S/cm",
+        "at_temperature": 1073,
+        "temperature_dependent": {
+          "773": 0.015,
+          "873": 0.035,
+          "973": 0.065,
+          "1073": 0.095,
+          "1173": 0.125,
+          "1273": 0.155
+        },
+        "activation_energy": {
+          "value": 0.65,
+          "units": "eV",
+          "range": [0.60, 0.70]
+        }
+      },
+      "electronic_conductivity": {
+        "value": 0.001,
+        "units": "S/cm",
+        "at_temperature": 1073,
+        "reducing_conditions": {
+          "value": 0.01,
+          "at_pO2": 1e-20
+        }
+      },
+      "oxygen_ion_transference_number": {
+        "value": 0.99,
+        "pO2_dependent": {
+          "1e-20": 0.90,
+          "1e-10": 0.98,
+          "0.21": 0.99
+        }
+      },
+      "interdiffusion_prevention": {
+        "Sr_blocking_efficiency": 0.95,
+        "Zr_blocking_efficiency": 0.98,
+        "optimal_thickness": {
+          "value": 2,
+          "units": "μm",
+          "range": [1, 5]
+        }
+      }
+    }
+  },
+  "stack_level_parameters": {
+    "total_ASR": {
+      "target": {
+        "value": 0.5,
+        "units": "Ω·cm²",
+        "at_temperature": 1073
+      },
+      "breakdown": {
+        "anode": 0.15,
+        "electrolyte": 0.10,
+        "cathode": 0.20,
+        "interconnect": 0.03,
+        "contact": 0.02,
+        "units": "Ω·cm²"
+      }
+    },
+    "fuel_utilization": {
+      "H2": {
+        "typical": 0.85,
+        "range": [0.70, 0.90]
+      },
+      "CO": {
+        "typical": 0.75,
+        "range": [0.60, 0.85]
+      }
+    },
+    "air_utilization": {
+      "typical": 0.25,
+      "range": [0.15, 0.40]
+    },
+    "voltage_losses": {
+      "activation": {
+        "anode": 0.05,
+        "cathode": 0.10,
+        "units": "V"
+      },
+      "ohmic": {
+        "total": 0.15,
+        "units": "V"
+      },
+      "concentration": {
+        "anode": 0.03,
+        "cathode": 0.05,
+        "units": "V"
+      }
+    }
+  },
+  "degradation_rates": {
+    "voltage": {
+      "initial": {
+        "value": 2,
+        "units": "%/1000h"
+      },
+      "steady_state": {
+        "value": 0.5,
+        "units": "%/1000h"
+      }
+    },
+    "ASR_increase": {
+      "value": 2,
+      "units": "mΩ·cm²/1000h"
+    },
+    "target_lifetime": {
+      "stationary": 40000,
+      "mobile": 5000,
+      "units": "hours"
+    }
+  }
+}
