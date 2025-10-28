@@ -1,0 +1,13 @@
+{
+  "num_samples": 12000,
+  "seed": 42,
+  "outputs": {
+    "train": "/workspace/datasets/sintering_ml/data/train.csv",
+    "val": "/workspace/datasets/sintering_ml/data/val.csv",
+    "test": "/workspace/datasets/sintering_ml/data/test.csv"
+  },
+  "validation": {
+    "dic": "/workspace/datasets/sintering_ml/data/validation/dic_synthetic.csv",
+    "xrd": "/workspace/datasets/sintering_ml/data/validation/xrd_synthetic.csv"
+  }
+}
