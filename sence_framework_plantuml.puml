@@ -1,0 +1,569 @@
+@startuml SENCE_Framework_Overview
+!theme plain
+skinparam backgroundColor #FFFFFF
+skinparam componentStyle rectangle
+skinparam packageStyle rectangle
+
+title SENCE Framework: Socio-Economic Natural Compound Ecosystem\nNiger Delta Petroleum Cities Vulnerability Assessment
+
+package "Data Collection Layer" {
+    component [Household Surveys] as HS
+    component [Geospatial Data] as GD
+    component [Environmental Indices] as EI
+    component [Socio-economic Indicators] as SEI
+    component [Governance Metrics] as GM
+}
+
+package "Data Processing Layer" {
+    component [Data Cleaning] as DC
+    component [Normalization] as NORM
+    component [Principal Component Analysis] as PCA
+    component [Factor Analysis] as FA
+    component [Weight Calculation] as WC
+}
+
+package "SENCE Framework Core" {
+    package "Social Domain" {
+        component [Human Capital] as HC
+        component [Community Cohesion] as CC
+        component [Access to Services] as AS
+        component [Safety & Security] as SS
+        component [Governance Trust] as GT
+    }
+    
+    package "Economic Domain" {
+        component [Livelihood Diversity] as LD
+        component [Income Stability] as IS
+        component [Infrastructure Access] as IA
+        component [Employment Opportunities] as EO
+        component [Economic Resilience] as ER
+    }
+    
+    package "Environmental Domain" {
+        component [Oil Spill Impact] as OSI
+        component [Gas Flaring Effects] as GFE
+        component [Vegetation Health] as VH
+        component [Water Quality] as WQ
+        component [Land Degradation] as LDG
+        component [Mangrove Loss] as ML
+    }
+    
+    package "Compound Interactions" {
+        component [Cross-Domain Feedback] as CDF
+        component [Multiplicative Effects] as ME
+        component [System Dynamics] as SD
+        component [Vulnerability Cascades] as VC
+    }
+}
+
+package "Assessment Cities" {
+    component [Port Harcourt\nCVI: 0.52] as PH
+    component [Warri\nCVI: 0.61] as WA
+    component [Bonny\nCVI: 0.59] as BO
+}
+
+package "Analysis & Output" {
+    component [Composite Vulnerability Index] as CVI
+    component [Radar Chart Visualization] as RCV
+    component [Statistical Analysis] as SA
+    component [Model Validation] as MV
+    component [Policy Recommendations] as PR
+}
+
+' Data flow connections
+HS --> DC
+GD --> DC
+EI --> DC
+SEI --> DC
+GM --> DC
+
+DC --> NORM
+NORM --> PCA
+PCA --> FA
+FA --> WC
+
+' SENCE domain connections
+HS --> HC
+HS --> CC
+HS --> AS
+HS --> SS
+HS --> GT
+
+SEI --> LD
+SEI --> IS
+SEI --> IA
+SEI --> EO
+SEI --> ER
+
+EI --> OSI
+EI --> GFE
+EI --> VH
+EI --> WQ
+EI --> LDG
+EI --> ML
+
+' Cross-domain interactions
+HC -.-> LD
+CC -.-> IS
+AS -.-> IA
+SS -.-> EO
+GT -.-> ER
+
+OSI -.-> HC
+GFE -.-> CC
+VH -.-> AS
+WQ -.-> SS
+LDG -.-> GT
+ML -.-> LD
+
+' Compound interactions
+HC --> CDF
+LD --> CDF
+OSI --> CDF
+CDF --> ME
+ME --> SD
+SD --> VC
+
+' City assessments
+WC --> CVI
+CVI --> PH
+CVI --> WA
+CVI --> BO
+
+' Output generation
+CVI --> RCV
+CVI --> SA
+CVI --> MV
+SA --> PR
+MV --> PR
+
+' Feedback loops
+PR -.-> HS
+PR -.-> GD
+PR -.-> EI
+
+note right of CVI
+  **Composite Vulnerability Index**
+  - Normalized domain contributions
+  - Multiplicative interactions
+  - System-level assessment
+end note
+
+note right of RCV
+  **Radar Chart Visualization**
+  - Domain-specific contributions
+  - City comparison profiles
+  - Vulnerability signatures
+end note
+
+note bottom of PH
+  **Port Harcourt Profile**
+  - Balanced vulnerabilities
+  - Urban context effects
+  - Moderate environmental impact
+end note
+
+note bottom of WA
+  **Warri Profile**
+  - Highest overall CVI
+  - Industrial pollution focus
+  - Economic deprivation
+end note
+
+note bottom of BO
+  **Bonny Profile**
+  - Extreme environmental degradation
+  - LNG terminal effects
+  - Point-source pollution
+end note
+
+@enduml
+
+@startuml SENCE_Vulnerability_Assessment_Workflow
+!theme plain
+skinparam backgroundColor #FFFFFF
+skinparam activityStyle rectangle
+
+title SENCE Framework Vulnerability Assessment Workflow\nNiger Delta Petroleum Cities Analysis
+
+start
+
+:Data Collection Phase;
+note right: Multi-source data integration
+
+partition "Data Sources" {
+    :Household Surveys;
+    :Geospatial Data Collection;
+    :Environmental Monitoring;
+    :Socio-economic Indicators;
+    :Governance Metrics;
+}
+
+:Data Preprocessing;
+note right: Quality control and validation
+
+partition "Data Processing" {
+    :Data Cleaning & Validation;
+    :Missing Data Imputation;
+    :Outlier Detection;
+    :Data Standardization;
+}
+
+:Indicator Normalization;
+note right: 0-1 scale transformation
+
+partition "Statistical Analysis" {
+    :Principal Component Analysis;
+    :Factor Loadings Analysis;
+    :Correlation Analysis;
+    :Variance Decomposition;
+}
+
+:Domain Weight Calculation;
+note right: SENCE framework weights
+
+partition "SENCE Domains" {
+    :Social Domain Weighting;
+    :Economic Domain Weighting;
+    :Environmental Domain Weighting;
+    :Governance Domain Weighting;
+    :Infrastructure Domain Weighting;
+}
+
+:Composite Vulnerability Index;
+note right: Multi-domain aggregation
+
+partition "City Assessment" {
+    :Port Harcourt CVI Calculation;
+    :Warri CVI Calculation;
+    :Bonny CVI Calculation;
+}
+
+:Radar Chart Generation;
+note right: Visualization creation
+
+partition "Visualization" {
+    :Domain Contribution Mapping;
+    :City Profile Comparison;
+    :Statistical Overlays;
+    :Confidence Intervals;
+}
+
+:Statistical Validation;
+note right: Model performance assessment
+
+partition "Validation" {
+    :R² Score Calculation;
+    :RMSE Analysis;
+    :MAE Assessment;
+    :MAPE Evaluation;
+}
+
+:Model Performance Analysis;
+note right: Cross-validation results
+
+if (Model Performance Acceptable?) then (yes)
+    :Generate Insights;
+    note right: Vulnerability patterns
+    
+    partition "Insight Generation" {
+        :Vulnerability Signature Analysis;
+        :Domain Dominance Assessment;
+        :Cross-city Comparison;
+        :Risk Profile Classification;
+    }
+    
+    :Policy Recommendations;
+    note right: Evidence-based interventions
+    
+    partition "Policy Development" {
+        :Targeted Interventions;
+        :Resource Allocation;
+        :Priority Setting;
+        :Implementation Strategy;
+    }
+    
+    :Monitoring Framework;
+    note right: Continuous assessment
+    
+    partition "Monitoring" {
+        :Performance Indicators;
+        :Progress Tracking;
+        :Adaptive Management;
+        :Feedback Integration;
+    }
+    
+    stop
+else (no)
+    :Model Refinement;
+    note right: Parameter adjustment
+    
+    partition "Model Improvement" {
+        :Weight Recalibration;
+        :Indicator Selection;
+        :Methodology Enhancement;
+        :Data Quality Improvement;
+    }
+    
+    :Re-run Assessment;
+    note right: Iterative improvement
+endif
+
+@enduml
+
+@startuml SENCE_Statistical_Model_Architecture
+!theme plain
+skinparam backgroundColor #FFFFFF
+skinparam componentStyle rectangle
+
+title SENCE Framework Statistical Model Architecture\nAdvanced Vulnerability Assessment System
+
+package "Input Data Layer" {
+    component [Raw Indicators] as RI
+    component [Spatial Data] as SD
+    component [Temporal Data] as TD
+    component [Survey Data] as SURV
+    component [Environmental Data] as ENV
+}
+
+package "Data Transformation Layer" {
+    component [Normalization Engine] as NE
+    component [Standardization Module] as SM
+    component [Missing Data Handler] as MDH
+    component [Outlier Detection] as OD
+    component [Quality Control] as QC
+}
+
+package "Statistical Analysis Engine" {
+    component [PCA Module] as PCA
+    component [Factor Analysis] as FA
+    component [Correlation Analysis] as CA
+    component [Regression Analysis] as RA
+    component [Clustering Analysis] as CLA
+}
+
+package "SENCE Framework Core" {
+    component [Domain Calculator] as DC
+    component [Weight Optimizer] as WO
+    component [Interaction Modeler] as IM
+    component [Compound Effects] as CE
+    component [Feedback Loops] as FL
+}
+
+package "Vulnerability Assessment" {
+    component [CVI Calculator] as CVIC
+    component [Risk Profiler] as RP
+    component [Sensitivity Analyzer] as SA
+    component [Uncertainty Quantifier] as UQ
+    component [Validation Engine] as VE
+}
+
+package "Visualization Engine" {
+    component [Radar Chart Generator] as RCG
+    component [Statistical Plots] as SP
+    component [Interactive Dashboard] as ID
+    component [Report Generator] as RG
+}
+
+package "Model Validation" {
+    component [Cross-Validation] as CV
+    component [Bootstrap Analysis] as BA
+    component [Monte Carlo Simulation] as MCS
+    component [Performance Metrics] as PM
+}
+
+' Data flow
+RI --> NE
+SD --> NE
+TD --> NE
+SURV --> NE
+ENV --> NE
+
+NE --> SM
+SM --> MDH
+MDH --> OD
+OD --> QC
+
+QC --> PCA
+PCA --> FA
+FA --> CA
+CA --> RA
+RA --> CLA
+
+CLA --> DC
+DC --> WO
+WO --> IM
+IM --> CE
+CE --> FL
+
+FL --> CVIC
+CVIC --> RP
+RP --> SA
+SA --> UQ
+UQ --> VE
+
+VE --> RCG
+VE --> SP
+SP --> ID
+ID --> RG
+
+' Validation connections
+CVIC --> CV
+RP --> BA
+SA --> MCS
+UQ --> PM
+
+CV -.-> WO
+BA -.-> IM
+MCS -.-> CE
+PM -.-> DC
+
+' Feedback loops
+RG -.-> RI
+PM -.-> NE
+CV -.-> PCA
+
+note right of CVIC
+  **Composite Vulnerability Index**
+  - Multi-domain aggregation
+  - Weighted combination
+  - Normalized output (0-1)
+end note
+
+note right of RCG
+  **Radar Chart Visualization**
+  - Domain contributions
+  - City comparisons
+  - Statistical overlays
+end note
+
+note bottom of VE
+  **Validation Engine**
+  - Model performance
+  - Statistical significance
+  - Robustness testing
+end note
+
+@enduml
+
+@startuml SENCE_City_Comparison_Model
+!theme plain
+skinparam backgroundColor #FFFFFF
+skinparam componentStyle rectangle
+
+title SENCE Framework City Comparison Model\nNiger Delta Petroleum Cities Analysis
+
+package "Port Harcourt Assessment" {
+    component [Environmental Impact\n0.45] as PH_ENV
+    component [Economic Disparities\n0.52] as PH_ECO
+    component [Social Marginalization\n0.48] as PH_SOC
+    component [Governance Issues\n0.41] as PH_GOV
+    component [Infrastructure Access\n0.38] as PH_INF
+    component [Overall CVI: 0.52] as PH_CVI
+}
+
+package "Warri Assessment" {
+    component [Environmental Impact\n0.68] as WA_ENV
+    component [Economic Deprivation\n0.71] as WA_ECO
+    component [Social Conflicts\n0.65] as WA_SOC
+    component [Governance Challenges\n0.58] as WA_GOV
+    component [Infrastructure Deficits\n0.62] as WA_INF
+    component [Overall CVI: 0.61] as WA_CVI
+}
+
+package "Bonny Assessment" {
+    component [Environmental Impact\n0.89] as BO_ENV
+    component [Economic Mono-dependence\n0.76] as BO_ECO
+    component [Social Issues\n0.54] as BO_SOC
+    component [Governance Moderate\n0.47] as BO_GOV
+    component [Infrastructure Challenges\n0.51] as BO_INF
+    component [Overall CVI: 0.59] as BO_CVI
+}
+
+package "Cross-City Analysis" {
+    component [Comparative Analysis] as CA
+    component [Vulnerability Typology] as VT
+    component [Risk Ranking] as RR
+    component [Intervention Priorities] as IP
+}
+
+' Port Harcourt connections
+PH_ENV --> PH_CVI
+PH_ECO --> PH_CVI
+PH_SOC --> PH_CVI
+PH_GOV --> PH_CVI
+PH_INF --> PH_CVI
+
+' Warri connections
+WA_ENV --> WA_CVI
+WA_ECO --> WA_CVI
+WA_SOC --> WA_CVI
+WA_GOV --> WA_CVI
+WA_INF --> WA_CVI
+
+' Bonny connections
+BO_ENV --> BO_CVI
+BO_SOC --> BO_CVI
+BO_GOV --> BO_CVI
+BO_INF --> BO_CVI
+
+' Cross-city analysis
+PH_CVI --> CA
+WA_CVI --> CA
+BO_CVI --> CA
+
+CA --> VT
+VT --> RR
+RR --> IP
+
+' Cross-domain interactions within cities
+PH_ENV -.-> PH_ECO
+PH_ECO -.-> PH_SOC
+PH_SOC -.-> PH_GOV
+PH_GOV -.-> PH_INF
+
+WA_ENV -.-> WA_ECO
+WA_ECO -.-> WA_SOC
+WA_SOC -.-> WA_GOV
+WA_GOV -.-> WA_INF
+
+BO_ENV -.-> BO_ECO
+BO_ECO -.-> BO_SOC
+BO_SOC -.-> BO_GOV
+BO_GOV -.-> BO_INF
+
+' Cross-city domain comparisons
+PH_ENV -.-> WA_ENV
+WA_ENV -.-> BO_ENV
+PH_ECO -.-> WA_ECO
+WA_ECO -.-> BO_ECO
+
+note right of PH_CVI
+  **Port Harcourt Profile**
+  - Most balanced vulnerabilities
+  - Urban context advantages
+  - Moderate overall risk
+end note
+
+note right of WA_CVI
+  **Warri Profile**
+  - Highest overall vulnerability
+  - Industrial pollution focus
+  - Economic deprivation
+end note
+
+note right of BO_CVI
+  **Bonny Profile**
+  - Extreme environmental risk
+  - LNG terminal effects
+  - Point-source pollution
+end note
+
+note bottom of VT
+  **Vulnerability Typology**
+  - Balanced Urban (Port Harcourt)
+  - Industrial Compound (Warri)
+  - Environmental Hotspot (Bonny)
+end note
+
+@enduml
