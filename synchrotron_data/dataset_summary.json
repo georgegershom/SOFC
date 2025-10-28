@@ -1,0 +1,33 @@
+{
+  "generation_date": "2025-10-04T10:57:32.069665",
+  "output_directory": "synchrotron_data",
+  "files_generated": {
+    "tomography": {
+      "4D_data": "tomography/tomography_4D.h5",
+      "grain_map": "tomography/grain_map.h5",
+      "metrics": "tomography/tomography_metrics.json"
+    },
+    "diffraction": {
+      "xrd_patterns": "diffraction/xrd_patterns.json",
+      "strain_stress_maps": "diffraction/strain_stress_maps.h5",
+      "phase_map": "diffraction/phase_map.h5"
+    },
+    "metadata": {
+      "experimental_parameters": "metadata/experimental_parameters.json",
+      "material_specifications": "metadata/material_specifications.json",
+      "sample_geometry": "metadata/sample_geometry.json"
+    }
+  },
+  "data_statistics": {
+    "total_time_steps": 6,
+    "test_duration_hours": 100.0,
+    "total_3D_volumes": 6,
+    "voxel_dimensions": [
+      128,
+      128,
+      128
+    ],
+    "spatial_resolution_um": 0.65,
+    "total_data_size_GB": 0.063963136
+  }
+}

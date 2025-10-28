@@ -1,0 +1,17 @@
+{
+  "sample_id": "SOFC-IC-001",
+  "geometry": "cylindrical",
+  "dimensions_mm": {
+    "diameter": 3.0,
+    "height": 5.0,
+    "gauge_length": 3.0
+  },
+  "surface_finish": "polished (1 \u03bcm diamond)",
+  "mass_mg": 350.5,
+  "preparation_method": "Wire electrical discharge machining (EDM)",
+  "pre_test_inspection": {
+    "visual": "No visible defects",
+    "dimensional_tolerance_um": 10,
+    "surface_roughness_Ra_um": 0.2
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "analysis_timestamp": "2025-10-04T10:58:00",
+  "experimental_conditions": {
+    "temperature_C": 700.0,
+    "temperature_stability_C": 2.0,
+    "applied_stress_MPa": 50.0,
+    "stress_type": "uniaxial tension",
+    "atmosphere": "Air",
+    "test_duration_hours": 100.0,
+    "scan_interval_hours": 10.0
+  },
+  "primary_creep": {
+    "model": "Primary Creep: \u03b5 = \u03b5\u2080 + A*t^n",
+    "parameters": {
+      "eps0": 1.4781951904296875e-05,
+      "A": 0.1920595009920403,
+      "n": 7.642020520508295e-09
+    },
+    "standard_errors": {
+      "eps0_err": Infinity,
+      "A_err": Infinity,
+      "n_err": Infinity
+    },
+    "fit_quality": {
+      "r_squared": 1.0
+    }
+  },
+  "secondary_creep": {
+    "model": "Secondary Creep: \u03b5 = \u03b5\u2080 + \u03b5\u0307_s*t",
+    "parameters": {
+      "eps0": 0.19207429885864266,
+      "strain_rate_per_s": -1.9814066271779134e-22,
+      "strain_rate_per_hour": -7.133063857840488e-19
+    },
+    "fit_quality": {
+      "r_squared": -Infinity
+    }
+  },
+  "cavity_nucleation": {
+    "total_cavities_final": 3028,
+    "total_cavities_initial": 31,
+    "net_cavities_nucleated": 2997,
+    "average_nucleation_rate_per_hour": 29.97,
+    "peak_nucleation_rate_per_hour": 149.85,
+    "time_of_peak_nucleation_hours": 10.0
+  },
+  "crack_propagation": {
+    "initial_crack_volume_mm3": 0.0,
+    "final_crack_volume_mm3": 0.00011062114700000005,
+    "total_crack_growth_mm3": 0.00011062114700000005,
+    "average_growth_rate_mm3_per_hour": 1.1062197087500005e-06,
+    "exponential_fit": {
+      "V0": 0.00011062081749015758,
+      "growth_constant_k": -1.210065746205606e-11,
+      "doubling_time_hours": "N/A"
+    }
+  },
+  "strain_distribution": {
+    "time_evolution": [
+      {
+        "time_hours": 0.0,
+        "strain": {
+          "mean": 0.003347791964188218,
+          "std": 0.0016763275489211082,
+          "min": 0.0005282677593640983,
+          "max": 0.0073668984696269035,
+          "percentile_95": 0.0063567087054252625
+        },
+        "stress_MPa": {
+          "mean": 736.5142211914062,
+          "std": 368.79205322265625,
+          "min": 116.21891021728516,
+          "max": 1620.7176513671875,
+          "percentile_95": 1398.475830078125
+        }
+      },
+      {
+        "time_hours": 10.0,
+        "strain": {
+          "mean": 0.006333942990750074,
+          "std": 0.0031708115711808205,
+          "min": 0.0006710200104862452,
+          "max": 0.01529598981142044,
+          "percentile_95": 0.012520602904260159
+        },
+        "stress_MPa": {
+          "mean": 1393.467529296875,
+          "std": 697.5785522460938,
+          "min": 147.62440490722656,
+          "max": 3365.11767578125,
+          "percentile_95": 2754.532470703125
+        }
+      },
+      {
+        "time_hours": 20.0,
+        "strain": {
+          "mean": 0.008522283285856247,
+          "std": 0.004883976187556982,
+          "min": 0.0006520344759337604,
+          "max": 0.020739199593663216,
+          "percentile_95": 0.01620527356863022
+        },
+        "stress_MPa": {
+          "mean": 1874.902099609375,
+          "std": 1074.4747314453125,
+          "min": 143.4475860595703,
+          "max": 4562.6240234375,
+          "percentile_95": 3565.16015625
+        }
+      },
+      {
+        "time_hours": 30.0,
+        "strain": {
+          "mean": 0.011879299767315388,
+          "std": 0.005787346046417952,
+          "min": 0.0012513933470472693,
+          "max": 0.02504190243780613,
+          "percentile_95": 0.02251189760863781
+        },
+        "stress_MPa": {
+          "mean": 2613.44580078125,
+          "std": 1273.2161865234375,
+          "min": 275.3065490722656,
+          "max": 5509.21875,
+          "percentile_95": 4952.61767578125
+        }
+      },
+      {
+        "time_hours": 40.0,
+        "strain": {
+          "mean": 0.018343409523367882,
+          "std": 0.008906236849725246,
+          "min": 0.0018884619930759072,
+          "max": 0.038175519555807114,
+          "percentile_95": 0.03445843234658241
+        },
+        "stress_MPa": {
+          "mean": 4035.550048828125,
+          "std": 1959.3719482421875,
+          "min": 415.4616394042969,
+          "max": 8398.6142578125,
+          "percentile_95": 7580.8544921875
+        }
+      },
+      {
+        "time_hours": 50.0,
+        "strain": {
+          "mean": 0.02275019884109497,
+          "std": 0.008462363854050636,
+          "min": 0.004097281489521265,
+          "max": 0.040818169713020325,
+          "percentile_95": 0.03763340786099434
+        },
+        "stress_MPa": {
+          "mean": 5005.0439453125,
+          "std": 1861.7200927734375,
+          "min": 901.4019165039062,
+          "max": 8979.9970703125,
+          "percentile_95": 8279.349609375
+        }
+      }
+    ]
+  }
+}
