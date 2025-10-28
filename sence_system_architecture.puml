@@ -1,0 +1,450 @@
+@startuml SENCE_Framework_System_Architecture
+!theme cerulean-outline
+title SENCE Framework: System Architecture for Vulnerability Analysis\nFigure 9 Implementation Architecture
+
+!define ENVIRONMENTAL_COLOR #90EE90
+!define ECONOMIC_COLOR #FFB6C1
+!define SOCIAL_COLOR #87CEEB
+!define INSTITUTIONAL_COLOR #FFD700
+!define PROCESSING_COLOR #DDA0DD
+!define OUTPUT_COLOR #FFA07A
+
+skinparam packageStyle rectangle
+skinparam backgroundColor #FAFAFA
+skinparam shadowing true
+skinparam roundcorner 10
+skinparam arrowThickness 2
+skinparam activityFontSize 11
+skinparam activityFontName Arial
+
+' ==============================================================================
+' DATA ACQUISITION LAYER
+' ==============================================================================
+
+package "Data Acquisition Layer" #LightBlue {
+    
+    component "Household Survey Module" as HSM {
+        [Survey Instrument] as SI
+        [Response Collection] as RC
+        [Quality Control] as QC
+        database "Survey DB\nn=1,247" as SDB
+        
+        SI --> RC
+        RC --> QC
+        QC --> SDB
+    }
+    
+    component "Geospatial Data Module" as GDM {
+        [Landsat 8/9 OLI] as LS
+        [Sentinel-2 MSI] as S2
+        [VIIRS Night Lights] as VNL
+        database "Raster Repository\n30m resolution" as RR
+        
+        LS --> RR
+        S2 --> RR
+        VNL --> RR
+    }
+    
+    component "Environmental Monitoring" as EMM {
+        [Oil Spill Detection] as OSD
+        [Gas Flaring Quantification] as GFQ
+        [Vegetation Indices] as VI
+        [Water Quality Sensors] as WQS
+        database "Environmental DB" as EDB
+        
+        OSD --> EDB
+        GFQ --> EDB
+        VI --> EDB
+        WQS --> EDB
+    }
+    
+    component "Socio-Economic Data" as SED {
+        [Census Data] as CD
+        [Employment Statistics] as ES
+        [Infrastructure Mapping] as IM
+        database "Socio-Economic DB" as SEDB
+        
+        CD --> SEDB
+        ES --> SEDB
+        IM --> SEDB
+    }
+}
+
+' ==============================================================================
+' DATA PROCESSING & ANALYTICS LAYER
+' ==============================================================================
+
+package "Data Processing & Analytics Layer" #PROCESSING_COLOR {
+    
+    component "ETL Pipeline" as ETL {
+        [Data Validation] as DV
+        [Data Cleaning] as DC
+        [Data Transformation] as DT
+        [Normalization Engine] as NE
+        
+        DV --> DC
+        DC --> DT
+        DT --> NE
+    }
+    
+    component "Statistical Analysis Engine" as SAE {
+        [Principal Component Analysis] as PCA
+        [Reliability Testing\nCronbach's α=0.87] as RT
+        [Factor Analysis\nKMO=0.84] as FA
+        [Correlation Matrix] as CM
+        
+        PCA --> RT
+        RT --> FA
+        FA --> CM
+    }
+    
+    component "Spatial Analytics" as SA {
+        [GIS Processing] as GISP
+        [Spatial Interpolation\nKriging/IDW] as SPINT
+        [Hot Spot Analysis\nGetis-Ord Gi*] as HSA
+        [Buffer Analysis] as BA
+        
+        GISP --> SPINT
+        SPINT --> HSA
+        HSA --> BA
+    }
+    
+    database "Processed Data Warehouse" as PDW {
+    }
+}
+
+' ==============================================================================
+' SENCE DOMAIN MODELING LAYER
+' ==============================================================================
+
+package "SENCE Domain Modeling Layer" {
+    
+    component "Environmental Domain Engine" #ENVIRONMENTAL_COLOR {
+        [Oil Spill Impact Index\nOSI = Σ(A×S×D)] as OSII
+        [Gas Flaring Exposure\nGFE = Σ(R/d²)] as GFE
+        [Vegetation Health\nNDVI = (NIR-Red)/(NIR+Red)] as NDVII
+        [Mangrove Degradation\nΔArea/Δt] as MD
+        [Climate Sensitivity\nLST Anomalies] as CS
+        [Water Quality Index\nNDWI] as WQI
+        
+        queue "Environmental Score\nμ=0.73, σ=0.15" as ENV_SCORE
+        
+        OSII --> ENV_SCORE
+        GFE --> ENV_SCORE
+        NDVII --> ENV_SCORE
+        MD --> ENV_SCORE
+        CS --> ENV_SCORE
+        WQI --> ENV_SCORE
+    }
+    
+    component "Economic Domain Engine" #ECONOMIC_COLOR {
+        [Unemployment Rate\nLabor Force %] as UR
+        [Mono-dependence Index\nHHI = Σ(s²)] as MDI
+        [Poverty Incidence\nHeadcount Ratio] as PI
+        [Infrastructure Access\nComposite Index] as IA
+        [Livelihood Diversity\nShannon Index] as LD
+        [Income Inequality\nGini Coefficient] as II
+        
+        queue "Economic Score\nμ=0.75, σ=0.11" as ECON_SCORE
+        
+        UR --> ECON_SCORE
+        MDI --> ECON_SCORE
+        PI --> ECON_SCORE
+        IA --> ECON_SCORE
+        LD --> ECON_SCORE
+        II --> ECON_SCORE
+    }
+    
+    component "Social Domain Engine" #SOCIAL_COLOR {
+        [Healthcare Access\nDistance & Quality] as HA
+        [Education Index\nYears of Schooling] as EI
+        [Crime & Safety\nPerception Scores] as CS_SOC
+        [Housing Quality\nStructural Index] as HQ
+        [Community Cohesion\nSocial Capital Index] as CC
+        [Human Development\nComposite] as HD
+        
+        queue "Social Score\nμ=0.68, σ=0.13" as SOC_SCORE
+        
+        HA --> SOC_SCORE
+        EI --> SOC_SCORE
+        CS_SOC --> SOC_SCORE
+        HQ --> SOC_SCORE
+        CC --> SOC_SCORE
+        HD --> SOC_SCORE
+    }
+    
+    component "Institutional Domain Engine" #INSTITUTIONAL_COLOR {
+        [Governance Trust\nSurvey-based] as GT
+        [Policy Compliance\nEnforcement Index] as PC
+        [Civic Participation\nEngagement Rate] as CP
+        [Institutional Capacity\nService Delivery] as IC
+        
+        queue "Institutional Score\nμ=0.57, σ=0.09" as INST_SCORE
+        
+        GT --> INST_SCORE
+        PC --> INST_SCORE
+        CP --> INST_SCORE
+        IC --> INST_SCORE
+    }
+}
+
+' ==============================================================================
+' CVI COMPUTATION ENGINE
+' ==============================================================================
+
+package "CVI Computation Engine" #LightYellow {
+    
+    component "Domain Weighting Module" {
+        [PCA Variance Weighting\nλ eigenvalues] as PVW
+        [Expert Elicitation\nAHP weights] as EE
+        [Sensitivity Analysis\nMonte Carlo] as SA_CVI
+        
+        PVW --> EE
+        EE --> SA_CVI
+    }
+    
+    component "Aggregation Engine" {
+        [Multiplicative CVI\nCVI = Π(D_i^α_i)] as MCVI
+        [Additive Components\nSubindex calculation] as AC
+        [Normalization\nMin-Max 0-1] as NORM
+        
+        MCVI --> AC
+        AC --> NORM
+    }
+    
+    component "City-Level Aggregation" {
+        [Spatial Averaging\nWeighted by population] as SPAVG
+        [Confidence Intervals\nBootstrap 95% CI] as CI
+        [Temporal Tracking\nChange detection] as TT
+        
+        SPAVG --> CI
+        CI --> TT
+    }
+    
+    database "CVI Repository" as CVI_REPO {
+        [Port Harcourt: 0.52 ± 0.08]
+        [Warri: 0.61 ± 0.09]
+        [Bonny: 0.59 ± 0.10]
+    }
+    
+    "Domain Weighting Module" --> "Aggregation Engine"
+    "Aggregation Engine" --> "City-Level Aggregation"
+    "City-Level Aggregation" --> CVI_REPO
+}
+
+' ==============================================================================
+' VISUALIZATION & REPORTING LAYER - FIGURE 9
+' ==============================================================================
+
+package "Visualization & Reporting Layer\n(Figure 9 Implementation)" #OUTPUT_COLOR {
+    
+    component "Radar Chart Generator" {
+        [Axis Configuration\n8 SENCE domains] as AXCONF
+        [Data Normalization\n0-1 scaling] as DNORM
+        [Polygon Rendering\nMatplotlib/Plotly] as PRENDER
+        [Color Mapping\nCity-specific] as CMAP
+        [Annotation Engine\nLabels & legends] as AENG
+        
+        AXCONF --> DNORM
+        DNORM --> PRENDER
+        PRENDER --> CMAP
+        CMAP --> AENG
+    }
+    
+    component "Statistical Overlay" {
+        [Error Bars\n95% CI] as EB
+        [Significance Testing\nANOVA p<0.05] as ST
+        [Domain Comparison\nPost-hoc tests] as DCOMP
+        
+        EB --> ST
+        ST --> DCOMP
+    }
+    
+    component "Interactive Dashboard" {
+        [Web Interface\nDash/Streamlit] as WI
+        [Dynamic Filtering\nCity/Domain selection] as DF
+        [Export Module\nPNG/PDF/SVG] as EXPORT
+        [Data Tables\nTabular views] as DTAB
+        
+        WI --> DF
+        DF --> EXPORT
+        DF --> DTAB
+    }
+    
+    artifact "Figure 9 Outputs" as FIG9 {
+        [Radar Chart PNG/PDF]
+        [3D Temporal Visualization]
+        [Statistical Report]
+        [CSV Data Export]
+    }
+    
+    "Radar Chart Generator" --> FIG9
+    "Statistical Overlay" --> FIG9
+    "Interactive Dashboard" --> FIG9
+}
+
+' ==============================================================================
+' FEEDBACK & POLICY LAYER
+' ==============================================================================
+
+package "Feedback & Policy Integration Layer" #LightCoral {
+    
+    component "Feedback Loop Analyzer" {
+        [Environmental-Economic\nCross-correlation] as EE_FL
+        [Social-Institutional\nInteraction effects] as SI_FL
+        [Compound Amplification\nNon-linear modeling] as CA_FL
+        
+        EE_FL --> CA_FL
+        SI_FL --> CA_FL
+    }
+    
+    component "Policy Recommendation Engine" {
+        [Domain-Specific Strategies\nPriority ranking] as DSS
+        [Systemic Interventions\nHolistic approaches] as SYST_INT
+        [Resource Allocation\nOptimization] as RA
+        [Impact Simulation\nScenario modeling] as IS
+        
+        DSS --> SYST_INT
+        SYST_INT --> RA
+        RA --> IS
+    }
+    
+    component "Monitoring Framework" {
+        [Key Performance Indicators\nKPI tracking] as KPI
+        [Alert System\nThreshold monitoring] as ALERT
+        [Progress Reporting\nQuarterly updates] as PROG
+        
+        KPI --> ALERT
+        ALERT --> PROG
+    }
+}
+
+' ==============================================================================
+' DATA FLOW CONNECTIONS
+' ==============================================================================
+
+' From Data Acquisition to Processing
+SDB --> ETL
+RR --> ETL
+EDB --> ETL
+SEDB --> ETL
+
+' From ETL to Analytics
+ETL --> SAE
+ETL --> SA
+
+' From Analytics to Data Warehouse
+SAE --> PDW
+SA --> PDW
+
+' From Data Warehouse to Domain Engines
+PDW --> "Environmental Domain Engine"
+PDW --> "Economic Domain Engine"
+PDW --> "Social Domain Engine"
+PDW --> "Institutional Domain Engine"
+
+' From Domain Engines to CVI Computation
+ENV_SCORE --> "Domain Weighting Module"
+ECON_SCORE --> "Domain Weighting Module"
+SOC_SCORE --> "Domain Weighting Module"
+INST_SCORE --> "Domain Weighting Module"
+
+' From CVI Repository to Visualization
+CVI_REPO --> "Radar Chart Generator"
+CVI_REPO --> "Statistical Overlay"
+CVI_REPO --> "Interactive Dashboard"
+
+' From Visualization to Feedback/Policy
+FIG9 --> "Feedback Loop Analyzer"
+FIG9 --> "Policy Recommendation Engine"
+
+' From Policy back to Monitoring
+"Policy Recommendation Engine" --> "Monitoring Framework"
+
+' Feedback loops (dashed lines)
+"Feedback Loop Analyzer" .[#red,dashed,thickness=2].> "Environmental Domain Engine" : <font color=red><b>Amplification\nFeedback</b></font>
+"Feedback Loop Analyzer" .[#red,dashed,thickness=2].> "Economic Domain Engine" : <font color=red><b>Cascade\nEffects</b></font>
+"Monitoring Framework" .[#blue,dashed,thickness=2].> PDW : <font color=blue><b>Temporal\nUpdates</b></font>
+
+' ==============================================================================
+' NOTES AND ANNOTATIONS
+' ==============================================================================
+
+note right of ENV_SCORE
+  <b>Environmental Domain</b>
+  --
+  Key Indicators:
+  • Oil Spill Impact (OSI)
+  • Gas Flaring (nW/cm²/sr)
+  • NDVI (Vegetation)
+  • Mangrove Degradation (%)
+  • LST Anomalies
+  --
+  PCA Variance: 71.2%
+end note
+
+note right of ECON_SCORE
+  <b>Economic Domain</b>
+  --
+  Key Indicators:
+  • Unemployment Rate (%)
+  • HHI Mono-dependence
+  • Poverty Incidence (%)
+  • Infrastructure Access
+  • Livelihood Diversity
+  --
+  PCA Variance: 68.4%
+end note
+
+note right of SOC_SCORE
+  <b>Social Domain</b>
+  --
+  Key Indicators:
+  • Healthcare Access
+  • Education Index
+  • Crime & Safety
+  • Housing Quality
+  • Community Cohesion
+  --
+  PCA Variance: 64.7%
+end note
+
+note right of CVI_REPO
+  <b>City Vulnerability Profiles</b>
+  ==
+  <b>Port Harcourt:</b> 0.52 ± 0.08
+  • "Urban Disparity" typology
+  • Balanced socio-economic focus
+  --
+  <b>Warri:</b> 0.61 ± 0.09
+  • "Compound Vortex" typology
+  • Multi-domain amplification
+  --
+  <b>Bonny:</b> 0.59 ± 0.10
+  • "Environmental Hotspot" typology
+  • Extreme environmental dominance
+end note
+
+note bottom of FIG9
+  <b>Figure 9 Specifications</b>
+  ==
+  • 8-axis radar chart
+  • Normalized scale: 0-1
+  • Three city overlays
+  • Statistical validation layers
+  • Publication quality: 300 DPI
+  • Formats: PNG, PDF, SVG
+  • Interactive web version available
+end note
+
+legend right
+  |<#ENVIRONMENTAL_COLOR> Environmental |
+  |<#ECONOMIC_COLOR> Economic |
+  |<#SOCIAL_COLOR> Social |
+  |<#INSTITUTIONAL_COLOR> Institutional |
+  |<#PROCESSING_COLOR> Processing |
+  |<#OUTPUT_COLOR> Visualization |
+  |<#LightCoral> Policy/Feedback |
+endlegend
+
+@enduml

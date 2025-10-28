@@ -1,0 +1,157 @@
+%% SENCE Framework: Socio-Economic Natural Compound Ecosystem
+%% Conceptual Architecture for Vulnerability Analysis in Petroleum Cities
+%% Figure 9 Conceptual Foundation
+
+graph TB
+    subgraph "SENCE Framework Architecture"
+        
+        subgraph "Data Collection Layer"
+            A1[Household Surveys<br/>n=1,247 respondents]
+            A2[Geospatial Data<br/>Landsat 8/9 OLI]
+            A3[Environmental Indices<br/>OSI, NDVI, NDWI]
+            A4[Socio-Economic Indicators<br/>Census & Field Data]
+            A5[Institutional Data<br/>Governance Metrics]
+        end
+        
+        subgraph "Data Processing & Analysis"
+            B1[Principal Component Analysis<br/>PCA Dimensionality Reduction]
+            B2[Normalization Engine<br/>Min-Max Scaling 0-1]
+            B3[Statistical Validation<br/>Cronbach's α, KMO]
+            B4[Spatial Analysis<br/>GIS Integration]
+        end
+        
+        subgraph "SENCE Domain Integration"
+            
+            subgraph "Environmental Domain"
+                C1[Oil Spill Impact OSI<br/>μ=18.6, σ=6.2]
+                C2[Gas Flaring Radiance<br/>μ=70.4 nW/cm²/sr]
+                C3[Vegetation Health NDVI<br/>μ=0.38, σ=0.05]
+                C4[Mangrove Degradation<br/>μ=32.4% loss]
+                C5[Climate Sensitivity<br/>LST Anomalies]
+            end
+            
+            subgraph "Economic Domain"
+                D1[Unemployment Rate<br/>μ=33.9%, σ=2.8%]
+                D2[HHI Mono-dependence<br/>μ=0.75, σ=0.07]
+                D3[Poverty Incidence<br/>μ=42.7%, σ=5.1%]
+                D4[Infrastructure Deficit<br/>Access Indices]
+                D5[Livelihood Diversity<br/>Alternative Income]
+            end
+            
+            subgraph "Social Domain"
+                E1[Healthcare Access<br/>Distance & Quality]
+                E2[Education Attainment<br/>Years of Schooling]
+                E3[Crime & Safety<br/>Perception Scores]
+                E4[Housing Quality<br/>Structural Index]
+                E5[Community Cohesion<br/>Social Capital]
+            end
+            
+            subgraph "Institutional Domain"
+                F1[Governance Trust<br/>Institutional Capacity]
+                F2[Policy Compliance<br/>Regulatory Enforcement]
+                F3[Community Participation<br/>Civic Engagement]
+            end
+        end
+        
+        subgraph "Composite Vulnerability Index CVI Calculation"
+            G1[Domain Weighting<br/>Based on PCA Variance]
+            G2[Multiplicative Aggregation<br/>CVI = Π domains^α]
+            G3[Normalization & Scaling<br/>City-Level Aggregation]
+        end
+        
+        subgraph "Vulnerability Typology Classification"
+            H1[Port Harcourt<br/>CVI=0.52<br/>'Urban Disparity']
+            H2[Warri<br/>CVI=0.61<br/>'Compound Vortex']
+            H3[Bonny<br/>CVI=0.59<br/>'Environmental Hotspot']
+        end
+        
+        subgraph "Visualization Layer - Figure 9"
+            I1[Radar Chart Generator<br/>8-Axis Multi-dimensional]
+            I2[Domain Contribution<br/>Normalized 0-1 Scale]
+            I3[City Profile Overlay<br/>Comparative Analysis]
+            I4[Statistical Validation<br/>Error Bars & CI]
+        end
+        
+        subgraph "Feedback Mechanisms"
+            J1[Environmental-Economic<br/>Feedback Loop]
+            J2[Social-Institutional<br/>Interaction Effects]
+            J3[Compound Amplification<br/>Non-linear Dynamics]
+        end
+        
+        subgraph "Policy Implications"
+            K1[Targeted Interventions<br/>Domain-Specific Strategies]
+            K2[Systemic Resilience<br/>Cross-Domain Integration]
+            K3[Monitoring Framework<br/>Temporal Tracking]
+        end
+        
+    end
+    
+    %% Data Flow Connections
+    A1 --> B1
+    A2 --> B1
+    A3 --> B1
+    A4 --> B1
+    A5 --> B1
+    
+    B1 --> B2
+    B2 --> B3
+    B3 --> B4
+    
+    B4 --> C1 & C2 & C3 & C4 & C5
+    B4 --> D1 & D2 & D3 & D4 & D5
+    B4 --> E1 & E2 & E3 & E4 & E5
+    B4 --> F1 & F2 & F3
+    
+    C1 & C2 & C3 & C4 & C5 --> G1
+    D1 & D2 & D3 & D4 & D5 --> G1
+    E1 & E2 & E3 & E4 & E5 --> G1
+    F1 & F2 & F3 --> G1
+    
+    G1 --> G2
+    G2 --> G3
+    
+    G3 --> H1 & H2 & H3
+    
+    H1 & H2 & H3 --> I1
+    I1 --> I2
+    I2 --> I3
+    I3 --> I4
+    
+    %% Feedback Loops
+    C1 -.->|Amplifies| D1
+    D1 -.->|Exacerbates| E1
+    E1 -.->|Undermines| F1
+    F1 -.->|Weakens| C1
+    
+    G2 --> J1 & J2 & J3
+    J1 & J2 & J3 --> K1 & K2 & K3
+    
+    %% Output to Figure 9
+    I4 ==>|Generates| K1
+    I4 ==>|Informs| K2
+    I4 ==>|Enables| K3
+    
+    %% Styling
+    classDef dataLayer fill:#a8dadc,stroke:#457b9d,stroke-width:2px,color:#000
+    classDef processLayer fill:#f1faee,stroke:#e63946,stroke-width:2px,color:#000
+    classDef domainLayer fill:#ffd6a5,stroke:#fb8500,stroke-width:2px,color:#000
+    classDef cviLayer fill:#caffbf,stroke:#06d6a0,stroke-width:3px,color:#000
+    classDef outputLayer fill:#bdb2ff,stroke:#7209b7,stroke-width:3px,color:#000
+    classDef feedbackLayer fill:#ffadad,stroke:#d00000,stroke-width:2px,stroke-dasharray: 5 5,color:#000
+    
+    class A1,A2,A3,A4,A5 dataLayer
+    class B1,B2,B3,B4 processLayer
+    class C1,C2,C3,C4,C5,D1,D2,D3,D4,D5,E1,E2,E3,E4,E5,F1,F2,F3 domainLayer
+    class G1,G2,G3 cviLayer
+    class H1,H2,H3,I1,I2,I3,I4 outputLayer
+    class J1,J2,J3,K1,K2,K3 feedbackLayer
+
+%% Legend
+subgraph "Legend"
+    L1[Data Source]:::dataLayer
+    L2[Processing]:::processLayer
+    L3[Domain Indicator]:::domainLayer
+    L4[CVI Calculation]:::cviLayer
+    L5[Visualization]:::outputLayer
+    L6[Feedback/Policy]:::feedbackLayer
+end
