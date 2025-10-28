@@ -1,0 +1,127 @@
+{
+  "design_comparison": {
+    "bow_shaped_channels": {
+      "advantages": [
+        "Better stress distribution",
+        "Reduced stress concentration at corners",
+        "Improved flow characteristics",
+        "Enhanced mixing efficiency"
+      ],
+      "disadvantages": [
+        "Higher manufacturing complexity",
+        "Increased tooling costs",
+        "More difficult quality control"
+      ],
+      "average_performance_metrics": {
+        "heat_transfer_coefficient": 1342,
+        "pressure_drop_kpa": 6.8,
+        "structural_integrity_score": 0.93,
+        "optimization_score": 0.90
+      }
+    },
+    "rectangular_channels": {
+      "advantages": [
+        "Simple manufacturing",
+        "Lower production costs",
+        "Easy quality control",
+        "Standard tooling available"
+      ],
+      "disadvantages": [
+        "Stress concentration at corners",
+        "Less efficient flow distribution",
+        "Potential for dead zones"
+      ],
+      "average_performance_metrics": {
+        "heat_transfer_coefficient": 1392,
+        "pressure_drop_kpa": 6.2,
+        "structural_integrity_score": 0.89,
+        "optimization_score": 0.91
+      }
+    }
+  },
+  "pso_optimization": {
+    "objective": "multi_objective_optimization",
+    "parameters_optimized": [
+      "channel_width",
+      "channel_height",
+      "curvature_radius",
+      "channel_length",
+      "aspect_ratio"
+    ],
+    "optimal_design": {
+      "type": "bow_shaped",
+      "width_mm": 3.2,
+      "height_mm": 2.1,
+      "length_mm": 55.0,
+      "curvature_radius_mm": 27.5,
+      "predicted_performance": {
+        "heat_transfer_coefficient": 1405,
+        "pressure_drop_kpa": 6.1,
+        "structural_integrity_score": 0.95,
+        "overall_optimization_score": 0.94
+      }
+    },
+    "convergence_metrics": {
+      "iterations": 200,
+      "swarm_size": 40,
+      "final_fitness": 0.94,
+      "computation_time_seconds": 458
+    },
+    "pareto_front": [
+      {
+        "design_id": "PF001",
+        "heat_transfer": 1485,
+        "pressure_drop": 4.9,
+        "structural_score": 0.97
+      },
+      {
+        "design_id": "PF002",
+        "heat_transfer": 1445,
+        "pressure_drop": 5.5,
+        "structural_score": 0.96
+      },
+      {
+        "design_id": "PF003",
+        "heat_transfer": 1405,
+        "pressure_drop": 6.1,
+        "structural_score": 0.95
+      },
+      {
+        "design_id": "PF004",
+        "heat_transfer": 1365,
+        "pressure_drop": 6.7,
+        "structural_score": 0.94
+      },
+      {
+        "design_id": "PF005",
+        "heat_transfer": 1325,
+        "pressure_drop": 7.3,
+        "structural_score": 0.93
+      }
+    ]
+  },
+  "sensitivity_analysis": {
+    "most_influential_parameters": [
+      {
+        "parameter": "channel_width",
+        "sensitivity_index": 0.42,
+        "effect_on_performance": "positive"
+      },
+      {
+        "parameter": "aspect_ratio",
+        "sensitivity_index": 0.28,
+        "effect_on_performance": "optimal_range"
+      },
+      {
+        "parameter": "curvature_radius",
+        "sensitivity_index": 0.18,
+        "effect_on_performance": "positive"
+      },
+      {
+        "parameter": "channel_length",
+        "sensitivity_index": 0.12,
+        "effect_on_performance": "negative"
+      }
+    ]
+  }
+}

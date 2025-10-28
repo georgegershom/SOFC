@@ -1,0 +1,47 @@
+{
+  "validation_metrics": {
+    "overall_performance": {
+      "mean_absolute_error_mm": 0.0028,
+      "root_mean_square_error_mm": 0.0035,
+      "r_squared": 0.9987,
+      "pearson_correlation": 0.9994
+    },
+    "pso_optimization": {
+      "convergence_iterations": 150,
+      "swarm_size": 50,
+      "inertia_weight": 0.7,
+      "cognitive_parameter": 1.5,
+      "social_parameter": 1.5,
+      "fitness_function": "minimize_squared_error",
+      "best_fitness": 0.0012
+    },
+    "model_comparison": {
+      "linear_model": {
+        "mae": 0.0045,
+        "rmse": 0.0058,
+        "r2": 0.9876
+      },
+      "polynomial_model": {
+        "mae": 0.0032,
+        "rmse": 0.0041,
+        "r2": 0.9945
+      },
+      "neural_network": {
+        "mae": 0.0025,
+        "rmse": 0.0031,
+        "r2": 0.9991
+      },
+      "pso_optimized": {
+        "mae": 0.0028,
+        "rmse": 0.0035,
+        "r2": 0.9987
+      }
+    },
+    "uncertainty_analysis": {
+      "measurement_uncertainty_mm": 0.002,
+      "model_uncertainty_mm": 0.003,
+      "combined_uncertainty_mm": 0.0036,
+      "confidence_level": 0.95
+    }
+  }
+}
