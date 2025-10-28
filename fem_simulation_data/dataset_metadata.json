@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "generated_at": "20251003_065855",
+    "software": "FEM Simulation Data Generator (COMSOL/ABAQUS equivalent)",
+    "version": "1.0",
+    "physics": [
+      "thermal",
+      "mechanical",
+      "electrochemical"
+    ],
+    "analysis_type": "transient",
+    "n_time_steps": 20,
+    "total_duration": 3590
+  },
+  "input_parameters": {
+    "mesh": {
+      "n_nodes": 13500,
+      "n_elements": 11774,
+      "dimensions": {
+        "nx": 30,
+        "ny": 30,
+        "nz": 15
+      },
+      "domain_size": [
+        10.0,
+        10.0,
+        5.0
+      ],
+      "refinement_factor": 2.5
+    },
+    "boundary_conditions": {
+      "temperature": {
+        "n_fixed_nodes": 900,
+        "n_top_surface_nodes": 900
+      },
+      "displacement": {
+        "n_fixed_nodes": 910
+      },
+      "voltage": {
+        "cathode_voltage": 4.2,
+        "anode_voltage": 0.0
+      }
+    },
+    "materials": {
+      "cathode_material": {
+        "name": "NMC (LiNi0.8Mn0.1Co0.1O2)",
+        "elastic": {
+          "youngs_modulus": 150000000000.0,
+          "poissons_ratio": 0.3,
+          "density": 4700
+        },
+        "plastic": {
+          "yield_stress": 150000000.0,
+          "hardening_modulus": 2000000000.0,
+          "hardening_exponent": 0.2
+        },
+        "thermal": {
+          "thermal_expansion": 1.2e-05,
+          "thermal_conductivity": 2.0,
+          "specific_heat": 700
+        },
+        "electrochemical": {
+          "diffusion_coefficient": 1e-14,
+          "ionic_conductivity": 0.1,
+          "max_concentration": 51765
+        }
+      },
+      "anode_material": {
+        "name": "Graphite",
+        "elastic": {
+          "youngs_modulus": 15000000000.0,
+          "poissons_ratio": 0.3,
+          "density": 2260
+        },
+        "plastic": {
+          "yield_stress": 50000000.0,
+          "hardening_modulus": 1000000000.0,
+          "hardening_exponent": 0.15
+        },
+        "thermal": {
+          "thermal_expansion": 8e-06,
+          "thermal_conductivity": 1.5,
+          "specific_heat": 1200
+        },
+        "electrochemical": {
+          "diffusion_coefficient": 3.9e-14,
+          "ionic_conductivity": 0.05,
+          "max_concentration": 30555
+        }
+      },
+      "separator": {
+        "name": "Polymer Separator",
+        "elastic": {
+          "youngs_modulus": 500000000.0,
+          "poissons_ratio": 0.4,
+          "density": 1200
+        },
+        "thermal": {
+          "thermal_expansion": 5e-05,
+          "thermal_conductivity": 0.3,
+          "specific_heat": 1200
+        },
+        "electrochemical": {
+          "ionic_conductivity": 1.0,
+          "porosity": 0.4
+        }
+      },
+      "creep_model": {
+        "power_law_creep": {
+          "coefficient_A": 1e-10,
+          "stress_exponent_n": 5.0,
+          "activation_energy_Q": 120000.0,
+          "gas_constant_R": 8.314
+        }
+      }
+    },
+    "thermal_profiles": {
+      "heat_1C_cool_1C": {
+        "heating_rate": 1,
+        "cooling_rate": 1,
+        "max_temp": 60.0
+      },
+      "heat_1C_cool_5C": {
+        "heating_rate": 1,
+        "cooling_rate": 5,
+        "max_temp": 60.0
+      },
+      "heat_1C_cool_10C": {
+        "heating_rate": 1,
+        "cooling_rate": 10,
+        "max_temp": 60.0
+      },
+      "heat_5C_cool_1C": {
+        "heating_rate": 5,
+        "cooling_rate": 1,
+        "max_temp": 60.0
+      },
+      "heat_5C_cool_5C": {
+        "heating_rate": 5,
+        "cooling_rate": 5,
+        "max_temp": 60.0
+      },
+      "heat_5C_cool_10C": {
+        "heating_rate": 5,
+        "cooling_rate": 10,
+        "max_temp": 60.0
+      },
+      "heat_10C_cool_1C": {
+        "heating_rate": 10,
+        "cooling_rate": 1,
+        "max_temp": 60.0
+      },
+      "heat_10C_cool_5C": {
+        "heating_rate": 10,
+        "cooling_rate": 5,
+        "max_temp": 60.0
+      },
+      "heat_10C_cool_10C": {
+        "heating_rate": 10,
+        "cooling_rate": 10,
+        "max_temp": 60.0
+      }
+    }
+  }
+}
