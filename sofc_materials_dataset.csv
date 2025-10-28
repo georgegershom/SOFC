@@ -1,0 +1,7 @@
+Material_ID,Name,Composition,TEC_1/K,Thermal_Conductivity_W/mK,Specific_Heat_J/kgK,Temp_Range_K,Youngs_Modulus_GPa,Poissons_Ratio,Density_kg/m3,UTS_MPa,Yield_Strength_MPa,Creep_B,Creep_n,Creep_Q_J/mol,JC_A_MPa,JC_B_MPa,JC_n,JC_C,JC_m,Porosity,Pore_Size_Mean_um,Tortuosity,Ionic_Conductivity_S/m,Electronic_Conductivity_S/m,Activation_Overpotential_V,Exchange_Current_Density_A/m2,Ea_ionic_J/mol,Ea_electronic_J/mol
+ni_ysz_anode,Ni-YSZ Anode,60% Ni + 40% 8YSZ,1.25e-05,6.2,450,673-1273,45.0,0.31,6800,180,120,2.5e-15,2.8,320000,120.0,85.0,0.42,0.025,0.8,0.35,1.2,3.2,0.02,15000.0,0.65,5500,95000,25000
+8ysz_electrolyte,8YSZ Electrolyte,ZrO₂ + 8 mol% Y₂O₃,1.08e-05,2.16,470,673-1273,200.0,0.31,6100,250,180,8.2e-18,1.0,520000,,,,,,0.05,0.1,1.8,0.13,1e-08,0.0,0,87000,0
+lsm_cathode,LSM Cathode,La₀.₈Sr₀.₂MnO₃,1.12e-05,3.4,420,673-1273,120.0,0.28,6500,95,65,1.8e-16,1.2,380000,,,,,,0.3,0.8,2.8,0.008,280.0,0.15,1200,150000,45000
+crofer22_interconnect,Crofer22 APU Interconnect,Fe-22Cr-0.5Mn-0.3Ti-0.07La,1.18e-05,25.0,460,673-1273,220.0,0.3,7800,550,380,5.2e-20,4.5,420000,380.0,275.0,0.36,0.018,0.9,0.02,0.05,1.2,1e-10,850000.0,0.0,0,0,15000
+lscf_cathode,LSCF Cathode,La₀.₆Sr₀.₄Co₀.₂Fe₀.₈O₃,1.58e-05,2.8,440,673-1273,95.0,0.26,6800,75,50,3.2e-15,1.8,350000,,,,,,0.32,0.6,2.5,0.15,450.0,0.08,8500,95000,35000
+cgd_electrolyte,CGO Electrolyte,Ce₀.₈Gd₀.₂O₁.₉,1.28e-05,2.8,380,673-1073,180.0,0.32,7200,220,160,1.5e-17,1.1,480000,,,,,,0.04,0.08,1.6,0.08,5e-06,0.0,0,65000,120000

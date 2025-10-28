@@ -1,0 +1,282 @@
+{
+  "ni_ysz_anode": {
+    "name": "Ni-YSZ Anode",
+    "composition": "60% Ni + 40% 8YSZ",
+    "thermal": {
+      "thermal_expansion_coefficient": 1.25e-05,
+      "thermal_conductivity": 6.2,
+      "specific_heat_capacity": 450,
+      "temperature_range": [
+        673,
+        1273
+      ]
+    },
+    "mechanical": {
+      "youngs_modulus": 45.0,
+      "poissons_ratio": 0.31,
+      "density": 6800,
+      "ultimate_tensile_strength": 180,
+      "yield_strength": 120
+    },
+    "creep": {
+      "B": 2.5e-15,
+      "n": 2.8,
+      "Q": 320000,
+      "temperature_range": [
+        973,
+        1273
+      ]
+    },
+    "plasticity": {
+      "A": 120,
+      "B": 85,
+      "n": 0.42,
+      "C": 0.025,
+      "m": 0.8,
+      "T_melt": 1728,
+      "T_room": 298
+    },
+    "porosity": {
+      "porosity": 0.35,
+      "pore_size_mean": 1.2,
+      "pore_size_std": 0.8,
+      "tortuosity": 3.2
+    },
+    "electrochemical": {
+      "ionic_conductivity": 0.02,
+      "electronic_conductivity": 15000,
+      "activation_overpotential": 0.65,
+      "exchange_current_density": 5500,
+      "activation_energy_ionic": 95000,
+      "activation_energy_electronic": 25000
+    }
+  },
+  "8ysz_electrolyte": {
+    "name": "8YSZ Electrolyte",
+    "composition": "ZrO\u2082 + 8 mol% Y\u2082O\u2083",
+    "thermal": {
+      "thermal_expansion_coefficient": 1.08e-05,
+      "thermal_conductivity": 2.16,
+      "specific_heat_capacity": 470,
+      "temperature_range": [
+        673,
+        1273
+      ]
+    },
+    "mechanical": {
+      "youngs_modulus": 200.0,
+      "poissons_ratio": 0.31,
+      "density": 6100,
+      "ultimate_tensile_strength": 250,
+      "yield_strength": 180
+    },
+    "creep": {
+      "B": 8.2e-18,
+      "n": 1.0,
+      "Q": 520000,
+      "temperature_range": [
+        1073,
+        1273
+      ]
+    },
+    "plasticity": null,
+    "porosity": {
+      "porosity": 0.05,
+      "pore_size_mean": 0.1,
+      "pore_size_std": 0.05,
+      "tortuosity": 1.8
+    },
+    "electrochemical": {
+      "ionic_conductivity": 0.13,
+      "electronic_conductivity": 1e-08,
+      "activation_overpotential": 0.0,
+      "exchange_current_density": 0,
+      "activation_energy_ionic": 87000,
+      "activation_energy_electronic": 0
+    }
+  },
+  "lsm_cathode": {
+    "name": "LSM Cathode",
+    "composition": "La\u2080.\u2088Sr\u2080.\u2082MnO\u2083",
+    "thermal": {
+      "thermal_expansion_coefficient": 1.12e-05,
+      "thermal_conductivity": 3.4,
+      "specific_heat_capacity": 420,
+      "temperature_range": [
+        673,
+        1273
+      ]
+    },
+    "mechanical": {
+      "youngs_modulus": 120.0,
+      "poissons_ratio": 0.28,
+      "density": 6500,
+      "ultimate_tensile_strength": 95,
+      "yield_strength": 65
+    },
+    "creep": {
+      "B": 1.8e-16,
+      "n": 1.2,
+      "Q": 380000,
+      "temperature_range": [
+        973,
+        1273
+      ]
+    },
+    "plasticity": null,
+    "porosity": {
+      "porosity": 0.3,
+      "pore_size_mean": 0.8,
+      "pore_size_std": 0.5,
+      "tortuosity": 2.8
+    },
+    "electrochemical": {
+      "ionic_conductivity": 0.008,
+      "electronic_conductivity": 280,
+      "activation_overpotential": 0.15,
+      "exchange_current_density": 1200,
+      "activation_energy_ionic": 150000,
+      "activation_energy_electronic": 45000
+    }
+  },
+  "crofer22_interconnect": {
+    "name": "Crofer22 APU Interconnect",
+    "composition": "Fe-22Cr-0.5Mn-0.3Ti-0.07La",
+    "thermal": {
+      "thermal_expansion_coefficient": 1.18e-05,
+      "thermal_conductivity": 25.0,
+      "specific_heat_capacity": 460,
+      "temperature_range": [
+        673,
+        1273
+      ]
+    },
+    "mechanical": {
+      "youngs_modulus": 220.0,
+      "poissons_ratio": 0.3,
+      "density": 7800,
+      "ultimate_tensile_strength": 550,
+      "yield_strength": 380
+    },
+    "creep": {
+      "B": 5.2e-20,
+      "n": 4.5,
+      "Q": 420000,
+      "temperature_range": [
+        973,
+        1273
+      ]
+    },
+    "plasticity": {
+      "A": 380,
+      "B": 275,
+      "n": 0.36,
+      "C": 0.018,
+      "m": 0.9,
+      "T_melt": 1773,
+      "T_room": 298
+    },
+    "porosity": {
+      "porosity": 0.02,
+      "pore_size_mean": 0.05,
+      "pore_size_std": 0.02,
+      "tortuosity": 1.2
+    },
+    "electrochemical": {
+      "ionic_conductivity": 1e-10,
+      "electronic_conductivity": 850000,
+      "activation_overpotential": 0.0,
+      "exchange_current_density": 0,
+      "activation_energy_ionic": 0,
+      "activation_energy_electronic": 15000
+    }
+  },
+  "lscf_cathode": {
+    "name": "LSCF Cathode",
+    "composition": "La\u2080.\u2086Sr\u2080.\u2084Co\u2080.\u2082Fe\u2080.\u2088O\u2083",
+    "thermal": {
+      "thermal_expansion_coefficient": 1.58e-05,
+      "thermal_conductivity": 2.8,
+      "specific_heat_capacity": 440,
+      "temperature_range": [
+        673,
+        1273
+      ]
+    },
+    "mechanical": {
+      "youngs_modulus": 95.0,
+      "poissons_ratio": 0.26,
+      "density": 6800,
+      "ultimate_tensile_strength": 75,
+      "yield_strength": 50
+    },
+    "creep": {
+      "B": 3.2e-15,
+      "n": 1.8,
+      "Q": 350000,
+      "temperature_range": [
+        973,
+        1273
+      ]
+    },
+    "plasticity": null,
+    "porosity": {
+      "porosity": 0.32,
+      "pore_size_mean": 0.6,
+      "pore_size_std": 0.4,
+      "tortuosity": 2.5
+    },
+    "electrochemical": {
+      "ionic_conductivity": 0.15,
+      "electronic_conductivity": 450,
+      "activation_overpotential": 0.08,
+      "exchange_current_density": 8500,
+      "activation_energy_ionic": 95000,
+      "activation_energy_electronic": 35000
+    }
+  },
+  "cgd_electrolyte": {
+    "name": "CGO Electrolyte",
+    "composition": "Ce\u2080.\u2088Gd\u2080.\u2082O\u2081.\u2089",
+    "thermal": {
+      "thermal_expansion_coefficient": 1.28e-05,
+      "thermal_conductivity": 2.8,
+      "specific_heat_capacity": 380,
+      "temperature_range": [
+        673,
+        1073
+      ]
+    },
+    "mechanical": {
+      "youngs_modulus": 180.0,
+      "poissons_ratio": 0.32,
+      "density": 7200,
+      "ultimate_tensile_strength": 220,
+      "yield_strength": 160
+    },
+    "creep": {
+      "B": 1.5e-17,
+      "n": 1.1,
+      "Q": 480000,
+      "temperature_range": [
+        873,
+        1073
+      ]
+    },
+    "plasticity": null,
+    "porosity": {
+      "porosity": 0.04,
+      "pore_size_mean": 0.08,
+      "pore_size_std": 0.04,
+      "tortuosity": 1.6
+    },
+    "electrochemical": {
+      "ionic_conductivity": 0.08,
+      "electronic_conductivity": 5e-06,
+      "activation_overpotential": 0.0,
+      "exchange_current_density": 0,
+      "activation_energy_ionic": 65000,
+      "activation_energy_electronic": 120000
+    }
+  }
+}
