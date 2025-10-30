@@ -1,0 +1,93 @@
+{
+  "run_id": 11,
+  "flow_channel_design": "interdigitated",
+  "inputs": {
+    "operating_voltage_V": 1.0378219309983634,
+    "current_density_A_per_cm2": 0.6870365141148178,
+    "air_flow_rate_slpm": 10.339108639741392,
+    "fuel_flow_rate_slpm": 1.7212784200112528,
+    "inlet_temp_fuel_K": 959.284592727688,
+    "inlet_temp_air_K": 1027.839743761417,
+    "active_area_cm2": 97.05398549161687,
+    "thickness_um.anode": 858.9739210061446,
+    "thickness_um.electrolyte": 37.3485621778352,
+    "thickness_um.cathode": 54.69680396174085,
+    "thickness_um.interconnect": 1359.8797590573156,
+    "thickness_um.sealant": 112.50190933209333,
+    "porosity.anode": 0.34225730954375677,
+    "porosity.cathode": 0.46891096549918165,
+    "permeability.anode": 1.7553842801630333e-13,
+    "permeability.cathode": 5.16245385295211e-14,
+    "ionic_cond.anode": 0.14225237554925863,
+    "ionic_cond.electrolyte": 0.7344107999767501,
+    "ionic_cond.cathode": 0.8768874233767595,
+    "electronic_cond.anode": 158494.62523309255,
+    "electronic_cond.electrolyte": 0.000491537118350263,
+    "electronic_cond.cathode": 17553.84280163033,
+    "electronic_cond.interconnect": 9646478.258994024,
+    "electronic_cond.sealant": 2.7787008276314976e-07,
+    "youngs_modulus_GPa.anode": 107.32531727048772,
+    "youngs_modulus_GPa.electrolyte": 273.5576101886521,
+    "youngs_modulus_GPa.cathode": 182.37174012576807,
+    "youngs_modulus_GPa.interconnect": 210.32757925681702,
+    "youngs_modulus_GPa.sealant": 39.01598025014066,
+    "cte_per_K.anode": 1.262693158599018e-05,
+    "cte_per_K.electrolyte": 9.062509546660466e-06,
+    "cte_per_K.cathode": 1.24745961010118e-05,
+    "cte_per_K.interconnect": 1.3751287723993454e-05,
+    "cte_per_K.sealant": 8.334421066699603e-06
+  },
+  "shapes": {
+    "current_density_A_per_m2": [
+      32,
+      32,
+      32
+    ],
+    "overpotential_V": [
+      32,
+      32,
+      32
+    ],
+    "temperature_K": [
+      32,
+      32,
+      32
+    ],
+    "von_mises_stress_Pa": [
+      32,
+      32,
+      32
+    ],
+    "strain_tensor": [
+      32,
+      32,
+      32,
+      6
+    ],
+    "displacement_m": [
+      32,
+      32,
+      32,
+      3
+    ],
+    "species_H2": [
+      32,
+      32,
+      32
+    ],
+    "species_H2O": [
+      32,
+      32,
+      32
+    ],
+    "x": [
+      32
+    ],
+    "y": [
+      32
+    ],
+    "z": [
+      32
+    ]
+  }
+}
