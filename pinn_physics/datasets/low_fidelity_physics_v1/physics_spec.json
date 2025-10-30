@@ -1,0 +1,186 @@
+{
+  "fields": [
+    {
+      "name": "T",
+      "description": "temperature (K)"
+    },
+    {
+      "name": "u_x",
+      "description": "x displacement (m)"
+    },
+    {
+      "name": "u_y",
+      "description": "y displacement (m)"
+    },
+    {
+      "name": "phi_e",
+      "description": "electronic potential (V)"
+    },
+    {
+      "name": "phi_i",
+      "description": "ionic potential (V)"
+    }
+  ],
+  "pdes": [
+    {
+      "name": "charge_conservation_electronic",
+      "form": "div( sigma_e * grad(phi_e) ) = 0",
+      "unknowns": [
+        "phi_e"
+      ],
+      "parameters": {
+        "sigma_e": 1.0
+      }
+    },
+    {
+      "name": "charge_conservation_ionic",
+      "form": "div( kappa_i * grad(phi_i) ) = 0",
+      "unknowns": [
+        "phi_i"
+      ],
+      "parameters": {
+        "kappa_i": 0.8
+      }
+    },
+    {
+      "name": "energy_conservation",
+      "form": "rho*cp*dT/dt = div(k*grad(T)) + Q_joule + Q_rxn",
+      "unknowns": [
+        "T"
+      ],
+      "parameters": {
+        "k": 5.0,
+        "rho": 2000.0,
+        "cp": 800.0
+      },
+      "sources": {
+        "Q_joule": "sigma_e*|grad(phi_e)|^2 + kappa_i*|grad(phi_i)|^2",
+        "Q_rxn": "eta * j_rxn (optional, at interfaces)"
+      }
+    },
+    {
+      "name": "linear_momentum_equilibrium",
+      "form": "div( sigma(u, T) ) = 0",
+      "unknowns": [
+        "u_x",
+        "u_y"
+      ],
+      "parameters": {
+        "E": 5000000000.0,
+        "nu": 0.3,
+        "alpha_T": 1.5e-05,
+        "T_ref": 298.15
+      },
+      "constitutive": "Hooke's law (plane stress default)"
+    }
+  ],
+  "constitutive_laws": [
+    {
+      "name": "Fourier",
+      "law": "q = -k * grad(T)"
+    },
+    {
+      "name": "Hooke",
+      "law": "sigma = C : (eps - alpha_T*(T-T_ref) I)"
+    },
+    {
+      "name": "Butler-Volmer",
+      "law": "j = j0[exp(alpha_a F eta/RT) - exp(-alpha_c F eta/RT)]",
+      "parameters": {
+        "j0": 1.0,
+        "alpha_a": 0.5,
+        "alpha_c": 0.5
+      }
+    }
+  ],
+  "boundary_conditions": [
+    {
+      "field": "T",
+      "type": "Dirichlet",
+      "location": "left edge",
+      "equation": "T = T_left",
+      "values": {
+        "T_left": 310.15
+      }
+    },
+    {
+      "field": "T",
+      "type": "Convective",
+      "location": "right edge",
+      "equation": "-k * grad(T)·n = h (T - T_inf)",
+      "values": {
+        "h": 10.0,
+        "T_inf": 298.15
+      }
+    },
+    {
+      "field": "T",
+      "type": "Insulated",
+      "location": "top/bottom",
+      "equation": "grad(T)·n = 0",
+      "values": {}
+    },
+    {
+      "field": "u",
+      "type": "Dirichlet",
+      "location": "left edge",
+      "equation": "u = 0",
+      "values": {}
+    },
+    {
+      "field": "u",
+      "type": "Traction-free",
+      "location": "top/right/bottom",
+      "equation": "sigma·n = 0",
+      "values": {}
+    },
+    {
+      "field": "phi_e",
+      "type": "Dirichlet",
+      "location": "left edge",
+      "equation": "phi_e = V_app",
+      "values": {
+        "V_app": 1.0
+      }
+    },
+    {
+      "field": "phi_e",
+      "type": "Dirichlet",
+      "location": "right edge",
+      "equation": "phi_e = 0",
+      "values": {}
+    },
+    {
+      "field": "phi_i",
+      "type": "Neumann (no-flux)",
+      "location": "top/bottom",
+      "equation": "-kappa_i grad(phi_i)·n = 0",
+      "values": {}
+    },
+    {
+      "field": "phi_e & phi_i",
+      "type": "Butler-Volmer interface",
+      "location": "internal line x=Lx/2",
+      "equation": "j = j0[exp(alpha_a F eta/RT) - exp(-alpha_c F eta/RT)]",
+      "coupling": [
+        "-sigma_e grad(phi_e)·n = j",
+        "+kappa_i grad(phi_i)·n = j"
+      ],
+      "values": {
+        "U_eq": 0.2
+      }
+    }
+  ],
+  "domain": {
+    "Lx": 1.0,
+    "Ly": 0.5,
+    "time": {
+      "enabled": true,
+      "t_max": 10.0
+    }
+  },
+  "constants": {
+    "R": 8.314462618,
+    "F": 96485.33212
+  }
+}
