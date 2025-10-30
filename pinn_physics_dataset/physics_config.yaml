@@ -1,0 +1,100 @@
+project:
+  name: pinn_low_fidelity_physics
+  seed: 42
+
+domain:
+  Lx: 0.1            # m
+  Ly: 0.05           # m
+  t_final: 100.0     # s
+  include_time: true
+  reactive_region:
+    x_min: 0.03      # m
+    x_max: 0.07      # m
+
+sampling:
+  n_interior: 40000
+  n_boundary_per_edge: 4000
+  n_time_slices: 20
+  stratified: true
+
+materials:
+  elasticity:
+    young_modulus: 1.0e9           # Pa
+    poisson_ratio: 0.3
+    thermal_expansion: 1.0e-5      # 1/K
+    plane_stress: true
+  thermal:
+    density: 2500.0                # kg/m^3
+    specific_heat: 800.0           # J/(kg·K)
+    conductivity: 10.0             # W/(m·K)
+    T_ref: 298.15                  # K
+  electrical:
+    sigma_s: 1.0e6                 # S/m (electronic)
+    kappa_e: 1.0                   # S/m (ionic)
+    double_layer_area: 1.0e5       # m^2/m^3 (a)
+  electrochemistry:
+    R: 8.31446261815324            # J/(mol·K)
+    F: 96485.33212                 # C/mol
+    alpha_a: 0.5
+    alpha_c: 0.5
+    j0: 10.0                       # A/m^2
+    U_eq: 3.6                      # V
+    volumetric: true               # 体积反应（在反应区）
+    smoothing_length: 0.001        # m，用于界面近似
+
+sources:
+  joule_heating_scale: 1.0         # σ|∇phi|^2 的缩放
+  reaction_heat_scale: 1.0         # j*eta 的缩放
+
+boundaries:
+  left:
+    thermal:
+      type: convective
+      h: 20.0
+      T_inf: 298.15
+    mechanical:
+      type: fixed
+    electrical:
+      phi_s:
+        type: dirichlet
+        value: 4.0
+      phi_e:
+        type: neumann
+        flux: 0.0
+  right:
+    thermal:
+      type: dirichlet
+      value: 298.15
+    mechanical:
+      type: free
+    electrical:
+      phi_s:
+        type: dirichlet
+        value: 0.0
+      phi_e:
+        type: neumann
+        flux: 0.0
+  top:
+    thermal:
+      type: insulated
+    mechanical:
+      type: free
+    electrical:
+      phi_s:
+        type: neumann
+        flux: 0.0
+      phi_e:
+        type: neumann
+        flux: 0.0
+  bottom:
+    thermal:
+      type: insulated
+    mechanical:
+      type: free
+    electrical:
+      phi_s:
+        type: neumann
+        flux: 0.0
+      phi_e:
+        type: neumann
+        flux: 0.0
