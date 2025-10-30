@@ -1,0 +1,10 @@
+# PINN物理方程模块依赖
+# Physics-Informed Neural Network Requirements
+
+torch>=1.12.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+
+# 可选依赖 (Optional dependencies)
+scipy>=1.7.0
+pandas>=1.3.0

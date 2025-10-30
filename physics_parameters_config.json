@@ -1,0 +1,448 @@
+{
+  "description": "PINN物理参数配置文件 - Physics Parameters Configuration for PINN",
+  "version": "1.0.0",
+  "date": "2025-10-30",
+  
+  "default_parameters": {
+    "description": "默认物理参数（通用锂离子电池）",
+    "electrical": {
+      "sigma_ionic": {
+        "value": 1.0,
+        "unit": "S/m",
+        "description": "离子电导率 (Ionic conductivity)"
+      },
+      "sigma_electronic": {
+        "value": 100000.0,
+        "unit": "S/m",
+        "description": "电子电导率 (Electronic conductivity)"
+      }
+    },
+    "thermal": {
+      "k_thermal": {
+        "value": 1.5,
+        "unit": "W/(m·K)",
+        "description": "热导率 (Thermal conductivity)"
+      },
+      "rho": {
+        "value": 2000.0,
+        "unit": "kg/m³",
+        "description": "密度 (Density)"
+      },
+      "cp": {
+        "value": 1000.0,
+        "unit": "J/(kg·K)",
+        "description": "比热容 (Specific heat capacity)"
+      }
+    },
+    "mechanical": {
+      "E": {
+        "value": 10000000000.0,
+        "unit": "Pa",
+        "description": "杨氏模量 (Young's modulus) - 10 GPa"
+      },
+      "nu": {
+        "value": 0.3,
+        "unit": "dimensionless",
+        "description": "泊松比 (Poisson's ratio)"
+      },
+      "alpha": {
+        "value": 1e-05,
+        "unit": "1/K",
+        "description": "热膨胀系数 (Thermal expansion coefficient)"
+      }
+    },
+    "electrochemical": {
+      "i0": {
+        "value": 1.0,
+        "unit": "A/m²",
+        "description": "交换电流密度 (Exchange current density)"
+      },
+      "alpha_a": {
+        "value": 0.5,
+        "unit": "dimensionless",
+        "description": "阳极传递系数 (Anodic transfer coefficient)"
+      },
+      "alpha_c": {
+        "value": 0.5,
+        "unit": "dimensionless",
+        "description": "阴极传递系数 (Cathodic transfer coefficient)"
+      }
+    },
+    "constants": {
+      "F": {
+        "value": 96485.0,
+        "unit": "C/mol",
+        "description": "法拉第常数 (Faraday constant)"
+      },
+      "R": {
+        "value": 8.314,
+        "unit": "J/(mol·K)",
+        "description": "气体常数 (Universal gas constant)"
+      }
+    },
+    "reference_conditions": {
+      "T_ref": {
+        "value": 298.15,
+        "unit": "K",
+        "description": "参考温度 (Reference temperature) - 25°C"
+      },
+      "T_operating": {
+        "value": 298.15,
+        "unit": "K",
+        "description": "工作温度 (Operating temperature)"
+      }
+    }
+  },
+  
+  "material_specific": {
+    "graphite_anode": {
+      "description": "石墨负极材料参数",
+      "electrical": {
+        "sigma_ionic": 0.1,
+        "sigma_electronic": 100000.0
+      },
+      "thermal": {
+        "k_thermal": 1.7,
+        "rho": 2260.0,
+        "cp": 1437.4
+      },
+      "mechanical": {
+        "E": 15000000000.0,
+        "nu": 0.3,
+        "alpha": 3e-06
+      },
+      "electrochemical": {
+        "i0": 0.5,
+        "alpha_a": 0.5,
+        "alpha_c": 0.5
+      }
+    },
+    
+    "nmc_cathode": {
+      "description": "三元材料（NMC）正极参数",
+      "electrical": {
+        "sigma_ionic": 0.1,
+        "sigma_electronic": 1000.0
+      },
+      "thermal": {
+        "k_thermal": 1.58,
+        "rho": 4750.0,
+        "cp": 1269.0
+      },
+      "mechanical": {
+        "E": 10000000000.0,
+        "nu": 0.3,
+        "alpha": 1.5e-05
+      },
+      "electrochemical": {
+        "i0": 0.35,
+        "alpha_a": 0.5,
+        "alpha_c": 0.5
+      }
+    },
+    
+    "lfp_cathode": {
+      "description": "磷酸铁锂（LFP）正极参数",
+      "electrical": {
+        "sigma_ionic": 0.1,
+        "sigma_electronic": 100.0
+      },
+      "thermal": {
+        "k_thermal": 1.48,
+        "rho": 3600.0,
+        "cp": 1260.0
+      },
+      "mechanical": {
+        "E": 8000000000.0,
+        "nu": 0.3,
+        "alpha": 1.2e-05
+      },
+      "electrochemical": {
+        "i0": 0.2,
+        "alpha_a": 0.5,
+        "alpha_c": 0.5
+      }
+    },
+    
+    "separator": {
+      "description": "隔膜材料参数",
+      "electrical": {
+        "sigma_ionic": 0.5,
+        "sigma_electronic": 1e-10
+      },
+      "thermal": {
+        "k_thermal": 0.344,
+        "rho": 1009.0,
+        "cp": 1978.0
+      },
+      "mechanical": {
+        "E": 500000000.0,
+        "nu": 0.3,
+        "alpha": 0.0001
+      }
+    },
+    
+    "electrolyte": {
+      "description": "电解液参数（1M LiPF6 in EC:DMC）",
+      "electrical": {
+        "sigma_ionic": 1.0,
+        "sigma_electronic": 1e-15
+      },
+      "thermal": {
+        "k_thermal": 0.6,
+        "rho": 1200.0,
+        "cp": 1500.0
+      },
+      "transport": {
+        "D_Li": {
+          "value": 7.5e-10,
+          "unit": "m²/s",
+          "description": "锂离子扩散系数 (Li-ion diffusion coefficient)"
+        },
+        "t_plus": {
+          "value": 0.38,
+          "unit": "dimensionless",
+          "description": "锂离子迁移数 (Lithium transference number)"
+        }
+      }
+    }
+  },
+  
+  "boundary_conditions": {
+    "thermal": {
+      "insulated": {
+        "type": "Neumann",
+        "description": "绝热边界（热流为0）",
+        "equation": "-k·∇T·n = 0"
+      },
+      "convective": {
+        "type": "Robin",
+        "description": "对流边界",
+        "equation": "-k·∇T·n = h·(T - T_ambient)",
+        "typical_values": {
+          "h_natural": {
+            "value": 10.0,
+            "unit": "W/(m²·K)",
+            "description": "自然对流换热系数"
+          },
+          "h_forced": {
+            "value": 100.0,
+            "unit": "W/(m²·K)",
+            "description": "强制对流换热系数"
+          },
+          "T_ambient": {
+            "value": 298.15,
+            "unit": "K",
+            "description": "环境温度"
+          }
+        }
+      },
+      "fixed_temperature": {
+        "type": "Dirichlet",
+        "description": "固定温度边界",
+        "equation": "T = T_fixed",
+        "typical_values": {
+          "T_fixed": {
+            "value": 298.15,
+            "unit": "K"
+          }
+        }
+      }
+    },
+    
+    "mechanical": {
+      "fixed_displacement": {
+        "type": "Dirichlet",
+        "description": "固定位移边界（完全固定）",
+        "equation": "u = 0, v = 0, w = 0"
+      },
+      "traction_free": {
+        "type": "Neumann",
+        "description": "自由边界（应力为0）",
+        "equation": "σ·n = 0"
+      },
+      "symmetry": {
+        "type": "Mixed",
+        "description": "对称边界",
+        "equation": "u_n = 0, σ_t = 0"
+      }
+    },
+    
+    "electrical": {
+      "applied_potential": {
+        "type": "Dirichlet",
+        "description": "施加电位",
+        "equation": "φ = φ_applied",
+        "typical_values": {
+          "phi_anode": {
+            "value": 0.0,
+            "unit": "V",
+            "description": "负极电位（参考）"
+          },
+          "phi_cathode": {
+            "value": 4.2,
+            "unit": "V",
+            "description": "正极电位（充满电）"
+          }
+        }
+      },
+      "applied_current": {
+        "type": "Neumann",
+        "description": "施加电流",
+        "equation": "-σ·∇φ·n = j_applied",
+        "typical_values": {
+          "I_charge_1C": {
+            "value": 2.5,
+            "unit": "A",
+            "description": "1C充电电流（2.5Ah电池）"
+          },
+          "I_discharge_1C": {
+            "value": -2.5,
+            "unit": "A",
+            "description": "1C放电电流"
+          }
+        }
+      }
+    }
+  },
+  
+  "geometric_parameters": {
+    "typical_cylindrical_18650": {
+      "diameter": {
+        "value": 0.018,
+        "unit": "m",
+        "description": "18650电池直径"
+      },
+      "height": {
+        "value": 0.065,
+        "unit": "m",
+        "description": "18650电池高度"
+      },
+      "anode_thickness": {
+        "value": 8e-05,
+        "unit": "m",
+        "description": "负极厚度 (80 μm)"
+      },
+      "cathode_thickness": {
+        "value": 7e-05,
+        "unit": "m",
+        "description": "正极厚度 (70 μm)"
+      },
+      "separator_thickness": {
+        "value": 2.5e-05,
+        "unit": "m",
+        "description": "隔膜厚度 (25 μm)"
+      }
+    },
+    
+    "typical_pouch_cell": {
+      "length": {
+        "value": 0.15,
+        "unit": "m",
+        "description": "软包电池长度"
+      },
+      "width": {
+        "value": 0.10,
+        "unit": "m",
+        "description": "软包电池宽度"
+      },
+      "thickness": {
+        "value": 0.008,
+        "unit": "m",
+        "description": "软包电池厚度"
+      }
+    }
+  },
+  
+  "operating_conditions": {
+    "standard_charge": {
+      "C_rate": 1.0,
+      "voltage_cutoff": 4.2,
+      "temperature": 298.15,
+      "description": "标准充电条件（1C，25°C）"
+    },
+    
+    "fast_charge": {
+      "C_rate": 3.0,
+      "voltage_cutoff": 4.2,
+      "temperature": 298.15,
+      "description": "快充条件（3C，25°C）"
+    },
+    
+    "standard_discharge": {
+      "C_rate": 1.0,
+      "voltage_cutoff": 2.5,
+      "temperature": 298.15,
+      "description": "标准放电条件（1C，25°C）"
+    },
+    
+    "low_temperature": {
+      "C_rate": 0.5,
+      "temperature": 273.15,
+      "description": "低温条件（0.5C，0°C）"
+    },
+    
+    "high_temperature": {
+      "C_rate": 1.0,
+      "temperature": 318.15,
+      "description": "高温条件（1C，45°C）"
+    }
+  },
+  
+  "numerical_parameters": {
+    "pinn_training": {
+      "n_collocation_points": {
+        "value": 10000,
+        "description": "配点数量（用于计算PDE残差）"
+      },
+      "n_boundary_points": {
+        "value": 1000,
+        "description": "边界点数量（用于边界条件）"
+      },
+      "n_initial_points": {
+        "value": 1000,
+        "description": "初始点数量（用于初始条件）"
+      },
+      "learning_rate": {
+        "value": 0.001,
+        "description": "学习率"
+      },
+      "n_epochs": {
+        "value": 10000,
+        "description": "训练轮数"
+      },
+      "loss_weights": {
+        "physics": 1.0,
+        "boundary": 1.0,
+        "initial": 1.0,
+        "data": 1.0,
+        "description": "各损失项的权重"
+      }
+    },
+    
+    "network_architecture": {
+      "n_hidden_layers": {
+        "value": 4,
+        "description": "隐藏层数量"
+      },
+      "n_neurons_per_layer": {
+        "value": 128,
+        "description": "每层神经元数量"
+      },
+      "activation": {
+        "value": "tanh",
+        "description": "激活函数（tanh, relu, sigmoid等）"
+      }
+    }
+  },
+  
+  "notes": {
+    "usage": "使用create_default_parameters()函数加载默认参数，或根据具体材料修改相应参数",
+    "units": "所有单位均采用SI基本单位",
+    "references": [
+      "Newman, J., & Thomas-Alyea, K. E. (2012). Electrochemical systems.",
+      "Chen, C. H., et al. (2020). Development of experimental techniques for parameterization of multi-scale lithium-ion battery models.",
+      "Raissi, M., et al. (2019). Physics-informed neural networks."
+    ]
+  }
+}
