@@ -1,0 +1,67 @@
+{
+  "files": {
+    "interior": "collocation_interior.csv",
+    "thermal": "boundary_thermal.csv",
+    "electrical": "boundary_electrical.csv",
+    "mechanical": "boundary_mechanical.csv",
+    "packed": "dataset_npz.npz"
+  },
+  "columns": {
+    "interior": [
+      "x",
+      "y",
+      "t"
+    ],
+    "thermal": [
+      "x",
+      "y",
+      "t",
+      "n_x",
+      "n_y",
+      "bc_type",
+      "h",
+      "T_inf"
+    ],
+    "electrical": [
+      "x",
+      "y",
+      "t",
+      "n_x",
+      "n_y",
+      "mode",
+      "phi_value",
+      "j_flux",
+      "j0",
+      "alpha_a",
+      "alpha_c",
+      "E_eq"
+    ],
+    "mechanical": [
+      "x",
+      "y",
+      "t",
+      "n_x",
+      "n_y",
+      "mode",
+      "u_x",
+      "u_y",
+      "t_x",
+      "t_y"
+    ]
+  },
+  "modes": {
+    "thermal.bc_type": {
+      "0": "insulated",
+      "2": "convective"
+    },
+    "electrical.mode": {
+      "0": "dirichlet",
+      "1": "neumann",
+      "2": "butler_volmer"
+    },
+    "mechanical.mode": {
+      "0": "dirichlet_u",
+      "1": "traction"
+    }
+  }
+}

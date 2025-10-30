@@ -1,0 +1,111 @@
+{
+  "domain": {
+    "spatial_dim": 2,
+    "temporal": true,
+    "bounds": {
+      "x": [0.0, 1.0],
+      "y": [0.0, 1.0],
+      "t": [0.0, 1.0]
+    },
+    "description": "Unit square in space with unit time horizon"
+  },
+  "fields": [
+    {"name": "T", "type": "scalar", "description": "Temperature field"},
+    {"name": "phi", "type": "scalar", "description": "Electric potential (electronic)"},
+    {"name": "c_i", "type": "scalar", "description": "Ionic concentration (simplified)"},
+    {"name": "u_x", "type": "scalar", "description": "Displacement x-component"},
+    {"name": "u_y", "type": "scalar", "description": "Displacement y-component"}
+  ],
+  "parameters": {
+    "rho": {"value": 7800.0, "units": "kg/m^3"},
+    "cp": {"value": 500.0, "units": "J/(kg*K)"},
+    "k": {"value": 15.0, "units": "W/(m*K)"},
+    "sigma_e": {"value": 5.0e6, "units": "S/m"},
+    "D_i": {"value": 1.0e-9, "units": "m^2/s"},
+    "z_i": {"value": 1, "units": "-"},
+    "mu_i": {"value": 5.0e-8, "units": "m^2/(V*s)"},
+    "E": {"value": 200e9, "units": "Pa"},
+    "nu": {"value": 0.3, "units": "-"},
+    "alpha_T": {"value": 1.2e-5, "units": "1/K"},
+    "T0": {"value": 300.0, "units": "K"},
+    "Q_joule_scale": {"value": 1.0, "units": "W/m^3"},
+    "rho_charge_scale": {"value": 0.0, "units": "C/m^3"}
+  },
+  "equations": {
+    "charge_conservation": {
+      "name": "Electronic + ionic charge conservation",
+      "latex": "\\nabla \\cdot (\\mathbf{j}_e + \\mathbf{j}_i) + \\partial_t \\rho_c = 0",
+      "constituents": {
+        "j_e": "-\\sigma_e \\nabla \\phi",
+        "j_i": "-D_i \\nabla c_i - z_i \\mu_i c_i \\nabla \\phi"
+      },
+      "residual": "r_charge = div(-sigma_e * grad(phi) - D_i * grad(c_i) - z_i * mu_i * c_i * grad(phi)) + d(rho_c)/dt"
+    },
+    "energy_conservation": {
+      "name": "Heat equation with sources",
+      "latex": "\\rho c_p \\partial_t T - \\nabla \\cdot (k \\nabla T) - Q = 0",
+      "sources": {
+        "joule_heating": "Q_J = \\sigma_e \\|\\nabla \\phi\\|^2",
+        "reaction_heating": "Q_R = s_{rxn}(x,y,t)"
+      },
+      "residual": "r_energy = rho*cp*dTdt - div(k * grad(T)) - (sigma_e * |grad(phi)|^2 + s_rxn)"
+    },
+    "linear_momentum": {
+      "name": "Mechanical equilibrium (thermoelasticity)",
+      "latex": "\\nabla \\cdot \\boldsymbol{\\sigma} + \\mathbf{f} = 0",
+      "constitutive": {
+        "strain": "\\boldsymbol{\\varepsilon} = (\\nabla \\mathbf{u} + (\\nabla \\mathbf{u})^T)/2",
+        "thermal_strain": "\\boldsymbol{\\varepsilon}_T = \\alpha_T (T - T_0) \\mathbf{I}",
+        "hooke_plane_strain": "\\boldsymbol{\\sigma} = 2G(\\boldsymbol{\\varepsilon} - \\boldsymbol{\\varepsilon}_T) + \\lambda \\operatorname{tr}(\\boldsymbol{\\varepsilon} - \\boldsymbol{\\varepsilon}_T) \\mathbf{I}"
+      },
+      "residual": "r_momentum = div(sigma(u, T)) + f"
+    }
+  },
+  "boundary_conditions": {
+    "thermal": [
+      {
+        "name": "insulated",
+        "latex": "-k \\nabla T \\cdot \\mathbf{n} = 0",
+        "applies_to": "x=0, x=1, y=0 boundaries"
+      },
+      {
+        "name": "convective_top",
+        "latex": "-k \\nabla T \\cdot \\mathbf{n} = h (T - T_\\infty)",
+        "applies_to": "y=1 boundary",
+        "parameters": {"h": 50.0, "T_inf": 300.0}
+      }
+    ],
+    "electrical": [
+      {
+        "name": "applied_potential_left",
+        "latex": "\\phi = V_0",
+        "applies_to": "x=0 boundary",
+        "parameters": {"V0": 1.0}
+      },
+      {
+        "name": "ground_right",
+        "latex": "\\phi = 0",
+        "applies_to": "x=1 boundary"
+      },
+      {
+        "name": "butler_volmer_interface_top",
+        "latex": "j_n = j_0 \\left[ \\exp\\left( \\frac{\\alpha_a F}{RT} \\eta \\right) - \\exp\\left( -\\frac{\\alpha_c F}{RT} \\eta \\right) \\right]",
+        "applies_to": "y=1 boundary",
+        "parameters": {"j0": 100.0, "alpha_a": 0.5, "alpha_c": 0.5, "E_eq": 0.0}
+      }
+    ],
+    "mechanical": [
+      {
+        "name": "fixed_left",
+        "latex": "\\mathbf{u} = \\mathbf{0}",
+        "applies_to": "x=0 boundary"
+      },
+      {
+        "name": "free_traction_elsewhere",
+        "latex": "\\boldsymbol{\\sigma} \\cdot \\mathbf{n} = \\mathbf{0}",
+        "applies_to": "x=1, y=0, y=1 boundaries"
+      }
+    ]
+  },
+  "usage": "PINN 以网络预测的 T, phi, c_i, u 代入上述 PDE 残差；在域内最小化 PDE 残差，在边界最小化边界条件残差。"
+}
