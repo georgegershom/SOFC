@@ -1,0 +1,78 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>SOFC高保真数值数据集分析报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 40px; }
+                .header { background-color: #f0f0f0; padding: 20px; border-radius: 5px; }
+                .section { margin: 30px 0; }
+                .image { text-align: center; margin: 20px 0; }
+                .image img { max-width: 100%; height: auto; border: 1px solid #ddd; }
+                .stats { background-color: #f9f9f9; padding: 15px; border-radius: 5px; }
+                table { border-collapse: collapse; width: 100%; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>SOFC高保真数值数据集分析报告</h1>
+                <p>生成时间: 2025-10-30 01:07:25</p>
+                <p>数据集文件: sofc_high_fidelity_dataset.h5</p>
+                <p>仿真数量: 30</p>
+                <p>创建日期: 2025-10-30T01:05:58.566280</p>
+            </div>
+            
+            <div class="section">
+                <h2>数据集概览</h2>
+                <div class="stats">
+                    <p>本数据集包含SOFC（固体氧化物燃料电池）的高保真数值仿真数据，涵盖多物理场耦合分析：</p>
+                    <ul>
+                        <li>电化学场：电流密度分布、过电位分布</li>
+                        <li>热场：温度分布</li>
+                        <li>机械场：应力张量、应变张量、位移场</li>
+                        <li>传质场：燃料物种浓度分布（H₂, H₂O）</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>参数统计</h2>
+                <div class="stats">
+                    <p>数据集包含 26 个输入参数，涵盖操作条件、材料属性和几何参数。</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>可视化分析</h2>
+                <div class="image">
+                    <img src="parameter_correlations.png" alt="参数相关性矩阵">
+                    <p>参数相关性分析</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>性能分析</h2>
+                <div class="image">
+                    <img src="sofc_performance_analysis.png" alt="性能分析">
+                    <p>SOFC性能指标分析</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>数据使用建议</h2>
+                <div class="stats">
+                    <p>本数据集可用于：</p>
+                    <ul>
+                        <li>机器学习模型训练（回归、分类）</li>
+                        <li>神经网络架构设计</li>
+                        <li>多物理场耦合分析</li>
+                        <li>SOFC性能优化研究</li>
+                        <li>材料属性敏感性分析</li>
+                    </ul>
+                </div>
+            </div>
+        </body>
+        </html>
+        
