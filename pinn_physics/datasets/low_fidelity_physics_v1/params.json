@@ -1,0 +1,33 @@
+{
+  "constants": {
+    "R": 8.314462618,
+    "F": 96485.33212
+  },
+  "domain": {
+    "Lx": 1.0,
+    "Ly": 0.5,
+    "has_time": true,
+    "time_max": 10.0
+  },
+  "materials": {
+    "sigma_e": 1.0,
+    "kappa_i": 0.8,
+    "k": 5.0,
+    "rho": 2000.0,
+    "cp": 800.0,
+    "E": 5000000000.0,
+    "nu": 0.3,
+    "alpha_T": 1.5e-05,
+    "T_ref": 298.15
+  },
+  "kinetics": {
+    "j0": 1.0,
+    "alpha_a": 0.5,
+    "alpha_c": 0.5,
+    "U_eq": 0.2
+  },
+  "convection": {
+    "h": 10.0,
+    "T_inf": 298.15
+  }
+}
