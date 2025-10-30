@@ -1,0 +1,77 @@
+{
+  "creation_time": "2025-10-30T01:38:42.440770",
+  "device": "cpu",
+  "dataset_info": {
+    "n_domain": 10000,
+    "n_boundary": 2000,
+    "n_data": 1000,
+    "domain_bounds": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "problem_type": "battery_thermal"
+  },
+  "physics_equations": {
+    "charge_conservation": {
+      "ion_conservation": "∇·(κ_eff ∇φ_e) + ∇·(κ_D ∇ln(c_li)) = 0",
+      "electron_conservation": "∇·(σ_eff ∇φ_s) - j = 0",
+      "description": "电荷守恒确保电流连续性"
+    },
+    "energy_conservation": {
+      "heat_equation": "ρcp ∂T/∂t = ∇·(k ∇T) + Q_joule + Q_reaction + Q_mechanical",
+      "joule_heating": "σ(∇φ_e)² + σ(∇φ_s)²",
+      "reaction_heating": "j·η",
+      "mechanical_heating": "αT ∇·σ",
+      "description": "能量守恒控制温度场演化"
+    },
+    "momentum_conservation": {
+      "equilibrium_equation": "∇·σ = 0",
+      "description": "机械平衡确保应力场满足平衡条件"
+    }
+  },
+  "constitutive_laws": {
+    "hooke_law": "σ = C : ε + σ_thermal + σ_chemical",
+    "fourier_law": "q = -k ∇T",
+    "butler_volmer": "j = j₀[exp(αFη/RT) - exp(-(1-α)Fη/RT)]",
+    "fick_law": "J = -D ∇c",
+    "ohm_law": "i = -σ ∇φ"
+  },
+  "boundary_conditions": {
+    "thermal": [
+      "dirichlet",
+      "neumann",
+      "convective",
+      "insulated"
+    ],
+    "mechanical": [
+      "fixed",
+      "free",
+      "traction",
+      "displacement"
+    ],
+    "electrical": [
+      "potential",
+      "current",
+      "insulated",
+      "resistance"
+    ],
+    "coupled": [
+      "thermal_electrical",
+      "thermo_mechanical"
+    ]
+  }
+}
