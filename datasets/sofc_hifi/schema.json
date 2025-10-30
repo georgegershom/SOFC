@@ -1,0 +1,45 @@
+{
+  "description": "Synthetic high-fidelity-like multi-physics SOFC dataset (3D fields)",
+  "field_shapes": "(nz, ny, nx)",
+  "fields": {
+    "current_density_A_per_cm2": "float32",
+    "overpotential_V": "float32",
+    "temperature_K": "float32",
+    "H2_molfrac": "float32",
+    "H2O_molfrac": "float32",
+    "von_mises_stress_Pa": "float32",
+    "strain_exx": "float32",
+    "strain_eyy": "float32",
+    "strain_ezz": "float32",
+    "strain_exy": "float32",
+    "strain_exz": "float32",
+    "strain_eyz": "float32",
+    "displacement_ux_m": "float32",
+    "displacement_uy_m": "float32",
+    "displacement_uz_m": "float32",
+    "coord_x_m": "float32",
+    "coord_y_m": "float32",
+    "coord_z_m": "float32",
+    "layer_index": "int16"
+  },
+  "notes": {
+    "units": {
+      "current_density_A_per_cm2": "A/cm^2",
+      "overpotential_V": "V",
+      "temperature_K": "K",
+      "H2_molfrac": "-",
+      "H2O_molfrac": "-",
+      "von_mises_stress_Pa": "Pa",
+      "displacement_ux_m": "m",
+      "displacement_uy_m": "m",
+      "displacement_uz_m": "m"
+    },
+    "layer_index_map": {
+      "0": "anode",
+      "1": "electrolyte",
+      "2": "cathode",
+      "3": "interconnect",
+      "4": "sealant"
+    }
+  }
+}
