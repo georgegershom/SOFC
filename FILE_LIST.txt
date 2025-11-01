@@ -1,0 +1,65 @@
+SOFC材料属性与本构模型数据集 - 文件清单
+==========================================
+
+数据集文件 (dataset/):
+---------------------
+烧结动力学数据:
+- sintering_kinetics_anode.csv
+- sintering_kinetics_electrolyte.csv
+- sintering_kinetics_cathode.csv
+- sintering_kinetics_anode_electrolyte.csv
+- sintering_kinetics_electrolyte_cathode.csv
+
+热膨胀系数数据:
+- cte_anode.csv
+- cte_electrolyte.csv
+- cte_cathode.csv
+- cte_interconnect.csv
+
+蠕变测试数据:
+- creep_anode_800C.csv
+- creep_anode_1000C.csv
+- creep_anode_1200C.csv
+- creep_electrolyte_800C.csv
+- creep_electrolyte_1000C.csv
+- creep_electrolyte_1200C.csv
+- creep_cathode_800C.csv
+- creep_cathode_1000C.csv
+- creep_cathode_1200C.csv
+- creep_interconnect_600C.csv
+- creep_interconnect_800C.csv
+- creep_interconnect_1000C.csv
+
+弹性属性数据:
+- elastic_anode.csv
+- elastic_electrolyte.csv
+- elastic_cathode.csv
+- elastic_interconnect.csv
+- elastic_density_anode.csv
+- elastic_density_electrolyte.csv
+- elastic_density_cathode.csv
+
+配置和脚本文件:
+----------------
+- material_property_dataset.json (主配置文件)
+- generate_dataset.py (数据生成脚本)
+- visualize_dataset.py (可视化脚本)
+
+文档文件:
+---------
+- README_DATASET.md (详细使用文档)
+- DATASET_SUMMARY.md (数据集摘要)
+- FILE_LIST.txt (本文件清单)
+
+可视化图表 (figures/):
+--------------------
+- sintering_kinetics.png
+- cte_vs_temperature.png
+- creep_anode.png
+- creep_electrolyte.png
+- creep_cathode.png
+- creep_parameters.png
+- elastic_properties.png
+
+总文件数: 28个CSV + 7个PNG + 配置文件 + 文档
+总数据大小: ~20MB (数据集) + ~2.7MB (图表)

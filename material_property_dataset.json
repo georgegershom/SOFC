@@ -1,0 +1,300 @@
+{
+  "dataset_info": {
+    "title": "SOFC Material Property & Constitutive Model Dataset",
+    "description": "Comprehensive dataset for Finite Element Modeling of Solid Oxide Fuel Cells",
+    "research_topic": "A Closed-Loop, Microstructure-Informed DIC-FEM Framework for the Real-Time Mitigation of Sintering Stresses in Solid Oxide Fuel Cells through Targeted Creep Activation",
+    "version": "1.0",
+    "date_created": "2024",
+    "temperature_range": {
+      "room_temperature": 25,
+      "operating_temperature": 800,
+      "sintering_temperature": 1350,
+      "unit": "Celsius"
+    }
+  },
+  
+  "layers": {
+    "anode": {
+      "material": "Ni-YSZ Cermet",
+      "thickness_micron": 300,
+      "green_state_properties": {
+        "density_kg_m3": 4200,
+        "porosity": 0.35,
+        "binder_content_wt_percent": 8.5,
+        "porogen_content_wt_percent": 5.2,
+        "initial_relative_density": 0.65
+      },
+      "sintering_kinetics": {
+        "description": "Dilatometry data for anode layer",
+        "sintering_temperature_range_c": [800, 1350],
+        "shrinkage_data_file": "sintering_kinetics_anode.csv"
+      },
+      "thermal_expansion": {
+        "coefficient_unit": "10^-6 per K",
+        "temperature_dependent_data_file": "cte_anode.csv",
+        "reference": {
+          "RT": 12.5,
+          "800C": 13.3,
+          "1350C": 13.8
+        }
+      },
+      "elastic_properties": {
+        "youngs_modulus_file": "elastic_anode.csv",
+        "poissons_ratio": {
+          "constant": 0.29,
+          "temperature_range": "25-1350C"
+        },
+        "density_dependence": {
+          "description": "Young's modulus as function of relative density and temperature",
+          "data_file": "elastic_density_anode.csv"
+        }
+      },
+      "creep_constitutive": {
+        "law": "Norton-Bailey",
+        "equation": "epsilon_dot = A * sigma^n * exp(-Q/(R*T))",
+        "parameters": {
+          "A_pre_exponential": {
+            "green_state": 1.2e-10,
+            "sintering_state": 5.8e-12,
+            "unit": "s^-1 MPa^-n"
+          },
+          "n_stress_exponent": {
+            "green_state": 2.1,
+            "sintering_state": 1.9,
+            "unit": "dimensionless"
+          },
+          "Q_activation_energy": {
+            "green_state": 420,
+            "sintering_state": 395,
+            "unit": "kJ/mol"
+          }
+        },
+        "test_conditions": {
+          "temperatures_c": [800, 1000, 1200],
+          "stress_range_mpa": [0.5, 1.0, 2.0, 5.0, 10.0],
+          "data_files": {
+            "800C": "creep_anode_800C.csv",
+            "1000C": "creep_anode_1000C.csv",
+            "1200C": "creep_anode_1200C.csv"
+          }
+        }
+      }
+    },
+    
+    "electrolyte": {
+      "material": "8YSZ (8 mol% Yttria Stabilized Zirconia)",
+      "thickness_micron": 150,
+      "green_state_properties": {
+        "density_kg_m3": 3800,
+        "porosity": 0.25,
+        "binder_content_wt_percent": 6.5,
+        "porogen_content_wt_percent": 3.8,
+        "initial_relative_density": 0.75
+      },
+      "sintering_kinetics": {
+        "description": "Dilatometry data for electrolyte layer and bi-layer couples",
+        "sintering_temperature_range_c": [1000, 1350],
+        "shrinkage_data_files": {
+          "single_layer": "sintering_kinetics_electrolyte.csv",
+          "bilayer_anode_electrolyte": "sintering_kinetics_anode_electrolyte.csv",
+          "bilayer_electrolyte_cathode": "sintering_kinetics_electrolyte_cathode.csv"
+        }
+      },
+      "thermal_expansion": {
+        "coefficient_unit": "10^-6 per K",
+        "temperature_dependent_data_file": "cte_electrolyte.csv",
+        "reference": {
+          "RT": 10.0,
+          "800C": 10.5,
+          "1350C": 11.2
+        }
+      },
+      "elastic_properties": {
+        "youngs_modulus_file": "elastic_electrolyte.csv",
+        "poissons_ratio": {
+          "constant": 0.23,
+          "temperature_range": "25-1350C"
+        },
+        "density_dependence": {
+          "description": "Young's modulus as function of relative density and temperature",
+          "data_file": "elastic_density_electrolyte.csv"
+        }
+      },
+      "creep_constitutive": {
+        "law": "Norton-Bailey",
+        "equation": "epsilon_dot = A * sigma^n * exp(-Q/(R*T))",
+        "parameters": {
+          "A_pre_exponential": {
+            "green_state": 2.5e-11,
+            "sintering_state": 8.5e-12,
+            "unit": "s^-1 MPa^-n"
+          },
+          "n_stress_exponent": {
+            "green_state": 1.9,
+            "sintering_state": 1.8,
+            "unit": "dimensionless"
+          },
+          "Q_activation_energy": {
+            "green_state": 410,
+            "sintering_state": 385,
+            "unit": "kJ/mol"
+          }
+        },
+        "test_conditions": {
+          "temperatures_c": [800, 1000, 1200],
+          "stress_range_mpa": [1.0, 2.0, 5.0, 10.0, 20.0],
+          "data_files": {
+            "800C": "creep_electrolyte_800C.csv",
+            "1000C": "creep_electrolyte_1000C.csv",
+            "1200C": "creep_electrolyte_1200C.csv"
+          }
+        }
+      }
+    },
+    
+    "cathode": {
+      "material": "LSM-YSZ Composite",
+      "thickness_micron": 50,
+      "green_state_properties": {
+        "density_kg_m3": 4500,
+        "porosity": 0.30,
+        "binder_content_wt_percent": 7.2,
+        "porogen_content_wt_percent": 4.5,
+        "initial_relative_density": 0.70
+      },
+      "sintering_kinetics": {
+        "description": "Dilatometry data for cathode layer",
+        "sintering_temperature_range_c": [850, 1350],
+        "shrinkage_data_file": "sintering_kinetics_cathode.csv"
+      },
+      "thermal_expansion": {
+        "coefficient_unit": "10^-6 per K",
+        "temperature_dependent_data_file": "cte_cathode.csv",
+        "reference": {
+          "RT": 11.5,
+          "800C": 12.0,
+          "1350C": 12.8
+        }
+      },
+      "elastic_properties": {
+        "youngs_modulus_file": "elastic_cathode.csv",
+        "poissons_ratio": {
+          "constant": 0.25,
+          "temperature_range": "25-1350C"
+        },
+        "density_dependence": {
+          "description": "Young's modulus as function of relative density and temperature",
+          "data_file": "elastic_density_cathode.csv"
+        }
+      },
+      "creep_constitutive": {
+        "law": "Norton-Bailey",
+        "equation": "epsilon_dot = A * sigma^n * exp(-Q/(R*T))",
+        "parameters": {
+          "A_pre_exponential": {
+            "green_state": 9.5e-11,
+            "sintering_state": 3.2e-12,
+            "unit": "s^-1 MPa^-n"
+          },
+          "n_stress_exponent": {
+            "green_state": 2.3,
+            "sintering_state": 2.0,
+            "unit": "dimensionless"
+          },
+          "Q_activation_energy": {
+            "green_state": 435,
+            "sintering_state": 405,
+            "unit": "kJ/mol"
+          }
+        },
+        "test_conditions": {
+          "temperatures_c": [800, 1000, 1200],
+          "stress_range_mpa": [0.5, 1.0, 2.0, 5.0, 10.0],
+          "data_files": {
+            "800C": "creep_cathode_800C.csv",
+            "1000C": "creep_cathode_1000C.csv",
+            "1200C": "creep_cathode_1200C.csv"
+          }
+        }
+      }
+    },
+    
+    "interconnect": {
+      "material": "Crofer 22 APU (Ferritic Stainless Steel)",
+      "thickness_mm": 2.0,
+      "green_state_properties": {
+        "description": "Not applicable - metallic interconnect",
+        "density_kg_m3": 7850,
+        "porosity": 0.0
+      },
+      "thermal_expansion": {
+        "coefficient_unit": "10^-6 per K",
+        "temperature_dependent_data_file": "cte_interconnect.csv",
+        "reference": {
+          "RT": 11.5,
+          "800C": 11.9,
+          "1350C": 12.5
+        }
+      },
+      "elastic_properties": {
+        "youngs_modulus_file": "elastic_interconnect.csv",
+        "poissons_ratio": {
+          "constant": 0.30,
+          "temperature_range": "25-1350C"
+        }
+      },
+      "creep_constitutive": {
+        "law": "Norton-Bailey",
+        "equation": "epsilon_dot = A * sigma^n * exp(-Q/(R*T))",
+        "parameters": {
+          "A_pre_exponential": 2.1e-8,
+          "n_stress_exponent": 3.2,
+          "Q_activation_energy": 285,
+          "unit": "s^-1 MPa^-n for A, dimensionless for n, kJ/mol for Q"
+        },
+        "test_conditions": {
+          "temperatures_c": [600, 800, 1000],
+          "stress_range_mpa": [5.0, 10.0, 20.0, 50.0],
+          "data_files": {
+            "600C": "creep_interconnect_600C.csv",
+            "800C": "creep_interconnect_800C.csv",
+            "1000C": "creep_interconnect_1000C.csv"
+          }
+        }
+      }
+    }
+  },
+  
+  "experimental_conditions": {
+    "dilatometry": {
+      "heating_rate_c_per_min": [2, 5, 10],
+      "dwell_time_minutes": [30, 60, 120],
+      "atmosphere": "Air or controlled gas environment"
+    },
+    "creep_testing": {
+      "apparatus": "Dilatometer or Thermo-Mechanical Analyzer (TMA)",
+      "test_mode": ["constant_load", "constant_stress"],
+      "loading_rate": "Quasi-static",
+      "data_acquisition_rate": "1 Hz minimum"
+    }
+  },
+  
+  "data_format": {
+    "sintering_kinetics": {
+      "columns": ["temperature_C", "time_minutes", "strain_dL_L0", "strain_rate_per_s", "relative_density"],
+      "description": "Shrinkage strain (dL/L0) as function of temperature and time"
+    },
+    "thermal_expansion": {
+      "columns": ["temperature_C", "cte_10minus6_per_K"],
+      "description": "Coefficient of Thermal Expansion vs Temperature"
+    },
+    "creep_data": {
+      "columns": ["time_seconds", "strain", "strain_rate_per_s", "stress_mpa", "temperature_C"],
+      "description": "Creep strain vs time at constant stress and temperature"
+    },
+    "elastic_properties": {
+      "columns": ["temperature_C", "relative_density", "youngs_modulus_gpa", "poissons_ratio"],
+      "description": "Elastic properties as function of temperature and relative density"
+    }
+  }
+}
