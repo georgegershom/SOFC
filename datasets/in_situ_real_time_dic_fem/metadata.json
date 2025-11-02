@@ -1,0 +1,59 @@
+{
+  "name": "In-Situ Real-Time DIC-FEM Synergized Dataset",
+  "version": "1.0.0",
+  "creation_timestamp": "2025-11-02T16:26:25.549874Z",
+  "generator_script": "generate_in_situ_dic_fem_dataset.py",
+  "description": "Synthetic dataset emulating closed-loop DIC and FEM measurements during sintering of a solid oxide fuel cell half-cell. Includes synchronized displacement, strain, stress, and residual fields for digital twin analytics.",
+  "time": {
+    "total_duration_s": 3600.0,
+    "time_step_s": 60.0,
+    "num_steps": 61
+  },
+  "grid": {
+    "points_x": 25,
+    "points_y": 25,
+    "extent_mm": 40.0,
+    "coordinate_system": "Cartesian surface coordinates with origin at sample center"
+  },
+  "fields": {
+    "dic_measurements": {
+      "file": "dic_stream/dic_measurements.csv",
+      "columns": {
+        "ux_dic_mm": "In-plane displacement along x (mm)",
+        "uy_dic_mm": "In-plane displacement along y (mm)",
+        "uz_dic_mm": "Out-of-plane displacement (mm)",
+        "exx_dic": "Normal strain xx from DIC",
+        "eyy_dic": "Normal strain yy from DIC",
+        "exy_dic": "Shear strain xy from DIC",
+        "speckle_contrast": "Speckle image contrast (0-1)",
+        "tracking_quality": "DIC correlation score (0-1)"
+      }
+    },
+    "fem_predictions": {
+      "file": "fem_simulation/fem_predictions.csv",
+      "columns": {
+        "ux_fem_mm": "Predicted displacement x from FEM (mm)",
+        "uy_fem_mm": "Predicted displacement y from FEM (mm)",
+        "uz_fem_mm": "Predicted displacement z from FEM (mm)",
+        "sigma_vm_mpa": "Von Mises stress (MPa)",
+        "plastic_strain": "Accumulated plastic strain",
+        "damage_parameter": "Damage variable (0-1)",
+        "relative_density": "Local relative density"
+      }
+    },
+    "residuals": {
+      "file": "residuals/residual_fields.csv",
+      "columns": {
+        "dux_mm": "DIC-FEM displacement residual x (mm)",
+        "duy_mm": "DIC-FEM displacement residual y (mm)",
+        "dexx": "DIC-FEM strain residual xx",
+        "error_energy_density": "Strain energy density of residuals"
+      }
+    }
+  },
+  "logs": {
+    "temperature_profile": "logs/temperature_profile.csv",
+    "digital_twin": "logs/digital_twin_log.json"
+  },
+  "notes": "Values are numerically fabricated to preserve plausible trends while avoiding proprietary experimental data. Speckle frames are generated synthetically when Pillow is available."
+}
