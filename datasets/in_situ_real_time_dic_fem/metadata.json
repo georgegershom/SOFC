@@ -1,0 +1,68 @@
+{
+  "dataset_name": "In-Situ Real-Time DIC-FEM Synergized Dataset (Synthetic)",
+  "created_at": "2025-11-02T16:28:01.243068Z",
+  "generator_script": "scripts/generate_in_situ_dic_fem_dataset.py",
+  "random_seed": 2025,
+  "time_steps": 120,
+  "frame_rate_hz": 0.016527777777777777,
+  "duration_s": 7200.0,
+  "temperature_range_c": [
+    25.0,
+    1300.0
+  ],
+  "grid": {
+    "size": {
+      "ny": 48,
+      "nx": 48
+    },
+    "span_mm": {
+      "y": 20.0,
+      "x": 20.0
+    },
+    "spacing_mm": {
+      "dy": 0.425531914893617,
+      "dx": 0.425531914893617
+    }
+  },
+  "fields": {
+    "dic": [
+      "ux",
+      "uy",
+      "uz",
+      "exx",
+      "eyy",
+      "exy"
+    ],
+    "fem": [
+      "ux",
+      "uy",
+      "uz",
+      "exx",
+      "eyy",
+      "exy",
+      "sxx",
+      "syy",
+      "sxy",
+      "svm",
+      "plastic_strain",
+      "damage",
+      "relative_density",
+      "densification",
+      "creep_activation"
+    ],
+    "residuals": [
+      "ux",
+      "uy",
+      "uz",
+      "exx",
+      "eyy",
+      "exy"
+    ]
+  },
+  "experiment_context": {
+    "furnace": "???????????",
+    "camera": "???????? + ????????? 2048x2048",
+    "speckle_pattern": "??????/???????",
+    "notes": "???????????? DIC-FEM ????"
+  }
+}
