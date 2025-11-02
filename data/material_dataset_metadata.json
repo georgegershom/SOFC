@@ -1,0 +1,58 @@
+{
+  "dataset_name": "SOFC_Material_Property_and_Constitutive_Library",
+  "reference_topic": "A Closed-Loop, Microstructure-Informed DIC-FEM Framework for the Real-Time Mitigation of Sintering Stresses in Solid Oxide Fuel Cells through Targeted Creep Activation",
+  "version": "0.1.0",
+  "generated_on": "2025-11-02",
+  "temperature_range_C": [25, 1300],
+  "layers": [
+    "anode_Ni-YSZ",
+    "electrolyte_8YSZ",
+    "cathode_LSM-YSZ",
+    "interconnect_Crofer22APU"
+  ],
+  "files": {
+    "material_properties.csv": {
+      "description": "Temperature-dependent bulk properties in the green-to-sintered transition, including porosity and binder content for each layer.",
+      "units": {
+        "temperature_C": "degree Celsius",
+        "density_kg_m3": "kilogram per cubic meter",
+        "porosity_fraction": "volume fraction",
+        "binder_content_wt_pct": "weight percent",
+        "thermal_conductivity_W_mK": "watt per meter-kelvin",
+        "specific_heat_J_kgK": "joule per kilogram-kelvin",
+        "cte_1e-6_perK": "micrometer per meter per kelvin"
+      }
+    },
+    "sintering_kinetics.csv": {
+      "description": "Dilatometry-style shrinkage curves for single-layer and bi-layer coupons under multiple sintering schedules.",
+      "units": {
+        "time_min": "minute",
+        "axial_shrinkage_percent": "percent",
+        "radial_shrinkage_percent": "percent"
+      }
+    },
+    "creep_tests.csv": {
+      "description": "Constant-stress creep responses for green and sintering states, suitable for fitting Norton-Bailey parameters.",
+      "units": {
+        "stress_MPa": "megapascal",
+        "creep_rate_1_per_hr": "per hour",
+        "creep_strain_percent_after_1hr": "percent",
+        "creep_strain_percent_after_10hr": "percent"
+      }
+    },
+    "elastic_properties.csv": {
+      "description": "Young's modulus and Poisson's ratio as a function of relative density and temperature for all layers.",
+      "units": {
+        "relative_density": "fraction of theoretical density",
+        "youngs_modulus_GPa": "gigapascal",
+        "poissons_ratio": "dimensionless"
+      }
+    }
+  },
+  "quality_notes": [
+    "Values reflect literature ranges and SOFC processing heuristics; treat them as calibrated starting points for FEM.",
+    "Calibrate creep parameters (A, n, Q) with in-house tests before design release.",
+    "Sintering shrinkage entries assume isotropic contraction without chemical expansion effects.",
+    "Use for research and simulation only; do not substitute for qualified material certification."
+  ]
+}
