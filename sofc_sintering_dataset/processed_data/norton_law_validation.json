@@ -1,0 +1,103 @@
+{
+  "validation_date": "2025-11-01",
+  "materials": {
+    "anode": {
+      "material_name": "Ni-YSZ",
+      "average_n": 1.1675329063599769,
+      "n_std": 0.0011368026182000614,
+      "activation_energy_kJ_mol": 66.78654823532518,
+      "frequency_factor_A0": 0.007574902234245063,
+      "average_fit_quality_R2": 0.9999405675184653,
+      "temperature_data": [
+        {
+          "temperature_C": 800,
+          "n": 1.1661598295653484,
+          "A": 4.276089429158684e-06,
+          "R_squared": 0.9999418265990265,
+          "avg_error_percent": 0.6400846301311646
+        },
+        {
+          "temperature_C": 1000,
+          "n": 1.16894365147927,
+          "A": 1.3585758072210502e-05,
+          "R_squared": 0.9999424055706342,
+          "avg_error_percent": 0.6376751929072974
+        },
+        {
+          "temperature_C": 1200,
+          "n": 1.167495238035312,
+          "A": 3.271207661877933e-05,
+          "R_squared": 0.9999374703857353,
+          "avg_error_percent": 0.662287171506976
+        }
+      ]
+    },
+    "electrolyte": {
+      "material_name": "8YSZ",
+      "average_n": 1.168445708142517,
+      "n_std": 7.432921269100084e-05,
+      "activation_energy_kJ_mol": 90.26799156197714,
+      "frequency_factor_A0": 0.027304541691214365,
+      "average_fit_quality_R2": 0.9999279118813664,
+      "temperature_data": [
+        {
+          "temperature_C": 1000,
+          "n": 1.1683936395453651,
+          "A": 5.4757202983968295e-06,
+          "R_squared": 0.9999312816852686,
+          "avg_error_percent": 0.6953027481991405
+        },
+        {
+          "temperature_C": 1200,
+          "n": 1.1683926608776167,
+          "A": 1.6582031627632406e-05,
+          "R_squared": 0.9999285209355568,
+          "avg_error_percent": 0.7046378541805874
+        },
+        {
+          "temperature_C": 1350,
+          "n": 1.1685508240045694,
+          "A": 3.476539485041725e-05,
+          "R_squared": 0.9999239330232741,
+          "avg_error_percent": 0.7303253477156364
+        }
+      ]
+    },
+    "cathode": {
+      "material_name": "LSM-YSZ",
+      "average_n": 1.1686840845832407,
+      "n_std": 0.0005983233178095804,
+      "activation_energy_kJ_mol": 63.292048392624416,
+      "frequency_factor_A0": 0.005694395151940006,
+      "average_fit_quality_R2": 0.9999188800359257,
+      "temperature_data": [
+        {
+          "temperature_C": 900,
+          "n": 1.1679738305822123,
+          "A": 8.669900037965746e-06,
+          "R_squared": 0.9999289565950287,
+          "avg_error_percent": 0.7097064972300577
+        },
+        {
+          "temperature_C": 1100,
+          "n": 1.1694375087460211,
+          "A": 2.2180187543577125e-05,
+          "R_squared": 0.9999214607134893,
+          "avg_error_percent": 0.7458288358102522
+        },
+        {
+          "temperature_C": 1300,
+          "n": 1.1686409144214889,
+          "A": 4.5169269828948296e-05,
+          "R_squared": 0.9999062227992592,
+          "avg_error_percent": 0.8086850433918146
+        }
+      ]
+    }
+  },
+  "notes": [
+    "?????Norton????n?????2-2.5?????????",
+    "???Q???????(180-350 kJ/mol)???????",
+    "????R????0.99???Norton????????????"
+  ]
+}

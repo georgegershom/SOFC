@@ -1,0 +1,229 @@
+{
+  "metadata": {
+    "dataset_version": "1.0",
+    "generation_date": "2025-11-01",
+    "description": "SOFC???????????????",
+    "reference": "A Closed-Loop, Microstructure-Informed DIC-FEM Framework"
+  },
+  "anode": {
+    "material": "Ni-YSZ",
+    "composition": "60wt% NiO - 40wt% 8YSZ",
+    "creep_parameters": {
+      "model": "Norton Power Law",
+      "equation": "epsilon_dot = A * sigma^n * exp(-Q/RT)",
+      "temperature_ranges": [
+        {
+          "range_C": "700-900",
+          "A_prefactor": 2.45e-9,
+          "A_units": "MPa^-n s^-1",
+          "n_stress_exponent": 2.15,
+          "Q_activation_energy_kJ_mol": 185.5,
+          "relative_density_range": [0.60, 0.75],
+          "notes": "?????????"
+        },
+        {
+          "range_C": "900-1100",
+          "A_prefactor": 8.72e-8,
+          "A_units": "MPa^-n s^-1",
+          "n_stress_exponent": 2.35,
+          "Q_activation_energy_kJ_mol": 245.8,
+          "relative_density_range": [0.70, 0.85],
+          "notes": "??????"
+        },
+        {
+          "range_C": "1100-1400",
+          "A_prefactor": 3.15e-7,
+          "A_units": "MPa^-n s^-1",
+          "n_stress_exponent": 2.08,
+          "Q_activation_energy_kJ_mol": 298.2,
+          "relative_density_range": [0.85, 0.98],
+          "notes": "??????"
+        }
+      ],
+      "density_correction_factor": {
+        "model": "exponential",
+        "equation": "A_eff = A * exp(b * (rho - rho_0))",
+        "b_parameter": 4.85,
+        "rho_0": 0.60
+      }
+    },
+    "elastic_properties": {
+      "model": "Temperature and density dependent",
+      "reference_modulus_GPa": 168.2,
+      "reference_temperature_C": 25,
+      "reference_density": 0.98,
+      "temperature_coefficient": -0.052,
+      "density_exponent": 2.85,
+      "poissons_ratio": {
+        "base_value": 0.24,
+        "temperature_coefficient": 0.00006,
+        "density_coefficient": -0.08
+      }
+    },
+    "thermal_properties": {
+      "CTE_base_1E-6_K": 11.2,
+      "CTE_temperature_coefficient": 0.0021,
+      "thermal_conductivity_W_mK": {
+        "25C": 3.2,
+        "400C": 2.8,
+        "800C": 2.5,
+        "1200C": 2.3
+      }
+    }
+  },
+  "electrolyte": {
+    "material": "8YSZ",
+    "composition": "8mol% Y2O3-stabilized ZrO2",
+    "creep_parameters": {
+      "model": "Norton Power Law",
+      "equation": "epsilon_dot = A * sigma^n * exp(-Q/RT)",
+      "temperature_ranges": [
+        {
+          "range_C": "900-1100",
+          "A_prefactor": 9.85e-10,
+          "A_units": "MPa^-n s^-1",
+          "n_stress_exponent": 1.85,
+          "Q_activation_energy_kJ_mol": 215.3,
+          "relative_density_range": [0.55, 0.75],
+          "notes": "???????"
+        },
+        {
+          "range_C": "1100-1300",
+          "A_prefactor": 4.52e-9,
+          "A_units": "MPa^-n s^-1",
+          "n_stress_exponent": 1.95,
+          "Q_activation_energy_kJ_mol": 285.6,
+          "relative_density_range": [0.75, 0.95],
+          "notes": "???????"
+        },
+        {
+          "range_C": "1300-1450",
+          "A_prefactor": 1.78e-8,
+          "A_units": "MPa^-n s^-1",
+          "n_stress_exponent": 1.78,
+          "Q_activation_energy_kJ_mol": 342.8,
+          "relative_density_range": [0.95, 0.999],
+          "notes": "?????"
+        }
+      ],
+      "density_correction_factor": {
+        "model": "exponential",
+        "equation": "A_eff = A * exp(b * (rho - rho_0))",
+        "b_parameter": 5.25,
+        "rho_0": 0.55
+      }
+    },
+    "elastic_properties": {
+      "model": "Temperature and density dependent",
+      "reference_modulus_GPa": 215.2,
+      "reference_temperature_C": 25,
+      "reference_density": 0.99,
+      "temperature_coefficient": -0.062,
+      "density_exponent": 3.15,
+      "poissons_ratio": {
+        "base_value": 0.26,
+        "temperature_coefficient": 0.00008,
+        "density_coefficient": -0.09
+      }
+    },
+    "thermal_properties": {
+      "CTE_base_1E-6_K": 10.2,
+      "CTE_temperature_coefficient": 0.0014,
+      "thermal_conductivity_W_mK": {
+        "25C": 2.7,
+        "400C": 2.3,
+        "800C": 2.1,
+        "1200C": 2.0
+      }
+    }
+  },
+  "cathode": {
+    "material": "LSM-YSZ",
+    "composition": "50wt% La0.8Sr0.2MnO3 - 50wt% 8YSZ",
+    "creep_parameters": {
+      "model": "Norton Power Law",
+      "equation": "epsilon_dot = A * sigma^n * exp(-Q/RT)",
+      "temperature_ranges": [
+        {
+          "range_C": "800-1000",
+          "A_prefactor": 3.85e-9,
+          "A_units": "MPa^-n s^-1",
+          "n_stress_exponent": 2.25,
+          "Q_activation_energy_kJ_mol": 195.8,
+          "relative_density_range": [0.54, 0.70],
+          "notes": "???????"
+        },
+        {
+          "range_C": "1000-1200",
+          "A_prefactor": 1.52e-7,
+          "A_units": "MPa^-n s^-1",
+          "n_stress_exponent": 2.42,
+          "Q_activation_energy_kJ_mol": 258.5,
+          "relative_density_range": [0.70, 0.88],
+          "notes": "??????"
+        },
+        {
+          "range_C": "1200-1350",
+          "A_prefactor": 5.28e-7,
+          "A_units": "MPa^-n s^-1",
+          "n_stress_exponent": 2.18,
+          "Q_activation_energy_kJ_mol": 312.5,
+          "relative_density_range": [0.88, 0.95],
+          "notes": "??????"
+        }
+      ],
+      "density_correction_factor": {
+        "model": "exponential",
+        "equation": "A_eff = A * exp(b * (rho - rho_0))",
+        "b_parameter": 4.65,
+        "rho_0": 0.54
+      }
+    },
+    "elastic_properties": {
+      "model": "Temperature and density dependent",
+      "reference_modulus_GPa": 175.8,
+      "reference_temperature_C": 25,
+      "reference_density": 0.95,
+      "temperature_coefficient": -0.058,
+      "density_exponent": 2.95,
+      "poissons_ratio": {
+        "base_value": 0.25,
+        "temperature_coefficient": 0.00007,
+        "density_coefficient": -0.085
+      }
+    },
+    "thermal_properties": {
+      "CTE_base_1E-6_K": 11.8,
+      "CTE_temperature_coefficient": 0.0018,
+      "thermal_conductivity_W_mK": {
+        "25C": 2.5,
+        "400C": 2.2,
+        "800C": 2.0,
+        "1200C": 1.9
+      }
+    }
+  },
+  "interface_properties": {
+    "anode_electrolyte": {
+      "interfacial_energy_J_m2": 0.85,
+      "diffusion_coefficient_m2_s": 2.5e-14,
+      "activation_energy_kJ_mol": 235.0,
+      "stress_threshold_MPa": 15.0,
+      "notes": "????????????"
+    },
+    "cathode_electrolyte": {
+      "interfacial_energy_J_m2": 0.72,
+      "diffusion_coefficient_m2_s": 3.2e-14,
+      "activation_energy_kJ_mol": 225.0,
+      "stress_threshold_MPa": 12.0,
+      "notes": "????"
+    }
+  },
+  "simulation_parameters": {
+    "recommended_element_size_um": 10,
+    "time_step_s": 1.0,
+    "convergence_criterion": 1e-5,
+    "material_point_integration": 4,
+    "notes": "??Abaqus/Comsol FEM???????"
+  }
+}
