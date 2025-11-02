@@ -1,0 +1,46 @@
+{
+  "Linear_Elastic": {
+    "model_type": "elastic",
+    "parameters": {
+      "E_function": "E(T) = E0 - alpha_E * (T - T0)",
+      "E0_GPa": 200,
+      "alpha_E_GPa_perK": 0.0375,
+      "T0_K": 298,
+      "nu": 0.23
+    }
+  },
+  "Viscoelastic_Norton_Bailey": {
+    "model_type": "viscoelastic",
+    "parameters": {
+      "creep_law": "epsilon_dot = B * sigma^n * exp(-Q/RT)",
+      "B": 8.5e-12,
+      "n": 1.8,
+      "Q_J_per_mol": 385000,
+      "R_J_per_molK": 8.314,
+      "elastic_properties": {
+        "E0_GPa": 200,
+        "alpha_E_GPa_perK": 0.0375,
+        "nu": 0.23
+      }
+    }
+  },
+  "Generalized_Maxwell": {
+    "model_type": "viscoelastic_multiple_relaxation",
+    "parameters": {
+      "relaxation_times_s": [
+        100.0,
+        10000.0,
+        1000000.0,
+        100000000.0
+      ],
+      "relaxation_moduli_GPa": [
+        5,
+        10,
+        15,
+        20
+      ],
+      "equilibrium_modulus_GPa": 170,
+      "Poisson_ratio": 0.23
+    }
+  }
+}

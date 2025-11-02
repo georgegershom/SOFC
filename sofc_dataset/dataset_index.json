@@ -1,0 +1,21 @@
+{
+  "dataset_name": "SOFC_Microstructure_Informed_Dataset",
+  "description": "??????????DIC-FEM????????",
+  "generation_date": "2025-11-02T01:16:37.227959",
+  "research_topic": "A Closed-Loop, Microstructure-Informed DIC-FEM Framework for the Real-Time Mitigation of Sintering Stresses in Solid Oxide Fuel Cells through Targeted Creep Activation",
+  "contents": {
+    "material_properties": "material_properties",
+    "constitutive_models": "constitutive_models",
+    "sem_images": "SEM_images",
+    "muct_initial": "muCT_initial",
+    "muct_sintered": "muCT_sintered",
+    "eds_maps": "EDS_maps",
+    "fem_geometry": "FEM_geometry"
+  },
+  "file_counts": {
+    "sem_images": 4,
+    "muct_files": 2,
+    "eds_maps": 6,
+    "fem_geometries": 3
+  }
+}

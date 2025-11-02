@@ -1,0 +1,31 @@
+{
+  "cell_dimensions_mm": {
+    "length": 100,
+    "width": 100
+  },
+  "layer_thicknesses_um": {
+    "anode": 300,
+    "electrolyte": 150,
+    "cathode": 50
+  },
+  "mesh_parameters": {
+    "density": "fine",
+    "elements_per_mm": 10,
+    "total_elements_x": 1000,
+    "total_elements_y": 1000,
+    "elements_per_layer": {
+      "anode": 16,
+      "electrolyte": 16,
+      "cathode": 8
+    },
+    "total_elements": 40000000
+  },
+  "geometric_features": {
+    "chamfer_radius_mm": 0.5,
+    "via_holes": {
+      "present": true,
+      "diameter_mm": 1.0,
+      "locations": []
+    }
+  }
+}

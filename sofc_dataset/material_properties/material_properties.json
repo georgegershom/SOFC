@@ -1,0 +1,108 @@
+{
+  "8YSZ_Electrolyte": {
+    "Young_Modulus_GPa": {
+      "RT": 200,
+      "800C": 170,
+      "equation": "linear"
+    },
+    "Poisson_Ratio": {
+      "RT": 0.23,
+      "800C": 0.23,
+      "equation": "constant"
+    },
+    "CTE_1e6_perK": {
+      "RT": 10.0,
+      "800C": 10.5,
+      "equation": "linear"
+    },
+    "Thermal_Conductivity_W_mK": {
+      "RT": 2.1,
+      "800C": 2.3,
+      "equation": "linear"
+    },
+    "Density_kg_m3": 5900,
+    "Fracture_Strength_MPa": 165,
+    "Fracture_Toughness_MPa_sqrtm": 3.0,
+    "Creep_Parameters": {
+      "B": 8.5e-12,
+      "n": 1.8,
+      "Q": 385000
+    }
+  },
+  "Ni_YSZ_Anode": {
+    "Young_Modulus_GPa": {
+      "RT": 55,
+      "800C": 29,
+      "equation": "exponential"
+    },
+    "Poisson_Ratio": {
+      "RT": 0.29,
+      "800C": 0.29,
+      "equation": "constant"
+    },
+    "CTE_1e6_perK": {
+      "RT": 12.5,
+      "800C": 13.3,
+      "equation": "linear"
+    },
+    "Thermal_Conductivity_W_mK": {
+      "RT": 6.0,
+      "800C": 4.5,
+      "equation": "linear"
+    },
+    "Density_kg_m3": 6400,
+    "Porosity": 0.25,
+    "Ni_content_vol": 0.4
+  },
+  "LSM_Cathode": {
+    "Young_Modulus_GPa": {
+      "RT": 45,
+      "800C": 40,
+      "equation": "linear"
+    },
+    "Poisson_Ratio": {
+      "RT": 0.25,
+      "800C": 0.25,
+      "equation": "constant"
+    },
+    "CTE_1e6_perK": {
+      "RT": 11.5,
+      "800C": 12.0,
+      "equation": "linear"
+    },
+    "Thermal_Conductivity_W_mK": {
+      "RT": 3.5,
+      "800C": 2.8,
+      "equation": "linear"
+    },
+    "Density_kg_m3": 5800,
+    "Porosity": 0.3
+  },
+  "Crofer22APU_Interconnect": {
+    "Young_Modulus_GPa": {
+      "RT": 160,
+      "800C": 140,
+      "equation": "linear"
+    },
+    "Poisson_Ratio": {
+      "RT": 0.3,
+      "800C": 0.3,
+      "equation": "constant"
+    },
+    "CTE_1e6_perK": {
+      "RT": 11.5,
+      "800C": 11.9,
+      "equation": "linear"
+    },
+    "Density_kg_m3": 7700,
+    "Yield_Strength_MPa": {
+      "RT": 450,
+      "800C": 180
+    },
+    "Creep_Parameters": {
+      "A": 1.5e-20,
+      "n": 5.2,
+      "Q": 280000
+    }
+  }
+}
