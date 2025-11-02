@@ -1,0 +1,25 @@
+{
+  "dataset_name": "SOFC Co-Sintering Material Property & Constitutive Model Dataset",
+  "generation_date": "2025-11-02 00:51:03",
+  "research_topic": "A Closed-Loop, Microstructure-Informed DIC-FEM Framework for Real-Time Mitigation of Sintering Stresses",
+  "materials": {
+    "anode": "NiO-YSZ",
+    "electrolyte": "8YSZ",
+    "cathode": "LSM-YSZ",
+    "interconnect": "Crofer22APU"
+  },
+  "temperature_range_C": [
+    25.0,
+    1400.0
+  ],
+  "description": "Comprehensive material property dataset for FEM simulation of SOFC co-sintering process",
+  "data_files": {
+    "green_state": "thermal_physical/green_state_properties.json",
+    "sintering_kinetics": "sintering_kinetics/*.csv",
+    "cte_data": "thermal_physical/*_CTE.csv",
+    "creep_tests": "creep_data/*_creep_tests.json",
+    "norton_parameters": "constitutive_parameters/norton_law_parameters.json",
+    "elastic_properties": "elastic_properties/*_elastic_properties.csv",
+    "density_evolution": "sintering_kinetics/*_density_evolution.csv"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "anode": {
+    "material": "NiO-YSZ",
+    "density_green": 3.2,
+    "porosity_green": 45.0,
+    "relative_density": 55.0,
+    "binder_content": 4.797719913927095,
+    "porogen_content": 15.0,
+    "particle_size_d50": 0.8,
+    "specific_surface_area": 8.5,
+    "green_strength": 1.9469034566808239
+  },
+  "electrolyte": {
+    "material": "8YSZ",
+    "density_green": 3.0,
+    "porosity_green": 35.0,
+    "relative_density": 65.0,
+    "binder_content": 3.159785682941275,
+    "porogen_content": 0.0,
+    "particle_size_d50": 0.5,
+    "specific_surface_area": 12.0,
+    "green_strength": 3.419816489557136
+  },
+  "cathode": {
+    "material": "LSM-YSZ",
+    "density_green": 3.5,
+    "porosity_green": 40.0,
+    "relative_density": 60.0,
+    "binder_content": 4.407123144794879,
+    "porogen_content": 10.0,
+    "particle_size_d50": 1.0,
+    "specific_surface_area": 6.0,
+    "green_strength": 2.0557262557967135
+  }
+}

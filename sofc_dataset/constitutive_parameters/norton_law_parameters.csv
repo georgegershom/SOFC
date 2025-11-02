@@ -1,0 +1,4 @@
+,material,A_pre_exponential,n_stress_exponent,Q_activation_energy,R_gas_constant,valid_temp_range_C,valid_stress_range_MPa,confidence_interval_95
+anode,NiO-YSZ,1.5e-05,2.2,450,8.314,"[800, 1400]","[0.1, 10.0]","{'A': [1.2e-05, 1.8e-05], 'n': [2.0, 2.4000000000000004], 'Q': [430, 470]}"
+electrolyte,8YSZ,8e-07,1.8,520,8.314,"[800, 1400]","[0.1, 10.0]","{'A': [6.4e-07, 9.6e-07], 'n': [1.6, 2.0], 'Q': [500, 540]}"
+cathode,LSM-YSZ,2.5e-05,2.5,420,8.314,"[800, 1400]","[0.1, 10.0]","{'A': [2e-05, 3e-05], 'n': [2.3, 2.7], 'Q': [400, 440]}"
