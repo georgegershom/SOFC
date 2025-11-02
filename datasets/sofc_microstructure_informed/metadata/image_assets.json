@@ -1,0 +1,82 @@
+{
+  "images": [
+    {
+      "name": "sem_cross_section_z016",
+      "description": "SEM-like grayscale slice at z-index 16",
+      "pixel_size_m": [
+        2e-07,
+        2e-07
+      ],
+      "array_shape": [
+        96,
+        96
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "sem_cross_section_z032",
+      "description": "SEM-like grayscale slice at z-index 32",
+      "pixel_size_m": [
+        2e-07,
+        2e-07
+      ],
+      "array_shape": [
+        96,
+        96
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "sem_cross_section_z064",
+      "description": "SEM-like grayscale slice at z-index 64",
+      "pixel_size_m": [
+        2e-07,
+        2e-07
+      ],
+      "array_shape": [
+        96,
+        96
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "strain_mapped_sem_z016",
+      "description": "Post-sintering strain mapped pseudo-SEM at z-index 16",
+      "pixel_size_m": [
+        2e-07,
+        2e-07
+      ],
+      "array_shape": [
+        96,
+        96
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "strain_mapped_sem_z032",
+      "description": "Post-sintering strain mapped pseudo-SEM at z-index 32",
+      "pixel_size_m": [
+        2e-07,
+        2e-07
+      ],
+      "array_shape": [
+        96,
+        96
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "strain_mapped_sem_z064",
+      "description": "Post-sintering strain mapped pseudo-SEM at z-index 64",
+      "pixel_size_m": [
+        2e-07,
+        2e-07
+      ],
+      "array_shape": [
+        96,
+        96
+      ],
+      "dtype": "float32"
+    }
+  ]
+}

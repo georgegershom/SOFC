@@ -1,0 +1,40 @@
+{
+  "electrolyte": {
+    "linear_elastic": {
+      "E_ref_GPa": 205.0,
+      "dEdT_GPa_per_C": -0.04,
+      "poisson_ratio": 0.23
+    },
+    "norton_bailey_creep": {
+      "pre_exponential_B": 8.5e-12,
+      "stress_exponent_n": 1.85,
+      "activation_energy_Jmol": 385000.0,
+      "reference_temperature_C": 1000
+    },
+    "targeted_creep_activation": {
+      "strategy": "Temperature-gradient guided relaxation",
+      "activation_temperature_C": 860,
+      "control_variable": "volumetric strain energy density"
+    }
+  },
+  "anode": {
+    "viscoplastic": {
+      "yield_strength_MPa": 48,
+      "hardening_modulus_MPa": 120,
+      "creep_B": 2.4e-10,
+      "creep_n": 2.1
+    }
+  },
+  "cathode": {
+    "kelvin_voigt": {
+      "instantaneous_modulus_GPa": 50.0,
+      "viscosity_GPa_s": 35000.0
+    }
+  },
+  "interconnect": {
+    "linear_elastic": {
+      "E_ref_GPa": 165.0,
+      "poisson_ratio": 0.3
+    }
+  }
+}

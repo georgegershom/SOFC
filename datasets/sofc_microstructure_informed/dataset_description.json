@@ -1,0 +1,40 @@
+{
+  "dataset_name": "SOFC Microstructure-Informed Sintering Dataset",
+  "version": "v1.0.0",
+  "seed": 42,
+  "topic": "A Closed-Loop, Microstructure-Informed DIC-FEM Framework for the Real-Time Mitigation of Sintering Stresses in Solid Oxide Fuel Cells through Targeted Creep Activation",
+  "volumes": [
+    {
+      "name": "microCT_volume_unfired",
+      "description": "3D porosity and grain identifiers for the unfired laminate",
+      "units": "binary (solid=1, pore=0) and arbitrary",
+      "voxel_spacing_m": [
+        2.5e-06,
+        2.5e-06,
+        2.5e-06
+      ],
+      "array_shape": [
+        96,
+        96,
+        96
+      ],
+      "dtype": "uint8"
+    },
+    {
+      "name": "microCT_volume_sintered",
+      "description": "3D porosity and volumetric strain fields after sintering",
+      "units": "binary (solid=1, pore=0) and strain",
+      "voxel_spacing_m": [
+        2.5e-06,
+        2.5e-06,
+        2.5e-06
+      ],
+      "array_shape": [
+        96,
+        96,
+        96
+      ],
+      "dtype": "uint8"
+    }
+  ]
+}

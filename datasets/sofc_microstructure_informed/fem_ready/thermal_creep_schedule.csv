@@ -1,0 +1,6 @@
+step,start_temperature_C,end_temperature_C,rate_C_per_min,dwell_minutes,creep_activation
+sintering_cooldown,1350,25,-2.0,0,inactive
+steady_operation,800,800,0.0,0,targeted
+thermal_cycle_1,25,800,5.0,120,targeted
+thermal_cycle_2,25,800,5.0,120,targeted
+thermal_cycle_3,25,800,5.0,120,targeted
