@@ -1,0 +1,69 @@
+{
+  "dataset": "microstructure_informed_SOFC",
+  "version": 1,
+  "files": {
+    "initial_state/stats.json": {
+      "size_bytes": 163
+    },
+    "initial_state/microstructure.npz": {
+      "size_bytes": 3589251
+    },
+    "initial_state/density_field.npz": {
+      "size_bytes": 3356670
+    },
+    "material_properties/creep_calibration.csv": {
+      "size_bytes": 277
+    },
+    "material_properties/constitutive_models.json": {
+      "size_bytes": 1788
+    },
+    "post_sinter/stats.json": {
+      "size_bytes": 168
+    },
+    "post_sinter/interface_displacement.npz": {
+      "size_bytes": 212930
+    },
+    "post_sinter/microstructure.npz": {
+      "size_bytes": 2975324
+    },
+    "post_sinter/density_field.npz": {
+      "size_bytes": 2619859
+    },
+    "documentation/README.md": {
+      "size_bytes": 776
+    },
+    "documentation/data_dictionary.md": {
+      "size_bytes": 562
+    },
+    "fem_model/boundary_conditions.json": {
+      "size_bytes": 149
+    },
+    "fem_model/mesh_nodes.csv": {
+      "size_bytes": 308964
+    },
+    "fem_model/mesh_elements.csv": {
+      "size_bytes": 419723
+    },
+    "fem_model/mesh_material_tags.csv": {
+      "size_bytes": 72642
+    },
+    "initial_state/sem_eds/unfired_eds_maps.npz": {
+      "size_bytes": 1412
+    },
+    "initial_state/sem/unfired_laminate_y064.pgm": {
+      "size_bytes": 32642
+    },
+    "initial_state/sem/unfired_cross_section_z032.pgm": {
+      "size_bytes": 64250
+    },
+    "post_sinter/sem_eds/sintered_eds_maps.npz": {
+      "size_bytes": 1291
+    },
+    "post_sinter/sem/sintered_laminate_y064.pgm": {
+      "size_bytes": 32782
+    },
+    "post_sinter/sem/sintered_cross_section_z032.pgm": {
+      "size_bytes": 65551
+    }
+  }
+}

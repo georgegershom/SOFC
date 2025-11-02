@@ -1,0 +1,86 @@
+{
+  "materials": [
+    {
+      "name": "8YSZ Electrolyte",
+      "id": 2,
+      "density": 5900,
+      "poisson_ratio": 0.23,
+      "thermal_expansion": {
+        "300K": 1e-05,
+        "1073K": 1.05e-05
+      },
+      "youngs_modulus": {
+        "300K": 200000000000.0,
+        "1073K": 170000000000.0
+      },
+      "creep": {
+        "model": "Norton-Bailey",
+        "parameters": {
+          "B": 8.5e-12,
+          "n": 1.8,
+          "Q": 385000.0,
+          "reference_temperature": 1573
+        }
+      }
+    },
+    {
+      "name": "Ni-YSZ Anode",
+      "id": 1,
+      "density": 4200,
+      "poisson_ratio": 0.29,
+      "thermal_expansion": {
+        "300K": 1.25e-05,
+        "1073K": 1.33e-05
+      },
+      "youngs_modulus": {
+        "300K": 55000000000.0,
+        "1073K": 29000000000.0
+      }
+    },
+    {
+      "name": "LSM Cathode",
+      "id": 3,
+      "density": 5200,
+      "poisson_ratio": 0.25,
+      "thermal_expansion": {
+        "300K": 1.15e-05,
+        "1073K": 1.2e-05
+      },
+      "youngs_modulus": {
+        "300K": 45000000000.0,
+        "1073K": 40000000000.0
+      }
+    },
+    {
+      "name": "Crofer 22 APU",
+      "id": 4,
+      "density": 7700,
+      "poisson_ratio": 0.3,
+      "thermal_expansion": {
+        "300K": 1.15e-05,
+        "1073K": 1.19e-05
+      },
+      "youngs_modulus": {
+        "300K": 160000000000.0,
+        "1073K": 140000000000.0
+      }
+    }
+  ],
+  "boundary_conditions": {
+    "assembly_pressure_MPa": 0.2,
+    "thermal_profile": {
+      "sintering_cooldown": {
+        "start_K": 1623,
+        "end_K": 298,
+        "rate_K_per_min": 2
+      },
+      "steady_operation": 1073,
+      "thermal_cycle": {
+        "min_K": 298,
+        "max_K": 1073,
+        "ramp_K_per_min": 5,
+        "dwell_min": 120
+      }
+    }
+  }
+}
