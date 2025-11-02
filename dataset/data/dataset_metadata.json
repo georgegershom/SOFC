@@ -1,0 +1,55 @@
+{
+  "dataset_name": "SOFC Sintering Creep Activation Synthetic Dataset",
+  "version": "1.0.0",
+  "generated_by": "generate_material_dataset.py",
+  "article_reference": {
+    "title": "A Closed-Loop, Microstructure-Informed DIC-FEM Framework for the Real-Time Mitigation of Sintering Stresses in Solid Oxide Fuel Cells through Targeted Creep Activation",
+    "journal": "Advanced Energy Materials (hypothetical context)",
+    "notes": "Parameter ranges and coupling assumptions informed by the methodology described in the reference article. Values are synthetic and intended for simulation and algorithm development."
+  },
+  "materials": {
+    "anode": {
+      "name": "NiO-YSZ",
+      "system": "NiO-8YSZ composite",
+      "notes": "Typical tape-cast anode with graphite porogen; parameters tuned to match shrinkage onset near 1000 degC and significant creep below full densification."
+    },
+    "electrolyte": {
+      "name": "8YSZ",
+      "system": "8 mol% yttria-stabilized zirconia",
+      "notes": "High-density electrolyte tape; shrinkage accelerates beyond 1200 degC; creep dominated by grain boundary sliding in the sintering range."
+    },
+    "cathode": {
+      "name": "LSCF",
+      "system": "La0.6Sr0.4Co0.2Fe0.8O3-delta",
+      "notes": "Infiltrated perovskite cathode with finer porosity; higher CTE and lower sintering activation threshold than the electrolyte."
+    },
+    "interconnect": {
+      "name": "Crofer 22 APU",
+      "system": "Fe-Cr ferritic steel",
+      "notes": "Machined interconnect ferritic steel; treated as fully dense with creep governed by dislocation climb."
+    }
+  },
+  "files": {
+    "green_state_properties": "green_state_properties.csv",
+    "sintering_single_layer": "sintering_kinetics_single_layer.csv",
+    "sintering_bilayer": "sintering_kinetics_bilayer.csv",
+    "cte": "coefficient_thermal_expansion.csv",
+    "creep_tests": "creep_constant_stress_tests.csv",
+    "creep_parameters": "creep_norton_parameters.csv",
+    "elastic": "elastic_properties.csv"
+  },
+  "units": {
+    "density": "g/cm^3",
+    "porosity": "fraction (0-1)",
+    "binder": "mass fraction",
+    "temperature": "degC",
+    "time": "minutes or hours as specified",
+    "strain": "engineering strain",
+    "cte": "1e-6 / degC",
+    "youngs_modulus": "GPa",
+    "stress": "MPa",
+    "activation_energy": "J/mol"
+  },
+  "license": "CC BY 4.0",
+  "generated_on": null
+}

@@ -1,0 +1,5 @@
+layer_id,material_name,system,notes,green_density_g_cm3,green_porosity_fraction,binder_fraction,porogen_fraction
+anode,NiO-YSZ,NiO-8YSZ composite,Typical tape-cast anode with graphite porogen; parameters tuned to match shrinkage onset near 1000 degC and significant creep below full densification.,2.45,0.38,0.08,0.12
+electrolyte,8YSZ,8 mol% yttria-stabilized zirconia,High-density electrolyte tape; shrinkage accelerates beyond 1200 degC; creep dominated by grain boundary sliding in the sintering range.,2.9,0.28,0.06,0.05
+cathode,LSCF,La0.6Sr0.4Co0.2Fe0.8O3-delta,Infiltrated perovskite cathode with finer porosity; higher CTE and lower sintering activation threshold than the electrolyte.,2.65,0.42,0.09,0.1
+interconnect,Crofer 22 APU,Fe-Cr ferritic steel,Machined interconnect ferritic steel; treated as fully dense with creep governed by dislocation climb.,6.2,0.05,0.02,0.0
