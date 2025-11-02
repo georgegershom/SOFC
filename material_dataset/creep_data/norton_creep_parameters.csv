@@ -1,0 +1,7 @@
+Material,State,A_pre_exp_s_minus1_MPa_minus_n,n_stress_exponent,Q_activation_energy_kJ_mol,R_squared,Uncertainty_A_percent,Uncertainty_n_percent,Uncertainty_Q_percent,Notes
+8YSZ,Green,8.50E-12,1.8,385,0.985,15,8,5,Compressive creep, Norton's Law: ?_dot = A * ?^n * exp(-Q/RT)
+8YSZ,Sintering,4.20E-12,1.8,385,0.988,12,7,4,Compressive creep at 90% relative density
+Ni-YSZ,Green,1.25E-11,2.0,350,0.982,18,10,6,Compressive creep, Norton's Law: ?_dot = A * ?^n * exp(-Q/RT)
+Ni-YSZ,Sintering,6.20E-12,2.0,350,0.985,15,8,5,Compressive creep at 92% relative density
+LSM-YSZ,Green,9.50E-12,1.6,370,0.980,20,12,7,Compressive creep, Norton's Law: ?_dot = A * ?^n * exp(-Q/RT)
+LSM-YSZ,Sintering,4.80E-12,1.6,370,0.983,17,9,5,Compressive creep at 91% relative density

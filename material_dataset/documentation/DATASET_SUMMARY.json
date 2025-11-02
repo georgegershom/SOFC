@@ -1,0 +1,107 @@
+{
+  "dataset_name": "Material Property & Constitutive Model Dataset for SOFC FEM",
+  "version": "1.0",
+  "description": "Complete material property and constitutive model dataset for Finite Element Analysis of Solid Oxide Fuel Cells",
+  "based_on_research": "A Closed-Loop, Microstructure-Informed DIC-FEM Framework for the Real-Time Mitigation of Sintering Stresses in Solid Oxide Fuel Cells through Targeted Creep Activation",
+  "materials": {
+    "8YSZ": {
+      "name": "8 mol% Yttria-Stabilized Zirconia",
+      "layer": "Electrolyte",
+      "thickness_typical": "150 ?m"
+    },
+    "Ni-YSZ": {
+      "name": "Nickel-Yttria-Stabilized Zirconia Cermet",
+      "layer": "Anode",
+      "thickness_typical": "300 ?m"
+    },
+    "LSM-YSZ": {
+      "name": "Lanthanum Strontium Manganite-Yttria-Stabilized Zirconia Composite",
+      "layer": "Cathode",
+      "thickness_typical": "50 ?m"
+    }
+  },
+  "data_categories": {
+    "thermal_properties": {
+      "files": [
+        "green_state_properties.csv",
+        "dilatometry_single_layer_8YSZ.csv",
+        "dilatometry_single_layer_NiYSZ.csv",
+        "dilatometry_bilayer_anode_electrolyte.csv",
+        "CTE_data.csv"
+      ],
+      "description": "Thermo-physical properties including green state properties, sintering kinetics (dilatometry), and coefficient of thermal expansion"
+    },
+    "creep_data": {
+      "files": [
+        "creep_test_data_8YSZ.csv",
+        "creep_test_data_NiYSZ.csv",
+        "norton_creep_parameters.csv"
+      ],
+      "description": "Viscoplastic (creep) constitutive data with Norton's law parameters (A, n, Q) for green and sintering states"
+    },
+    "elastic_properties": {
+      "files": [
+        "youngs_modulus_temperature.csv",
+        "poissons_ratio_data.csv"
+      ],
+      "description": "Elastic properties (Young's modulus and Poisson's ratio) as functions of temperature and relative density"
+    }
+  },
+  "temperature_ranges": {
+    "green_state": "25-1350?C",
+    "sintered_state": "25-1000?C",
+    "creep_tests": "800, 1000, 1200?C",
+    "typical_operation": "700-850?C"
+  },
+  "relative_density_ranges": {
+    "green_state": "0.55-0.60",
+    "sintering_process": "0.60-0.95",
+    "fully_sintered": "0.95-0.99"
+  },
+  "constitutive_models": {
+    "elastic": {
+      "description": "Linear elastic with temperature-dependent Young's modulus",
+      "formula": "E(T) = E? - ?_E (T - T?)"
+    },
+    "creep": {
+      "description": "Norton's power-law creep",
+      "formula": "??_cr = A ? ?^n ? exp(-Q/RT)",
+      "parameters": ["A (pre-exponential)", "n (stress exponent)", "Q (activation energy)"]
+    }
+  },
+  "file_formats": {
+    "data_files": "CSV (UTF-8, comma-separated)",
+    "scripts": "Python 3",
+    "documentation": "Markdown, JSON"
+  },
+  "dependencies": {
+    "python_packages": [
+      "pandas",
+      "numpy",
+      "matplotlib",
+      "scipy"
+    ]
+  },
+  "validation": {
+    "data_sources": [
+      "Research article material properties",
+      "Literature typical SOFC material values",
+      "Physically-based model extrapolations"
+    ],
+    "verification_status": "Cross-referenced with published SOFC material data"
+  },
+  "usage_applications": [
+    "Finite Element Analysis (FEA)",
+    "Sintering stress prediction",
+    "Creep activation optimization",
+    "Thermo-mechanical coupling simulations",
+    "Fracture risk assessment"
+  ],
+  "compatible_software": [
+    "COMSOL Multiphysics",
+    "ANSYS",
+    "ABAQUS",
+    "FEniCS",
+    "Any FEA software accepting material property inputs"
+  ]
+}
