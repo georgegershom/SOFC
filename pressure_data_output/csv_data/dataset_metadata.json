@@ -1,0 +1,95 @@
+{
+  "Study": "Attenuation Mechanisms in Stratified Flows: Beyond Single Phase Leakage Acoustics",
+  "Generated": "2026-02-05 12:21:01",
+  "Sensors": [
+    "PG1",
+    "PG2",
+    "PG3",
+    "PG4",
+    "PG5",
+    "PG6",
+    "PG7",
+    "PG8",
+    "PG9",
+    "PG10",
+    "PG11",
+    "PG12",
+    "PG13",
+    "PG14"
+  ],
+  "Sensor_Positions_m": {
+    "PG1": 0.5,
+    "PG2": 2.0,
+    "PG3": 5.0,
+    "PG4": 7.5,
+    "PG5": 10.0,
+    "PG6": 15.0,
+    "PG7": 17.5,
+    "PG8": 20.0,
+    "PG9": 25.0,
+    "PG10": 27.5,
+    "PG11": 30.0,
+    "PG12": 32.5,
+    "PG13": 35.0,
+    "PG14": 37.5
+  },
+  "Leak_Locations_m": {
+    "A": 6.0,
+    "D": 16.0,
+    "E": 31.0
+  },
+  "Test_Groups": {
+    "01": {
+      "leak_location": "A",
+      "sensors": [
+        "A",
+        "B"
+      ],
+      "sampling_rate": 17060,
+      "description": "High-rate test at Leak A"
+    },
+    "02": {
+      "leak_location": "A",
+      "sensors": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sampling_rate": 10000,
+      "description": "Full sensor array at Leak A"
+    },
+    "03": {
+      "leak_location": "D",
+      "sensors": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sampling_rate": 10000,
+      "description": "Full sensor array at Leak D"
+    },
+    "04": {
+      "leak_location": "E",
+      "sensors": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sampling_rate": 10000,
+      "description": "Full sensor array at Leak E"
+    }
+  },
+  "Sampling_Rates_Hz": {
+    "standard": 10000,
+    "high": 17060
+  },
+  "Physical_Parameters": {
+    "Speed_of_Sound_Liquid_m_s": 1480,
+    "Speed_of_Sound_Gas_m_s": 340,
+    "Effective_Speed_m_s": 800,
+    "Attenuation_Coeff_Np_m": 0.08
+  }
+}
