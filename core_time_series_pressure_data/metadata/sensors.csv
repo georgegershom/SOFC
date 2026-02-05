@@ -1,0 +1,15 @@
+sensor_id,position_m,bank,near_valve,near_leak
+PG1,0.0,A,,
+PG2,10.0,A,,
+PG3,20.0,A,V1_before,
+PG4,30.0,A,V1_after,
+PG5,40.0,B,,A_before
+PG6,50.0,B,,A_after
+PG7,60.0,B,,
+PG8,70.0,B,,D_before
+PG9,80.0,C,V2_before,D_after
+PG10,90.0,C,V2_after,
+PG11,100.0,C,,
+PG12,110.0,D,,E_before
+PG13,120.0,D,,E_after
+PG14,130.0,D,,
