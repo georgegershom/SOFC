@@ -1,0 +1,76 @@
+{
+  "experiment": "Stratified Flow Acoustic Attenuation Study",
+  "date_generated": "2026-02-05T14:04:11.756657",
+  "duration_seconds": 30.0,
+  "valve_open_time": 5.0,
+  "valve_close_time": 20.0,
+  "num_sensors": 14,
+  "sensor_list": [
+    "PG01",
+    "PG02",
+    "PG03",
+    "PG04",
+    "PG05",
+    "PG06",
+    "PG07",
+    "PG08",
+    "PG09",
+    "PG10",
+    "PG11",
+    "PG12",
+    "PG13",
+    "PG14"
+  ],
+  "sensor_positions_m": {
+    "PG01": 0.5,
+    "PG02": 1.2,
+    "PG03": 2.0,
+    "PG04": 3.5,
+    "PG05": 5.0,
+    "PG06": 6.8,
+    "PG07": 8.5,
+    "PG08": 10.2,
+    "PG09": 12.0,
+    "PG10": 14.5,
+    "PG11": 17.0,
+    "PG12": 20.0,
+    "PG13": 23.5,
+    "PG14": 27.0
+  },
+  "test_groups": {
+    "Group_01": {
+      "leak_location": "A",
+      "sensor_config": "A,B",
+      "sampling_rate": 17060,
+      "active_sensors": 10,
+      "description": "Leak at position A, sensors A-B active"
+    },
+    "Group_02": {
+      "leak_location": "D",
+      "sensor_config": "A,B,C,D",
+      "sampling_rate": 10000,
+      "active_sensors": 14,
+      "description": "Leak at position D, all sensors active"
+    },
+    "Group_03": {
+      "leak_location": "E",
+      "sensor_config": "A,B",
+      "sampling_rate": 10000,
+      "active_sensors": 10,
+      "description": "Leak at position E, sensors A-B active"
+    },
+    "Group_04": {
+      "leak_location": "A",
+      "sensor_config": "A,B,C,D",
+      "sampling_rate": 10000,
+      "active_sensors": 14,
+      "description": "Leak at position A, all sensors active"
+    }
+  },
+  "physical_parameters": {
+    "speed_of_sound_m_s": 1500.0,
+    "attenuation_coefficient_dB_m": 0.05,
+    "base_pressure_Pa": 101325.0,
+    "leak_amplitude_Pa": 5000.0
+  }
+}

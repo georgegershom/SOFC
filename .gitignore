@@ -1,0 +1,26 @@
+# Large data files (can be regenerated)
+acoustic_pressure_dataset/*_complete_*.csv
+acoustic_pressure_dataset/*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
