@@ -1,0 +1,130 @@
+{
+  "dataset_name": "Synthetic High-Frequency Acoustic Pressure Data",
+  "purpose": "Leak Detection in Stratified Flows - Acoustic Wave Propagation and Attenuation Analysis",
+  "generated_date": "2026-02-05T12:21:51.741383",
+  "parameters": {
+    "sampling_rate_hz": 10000,
+    "duration_sec": 30,
+    "leak_start_sec": 5,
+    "leak_end_sec": 20,
+    "num_sensors": 14,
+    "speed_of_sound_m_s": 1500,
+    "attenuation_coefficient_db_m": 0.15
+  },
+  "sensors": {
+    "names": [
+      "PG01",
+      "PG02",
+      "PG03",
+      "PG04",
+      "PG05",
+      "PG06",
+      "PG07",
+      "PG08",
+      "PG09",
+      "PG10",
+      "PG11",
+      "PG12",
+      "PG13",
+      "PG14"
+    ],
+    "positions_m": {
+      "PG01": 0.0,
+      "PG02": 2.5,
+      "PG03": 5.0,
+      "PG04": 7.5,
+      "PG05": 10.0,
+      "PG06": 12.5,
+      "PG07": 15.0,
+      "PG08": 17.5,
+      "PG09": 20.0,
+      "PG10": 22.5,
+      "PG11": 25.0,
+      "PG12": 27.5,
+      "PG13": 30.0,
+      "PG14": 32.5
+    }
+  },
+  "leak_locations": {
+    "A": 6.0,
+    "D": 13.5,
+    "E": 24.0
+  },
+  "test_groups": {
+    "Group_01": {
+      "leak_location": "A",
+      "active_sensors": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sampling_rate": 17060,
+      "leak_intensity": 1.0
+    },
+    "Group_02": {
+      "leak_location": "D",
+      "active_sensors": [
+        "A",
+        "B"
+      ],
+      "sampling_rate": 10000,
+      "leak_intensity": 0.8
+    },
+    "Group_03": {
+      "leak_location": "E",
+      "active_sensors": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sampling_rate": 10000,
+      "leak_intensity": 0.9
+    },
+    "Group_04": {
+      "leak_location": "A",
+      "active_sensors": [
+        "A",
+        "B"
+      ],
+      "sampling_rate": 10000,
+      "leak_intensity": 0.85
+    }
+  },
+  "file_structure": {
+    "csv_files": "One CSV file per second per group (30 files per group)",
+    "total_csv_files": 120,
+    "columns": [
+      "Time_s",
+      "PG01",
+      "PG02",
+      "PG03",
+      "PG04",
+      "PG05",
+      "PG06",
+      "PG07",
+      "PG08",
+      "PG09",
+      "PG10",
+      "PG11",
+      "PG12",
+      "PG13",
+      "PG14"
+    ],
+    "format": "CSV with 8 decimal precision"
+  },
+  "data_characteristics": {
+    "baseline_phase": "0-5s: Normal operation with ambient noise",
+    "transient_phase": "5-20s: Active leak with acoustic signature",
+    "recovery_phase": "20-30s: Post-leak recovery",
+    "acoustic_features": [
+      "Fundamental frequency: ~850 Hz (turbulent jet)",
+      "Harmonics: 2nd, 3rd, 5th, 7th, 11th",
+      "Broadband turbulence: 500-5000 Hz",
+      "Spatial attenuation: Exponential decay with distance",
+      "Propagation delay: Based on speed of sound in water",
+      "Reflections: Pipeline boundary reflections included"
+    ]
+  }
+}
