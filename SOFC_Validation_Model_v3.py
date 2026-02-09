@@ -486,7 +486,7 @@ class SOFCModelConfig(object):
     field_outputs : tuple
     ncpus : int
     """
-
+    #
     def __init__(self):
         # -- Model metadata ---------------------------------------------------
         self.model_name = 'Validation_Planar_Cell'
@@ -758,7 +758,7 @@ class SOFCModelBuilder(object):
     >>> builder = SOFCModelBuilder(cfg)
     >>> builder.build()
     """
-
+    #
     def __init__(self, config):
         """
         Parameters
