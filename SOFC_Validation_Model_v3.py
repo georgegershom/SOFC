@@ -113,37 +113,37 @@ def _setup_logging(log_dir=None, level=logging.DEBUG):
     """
     if log_dir is None:
         log_dir = os.path.join(os.getcwd(), 'logs')
-
+    #
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
-
+    #
     timestamp = time.strftime('%Y%m%d_%H%M%S')
     log_file  = os.path.join(log_dir, 'SOFC_model_{}.log'.format(timestamp))
-
+    #
     # Formatter
     fmt = logging.Formatter(
         fmt='%(asctime)s | %(levelname)-8s | %(message)s',
         datefmt='%Y-%m-%d %H:%M:%S',
     )
-
+    #
     # File handler -- captures everything
     fh = logging.FileHandler(log_file, mode='w')
     fh.setLevel(logging.DEBUG)
     fh.setFormatter(fmt)
-
+    #
     # Console handler -- INFO and above
     ch = logging.StreamHandler(sys.stdout)
     ch.setLevel(logging.INFO)
     ch.setFormatter(fmt)
-
+    #
     logger = logging.getLogger('SOFC_Model')
     logger.setLevel(level)
-
+    #
     # Prevent duplicate handlers on re-import
     if not logger.handlers:
         logger.addHandler(fh)
         logger.addHandler(ch)
-
+    #
     return logger, log_file
 
 
@@ -286,7 +286,7 @@ def create_tie_constraint(model, name, main_surface, secondary_surface,
     """
     tie_kw = dict(name=name)
     tie_kw.update(kwargs)
-
+    #
     if _USE_MAIN_SECONDARY:
         tie_kw['main']      = main_surface
         tie_kw['secondary'] = secondary_surface
@@ -295,7 +295,7 @@ def create_tie_constraint(model, name, main_surface, secondary_surface,
         tie_kw['master'] = main_surface
         tie_kw['slave']  = secondary_surface
         logger.debug('  Using Abaqus < 2022 Tie API (master/slave)')
-
+    #
     try:
         constraint = model.Tie(**tie_kw)
     except TypeError:
@@ -308,7 +308,7 @@ def create_tie_constraint(model, name, main_surface, secondary_surface,
             tie_kw['main']      = tie_kw.pop('master')
             tie_kw['secondary'] = tie_kw.pop('slave')
         constraint = model.Tie(**tie_kw)
-
+    #
     return constraint
 
 
@@ -418,39 +418,39 @@ def analytical_bilayer_stress(E1, E2, alpha1, alpha2, h1, h2, nu1, nu2, dT):
     # Plane-strain effective moduli
     Ep1 = E1 / (1.0 - nu1 ** 2)
     Ep2 = E2 / (1.0 - nu2 ** 2)
-
+    #
     # Effective CTE under plane-strain
     a1_eff = alpha1 * (1.0 + nu1)
     a2_eff = alpha2 * (1.0 + nu2)
-
+    #
     # Stiffness ratio and thickness ratio
     n = Ep2 / Ep1   # modulus ratio
     m = h2 / h1     # thickness ratio
-
+    #
     # Misfit strain
     d_alpha = a1_eff - a2_eff
     epsilon_mismatch = d_alpha * dT
-
+    #
     # Force per unit width to enforce compatibility (Timoshenko approach)
     denominator = (
         1.0 / (Ep1 * h1) + 1.0 / (Ep2 * h2) +
         (h1 + h2) ** 2 / (4.0 * (Ep1 * h1 ** 3 / 12.0 + Ep2 * h2 ** 3 / 12.0))
     )
-
+    #
     # Handle near-zero denominator
     if abs(denominator) < 1.0e-30:
         return {'sigma_1': 0.0, 'sigma_2': 0.0, 'curvature': 0.0}
-
+    #
     F = epsilon_mismatch / denominator
-
+    #
     # Layer stresses (uniform through thickness, approximate)
     sigma_1 = -F / h1   # anode (thicker, tension if CTE_anode > CTE_elec)
     sigma_2 =  F / h2   # electrolyte
-
+    #
     # Curvature
     I_eff = Ep1 * h1 ** 3 / 12.0 + Ep2 * h2 ** 3 / 12.0
     kappa = F * (h1 + h2) / (2.0 * I_eff) if abs(I_eff) > 1.0e-30 else 0.0
-
+    #
     return {
         'sigma_1'  : sigma_1,
         'sigma_2'  : sigma_2,
@@ -496,24 +496,24 @@ class SOFCModelConfig(object):
             'cooling from co-sintering temperature.  Validated against '
             'synchrotron XRD lattice-strain measurements.'
         )
-
+        #
         # -- Material identifiers ---------------------------------------------
         self.mat_anode = 'NiYSZ-Anode'
         self.mat_elec  = 'YSZ8-Electrolyte'
-
+        #
         # -- Geometry (mm) -- half-model using symmetry about x = 0 ----------
         self.geom = {
             'L_cell'        : 10.0,     # mm  half-width of planar cell
             'H_anode'       : 0.500,    # mm  anode support layer thickness
             'H_electrolyte' : 0.010,    # mm  electrolyte thickness (10 um)
         }
-
+        #
         # -- Thermal loading (deg C) -----------------------------------------
         self.temp = {
             'T_sintering' : 1300.0,     # deg C  stress-free reference
             'T_room'      :   25.0,     # deg C  target / validation point
         }
-
+        #
         # -- Material: Anode (Ni-YSZ) ----------------------------------------
         #    E(T) polynomial coefficients: (c0, c1, c2) in GPa
         #    CTE from synchrotron lattice-strain regression
@@ -535,7 +535,7 @@ class SOFCModelConfig(object):
                 (13.3e-6, 1300.0),
             ],
         }
-
+        #
         # -- Material: Electrolyte (8 mol% YSZ) ------------------------------
         self.elec = {
             'nu'          : 0.31,
@@ -561,7 +561,7 @@ class SOFCModelConfig(object):
                 (11.3e-6, 1300.0),
             ],
         }
-
+        #
         # -- Mesh configuration -----------------------------------------------
         self.mesh_cfg = {
             'elem_code'      : CPE4R,
@@ -572,7 +572,7 @@ class SOFCModelConfig(object):
             'deviation'      : 0.05,
             'min_size_factor': 0.05,
         }
-
+        #
         # -- Solver options ---------------------------------------------------
         self.solver = {
             'nlgeom'       : ON,
@@ -583,15 +583,15 @@ class SOFCModelConfig(object):
             'stabilize'    : False,
             'stabilize_mag': 2e-4,
         }
-
+        #
         # -- Output requests --------------------------------------------------
         self.field_outputs = ('S', 'E', 'U', 'NT', 'RF', 'TEMP')
-
+        #
         # -- Job resources ----------------------------------------------------
         self.ncpus = 4
-
+    #
     # -- Derived tables -------------------------------------------------------
-
+    #
     def build_anode_elastic_table(self):
         """Build Abaqus-formatted elastic table for the anode material."""
         table = []
@@ -599,40 +599,40 @@ class SOFCModelConfig(object):
             E_pa = compute_anode_modulus(T, self.anode['E_poly'])
             table.append((E_pa, self.anode['nu'], T))
         return tuple(table)
-
+    #
     def build_elec_elastic_table(self):
         """Return Abaqus-formatted elastic table for the electrolyte."""
         return tuple(tuple(row) for row in self.elec['E_table'])
-
+    #
     # -- Validation -----------------------------------------------------------
-
+    #
     def validate(self):
         """Run all parameter validation checks."""
         for key, val in self.geom.items():
             validate_positive(val, 'geom.{}'.format(key))
-
+        #
         validate_range(self.temp['T_sintering'], 500.0, 2000.0, 'T_sintering')
         validate_range(self.temp['T_room'], -273.15,
                        self.temp['T_sintering'], 'T_room')
-
+        #
         # CTE tables must be non-empty
         if len(self.anode['cte_table']) < 2:
             raise ValueError('Anode CTE table must have >= 2 data points.')
         if len(self.elec['cte_table']) < 2:
             raise ValueError('Electrolyte CTE table must have >= 2 data points.')
-
+        #
         # Elastic tables must be non-empty
         if len(self.anode['T_points']) < 2:
             raise ValueError('Anode temperature points must have >= 2 entries.')
         if len(self.elec['E_table']) < 2:
             raise ValueError('Electrolyte E table must have >= 2 data points.')
-
+        #
         # Mesh: element divisions through electrolyte must be >= 2
         if self.mesh_cfg['elec_divisions'] < 2:
             raise ValueError('elec_divisions must be >= 2 for mesh convergence.')
-
+        #
         logger.info('All configuration parameters validated successfully.')
-
+    #
     def log_summary(self):
         """Log a compact summary of the configuration."""
         L  = self.geom['L_cell']
@@ -640,7 +640,7 @@ class SOFCModelConfig(object):
         He = self.geom['H_electrolyte']
         Ts = self.temp['T_sintering']
         Tr = self.temp['T_room']
-
+        #
         logger.info('')
         logger.info('  Configuration Overview')
         logger.info('  ' + '-' * 50)
@@ -694,15 +694,15 @@ def mesh_quality_report(part, label):
     """
     n_elem = len(part.elements)
     n_node = len(part.nodes)
-
+    #
     logger.info('  {} mesh statistics:'.format(label))
     logger.info('    Elements : {:>6d}'.format(n_elem))
     logger.info('    Nodes    : {:>6d}'.format(n_node))
-
+    #
     if n_elem == 0:
         logger.error('    *** NO ELEMENTS GENERATED -- check mesh seeds ***')
         return n_elem, n_node
-
+    #
     # Aspect ratio estimation (heuristic for structured quad mesh)
     # For a proper check we would use the Abaqus mesh verify API,
     # but that requires an ODB.  Here we do a bounding-box estimate.
@@ -710,26 +710,26 @@ def mesh_quality_report(part, label):
         coords = [(n.coordinates[0], n.coordinates[1]) for n in part.nodes]
         x_vals = [c[0] for c in coords]
         y_vals = [c[1] for c in coords]
-
+        #
         dx = max(x_vals) - min(x_vals)
         dy = max(y_vals) - min(y_vals)
-
+        #
         # Rough element edge sizes
         nx_approx = max(1, int(round(dx / (part.seeds.defaultElemSize
                                            if hasattr(part, 'seeds') else 0.25))))
         ny_approx = max(1, n_elem // max(nx_approx, 1))
-
+        #
         elem_dx = dx / max(nx_approx, 1)
         elem_dy = dy / max(ny_approx, 1)
-
+        #
         if elem_dy > 0:
             aspect = max(elem_dx, elem_dy) / min(elem_dx, elem_dy)
         else:
             aspect = float('inf')
-
+        #
         logger.info('    Approx AR: {:.2f}  (domain {:.4f} x {:.4f} mm)'.format(
             aspect, dx, dy))
-
+        #
         if aspect > 20.0:
             logger.warning(
                 '    *** High aspect ratio ({:.1f}) -- consider refining mesh ***'.format(
@@ -740,7 +740,7 @@ def mesh_quality_report(part, label):
             logger.info('    AR within recommended limits (< 10).')
     except Exception as exc:
         logger.debug('    Aspect ratio check skipped: {}'.format(exc))
-
+    #
     return n_elem, n_node
 
 
@@ -767,7 +767,7 @@ class SOFCModelBuilder(object):
             Validated configuration object.
         """
         self.cfg = config
-
+        #
         # Runtime references (populated during build)
         self.model     = None
         self.p_anode   = None
@@ -776,23 +776,23 @@ class SOFCModelBuilder(object):
         self.inst_el   = None
         self.rootAsm   = None
         self.step_name = 'Step-Cooling'
-
+        #
         # Mesh statistics
         self.n_an_elem = 0
         self.n_an_node = 0
         self.n_el_elem = 0
         self.n_el_node = 0
-
+    #
     # --------------------------------------------------------------------- #
     #  Top-level orchestrator                                                #
     # --------------------------------------------------------------------- #
-
+    #
     def build(self):
         """Execute the full model-build pipeline."""
         try:
             self.cfg.validate()
             self.cfg.log_summary()
-
+            #
             self._init_model()
             self._define_materials()
             self._define_sections()
@@ -808,7 +808,7 @@ class SOFCModelBuilder(object):
             self._create_job()
             self._save_model()
             self._print_summary()
-
+        #
         except Exception:
             logger.error('')
             logger.error('!' * 72)
@@ -816,15 +816,15 @@ class SOFCModelBuilder(object):
             logger.error('!' * 72)
             logger.error(traceback.format_exc())
             raise
-
+    #
     # --------------------------------------------------------------------- #
     #  2. Model Initialisation                                               #
     # --------------------------------------------------------------------- #
-
+    #
     @timer
     def _init_model(self):
         banner('2. Model Initialisation')
-
+        #
         safe_delete_model(self.cfg.model_name)
         self.model = mdb.Model(
             name=self.cfg.model_name,
@@ -832,81 +832,81 @@ class SOFCModelBuilder(object):
         )
         logger.info("Model '{}' created successfully.".format(
             self.cfg.model_name))
-
+    #
     # --------------------------------------------------------------------- #
     #  3. Material Definitions                                               #
     # --------------------------------------------------------------------- #
-
+    #
     @timer
     def _define_materials(self):
         banner('3. Material Definitions')
-
+        #
         cfg = self.cfg
-
+        #
         # -- 3.1  Anode: Ni-YSZ -----------------------------------------------
         sub_banner('Anode -- {} (Ni-YSZ cermet)'.format(cfg.mat_anode))
-
+        #
         mat_an = self.model.Material(name=cfg.mat_anode)
-
+        #
         anode_E_table = cfg.build_anode_elastic_table()
         mat_an.Elastic(
             type=ISOTROPIC,
             temperatureDependency=ON,
             table=anode_E_table,
         )
-
+        #
         # Log modulus at key temperatures
         for row in anode_E_table[::max(1, len(anode_E_table) // 4)]:
             logger.debug('    E({:.0f} C) = {:.2f} GPa'.format(
                 row[2], row[0] / 1.0e9))
-
+        #
         mat_an.Expansion(
             type=ISOTROPIC,
             temperatureDependency=ON,
             zero=cfg.temp['T_sintering'],
             table=tuple(cfg.anode['cte_table']),
         )
-
+        #
         mat_an.Density(table=((cfg.anode['density'],),))
-
+        #
         logger.info('  {} defined  [T-dep E, T-dep CTE, rho={:.2e}]'.format(
             cfg.mat_anode, cfg.anode['density']))
-
+        #
         # -- 3.2  Electrolyte: 8YSZ -------------------------------------------
         sub_banner('Electrolyte -- {} (8 mol% YSZ)'.format(cfg.mat_elec))
-
+        #
         mat_el = self.model.Material(name=cfg.mat_elec)
-
+        #
         elec_E_table = cfg.build_elec_elastic_table()
         mat_el.Elastic(
             type=ISOTROPIC,
             temperatureDependency=ON,
             table=elec_E_table,
         )
-
+        #
         mat_el.Expansion(
             type=ISOTROPIC,
             temperatureDependency=ON,
             zero=cfg.temp['T_sintering'],
             table=tuple(cfg.elec['cte_table']),
         )
-
+        #
         mat_el.Density(table=((cfg.elec['density'],),))
-
+        #
         logger.info('  {} defined  [T-dep E, T-dep CTE, rho={:.2e}]'.format(
             cfg.mat_elec, cfg.elec['density']))
-
+    #
     # --------------------------------------------------------------------- #
     #  4. Section Definitions                                                #
     # --------------------------------------------------------------------- #
-
+    #
     @timer
     def _define_sections(self):
         banner('4. Section Definitions')
-
+        #
         self._sec_anode = 'Section-Anode'
         self._sec_elec  = 'Section-Electrolyte'
-
+        #
         self.model.HomogeneousSolidSection(
             name=self._sec_anode,
             material=self.cfg.mat_anode,
@@ -917,29 +917,29 @@ class SOFCModelBuilder(object):
             material=self.cfg.mat_elec,
             thickness=None,
         )
-
+        #
         logger.info('  Sections created: {}, {}'.format(
             self._sec_anode, self._sec_elec))
-
+    #
     # --------------------------------------------------------------------- #
     #  5. Part Creation & Section Assignment                                 #
     # --------------------------------------------------------------------- #
-
+    #
     @timer
     def _create_parts(self):
         banner('5. Part Creation & Section Assignment')
-
+        #
         L  = self.cfg.geom['L_cell']
         Ha = self.cfg.geom['H_anode']
         He = self.cfg.geom['H_electrolyte']
-
+        #
         # -- 5.1  Anode -------------------------------------------------------
         sub_banner('Anode Part  ({} x {} mm)'.format(L, Ha))
-
+        #
         sk_an = self.model.ConstrainedSketch(
             name='__sketch_anode__', sheetSize=2.0 * L)
         sk_an.rectangle(point1=(0.0, 0.0), point2=(L, Ha))
-
+        #
         self.p_anode = self.model.Part(
             name='Part-Anode',
             dimensionality=TWO_D_PLANAR,
@@ -947,7 +947,7 @@ class SOFCModelBuilder(object):
         )
         self.p_anode.BaseShell(sketch=sk_an)
         del sk_an
-
+        #
         rgn_an = self.p_anode.Set(
             name='Set-All-Anode', faces=self.p_anode.faces[:])
         self.p_anode.SectionAssignment(
@@ -959,14 +959,14 @@ class SOFCModelBuilder(object):
             thicknessAssignment=FROM_SECTION,
         )
         logger.info('  Part-Anode created and section assigned.')
-
+        #
         # -- 5.2  Electrolyte -------------------------------------------------
         sub_banner('Electrolyte Part  ({} x {} mm)'.format(L, He))
-
+        #
         sk_el = self.model.ConstrainedSketch(
             name='__sketch_elec__', sheetSize=2.0 * L)
         sk_el.rectangle(point1=(0.0, 0.0), point2=(L, He))
-
+        #
         self.p_elec = self.model.Part(
             name='Part-Electrolyte',
             dimensionality=TWO_D_PLANAR,
@@ -974,7 +974,7 @@ class SOFCModelBuilder(object):
         )
         self.p_elec.BaseShell(sketch=sk_el)
         del sk_el
-
+        #
         rgn_el = self.p_elec.Set(
             name='Set-All-Electrolyte', faces=self.p_elec.faces[:])
         self.p_elec.SectionAssignment(
@@ -986,55 +986,55 @@ class SOFCModelBuilder(object):
             thicknessAssignment=FROM_SECTION,
         )
         logger.info('  Part-Electrolyte created and section assigned.')
-
+    #
     # --------------------------------------------------------------------- #
     #  6. Assembly                                                           #
     # --------------------------------------------------------------------- #
-
+    #
     @timer
     def _assemble(self):
         banner('6. Assembly')
-
+        #
         Ha = self.cfg.geom['H_anode']
-
+        #
         self.rootAsm = self.model.rootAssembly
         self.rootAsm.DatumCsysByDefault(CARTESIAN)
-
+        #
         self.inst_an = self.rootAsm.Instance(
             name='Anode-1', part=self.p_anode, dependent=ON)
-
+        #
         self.inst_el = self.rootAsm.Instance(
             name='Electrolyte-1', part=self.p_elec, dependent=ON)
         self.rootAsm.translate(
             instanceList=('Electrolyte-1',),
             vector=(0.0, Ha, 0.0),
         )
-
+        #
         logger.info('  Anode-1        : origin = (0, 0, 0)')
         logger.info('  Electrolyte-1  : translated to (0, {}, 0)'.format(Ha))
         logger.info('  Interface at y = {} mm'.format(Ha))
-
+    #
     # --------------------------------------------------------------------- #
     #  7. Interaction -- Tie Constraint                                      #
     # --------------------------------------------------------------------- #
-
+    #
     @timer
     def _create_interaction(self):
         banner('7. Interaction -- Tie Constraint (Perfect Bonding)')
-
+        #
         L  = self.cfg.geom['L_cell']
         Ha = self.cfg.geom['H_anode']
         He = self.cfg.geom['H_electrolyte']
-
+        #
         # Locate interface edges
         edge_el_bot = self.inst_el.edges.findAt(((L / 2.0, Ha, 0.0),))
         edge_an_top = self.inst_an.edges.findAt(((L / 2.0, Ha, 0.0),))
-
+        #
         surf_main = self.rootAsm.Surface(
             side1Edges=edge_el_bot, name='Surf-ElecBottom')
         surf_sec  = self.rootAsm.Surface(
             side1Edges=edge_an_top, name='Surf-AnodeTop')
-
+        #
         # Use the version-aware tie creation utility
         create_tie_constraint(
             model=self.model,
@@ -1047,23 +1047,23 @@ class SOFCModelBuilder(object):
             thickness=ON,
             constraintEnforcement=SURFACE_TO_SURFACE,
         )
-
+        #
         logger.info('  Tie constraint: Surf-ElecBottom <-> Surf-AnodeTop')
         logger.info('  Enforcement   : SURFACE_TO_SURFACE')
         logger.info('  Adjust        : ON')
-
+    #
     # --------------------------------------------------------------------- #
     #  8. Analysis Step                                                      #
     # --------------------------------------------------------------------- #
-
+    #
     @timer
     def _define_step(self):
         banner('8. Analysis Step Definition')
-
+        #
         cfg = self.cfg
         Ts  = cfg.temp['T_sintering']
         Tr  = cfg.temp['T_room']
-
+        #
         self.model.StaticStep(
             name=self.step_name,
             previous='Initial',
@@ -1076,7 +1076,7 @@ class SOFCModelBuilder(object):
             description='Uniform cooling: {:.0f} C -> {:.0f} C  (dT = {:.0f} C)'.format(
                 Ts, Tr, Tr - Ts),
         )
-
+        #
         if cfg.solver['stabilize']:
             self.model.steps[self.step_name].setValues(
                 stabilizationMagnitude=cfg.solver['stabilize_mag'],
@@ -1086,7 +1086,7 @@ class SOFCModelBuilder(object):
             )
             logger.info('  Adaptive stabilisation ENABLED  '
                         '(magnitude = {})'.format(cfg.solver['stabilize_mag']))
-
+        #
         logger.info("  Step '{}' created.".format(self.step_name))
         logger.info('    Time period   = 1.0')
         logger.info('    Inc (init)    = {}'.format(cfg.solver['init_inc']))
@@ -1094,23 +1094,23 @@ class SOFCModelBuilder(object):
             cfg.solver['min_inc'], cfg.solver['max_inc']))
         logger.info('    Max increments= {}'.format(cfg.solver['max_num_inc']))
         logger.info('    NLGeom        = {}'.format(cfg.solver['nlgeom']))
-
+    #
     # --------------------------------------------------------------------- #
     #  9. Output Requests                                                    #
     # --------------------------------------------------------------------- #
-
+    #
     @timer
     def _define_outputs(self):
         banner('9. Field & History Output Requests')
-
+        #
         cfg = self.cfg
         L   = cfg.geom['L_cell']
         Ha  = cfg.geom['H_anode']
-
+        #
         # Remove default field output
         if 'F-Output-1' in self.model.fieldOutputRequests:
             del self.model.fieldOutputRequests['F-Output-1']
-
+        #
         # -- 9.1  Global field output (last increment) -------------------------
         self.model.FieldOutputRequest(
             name='FOReq-Global',
@@ -1120,13 +1120,13 @@ class SOFCModelBuilder(object):
         )
         logger.info('  FOReq-Global : {} (last increment)'.format(
             ', '.join(cfg.field_outputs)))
-
+        #
         # -- 9.2  Interface field output (every increment) ---------------------
         edge_an_top_set = self.rootAsm.Set(
             edges=self.inst_an.edges.findAt(((L / 2.0, Ha, 0.0),)),
             name='Set-AnodeInterface',
         )
-
+        #
         self.model.FieldOutputRequest(
             name='FOReq-Interface',
             createStepName=self.step_name,
@@ -1135,7 +1135,7 @@ class SOFCModelBuilder(object):
             frequency=1,
         )
         logger.info('  FOReq-Interface : S, E, U, TEMP (every increment)')
-
+        #
         # -- 9.3  History output at interface ----------------------------------
         self.model.HistoryOutputRequest(
             name='HOReq-InterfaceMid',
@@ -1145,29 +1145,29 @@ class SOFCModelBuilder(object):
             frequency=1,
         )
         logger.info('  HOReq-InterfaceMid : S11, S22, S12, E11, E22, U1, U2')
-
+    #
     # --------------------------------------------------------------------- #
     #  10. Boundary Conditions                                               #
     # --------------------------------------------------------------------- #
-
+    #
     @timer
     def _apply_bcs(self):
         banner('10. Boundary Conditions')
-
+        #
         cfg = self.cfg
         L   = cfg.geom['L_cell']
         Ha  = cfg.geom['H_anode']
         He  = cfg.geom['H_electrolyte']
-
+        #
         # -- 10.1  Symmetry at x = 0 ------------------------------------------
         sub_banner('X-Symmetry  (x = 0 plane)')
-
+        #
         edges_sym_an = self.inst_an.edges.findAt(
             ((0.0, Ha / 2.0, 0.0),))
         edges_sym_el = self.inst_el.edges.findAt(
             ((0.0, Ha + He / 2.0, 0.0),))
         edges_sym    = edges_sym_an + edges_sym_el
-
+        #
         rgn_sym = self.rootAsm.Set(edges=edges_sym, name='Set-SymmX')
         self.model.XsymmBC(
             name='BC-SymmetryX',
@@ -1176,10 +1176,10 @@ class SOFCModelBuilder(object):
             localCsys=None,
         )
         logger.info('  X-symmetry BC applied at x = 0  (anode + electrolyte)')
-
+        #
         # -- 10.2  Vertical pin at origin -------------------------------------
         sub_banner('Y-Pin  (0, 0)')
-
+        #
         vert_pin = self.inst_an.vertices.findAt(((0.0, 0.0, 0.0),))
         rgn_pin  = self.rootAsm.Set(vertices=vert_pin, name='Set-PinY')
         self.model.DisplacementBC(
@@ -1195,25 +1195,25 @@ class SOFCModelBuilder(object):
             localCsys=None,
         )
         logger.info('  Y-displacement pin at vertex (0, 0)')
-
+    #
     # --------------------------------------------------------------------- #
     #  11. Thermal Predefined Fields                                         #
     # --------------------------------------------------------------------- #
-
+    #
     @timer
     def _apply_thermal_loads(self):
         banner('11. Thermal Predefined Fields')
-
+        #
         cfg = self.cfg
         Ts  = cfg.temp['T_sintering']
         Tr  = cfg.temp['T_room']
-
+        #
         all_faces = self.inst_an.faces[:] + self.inst_el.faces[:]
         set_all   = self.rootAsm.Set(faces=all_faces, name='Set-AllCells')
-
+        #
         # -- 11.1  Initial temperature (stress-free reference) -----------------
         sub_banner('Initial Temperature  (T = {:.0f} C)'.format(Ts))
-
+        #
         self.model.Temperature(
             name='PF-InitialTemp',
             createStepName='Initial',
@@ -1223,10 +1223,10 @@ class SOFCModelBuilder(object):
             magnitudes=(Ts,),
         )
         logger.info('  T_initial = {:.0f} C  (stress-free reference state)'.format(Ts))
-
+        #
         # -- 11.2  Cooling target ----------------------------------------------
         sub_banner('Cooling Target  (T = {:.0f} C)'.format(Tr))
-
+        #
         self.model.Temperature(
             name='PF-CoolDown',
             createStepName=self.step_name,
@@ -1237,24 +1237,24 @@ class SOFCModelBuilder(object):
         )
         logger.info('  T_final   = {:.0f} C'.format(Tr))
         logger.info('  dT        = {:.0f} C'.format(Tr - Ts))
-
+    #
     # --------------------------------------------------------------------- #
     #  12. Mesh Generation                                                   #
     # --------------------------------------------------------------------- #
-
+    #
     @timer
     def _generate_mesh(self):
         banner('12. Mesh Generation')
-
+        #
         cfg = self.cfg
         L   = cfg.geom['L_cell']
         Ha  = cfg.geom['H_anode']
         He  = cfg.geom['H_electrolyte']
         mc  = cfg.mesh_cfg
-
+        #
         # -- 12.1  Element type assignment ------------------------------------
         sub_banner('Element Type Assignment')
-
+        #
         elem_quad = mesh.ElemType(
             elemCode=mc['elem_code'],
             elemLibrary=STANDARD,
@@ -1266,7 +1266,7 @@ class SOFCModelBuilder(object):
             elemCode=mc['elem_code_tri'],
             elemLibrary=STANDARD,
         )
-
+        #
         for part, label in [(self.p_anode, 'Anode'),
                             (self.p_elec, 'Electrolyte')]:
             part.setElementType(
@@ -1275,17 +1275,17 @@ class SOFCModelBuilder(object):
             )
             logger.info('  {} : {} / {}'.format(
                 label, mc['elem_code'], mc['elem_code_tri']))
-
+        #
         # -- 12.2  Seeding ----------------------------------------------------
         sub_banner('Mesh Seeding')
-
+        #
         # Anode -- global seed + biased vertical edges toward interface
         self.p_anode.seedPart(
             size=mc['global_size'],
             deviationFactor=mc['deviation'],
             minSizeFactor=mc['min_size_factor'],
         )
-
+        #
         an_vert_edges = self.p_anode.edges.findAt(
             ((0.0, Ha / 2.0, 0.0),),
             ((L,   Ha / 2.0, 0.0),),
@@ -1300,7 +1300,7 @@ class SOFCModelBuilder(object):
         )
         logger.info('  Anode seeding: bias={:.1f}, {} divisions vertically'.format(
             mc['anode_bias'], n_vert_anode))
-
+        #
         # Electrolyte -- uniform through-thickness + global
         el_vert_edges = self.p_elec.edges.findAt(
             ((0.0, He / 2.0, 0.0),),
@@ -1318,10 +1318,10 @@ class SOFCModelBuilder(object):
         )
         logger.info('  Electrolyte seeding: {} elements through thickness'.format(
             mc['elec_divisions']))
-
+        #
         # -- 12.3  Mesh control -- structured quad ----------------------------
         sub_banner('Mesh Control')
-
+        #
         for part, label in [(self.p_anode, 'Anode'),
                             (self.p_elec, 'Electrolyte')]:
             part.setMeshControls(
@@ -1330,24 +1330,24 @@ class SOFCModelBuilder(object):
                 technique=STRUCTURED,
             )
             logger.info('  {} : STRUCTURED QUAD'.format(label))
-
+        #
         # -- 12.4  Generate meshes --------------------------------------------
         sub_banner('Mesh Generation')
-
+        #
         self.p_anode.generateMesh()
         self.p_elec.generateMesh()
-
+        #
         # -- 12.5  Mesh quality report ----------------------------------------
         sub_banner('Mesh Quality Diagnostics')
-
+        #
         self.n_an_elem, self.n_an_node = mesh_quality_report(
             self.p_anode, 'Anode')
         self.n_el_elem, self.n_el_node = mesh_quality_report(
             self.p_elec, 'Electrolyte')
-
+        #
         n_total_elem = self.n_an_elem + self.n_el_elem
         n_total_node = self.n_an_node + self.n_el_node
-
+        #
         logger.info('')
         logger.info('  +{:-<42s}+'.format(''))
         logger.info('  | {:>12s} | {:>10s} | {:>10s} |'.format(
@@ -1361,22 +1361,22 @@ class SOFCModelBuilder(object):
         logger.info('  | {:>12s} | {:>10d} | {:>10d} |'.format(
             'TOTAL', n_total_elem, n_total_node))
         logger.info('  +{:-<42s}+'.format(''))
-
+    #
     # --------------------------------------------------------------------- #
     #  Analytical Verification (Timoshenko)                                  #
     # --------------------------------------------------------------------- #
-
+    #
     @timer
     def _run_analytical_check(self):
         banner('Analytical Verification -- Timoshenko Bilayer')
-
+        #
         cfg = self.cfg
         Ts  = cfg.temp['T_sintering']
         Tr  = cfg.temp['T_room']
         dT  = Tr - Ts
         Ha  = cfg.geom['H_anode']
         He  = cfg.geom['H_electrolyte']
-
+        #
         # Use room-temperature properties for the analytical estimate
         E1   = compute_anode_modulus(Tr, cfg.anode['E_poly'])
         E2   = cfg.elec['E_table'][0][0] * 1.0e6   # MPa -> Pa
@@ -1384,15 +1384,15 @@ class SOFCModelBuilder(object):
         nu2  = cfg.elec['nu']
         a1   = cfg.anode['cte_table'][0][0]   # CTE at ~25 C
         a2   = cfg.elec['cte_table'][0][0]
-
+        #
         result = analytical_bilayer_stress(
             E1=E1, E2=E2, alpha1=a1, alpha2=a2,
             h1=Ha, h2=He, nu1=nu1, nu2=nu2, dT=dT)
-
+        #
         s1 = result['sigma_1']
         s2 = result['sigma_2']
         kappa = result['curvature']
-
+        #
         logger.info('  Input parameters (room-temperature):')
         logger.info('    E_anode       = {:.2f} GPa'.format(E1 / 1.0e9))
         logger.info('    E_electrolyte = {:.2f} GPa'.format(E2 / 1.0e9))
@@ -1411,17 +1411,17 @@ class SOFCModelBuilder(object):
         logger.info('        constant (RT) material properties.  The FE solution')
         logger.info('        incorporates temperature-dependent properties and')
         logger.info('        nonlinear geometry effects.')
-
+    #
     # --------------------------------------------------------------------- #
     #  13. Job Creation                                                      #
     # --------------------------------------------------------------------- #
-
+    #
     @timer
     def _create_job(self):
         banner('13. Job Creation')
-
+        #
         cfg = self.cfg
-
+        #
         mdb.Job(
             name=cfg.job_name,
             model=cfg.model_name,
@@ -1448,33 +1448,33 @@ class SOFCModelBuilder(object):
             numDomains=cfg.ncpus,
             numGPUs=0,
         )
-
+        #
         logger.info("  Job '{}' created.".format(cfg.job_name))
         logger.info('    CPUs     = {}'.format(cfg.ncpus))
         logger.info('    Memory   = 90%')
         logger.info('    NLGeom   = {}'.format(cfg.solver['nlgeom']))
         logger.info('    Format   = ODB')
-
+    #
     # --------------------------------------------------------------------- #
     #  14. Save Model Database                                               #
     # --------------------------------------------------------------------- #
-
+    #
     @timer
     def _save_model(self):
         banner('14. Save Model Database')
-
+        #
         mdb_path = os.path.join(os.getcwd(), '{}.cae'.format(
             self.cfg.model_name))
         mdb.saveAs(pathName=mdb_path)
         logger.info("  Saved: '{}'".format(mdb_path))
-
+    #
     # --------------------------------------------------------------------- #
     #  15. Build Summary                                                     #
     # --------------------------------------------------------------------- #
-
+    #
     def _print_summary(self):
         banner('15. Build Summary', char='=')
-
+        #
         cfg = self.cfg
         L   = cfg.geom['L_cell']
         Ha  = cfg.geom['H_anode']
@@ -1482,16 +1482,16 @@ class SOFCModelBuilder(object):
         Ts  = cfg.temp['T_sintering']
         Tr  = cfg.temp['T_room']
         dT  = Tr - Ts
-
+        #
         n_tot_e = self.n_an_elem + self.n_el_elem
         n_tot_n = self.n_an_node + self.n_el_node
-
+        #
         wall_elapsed = time.time() - _START_WALL
-
+        #
         w = 72
         hr = '+' + '-' * (w - 2) + '+'
         blank = '|' + ' ' * (w - 2) + '|'
-
+        #
         lines = [
             '',
             '+' + '=' * (w - 2) + '+',
@@ -1564,10 +1564,10 @@ class SOFCModelBuilder(object):
             '+' + '=' * (w - 2) + '+',
             '',
         ]
-
+        #
         for line in lines:
             logger.info(line)
-
+        #
         logger.info('')
         logger.info('=' * w)
         logger.info('  BUILD COMPLETE -- Model is ready for submission.')
@@ -1620,33 +1620,33 @@ def extract_interface_stress(odb_path, step_name='Step-Cooling',
     """
     try:
         from odbAccess import openOdb
-
+        #
         odb = openOdb(path=odb_path, readOnly=True)
         step = odb.steps[step_name]
         last_frame = step.frames[-1]
-
+        #
         stress_field = last_frame.fieldOutputs[variable]
-
+        #
         # Filter to the interface set if available
         try:
             region = odb.rootAssembly.nodeSets['SET-ANODEINTERFACE']
             stress_sub = stress_field.getSubset(region=region)
         except KeyError:
             stress_sub = stress_field
-
+        #
         results = []
         comp_idx = {'S11': 0, 'S22': 1, 'S33': 2, 'S12': 3}.get(component, 0)
-
+        #
         for val in stress_sub.values:
             x = val.position[0] if hasattr(val, 'position') else 0.0
             s = val.data[comp_idx] if hasattr(val.data, '__len__') else val.data
             results.append((x, s))
-
+        #
         odb.close()
-
+        #
         results.sort(key=lambda p: p[0])
         return results
-
+    #
     except ImportError:
         logger.warning('odbAccess not available -- post-processing skipped.')
         return []
@@ -1695,11 +1695,11 @@ def main():
     logger.info('License: {}'.format(__license__))
     logger.info('CWD    : {}'.format(os.getcwd()))
     logger.info('')
-
+    #
     config  = SOFCModelConfig()
     builder = SOFCModelBuilder(config)
     builder.build()
-
+    #
     logger.info('')
     logger.info('Script execution completed in {}.'.format(elapsed()))
     logger.info('')
