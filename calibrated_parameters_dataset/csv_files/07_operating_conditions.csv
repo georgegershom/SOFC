@@ -1,0 +1,13 @@
+Condition,Temperature_C,Temperature_K,pO2_cathode_atm,pO2_anode_atm,Current_Density_A_cm2,Voltage_V,Duration_h,Description
+OCV Fresh Cell,800,1073,0.21,1e-18,0.00,1.10,0,Open circuit voltage - fresh cell
+Load 0.25 A/cm²,800,1073,0.21,1e-18,0.25,0.85,100,Low current operation
+Load 0.50 A/cm²,800,1073,0.21,1e-18,0.50,0.75,500,Medium current operation
+Load 0.75 A/cm²,800,1073,0.21,1e-18,0.75,0.65,100,High current operation
+Load 1.00 A/cm²,800,1073,0.21,1e-18,1.00,0.55,50,Very high current - stress test
+Temperature Cycling Low,600,873,0.21,1e-18,0.00,1.15,10,Low temperature hold
+Temperature Cycling High,900,1173,0.21,1e-18,0.00,1.05,10,High temperature hold
+Redox Cycling Oxidizing,800,1073,1.00,1e-18,0.00,1.08,2,Full oxidation
+Redox Cycling Reducing,800,1073,0.01,1e-18,0.00,1.12,2,Reducing atmosphere (fuel leak simulation)
+Long-term Degradation,800,1073,0.21,1e-18,0.50,0.75,1000,Extended operation for degradation study
+Thermal Shock Cool,650,923,0.21,1e-18,0.00,1.13,0.5,Rapid cooling event
+Thermal Shock Heat,850,1123,0.21,1e-18,0.00,1.03,0.5,Rapid heating event

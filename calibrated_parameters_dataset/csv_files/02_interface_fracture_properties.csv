@@ -1,0 +1,12 @@
+Interface,Condition,Gc_int,Gc_int_unit,Gc_min,Gc_max,Sigma_max,Sigma_max_unit,Sigma_min,Sigma_max_range,Characteristic_Length,Length_unit,Notes
+YSZ/GDC,Baseline,2.15,J/m²,1.8,2.5,222.5,MPa,185,260,0.10,µm,Interlayer initiation without chemical effects
+YSZ/GDC,With Interdiffusion,2.85,J/m²,2.5,3.2,240.0,MPa,220,280,0.12,µm,(Zr Ce)O₂ solid solution formation strengthens interface
+GDC/LSCF,Baseline,1.0,J/m²,0.5,1.5,180.0,MPa,150,220,0.265,µm,Cathode delamination without degradation
+GDC/LSCF,With Sr-Segregation,0.5,J/m²,0.2,0.8,120.0,MPa,80,150,0.18,µm,SrO/SrZrO₃ formation drastically reduces adhesion
+YSZ/GDC,Interlayer 100nm,2.1,J/m²,1.9,2.3,185,MPa,175,195,0.09,µm,Thin interlayer effect
+YSZ/GDC,Interlayer 500nm,2.3,J/m²,2.1,2.6,220,MPa,205,235,0.105,µm,Medium interlayer effect
+YSZ/GDC,Interlayer 1000nm,2.6,J/m²,2.3,2.9,260,MPa,245,275,0.115,µm,Thick interlayer effect
+GDC/LSCF,Fresh Cell,1.2,J/m²,1.0,1.5,200.0,MPa,180,220,0.30,µm,As-fabricated cell
+GDC/LSCF,After 100h Operation,0.9,J/m²,0.7,1.1,165.0,MPa,145,185,0.25,µm,Slight Sr segregation
+GDC/LSCF,After 500h Operation,0.6,J/m²,0.4,0.9,135.0,MPa,110,160,0.22,µm,Moderate Sr segregation
+GDC/LSCF,After 1000h Operation,0.4,J/m²,0.2,0.6,105.0,MPa,80,130,0.19,µm,Severe Sr segregation and SrZrO₃ formation
