@@ -1,0 +1,20 @@
+Interface,Condition,Mode,Gc,Gc_unit,T_max,T_max_unit,delta_0,delta_f,delta_unit,K_penalty,K_unit,Model_Type
+YSZ/GDC,Baseline,Mode-I,2.15,J/m²,222.5,MPa,0.019,0.097,µm,1000,GPa/m,Bilinear
+YSZ/GDC,Baseline,Mode-II,3.23,J/m²,178.0,MPa,0.036,0.182,µm,800,GPa/m,Bilinear
+YSZ/GDC,Baseline,Mixed-Mode,2.69,J/m²,200.0,MPa,0.027,0.135,µm,900,GPa/m,Park-Paulino-Roesler
+YSZ/GDC,Interdiffusion,Mode-I,2.85,J/m²,240.0,MPa,0.024,0.119,µm,1200,GPa/m,Bilinear
+YSZ/GDC,Interdiffusion,Mode-II,4.28,J/m²,192.0,MPa,0.045,0.223,µm,1000,GPa/m,Bilinear
+YSZ/GDC,Interdiffusion,Mixed-Mode,3.57,J/m²,216.0,MPa,0.033,0.165,µm,1100,GPa/m,Park-Paulino-Roesler
+GDC/LSCF,Baseline,Mode-I,1.00,J/m²,180.0,MPa,0.011,0.056,µm,500,GPa/m,Exponential
+GDC/LSCF,Baseline,Mode-II,1.50,J/m²,144.0,MPa,0.021,0.104,µm,400,GPa/m,Exponential
+GDC/LSCF,Baseline,Mixed-Mode,1.25,J/m²,162.0,MPa,0.015,0.077,µm,450,GPa/m,Xu-Needleman
+GDC/LSCF,Sr-Segregation,Mode-I,0.50,J/m²,120.0,MPa,0.008,0.042,µm,300,GPa/m,Exponential
+GDC/LSCF,Sr-Segregation,Mode-II,0.75,J/m²,96.0,MPa,0.016,0.078,µm,250,GPa/m,Exponential
+GDC/LSCF,Sr-Segregation,Mixed-Mode,0.63,J/m²,108.0,MPa,0.012,0.058,µm,275,GPa/m,Xu-Needleman
+YSZ/GDC,100nm Interlayer,Mode-I,2.10,J/m²,185.0,MPa,0.023,0.114,µm,900,GPa/m,Bilinear
+YSZ/GDC,500nm Interlayer,Mode-I,2.30,J/m²,220.0,MPa,0.021,0.105,µm,1050,GPa/m,Bilinear
+YSZ/GDC,1000nm Interlayer,Mode-I,2.60,J/m²,260.0,MPa,0.020,0.100,µm,1300,GPa/m,Bilinear
+GDC/LSCF,Fresh Cell,Mode-I,1.20,J/m²,200.0,MPa,0.012,0.060,µm,550,GPa/m,Exponential
+GDC/LSCF,100h Operation,Mode-I,0.90,J/m²,165.0,MPa,0.011,0.055,µm,475,GPa/m,Exponential
+GDC/LSCF,500h Operation,Mode-I,0.60,J/m²,135.0,MPa,0.009,0.044,µm,375,GPa/m,Exponential
+GDC/LSCF,1000h Operation,Mode-I,0.40,J/m²,105.0,MPa,0.008,0.038,µm,275,GPa/m,Exponential

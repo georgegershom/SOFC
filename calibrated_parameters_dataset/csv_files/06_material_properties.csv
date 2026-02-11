@@ -1,0 +1,25 @@
+Material,Property,Value,Unit,Temperature_C,Source,Notes
+LSCF,Young's Modulus,40,GPa,800,Literature,Temperature-dependent elastic modulus
+LSCF,Poisson's Ratio,0.30,-,800,Literature,Assumed isotropic for bulk behavior
+LSCF,Thermal Expansion Coefficient,13.5,1e-6/K,600-900,Dilatometry,Linear thermal expansion coefficient
+LSCF,Chemical Expansion beta_11,0.085,-,873,TGA+XRD,In-plane chemical expansion coefficient
+LSCF,Chemical Expansion beta_33,0.145,-,873,TGA+XRD,Out-of-plane chemical expansion coefficient (anisotropic)
+LSCF,Density,6800,kg/m³,25,Literature,Room temperature density
+LSCF,Fracture Toughness,0.9,MPa·m^0.5,800,Indentation,Mode I fracture toughness
+YSZ,Young's Modulus,200,GPa,800,Literature,8YSZ electrolyte
+YSZ,Poisson's Ratio,0.31,-,800,Literature,Cubic fluorite structure
+YSZ,Thermal Expansion Coefficient,10.5,1e-6/K,600-900,Dilatometry,Linear thermal expansion coefficient
+YSZ,Chemical Expansion,0.0,-,873,N/A,Negligible chemical expansion (ionic conductor)
+YSZ,Density,6050,kg/m³,25,Literature,8 mol% Y₂O₃-ZrO₂
+YSZ,Fracture Toughness,2.8,MPa·m^0.5,800,Indentation,Mode I fracture toughness
+GDC,Young's Modulus,160,GPa,800,Literature,Ce₀.₉Gd₀.₁O₁.₉₅
+GDC,Poisson's Ratio,0.32,-,800,Literature,Cubic fluorite structure
+GDC,Thermal Expansion Coefficient,12.0,1e-6/K,600-900,Dilatometry,Linear thermal expansion coefficient
+GDC,Chemical Expansion alpha_chem,0.10,-,873,TGA+XRD,Average chemical expansion coefficient
+GDC,Density,7200,kg/m³,25,Literature,10 mol% Gd₂O₃-CeO₂
+GDC,Fracture Toughness,1.2,MPa·m^0.5,800,Indentation,Mode I fracture toughness for MIEC interlayer
+GDC,Grain Size,50,nm,800,SEM/TEM,Nanostructured interlayer morphology
+GDC,Ionic Conductivity,0.025,S/cm,800,EIS,Mixed ionic-electronic conductivity
+GDC,Electronic Conductivity,0.0008,S/cm,800,4-probe,Electronic contribution at reducing conditions
+LSCF,Ionic Conductivity,0.15,S/cm,800,EIS,Oxide-ion conductivity in cathode
+LSCF,Electronic Conductivity,320,S/cm,800,4-probe,Dominant electronic conductivity

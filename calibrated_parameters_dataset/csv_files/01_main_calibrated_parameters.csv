@@ -1,0 +1,16 @@
+Parameter,Symbol,Calibrated_Value,Unit,Lower_Bound,Upper_Bound,Source,Rationale
+BK Exponent,eta,2.1,-,1.8,2.5,Standard literature,Standard for ceramic brittle fracture; recommended for GDC nanostructures
+Cathode Anisotropy,beta_33/beta_11,1.7,-,1.5,2.0,Experimental default,Default expectation for LSCF diagonal anisotropic expansion tensor
+Fracture Energy Bulk LSCF,Gc_LSCF,5.0,J/m²,1.5,10.0,Micro-cantilever tests,Derived from bulk micro-cantilever and indentation tests on LSCF
+Fracture Energy Bulk YSZ,Gc_YSZ,8.5,J/m²,3.0,12.0,Indentation tests,Derived from bulk micro-cantilever and indentation tests on YSZ
+Fracture Energy Bulk GDC,Gc_GDC,4.2,J/m²,1.5,8.0,Micro-cantilever tests,Derived from bulk micro-cantilever and indentation tests on GDC
+Interface Adhesion Min,Gamma_i_min,0.2,J/m²,0.1,0.5,DFT calculations,DFT and diffusion models; minimum with Sr-segregation
+Interface Adhesion Max,Gamma_i_max,3.2,J/m²,2.5,4.0,DFT calculations,DFT and diffusion models; maximum with interdiffusion
+Penalty Parameter Lower,beta_pen_low,100,GPa/m,50,500,Numerical stability,Enforces interface constraints in phase-field/cohesive hybrid
+Penalty Parameter Upper,beta_pen_high,10000,GPa/m,5000,20000,Numerical stability,Enforces interface constraints in phase-field/cohesive hybrid
+Phase-field Length Lower,l0_min,5,nm,2,8,Mesh resolution,Resolves GDC nanostructure; matches grain size and interface width
+Phase-field Length Upper,l0_max,20,nm,15,30,Mesh resolution,Resolves GDC nanostructure; matches grain size and interface width
+Regulated Length,l,0.5,µm,0.3,0.8,Crack evolution,Controls diffuse crack width in the bulk phase-field evolution
+Residual Stiffness,k_res,1e-6,-,1e-7,1e-5,Numerical stability,Prevents singularity in degradation function g(phi)
+Newton-Raphson Tolerance Lower,eps_tol_low,1e-6,-,1e-5,1e-6,Convergence criterion,Minimum tolerance for convergence
+Newton-Raphson Tolerance Upper,eps_tol_high,1e-8,-,1e-9,1e-7,Convergence criterion,Strict tolerance for accurate solutions

@@ -1,0 +1,21 @@
+Parameter,Symbol,Recommended_Value,Unit,Lower_Limit,Upper_Limit,Criterion,Purpose
+Mesh Size to Phase-field Ratio,h/l0,0.25,-,0.125,0.5,Mesh objectivity,Ensure mesh size h is between l0/4 and l0/2 to resolve GDC nanostructure
+Absolute Mesh Size Min,h_min,1.25,nm,0.5,2.5,Spatial resolution,Minimum element size for nanostructure resolution
+Absolute Mesh Size Max,h_max,10.0,nm,5.0,15.0,Spatial resolution,Maximum element size for computational efficiency
+Degradation Function Residual,k_res,1e-6,-,1e-7,1e-5,Energy balance,Ensure residual stiffness g(phi)=(1-phi)^2+k_res prevents artificial dissipation
+Newton-Raphson Tolerance,eps_tol,1e-7,-,1e-8,1e-6,Convergence,Set tolerance for solution convergence
+Maximum Newton Iterations,max_iter,50,-,30,100,Robustness,Maximum iterations before divergence
+Energy Dissipation Check,Delta_Psi/Psi_0,0.01,-,0.001,0.05,Energy balance,Relative energy balance error per increment
+Crack Length Increment,Delta_a,0.05,µm,0.01,0.1,Stability,Maximum crack propagation per load step
+Load Step Size,Delta_lambda,0.001,-,0.0001,0.01,Quasi-static,Incremental load parameter for displacement control
+Time Step,Delta_t,0.1,s,0.01,1.0,Temporal resolution,Time increment for transient chemo-mechanical coupling
+Penalty Parameter,beta_pen,1000,GPa/m,100,10000,Interface constraint,Enforces interface cohesion in hybrid model
+Phase-field Regularization,l0,10,nm,5,20,Interface width,Controls diffuse interface thickness
+Bulk Crack Regularization,l,0.5,µm,0.3,0.8,Crack width,Controls bulk crack band width
+Minimum Phase-field Value,phi_min,0.0,-,0.0,0.01,Numerical stability,Minimum allowed damage value
+Maximum Phase-field Value,phi_max,1.0,-,0.99,1.0,Physical constraint,Maximum allowed damage value (fully cracked)
+Critical Damage Threshold,phi_crit,0.95,-,0.90,0.99,Crack detection,Threshold for identifying fully developed cracks
+Element Distortion Limit,distortion_max,0.7,-,0.5,0.8,Mesh quality,Maximum element distortion before remeshing
+Aspect Ratio Limit,AR_max,5.0,-,3.0,10.0,Mesh quality,Maximum element aspect ratio
+Interface Element Thickness,t_interface,0.1,µm,0.05,0.5,Cohesive zone,Thickness of cohesive interface elements
+Number of Elements Through Interface,n_elem_interface,3,-,2,5,Interface resolution,Minimum elements through cohesive zone
