@@ -1,0 +1,22 @@
+Category,Parameter,Symbol,Value,Unit,Range_Low,Range_High,Status,Application
+Phase-Field,BK Exponent,eta,2.1,-,2.0,2.2,CALIBRATED,Mixed-mode fracture criterion
+Phase-Field,Phase-field Length,l_0,10.0,nm,5.0,20.0,CALIBRATED,GDC nanostructure resolution
+Phase-Field,Regulated Length,l,0.5,um,0.3,0.7,CALIBRATED,Bulk diffuse crack width
+Phase-Field,Degradation Residual,k_res,1e-06,-,1e-07,1e-05,ASSUMED,Prevents full stiffness loss
+Fracture,Gc Bulk LSCF,G_c_LSCF,4.5,J/m^2,1.5,10.0,CALIBRATED,LSCF bulk fracture energy
+Fracture,Gc Bulk YSZ,G_c_YSZ,6.0,J/m^2,1.5,10.0,CALIBRATED,YSZ bulk fracture energy
+Fracture,Gc YSZ/GDC Clean,G_c_int_1,2.15,J/m^2,1.8,2.5,CALIBRATED,YSZ/GDC interface
+Fracture,Gc YSZ/GDC Interdiff,G_c_int_1i,2.85,J/m^2,2.5,3.2,CALIBRATED,YSZ/GDC with interdiffusion
+Fracture,Gc GDC/LSCF Clean,G_c_int_2,1.0,J/m^2,0.5,1.5,CALIBRATED,GDC/LSCF interface
+Fracture,Gc GDC/LSCF Sr-Seg,G_c_int_2s,0.5,J/m^2,0.2,0.8,CALIBRATED,GDC/LSCF with Sr-segregation
+Interface,Interface Adhesion,Gamma_i,1.2,J/m^2,0.2,3.2,CALIBRATED,General interface adhesion
+Interface,Penalty Parameter,beta_pen,1000.0,GPa/m,100.0,10000.0,CALIBRATED,Cohesive zone constraint
+Interface,sigma_max YSZ/GDC,sigma_max_1,222,MPa,185,260,CALIBRATED,YSZ/GDC critical strength
+Interface,Char. Length GDC/LSCF,l_cz,0.26,um,0.18,0.35,CALIBRATED,GDC/LSCF cohesive zone
+Chemo-Mech,Cathode Anisotropy,beta_33/beta_11,1.7,-,1.5,2.0,CALIBRATED,LSCF anisotropic expansion
+Chemo-Mech,beta_11 LSCF,beta_11,0.032,-,0.025,0.04,CALIBRATED,LSCF in-plane expansion coeff
+Chemo-Mech,alpha_chem GDC,alpha_chem,0.092,-,0.084,0.1,CALIBRATED,GDC chemical expansion coeff
+Chemo-Mech,delta LSCF range,delta_LSCF,0.009-0.047,-,0.009,0.047,CALIBRATED,LSCF non-stoichiometry
+Chemo-Mech,delta GDC max,delta_GDC_max,0.0178,-,0.0001,0.0178,CALIBRATED,GDC non-stoichiometry at 900C
+QA,Mesh h/l0 ratio,h/l0,1/4 to 1/2,-,0.25,0.5,ASSUMED,Mesh objectivity
+QA,NR Tolerance,eps_tol,1e-6 to 1e-8,-,1e-08,1e-06,ASSUMED,Newton-Raphson convergence
