@@ -1,0 +1,9 @@
+metric,value,notes
+J_reference_J_m2,3.0,Driving-force level used for gap quantification.
+P_fail_rho0_00,0.5892,Independent assumption.
+P_fail_rho0_50,0.5908,Correlated assumption.
+P_fail_HT_uncorrelated,0.9562,High-temperature surrogate.
+Epistemic_gap_percent_rho,0.16000000000000458,Absolute probability-point gap between rho scenarios.
+R_mean_rho0_00,2.906121221299579,Mean system resistance for independent case.
+R_mean_rho0_50,2.894104086197687,Mean system resistance for correlated case.
+R_mean_HT_uncorrelated,2.378984168905859,Mean system resistance for high-temperature surrogate.

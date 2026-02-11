@@ -1,0 +1,5 @@
+dataset_id,property_group,interface,temperature_C,mean_value,std_dev,units,distribution,source_type,notes
+UNC_001,interfacial_toughness,YSZ|GDC,25,1.55,0.28,J/m^2,Normal,measured_independent_bilayers,Room-temperature surrogate from independent micro-cantilever tests.
+UNC_002,interfacial_toughness,GDC|LSCF,25,1.35,0.24,J/m^2,Normal,measured_independent_bilayers,Room-temperature surrogate from independent micro-cantilever tests.
+UNC_003,interfacial_toughness,YSZ|GDC,800,1.271,0.28,J/m^2,Normal,deterministic_scaled_surrogate,High-temperature mean scaled from RT; variance held constant.
+UNC_004,interfacial_toughness,GDC|LSCF,800,1.107,0.24,J/m^2,Normal,deterministic_scaled_surrogate,High-temperature mean scaled from RT; variance held constant.

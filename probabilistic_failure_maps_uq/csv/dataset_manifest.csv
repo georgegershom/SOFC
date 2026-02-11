@@ -1,0 +1,11 @@
+file_name,description
+04_uncertainty_material_properties.csv,Synthetic material uncertainty parameters including RT and surrogate 800C toughness moments.
+13_LSCF_ferroelastic_stress_strain.csv,Synthetic 800C stress-strain loop used to represent ferroelastic uncertainty context.
+16_micro_cantilever_fracture_data.csv,Synthetic independent bilayer micro-cantilever measurements.
+21_missing_data_assumption_flags.csv,Data-gap registry and impact flags.
+stochastic_inputs_rho0.00.csv,Monte Carlo inputs under independence assumption.
+stochastic_inputs_rho0.50.csv,Monte Carlo inputs under correlation sensitivity assumption.
+stochastic_inputs_HT_uncorrelated.csv,Monte Carlo inputs under high-temperature deterministic mean-shift surrogate.
+failure_probability_curves.csv,Fragility curves over applied J.
+epistemic_gap_summary.csv,Summary metrics including P_fail at J=3.0 J/m^2 and epistemic gap.
+interfacial_failure_correlation_matrix_surrogates.csv,Assumed correlation by scenario.
