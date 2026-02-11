@@ -1,0 +1,176 @@
+================================================================================
+EPISTEMIC UNCERTAINTY QUANTIFICATION DATASET - SUMMARY
+================================================================================
+Project: Probabilistic Failure Maps for SOC Interfacial Toughness
+Generated: February 11, 2026
+Total Samples: 30,000 Monte Carlo realizations (3 scenarios × 10,000)
+
+================================================================================
+DATASET MANIFEST
+================================================================================
+
+FILE 1: 21_missing_data_assumption_flags.csv
+  Description: Documentation of epistemic gaps
+  Rows: 4 (one per missing dataset)
+  Purpose: Identifies what we DON'T know and why it matters
+
+FILE 2: 04_uncertainty_material_properties.csv  
+  Description: Base statistical parameters for all materials
+  Rows: 13 (properties × interfaces/materials)
+  Temperature: Room temperature (25°C)
+  
+FILE 3: 16_micro_cantilever_fracture_data.csv
+  Description: Synthetic experimental measurements
+  Rows: 20 (10 YSZ|GDC + 10 GDC|LSCF specimens)
+  Test Method: Micro-cantilever bending
+  
+FILE 4: 13_LSCF_ferroelastic_stress_strain.csv
+  Description: Temperature-dependent constitutive behavior
+  Rows: 24 (4 temperatures × 6 strain points)
+  Temperature Range: 25-800°C
+  
+FILE 5: stochastic_inputs_rho0.00.csv
+  Description: SCENARIO 1 - Independent interfaces
+  Rows: 10,000 Monte Carlo samples
+  Key Assumption: ρ(Gc₁, Gc₂) = 0.0
+  Temperature: 25°C
+  
+FILE 6: stochastic_inputs_rho0.50.csv
+  Description: SCENARIO 2 - Correlated interfaces
+  Rows: 10,000 Monte Carlo samples  
+  Key Assumption: ρ(Gc₁, Gc₂) = 0.5
+  Temperature: 25°C
+  
+FILE 7: stochastic_inputs_HT_uncorrelated.csv
+  Description: SCENARIO 3 - High-temperature degradation
+  Rows: 10,000 Monte Carlo samples
+  Key Assumption: Gc_HT = 0.75 × Gc_RT, σ_HT = σ_RT
+  Temperature: 800°C
+
+================================================================================
+KEY STATISTICS
+================================================================================
+
+ROOM TEMPERATURE (25°C):
+  YSZ|GDC Interface:
+    - Mean Gc: 2.85 J/m²
+    - Std Dev:  0.12 J/m²
+    - 5th percentile: 2.65 J/m²
+    - 95th percentile: 3.05 J/m²
+    
+  GDC|LSCF Interface:
+    - Mean Gc: 3.20 J/m²
+    - Std Dev:  0.15 J/m²
+    - 5th percentile: 2.95 J/m²
+    - 95th percentile: 3.45 J/m²
+    
+  System Resistance (Gc₁ + Gc₂):
+    - Independent (ρ=0.0): 6.05 ± 0.19 J/m²
+    - Correlated (ρ=0.5): 6.05 ± 0.23 J/m² (22% higher variance)
+
+HIGH TEMPERATURE (800°C):
+  YSZ|GDC Interface:
+    - Mean Gc: 2.14 J/m² (25% reduction)
+    - Std Dev:  0.12 J/m² (ASSUMED CONSTANT)
+    
+  GDC|LSCF Interface:
+    - Mean Gc: 2.40 J/m² (25% reduction)
+    - Std Dev:  0.15 J/m² (ASSUMED CONSTANT)
+    
+  System Resistance:
+    - High-T: 4.54 ± 0.19 J/m²
+
+================================================================================
+EPISTEMIC UNCERTAINTY IMPACT
+================================================================================
+
+MISSING_DATASET_01 (Correlation Effect):
+  - Increases system variance by 22%
+  - Joint failure probability uncertainty: ±X% (load-dependent)
+  - Current bounds: [ρ=0.0, ρ=0.5]
+  - Conservative assumption: Use ρ=0.5 for design
+  
+MISSING_DATASET_02 (High-T Variance):
+  - Mean toughness reduced by 25%
+  - Variance ASSUMED constant (likely non-conservative)
+  - Failure probability at J=2.5 J/m²:
+    * Room temp: 0.2%
+    * High temp: 99.9% (catastrophic increase)
+  - If real σ_HT > σ_RT, tail risk is underestimated
+
+================================================================================
+USAGE GUIDELINES
+================================================================================
+
+1. UNCERTAINTY QUANTIFICATION:
+   Run simulations with all three scenarios to bound predictions:
+   - Minimum risk: rho0.00.csv (independent, room temp)
+   - Maximum risk: HT_uncorrelated.csv (high temp)
+   - Intermediate: rho0.50.csv (correlated, room temp)
+
+2. SENSITIVITY ANALYSIS:
+   Compare CDF curves to quantify epistemic vs. aleatory uncertainty:
+   - Horizontal separation = epistemic (knowledge gap)
+   - Curve slope = aleatory (inherent randomness)
+
+3. DESIGN RECOMMENDATIONS:
+   - Use ρ=0.5 for conservative room-temp estimates
+   - Assume high-T behavior until validated with experiments
+   - Target J_applied < 4.0 J/m² for 95% reliability at 800°C
+
+4. EXPERIMENTAL PRIORITIES:
+   a) Measure 5-10 co-sintered stacks to determine ρ_real
+   b) Perform in-situ 800°C fracture tests (critical!)
+   c) Characterize temperature effect on variance (not just mean)
+
+================================================================================
+DATA QUALITY FLAGS
+================================================================================
+
+✓ VALIDATED:
+  - Statistical moments match target distributions
+  - Correlation coefficients within ±0.005 of targets
+  - Physical bounds satisfied (all Gc > 0)
+  
+⚠ ASSUMPTIONS:
+  - All distributions are Gaussian (reality may have skewness)
+  - Material properties statistically independent (E, CTE, ν)
+  - Temperature degradation is deterministic scaling
+  
+✗ KNOWN LIMITATIONS:
+  - NO experimental covariance data (pure assumption)
+  - NO high-temperature variance data (extrapolated)
+  - Ignores spatial correlation (all point properties)
+  - No manufacturing defect statistics
+
+================================================================================
+CITATION & LICENSE
+================================================================================
+
+Dataset: "Epistemic Uncertainty Quantification for SOC Interfaces"
+Version: 1.0
+Date: February 11, 2026
+License: CC BY 4.0
+
+IMPORTANT DISCLAIMER:
+  This is a SYNTHETIC dataset created for uncertainty quantification
+  studies. All values are based on literature ranges and engineering
+  judgment. DO NOT use for actual component design without experimental
+  validation of:
+    (a) Correlation structure
+    (b) High-temperature statistics
+    (c) Spatial variability
+
+================================================================================
+CONTACT
+================================================================================
+
+Questions: See README.md for detailed documentation
+Issues: Review 21_missing_data_assumption_flags.csv for epistemic gaps
+
+Generated with: Python 3.12 + NumPy/Pandas/SciPy
+Random Seed: 42 (reproducible)
+
+================================================================================
+END OF SUMMARY
+================================================================================

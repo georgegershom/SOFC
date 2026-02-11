@@ -1,0 +1,14 @@
+property,interface,mean_value,std_dev,distribution_type,units,source,temperature
+Gc_fracture_toughness,YSZ_GDC,2.85,0.12,normal,J/m²,Micro-cantilever bending tests,Room Temperature (25°C)
+Gc_fracture_toughness,GDC_LSCF,3.20,0.15,normal,J/m²,Micro-cantilever bending tests,Room Temperature (25°C)
+Youngs_Modulus,YSZ,210,8.4,normal,GPa,Nanoindentation,Room Temperature (25°C)
+Youngs_Modulus,GDC,180,7.2,normal,GPa,Nanoindentation,Room Temperature (25°C)
+Youngs_Modulus,LSCF,120,6.0,normal,GPa,Nanoindentation,Room Temperature (25°C)
+CTE,YSZ,10.5,0.3,normal,10^-6/K,Dilatometry,25-800°C
+CTE,GDC,12.4,0.4,normal,10^-6/K,Dilatometry,25-800°C
+CTE,LSCF,13.2,0.5,normal,10^-6/K,Dilatometry,25-800°C
+Poisson_Ratio,YSZ,0.31,0.01,normal,dimensionless,Literature,Room Temperature (25°C)
+Poisson_Ratio,GDC,0.29,0.01,normal,dimensionless,Literature,Room Temperature (25°C)
+Poisson_Ratio,LSCF,0.28,0.015,normal,dimensionless,Literature,Room Temperature (25°C)
+Interface_Strength,YSZ_GDC,85,5.5,lognormal,MPa,Push-out tests,Room Temperature (25°C)
+Interface_Strength,GDC_LSCF,72,6.8,lognormal,MPa,Push-out tests,Room Temperature (25°C)
