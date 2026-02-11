@@ -1,0 +1,4 @@
+check_item,symbol_or_setting,min_recommended,max_recommended,units,implementation_note
+Mesh Objectivity,h,1.25,10.0,nm,"Keep h in [l0/4, l0/2] based on l0=5-20 nm."
+Energy Balance,g(phi),1e-06,1e-06,residual stiffness,Use g(phi) = (1-phi)^2 + 1e-6 to avoid singular stiffness.
+Convergence,epsilon_tol,1e-08,1e-06,relative NR tolerance,Use Newton-Raphson tolerance between 1e-6 and 1e-8.
