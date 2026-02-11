@@ -1,0 +1,36 @@
+Material,Layer,Property,Symbol,Temperature_C,Mean,Std,CV_pct,Distribution,Lower_95,Upper_95,Unit,Source
+8YSZ,Electrolyte,Young's Modulus,E,25,205.0,8.5,4.15,Normal,188.3,221.7,GPa,Selcuk & Atkinson 1997
+8YSZ,Electrolyte,Young's Modulus,E,800,170.0,7.2,4.24,Normal,155.9,184.1,GPa,Radovic & Lara-Curzio 2004
+8YSZ,Electrolyte,Poisson's Ratio,nu,25,0.31,0.01,3.23,Normal,0.29,0.33,-,Adams et al. 1997
+8YSZ,Electrolyte,CTE,alpha,800,1.05e-05,3e-07,2.86,Normal,9.9e-06,1.11e-05,1/K,Hayashi et al. 2005
+8YSZ,Electrolyte,Fracture Toughness,K_Ic,25,2.0,0.3,15.0,Weibull,1.41,2.59,MPa·m^0.5,Cutler et al. 1987
+8YSZ,Electrolyte,Fracture Energy,Gc,25,18.8,5.5,29.3,Weibull,8.0,29.6,J/m²,Derived from K_Ic
+8YSZ,Electrolyte,Flexural Strength,sigma_f,25,270.0,35.0,12.96,Weibull,201.4,338.6,MPa,Masaki 1986
+8YSZ,Electrolyte,Flexural Strength,sigma_f,800,220.0,30.0,13.64,Weibull,161.2,278.8,MPa,Proportional scaling
+YSZ|GDC,Interface,Interfacial Fracture Energy,Gc_int,25,2.15,0.4,18.6,Weibull,1.37,2.93,J/m²,Micro-cantilever tests
+YSZ|GDC,Interface,Interfacial Fracture Energy,Gc_int,800,1.78,0.33,18.6,Weibull,1.13,2.43,J/m²,CV-constant scaling
+YSZ|GDC,Interface,Mode Mixity Angle,psi,25,42.0,3.5,8.33,Normal,35.1,48.9,deg,FEA of cantilever geometry
+GDC|LSCF,Interface,Interfacial Fracture Energy,Gc_int,25,1.0,0.2,20.0,Weibull,0.61,1.39,J/m²,Micro-cantilever tests
+GDC|LSCF,Interface,Interfacial Fracture Energy,Gc_int,800,0.83,0.17,20.0,Weibull,0.5,1.16,J/m²,CV-constant scaling
+GDC|LSCF,Interface,Mode Mixity Angle,psi,25,38.0,4.0,10.53,Normal,30.2,45.8,deg,FEA of cantilever geometry
+GDC,Interlayer,Young's Modulus,E,25,215.0,10.0,4.65,Normal,195.4,234.6,GPa,Morales et al. 2010
+GDC,Interlayer,Young's Modulus,E,800,180.0,9.0,5.0,Normal,162.4,197.6,GPa,Estimated from E(T) trend
+GDC,Interlayer,CTE,alpha,800,1.25e-05,4e-07,3.2,Normal,1.17e-05,1.33e-05,1/K,Sameshima et al. 1999
+GDC,Interlayer,Poisson's Ratio,nu,25,0.33,0.015,4.55,Normal,0.3,0.36,-,Morales et al. 2010
+LSCF,Cathode,Young's Modulus,E,25,115.0,12.0,10.43,Normal,91.5,138.5,GPa,Huang et al. 2009
+LSCF,Cathode,Young's Modulus,E,800,88.0,10.0,11.36,Normal,68.4,107.6,GPa,Estimated
+LSCF,Cathode,CTE,alpha,800,1.53e-05,6e-07,3.92,Normal,1.41e-05,1.65e-05,1/K,Tai et al. 1995
+LSCF,Cathode,Poisson's Ratio,nu,25,0.32,0.02,6.25,Normal,0.28,0.36,-,Huang et al. 2009
+Ni-YSZ,Anode,Young's Modulus,E,25,96.0,8.0,8.33,Normal,80.3,111.7,GPa,Pihlatie et al. 2009
+Ni-YSZ,Anode,Young's Modulus,E,800,75.0,7.0,9.33,Normal,61.3,88.7,GPa,Pihlatie et al. 2009
+Ni-YSZ,Anode,CTE,alpha,800,1.32e-05,5e-07,3.79,Normal,1.22e-05,1.42e-05,1/K,Mori et al. 1998
+Ni-YSZ,Anode,Poisson's Ratio,nu,25,0.36,0.02,5.56,Normal,0.32,0.4,-,Pihlatie et al. 2009
+Ni-YSZ,Anode,Porosity,phi,25,0.3,0.04,13.33,Normal,0.22,0.38,-,Typical reduction conditions
+Crofer22APU,Interconnect,Young's Modulus,E,25,220.0,5.0,2.27,Normal,210.2,229.8,GPa,ThyssenKrupp datasheet
+Crofer22APU,Interconnect,CTE,alpha,800,1.19e-05,3e-07,2.52,Normal,1.13e-05,1.25e-05,1/K,ThyssenKrupp datasheet
+Crofer22APU,Interconnect,Poisson's Ratio,nu,25,0.29,0.01,3.45,Normal,0.27,0.31,-,ThyssenKrupp datasheet
+Glass-Ceramic,Sealant,Young's Modulus,E,25,85.0,6.0,7.06,Normal,73.2,96.8,GPa,Chou et al. 2007
+Glass-Ceramic,Sealant,CTE,alpha,800,1.02e-05,5e-07,4.9,Normal,9.2e-06,1.12e-05,1/K,Chou et al. 2007
+8YSZ,Electrolyte,Weibull Modulus (Strength),m,25,10.5,1.5,14.29,Point estimate range,7.6,13.4,-,Selcuk & Atkinson 2000
+YSZ|GDC,Interface,Weibull Modulus (Gc),m,25,6.2,1.0,16.13,Point estimate range,4.2,8.2,-,Fitted to cantilever data
+GDC|LSCF,Interface,Weibull Modulus (Gc),m,25,5.5,1.2,21.82,Point estimate range,3.1,7.9,-,Fitted to cantilever data
