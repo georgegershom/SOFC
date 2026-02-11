@@ -1,0 +1,21 @@
+Property,Symbol,Mean_Value,Std_Dev,Unit,Distribution,Source,CoV_percent
+E_YSZ,E_YSZ,210.0,12.0,GPa,Normal,Literature + Nanoindentation,5.7
+E_GDC,E_GDC,190.0,10.0,GPa,Normal,Literature + Nanoindentation,5.3
+E_LSCF,E_LSCF,120.0,8.5,GPa,Normal,Literature + Nanoindentation,7.1
+E_NiYSZ,E_NiYSZ,95.0,7.0,GPa,Normal,Literature + Nanoindentation,7.4
+nu_YSZ,ν_YSZ,0.3,0.02,-,Normal,Literature,6.7
+nu_GDC,ν_GDC,0.28,0.02,-,Normal,Literature,7.1
+nu_LSCF,ν_LSCF,0.25,0.02,-,Normal,Literature,8.0
+nu_NiYSZ,ν_NiYSZ,0.32,0.02,-,Normal,Literature,6.3
+CTE_YSZ,α_YSZ,10.5,0.3,ppm/K,Normal,Dilatometry,2.9
+CTE_GDC,α_GDC,12.5,0.4,ppm/K,Normal,Dilatometry,3.2
+CTE_LSCF,α_LSCF,15.5,0.6,ppm/K,Normal,Dilatometry,3.9
+CTE_NiYSZ,α_NiYSZ,12.2,0.5,ppm/K,Normal,Dilatometry,4.1
+Gc_YSZ_GDC,Gc_YSZ|GDC,3.8,0.65,J/m²,Lognormal,Micro-cantilever (RT),17.1
+Gc_GDC_LSCF,Gc_GDC|LSCF,2.5,0.5,J/m²,Lognormal,Micro-cantilever (RT),20.0
+t_YSZ,t_YSZ,10.0,1.0,µm,Normal,SEM cross-section,10.0
+t_GDC,t_GDC,5.0,0.5,µm,Normal,SEM cross-section,10.0
+t_LSCF,t_LSCF,30.0,3.0,µm,Normal,SEM cross-section,10.0
+t_NiYSZ,t_NiYSZ,500.0,25.0,µm,Normal,SEM cross-section,5.0
+Sintering_Temp,T_sinter,1350.0,10.0,°C,Deterministic,Process spec,0.7
+Operating_Temp,T_op,800.0,5.0,°C,Deterministic,Operating spec,0.6
