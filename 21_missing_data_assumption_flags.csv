@@ -1,0 +1,3 @@
+missing_dataset_id,title,required_variable,current_assumption,impact_if_wrong,required_data_to_fill_gap
+MISSING_DATASET_01,Interfacial Property Correlation Matrix,rho,rho=0.0 (uncorrelated baseline),Can underpredict joint interface failure probability.,Paired post-mortem evidence across both interfaces in same stack.
+MISSING_DATASET_02,High-Temperature Fracture Statistics at 800C,"mu_800C, sigma_800C",mu_800C scaled by E(800)/E(RT); sigma_800C set equal to RT sigma (conservative).,Misestimated spread can distort failure probability map tails.,In-situ 800C micro-cantilever fracture experiments.

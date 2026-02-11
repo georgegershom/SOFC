@@ -1,0 +1,8 @@
+record_id,parameter_group,symbol,interface,temperature_C,distribution,mean_J_per_m2,std_dev_J_per_m2,coefficient_of_variation,weibull_modulus_proxy,value,unit,missing_data_flag,assumption_note,source
+YSZ_GDC_RT,interfacial_fracture_energy,Gc,YSZ|GDC,25.0,normal_truncated_positive,2.15,0.4,0.186047,7.5,,J/m^2,no,Proxy RT statistics used as baseline input.,fabricated_from_user_prompt
+YSZ_GDC_800C_estimated,interfacial_fracture_energy,Gc,YSZ|GDC,800.0,normal_truncated_positive,1.8275,0.4,0.218878,7.5,,J/m^2,yes,Mean scaled by elastic modulus ratio E(800C)/E(RT); std dev kept equal to RT by conservative assumption.,fabricated_assumption_due_to_missing_highT_data
+GDC_LSCF_RT,interfacial_fracture_energy,Gc,GDC|LSCF,25.0,normal_truncated_positive,1.0,0.2,0.2,6.0,,J/m^2,no,Proxy RT statistics used as baseline input.,fabricated_from_user_prompt
+GDC_LSCF_800C_estimated,interfacial_fracture_energy,Gc,GDC|LSCF,800.0,normal_truncated_positive,0.85,0.2,0.235294,6.0,,J/m^2,yes,Mean scaled by elastic modulus ratio E(800C)/E(RT); std dev kept equal to RT by conservative assumption.,fabricated_assumption_due_to_missing_highT_data
+MISSING_DATASET_01_rho,interfacial_correlation,rho,YSZ|GDC <-> GDC|LSCF,,assumed_constant,,,,,0.0,-,yes,Default uncorrelated interfaces due to lack of paired failure evidence.,fabricated_missing_dataset_proxy
+MISSING_DATASET_02_std_scaling,high_temperature_variance_scaling,eta_sigma,all,800.0,assumed_constant,,,,,1.0,-,yes,Std dev at 800C held equal to RT std dev.,fabricated_missing_dataset_proxy
+E_ratio_800C_over_RT,modulus_scaling_reference,E800_over_ERT,all,,deterministic,,,,,0.85,-,no,Used to scale mean fracture energy when high-T measurements are absent.,prompt_context_reference
