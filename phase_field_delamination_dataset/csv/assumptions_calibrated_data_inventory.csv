@@ -1,0 +1,8 @@
+parameter,symbol,value_min,value_max,nominal_value,units,source_rationale,status
+BK Exponent,eta,2.1,2.1,2.1,dimensionless,Standard for ceramic brittle fracture; recommended for GDC nanostructures.,calibrated
+Cathode Anisotropy,beta33_over_beta11,1.5,2.0,1.7,ratio,Default expectation for LSCF diagonal anisotropic expansion tensor.,calibrated
+Fracture Energy (Bulk),Gc_bulk,1.5,10.0,5.0,J/m^2,Derived from bulk micro-cantilever and indentation tests for LSCF/YSZ.,calibrated_range
+Interface Adhesion,Gamma_i,0.2,3.2,1.7,J/m^2,DFT and diffusion models; sensitive to Sr-segregation/interdiffusion chemistry.,calibrated_range
+Penalty Parameter,beta_pen,100.0,10000.0,1000.0,GPa/m,Enforces interface constraints in phase-field/cohesive hybrid formulation.,assumed_to_calibrated
+Phase-field Length,l0,5.0,20.0,10.0,nm,Resolves GDC nanostructure and interface width scale.,calibrated_range
+Regulated Length,l,0.5,0.5,0.5,um,Controls diffuse crack width in bulk phase-field evolution.,fixed
