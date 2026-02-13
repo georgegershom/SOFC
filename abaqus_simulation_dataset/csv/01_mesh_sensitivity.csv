@@ -1,0 +1,7 @@
+Mesh_Size_um,Element_Type,Elements_YSZ,Elements_GDC,Elements_LSCF,Total_Elements,DOF_Total,Normalized_Energy_Release,Convergence_Status
+0.1,CPE4R,50000,10000,100000,160000,320000,1.0,Converged
+0.2,CPE4R,12500,2500,25000,40000,80000,0.998,Converged
+0.5,CPE4R,2000,400,4000,6400,12800,0.992,Converged
+1.0,CPE4R,500,100,1000,1600,3200,0.975,Converged
+2.0,CPE4R,125,25,250,400,800,0.94,Marginal
+5.0,CPE4R,20,4,40,64,128,0.85,Not_converged
