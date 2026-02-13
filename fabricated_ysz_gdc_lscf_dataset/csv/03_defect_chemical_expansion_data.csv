@@ -1,0 +1,5 @@
+material,temperature_C,beta_iso_per_delta,beta_11_per_delta,beta_33_per_delta,delta_profile_model,delta_min,delta_max,pO2_atm,status,source_strategy,notes
+GDC,700,0.0105,,,uniform_or_gradient,0.008,0.025,1e-5_to_0.21,FABRICATED_LIT_ANCHORED,High-T XRD + controlled pO2 dilatometry surrogate,Isotropic coefficient for barrier-layer chemical strain.
+GDC,800,0.0118,,,uniform_or_gradient,0.01,0.03,1e-5_to_0.21,FABRICATED_LIT_ANCHORED,High-T XRD + controlled pO2 dilatometry surrogate,Baseline operation temperature value for UMAT eigenstrain.
+LSCF,700,,0.0069,0.0128,uniform_or_gradient,0.03,0.11,1e-5_to_0.21,FABRICATED_LIT_ANCHORED,Textured-sample XRD anisotropic fitting surrogate,Anisotropy retained for cathode mode-mix sensitivity.
+LSCF,800,,0.0075,0.0139,uniform_or_gradient,0.035,0.12,1e-5_to_0.21,FABRICATED_LIT_ANCHORED,Textured-sample XRD anisotropic fitting surrogate,Used in coupled UMAT chemical-eigenstrain decomposition.

@@ -1,0 +1,7 @@
+case_id,t_YSZ_um,t_GDC_um,t_LSCF_um,Ra_YSZ_GDC_um,lambda_YSZ_GDC_um,Ra_GDC_LSCF_um,lambda_GDC_LSCF_um,phi_pore_LSCF,rve_size_um,mesh_target_h_um,phase_distribution_strategy,status,source_method,notes
+BASELINE,12.0,1.5,35.0,0.08,2.2,0.14,3.1,0.35,60.0,0.4,Synthetic RVE + FIB-SEM morphology inspired,FABRICATED_LIT_ANCHORED,SEM/AFM-informed synthetic calibration,Nominal architecture used for UMAT-UEL coupling baseline.
+THIN_YSZ,8.0,1.5,35.0,0.08,2.2,0.14,3.1,0.35,60.0,0.3,Synthetic RVE + FIB-SEM morphology inspired,FABRICATED_LIT_ANCHORED,Parametric sweep bound,Thickness down-sweep for curvature and mode-mix sensitivity.
+THICK_GDC,12.0,3.0,35.0,0.1,2.8,0.15,3.2,0.35,60.0,0.4,Synthetic RVE + FIB-SEM morphology inspired,FABRICATED_LIT_ANCHORED,Parametric sweep bound,Barrier-layer up-sweep to test mixed-mode delamination shift.
+HIGH_ROUGHNESS,12.0,1.5,35.0,0.2,4.0,0.3,5.0,0.35,70.0,0.25,Synthetic RVE + FIB-SEM morphology inspired,FABRICATED_LIT_ANCHORED,AFM/profilometry-informed high roughness envelope,Aggressive interface roughness for mesh-objectivity stress test.
+LOW_POROSITY,12.0,1.5,35.0,0.08,2.2,0.12,2.9,0.25,55.0,0.4,Synthetic RVE + FIB-SEM morphology inspired,FABRICATED_LIT_ANCHORED,Image-analysis lower bound,Higher effective cathode stiffness scenario.
+HIGH_POROSITY,12.0,1.5,35.0,0.08,2.2,0.18,3.4,0.45,75.0,0.5,Synthetic RVE + FIB-SEM morphology inspired,FABRICATED_LIT_ANCHORED,Image-analysis upper bound,Lower effective cathode stiffness scenario.
