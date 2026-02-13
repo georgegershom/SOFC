@@ -1,0 +1,17 @@
+Measurement,Symbol,Value,Unit,Temperature_C,Method,Sample_ID,Uncertainty,Notes
+Global_Curvature,kappa,0.0015,1/mm,800,DIC_Optical_Dilatometry,Sample_001,0.0002,Stress-free reference state
+Global_Curvature,kappa,0.025,1/mm,600,DIC_Optical_Dilatometry,Sample_001,0.003,Cooling sequence
+Global_Curvature,kappa,0.038,1/mm,400,DIC_Optical_Dilatometry,Sample_001,0.004,Cooling sequence
+Global_Curvature,kappa,0.045,1/mm,25,DIC_Optical_Dilatometry,Sample_001,0.005,Room temperature final
+Critical_Delamination_Temperature,T_delam,350.0,C,350,In-Situ_SEM,Sample_002,25.0,First visible crack
+Delamination_Length,L_delam,2.5,mm,25,Post-Mortem_SEM,Sample_002,0.3,Total delamination extent
+Delamination_Location,Interface_ID,GDC/LSCF,categorical,25,Post-Mortem_SEM,Sample_002,NA,Primary failure location
+Crack_Path_Roughness,Ra_crack,0.8,um,25,SEM_Image_Analysis,Sample_002,0.2,Fracture surface roughness
+Maximum_Tensile_Stress,sigma_max,120.0,MPa,25,Curvature_Based_Estimate,Sample_001,15.0,At LSCF top surface
+Maximum_Shear_Stress,tau_max,45.0,MPa,25,Curvature_Based_Estimate,Sample_001,8.0,At GDC/LSCF interface
+Mode_Mixity_Angle,psi,32.0,degrees,25,Estimated_from_geometry,Sample_002,5.0,At delamination front
+Energy_Release_Rate,G,9.5,J/m2,25,J-Integral_from_FEA,Sample_002,1.5,At critical delamination
+Global_Curvature,kappa,0.0018,1/mm,800,DIC_Optical_Dilatometry,Sample_003,0.0002,Replicate measurement
+Global_Curvature,kappa,0.043,1/mm,25,DIC_Optical_Dilatometry,Sample_003,0.005,Replicate measurement
+Critical_Delamination_Temperature,T_delam,365.0,C,365,In-Situ_SEM,Sample_004,25.0,Replicate measurement
+Delamination_Length,L_delam,2.8,mm,25,Post-Mortem_SEM,Sample_004,0.3,Replicate measurement
