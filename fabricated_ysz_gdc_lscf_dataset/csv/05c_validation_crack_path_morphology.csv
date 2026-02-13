@@ -1,0 +1,5 @@
+specimen_id,loading_mode,dominant_failure,primary_interface,branching_angle_deg,path_tortuosity,interface_damage_fraction,bulk_kink_events,validation_method
+CPM_01,thermal_cooldown,interface_delamination,GDC|LSCF,18.0,1.23,0.79,1,Post-mortem FIB-SEM surrogate descriptors
+CPM_02,high_pO2_operation,mixed_interface_bulk,YSZ|GDC,24.0,1.31,0.68,2,In-situ SEM surrogate descriptors
+CPM_03,low_pO2_operation,interface_delamination,GDC|LSCF,14.0,1.18,0.84,1,In-situ SEM surrogate descriptors
+CPM_04,thermal_cycle,mixed_interface_bulk,YSZ|GDC,27.0,1.35,0.63,3,DIC + SEM overlay surrogate descriptors

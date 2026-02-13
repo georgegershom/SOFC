@@ -1,0 +1,7 @@
+check_id,rule,result,detail
+QA001,-1 < nu < 0.5,PASS,"nu range = [0.2300, 0.2900]"
+QA002,E > 0,PASS,minimum E_GPa = 72.0000
+QA003,alpha > 0,PASS,minimum alpha_per_K = 1.000000e-05
+QA004,Gc_II >= Gc_I for interfaces,PASS,min(Gc_II - Gc_I) = 4.300000 J/m2
+QA005,Tmax_n > 0 and Tmax_t > 0,PASS,"min Tmax_n = 135.000 MPa, min Tmax_t = 190.000 MPa"
+QA006,0 <= phi_pore_LSCF <= 1,PASS,"phi_pore range = [0.2500, 0.4500]"

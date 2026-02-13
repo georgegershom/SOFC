@@ -1,0 +1,6 @@
+entity_class,entity,Gc_bulk_J_m2,Gc_I_J_m2,Gc_II_J_m2,phi_n_J_m2,phi_t_J_m2,Tmax_n_MPa,Tmax_t_MPa,char_length_um,eta_BK,weibull_m,status,source_strategy,notes
+bulk,YSZ,14.2,,,,,,,,,12.0,FABRICATED_LIT_ANCHORED,Indentation fracture + Weibull fit surrogate,Bulk phase-field fracture energy for YSZ.
+bulk,GDC,10.8,,,,,,,,,10.0,FABRICATED_LIT_ANCHORED,Indentation fracture + Weibull fit surrogate,Bulk phase-field fracture energy for GDC.
+bulk,LSCF,7.0,,,,,,,,,8.0,FABRICATED_LIT_ANCHORED,Small-punch statistical strength surrogate,Porous cathode bulk fracture energy.
+interface,YSZ|GDC,,4.2,10.1,4.2,10.1,180.0,245.0,0.75,2.1,,FABRICATED_LIT_ANCHORED,Four-point/micro-cantilever mixed-mode surrogate,BK exponent retained at assumed default value 2.1.
+interface,GDC|LSCF,,2.9,7.2,2.9,7.2,135.0,190.0,1.1,2.1,,FABRICATED_LIT_ANCHORED,Four-point/micro-cantilever mixed-mode surrogate,More compliant interface with lower normal traction capacity.
