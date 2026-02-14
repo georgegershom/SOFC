@@ -1,0 +1,313 @@
+**
+** ============================================================================
+** ABAQUS INPUT FILE - AUTO-GENERATED
+** ============================================================================
+** Generated: 2026-02-13 17:44:59
+** Topic: Mixed-Mode Fracture of YSZ/GDC/LSCF Interfaces
+** Framework: Coupled UMAT + Phase-Field UEL
+**
+** Data Source: Abaqus Simulation Dataset v1.0
+** All values from peer-reviewed literature (Q1 journals)
+** Temperature range: 25-800 C (SOFC operating conditions)
+**
+** CAUTION: This is an auto-generated file.
+** Do NOT manually edit material constants - modify the CSV source files.
+** ============================================================================
+**
+**
+** ============================================================================
+** GEOMETRY DEFINITIONS
+** ============================================================================
+**
+** YSZ_electrolyte: t = 10.0 um (Dense, Tape_casting)
+** GDC_interlayer: t = 2.0 um (Dense_nanoscale, PLD_or_sputtering)
+** LSCF_cathode: t = 20.0 um (Porous, Screen_printing)
+**
+** Recommended max element size: 1.0 um (mesh objectivity verified)
+** Minimum DOF for convergence: ~3,200
+**
+**
+** ---- Material: MAT_YSZ_8MOL ----
+*MATERIAL, NAME=MAT_YSZ_8MOL
+**
+*ELASTIC, TYPE=ISOTROPIC
+** E(Pa),  nu,  Temperature(C)
+  205000000000.0, 0.3100, 25.0
+  203000000000.0, 0.3110, 100.0
+  200000000000.0, 0.3120, 200.0
+  197000000000.0, 0.3140, 300.0
+  194000000000.0, 0.3150, 400.0
+  191000000000.0, 0.3170, 500.0
+  188000000000.0, 0.3190, 600.0
+  184000000000.0, 0.3200, 700.0
+  180000000000.0, 0.3220, 800.0
+**
+*EXPANSION, TYPE=ISO, ZERO=25.0
+** alpha(/K),  Temperature(C)
+  1.0000000000e-05, 25.0
+  1.0200000000e-05, 100.0
+  1.0400000000e-05, 200.0
+  1.0500000000e-05, 300.0
+  1.0600000000e-05, 400.0
+  1.0700000000e-05, 500.0
+  1.0800000000e-05, 600.0
+  1.0900000000e-05, 700.0
+  1.1000000000e-05, 800.0
+**
+*DEPVAR
+  7
+** 1: d (phase-field damage)
+** 2: H (history variable, max strain energy)
+** 3: psi_0+ (tensile elastic energy)
+** 4: psi_0- (compressive elastic energy)
+** 5: eps_ch_11 (chemical strain, in-plane)
+** 6: eps_ch_22 (chemical strain, in-plane)
+** 7: eps_ch_33 (chemical strain, out-of-plane)
+**
+*USER MATERIAL, CONSTANTS=12, UNSYMM
+** Lambda(Pa), Mu(Pa), Gc(J/m2), l0(m), eta_pf, beta_11, beta_33, delta_delta
+** alpha_CTE(/K), T_ref(C), porosity, material_id
+  1.2766e+11, 7.8244e+10, 20.00, 1.00e-06, 2.0, 0.0000, 0.0000, 0.0
+  1.0000000000e-05, 25.0, 0.0050, 1.0
+**
+**
+** ---- Material: MAT_GDC_CE09GD01 ----
+*MATERIAL, NAME=MAT_GDC_CE09GD01
+**
+*ELASTIC, TYPE=ISOTROPIC
+** E(Pa),  nu,  Temperature(C)
+  195000000000.0, 0.3200, 25.0
+  192500000000.0, 0.3210, 100.0
+  189000000000.0, 0.3220, 200.0
+  185500000000.0, 0.3230, 300.0
+  182000000000.0, 0.3250, 400.0
+  178000000000.0, 0.3260, 500.0
+  174000000000.0, 0.3280, 600.0
+  171000000000.0, 0.3300, 700.0
+  168000000000.0, 0.3320, 800.0
+**
+*EXPANSION, TYPE=ISO, ZERO=25.0
+** alpha(/K),  Temperature(C)
+  1.1800000000e-05, 25.0
+  1.2000000000e-05, 100.0
+  1.2200000000e-05, 200.0
+  1.2300000000e-05, 300.0
+  1.2500000000e-05, 400.0
+  1.2600000000e-05, 500.0
+  1.2700000000e-05, 600.0
+  1.2800000000e-05, 700.0
+  1.3000000000e-05, 800.0
+**
+*DEPVAR
+  7
+** 1: d (phase-field damage)
+** 2: H (history variable, max strain energy)
+** 3: psi_0+ (tensile elastic energy)
+** 4: psi_0- (compressive elastic energy)
+** 5: eps_ch_11 (chemical strain, in-plane)
+** 6: eps_ch_22 (chemical strain, in-plane)
+** 7: eps_ch_33 (chemical strain, out-of-plane)
+**
+*USER MATERIAL, CONSTANTS=12, UNSYMM
+** Lambda(Pa), Mu(Pa), Gc(J/m2), l0(m), eta_pf, beta_11, beta_33, delta_delta
+** alpha_CTE(/K), T_ref(C), porosity, material_id
+  1.3131e+11, 7.3864e+10, 12.00, 1.00e-06, 2.0, 0.0840, 0.0840, 0.0
+  1.1800000000e-05, 25.0, 0.0200, 2.0
+**
+**
+** ---- Material: MAT_LSCF_DENSE ----
+*MATERIAL, NAME=MAT_LSCF_DENSE
+**
+*ELASTIC, TYPE=ISOTROPIC
+** E(Pa),  nu,  Temperature(C)
+  170000000000.0, 0.2900, 25.0
+  166000000000.0, 0.2910, 100.0
+  161000000000.0, 0.2930, 200.0
+  156000000000.0, 0.2950, 300.0
+  151000000000.0, 0.2970, 400.0
+  146000000000.0, 0.2990, 500.0
+  142000000000.0, 0.3010, 600.0
+  138000000000.0, 0.3030, 700.0
+  135000000000.0, 0.3050, 800.0
+**
+*EXPANSION, TYPE=ISO, ZERO=25.0
+** alpha(/K),  Temperature(C)
+  1.4000000000e-05, 25.0
+  1.4500000000e-05, 100.0
+  1.5000000000e-05, 200.0
+  1.5400000000e-05, 300.0
+  1.5700000000e-05, 400.0
+  1.6000000000e-05, 500.0
+  1.6200000000e-05, 600.0
+  1.6400000000e-05, 700.0
+  1.6500000000e-05, 800.0
+**
+*DEPVAR
+  7
+** 1: d (phase-field damage)
+** 2: H (history variable, max strain energy)
+** 3: psi_0+ (tensile elastic energy)
+** 4: psi_0- (compressive elastic energy)
+** 5: eps_ch_11 (chemical strain, in-plane)
+** 6: eps_ch_22 (chemical strain, in-plane)
+** 7: eps_ch_33 (chemical strain, out-of-plane)
+**
+*USER MATERIAL, CONSTANTS=12, UNSYMM
+** Lambda(Pa), Mu(Pa), Gc(J/m2), l0(m), eta_pf, beta_11, beta_33, delta_delta
+** alpha_CTE(/K), T_ref(C), porosity, material_id
+  9.0993e+10, 6.5891e+10, 8.00, 1.00e-06, 2.0, 0.0320, 0.0450, 0.0
+  1.4000000000e-05, 25.0, 0.0000, 3.0
+**
+**
+** ---- Material: MAT_LSCF_POROUS_35 ----
+*MATERIAL, NAME=MAT_LSCF_POROUS_35
+**
+*ELASTIC, TYPE=ISOTROPIC
+** E(Pa),  nu,  Temperature(C)
+  28700000000.0, 0.2900, 25.0
+  28020000000.0, 0.2910, 100.0
+  27180000000.0, 0.2930, 200.0
+  26330000000.0, 0.2950, 300.0
+  25490000000.0, 0.2970, 400.0
+  24650000000.0, 0.2990, 500.0
+  23970000000.0, 0.3010, 600.0
+  23300000000.0, 0.3030, 700.0
+  22790000000.0, 0.3050, 800.0
+**
+*EXPANSION, TYPE=ISO, ZERO=25.0
+** alpha(/K),  Temperature(C)
+  1.4000000000e-05, 25.0
+  1.4500000000e-05, 100.0
+  1.5000000000e-05, 200.0
+  1.5400000000e-05, 300.0
+  1.5700000000e-05, 400.0
+  1.6000000000e-05, 500.0
+  1.6200000000e-05, 600.0
+  1.6400000000e-05, 700.0
+  1.6500000000e-05, 800.0
+**
+*DEPVAR
+  7
+** 1: d (phase-field damage)
+** 2: H (history variable, max strain energy)
+** 3: psi_0+ (tensile elastic energy)
+** 4: psi_0- (compressive elastic energy)
+** 5: eps_ch_11 (chemical strain, in-plane)
+** 6: eps_ch_22 (chemical strain, in-plane)
+** 7: eps_ch_33 (chemical strain, out-of-plane)
+**
+*USER MATERIAL, CONSTANTS=12, UNSYMM
+** Lambda(Pa), Mu(Pa), Gc(J/m2), l0(m), eta_pf, beta_11, beta_33, delta_delta
+** alpha_CTE(/K), T_ref(C), porosity, material_id
+  1.5361e+10, 1.1123e+10, 5.20, 1.00e-06, 2.0, 0.0320, 0.0450, 0.0
+  1.4000000000e-05, 25.0, 0.3500, 4.0
+**
+**
+** ---- Phase-Field Fracture Parameters (AT2 Model) ----
+** Degradation function: g(d) = (1-d)^2
+** Crack surface density: gamma(d, grad_d) = d^2/(2*l0) + l0/2 * |grad_d|^2
+** Energy split: Spectral decomposition (Miehe et al., 2010)
+**
+** YSZ: Gc_RT = 20.0 J/m2, Gc_800C = 16.8 J/m2, l0 = 1.0 um
+** GDC: Gc_RT = 12.0 J/m2, Gc_800C = 10.0 J/m2, l0 = 1.0 um
+** LSCF_dense: Gc_RT = 8.0 J/m2, Gc_800C = 5.8 J/m2, l0 = 1.0 um
+** LSCF_porous: Gc_RT = 5.2 J/m2, Gc_800C = 3.8 J/m2, l0 = 1.0 um
+**
+**
+** ---- Interface: YSZ_GDC (T=25C) ----
+*UEL PROPERTY, ELSET=INTF_YSZ_GDC
+** phi_n(J/m2), phi_t(J/m2), delta_n_cr(m), delta_t_cr(m), T_max_n(Pa), T_max_t(Pa), eta_BK, penalty_stiffness(Pa/m)
+  5.0000, 8.0000, 4.0000e-08, 8.0000e-08, 2.5000e+08, 2.0000e+08, 2.10, 1.0000e+16
+**
+**
+** ---- Interface: GDC_LSCF (T=25C) ----
+*UEL PROPERTY, ELSET=INTF_GDC_LSCF
+** phi_n(J/m2), phi_t(J/m2), delta_n_cr(m), delta_t_cr(m), T_max_n(Pa), T_max_t(Pa), eta_BK, penalty_stiffness(Pa/m)
+  3.5000, 5.5000, 4.0000e-08, 7.9000e-08, 1.7500e+08, 1.4000e+08, 2.10, 1.0000e+16
+**
+**
+** ---- Thermal Loading: Cooldown from Sintering ----
+*AMPLITUDE, NAME=THERMAL_COOLDOWN, TIME=TOTAL TIME
+** time(normalized), temperature(C)
+  0.0000, 800.00, 0.0100, 792.25, 0.0200, 784.50, 0.0300, 776.75
+  0.0400, 769.00, 0.0500, 761.25, 0.0600, 753.50, 0.0700, 745.75
+  0.0800, 738.00, 0.0900, 730.25, 0.1000, 722.50, 0.1100, 714.75
+  0.1200, 707.00, 0.1300, 699.25, 0.1400, 691.50, 0.1500, 683.75
+  0.1600, 676.00, 0.1700, 668.25, 0.1800, 660.50, 0.1900, 652.75
+  0.2000, 645.00, 0.2100, 637.25, 0.2200, 629.50, 0.2300, 621.75
+  0.2400, 614.00, 0.2500, 606.25, 0.2600, 598.50, 0.2700, 590.75
+  0.2800, 583.00, 0.2900, 575.25, 0.3000, 567.50, 0.3100, 559.75
+  0.3200, 552.00, 0.3300, 544.25, 0.3400, 536.50, 0.3500, 528.75
+  0.3600, 521.00, 0.3700, 513.25, 0.3800, 505.50, 0.3900, 497.75
+  0.4000, 490.00, 0.4100, 482.25, 0.4200, 474.50, 0.4300, 466.75
+  0.4400, 459.00, 0.4500, 451.25, 0.4600, 443.50, 0.4700, 435.75
+  0.4800, 428.00, 0.4900, 420.25, 0.5000, 412.50, 0.5100, 404.75
+  0.5200, 397.00, 0.5300, 389.25, 0.5400, 381.50, 0.5500, 373.75
+  0.5600, 366.00, 0.5700, 358.25, 0.5800, 350.50, 0.5900, 342.75
+  0.6000, 335.00, 0.6100, 327.25, 0.6200, 319.50, 0.6300, 311.75
+  0.6400, 304.00, 0.6500, 296.25, 0.6600, 288.50, 0.6700, 280.75
+  0.6800, 273.00, 0.6900, 265.25, 0.7000, 257.50, 0.7100, 249.75
+  0.7200, 242.00, 0.7300, 234.25, 0.7400, 226.50, 0.7500, 218.75
+  0.7600, 211.00, 0.7700, 203.25, 0.7800, 195.50, 0.7900, 187.75
+  0.8000, 180.00, 0.8100, 172.25, 0.8200, 164.50, 0.8300, 156.75
+  0.8400, 149.00, 0.8500, 141.25, 0.8600, 133.50, 0.8700, 125.75
+  0.8800, 118.00, 0.8900, 110.25, 0.9000, 102.50, 0.9100, 94.75
+  0.9200, 87.00, 0.9300, 79.25, 0.9400, 71.50, 0.9500, 63.75
+  0.9600, 56.00, 0.9700, 48.25, 0.9800, 40.50, 0.9900, 32.75
+  1.0000, 25.00
+**
+**
+** ---- Initial Conditions ----
+** Stress-free reference at sintering temperature (800 C)
+*INITIAL CONDITIONS, TYPE=TEMPERATURE
+ALL_NODES, 800.0
+**
+*INITIAL CONDITIONS, TYPE=SOLUTION
+** d=0 (undamaged), H=0, psi+=0, psi-=0, eps_ch=0
+ALL_ELEMENTS, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+**
+**
+** ============================================================================
+** STEP 1: THERMAL COOLDOWN (800C -> 25C)
+** ============================================================================
+*STEP, NAME=THERMAL_COOLDOWN, NLGEOM=YES, INC=1000
+*STATIC
+0.01, 1.0, 1e-8, 0.05
+**
+** Apply temperature field using amplitude
+*TEMPERATURE, AMPLITUDE=THERMAL_COOLDOWN
+ALL_NODES, 25.0
+**
+** Output requests
+*OUTPUT, FIELD, FREQUENCY=10
+*NODE OUTPUT
+U, RF, NT
+*ELEMENT OUTPUT, ELSET=ALL_ELEMENTS
+S, E, SDV
+**
+*OUTPUT, HISTORY, FREQUENCY=1
+*ENERGY OUTPUT
+ALLSE, ALLPD, ALLAE, ETOTAL
+**
+*END STEP
+**
+** ============================================================================
+** STEP 2: ISOTHERMAL CHEMICAL LOADING (pO2 reduction at 800C)
+** ============================================================================
+*STEP, NAME=CHEMICAL_LOADING, NLGEOM=YES, INC=500
+*STATIC
+0.02, 1.0, 1e-8, 0.1
+**
+** Chemical eigenstrain applied via UMAT SDV update
+** pO2 reduction controlled by user subroutine field variable
+*FIELD, VARIABLE=1
+ALL_NODES, 1.0
+**
+*OUTPUT, FIELD, FREQUENCY=5
+*NODE OUTPUT
+U, RF
+*ELEMENT OUTPUT, ELSET=ALL_ELEMENTS
+S, E, SDV
+**
+*END STEP
+**

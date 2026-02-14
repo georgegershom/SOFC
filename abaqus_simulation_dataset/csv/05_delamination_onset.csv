@@ -1,0 +1,7 @@
+Interface,Loading_Type,Critical_Temperature_C,Critical_pO2_atm,Critical_Cycle_Number,Energy_Release_Rate_Jm2,Mode_Mixity_deg,Failure_Mode,Source
+YSZ_GDC,Thermal_cooldown,350.0,,,4.8,35,Mixed_mode,Model_prediction
+YSZ_GDC,Isothermal_pO2_reduction,,1e-12,,4.5,28,Mode_I_dominant,Model_prediction
+YSZ_GDC,Thermal_cycling,300.0,,150.0,5.0,42,Mixed_mode,Model_prediction
+GDC_LSCF,Thermal_cooldown,420.0,,,3.3,40,Mixed_mode,Model_prediction
+GDC_LSCF,Isothermal_pO2_reduction,,1e-08,,3.2,32,Mode_I_dominant,Model_prediction
+GDC_LSCF,Thermal_cycling,380.0,,80.0,3.5,48,Mixed_mode,Model_prediction
