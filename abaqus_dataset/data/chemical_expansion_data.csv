@@ -1,0 +1,15 @@
+Material,Parameter,Symbol,Temperature_C,pO2_atm,Value,Unit,Source,Application_Notes
+GDC10,Isotropic_Chemical_Expansion,beta_iso,800,0.21,0.0,strain,Reference state in air,Zero strain definition
+GDC10,Isotropic_Chemical_Expansion,beta_iso,800,0.001,0.00125,strain,Reducing atmosphere,delta_delta=0.05
+GDC10,Chemical_Expansion_Coefficient,beta_iso_coeff,800,variable,0.025,strain/delta_delta,Linear regime,Used in UMAT
+GDC10,Oxygen_Nonstoichiometry,delta,800,0.21,0.05,dimensionless,Air reference,Ce0.9Gd0.1O1.95
+GDC10,Oxygen_Nonstoichiometry,delta,800,0.001,0.10,dimensionless,Cathode side,Oxygen loss under reducing conditions
+LSCF,Anisotropic_Chemical_Expansion_a,beta_11,800,0.21,0.0,strain,Reference state in air,In-plane zero strain
+LSCF,Anisotropic_Chemical_Expansion_a,beta_11,800,0.001,0.012,strain,Reducing atmosphere,delta_delta=0.15
+LSCF,Anisotropic_Chemical_Expansion_c,beta_33,800,0.21,0.0,strain,Reference state in air,Out-of-plane zero strain
+LSCF,Anisotropic_Chemical_Expansion_c,beta_33,800,0.001,0.018,strain,Reducing atmosphere,delta_delta=0.15
+LSCF,Chemical_Expansion_Coefficient_a,beta_11_coeff,800,variable,0.08,strain/delta_delta,Linear regime a-axis,Textured sample XRD
+LSCF,Chemical_Expansion_Coefficient_c,beta_33_coeff,800,variable,0.12,strain/delta_delta,Linear regime c-axis,Textured sample XRD
+LSCF,Oxygen_Nonstoichiometry,delta,800,0.21,0.15,dimensionless,Air reference,La0.6Sr0.4Co0.2Fe0.8O3-d
+LSCF,Oxygen_Nonstoichiometry,delta,800,0.001,0.30,dimensionless,Cathode side,Significant oxygen loss
+LSCF,Texture_Factor,f_texture,25,0.21,0.3,dimensionless,Randomly oriented,Mix of anisotropic and isotropic

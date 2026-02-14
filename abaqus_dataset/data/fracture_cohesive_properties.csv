@@ -1,0 +1,25 @@
+Interface/Material,Property,Symbol,Mode,Value,Unit,Temperature_C,Source,Quality
+8YSZ,Bulk_Fracture_Toughness,Gc_b,I,25.0,J/m2,25,Indentation Fracture,HIGH
+8YSZ,Bulk_Fracture_Toughness_KIC,KIC,I,2.3,MPa*m^0.5,25,Converted from Gc,HIGH
+GDC10,Bulk_Fracture_Toughness,Gc_b,I,20.0,J/m2,25,Indentation Fracture,MEDIUM
+GDC10,Bulk_Fracture_Toughness_KIC,KIC,I,1.8,MPa*m^0.5,25,Converted from Gc,MEDIUM
+LSCF,Bulk_Fracture_Toughness,Gc_b,I,15.0,J/m2,25,Porous Ceramic Estimate,LOW
+LSCF,Bulk_Fracture_Toughness_KIC,KIC,I,1.1,MPa*m^0.5,25,Converted from Gc porosity adjusted,LOW
+YSZ/GDC,Interface_Toughness,Gc_I,I,12.0,J/m2,25,Four-Point Bending,MEDIUM
+YSZ/GDC,Interface_Toughness,Gc_II,II,18.0,J/m2,25,Mixed-Mode Bending,MEDIUM
+YSZ/GDC,Cohesive_Strength,T_max_n,I,150.0,MPa,25,Estimated from Gc_I,LOW
+YSZ/GDC,Cohesive_Strength,T_max_t,II,180.0,MPa,25,Estimated from Gc_II,LOW
+YSZ/GDC,Characteristic_Length,lc,Mixed,0.08,um,25,Gc/(T_max)^2,DERIVED
+GDC/LSCF,Interface_Toughness,Gc_I,I,8.0,J/m2,25,Four-Point Bending,MEDIUM
+GDC/LSCF,Interface_Toughness,Gc_II,II,14.0,J/m2,25,Mixed-Mode Bending,MEDIUM
+GDC/LSCF,Cohesive_Strength,T_max_n,I,100.0,MPa,25,Estimated from Gc_I,LOW
+GDC/LSCF,Cohesive_Strength,T_max_t,II,130.0,MPa,25,Estimated from Gc_II,LOW
+GDC/LSCF,Characteristic_Length,lc,Mixed,0.06,um,25,Gc/(T_max)^2,DERIVED
+Interface,Mixed_Mode_Exponent,eta_BK,Mixed,2.1,dimensionless,25,BK Law Standard,FLAG
+Interface,Penalty_Stiffness,K_penalty,Mixed,1.0e6,MPa/mm,25,Large compared to E/t,SIMULATION
+8YSZ,Weibull_Modulus,m,I,12.0,dimensionless,25,Small Punch Test,MEDIUM
+GDC10,Weibull_Modulus,m,I,10.0,dimensionless,25,Small Punch Test,MEDIUM
+LSCF,Weibull_Modulus,m,I,6.0,dimensionless,25,Small Punch Test porous,MEDIUM
+8YSZ,Phase_Field_Length_Scale,l_pf,Bulk,0.5,um,25,Mesh refinement study,SIMULATION
+GDC10,Phase_Field_Length_Scale,l_pf,Bulk,0.4,um,25,Mesh refinement study,SIMULATION
+LSCF,Phase_Field_Length_Scale,l_pf,Bulk,0.6,um,25,Mesh refinement study,SIMULATION

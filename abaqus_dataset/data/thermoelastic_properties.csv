@@ -1,0 +1,25 @@
+Material,Property,Symbol,Temperature_C,Value,Unit,Source,DOI_Reference
+8YSZ,Youngs_Modulus,E,25,210.0,GPa,Nanoindentation Literature,10.1016/j.actamat.2008.01.029
+8YSZ,Youngs_Modulus,E,200,205.0,GPa,Extrapolated,10.1016/j.actamat.2008.01.029
+8YSZ,Youngs_Modulus,E,400,198.0,GPa,Extrapolated,10.1016/j.actamat.2008.01.029
+8YSZ,Youngs_Modulus,E,600,194.0,GPa,Extrapolated,10.1016/j.actamat.2008.01.029
+8YSZ,Youngs_Modulus,E,800,190.0,GPa,High-T Mechanical Testing,10.1016/j.actamat.2008.01.029
+8YSZ,Poissons_Ratio,nu,25,0.31,dimensionless,Literature Consensus,10.1111/j.1151-2916.2000.tb01506.x
+8YSZ,Poissons_Ratio,nu,800,0.32,dimensionless,Weak T-dependence,10.1111/j.1151-2916.2000.tb01506.x
+8YSZ,CTE,alpha,25-800,10.5,ppm/K,Dilatometry,10.1016/j.ssi.2004.01.006
+GDC10,Youngs_Modulus,E,25,160.0,GPa,Nanoindentation Literature,10.1016/j.ssi.2006.05.030
+GDC10,Youngs_Modulus,E,200,156.0,GPa,Extrapolated,10.1016/j.ssi.2006.05.030
+GDC10,Youngs_Modulus,E,400,151.0,GPa,Extrapolated,10.1016/j.ssi.2006.05.030
+GDC10,Youngs_Modulus,E,600,148.0,GPa,Extrapolated,10.1016/j.ssi.2006.05.030
+GDC10,Youngs_Modulus,E,800,145.0,GPa,High-T Mechanical Testing,10.1016/j.ssi.2006.05.030
+GDC10,Poissons_Ratio,nu,25,0.30,dimensionless,Literature Consensus,10.1016/j.ssi.2006.05.030
+GDC10,Poissons_Ratio,nu,800,0.31,dimensionless,Weak T-dependence,10.1016/j.ssi.2006.05.030
+GDC10,CTE,alpha,25-800,12.5,ppm/K,Dilatometry,10.1016/j.ssi.2004.09.020
+LSCF,Youngs_Modulus,E,25,80.0,GPa,Porous Composite Estimate,10.1149/1.1861177
+LSCF,Youngs_Modulus,E,200,76.0,GPa,Extrapolated,10.1149/1.1861177
+LSCF,Youngs_Modulus,E,400,71.0,GPa,Extrapolated,10.1149/1.1861177
+LSCF,Youngs_Modulus,E,600,68.0,GPa,Extrapolated,10.1149/1.1861177
+LSCF,Youngs_Modulus,E,800,65.0,GPa,High-T with Chemical Expansion,10.1149/1.1861177
+LSCF,Poissons_Ratio,nu,25,0.28,dimensionless,Perovskite Estimate,10.1149/1.1861177
+LSCF,Poissons_Ratio,nu,800,0.29,dimensionless,Weak T-dependence,10.1149/1.1861177
+LSCF,CTE,alpha,25-800,15.8,ppm/K,Dilatometry in Air,10.1016/j.jpowsour.2005.03.117

@@ -1,0 +1,14 @@
+Parameter,Symbol,Material,Value,Unit,Uncertainty,Method,Notes
+Layer_Thickness_YSZ,t_YSZ,8YSZ,10.0,um,0.5,SEM Cross-section,Dense electrolyte
+Layer_Thickness_GDC,t_GDC,GDC10,5.0,um,0.3,SEM Cross-section,Barrier interlayer
+Layer_Thickness_LSCF,t_LSCF,LSCF,30.0,um,2.0,SEM Cross-section,Porous cathode
+Interface_Roughness_Amplitude_YSZ_GDC,Ra_1,YSZ/GDC,0.15,um,0.05,AFM/Profilometry,RMS roughness
+Interface_Roughness_Amplitude_GDC_LSCF,Ra_2,GDC/LSCF,0.35,um,0.10,AFM/Profilometry,RMS roughness
+Interface_Roughness_Wavelength_YSZ_GDC,lambda_1,YSZ/GDC,2.5,um,0.5,AFM Spatial Analysis,Dominant frequency
+Interface_Roughness_Wavelength_GDC_LSCF,lambda_2,GDC/LSCF,5.0,um,1.0,AFM Spatial Analysis,Particle size related
+LSCF_Porosity,phi_pore,LSCF,0.35,fraction,0.05,FIB-SEM Image Analysis,Volume fraction
+LSCF_Pore_Size_Mean,d_pore_mean,LSCF,1.2,um,0.3,FIB-SEM Image Analysis,Log-normal distribution
+LSCF_Pore_Size_Std,d_pore_std,LSCF,0.4,um,0.1,FIB-SEM Image Analysis,Distribution width
+Triple_Phase_Boundary_Density,TPB_density,LSCF/GDC,4.5,um/um3,1.0,FIB-SEM Reconstruction,Active sites for ORR
+Cell_Lateral_Dimension,L_cell,Cell,10000.0,um,500.0,Physical measurement,10mm x 10mm sample
+Cell_Total_Thickness,t_total,Cell,45.0,um,2.5,Sum of layers,Total tri-layer thickness

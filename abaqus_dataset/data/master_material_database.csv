@@ -1,0 +1,58 @@
+Category,Parameter,Symbol,Material,Value,Unit,Temperature_C,Source,Notes,Quality_Flag
+Geometric,Layer Thickness,t_YSZ,8YSZ,10.0,um,25,Typical SOFC anode-supported cell,Dense electrolyte layer,HIGH
+Geometric,Layer Thickness,t_GDC,GDC10,5.0,um,25,Typical interlayer thickness,Barrier layer prevents Sr diffusion,HIGH
+Geometric,Layer Thickness,t_LSCF,LSCF,30.0,um,25,Typical cathode thickness,Porous composite cathode,HIGH
+Geometric,Interface Roughness Amplitude,Ra_YSZ_GDC,YSZ/GDC,0.15,um,25,AFM measurements typical range,Root mean square roughness,MEDIUM
+Geometric,Interface Roughness Amplitude,Ra_GDC_LSCF,GDC/LSCF,0.35,um,25,Larger due to screen printing,Higher roughness in porous interface,MEDIUM
+Geometric,Interface Roughness Wavelength,lambda_YSZ_GDC,YSZ/GDC,2.5,um,25,AFM spatial analysis,Dominant spatial frequency,MEDIUM
+Geometric,Interface Roughness Wavelength,lambda_GDC_LSCF,GDC/LSCF,5.0,um,25,Coarser due to cathode microstructure,Particle size related,MEDIUM
+Geometric,LSCF Porosity,phi_pore,LSCF,0.35,fraction,25,Image analysis typical value,Volume fraction for gas transport,HIGH
+Elastic,Young's Modulus,E_YSZ,8YSZ,210.0,GPa,25,Nanoindentation / Literature,Dense polycrystalline,HIGH
+Elastic,Young's Modulus,E_YSZ,8YSZ,190.0,GPa,800,Temperature degradation ~10%,High temperature softening,HIGH
+Elastic,Young's Modulus,E_GDC,GDC10,160.0,GPa,25,Nanoindentation on dense samples,Ce0.9Gd0.1O1.95,HIGH
+Elastic,Young's Modulus,E_GDC,GDC10,145.0,GPa,800,Temperature degradation ~10%,High temperature softening,HIGH
+Elastic,Young's Modulus,E_LSCF,LSCF,80.0,GPa,25,Composite effective modulus with porosity,La0.6Sr0.4Co0.2Fe0.8O3-d porous,MEDIUM
+Elastic,Young's Modulus,E_LSCF,LSCF,65.0,GPa,800,Significant softening in LSCF,Chemical expansion effects,MEDIUM
+Elastic,Poisson's Ratio,nu_YSZ,8YSZ,0.31,dimensionless,25,Literature consensus,Cubic fluorite structure,HIGH
+Elastic,Poisson's Ratio,nu_YSZ,8YSZ,0.32,dimensionless,800,Weak temperature dependence,Slight increase with T,HIGH
+Elastic,Poisson's Ratio,nu_GDC,GDC10,0.30,dimensionless,25,Literature consensus,Cubic fluorite structure,HIGH
+Elastic,Poisson's Ratio,nu_GDC,GDC10,0.31,dimensionless,800,Weak temperature dependence,Slight increase with T,HIGH
+Elastic,Poisson's Ratio,nu_LSCF,LSCF,0.28,dimensionless,25,Estimated from similar perovskites,Perovskite structure,MEDIUM
+Elastic,Poisson's Ratio,nu_LSCF,LSCF,0.29,dimensionless,800,Weak temperature dependence,Slight increase with T,MEDIUM
+Thermal,Coefficient of Thermal Expansion,alpha_YSZ,8YSZ,10.5,ppm/K,25-800,Dilatometry standard value,Secant CTE from RT to 800C,HIGH
+Thermal,Coefficient of Thermal Expansion,alpha_GDC,GDC10,12.5,ppm/K,25-800,Dilatometry on dense samples,Higher than YSZ causes mismatch,HIGH
+Thermal,Coefficient of Thermal Expansion,alpha_LSCF,LSCF,15.8,ppm/K,25-800,Dilatometry in air,Highest CTE drives delamination,HIGH
+Chemical,Isotropic Chemical Expansion Coefficient,beta_iso_GDC,GDC10,0.025,strain/delta_delta,800,XRD under pO2 control,Linear approximation,MEDIUM
+Chemical,Anisotropic Chemical Expansion (a-axis),beta_11_LSCF,LSCF,0.08,strain/delta_delta,800,XRD on textured samples,In-plane expansion,MEDIUM
+Chemical,Anisotropic Chemical Expansion (c-axis),beta_33_LSCF,LSCF,0.12,strain/delta_delta,800,XRD on textured samples,Out-of-plane larger expansion,MEDIUM
+Chemical,Oxygen Non-Stoichiometry Change,delta_delta_GDC,GDC10,0.05,dimensionless,800,TGA / defect model from air to cathode pO2,Uniform through thickness assumed,MEDIUM
+Chemical,Oxygen Non-Stoichiometry Change,delta_delta_LSCF,LSCF,0.15,dimensionless,800,TGA / defect model from air to cathode pO2,Significant oxygen loss at cathode,MEDIUM
+Fracture,Bulk Fracture Toughness,Gc_b_YSZ,8YSZ,25.0,J/m2,25,Indentation fracture / Literature,Mode I critical energy release rate,HIGH
+Fracture,Bulk Fracture Toughness,Gc_b_GDC,GDC10,20.0,J/m2,25,Indentation fracture / Literature,Lower than YSZ,MEDIUM
+Fracture,Bulk Fracture Toughness,Gc_b_LSCF,LSCF,15.0,J/m2,25,Estimated from porous ceramic literature,Reduced by porosity,LOW
+Fracture,Interface Mode I Toughness,Gc_I_YSZ_GDC,YSZ/GDC,12.0,J/m2,25,Four-point bending / Micro-cantilever,Weaker than bulk phases,MEDIUM
+Fracture,Interface Mode I Toughness,Gc_I_GDC_LSCF,GDC/LSCF,8.0,J/m2,25,Four-point bending / Micro-cantilever,Weakest interface due to porosity,MEDIUM
+Fracture,Interface Mode II Toughness,Gc_II_YSZ_GDC,YSZ/GDC,18.0,J/m2,25,Mixed-mode bending tests,Typically 1.5x Mode I,MEDIUM
+Fracture,Interface Mode II Toughness,Gc_II_GDC_LSCF,GDC/LSCF,14.0,J/m2,25,Mixed-mode bending tests,Typically 1.75x Mode I,MEDIUM
+Cohesive,Normal Cohesive Strength,T_max_n_YSZ_GDC,YSZ/GDC,150.0,MPa,25,Estimated from Gc_I and characteristic length,Critical normal traction,LOW
+Cohesive,Normal Cohesive Strength,T_max_n_GDC_LSCF,GDC/LSCF,100.0,MPa,25,Estimated from Gc_I and characteristic length,Critical normal traction,LOW
+Cohesive,Shear Cohesive Strength,T_max_t_YSZ_GDC,YSZ/GDC,180.0,MPa,25,Estimated from Gc_II and characteristic length,Critical shear traction,LOW
+Cohesive,Shear Cohesive Strength,T_max_t_GDC_LSCF,GDC/LSCF,130.0,MPa,25,Estimated from Gc_II and characteristic length,Critical shear traction,LOW
+Cohesive,Mixed-Mode Exponent,eta_BK,Interface,2.1,dimensionless,25,BK law standard value,Benzeggagh-Kenane parameter,FLAG
+Cohesive,Characteristic Length,l_c_YSZ_GDC,YSZ/GDC,0.08,um,25,Derived from Gc and T_max,Cohesive zone length scale,LOW
+Cohesive,Characteristic Length,l_c_GDC_LSCF,GDC/LSCF,0.06,um,25,Derived from Gc and T_max,Cohesive zone length scale,LOW
+Statistical,Weibull Modulus (Strength),m_YSZ,8YSZ,12.0,dimensionless,25,Small punch test fitting,Probabilistic failure distribution,MEDIUM
+Statistical,Weibull Modulus (Strength),m_GDC,GDC10,10.0,dimensionless,25,Small punch test fitting,Probabilistic failure distribution,MEDIUM
+Statistical,Weibull Modulus (Strength),m_LSCF,LSCF,6.0,dimensionless,25,Small punch test fitting,Lower due to porosity,MEDIUM
+Validation,Reference Curvature at 800C,kappa_800C,Cell,0.0015,1/mm,800,DIC / Optical dilatometry,Initial stress-free state,EXPERIMENTAL
+Validation,Curvature at RT after cooldown,kappa_25C,Cell,0.045,1/mm,25,DIC / Optical dilatometry,Thermal mismatch induced,EXPERIMENTAL
+Validation,Critical Delamination Temperature,T_delam_onset,Cell,350.0,C,Decreasing,In-situ SEM observation,During cooling from 800C,EXPERIMENTAL
+Validation,Delamination Length at RT,L_delam,Cell,2.5,mm,25,Post-mortem SEM,Typical delamination extent,EXPERIMENTAL
+Phase_Field,Length Scale Parameter,l_pf_YSZ,8YSZ,0.5,um,25,2-3x element size for convergence,Phase field regularization,SIMULATION
+Phase_Field,Length Scale Parameter,l_pf_GDC,GDC10,0.4,um,25,2-3x element size for convergence,Phase field regularization,SIMULATION
+Phase_Field,Length Scale Parameter,l_pf_LSCF,LSCF,0.6,um,25,Coarser due to microstructure,Phase field regularization,SIMULATION
+Phase_Field,Degradation Function Type,g_d,All,Quadratic,dimensionless,25,(1-d)^2 for AT2 model,Standard choice for irreversibility,SIMULATION
+Mesh,Element Size in YSZ,h_YSZ,8YSZ,0.25,um,25,Mesh sensitivity study required,At least 4 elements through thickness,SIMULATION
+Mesh,Element Size in GDC,h_GDC,GDC10,0.20,um,25,Finer due to thin layer,At least 5 elements through thickness,SIMULATION
+Mesh,Element Size in LSCF,h_LSCF,LSCF,0.30,um,25,Can be coarser due to homogenization,At least 3 elements per pore if explicit,SIMULATION
+Mesh,Interface Element Type,elem_interface,Interface,COH2D4,dimensionless,25,4-node cohesive element,Abaqus standard cohesive element,SIMULATION
