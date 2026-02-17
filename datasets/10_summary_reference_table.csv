@@ -1,0 +1,6 @@
+Data_Category,Key_Variables,Typical_Source,Soil_Type,E_kPa_range,nu_range,c_kPa_range,phi_deg_range
+Constitutive,"E, nu, c, phi",Lab tests (Triaxial/Oedometer),Sand,15000-50000,0.25-0.35,0-5,28-42
+Constitutive,"E, nu, c, phi",Lab tests (Triaxial/Oedometer),Clay,5000-30000,0.30-0.45,15-200,18-30
+Geometric,"Wall thickness, Tunnel diameter, Excavation depth",Engineering design specs,Both,-,-,-,-
+Observation,"Settlement (S), Pore water pressure (u)",Field sensors or Centrifuge tests,Both,-,-,-,-
+Risk/Mode,Failure vs Non-failure labels,Numerical Parametric Studies,Both,-,-,-,-
