@@ -1,0 +1,17 @@
+Data_Category,Key_Variable,Typical_Range,Unit,Typical_Source
+Constitutive,Youngs_Modulus_E_MPa,5-100,MPa,Lab tests (Triaxial/Oedometer)
+Constitutive,Poissons_Ratio_nu,0.15-0.45,dimensionless,Lab tests
+Constitutive,Cohesion_c_kPa,0-100,kPa,Direct Shear/Triaxial
+Constitutive,Friction_Angle_phi_degrees,0-42,degrees,Triaxial Test
+Constitutive,Unit_Weight_kN_per_m3,16-22,kN/m³,Lab measurement
+Geometric,Wall_Thickness_m,0.2-1.5,meters,Engineering design specs
+Geometric,Tunnel_Diameter_m,3-12,meters,Design specifications
+Geometric,Embedment_Depth_m,2-30,meters,Site survey
+Geometric,Excavation_Width_m,10-50,meters,Design drawings
+Observational,Settlement_S_mm,0-150,mm,Field sensors/Inclinometers
+Observational,Horizontal_Displacement_mm,-30-100,mm,Inclinometers/Total Station
+Observational,Pore_Water_Pressure_u_kPa,-100-300,kPa,Piezometers
+Observational,Earth_Pressure_kPa,50-800,kPa,Pressure cells
+Risk/Mode,Safety_Factor,0.5-4.0,dimensionless,Numerical Analysis
+Risk/Mode,Failure_Probability,0-1,probability,Statistical/ML Model
+Risk/Mode,Failure_Mode,Categorical,text,Field observation/FEM
