@@ -10,7 +10,7 @@ Pure-Python / Matplotlib reproduction of **Figure 2.1** from:
 Figure 2.1 — Reference SOFC Architecture, Coupled-Physics Envelope,
               and Target-Output Hierarchy
 
-Four panels:
+Five panels:
   (a) Layered planar SOFC architecture with layer labels, thickness
       notation, interface names, and canonical domain symbols.
   (b) Coupled-physics dependency graph: electrochemical heat generation,
@@ -20,6 +20,8 @@ Four panels:
       → damage surrogates → life-relevant outputs.
   (d) Constitutive dependency graph: T, μ, r_Ni, λ_TPB, d_int →
       effective constitutive response C(T,μ)·σ, with symbol glossary.
+  (e) Electrolyte stress comparison: linear elastic vs. viscoelastic
+      model with fracture threshold (publication-quality quantitative plot).
 
 Dependencies (all standard):
     matplotlib  >=  3.5
@@ -538,7 +540,7 @@ glossary = [
     ("$T$",                         "Temperature / K",            C_CONST["T"]),
     ("$\\mu$",                      "Porosity / –",               C_CONST["mu"]),
     ("$r_{\\mathrm{Ni}}$",         "Ni particle radius / μm",    C_CONST["rNi"]),
-    ("$\\lambda_{\\mathrm{TPB}}$", "TPB density / m m$^{-3}$",   C_CONST["tpb"]),
+    ("$\\lambda_{\\mathrm{TPB}}$", "TPB density / m$\\cdot$m$^{-3}$", C_CONST["tpb"]),
     ("$d_{\\mathrm{int}}$",        "Interface damage / –",       C_CONST["dint"]),
     ("$\\boldsymbol{\\sigma}$",    "Cauchy stress / MPa",        C_CONST["sigma"]),
     ("$\\mathbf{C}$",              "Stiffness tensor / GPa",     C_CONST["C"]),
