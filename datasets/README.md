@@ -24,7 +24,9 @@ datasets/
 ├── 4_simulation_sweep/   # Parametric multiphysics sweep inputs/outputs, 3D field snapshot
 ├── 5_system_level/       # HTGR power, grid price, SOC schedule, Li-ion benchmark
 ├── 6_literature/         # Attention-mechanism / PINN paper table
-├── figures/              # 10 publication-quality PNG figures (300 dpi)
+├── 7_pinn_training/      # PINN supervised, sparse experimental, inverse, micro-CT validation
+├── 8_metadata/           # Dataset inventory & PINN architecture config
+├── figures/              # 14 publication-quality PNG figures (300 dpi)
 └── SOFC_PINN_datasets.zip  # All CSVs + figures in a single downloadable archive
 ```
 
@@ -45,6 +47,10 @@ datasets/
 | HTGR power | Sinusoidal annual variation + noise |
 | Grid price | Diurnal + weekly sinusoids + noise |
 | Li-ion cycle life | Empirical DoD and T scaling from literature |
+| PINN collocation | Arrhenius ASR, Norton damage, linear CTE for T/σ/D fields |
+| Surface IR/DIC | Sinusoidal spatial distribution + cycle-dependent growth |
+| Inverse fracture | CTE mismatch crack opening: exponential COD near defect |
+| Micro-CT damage | Interface-concentrated damage (Gaussian decay) + edge effects |
 
 ---
 
