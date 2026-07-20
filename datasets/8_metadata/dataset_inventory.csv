@@ -1,0 +1,10 @@
+dataset,format,size_estimate_GB,n_specimens,temperature_levels,pO2_levels,replicates,notes
+Half-cell CTE/modulus/creep/fracture,CSV/HDF5,0.5,≥10/material/test,5 (25-850°C),"3 (air, 4%H₂, pure H₂)",3,Arrhenius/Norton/Weibull fits
+Full-cell IV/EIS/IR/DIC,CSV/HDF5/NetCDF,5.0,10-15 cells,6 (600-850°C),-,10,20 reversible cycles each
+Short-stack cycling + micro-CT,CSV/HDF5/DICOM,50.0,1 stack (5 cells),680-810°C range,-,1,"≥500 cycles, 30 TC channels"
+3D FE simulation (button cell),VTR/NPY/HDF5,500.0,-,600-850°C sweep,"2 (air, O₂)",-,5000 steady + 100 transient cycles
+3D FE simulation (5-cell stack),VTR/NPY/HDF5,200.0,-,680-810°C,-,-,200 transient snapshots
+PINN collocation training points,memory-mapped binary,800.0,-,-,-,-,≥10⁸ samples from FE
+Sparse experimental validation,CSV/HDF5,2.0,-,-,-,-,≥10⁶ surface points over all cycles
+Nuclear/grid profiles (1 year),CSV,0.01,-,-,-,-,Hourly for 8760 h
+Micro-CT 3D damage map,DICOM/TIFF stack,100.0,1 stack,-,-,-,Voxel <50 µm

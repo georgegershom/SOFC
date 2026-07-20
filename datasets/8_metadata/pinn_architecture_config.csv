@@ -1,0 +1,16 @@
+parameter,value
+input_dim,"7 (x,y,z,t,j,pH2O/pH2,T_inlet)"
+output_dim,"8 (T, σ_xx, σ_yy, σ_zz, σ_xy, σ_xz, σ_yz, D)"
+hidden_layers,8
+neurons_per_layer,256
+activation,tanh / adaptive (trainable slope)
+attention_mechanism,multi-head self-attention (4 heads)
+physics_loss_terms,"momentum equilibrium, energy balance, Norton creep, damage evolution"
+boundary_loss,"Dirichlet T (thermocouples), traction-free surfaces"
+data_loss,MSE on FE collocation points + sparse experimental
+optimizer,Adam → L-BFGS (transfer)
+learning_rate,"1e-3 (Adam), 1.0 (L-BFGS)"
+training_points_per_batch,16384
+total_training_epochs,"500,000"
+collocation_resampling,every 1000 epochs (residual-adaptive)
+inverse_trainable_params,"Gc (fracture energy), σ_c (cohesive strength)"
