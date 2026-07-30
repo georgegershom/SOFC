@@ -1,0 +1,9 @@
+# MATERIAL PROPERTIES vs TEMPERATURE (thermal) - sample values compiled/synthesized
+# temperature_C,k_Ni-YSZ_reduced_W_mK,k_Ni-YSZ_oxidised_W_mK,k_8YSZ_W_mK,CTE_Ni_10-6K,CTE_NiO_10-6K,CTE_8YSZ_10-6K
+25,18,15,2.2,13.0,12.5,10.5
+200,19,15.5,2.3,13.5,13.0,10.6
+400,21,16.0,2.4,14.0,13.5,10.8
+600,23,17.0,2.6,14.6,14.2,11.0
+800,25,18.0,2.8,15.0,14.8,11.2
+900,26,18.5,2.9,15.3,15.0,11.3
+# sources: compiled from literature references in README

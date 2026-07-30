@@ -1,0 +1,14 @@
+# ENVIRONMENTAL LOG (Test A example: thermal cycling)
+# Columns: time_s,temperature_sample_C,temperature_furnace_C,pO2_inlet_atm,pO2_outlet_atm,gas_flow_sccm,heater_power_pct,DIC_frame_trigger_index
+time_s,temperature_sample_C,temperature_furnace_C,pO2_inlet_atm,pO2_outlet_atm,gas_flow_sccm,heater_power_pct,DIC_frame_trigger_index
+0,600.0,600.0,1e-19,1e-19,100,30,0
+30,620.0,620.0,1e-19,1e-19,100,35,1
+60,650.0,650.0,1e-19,1e-19,100,45,2
+90,700.0,700.0,1e-19,1e-19,100,60,3
+120,750.0,750.0,1e-19,1e-19,100,80,4
+150,800.0,800.0,1e-19,1e-19,100,100,5
+180,750.0,750.0,1e-19,1e-19,100,80,6
+210,700.0,700.0,1e-19,1e-19,100,60,7
+240,650.0,650.0,1e-19,1e-19,100,45,8
+270,600.0,600.0,1e-19,1e-19,100,30,9
+300,600.0,600.0,1e-19,1e-19,100,30,10

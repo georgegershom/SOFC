@@ -1,0 +1,15 @@
+# SAMPLE FABRICATION & REFERENCE DATASET
+# file: sample_reference.csv
+# Notes: synthetic / literature-compiled reference for SOFC half-cell (NiO:8YSZ 60:40 wt%)
+parameter,value,units,notes,source
+substrate_composition,"NiO:8YSZ (60:40 wt%)",,tape-cast base material,Heenan2018;Materials2024
+green_thickness,600,um,as-cast thickness
+sintered_thickness,500,um,after sinter 1400C 4h
+sintering_profile,"1400 C, 4 h, air",,standard reference
+electrolyte_material,8YSZ,,screen-printed or dip-coated
+electrolyte_thickness,10,um,nominal
+final_plate_dimensions,"25 x 25 x 0.5",mm,custom for fixture
+reduction_condition,"4% H2 in Ar, 800 C, 3 h",,document weight loss and conductivity
+speckle_material,alpha-Al2O3 (1-3um),,air-brushed powder; thermally stable,Heenan2018
+speckle_alternative,Pt nanoparticles,,sintered onto electrolyte
+fov_pixel_scale,1.0,um/px,example scale for DIC imaging

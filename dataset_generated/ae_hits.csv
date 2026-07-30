@@ -1,0 +1,5 @@
+# ACOUSTIC EMISSION HITS (example)
+hit_index,arrival_time_s,sensor1_dB,sensor2_dB,energy_aJ,counts,duration_us,rise_time_us,centroid_freq_kHz,localised_x_um,localised_y_um
+1,123.456,45.2,43.8,1.2e3,25,120,15,320.5,12000,8000
+2,125.789,60.5,58.0,5.6e3,80,300,20,250.1,12500,8200
+3,130.012,50.0,49.5,2.1e3,40,150,18,310.0,12200,8100

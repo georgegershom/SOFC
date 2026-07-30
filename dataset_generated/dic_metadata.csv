@@ -1,0 +1,13 @@
+# DIC METADATA
+parameter,value,units,notes
+camera_model,ExampleCam XYZ, ,2 MPixel scientific CMOS
+lens,telecentric 50 mm,,to avoid perspective error
+frame_rate_dwell,1,Hz,during dwells
+frame_rate_ramp,20,Hz,during ramps
+bit_depth,16,bit,uncompressed TIFF
+subset_size,31,pixels
+step_size,5,pixels
+correlation_criterion,ZNSSD,,zero-normalised sum of squared differences
+strain_window,15,pixels,virtual gauge
+reference_frame,frame00001,,initial image
+pixel_to_um,1.0,um/px,scale used in synthetic data

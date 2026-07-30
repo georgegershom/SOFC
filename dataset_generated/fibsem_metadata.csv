@@ -1,0 +1,9 @@
+# FIB-SEM TOMOGRAPHY METADATA (initial microstructural volume)
+parameter,value,units,notes
+volume_x,20,um
+volume_y,20,um
+volume_z,10,um
+voxel_size,0.015,um,15 nm isotropic
+segmented_phases,"Ni,YSZ_anode,YSZ_electrolyte,pores",,
+file_format,tif_sequence,,3D binary stacks per phase
+num_slices,667,,volume_z/voxel_size

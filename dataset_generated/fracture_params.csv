@@ -1,0 +1,9 @@
+# FRACTURE & CREEP PARAMETERS
+parameter,value,units,notes
+G_c_interface_25C,5.0,J/m2,Ni-YSZ|8YSZ interface at 25C (example)
+G_c_interface_800C,2.5,J/m2,reduced at high T (example)
+G_c_8YSZ_25C,10.0,J/m2,bulk 8YSZ
+phase_field_lengthscale,1.5,um,chosen for simulations
+norton_A,1e-6,MPa^-n s^-1,creep prefactor (example)
+norton_n,4.0,,power-law exponent
+norton_Q,200000,J/mol,activation energy
